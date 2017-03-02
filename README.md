@@ -1,7 +1,7 @@
 AEM Solr Sample
 ===========================================
 
-This project provides an out of the box example how to use an external Solr instance in AEM.
+This project provides an out of the box example how to use an external Solr instance in AEM. For a detailed introduction, have a look at my [blog](https://www.dev-eth0.de/blog/2017/02/27/solr-aem.html) where I show the required steps to adapt this application to your needs.
 
 # Implemented Features
 
