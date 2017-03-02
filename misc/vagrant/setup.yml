@@ -1,0 +1,30 @@
+- hosts: solr
+  become: true
+
+  pre_tasks:
+    - name: Print Ansible version.
+      debug:
+        msg: "Installed Ansible Version: {{ ansible_version.full }}"
+
+  roles:
+    - deveth0.oracle-java
+    - role: geerlingguy.solr
+      solr_version: "6.4.1"
+      solr_cores:
+
+  tasks:
+  - name: create OAK core
+    command: /opt/solr/bin/solr create -c oak
+    become: true
+    become_user: solr
+    args:
+      creates: /var/solr/data/oak
+
+  - name: copy schema
+    copy: src=/solr-schema/schema.xml dest=/var/solr/data/oak/conf/schema.xml owner=solr group=solr
+
+  - name: copy solrconfig
+    copy: src=/solr-schema/solrconfig.xml dest=/var/solr/data/oak/conf/solrconfig.xml owner=solr group=solr
+
+  - name: Restart Solr
+    service: name=solr state=restarted enabled=yes
