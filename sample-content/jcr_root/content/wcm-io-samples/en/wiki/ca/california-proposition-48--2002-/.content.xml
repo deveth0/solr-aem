@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="California Proposition 48 (2002)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="California Proposition 48 (2002)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Proposition 48&amp;apos;&amp;apos;&amp;apos; was a [[California ballot proposition]] on the November 5, 2002 ballot.  It proposed an amendment to the [[California Constitution]] to remove obsolete references to municipal courts. It passed successfully with 4,750,367 (72.9%) votes in favor and 1,769,299 (27.1%) against. It was placed on the ballot by a vote of the [[California State Legislature]] on Assembly Constitutional Amendment 16 (ACA 16).
+
+The question before voters was:
+:&amp;apos;&amp;apos;Should the California Constitution be amended to delete references to the municipal courts?&amp;apos;&amp;apos;
+
+== Official summary ==
+Amends Constitution to delete references to the municipal courts, which references are now obsolete due to the consolidation of superior and municipal trial courts into unified superior courts.
+
+Summary of Legislative Analyst&amp;apos;s Estimate of Net State and Local Government
+
+Fiscal Impact:
+*No additional cost to state or local government.
+
+==External links==
+* [http://www.ss.ca.gov/elections/elections_viguide.htm Voter Information Guide with text of Proposition 48]
+[[Category:California ballot propositions, 2002|48]]
+[[Category:Amendments to the California constitution|2002]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

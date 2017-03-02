@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="At (Unix)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="At (Unix)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{no footnotes|date=March 2013}}
+{{lowercase}}
+In [[Unix-like]] computer [[operating system]]s, the &amp;apos;&amp;apos;&amp;apos;&amp;lt;code&amp;gt;at&amp;lt;/code&amp;gt;&amp;apos;&amp;apos;&amp;apos; command is used to schedule [[command (computing)|command]]s to be executed once, at a particular [[system time|time]] in the future.
+
+More precisely, it reads a series of commands from [[standard input]] and collects them into one &amp;quot;at-job&amp;quot; which is carried out at a later date.
+The at-job inherits the current environment, so that it is executed in the same [[working directory]] and with the same [[environment variable]]s set as when it was scheduled.
+
+It differs from &amp;lt;code&amp;gt;[[cron]]&amp;lt;/code&amp;gt; which is used for recurring executions (e.g. once an hour, every Tuesday, January 1 every year).
+As with &amp;lt;code&amp;gt;cron&amp;lt;/code&amp;gt;, many Unix systems allow the administrator to restrict access to the &amp;lt;code&amp;gt;at&amp;lt;/code&amp;gt; command.
+
+&amp;apos;&amp;apos;&amp;apos;&amp;lt;code&amp;gt;at&amp;lt;/code&amp;gt;&amp;apos;&amp;apos;&amp;apos; can be made to mail a user when done carrying out a scheduled job of theirs, can use more than one job queue, and can read a list of jobs to carry out from a file instead of standard input.  A sample command to compile a [[C (programming language)|C]] program at 11:45 a. m. on January 31st would be:
+
+&amp;lt;source lang=&amp;quot;bash&amp;quot;&amp;gt;
+ $ echo &amp;quot;cc -o foo foo.c&amp;quot; | at 1145 jan 31
+&amp;lt;/source&amp;gt;
+or
+&amp;lt;source lang=&amp;quot;bash&amp;quot;&amp;gt;
+ $ at 1145 jan 31
+ at&amp;gt; cc -o foo foo.c
+ at&amp;gt; ^D #(press Control-D while at the beginning of a line)
+&amp;lt;/source&amp;gt;
+
+The &amp;apos;&amp;apos;&amp;apos;atq&amp;apos;&amp;apos;&amp;apos; program lists the currently queued jobs, while &amp;apos;&amp;apos;&amp;apos;atrm&amp;apos;&amp;apos;&amp;apos; removes jobs from the queue:
+&amp;lt;source lang=&amp;quot;bash&amp;quot;&amp;gt;
+ $ atq
+1234 2011-08-12 11:45 cc -o foo foo.c user
+ $ atrm 1234
+ $ atq
+ $
+&amp;lt;/source&amp;gt;
+
+In some [[Unix-like]] computer [[operating system]]s it uses a [[Daemon (computer software)|daemon]], &amp;apos;&amp;apos;&amp;apos;&amp;lt;code&amp;gt;atd&amp;lt;/code&amp;gt;&amp;apos;&amp;apos;&amp;apos;, which waits in the background periodically checking the list of jobs to do and executing those at their scheduled time on behalf of &amp;apos;&amp;apos;&amp;apos;&amp;lt;code&amp;gt;at&amp;lt;/code&amp;gt;&amp;apos;&amp;apos;&amp;apos;.
+
+The &amp;apos;&amp;apos;&amp;apos;&amp;lt;code&amp;gt;batch&amp;lt;/code&amp;gt;&amp;apos;&amp;apos;&amp;apos; command can be used instead of &amp;apos;&amp;apos;&amp;apos;at&amp;apos;&amp;apos;&amp;apos; to only run scheduled jobs if the system&amp;apos;s [[Load (computing)|load average]] is below a certain value.
+
+[[Windows NT]]/[[Windows 2000|2000]]/[[Windows XP|XP]]/[[Windows 7|7]] also has an &amp;lt;code&amp;gt;[[at (Windows)|at]]&amp;lt;/code&amp;gt; command (similar to &amp;lt;code&amp;gt;[[cron]]&amp;lt;/code&amp;gt;), but it is deprecated in favor of [[Task Scheduler]].
+
+== See also ==
+* [[Cron]] – runs scheduled tasks at regular intervals.
+* [[Launchd]] – [[Apple Computer]]&amp;apos;s replacement for at.
+* [[List of Unix programs]]
+
+== External links ==
+*{{man|cu|at|SUS|execute commands at a later time}}
+*{{man|1|at||queue, examine or delete jobs for later execution}}
+
+{{unix commands}}
+{{unix-stub}}
+
+[[Category:Standard Unix programs|At]]
+[[Category:Unix SUS2008 utilities]]
+[[Category:Unix process and task management-related software]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

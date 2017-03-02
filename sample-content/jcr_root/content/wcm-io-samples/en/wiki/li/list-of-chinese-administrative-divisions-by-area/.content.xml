@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="List of Chinese administrative divisions by area"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="List of Chinese administrative divisions by area" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{For|the administrative divisions governed by the [[Republic of China]] ([[Taiwan]])|List of Republic of China administrative divisions by area}}
+{{no footnotes|date=May 2012}}
+{{China divisions by}}
+This is a list of the first-level [[Administrative divisions of the People&amp;apos;s Republic of China|administrative divisions]] of the &amp;apos;&amp;apos;&amp;apos;[[People&amp;apos;s Republic of China]]&amp;apos;&amp;apos;&amp;apos; (PRC), including all provinces, autonomous regions, special administrative regions, and municipalities, in order of their total [[area]].
+
+{| class=&amp;quot;wikitable sortable&amp;quot;
+|-
+! Rank || Administrative Division || Area (km²) || Area (sq mi) || National Share (%) || Comparable Country
+|-
+| 1 || [[Xinjiang]] || 1,664,897 || 640,900 || 17.23 || {{IRN}}
+|-
+| 2 || [[Tibet Autonomous Region|Tibet]] || 1,228,400 || 474,300 || 12.75 || {{RSA}}
+|-
+| 3 || [[Nei Menggu]] || 1,155,092 || 456,800 ||12.28 || {{COL}}
+|-
+| 4 || [[Qinghai]] || 721,000 || 278,400 || 7.48 || {{ZMB}}
+|-
+| 5 || [[Sichuan]] || 485,000 || 187,300 || 5.03 || {{TKM}}
+|-
+| 6 || [[Heilongjiang]] || 452,645 || 177,600 || 4.77 || {{PNG}}
+|-
+| 7 || [[Gansu]] || 454,000 || 175,300 || 4.71 || {{SWE}}
+|-
+| 8 || [[Yunnan]] || 383,194 || 152,200 || 4.09 || {{ZIM}}
+|-
+| 9 || [[Guangxi]] || 237,558 || 91,400 || 2.45 || {{LAO}}
+|-
+| 10 || [[Hunan]] || 211,855 || 81,800 || 2.19 || {{GUY}}
+|-
+| 11 || [[Shaanxi]] || 205,800 || 79,500 || 2.13 || {{BLR}}
+|-
+| 12 || [[Hebei]] || 188,434 || 72,500 || 1.94 || {{KGZ}}
+|-
+| 13 || [[Jilin]] || 191,124 || 72,400 || 1.94 || {{SEN}}
+|-
+| 14 || [[Hubei]] || 185,888 || 71,800 || 1.93 || {{SYR}}
+|-
+| 15 || [[Guangdong]] || 179,757 || 68,700 || 1.84 || {{CAM}}
+|-
+| 16 || [[Guizhou]] || 176,153 || 68,000 || 1.82 || {{URY}}
+|-
+| 17 || [[Henan]] || 165,536 || 64,500 || 1.73 || {{SUR}}
+|-
+| 18 || [[Jiangxi]] || 166,894 || 64,400 ||1.73 || {{TUN}}
+|-
+| 19 || [[Shanxi]] || 156,711 || 60,540 ||1.62 || {{NEP}}
+|-
+| 20 || [[Shandong]] || 156,700 || 60,500 || 1.62 || {{BAN}}
+|-
+| 21 || [[Liaoning]] || 148,064 || 56,300 || 1.51 || {{TJK}}
+|-
+| 22 || [[Anhui]] || 140,126 || 53,800 || 1.44 || {{GRE}}
+|-
+| 23 || [[Fujian|Fujian, PRC]] || 124,016 || 46,900 ||1.26 || {{PRK}}
+|-
+| 24 || [[Zhejiang]] || 104,141 || 40,209 || 1.08 || {{ISL}}
+|-
+| 25 || [[Jiangsu]] || 102,600 || 39,600 || 1.06 || {{KOR}}
+|-
+| 26 || [[Chongqing]] || 82,269 || 31,800 || 0.85 || {{UAE}}
+|-
+| 27 || [[Ningxia]] || 66,000 || 25,500 || 0.68 || {{SRI}}
+|-
+| 28 || [[Hainan]] || 35,354 || 13,100 || 0.35 || {{MDA}}
+|-
+| 29 || [[Beijing]] || 16,411 || 6,490 || 0.17 || {{SWZ}}
+|-
+| 30 || [[Tianjin]] || 11,917 || 4,602 || 0.12 || {{VAN}}
+|-
+| 31 || [[Shanghai]] || 6,340 || 2,448 || 0.065 || {{BRU}}
+|-
+| 32 || [[Hong Kong]] || 1,104 || 422 || 0.011 || {{STP}}
+|-
+| 33 || [[Macau]] || 30 || 10 || 0.00028 || {{TUV}}
+|-
+| &amp;apos;&amp;apos;&amp;apos;—&amp;apos;&amp;apos;&amp;apos; || &amp;apos;&amp;apos;&amp;apos;[[People&amp;apos;s Republic of China]]&amp;apos;&amp;apos;&amp;apos; || &amp;apos;&amp;apos;&amp;apos;9,630,960&amp;apos;&amp;apos;&amp;apos; || &amp;apos;&amp;apos;&amp;apos;3,718,530&amp;apos;&amp;apos;&amp;apos; || &amp;apos;&amp;apos;&amp;apos;100&amp;apos;&amp;apos;&amp;apos; || &amp;apos;&amp;apos;&amp;apos;{{USA}}&amp;apos;&amp;apos;&amp;apos;
+|}
+
+==Notes==
+{{Reflist}}
+:The following figures are from different sources and may not be completely accurate.
+
+==References==
+* [http://www.stats.gov.cn/english/ National Bureau of Statistics] (PRC)
+* [http://www.mlr.gov.cn/zwgk/ghjh/ Ministry of Land and Resources] (PRC)
+
+[[Category:Ranked lists of Chinese administrative divisions|Area]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

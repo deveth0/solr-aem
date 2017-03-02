@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Template:FOLDOC"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Template:FOLDOC" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;lt;span class=&amp;quot;citation foldoc&amp;quot;&amp;gt;{{#if:{{{new|}}}|{{#if:{{{1|}}}||This article references material taken from}}|This article is based on material taken from}} {{#if:{{{1|}}}|[http://foldoc.org/index.cgi?{{{1}}} {{{2|{{{1}}}}}}] at}} the [[Free On-line Dictionary of Computing]]{{#if:{{{new|}}}||&amp;amp;#32;prior to 1 November 2008 and incorporated under the &amp;quot;relicensing&amp;quot; terms of the [[GNU Free Documentation License|GFDL]], version 1.3 or later}}{{#if:{{{1|}}}|{{#if:{{{new|}}}||.}}|.}}&amp;lt;/span&amp;gt;&amp;lt;noinclude&amp;gt;{{Documentation}}&amp;lt;/noinclude&amp;gt;&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

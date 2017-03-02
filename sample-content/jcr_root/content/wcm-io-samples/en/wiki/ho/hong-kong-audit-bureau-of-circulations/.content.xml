@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Hong Kong Audit Bureau of Circulations"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Hong Kong Audit Bureau of Circulations" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;Hong Kong Audit Bureau of Circulations&amp;apos;&amp;apos;&amp;apos; ([[Chinese language|Chinese:]] 香港出版銷數公證會), or &amp;apos;&amp;apos;&amp;apos;HKABC&amp;apos;&amp;apos;&amp;apos; in short, was established in April 1995.
+
+It is a [[non-profit organization]] which aims at promoting the cause of circulation auditing in [[Hong Kong]]. It seeks to encourage a higher standard of circulation data management and reporting so as to protect the rights of advertisers and [[Mass media|media]] buyers, and uphold the integrity and credibility of publishers.
+
+==See also==
+* [[Media in Hong Kong]]
+* [[Newspapers of Hong Kong]]
+
+==External links==
+* http://www.hkabc.com.hk
+
+[[Category:Hong Kong media]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

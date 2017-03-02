@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Year of the Jellyfish"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Year of the Jellyfish" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Use dmy dates|date=February 2012}}
+{{Infobox film
+| name           = L&amp;apos;Année des méduses
+| image          = Année des méduses poster.jpg
+| director       = [[Christopher Frank]]
+| writer         = [[Christopher Frank]]
+| starring       = [[Bernard Giraudeau]]&amp;lt;br&amp;gt;[[Valérie Kaprisky]]&amp;lt;br&amp;gt;[[Caroline Cellier]]&amp;lt;br&amp;gt;[[Jacques Perrin]]
+| producer       = [[Alain Terzian]]
+| music          = [[Nina Hagen]]&amp;lt;br&amp;gt;[[Alain Wisniak]]
+| cinematography = Renato Berta
+| distributor    = [[European Classics Video]]
+| released       = 14 November 1984 (French release)&amp;lt;br&amp;gt;24 April 1987 (U.S. release)
+| runtime        = 110 min.
+| language       = French
+}}
+
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;L&amp;apos;année des méduses&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;The Year of the Jellyfish&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;) is a French drama film inspired by a novel by [[:fr:Christopher Frank|Christopher Frank]], directed by Frank himself with [[Valérie Kaprisky]] and [[Bernard Giraudeau]]. The film had a total of 1,554,641 admissions in France where it was the 23rd highest grossing film of the year.&amp;lt;ref name=&amp;quot;JPBox Office&amp;quot;&amp;gt;http://www.jpbox-office.com/fichfilm.php?id=6623&amp;lt;/ref&amp;gt;
+
+
+== Plot ==
+Chris, a sexy teenager who appears mostly bare-breasted on the French Riviera, has a crush on Romain, her mother&amp;apos;s lover. In reaction to her inability to attract his attention, she experiments with other risque affairs.
+
+
+
+
+== Awards and nominations ==
+*&amp;apos;&amp;apos;&amp;apos;[[César Awards]]&amp;apos;&amp;apos;&amp;apos; (France)
+**&amp;apos;&amp;apos;&amp;apos;Won&amp;apos;&amp;apos;&amp;apos;: [[César Award for Best Supporting Actress|Best Actress &amp;amp;ndash; Supporting Role]] (Caroline Cellier)
+
+==References==
+{{reflist|colwidth=30em}}
+
+== External links ==
+* {{imdb title|id=0086902|title=L&amp;apos;Année des méduses}}
+* {{Amg movie|27799|L&amp;apos;Année des méduses}}
+
+[[Category:French films]]
+[[Category:1984 films]]
+[[Category:Films based on French novels]]
+
+{{1980s-France-film-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

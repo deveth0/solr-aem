@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Overmodulation"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Overmodulation" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Refimprove|date=February 2013}}
+&amp;apos;&amp;apos;&amp;apos;Overmodulation&amp;apos;&amp;apos;&amp;apos; is the condition that prevails in [[telecommunication]] when the instantaneous level of the modulating [[Signalling (telecommunication)|signal]] exceeds the value necessary to produce 100% [[modulation]] of the [[carrier wave|carrier]]. In the sense of this definition, it is almost always considered a [[Fault (technology)|fault]] condition. In layman&amp;apos;s terms, the signal is going &amp;quot;off the scale&amp;quot;. Overmodulation results in spurious emissions by the modulated carrier, and [[distortion]] of the recovered modulating signal. This means that the envelope of the output waveform is distorted.
+
+Although overmodulation is sometimes considered permissible, it should not occur in practice; a distorted waveform envelope will result in a distorted output signal of the receiving medium.&amp;lt;ref name=&amp;quot;Cliff Robbins&amp;quot;&amp;gt;{{cite web|title=Overmodulation|url=http://www.its.bldrdoc.gov/fs-1037/dir-026/_3806.htm|accessdate=10 January 2013}}&amp;lt;/ref&amp;gt;
+
+==References==
+
+&amp;lt;references /&amp;gt;
+
+==See also==
+* [[Clipping (audio)]]
+* [[Overshoot (signal)]]
+* [[Automatic gain control]]
+
+{{Audio broadcasting}}
+
+[[Category:Telecommunication theory]]
+[[Category:Radio modulation modes]]
+
+
+{{telecomm-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

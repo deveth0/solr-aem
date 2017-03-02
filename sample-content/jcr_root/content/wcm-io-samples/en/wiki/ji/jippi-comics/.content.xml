@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Jippi Comics"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Jippi Comics" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Jippi Comics&amp;apos;&amp;apos;&amp;apos; is a [[Norway|Norwegian]] comics publisher, best known for their ongoing anthology &amp;quot;[[Forresten]]&amp;quot;, and publishing the work of now famous [[Jason (comics)|Jason]] long before his international breakthrough.
+
+Started and run by the comic creators themselves, Jippi has been a catalyst in the Norwegian comics scene since the early 1990s, giving unknown artists a chance to show off their work to each other and the general public. Among the hundreds of artists published by Jippi are:  [[Jens Styve]], [[Ronny Haugeland]], [[Sven Tvedt]], [[Tor Ærlig]], [[Flu Hartberg]], [[Inga Sætre]], Jason, [[Sindre Goksøyr]], Roy Søbstad, Jim Salabim, [[Marius Martinussen]], [[Odd-Henning Skyllingstad]], [[Øyvind Laudahl]] and [[Henry Bronken]].
+
+== External links ==
+* [http://www.jippicomics.com/english/index.html Jippi Comics official site]
+
+[[Category:Publishing companies of Norway]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

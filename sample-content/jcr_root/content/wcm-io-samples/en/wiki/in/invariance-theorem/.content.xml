@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Invariance theorem"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Invariance theorem" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Invariance theorem&amp;apos;&amp;apos;&amp;apos; may refer to:
+*[[Chou&amp;apos;s invariance theorem]], a result in multivariate statistics
+*[[Invariance of domain]], a theorem in topology
+*A theorem pertaining to [[Kolmogorov complexity#Invariance theorem|Kolmogorov complexity]]
+*A result in classical mechanics for [[Adiabatic invariants#Classical mechanics – action variables|adiabatic invariants]]
+*A theorem of [[algorithmic probability]]
+
+==See also==
+*[[Invariant (mathematics)]]
+
+{{disambiguation|math}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

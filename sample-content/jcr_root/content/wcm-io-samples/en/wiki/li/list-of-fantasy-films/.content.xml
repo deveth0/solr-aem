@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="List of fantasy films"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="List of fantasy films" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Fantasyfilmlist}}
+{{Fantasy}}
+&amp;apos;&amp;apos;&amp;apos;List of fantasy films&amp;apos;&amp;apos;&amp;apos; is a chronological listing of [[film]]s in the [[fantasy film|fantasy]] genre.  [[Fantasy television]] programs, including made for TV movies and miniseries, should be listed at [[List of fantasy television programs]].
+
+Fantasy films are films with fantastic themes, usually involving magic, supernatural events, incredible creatures, or exotic fantasy worlds. The genre is considered to be distinct from science fiction film and horror film, although the genres do overlap.
+
+Films in other languages should be listed under their English titles exclusively.
+
+== Lists by decade ==
+* [[List of fantasy films before 1930]]
+* [[List of fantasy films of the 1930s]]
+* [[List of fantasy films of the 1940s]]
+* [[List of fantasy films of the 1950s]]
+* [[List of fantasy films of the 1960s]]
+* [[List of fantasy films of the 1970s]]
+* [[List of fantasy films of the 1980s]]
+* [[List of fantasy films of the 1990s]]
+* [[List of fantasy films of the 2000s]]
+* [[List of fantasy films of the 2010s]]
+
+== See also ==
+* [[List of horror films]]
+* [[List of science fiction films]]
+* [[List of American superhero films]]
+
+{{Filmsbygenre}}
+{{Fantasy fiction}}
+
+[[Category:Fantasy films| ]]
+[[Category:Fantasy lists|Films]]
+[[Category:Lists of films by genre|Fantasy]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

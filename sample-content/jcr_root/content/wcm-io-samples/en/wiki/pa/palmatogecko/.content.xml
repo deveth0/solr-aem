@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Palmatogecko"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Palmatogecko" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Taxobox
+| name = Web-footed gecko
+| regnum = [[Animal]]ia
+| phylum = [[Chordate|Chordata]]
+| classis = [[Reptile|Sauropsida]]
+| ordo = [[Squamata]]
+| familia = [[Gekkonidae]]
+| subfamilia = [[Gekkoninae]]
+| genus = &amp;apos;&amp;apos;&amp;apos;Palmatogecko&amp;apos;&amp;apos;&amp;apos;
+| species = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;P. &amp;apos;&amp;apos;&amp;apos;
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;P. vanzyli&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+}}
+Web-footed geckos, in the genus palmatogecko are two species of Gecko that live in the Namib Desert. They have webbed feet in order to move more easily across desert sand. They don&amp;apos;t possess eyelids so they must lick their eyeballs clean in order to keep them moist.
+
+The Web-footed gecko uses various clicks, squeaks, croaks, and other sounds to frighten attackers. The second defense is to break off its tail like all other geckos and flee to safety.
+
+Sometimes, when the Web-footed gecko sheds its skin it will eat the dead skin. During breeding season the female lays about two eggs that are the size of a bean. The eggs take eight weeks to hatch.
+
+[[Category:Geckos]]
+
+[[nl:Palmatogecko]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

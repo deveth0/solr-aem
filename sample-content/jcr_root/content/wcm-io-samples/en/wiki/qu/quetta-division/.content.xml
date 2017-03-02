@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Quetta Division"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Quetta Division" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{unreferenced|date=February 2008}}
+{{for|the military unit|4th (Quetta) Division}}
+&amp;apos;&amp;apos;&amp;apos;Quetta Division&amp;apos;&amp;apos;&amp;apos; was an administrative division of the [[Balochistan Province]] of [[Pakistan]], until the reforms of 2000 abolished the third tier of government.
+
+==See also==
+* [[Quetta District]]
+
+{{Neighbourhoods of Quetta}}
+{{PakistanDivisions}}
+
+{{coord|30|15|N|68|30|E|region:PK_type:adm2nd_source:GNS-enwiki|display=title}}
+
+{{Baluchistan-geo-stub}}
+
+[[Category:Divisions of Pakistan]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

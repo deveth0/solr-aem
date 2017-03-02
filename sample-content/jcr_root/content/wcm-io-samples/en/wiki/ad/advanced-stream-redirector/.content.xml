@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Advanced Stream Redirector"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Advanced Stream Redirector" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{notability|date=September 2011}}
+{{primary sources|date=September 2011}}
+{{Infobox file format
+| name = Advanced Stream Redirector
+| extension = &amp;lt;tt&amp;gt;.asx&amp;lt;/tt&amp;gt;
+| mime = &amp;lt;tt&amp;gt;video/x-ms-asf&amp;lt;/tt&amp;gt;
+| owner = [[Microsoft]]
+| creatorcode =
+| genre =
+| container for =
+| contained by =
+| extended from =
+| extended to =
+}}
+The &amp;apos;&amp;apos;&amp;apos;Advanced Stream Redirector&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;&amp;apos;ASX&amp;apos;&amp;apos;&amp;apos;) format is a type of [[XML]] metafile designed to store a [[playlist]] of [[Windows Media]] files for a [[multimedia]] [[presentation]].
+
+It is used frequently on streaming video servers where multiple &amp;apos;&amp;apos;[[Advanced Systems Format|ASF]]&amp;apos;&amp;apos; files are to be played in succession. Both [[RTSP]] and [[Microsoft Media Services|MMS]] streaming protocols are supported, as well as [[HTTP]].
+
+ASX files have [[MIME]] type &amp;lt;code&amp;gt;video/x-ms-asf&amp;lt;/code&amp;gt; (as do [[Advanced Systems Format|ASF]] files).
+
+With the introduction of the &amp;lt;tt&amp;gt;WMA&amp;lt;/tt&amp;gt; and &amp;lt;tt&amp;gt;WMV&amp;lt;/tt&amp;gt; container formats in late 1990s, &amp;lt;tt&amp;gt;WAX&amp;lt;/tt&amp;gt; and &amp;lt;tt&amp;gt;WVX&amp;lt;/tt&amp;gt; extensions have also been introduced by Microsoft respectively.
+
+==Example==
+&amp;lt;source lang=&amp;quot;xml&amp;quot;&amp;gt;
+&amp;lt;asx version=&amp;quot;3.0&amp;quot;&amp;gt;
+  &amp;lt;title&amp;gt;Example.com Live Stream&amp;lt;/title&amp;gt;
+
+  &amp;lt;entry&amp;gt;
+    &amp;lt;title&amp;gt;Short Announcement to Play Before Main Stream&amp;lt;/title&amp;gt;
+    &amp;lt;ref href=&amp;quot;http://example.com/announcement.wma&amp;quot; /&amp;gt;
+    &amp;lt;param name=&amp;quot;aParameterName&amp;quot; value=&amp;quot;aParameterValue&amp;quot; /&amp;gt;
+  &amp;lt;/entry&amp;gt;
+
+  &amp;lt;entry&amp;gt;
+    &amp;lt;title&amp;gt;Example radio&amp;lt;/title&amp;gt;
+    &amp;lt;ref href=&amp;quot;http://example.com:8080&amp;quot; /&amp;gt;
+    &amp;lt;author&amp;gt;Example.com&amp;lt;/author&amp;gt;
+    &amp;lt;copyright&amp;gt;©2005 Example.com&amp;lt;/copyright&amp;gt;
+  &amp;lt;/entry&amp;gt;
+&amp;lt;/asx&amp;gt;
+&amp;lt;/source&amp;gt;
+
+==See also==
+* [[Windows Media]]
+* [[M3U]]
+* [[PLS (file format)|PLS]]
+* [[XSPF]]
+
+==References==
+{{Reflist}}
+==External links==
+* [http://msdn.microsoft.com/en-us/library/dd562372(VS.85).aspx MSDN Simple ASX]
+* [http://msdn.microsoft.com/en-us/library/dd564668(VS.85).aspx MSDN ASX Elements Reference]
+* [http://msdn.microsoft.com/en-us/library/ms983653.aspx MSDN Adding Windows Media to Web Pages (For Webmasters)]
+* [http://www.microsoft.com/windows/windowsmedia/howto/articles/CustomizedExp.aspx Creating Customized Web Experiences with Windows Media Player 9 Series]
+
+[[Category:Microsoft Windows multimedia technology]]
+[[Category:Playlist file formats]]
+[[Category:Film and video technology]]
+[[Category:Playlist markup languages]]
+
+{{film-tech-stub}}
+{{markup-languages-stub}}
+{{multimedia-software-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

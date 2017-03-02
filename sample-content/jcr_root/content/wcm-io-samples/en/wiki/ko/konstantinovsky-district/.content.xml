@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Konstantinovsky District"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Konstantinovsky District" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[File:Map of Russia - Amur Oblast (2008-03).svg|thumb|right|Location of Amur Oblast in Russia]]
+[[File:Map of Russia - Rostov Oblast (2008-03).svg|thumb|right|Location of Rostov Oblast in Russia]]
+
+&amp;apos;&amp;apos;&amp;apos;Konstantinovsky District&amp;apos;&amp;apos;&amp;apos;  is the name of several administrative and municipal districts in [[Russia]]:
+*[[Konstantinovsky District, Amur Oblast]], an administrative&amp;lt;ref name=&amp;quot;AmurO_adm&amp;gt;{{RussiaAdmMunRef|amu|adm|law}}&amp;lt;/ref&amp;gt; and municipal&amp;lt;ref name=&amp;quot;AmurOKonstantinovskyD_mun&amp;quot;&amp;gt;{{RussiaAdmMunRef|amu|mun|list|konstantinovsky}}&amp;lt;/ref&amp;gt; district of [[Amur Oblast]]
+*[[Konstantinovsky District, Rostov Oblast]], an administrative&amp;lt;ref name=&amp;quot;RostovO_adm&amp;quot;&amp;gt;{{RussiaAdmMunRef|ros|adm|law}}&amp;lt;/ref&amp;gt; and municipal&amp;lt;ref name=&amp;quot;RostovOKonstantinovskyD_mun&amp;quot;&amp;gt;{{RussiaAdmMunRef|ros|mun|list|konstantinovsky}}&amp;lt;/ref&amp;gt; district of [[Rostov Oblast]]
+
+==See also==
+*[[Konstantinovsky (disambiguation)]]
+*[[Konstantinovskoye Municipal Okrug]], a municipal okrug of [[Krasnoselsky District, Saint Petersburg|Krasnoselsky District]] of [[Saint Petersburg]]
+
+==References==
+{{Reflist}}
+
+{{SIA|Russian districts}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

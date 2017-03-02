@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Xanthiosite"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Xanthiosite" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox mineral
+| name        = Xanthiosite
+| category    = [[Arsenate mineral]]
+| boxwidth    =
+| boxbgcolor  =
+| image       =
+| imagesize   =
+| caption     =
+| formula     = [[Nickel|Ni]]&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;([[Arsenic|As]][[Oxygen|O]]&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt;)&amp;lt;sub&amp;gt;2&amp;lt;sub&amp;gt;
+| molweight   = 453.91 g/mol
+| strunz      = 08.AB.25
+| color       = Golden yellow
+| habit       =
+| system      = [[Monoclinic]]
+| twinning    =
+| cleavage    =
+| fracture    =
+| tenacity    =
+| mohs        = 4
+| luster      =
+| polish      =
+| refractive  =
+| opticalprop =
+| birefringence =
+| dispersion  =
+| pleochroism =
+| fluorescence=
+| absorption  =
+| streak      =
+| gravity     = 5.37 - 5.47
+| density     =
+| melt        =
+| fusibility  =
+| diagnostic  =
+| solubility  =
+| diaphaneity = Translucent
+| other       =
+| references  =&amp;lt;ref&amp;gt;[http://webmineral.com/data/Xanthiosite.shtml Xanthiosite mineral data from Webmineral]&amp;lt;/ref&amp;gt;&amp;lt;ref name=Mindat&amp;gt;[http://www.mindat.org/min-4327.html Mindat.org]&amp;lt;/ref&amp;gt;
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Xanthiosite&amp;apos;&amp;apos;&amp;apos; is an [[arsenate]] mineral first discovered in [[Germany]] in 1858; it may also be found in [[Greece]].  It is not [[radioactivity|radioactive]].
+
+==References==
+&amp;lt;references/&amp;gt;
+
+[[Category:Arsenate minerals]]
+[[Category:Nickel minerals]]
+
+{{mineral-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

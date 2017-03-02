@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="M90"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="M90" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;M90&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;M-90&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* [[M90 (camouflage)]], a camouflage pattern used by the Swedish armed forces
+* [[M-90 (Michigan highway)]], a state highway in Michigan
+* [[M90 motorway]], a motorway in Scotland
+* [[Barrett M90]], a bullpup sniper rifle
+* [[Lotus M90]], a concept car
+* [[Volvo M90 transmission]], a gearbox for the Volvo 940 models
+* [[Zastava M90]], a Yugoslav modern assault rifle
+
+; shortening or designation for :
+* [[McDonnell Douglas MD-90]]
+* [[Messier 90]] (M90), a spiral galaxy in the Virgo cluster
+* [[Mendota Airport]] (FAA location identifier: M90), an airport in Mendota, California
+
+{{Letter-NumberCombDisambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

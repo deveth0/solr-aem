@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Nanoring"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Nanoring" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;A &amp;apos;&amp;apos;&amp;apos;nanoring&amp;apos;&amp;apos;&amp;apos; is a small ringformed crystal. The first nanoring made was a [[zinc oxide]] nanoring discovered by researchers at [[Georgia Institute of Technology]].&amp;lt;ref&amp;gt;{{cite journal |author=Kong XY, Ding Y, Yang R, Wang ZL |title=Single-crystal nanorings formed by epitaxial self-coiling of polar nanobelts |journal=Science |volume=303 |issue=5662 |pages=1348–51 |year=2004 |month=February |pmid=14988559 |doi=10.1126/science.1092356}}&amp;lt;/ref&amp;gt; They are made by a spontaneous self-coiling process of [[nanobelt]]s. Many layers of nanobelts are rolled together as coils, layer-by-layer.
+
+==References==
+{{reflist}}
+
+==Further reading==
+*{{cite journal |author = Wang, Z.L. |year = 2004 |title = Nanostructures of zinc oxide |journal = Materials Today |volume = 7 |issue = 6 |pages = 26–33 |doi = 10.1016/S1369-7021(04)00286-X}}
+
+==External links==
+*[http://gtresearchnews.gatech.edu/newsrelease/nanorings.htm Nanorings: Seamless Circular Structures Could be Sensors, Resonators and Transducers for Nanoelectronics &amp;amp; Biotechnology] ([http://www.nanotechnology.com/news/?id=4318 alternative link])
+
+{{chem-stub}}
+
+[[Category:Nanomaterials]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

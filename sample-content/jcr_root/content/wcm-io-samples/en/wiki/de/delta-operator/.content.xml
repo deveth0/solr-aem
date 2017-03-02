@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Delta operator"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Delta operator" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[mathematics]], a &amp;apos;&amp;apos;&amp;apos;delta operator&amp;apos;&amp;apos;&amp;apos; is a shift-equivariant [[linear transformation|linear]] operator &amp;apos;&amp;apos;&amp;lt;math&amp;gt;Q\colon\mathbb{K}[x] \longrightarrow \mathbb{K}[x]&amp;lt;/math&amp;gt;&amp;apos;&amp;apos; on the [[vector space]] of [[polynomial]]s in a variable &amp;lt;math&amp;gt;x&amp;lt;/math&amp;gt; over a [[field (mathematics)|field]] &amp;lt;math&amp;gt;\mathbb{K}&amp;lt;/math&amp;gt; that reduces degrees by one.
+
+To say that &amp;lt;math&amp;gt;Q&amp;lt;/math&amp;gt; is &amp;apos;&amp;apos;&amp;apos;shift-equivariant&amp;apos;&amp;apos;&amp;apos; means that if &amp;lt;math&amp;gt;g(x) = f(x + a)&amp;lt;/math&amp;gt;, then
+
+:&amp;lt;math&amp;gt;{ (Qg)(x) = (Qf)(x + a)}.\,&amp;lt;/math&amp;gt;
+
+In other words, if &amp;apos;&amp;apos;&amp;lt;math&amp;gt;f&amp;lt;/math&amp;gt;&amp;apos;&amp;apos; is a &amp;quot;&amp;apos;&amp;apos;&amp;apos;shift&amp;apos;&amp;apos;&amp;apos;&amp;quot; of &amp;apos;&amp;apos;&amp;lt;math&amp;gt;g&amp;lt;/math&amp;gt;&amp;apos;&amp;apos;, then &amp;apos;&amp;apos;&amp;lt;math&amp;gt;Qf&amp;lt;/math&amp;gt;&amp;apos;&amp;apos; is also a shift of &amp;apos;&amp;apos;&amp;lt;math&amp;gt;Qg&amp;lt;/math&amp;gt;&amp;apos;&amp;apos;, and has the same &amp;quot;&amp;apos;&amp;apos;&amp;apos;shifting vector&amp;apos;&amp;apos;&amp;apos;&amp;quot; &amp;apos;&amp;apos;&amp;lt;math&amp;gt;a&amp;lt;/math&amp;gt;&amp;apos;&amp;apos;.
+
+To say that &amp;apos;&amp;apos;an operator reduces degree by one&amp;apos;&amp;apos; means that if &amp;apos;&amp;apos;&amp;lt;math&amp;gt;f&amp;lt;/math&amp;gt;&amp;apos;&amp;apos; is a polynomial of degree &amp;apos;&amp;apos;&amp;lt;math&amp;gt;n&amp;lt;/math&amp;gt;&amp;apos;&amp;apos;, then &amp;apos;&amp;apos;&amp;lt;math&amp;gt;Qf&amp;lt;/math&amp;gt;&amp;apos;&amp;apos; is either a polynomial of degree &amp;lt;math&amp;gt;n-1&amp;lt;/math&amp;gt;, or, in case &amp;lt;math&amp;gt;n = 0&amp;lt;/math&amp;gt;, &amp;apos;&amp;apos;&amp;lt;math&amp;gt;Qf&amp;lt;/math&amp;gt;&amp;apos;&amp;apos; is 0.
+
+Sometimes a &amp;apos;&amp;apos;delta operator&amp;apos;&amp;apos; is defined to be a shift-equivariant linear transformation on polynomials in &amp;apos;&amp;apos;&amp;lt;math&amp;gt;x&amp;lt;/math&amp;gt;&amp;apos;&amp;apos; that maps &amp;apos;&amp;apos;&amp;lt;math&amp;gt;x&amp;lt;/math&amp;gt;&amp;apos;&amp;apos; to a nonzero constant.  Seemingly weaker than the definition given above, this latter characterization can be shown to be equivalent to the stated definition, since shift-equivariance is a fairly strong condition.
+
+==Examples==
+
+* The forward [[difference operator]]
+
+:: &amp;lt;math&amp;gt; (\Delta f)(x) = f(x + 1) - f(x)\, &amp;lt;/math&amp;gt;
+
+:is a delta operator.
+
+* [[Derivative|Differentiation]] with respect to &amp;apos;&amp;apos;x&amp;apos;&amp;apos;, written as &amp;apos;&amp;apos;D&amp;apos;&amp;apos;, is also a delta operator.
+
+* Any operator of the form
+::&amp;lt;math&amp;gt;\sum_{k=1}^\infty c_k D^k&amp;lt;/math&amp;gt;
+: (where &amp;apos;&amp;apos;D&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;&amp;apos;&amp;apos;n&amp;apos;&amp;apos;&amp;lt;/sup&amp;gt;(&amp;amp;fnof;) = &amp;amp;fnof;&amp;lt;sup&amp;gt;(&amp;apos;&amp;apos;n&amp;apos;&amp;apos;)&amp;lt;/sup&amp;gt; is the &amp;apos;&amp;apos;n&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;th&amp;lt;/sup&amp;gt; derivative) with &amp;lt;math&amp;gt;c_1\neq0&amp;lt;/math&amp;gt; is a delta operator.  It can be shown that all delta operators can be written in this form.  For example, the difference operator given above can be expanded as
+::&amp;lt;math&amp;gt;\Delta=e^D-1=\sum_{k=1}^\infty \frac{D^k}{k!}.&amp;lt;/math&amp;gt;
+
+* The generalized derivative of [[time scale calculus]] which unifies the forward difference operator with the derivative of standard [[calculus]] is a delta operator.
+
+* In [[computer science]] and [[cybernetics]], the term &amp;quot;discrete-time delta operator&amp;quot; (&amp;amp;delta;) is generally taken to mean a difference operator
+
+:: &amp;lt;math&amp;gt;{(\delta f)(x) = {{ f(x+\Delta t) - f(x) }  \over {\Delta t} }}, &amp;lt;/math&amp;gt;
+
+: the [[Euler approximation]] of the usual derivative with a discrete sample time &amp;lt;math&amp;gt;\Delta t&amp;lt;/math&amp;gt;. The delta-formulation obtains a significant number of numerical advantages compared to the shift-operator at fast sampling.
+
+==Basic polynomials==
+
+Every delta operator &amp;apos;&amp;apos;&amp;lt;math&amp;gt;Q&amp;lt;/math&amp;gt;&amp;apos;&amp;apos; has a unique sequence of &amp;quot;basic polynomials&amp;quot;, a [[polynomial sequence]] defined by three conditions:
+
+* &amp;lt;math&amp;gt;p_0(x)=1 ;&amp;lt;/math&amp;gt;
+* &amp;lt;math&amp;gt;p_{n}(0)=0;&amp;lt;/math&amp;gt;
+* &amp;lt;math&amp;gt;(Qp_n)(x)=np_{n-1}(x), \; \forall n \in \mathbb N.&amp;lt;/math&amp;gt;
+
+Such a sequence of basic polynomials is always of [[binomial type]], and it can be shown that no other sequences of binomial type exist.  If the first two conditions above are dropped, then the third condition says this polynomial sequence is a [[Sheffer sequence]] -- a more general concept.
+
+== See also ==
+
+* [[Pincherle derivative]]
+* [[Shift operator]]
+* [[Umbral calculus]]
+
+== References ==
+* {{Citation | last1=Nikol&amp;apos;Skii | first1=Nikolai Kapitonovich | title=Treatise on the shift operator: spectral function theory | publisher=[[Springer-Verlag]] | location=Berlin, New York | isbn=978-0-387-15021-5 | year=1986}}
+
+
+[[Category:Linear algebra]]
+[[Category:Polynomials]]
+[[Category:Finite differences]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

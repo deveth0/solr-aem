@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Charterhouse"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Charterhouse" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary}}
+A &amp;apos;&amp;apos;&amp;apos;charterhouse&amp;apos;&amp;apos;&amp;apos; is a [[Carthusian]] [[monastery]]. The word is derived by [[folk etymology]] from the French term &amp;apos;&amp;apos;chartreuse&amp;apos;&amp;apos;, the first monastery of the order having been established in a valley of the [[Chartreuse Mountains]].
+
+It can refer to numerous &amp;apos;&amp;apos;&amp;apos;monasteries&amp;apos;&amp;apos;&amp;apos;:
+:&amp;apos;&amp;apos;see [[List of Carthusian monasteries]]&amp;apos;&amp;apos;
+
+It can also refer to:
+
+&amp;apos;&amp;apos;&amp;apos;Financial institutions&amp;apos;&amp;apos;&amp;apos;
+* [[Charterhouse Bank]]
+* [[Charterhouse Capital Partners]], a UK-based private equity firm
+* [[Charterhouse Group]], private equity firm
+* [[Charterhouse Group]], a US-based private equity firm
+
+&amp;apos;&amp;apos;&amp;apos;Places&amp;apos;&amp;apos;&amp;apos;
+* [[Charterhouse, Somerset]], also Charterhouse-on-Mendip, a hamlet in the Mendip Hills, England
+* [[Charterhouse Roman Town]], a town in the Roman province of Britannia, located close to Charterhouse-on-Mendip
+* [[Hinton Charterhouse]], a village in Somerset, England
+
+&amp;apos;&amp;apos;&amp;apos;Sites of scientific interest&amp;apos;&amp;apos;&amp;apos;
+* [[Charterhouse to Eashing]], in Surrey, England
+* [[Hinton Charterhouse Field]], in Somerset, England
+* [[Hinton Charterhouse Pit]], in Somerset, England
+
+&amp;apos;&amp;apos;&amp;apos;Other&amp;apos;&amp;apos;&amp;apos;
+* &amp;apos;&amp;apos;[[The Charterhouse of Parma]]&amp;apos;&amp;apos;, a novel by Stendhal
+* [[Charterhouse School]], a famous English public school in Surrey
+* [[Charterhouse Square]], London, England
+* [[London Charterhouse]], London, England  &amp;quot;The Charterhouse Hospital&amp;quot; and the original site of Charterhouse School
+
+{{Disambiguation|geo}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

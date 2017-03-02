@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Murigen"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Murigen" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[Welsh mythology]], &amp;apos;&amp;apos;&amp;apos;Murigen&amp;apos;&amp;apos;&amp;apos; was a goddess of [[lake]]s, and associated with flooding.&amp;lt;ref&amp;gt;Sykes, Egerton and Kendall, Alan (2002 ed.) &amp;apos;&amp;apos;Who&amp;apos;s Who in Non-Classical Mythology&amp;apos;&amp;apos; Routledge, New York, p. 133.&amp;lt;/ref&amp;gt;  She is also known as &amp;apos;&amp;apos;&amp;apos;Morgan&amp;apos;&amp;apos;&amp;apos;, probably a specific personification of [[morgens]], the [[Welsh language|Welsh]] term for [[water sprite]]s.&amp;lt;ref&amp;gt;Franklin, Anna  (2002) &amp;apos;&amp;apos;The Illustrated Encyclopaedia Of Fairies&amp;apos;&amp;apos; Vega, London, p. 182.&amp;lt;/ref&amp;gt;
+
+==References==
+{{reflist}}
+
+==See also==
+[[Morgan le Fay]]
+
+{{celt-myth-stub}}
+
+[[Category:Welsh goddesses]]
+[[Category:Sea and river goddesses]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

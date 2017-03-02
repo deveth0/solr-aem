@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Decoration"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Decoration" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary}}
+[[File:Mihrab, Great Mosque of Kairouan.jpg|thumb|upright=1.1|right|Decoration in Islamic medieval art : upper part of the mihrab (prayer niche) decorated with lusterware tiles and painted intertwined vegetal motifs in the &amp;apos;&amp;apos;&amp;apos;[[Mosque of Uqba]]&amp;apos;&amp;apos;&amp;apos; also known as the Great Mosque of Kairouan, [[Tunisia]].]]
+&amp;apos;&amp;apos;&amp;apos;Decoration&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* [[Decorative arts]]
+* the craft of a [[house painter and decorator]]
+* An object or act intended to increase [[beauty]] of a person, room, etc.
+* An object, such as a medal or an order, that is awarded to honor the recipient: see [[List of prizes, medals, and awards]]
+**[[civil awards and decorations]]
+**[[military awards and decorations]]
+**[[state decoration]]
+* [[Cake decorating]], the art of making a usually ordinary cake visually interesting
+* [[USB decoration]], a decorative device that uses the Universal Serial Bus connector
+* [[Christmas decoration]], decorations used at Christmas time
+* [[In-glaze decoration]], a method of decorating ceramics - decoration applied before firing
+* [[On-glaze decoration]], a method of decorating ceramics - decoration applied after glazing
+* [[In-mould decoration]], a method of decorating moulded plastics
+* [[Interior design]], the internal finishing of a building
+* [[Name decoration]], a technique used in most programming languages
+* [[Window decoration]], in computing are the window&amp;apos;s visual elements drawn by a [[window manager]]
+* [[Web decoration]], conspicuous silk structure in the webs of some spiders
+
+== See also ==
+* [[Decorator (disambiguation)]]
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

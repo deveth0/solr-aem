@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Truncated dodecahedron"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Truncated dodecahedron" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Semireg polyhedra db|Semireg polyhedron stat table|tD}}
+In [[geometry]], the &amp;apos;&amp;apos;&amp;apos;truncated dodecahedron&amp;apos;&amp;apos;&amp;apos; is an [[Archimedean solid]]. It has 12 regular [[decagon]]al faces, 20 regular [[triangular]] faces, 60 vertices and 90 edges.
+__TOC__
+
+==Geometric relations==
+This [[polyhedron]] can be formed from a [[dodecahedron]] by [[Truncation (geometry)|truncating]] (cutting off) the corners so the [[pentagon]] faces become [[decagon]]s and the corners become [[triangle]]s.
+
+It is used in the [[cell-transitive]] hyperbolic space-filling tessellation, the [[Bitruncation#Self-dual .7Bp,q,p.7D polychora/honeycombs|bitruncated icosahedral honeycomb]].
+
+==Area and volume==
+The area &amp;apos;&amp;apos;A&amp;apos;&amp;apos; and the [[volume]] &amp;apos;&amp;apos;V&amp;apos;&amp;apos; of a truncated dodecahedron of edge length &amp;apos;&amp;apos;a&amp;apos;&amp;apos; are:
+:&amp;lt;math&amp;gt;A = 5 (\sqrt{3}+6\sqrt{5+2\sqrt{5}}) a^2 \approx 100.99076a^2&amp;lt;/math&amp;gt;
+:&amp;lt;math&amp;gt;V = \frac{5}{12} (99+47\sqrt{5}) a^3 \approx 85.0396646a^3&amp;lt;/math&amp;gt;
+
+==Cartesian coordinates==
+The following [[Cartesian coordinates]] define the vertices of a [[Truncation (geometry)|truncated]] [[dodecahedron]] with edge length 2(τ−1), centered at the origin:&amp;lt;ref&amp;gt;{{mathworld |title=Icosahedral group |urlname=IcosahedralGroup}}&amp;lt;/ref&amp;gt;
+:(0, ±1/τ, ±(2+τ))
+:(±(2+τ), 0, ±1/τ)
+:(±1/τ, ±(2+τ), 0)
+:(±1/τ, ±τ, ±2τ)
+:(±2τ, ±1/τ, ±τ)
+:(±τ, ±2τ, ±1/τ)
+:(±τ, ±2, ±τ&amp;lt;sup&amp;gt;2&amp;lt;/sup&amp;gt;)
+:(±τ&amp;lt;sup&amp;gt;2&amp;lt;/sup&amp;gt;, ±τ, ±2)
+:(±2, ±τ&amp;lt;sup&amp;gt;2&amp;lt;/sup&amp;gt;, ±τ)
+
+where τ = (1 + √5) / 2 is the [[golden ratio]] (also written φ).
+
+==Orthogonal projections==
+The &amp;apos;&amp;apos;truncated dodecahedron&amp;apos;&amp;apos; has five special [[orthogonal projection]]s, centered, on a vertex, on two types of edges, and two types of faces: hexagonal and pentagonal. The last two correspond to the A&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt; and H&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt; [[Coxeter plane]]s.
+{|class=wikitable
+|+ Orthogonal projections
+|-
+!Centered by
+!Vertex
+!Edge&amp;lt;br&amp;gt;3-10
+!Edge&amp;lt;br&amp;gt;10-10
+!Face&amp;lt;br&amp;gt;Triangle
+!Face&amp;lt;br&amp;gt;Decagon
+|-
+!Image
+|[[File:Dodecahedron_t01_v.png|120px]]
+|[[File:Dodecahedron_t01_e3x.png|120px]]
+|[[File:Dodecahedron_t01_exx.png|120px]]
+|[[File:Dodecahedron_t01_A2.png|120px]]
+|[[File:Dodecahedron_t01_H3.png|120px]]
+|- align=center
+!Projective&amp;lt;br&amp;gt;symmetry
+|[2]
+|[2]
+|[2]
+|[6]
+|[10]
+|}
+
+== Vertex arrangement==
+It shares its [[vertex arrangement]] with three [[nonconvex uniform polyhedra]]:
+{|class=&amp;quot;wikitable&amp;quot; width=&amp;quot;400&amp;quot; style=&amp;quot;vertical-align:top;text-align:center&amp;quot;
+|[[Image:Truncated dodecahedron.png|100px]]&amp;lt;br&amp;gt;Truncated dodecahedron
+|[[Image:Great icosicosidodecahedron.png|100px]]&amp;lt;br&amp;gt;[[Great icosicosidodecahedron]]
+|[[Image:Great ditrigonal dodecicosidodecahedron.png|100px]]&amp;lt;br&amp;gt;[[Great ditrigonal dodecicosidodecahedron]]
+|[[Image:Great dodecicosahedron.png|100px]]&amp;lt;br&amp;gt;[[Great dodecicosahedron]]
+|}
+
+== Related polyhedra and tilings ==
+
+It is part of a truncation process between a dodecahedron and icosahedron:
+{{Icosahedral truncations}}
+
+This polyhedron is topologically related as a part of sequence of uniform [[Truncation (geometry)|truncated]] polyhedra with [[vertex configuration]]s (3.2n.2n), and [n,3] [[Coxeter group]] symmetry.
+
+{{Truncated figure1 table}}
+
+==See also==
+*[[:Image:Truncateddodecahedron.gif|Spinning truncated dodecahedron]]
+*[[Icosahedron]]
+*[[Icosidodecahedron]]
+*[[Truncated icosahedron]]
+
+==Notes==
+{{reflist}}
+
+==References==
+*{{The Geometrical Foundation of Natural Structure (book)}} (Section 3-9)
+
+==External links==
+*{{mathworld2 | urlname = TruncatedDodecahedron| title = Truncated dodecahedron | urlname2 =  ArchimedeanSolid  | title2 =  Archimedean solid}}
+*{{KlitzingPolytopes|polyhedra.htm|3D convex uniform polyhedra|o3x5x - tid}}
+*[http://www.dr-mikes-math-games-for-kids.com/polyhedral-nets.html?net=1e9V3YL5nW2MMkIcdn0TdMHHhXMiuoCQGqz2g3IjH7orIJ5iBy9LQ80CKQP1GAP9MmtklgzVBcF5ZfK9LsPLcjTfCVtbQWJrpIJTarRzJGitPNEnHrk3rNm5pr6Gzui1P5MD7RwSrFu6TKzjy5qQl5PYokM9mcFWcoPivzjQxlRGa1eVpVmZl5Uv2nXTaX5RSgc2N5B3daPbsAUEsCGxrnbgMLCKvMvztIjl44GGTstwl3pC589OwhVUTHvkTzg6b4dpshGHQn4ajtxQA8chKkqzW1wKBsKuMpbqE4oCXbIi2sfEgppN1tcDBWVOJUXQfPiEglU1jtQi7fUj5xDW2PpZtdwQDmwpC3Lk&amp;amp;name=Truncated+Dodecahedron#applet Editable printable net of a truncated dodecahedron with interactive 3D view]
+*[http://www.mathconsult.ch/showroom/unipoly/ The Uniform Polyhedra]
+*[http://www.georgehart.com/virtual-polyhedra/vp.html Virtual Reality Polyhedra] The Encyclopedia of Polyhedra
+
+{{Archimedean solids}}
+{{Polyhedron navigator}}
+
+[[Category:Uniform polyhedra]]
+[[Category:Archimedean solids]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

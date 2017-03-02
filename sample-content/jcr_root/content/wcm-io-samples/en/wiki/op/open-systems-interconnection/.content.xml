@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Open Systems Interconnection"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Open Systems Interconnection" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Refimprove|date=June 2009}}
+
+&amp;apos;&amp;apos;&amp;apos;Open Systems Interconnection&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;&amp;apos;OSI&amp;apos;&amp;apos;&amp;apos;) is an effort to standardize [[Computer network|networking]] that was started in 1977&amp;lt;ref name=&amp;quot;zimmermann&amp;quot;&amp;gt;OSI Reference Model, Hubert Zimmermann, IEEE Transactions on Communications, Vol. COMM-28(4), p425, April 1980.&amp;lt;/ref&amp;gt; by the [[International Organization for Standardization]] (ISO), along with the [[ITU-T]].
+
+==History==
+Prior to OSI, networking was largely either government-sponsored ([[ARPANET]], [[CYCLADES]]) or vendor-developed and proprietary standards such as [[System network architecture|SNA]] and [[DECnet]]. In the UK work on the Experimental Packet Switched system circa 1973, the need to define so called higher level protocols above the HDLC link level communications protocol and the content of an NCC (UK) publication &amp;apos;Why Distributed Computing&amp;apos; resulting from considerable research into future configurations for computer systems resulted in the UK presenting the case for an International Standards Committee to cover this area at the ISO meeting in Sydney in March 1977. OSI was hence an industry effort, attempting to get industry participants to agree on common network standards to provide multi-vendor interoperability. It was common for large networks to support multiple network protocol suites, with many devices unable to interoperate with other devices because of a lack of common protocols.  However, while OSI developed its networking standards, [[TCP/IP]] came into widespread use on multivendor networks for [[internetwork]]ing, while on the local network level both [[Ethernet]] and [[token ring]] gained prominence.
+
+The [[OSI reference model]] was a major advance in the teaching of network concepts. It promoted the idea of a consistent model of protocol layers, defining interoperability between network devices and software. The OSI model was defined in raw form in Washington DC in February 1978 by [[Hubert Zimmerman]] of France and the refined standard was published by the ISO in 1984.
+
+==Criticism==
+The [[OSI protocols|OSI protocol suite]] that was specified as part of the project was considered by many, such as computer scientist [[Andrew S. Tanenbaum]], to be too complicated and inefficient, and to a large extent unimplementable.&amp;lt;ref name=&amp;quot;Tanenbaum&amp;quot;&amp;gt;[[Andrew S. Tanenbaum]], Computer Networks, § 1.4.4.&amp;lt;/ref&amp;gt; Taking the &amp;quot;forklift upgrade&amp;quot; approach to networking, it specified eliminating all existing protocols and replacing them with new ones at  all layers of the stack. This made implementation difficult, and was resisted by many vendors and users with significant investments in other network technologies. In addition, the protocols included so many optional features that many vendors&amp;apos; implementations were not interoperable.&amp;lt;ref name=&amp;quot;Tanenbaum&amp;quot;/&amp;gt;
+
+Although the OSI model is often still referred to, the [[Internet]]&amp;apos;s [[Internet Protocol Suite|TCP/IP]] [[protocol suite]] is used in lieu of the OSI protocols. TCP/IP&amp;apos;s pragmatic approach to computer networking and two independent implementations of simplified protocols made it a practical standard.&amp;lt;ref name=&amp;quot;Tanenbaum&amp;quot;/&amp;gt;  Some protocols and specifications in the OSI stack remain in use in legacy systems.{{Citation needed|date=July 2008}}
+
+==See also==
+* [[OSI model]]
+* [[OSI protocols]]
+* [[Common Management Information Service]] (CMIS)
+* [[GOSIP]], the (U.S.) Government Open Systems Interconnection Profile
+
+==References==
+&amp;lt;references/&amp;gt;
+
+==Further reading==
+* [[Marshall Rose]], &amp;apos;&amp;apos;The Open Book&amp;apos;&amp;apos; (Prentice-Hall, Englewood Cliffs, 1990)
+* David M. Piscitello, A. Lyman Chapin, &amp;apos;&amp;apos;Open Systems Networking&amp;apos;&amp;apos; (Addison-Wesley, Reading, 1993)
+* [[Andrew S. Tanenbaum]], Computer Networks, 4th Edition, (Prentice-Hall, 2002) ISBN 0-13-066102-3
+
+==External links==
+* [http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=20269 ISO/IEC 7498-1:1994], &amp;apos;&amp;apos;Information technology—Open Systems Interconnection—Basic Reference Model: The Basic Model&amp;apos;&amp;apos;
+* [http://www.itu.int/rec/T-REC-X.200/en/ ITU-T Recommendation X.200 (11/93) &amp;lt;nowiki&amp;gt;[ISO/IEC 7498-1:1994]&amp;lt;/nowiki&amp;gt;], &amp;apos;&amp;apos;Open Systems Interconnection - Basic Reference Model&amp;apos;&amp;apos;.
+* [http://www.cisco.com/en/US/docs/internetworking/technology/handbook/OSI-Protocols.html Open System Interconnection P]
+
+[[Category:ITU-T recommendations]]
+[[Category:ISO/IEC 7498]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

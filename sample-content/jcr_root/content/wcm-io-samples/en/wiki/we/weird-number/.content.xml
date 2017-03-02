@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Weird number"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Weird number" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Dablink|The term &amp;quot;weird number&amp;quot; also refers to [[Two&amp;apos;s complement#The most negative number|a phenomenon in two&amp;apos;s complement arithmetic]].}}
+
+In [[number theory]], a &amp;apos;&amp;apos;&amp;apos;weird number&amp;apos;&amp;apos;&amp;apos; is a [[natural number]] that is [[abundant number|abundant]] but not [[semiperfect number|semiperfect]].&amp;lt;ref&amp;gt;
+{{cite journal
+  | last =Benkoski
+  | first =Stan
+  | authorlink =
+  | coauthors =
+  | title =E2308 (in Problems and Solutions)
+  | journal =The American Mathematical Monthly
+  | volume =79
+  | issue =7
+  | page =774
+  | date =Aug.-September 1972
+  | doi =10.2307/2316276
+  | jstor =2316276
+}}&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;{{cite book|author=Richard K. Guy|authorlink=Richard K. Guy|title=Unsolved Problems in Number Theory|publisher=[[Springer-Verlag]]|year=2004|isbn=0-387-20860-7|oclc=54611248}}  Section B2.&amp;lt;/ref&amp;gt;
+In other words, the sum of the proper [[divisor]]s (divisors including 1 but not itself) of the number is greater than the number, but no [[subset]] of those divisors sums to the number itself.
+
+== Examples ==
+
+The smallest weird number is 70. Its proper divisors are 1, 2, 5, 7, 10, 14, and 35; these sum to 74, but no subset of these sums to 70. The number 12, for example, is abundant but &amp;apos;&amp;apos;not&amp;apos;&amp;apos; weird, because the proper divisors of 12 are 1, 2, 3, 4, and 6, which sum to 16; but 2+4+6 = 12.
+
+The first few weird numbers are
+: 70, 836, 4030, 5830, 7192, 7912, 9272, 10430, ... {{OEIS|id=A006037}}.
+
+== Properties ==
+
+It has been shown that an infinite number of weird numbers exist; in fact, the sequence of weird numbers has positive [[asymptotic density]].&amp;lt;ref name=&amp;quot;benk1&amp;quot;&amp;gt;
+{{cite journal
+  | last =Benkoski
+  | first =Stan
+  | authorlink =
+  | coauthors =Paul Erdős
+  | title =On Weird and Pseudoperfect Numbers
+  | journal =Mathematics of Computation
+  | volume =28
+  | issue =126
+  | pages =617–623
+  | month =April | year =1974
+  | doi =10.2307/2005938
+ | zbl=0279.10005 | mr=347726
+}}
+&amp;lt;/ref&amp;gt;
+
+It is not known if any odd weird numbers exist; if any do, they must be greater than 2&amp;lt;sup&amp;gt;32&amp;lt;/sup&amp;gt; ≈ 4{{e|9}}.&amp;lt;ref&amp;gt;CN Friedman, &amp;quot;Sums of Divisors and Egyptian Fractions&amp;quot;, &amp;apos;&amp;apos;Journal of Number Theory&amp;apos;&amp;apos; (1993).  The result is attributed to &amp;quot;M. Mossinghoff at University of Texas - Austin&amp;quot;.&amp;lt;/ref&amp;gt;
+
+Stanley Kravitz has shown that if &amp;apos;&amp;apos;k&amp;apos;&amp;apos; is a positive integer, &amp;apos;&amp;apos;Q&amp;apos;&amp;apos; is a [[prime number|prime]], and
+:&amp;lt;math&amp;gt;R=\frac{2^kQ-(Q+1)}{(Q+1)-2^k}&amp;lt;/math&amp;gt;;
+if &amp;apos;&amp;apos;R&amp;apos;&amp;apos; is prime, then
+:&amp;lt;math&amp;gt;n=2^{k-1}QR&amp;lt;/math&amp;gt;
+is a weird number.&amp;lt;ref&amp;gt;
+{{cite journal
+  | last =Kravitz
+  | first =Stanley
+  | title =A search for large weird numbers
+  | journal =Journal of Recreational Mathematics
+  | volume =9
+  | issue =2
+  | pages =82–85
+  | publisher =Baywood Publishing
+  | location =
+  | year =1976
+ | zbl=0365.10003
+ }}
+&amp;lt;/ref&amp;gt;
+With this formula, he found a large weird number
+:&amp;lt;math&amp;gt;n=2^{56}\cdot(2^{61}-1)\cdot153722867280912929\ \approx\ 2\cdot10^{52}&amp;lt;/math&amp;gt;.
+
+==In popular culture==
+
+The [[Boards of Canada]] album &amp;apos;&amp;apos;[[Geogaddi]]&amp;apos;&amp;apos; contains a song titled &amp;quot;The Smallest Weird Number,&amp;quot; a reference to another song, &amp;quot;Sixtyten&amp;quot; (equalling 70), as well as their record label, [[Music70]]. Despite the song having a running time of 1:17, the audio cuts out at exactly 1:10 (70 seconds).
+
+==References==
+{{Reflist}}
+
+== External links ==
+{{portal|Mathematics}}
+* {{MathWorld |urlname=WeirdNumber |title=Weird number}}
+
+
+{{Divisor classes}}
+
+{{DEFAULTSORT:Weird Number}}
+[[Category:Divisor function]]
+[[Category:Integer sequences]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

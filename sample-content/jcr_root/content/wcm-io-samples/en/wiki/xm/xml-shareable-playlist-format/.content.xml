@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="XML Shareable Playlist Format"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="XML Shareable Playlist Format" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{primary sources|date=March 2013}}
+{{Infobox file format
+| name = XSPF
+| extension = .xspf
+| mime = application/xspf+xml
+| owner = Xiph.Org Foundation
+| creatorcode =
+| genre = [[Playlist]]
+| containerfor =
+| containedby =
+| extendedfrom = [[XML]]
+| extendedto =
+}}
+
+&amp;apos;&amp;apos;&amp;apos;XML Shareable Playlist Format&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;&amp;apos;XSPF&amp;apos;&amp;apos;&amp;apos;), pronounced &amp;apos;&amp;apos;spiff&amp;apos;&amp;apos;,&amp;lt;ref&amp;gt;{{cite web |url=http://xspf.org/quickstart/|title=XSPF: XML Shareable Playlist Format: Quick Start|accessdate=2009-04-23}}&amp;lt;/ref&amp;gt; is an [[XML]]-based [[playlist]] format for [[digital media]], sponsored by the [[Xiph.Org Foundation]].
+
+XSPF is a data format for sharing the kind of [[playlist]] that can be played on a personal computer or portable device. In the same way that any user on any computer can open any web page, XSPF is intended to provide portability for playlists.
+
+== Content resolution ==
+Traditionally playlists have been composed of file paths that pointed to individual titles. This allowed a playlist to be played locally on one machine or shared if the listed file paths were URLs accessible to more than one machine (e.g., on the web). XSPF&amp;apos;s meta-data rich open format has permitted a new kind of playlist sharing called &amp;apos;&amp;apos;content resolution&amp;apos;&amp;apos;.
+
+A simple form of content resolution is the localisation of a playlist based on [[metadata]]. A content resolver{{huh|date=December 2011}} will open XSPF playlists and search a catalog{{Which?|date=December 2011}} for every title with &amp;lt;tt&amp;gt;&amp;amp;lt;creator&amp;amp;gt;&amp;lt;/tt&amp;gt;, &amp;lt;tt&amp;gt;&amp;amp;lt;album&amp;amp;gt;&amp;lt;/tt&amp;gt; and &amp;lt;tt&amp;gt;&amp;amp;lt;title&amp;amp;gt;&amp;lt;/tt&amp;gt; tags, then localise the playlist to reference the available matching tracks. A catalog may reference a collection of media files on a local disk, a music subscription service like Yahoo! Music Unlimited, or some other searchable archive. The end result is shareable playlists that are not tied to a specific collection or service.
+
+== Example of an XSPF 1.0 playlist ==
+&amp;lt;source lang=&amp;quot;xml&amp;quot;&amp;gt;
+&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot;?&amp;gt;
+&amp;lt;playlist version=&amp;quot;1&amp;quot; xmlns=&amp;quot;http://xspf.org/ns/0/&amp;quot;&amp;gt;
+  &amp;lt;trackList&amp;gt;
+    &amp;lt;track&amp;gt;
+      &amp;lt;title&amp;gt;Internal Example&amp;lt;/title&amp;gt;
+      &amp;lt;location&amp;gt;file:///C:/music/foo.mp3&amp;lt;/location&amp;gt;
+    &amp;lt;/track&amp;gt;
+    &amp;lt;track&amp;gt;
+      &amp;lt;title&amp;gt;Linux también existe&amp;lt;/title&amp;gt;
+      &amp;lt;location&amp;gt;file:///mp3s/canción_1.mp3&amp;lt;/location&amp;gt;
+    &amp;lt;/track&amp;gt;
+    &amp;lt;track&amp;gt;
+      &amp;lt;title&amp;gt;External Example&amp;lt;/title&amp;gt;
+      &amp;lt;location&amp;gt;http://www.example.com/music/bar.ogg&amp;lt;/location&amp;gt;
+    &amp;lt;/track&amp;gt;
+  &amp;lt;/trackList&amp;gt;
+&amp;lt;/playlist&amp;gt;
+&amp;lt;/source&amp;gt;
+
+== History ==
+XSPF was created by an ad-hoc working group which kicked off in February 2004, achieved rough consensus on version 0 in April 2004, worked on implementations and fine tuning throughout summer and fall 2004, and declared the tuned version to be version 1 in January 2005.
+
+XSPF is not a recommendation of any standards body besides Xiph.Org Foundation.
+
+== Features ==
+* A playlist format like [[M3U]] or [[Advanced Stream Redirector|ASX]]
+* [[MIME]] content-type of &amp;lt;tt&amp;gt;application/xspf+xml&amp;lt;/tt&amp;gt;
+* Patent-free (no patents by the primary authors)
+* Specification under the [[Creative Commons licenses|Creative Commons Attribution-NoDerivs 2.5 license]]
+* XML, like [[Atom (standard)|Atom]]
+* [[Unicode]] support
+* [[Cross-platform]] support
+
+== Software ==
+* [[Amarok (software)|Amarok]]
+* [[Audacious (software)|Audacious]]
+* [[Banshee (media player)|Banshee]]
+* [http://www.tomahawk-player.org/ Tomahawk Music Player]
+* [[VLC media player]] (stand-alone player, available on every major platform)
+* [[XMMS2]] has a plugin to parse XSPF
+* [http://www.neutronmp.com Neutron Music Player]
+
+== References ==
+{{Reflist}}
+
+== External links ==
+{{Portal|Free software}}
+* {{official website|http://xspf.org/}}
+* [http://validator.xspf.org/ Online XSPF Validator]
+* [http://xspf.org/xspf-v1.html XSPF Version 1 specification].
+
+{{Xiph.org}}
+
+{{DEFAULTSORT:Xml Shareable Playlist Format}}
+
+[[Category:Playlist file formats]]
+[[Category:Xiph.Org projects]]
+[[Category:XML-based standards]]
+[[Category:Playlist markup languages]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

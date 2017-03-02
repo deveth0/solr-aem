@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="FIPA"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="FIPA" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{for|the television prize|Festival International de Programmes Audiovisuels}}
+{{Infobox Non-profit
+| Non-profit_name = FIPA
+| Non-profit_logo =
+| Non-profit_type =
+| founded_date = 1996
+| founder =
+| location =
+| origins =
+| key_people =
+| area_served =
+| focus = [[Intelligent agent]]s
+| method =
+| revenue =
+| endowment =
+| num_volunteers =
+| num_employees =
+| num_members =
+| owner =
+| Non-profit_slogan =
+| homepage = [http://www.fipa.org www.fipa.org]
+| tax_exempt =
+| dissolved =
+| footnotes =
+}}
+The &amp;apos;&amp;apos;&amp;apos;Foundation for Intelligent Physical Agents&amp;apos;&amp;apos;&amp;apos; (FIPA) is a body for developing and setting  [[computer software]] standards for heterogeneous and interacting [[Software agent|agents]] and agent-based systems.
+
+FIPA was founded as a Swiss [[not-for-profit]] organization in 1996 with the ambitious goal of defining a full set of standards for both implementing systems within which agents could execute (agent platforms) and specifying how agents themselves should communicate and interact.
+
+Within its lifetime the organization&amp;apos;s membership included several academic institutions and a large number of companies including [[Hewlett Packard]], [[IBM]], [[British Telecom|BT]] (formerly British Telecom), [[Sun Microsystems]], [[Fujitsu]] and many more.  A number of standards were proposed, however, despite several agent platforms adopting the &amp;quot;FIPA standard&amp;quot; for agent communication it never succeeded in gaining the commercial support which was originally envisaged. The Swiss organization was dissolved in 2005 and an [[IEEE]] standards committee was set up in its place.
+
+The most widely adopted of the FIPA standards are the Agent Management and [[Agent Communication Language]] (FIPA-ACL) specifications.
+
+The name FIPA is somewhat of a [[misnomer]] as the &amp;quot;physical [[Software agent|agents]]&amp;quot; with which the body is concerned exist solely in software (and hence have no physical aspect).
+
+==Systems using FIPA standards==
+*[[Java Agent Development Framework|Jade]]
+*[http://jadex-agents.informatik.uni-hamburg.de Jadex Agents (Java)]
+*[http://jiac.de &amp;apos;&amp;apos;&amp;apos;J&amp;apos;&amp;apos;&amp;apos;ava &amp;apos;&amp;apos;&amp;apos;I&amp;apos;&amp;apos;&amp;apos;ntelligent &amp;apos;&amp;apos;&amp;apos;A&amp;apos;&amp;apos;&amp;apos;gent &amp;apos;&amp;apos;&amp;apos;C&amp;apos;&amp;apos;&amp;apos;ompontentware (JIAC)]
+*[[SPADE|The SPADE Multiagent and Organizations Platform]] (Python)
+*[[JACK Intelligent Agents]] (Java)
+*[http://sourceforge.net/projects/networkagent/ The &amp;apos;&amp;apos;&amp;apos;A&amp;apos;&amp;apos;&amp;apos;pril &amp;apos;&amp;apos;&amp;apos;A&amp;apos;&amp;apos;&amp;apos;gent &amp;apos;&amp;apos;&amp;apos;P&amp;apos;&amp;apos;&amp;apos;latform (AAP) and Language (April)] (No longer actively developed)
+*[http://sourceforge.net/projects/zeusagent Zeus Agent Building Toolkit] (No longer actively developed)
+*[http://fipa-os.sourceforge.net/index.htm The Fipa-OS agent platform ]  (No longer actively developed)
+*[http://www.agentservice.it/agentservice.aspx AgentService] (C#) (last update: 2009)
+
+==See also==
+*[[Agent Communications Language]]
+
+==External links==
+*[http://www.fipa.org FIPA Official web site]
+
+[[Category:Computer-related organizations]]
+[[Category:Multi-agent systems]]
+[[Category:Standards organizations]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

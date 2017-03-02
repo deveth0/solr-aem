@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="It&#x27;s Only a Game"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="It&#x27;s Only a Game" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Image:Itsonlyagame.jpg|right]]
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;It&amp;apos;s Only a Game&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; was a sports-and-game-oriented comics panel by [[Charles M. Schulz]], creator of &amp;apos;&amp;apos;[[Peanuts]]&amp;apos;&amp;apos;, which ran from 1957 to 1959.
+
+Schulz and cartoonist [[Jim Sasseville]] (who also assisted Schulz on &amp;apos;&amp;apos;Peanuts&amp;apos;&amp;apos; stories for various comic books) produced this strip which appeared in newspapers four times a week, including Sundays.  Despite the resemblance to the children in &amp;apos;&amp;apos;Peanuts&amp;apos;&amp;apos;, most of the characters in these cartoons were adults.  The comic, unlike most other sports comics, focused on many amateur sports, like golf and ping pong.
+
+The strip was modestly successful, but given the growing popularity of &amp;apos;&amp;apos;Peanuts&amp;apos;&amp;apos; and the resulting demands on his time, Schulz canceled the strip after 63 weeks.
+
+==Further reading==
+* Charles Schulz and Jim Sasseville, &amp;apos;&amp;apos;It&amp;apos;s Only a Game&amp;apos;&amp;apos;, 2004, ISBN 0-9716338-9-4
+
+[[Category:American comic strips]]
+[[Category:Comic strips started in the 1950s]]
+
+{{comic-strip-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

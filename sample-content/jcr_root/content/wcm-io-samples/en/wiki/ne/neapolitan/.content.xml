@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Neapolitan"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Neapolitan" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{distinguish|Napoleon}}
+{{wiktionary|Neapolitan}}
+&amp;apos;&amp;apos;&amp;apos;Neapolitan&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* Neapolitan - of or pertaining to the city of [[Naples|Naples, Italy]] and sometimes its wider [[Duchy of Naples|Duchy]] or [[Province of Naples]]
+** Previously a nationality, during the time of the [[Kingdom of Naples]], the [[Kingdom of the Two Sicilies]] or the [[Neapolitan Republic (disambiguation)|Neapolitan Republics]]
+* [[Neapolitan dialect]], recognized by [[UNESCO]] as a [[Neapolitan language|language]], it is spoken in Naples and environs, in southern Italy
+* Neapolitan music, [[Music of Naples]]
+* Neapolitan song, [[Canzone Napoletana]]
+* [[Neapolitan school]] of music
+* [[Neapolitan chord]] (also known as Neapolitan sixth), in music, is the first inversion of a major chord built on the lowered second (supertonic) scale degree
+* [[Neapolitan scale]]
+* [[Neapolitan piastra]], a currency of the mainland part of the former Kingdom of the Two Sicilies
+* [[Neapolitan horse]], an extinct horse breed formerly bred in Naples
+* [[Neapolitan Mastiff]], a large, ancient breed of dog
+* [[Neapolitan cuisine]]
+* [[Neapolitan pizza]], a variety of [[pizza]] made according to strict rules
+* [[Neapolitan ragù]]
+* [[Neapolitan sauce]], a basic tomato-based sauce derived from Italian cuisine
+* [[Napolitan]], the name of a pasta dish, which is popular in Japan
+* [[Neapolitan ice cream]], a mixture of chocolate, vanilla, and strawberry ice cream side-by-side in the same container
+* [[Neapolitan wafer]], an Austrian wafer and chocolate-cream sandwich biscuit
+* [[Neapolitan War]]
+
+==See also==
+* {{lookfrom}}
+* {{intitle}}
+* [[Neapolitan Republic (disambiguation)]]
+* [[Napoleon (dessert)]]
+
+{{disambiguation}}
+[[es:Napolitano]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

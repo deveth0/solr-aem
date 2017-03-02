@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Le Breuil-en-Bessin"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Le Breuil-en-Bessin" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Expand French|date=December 2008|Le Breuil-en-Bessin}}
+
+{{Infobox French commune
+|name                   = Le Breuil-en-Bessin
+|image                  = Eglise du Breuil-en-bessin.JPG
+|region                 = Basse-Normandie
+|department             = Calvados
+|arrondissement         = Bayeux
+|canton                 = Trévières
+|INSEE                  = 14103
+|postal code            = 14330
+|mayor                  = Gilbert Lefrançois
+|term                   = 2008&amp;amp;ndash;2014
+|intercommunality       = Balleroy Le Molay-Littry
+|longitude              = -0.857
+|latitude               = 49.2558
+|elevation m            = 20
+|elevation min m        = 15
+|elevation max m        = 58
+|area km2               = 4.37
+|population             = 375
+|population date        = 2008
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Le Breuil-en-Bessin&amp;apos;&amp;apos;&amp;apos; is a [[Communes of France|commune]] in the [[Calvados]] [[Departments of France|department]] in the [[Basse-Normandie]] [[Regions of France|region]] in northwestern [[France]].
+
+==Population==
+{{Historical populations
+|align=left
+|1962|279
+|1968|223
+|1975|207
+|1982|221
+|1990|228
+|1999|258
+|2008|375
+}}
+{{clear-left}}
+
+==See also==
+*[[Communes of the Calvados department]]
+
+==References==
+*[http://www.insee.fr/en/home/home_page.asp INSEE]
+{{reflist}}
+
+{{commonscat}}
+{{Calvados communes}}
+
+{{DEFAULTSORT:Breuilenbessin}}
+[[Category:Communes of Calvados]]
+
+{{Calvados-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

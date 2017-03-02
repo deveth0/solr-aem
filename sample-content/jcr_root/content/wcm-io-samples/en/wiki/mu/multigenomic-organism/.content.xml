@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Multigenomic organism"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Multigenomic organism" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+
+&amp;apos;&amp;apos;&amp;apos;Multigenomic organisms&amp;apos;&amp;apos;&amp;apos; are plants or animals that have [[symbiosis|symbiotic]] relationships with other [[organism]]s that are necessary for the survival of both, but that differ in their [[genome]] such that they are considered separate [[species]].
+
+For example, what is commonly thought of as a human being can be described as a multigenomic organism consisting of &amp;apos;&amp;apos;Homo sapiens&amp;apos;&amp;apos;  and various species of [[bacteria]] in the [[digestive tract]].  In nature &amp;apos;&amp;apos;Homo sapiens&amp;apos;&amp;apos; cannot survive without the bacteria, which are a separate species, but form a symbiotic relationship with the host organism.
+
+For the most part [[predator]]-prey or [[parasite]]-host relationships are not multi-genomic in that most predators/parasites feed on more than one prey species, and the prey/host is often fed on by more than one predator/parasite species.  In order to be considered a multigenomic organism, the relationship must be mutually beneficial.
+
+The multigenomic organism also differs from the symbiotic relationship between [[cell (biology)|cell]]s and [[mitochondrion|mitochondria]] because the mitochondria are not considered a separate species, although there is strong evidence that they once were symbiotic bacteria that became enclosed in the cell wall.
+
+Some species of [[ant]] form a multigenomic organism with a particular [[tree]] species.  The ants require the tree for shelter, and the tree requires the ants to remove parasites.  This relationship is multigenomic in that neither species can survive without the other, the relationship is mutually benefitcial, and neither species forms a similar relationship with other species.
+
+The multigenomic organism relationship is more than merely symbiotic though, in that the [[genetics]] of both species are more strongly mutually adapted.  In general the organisms do not trigger [[immune response]]s from each other.  Also some necessary functions that were once present in both species may become absent in one of them.  An example would be certain enzymes produced to aid digestion that are no longer coded into the human digestive tract&amp;apos;s expressed genetics.
+
+==See also==
+* [[Anagenesis]]
+* [[Polyploidy]]
+* [[Symbiosis]]
+* [[Endosymbiosis]]
+* [[Microbiome]]
+* [[Human Microbiome Project]]
+{{DEFAULTSORT:Multigenomic Organism}}
+[[Category:Symbiosis]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

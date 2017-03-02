@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="GNU nano"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="GNU nano" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox software
+| name                   = GNU nano
+| screenshot             = [[Image:Nano 2.1.2-svn.png|300px|A screenshot of nano 2.1.2]]
+| caption                = nano 2.1.2 (SVN version)
+| author                 = Chris Allegretta
+| latest release version = 2.2.6
+| latest release date    = {{start date and age|2010|11|22}}
+| latest preview version = 2.3.2
+| latest preview date    = {{start date and age|2013|03|22}}
+| programming language   = [[C (programming language)|C]]
+| operating system       = [[Cross-platform]]
+| language               = English
+| genre                  = [[Text editor]]
+| license                = [[GNU General Public License]]
+| website                = {{URL|http://www.nano-editor.org}}
+}}
+&amp;apos;&amp;apos;&amp;apos;nano&amp;apos;&amp;apos;&amp;apos; is a [[text editor]] for [[Unix-like]] computing systems or operating environments using a [[command line interface]]. It emulates the  [[Pico (text editor)|Pico]] text editor, part of the [[Pine (email client)|Pine]] email client, and also provides additional functionality.&amp;lt;ref&amp;gt;The nano FAQ: http://www.nano-editor.org/dist/v2.2/faq.html#1.3&amp;lt;/ref&amp;gt;
+In contrast to Pico, nano is licensed under the [[GNU General Public License]] (GPL). Released as [[free software]] by [[Chris Allegretta]] in 1999, today nano is part of the [[GNU Project]].&amp;lt;ref&amp;gt;http://directory.fsf.org/wiki/Nano&amp;lt;/ref&amp;gt;
+
+==History==
+nano was first created in 1999 with the name &amp;apos;&amp;apos;TIP&amp;apos;&amp;apos; (&amp;apos;&amp;apos;This isn&amp;apos;t Pico&amp;apos;&amp;apos;), by [[Chris Allegretta]]. His motivation was to create a free software replacement for Pico, which was not distributed under a [[free software license]]. The name was changed to nano on January 10, 2000 to avoid a naming conflict with the existing Unix utility &amp;apos;&amp;apos;[[Tip (unix utility)|tip]]&amp;apos;&amp;apos;. The name comes from the system of [[SI prefix]]es, in which [[nano-|nano]] is 1000 times larger than [[pico-|pico]]. In February 2001, nano became a part of the [[GNU Project]].
+
+nano implements some features that Pico lacks, including colored text, [[regular expression]] search and replace, smooth scrolling, multiple buffers, rebindable key support,&amp;lt;ref&amp;gt;{{cite web|title=GNU nano 2.1.0|first=Chris|last=Allegretta|date=2008-03-18|work=Nano-devel mailing list|publisher=gnu.org|url=http://lists.gnu.org/archive/html/nano-devel/2008-03/msg00023.html|accessdate=2008-03-18}}&amp;lt;/ref&amp;gt; and (experimental) undoing and redoing of edit changes.&amp;lt;ref&amp;gt;{{cite web|title=GNU nano 2.1.3|first=Chris|last=Allegretta|date=2008-08-04|work=Nano-devel mailing list|publisher=gnu.org|url=http://lists.gnu.org/archive/html/nano-devel/2008-08/msg00000.html|accessdate=2008-08-04}}&amp;lt;/ref&amp;gt;
+
+On August 11, 2003, Chris Allegretta officially handed the source code maintenance for nano to [[David Lawrence Ramsey]].&amp;lt;ref&amp;gt;{{cite web|title=GNU nano 1.3 branch opened in CVS|first=Chris|last=Allegretta|date=2003-08-11|work=Nano-devel mailing list|publisher=gnu.org|url=http://lists.gnu.org/archive/html/nano-devel/2003-08/msg00016.html|accessdate=2007-01-25}}&amp;lt;/ref&amp;gt; On December 20, 2007, Ramsey stepped down as nano&amp;apos;s maintainer.&amp;lt;ref&amp;gt;{{cite web|title=Stepping down as the nano maintainer...|first=David Lawrence|last=Ramsey|date=2007-12-20|work=Nano-devel mailing list|publisher=gnu.org|url=http://lists.gnu.org/archive/html/nano-devel/2007-12/msg00020.html|accessdate=2007-12-20}}&amp;lt;/ref&amp;gt;
+
+==Control keys==
+nano, like Pico, is [[computer keyboard|keyboard]]-oriented, controlled with [[control key]]s. For example, {{key press|Ctrl|O}} saves the current file; {{key press|Ctrl|W}} goes to the search menu. Nano puts a two-line &amp;quot;shortcut bar&amp;quot; at the bottom of the screen, listing many of the commands available in the current context. For a complete list, {{key press|Ctrl|G}} gets the help screen.
+
+Unlike Pico, nano uses [[meta key]]s to toggle its behavior. For example, {{key press|Meta|S}} toggles smooth scrolling mode on and off. Almost all features that can be selected from the [[command line]] can be dynamically toggled.
+
+Nano can also use pointer devices, such as a mouse, to activate functions that are on the shortcut bar, as well as position the cursor.
+
+==See also==
+{{Portal|Free software}}
+* [[List of text editors]]
+* [[Comparison of text editors]]
+* [[List of Unix programs]]
+* [[Pico_(text_editor)|Pico]]
+
+==References==
+{{Reflist|2}}
+
+==External links==
+{{Commons category|GNU nano}}
+* {{official website|http://www.nano-editor.org}}
+
+{{DEFAULTSORT:Nano, Gnu}}
+[[Category:GNU Project software]]
+[[Category:Unix text editors]]
+[[Category:OS X text editors]]
+[[Category:Free software programmed in C]]
+[[Category:Free text editors]]
+[[Category:Curses (programming library)]]
+[[Category:Cross-platform software]]
+[[Category:Linux text editors]]
+[[Category:1999 introductions]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

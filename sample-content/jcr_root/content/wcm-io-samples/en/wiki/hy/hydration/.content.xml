@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Hydration"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Hydration" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|hydration}}
+&amp;apos;&amp;apos;&amp;apos;Hydration&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* [[Hydrate]], a term used to indicate that a substance contains water
+* [[Hydrational fluid]], a liquid substance that supplies the body with water
+* [[Hydration enthalpy]], energy released from water reactions
+* [[Hydration reaction]], a chemical addition reaction where a hydroxyl group and proton are added to a compound
+* [[Hydration shell]], a type of solvation shell
+* [[Hydration system]], an apparatus that helps its user drink enough liquid while engaged in physical activity
+** [[Hydration pack]], a type of hydration system composed of a carry-on pack used for hydration
+* [[Mineral hydration]], an inorganic chemical reaction where water is added to the crystal structure of a mineral
+* [[Oral rehydration therapy]], hydration as a health treatment
+** [[Rehydration]], health concern in the management of dehydration
+* [[Tissue hydration]], the supply and retention of adequate water in biological tissues
+* [[Water of hydration]], water that occurs within crystals
+
+==See also==
+* [[Dehydration]]
+* [[Solvation]]
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

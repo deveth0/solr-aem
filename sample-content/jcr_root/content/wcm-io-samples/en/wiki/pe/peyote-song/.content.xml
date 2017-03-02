@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Peyote song"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Peyote song" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{NativeAmericanmusic}}
+
+&amp;apos;&amp;apos;&amp;apos;Peyote songs&amp;apos;&amp;apos;&amp;apos; are a form of [[Native American music]], now most often performed as part of the [[Native American Church]].  They are typically accompanied by a [[Rattle (percussion instrument)|rattle]] and [[water drum]], and are used in a ceremonial aspect during the [[sacrament]]al taking of [[peyote]].
+Peyote songs began with the blend of the [[Ute people|Ute]] music style with [[Navajo people|Navajo]] singing.&amp;lt;ref&amp;gt;http://www.singingtotheplants.com/2009/03/peyote-songs/&amp;lt;/ref&amp;gt; Ed Tiendle Yeahquo composed over 120 peyote songs, many are still sung in NAC today. Vocal style, [[melodic contour]], and [[rhythm]] in Peyote songs is closer to Apache than Plains, featuring only two [[duration (music)|duration]]al values, predominating thirds and [[perfect fifth|fifths]] of Apache music with the tile-type melodic contour, [[incomplete repetition]]s, and [[isorhythm]]ic tendencies of Plains-Pueblo music. The [[cadence (music)|cadential]] formula use is also probably of Apache origin. (Nettl 1956, p.&amp;amp;nbsp;114)
+
+In recent years, modernized peyote songs have been popularized by [[Verdell Primeaux]], a [[Sioux]], and [[Johnny Mike]], a [[Navajo Nation|Navajo]]. [[Jim Pepper]], who came from a [[Kaw (tribe)|Kaw]] and [[Muscogee (Creek)|Creek]] family, used a peyote song he learned from his grandfather as the basis for &amp;quot;Witchi Tai To&amp;quot;, which has since gone on to become a jazz and pop standard.
+
+==References==
+{{Reflist}}
+*Nettl, Bruno (1956). &amp;apos;&amp;apos;Music in Primitive Culture&amp;apos;&amp;apos;. Harvard University Press.
+
+[[Category:Native American Church]]
+[[Category:Native American music]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

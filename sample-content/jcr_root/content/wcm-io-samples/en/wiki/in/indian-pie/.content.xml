@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Indian pie"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Indian pie" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced stub|auto=yes|date=December 2009}}
+[[File:Bhopal Govt Postage - One Anna Three Pies.png|thumb|right|A [[Bhopal State]] postage stamp worth 1 anna and three pies]]
+A &amp;apos;&amp;apos;&amp;apos;pie&amp;apos;&amp;apos;&amp;apos; was a unit of [[currency]] in [[India]] that is no longer in use. It was the smallest currency unit, equal to 1/3 [[paisa]], 1/12 [[anna (coin)|anna]] or 1/192 [[rupee]]. It is abbreviated as &amp;apos;&amp;apos;&amp;apos;Ps&amp;apos;&amp;apos;&amp;apos;. It was minted in the unique [[Torus|toroidal]] form of a circle with a hole. It was abolished in the [[decimalisation]] of Indian currency and also due to practically zero value due to [[inflation]]. It was used until the middle of the 20th century.
+
+The pie was also used as a unit of currency in [[Burma]] and [[Pakistan]].
+
+{{Rupee}}
+
+{{DEFAULTSORT:Indian Pie}}
+[[Category:Coins of India|Pie]]
+[[Category:Modern obsolete currencies]]
+
+
+{{Money-unit-stub}}
+{{India-hist-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="File:Bristol Bombay.jpg"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="File:Bristol Bombay.jpg" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;== Summary ==
+
+== Licensing ==
+{{Non-free use rationale
+| Description       = Bristol Bombay - British medium bomber - Prototype (Type 130) in flight.
+| Source            = Photograph published in:
+ &amp;apos;&amp;apos;Aircraft of the Fighting Powers&amp;apos;&amp;apos; Vol I
+ Ed: H J Cooper, O G Thetford and D A. Russell
+ Harborough Publishing Co, Leicester, England 1940.
+ Photographer not identified,
+ Picture prepared for Wikipedia by Keith Edkins in April 2004.
+
+| Article           = Bristol Bombay
+| Portion           = Single photo (modified)
+| Low_resolution    = Yes
+| Purpose           = Infobox -This image is used to illustrate the titular subject of the linked article in which it appears.  This image is used to provide visual identification of the aircraft model or type in the linked article.  Use of this image aids the reader, by helping them confirm that the correct aircraft type and thus article have been found.
+| Replaceability    = This image is unique, and essentially unrepeatable.  Provision of a free replacement may be difficult given the age of the aircraft shown.  use of an alternative image may not meet the purpose stated.
+| other_information =
+}}
+
+== Licensing ==
+{{Non-free fair use in|Bristol Bombay|image has rationale=yes}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

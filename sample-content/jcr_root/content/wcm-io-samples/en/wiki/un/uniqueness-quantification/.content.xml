@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Uniqueness quantification"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Uniqueness quantification" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{redirect|Unique}}
+{{inline citations|date=January 2013}}
+
+In [[mathematics]] and [[logic]], the phrase &amp;quot;there is &amp;apos;&amp;apos;&amp;apos;one and only one&amp;apos;&amp;apos;&amp;apos;&amp;quot; is used to indicate that exactly one object with a certain property exists. In [[mathematical logic]], this sort of [[quantification]] is known as &amp;apos;&amp;apos;&amp;apos;uniqueness quantification&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;unique existential quantification&amp;apos;&amp;apos;&amp;apos;.
+
+Uniqueness quantification is often denoted with the symbols &amp;quot;∃!&amp;quot; or ∃&amp;lt;sub&amp;gt;=1&amp;lt;/sub&amp;gt;&amp;quot;.  For example, the formal statement
+: &amp;lt;math&amp;gt;\exists! n \in \mathbb{N}\,(n - 2 = 4)&amp;lt;/math&amp;gt;
+may be read aloud as &amp;quot;there is exactly one natural number &amp;apos;&amp;apos;n&amp;apos;&amp;apos; such that &amp;apos;&amp;apos;n&amp;apos;&amp;apos; - 2 = 4&amp;quot;.
+
+== Proving uniqueness ==
+Proving uniqueness turns out to be mostly easier than that of existence or expressibility. The most common technique to proving uniqueness is to assume there exists two quantities (say, a and b) that satisfies the condition given, and then logically deducing their equality, i.e.&amp;amp;nbsp;&amp;apos;&amp;apos;a&amp;apos;&amp;apos;&amp;amp;nbsp;=&amp;amp;nbsp;&amp;apos;&amp;apos;b&amp;apos;&amp;apos;.
+
+As a simple high school example, to show &amp;apos;&amp;apos;x&amp;apos;&amp;apos;&amp;amp;nbsp;+&amp;amp;nbsp;2&amp;amp;nbsp;=&amp;amp;nbsp;5 has only one solution, we assume there are two solutions first, namely, &amp;apos;&amp;apos;a&amp;apos;&amp;apos; and &amp;apos;&amp;apos;b&amp;apos;&amp;apos;, satisfying &amp;apos;&amp;apos;x&amp;apos;&amp;apos;&amp;amp;nbsp;+&amp;amp;nbsp;2&amp;amp;nbsp;=&amp;amp;nbsp;5. Thus
+
+:&amp;lt;math&amp;gt; a + 2 = 5\text{ and }b + 2 = 5. \, &amp;lt;/math&amp;gt;
+
+By transitivity of equality,
+:&amp;lt;math&amp;gt; a + 2 = b + 2. \, &amp;lt;/math&amp;gt;
+
+By cancellation,
+:&amp;lt;math&amp;gt; a = b. \, &amp;lt;/math&amp;gt;
+
+This simple example shows how a proof of uniqueness is done, the end result being the equality of the two quantities that satisfy the condition. We must say, however, that existence/expressibility must be proven before uniqueness, or else we cannot even assume the existence of those two quantities to begin with.
+
+== Reduction to ordinary existential and universal quantification ==
+Uniqueness quantification can be expressed in terms of the [[existential quantifier|existential]] and [[universal quantifier|universal]] quantifiers of [[predicate logic]] by defining the formula
+∃!&amp;apos;&amp;apos;x&amp;apos;&amp;apos; &amp;apos;&amp;apos;P(x)&amp;apos;&amp;apos; to mean
+:&amp;lt;math&amp;gt;\exists x\, P(x) \wedge \neg \exists x,y \, ( P(x)  \wedge  P(y) \wedge (x \neq y)),&amp;lt;/math&amp;gt;
+or equivalently,
+:&amp;lt;math&amp;gt;\exists x \, ( P(x) \wedge \forall y\,(P(y) \to x = y)).&amp;lt;/math&amp;gt;
+An equivalent definition that has the virtue of separating the notions of existence and uniqueness into two clauses, at the expense of brevity, is
+:&amp;lt;math&amp;gt;\exists x\, P(x) \wedge \forall y\, \forall z\,((P(y) \wedge P(z)) \to y = z).&amp;lt;/math&amp;gt;
+Another equivalent definition with the advantage of brevity is
+:&amp;lt;math&amp;gt;\exists x\,\forall y\,(P(y) \leftrightarrow x = y).&amp;lt;/math&amp;gt;
+
+== Generalizations ==
+One generalization of uniqueness quantification is [[counting quantification]].  This includes both quantification of the form &amp;quot;exactly &amp;apos;&amp;apos;k&amp;apos;&amp;apos; objects exist such that …&amp;quot; as well as &amp;quot;infinitely many objects exist such that …&amp;quot; and &amp;quot;only finitely many objects exist such that…&amp;quot;.   The first of these forms is expressible using ordinary quantifiers, but the latter two cannot be expressed in ordinary [[first-order logic]].
+
+== See also ==
+* [[One-hot]]
+
+== References ==
+&amp;lt;ref&amp;gt;{{cite book|last=Kleene|first=Stephen|title=Introduction to Metamathematics|year=1952|publisher=Ishi Press International|pages=199}}&amp;lt;/ref&amp;gt;
+&amp;lt;ref&amp;gt;{{cite book|last=Andrews|first=Peter B.|title=An introduction to mathematical logic and type theory to truth through proof|year=2002|publisher=Kluwer Acad. Publ.|location=Dordrecht|isbn=1-4020-0763-9|pages=233|edition=2. ed.}}&amp;lt;/ref&amp;gt;
+{{Reflist}}
+
+[[Category:Quantification]]
+[[Category:One]]
+[[Category:Mathematical terminology]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

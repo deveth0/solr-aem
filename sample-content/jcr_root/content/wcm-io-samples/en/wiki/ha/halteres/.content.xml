@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Halteres"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Halteres" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Use dmy dates|date=July 2013}}
+{{About|insect anatomy|halteres as used in ancient sports|Halteres (ancient Greece)}}
+
+[[File:Crane fly halteres.jpg|thumb|320px|right|[[Crane fly]], with a pair of halteres visible behind the wings as appendages, about as long as the animal&amp;apos;s [[antenna (biology)|antennae]], with knobs on the end]]
+
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Halteres&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; ({{IPAc-en|h|æ|l|ˈ|t|ɪər|iː|z}}; singular &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;halter&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;haltere&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;) are small knobbed structures modified from the hind wings (or front wings in the case of [[Strepsiptera]]) in some two-winged [[insect]]s. They are flapped rapidly and function as [[gyroscope]]s, informing the insect about rotation of the body during flight.&amp;lt;ref name=klowden/&amp;gt; The word &amp;apos;halter&amp;apos; comes from Greek ἁλτήρ, a double knobbed device used in Ancient Greece by athletes during training in jumping.
+
+In Diptera, the formation of the haltere during [[metamorphosis]] is dependent on the [[homeotic gene]] [[Ultrabithorax]] (Ubx). If this gene is experimentally deactivated, the haltere will develop into a fully developed wing.&amp;lt;ref name=klowden&amp;gt;Klowden, M. J. (2007). &amp;apos;&amp;apos;Physiological systems in insects&amp;apos;&amp;apos;. Elsevier/Academic Press. pp. 497-499.&amp;lt;/ref&amp;gt; This is an excellent illustration of an important mechanism of a simple homeotic gene change can result in a radically different [[phenotype]].
+
+Halteres flap up and down as the wings do and operate as [[vibrating structure gyroscope]]s. Every vibrating object tends to maintain its plane of vibration if its support is rotated, a result of [[Newton&amp;apos;s laws of motion|Newton&amp;apos;s first law]]. If the body of the insect changes direction in flight or rotates about its axis, the vibrating halteres thus exert a force on the body. The insect detects this force with [[Sensory system|sensory organs]] known as [[campaniform sensilla]] located at the base of the halteres. The planes of vibration of the two halteres are [[Orthogonality|orthogonal]] to each other, each forming an angle of about 45 degrees with the axis of the insect; this increases the amount of information gained from the halteres.
+
+Halteres thus act as a [[Balance (ability)|balancing]] and [[guidance system]], helping these insects to perform their fast [[aerobatics]]. In addition to providing rapid feedback to the muscles steering the wings, they also play an important role in stabilizing the head during flight.
+
+==References==
+{{Reflist}}
+
+==External links==
+* [http://www.telegraph.co.uk/technology/3338943/QED-These-tiny-flying-machines-really-are-magnificent.html QED: These tiny flying machines really are magnificent], &amp;apos;&amp;apos;The Telegraph&amp;apos;&amp;apos;, 9 February 2005
+* [http://www.fva-bw.de/forschung/bu/bodenschluessel/img/orginf_halteren.jpg Photo of a haltere of a mosquito (Nematocera)]
+
+[[Category:Insect anatomy]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Labyrinth seal"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Labyrinth seal" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=August 2008}}
+
+[[Image:labyrinth-seal.png|right|thumb|200px|A simple labyrinth seal]]
+
+A &amp;apos;&amp;apos;&amp;apos;labyrinth seal&amp;apos;&amp;apos;&amp;apos; is a type of [[seal (mechanical)|mechanical seal]] that provides a tortuous path to help prevent leakage. An example of such a seal is sometimes found within an [[axle]]&amp;apos;s [[bearing (mechanical)|bearing]] to help prevent the leakage of the oil lubricating the bearing.
+
+A labyrinth seal may be composed of many [[groove (machining)|groove]]s that press tightly inside another axle, or inside a hole, so that the fluid has to pass through a long and difficult path to escape. Sometimes [[screw thread]]s exist on the outer and inner portion. These interlock, to produce the long characteristic path which slows leakage. For labyrinth seals on a rotating shaft, a very small clearance must exist between the tips of the labyrinth threads and the running surface.
+
+Labyrinth seals on rotating shafts provide non-contact sealing action by controlling the passage of fluid through a variety of chambers by centrifugal motion, as well as by the formation of controlled fluid vortices.  At higher speeds, centrifugal motion forces the liquid towards the outside and therefore away from any passages.  Similarly, if the labyrinth chambers are correctly designed, any liquid that has escaped the main chamber becomes entrapped in a labyrinth chamber, where it is forced into a vortex-like motion.  This acts to prevent its escape, and also acts to repel any other fluid. Because these labyrinth seals are non-contact, they do not wear out.
+
+Many [[gas turbine]] engines, having high rotational speeds, use labyrinth seals due to their lack of friction and long life.
+
+Labyrinth seals are also found on pistons, which use them to store oil and seal against high pressure during compression and power [[stroke (engine)|stroke]]s, as well as on other non-rotating shafts. In these applications, it is the long and difficult path and the formation of controlled fluid vortices plus some limited contact-sealing action that creates the seal.
+
+[[Category:Seals (mechanical)]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Prick"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Prick" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Prick&amp;apos;&amp;apos;&amp;apos; may refer to:
+{{wiktionary}}
+
+* [[Prick (manufacturing)]], style of marking tool
+* [[Goad]], a synonym in an agricultural sense
+* [[Prick (band)]]
+* [[Fingerprick]], wound for blood sample
+* Prick, slang term for [[human penis|penis]] or an inconsiderate person
+* Pricker, [[Thorns, spines, and prickles|bramble]]
+
+== Titled expressive works ==
+* [[Prick (album)|&amp;apos;&amp;apos;Prick&amp;apos;&amp;apos; (album)]], by The Melvins
+* &amp;quot;Prick&amp;quot;, a single by the Australian band [[Something for Kate]]
+
+== See also ==
+* [[Pricking the Lites]], ceremony re appointing English sheriffs
+* [[Kick against the pricks]], a Bible quotation (Acts 9:5 and 26:14),
+* &amp;apos;&amp;apos;[[Kicking Against the Pricks]]&amp;apos;&amp;apos;, a [[Nick Cave and the Bad Seeds]] album
+* [[Lilly Wood and the Prick]]&amp;apos;&amp;apos;, a French musical band
+
+{{disambig}}
+&amp;lt;references /&amp;gt;&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

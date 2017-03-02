@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Cistron"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Cistron" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;A &amp;apos;&amp;apos;&amp;apos;cistron&amp;apos;&amp;apos;&amp;apos; is a [[gene]].&amp;lt;ref&amp;gt;{{cite book | last = Lewin | first = Benjamin | authorlink = Benjamin Lewin | title = Genes VII | year = 2000 | publisher = Oxford University Press and Cell Press | location = New York | isbn = 0-19-879276-X | page = 955}}&amp;lt;/ref&amp;gt;  The term cistron is used to emphasize that genes exhibit a specific behavior in a [[complementation test|cis-trans test]]; distinct positions (or [[locus (genetics)|loci]]) within a [[genome]] are &amp;apos;&amp;apos;&amp;apos;cistronic
+
+For example, suppose a [[mutation]] at a chromosome position &amp;lt;math&amp;gt;x&amp;lt;/math&amp;gt; is responsible for a [[recessive trait]] in a [[diploid]] organism (where chromosomes come in pairs). We say that the mutation is recessive because the organism will exhibit the [[wild type]] [[phenotype]] (ordinary trait) unless both chromosomes of a pair have the mutation ([[homozygous]] mutation).  Similarly, suppose a mutation at another position, &amp;lt;math&amp;gt;y&amp;lt;/math&amp;gt;, is responsible for the same recessive trait. The positions &amp;lt;math&amp;gt;x&amp;lt;/math&amp;gt; and &amp;lt;math&amp;gt;y&amp;lt;/math&amp;gt; are said to be within the same cistron when an organism that has the mutation at &amp;lt;math&amp;gt;x&amp;lt;/math&amp;gt; on one chromosome and has the mutation at position &amp;lt;math&amp;gt;y&amp;lt;/math&amp;gt; on the paired chromosome exhibits the recessive trait even though the organism is not homozygous for either mutation. When instead the wild type trait is expressed, the positions are said to belong to distinct cistrons / genes.
+
+For example, an [[operon]] is a stretch of DNA that is [[Transcription (genetics)|transcribed]] to create a contiguous segment of [[RNA]], but contains more than one cistron / gene. The operon is said to be &amp;apos;&amp;apos;&amp;apos;polycistronic&amp;apos;&amp;apos;&amp;apos;, whereas ordinary genes are said to be &amp;apos;&amp;apos;&amp;apos;monocistronic&amp;apos;&amp;apos;&amp;apos;.
+
+==References==
+{{Reflist}}
+
+[[Category:Genetics]]
+
+{{molecular-cell-biology-stub}}
+{{genetics-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

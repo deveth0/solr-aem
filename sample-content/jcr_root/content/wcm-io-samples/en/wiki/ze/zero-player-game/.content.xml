@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Zero-player game"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Zero-player game" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;A &amp;apos;&amp;apos;&amp;apos;zero-player game&amp;apos;&amp;apos;&amp;apos; is a game that has no sentient players.
+
+In computer games, the term refers to programs that use [[artificial intelligence]] rather than human players.&amp;lt;ref&amp;gt;[http://books.google.com/books?id=7DiB3z2fBpAC&amp;amp;pg=PT504&amp;amp;dq=%22zero-player+game%22&amp;amp;ei=xBicSoblC5CqkATJrKx#v=onepage&amp;amp;q=%22zero-player%20game%22&amp;amp;f=false &amp;quot;Encyclopedia of Play in Today&amp;apos;s Society&amp;quot;], Rodney P. Carlisle, [[SAGE Publications]].&amp;lt;/ref&amp;gt;
+
+[[Conway&amp;apos;s Game of Life]], a [[cellular automaton]] devised in 1970 by the British mathematician [[John Horton Conway]], is considered a zero-player game because its evolution is determined by its initial state, requiring no further input from humans.&amp;lt;ref&amp;gt;{{citation
+ | title = Mathematical games: The fantastic combinations of John Conway&amp;apos;s new solitaire game &amp;apos;Life&amp;apos;
+ | author = Martin Gardner
+ | date = October 1970
+ | journal = Scientific American
+ | url = http://www.stanford.edu/class/sts145/Library/life.pdf
+}}&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;{{citation| title = Self-Replicating Systems in Spatial Form Generation - The Concept of Cellular Automata
+ | author = Ljiljana Petruševski, Mirjana Devetaković, Bojan Mitrović
+ | url = http://elearning.amres.ac.rs/journals/index.php/spatium/article/viewFile/7/6
+}}&amp;lt;/ref&amp;gt; In addition, Some [[Fighting game|fighting]] and [[real-time strategy]] games can be put into zero-player mode by placing one [[Artificial intelligence|AI]] against another.
+
+==Categories==
+Zero player games can be divided in several categories:&amp;lt;ref name=cat&amp;gt;[http://www.jesperjuul.net/text/zeroplayergames/ Zero-Player Games]&amp;lt;/ref&amp;gt;
+
+===Setup-only games===
+Evolution of this kind of games is determined by its initial state, requiring no further input. [[Conway&amp;apos;s Game of Life]] is a Setup-only game. Programming games is a subgroup of setup-only games where people create AI players that compete against each other in the actual games.
+
+===Games played by AI===
+In this games role of human player is taken by computer player. In one player games human can play agains computer, in zero player game computer plays against another computer.
+
+===Solved games===
+In [[Nim]] game we can pre-determine which player will win if both plays perfectly. Thus the game is only about examining the board, so need for any players is eliminated. In checkers perfect play always leads to draw. &amp;lt;ref name=checkers&amp;gt;[http://www.scientificamerican.com/article.cfm?id=computers-solve-checkers-its-a-draw Computers Solve Checkers—It&amp;apos;s a Draw]&amp;lt;/ref&amp;gt;
+
+===Hypothetical games===
+Proposed but non-implemented games described to examine a question, or actually existing games that are for practical purposes unplayable.
+
+
+&amp;lt;!--
+NOTE: Please use discretion when adding examples, as they are numerous. Every example must be accompanied by a reliable source stating that they are a &amp;apos;Zero-player game&amp;apos;.--&amp;gt;
+
+==See also==
+* [[Single-player game]]
+* [[Two-player game]]
+* [[Multiplayer game]]
+* &amp;apos;&amp;apos;[[Progress Quest]]&amp;apos;&amp;apos;
+
+==References==
+{{Reflist}}
+
+[[Category:Game theory]]
+[[Category:Game artificial intelligence]]
+[[Category:Zero-player games]]
+
+{{Game-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Xanthichthys caeruleolineatus"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Xanthichthys caeruleolineatus" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{DISPLAYTITLE:&amp;apos;&amp;apos;Xanthichthys caeruleolineatus&amp;apos;&amp;apos;}}
+{{Taxobox
+| name = Xanthichthys caeruleolineatus
+| regnum = [[Animalia]]
+| phylum = [[Chordata]]
+| classis = [[Actinopterygii]]
+| ordo = [[Tetraodontiformes]]
+| familia = [[Balistidae]]
+| genus = &amp;apos;&amp;apos;[[Xanthichthys]]&amp;apos;&amp;apos;
+| species = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;X. caeruleolineatus&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+| binomial = &amp;apos;&amp;apos;Xanthichthys caeruleolineatus&amp;apos;&amp;apos;
+| binomial_authority = [[John Ernest Randall|J. E. Randall]], [[Keiichi Matsuura|Matsuura]] &amp;amp; [[Akira Zama|Zama]], 1978
+}}
+
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Xanthichthys caeruleolineatus&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is a [[Triggerfish]] from the Indo-West [[Pacific]]. It occasionally makes its way into the aquarium trade. It grows to a size of 35&amp;amp;nbsp;cm in length.
+
+==References==
+
+* {{FishBase species | genus = Xanthichthys | species = caeruleolineatus| month = December| year = 2008}}
+
+[[Category:Balistidae]]
+[[Category:Animals described in 1978]]
+
+{{Perciformes-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

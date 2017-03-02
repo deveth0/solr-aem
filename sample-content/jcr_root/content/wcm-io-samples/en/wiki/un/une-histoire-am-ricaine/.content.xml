@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Une histoire américaine"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Une histoire américaine" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced stub|auto=yes|date=December 2009}}
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Une histoire américaine&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is a [[novel]] published in 1986 by [[Canada|Canadian]] novelist, [[essayist]], [[children&amp;apos;s writer]], [[journalist]], [[filmmaker]] and [[poet]], [[Jacques Godbout]].
+
+&amp;apos;&amp;apos;Une histoire américaine&amp;apos;&amp;apos; was one of the novels chosen for inclusion in the [[French language|French]] version of &amp;apos;&amp;apos;[[Canada Reads]]&amp;apos;&amp;apos;, broadcast on [[Canadian Broadcasting Corporation|Radio-Canada]] in 2004, where it was championed by [[trade union|union]] [[activist]] and [[professor]] [[Gérald Larose]].
+
+==Plot summary==
+Grégory Francœur, a brilliant professor from [[Quebec]], leaves his family and political career behind to become the assistant to a distinguished academic in [[San Francisco]]. Because of a misunderstanding, typical of the ambiguity that has been Francœur&amp;apos;s lot in life, he becomes involved in a dangerous case of illegal immigration.
+
+{{DEFAULTSORT:Histoire Americaine, Une}}
+[[Category:1986 novels]]
+[[Category:Canadian French-language novels]]
+[[Category:Novels set in San Francisco, California]]
+
+
+{{1980s-novel-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

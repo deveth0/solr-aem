@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Organ flue pipe scaling"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Organ flue pipe scaling" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=October 2009}}
+&amp;apos;&amp;apos;The subject of this article is technical in nature and requires an understanding of organ terminology. This is in the process of being rectified. Many of the terms used here are defined in the [[pipe organ]] article.&amp;apos;&amp;apos;
+
+&amp;apos;&amp;apos;&amp;apos;Scaling&amp;apos;&amp;apos;&amp;apos; is the [[ratio]] of an [[organ pipe]]&amp;apos;s length to its [[diameter]]. The scaling of a pipe is a major influence on its [[timbre]]. [[Reed pipe]]s are scaled according to different formulas than are [[flue pipe]]s. In general, the larger the diameter of a given pipe at a given [[pitch (music)|pitch]], the fuller and more [[Harmonic series (music)|fundamental]] the sound becomes.
+
+The system most commonly used to fully document and describe scaling was devised by [[Töpfer]]. In this system, the diameter of a given note is compared with a reference scale by means of &amp;apos;&amp;apos;half-tone&amp;apos;&amp;apos; deviations larger or smaller (indicated by the abbreviation &amp;apos;&amp;apos;ht&amp;apos;&amp;apos;). This reference scale is called &amp;apos;&amp;apos;&amp;apos;Normalmensur&amp;apos;&amp;apos;&amp;apos;. Normalmensur is a rank of pipes based on an internal diameter of 155.5mm at 8&amp;amp;prime; C (the lowest note of the modern organ compass) and a mouth width which is one-quarter of the circumference of such a pipe. The scale provides for a reduction in diameter of the pipes by half at every succeeding 17th pipe. This system can be used to produce Normalmensur variation tables or line graphs for the analysis of existing ranks or the design of new ranks.
+
+The following is a list of representative 8&amp;amp;prime; stops in order of increasing diameter (and, therefore, increasing fundamental tone) at [[middle C]] with respect to Normalmensur, which is listed in the middle. Deviations from Normalmensur are provided after the pipe measurement in brackets.
+
+* Viole d&amp;apos;orchestre (thin, mordant string stop): 35.6&amp;amp;nbsp;mm [-10 ht]
+* Salicional (broader-toned, non-imitative string stop): 40.6&amp;amp;nbsp;mm [-7 ht]
+* Violin diapason (thin-toned principal stop): 46.2&amp;amp;nbsp;mm [-4 ht]
+* Principal (typical mid-scale principal stop): 50.4&amp;amp;nbsp;mm [-2 ht]
+* Normalmensur: 54.9&amp;amp;nbsp;mm [+/-0 ht]
+* Open diapason (broader-toned principal stop): 57.4&amp;amp;nbsp;mm [+1 ht]
+* Gedeckt (thin-toned flute stop): 65.4&amp;amp;nbsp;mm [+4 ht]
+* Flûte à cheminée (typical mid-scale flute stop): 74.4&amp;amp;nbsp;mm [+7 ht]
+* Flûte ouverte (broader-toned flute stop): 81.1&amp;amp;nbsp;mm [+9 ht]
+
+Normalmensur scaling table, 17th halving ratio:
+
+{| class=&amp;quot;wikitable&amp;quot;
+|-
+! !! !!32&amp;apos;!!!!16&amp;apos;!!!!8&amp;apos;!!!!4&amp;apos;!!!!2&amp;apos;!!!!1&amp;apos;!!!!1/2&amp;apos;!!!!1/4&amp;apos;!!!!1/8&amp;apos;!!!!1/16&amp;apos;
+|-
+! !!mm!!scale!!mm!!scale!!mm!!scale!!mm!!scale!!mm!!scale!!mm!!scale!!mm!!scale!!mm!!scale!!mm!!scale!!mm!!scale
+
+|-
+|C 1||439.7||20||261.5||32||155.5||44||92.4||56||54.9||68||32.6||80||19.3||92||11.5||104||6.8||116||4.0||128
+|-
+|C# 2||421.2||21||250.4||33||148.9||45||88.5||57||52.6||69||31.3||81||18.6||93||11.0||105||6.5||117||3.9||129
+|-
+|D 3||403.2||22||239.8||34||142.6||46||84.7||58||50.4||70||29.9||82||17.8||94||10.5||106||6.3||118||3.7||130
+|-
+|D# 4||386.2||23||229.6||35||136.5||47||81.1||59||48.2||71||28.7||83||16.9||95||10.1||107||6.0||119||3.6||131
+|-
+|E 5||369.9||24||219.9||36||130.7||48||77.7||60||46.2||72||27.4||84||16.3||96||9.7||108||5.7||120||3.4||132
+|-
+|F 6||354.1||25||210.6||37||125.2||49||74.4||61||44.2||73||26.3||85||15.6||97||9.3||109||5.5||121||3.3||133
+|-
+|F# 7||339.1||26||201.6||38||119.9||50||71.3||62||42.3||74||25.2||86||14.9||98||8.8||110||5.2||122||3.1||134
+|-
+|G 8||324.7||27||193.1||39||114.8||51||68.2||63||40.5||75||24.1||87||14.3||99||8.5||111||5.0||123||3.0||135
+|-
+|G# 9||311.0||28||184.9||40||109.9||52||65.3||64||38.8||76||23.1||88||13.7||100||8.1||112||4.8||124||2.8||136
+|-
+|A 10||297.8||29||177.1||41||105.3||53||62.6||65||37.2||77||22.1||89||13.1||101||7.8||113||4.6||125||2.7||137
+|-
+|A# 11||285.2||30||169.5||42||100.8||54||59.9||66||35.6||78||21.1||90||12.6||102||7.4||114||4.4||126||2.6||138
+|-
+|B 12||273.1||31||162.3||43||96.5||55||57.4||67||34.1||79||20.2||91||12.0||103||7.1||115||4.2||127||2.5||139
+|}
+
+[http://www.organsupply.com/catalog_ordering/view_our_catalog/pdf/Section%209%20-%20Pipes%20and%20Supplies.pdf From Organ Supply Industries catalog]
+
+==External links==
+*[http://hydraule.free.fr/tuyau/tailles/index.htm Calculs de tailles de tuyaux d&amp;apos;orgues], &amp;apos;L&amp;apos;Hydraule&amp;apos; (in French)
+
+[[Category:Pipe organ components]]
+
+
+{{musical-instrument-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

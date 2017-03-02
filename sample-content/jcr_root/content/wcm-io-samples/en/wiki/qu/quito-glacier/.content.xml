@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Quito Glacier"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Quito Glacier" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[File:Greenwich-Island-location-map.png|thumb|Location of Greenwich Island in the South Shetland Islands.]]
+&amp;apos;&amp;apos;&amp;apos;Quito Glacier&amp;apos;&amp;apos;&amp;apos; ({{coord|62|27|S|59|47|W|type:glacier_region:AQ|display=inline,title}}) is a [[glacier]] draining the northeast slopes of [[Mount Plymouth]] and flowing northeastwards into the sea west of [[Spark Point|Canto Point]] in north [[Greenwich Island]], [[South Shetland Islands]]. It was named after the capital of [[Ecuador]], c. 1990, by the [[Ecuadorian Antarctic Expedition]].
+
+==See also==
+* [[List of glaciers in the Antarctic]]
+
+==Maps==
+* L.L. Ivanov et al. [[:commons:Image:Livingston-Greenwich-map.jpg|Antarctica: Livingston Island and Greenwich Island, South Shetland Islands]]. Scale 1:100000 topographic map. Sofia: Antarctic Place-names Commission of Bulgaria, 2005.
+* L.L. Ivanov. [http://apcbg.org/image023.jpg Antarctica: Livingston Island and Greenwich, Robert, Snow and Smith Islands]. Scale 1:120000 topographic map.  Troyan: Manfred Wörner Foundation, 2009.  ISBN 978-954-92032-6-4
+
+==References==
+* [http://data.aad.gov.au/aadc/gaz/scar/ SCAR Composite Antarctic Gazetteer].
+
+{{usgs-gazetteer}}
+
+[[Category:Glaciers of Greenwich Island]]
+
+{{SouthShetlands-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

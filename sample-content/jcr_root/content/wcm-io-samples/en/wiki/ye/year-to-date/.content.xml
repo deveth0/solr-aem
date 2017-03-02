@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Year-to-date"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Year-to-date" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Use mdy dates|date=February 2012}}
+&amp;apos;&amp;apos;&amp;apos;Year-to-date&amp;apos;&amp;apos;&amp;apos; is a period, starting from the beginning of the current year, and continuing up to the present day. The year usually starts on January 1 (calendar year), but depending on purpose, can start also on July 1, April 1 (UK corporation tax and government financial statements), and April 6 (UK fiscal year for personal tax and benefits).  Year-to-date is used in many contexts, mainly for recording results of an activity in the time between a date (exclusive, since this day may not yet be &amp;quot;complete&amp;quot;) and the beginning of either the [[calendar year|calendar]] or [[fiscal year]].
+
+In the context of finance, YTD is often provided in [[financial statement]]s detailing the performance of a [[business entity]].  Providing current YTD results, as well as YTD results for one or more past years as of the same date, allows owners, managers, investors, and other [[Stakeholder (corporate)|stakeholders]] to compare the company&amp;apos;s current performance to that of past periods. Employees&amp;apos; income tax may be based on total earnings in the tax year to date.
+
+YTD describes the return so far this year. For example: the year to date (ytd) return for the stock is 8%. This means from January 1 of the current year to date, stock has appreciated by 8%.
+
+Another example: the year to date (ytd) rental income of a property (whose Fiscal Year End is March 31, 2009) is $1000.00 as of June 30, 2008.  This means that the property brought in $1000.00 of rental income during the period April 1 through June 30, 2008 (= the ytd period for the property).
+
+Comparing YTD measures can be misleading if not much of the year has occurred, or the date is not clear.  YTD measures are more sensitive to early changes than late changes.  Contrast YTD with the concept of 12-months-ending (or [[Year-ending]]), which are more resistant to seasonal influences.
+
+Example: to calculate Year-To-Date Invoicing for a company, invoice totals for each previous month of the current year are added to total invoices for the current month to date.
+
+&amp;lt;pre&amp;gt;
+
+Example: YTD Invoicing report for May 3
+
+  January Invoices-----$ 35,000
+  February Invoices----  40,000
+  March Invoices-------  25,000
+  April Invoices-------  45,000
+  May Invoices---------   5,000
+                        _______
+
+  YTD Invoices          150,000
+
+Alternate method:
+
+  1st quarter Invoices-----$ 100,000
+  April Invoices-----------   45,000
+  May Invoices-------------    5,000
+                             _______
+
+  YTD Invoices               150,000
+
+&amp;lt;/pre&amp;gt;
+
+tax due as of the end of week 33 of the tax year is calculated on total pay from the beginning of week 1 until the end of week 33; tax payable for that week will be this total tax minus tax already paid.
+* [[Quarter-To-Date]] (QTD)
+* [[Month-To-Date]] (MTD)
+* [[Year-ending]]
+* [[Moving Annual Total]] (MAT)
+
+==External links==
+* [http://www.investopedia.com/terms/y/ytd.asp Investopedia Definition]
+* [http://www.investorwords.com/5374/YTD.html Investorwords Definition]
+
+{{DEFAULTSORT:Year-To-Date}}
+[[Category:Business terms]]
+
+
+{{Business-term-stub}}
+{{Accounting-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

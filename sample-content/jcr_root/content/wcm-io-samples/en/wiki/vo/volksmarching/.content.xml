@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Volksmarching"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Volksmarching" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=October 2009}}
+&amp;apos;&amp;apos;&amp;apos;Volksmarching&amp;apos;&amp;apos;&amp;apos; (from German &amp;apos;&amp;apos;{{Lang|de|Volksmarsch}}&amp;apos;&amp;apos; meaning &amp;quot;peoples&amp;apos; march&amp;quot;) is a form of non-competitive fitness walking that developed in Europe. Participants typically walk {{convert|10|km|mi|sp=us}} on an outdoor path. Volksmarching associations offer incentive awards (usually pins and patches) for collecting a certain number of events. Volksmarching participants enjoy recording distances and event participation in international record books. Less frequently used terms are &amp;apos;&amp;apos;{{Lang|de|Volkswanderung}}&amp;apos;&amp;apos; and &amp;apos;&amp;apos;Volkswalk&amp;apos;&amp;apos;.
+
+==External links==
+* [http://www.ava.org/index.htm American Volkssport Association]
+* [http://www.ivv-web.org/ Internationaler Volkssportverband – IVV (International Federation of Popular Sports)]
+* [http://www.walks.ca/CVF/Home.html The Canadian Volkssport Federation (CVF)]
+* [http://www.bwf-ivv.org.uk/ British Walking Association]
+* [http://www.dvv-wandern.de/ German Volkssportverband]
+
+{{Germany-stub}}
+
+[[Category:German society]]
+[[Category:Walking]]
+[[Category:Hiking]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Fatigue"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Fatigue" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Wiktionary|fatigue}}
+&amp;apos;&amp;apos;&amp;apos;Fatigue&amp;apos;&amp;apos;&amp;apos; may refer to:
+*[[Fatigue (material)]], structural damage from repeated loading
+*[[Fatigue (medical)]], a state of physical and/or mental weakness
+*[[Fatigue (safety)]], safety implications of tiredness
+*Fatigue (military duty), work of a non-military nature such as construction of fortifications or clean up of grounds
+*[[Fatigues (uniform)]] or battledress, a military uniform
+*[[Battle fatigue]],  a reaction to combat stress
+*[[Chronic fatigue syndrome]], a medical disorder
+*[[Compassion fatigue]], characterized by a gradual lessening of compassion
+*[[Information fatigue]], impairment caused by excessive information
+*[[Muscle fatigue]], the decline in ability of a muscle to generate force
+*[[Voter fatigue]], public apathy about elections
+
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

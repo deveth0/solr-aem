@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Radio Luxembourg"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Radio Luxembourg" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Radio Luxembourg&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* [[Radio Luxembourg (English)]], a commercial radio station in English, begun in 1933 and closed in 1992
+* Radio Luxembourg, now known as [[RTL (French radio)|RTL]], a French-language commercial radio station begun in 1933
+* Radio Luxemburg, now [[RTL Radio]], a German-language station begun after World War II
+* [[Radio 1212]], an Allied black propaganda radio station operated from 1944 to 1945
+* [[Radio Luxembourg (DRM)]], a commercial station begun in 2005
+
+__NOTOC__
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ecash"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ecash" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{for|the anonymous electronic currency|eCache}}
+{{lowercase}}
+
+Using cryptography, &amp;apos;&amp;apos;&amp;apos;ecash&amp;apos;&amp;apos;&amp;apos; was introduced by [[David Chaum]] as an anonymous [[electronic money|electronic cash]] system. He used [[blind signature]]s to achieve unlinkability between withdrawal and spend transactions. Depending on the properties of the payment transactions, one distinguishes between on-line and off-line [[electronic cash]]. The first off-line e-cash system was proposed by Chaum and Naor.&amp;lt;ref&amp;gt;[http://blog.koehntopp.de/uploads/chaum_fiat_naor_ecash.pdf Chaum, D., Fiat, A., and Naor, M. 1990. Untraceable electronic cash]. In Proceedings on Advances in Cryptology (Santa Barbara, California, United States). S. Goldwasser, Ed. Springer-Verlag New York, New York, NY, 319-327.&amp;lt;/ref&amp;gt; Like the first on-line method, it is based on [[RSA (algorithm)|RSA]] [[blind signature]]s.
+
+In the United States, only one bank implemented ecash, the Mark Twain bank and the system was dissolved in 1997 after the bank was purchased by [[Mercantile Bank]], a large issuer of credit cards.&amp;lt;ref&amp;gt;[http://news.cnet.com/2100-1001-215150.html DigiCash loses U.S. toehold]&amp;lt;/ref&amp;gt; Similar to credit cards, the system was free to purchasers, while merchants paid a transaction fee.
+
+In Australia ecash was implemented by [[St.George Bank]], but the transactions were not free to purchasers. In June 1998, ecash became available through Credit Suisse in Switzerland. It was also available from Deutsche Bank in Germany, Bank Austria, Finland&amp;apos;s [[Nordea|Merita Bank]]/[[EUnet]],&amp;lt;ref&amp;gt;{{Cite conference
+| last = Salonharju
+| first = Inkeri
+| title = Elektra-projektin loppuraportti
+| accessdate = 2013-05-18
+| url = http://elektra.helsinki.fi/raportti/
+}}&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;{{Cite book
+| publisher = Werner Söderström Osakeyhtiö
+| isbn = 951-0-21704-2
+| last = Järvinen
+| first = Petteri
+| title = Internet - muutostekijä
+| year = 1996
+}}&amp;lt;/ref&amp;gt; Sweden&amp;apos;s Posten, and Den norske Bank of Norway.{{citation needed|date=September 2012}}
+
+&amp;quot;ecash&amp;quot; was a trademark of [[DigiCash]], which went bankrupt in 1998, and was sold to eCash Technologies, which was acquired by [[InfoSpace]] in 2002{{citation needed|date=September 2012}}, currently know as [[Blucora]].
+
+==See also==
+* [[Electronic money]]
+
+==References==
+{{Reflist}}
+
+==Literature==
+* Schneier, Bruce. Applied Cryptography, Second Edition, John Wiley &amp;amp; Sons, 1996. ISBN 0-471-11709-9 (Chapter 6.4)
+*Richard A. Mollin: &amp;apos;&amp;apos;RSA and Public-key Cryptography&amp;apos;&amp;apos;. p.&amp;amp;nbsp;143-148. 2002, ISBN 1-58488-338-3, ISBN 978-1-58488-338-8.
+*[[Shafi Goldwasser|Goldwasser, S.]] and [[Mihir Bellare|Bellare, M.]] [http://cseweb.ucsd.edu/~mihir/papers/gb.html &amp;quot;Lecture Notes on Cryptography&amp;quot;]. Summer course on cryptography, MIT, 1996-2001. pp.&amp;amp;nbsp;233.
+
+==External links==
+* {{Wayback |url=http://digicash.com/publish/ecash_intro/ecash_intro.html |title=An introduction to ecash |date=19971009044558}}
+*[http://finney.org/~hal/chcash2.html &amp;quot;Detecting Double-Spending&amp;quot;] -([[Hal Finney (cypherpunk)|Hal Finney]]&amp;apos;s introduction to Chaumian digital cash)
+
+[[Category:Banking technology]]
+[[Category:Cryptographic protocols]]
+[[Category:Digital technology]]
+[[Category:E-commerce]]
+[[Category:Electronic currencies]]
+[[Category:Financial cryptography]]
+[[Category:Payment systems]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Köppen"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Köppen" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Köppen&amp;apos;&amp;apos;&amp;apos; is a German surname. Notable people with the surname include:
+
+* [[Bernd Köppen]] (born 1951), German pianist and composer
+* [[Edlef Köppen]] (1893–1939), German author and radio editor
+* [[Friedrich Köppen]] (1775–1858), German philosopher
+* [[Jan Köppen]] (born 1983), German television presenter and DJ
+* [[Jens Köppen]] (born 1966), German rower
+* [[Kerstin Köppen]] (born 1967), German rower
+* [[Wladimir Köppen]] (1846–1940), German geographer, meteorologist, climatologist and botanist
+
+==See also==
+* [[Koeppen]]
+* [[Koppen]]
+
+{{surname|Köppen}}
+{{DEFAULTSORT:Koppen}}
+[[Category:German-language surnames]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

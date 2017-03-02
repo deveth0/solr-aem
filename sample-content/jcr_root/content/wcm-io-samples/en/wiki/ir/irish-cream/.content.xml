@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Irish cream"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Irish cream" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{unreferenced|date=July 2011}}
+{{For|the novel of the same name|Irish Cream (novel)}}
+[[Image:Carolans.jpg|thumb|right|Carolans Irish Cream]]
+
+&amp;apos;&amp;apos;&amp;apos;Irish cream&amp;apos;&amp;apos;&amp;apos; is a [[cream liqueur]] based on [[Irish whiskey]], [[cream]], and other ingredients such as [[coffee]], which can be served on its own or used in [[mixed drink]]s or as part of a [[Shooter (mixed drink)|shot]] or a whole shot. Irish cream is very popular in the [[United Kingdom]], [[Canada]], and the [[United States]].
+
+Irish cream typically has between 15 to 20% [[alcohol by volume]] (ABV). Some notable brands of Irish cream are [[Baileys Irish Cream|Baileys]], [[Carolans]] and [[Saint Brendan&amp;apos;s]].
+
+The five largest manufacturers of Irish Cream Liqueurs in Ireland are (in no particular order) Diageo, Niche Drinks, First Ireland Spirits, Terra, and Merry&amp;apos;s.
+
+==Mixing==
+It is usually served [[Ice cube|on the rocks]] as a moderately strong beverage on its own, but is often mixed stronger by adding more [[whiskey]] or sometimes [[bourbon whiskey|bourbon]], which complements the Irish Whiskey used in brewing. Coffee liqueur such as [[Kahlúa]] and many caramel liqueurs are also used. Baileys is a common addition to [[White Russian (cocktail)|White Russians]], due to its creamy flavour.
+
+==Home recipes==
+Some recipes for Irish cream liqueur have been published, which use various combinations of Irish whiskey, cream, coffee (sometimes, and usually optional), sweetened [[condensed milk]] and [[evaporated milk]]. Many have significantly less alcohol by volume than the commercial brands.
+
+==References==
+{{reflist|2}}
+
+[[Category:Cream liqueurs]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

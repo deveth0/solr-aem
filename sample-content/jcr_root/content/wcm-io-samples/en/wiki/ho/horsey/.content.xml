@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Horsey"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Horsey" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Horsey&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* [[Horse]], in baby-talk
+==Places==
+The name comes from Anglo-Saxon &amp;quot;hors-eg&amp;quot; and means horse-island.
+* [[Horsey, Norfolk]]
+* [[Horsey, Somerset]]
+* [[Horsey Down]], near [[Lechlade]]
+* [[Horsey Island]], near Walton-on-the-Naze in Essex
+* [[Horsey Island, Devon]], a nature reserve near [[Braunton]]
+* [[Horsea Islands]], two islands in [[Portsmouth]] harbour
+* [[Horsey Mere]], one of the Norfolk Broads in the east of England
+* [[Horse Eye]], on the Pevensey Levels near [[Eastbourne]]
+
+==People==
+* [[David Horsey]], editorial cartoonist
+* [[David Horsey (golfer)]], professional golfer
+* [[Edward Horsey]], conspirator against Queen Mary
+* [[John Horsey (died 1546)]] (1489-1546), knight of Henry VIII
+* [[John Horsey (died 1564)]] (1510-1564/65), knight of Henry VIII, son of above
+* [[Michael Horsey]], Philadelphia politician
+* [[Outerbridge Horsey (senator)]] (1777-1842), lawyer and U.S. Senator from Delaware
+
+== Music ==
+* [[Horsey (album)]], album by [[Current 93]]
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

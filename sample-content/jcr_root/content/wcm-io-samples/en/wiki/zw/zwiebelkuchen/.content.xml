@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Zwiebelkuchen"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Zwiebelkuchen" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{no footnotes|date=February 2013}}
+{{Infobox prepared food
+| name             = Zwiebelkuchen
+| image            = [[File:Zwiebelkuchen 1.JPG|250px]]
+| caption          = Zwiebelkuchen in a [[sheet pan]]
+| alternate_name   =
+| country          = [[Germany]]
+| region           =
+| creator          =
+| course           =
+| type             = [[Pie]]
+| served           =
+| main_ingredient  = Yeast or leavened [[dough]], [[onion]]s, [[bacon]], [[cream]], [[caraway]] seeds
+| variations       =
+| calories         =
+| other            =
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Zwiebelkuchen&amp;apos;&amp;apos;&amp;apos;, which literally means &amp;apos;&amp;apos;onion cake&amp;apos;&amp;apos; in the [[German language]], is either a one-crust [[pie]] made of steamed [[onion]]s, diced [[bacon]], [[cream]], and [[caraway]] seeds on a yeast dough or a leavened dough that is particularly popular in the German wine-growing regions mostly of [[Rhenish Hesse]], the [[Palatinate (region)|Palatinate]], [[Franconia]], [[Baden]] and [[Swabia]] (a similar pie called [[Flammkuchen]] is also eaten in [[Alsace]]), or a [[quiche]] variant in [[Switzerland]], traditionally eaten in [[Basel]] during the [[Carnival of Basel|Carnival]] and in [[Bern]] for the [[Zibelemärit]].
+
+==External links==
+* [http://www.andreas-heidemann.de/zwiebelkuchen.html Recipe for a &amp;apos;&amp;apos;Mainzer Zwiebelkuchen&amp;apos;&amp;apos; (German)]
+* [http://de.wikibooks.org/wiki/Kochbuch/_Zwiebelkuchen Recipe for a Quiche-like Zwiebelkuchen (German)]
+
+[[Category:German cuisine]]
+[[Category:Swiss cuisine]]
+
+{{bread-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

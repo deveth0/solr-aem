@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:Libel"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:Libel" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{legal policy|WP:LIBEL|WP:LBL|text=This page is also a [[Wikimedia Foundation|Wikimedia]] policy, established by [[Jimmy Wales]] and endorsed by the Foundation as necessary for the operation of the sites under its jurisdiction.}}
+{{nutshell|delete [[Defamation|libelous]] material when it has been identified.}}
+{{legal policy list}}
+The goal of [[Wikipedia]] is to create an [[encyclopedia|encyclopedic]] information source adhering to a [[Wikipedia:Neutral point of view|neutral point of view]], with all information being [[reference]]d through the [[citation]] of reliable [[published]] [[source text|sources]], so as to maintain a standard of [[Wikipedia:Verifiability|verifiability]].&amp;lt;ref name=&amp;quot;Wales_2006-05-16_WikiEN-l&amp;quot; /&amp;gt;
+
+It is the responsibility of all contributors to ensure that material posted on [[Wikipedia]] is not [[Defamation|defamatory]].
+
+It is Wikipedia [[policy]] to delete [[Defamation|libelous]] material when it has been identified.
+==Subject guidelines==
+If you believe that you are the subject of a libelous statement on Wikipedia, please:
+* &amp;apos;&amp;apos;&amp;apos;[mailto:info-en-q@wikipedia.org E-mail]&amp;apos;&amp;apos;&amp;apos; us with details of the article and error.
+
+==See also==
+*[[Wikipedia:Contact us]]
+*[[Wikipedia:No legal threats]]
+*[[Defamation|Slander and libel]]
+*[[Wikipedia:Biographies of living persons]]
+*[[Wikipedia:Legal disclaimer|Wikipedia does not give legal advice]]
+*[[Wikipedia:An article about yourself is nothing to be proud of]]
+
+==References==
+{{Reflist|refs=
+
+&amp;lt;!-- Order refs by Author, published, publisher --&amp;gt;
+&amp;lt;ref name=&amp;quot;Wales_2006-05-16_WikiEN-l&amp;quot;&amp;gt;{{cite web
+  | url = http://lists.wikimedia.org/pipermail/wikien-l/2006-May/046440.html
+  | title = [WikiEN-l] Zero information is preferred to misleading or false information
+  | last = Wales
+  | first = Jimmy
+  | authorlink = Jimmy Wales
+  | work = lists.wikimedia.org
+  | publisher = WikiEN-l
+  | date = 2006-05-16
+  | accessdate = 2010-05-21
+  | archiveurl = http://www.webcitation.org/5ptOvY3lx
+  | archivedate = 2010-05-21
+  | quote = […] It should be removed, aggressively, unless it can be sourced.  This is true of all information, but it is particularly true of negative information about living persons. […]
+ }}&amp;lt;/ref&amp;gt;
+
+}}
+
+==External links==
+* [http://www.bbc.co.uk/dna/collective/A1183394 How to avoid libel and defamation] (2004)—Information from the [[BBC]] for contributors to its defunct community website, &amp;apos;&amp;apos;Action Network&amp;apos;&amp;apos;, based on the English law of libel, which differs considerably from U.S. law. Note that [[Victoria Gillick]] actually &amp;apos;&amp;apos;&amp;apos;lost&amp;apos;&amp;apos;&amp;apos; her libel case, the reverse of what this claims. [http://www.telegraph.co.uk/news/uknews/1374961/Victoria-Gillick-broke-after-losing-libel-case.html Millward, David, &amp;apos;&amp;apos;Victoria Gillick &amp;apos;broke&amp;apos; after losing libel case&amp;apos;&amp;apos;, in &amp;apos;&amp;apos;The Telegraph&amp;apos;&amp;apos;, Nov. 20, 2000, 12:00AM GMT, section &amp;apos;&amp;apos;UK News&amp;apos;&amp;apos;], as accessed Feb. 1, 2011.
+* [http://www.csmonitor.com/2002/1219/p02s01-usju.html Once it&amp;apos;s on the Web, whose law applies?]
+* [http://www.internetpolicy.net/jurisdiction/ Internet policy – Jurisdiction]
+* [http://indigo.ie/~kwood/defamation.htm Defamation law in Ireland]
+* [http://news.com.com/Is+Wikipedia+safe+from+libel+liability/2100-1025_3-5984880.html &amp;quot;Is Wikipedia safe from libel liability?&amp;quot; by Daniel Terdiman] (from CNET)
+* [http://www.law.buffalo.edu/Academics/courses/629/computer_law_policy_articles/CompLawPapers/holland.htm Libel on the Internet: An International Problem]
+* [http://www.chillingeffects.org/defamation/faq.cgi Defamation FAQ at Chilling Effects Clearinghouse]
+
+__NOTOC__ __NOEDITSECTION__
+
+[[pt:Wikipedia:Libelo]]
+
+[[Category:Wikipedia legal policies]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

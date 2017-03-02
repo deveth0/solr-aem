@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Bebung"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Bebung" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{no footnotes|date=March 2013}}
+:&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Bebung&amp;apos;&amp;apos;&amp;apos; may also refer to a musical composition by [[Michael Jarrell]].&amp;apos;&amp;apos;
+[[Image:Clavicórdio.jpg|thumb|right|260px|A clavichord]]
+[[Image:Clavichord action.svg|thumb|280px|Clavichord function]]
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Bebung&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; (German: &amp;apos;&amp;apos;a trembling&amp;apos;&amp;apos;; {{IPA-de|ˈbeːbʊŋ|}}) is a type of [[vibrato]] executed on the [[clavichord]].
+
+When a clavichord key is pressed, a small metal [[tangent (clavichord)|tangent]] strikes a string and remains in contact with it for as long as the key is held down. By applying a rocking pressure up and down the key with the finger, a performer can slightly alter the vibrating length of the string itself, producing a vibrato quality known as &amp;apos;&amp;apos;Bebung&amp;apos;&amp;apos;. While the vibrato on fretless [[string instruments]] such as the violin typically oscillates in [[pitch (music)|pitch]] both above and below the  nominal note, clavichord &amp;apos;&amp;apos;Bebung&amp;apos;&amp;apos; can only produce pitches above the note.
+
+&amp;apos;&amp;apos;Bebung&amp;apos;&amp;apos; was often not explicitly indicated in [[sheet music]]; the assumption was that, like other [[ornament (music)|ornaments]], &amp;apos;&amp;apos;Bebung&amp;apos;&amp;apos; was to be applied at the performer&amp;apos;s discretion. Where &amp;apos;&amp;apos;Bebung&amp;apos;&amp;apos; is indicated, it appears as a series of dots written above or below a note, with the number of dots indicating the number of movements of the finger. For example, &amp;lt;score&amp;gt;
+{ \time 4/2 \override Score.TimeSignature #&amp;apos;stencil = ##f \override TextScript #&amp;apos;avoid-slur = #&amp;apos;inside \override TextScript #&amp;apos;outside-staff-priority = ##f \slurUp \hideNotes f&amp;apos;&amp;apos;4( \unHideNotes f&amp;apos;2^\markup { \halign #0 . . . . } \hideNotes f&amp;apos;&amp;apos;4) }&amp;lt;/score&amp;gt; &amp;lt;ref&amp;gt;Grove, George (ed.), [[s:A Dictionary of Music and Musicians/Bebung|&amp;apos;&amp;apos;A Dictionary of Music and Musicians&amp;apos;&amp;apos;, vol. i, p.160&amp;apos;&amp;apos;b&amp;apos;&amp;apos;]]&amp;lt;/ref&amp;gt;.
+
+==References==
+* {{cite book |last=Brauchli |first=Bernard |title=The Clavichord |year=1998 |publisher=Cambridge University Press |location= |language= |isbn=0-521-63067-3 |pages=267–74 }}
+
+{{reflist}}
+
+[[Category:Musical techniques]]
+[[Category:Ornamentation]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

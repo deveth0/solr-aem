@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Gether"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Gether" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;According to the [[Table of Nations]] in the [[Book of Genesis]] in the [[Hebrew Bible]] &amp;apos;&amp;apos;&amp;apos;Gether&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;Aather&amp;apos;&amp;apos; in [[Arabic language|Arabic]]) was the third son of [[Aram, son of Shem]].
+
+In Arabic traditions, he became the father of [[Thamud]], whose brother the [[Qur&amp;apos;an]] calls [[Salih]].
+
+In Josephus, he is ancestor of the [[Bactria]]ns, but [[Jerome]] (c. 390) and [[Isidore of Seville]] (c. 635) make him ancestor of the [[Acarnania]]ns or [[Caria]]ns.
+
+[[Category:Torah people]]
+
+{{Tanakh-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

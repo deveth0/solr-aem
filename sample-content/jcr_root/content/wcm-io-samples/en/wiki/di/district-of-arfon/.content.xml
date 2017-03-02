@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="District of Arfon"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="District of Arfon" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Use dmy dates|date=July 2012}}
+{{Use British English|date=July 2012}}
+{{Infobox historic subdivision|
+   |Name=              Arfon
+   |HQ=                [[Caernarfon]]
+   |Status=            [[Districts of Wales|Borough]]
+   |Start=             1974
+   |End=               1996
+   |Replace=           [[Gwynedd]]
+   |Civic=             [[File:Arfon logo.png|100px|The logo of Arfon Borough Council]]
+   |Map=[[File:WalesArfon1974.png|150px]]
+}}
+&amp;apos;&amp;apos;&amp;apos;Arfon&amp;apos;&amp;apos;&amp;apos; was one of five [[Districts of Wales|district]]s of [[Gwynedd]], [[Wales]], from 1974 to 1996.
+
+It was created by the [[Local Government Act 1972]] on 1 April 1974 from part of the [[Administrative counties of Wales|administrative county]] of [[Caernarfonshire]], namely  the [[municipal borough]]s of [[Bangor, Wales|Bangor]] and [[Caernarfon]], the [[Bethesda, Wales|Bethesda]] [[Urban district (Great Britain and Ireland)|urban district]], the [[rural district]]s of [[Ogwen Rural District|Ogwen]], and the [[Gwyrfai Rural District]], less the [[civil parish|parishes]] of [[Beddgelert]] and [[Clynnog]].
+
+It was abolished as a district on 1 April 1996, when Gwynedd was reconstituted as a unitary authority.  The area remains in use for an [[area committee]] of [[Gwynedd Council]].
+
+==Etymology==
+&amp;apos;&amp;apos;Arfon&amp;apos;&amp;apos; means &amp;quot;opposite Anglesey&amp;quot; (&amp;apos;Ar&amp;apos; + &amp;apos;Fôn&amp;apos; which is the [[soft mutation]] of &amp;apos;Môn&amp;apos;, the Welsh name for Anglesey). The name is ancient and has been used to designate the area since early medieval times. In the Middle Ages [[Cantref Arfon]] was an administrative unit of the [[Kingdom of Gwynedd]]. Arfon survived as a geocultural name (Welsh: &amp;apos;&amp;apos;bro&amp;apos;&amp;apos;) over the centuries and remains in use today. It is also sometimes found as a personal name (e.g. [[Arfon Griffiths]]).
+
+{{Wales Districts}}
+
+{{coord|53|05|N|4|00|W|region:GB_type:adm1st_source:GNS-enwiki|display=title}}
+
+{{DEFAULTSORT:Arfon (District)}}
+[[Category:Districts of Gwynedd]]
+[[Category:Former subdivisions of Wales]]
+[[Category:Districts of Wales abolished in 1996]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

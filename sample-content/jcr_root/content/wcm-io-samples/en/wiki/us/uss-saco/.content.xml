@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="USS Saco"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="USS Saco" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Italic title prefixed|3}}
+Three ships in the United States Navy have been named &amp;apos;&amp;apos;&amp;apos;USS &amp;apos;&amp;apos;Saco&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; for the [[Saco River]] and for the [[Saco, Maine]].
+
+* The first [[USS Saco (1863)|&amp;apos;&amp;apos;Saco&amp;apos;&amp;apos;]] was a gunboat launched in 1863, served in the Civil War and sold in 1883.
+* The second [[USS Saco (YT-31)|&amp;apos;&amp;apos;Saco&amp;apos;&amp;apos; (YT-31)]] was a steam tug, built in 1912. She was acquired by the Navy in 1918 and served as a yard tug until 1927.
+* The third [[USS Saco (YTB-796)|&amp;apos;&amp;apos;Saco&amp;apos;&amp;apos; (YTB-796)]] was a yard tug launched into service in 1968 and struck from the Naval Vessel Register in 2005, after serving in Guam.
+
+{{Shipindex}}
+
+{{DEFAULTSORT:Saco}}
+[[Category:United States Navy ship names]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

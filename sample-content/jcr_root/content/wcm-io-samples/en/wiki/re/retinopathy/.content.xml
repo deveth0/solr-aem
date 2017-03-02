@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Retinopathy"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Retinopathy" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox disease |
+  Name        = Retinopathy |
+  ICD10       = {{ICD10|H|35||h|30}}-{{ICD10|H|35|2|h|30}} |
+  ICD9        = {{ICD9|362.0}}-{{ICD9|362.2}} |
+}}
+&amp;apos;&amp;apos;&amp;apos;Retinopathy&amp;apos;&amp;apos;&amp;apos; is due to persistent or acute damage to the [[retina]] of the [[Human eye|eye]]. Ongoing inflammation and vascular remodeling may occur over periods of time where the patient is not fully aware of the extent of the disease. Frequently, retinopathy is an [[ocular manifestation of systemic disease]] as seen in [[diabetes]] or [[hypertension]].&amp;lt;ref name=ao /&amp;gt;
+
+==Pathophysiology==
+Causes of retinopathy include but not limited to:
+* [[Diabetes mellitus]], which causes [[diabetic retinopathy]]
+* [[Arterial hypertension]], which causes [[hypertensive retinopathy]]
+* [[Retinopathy of prematurity]] due to prematurity of the newborn (under the 9 months of human pregnancy).
+* [[Radiation retinopathy]] due to exposure to ionizing radiation.
+* [[Solar retinopathy]] due to direct sunlight exposure.
+* [[Sickle cell disease]]
+* Retinal vascular disease such as retinal vein or artery occlusion.
+* Trauma, especially to the head, and several diseases may cause [[Purtscher&amp;apos;s retinopathy]]
+* Hyperviscosity-related retinopathy as seen in disorders which cause paraproteinemia
+Many types of retinopathy are proliferative resulting, most often, from [[neovascularization]] or the overgrowth of blood vessels. [[Angiogenesis]], the sprouting of new vessels is the hallmark precursor that may result in [[blindness]] or severe [[vision loss]] particularly if the [[macula]] becomes affected.&amp;lt;ref name=ao /&amp;gt;
+
+Retinopathy may rarely due to [[genetic diseases]] such as [[retinitis pigmentosa]]. [[ciliopathy]] is another rare cause.&amp;lt;ref name=&amp;quot;badano2006&amp;quot;/&amp;gt;
+
+Retinopathy is diagnosed by an [[ophthalmologist]] during eye examination. Treatment depends on the cause of the disease.
+
+==Treatment==
+Treatment is based on the cause of the retinopathy and may include laser therapy to the retina. In recent years targeting the pathway controlling vessel growth or angiogenesis has been promising. [[Vascular endothelial growth factor]] (VEGF) seems to play a vital role in promoting neovascularization. Using anti-VEGF drugs (antibodies to sequester the growth factor), researches have shown significant reduction in the extent of vessel outgrowth. Several anti-VEGF treatments are currently under review in both clinical trials and in preclinical labs.&amp;lt;ref name=ao /&amp;gt;
+
+==See also==
+*[[List of eye diseases and disorders]]
+*[[List of systemic diseases with ocular manifestations]]
+
+==References==
+{{Reflist|refs=
+&amp;lt;ref name=ao&amp;gt;{{cite book|last=American Academy of Ophthalmology|title=Retina and vitreous|year=2012|isbn=9781615251193|pages=271|edition=2011-2012}}&amp;lt;/ref&amp;gt;
+&amp;lt;ref name=&amp;quot;badano2006&amp;quot;&amp;gt;{{cite journal |author=Badano JL, Mitsuma N, Beales PL, Katsanis N |title=The ciliopathies: an emerging class of human genetic disorders |journal=Annu Rev Genomics Hum Genet |volume=7 |issue= |pages=125–48 |year=2006 |pmid=16722803|doi= 10.1146/annurev.genom.7.080505.115610}}&amp;lt;/ref&amp;gt;
+}}
+
+[[Category:Disorders of choroid and retina]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

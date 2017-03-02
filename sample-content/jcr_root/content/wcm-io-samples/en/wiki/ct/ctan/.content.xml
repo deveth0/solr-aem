@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="CTAN"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="CTAN" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;CTAN&amp;apos;&amp;apos;&amp;apos; (an [[acronym]] for &amp;quot;&amp;apos;&amp;apos;&amp;apos;Comprehensive TeX Archive Network&amp;apos;&amp;apos;&amp;apos;&amp;quot;) is the authoritative place where [[TeX]] related material and [[software]] can be found for download. Repositories for other projects, such as the [[MiKTeX]] distribution of TeX, constantly [[Mirrored server|mirror]] most of CTAN.
+
+The Perl archive, [[CPAN]], is based on the CTAN model.
+
+==History==
+Before CTAN there were a number of people who made some TeX materials available for public download, but there was no systematic collection. At a podium discussion that Joachim Schrod organized at the 1991 [[EuroTeX]] conference, the idea arose to bring together the separate collections. (Joachim was interested in this topic because he is active in the TeX community since 1983 and ran one of the largest [[ftp]] servers in Germany at that time.)
+
+CTAN was built in 1992, by [[Rainer Schöpf]] and Joachim Schrod in Germany, [[Sebastian Rahtz]] in the [[UK]], and [[George Greenwade]] in the [[U.S.]] (George came up with the name). Today, there are still only two people who maintain the archives and the TeX catalogue updates: Rainer and [[Robin Fairbairns]]. The site structure was put together at the start of 1992 – Sebastian did the main work – and synchronized at the start of 1993. The [[TeX Users Group]] provided a framework, a Technical Working Group, for this task&amp;apos;s organization. CTAN was officially announced at the [[EuroTeX]] conference at [[Aston University]], 1993.
+
+The English site has been stable since the beginning, but both the American and the German sites have moved thrice. The American site was first at [[Sam Houston State University]] under George Greenwade, in 1995 it moved to [[UMass Boston]] where it was run by [[Karl Berry]]. In 1999 it moved to [[Saint Michael&amp;apos;s College]] in [[Colchester, Vermont|Colchester]], [[Vermont]]. There it was announced to go off-line in the end of January 2011.&amp;lt;ref&amp;gt;Jim Hefferon. &amp;apos;&amp;apos;[https://groups.google.com/group/comp.text.tex/browse_frm/thread/83229dc961b35827/70601d7401621014?hl=de&amp;amp;lnk=gst&amp;amp;q=tug.ctan.org#70601d7401621014 tug.ctan.org offline]&amp;apos;&amp;apos;. Posting. comp.text.tex, 2011-01-30. Retrieved 2013-01-19.&amp;lt;/ref&amp;gt; Since January 2013, a mirror has been hosted by the [[University of Utah]]&amp;lt;ref&amp;gt;Steve Peter. [http://tug.org/pipermail/texhax/2013-January/020025.html &amp;apos;&amp;apos;January 2013 TUG news&amp;apos;&amp;apos;].  Posting. texhax, 2013-01-19. Retrieved 2013-01-21.&amp;lt;/ref&amp;gt; (no upload node). The German site was first at the [[University of Heidelberg]], operated by Rainer; in 1999 it moved to the [[University of Mainz]], also operated by Rainer; 2002 to the [[University of Hamburg]], operated by Reinhard Zierke; finally in 2005 it moved to a commercial hosting company since the amount of traffic got too high to get sponsored by a university. The German site is subsidized by DANTE, the [[Deutschsprachige Anwendervereinigung TeX]].
+
+Today, the main CTAN nodes serve downloads of more than 6 TB per month, not counting its 94 mirror sites worldwide.
+
+==See also==
+* [[CPAN]]
+* [[CRAN]]
+* [[CEAN]]
+
+==External links==
+* [http://www.ctan.org/ CTAN]
+* [http://dante.ctan.org/tex-archive/help/Catalogue/index.html The TeX Catalogue Online]
+
+== References ==
+&amp;lt;references /&amp;gt;
+
+&amp;lt;!-- Interwikis found using http://vs.aka-online.de/globalwpsearch/ --&amp;gt;
+
+{{TeX navbox}}
+
+[[Category:TeX]]
+[[Category:Archive networks]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

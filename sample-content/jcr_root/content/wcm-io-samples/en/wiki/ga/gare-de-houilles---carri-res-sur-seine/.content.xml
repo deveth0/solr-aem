@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Gare de Houilles – Carrières-sur-Seine"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Gare de Houilles – Carrières-sur-Seine" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{unreferenced|date=January 2013}}
+
+[[File:Gare Houilles 4.JPG|thumb|Platforms]]
+&amp;apos;&amp;apos;&amp;apos;Houilles – Carrières-sur-Seine&amp;apos;&amp;apos;&amp;apos; is a railway station in suburban [[Paris]]. It is situated on the [[Paris–Le Havre railway]]. Trains arrive at the station from [[Gare Saint-Lazare]] and the [[RER A|RER]].
+
+{{s-start}}
+{{s-rail|title=SNCF}}
+{{s-line|system=Transilien|line=J|previous=Saint-Lazare|next=Poissy|type=C|type2=V}}
+{{s-line|system=Transilien|line=L|previous=Nanterre-Université|next=Sartrouville|type2=C}}
+{{s-line|system=RER|line=A|previous=Sartrouville|next=Nanterre-Préfecture|type=a3a5|type2=A4}}
+{{s-end}}
+
+==See also==
+{{commons category|Gare de Houilles - Carrières-sur-Seine}}
+* [[List of stations of the Paris RER]]
+
+{{coord|48.921|N|2.184|E|display=title|source:nlwiki}}
+
+{{DEFAULTSORT:Houilles}}
+[[Category:Railway stations in Île-de-France]]
+[[Category:Buildings and structures in Yvelines]]
+
+
+{{IledeFrance-railstation-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

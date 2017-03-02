@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Category 5"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Category 5" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Category 5&amp;apos;&amp;apos;&amp;apos; may refer to:
+*[[Category 5 (album)|&amp;apos;&amp;apos;Category 5&amp;apos;&amp;apos; (album)]], an album from rock band, FireHouse
+*[[Category 5 cable]], used for carrying data
+*[[Category 5 computer virus]], as classified by Symantec Corporation
+*[[Category 5 Records]], a record label
+*Category 5 Tropical Cyclone, on any of the [[Tropical cyclone scales]]
+** Any of several hurricanes listed at [[List of Category 5 Atlantic hurricanes]] or [[List of Category 5 Pacific hurricanes]]
+*Category 5 Pandemic, on the [[Pandemic Severity Index]]
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

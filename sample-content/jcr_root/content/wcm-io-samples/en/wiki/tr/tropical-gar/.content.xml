@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Tropical gar"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Tropical gar" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Taxobox
+| name = Tropical Gar
+| image = PuertoAristaSanctuary04.JPG
+| regnum = [[Animal]]ia
+| phylum = [[Chordata]]
+| classis = [[Actinopterygii]]
+| ordo = [[Lepisosteiformes]]
+| familia = [[Lepisosteidae]]
+| genus = &amp;apos;&amp;apos;[[Atractosteus]]&amp;apos;&amp;apos;
+| species = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;A. tropicus&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+| binomial = &amp;apos;&amp;apos;Atractosteus tropicus&amp;apos;&amp;apos;
+| binomial_authority = [[Theodore Gill|T. N. Gill]], 1863
+}}
+The &amp;apos;&amp;apos;&amp;apos;tropical gar&amp;apos;&amp;apos;&amp;apos;, &amp;apos;&amp;apos;Atractosteus tropicus&amp;apos;&amp;apos;, is a fish found in freshwaters from southern [[Mexico]] to [[Costa Rica]], reported to reach lengths of up to 1.25 m in the wild (albeit often much smaller in captivity). The heaviest individual known massed {{convert|2.89|kg|lb}}. The tropical gar looks very similar to the [[longnose gar]] in color and markings, but can be distinguished by its shorter, broader snout. The tropical gar&amp;apos;s diet consists mainly of [[cichlid]]s and other [[fish]].
+
+==References==
+* {{ITIS |id=571690 |taxon=Atractosteus tropicus |accessdate=24 January 2006}}
+* {{FishBase_species|genus=Atractosteus|species=tropicus|year=2005|month=10}}
+
+[[Category:Lepisosteidae]]
+
+{{Actinopterygii-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

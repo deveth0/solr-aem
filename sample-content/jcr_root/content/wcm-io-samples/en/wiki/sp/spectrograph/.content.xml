@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Spectrograph"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Spectrograph" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{MergeTo|Spectrometer|date=August 2012}}
+[[File:Solar Spectrograph 2, Ondřejov Astronomical.jpg|thumb|right|Horizontal Solar Spectrograph at the Czech Astronomical Institute in Ondřejov, Czech Republic]]
+
+A &amp;apos;&amp;apos;&amp;apos;spectrograph&amp;apos;&amp;apos;&amp;apos;  is an instrument that separates an incoming wave into a [[frequency spectrum]]. There are several kinds of machines referred to as &amp;apos;&amp;apos;spectrographs&amp;apos;&amp;apos;, depending on the precise nature of the waves. The term was first used in 1884.
+
+==Stellar &amp;amp; solar spectrograph==
+The first spectrographs used [[photographic paper]] as the detector. The star [[stellar classification|spectral classification]] and discovery of the [[main sequence]], [[Hubble&amp;apos;s law]] and the [[Galaxy morphological classification|Hubble sequence]] were all made with spectrographs that used photographic paper. The plant pigment [[phytochrome]] was discovered using a spectrograph that used living plants as the detector. More recent spectrographs use electronic detectors, such as [[Charge-coupled device|CCD]]s which can be used for both visible and [[ultraviolet|UV]] light. The exact choice of detector depends on the wavelengths of light to be recorded.
+
+The forthcoming [[James Webb Space Telescope]] will contain both a near-infrared spectrograph (NIRSpec) and a mid-infrared spectrometer (MIRI).
+
+==Echelle spectrograph==
+{{main|Echelle spectrograph}}
+An [[echelle spectrograph]] uses two [[diffraction grating]]s, rotated 90 degrees with respect to each other and placed close to one another. Therefore an entrance point and not a slit is used and a 2d CCD-chip records the spectrum. Usually one would guess to retrieve a spectrum on the diagonal, but when both gratings have a wide spacing and one is [[Blazed grating|blazed]] so that only the first order is visible and the other is blazed that a lot of higher orders are visible, one gets a very fine spectrum nicely folded onto a small common CCD-chip. The small chip also means that the collimating optics need not to be optimized for coma or astigmatism, but the [[spherical aberration]] can be set to zero.
+
+==See also==
+[[File:The KMOS spectrograph before shipping to Chile.jpg|thumb|The KMOS spectrograph.&amp;lt;ref&amp;gt;{{cite news|title=Powerful New VLT Instrument Arrives in Chile|url=http://www.eso.org/public/announcements/ann12071/|accessdate=11 October 2012|newspaper=ESO Announcement}}&amp;lt;/ref&amp;gt; ]]
+
+*[[Spectroscopy]]
+*[[Spectrometer]]
+*[[Long-slit spectroscopy]]
+*[[Spectrogram]]
+
+==References==
+{{reflist}}
+* James, John (2007), &amp;apos;&amp;apos;Spectrograph Design Fundamentals&amp;apos;&amp;apos; (Cambridge University Press) ISBN 0-521-86463-1
+
+==External links==
+{{Commons cat|Spectrographs}}
+*[http://outreach.atnf.csiro.au/education/senior/astrophysics/spectrographs.html Spectrograph for astronomical Spectra]
+
+[[Category:Spectrographs| ]]
+[[Category:Telescope types]]
+
+[[ja:分光器]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

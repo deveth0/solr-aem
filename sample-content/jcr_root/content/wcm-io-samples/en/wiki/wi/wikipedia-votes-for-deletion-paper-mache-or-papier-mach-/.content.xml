@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:Votes for deletion/Paper Mache or Papier Maché"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:Votes for deletion/Paper Mache or Papier Maché" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The page name [[Paper Mache or Papier Maché]] is more than one expression. I have redirected it to [[Papier-mâché]], but the redirect still irks me a bit. The original content was also Copyvio. Delete? -- [[User:Chris 73|Chris 73]] | [[User talk:Chris 73|Talk]] 02:40, 6 May 2004 (UTC)
+* Delete.  Existing names are sufficient.  [[User:Topbanana|TB]] 08:22, 6 May 2004 (UTC)
+*Delete. --[[User:Brockert|Ben Brockert]] 01:52, May 9, 2004 (UTC)
+*Delete the redirect - who would ever look for anything that phrase? [[User:Pteron|Pteron]] 00:47, 11 May 2004 (UTC)
+*Delete the redirect [[User:Jfdwolff|JFW]]&amp;amp;nbsp;|&amp;amp;nbsp;[[User_talk:Jfdwolff|&amp;lt;small&amp;gt;T@lk&amp;lt;/small&amp;gt;]] 10:14, 11 May 2004 (UTC)
+*Delete. --[[User:217.118.43.92|217.118.43.92]] 18:28, 11 May 2004 (UTC)&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

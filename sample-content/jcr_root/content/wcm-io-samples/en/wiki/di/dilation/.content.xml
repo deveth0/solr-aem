@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Dilation"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Dilation" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|dilatation|dilate|dilation}}
+&amp;apos;&amp;apos;&amp;apos;Dilation&amp;apos;&amp;apos;&amp;apos; (or &amp;apos;&amp;apos;&amp;apos;dilatation&amp;apos;&amp;apos;&amp;apos;) may refer to:
+
+==Physiology or medicine==
+* [[Pupillary dilation]], dilation of the pupil of the eye
+* [[Cervical dilation]], the widening of the cervix in childbirth, miscarriage etc.
+* [[Dilation and curettage]], the opening of the cervix and surgical removal of the contents of the uterus
+* [[Dilation and evacuation]], the dilation of the cervix and evacuation of the contents of the uterus
+* [[Esophageal dilatation]], a procedure for widening a narrowed esophagus
+* [[Vasodilation]], the widening of luminal diameter in blood vessels
+
+== Mathematics ==
+* [[Dilation (affine geometry)]], an affine transformation
+* [[Dilation (metric space)]], a function from a metric space into itself
+* [[Dilation (operator theory)]], a dilation of an operator on a Hilbert space
+* [[Dilation (morphology)]], an operation in mathematical morphology
+* [[Scaling (geometry)]], including:
+** Homogeneous dilation ([[homothety]]), the scalar multiplication operator on a vector space or affine space
+** [[Inhomogeneous dilation]], where scale factors may differ in different directions
+
+== Physics ==
+* [[Scale invariance]], a feature of objects or laws that do not change if length scales (or energy scales) are multiplied by a common factor
+* [[Time dilation]], the observation that another&amp;apos;s clock is ticking at a slower rate as measured by one&amp;apos;s own clock
+
+==Music==
+
+* [[Dilate (Bardo Pond album)|&amp;apos;&amp;apos;Dilate&amp;apos;&amp;apos; (Bardo Pond album)]]
+* [[Dilate (Ani DiFranco album)|&amp;apos;&amp;apos;Dilate&amp;apos;&amp;apos; (Ani DiFranco album)]]
+* [[Dilate (musical project)]], ambient solo project of Vampire Rodents keyboardist Victor Wulf
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

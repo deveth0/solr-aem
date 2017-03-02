@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Zaslavskii map"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Zaslavskii map" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{no footnotes|date=June 2013}}
+[[File:Zaslavskii map.png|thumb|right|&amp;apos;&amp;apos;&amp;apos;Zaslavskii map&amp;apos;&amp;apos;&amp;apos; with parameters: &amp;lt;math&amp;gt;\epsilon=5, \nu=0.2, r=2.&amp;lt;/math&amp;gt;]]
+The &amp;apos;&amp;apos;&amp;apos;Zaslavskii map&amp;apos;&amp;apos;&amp;apos; is a [[discrete-time]] [[dynamical system]] introduced by [[George M. Zaslavsky]].   It is an example of a dynamical system that exhibits [[chaos theory  | chaotic behavior]].  The Zaslavskii map takes a point (&amp;lt;math&amp;gt;x_n,y_n&amp;lt;/math&amp;gt;) in the [[plane (mathematics)|plane]] and [[function (mathematics)|maps]] it to a new point:
+
+:&amp;lt;math&amp;gt;x_{n+1}=[x_n+\nu(1+\mu y_n)+\epsilon\nu\mu\cos(2\pi x_n)]\, (\textrm{mod}\,1)&amp;lt;/math&amp;gt;
+:&amp;lt;math&amp;gt;y_{n+1}=e^{-r}(y_n+\epsilon\cos(2\pi x_n))\,&amp;lt;/math&amp;gt;
+
+and
+:&amp;lt;math&amp;gt;\mu = \frac{1-e^{-r}}{r}&amp;lt;/math&amp;gt;
+
+where &amp;apos;&amp;apos;mod&amp;apos;&amp;apos; is the [[modulo operation|modulo operator]] with real arguments. The map depends on four [[Constant (mathematics)|constant]]s &amp;apos;&amp;apos;&amp;amp;nu;&amp;apos;&amp;apos;, &amp;apos;&amp;apos;&amp;amp;mu;&amp;apos;&amp;apos;, &amp;apos;&amp;apos;&amp;amp;epsilon;&amp;apos;&amp;apos; and &amp;apos;&amp;apos;r&amp;apos;&amp;apos;. Russel (1980) gives a [[Hausdorff dimension]] of 1.39 but [[Peter Grassberger | Grassberger]] (1983) questions this value based on their difficulties measuring the [[correlation dimension]].
+
+==See also==
+* [[List of chaotic maps]]
+
+==References==
+* {{cite journal | author=G.M. Zaslavskii | title=The Simplest case of a strange attractor | journal=Phys. Lett. A | year=1978 | volume=69 |issue=3| pages=145–147 | doi=10.1016/0375-9601(78)90195-0|bibcode = 1978PhLA...69..145Z }} [http://www.sciencedirect.com/science?_ob=MImg&amp;amp;_imagekey=B6TVM-46S32M9-11N-1&amp;amp;_cdi=5538&amp;amp;_user=10&amp;amp;_orig=browse&amp;amp;_coverDate=12%2F11%2F1978&amp;amp;_sk=999309996&amp;amp;view=c&amp;amp;wchp=dGLbVtb-zSkWA&amp;amp;md5=381ecc59b5847c0a67dbe457cae92c46&amp;amp;ie=/sdarticle.pdf (LINK)]
+* {{cite journal | author=D.A. Russel, J.D. Hanson, and E. Ott | title=Dimension of strange attractors | journal=Phys. Rev. | year=1980 | volume=45 | issue=14 | pages=1175 | doi=10.1103/PhysRevLett.45.1175 | bibcode=1980PhRvL..45.1175R}} [http://prola.aps.org/abstract/PRL/v45/i14/p1175_1 (LINK)]
+* {{cite journal | author=[[Peter Grassberger | P. Grassberger]] and I. Procaccia | title=Measuring the strangeness of strange attractors | journal=Physica | year=1983 | volume=9D| pages=189–208 | doi=10.1016/0167-2789(83)90298-1 | bibcode=1983PhyD....9..189G}} [http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=1983PhyD....9..189G&amp;amp;amp;db_key=PHY  (LINK)]
+
+{{Chaos theory}}
+
+[[Category:Chaotic maps]]
+
+{{Mathapplied-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

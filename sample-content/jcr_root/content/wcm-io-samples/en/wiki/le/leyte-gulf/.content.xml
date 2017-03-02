@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Leyte Gulf"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Leyte Gulf" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{About|the body of water|the battle|Battle of Leyte Gulf}}
+[[File:US Navy 060221-N-5067K-190 A Landing Craft Air Cushioned (LCAC) assigned to Assault Craft Unit Five (ACU-5) embarked aboard the amphibious assault ship USS Essex (LHD 2) heads to the island of Leyte.jpg|250px|thumbnail|right|Leyte Gulf near Guinsahugon ]]
+
+&amp;apos;&amp;apos;&amp;apos;Leyte Gulf&amp;apos;&amp;apos;&amp;apos; is a body of water immediately east of the [[island]] of [[Leyte (island)|Leyte]] in the [[Philippines]], adjoining the [[Philippine Sea]] of the [[Pacific Ocean]], at {{coord|10|50|N|125|25|E|display=inline,title}}. The [[Bay|Gulf]] is bounded on the north by the island of [[Samar (island)|Samar]], which is separated from Leyte on the west by the narrow [[San Juanico Strait]], and on the south by [[Mindanao]], separated from Leyte by the [[Surigao Strait]].&amp;lt;ref name=&amp;quot;geography&amp;quot; /&amp;gt; [[Dinagat Island]] partly encloses the Gulf to the southeast, and the small [[Homonhon Island]] and [[Suluan Island]], sit astride the eastern entrance to the Gulf. It is approximately 130&amp;amp;nbsp;km (80&amp;amp;nbsp;mi) north-south, and 60&amp;amp;nbsp;km (40&amp;amp;nbsp;mi) east-west.&amp;lt;ref name=&amp;quot;geography&amp;quot;&amp;gt;{{cite book|last=Woodward|first=C. Vann|coauthors=Evan Thomas|title=The Battle for Leyte Gulf: The Incredible Story of World War II&amp;apos;s Largest Naval Battle|publisher=Skyhorse Publishing Inc|date=1997|pages=3–7|isbn=1-60239-194-7}}&amp;lt;/ref&amp;gt;
+
+Leyte Gulf was also the scene of the [[Battle of Leyte Gulf|largest naval battle]] of the [[Second World War]]. Once captured by the Allies, the islands in the Gulf became bases for the [[Boeing B-29 Superfortress|B-29]]&amp;apos;s that bombed Japan in 1945.&amp;lt;ref name=&amp;quot;geography&amp;quot; /&amp;gt;
+
+==Notes==
+{{reflist}}{{Commons category}}
+
+[[Category:Gulfs of the Philippines]]
+
+{{Philippines-geo-stub}}
+{{List of Philippine seas}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Intel Architecture Labs"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Intel Architecture Labs" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{multiple issues|
+{{Refimprove|date=July 2007}}
+{{Tone|date=December 2007}}
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Intel Architecture Labs&amp;apos;&amp;apos;&amp;apos;, also known as &amp;apos;&amp;apos;IAL&amp;apos;&amp;apos;, was the [[personal computer|personal-computer]] system research-and-development arm of [[Intel]] Corporation during the 1990s.  IAL was created by Intel Vice-President [[Ron Whittier]] together with [[Craig Kinnie]] and [[Steven McGeady]] to develop the hardware and software innovations considered to be lacking from PC [[Original equipment manufacturer|OEM]]s and [[Microsoft]] in the late 1980s and 1990s.
+
+IAL pursued both hardware and software initiatives, but the latter became de-emphasized after the efforts collided with similar activities by Microsoft. For example, Native Signal Processing (&amp;apos;&amp;apos;NSP&amp;apos;&amp;apos;) was a software initiative to allow Intel-based PCs to run time-sensitive code independently of the [[operating system]], allowing real-time audio and video processing on the microprocessors of the mid-1990s. Microsoft refused to support NSP in its operating systems and convinced PC makers that the NSP drivers would render their systems unsupported, and Intel pulled back from promoting the software, leaving NSP as an orphan.  IAL also tangled with Microsoft by supporting [[Netscape Communications Corporation|Netscape]] and [[Netscape Navigator|their early browser]], and by producing a fast native [[x86]] port of the [[Java virtual machine|Java]] system.  Most of these projects were later shelved, and after 1997 IAL tended not to risk competing with Microsoft.  The details of IAL&amp;apos;s conflicts with Microsoft over software were revealed in Steven McGeady&amp;apos;s testimony in the [[United States v. Microsoft|Microsoft anti-trust]] trial.
+
+Not all of IAL&amp;apos;s software efforts met bad ends due to Microsoft—IAL developed one of the first software digital video systems, [[Indeo]](tm) - technology that was used in its [[ProShare]] videoconferencing product line but suffered later from neglect and was sold to another company in the late 1990s.
+
+However, IAL successes in the hardware world are legendary, and include [[Peripheral Component Interconnect|PCI]], [[USB]], [[Accelerated Graphics Port|AGP]], the Northbridge/Southbridge core logic architecture and [[PCI Express]] (the now-dominant architecture for multi-processor servers).
+
+In 2001, after the departure of all of its creators, IAL was disbanded and replaced with the very different [[Intel Labs]] under [[Pat Gelsinger]], though most of the creative talent that had been in IAL was by then scattered across the company or had left entirely.  In a 2005 re-organization, [[Intel Labs]] itself was reorganized with the intent of rebuilding a research function.
+
+Compare Intel&amp;apos;s Architecture Development Lab.&amp;lt;ref&amp;gt;
+{{cite news
+| title       = Not All Talk
+| first       = Lucie
+| last        = Juneau
+| url         = http://books.google.com/books?id=SQ0AAAAAMBAJ
+| newspaper   = [[CIO magazine|CIO]]
+| date        = July 1993
+| page        = 57
+| accessdate  = 2012-10-15
+| quote       = The Intel/Microsoft API originated in the Architecture Development Lab with Intel&amp;apos;s software technology group.
+}}
+&amp;lt;/ref&amp;gt;
+
+==References==
+* {{cite web| url=http://www.sfgate.com/cgi-bin/article.cgi?file=/chronicle/archive/1998/08/28/BU83568.DTL |title=Intel&amp;apos;s Dream Factory: Firm&amp;apos;s labs look for new uses for computer chips | publisher=San Francisco Chronicle |author=Dan Fost |date=August 28, 1998}}
+* Millison, Doug. &amp;apos;&amp;apos;The 800-Pound Gorilla&amp;apos;&amp;apos;, &amp;apos;&amp;apos;&amp;apos;Computer Currents&amp;apos;&amp;apos;&amp;apos; 11(24):80-82
+* {{cite web| url=http://news.zdnet.com/2100-9595_22-502616-2.html |title=Inside Intel: Betting on the future |author= John Spooner |publisher=ZDNet News | date=July 24, 2000}}
+
+== Footnotes ==
+{{reflist}}
+
+[[Category:Intel Corporation|Architecture Labs]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

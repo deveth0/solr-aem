@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Rank-into-rank"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Rank-into-rank" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[set theory]], a branch of [[mathematics]], a &amp;apos;&amp;apos;&amp;apos;rank-into-rank&amp;apos;&amp;apos;&amp;apos; is a  [[large cardinal]] λ satisfying one of the following four [[axiom]]s (commonly known as rank-into-rank embeddings, given in order of increasing consistency strength):
+
+*&amp;apos;&amp;apos;&amp;apos;Axiom I3:&amp;apos;&amp;apos;&amp;apos;  There is a nontrivial [[elementary embedding]] of V&amp;lt;sub&amp;gt;λ&amp;lt;/sub&amp;gt; into itself.
+*&amp;apos;&amp;apos;&amp;apos;Axiom I2:&amp;apos;&amp;apos;&amp;apos; There is a nontrivial elementary embedding of V into a transitive class M that includes V&amp;lt;sub&amp;gt;λ&amp;lt;/sub&amp;gt; where λ is the first fixed point above the [[critical point (set theory)|critical point]].
+*&amp;apos;&amp;apos;&amp;apos;Axiom I1:&amp;apos;&amp;apos;&amp;apos;  There is a nontrivial elementary embedding of V&amp;lt;sub&amp;gt;λ+1&amp;lt;/sub&amp;gt; into itself.
+*&amp;apos;&amp;apos;&amp;apos;Axiom I0:&amp;apos;&amp;apos;&amp;apos;  There is a nontrivial elementary embedding of L(V&amp;lt;sub&amp;gt;λ+1&amp;lt;/sub&amp;gt;) into itself with the critical point below λ.
+
+These are essentially the strongest known large cardinal axioms not known to be inconsistent in [[ZFC]]; the axiom for [[Reinhardt cardinal]]s is stronger, but is not consistent with the [[axiom of choice]].
+
+If j is the elementary embedding mentioned in one of these axioms and κ is its [[critical point (set theory)|critical point]], then λ is the limit of &amp;lt;math&amp;gt;j^n(\kappa)&amp;lt;/math&amp;gt; as n goes to ω.  More generally, if the [[axiom of choice]] holds, it is provable that if there is a nontrivial elementary embedding of V&amp;lt;sub&amp;gt;α&amp;lt;/sub&amp;gt; into itself then α is either a [[limit ordinal]] of [[cofinality]] ω or the successor of such an ordinal.
+
+The axioms I1, I2, and I3 were at first suspected to be inconsistent (in ZFC) as it was thought possible that [[Kunen&amp;apos;s inconsistency theorem]] that [[Reinhardt cardinal]]s are inconsistent with the axiom of choice could be extended to them, but this has not yet happened and they are now usually believed to be consistent.
+
+Every I0 cardinal κ (speaking here of the critical point of &amp;apos;&amp;apos;j&amp;apos;&amp;apos;) is an I1 cardinal.
+
+Every I1 cardinal κ is an I2 cardinal and has a stationary set of I2 cardinals below it.
+
+Every I2 cardinal κ is an I3 cardinal and has a stationary set of I3 cardinals below it.
+
+Every I3 cardinal κ has another I3 cardinal &amp;apos;&amp;apos;above&amp;apos;&amp;apos; it and is an &amp;apos;&amp;apos;n&amp;apos;&amp;apos;-[[huge cardinal]] for every &amp;apos;&amp;apos;n&amp;apos;&amp;apos;&amp;lt;ω.
+
+Axiom I1 implies that V&amp;lt;sub&amp;gt;λ+1&amp;lt;/sub&amp;gt; (equivalently, H(λ&amp;lt;sup&amp;gt;+&amp;lt;/sup&amp;gt;)) does not satisfy V=HOD.  There is no set S⊂λ definable in V&amp;lt;sub&amp;gt;λ+1&amp;lt;/sub&amp;gt; (even from parameters V&amp;lt;sub&amp;gt;λ&amp;lt;/sub&amp;gt; and ordinals &amp;amp;lt;λ&amp;lt;sup&amp;gt;+&amp;lt;/sup&amp;gt;) with S cofinal in λ and |S|&amp;lt;λ, that is, no such S witnesses that λ is singular. And similarly for Axiom I0 and ordinal definability in L(V&amp;lt;sub&amp;gt;λ+1&amp;lt;/sub&amp;gt;) (even from parameters in V&amp;lt;sub&amp;gt;λ&amp;lt;/sub&amp;gt;). However globally, and even in V&amp;lt;sub&amp;gt;λ&amp;lt;/sub&amp;gt;,&amp;lt;ref&amp;gt;Consistency of V = HOD With the Wholeness Axiom, Paul Corazza, Archive for Mathematical Logic, No. 39, 2000.&amp;lt;/ref&amp;gt; V=HOD is relatively consistent with Axiom I1.
+
+==References==
+*{{citation|mr=0376347
+|last=Gaifman|first= Haim
+|chapter=Elementary embeddings of models of set-theory and certain subtheories|title=Axiomatic set theory |series=Proc. Sympos. Pure Math.|volume= XIII, Part II|pages= 33–101|publisher= Amer. Math. Soc.|publication-place=Providence R.I.|year= 1974}}
+* {{Citation|last=Kanamori|first=Akihiro|authorlink=Akihiro Kanamori|year=2003|publisher=Springer|title=The Higher Infinite : Large Cardinals in Set Theory from Their Beginnings|edition=2nd|isbn=3-540-00384-3}}
+* {{citation|last=Solovay|first=Robert M.|first2=William N. |last2=Reinhardt|first3= Akihiro |last3=Kanamori|year=1978|title=Strong axioms of infinity and elementary embeddings|journal=Annals of Mathematical Logic|volume=13|issue=1|pages=73–116|authorlink=Robert M. Solovay|doi=10.1016/0003-4843(78)90031-1 }}
+{{Reflist}}
+
+[[Category:Large cardinals]]
+[[Category:Determinacy]]
+
+
+{{settheory-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

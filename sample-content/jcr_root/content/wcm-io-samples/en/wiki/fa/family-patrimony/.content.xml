@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Family patrimony"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Family patrimony" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced stub|auto=yes|date=December 2009}}
+&amp;apos;&amp;apos;&amp;apos;Family patrimony&amp;apos;&amp;apos;&amp;apos; is a type of [[Civil law (legal system)|civil law]] [[patrimony]] that is created by [[marriage]] or [[civil union]] (where recognized) which creates a bundle of entitlements and [[obligation]]s that must be shared by the spouses or partners upon [[divorce]], [[annulment]], [[dissolution of marriage]] or dissolution of [[civil union]], when there must be a [[division of property]]. It is similar to the [[common law]] concept of [[community property]].
+
+{{DEFAULTSORT:Family Patrimony}}
+[[Category:Civil law (legal system)]]
+
+
+{{Law-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

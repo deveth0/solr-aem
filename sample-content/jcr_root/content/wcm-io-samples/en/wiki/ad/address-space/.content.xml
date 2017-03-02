@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Address space"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Address space" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{about|a concept used universally in computing|addressing specifically the main memory|memory address}}
+{{refimprove|date=December 2011}}
+In [[computing]], an &amp;apos;&amp;apos;&amp;apos;address space&amp;apos;&amp;apos;&amp;apos; defines a range of discrete addresses, each of which may correspond to a [[network host]], [[peripheral device]], [[disk sector]], a [[computer data storage|memory]] cell or other logical or physical entity.
+
+== Overview ==
+Address spaces are created by combining enough uniquely identified qualifiers to make an address unambiguous (within a particular address space). For a person&amp;apos;s physical address, the &amp;apos;&amp;apos;address space&amp;apos;&amp;apos; would be a combination of locations, such as a neighborhood, town, city, or country. Some elements of an address space may be the same– but if any element in the address is different then addresses in said space will reference different entities. An example could be that there are multiple buildings at the same address of &amp;quot;32 Main Street&amp;quot; but in different towns, demonstrating that different towns have different, although similarly arranged, [[street address]] spaces.
+
+An address space usually provides (or allows) a partitioning to several regions according to [[mathematical structure]] it has. In the case of [[total order]], as for [[memory address]]es, these are simply [[interval (mathematics)|chunks]]. Some nested domains hierarchy appears in the case of [[arborescence (graph theory)|directed ordered tree]] as for the [[Domain Name System]] or a [[directory structure]]; this similar to hierarchical design of [[postal address]]es. In the [[Internet]], for example, the [[Internet Assigned Numbers Authority]] (IANA) allocates ranges of [[IP address]]es to various registries in order to enable them to each manage their parts of the global Internet address space.&amp;lt;ref&amp;gt;{{cite web|url=http://www.iana.org/assignments/ipv4-address-space/ |title= IPv4 Address Space Registry |date=March 11, 2009 |publisher=Internet Assigned Numbers Authority (IANA) |accessdate= September 1, 2011}}&amp;lt;/ref&amp;gt;
+
+== Examples ==
+Uses of addresses include, but are not limited to the following:
+* [[Memory address]]es for [[main memory]], [[memory-mapped I/O]], as well as for [[virtual memory]];
+* Device addresses on an [[expansion bus]];
+* [[disk sector|Sector]] addressing for [[disk drive]]s;
+* [[File name]]s on a particular [[volume (computing)|volume]];
+* Various kinds of network host addresses in [[computer network]]s;
+* [[Uniform resource locator]]s in the Internet.
+
+== Address mapping and translation ==
+[[File:CNFTL9.JPG|thumb|right|Illustration of translation from logical block addressing to physical geometry.]]
+Another common feature of address spaces are [[map (mathematics)|mappings and translations]], often forming numerous layers. This usually means that some higher-level address must be translated to lower-level ones in some way.
+For example, [[file system]] on a [[logical disk]] operates [[one-dimensional array|linear]] sector numbers, which have to be translated to &amp;apos;&amp;apos;absolute&amp;apos;&amp;apos; [[Logical block addressing|LBA]] sector addresses, in simple cases, via [[addition]] of the partition&amp;apos;s first sector address. Then, for a disk drive connected via [[Parallel ATA]], each of them must be converted to &amp;apos;&amp;apos;logical&amp;apos;&amp;apos; (means fake) [[cylinder-head-sector]] address due to the interface historical shortcomings. It is converted back to LBA by the disk [[controller (computing)|controller]] and then, finally, to &amp;apos;&amp;apos;physical&amp;apos;&amp;apos; [[cylinder (disk drive)|cylinder]], [[disk head|head]] and [[track (disk drive)|sector]] numbers.
+
+The [[Domain Name System]] maps its names to (and from) network-specific addresses (usually IP addresses), which in turn may be mapped to [[link layer]] network addresses via [[Address Resolution Protocol]]. Also, [[network address translation]] may occur on the edge of &amp;apos;&amp;apos;different&amp;apos;&amp;apos; IP spaces, such as a [[local area network]] and the Internet.
+
+[[File:Virtual address space and physical address space relationship.svg|thumb|right|Virtual address space and physical address space relationship]]
+An iconic example of virtual-to-physical address translation is [[virtual memory]], where different [[memory page|pages]] of [[virtual address space]] map either to [[paging|page file]] or to main memory [[physical address]] space. It is possible that several numerically different virtual addresses all refer to one physical address and hence to the same physical byte of [[Random access memory|RAM]]. It is also possible that a single virtual address maps to zero, one, [[CPU_cache#Homonym_and_synonym_problems|or more than one]] physical address.
+
+== See also ==
+* [[Name space]]
+* [[Virtualization]]
+
+== References ==
+{{reflist}}
+
+[[Category:Computing terminology]]
+[[Category:Data management]]
+[[Category:Computer architecture]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

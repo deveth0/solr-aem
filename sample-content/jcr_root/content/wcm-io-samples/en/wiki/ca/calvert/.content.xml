@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Calvert"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Calvert" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary}}
+
+&amp;apos;&amp;apos;&amp;apos;Calvert&amp;apos;&amp;apos;&amp;apos;  may refer to:
+
+==People==
+* [[Calvert (name)]]
+* [[Bud Calvert]], American pastor
+* [[Margaret Calvert]], [[United Kingdom|British]] [[typographer]] and [[graphic designer]]
+
+==Places==
+;Australia
+* [[Calvert River]], Northern Territory
+
+;Canada
+* [[Calvert, Newfoundland and Labrador]]
+* [[Calvert Island]], Ontario
+* [[Calvert Island (British Columbia)]]
+
+;United Kingdom
+* [[Calvert, Buckinghamshire]], England
+** [[Calvert railway station]]
+
+;United States
+* [[Calvert, Alabama]]
+* [[Calvert, Maryland]]
+* [[Calvert, Texas]]
+* [[Calvert City, Kentucky]]
+* [[Calvert County, Maryland]]
+** [[Calvert Cliffs Nuclear Power Plant]]
+** [[Calvert Cliffs State Park]]
+
+==Schools==
+* [[Calvert School (disambiguation)]]
+* [[Calvert Hall College High School]]
+
+==Other==
+* [[Calvert Expedition]], 1896 exploring expedition in north-central Western Australia
+* [[Calvert Investments]], an investment management company
+* [[USS Calvert|USS &amp;apos;&amp;apos;Calvert&amp;apos;&amp;apos;]], ship
+
+{{disambig}}
+[[Category:Place name disambiguation pages]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

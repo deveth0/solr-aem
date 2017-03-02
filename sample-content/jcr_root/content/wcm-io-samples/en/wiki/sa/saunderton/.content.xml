@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Saunderton"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Saunderton" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{unref|date=December 2010}}
+[[File:Saunderton 2005 mk1.png|thumb|right|Saunderton station in 2005]]
+
+&amp;apos;&amp;apos;&amp;apos;Saunderton&amp;apos;&amp;apos;&amp;apos; is a [[village]] in [[Buckinghamshire]], England.  It is located in a valley of the [[Chiltern Hills]], about three and a half miles north west of [[High Wycombe]], four miles south of [[Princes Risborough]].  It lies on the main [[A4010 road]], and has a [[Saunderton railway station|station]] on the [[Chiltern Main Line]] between the two towns.
+
+The village name is [[Old English language|Anglo Saxon]] in origin, although its original meaning is unclear.  It was recorded in the [[Domesday Book]] of 1086 as &amp;apos;&amp;apos;Santesdune&amp;apos;&amp;apos;, leading some scholars to believe that the village name derives from &amp;apos;saint&amp;apos;s hill&amp;apos;.
+
+In the 18th century a [[workhouse]] was founded in Saunderton, which in the [[Victorian era]] became the main workhouse for the union of High Wycombe.  It became one of the safest houses in the region and regular absconders from other workhouses were often transferred here on account of its remote location.  Inmates got a free ride to the workhouse, courtesy of a [[constable]], but if they wanted to leave they had a long walk ahead of them.
+
+
+
+==External links==
+{{Commons category inline|Saunderton}}
+*[http://www.bledlowparish.org.uk/Saunderton.htm/ Saunderton Church]
+
+{{coord|51|42|N|0|51|W|region:GB_type:city|display=title}}
+
+{{Wycombe}}
+[[Category:Villages in Buckinghamshire]]
+
+{{Buckinghamshire-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

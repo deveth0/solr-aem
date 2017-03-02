@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="David Waddington"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="David Waddington" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;David Waddington&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* [[David Waddington (Essex)]] (&amp;apos;&amp;apos;fl.&amp;apos;&amp;apos; 1840s–1850s), Member of Parliament (MP) for Maldon 1847–1852, for Harwich 1852–1856
+* [[David Waddington, Baron Waddington]] (born 1929), English Conservative Party politician, Home Secretary 1989-1990
+
+{{hndis|name=Waddington, David}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

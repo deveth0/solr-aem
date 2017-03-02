@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="ACL2"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="ACL2" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;ACL2&amp;apos;&amp;apos;&amp;apos; (A Computational Logic for Applicative Common Lisp) is a [[software]] system consisting of a [[programming language]], an extensible theory in a [[first-order logic]], and a mechanical &amp;apos;&amp;apos;&amp;apos;[[Automated theorem prover|theorem prover]]&amp;apos;&amp;apos;&amp;apos;.  ACL2 is designed to support [[automated reasoning]] in inductive logical theories, mostly for the purpose of software and [[Computer hardware|hardware]] verification.  The input language and implementation of ACL2 are built on [[Common Lisp]].  ACL2 is [[free software|free]], [[open source]] ([[BSD license]]) software.
+
+The ACL2 programming language is an [[applicative programming language|applicative]] ([[Side-effect (computer science)|side-effect]] free) variant of Common Lisp.  ACL2 is untyped. All ACL2 [[Function (programming)|functions]] are [[Total function|total]]&amp;amp;nbsp;— that is, every function maps each object in the ACL2 [[Universe (mathematics)|universe]] to another object in its universe.
+
+ACL2&amp;apos;s base theory [[axiom]]atizes the [[semantics]] of its programming language and its built-in functions.  User definitions in the programming language that satisfy a &amp;apos;&amp;apos;definitional principle&amp;apos;&amp;apos; extend the theory in a way that maintains the theory&amp;apos;s [[Consistency proof|logical consistency]].
+
+The core of ACL2&amp;apos;s theorem prover is based on [[term rewriting]], and this core is extensible in that user-discovered [[theorem]]s can be used as ad-hoc [[Mathematical proof|proof]] techniques for subsequent [[conjectures]].
+
+ACL2 is intended to be an &amp;quot;industrial strength&amp;quot; version of the Boyer–Moore theorem prover, [[Nqthm|NQTHM]].  Toward this goal, ACL2 has many features to support clean engineering of interesting mathematical and computational theories.  ACL2 also derives efficiency from being built on Common Lisp; for example, the same specification that is the basis for inductive verification can be [[compiled]] and run [[native code|natively]].
+
+In 2005, the authors of the Boyer-Moore family of provers, which includes ACL2, received the [[ACM Software System Award]] &amp;quot;for pioneering and engineering a most effective theorem prover (...) as a formal methods tool for verifying safety-critical hardware and software.&amp;quot;&amp;lt;ref&amp;gt;[http://campus.acm.org/public/pressroom/press_releases/3_2006/software.cfm ACM: Press Release, March 15, 2006&amp;lt;!-- Bot generated title --&amp;gt;]&amp;lt;/ref&amp;gt;&amp;lt;ref name=acmaward&amp;gt;{{cite web |publisher=[[Association for Computing Machinery]] |url=http://awards.acm.org/homepage.cfm?srt=all&amp;amp;awd=149 |work=ACM Awards |title=Software System Award |accessdate={{Format date|2012|1|14}} }}&amp;lt;/ref&amp;gt;
+
+==Proofs==
+
+ACL2 has been used on numerous applications.&amp;lt;ref&amp;gt;[http://www.cs.utexas.edu/users/moore/publications/acl2-papers.html Books and Papers about ACL2 and Its Applications]&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;[http://www.cs.utexas.edu/users/moore/acl2/workshops.html The ACL2 Workshop Series]&amp;lt;/ref&amp;gt;  For example, [[J Strother Moore]] and [[Matt Kaufmann]] used ACL2 to prove the correctness of the floating point division operations of the [[AMD K5]] microprocessor in the wake of the [[Pentium FDIV bug]].&amp;lt;ref&amp;gt;{{cite paper | id = {{citeseerx|10.1.1.43.3309}} | title = A mechanically checked proof of the correctness of the kernel of the AMD5K86 floating point division algorithm }}&amp;lt;/ref&amp;gt;
+
+==References==
+{{reflist}}
+
+==External links==
+*[http://www.cs.utexas.edu/users/moore/acl2/ ACL2 website]
+*[http://www.cs.utexas.edu/users/moore/acl2/current/ACL2-TUTORIAL.html A Tutorial Introduction to ACL2]
+*[http://acl2s.ccs.neu.edu/ ACL2s - ACL2 Sedan - An Eclipse-based interface developed by Peter Dillinger and Pete Manolios that includes powerful features to provide users with more automation and support for specifying conjectures and proving theorems with ACL2.]
+
+{{DEFAULTSORT:Acl2}}
+[[Category:Lisp programming language]]
+[[Category:Theorem proving software systems]]
+[[Category:Common Lisp software]]
+[[Category:Free theorem provers]]
+[[Category:Lisp programming language family]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

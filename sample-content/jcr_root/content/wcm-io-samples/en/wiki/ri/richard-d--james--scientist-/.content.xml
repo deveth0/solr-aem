@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Richard D. James (scientist)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Richard D. James (scientist)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;lt;!-- Image with unknown copyright status removed: [[Image:R-d-james.jpg|thumb|right|Prof. Richard D. James]] --&amp;gt;
+&amp;apos;&amp;apos;&amp;apos;Richard D. James&amp;apos;&amp;apos;&amp;apos; (born 1952) is a renowned [[mechanician]] and [[materials scientist]]. He is currently the Russell J. Penrose Professor and Distinguished McKnight University Professor at the Department of Aerospace Engineering and Mechanics at the [[University of Minnesota]]. He was educated at [[Brown University]] and at [[Johns Hopkins University]] under the direction of [[Jerald Ericksen|J.L. Ericksen]].
+
+James is widely known for his research in [[phase transitions]].  He has received several awards, including the [[Alexander von Humboldt Senior Research Award]] and the [[Prager Medal]]. More recently, the [[ASME]] awarded him the [[Koiter Medal]] for &amp;quot;..pioneering the modern vision of phase transformations and materials instabilities in solids, explaining how microstructures form and evolve, and demonstrating how to take advantage of this to design new active materials&amp;quot;.
+
+With [[John M. Ball]], he currently serves as one of the chief editors of the [[Archive for Rational Mechanics and Analysis]].
+
+==External links==
+* [http://www.aem.umn.edu/people/faculty/bio/james.shtml Faculty page] at the University of Minnesota.
+
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = James, Richard D.
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION =American scientist
+| DATE OF BIRTH     = 1952
+| PLACE OF BIRTH    =
+| DATE OF DEATH     =
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:James, Richard D.}}
+[[Category:Living people]]
+[[Category:American materials scientists]]
+[[Category:1952 births]]
+
+
+{{physicist-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Sylvia Sayer"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Sylvia Sayer" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2007}}
+&amp;apos;&amp;apos;&amp;apos;Sylvia Olive Pleadwell Sayer, Lady Sayer&amp;apos;&amp;apos;&amp;apos; (1904–2000) was one of the foremost early conservators of what is now [[Dartmoor]] National Park, in [[Devon]] in the south-west of England. She acquired her title in 1959 when her husband, Vice-Admiral [[Guy Sayer]] was knighted as the Flag Officer Commanding Reserve Fleet.
+
+Despite Lady Sayer&amp;apos;s establishment background, she was a fearless{{Clarify|date=March 2008}} and impassioned{{Clarify|date=March 2008}}fighter in the defence of Dartmoor: frequently she deliberately interrupted army live-firing exercises on Dartmoor&amp;apos;s military ranges, and in 1985 snubbed [[Charles, Prince of Wales|The Prince of Wales]] over the [[Duchy of Cornwall]]&amp;apos;s management plan for Dartmoor, since this allowed for a continuance of military usage.
+
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Sayer, Sylvia
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION = British environmental conservator
+| DATE OF BIRTH     = 1904
+| PLACE OF BIRTH    =
+| DATE OF DEATH     = 2000
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Sayer, Sylvia}}
+[[Category:1904 births|Sayer, Lady Sylvia]]
+[[Category:2000 deaths|Sayer, Lady Sylvia]]
+[[Category:Dartmoor]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

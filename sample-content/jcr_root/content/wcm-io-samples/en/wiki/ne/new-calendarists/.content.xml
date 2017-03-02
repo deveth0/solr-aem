@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="New calendarists"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="New calendarists" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced stub|auto=yes|date=December 2009}}
+The &amp;apos;&amp;apos;&amp;apos;new calendarists&amp;apos;&amp;apos;&amp;apos; are those [[Eastern Orthodoxy|Eastern Orthodox churches]] that adopted the [[Revised Julian calendar]], namely the Orthodox churches of [[Ecumenical Patriarchate of Constantinople|Constantinople]], [[Greek Orthodox Church of Alexandria|Alexandria]], [[Greek Orthodox Church of Antioch|Antioch]], [[Church of Greece|Greece]], [[Cypriot Orthodox Church|Cyprus]], [[Romanian Orthodox Church|Romania]], [[Polish Orthodox Church|Poland]], [[Bulgarian Orthodox Church|Bulgaria]], and most of the [[Orthodox Church in America]]. The term is used to distinguish them from those in communion with the New Calendarists who are on the Old Calendar and also the [[Old Calendarists]].
+
+==References==
+
+{{DEFAULTSORT:New Calendarists}}
+[[Category:Eastern Orthodoxy]]
+
+
+{{Orthodoxy-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

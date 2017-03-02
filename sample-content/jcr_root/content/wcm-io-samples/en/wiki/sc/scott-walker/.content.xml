@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Scott Walker"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Scott Walker" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Scott Walker&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+*[[Scott Walker (politician)]] (born 1967), Governor of Wisconsin and former county executive of Milwaukee County, Wisconsin
+*[[Scott Walker (boxer)]] (1969–2004), boxer
+*[[Scott Walker (footballer)]] (born 1990), Northern Irish footballer, plays for Livingston F.C.
+*[[Scott Walker (ice hockey)]] (born 1973), professional ice hockey player and head coach of the Guelph Storm
+*[[Scott Walker (singer)]] (born 1943 as Noel Scott Engel), solo singer and member of The Walker Brothers
+**&amp;apos;&amp;apos;[[Scott Walker: 30 Century Man]]&amp;apos;&amp;apos;, a documentary about the singer
+*Scott Walker, convicted of murdering [[Murder of Jody Dobrowski|Jody Dobrowski]] in South London in 2005
+==Other uses==
+*[[Scott Tallon Walker]], an Irish architecture firm  founded by Michael Scott, Ronnie Tallon and Robin Walker
+
+{{hndis|name=Walker, Scott}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

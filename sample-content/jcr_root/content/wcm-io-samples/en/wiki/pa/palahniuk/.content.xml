@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Palahniuk"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Palahniuk" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Palahniuk&amp;apos;&amp;apos;&amp;apos;, &amp;apos;&amp;apos;&amp;apos;Palaniuk&amp;apos;&amp;apos;&amp;apos;, or &amp;apos;&amp;apos;&amp;apos;Palahnyuk&amp;apos;&amp;apos;&amp;apos; ({{lang-uk|Палагнюк}}) is a Ukrainian surname. Notable people with the surname include:
+
+* [[Chuck Palahniuk]] (born 1962), American transgressional novelist and freelance journalist
+* [[Jack Palance|Volodymyr Palahnyuk]] (a.k.a. &amp;apos;&amp;apos;Jack Palance&amp;apos;&amp;apos;; 1919–2006), American film actor
+* [[Sam Palahnuk]] (born 1961), American video game designer
+
+{{surname|Palahniuk}}
+
+[[Category:Ukrainian-language surnames]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

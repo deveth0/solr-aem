@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Life support"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Life support" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{other uses}}
+{{Refimprove|date=December 2011}}
+[[File:Respiratory therapist.jpg|thumb|Respiratory therapist examining a mechanically ventilated patient in an [[intensive care unit]]. ]]
+&amp;apos;&amp;apos;&amp;apos;Life support&amp;apos;&amp;apos;&amp;apos; in [[medicine]] is a broad term that applies to any therapy used to sustain a patient&amp;apos;s life while they are critically ill or injured, as part of [[intensive-care medicine]]. There are many therapies and techniques that may be used by clinicians to achieve the goal of sustaining life.  Some examples include:
+* [[Feeding tube]]
+* [[Total parenteral nutrition]]
+* [[Mechanical ventilation]]
+* [[Cardiac pump|Heart/Lung bypass]]
+* [[Urinary catheterization]]
+* [[Dialysis]]
+* [[Cardiopulmonary resuscitation]]
+* [[Defibrillation]]
+* [[Artificial pacemaker]]
+* [[Life extension]]
+* [[Life support system]] for human [[spaceflight]].&amp;lt;ref name=nasa200805&amp;gt;
+{{cite web|url=http://www.nasa.gov/centers/marshall/pdf/104840main_eclss.pdf |title=International Space Station Environmental Control and Life Support System |publisher=NASA|format=PDF |accessdate=11 December 2010}}&amp;lt;/ref&amp;gt;
+
+These techniques are applied most commonly in the [[Emergency Department]], [[Intensive Care Unit]] and, [[Operating Room]]s.  As various life support technologies have improved and evolved they are used increasingly outside of the hospital environment.  For example a patient who requires a ventilator for survival are commonly discharged home with these devices.  Another example includes the now ubiquitous presence of [[Automated external defibrillator]] in public venues which allow lay people to deliver life support in a prehospital environment.
+
+The ultimate goals of life support depend on the specific patient situation.  Typically life support is used to sustain life while the underlying injury or illness is being treated or evaluated for prognosis. Life support techniques may also be used indefinitely if the underlying medical condition cannot be corrected but a reasonable quality of life can still be expected.
+
+==References==
+{{Reflist}}
+
+[[Category:Medicine]]
+
+{{treatment-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Yellow-throated squirrel"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Yellow-throated squirrel" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Taxobox
+| name = Yellow-throated Squirrel
+| status = DD
+| status_system = iucn3.1
+| status_ref = &amp;lt;ref name=iucn&amp;gt;{{IUCN2008|assessors=Amori, G., Koprowski, J. &amp;amp; Roth, L.|year=2008|id=20009|title=Sciurus gilvigularis|downloaded=6 January 2009}}&amp;lt;/ref&amp;gt;
+| regnum = [[Animal]]ia
+| phylum = [[Chordate|Chordata]]
+| classis = [[Mammal]]ia
+| ordo = [[Rodent]]ia
+| familia = [[Sciuridae]]
+| genus = &amp;apos;&amp;apos;[[Sciurus]]&amp;apos;&amp;apos;
+| subgenus = &amp;apos;&amp;apos;[[Guerlinguetus]]&amp;apos;&amp;apos;
+| species = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;S. gilvigularis&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+| binomial = &amp;apos;&amp;apos;Sciurus gilvigularis&amp;apos;&amp;apos;
+| binomial_authority = [[Johann Andreas Wagner|Wagner]], 1842
+| subdivision_ranks = [[Subspecies]]&amp;lt;ref name=&amp;quot;Thorington&amp;quot;&amp;gt;{{cite book|last1=Thorington|first1=R.W., Jr.|last2=Hoffmann|first2=R.S.|year=2005|pages=754–818|editor1-last=Wilson|editor1-first=D.E.|editor2-last=Reeder|editor2-first=D.M|url=http://www.bucknell.edu/msw3|chapter=Sciurus (Guerlinguetus) gilvigularis|chapterurl=http://www.bucknell.edu/msw3/browse.asp?s=y&amp;amp;id=12400122|title=Mammal Species of the World: a taxonomic and geographic reference|edition=3rd|publisher=The Johns Hopkins University Press|isbn=0-8018-8221-4|oclc=26158608}}&amp;lt;/ref&amp;gt;
+| subdivision =
+* &amp;apos;&amp;apos;S. g. gilvigularis&amp;apos;&amp;apos;
+* &amp;apos;&amp;apos;S. g. paraensis&amp;apos;&amp;apos;
+}}
+The &amp;apos;&amp;apos;&amp;apos;yellow-throated squirrel&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;Sciurus gilvigularis&amp;apos;&amp;apos;) is a [[tree squirrel]] in the genus &amp;apos;&amp;apos;[[Sciurus]]&amp;apos;&amp;apos; [[Endemism|endemic]] to [[South America]]. It is found in [[Brazil]], [[Guyana]] and [[Venezuela]].
+
+==References==
+{{reflist}}
+*[http://www.natureserve.org Naturerve.org]
+
+{{S. Sciurinae1 nav}}
+
+[[Category:Sciurus]]
+[[Category:Mammals of South America]]
+[[Category:Mammals of Brazil]]
+[[Category:Mammals of Guyana|Squirrel, Yellow-throated]]
+
+{{Squirrel-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

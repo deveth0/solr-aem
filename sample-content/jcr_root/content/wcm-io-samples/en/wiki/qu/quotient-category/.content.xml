@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Quotient category"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Quotient category" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[mathematics]], a &amp;apos;&amp;apos;&amp;apos;quotient category&amp;apos;&amp;apos;&amp;apos; is a [[category (mathematics)|category]] obtained from another one by identifying sets of [[morphism]]s. The notion is similar to that of a [[quotient group]] or [[quotient space]], but in the categorical setting.
+
+==Definition==
+
+Let &amp;apos;&amp;apos;C&amp;apos;&amp;apos; be a category. A &amp;apos;&amp;apos;[[congruence relation]]&amp;apos;&amp;apos; &amp;apos;&amp;apos;R&amp;apos;&amp;apos; on &amp;apos;&amp;apos;C&amp;apos;&amp;apos; is given by: for each pair of objects &amp;apos;&amp;apos;X&amp;apos;&amp;apos;, &amp;apos;&amp;apos;Y&amp;apos;&amp;apos; in &amp;apos;&amp;apos;C&amp;apos;&amp;apos;, an [[equivalence relation]] &amp;apos;&amp;apos;R&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;&amp;apos;&amp;apos;X&amp;apos;&amp;apos;,&amp;apos;&amp;apos;Y&amp;apos;&amp;apos;&amp;lt;/sub&amp;gt; on Hom(&amp;apos;&amp;apos;X&amp;apos;&amp;apos;,&amp;apos;&amp;apos;Y&amp;apos;&amp;apos;), such that the equivalence relations respect composition of morphisms. That is, if
+:&amp;lt;math&amp;gt;f_1,f_2 : X \to Y\,&amp;lt;/math&amp;gt;
+are related in Hom(&amp;apos;&amp;apos;X&amp;apos;&amp;apos;, &amp;apos;&amp;apos;Y&amp;apos;&amp;apos;) and
+:&amp;lt;math&amp;gt;g_1,g_2 : Y \to Z\,&amp;lt;/math&amp;gt;
+are related in Hom(&amp;apos;&amp;apos;Y&amp;apos;&amp;apos;, &amp;apos;&amp;apos;Z&amp;apos;&amp;apos;) then &amp;apos;&amp;apos;g&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt;&amp;apos;&amp;apos;f&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt;, &amp;apos;&amp;apos;g&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt;&amp;apos;&amp;apos;f&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;, &amp;apos;&amp;apos;g&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;&amp;apos;&amp;apos;f&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt; and &amp;apos;&amp;apos;g&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;&amp;apos;&amp;apos;f&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt; are related in Hom(&amp;apos;&amp;apos;X&amp;apos;&amp;apos;, &amp;apos;&amp;apos;Z&amp;apos;&amp;apos;).
+
+Given a congruence relation &amp;apos;&amp;apos;R&amp;apos;&amp;apos; on &amp;apos;&amp;apos;C&amp;apos;&amp;apos; we can define the &amp;apos;&amp;apos;&amp;apos;quotient category&amp;apos;&amp;apos;&amp;apos; &amp;apos;&amp;apos;C&amp;apos;&amp;apos;/&amp;apos;&amp;apos;R&amp;apos;&amp;apos; as the category whose objects are those of &amp;apos;&amp;apos;C&amp;apos;&amp;apos; and whose morphisms are [[equivalence class]]es of morphisms in &amp;apos;&amp;apos;C&amp;apos;&amp;apos;. That is,
+:&amp;lt;math&amp;gt;\mathrm{Hom}_{\mathcal C/\mathcal R}(X,Y) = \mathrm{Hom}_{\mathcal C}(X,Y)/R_{X,Y}.&amp;lt;/math&amp;gt;
+
+Composition of morphisms in &amp;apos;&amp;apos;C&amp;apos;&amp;apos;/&amp;apos;&amp;apos;R&amp;apos;&amp;apos; is [[well-defined]] since &amp;apos;&amp;apos;R&amp;apos;&amp;apos; is a congruence relation.
+
+There is also a notion of taking the quotient of an [[Abelian category]] &amp;apos;&amp;apos;A&amp;apos;&amp;apos; by a [[Serre subcategory]] &amp;apos;&amp;apos;B&amp;apos;&amp;apos;. This is done as follows. The objects of &amp;apos;&amp;apos;A/B&amp;apos;&amp;apos; are the objects of &amp;apos;&amp;apos;A&amp;apos;&amp;apos;. Given two objects &amp;apos;&amp;apos;X&amp;apos;&amp;apos; and &amp;apos;&amp;apos;Y&amp;apos;&amp;apos; of &amp;apos;&amp;apos;A&amp;apos;&amp;apos;, we define the set of morphisms from &amp;apos;&amp;apos;X&amp;apos;&amp;apos; to &amp;apos;&amp;apos;Y&amp;apos;&amp;apos; in &amp;apos;&amp;apos;A/B&amp;apos;&amp;apos; to be &amp;lt;math&amp;gt;\varinjlim \mathrm{Hom}_A(X&amp;apos;, Y/Y&amp;apos;)&amp;lt;/math&amp;gt; where the limit is over subobjects &amp;lt;math&amp;gt;X&amp;apos; \subseteq X&amp;lt;/math&amp;gt; and &amp;lt;math&amp;gt;Y&amp;apos; \subseteq Y&amp;lt;/math&amp;gt; such that &amp;lt;math&amp;gt;X/X&amp;apos;, Y&amp;apos; \in B&amp;lt;/math&amp;gt;. Then &amp;apos;&amp;apos;A/B&amp;apos;&amp;apos; is an Abelian category, and there is a canonical functor &amp;lt;math&amp;gt;Q \colon A \to A/B&amp;lt;/math&amp;gt;. This Abelian quotient satisfies the universal property that if &amp;apos;&amp;apos;C&amp;apos;&amp;apos; is any other Abelian category, and &amp;lt;math&amp;gt;F \colon A \to C&amp;lt;/math&amp;gt; is an [[exact functor]] such that &amp;apos;&amp;apos;F(b)&amp;apos;&amp;apos; is a zero object of &amp;apos;&amp;apos;C&amp;apos;&amp;apos; for each &amp;lt;math&amp;gt;b \in B&amp;lt;/math&amp;gt;, then there is a unique exact functor &amp;lt;math&amp;gt;\overline{F} \colon A/B \to C&amp;lt;/math&amp;gt; such that &amp;lt;math&amp;gt;F = \overline{F} \circ Q&amp;lt;/math&amp;gt;. (See [Gabriel].)
+
+==Properties==
+
+There is a natural quotient [[functor]] from &amp;apos;&amp;apos;C&amp;apos;&amp;apos; to &amp;apos;&amp;apos;C&amp;apos;&amp;apos;/&amp;apos;&amp;apos;R&amp;apos;&amp;apos; which sends each morphism to its equivalence class. This functor is bijective on objects and surjective on Hom-sets (i.e. it is a [[full functor]]).
+
+==Examples==
+
+* [[Monoid]]s and [[group (mathematics)|group]] may be regarded as categories with one object. In this case the quotient category coincides with the notion of a [[quotient monoid]] or a [[quotient group]].
+* The [[homotopy category of topological spaces]] &amp;apos;&amp;apos;&amp;apos;hTop&amp;apos;&amp;apos;&amp;apos; is a quotient category of &amp;apos;&amp;apos;&amp;apos;Top&amp;apos;&amp;apos;&amp;apos;, the [[category of topological spaces]]. The equivalence classes of morphisms are [[homotopy class]]es of continuous maps.
+
+==See also==
+
+*[[Subobject]]
+
+==References==
+* Gabriel, Pierre, &amp;apos;&amp;apos;Des categories abeliennes&amp;apos;&amp;apos;, Bull. Soc. Math. France &amp;apos;&amp;apos;&amp;apos;90&amp;apos;&amp;apos;&amp;apos; (1962), 323-448.
+* [[Saunders Mac Lane|Mac Lane]], Saunders (1998) &amp;apos;&amp;apos;[[Categories for the Working Mathematician]]&amp;apos;&amp;apos;. 2nd ed. (Graduate Texts in Mathematics 5). Springer-Verlag.
+
+[[Category:Category theory]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

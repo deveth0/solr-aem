@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:Federal Standard 1037C terms/telecommunications filter terms"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:Federal Standard 1037C terms/telecommunications filter terms" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;This is a &amp;apos;&amp;apos;&amp;apos;list of filter-related terms&amp;apos;&amp;apos;&amp;apos; initially derived from the &amp;apos;&amp;apos;Glossary of Telecommunication Terms&amp;apos;&amp;apos; published as [[Federal Standard 1037C]]. Please see the Federal Standard article for [[copyright]]-related issues, as not all parts of the source document are in the [[public domain]].
+
+[[bandpass filter]] -- [[bandpass limiter]] -- [[band-stop filter]] -- [[character filter]] -- [[dichroic filter]] -- [[digital filter]] -- [[Electronic filter|filter]] -- [[Hanning filter]] -- [[high-pass filter]] -- [[interference filter]] -- [[Kalman filter]] -- [[loop filter]] -- [[low-pass filter]] -- [[mode filter]] -- [[optical filter]] -- [[roofing filter]] -- [[security filter]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

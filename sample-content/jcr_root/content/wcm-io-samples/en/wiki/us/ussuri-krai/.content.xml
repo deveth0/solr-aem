@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ussuri krai"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ussuri krai" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+&amp;apos;&amp;apos;&amp;apos;Ussuri krai&amp;apos;&amp;apos;&amp;apos; ({{Lang-ru|Уссури́йский край}}) is an unofficial name for a part of [[Primorsky Krai]] and [[Khabarovsky Krai]] that consisted of Ussuri and South-Ussuri [[Okrug]]s.  The name was often used in late [[Imperial Russia]]. The name comes from the fact that [[Ussuri River]] is located on the territory of the krai.
+
+Through the efforts of the Russian governor [[Nikolay Muravyov-Amursky]] the [[Qing Dynasty]] of [[China]] conceded its rights to the territory to Russia in 1858. This decision was officially documented in the [[Convention of Peking|Beijing Treaty]] (1860).
+
+In 1889-1918 Ussuri krai was the location of the [[Ussuri Cossack Host]]. It was re-established in the 1990s.
+
+[[National Geographic Channel]] represented the film named &amp;quot;Secret Forest&amp;quot; as the part of the cycle &amp;quot;[[Wild Russia]]&amp;quot; which describes the natural reserves of [[Ussuri Krai]].
+
+{{coord missing|Primorsky Krai}}
+
+{{DEFAULTSORT:Ussuri Krai}}
+[[Category:Geography of Primorsky Krai]]
+[[Category:China–Russia relations]]
+[[Category:Geography of Khabarovsk Krai]]
+
+
+{{PrimorskyKrai-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

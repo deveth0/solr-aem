@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="WiseNut"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="WiseNut" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=November 2007}}
+
+&amp;lt;!-- Deleted image removed: [[image:wisenut.png|thumb|Screen shot of WiseNut {{deletable image-caption|Wednesday, 16 November 2011}}]] --&amp;gt;
+&amp;apos;&amp;apos;&amp;apos;WiseNut&amp;apos;&amp;apos;&amp;apos; was a [[Web crawler|crawler]]-based [[search engine]] owned by [[Looksmart]]. It debuted as a beta in July 2001 and was officially launched in September 2001. It used its own database, and when it started it was highly regarded by a number of critics{{Citation needed|date=November 2007}}. WiseNut introduced a fresh database and relevant hits{{Citation needed|date=November 2007}}. Like [[Teoma]], WiseNut automatically clustered search results, a technology called &amp;apos;&amp;apos;WiseGuide&amp;apos;&amp;apos;.
+
+Despite its good start, WiseNut never managed to become a major search engine. It lacked boolean search in the standard search and other advanced search features. Unlike other search engines, WiseNut did not cache pages.
+
+Looksmart bought the search engine in April 2002 for $9 million with the aim of introducing a major search engine. The revamp was not successful. Despite delivering good relevancy{{Citation needed|date=November 2007}} and having a large database of over 1.5 billion [[Uniform Resource Identifier|URI]]s, WiseNut remained a small player.
+
+Wisenut closed for good on 28 September 2007.
+
+[[Category:Internet search engines]]
+[[Category:Internet properties established in 2001]]
+[[Category:2007 disestablishments]]
+
+
+{{searchengine-website-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

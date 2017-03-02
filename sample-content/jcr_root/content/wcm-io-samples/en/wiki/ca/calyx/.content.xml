@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Calyx"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Calyx" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|calyx}}
+&amp;apos;&amp;apos;&amp;apos;Calyx&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;Calyce&amp;apos;&amp;apos;&amp;apos; (plural &amp;quot;calyces&amp;quot;) may refer to:
+
+==Science==
+* [[Major calyx]], the convergence of two or three minor calyxes in the kidney
+* [[Minor calyx]], a calyx in the kidney that surrounds the apex of the renal pyramids
+* [[Calyx of Held]], a large synapse in the auditory brainstem structure
+* [[Calyx (anatomy)]], the crown of a crinoid
+* Calyx, the collective name for [[sepal]]s of a flower
+* &amp;apos;&amp;apos;[[Eubela calyx]]&amp;apos;&amp;apos;, species of sea snail
+
+==Other uses==
+* [[Calyx (artist)]], UK producer of drum and bass
+* [[Calyx (fictional moon)]], a fictional moon in &amp;apos;&amp;apos;Colony Wars&amp;apos;&amp;apos;
+* [[Calyx (magazine)|&amp;apos;&amp;apos;Calyx&amp;apos;&amp;apos; (magazine)]], a literary journal
+* [[Calyce (mythology)]], a figure in Greek mythology
+* &amp;apos;Calyx&amp;apos;, a textile design by [[Lucienne Day]]
+* &amp;apos;Calyx&amp;apos;, a song by Hatfield and the North from their album [[Hatfield and the North (album)]]
+* [[CALYX]], publisher
+
+==See also==
+* [[Calix (disambiguation)]]
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

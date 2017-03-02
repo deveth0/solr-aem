@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Intensional statement"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Intensional statement" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+In [[logic]], an &amp;apos;&amp;apos;&amp;apos;intensional statement-form&amp;apos;&amp;apos;&amp;apos; is a statement-form with at least one instance such that substituting co-extensive expressions into it does not always preserve [[logical value]].  An &amp;apos;&amp;apos;&amp;apos;intensional statement&amp;apos;&amp;apos;&amp;apos; is a statement that is an instance of an intensional statement-form. Here co-extensive expressions are expressions with the same [[extension (semantics)|extension]]. (A statement-form is simply a form obtained by putting blanks into a sentence where one or more expressions with extensions occur—for instance, &amp;quot;The quick brown ___ jumped over the lazy ___&amp;apos;s back.&amp;quot; An instance of the form is a statement obtained by filling the blanks in.)
+
+That is, a statement-form is intensional if it has, as one of its instances, a statement for which there are two co-extensive expressions (in the relevant language) such that one of them occurs in the statement, and if the other one is put in its place (uniformly, so that it replaces the former expression wherever it occurs in the statement), the result is a (different) statement with a different logical value.  An intensional statement, then, is an instance of such a form; it has the same form as a statement in which substitution of co-extensive terms fails to preserve logical value.  A non-intensional statement is also known as an &amp;apos;&amp;apos;extensional&amp;apos;&amp;apos; statement, since substitution of co-extensive expressions into it always preserves logical value.  A language is intensional if it contains intensional statements, and extensional otherwise.  English, in common with every other natural language, is an intensional language.  The only extensional languages are artificially constructed languages used in mathematics or for other special purposes and small fragments of natural languages.
+
+==Examples of extensional statements==
+#Mark Twain wrote &amp;apos;&amp;apos;Huckleberry Finn&amp;apos;&amp;apos;.
+#Aristotle had a sister.
+
+Note that if &amp;quot;Samuel Clemens&amp;quot; is put into (1) in place of &amp;quot;Mark Twain&amp;quot;, the result is as true as the original statement. It should be clear that no matter what is put for &amp;quot;Mark Twain&amp;quot;, so long as it is a singular term picking out the same man, the statement remains true.  Likewise, we can put in place of the predicate any other predicate belonging to Mark Twain and only to Mark Twain, without changing the logical value.  For (2), likewise, consider the following substitutions: &amp;quot;Aristotle&amp;quot; → &amp;quot;The tutor of Alexander the Great&amp;quot;; &amp;quot;Aristotle&amp;quot; → &amp;quot;The author of the &amp;apos;Prior Analytics&amp;apos;&amp;quot;; &amp;quot;had a sister&amp;quot; → &amp;quot;had a sibling with two X-chromosomes&amp;quot;; &amp;quot;had a sister&amp;quot; → &amp;quot;had a parent who had a non-male child&amp;quot;.
+
+==Examples of intensional statements==
+#Everyone who has read &amp;apos;&amp;apos;Huckleberry Finn&amp;apos;&amp;apos; knows that Mark Twain wrote it.
+#It is possible that Aristotle did not tutor Alexander the Great.
+#Aristotle was pleased that he had a sister.
+
+To see that these are intensional, make the following substitutions:  (1) &amp;quot;Mark Twain&amp;quot; → &amp;quot;The author of &amp;apos;Corn-pone Opinions&amp;apos;&amp;quot;; (2) &amp;quot;Aristotle&amp;quot; → &amp;quot;the tutor of Alexander the Great&amp;quot;; (3) can be seen to be intensional given &amp;quot;had a sister&amp;quot; → &amp;quot;had a sibling with two X-chromosomes&amp;quot;.
+
+It will be noted that the intensional statements above feature expressions like &amp;quot;knows&amp;quot;, &amp;quot;possible&amp;quot;, and &amp;quot;pleased&amp;quot;.  Such expressions always, or nearly always, produce intensional statements when added (in some intelligible manner) to an extensional statement, and thus they (or more complex expressions like &amp;quot;It is possible that&amp;quot;) are sometimes called &amp;apos;&amp;apos;intensional operators&amp;apos;&amp;apos;.  A large class of intensional statements, but by no means all, can be spotted from the fact that they contain intensional operators.
+
+==Significance==
+Intensional languages cannot be given an adequate semantics in terms of the extensions of expressions in them, since the extensions themselves do not suffice to determine a logical value.  (If they did, then one could not change the logical value by substituting co-extensive expressions.)  On the other hand, for the first half of the 20th century the only known systems of formal semantics worked by assigning extensions to expressions and used a [[Tarski]]-style truth-definition of statements constructed from the primitive expressions of the language under analysis.  Hence, these semantical methods were pathetically inadequate for understanding the semantics of any but a few small artificial languages or mutilated fragments of natural languages.
+
+This situation changed in the 1960s with the invention of possible-world or &amp;quot;intensional&amp;quot; semantics, the main form of which is due to [[Saul Kripke]]. Though this has enabled improvements in the semantic modelling of natural languages, much work remains to be done.
+
+==See also==
+*[[Extensional context]]
+
+{{DEFAULTSORT:Intensional Statement}}
+[[Category:Semantics]]
+[[Category:Statements]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

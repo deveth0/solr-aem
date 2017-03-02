@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Partenia"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Partenia" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{for|the Renaissance music collection|Parthenia (music)}}
+[[Image:Partenia.gif|thumb|right|Logo of the Diocese of Partenia]]
+
+&amp;apos;&amp;apos;&amp;apos;Partenia&amp;apos;&amp;apos;&amp;apos; (also spelled &amp;apos;&amp;apos;&amp;apos;Parthenia&amp;apos;&amp;apos;&amp;apos;) is a [[Roman Catholic]] [[titular see]] in present-day [[Sétif Province]], [[Algeria]]. Formerly a major city, the episcopal see was abandoned and consumed by the [[Sahara]] desert in the 5th century. Today, the area contains some scattered farms, about halfway between the cities of [[Aïn Oulmene]] and [[Bir Haddada]].
+
+Bishop [[Jacques Gaillot]] of [[Évreux]] in [[France]] was placed in this titular see by [[Pope John Paul II]] as disciplinary action for having expressed too loudly liberal positions on political and social matters; and heterodox opinions on religious matters. Gaillot then established a website of his titular see.
+
+== See also ==
+
+* [[Religion and the internet]]
+
+== External links ==
+* [http://www.partenia.org/english/partenia_eng.htm Homepage of Partenia: diocese without borders (the cyber-diocese)]
+* {{cite web|url=http://www.catholic-hierarchy.org/diocese/d2p53.html|title=Parthenia|work=[[Catholic Hierarchy]]}}
+
+{{coord|35.9438|N|5.3530|E|source:dewiki_region:DZ_scale:500000_type:landmark|format=dms|display=title}}
+
+[[Category:Titular sees in Africa]]
+[[Category:Archaeological sites in Algeria]]
+[[Category:Former populated places in Algeria]]
+
+{{RC-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Hi-Q"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Hi-Q" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Hi-Q&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;HiQ&amp;apos;&amp;apos;&amp;apos; has several meanings:
+
+*[[Hi-Q (game)]] is a game that involves jumping pegs over one another in a grid
+*[[HiQ (math software)]] is a differential analyzer application currently sold by [[National Instruments]]
+*[[Hi-Q (band)]] is a Romanian pop group
+*[[Kimberly-Clark Hi-Q]] is a U.S. high school academic quiz competition originating in Delaware County, Pennsylvania
+*[[Delco Hi-Q]] is an academic quiz competition in Delaware County, Pennsylvania
+*[[Hi-Q (production music)]] was a library of production music released by Capitol Records in the 1950s
+*In [[Gröûp X]]&amp;apos;s song &amp;apos;&amp;apos;Too Many Guys&amp;apos;&amp;apos;, the lyrics make a reference to HIQ, a virus that can be caught via sexual intercourse; HIQ has also been showed many times in the Flash animation for the song; the name HIQ is most likely a parody of HIV
+
+There are also a large number of small companies named &amp;apos;&amp;apos;&amp;apos;Hi-Q&amp;apos;&amp;apos;&amp;apos;, &amp;apos;&amp;apos;&amp;apos;HiQ&amp;apos;&amp;apos;&amp;apos;, or &amp;apos;&amp;apos;&amp;apos;HIQ&amp;apos;&amp;apos;&amp;apos;.
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

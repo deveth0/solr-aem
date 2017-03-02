@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Distribution function"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Distribution function" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+:&amp;apos;&amp;apos;This article describes the &amp;apos;&amp;apos;distribution function&amp;apos;&amp;apos; as used in physics. You may be looking for the related mathematical concepts of [[cumulative distribution function]] or [[probability density function]].&amp;apos;&amp;apos;
+
+In molecular [[kinetic theory]] in [[physics]], a particle&amp;apos;s &amp;apos;&amp;apos;&amp;apos;distribution function&amp;apos;&amp;apos;&amp;apos; is a function of seven variables, &amp;lt;math&amp;gt;f(x,y,z,t;v_x,v_y,v_z)&amp;lt;/math&amp;gt;, which gives the number of particles per unit volume in [[phase space]].  It is the number of particles per unit volume having approximately the [[velocity]] &amp;lt;math&amp;gt;(v_x,v_y,v_z)&amp;lt;/math&amp;gt; near the place &amp;lt;math&amp;gt;(x,y,z)&amp;lt;/math&amp;gt; and time &amp;lt;math&amp;gt;(t)&amp;lt;/math&amp;gt;.  The usual normalization of the distribution function is
+
+:&amp;lt;math&amp;gt;n(x,y,z,t) = \int f \,dv_x \,dv_y \,dv_z&amp;lt;/math&amp;gt;
+
+:&amp;lt;math&amp;gt;N(t) = \int n \,dx \,dy \,dz. &amp;lt;/math&amp;gt;
+
+Here, N is the total number of particles and &amp;apos;&amp;apos;n&amp;apos;&amp;apos; is the number density of particles - the number of particles per unit volume, or the [[density]] divided by the mass of individual particles.
+
+A distribution function may be specialised with respect to a particular set of dimensions. E.g. take the quantum mechanical six dimensional phase space, &amp;lt;math&amp;gt;f(x,y,z;p_x,p_y,p_z)&amp;lt;/math&amp;gt; and multiply by the total space volume, to give the momentum distribution i.e. the number of particles in the momentum phase space having approximately the [[momentum]] &amp;lt;math&amp;gt;(p_x,p_y,p_z)&amp;lt;/math&amp;gt;.
+
+Particle distribution functions are often used in [[plasma physics]] to describe wave-particle interactions and velocity-space instabilities.  Distribution functions are also used in [[fluid mechanics]], [[statistical mechanics]] and [[nuclear physics]].
+
+The [[Maxwell-Boltzmann distribution|basic distribution function]] uses the [[Boltzmann constant]] &amp;lt;math&amp;gt;k&amp;lt;/math&amp;gt; and temperature &amp;lt;math&amp;gt;T&amp;lt;/math&amp;gt; with the number density to modify the [[normal distribution]]:
+
+:&amp;lt;math&amp;gt; f = n\left(\frac{m}{2 \pi  kT}\right)^{3/2} \exp\left({-\frac{m(v_x^2 + v_y^2 + v_z^2)}{2kT}}\right). &amp;lt;/math&amp;gt;
+
+Related distribution functions may allow bulk fluid flow, in which case the velocity origin is shifted, so that the [[exponent]]&amp;apos;s [[numerator]] is &amp;lt;math&amp;gt;m((v_x - u_x)^2 + (v_y - u_y)^2 + (v_z - u_z)^2)&amp;lt;/math&amp;gt;;  &amp;lt;math&amp;gt;(u_x, u_y, u_z)&amp;lt;/math&amp;gt; is the bulk velocity of the fluid.  Distribution functions may also feature non-isotropic temperatures, in which each term in the exponent is divided by a different temperature.
+
+Plasma theories such as [[magnetohydrodynamics]] may assume the particles to be in [[thermodynamic equilibrium]].  In this case, the distribution function is &amp;apos;&amp;apos;[[Maxwellian]]{{dn|date=July 2012}}&amp;apos;&amp;apos;.  This distribution function allows fluid flow and different temperatures in the directions parallel to, and perpendicular to, the local magnetic field.  More complex distribution functions may also be used since [[Plasma (physics)|plasmas]] are rarely in thermal equilibrium.
+
+The mathematical analog of a distribution is a [[measure (mathematics)|measure]]; the time evolution of a measure on a phase space is the topic of study in [[dynamical systems]].
+
+{{DEFAULTSORT:Distribution Function}}
+[[Category:Statistical mechanics]]
+[[Category:Dynamical systems]]
+
+[[nl:Verdelingsfunctie]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

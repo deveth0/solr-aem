@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="MediaWiki:Longpagewarning"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="MediaWiki:Longpagewarning" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{fmbox
+|id    = longpagewarning
+|type  = editnotice
+|image = none
+|text  = This page is {{formatnum:{{#expr: {{formatnum:$1|R}} * 1.024 round 0}}}} kilobytes long. {{#switch:{{NAMESPACE}}
+|{{TALKSPACE}}= {{#ifexpr: {{formatnum:$1|R}} &amp;gt; 70| It may be helpful to move older discussions into an archive subpage. See [[Help:Archiving a talk page]] for guidance.}}
+|{{ns:0}}= {{#ifexpr: {{formatnum:$1|R}} &amp;gt; 80| It may be appropriate to split this article into smaller, more specific articles. See [[Wikipedia:Article size]].}}
+}}
+}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

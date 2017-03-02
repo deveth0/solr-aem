@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="ARS++"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="ARS++" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;ARS++&amp;apos;&amp;apos;&amp;apos; was developed in 2002 for the book &amp;apos;&amp;apos;Undiluted Programming&amp;apos;&amp;apos;&amp;lt;ref&amp;gt;[http://www.lambda-bound.de/book/engl/index.html Description of Undiluted Programming]&amp;lt;/ref&amp;gt; to demonstrate &amp;apos;&amp;apos;&amp;apos;ARS based programming&amp;apos;&amp;apos;&amp;apos; in a real world context. ARS++ is used in the book to implement an [[A++]] [[Interpreter (computing)|interpreter]] and  an [[XML]] [[Database]] System. Even the implementation of ARS++ in [[C (programming language)|C]] was used to demonstrate [[ARS]] based programming.
+
+Principally the [[programming language]] [[Scheme (programming language)|Scheme]] would have been perfectly all right to be used for these demonstration programs if Scheme would include primitives supporting [[Computer networking|network]] programming, database programming plus a few others required in this context.
+
+The definition of the programming language Scheme does not include those primitives however, leaving this issue up to the implementors of the language. The consequence is that there exist many Scheme implementations, almost none of them covering all areas essential for real application programs. This is the historical background that gave birth to the development of ARS++.&amp;lt;ref&amp;gt;A few weeks ago the author of the referenced book  discovered a Scheme implementation that would have been very well suited to serve as a  language for developing  the case studies for &amp;apos;Undiluted Programming&amp;apos;.  This &amp;apos;&amp;apos;Scheme implementation&amp;apos;&amp;apos; is called &amp;apos;&amp;apos;&amp;apos;Gauche&amp;apos;&amp;apos;&amp;apos; and is [http://www.shiro.dreamhost.com/scheme/gauche/ available for download in the internet].&amp;lt;/ref&amp;gt;
+
+== ARS++ explained by its name ==
+The name &amp;apos;&amp;apos;&amp;apos;ARS++&amp;apos;&amp;apos;&amp;apos;, being an [[acronym]] for &amp;apos;&amp;apos;&amp;apos;ARS + Scheme + Extensions&amp;apos;&amp;apos;&amp;apos;, indicates that ARS++ has a lot to do with [[Scheme (programming language)|Scheme]] but that it is not equivalent to Scheme.
+
+* The &amp;apos;&amp;apos;&amp;apos;first part&amp;apos;&amp;apos;&amp;apos; of the name refers to the core of  the language, which is nothing else but [[A plusplus|A++]], i.e. &amp;apos;&amp;apos;Abstraction + Reference + Synthesis&amp;apos;&amp;apos;.&amp;lt;ref&amp;gt;The structure of A++ however is different from the structure of Scheme, which can be verified by comparing the definition of Scheme in R5RS with the definition of A++ [http://www.lambda-bound.de/book/lambdacalc/node41.html here].&amp;lt;/ref&amp;gt;
+
+* The &amp;apos;&amp;apos;&amp;apos;second part&amp;apos;&amp;apos;&amp;apos; in the name of ARS++ stands for the primitive functions that are imported from Scheme, giving ARS++ almost the same functionality as Scheme. Primitive functions are those, that are not and cannot be defined as lambda abstractions because they are representing a functionality that can only be provided by the underlying [[operating system]] or the hardware.
+
+* The &amp;apos;&amp;apos;&amp;apos;third part&amp;apos;&amp;apos;&amp;apos; of the name refers to primitive functions that are not defined in [[R5RS]] (the official definition of the programming language Scheme) but are nevertheless important for real world programming like functions allowing to work with [[regular expressions]], with [[TCP/IP]] networks, with embedded databases (e.g. [[Berkeley DB]], [[GNU database manager]]) and a few that provide an interface with the operating system.
+
+From a practical point of view a Scheme implementation that includes support for regular expressions, databases, sockets and also provides an interface to the operating system can be called an ARS++ language.
+
+== See also ==
+* [[ARS-based programming]]
+* [[A plusplus|A++]]
+* [[Educational programming language]]
+
+== References ==
+&amp;lt;references/&amp;gt;
+
+[[Category:Educational programming languages]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

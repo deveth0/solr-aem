@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Van &#x27;t Hoff factor"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Van &#x27;t Hoff factor" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{unreferenced|date=January 2009}}
+The &amp;apos;&amp;apos;&amp;apos;van &amp;apos;t Hoff factor &amp;lt;math&amp;gt; i &amp;lt;/math&amp;gt;&amp;apos;&amp;apos;&amp;apos; (named after [[J. H. van &amp;apos;t Hoff]]) is a measure of the effect of a solute upon [[colligative properties]] such as [[osmotic pressure]], relative lowering in [[vapor pressure]], [[Boiling-point elevation|elevation of boiling point]] and [[freezing point depression]]. The van &amp;apos;t Hoff factor is the ratio between the actual concentration of particles produced when the substance is dissolved, and the [[concentration]] of a substance as calculated from its mass.  For most non-[[electrolyte]]s dissolved in water, the van&amp;apos; t Hoff factor is essentially 1.  For most [[ionic compound]]s dissolved in water, the van &amp;apos;t Hoff factor is equal to the number of discrete ions in a [[formula unit]] of the substance.  This is true for [[Ideal solution|ideal solutions]] only, as occasionally [[Ion-association|ion pairing]] occurs in solution.  At a given instant a small percentage of the ions are paired and count as a single particle.  Ion pairing occurs to some extent in all electrolyte solutions.  This causes deviation from the van &amp;apos;t Hoff factor.  The deviation for the van &amp;apos;t Hoff factor tends to be greatest where the ions have multiple charges.
+
+==Dissociated solutes==
+The degree of dissociation is the fraction of the original solute molecules that have [[dissociation (chemistry)|dissociated]]. It is usually indicated by the Greek symbol &amp;lt;math&amp;gt; \alpha &amp;lt;/math&amp;gt;. There is a simple relationship between this parameter and the van&amp;apos;t Hoff factor. If a fraction &amp;lt;math&amp;gt; \alpha &amp;lt;/math&amp;gt; of the solute dissociates into &amp;lt;math&amp;gt; n &amp;lt;/math&amp;gt; ions, then
+
+:::&amp;lt;math&amp;gt; i = \alpha n + (1- \alpha) = 1 + \alpha (n - 1) &amp;lt;/math&amp;gt;
+
+For example the dissociation
+
+:::KCl {{Eqm}} K&amp;lt;sup&amp;gt;+&amp;lt;/sup&amp;gt; + Cl&amp;lt;sup&amp;gt;-&amp;lt;/sup&amp;gt;
+
+yields &amp;lt;math&amp;gt; n = 2 &amp;lt;/math&amp;gt; particles, so that &amp;lt;math&amp;gt; i = 1 + \alpha &amp;lt;/math&amp;gt;
+
+==Associated solutes==
+Similarly, if a fraction &amp;lt;math&amp;gt;\alpha&amp;lt;/math&amp;gt; of &amp;lt;math&amp;gt; n &amp;lt;/math&amp;gt; moles of solute associate to form one mole of it, then
+
+:::&amp;lt;math&amp;gt; i =1 - (1 - \frac{1}{n})\alpha &amp;lt;/math&amp;gt;
+
+For example the dimerisation of acetic acid in benzene
+
+:::2CH&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;COOH {{Eqm}} (CH&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;COOH)&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;
+
+2 moles of acetic acid associate to form 1 mole so,
+:::&amp;lt;math&amp;gt;i=1-(1-\frac{1}{2})\alpha = 1-\frac{\alpha}{2}&amp;lt;/math&amp;gt;
+
+== Physical significance of &amp;lt;math&amp;gt;i&amp;lt;/math&amp;gt; ==
+
+[[File:Carboxylic acid dimers.png|thumb|Dimerization of a carboxylic acid by formation of [[hydrogen bond]]s (shown as dotted lines).]]
+* When solute particles associate in solution, &amp;lt;math&amp;gt;i&amp;lt;/math&amp;gt; is less than 1. For example, [[carboxylic acid]]s such as ethanoic acid ([[acetic acid]]) or [[benzoic acid]] form [[Dimer (chemistry)|dimers]] in benzene, so that the number of solute particles is half the number of acid molecules.
+
+* When solute particles [[dissociate]] in solution, &amp;lt;math&amp;gt;i&amp;lt;/math&amp;gt; is greater than 1. (&amp;apos;&amp;apos;e.g.&amp;apos;&amp;apos; sodium chloride in water, [[potassium chloride]] in water, [[magnesium chloride]] in water)
+* When solute particles neither dissociate nor associate in solution, &amp;lt;math&amp;gt;i&amp;lt;/math&amp;gt; equals 1. (&amp;apos;&amp;apos;e.g.&amp;apos;&amp;apos; Glucose in water)
+The value of &amp;lt;math&amp;gt;i&amp;lt;/math&amp;gt; is ;
+&amp;lt;math&amp;gt;i&amp;lt;/math&amp;gt; = the actual number of particles in solution after dissociation ÷ the number of formula units initially dissolved in solution.
+Means the number of particles per formula unit of the solute when a solution is dilute.
+* Association of Molecules (i&amp;lt;1) &amp;lt;math&amp;gt;i = 1 - \frac{n-1}{n}\alpha&amp;lt;/math&amp;gt;
+
+== See also ==
+* [[Colligative properties]]
+* [[Solutions]]
+* [[Raoult&amp;apos;s law]]
+* [[Van &amp;apos;t Hoff equation]]
+* [[Dissociation (chemistry)]]
+* [[Osmotic coefficient]]
+[[Category:Physical chemistry]]
+[[Category:Dimensionless numbers]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

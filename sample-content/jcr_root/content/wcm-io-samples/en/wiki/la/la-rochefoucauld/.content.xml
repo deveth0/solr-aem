@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="La Rochefoucauld"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="La Rochefoucauld" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;La Rochefoucauld&amp;apos;&amp;apos;&amp;apos; can refer to:
+
+==People==
+* [[Antoine de La Rochefoucauld]], 16th-century French knight
+* [[Count Antoine de La Rochefoucauld]] (1862–1959), 19th century Rosicrucian
+* [[François de La Rochefoucauld (writer)]] (1613–1680), French author
+* [[François de La Rochefoucauld (cardinal)]] (1558–1645), French cardinal of the Catholic Church
+* [[François Alexandre Frédéric, duc de la Rochefoucauld-Liancourt]] (1747–1827), social reformer
+* [[François de La Rochefoucauld, marquis de Montendre]] (1672–1739)
+* [[François, duc de La Rochefoucauld (1765–1848)]]
+* [[Frédéric Gaëtan, marquis de La Rochefoucauld-Liancourt]] (1779–1863), politician
+* [[Maxime de la Rochefoucauld]] (born 1959), Canadian musician
+* [[Robert de La Rochefoucauld]] (1923 - 2012), French count and special operations executive
+
+==Places==
+* [[La Rochefoucauld, Charente]], a commune in the Charente département in France
+
+==See also==
+*[[Duc de La Rochefoucauld]]
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

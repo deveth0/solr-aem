@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Template:Germany districts Baden-Württemberg"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Template:Germany districts Baden-Württemberg" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Navbox
+| name  = Germany districts Baden-Württemberg
+| title =  [[File:Flag of Baden-Württemberg.svg|border|30px|Flag of Baden-Württemberg]] Regions, and urban and rural districts in the state of [[Baden-Württemberg]] in Germany [[File:Flag of Germany.svg|border|30px|Flag of Germany]]
+| state    = {{{state|autocollapse}}}
+| bodyclass = hlist
+
+| group1 = Regions
+|list1 =
+
+* [[Freiburg (region)|Freiburg]]
+* [[Karlsruhe (region)|Karlsruhe]]
+* [[Stuttgart (region)|Stuttgart]]
+* [[Tübingen (region)|Tübingen]]
+
+| group2 = Urban districts
+| list2 =
+* [[Baden-Baden]]
+* [[Freiburg im Breisgau|Freiburg]]
+* [[Heidelberg]]
+* [[Heilbronn]]
+* [[Karlsruhe]]
+* [[Mannheim]]
+* [[Pforzheim]]
+* [[Stuttgart]]
+* [[Ulm]]
+
+| group3 = Rural districts
+| list3 =
+* [[Alb-Donau-Kreis|Alb-Donau]]
+* [[Biberach (district)|Biberach]]
+* [[Bodenseekreis|Bodensee]]
+* [[Böblingen (district)|Böblingen]]
+* [[Breisgau-Hochschwarzwald]]
+* [[Calw (district)|Calw]]
+* [[Emmendingen (district)|Emmendingen]]
+* [[Enzkreis|Enz]]
+* [[Esslingen (district)|Esslingen]]
+* [[Freudenstadt (district)|Freudenstadt]]
+* [[Göppingen (district)|Göppingen]]
+* [[Heidenheim (district)|Heidenheim]]
+* [[Heilbronn (district)|Heilbronn]]
+* [[Hohenlohe (district)|Hohenlohe]]
+* [[Karlsruhe (district)|Karlsruhe]]
+* [[Konstanz (district)|Konstanz]]
+* [[Lörrach (district)|Lörrach]]
+* [[Ludwigsburg (district)|Ludwigsburg]]
+* [[Main-Tauber-Kreis|Main-Tauber]]
+* [[Neckar-Odenwald-Kreis|Neckar-Odenwald]]
+* [[Ortenaukreis|Ortenau]]
+* [[Ostalbkreis]]
+* [[Rastatt (district)|Rastatt]]
+* [[Ravensburg (district)|Ravensburg]]
+* [[Rems-Murr-Kreis|Rems-Murr]]
+* [[Reutlingen (district)|Reutlingen]]
+* [[Rhein-Neckar-Kreis|Rhein-Neckar]]
+* [[Rottweil (district)|Rottweil]]
+* [[Schwarzwald-Baar-Kreis|Schwarzwald-Baar]]
+* [[Schwäbisch Hall (district)|Schwäbisch Hall]]
+* [[Sigmaringen (district)|Sigmaringen]]
+* [[Tübingen (district)|Tübingen]]
+* [[Tuttlingen (district)|Tuttlingen]]
+* [[Waldshut (district)|Waldshut]]
+* [[Zollernalbkreis|Zollernalb]]
+
+}}&amp;lt;noinclude&amp;gt;
+{{collapsible option}}
+
+[[Category:Baden-Württemberg subdivision templates|Districts]]
+[[Category:Germany state district templates|Baden-Württemberg]]
+
+&amp;lt;/noinclude&amp;gt;&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

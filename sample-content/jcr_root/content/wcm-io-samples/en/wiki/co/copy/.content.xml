@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Copy"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Copy" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Wiktionary|copy}}
+&amp;apos;&amp;apos;&amp;apos;Copy&amp;apos;&amp;apos;&amp;apos; may refer to: to copy a word from a book to a paper or laptop or computer
+*[[Copying]] or the product of copying (including the plural &amp;quot;copies&amp;quot;); the duplication of information or an artifact
+**[[Cut, copy, and paste]], a method of reproducing text or other data in computing
+**[[Photocopying]], a process which makes paper copies of documents and other visual images
+**[[Fax]], a telecommunications technology used to transfer copies of documents, especially over the telephone network
+**[[Facsimile]], a copy or reproduction that is as true to the original source as possible
+**[[Replica]], a copy closely resembling the original concerning its shape and appearance
+**Term of art in [[US copyright law]] meaning a material object in which a work of authorship has been embodied, such as a book
+*[[Procedure_word#Roger.2C_Received.2C_Romeo.2C_Copy|Copy (procedure word)]], a response indicating satisfactory receipt of last radio transmission
+*[[Copy (command)]], a shell command
+*[[Copy (written)]], written content in publications, in contrast to photographs or other elements of layout
+*[[Copy (album)]], the debut album of the electronica artist Mitsuki Aira
+*[[Copy (musician)]], the Portland-based electronic music artist
+*[[Copy (software)]], A Cloud-based storage service utilizing a blue origami crane as its logo
+== See also ==
+* [[Copy-paste (disambiguation)]]
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

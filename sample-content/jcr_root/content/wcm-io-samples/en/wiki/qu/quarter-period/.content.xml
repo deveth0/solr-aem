@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Quarter period"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Quarter period" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[mathematics]], the &amp;apos;&amp;apos;&amp;apos;quarter periods&amp;apos;&amp;apos;&amp;apos; &amp;apos;&amp;apos;K&amp;apos;&amp;apos;(&amp;apos;&amp;apos;m&amp;apos;&amp;apos;) and i&amp;apos;&amp;apos;K&amp;apos;&amp;apos;&amp;amp;nbsp;&amp;amp;prime;(&amp;apos;&amp;apos;m&amp;apos;&amp;apos;) are [[special function]]s that appear in the theory of [[elliptic functions]].
+
+The quarter periods &amp;apos;&amp;apos;K&amp;apos;&amp;apos; and i&amp;apos;&amp;apos;K&amp;apos;&amp;apos;&amp;amp;nbsp;&amp;amp;prime; are given by
+
+:&amp;lt;math&amp;gt;K(m)=\int_0^{\frac{\pi}{2}} \frac{d\theta}{\sqrt {1-m \sin^2 \theta}}&amp;lt;/math&amp;gt;
+
+and
+
+:&amp;lt;math&amp;gt;{\rm{i}}K&amp;apos;(m) = {\rm{i}}K(1-m).\,&amp;lt;/math&amp;gt;
+
+When &amp;apos;&amp;apos;m&amp;apos;&amp;apos; is a real number, 0 &amp;amp;le; &amp;apos;&amp;apos;m&amp;apos;&amp;apos; &amp;amp;le; 1, then both &amp;apos;&amp;apos;K&amp;apos;&amp;apos; and &amp;apos;&amp;apos;K&amp;apos;&amp;apos;&amp;amp;nbsp;&amp;amp;prime; are real numbers.  By convention, &amp;apos;&amp;apos;K&amp;apos;&amp;apos; is called the &amp;apos;&amp;apos;real quarter period&amp;apos;&amp;apos; and i&amp;apos;&amp;apos;K&amp;apos;&amp;apos;&amp;amp;nbsp;&amp;amp;prime; is  called the &amp;apos;&amp;apos;imaginary quarter period&amp;apos;&amp;apos;.  Any one of the numbers &amp;apos;&amp;apos;m&amp;apos;&amp;apos;, &amp;apos;&amp;apos;K&amp;apos;&amp;apos;, &amp;apos;&amp;apos;K&amp;apos;&amp;apos;&amp;amp;nbsp;&amp;amp;prime;, or &amp;apos;&amp;apos;K&amp;apos;&amp;apos;&amp;amp;nbsp;&amp;amp;prime;/&amp;apos;&amp;apos;K&amp;apos;&amp;apos; uniquely determines the others.
+
+These functions appear in the theory of [[Jacobian elliptic functions]]; they are called &amp;apos;&amp;apos;quarter periods&amp;apos;&amp;apos; because the elliptic functions &amp;lt;math&amp;gt;{\rm{sn}} u\,&amp;lt;/math&amp;gt; and &amp;lt;math&amp;gt; {\rm{cn}} u\,&amp;lt;/math&amp;gt; are periodic functions with periods &amp;lt;math&amp;gt;4K \,&amp;lt;/math&amp;gt; and &amp;lt;math&amp;gt;4{\rm{i}}K&amp;apos;\,&amp;lt;/math&amp;gt; .
+
+The quarter periods are essentially the [[elliptic integral]] of the first kind, by making the substitution &amp;lt;math&amp;gt;k^2=m\,&amp;lt;/math&amp;gt;.  In this case, one writes &amp;lt;math&amp;gt;K(k)\,&amp;lt;/math&amp;gt; instead of &amp;lt;math&amp;gt;K(m)\,&amp;lt;/math&amp;gt;, understanding the difference between the two depends notationally on whether &amp;lt;math&amp;gt;k\,&amp;lt;/math&amp;gt; or &amp;lt;math&amp;gt;m\,&amp;lt;/math&amp;gt; is used.  This notational difference has spawned a terminology to go with it:
+* &amp;lt;math&amp;gt;m\,&amp;lt;/math&amp;gt; is called the &amp;apos;&amp;apos;&amp;apos;parameter&amp;apos;&amp;apos;&amp;apos;
+* &amp;lt;math&amp;gt;m_1= 1-m \,&amp;lt;/math&amp;gt; is called the &amp;apos;&amp;apos;&amp;apos;complementary parameter&amp;apos;&amp;apos;&amp;apos;
+* &amp;lt;math&amp;gt;k\,&amp;lt;/math&amp;gt; is called the &amp;apos;&amp;apos;&amp;apos;[[elliptic modulus]]&amp;apos;&amp;apos;&amp;apos;
+* &amp;lt;math&amp;gt;k&amp;apos; \,&amp;lt;/math&amp;gt; is called the &amp;apos;&amp;apos;&amp;apos;complementary elliptic modulus&amp;apos;&amp;apos;&amp;apos;, where &amp;lt;math&amp;gt;{k&amp;apos;}^2=m_1\,\!&amp;lt;/math&amp;gt;
+* &amp;lt;math&amp;gt;\alpha\,\!&amp;lt;/math&amp;gt; the &amp;apos;&amp;apos;&amp;apos;[[modular angle]]&amp;apos;&amp;apos;&amp;apos;, where &amp;lt;math&amp;gt;k=\sin \alpha\,\!&amp;lt;/math&amp;gt;
+* &amp;lt;math&amp;gt;\frac{\pi}{2}-\alpha\,\!&amp;lt;/math&amp;gt; the &amp;apos;&amp;apos;&amp;apos;complementary modular angle&amp;apos;&amp;apos;&amp;apos;.  Note that
+:&amp;lt;math&amp;gt;m_1=\sin^2\left(\frac{\pi}{2}-\alpha\right)=\cos^2 \alpha.\,\!&amp;lt;/math&amp;gt;
+
+The elliptic modulus can be expressed in terms of the quarter periods as
+
+:&amp;lt;math&amp;gt;k=\textrm{ns} (K+{\rm{i}}K&amp;apos;)\,\!&amp;lt;/math&amp;gt;
+
+and
+
+:&amp;lt;math&amp;gt;k&amp;apos;= \textrm{dn} K\,&amp;lt;/math&amp;gt;
+
+where ns and dn [[Jacobian elliptic functions]].
+
+The &amp;apos;&amp;apos;&amp;apos;[[nome (mathematics)|nome]]&amp;apos;&amp;apos;&amp;apos; &amp;lt;math&amp;gt;q\,&amp;lt;/math&amp;gt; is given by
+
+:&amp;lt;math&amp;gt;q=e^{-\frac{\pi K&amp;apos;}{K}}.\,&amp;lt;/math&amp;gt;
+
+The &amp;apos;&amp;apos;&amp;apos;complementary nome&amp;apos;&amp;apos;&amp;apos; is given by
+
+:&amp;lt;math&amp;gt;q_1=e^{-\frac{\pi K}{K&amp;apos;}}.\,&amp;lt;/math&amp;gt;
+
+The real quarter period can be expressed as a [[Lambert series]] involving the nome:
+
+:&amp;lt;math&amp;gt;K=\frac{\pi}{2} + 2\pi\sum_{n=1}^\infty \frac{q^n}{1+q^{2n}}.\,&amp;lt;/math&amp;gt;
+
+Additional expansions and relations can be found on the page for [[elliptic integral]]s.
+
+==References==
+* Milton Abramowitz and Irene A. Stegun, &amp;apos;&amp;apos;Handbook of Mathematical Functions&amp;apos;&amp;apos;, (1964) Dover Publications, New York. ISBN 0-486-61272-4.  See chapters 16 and 17.
+
+[[Category:Elliptic functions]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

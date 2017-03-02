@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Henry of Burgundy"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Henry of Burgundy" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Henry of Burgundy&amp;apos;&amp;apos;&amp;apos; may refer to:
+*[[Henry I, Duke of Burgundy]] (946 – 1002), sometimes called Eudes Henry or Odo Henry
+*[[Henry I of France]] (1008 – 1060), also held Burgundy as Henry II
+*Henry of Burgundy (1035–1074), son and heir of [[Robert I, Duke of Burgundy]], but died during his father&amp;apos;s lifetime; father of two Dukes of Burgundy, and of:
+**[[Henry, Count of Portugal]] (1066–1112), son of Henry of Burgundy
+
+{{hndis}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

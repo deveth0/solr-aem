@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:Articles for deletion/AlterMedia"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:Articles for deletion/AlterMedia" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;This page is an archive of the discussion surrounding a page which has now been deleted. Please do not add to this archive. Requests for undeletion can be made at [[Wikipedia:votes for undeletion]].&amp;apos;&amp;apos;&amp;apos;
+
+From Cleanup: Has languished at the top of [[wikipedia:Orphaned Articles]] for weeks. No one seems to know what to do with it. I sure don&amp;apos;t. Any takers?
+*Should go to VFD [[User:Maroux|Maroux]]
+*I&amp;apos;ve rewritten it to NPOV, but would not care much if it was VfDd. --[[User:Tagishsimon|Tagishsimon]]
+*a worthy topic, but still too POV; only a full rewrite will fix [[User:Dwindrim|Denni]]
+*I do not think it is worthy. It&amp;apos;s a boast sheet for a partizan website of no significance, which has a convincing name and aspirations far beyond its grasp. --[[User:Tagishsimon|Tagishsimon]]
+* If it actually had some inbound links, &amp;apos;&amp;apos;maybe&amp;apos;&amp;apos;. But as it stands, delete. -- [[User:Cyrius|Cyrius]]|[[User talk:Cyrius|&amp;amp;#9998]] 17:18, Apr 4, 2004 (UTC)&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Mitsugi, Hiroshima"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Mitsugi, Hiroshima" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{nihongo|&amp;apos;&amp;apos;&amp;apos;Mitsugi&amp;apos;&amp;apos;&amp;apos;|御調町|Mitsugi-chō}} was a [[towns of Japan|town]] located in [[Mitsugi District, Hiroshima|Mitsugi District]], [[Hiroshima Prefecture|Hiroshima]], [[Japan]].
+
+On March 28, 2005 Mitsugi, along with the town of [[Mukaishima, Hiroshima|Mukaishima]], also from [[Mitsugi District, Hiroshima|Mitsugi District]], was merged into the city of [[Onomichi, Hiroshima|Onomichi]].
+
+As of 2004, the town had an estimated population of 8,144 and the density of 98.14 persons per km². The total area was 82.98 km².
+
+Mitsugi is divided into seven areas:
+*Kamikawabe
+*Ichi
+*Kawachi
+*Imatsuno
+*Ayame
+*Yamato
+*Sugano.
+
+Points of interest in the town include:
+*The Bus Station, a [[Roadside Station]]
+*The Children&amp;apos;s Library
+*The Entsuba Memorial Museum.
+
+The town&amp;apos;s special product is dried [[persimmon]]s.
+
+The town was founded on February 1, 1955.
+
+==External links==
+* [http://www.city.onomichi.hiroshima.jp/ Onomichi official website] {{ja icon}}
+
+[[Category:Dissolved municipalities of Hiroshima Prefecture]]
+{{Hiroshima-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

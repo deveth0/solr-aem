@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Yojimbo"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Yojimbo" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Nihongo|&amp;apos;&amp;apos;&amp;apos;Yojimbo&amp;apos;&amp;apos;&amp;apos;|用心棒|&amp;quot;Yōjinbō&amp;quot;}} is a Japanese word for [[bouncer (doorman)|bouncer]], or [[bodyguard]]. The term may also refer to:
+
+* [[Yojimbo (film)|&amp;apos;&amp;apos;Yojimbo&amp;apos;&amp;apos; (film)]], a 1961 film by Akira Kurosawa, starring Toshiro Mifune
+* [[Yojimbo (software)]], an information organizer for Mac OS X
+* &amp;apos;&amp;apos;[[Yo-Jin-Bo]]&amp;apos;&amp;apos;, a visual novel about three yojinbo
+* Yojimbo, a secret Aeon found in the video game &amp;apos;&amp;apos;[[Characters of Final Fantasy X and X-2|Final Fantasy X]]&amp;apos;&amp;apos;
+* &amp;apos;&amp;apos;[[Usagi Yojimbo]]&amp;apos;&amp;apos;, an ongoing comic book series created by [[Stan Sakai]] in 1987.
+{{disambig}}
+
+[[Category:Japanese words and phrases]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

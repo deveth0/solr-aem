@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="XFrames"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="XFrames" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;XFrames&amp;apos;&amp;apos;&amp;apos; is an [[XML]] format for combining and organizing web based documents together on a single webpage through the use of frames. Similarly to HTML Frames, XFrames can be made useful through its power to create a content frame that is scrollable while other frames - such as sidebar menus, the header and footer remain in place on the page. XFrames will be particularly useful to web developers who will be able to modify a single document and have that modification appear on all pages that contain the document within a frame.
+
+The main advantage of this next generation of frames is that it overcomes several of the major usability problems existing in the traditional framing system.
+
+Although still in the working draft stages, XFrames will be replacing traditional HTML Frames.
+
+==Differences from HTML Frames==
+Traditional HTML frames that were introduced with HTML 4.0 were useful for their ability to combine several distinct Web pages into a single webpage view. However, several problems arose from the implementation and as such, frames have been removed from the W3C [[XHTML]] 1.1 standard. XFrames will likely address some of the following problems existent in HTML frames:
+
+* a Web browser&amp;apos;s &amp;apos;&amp;apos;back&amp;apos;&amp;apos; button failing to work intuitively
+* the failure to bookmark or favorite specific documents on the Web page easily as well as the inability to send an individual a reference to a specific document or collection
+* getting trapped in a frameset
+* the production of different results at times when a Web page containing frames is reloaded
+* the &amp;quot;Page Up&amp;quot; and &amp;quot;Page Down&amp;quot; keys being difficult to use due to the pointer focus being on another frame within the page
+* security vulnerabilities caused by the fact that a user has no way of knowing the original source of each framed document
+* Since frames are not supported by all agents, and the necessary &amp;lt;noframes&amp;gt; content is not popularly implemented, agents that do not support frames (such as search engines) fail to render pages correctly and at the same time prevent any [[search engine optimization]].
+
+XFrames overcomes the bookmarking problem by encoding the &amp;apos;&amp;apos;population&amp;apos;&amp;apos; of the frames into the URI, thus making it possible to bookmark/add a favorite of a page successfully.
+
+==XFrames Implementation==
+Similar to other [[markup languages]], XFrames will support a number of elements and respective attributes.
+The following is a simple demonstration for the proposed implementation of a frames webpage:
+
+&amp;lt;source lang=&amp;quot;xml&amp;quot;&amp;gt;
+&amp;lt;frames xmlns=&amp;quot;http://www.w3.org/2002/06/xframes/&amp;quot;&amp;gt;
+   &amp;lt;head&amp;gt;
+      &amp;lt;title&amp;gt;Home Page&amp;lt;/title&amp;gt;
+      &amp;lt;style type=&amp;quot;text/css&amp;quot;&amp;gt;
+         #header {height: 150px; }
+         #footer {height: 50px; }
+         #nav {width: 15%; }
+      &amp;lt;/style&amp;gt;
+   &amp;lt;/head&amp;gt;
+   &amp;lt;group compose=&amp;quot;vertical&amp;quot;&amp;gt;
+      &amp;lt;frame xml:id=&amp;quot;header&amp;quot; source=&amp;quot;banner.xhtml&amp;quot;/&amp;gt;
+      &amp;lt;group compose=&amp;quot;horizontal&amp;quot;&amp;gt;
+   &amp;lt;frame xml:id=&amp;quot;main&amp;quot; source=&amp;quot;news.xhtml&amp;quot;/&amp;gt;
+   &amp;lt;frame xml:id=&amp;quot;nav&amp;quot; source=&amp;quot;nav-menu.xhtml&amp;quot;/&amp;gt;
+      &amp;lt;/group&amp;gt;
+      &amp;lt;group compose=&amp;quot;vertical&amp;quot;&amp;gt;
+         &amp;lt;frame xml:id=&amp;quot;footer&amp;quot; source=&amp;quot;disclaimer.xhtml&amp;quot;/&amp;gt;
+      &amp;lt;/group&amp;gt;
+   &amp;lt;/group&amp;gt;
+&amp;lt;/frames&amp;gt;
+&amp;lt;/source&amp;gt;
+
+The &amp;lt;frames&amp;gt; element acts as the containing element of the collection of frames. This collection is what is being referred to as the &amp;apos;frameset&amp;apos; of a webpage. Similarly to [[XHTML]] and [[HTML]] markups, the &amp;lt;head&amp;gt; elements contain meta-data primarily used for search optimization and document description. The contained &amp;lt;style&amp;gt; element is used to include any content and layout styling - [[CSS]] is being used here. &amp;lt;group&amp;gt; groups a single or several frame elements together and can be styled accordingly. If no group style is specified, the &amp;apos;&amp;apos;compose&amp;apos;&amp;apos; attribute should be used to specify how the grouped frame elements are to be composed. Lastly, the &amp;lt;frame&amp;gt; element acts as the placeholder for the content of a webpage specified by [[URL]] through the &amp;apos;&amp;apos;source&amp;apos;&amp;apos; attribute.
+
+==Status of XFrames==
+The [[W3C]] released a second Working Draft on October 12, 2005 that further explains the proposed implementation of XFrames.
+As of today, XFrames still remains a W3C Working Draft with no clear indication on if and when it will become a [[W3C Recommendation]].
+
+==See also==
+*[[XML]]
+*[[XHTML]]
+*[[Framing (World Wide Web)]]
+*[[HTML element#Frames]]
+*[[IFrame]]
+
+==References==
+
+{{Wikibooks|XForms}}
+
+* [http://www.w3.org/TR/xframes/ W3C Working Draft]
+
+==External links==
+* XFrames Resources at W3C
+** [http://www.w3.org/MarkUp/ The XHTML2 Working Group]
+** [http://www.w3.org/TR/xframes/ XFrames] was a [http://www.w3.org/TR/2002/WD-xframes-20020806/ W3C Working Draft on 6 August 2002]
+{{W3C Standards}}
+
+{{DEFAULTSORT:Xframes}}
+[[Category:World Wide Web Consortium standards]]
+[[Category:XML-based standards]]
+[[Category:User interface markup languages]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

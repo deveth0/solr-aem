@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Airan"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Airan" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{for|the Turkish drink|Ayran}}
+{{Expand French|date=December 2008|Airan}}
+
+{{Infobox French commune
+|name                   = Airan
+|image                  = Chateau Coupigny.JPG
+|caption                = Chateau of Coupigny
+|region                 = Basse-Normandie
+|department             = Calvados
+|arrondissement         = Caen
+|canton                 = Bouguébus
+|INSEE                  = 14005
+|postal code            = 14370
+|mayor                  = Patrice Martin
+|term                   = 2008&amp;amp;ndash;2014
+|intercommunality       =
+|longitude              = -0.1506
+|latitude               = 49.1019
+|elevation m            = 30
+|elevation min m        = 22
+|elevation max m        = 64
+|area km2               = 13.5
+|population             = 620
+|population date        = 2008
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Airan&amp;apos;&amp;apos;&amp;apos; is a [[Communes of France|commune]] in the [[Calvados]] [[Departments of France|department]] in the [[Basse-Normandie]] [[Regions of France|region]] in northwestern [[France]].
+
+==Monuments==
+A tower ruins is located in a hamlet close to Airan. An old legend says that a secret way connects this tower to the church of Airan, and that the gold bell of this church is hidden in this passage. Many people tried to find it, but no one has succeeded yet.
+
+==Population==
+{{Historical populations
+|align=left|
+1962|404|
+1968|358|
+1975|437|
+1982|662|
+1990|740|
+1999|696|
+2008|620|
+}}
+{{clear-left}}
+
+==See also==
+*[[Communes of the Calvados department]]
+*[[Cantons of the Calvados department]]
+*[[Arrondissements of the Calvados department]]
+
+==References==
+*[http://www.insee.fr/en/home/home_page.asp INSEE]
+{{reflist}}
+
+{{commonscat}}
+{{Calvados communes}}
+
+[[Category:Communes of Calvados]]
+
+{{Calvados-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

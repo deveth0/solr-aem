@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="DWARF"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="DWARF" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{other|Dwarf (disambiguation)}}
+&amp;apos;&amp;apos;&amp;apos;DWARF&amp;apos;&amp;apos;&amp;apos; is a widely used, standardized [[debugging data format]]. DWARF was originally designed along with [[Executable and Linkable Format]] (ELF), although it is independent of [[object file]] formats.&amp;lt;ref name=eager&amp;gt;{{cite web
+ | url = http://www.dwarfstd.org/doc/Debugging%20using%20DWARF.pdf
+ | title = Introduction to the DWARF Debugging Format
+ | accessdate = 2007-06-25
+ | author = Michael J. Eager
+ | year = 2007
+ | month = February
+}}&amp;lt;/ref&amp;gt; The name is a [[medieval fantasy]] complement to &amp;quot;ELF&amp;quot; that has no official meaning, although the [[backronym]] &amp;apos;Debugging With Attributed Record Formats&amp;apos; was later proposed.&amp;lt;ref name=eager/&amp;gt;
+
+==History==
+The first version of DWARF proved to use excessive amounts of storage, and an incompatible successor, DWARF-2, superseded it and added various encoding schemes to reduce data size. DWARF was not immediately successful; for instance, when [[Sun Microsystems]] adopted ELF as part of their move to [[Solaris (operating system)|Solaris]], they opted to continue using [[stabs]], in an embedding known as &amp;quot;stabs-in-elf&amp;quot;. [[Linux]] followed suit, and DWARF-2 did not become the default until the late 1990s.
+
+The DWARF Workgroup of the [[Free Standards Group]] released DWARF version 3 in January 2006,&amp;lt;ref&amp;gt;
+{{cite press release
+ | publisher = Free Standards Group
+ | title = DWARF Version 3 Standard Released
+ | date = January 4, 2006
+ |accessdate = 2007-06-25
+ | url = http://dwarfstd.org/PressRelease.php
+ }}&amp;lt;/ref&amp;gt; adding (among other things) support for [[C++]] namespaces, [[Fortran#Fortran 90|Fortran 90]] &amp;lt;tt&amp;gt;allocatable&amp;lt;/tt&amp;gt; data and additional [[compiler optimization]] techniques.
+
+Version 4 of DWARF, which offers &amp;quot;improved data compression, better description of optimized code, and support for new language features in C++&amp;quot;, was published in 2010.&amp;lt;ref&amp;gt;
+{{cite web
+ |url=http://dwarfstd.org/Announcement.php
+ |title=DWARF Version 4 Released
+ |publisher=The DWARF committee
+ |date=June 16, 2010
+ |accessdate = 2010-06-24
+}}&amp;lt;/ref&amp;gt;
+
+==Structure==
+DWARF uses a data structure called a Debugging Information Entry (DIE) to represent each variable, type, procedure, etc. A DIE has a tag (e.g., &amp;lt;tt&amp;gt;DW_TAG_variable&amp;lt;/tt&amp;gt;, &amp;lt;tt&amp;gt;DW_TAG_pointer_type&amp;lt;/tt&amp;gt;, &amp;lt;tt&amp;gt;DW_TAG_subprogram&amp;lt;/tt&amp;gt;) and attributes (key-value pairs). A DIE can have nested (child) DIEs, forming a [[tree (data structure)|tree]] structure. A DIE attribute can refer to another DIE anywhere in the tree—for instance, a DIE representing a variable would have a &amp;lt;tt&amp;gt;DW_AT_type&amp;lt;/tt&amp;gt; entry pointing to the DIE describing the variable&amp;apos;s type.
+
+To save space, two large tables needed by symbolic debuggers are represented as [[Bytecode|byte-coded]] instructions for simple, special-purpose [[finite state machine]]s. The Line Number Table, which maps code locations to source code locations and vice versa, also specifies which instructions are part of [[function prologue]]s and epilogues. The Call Frame Information table allows debuggers to locate frames on the [[call stack]].
+
+==Further reading==
+Michael Eager, chair of the DWARF Standards Committee, has written an introduction to debugging formats and DWARF 3, &amp;apos;&amp;apos;Introduction to the DWARF Debugging Format&amp;apos;&amp;apos;.&amp;lt;ref name=eager/&amp;gt;
+
+==See also==
+* [[stabs]] - &amp;apos;&amp;apos;S&amp;apos;&amp;apos;ymbol &amp;apos;&amp;apos;TAB&amp;apos;&amp;apos;le &amp;apos;&amp;apos;S&amp;apos;&amp;apos;trings debugging format
+
+==References==
+{{Reflist}}
+
+== External links ==
+
+* {{official|http://dwarfstd.org/}}
+* [http://reality.sgiweb.org/davea/dwarf.html Libdwarf], a C library intended to simplify reading (and writing) applications using DWARF2, DWARF3.
+
+[[Category:Debugging data formats]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

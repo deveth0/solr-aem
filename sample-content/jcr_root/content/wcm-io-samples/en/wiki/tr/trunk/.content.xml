@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Trunk"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Trunk" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionarypar|trunk}}
+
+&amp;apos;&amp;apos;&amp;apos;Trunk&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+In &amp;apos;&amp;apos;&amp;apos;biology&amp;apos;&amp;apos;&amp;apos;:
+*[[Elephant#Trunk|Trunk]], the proboscis of an elephant ( elephants trunk)
+*Synonym for [[torso]]
+*[[Trunk (botany)]], a tree&amp;apos;s central superstructure
+*[[Nerve trunk]]
+
+&amp;apos;&amp;apos;&amp;apos;Containers&amp;apos;&amp;apos;&amp;apos;:
+*[[Trunk (automobile)]], a large storage compartment
+*[[Trunk (luggage)]]
+*[[Trunk (motorcycle)]], a storage compartment
+
+&amp;apos;&amp;apos;&amp;apos;Other uses&amp;apos;&amp;apos;&amp;apos;:
+*[[Trunk (software)]], in revision control
+*[[Trunk (structural)]], a chute or conduit, or a watertight shaft connecting two or more decks.
+*[[Trunk line]], in telecommunications
+*[[Trunk shot]], auto-trunk camera work
+*[[Trunk Records]], a record label
+&amp;lt;!-- This has been a rd lk for 11 months per [http://en.wikipedia.org/w/index.php?title=Trunk&amp;amp;diff=116978467&amp;amp;oldid=115106155]; see also [[Talk:Byford Dolphin#Trunk]]:--&amp;gt;
+*[[Trunk road]]
+
+==See also==
+*&amp;quot;[[Buttocks#Synonyms|Junk in the trunk]]&amp;quot;, or buttocks
+*&amp;quot;[[Junk in the Trunk]]&amp;quot;, an episode of the television series &amp;apos;&amp;apos;Robot Chicken&amp;apos;&amp;apos;
+*[[Trunking]], network design strategy
+*[[Trunking (auto)]], riding in trunk or boot
+*[[Trunks (disambiguation)]]
+*[[Elephant&amp;apos;s trunk (disambiguation)]]
+{{disambig}}
+
+[[cs:Chobot]]
+[[hu:Chobot]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

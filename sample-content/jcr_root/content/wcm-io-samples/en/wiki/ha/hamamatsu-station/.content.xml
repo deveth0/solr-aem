@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Hamamatsu Station"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Hamamatsu Station" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox Japan station
+|namerom=Hamamatsu
+|name = 浜松
+|image= Hamamatsu Station 2.JPG
+|imagesize= 300px
+|caption=Hamamatsu Station south exit in 2012
+|pref=Shizuoka
+|city = Hamamatsu
+|ward=Naka
+|address= 6-2 Sunayama-chō
+|jaloc = 静岡県浜松市中区砂山町6-2
+|postal = 430-0926
+|open = 1888
+|close =
+|operator = [[JR Central]]
+|line = [[Tōkaidō Main Line]]&amp;lt;br&amp;gt; [[Tōkaidō Shinkansen]]
+|stats = 37,250
+|statsnote = (FY2006)
+|bus= t4
+}}
+
+{{Nihongo|&amp;apos;&amp;apos;&amp;apos;Hamamatsu Station&amp;apos;&amp;apos;&amp;apos;|浜松駅|Hamamatsu-eki}} is a railway station on the [[Tōkaidō Main Line]] and the [[Tōkaidō Shinkansen]] in [[Hamamatsu, Shizuoka]], Japan, operated by the [[Central Japan Railway Company]] (JR Central). The local [[Enshū Railway Line]] terminus of [[Shin-Hamamatsu Station]] is 3 minutes&amp;apos; walking distance away.
+
+==Lines==
+Hamamatsu Station is served by the [[Tōkaidō Main Line]] and the high-speed [[Tōkaidō Shinkansen]] from Tokyo. The station is 257.1 rail kilometers from [[Tokyo Station]].
+
+==Station layout==
+Hamamatsu Station has two [[island platform]]s serving Tracks 1-4 for the Tōkaidō Shinkansen, which are connected by an [[underpass]] a central concourse. At the same level as the Shinkansen tracks are the two island platforms serving Tracks 5-8 of the Tōkaidō Main Line. The station building has automated [[ticket machine]]s, [[TOICA]] automated [[turnstile]]s and a manned &amp;quot;[[Midori no Madoguchi]]&amp;quot; ticket counter.
+
+===Platforms===
+{{ja-rail-linem|span=1|first=2|pfn=1|linename=Home Liner|linecol=orange|dir=for {{ja-stalink|Kakegawa}} and {{ja-stalink|Shizuoka}}}}
+{{ja-rail-line||pfn=2|linename=Tōkaidō Main Line|linecol=orange|dir= for {{ja-stalink|Toyohashi}} and {{ja-stalink|Nagoya}}}}
+{{ja-rail-line|pfn=3|nidx=Tōkaidō Main Line|col=orange|dir=for {{ja-stalink|Kakegawa}} and {{ja-stalink|Shizuoka}}}}
+{{ja-rail-line|pfn=4|nidx=Tōkaidō Main Line|col=orange|dir=for {{ja-stalink|Toyohashi}} and {{ja-stalink|Nagoya}}}}
+{{ja-rail-line|pfn=5|col=mediumblue|name=Tōkaidō Shinkansen|dir=for {{ja-stalink|Shin-Yokohama}} and {{ja-stalink|Tokyo}}}}
+{{ja-rail-line|pfn=6|first=3|col=mediumblue|nidx=Tōkaidō Shinkansen|dir=for {{ja-stalink|Nagoya}}, {{ja-stalink|Shin-Osaka}}, and {{ja-stalink|Hakata}}}}
+
+== Adjacent stations ==
+{{j-railservice start}}
+{{j-route|route=Tokaido Shinkansen|col=mediumblue|f=w}}
+{{j-rserv|previous={{ja-stalink|Shizuoka}}|next={{ja-stalink|Nagoya}}|service=&amp;apos;&amp;apos;[[Hikari (train)|Hikari]]&amp;apos;&amp;apos;|col=Red}}
+{{j-rserv|previous={{ja-stalink|Kakegawa}}|next={{ja-stalink|Toyohashi}}|service=&amp;apos;&amp;apos;[[Kodama (train)|Kodama]]&amp;apos;&amp;apos;|col=Blue}}
+{{j-rserv|p|service=&amp;apos;&amp;apos;[[Nozomi (train)|Nozomi]]&amp;apos;&amp;apos;|col=Yellow}}
+{{j-route|route=Tokaido Main Line|col=orange|f=w}}
+{{j-rserv|previous={{ja-stalink|Iwata||Shizuoka}}|service=Home Liner|col=red}}
+{{j-rserv|next={{ja-stalink|Takatsuka}}|service=Special Rapid|col=yellow}}
+{{j-rserv|next=Takatsuka|service=New Rapid|col=orange}}
+{{j-rserv|next=Takatsuka|service=Sectional Rapid|col=green}}
+{{j-rserv|previous={{ja-stalink|Tenryūgawa}}|next=Takatsuka|service=Local|col=gray}}
+{{s-end}}
+
+==History==
+{{Unreferenced section|date=January 2013}}
+Hamamatsu Station was officially opened on September 1, 1888. The station building was rebuilt in 1926, but this burned down during the [[Bombing of Hamamatsu in World War II]]. The station was rebuilt in 1948. On October 1, 1964, the Tōkaidō Shinkansen began operations, serving Hamamatsu. Freight operations were relocated to the Nishi-Hamamatsu Freight Depot to the west in 1971. The station underwent a massive rebuilding program from the late 1970s, with the Tōkaidō Main Line tracks elevated in 1979 to the same level as the Tōkaidō Shinkansen tracks, and the &amp;quot;MayOne&amp;quot; shopping centre/new station building completed in 1981.
+
+==References==
+*Yoshikawa, Fumio. &amp;apos;&amp;apos;Tokaido-sen 130-nen no ayumi&amp;apos;&amp;apos;. Grand-Prix Publishing (2002) ISBN 4-87687-234-1. {{ja icon}}
+
+==External links==
+{{commons category}}
+*[http://railway.jr-central.co.jp/station-guide/shinkansen/hamamatsu/index.html　Hamamatsu Station information] (JR Central) {{ja icon}}
+*[http://www.hi-hice.jp/HICEeng/map.html Hamamatsu Station Area Map]
+
+{{Tōkaidō Shinkansen}}
+{{Tōkaidō Main Line (JR Central)}}
+
+{{coord|34|42|13|N|137|44|04|E|display=title|region:JP-22_type:railwaystation_source:dewiki}}
+
+[[Category:Railway stations in Shizuoka Prefecture]]
+[[Category:Transport in Hamamatsu]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

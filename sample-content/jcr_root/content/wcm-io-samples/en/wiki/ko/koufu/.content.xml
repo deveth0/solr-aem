@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Koufu"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Koufu" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox Chinese
+|title             = Koufu
+|float             =
+|collapse          = No
+|c                 = 口父
+|t                 = &amp;lt;!-- Traditional --&amp;gt;
+|s                 = &amp;lt;!-- Simplified --&amp;gt;
+|l                 = &amp;lt;!-- Literal Meaning --&amp;gt;
+|p                 = Kǒufù
+|mi                = Kʰɔufu
+}}
+{{Chinese text}}
+{{Portal|China}}
+&amp;apos;&amp;apos;&amp;apos;Koufu&amp;apos;&amp;apos;&amp;apos; (口父; &amp;apos;&amp;apos;Kǒufù&amp;apos;&amp;apos;) was an [[History of China|ancient Chinese]] nobleman, a [[Zhou Dynasty|Zhou]] leader honoured by the [[Shang dynasty|Shang]] king [[Wu Yi (ruler)|Wǔ Yǐ]]. His [[Chinese name|name]] means “Mouth parent”.&amp;lt;ref&amp;gt;[http://characters.cultural-china.com/37.html The Chinese Character, an Interpretable Chinese Culture]&amp;lt;/ref&amp;gt;
+
+Wǔ Yǐ rewarded Koufu with a city called [[Qishan County|Qiyi]] (岐邑).&amp;lt;ref&amp;gt;&amp;apos;&amp;apos;[[Bamboo Annals]]&amp;apos;&amp;apos;&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;Historically, the site was also known as  Qishan (岐山).&amp;lt;/ref&amp;gt;
+
+Koufu died in the 21st year of the reign of Wǔ Yǐ.
+
+== Notes ==
+&amp;lt;references/&amp;gt;
+
+[[Category:12th-century BC rulers]]
+[[Category:Shang Dynasty politicians]]
+[[Category:Chinese nobility]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

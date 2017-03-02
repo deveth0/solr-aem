@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="List of Hawaii state prisons"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="List of Hawaii state prisons" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{tocright}}
+
+This is a list of [[List of U.S. state prisons|state prisons]] used by the state of [[Hawaii]]. It does &amp;apos;&amp;apos;&amp;apos;not&amp;apos;&amp;apos;&amp;apos; include [[List of U.S. federal prisons|federal prisons]] located in the state of Hawaii.
+
+==Hawaii State prisons==
+* [http://hawaii.gov/psd/corrections/prisons/halawa-correctional-facility Halawa Correctional Facility] - [[Aiea, Hawaii|Aiea]]
+* [http://hawaii.gov/psd/corrections/prisons/kulani-correctional-facility Kulani Correctional Facility] - [[Hilo, Hawaii|Hilo]]
+* [http://hawaii.gov/psd/corrections/prisons/waiawa-correctional-center Waiawa Correctional Facility] - [[Waipahu, Hawaii|Waipahu]]
+* [http://hawaii.gov/psd/corrections/prisons/womens-community-correctional-center Women&amp;apos;s Community Correctional Center] - [[Kailua, Honolulu County, Hawaii|Kailua]]
+
+==Hawaii Department of Public Safety jails==
+The [[Hawaii Department of Public Safety]] also operates the [[jail]]s in the state.  There are no [[county (US)|county]] jails in Hawaii.
+* [http://hawaii.gov/psd/corrections/jails/hawaii-community-correctional-center Hawaii Community Correctional Center] - [[Hilo, Hawaii|Hilo]]
+* [http://hawaii.gov/psd/corrections/jails/kauai-community-correctional-center Kauai Community Correctional Center] - [[Lihue, Hawaii|Lihue]]
+* [http://hawaii.gov/psd/corrections/jails/maui-community-correctional-center Maui Community Correctional Center] - [[Wailuku, Hawaii|Wailuku]]
+* [http://hawaii.gov/psd/corrections/jails/oahu-community-correctional-center Oahu Community Correctional Center] - [[Honolulu, Hawaii|Honolulu]]
+
+==Mainland facilities==
+Several correctional facilities on the continental United States&amp;apos; mainland are contracted to house Hawaii&amp;apos;s prisoners:
+* [http://hawaii.gov/psd/corrections/prisons/otter-creek/otter-creek Otter Creek Correctional Center] - [[Wheelwright, Kentucky]]
+* Red Rock Correctional Center - [[Eloy, Arizona]]
+* [[Saguaro Correctional Center]] - [[Eloy, Arizona]]
+
+==External links==
+*{{Official|http://hawaii.gov/psd}}
+
+{{Prisons and Correctional facilities in Oceania}}
+
+[[Category:Hawaii-related lists|Prisons]]
+[[Category:Prisons in Hawaii]]
+[[Category:Lists of United States state prisons|Hawaii]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

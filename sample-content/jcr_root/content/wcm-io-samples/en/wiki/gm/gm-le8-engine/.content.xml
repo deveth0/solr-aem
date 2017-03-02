@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="GM LE8 engine"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="GM LE8 engine" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=July 2009}}
+{{Orphan|date=February 2009}}
+The modern &amp;apos;&amp;apos;&amp;apos;LE8&amp;apos;&amp;apos;&amp;apos; is a small [[V6]] engine built by [[Suzuki]] for [[General Motors Corporation|General Motors]]. It is a {{convert|2491|cc|L cuin||abbr=on}} engine with an {{convert|84|mm|in|abbr=on}} bore and {{convert|75|mm|in|abbr=on}} stroke. A 9.5:1 compression ratio and [[dual overhead cam]]s pushing four valves per cylinder produce 165&amp;amp;nbsp;hp (123&amp;amp;nbsp;kW) and 162&amp;amp;nbsp;lb·ft (220&amp;amp;nbsp;N·m).
+
+The LE8 is used in the [[Chevrolet Tracker]].
+
+Historically, a version of the 454&amp;amp;nbsp;cu&amp;amp;nbsp;in [[GM Big-Block engine]] for [[pickup trucks]] was also called the LE8.
+
+[[Category:General Motors engines|LE8]]
+
+
+{{automotive-part-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

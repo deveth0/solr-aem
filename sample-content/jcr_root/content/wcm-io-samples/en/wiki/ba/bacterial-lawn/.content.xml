@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Bacterial lawn"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Bacterial lawn" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{no footnotes|date=March 2013}}
+[[Image:Bacterial lawn 01.jpg|thumb|right|A bacterial lawn used in antibiotic resistance testing.]]
+&amp;apos;&amp;apos;&amp;apos;Bacterial lawn&amp;apos;&amp;apos;&amp;apos; is a term used by [[microbiologist]]s to describe the appearance of [[bacteria]]l [[Colony (biology)|colonies]] when all the individual colonies on a petri-dish [[agar plate]] merge to form a field or mat of bacteria. Bacterial lawns find use in screens for [[antibiotic resistance]] and [[bacteriophage]] titering.
+
+Bacterial lawns (often of &amp;apos;&amp;apos;[[Serratia marcescens]]&amp;apos;&amp;apos;)  are also used extensively when as an assay method when using [[bacteriophage]] as tracers in studies of groundwater flow.
+
+Although occasionally used as a synonym for [[biofilm]], the term primarily applies to the simple, clonal, unstructured mats of organisms that typically only form on laboratory growth media. Biofilms&amp;amp;mdash;the aggregated form of [[microorganism]]s most commonly found in [[nature]]&amp;amp;mdash; are generally more complex and diverse and marked by larger quantities of extracellular structural matrix relative to the cellular [[Biomass (ecology)|biomass]].
+
+== Techniques ==
+Bacterial lawns can be produced manually by evenly spreading a high amount of bacteria onto an agar plate using a sterile [[cotton swab]]. Alternatively an automated machine can be used such as a [[spiral plater]] where the plate is rotated and the sample is spread evenly using an automated dispenser.
+
+==References==
+* {{cite book | author = Madigan, Michael; Martinko, John (editors) | title = Brock Biology of Microorganisms | edition = 11th ed. | publisher = Prentice Hall | year = 2005 | isbn = 0-13-144329-1 }}
+
+{{DEFAULTSORT:Bacterial Lawn}}
+[[Category:Bacteria]]
+[[Category:Microbiology terms]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

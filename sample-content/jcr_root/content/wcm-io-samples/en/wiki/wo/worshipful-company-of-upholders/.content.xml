@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Worshipful Company of Upholders"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Worshipful Company of Upholders" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{unreferenced|date=May 2013}}
+The &amp;apos;&amp;apos;&amp;apos;Worshipful Company of Upholders&amp;apos;&amp;apos;&amp;apos; is one of the [[Livery Company|Livery Companies]] of the [[City of London]]. &amp;quot;Upholder&amp;quot; is an archaic word for &amp;quot;upholsterer&amp;quot;. In past times upholders carried out not just the manufacture and sale of upholstered goods but were cabinet makers, undertakers, soft furnishers, auctioneers and valuers. The organisation was formed on 1 March 1360 and officially incorporated by a [[Royal Charter]] granted by [[Charles I of England|Charles I]] in the 1626. The Company originally had the right to set standards for [[upholstery]] within London, and to search, seize and destroy defective upholstery. However, over the years, the Company&amp;apos;s power has eroded, as has the profession of upholsterers, because of the advancement of technology.
+
+The Livery&amp;apos;s purpose today is:
+:To Uphold the livery of the Upholders, ensuring it continues to flourish. Upholding the craft of the Upholder and through charitable giving uphold individuals and organisations connected with our trade and Livery.
+
+In support of the upholstery and soft furnishing trade the Livery provides prizes and bursaries to students studying these crafts. It gives Merit Awards to companies achieveing the highest standards of craftmanship and Master Craftsman awards to individuals. Working closely with the Association of Master Upholsterers and Soft Furnishers it is developing a &amp;quot;Centres of Excellence&amp;quot; scheme for colleges and other organisations to ensure the skills of traditional upholstery are taught and passed on to professionals and enthusiasts. The Livery provides a small number of pensions to pensioners in special need who have worked in the trade.
+
+The Livery and Liverymen are actively involved in many organisations and charities in the [[City of London]] including [[Castle Baynard]] Ward Club, as the site of the Company&amp;apos;s Hall until the [[Great Fire of London|Great Fire]] in 1666 is in the Ward.
+
+The Company is the forty-ninth in the [[order of precedence]] for Livery Companies. Its motto is &amp;apos;&amp;apos;Sustine Bona&amp;apos;&amp;apos;, [[Latin]] for &amp;apos;&amp;apos;Uphold the Good&amp;apos;&amp;apos;.
+
+==External links==
+* [http://www.upholders.co.uk/ The Upholders&amp;apos; Company]
+
+==Further reading==
+John Houston, &amp;apos;&amp;apos;Feather Bedds and Flock Bedds&amp;apos;&amp;apos;
+
+
+{{Livery Companies in the City of London}}
+
+[[Category:Livery companies|Upholders]]
+[[Category:1360 establishments in England]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

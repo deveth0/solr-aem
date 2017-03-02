@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Better Living Through Chemistry"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Better Living Through Chemistry" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{for|the album by Fatboy Slim|Better Living Through Chemistry (album)}}
+The phrase &amp;quot;&amp;apos;&amp;apos;&amp;apos;Better Living Through Chemistry&amp;apos;&amp;apos;&amp;apos;&amp;quot; is a variant of a [[DuPont]] advertising slogan, &amp;quot;Better Things for Better Living...Through Chemistry.&amp;quot; DuPont adopted it in 1935 and it was their slogan until 1982 when the &amp;quot;Through Chemistry&amp;quot; part was dropped. Since 1999, their slogan has been &amp;quot;The miracles of science&amp;quot;.&amp;lt;ref&amp;gt;{{cite news| author=Trif Alatzas |title=DuPont touts &amp;apos;miracles&amp;apos; |publisher=&amp;apos;&amp;apos;[[The News Journal]]&amp;apos;&amp;apos; (Wilmington, DE)| date=1999-04-29| quote=&amp;quot;We need to get away from the word &amp;apos;things,&amp;apos; &amp;quot; [DuPont Chairman and Chief Executive Charles O.] Holliday said. &amp;quot;Because we&amp;apos;re also about providing knowledge.&amp;quot;}}&amp;lt;/ref&amp;gt;
+
+The phrase &amp;quot;Better Living Through Chemistry&amp;quot; was used on products that were not affiliated with DuPont to circumvent [[trademark infringement]].{{Citation needed|date=March 2008}}&amp;lt;!--interesting if true, but a quick look finds me no source--&amp;gt; This transmutation is now more commonly used than the original. This statement is used for commentary on several different topics, from the promotion of prescription or recreational drugs,&amp;lt;ref&amp;gt;http://www.leadpipeposters.com/detail.cfm?stockno=342&amp;lt;/ref&amp;gt; to the praise of [[chemicals]] and [[plastics]], to the sarcastic criticism of the same.
+
+DuPont used the &amp;quot;Better Living Through Chemistry&amp;quot; slogan not to promote particular products, but to change viewers&amp;apos; opinions about the role of business in society. In the words of DuPont&amp;apos;s advertising director, Charles Hackett, the advertisements sought to address &amp;quot;unspoken fears of bigness in business&amp;quot;, which were based on &amp;quot;an emotional rather than a rational foundation&amp;quot;.&amp;lt;ref&amp;gt;Anna McCarthy, &amp;apos;&amp;apos;The Citizen Machine: Governing by Television in 1950s America&amp;apos;&amp;apos;, New York: The New Press, 2010, p. 50. ISBN: 978-1-59558-498-4.&amp;lt;/ref&amp;gt;
+
+==References==
+{{refs}}
+
+== External links ==
+*[http://www2.dupont.com/Heritage/en_US/1939_dupont/1939_indepth.html  DuPont - Better Things...]
+*[http://www.bltc.com  BLTC Research]
+
+[[Category:Advertising slogans]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

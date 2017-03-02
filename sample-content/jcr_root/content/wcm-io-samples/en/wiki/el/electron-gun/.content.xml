@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Electron gun"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Electron gun" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=January 2008}}
+[[File:Egun.jpg|thumb|250px|right|Electron gun from a [[cathode ray tube]]]]
+[[File:Kathodestraalbuis2.jpg|thumb|250px|right|Electron gun from an [[oscilloscope]] CRT]]
+An &amp;apos;&amp;apos;&amp;apos;electron gun&amp;apos;&amp;apos;&amp;apos; (also called &amp;apos;&amp;apos;&amp;apos;electron emitter&amp;apos;&amp;apos;&amp;apos;) is an electrical component that produces an [[electron beam]] that has a precise [[kinetic energy]] and is most often used in [[television set]]s and [[computer display]]s that use [[cathode ray tube]] (CRT) technology, as well as in other instruments, such as [[electron microscope]]s and [[particle accelerators]].
+Electron guns may be classified in several ways:
+* by the type of electric field generation (DC or RF),
+* by emission mechanism ([[thermionic emission|thermionic]],  [[photocathode]], [[field electron emission|cold emission]], [[Plasma (physics)|plasmas]] source),
+* by focusing (pure electrostatic or with magnetic fields), or
+* by the number of electrodes.
+
+==Characteristics==
+A direct current, electrostatic thermionic electron gun is formed from several parts: a [[hot cathode]], which is heated to create a stream of [[electrons]] via [[thermionic emission]], electrodes generating an [[electric field]] which focus the beam (such as a [[Wehnelt cylinder]]), and one or more [[anode]] electrodes which accelerate and further focus the electrons. A large voltage between the cathode and anode accelerates the electrons. A repulsive ring placed between them focuses the electrons onto a small spot on the anode at the expense of a lower extraction field strength on the cathode surface. Often at this spot is a hole so that the electrons that pass through the anode form a collimated beam and finally reach a second anode called a collector. This arrangement is similar to an [[Einzel lens]].
+
+An [[Ion source|ion gun]] consists of a cylinder where gas enters from one end face, undergoes electron bombardment from the side walls, and is subjected to an extraction voltage from the other end face. The entire cage has the role of the cathode; the extractor acts as the anode, and an unnamed ring takes the role of the [[Wehnelt cylinder]].
+
+Most color [[cathode ray tubes]] – such as those used in [[color television]]s – incorporate three electron guns, each one producing a different stream of electrons. Each stream travels through a [[shadow mask]] where the electrons will impinge upon either a [[RGB colour model|red, green or blue]] [[phosphor]] to light up a color [[pixel]] on the screen. The resultant color that is seen by the viewer will be a combination of these three [[primary color]]s.
+
+==Applications==
+The most common use of electron guns is in [[cathode ray tube]]s, which were widely used in computer and television monitors. An [[electron]] gun can also be used to [[ionize]] particles by adding or removing electrons from an [[atom]]. This technology is sometimes used in [[mass spectrometry]] in a process called [[electron ionization]] to ionize [[vaporized]] or [[gaseous]] particles. More powerful electron guns are used for welding, metal coating, 3D metal printers, metal powder production and vacuum furnaces.
+
+==See also==
+* [[Optics]]
+* [[Electron beam technology]]
+
+==External links==
+* [http://electronics.howstuffworks.com/question694.htm Howstuffworks.com: electron gun]
+* [http://www.fieldp.com/cpb.html Charged Particle Beams], free text with material on electron gun design
+* {{cite web|last=Jones|first=Lee|title=Electron Gun|url=http://www.backstagescience.com/videos/electrongun.html|work=Backstage Science|publisher=[[Brady Haran]]}}
+
+[[Category:Electron beam]]
+[[Category:Accelerator physics]]
+[[Category:Vacuum tubes]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="RCT"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="RCT" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary}}
+&amp;apos;&amp;apos;&amp;apos;RCT&amp;apos;&amp;apos;&amp;apos; may stand for:
+* &amp;apos;&amp;apos;Random conical tilt&amp;apos;&amp;apos;, a technique used in [[Cryo-electron microscopy]]
+* [[Randomized controlled trial]], or randomized clinical trial
+* [[Rational Choice Theory]] - a framework for understanding social and economic behavior
+* [[Regents (Examinations)#Regents Competency Test (RCT)|Regents Competency Test]], an alternative standardized test for special education high school students in New York State
+* [[Regimental combat team]]
+* [[Rehabilitation and Research Centre for Torture Victims]]
+* [[Relational-cultural therapy]]
+* &amp;apos;&amp;apos;Reverse cholesterol transport&amp;apos;&amp;apos;, pathway by which peripheral cell cholesterol can be returned to the liver for recycling to extrahepatic tissues, hepatic storage, or excretion into the intestine in bile.
+* [[Reverse conducting thyristor]]
+* [[Rhondda Cynon Taf]], a county borough in Wales, UK
+* &amp;apos;&amp;apos;Ring compression test&amp;apos;&amp;apos;, is an accurate technique to determine the true stress-true strain curve in typical metal-forming operations, and its accuracy was shown at high temperatures and low strain rates.
+* [[Ritchey-Chrétien telescope]]
+* [[RollerCoaster Tycoon (series)|&amp;apos;&amp;apos;RollerCoaster Tycoon&amp;apos;&amp;apos; (series)]], a video game series
+** &amp;apos;&amp;apos;[[RollerCoaster Tycoon]]&amp;apos;&amp;apos;, the first game in the series
+* [[endodontic therapy|Root canal therapy]], dental treatment to treat nerve damage of the tooth
+* [[Rose City Transit]], a former mass transit company in Portland, Oregon
+* [[Royal Corps of Transport]]
+* [[RC Toulonnais|Rugby Club Toulonnais]], a rugby union club from Toulon, France
+* [[Rural Community Transportation]], a public bus system in Vermont
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

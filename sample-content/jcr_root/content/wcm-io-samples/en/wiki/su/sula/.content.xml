@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Sula"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Sula" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|Sula|sula}}
+&amp;apos;&amp;apos;&amp;apos;Sula&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+{{tocright}}
+==Places==
+=== Norway ===
+* [[Sula, Møre og Romsdal]], an island and a municipality
+* [[Sula, Sogn og Fjordane]], an island in Solund municipality
+* [[Sula, Sør-Trøndelag]], an island group in Frøya municipality
+* [[Indre Sula]] and [[Ytre Sula]], two mountains in Surnadal municipality
+
+=== Other locations ===
+* [[Sula, Iran]], a village in Semnan Province, Iran
+* [[Sula, Montana]], a census-designated place in the United States
+* [[Sula Islands]] in Indonesia
+* [[Sula River]] in eastern Europe, tributary of the Dnieper River
+* [[Sula River (Mezen)]] in northern Russia, tributary of the Mezen River
+* [[Sula Sgeir]], an island group in Scotland
+* [[San Pedro Sula]], a city in Honduras
+
+==Other uses==
+* [[Booby]], a seabird in the &amp;apos;&amp;apos;Sula&amp;apos;&amp;apos; genus
+* [[Sula (novel)|&amp;apos;&amp;apos;Sula&amp;apos;&amp;apos; (novel)]], a 1974 novel by Toni Morrison
+* &amp;apos;&amp;apos;Sula&amp;apos;&amp;apos;, a 1969 children&amp;apos;s novel by [[Lavinia Derwent]], with three sequels
+* &amp;apos;&amp;apos;[[Sula II]]&amp;apos;&amp;apos;, a boat that runs trips to the island bird sanctuaries off North Berwick, Scotland
+* Caroline Sula, a character in &amp;apos;&amp;apos;[[Dread Empire&amp;apos;s Fall]]&amp;apos;&amp;apos;, a space-opera trilogy
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

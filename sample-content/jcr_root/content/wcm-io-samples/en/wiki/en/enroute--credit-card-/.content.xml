@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="EnRoute (credit card)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="EnRoute (credit card)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{lowercase|enRoute}}
+[[Image:EnRouteCard.jpg|right|thumb|enRoute card]]
+&amp;apos;&amp;apos;&amp;apos;enRoute&amp;apos;&amp;apos;&amp;apos; was a [[credit card]] issued by [[Air Canada]] until 1992, when the airline sold its credit card division to [[Diners Club]].
+
+Initially, the card was used only for Air Canada transactions, but over time, the card was expanded into a more general credit card for business travelers, being accepted by hotels, restaurants, and other merchants. It offered such features as in depth transaction details and sorting of expenses by category.
+
+In 1989, enRoute card became the first credit card to earn its cardholders [[Aeroplan]] miles with their purchases.
+
+In 1992, Air Canada sold the {{CAD|300|link=yes}} million enRoute card business to Diners Club. The move gave enRoute cardholders access to the existing Diners Club network of 2.1 million merchants at the time, while earning existing Diners Club Canada cardholders Aeroplan miles. For several years following the business transaction, Diners Club credit cards were marketed as in Canada &amp;quot;Diners Club/en route&amp;quot;.&amp;lt;ref&amp;gt;{{cite news|title=Company News: Air Canada Sells Credit Card Unit|url=http://www.nytimes.com/1992/03/27/business/company-news-air-canada-sells-credit-card-unit.html|accessdate=15 February 2013|newspaper=[[The New York Times]]|date=27 March 1992}}&amp;lt;/ref&amp;gt;
+
+==Inflight magazine==
+Today, &amp;apos;&amp;apos;enRoute&amp;apos;&amp;apos; remains the name of Air Canada&amp;apos;s monthly [[inflight magazine]], with a circulation of 119,000, as of 2012.&amp;lt;ref&amp;gt;{{cite web|title=Media Kit|url=http://enroute.aircanada.com/files/files/enroute-mediakit-2013-en.pdf|work=enRoute|publisher=Air Canada|accessdate=15 February 2013|year=2013}}&amp;lt;/ref&amp;gt;
+
+==References==
+{{reflist}}
+
+==External links==
+* {{official website|http://enroute.aircanada.com/}}
+
+{{Credit cards}}
+
+[[Category:1992 establishments in Canada]]
+[[Category:Air Canada]]
+[[Category:Canadian travel magazines]]
+[[Category:Citigroup]]
+[[Category:Credit cards]]
+[[Category:Monthly magazines]]
+[[Category:Tourism magazines]]
+
+{{canada-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

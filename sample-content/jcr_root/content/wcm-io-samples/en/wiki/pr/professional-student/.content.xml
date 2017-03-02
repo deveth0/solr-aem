@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Professional student"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Professional student" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+The term &amp;apos;&amp;apos;&amp;apos;Professional student&amp;apos;&amp;apos;&amp;apos; has two uses in the [[university]] setting:
+
+*In the [[United States]] and [[Canada]], if not elsewhere, a professional student is a student [[academic major|majoring]] in what are considered the [[First professional degree|professional degrees]].  These include Doctor of Philosophy ([[PhD]]), Doctor of Education {[[EdD]]}, Veterinary Medicine ([[Veterinarian|D.V.M.]]), Law ([[Juris Doctor|J.D.]] or [[LL.B.]]), Dentistry ([[Doctor of Dental Surgery|D.D.S.]] or [[Doctor of Dental Medicine|D.M.D.]]), Medicine ([[Doctor of Medicine|M.D.]]) or ([[Doctor of Osteopathic Medicine|D.O.]]), Engineering, Business Administration ([[M.B.A.]]), Nursing ([[B.Sc.N.]]), Pharmacy ([[Pharm.D.]] or B.Sc.Phm.) and more.
+
+*&amp;quot;Professional student&amp;quot; is a slang term commonly used in colleges to describe a student who stays in school for many years rather than embarking on a career. To avoid these types, some four-year colleges have imposed limits on the length of time students can be enrolled in order to open up their limited slots to new students.  However, the colleges allow for demonstrated exceptions (e.g., a student who holds down a full-time occupation or has a family to raise, who is clearly demonstrating progress toward a degree). See: [[perpetual student]].
+
+*A less common meaning for &amp;quot;Professional student&amp;quot; is an individual who makes a living writing papers and doing college work in exchange for pay from other people.
+
+[[Category:Universities and colleges]]
+[[Category:Slang]]
+[[Category:Students]]
+
+{{Edu-stub}}
+
+[[el:Αιώνιος φοιτητής]]
+[[sv:Överliggare]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

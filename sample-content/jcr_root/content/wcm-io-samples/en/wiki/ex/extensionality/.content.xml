@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Extensionality"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Extensionality" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[logic]], &amp;apos;&amp;apos;&amp;apos;extensionality&amp;apos;&amp;apos;&amp;apos;, or &amp;apos;&amp;apos;&amp;apos;extensional equality&amp;apos;&amp;apos;&amp;apos; refers to principles that judge objects to be equal if they have the same external properties. It stands in contrast to the concept of [[intensionality]], which is concerned with whether the internal definitions of objects are the same.
+
+==Example==
+
+Consider the two functions &amp;apos;&amp;apos;f&amp;apos;&amp;apos; and &amp;apos;&amp;apos;g&amp;apos;&amp;apos; mapping from and to [[natural number]]s, defined as follows:
+* To find &amp;apos;&amp;apos;f&amp;apos;&amp;apos;(&amp;apos;&amp;apos;n&amp;apos;&amp;apos;), first add 5 to &amp;apos;&amp;apos;n&amp;apos;&amp;apos;, then multiply by 2.
+* To find &amp;apos;&amp;apos;g&amp;apos;&amp;apos;(&amp;apos;&amp;apos;n&amp;apos;&amp;apos;), first multiply &amp;apos;&amp;apos;n&amp;apos;&amp;apos; by  2, then add 10.
+
+These functions are extensionally equal; given the same input, both functions always produce the same value. But the definitions of the functions are not equal, and in that intensional sense the functions are not the same.
+
+Similarly, in natural language there are many predicates (relations) that are intensionally different but are extensionally identical. For example, suppose that a town has one person named Joe, who is also the oldest person in the town. Then, the two argument predicates &amp;quot;has one person named&amp;quot;, &amp;quot;is the oldest person in&amp;quot; are intensionally distinct, but extensionally equal for &amp;quot;Joe&amp;quot; in that &amp;quot;town&amp;quot; now.
+
+==In mathematics==
+
+The extensional definition of function equality, discussed above, is commonly used in mathematics. Sometimes additional information is attached to a function, such as an explicit [[codomain]], in which case two functions must not only agree on all values, but must also have the same codomain, in order to be equal.
+
+A similar extensional definition is usually employed for relations: two relations are said to be equal if they have the same [[Extension (predicate logic)|extensions]].
+
+In set theory, the [[axiom of extensionality]] states that two sets are equal if and only if they contain the same elements.  In mathematics formalized in set theory, it is common to identify relations&amp;amp;mdash;and, most importantly, [[function (mathematics)|functions]]&amp;amp;mdash;with their extension as stated above, so that it is impossible for two relations or functions with the same extension to be distinguished.
+
+Other mathematical objects are also constructed in such a way that the intuitive notion of &amp;quot;equality&amp;quot; agrees with set-level extensional equality; thus, equal [[ordered pair]]s have equal elements, and elements of a set which are related by an [[equivalence relation]] belong to the same [[equivalence class]].
+
+[[Type theory|Type-theoretical]] foundations of mathematics are generally &amp;apos;&amp;apos;not&amp;apos;&amp;apos; extensional in this sense, and [[setoid]]s are commonly used to maintain a difference between intensional equality and a more general equivalence relation (which generally has poor [[constructivism (mathematics)|constructibility]] or [[decidability]] properties).
+
+
+==See also==
+*[[Duck typing]]
+*[[Structural typing]]
+
+==References==
+{{Unreferenced|date=January 2007}}
+
+{{logic}}
+
+[[Category:Set theory]]
+[[Category:Concepts in logic]]
+
+{{logic-stub}}
+{{mathlogic-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

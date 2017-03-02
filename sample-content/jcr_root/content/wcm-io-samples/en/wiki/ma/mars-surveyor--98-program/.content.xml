@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Mars Surveyor &#x27;98 program"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Mars Surveyor &#x27;98 program" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[File:M98patch.png|thumb|&amp;apos;&amp;apos;Mars Polar Lander&amp;apos;&amp;apos; mission logo]]
+The &amp;apos;&amp;apos;&amp;apos;Mars Surveyor &amp;apos;98 program&amp;apos;&amp;apos;&amp;apos; comprised two spacecraft launched separately, the [[Mars Climate Orbiter]] (formerly the Mars Surveyor &amp;apos;98 Orbiter) and the [[Mars Polar Lander]] (formerly the Mars Surveyor &amp;apos;98 Lander); on board the Mars Polar Lander spacecraft were two surface-penetrator probes ([[Deep Space 2]]). The two missions were to study the Martian weather, climate, and water and carbon dioxide budget, to understand the reservoirs, behavior, and atmospheric role of volatiles and to search for evidence of long-term and episodic climate changes.
+
+Both spacecraft were launched during the 1998 [[Mars]] [[orbit insertion]] [[launch window]]. Both were lost, including the penetrator probes.
+
+The orbiter was lost due to a miscalculation in trajectory caused by an unintended and undetected mismatch between [[SI|metric]] and [[English units]] of measurement. The use of metric units as well as the data formats to employ were specified in a navigation software interface specification (SIS) published by JPL in 1996. Despite this, the flight operations team at [[Lockheed Martin]] provided impulse data in English units of [[pound-force]] seconds rather than newton seconds. These values were incorrect by a factor of 4.45 (1 lbf = 4.45 N). This caused erroneous course corrections that caused the orbiter to descend too low in Mars&amp;apos;s atmosphere. The vehicle either burned up or bounced off into space.
+
+Investigators concluded that the most likely cause of the Lander’s failure was that a spurious sensor signal associated with the craft’s legs falsely indicated that the craft had touched down when in fact it was some 40 meters above the surface. When the landing legs unfolded they made a bouncing motion that accidentally set off the landing sensors, causing the descent engines to shut down prematurely and the Lander to fall. Another possible reason for failure was inadequate preheating of [[catalysis]] beds for the pulsing rocket thrusters. [[Hydrazine]] fuel decomposes on the beds to make hot gases that are forced out of the [[rocket nozzle]]s, generating [[thrust]];  in crash review tests cold catalysis beds caused [[misfire|misfiring]] and [[instability]].
+[[File:Mars Polar Lander undergoes testing.jpg|270px|thumb|&amp;apos;&amp;apos;The first polar lander under construction in the [[NASA]] lab]]
+
+The Mars Surveyor 1998 program spacecraft development cost US$193.1 million. Launch costs for the Mars surveyor 98’ program was estimated at US $91.7 million and mission operations at US $42.8 million. The Mars Climate Orbiter was part of NASA&amp;apos;s 10-year Mars Surveyor Program, with launches every 26 months when the Earth and Mars are favorably positioned.
+
+{{NASA planetary exploration programs}}
+{{NASA navbox}}
+{{Mars spacecraft}}
+
+{{DEFAULTSORT:Mars Surveyor &amp;apos;98 Program}}
+[[Category:Missions to Mars]]
+[[Category:NASA programs]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

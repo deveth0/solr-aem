@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Template:Numeral systems"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Template:Numeral systems" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{ sidebar
+| name     = Numeral systems
+| class    = hlist navbox
+
+| heading1 = [[Numeral system]]s by culture
+
+| content2 =
+; [[Hindu–Arabic numeral system|Hindu–Arabic numerals]]:
+* [[Arabic numerals|Western Arabic]]
+* [[Eastern Arabic numerals|Eastern Arabic]]
+* [[Indian numerals|Indian family]]
+* [[Tamil numerals|Tamil]]
+* [[Telugu numerals|Telugu]]
+* [[Burmese numerals|Burmese]]
+* [[Sinhala numerals|Sinhala]]
+* [[Khmer numerals|Khmer]]
+* [[Lao alphabet#Numerals|Lao]]
+* [[Mongolian numerals|Mongolian]]
+* [[Thai numerals|Thai]]
+; East Asian numerals:
+* [[Chinese numerals|Chinese]]
+* [[Japanese numerals|Japanese]]
+* &amp;apos;&amp;apos;[[Suzhou numerals|Suzhou]]&amp;apos;&amp;apos;
+* [[Korean numerals|Korean]]
+* [[Vietnamese numerals|Vietnamese]]
+* &amp;apos;&amp;apos;[[Counting rods]]&amp;apos;&amp;apos;
+; Alphabetic numerals:
+* [[Abjad numerals|Abjad]]
+* [[Armenian numerals|Armenian]]
+* [[Āryabhaṭa numeration|{{IAST|Āryabhaṭa}}]]
+* [[Cyrillic numerals|Cyrillic]]
+* [[Ge&amp;apos;ez script#Numerals |Ge&amp;apos;ez]]
+* [[Greek numerals|Greek]]
+* [[Georgian numerals|Georgian]]
+* [[Hebrew numerals|Hebrew]]
+; Other historical systems:
+* [[Aegean numerals|Aegean]]
+* [[Attic numerals|Attic]]
+* [[Babylonian numerals|Babylonian]]
+* [[Brahmi numeral|Brahmi]]
+* [[Egyptian numerals|Egyptian]]
+* [[Etruscan numerals|Etruscan]]
+* [[Inuit numerals|Inuit]]
+* [[Kharosthi numerals|Kharosthi]]
+* [[Maya numerals|Mayan]]
+* [[Quipu]]
+* [[Roman numerals|Roman]]
+
+| heading3 = [[Positional notation|Positional system]]s by [[Radix|base]]
+
+| content4 = [[Decimal]] (10)
+
+| content5 =
+* [[Unary numeral system|1]]
+* [[Binary number|2]]
+* [[Ternary numeral system|3]]
+* [[Quaternary numeral system|4]]
+* [[Quinary|5]]
+* [[Senary|6]]
+* [[Septenary|7]]
+* [[Octal|8]]
+* [[Nonary|9]]
+* [[Undecimal|11]]
+* [[Duodecimal|12]]
+* [[Base 13|13]]
+* [[Tetradecimal|14]]
+* [[Pentadecimal|15]]
+* [[Hexadecimal|16]]
+* [[Vigesimal|20]]
+* [[Base 24|24]]
+* [[Hexavigesimal|26]]
+* [[Septemvigesimal|27]]
+* [[Base 32|32]]
+* [[Base 36|36]]
+* [[Sexagesimal|60]]
+
+| content6 = [[Non-standard positional numeral systems]]
+
+| below    = [[List of numeral systems]]
+
+}}&amp;lt;noinclude&amp;gt;{{doc|content=
+
+[[Category:Mathematics templates]]
+[[Category:Sidebar templates]]
+
+}}&amp;lt;/noinclude&amp;gt;&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

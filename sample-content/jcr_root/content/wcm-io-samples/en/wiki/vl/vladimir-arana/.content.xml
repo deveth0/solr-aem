@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Vladimir Arana"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Vladimir Arana" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{primarysources|biography|date=January 2008}}
+&amp;apos;&amp;apos;&amp;apos;Vladimir A. Arana&amp;apos;&amp;apos;&amp;apos; was born in Bellavista, [[Callao]], [[Peru]].
+
+He is president of the [http://www.urbanistasperu.org Society of City Planners of Peru]. Vladimir is a city planner, a Paisajista Architect (formed in the United States) and has Masters of Science (Sweden).  He is also a university professor in the field of [[Project Management]], and is a partner and manager of Programs and Initiatives of Investment in The Contracting Society, a company dedicated to the facilitación of the development of the enterprise sector through the provision of technological services, the joint of product markets diverse, the improvement of the quality of the services and products and the facilitation from the access to capital markets.
+
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Arana, Vladimir
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION =
+| DATE OF BIRTH     =
+| PLACE OF BIRTH    =
+| DATE OF DEATH     =
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Arana, Vladimir}}
+[[Category:Year of birth missing (living people)]]
+[[Category:Living people]]
+[[Category:Peruvian urban planners]]
+
+
+{{peru-bio-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="New York Heart Association Functional Classification"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="New York Heart Association Functional Classification" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Merge to|Heart_failure#Classification|date=August 2010}}
+The &amp;apos;&amp;apos;&amp;apos;New York Heart Association (NYHA) Functional Classification&amp;apos;&amp;apos;&amp;apos; provides a simple way of classifying the extent of [[congestive heart failure|heart failure]]. It places patients in one of four categories based on how much they are limited during physical activity; the limitations/symptoms are in regards to normal breathing and varying degrees in shortness of breath and or angina pain:
+
+{| class=&amp;quot;wikitable&amp;quot;
+!NYHA Class
+!Symptoms
+|-
+|align=&amp;quot;center&amp;quot;|I
+|Cardiac disease, but no symptoms and no limitation in ordinary physical activity, e.g. shortness of breath when walking, climbing stairs etc.
+|-
+|align=&amp;quot;center&amp;quot;|II
+|Mild symptoms (mild shortness of breath and/or angina) and slight limitation during ordinary activity.
+|-
+|align=&amp;quot;center&amp;quot;|III
+|Marked limitation in activity due to symptoms, even during less-than-ordinary activity, e.g. walking short distances (20–100 m).&amp;lt;br /&amp;gt;Comfortable only at rest.
+|-
+|align=&amp;quot;center&amp;quot;|IV
+|Severe limitations. Experiences symptoms even while &amp;apos;&amp;apos;at rest&amp;apos;&amp;apos;. Mostly bedbound patients.
+|}
+
+Another frequently used functional classification of cardiovascular disease is the [[Canadian Cardiovascular Society grading of angina pectoris]].
+
+== References ==
+
+*The Criteria Committee of the New York Heart Association. Nomenclature and Criteria for Diagnosis of Diseases of the Heart and Great Vessels. 9th ed. Boston, Mass: Little, Brown &amp;amp; Co; 1994:253-256.
+
+[[Category:Cardiology]]
+
+{{disease-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

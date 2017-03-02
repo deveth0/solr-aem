@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:Historical archive/Politics/Wanted"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:Historical archive/Politics/Wanted" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;Authors: these are all topics we want articles for.  Please try your
+hand.  When they get past the stub stage, add them in on the main
+page.
+
+Readers: if there are topics you would like to see addressed, add them
+here.
+
+:&amp;apos;&amp;apos;&amp;apos;Political Systems and Ideologies&amp;apos;&amp;apos;&amp;apos;
+:[[Bolshevism]] -- [[Neo-Liberalism]] -- [[Neo-Conservatism]] -- [[Right-wing]] -- [[States Rights]] -- [[Techno-anarchy]] -- [[Techno-capitalism]] -- [[The New Left]] -- [[The Old Left]] -- [[Third Way]]
+
+:&amp;apos;&amp;apos;&amp;apos;Sector-based Ideologies&amp;apos;&amp;apos;&amp;apos;
+:[[Indigenous Rights]] -- [[Minority Rights]]
+
+:&amp;apos;&amp;apos;&amp;apos;Political Entities&amp;apos;&amp;apos;&amp;apos;
+:[[City-state]] -- [[County]] -- [[Nation-state]] -- [[Province]] -- [[World-state]] -- [[Organized Group]] / [[Special Interest Group]] -- [[Tyranny]] -- [[Open_Society]]
+
+:&amp;apos;&amp;apos;&amp;apos;Classical and modern political theorists&amp;apos;&amp;apos;&amp;apos;
+:[[Micheal Bakunin]] -- [[Lysander Spooner]] -- [[Henry David Thoreau]] -- [[Herbert Spencer]] -- [[Albert Jay Nock]] -- [[Leonard Read]] -- [[Ludwig von Mises]] -- [[Lord Acton]] -- [[Eugen von Böhm-Bawerk]] -- [[Friedrich von Wieser]] -- [[Henry Hazlitt]] -- [[Henry Grady Weaver]]
+
+:&amp;apos;&amp;apos;&amp;apos;Contemporary Political Theorists:&amp;apos;&amp;apos;&amp;apos;
+:[[William F. Buckley]] -- [[John Rawls]] -- [[Jan Narveson]]  -- [[Anthony de Jasay]]-- [[John Hospers]]-- [[David Gauthier]] -- [[Israel Kirzner]] -- [[Ludwig Lachmann]]
+
+----
+comment: this seems like an ideal candidate for incorporation into a [[WikiProject]].
+
+:&amp;apos;&amp;apos;See also :&amp;apos;&amp;apos; [[Politics]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

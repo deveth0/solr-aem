@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Five Field Kono"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Five Field Kono" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox Game
+| title = Five Field Kono
+| italic title = no
+| image_link = [[Image:Five Field Kono starting position.svg|250px]]
+| image_caption = The board in its starting position. Pieces move diagonally to empty adjacent points.
+| designer =
+| illustrator =
+| publisher =
+| players = 2
+| ages =
+| setup_time = 1 minute
+| playing_time = 10 minutes
+| random_chance = None
+| skills = [[Strategy]]
+| bggid = 25471
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Five Field Kono&amp;apos;&amp;apos;&amp;apos; is a [[Korea]]n [[abstract strategy game]]. As in [[Chinese checkers]], a player wins by moving all of their pieces into the starting locations of their opponent&amp;apos;s pieces.
+
+==Rules==
+The players take turns moving one of their pieces one square diagonally. The first player to move all of their pieces to their opponent&amp;apos;s starting squares wins.
+
+==Bibliography==
+*{{cite book |last=Bell |first=R. C. |title=Board and Table Games from Many Civilizations, volume 1 |year=1979 |publisher=[[Dover Publications]] |location=[[New York City]] |isbn=0-486-23855-5&amp;lt;!-- Volumes 1 and 2 are bound in the same book and thus have the same ISBN. --&amp;gt; |pages=98 }}
+*{{cite book |last=Culin |first=Stewart |authorlink=Stewart Culin |title=[[Korean Games]] |year=1895 |location=[[Philadelphia]] |pages=102 }}
+
+==External links==
+*[http://www.darkfish.com/kono/FiveFieldKono.html Five Field Kono applet]
+*[http://www.zillions-of-games.com/cgi-bin/zilligames/submissions.cgi/94592?do=show;id=412 Five Field Kono] at [[Zillions of Games]]
+
+[[Category:Abstract strategy games]]
+[[Category:Traditional board games]]
+[[Category:Korean games]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

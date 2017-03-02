@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="X Hits"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="X Hits" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Orphan|date=February 2009}}
+{{Unreferenced|date=October 2008}}
+{{Infobox album | &amp;lt;!-- See Wikipedia:WikiProject_Albums --&amp;gt;
+|  Name        = X Hits
+|  Type        = EP
+|  Longtype    = and [[Greatest hits]]
+|  Artist      = [[Liberty X]]
+|  Cover       =
+|  Released    = October 6, 2008 &amp;lt;small&amp;gt;([[United Kingdom|UK]])&amp;lt;/small&amp;gt;
+|  Recorded    = 2001 - 2006
+|  Genre       = [[Pop music|Pop]]&amp;lt;br&amp;gt;[[Dance music|Dance]]&amp;lt;br&amp;gt;[[R&amp;amp;B]]
+|  Last album  = &amp;apos;&amp;apos;[[X (Liberty X album)|X]]&amp;apos;&amp;apos;&amp;lt;br /&amp;gt;(2005)
+|  This album  = &amp;apos;&amp;apos;X Hits EP&amp;apos;&amp;apos;&amp;lt;br /&amp;gt;(2008)
+|  Next album  = &amp;apos;&amp;apos;X Hits Album&amp;apos;&amp;apos;&amp;lt;br /&amp;gt;(2008)
+}}
+
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;X Hits&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is the first greatest hits album and the first EP by pop band [[Liberty X]] who disbanded in April 2007. The album contains 10 tracks voted by fans and was released on October 6, 2008.
+
+==Info==
+The album was voted by fans in October 2008 with only 10 tracks confirmed as the track listing.
+
+==Track listing==
+*[[Thinking It Over]]
+*[[Just A Little]]
+*[[Got To Have Your Love]]
+*[[Being Somebody]]
+*[[Jumpin]]
+*[[Everybody Cries]]
+*[[Song 4 Lovers]]
+*[[X (Liberty X song)|X]]
+*[[Just A Little Live]]
+*X ([[Bimbo Jones]] Remix)
+
+[[Category:Liberty X albums]]
+[[Category:2009 EPs]]
+[[Category:2009 greatest hits albums]]
+
+{{2000s-pop-album-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

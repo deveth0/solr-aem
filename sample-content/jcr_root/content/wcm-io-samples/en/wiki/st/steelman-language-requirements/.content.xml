@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Steelman language requirements"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Steelman language requirements" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;Steelman language requirements&amp;apos;&amp;apos;&amp;apos; were a set of requirements which a high-level general-purpose [[programming language]] should meet, created by the [[United States Department of Defense]] in &amp;apos;&amp;apos;The Department of Defense Common High Order Language program&amp;apos;&amp;apos; in 1978. The predecessors of this document were called, in order, &amp;quot;[[Straw man proposal|Strawman]]&amp;quot;, &amp;quot;Woodenman&amp;quot;, &amp;quot;Tinman&amp;quot; and &amp;quot;Ironman&amp;quot;.
+
+The requirements focused on the needs of [[embedded systems|embedded]] computer applications, and emphasised reliability, maintainability, and efficiency. Notably, they included [[exception handling]] facilities, [[run-time error checking]], and [[parallel computing]].
+
+It was concluded that no existing language met these criteria to a sufficient extent, so a contest was called to create a language that would be closer to fulfilling them. The design that won this contest became the [[Ada (programming language)|Ada programming language]].
+
+The resulting language followed the Steelman requirements closely, though not exactly. It included support for [[generic programming]] as a significant extension not envisaged in the requirements.
+
+The Ada 95 revision of the language went beyond the Steelman requirements, targeting general-purpose systems in addition to embedded ones, and adding features supporting [[object-oriented programming]].
+
+== See also ==
+* [[ALGOL 68]]
+* [[Pascal (programming language)|Pascal]]
+* [[Smalltalk]]
+* [[Ada (programming language)|Ada]]
+
+== External links ==
+{{Wikisource|Steelman language requirements}}
+* [http://www.dwheeler.com/steelman/steelman.htm Steelman on-line]
+* Evaluation of [[ALGOL 68]], [[JOVIAL|Jovial]] J3B, [[Pascal (programming language)|Pascal]], [[SIMULA]] 67, and [[TACPOL]] Versus TINMAN - Requirements for a Common High Order Programming Language. - [http://www.dtic.mil/srch/doc?collection=t2&amp;amp;id=ADA037637 Report Number: 1021-14]
+* [http://www.dwheeler.com/steelman/steeltab.htm Ada, C, C++, and Java vs. The Steelman]
+
+[[Category:Ada programming language]]
+[[Category:Programming language design]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

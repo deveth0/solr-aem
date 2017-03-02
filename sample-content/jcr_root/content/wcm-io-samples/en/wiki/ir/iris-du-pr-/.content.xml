@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Iris du Pré"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Iris du Pré" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+&amp;apos;&amp;apos;&amp;apos;Iris du Pré&amp;apos;&amp;apos;&amp;apos; (née &amp;apos;&amp;apos;&amp;apos;Iris Greep&amp;apos;&amp;apos;&amp;apos;) (June 6, 1914 – September 27, 1985) was a [[pianist]], [[composer]], conductor and educator, best known as the mother of two famous musicians, [[Hilary du Pré|Hilary]], and [[Jacqueline du Pré|Jacqueline]].
+
+Iris married [[Derek du Pré]], an accountant whom she met by chance when he was traveling in eastern Europe.  She was already a professional musician, her own compositions including part of the &amp;apos;&amp;apos;Ballet de la Jeunesse Anglaise&amp;apos;&amp;apos; performed in 1941.  In 1942 their first daughter, [[Hilary du Pré|Hilary]], was born, and in 1945 they had a second daughter, Jacqueline. Their son, Piers, was born in 1948.
+
+As a music teacher, Iris started the education of her two daughters on the [[flute]] and [[cello]], in addition to teaching in the public sector at [[Apsley Grammar School]] in [[Hemel Hempstead]] during the 1970s.  In the film &amp;apos;&amp;apos;[[Hilary and Jackie]]&amp;apos;&amp;apos;, Iris is played by [[Celia Imrie]].
+
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Pre, Iris Du
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION =
+| DATE OF BIRTH     = June 6, 1914
+| PLACE OF BIRTH    =
+| DATE OF DEATH     = September 27, 1985
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Pre, Iris Du}}
+[[Category:1914 births]]
+[[Category:1985 deaths]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

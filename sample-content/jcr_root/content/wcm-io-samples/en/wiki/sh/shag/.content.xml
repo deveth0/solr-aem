@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Shag"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Shag" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionarypar|shag}}
+&amp;apos;&amp;apos;&amp;apos;Shag&amp;apos;&amp;apos;&amp;apos; may refer to:
+* [[Collegiate shag]], a swing dance that originated in the 1920s (popular in the 1930s and 40s)
+* [[Carolina shag]], a swing dance that originated in South Carolina in the 1940s and still is their state dance
+* [[St. Louis shag]], a swing dance that evolved from the Charleston
+* [[Shag (1989 film)|&amp;apos;&amp;apos;Shag&amp;apos;&amp;apos; (1989 film)]]
+* [[Shag (fabric)]], a fabric typically used to make deep-pile carpets
+* Shag or [[Cormorant]], a bird family
+** [[European Shag]], a specific species of the shag or cormorant family
+* [[The Shag]], also known as The Shags (one of many bands of that name) or Shag, a 1960s garage and psychedelic rock band from Milwaukee
+* Shag, a name used on some pop records in the early 1970s by British record producer [[Jonathan King]]
+* [[Shag (tobacco)]], fine-cut tobacco
+* [[Shag (hairstyle)]]
+* [[Shag (Josh Agle)]], American artist
+* Shag, also known as a [[Stag]] and [[List of animal names|doe]]
+* British slang for [[sexual intercourse]] - see [[wikt:shag#Etymology 3|Wiktionary definition]]
+* [[Shagging (baseball)]], to catch fly balls in baseball outside of a game
+
+== See also ==
+* [[The Shaggs]]
+* [[Shag Rocks (disambiguation)]]
+* [[Shag Island (disambiguation)]]
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

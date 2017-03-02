@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Reductive Lie algebra"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Reductive Lie algebra" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{unreferenced|date=May 2013}}
+In [[mathematics]], a [[Lie algebra]] is &amp;apos;&amp;apos;&amp;apos;reductive&amp;apos;&amp;apos;&amp;apos; if its [[Adjoint endomorphism|adjoint representation]] is [[Lie algebra representation|completely reducible]], whence the name. More concretely, a Lie algebra is reductive if it is a [[direct sum of Lie algebras|direct sum]] of a [[semisimple Lie algebra]] and an [[abelian Lie algebra]]: &amp;lt;math&amp;gt;\mathfrak{g} = \mathfrak{s} \oplus \mathfrak{a};&amp;lt;/math&amp;gt; there are alternative characterizations, given below.
+
+== Examples ==
+The most basic example is the Lie algebra &amp;lt;math&amp;gt;\mathfrak{gl}_n&amp;lt;/math&amp;gt; of &amp;lt;math&amp;gt;n \times n&amp;lt;/math&amp;gt; matrices with the commutator as Lie bracket, or more abstractly as the endomorphism algebra of an &amp;apos;&amp;apos;n&amp;apos;&amp;apos;-dimensional [[vector space]], &amp;lt;math&amp;gt;\mathfrak{gl}(V).&amp;lt;/math&amp;gt; This is the Lie algebra of the [[general linear group]] GL(&amp;apos;&amp;apos;n&amp;apos;&amp;apos;), and is reductive as it decomposes as &amp;lt;math&amp;gt;\mathfrak{gl}_n = \mathfrak{sl}_n \oplus \mathfrak{k},&amp;lt;/math&amp;gt; corresponding to [[traceless]] matrices and [[scalar matrices]].
+
+Any [[semisimple Lie algebra]] or [[abelian Lie algebra]] is a fortiori reductive.
+
+Over the real numbers, [[compact Lie algebra]]s are reductive.
+
+== Definitions ==
+A Lie algebra &amp;lt;math&amp;gt;\mathfrak{g}&amp;lt;/math&amp;gt; over a field of characteristic 0 is called reductive if any of the following equivalent conditions are satisfied:
+# The [[Adjoint representation of a Lie group|adjoint representation]] (the action by bracketing) of &amp;lt;math&amp;gt;\mathfrak{g}&amp;lt;/math&amp;gt; is [[Semisimple Lie algebra|completely reducible]] (a [[direct sum of representations|direct sum]] of irreducible representations).
+# &amp;lt;math&amp;gt;\mathfrak{g}&amp;lt;/math&amp;gt; admits a faithful, completely reducible, finite-dimensional representation.
+# The [[Radical of a Lie algebra|radical]] of &amp;lt;math&amp;gt;\mathfrak{g}&amp;lt;/math&amp;gt; equal the center: &amp;lt;math&amp;gt;\mathfrak{r}(\mathfrak{g}) = \mathfrak{z}(\mathfrak{g}).&amp;lt;/math&amp;gt;
+#:The radical always contains the center, but need not equal it.
+# &amp;lt;math&amp;gt;\mathfrak{g}&amp;lt;/math&amp;gt; is the direct sum of its derived ideal &amp;lt;math&amp;gt;[\mathfrak{g},\mathfrak{g}]&amp;lt;/math&amp;gt; and its center &amp;lt;math&amp;gt;\mathfrak{z}(\mathfrak{g}):&amp;lt;/math&amp;gt; &amp;lt;math&amp;gt;\mathfrak{g} = [\mathfrak{g},\mathfrak{g}] \oplus \mathfrak{z}(\mathfrak{g}).&amp;lt;/math&amp;gt;
+# &amp;lt;math&amp;gt;\mathfrak{g}&amp;lt;/math&amp;gt; is the direct sum of a semisimple ideal &amp;lt;math&amp;gt;\mathfrak{s}_0&amp;lt;/math&amp;gt; and its center &amp;lt;math&amp;gt;\mathfrak{z}(\mathfrak{g}):&amp;lt;/math&amp;gt; &amp;lt;math&amp;gt;\mathfrak{g} = \mathfrak{s}_0 \oplus \mathfrak{z}(\mathfrak{g}).&amp;lt;/math&amp;gt;
+#:Compare to the [[Levi decomposition]], which decomposes a Lie algebra as its radical (which is solvable, not abelian in general) and a Levi subalgebra (which is semisimple).
+# &amp;lt;math&amp;gt;\mathfrak{g}&amp;lt;/math&amp;gt; is a direct sum of a semisimple Lie algebra &amp;lt;math&amp;gt;\mathfrak{s}&amp;lt;/math&amp;gt; and an abelian Lie algebra &amp;lt;math&amp;gt;\mathfrak{a}:&amp;lt;/math&amp;gt; &amp;lt;math&amp;gt;\mathfrak{g} = \mathfrak{s} \oplus \mathfrak{a}.&amp;lt;/math&amp;gt;
+# &amp;lt;math&amp;gt;\mathfrak{g}&amp;lt;/math&amp;gt; is a direct sum of prime ideals: &amp;lt;math&amp;gt;\mathfrak{g} = \textstyle{\sum \mathfrak{g}_i}.&amp;lt;/math&amp;gt;
+Some of these equivalences are easily seen. For example, the center and radical of &amp;lt;math&amp;gt;\mathfrak{s} \oplus \mathfrak{a}&amp;lt;/math&amp;gt; is &amp;lt;math&amp;gt;\mathfrak{a},&amp;lt;/math&amp;gt; while if the radical equals the center the Levi decomposition yields a decomposition &amp;lt;math&amp;gt;\mathfrak{g} = \mathfrak{s}_0 \oplus \mathfrak{z}(\mathfrak{g}).&amp;lt;/math&amp;gt; Further, simple Lie algebras and the trivial 1-dimensional Lie algebra &amp;lt;math&amp;gt;\mathfrak{k}&amp;lt;/math&amp;gt; are prime ideals.
+
+== Properties ==
+Reductive Lie algebras are a generalization of semisimple Lie algebras, and share many properties with them: many properties of semisimple Lie algebras depend only on the fact that they are reductive. Notably, the [[unitarian trick]] of [[Hermann Weyl]] works for reductive Lie algebras.
+
+The associated [[reductive Lie group]]s are of significant interest: the [[Langlands program]] is based on the premise that what is done for one reductive Lie group should be done for all.{{clarify|date=May 2013}}
+
+The intersection of reductive Lie algebras and solvable Lie algebras is exactly abelian Lie algebras (contrast with the intersection of semisimple and solvable Lie algebras being trivial).
+
+== External links ==
+* &amp;apos;&amp;apos;[http://eom.springer.de/L/l058500.htm Lie algebra, reductive],&amp;apos;&amp;apos; A.L. Onishchik, in &amp;apos;&amp;apos;Encyclopaedia of Mathematics,&amp;apos;&amp;apos; ISBN 1-4020-0609-8, SpringerLink
+
+[[Category:Properties of Lie algebras]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Reflux suppressant"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Reflux suppressant" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+A &amp;apos;&amp;apos;&amp;apos;reflux suppressant&amp;apos;&amp;apos;&amp;apos; is any one of a number of [[Medication|drugs]] used to combat [[oesophageal reflux]]. Commonly, following ingestion a &amp;apos;raft&amp;apos; of [[alginic acid]] is created, floating on the stomach contents by carbon dioxide released by the drug. This forms a mechanical barrier to further reflux. Some preparations also contain [[antacid]]s to protect the [[oesophagus]].
+
+Reflux can also be coincidentally reduced by the [[:Category:Motility stimulants|motility stimulants]] and [[antidopaminergic]]s.
+
+{{DEFAULTSORT:Reflux Suppressant}}
+[[Category:Drugs acting on the gastrointestinal system and metabolism]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

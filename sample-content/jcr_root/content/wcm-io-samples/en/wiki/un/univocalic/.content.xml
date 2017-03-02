@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Univocalic"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Univocalic" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+{{See also|Constrained writing}}
+A &amp;apos;&amp;apos;&amp;apos;univocalic&amp;apos;&amp;apos;&amp;apos; is a type of [[lipogram]]matic [[constrained writing]] that uses only a single [[vowel]], &amp;quot;A&amp;quot;, &amp;quot;E&amp;quot;, &amp;quot;I&amp;quot;, &amp;quot;O&amp;quot;, or &amp;quot;U&amp;quot;, and no others.
+
+==Examples==
+*One of the best-known univocalic poems was written by C.C. Bombaugh in 1890 using &amp;quot;O&amp;quot;. Bombaugh&amp;apos;s work is still in print. An example couplet:
+::No cool monsoons blow soft on Oxford dons,
+::Orthodox, jog-trot, book-worm Solomons
+*The Austrian poet [[Ernst Jandl]] composed his univocalic poem &amp;quot;Ottos Mops&amp;quot; (Otto&amp;apos;s Pug) from German words with only the vowel &amp;quot;O&amp;quot;.
+*A contemporary example of English-language univocalic poems is Canadian poet [[Christian Bök]]&amp;apos;s text &amp;apos;&amp;apos;[[Eunoia (book)|Eunoia]]&amp;apos;&amp;apos;, published by [[Coach House Press]] in 2001.
+*An example of a univocalic [[novella]] is [[Georges Perec]]&amp;apos;s &amp;apos;&amp;apos;Les Revenentes&amp;apos;&amp;apos; ([[sic]]), in which the vowel &amp;quot;E&amp;quot; is used exclusively.
+
+[[Category:Constrained writing]]
+[[Category:Lipograms]]
+
+
+{{Poetry-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

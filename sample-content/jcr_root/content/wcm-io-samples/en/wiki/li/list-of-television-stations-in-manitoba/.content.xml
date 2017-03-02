@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="List of television stations in Manitoba"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="List of television stations in Manitoba" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{inc-video}}
+This is a &amp;apos;&amp;apos;&amp;apos;list of broadcast television stations&amp;apos;&amp;apos;&amp;apos; serving cities in the Canadian province of [[Manitoba]]&amp;lt;ref&amp;gt; [http://www.user.dccnet.com/jonleblanc/Canada_TV_Stations/ Over The Air Television Stations In Canada] &amp;lt;/ref&amp;gt;
+. [[Digital television in Canada#Mandatory Markets for Over-Air Transition to Digital|On or before August 31, 2011]], some of these stations are switching to [[digital broadcast television]].
+
+{| class=&amp;quot;sortable wikitable&amp;quot; border=&amp;quot;2&amp;quot; cellpadding=&amp;quot;4&amp;quot; cellspacing=&amp;quot;0&amp;quot; style=&amp;quot;margin: 1em 1em 1em 0; background: #f9f9f9; border: 1px #aaa solid; border-collapse: collapse&amp;quot; width=&amp;quot;100%&amp;quot;
+| &amp;apos;&amp;apos;&amp;apos;City of licence&amp;apos;&amp;apos;&amp;apos;
+| &amp;apos;&amp;apos;&amp;apos;Analog&amp;lt;br/&amp;gt;channel&amp;apos;&amp;apos;&amp;apos;
+| &amp;apos;&amp;apos;&amp;apos;Digital&amp;lt;br/&amp;gt;channel&amp;apos;&amp;apos;&amp;apos;
+| &amp;apos;&amp;apos;&amp;apos;Virtual&amp;lt;br/&amp;gt;channel&amp;apos;&amp;apos;&amp;apos;
+| &amp;apos;&amp;apos;&amp;apos;Callsign&amp;apos;&amp;apos;&amp;apos;
+| &amp;apos;&amp;apos;&amp;apos;Network&amp;apos;&amp;apos;&amp;apos;
+| &amp;apos;&amp;apos;&amp;apos;Notes&amp;apos;&amp;apos;&amp;apos;
+|- style=&amp;quot;vertical-align: top; text-align: left;&amp;quot;
+| [[Brandon, Manitoba|Brandon]]
+| 4
+|
+|
+| [[CKY-DT|CKYB-TV]]
+| [[CTV Television Network|CTV]]
+| satellite of [[CKY-DT]] [[Winnipeg]]
+|- style=&amp;quot;vertical-align: top; text-align: left;&amp;quot;
+| [[Dauphin, Manitoba|Dauphin]]
+| 12
+|
+|
+| [[CKY-DT|CKYD-TV]]
+| [[CTV Television Network|CTV]]
+| satellite of [[CKY-DT]] [[Winnipeg]]
+|- style=&amp;quot;vertical-align: top; text-align: left;&amp;quot;
+| [[Fisher Branch, Manitoba|Fisher Branch]]
+| 8
+|
+|
+| [[CKY-DT|CKYA-TV]]
+| [[CTV Television Network|CTV]]
+| satellite of [[CKY-DT]] [[Winnipeg]]
+|- style=&amp;quot;vertical-align: top; text-align: left;&amp;quot;
+| [[Flin Flon]]
+| 13
+|
+|
+| [[CKY-DT|CKYF-TV]]
+| [[CTV Television Network|CTV]]
+| satellite of [[CKY-DT]] [[Winnipeg]]
+|- style=&amp;quot;vertical-align: top; text-align: left;&amp;quot;
+| [[Mccreary, Manitoba|Mccreary]]
+| 13
+|
+|
+| [[CKY-DT|CKYB-TV]]
+| [[CTV Television Network|CTV]]
+| satellite of [[CKY-DT]] [[Winnipeg]]
+|- style=&amp;quot;vertical-align: top; text-align: left;&amp;quot;
+| [[Minnedosa, Manitoba|Minnedosa]]
+| 2
+|
+|
+| [[CKND-DT|CKND-TV-2]]
+| [[Global Television Network|Global]]
+|
+|- style=&amp;quot;vertical-align: top; text-align: left;&amp;quot;
+| [[The Pas]]
+| 12
+|
+|
+| [[CKY-DT|CKYP-TV]]
+| [[CTV Television Network|CTV]]
+| satellite of [[CKY-DT]] [[Winnipeg]]
+|- style=&amp;quot;vertical-align: top; text-align: left; font-weight: bold; &amp;quot;
+| [[Portage la Prairie]]
+|
+| 13
+| 13.1
+| [[CHMI-DT]]
+| [[City (TV network)|City]]
+|
+|-style=&amp;quot;vertical-align: top; text-align: left;&amp;quot;
+| [[Thompson, Manitoba|Thompson]]
+| 9
+|
+|
+| [[CKY-DT|CKYT-TV]]
+| [[CTV Television Network|CTV]]
+| satellite of [[CKY-DT]] [[Winnipeg]]
+|- style=&amp;quot;vertical-align: top; text-align: left; font-weight: bold; &amp;quot;
+| [[Winnipeg]]
+|
+| 51
+| 3.1
+| [[CBWFT-DT]]
+| [[Télévision de Radio-Canada|R-C]]
+|
+|- style=&amp;quot;vertical-align: top; text-align: left; font-weight: bold; &amp;quot;
+| [[Winnipeg]]
+|
+| 27
+| 6.1
+| [[CBWT-DT]]
+| [[CBC Television|CBC]]
+|
+|- style=&amp;quot;vertical-align: top; text-align: left; font-weight: bold; &amp;quot;
+| [[Winnipeg]]
+|
+| 7
+| 7.1
+| [[CKY-DT]]
+| [[CTV Television Network|CTV]]
+|
+|- style=&amp;quot;vertical-align: top; text-align: left; font-weight: bold; &amp;quot;
+| [[Winnipeg]]
+|
+| 40
+| 9.1
+| [[CKND-DT]]
+| [[Global Television Network|Global]]
+|
+|- style=&amp;quot;vertical-align: top; text-align: left;  &amp;quot;
+| [[Winnipeg]]
+|
+| 13
+| 13.1
+| [[CHMI-DT]]
+| [[City (TV network)|City]]
+| MTS TV HD ch. 417 SHAW ch. 8 Bell ch. 228
+|- style=&amp;quot;vertical-align: top; text-align: left; font-weight: bold; &amp;quot;
+| [[Winnipeg]]
+|
+| 35
+| 35.1
+| [[CIIT-DT]]
+| [[Joytv]]
+|
+|-
+|}
+
+==Defunct stations==
+*Channel 5: [[CKX-TV]] - CBC - [[Brandon, Manitoba|Brandon]]
+
+==See also==
+*[[List of television stations in Canada]]
+*[[Media in Canada]]
+
+==References==
+{{reflist}}
+
+{{Manitoba TV}}
+{{CanadaTelevision}}
+
+
+[[Category:Lists of television channels in Canada|Manitoba]]
+[[Category:Television stations in Manitoba|*]]
+[[Category:Manitoba-related lists|Television stations]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="XETU-AM"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="XETU-AM" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox Radio station
+ | name = XETU
+ | image =
+ | city = [[Tampico, Tamaulipas|Tampico]]
+ | area = [[Tampico, Tamaulipas|Tampico]], [[Tamaulipas]], [[Mexico]]
+ | branding = Estereo Vida
+ | slogan =
+ | airdate =
+ | frequency = 980 AM
+ | format =
+ | power =
+ | erp =
+ | class =
+ | callsign_meaning =
+ | former_callsigns =
+ | owner =
+ | webcast =
+ | website =
+ | affiliations =
+}}
+&amp;apos;&amp;apos;&amp;apos;XETU&amp;apos;&amp;apos;&amp;apos; (branded as Estereo Vida) is a  [[Mexico|Mexican]] [[Spanish language|Spanish-language]] AM [[radio station]] that serves the [[Tampico, Tamaulipas|Tampico]], [[Tamaulipas]]  market area.
+
+==External links==
+*{{AMQ|XETU}}
+* [http://www.mexicoradiotv.com/listtama.htm mexicoradiotv.com; List of Tamaulipas radio stations]
+* [http://radiostationworld.com/locations/Mexico/radio.asp?m=ta~ radiostationworld.com List of radio stations in Tamaulipas]
+&amp;lt;br clear=all&amp;gt;
+{{Tampico Radio}}
+
+{{coord missing|Mexico}}
+
+[[Category:Spanish-language radio stations]]
+[[Category:Radio stations in Tampico]]
+
+{{Mexico-radio-station-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

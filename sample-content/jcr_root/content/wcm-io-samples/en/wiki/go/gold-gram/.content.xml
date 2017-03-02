@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Gold gram"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Gold gram" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;A &amp;apos;&amp;apos;&amp;apos;gold gram&amp;apos;&amp;apos;&amp;apos; is the amount of value represented by exactly one [[gram]] of [[gold]]. It is a [[unit of account]] frequently used for [[digital gold currencies]]. It is sometimes denoted by the symbol &amp;quot;gg&amp;quot;, &amp;quot;AUG&amp;quot;, or &amp;quot;GAU&amp;quot;.
+
+A milligram of gold is sometimes referred to as a mil or mgg. Therefore, 1 AUG = 1 gg = 1000 mgg = 1000 mil, and 1 mil = 1 mgg = 0.001 gg = 0.001 AUG.  This allows gold holdings and transfers to take place in tiny fractions of a gram (equivalent to a few [[Cent (currency)|cents]])
+
+A possible source of confusion is that gold is often priced on the open market in the more traditional [[troy ounce]] (one troy ounce is exactly 31.1034768 grams, which is larger than the [[avoirdupois]] ounce generally in use in the [[United States]] and has a mass of 28.35 grams). Kilogram gold prices are commonly used by the Zurich Gold Pool where 1,000 kilograms = one [[metric tonne]].
+
+==External links==
+* [http://dgcsc.org/goldprices.htm Prices of Gold Grams in various fiat currencies]
+
+[[Category:Gold investments]]
+[[Category:Digital gold currencies]]
+
+
+{{econ-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

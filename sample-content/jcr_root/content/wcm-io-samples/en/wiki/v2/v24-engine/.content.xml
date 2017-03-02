@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="V24 engine"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="V24 engine" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=September 2007}}
+
+A &amp;apos;&amp;apos;&amp;apos;V24 engine&amp;apos;&amp;apos;&amp;apos; is a [[V engine]] with 24 [[cylinder (engine)|cylinder]]s, suitable only for very large [[truck]]s or [[locomotive]]s.
+
+[[File:Macchi-Castoldi M.C.72 engine Fiat AS.6 2009-06-06.jpg|thumb|M.C.72 aircraft engine]]
+Unlike smaller V16 and V20 engines, very few V24s were originally designed with 24 cylinders. The majority of these engines are formed by coupling multiple smaller engines together. For example, a very large V24, the [[Fiat AS.6|AS.6]], engine was built by [[Fiat]] in the early 1930s as a [[powerplant]] for the competition aeroplane [[Macchi M.C.72]]. This engine was in reality formed by mounting two [[Fiat AS.5]] V12s, one behind the other, obtaining a total displacement of over {{convert|50|L|cuin|0}} and a power output of about {{convert|3100|hp|kW|-1}}. The two units remained separated (they could be started separately) but the output shaft was shared. Between the units sat the [[gearbox]] that was used to reduce the propeller speed, and the final output shaft ran between the cylinder banks of the front engine to reach the nose of the aeroplane.
+
+The Detroit Diesel [[Detroit Diesel Series 71|24V-71]] is an example of a modern, two-stroke V24 Diesel engine. It is capable of producing 1,800 horsepower from a 27.9 liter displacement.
+
+==References==
+{{Reflist}}
+
+{{Piston engine configurations}}
+
+
+
+
+
+
+{{automotive-part-stub}}
+
+[[Category:Piston engine configurations]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

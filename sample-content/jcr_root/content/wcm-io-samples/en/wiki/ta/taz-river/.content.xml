@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Taz River"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Taz River" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Coord|67.5667|N|78.85|E|source:kolossus-ruwiki|display=title}}
+[[File:Kara sea 3TE.PNG|thumb|The Taz River flows into the wide and long [[Taz Estuary]]]]
+
+The &amp;apos;&amp;apos;&amp;apos;Taz&amp;apos;&amp;apos;&amp;apos; ({{lang-ru|Таз}}) is a river located in western [[Siberia]], has a length of {{convert|1401|km|sp=us}} and drains a basin estimated at {{convert|150000|km2|sp=us}}.
+
+The Taz River flows into the [[Taz Estuary|Tazovskaya Guba]], a roughly {{convert|250|km|sp=us|adj=on}} long estuary that begins in the area of the settlement of [[Tazovsky (rural locality)|Tazovsky]] and ends in the [[Gulf of Ob]]. A [[portage]] connects the Taz with the [[Turukhan River|Turukhan]] and the [[Yenisei River]]s. Its major [[tributary|tributaries]] include the [[Bolshaya Shirta River|Bolshaya Shirta]] and [[Khudosey River]]s from the right and the [[Tolka River (Russia)|Tolka]] and [[Chaselka River]]s from the left.
+
+Its estuary and lower course are located within [[Yamalo-Nenets Autonomous Okrug]], while its upper course borders with [[Krasnoyarsk Krai]].
+
+==External links==
+*Flooding: [http://visibleearth.nasa.gov/view_rec.php?id=17843]
+*Pictures taken by [[Landsat]] satellites showing areas in western Siberia allegedly changing due to [[global warming]]: [http://earthobservatory.nasa.gov/Newsroom/NewImages/images.php3?img_id=16986].
+*Ethnographic data of the Taz River area: [http://www.webcitation.org/query?url=http://www.geocities.com/athens/9479/nenets.html&amp;amp;date=2009-10-25+12:48:37 ]
+*Bears in the Taz River area: [http://szmn.sbras.ru/Vertebr/Mamcol/Carnivor/Ursidae.htm]
+
+[[Category:Rivers of Yamalo-Nenets Autonomous Okrug]]
+[[Category:Rivers of Krasnoyarsk Krai]]
+[[Category:Drainage basins of the Kara Sea]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

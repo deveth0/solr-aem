@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Empirical formula"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Empirical formula" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{About|analytical chemistry|observation rather than theory|Empirical relationship}}
+In [[chemistry]], the &amp;apos;&amp;apos;&amp;apos;empirical formula&amp;apos;&amp;apos;&amp;apos; of a [[chemical compound]] is the simplest positive integer ratio of [[atom]]s present in a compound.&amp;lt;ref&amp;gt;{{GoldBookRef | title = Empirical formula | file = E02063}}&amp;lt;/ref&amp;gt; A simple example of this concept is that the empirical formula of [[hydrogen peroxide]], or H&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;O&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;, would simply be HO.
+
+An empirical formula makes no reference to [[isomer]]ism, structure, or absolute number of atoms. The empirical formula is used as standard for most ionic compounds, such as [[Calcium chloride|CaCl&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;]], and for [[macromolecules]], such as [[Silicon dioxide|SiO&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;]].
+
+In contrast, the [[molecular formula]] identifies the number of each type of atom in a molecule, and the [[structural formula]] also shows the [[structure]] of the molecule.
+
+For example, [[glucose]] ({{chem|C|6|H|12|O|6}}), [[ribose]] ({{chem|C|5|H|10|O|5}}), [[acetic acid]] ({{chem|C|2|H|4|O|2}}), and [[formaldehyde]] ({{chem|CH|2|O}}) all have different molecular formulas but the same empirical formula: {{chem|CH|2|O}}. This is the actual molecular formula for formaldehyde, but acetic acid has double the number of atoms, ribose has five times the number of atoms, and glucose has six times the number of atoms.
+
+For example, the chemical compound [[n-hexane]] has the structural formula {{chem|CH|3|CH|2|CH|2|CH|2|CH|2|CH|3}}, which shows that it has 6 [[carbon]] atoms arranged in a chain, and 14 [[hydrogen]] atoms. Hexane&amp;apos;s molecular formula is {{chem|C|6|H|14}}, and its empirical formula is {{chem|C|3|H|7}}, showing a C:H ratio of 3:7. Different compounds can have the same empirical formula.
+
+==Calculating Empirical Formulas==
+
+Suppose you are given a compound such as [[methyl acetate]], a solvent commonly used in paints, inks, and adhesives. When methyl acetate was chemically analyzed, it was discovered to have 48.64% [[carbon]] (C), 8.16% [[hydrogen]] (H), and 43.20% [[oxygen]] (O). For the purposes of determining empirical formulas, we assume that we have 100 g of the compound. If this is the case, the percentages will be equal to the mass of each element in grams.
+
+&amp;apos;&amp;apos;&amp;apos;Step 1&amp;apos;&amp;apos;&amp;apos;: Change each [[percentage]] to an expression of the mass of each element in grams. That is, 48.64% C becomes 48.64 g C, 8.16% H becomes 8.16 g H, and 43.20% O becomes 43.20 g O.&amp;lt;br&amp;gt;
+&amp;apos;&amp;apos;&amp;apos;Step 2&amp;apos;&amp;apos;&amp;apos;: Convert the amount of each element in grams to its amount in moles.
+
+:&amp;lt;math&amp;gt;\left(\frac{48.64 \mbox{ g C}}{1}\right)\left(\frac{1 \mbox{ mol }}{12.01 \mbox{ g C}}\right) = 4.049\ \text{mol}&amp;lt;/math&amp;gt;
+:&amp;lt;math&amp;gt;\left(\frac{8.16 \mbox{ g H}}{1}\right)\left(\frac{1 \mbox{ mol }}{1.008 \mbox{ g H}}\right) = 8.095\ \text{mol}&amp;lt;/math&amp;gt;
+:&amp;lt;math&amp;gt;\left(\frac{43.20 \mbox{ g O}}{1}\right)\left(\frac{1 \mbox{ mol }}{16.00 \mbox{ g O}}\right) = 2.7\ \text{mol}&amp;lt;/math&amp;gt;
+
+&amp;apos;&amp;apos;&amp;apos;Step 3&amp;apos;&amp;apos;&amp;apos;: Divide each of the found values by the smallest of these values (2.7)
+
+:&amp;lt;math&amp;gt;\frac{4.049 \mbox{ mol }}{2.7 \mbox{ mol }} = 1.5&amp;lt;/math&amp;gt;
+:&amp;lt;math&amp;gt;\frac{8.095 \mbox{ mol }}{2.7 \mbox{ mol }} = 3&amp;lt;/math&amp;gt;
+:&amp;lt;math&amp;gt;\frac{2.7 \mbox{ mol }}{2.7 \mbox{ mol }} = 1&amp;lt;/math&amp;gt;
+
+&amp;apos;&amp;apos;&amp;apos;Step 4&amp;apos;&amp;apos;&amp;apos;: If necessary, multiply these numbers by integers in order to get whole numbers; if an operation is done to one of the numbers, it must be done to all of them.
+
+:&amp;lt;math&amp;gt;1.5 \times 2 = 3&amp;lt;/math&amp;gt;
+:&amp;lt;math&amp;gt;3 \times 2 = 6&amp;lt;/math&amp;gt;
+:&amp;lt;math&amp;gt;1 \times 2 = 2&amp;lt;/math&amp;gt;
+
+Thus, the empirical formula of methyl acetate is {{chem|C|3|H|6|O|2}}. This formula also happens to be methyl acetate&amp;apos;s molecular formula.
+
+==References==
+{{reflist}}
+
+==External links==
+*
+
+[[Category:Chemical formulas]]
+[[Category:Experimental physics]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

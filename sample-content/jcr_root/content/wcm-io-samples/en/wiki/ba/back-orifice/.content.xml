@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Back Orifice"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Back Orifice" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox software
+|name = Back Orifice
+|logo = [[Image:Back Orifice logo.png|200px]]
+|screenshot =
+|caption = Screenshot of the Back Orifice client
+|developer = [[Sir Dystic]] ([[Cult of the Dead Cow|cDc]])
+|operating_system = [[Microsoft Windows]],&amp;lt;br /&amp;gt;[[UNIX]]-systems (client only)
+|latest_release_version = 1.20
+|latest_release_date = August 3, 1998
+|genre = [[Remote administration]]
+|license = [[Freeware]], &amp;lt;br /&amp;gt;(source distribution, [[UNIX]] client)
+|website = [http://www.cultdeadcow.com/tools/bo.html Back Orifice Homepage]
+}}
+&amp;apos;&amp;apos;&amp;apos;Back Orifice&amp;apos;&amp;apos;&amp;apos; (often shortened to &amp;apos;&amp;apos;&amp;apos;BO&amp;apos;&amp;apos;&amp;apos;) is a controversial [[computer program]] designed for [[remote administration|remote system administration]]. It enables a user to control a [[computer]] running the [[Microsoft Windows]] operating system from a remote location.&amp;lt;ref name=&amp;quot;NYT&amp;quot;&amp;gt;Richtel, Matt. &amp;quot;[http://www.nytimes.com/library/tech/98/08/cyber/articles/04hacker.html Hacker Group Says Program Can Exploit Microsoft Security Hole],&amp;quot; &amp;apos;&amp;apos;[[New York Times]]&amp;apos;&amp;apos; August 4, 1998.  Retrieved April 24, 2007.&amp;lt;/ref&amp;gt; The name is a [[word play]] on [[Microsoft BackOffice Server]] software.
+
+Back Orifice was designed with a [[client–server]] architecture.&amp;lt;ref&amp;gt;{{cite web|title=Information on Back Orifice and NetBus|url=http://www.symantec.com/avcenter/warn/backorifice.html|publisher=Symantec|accessdate=8 February 2013}}&amp;lt;/ref&amp;gt;  A small and unobtrusive server program is installed on one machine, which is remotely manipulated by a client program with a [[graphical user interface]] on another computer system. The two components communicate with one another using the [[Transmission Control Protocol|TCP]] and/or [[User Datagram Protocol|UDP]] [[transport layer|network protocols]].  In a reference to the [[Leet]] phenomenon, this program commonly runs on [[TCP and UDP port|port]] 31337.
+
+The program debuted at [[DEF CON]] 6 on August 1, 1998. It was the brainchild of [[Sir Dystic]], a member of the U.S. [[Hacker (computer security)|hacker]] organization [[Cult of the Dead Cow]]. According to the group, its purpose was to demonstrate the lack of security in [[Microsoft]]&amp;apos;s [[operating system]] [[Windows 98]].
+
+Although Back Orifice has legitimate purposes, such as [[remote administration]], there are other factors that make it suited for less benign business. The server can hide itself from cursory looks by users of the system. As the server can be installed without user interaction, it can be distributed as payload of a [[Trojan horse (computing)|Trojan horse]].
+
+For those and other reasons, the [[antivirus]] industry immediately categorized the tool as [[malware]] and appended Back Orifice to their quarantine lists. Despite this fact, it was widely used by [[script kiddie]]s because of its simple [[GUI]] and ease of installation.
+
+Two sequel applications followed it, [[Back Orifice 2000]], released in 1999 and Deep Back Orifice by French Canadian hacking group QHA.
+
+== References ==
+{{reflist}}
+
+== External links ==
+{{Portal|Software}}
+* [http://www.cultdeadcow.com/tools/bo.html Back Orifice official site]
+* [http://sourceforge.net/projects/boxp Back Orifice XP]
+{{remote administration software}}
+
+{{Cult of the Dead Cow}}
+
+[[Category:Common trojan horse payloads]]
+[[Category:Windows software]]
+[[Category:Cult of the Dead Cow software]]
+[[Category:Remote administration software]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

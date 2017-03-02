@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="ISO 3166-2:MU"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="ISO 3166-2:MU" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{main|ISO 3166-2}}
+
+&amp;apos;&amp;apos;&amp;apos;ISO 3166-2:MU&amp;apos;&amp;apos;&amp;apos; is the entry for [[Mauritius]] in [[ISO 3166-2]], part of the [[ISO 3166]] [[standardization|standard]] published by the [[International Organization for Standardization]] (ISO), which defines [[code]]s for the names of the principal [[country subdivision|subdivision]]s (e.g., [[province]]s or [[state (administrative division)|state]]s) of all [[country|countries]] coded in [[ISO 3166-1]].
+
+Currently for Mauritius, ISO 3166-2 codes are defined for [[districts of Mauritius|5 cities, 3 dependencies, and 9 districts]]. The five cities are former urban councils and are now part of a district.
+
+Each code consists of two parts, separated by a hyphen. The first part is &amp;lt;tt&amp;gt;MU&amp;lt;/tt&amp;gt;, the [[ISO 3166-1 alpha-2]] code of Mauritius. The second part is two letters.
+
+==Current codes==
+Subdivision names are listed as in the ISO 3166-2 standard published by the ISO 3166 Maintenance Agency (ISO 3166/MA).
+
+&amp;apos;&amp;apos;Click on the button in the header to sort each column.&amp;apos;&amp;apos;
+
+{| class=&amp;quot;wikitable sortable&amp;quot;
+|-
+! Code
+! Subdivision name
+! Subdivision category
+|-
+| &amp;lt;tt&amp;gt;MU-BR&amp;lt;/tt&amp;gt;
+| [[Beau Bassin-Rose Hill]]
+| city
+|-
+| &amp;lt;tt&amp;gt;MU-CU&amp;lt;/tt&amp;gt;
+| [[Curepipe]]
+| city
+|-
+| &amp;lt;tt&amp;gt;MU-PU&amp;lt;/tt&amp;gt;
+| [[Port Louis]]
+| city
+|-
+| &amp;lt;tt&amp;gt;MU-QB&amp;lt;/tt&amp;gt;
+| [[Quatre Bornes]]
+| city
+|-
+| &amp;lt;tt&amp;gt;MU-VP&amp;lt;/tt&amp;gt;
+| [[Vacoas-Phoenix]]
+| city
+|-
+| &amp;lt;tt&amp;gt;MU-AG&amp;lt;/tt&amp;gt;
+| [[Agalega Islands]]
+| dependency
+|-
+| &amp;lt;tt&amp;gt;MU-CC&amp;lt;/tt&amp;gt;
+| [[Cargados Carajos Shoals]] [Saint Brandon Islands]
+| dependency
+|-
+| &amp;lt;tt&amp;gt;MU-RO&amp;lt;/tt&amp;gt;
+| [[Rodrigues Island]]
+| dependency
+|-
+| &amp;lt;tt&amp;gt;MU-BL&amp;lt;/tt&amp;gt;
+| [[Black River District|Black River]]
+| district
+|-
+| &amp;lt;tt&amp;gt;MU-FL&amp;lt;/tt&amp;gt;
+| [[Flacq District|Flacq]]
+| district
+|-
+| &amp;lt;tt&amp;gt;MU-GP&amp;lt;/tt&amp;gt;
+| [[Grand Port District|Grand Port]]
+| district
+|-
+| &amp;lt;tt&amp;gt;MU-MO&amp;lt;/tt&amp;gt;
+| [[Moka District|Moka]]
+| district
+|-
+| &amp;lt;tt&amp;gt;MU-PA&amp;lt;/tt&amp;gt;
+| [[Pamplemousses District|Pamplemousses]]
+| district
+|-
+| &amp;lt;tt&amp;gt;MU-PW&amp;lt;/tt&amp;gt;
+| [[Plaines Wilhems District|Plaines Wilhems]]
+| district
+|-
+| &amp;lt;tt&amp;gt;MU-PL&amp;lt;/tt&amp;gt;
+| [[Port Louis District|Port Louis]]
+| district
+|-
+| &amp;lt;tt&amp;gt;MU-RR&amp;lt;/tt&amp;gt;
+| [[Rivière du Rempart District|Rivière du Rempart]]
+| district
+|-
+| &amp;lt;tt&amp;gt;MU-SA&amp;lt;/tt&amp;gt;
+| [[Savanne District|Savanne]]
+| district
+|}
+
+==Changes==
+The following changes to the entry have been announced in newsletters by the ISO 3166/MA since the first publication of ISO 3166-2 in 1998:
+
+{| class=&amp;quot;wikitable&amp;quot;
+|-
+! Newsletter
+! Date issued
+! Description of change in newsletter
+! Code/Subdivision change
+|-
+| id=&amp;quot;I-4&amp;quot; | [http://www.iso.org/iso/iso_3166-2_newsletter_i-4_en.pdf {{nowrap|Newsletter I-4}}]
+| {{nowrap|2002-12-10}}
+| Error correction: Duplicate use of one code element corrected. Subdivision categories in header re-sorted
+| style=white-space:nowrap | &amp;apos;&amp;apos;&amp;apos;Codes:&amp;apos;&amp;apos;&amp;apos; &amp;apos;&amp;apos;(to correct duplicate use)&amp;apos;&amp;apos;&amp;lt;br /&amp;gt; [[Port Louis]] &amp;apos;&amp;apos;(city)&amp;apos;&amp;apos;: &amp;lt;tt&amp;gt;MU-PL&amp;lt;/tt&amp;gt; → &amp;lt;tt&amp;gt;MU-PU&amp;lt;/tt&amp;gt;
+|}
+
+==See also==
+* [[Subdivisions of Mauritius]]
+* [[List of FIPS region codes (M-O)#MP: Mauritius|FIPS region codes of Mauritius]]
+
+==External links==
+* [http://www.statoids.com/umu.html Districts of Mauritius], Statoids.com
+
+{{ISO 3166}}
+
+{{DEFAULTSORT:Iso 3166-2:Mu}}
+[[Category:ISO 3166|2:MU]]
+[[Category:Districts of Mauritius|*ISO 3166-2]]
+[[Category:Mauritius geography-related lists]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

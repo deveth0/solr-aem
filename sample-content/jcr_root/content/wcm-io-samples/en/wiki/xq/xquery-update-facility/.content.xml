@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="XQuery Update Facility"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="XQuery Update Facility" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{notability|date=September 2011}}
+{{external links|date=September 2011}}
+&amp;apos;&amp;apos;&amp;apos;XQuery Update Facility&amp;apos;&amp;apos;&amp;apos; is an extension to the XML Query language, [[XQuery]].  It provides expressions that can be used to make changes to instances of the XQuery 1.0 and [[XPath]] 2.0 Data Model.
+
+It became a W3C Candidate Recommendation on 31st July 2009 and was finalised as Recommendation on 17 March 2011&amp;lt;ref name=&amp;quot;timelinehistory&amp;quot;&amp;gt;{{cite web|url=http://www.dblab.ntua.gr/~bikakis/XML%20and%20Semantic%20Web%20W3C%20Standards%20Timeline-History.pdf |title=XML and Semantic Web W3C Standards Timeline
+|}}&amp;lt;/ref&amp;gt;.
+
+==Implementations==
+*  [[BaseX (database)|BaseX]] - An open source XML Database and XQuery Processor; supported since Version 6.0
+* [http://www.xquery.com/ DataDirect XQuery] - a java-based commercial XQuery processor. Supported since Version 4.0
+* [http://www.emc.com/products/detail/software/documentum-xdb.htm EMC Documentum xDB] - Native XML Database.  XQuery Update Facility supported since Version 9.0
+* [[eXist]] - The open source XML Database provide an extension to XQuery, which maps each of the XUpdate instructions to a corresponding XQuery expression
+* [http://monetdb.cwi.nl/XQuery/ MonetDB/XQuery] - An open source XQuery processor on top of the [http://monetdb.cwi.nl/Home/index.html MonetDB] relational database system.
+* [[PureXML]] PureXML - [http://www.ibm.com/software/data/db2/xml/ IBM DB2] offers XQuery Update Facility since Version 9.5.
+* [http://xmlmind.com/qizx/ Qizx] XQuery engine with open-source version Qizx/open.
+* [http://www.saxonica.com/ SaxonSA XSLT and XQuery Processor] - by [[Michael Howard Kay|Michael Kay]]; Supported since Version 9.1, but only in the commercial version.
+* [http://xqilla.sourceforge.net/ XQilla] - An open source ([http://www.apache.org/licenses/LICENSE-2.0.html ASL2.0]) XQuery processing library with support for the latest XQuery Update features.  XQilla is written in C++ and includes a command line executable shell to execute queries against XML content stored on a local filesystem.  This library is actively developed and part of a supported [http://oracle.com/ Oracle] product, [http://www.oracle.com/database/berkeley-db/xml/ Berkeley DB XML].
+
+==External links==
+* {{Wikibooks-inline|XQuery#XQuery_Updates|XQuery Updates}}
+* [http://www.w3.org/TR/xquery-update-10/ XQuery Update Facility] on [[World Wide Web Consortium|W3]]
+* [http://www.xmlmind.com/tutorials.html XQuery Update for the impatient], a tutorial on XQuery Update and its quirks.
+
+==References==
+{{Reflist}}
+
+{{W3C standards}}
+{{standard-stub}}
+
+{{DEFAULTSORT:Xquery Update Facility}}
+[[Category:World Wide Web Consortium standards]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

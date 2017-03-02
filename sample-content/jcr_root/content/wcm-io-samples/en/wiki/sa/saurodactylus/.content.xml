@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Saurodactylus"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Saurodactylus" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{italictitle}}
+{{Taxobox
+| name = Saurodactylus
+| regnum = [[Animal]]ia
+| phylum = [[Chordate|Chordata]]
+| classis = [[Reptile|Reptilia]]
+| ordo = [[Squamata]]
+| familia = [[Gekkonidae]]
+| subfamilia = [[Gekkoninae]]
+| genus = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Saurodactylus&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+}}
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Saurodactylus&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is [[genus]] of [[gecko]]s [[endemism|endemic]] to [[Northern Africa]], better known as &amp;apos;&amp;apos;&amp;apos;Lizard-fingered Geckos&amp;apos;&amp;apos;&amp;apos;.
+
+==Classification of genus &amp;apos;&amp;apos;Saurodactylus&amp;apos;&amp;apos;==
+The genus is listed as containing two species:&amp;lt;ref name=&amp;quot;COL&amp;quot;&amp;gt;{{cite web|url=http://www.catalogueoflife.org/search_results.php?search_string=Saurodactylus&amp;amp;match_whole_words=on|title=Search results for  &amp;apos;&amp;apos;Saurodactylus&amp;apos;&amp;apos;|work=2008 Annual checklist|publisher=Catalogue of Life|accessdate=2009-01-27}}&amp;lt;/ref&amp;gt;
+*Banded Lizard-fingered Gecko, &amp;apos;&amp;apos;[[Saurodactylus fasciatus]]&amp;apos;&amp;apos;
+*Morocco Lizard-fingered Gecko, &amp;apos;&amp;apos;[[Saurodactylus mauritanicus]]&amp;apos;&amp;apos;
+**&amp;apos;&amp;apos;[[Saurodactylus mauritanicus brosseti]]&amp;apos;&amp;apos;
+**&amp;apos;&amp;apos;[[Saurodactylus mauritanicus mauritanicus]]&amp;apos;&amp;apos;
+
+==References==
+&amp;lt;references/&amp;gt;
+
+[[Category:Saurodactylus]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

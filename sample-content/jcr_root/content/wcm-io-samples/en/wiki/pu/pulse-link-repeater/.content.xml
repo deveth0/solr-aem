@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Pulse link repeater"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Pulse link repeater" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[telecommunication]]s, a &amp;apos;&amp;apos;&amp;apos;pulse link repeater&amp;apos;&amp;apos;&amp;apos; (PLR) is a device that interfaces concatenated [[E and M signaling]] paths.
+
+A PLR converts a [[Ground (electricity)|ground]], received from the E lead of one signal path, to &amp;amp;minus;48 Vdc, which is applied to the M lead of the concatenated signal path.
+
+In many commercial [[carrier wave|carrier]] systems, the [[channel bank]] cards or modules have a &amp;quot;PLR&amp;quot; option that permits the direct concatenation of E&amp;amp;M [[Signalling (telecommunication)|signaling]] paths, without the need for separate PLR equipment.
+
+==References==
+{{FS1037C}}
+
+[[Category:Telecommunications equipment]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wade Fox"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wade Fox" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced stub|auto=yes|date=December 2009}}
+&amp;apos;&amp;apos;&amp;apos;Wade Fox&amp;apos;&amp;apos;&amp;apos; (1920 - 1964) was a [[United States|U.S.]] [[zoologist]] and [[herpetologist]] from the [[University of California, Berkeley]]. He specialized in the [[anatomy]] of [[snake]]s and the [[systematics]] of the western [[Garter snake]]s.
+
+{{Authority control|VIAF=103551768}}
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Fox, Wade
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION =
+| DATE OF BIRTH     = 1920
+| PLACE OF BIRTH    =
+| DATE OF DEATH     = 1964
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Fox, Wade}}
+[[Category:American herpetologists]]
+[[Category:1920 births]]
+[[Category:1964 deaths]]
+[[Category:American zoologists]]
+[[Category:University of California, Berkeley faculty]]
+
+{{US-zoologist-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

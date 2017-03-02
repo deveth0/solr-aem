@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Victoria Dock, Liverpool"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Victoria Dock, Liverpool" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Image:Victoria-Trafalgar Dock entrance.jpg|thumb|right|Gateway to Victoria Dock]]
+&amp;apos;&amp;apos;&amp;apos;Victoria Dock&amp;apos;&amp;apos;&amp;apos; was a dock on the [[River Mersey]], [[England]] and part of the [[Port of Liverpool]]. Situated in the northern dock system, it was connected to [[Trafalgar Dock]] to the north and [[West Waterloo Dock]] to the south. It was designed by [[Jesse Hartley]] and opened in 1836.
+
+Between 1844 and 1921, the [[Ordnance Datum]] for the British Isles was taken from the level of the Victoria Dock.&amp;lt;ref&amp;gt;{{citation|url=http://benchmarks.ordnancesurvey.co.uk/pls/htmldb/f?p=111:7:1061530619354143535::NO:7::|title=Datum height differences|publisher=Ordnance Survey|accessdate=7 April 2008}}&amp;lt;/ref&amp;gt;
+
+In 1972, the body of the dock was filled in as part of the construction of a ferry terminal for the [[British_and_Irish_Steam_Packet_Company|B&amp;amp;I Line]].&amp;lt;ref&amp;gt;{{citation|url=http://www.irishseashipping.com/heritage/subsite/england/liverpool_biterminal/liverpool_bitermina.htm|title=Liverpool&amp;apos;s Lost Sea Terminal|publisher=irishseashipping.com|accessdate=9 March 2009}}&amp;lt;/ref&amp;gt;
+
+==References==
+{{reflist}}
+
+==External links==
+{{Commons category|Victoria Dock, Liverpool|Victoria Dock}}
+* {{Cite web
+  |url=http://www.liverpool2007.org.uk/docks/docks2.htm
+  |title=Liverpool North Docks diagram
+  |publisher=Liverpool 2007
+  |archiveurl=http://web.archive.org/web/20070330201457/http://www.liverpool2007.org.uk/docks/docks2.htm
+  |archivedate=30 March 2007
+}}
+
+{{coord|53.4155|-3.0014|display=title|region:GB_scale:2000}}
+
+{{Port of Liverpool docks}}
+
+{{Merseyside-struct-stub}}
+
+[[Category:Liverpool docks|Victoria Dock]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

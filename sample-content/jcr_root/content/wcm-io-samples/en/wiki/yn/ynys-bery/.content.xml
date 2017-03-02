@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ynys Bery"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ynys Bery" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Ynys Bery&amp;apos;&amp;apos;&amp;apos; is a small [[island]] south of [[Ramsey Island]], [[Pembrokeshire]], [[Wales]].
+
+It is the site of a [[shipwreck]]: the &amp;apos;&amp;apos;S.S. Graffoe&amp;apos;&amp;apos; (a 2,996-ton [[steamship]] bound from [[Glasgow]] to [[Buenos Aires]] with [[coal]]) struck Ramsey Island and sank at the northern end of Ynys Bery in 1903. It lies at a depth of 15 metres, and is one of many Pembrokeshire wrecks popular with [[diving|divers]]. Ynys Bery&amp;apos;s highest point is 72 metres.
+
+== External links ==
+*{{gbmapping|SM700220}}
+
+{{coord|51.84909|N|5.34084|W|region:GB_source:enwiki-osgb36(SM700220)|display=title}}&amp;lt;!-- Note: WGS84 lat/long, converted from OSGB36 grid ref --&amp;gt;
+{{Pembrokeshire}}
+[[Category:Islands of Pembrokeshire]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

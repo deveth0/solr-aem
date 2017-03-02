@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Operation Addition"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Operation Addition" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Refimprove|date=April 2008}}
+&amp;apos;&amp;apos;&amp;apos;Operation Addition&amp;apos;&amp;apos;&amp;apos; was the name given to the [[Canada|Canadian]] contribution to [[United Nations Mission in Ethiopia and Eritrea]], the  [[United Nations]] peacekeeping forces in [[Ethiopia]] and [[Eritrea]] after the [[Eritrean–Ethiopian War]].
+It began in late 2000 with [[Operation Eclipse]] during which the Canadians worked as part of a joint battle group with the Dutch peace-keeping forces.
+The Canadian contingent was part of an international team monitoring the Temporary Security Zone between Ethiopia and Eritrea.
+The commitment ended in June 2003.&amp;lt;ref&amp;gt;http://www.cefcom.forces.gc.ca/pa-ap/ops/addition-eng.asp&amp;lt;/ref&amp;gt;
+
+==References==
+{{Reflist}}
+
+[[Category:Military operations involving Canada]]
+[[Category:Canada–Ethiopia relations]]
+
+
+{{Canada-mil-hist-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

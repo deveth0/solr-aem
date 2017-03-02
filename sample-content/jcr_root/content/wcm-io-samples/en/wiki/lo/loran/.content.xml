@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Loran"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Loran" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Loran&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* [[LORAN]], a terrestrial radio-based navigation system
+* [[Loran (cassette)]], a brand of blank audio cassette made of Lexan plastic
+* [[Loran (death knight)]], a fictional character in the &amp;apos;&amp;apos;World of Greyhawk&amp;apos;&amp;apos; campaign setting for the &amp;apos;&amp;apos;Dungeons &amp;amp; Dragons&amp;apos;&amp;apos; role-playing game
+* [[Loran, Iran]], a village in Khuzestan Province, Iran
+* [[Loran Award]], an undergraduate scholarship in Canada
+* [[Loran L. Lewis]] (1825–1916), New York judge and politician
+* [[Loran Cehack]], the fictional protagonist in the anime series &amp;apos;&amp;apos;Turn A Gundam&amp;apos;&amp;apos;
+* [[First Maje]] Loran, the leader of the Kazon-Hobii from [[Star Trek: Voyager]]
+
+{{Disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

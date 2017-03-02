@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Baron Cunliffe"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Baron Cunliffe" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Baron Cunliffe&amp;apos;&amp;apos;&amp;apos;, of Headley in the County of Surrey, is a title in the [[Peerage of the United Kingdom]]. It was created in 1914 for [[Walter Cunliffe, 1st Baron Cunliffe|Walter Cunliffe]], [[Governor of the Bank of England]] from 1913 to 1918. {{As of|2010}} the title is held by his grandson, the third Baron, who succeeded his father in 1963.
+
+==Barons Cunliffe (1914)==
+*[[Walter Cunliffe, 1st Baron Cunliffe]] (1855–1920)
+*Rolf Cunliffe, 2nd Baron Cunliffe (1899–1963)
+*[[Roger Cunliffe, 3rd Baron Cunliffe]] (b. 1932)
+
+==Notes==
+{{unreferenced|date=February 2013}}
+{{reflist}}
+
+==References==
+*Kidd, Charles, Williamson, David (editors). &amp;apos;&amp;apos;Debrett&amp;apos;s Peerage and Baronetage&amp;apos;&amp;apos; (1990 edition). New York: St Martin&amp;apos;s Press, 1990, {{Page needed |date=February 2013}}
+*{{Rayment|date=February 2012}}
+
+{{DEFAULTSORT:Cunliffe}}
+[[Category:Baronies in the Peerage of the United Kingdom]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

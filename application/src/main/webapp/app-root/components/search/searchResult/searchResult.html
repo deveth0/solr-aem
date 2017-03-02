@@ -1,0 +1,39 @@
+<sly 
+  data-sly-use.searchQuery="${'de.dev.eth0.aem.solr.search.controller.SearchQuery'}"
+  data-sly-use.searchResult="${'de.dev.eth0.aem.solr.search.controller.SearchResult'}">
+  <sly data-sly-test="${searchQuery.queryString && !searchResult.searchResults}">
+    <p>${'searchResult.noSearchResults' @ i18n}</p>
+    <sly data-sly-test="${searchResult.spellcheckSuggestion}" >
+      <a data-sly-attribute="${searchResult.spellcheckSuggestion.link.anchorAttributes}" data-sly-unwrap="${!searchResult.spellcheckSuggestion.link.valid}">
+        ${'searchResult.didYouMean' @ i18n, format=[searchResult.spellcheckSuggestion.queryTerm, searchResult.spellcheckSuggestion.numberOfHits]}</a>
+    </sly>
+  </sly>
+  <sly data-sly-test="${searchResult.searchResults}">
+    <p>${'searchResults' @ i18n, format=[searchResult.numberResults, searchResult.elapsedTime]}</p>
+    <ul class="searchResultList">
+      <sly data-sly-list.result="${searchResult.searchResults}">
+        <li class="searchResultEntry">
+          <h3>
+            <a data-sly-attribute="${result.link.anchorAttributes}" data-sly-unwrap="${!result.link.valid}" >${result.title}</a>
+          </h3>
+          <p>${result.highlighting @ context='html'}</p>
+        </li>
+      </sly>
+    </ul>
+    <sly data-sly-test="${searchResult.related}">
+      <h3>${'searchResultsRelated' @ i18n, format=[searchQuery.queryString]}</h3>
+      <ul class="searchQueryRelated">
+        <sly data-sly-list.related="${searchResult.related}">
+
+        </sly>
+      </ul>
+    </sly>
+    <ul class="searchQueryPaging">
+      <sly data-sly-list.paging="${searchResult.paging}">
+        <li>
+          <a data-sly-attribute="${paging.link.anchorAttributes}" data-sly-unwrap="${!paging.link.valid}" >${paging.title}</a>
+        </li>
+      </sly>
+    </ul>
+  </sly>
+</sly>

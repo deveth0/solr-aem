@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Linux framebuffer"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Linux framebuffer" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{primarysources|date=March 2011}}
+{{Refimprove|date=March 2010}}
+[[Image:KNOPPIX booting.png|thumb|[[Knoppix]] booting on the framebuffer]]
+The &amp;apos;&amp;apos;&amp;apos;Linux framebuffer&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;&amp;apos;fbdev&amp;apos;&amp;apos;&amp;apos;) is a graphic hardware-independent [[abstraction layer]] to show [[computer graphics|graphics]] on a [[computer monitor]], typically on the [[System console|console]]. The word &amp;apos;&amp;apos;[[framebuffer]]&amp;apos;&amp;apos; means a part of [[video memory]] containing a current [[video frame]], and the &amp;apos;&amp;apos;Linux framebuffer&amp;apos;&amp;apos; means “access method to the framebuffer under the [[Linux kernel]]”, without relying on system-specific libraries such as [[SVGALib]] or another [[user space]] software.
+
+== Applications ==
+There are three applications of the Linux framebuffer.
+* An implementation of text [[Linux console]] that doesn&amp;apos;t use hardware [[text mode]] (useful when that mode is unavailable, or to overcome its restrictions on glyph size, number of code points etc.).  One popular aspect of this is the ability to have console show the [[Tux]] logo at boot up.
+* A possible graphic output method for an [[X server]], independent of [[video adapter]] hardware and its drivers.
+* Graphic programs avoiding the heavy [[computational overhead|overhead]] of the [[X Window System]].
+The last item includes several Linux programs such as [[MPlayer]], [[links2]], [[Netsurf]], [[fbida]] and libraries such as [[General Graphics Interface|GGI]], [[Simple DirectMedia Layer|SDL]], [[GTK+]] and [[Qt Extended]] can use the framebuffer directly. This is particularly popular in [[embedded system]]s.
+
+There is now a library [[DirectFB]] which provides a framework for hardware acceleration of the Linux framebuffer.
+
+There is also an in-kernel windowing system called [[FramebufferUI]] (fbui) that provides a basic 2D windowing experience with very little memory use.
+
+== History ==
+Linux has generic framebuffer support since 2.1.109 kernel.&amp;lt;ref&amp;gt;[http://tldp.org/HOWTO/Framebuffer-HOWTO.html Framebuffer HOWTO]&amp;lt;/ref&amp;gt;
+It was originally implemented to allow the kernel to emulate a text console on systems such as the [[Apple Macintosh]] that do not have a [[Text mode|text-mode display]], and was later expanded to Linux&amp;apos;s originally supported [[IBM PC compatible]] platform.
+
+== References ==
+&amp;lt;references /&amp;gt;
+{{Portal|Free software}}
+
+== External links ==
+* {{SourceForge|linux-fbdev}}
+* [http://www.xfree86.org/4.3.0/fbdev.4.html XFree86 doc]
+* [http://directory.fsf.org/wiki/FramebufferUI FramebufferUI in-kernel windowing system]
+
+{{Linux}}
+
+{{DEFAULTSORT:Linux Framebuffer}}
+[[Category:Free software programmed in C]]
+[[Category:Free system software]]
+[[Category:Linux kernel]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

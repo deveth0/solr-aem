@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Gauss–Krüger coordinate system"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Gauss–Krüger coordinate system" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+In [[cartography]], the term &amp;apos;&amp;apos;&amp;apos;Gauss–Krüger&amp;apos;&amp;apos;&amp;apos;, named after [[Carl Friedrich Gauss]] and [[Johann Heinrich Louis Krüger]], is used in three slightly different ways.
+* Often, it is just a synonym for the [[transverse Mercator]] map [[map projection|projection]].  Another synonym is &amp;apos;&amp;apos;Gauss conformal projection&amp;apos;&amp;apos;.
+* Sometimes, the term is used for a particular computational method for transverse Mercator: that is, how to convert between latitude/longitude and projected coordinates.  There is no simple closed formula to do so when the earth is modelled as an ellipsoid.  But the &amp;apos;&amp;apos;Gauss–Krüger&amp;apos;&amp;apos; method gives the same results as other methods, at least if you are sufficiently near the central meridian: less than 100 degrees of longitude, say.  Farther away, some methods become inaccurate.
+* The term is also used for a particular set of transverse Mercator projections used in narrow zones in Europe and South America, at least in Germany, Turkey, Austria, Slovenia, Croatia, Macedonia, Finland and Argentina.  This &amp;apos;&amp;apos;Gauss–Krüger&amp;apos;&amp;apos; system is similar to the [[universal transverse Mercator]] system, but the central meridians of the Gauss–Krüger zones are only 3° apart, as opposed to 6° in UTM.  As a consequence, the scale variation within a Gauss–Krüger zone is about 1/6 of what it is in a UTM zone.  More information on this system can be found on the German Wikipedia.
+
+{{Map Projections}}
+
+{{DEFAULTSORT:Gauss-Kruger Coordinate System}}
+[[Category:Geographic coordinate systems]]
+
+
+{{Cartography-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

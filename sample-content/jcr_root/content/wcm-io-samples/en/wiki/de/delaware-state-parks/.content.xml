@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Delaware State Parks"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Delaware State Parks" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Delaware State Parks&amp;apos;&amp;apos;&amp;apos; are operated and maintained by the [[Delaware Division of Parks and Recreation]], part of the [[Delaware Department of Natural Resources and Environmental Control]]. The division maintains 14 state parks and related preserves and greenways throughout [[Delaware]] totaling more than {{convert|20000|acre|km2}}.
+
+The state&amp;apos;s land protection programs, as well as the state&amp;apos;s Greenways program, are administered by the Division. The Division is also responsible for providing recreational opportunities and educational and interpretive programs for the public. Other responsibilities include:
+*Acquiring and developing recreational lands &amp;amp; facilities
+*Providing for the protection of natural areas
+*Overseeing &amp;amp; planning for statewide recreational needs
+
+==See also==
+*[[List of Delaware state parks]]
+
+==External links==
+*[http://www.destateparks.com/ Delaware State Parks]
+
+[[Category:State parks of Delaware| ]]
+[[Category:State agencies of Delaware]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

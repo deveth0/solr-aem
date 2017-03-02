@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Crystal Lake (Broward County, Florida)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Crystal Lake (Broward County, Florida)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox lake
+ | lake_name = Crystal Lake
+ | image_lake =
+ | caption_lake =
+ | image_bathymetry =
+ | caption_bathymetry =
+ | location = [[Broward County, Florida]]
+ | coords = {{coord|26|02|59|N|80|11|35|W|type:waterbody_region:US-FL_source:gnis|display=inline,title}}
+ | type =
+ | inflow =
+ | outflow =
+ | catchment =
+ | basin_countries = United States
+ | length =
+ | width =
+ | area =
+ | depth =
+ | max-depth =
+ | volume =
+ | residence_time =
+ | shore =
+ | elevation = {{convert|3|ft|abbr=on}}
+ | islands =
+ | cities =
+}}
+&amp;apos;&amp;apos;&amp;apos;Crystal Lake&amp;apos;&amp;apos;&amp;apos; is a lake and also a [[United States Census]]-[[Census-designated place|designated]] place in [[Broward County, Florida]].  In September 1999 the area was annexed by the [[Deerfield Beach, Florida|City of Deerfield Beach]]. The [[2010 United States Census|2010 Census]] reported a population of 5,514.
+
+== See also ==
+* [[List of lakes in the United States]]
+
+==External links==
+*{{gnis|281117|Crystal Lake (lake)}}
+*{{gnis|1853244|Crystal Lake (populated place)}}
+
+{{Broward County, Florida}}
+{{South Florida metropolitan area}}
+{{Florida}}
+
+[[Category:Lakes of Florida]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

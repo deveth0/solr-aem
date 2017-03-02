@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Water abstraction"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Water abstraction" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{reflist}}
+{{Refimprove|date=August 2009}}
+
+&amp;apos;&amp;apos;&amp;apos;Water abstraction&amp;apos;&amp;apos;&amp;apos;, &amp;apos;&amp;apos;&amp;apos;water extraction&amp;apos;&amp;apos;&amp;apos;, or &amp;apos;&amp;apos;&amp;apos;groundwater abstraction&amp;apos;&amp;apos;&amp;apos; is the process of taking [[water]] from any source, either temporarily or permanently. Most water is used for [[irrigation]] or treatment to produce [[drinking water]].
+
+Depending on the environmental legislation in the relevant country, controls may be placed on abstraction to limit the amount of water that can be removed. Over abstraction can lead to [[river]]s drying up or the level of [[groundwater]] [[aquifer]]s reducing unacceptably.
+
+The science of [[hydrogeology]] is used to assess safe abstraction levels.
+
+In some U.S. industries, the terminology for water use describes the removal of water from the environment as &amp;apos;water withdrawal&amp;apos;, and the conversion of fresh water into water vapor or [[wastewater]] as &amp;apos;water consumption&amp;apos;.&amp;lt;ref&amp;gt;http://www.ucsusa.org/clean_energy/technology_and_impacts/impacts/energy-and-water.html?utm_source=SP&amp;amp;utm_medium=more&amp;amp;utm_campaign=SP-more-nuke-water-4-21-11&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;http://neinuclearnotes.blogspot.com/2008/03/nei-fact-sheet-on-water-consumption-at.html&amp;lt;/ref&amp;gt;
+
+==References==
+&amp;lt;references /&amp;gt;
+
+[[Category:Hydrology]]
+
+
+{{Industry-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

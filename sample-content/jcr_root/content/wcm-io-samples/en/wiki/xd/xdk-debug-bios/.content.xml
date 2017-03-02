@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="XDK Debug BIOS"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="XDK Debug BIOS" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=March 2008}}
+The &amp;apos;&amp;apos;&amp;apos;XDK Debug BIOS&amp;apos;&amp;apos;&amp;apos;, is an alternate [[BIOS]] created by [[Microsoft]] for [[Xbox]] gaming system. It is included in Debug [[Xbox]] consoles that are used by game software developers.  It differs from a Retail [[BIOS]] by allowing the [[Microsoft]] [[Xbox Development Kit|XDK]] to link with the Xbox while it is executing code and receive feedback.  It also allows for the running of code not digitally signed by [[Microsoft]], similar to a hacked Retail [[BIOS]], since finalized code must be submitted to [[Microsoft]] for a key to run on unmodified Retail consoles.
+
+The debug and retail BIOSes do not differ much, and as a result hackers have been able to create hacked debug BIOSes which can be run on any retail Xbox. Thus, any Xbox can be converted into a Development Xbox. By further studying the debug BIOS, hackers have gained the ability to modify any Xbox BIOS in a way which allows them to load it from the internal hard disk, and then boot it &amp;apos;on the fly&amp;apos;.
+This hack has been of great significance to the Xbox community.
+
+[[Category:Microsoft development tools]]
+[[Category:Xbox]]
+[[Category:BIOS]]
+
+{{operating-system-stub}}
+{{xbox-stub}}
+
+[[Image:Xbox Debug Kit.jpg]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

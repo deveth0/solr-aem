@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Microsecond"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Microsecond" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{refimprove|date=July 2009}}
+A &amp;apos;&amp;apos;&amp;apos;microsecond&amp;apos;&amp;apos;&amp;apos; is an [[SI unit]] of time equal to one [[millionth]] (10&amp;lt;sup&amp;gt;−6&amp;lt;/sup&amp;gt; or &amp;lt;sup&amp;gt;1&amp;lt;/sup&amp;gt;/&amp;lt;sub&amp;gt;1,000,000&amp;lt;/sub&amp;gt;) of a [[second]].  Its symbol is &amp;apos;&amp;apos;&amp;apos;μs&amp;apos;&amp;apos;&amp;apos;. One microsecond is to one second as one second is to 11.574 days.
+
+A microsecond is equal to 1000 [[nanosecond]]s or &amp;lt;sup&amp;gt;1&amp;lt;/sup&amp;gt;/&amp;lt;sub&amp;gt;1,000&amp;lt;/sub&amp;gt; [[milliseconds]].  Because the next SI unit is 1000 times larger, measurements of 10&amp;lt;sup&amp;gt;−5&amp;lt;/sup&amp;gt; and 10&amp;lt;sup&amp;gt;−4&amp;lt;/sup&amp;gt; seconds are typically expressed as tens or hundreds of microseconds.
+
+==Examples==
+
+* 1 microsecond (1 [[Mu (letter)|μs]]) – cycle time for [[frequency]] 1 x 10&amp;lt;sup&amp;gt;6&amp;lt;/sup&amp;gt; [[hertz]] (1&amp;amp;nbsp;MHz), the inverse unit.  This corresponds to radio wavelength [[1 E2 m|300]] [[metre|m]] (AM [[mediumwave]] band), as can be calculated by multiplying 1 µs by the [[speed of light]] (approximately 3×10&amp;lt;sup&amp;gt;8&amp;lt;/sup&amp;gt; m/s) to determine the distance travelled.
+* 1 microsecond – the length of time of a high-speed, commercial [[strobe light]] flash (see [[air-gap flash]]).
+* 1.8 microseconds - the amount of time subtracted from the [[Day|Earth&amp;apos;s day]] as a result of the [[2011 Japanese earthquake]].
+* 2 microseconds – the lifetime of a [[muonium]] particle
+* 2.68 microseconds – the amount of time subtracted from the Earth&amp;apos;s day as a result of the [[2004 Indian Ocean earthquake]].&amp;lt;ref name=&amp;quot;IndianOceanNASA&amp;quot;&amp;gt;{{cite web | url=http://www.jpl.nasa.gov/news/news.cfm?release=2005-009 | title=NASA Details Earthquake Effects on the Earth | publisher=NASA | date=January 10, 2005 | accessdate=June 29, 2011 | author=Buis, Alan}}&amp;lt;/ref&amp;gt;
+* 3.33564095 microseconds – the time taken by [[light]] to travel one [[kilometer]] in a vacuum
+* 4.63 microseconds – a fifth (a 60th of a 60th of a 60th of a second)
+* 5.4 microseconds – the time taken by light to travel one [[mile]] in a [[vacuum]]
+* 10 microseconds (μs) – cycle time for frequency [[1 E5 Hz|100 kHz]], radio wavelength [[1 E3 m|3]] [[kilometre|km]]
+* 17 microseconds: net amount per year that the length of the day lengthens, largely due to [[tidal acceleration]].{{Citation needed|date=October 2011}}
+* 20.8 microseconds – [[Sample (signal)|sampling]] interval for digital audio with 48000 samples/s
+* 22.7 microseconds – [[Sample (signal)|sampling]] interval for [[Compact disc|CD]] audio (44100 samples/s)
+* 38 microseconds – discrepancy in [[GPS]] [[satellite]] time per day (compensated by clock speed) due to [[General relativity|relativity]]&amp;lt;ref&amp;gt;{{cite web | url=http://www.astronomy.ohio-state.edu/~pogge/Ast162/Unit5/gps.html | title= GPS and Relativity | accessdate=2011-10-01 | author= Richard Pogge }}&amp;lt;/ref&amp;gt;
+* 50 microseconds – cycle time for highest [[Hearing (sense)|human-audible]] tone (20&amp;amp;nbsp;kHz)
+* 50 microseconds to read - the access latency for a modern Solid State Drive which holds non-volatile computer data &amp;lt;ref&amp;gt;Intel Solid State Drive Product Specification http://www.intel.com/content/www/us/en/solid-state-drives/ssd-dc-s3500-spec.html&amp;lt;/ref&amp;gt;
+*100 microseconds (0.1 ms) – cycle time for frequency [[1 E4 Hz|10 kHz]]
+*125 microseconds – sampling interval for telephone audio (8000 samples/s)
+*240 microseconds – [[half-life]] of [[copernicium]]-277
+*250 microseconds – cycle time for highest tone in [[telephone]] audio (4&amp;amp;nbsp;kHz){{Citation needed|date=May 2011}}
+* 277.8 microseconds - a fourth (a 60th of a 60th of a second), used in astronomical calculations by [[al-Biruni]] and [[Roger Bacon]] in 1000 and 1267 AD, respectively.&amp;lt;ref&amp;gt;
+&amp;lt;!--* 382.1 microseconds - a random number picked by an anonymous contributor--&amp;gt;{{cite book
+ |author=[[al-Biruni]]
+ |others=translated by Sachau C Edward
+ |year=1879
+ |title=The chronology of ancient nations: an English version of the Arabic text of the Athâr-ul-Bâkiya of Albîrûnî, or &amp;quot;Vestiges of the Past&amp;quot;
+ |url=http://books.google.com/books?id=pFIEAAAAIAAJ&amp;amp;pg=PA148&amp;amp;vq=thirds|pages=147–149
+ |publisher=[[W.H. Allen]]
+ |oclc=9986841
+}}&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;
+{{cite book
+ |author=R Bacon
+ | authorlink= Roger Bacon
+ |others=translator: BR Belle
+ |year=2000 |origyear=1928
+ |title= [[Opus Majus|The Opus Majus of Roger Bacon]]
+ |publisher=[[University of Pennsylvania Press]]
+ |page=table facing page 231
+ |isbn=978-1-85506-856-8
+ |nopp=true
+}}&amp;lt;/ref&amp;gt;
+
+===For reference===
+*The average human eye [[blink]] takes 350,000 microseconds.
+*A [[camera flash]] illuminates for 1000 microseconds.
+*Standard camera [[shutter speed]] opens the shutter for 4000 microseconds or 4 milliseconds.
+
+==See also==
+*[[nanosecond]]
+*[[millisecond]]
+
+==References==
+{{Reflist}}
+
+==External links==
+* [http://tf.nist.gov/timefreq/general/enc-m.htm The National Institute of Standards and Technology (NIST)]
+
+{{Orders of magnitude seconds}}
+
+{{DEFAULTSORT:1 E-6 S}}
+[[Category:Orders of magnitude (time)]]
+
+[[de:Sekunde#Abgeleitete Maßeinheiten]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

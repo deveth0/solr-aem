@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Bourse (Paris Métro)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Bourse (Paris Métro)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Use dmy dates|date=April 2011}}
+{{Infobox Paris metro
+|Name=Bourse
+|Subtitle=
+|Day=19 October
+|Year=1904
+|Pic=[[File:Metro Paris - Ligne 3 - station Bourse 01.jpg|275px]]
+|Access=
+12, place de la Bourse&amp;lt;br /&amp;gt;Rue Notre-Dame-des-Victoires&amp;lt;br&amp;gt; at rue Réaumur
+|Municipality=the 2nd arrondissement of Paris
+|Zone=1
+|Next=
+{{Paris Metro/next|3|Quatre-Septembre|Sentier}}
+| X=140
+| Y=61
+}}
+&amp;apos;&amp;apos;&amp;apos;Bourse&amp;apos;&amp;apos;&amp;apos; is a station on [[Paris Métro Line 3]]. It opened on 19 October 1904 as part of the first section of the line opened between [[Père Lachaise (Paris Métro)|Père Lachaise]] and [[Villiers (Paris Métro)|Villiers]]. It is named after the nearby [[Bourse de Paris]] (stock exchange).
+
+==Layout==
+{|table border=0 cellspacing=0 cellpadding=3
+|-
+|style=&amp;quot;border-top:solid 1px gray;border-right:solid 2px black;border-left:solid 2px black;border-bottom:solid 2px black;&amp;quot; colspan=2|&amp;lt;center&amp;gt;&amp;lt;small&amp;gt;[[Side Platform]]
+|-
+|style=&amp;quot;border-bottom:solid 1px gray;&amp;quot;|[[File:Metro-M.svg|20px]] [[File:Paris m 3 jms.svg|20px]] towards [[Pont de Levallois - Bécon (Paris Métro)|Pont de Levallois – Bécon]]
+|-
+|[[File:Metro-M.svg|20px]] [[File:Paris m 3 jms.svg|20px]] towards [[Gallieni (Paris Métro)|Gallieni]]
+|-
+|style=&amp;quot;border-top:solid 2px black;border-right:solid 2px black;border-left:solid 2px black;border-bottom:solid 1px gray;&amp;quot; colspan=2|&amp;lt;center&amp;gt;&amp;lt;small&amp;gt;[[Side Platform]]
+|}
+
+==Nearby Attractions==
+* [[Paris Bourse]]
+* [[Palais Brongniart]]
+* Town Hall of the [[2nd arrondissement of Paris|2nd arrondissement]]
+* [[Bibliothèque nationale de France|National Library of France]] ([[Rue de Richelieu]] branch)
+* [[Agence France-Presse]]
+
+[[File:Paris metro3 - Bourse- entrance2.jpg|thumb|left|Station entrance]]
+{{commons category|Bourse (Paris Metro)}}
+
+==References==
+*Roland, Gérard (2003). &amp;apos;&amp;apos;Stations de métro. D’Abbesses à Wagram.&amp;apos;&amp;apos; Éditions Bonneton.
+
+{{Paris Metro/line 3}}
+
+{{coord|48.868738|N|2.34137|E|region:FR_type:landmark_scale:2000_source:frwiki|display=title|format=dms}}
+
+{{DEFAULTSORT:Bourse (Paris Metro)}}
+[[Category:Railway stations opened in 1904]]
+
+{{Paris-metro-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

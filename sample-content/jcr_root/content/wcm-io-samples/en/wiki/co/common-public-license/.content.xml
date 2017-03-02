@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Common Public License"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Common Public License" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox software license
+| name = Common Public License
+| author = [[IBM]]
+| version = 1.0
+| copyright = [[IBM]]
+| date = May 2001
+| OSI approved = Yes
+| Debian approved = Yes &amp;lt;ref&amp;gt;[http://wiki.debian.org/DFSGLicenses#CommonPublicLicense.28CPL.29.2CVersion1.0 List of DFSG approved Licenses]&amp;lt;/ref&amp;gt;
+| Free Software = Yes
+| GPL compatible = No
+| copyleft = Yes
+| copyfree = No
+| linking = Yes
+}}
+
+In [[computing]], the &amp;apos;&amp;apos;&amp;apos;CPL&amp;apos;&amp;apos;&amp;apos; (Common Public License) is a [[free software]] / [[open-source software]] license published by [[IBM]]. The [[Free Software Foundation]] and [[Open Source Initiative]] have approved the license terms of the CPL.
+
+==Definition==
+
+The CPL has the stated aims of supporting and encouraging collaborative [[open source|open-source]] development while still retaining the ability to use the CPL&amp;apos;d content with software licensed under other licenses, including many [[proprietary software|proprietary]] licenses. The [[Eclipse Public License]] (EPL) consists of a slightly modified version of the CPL.
+
+The CPL has some terms that resemble those of the [[GNU General Public License]] (GPL), but some key differences exist. A similarity relates to distribution of a modified [[computer program]]: under either license (CPL or GPL), one must make the source code of a modified program available to others.
+
+CPL, like the [[GNU Lesser General Public License]], allows non-CPL-licensed software to link to a library under CPL without requiring the linked source code to be made available to the licensee.
+
+CPL lacks compatibility with both versions of the GPL because it has a &amp;quot;[[Choice of law clause|choice of law]]&amp;quot; section in section 7, which restricts legal disputes to a certain court.  Another source of incompatibility is the different [[copyleft]] requirements.&amp;lt;ref&amp;gt;[http://www.gnu.org/licenses/license-list.html#CommonPublicLicense10 Various Licenses and Comments about Them - GNU Project - Free Software Foundation (FSF)]
+&amp;lt;/ref&amp;gt;
+
+To reduce the number of open source licenses, IBM and Eclipse Foundation agreed upon using solely the [[Eclipse Public License]] in the future.&amp;lt;ref&amp;gt;[http://mmilinkov.wordpress.com/2009/04/16/one-small-step-towards-reducing-license-proliferation/ Mike Milinkovich - One Small Step Towards Reducing License Proliferation]&amp;lt;/ref&amp;gt; Open Source Initiative therefore lists the Common Public License as deprecated and superseded by EPL.
+
+==Projects using the Common Public License==
+
+[[Microsoft]] has released its [[WiX|Windows Installer XML]] (WiX) developer tool, [[Windows Template Library]] (WTL) and the [[FlexWiki]] engine under the CPL as [[Sourceforge]] projects.
+
+Some projects of the [[COIN-OR]] Foundation use the CPL.
+
+==See also==
+{{Portal|Free software}}
+* [[Software license]]
+
+==References==
+&amp;lt;references/&amp;gt;
+
+==External links==
+* [http://www.opensource.org/licenses/cpl1.0.php Open Source Initiative The CPL License]
+* [http://www-128.ibm.com/developerworks/library/os-cpl.html The CPL License from IBM]
+* [http://www.coin-or.org The COIN-OR web page]
+
+&amp;lt;!-- Interlang --&amp;gt;
+
+{{IBM}}
+
+&amp;lt;!-- Categories --&amp;gt;
+[[Category:IBM]]
+[[Category:Free and open-source software licenses]]
+
+[[de:Eclipse Public License]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

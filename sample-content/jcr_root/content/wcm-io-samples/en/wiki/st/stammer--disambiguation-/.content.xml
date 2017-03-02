@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Stammer (disambiguation)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Stammer (disambiguation)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|stammer}}
+
+A &amp;apos;&amp;apos;&amp;apos;stammer&amp;apos;&amp;apos;&amp;apos; or [[stuttering]] is a speech disorder typified by the involuntary  repetition of a sound or sounds.
+
+&amp;apos;&amp;apos;&amp;apos;Stammer&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;Stammers&amp;apos;&amp;apos;&amp;apos; may also refer to:
+
+* [[Steven Stamkos]] (b. 1990), Canadian hockey player
+* [[Kay Stammers]] (1914-2005), British tennis player
+* [[Keith Stammers]], 20th-century English politician
+* [[Stan Stammers]] (b. 1961), British punk musician
+* &amp;quot;Stammer&amp;quot;, a song from the album [[It Doesn&amp;apos;t Matter Anymore (album)|It Doesn&amp;apos;t Matter Anymore]]
+
+==See also==
+*[[List of people known as the Stammerer]]
+*[[Balbus (disambiguation)]]
+*[[Stutter (disambiguation)]]
+
+{{disamb}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

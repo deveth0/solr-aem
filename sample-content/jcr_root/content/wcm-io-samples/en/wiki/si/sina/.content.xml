@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Sina"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Sina" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|sina}}
+&amp;apos;&amp;apos;&amp;apos;Sina&amp;apos;&amp;apos;&amp;apos; may refer to:
+* [[Chin (China)]], or Sina (Chinese 支那), old Chinese form of the Sanskrit name Cina (चीन)
+** [[Shina (word)]], or Sina (Japanese 支那), old Japanese word for China
+** [[Sinae]], Latin name for China
+* [[Sina Corp]] (新浪), Chinese company and website
+* [[Sina, Albania]], or Sinë, village in Dibër County, Albania
+* [[Sina, Iran]], a village in Bushehr Province, Iran
+* [[Sina District]], in  San Antonio de Putina Province, Peru
+* &amp;quot;Sina&amp;quot;, a song by Brazilian singer [[Djavan]]
+* &amp;quot;Soulfood To Go (Sina)&amp;quot;, English title of a cover of this song by [[Manhattan Transfer (band)]]
+* [[Sina and the Eel]], a Samoan myth of origin
+* &amp;apos;&amp;apos;[[Sina-1]]&amp;apos;&amp;apos;, an Iranian satellite launched on a Russian rocket in October 2005
+* [[Sina 7 (frigate)|&amp;apos;&amp;apos;Sina 7&amp;apos;&amp;apos; (frigate)]], an Iranian frigate launched on Nov 2012
+* [[Sina class]], designation of the [[Iranian missile boat Paykan]]
+* [[Sina Bank]], a private Iranian bank
+
+;SINA
+* [[Society for Indecency to Naked Animals]], a hoax perpetuated by Alan Abel
+
+;People
+*[[Ibn Sīnā]] (c. 980 – 1037), Avicenna, a Persian physician, philosopher, and scientist
+*[[Elvis Sina]] (born 1978), an Albanian footballer
+*[[Nasser Sina]] (born 1962), a Kurdish veteran and journalist
+*[[Than Sina]], Cambodian politician
+*[[Sina Ashouri]] (born 1988), an Iranian footballer
+*[[Ali Sina (activist)]], pseudonym of the founder of Faith Freedom International, a secularist website with critiques of Islam
+
+==See also==
+*[[Sino (disambiguation)]]
+** [[:wikt:Sino-|Sino-]] prefix from Latin meaning China-
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

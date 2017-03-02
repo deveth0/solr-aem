@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Zebra loach"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Zebra loach" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Taxobox
+| name = Zebra loach
+| status = EN
+| status_system = IUCN3.1
+| status_ref = {{sfn|IUCN Red List|2012}}
+| image = Botia striata.jpg
+| image_width = 240px
+| regnum = [[Animal]]ia
+| phylum = [[Chordate|Chordata]]
+| classis = [[Actinopterygii]]
+| ordo = [[Cypriniformes]]
+| familia = [[Botiidae]]&amp;lt;ref&amp;gt;Kottelat, M. (2012): [http://rmbr.nus.edu.sg/rbz/biblio/s26/Conspectus_cobitidum.pdf Conspectus cobitidum: an inventory of the loaches of the world (Teleostei: Cypriniformes: Cobitoidei).]  &amp;apos;&amp;apos;The Raffles Bulletin of Zoology, Suppl. No. 26: 1-199.&amp;apos;&amp;apos;&amp;lt;/ref&amp;gt;
+| genus = &amp;apos;&amp;apos;[[Botia]]&amp;apos;&amp;apos;
+| species = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;B. striata&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+| binomial = &amp;apos;&amp;apos;Botia striata&amp;apos;&amp;apos;
+| binomial_authority = [[C. R. Narayan Rao|Narayan Rao]], 1920
+}}
+
+The &amp;apos;&amp;apos;&amp;apos;zebra loach&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;Botia striata&amp;apos;&amp;apos;) is a small [[freshwater]] [[fish]] native to southern [[India]]. The maximum size is about {{convert|3|in|cm}}. It lives in [[tropical]] climate with [[temperature]] range of {{convert|23|-|26|C|F}}, and prefers water with 6.0 to 8.0 [[pH]], 5.0 to 12 [[dGH]].
+
+Zebra loaches are peaceful fish suitable to community [[aquarium]] tanks. However, being bottom feeders, they may show some aggression against other smaller bottom feeders. Therefore, small [[corydoras]] are not suitable tankmates. They should be kept in groups of at least five. Any fewer and they will become stressed. They require some caves in which to hide during most of daylight. &amp;apos;&amp;apos;B. striata&amp;apos;&amp;apos; will accept a wide variety of fish foods, including live food such as blackworms, snails and small shrimps, and most commercial brands of sinking fish foods.
+
+This species is shy, and will spend much of its time hiding. Also rarely, during times of stress it has been seen to attack smaller fish such as tetras.
+
+According to the IUCN&amp;lt;ref&amp;gt;http://www.iucnredlist.org/details/168591/0&amp;lt;/ref&amp;gt;, the zebra loach is currently endangered in the wild due to habitat alteration combined with a small native range. Aquarists interested in keeping zebra loach specimens are strongly advised to investigate the source of locally-available fishes, and to only purchase those known to be captive-bred.
+
+==References==
+* {{ITIS |id=640127 |taxon=Botia striata |accessdate=11 March 2006}}
+* {{FishBase_species_alt|ID=12255|taxon=Botia striata|year=2005|month=May}}
+{{reflist}}
+
+[[Category:Botiidae]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

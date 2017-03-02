@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Queensway Base"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Queensway Base" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{coord|1|17|42.41|N|103|48|01.76|E|display=title|region:SG_type:landmark}}
+
+&amp;apos;&amp;apos;&amp;apos;Queensway Base&amp;apos;&amp;apos;&amp;apos; is home of [[Special Operations Command (Singapore)|Special Operations Command]] (SOC), part of the [[Singapore Police Force]] (SPF). This place is gazetted as a protected place and is situated directly across the road from the [[Singapore Police Force#Defunct Units/Facilities|Old Queenstown Police Station]]. Units such as Police Light Strike Force, Police KINS Training Camp, Police Tactical Unit and STAR (Special Tactics And Rescue) team are located here. The address is as follows:
+
+Queensway Base &amp;lt;br&amp;gt;
+Queensway,
+[[Singapore]] 149051&amp;lt;br&amp;gt;
+Tel :  64790000&amp;lt;br&amp;gt;
+Fax :  64744129 or 64746102
+
+==External links==
+*[http://app.sgdi.gov.sg/listing.asp?agency_subtype=dept&amp;amp;agency_id=0000001071 List of contact information]
+
+
+{{Singapore Police Force}}
+
+[[Category:Singapore Police Force]]
+[[Category:Special Operations Command (Singapore)]]
+
+{{Singapore-stub}}
+{{law-enforcement-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

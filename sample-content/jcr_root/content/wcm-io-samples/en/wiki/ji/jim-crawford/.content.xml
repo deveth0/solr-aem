@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Jim Crawford"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Jim Crawford" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Jim&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;Jimmy Crawford&amp;apos;&amp;apos;&amp;apos;  may refer to:
+
+==Athletes==
+* [[Jim Crawford (racing driver)]] (1948–2002), Scottish auto racing driver
+* [[Jimmy Crawford (racing driver)]] (1944–2007), retired NASCAR Cup Series driver
+* [[Jim Crawford (footballer)]] (born 1973), Irish footballer
+* [[Jim Crawford (boxer)]], Australian boxer
+* [[Jim Crawford (baseball)]] (born 1950), former baseball player
+* [[Jim Crawford (American football)]] (born 1935), American football player for the Boston Patriots
+
+==Fictional characters==
+* [[Jimmy Crawford (Home and Away)]], fictional character on the Australian soap opera, &amp;apos;&amp;apos;Home and Away&amp;apos;&amp;apos;
+
+==Musicians==
+* [[Jimmy Crawford (drummer)]] (1910–1980), American jazz drummer of the swing era
+* [[Jimmy Crawford (British singer)]] (born 1937), British pop singer in the 1960s
+
+==Politicians==
+* [[James W. Crawford, Jr.]] (born 1937), Democratic member of the North Carolina General Assembly
+
+==See also==
+* [[James Crawford (disambiguation)]]
+
+{{hndis|Crawford, Jim}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="HDF"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="HDF" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|HDF}}
+&amp;apos;&amp;apos;&amp;apos;HDF&amp;apos;&amp;apos;&amp;apos; may refer to:
+* [[Hadfield railway station]] (National Rail station code), in Derbyshire, England
+* [[Heringsdorf Airport]], (IATA airport code), near Garz on the island of Usedom, Germany
+* [[Hierarchical Data Format]], file formats and libraries for storing numerical data
+* [[High-density fiberboard]], an engineered wood product
+* [[Hubble Deep Field]], an image of a small region in the constellation Ursa Major
+* [[Human Development Foundation]], an organization in Bangkok, Thailand
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Widget"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Widget" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;lt;!-------------------------------------------------------------------------------&amp;gt;
+&amp;lt;!--    MoS:Disambiguation - prefer ONE LINK per entry, short descriptions.    --&amp;gt;
+&amp;lt;!-- Avoid piping, external links, and red links with little article potential --&amp;gt;
+&amp;lt;!-------------------------------------------------------------------------------&amp;gt;
+{{wiktionary|widget}}
+&amp;apos;&amp;apos;&amp;apos;Widget&amp;apos;&amp;apos;&amp;apos; may refer to:
+*[[Widget (economics)]], a placeholder name for a manufactured device
+*[[Widget (beer)]], a device placed in cans and bottles of beer to aid in the generation of froth
+*[[Widget (Marvel Comics)]], a character in Marvel Comics
+*[[Widget (TV series)|&amp;apos;&amp;apos;Widget&amp;apos;&amp;apos; (TV series)]] or &amp;apos;&amp;apos;Widget the World Watcher&amp;apos;&amp;apos;, a 1990s animated television series
+**[[Widget (video game)|&amp;apos;&amp;apos;Widget&amp;apos;&amp;apos; (video game)]], based on the TV series
+*[[Widget UK]], a UK based personal electronics distributor
+*[[E-9A Widget]], a turboprop airliner
+*&amp;apos;&amp;apos;[[New York World Journal Tribune]]&amp;apos;&amp;apos; or &amp;apos;&amp;apos;The Widget&amp;apos;&amp;apos;, a defunct newspaper
+*The widget, the logo of [[Delta Air Lines]]
+*Widgets, the currency used in the [[Bionicle]] universe
+*Widget, a male or baby [[gremlin]]
+*Widget, or [[blivet]], an optical illusion representing an impossible physical object
+
+==In computing==
+
+* [[Software widget]], a generic type of software application comprising portable code intended for one or more different software platforms
+** [[Widget toolkit]], a software library containing a collection of GUI widgets that collaborate when used in the construction of applications
+** [[Web widget]], an applet intended to be used within web pages
+** [[GUI widget]], in computer programming, a reusable element of a graphical user interface
+*Widget drive, a [[Apple Lisa#Drives|hard drive used only in the Apple Lisa]] computer system
+*A shorthand term for a cross functional group
+
+==See also==
+* {{intitle|Widget}}
+* &amp;apos;&amp;apos;[[Widget Workshop]]&amp;apos;&amp;apos;, a science-based computer game developed by Maxis
+* The MediaWiki [[mw:Extension:Widgets|Widgets extension]] and related widget collections
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

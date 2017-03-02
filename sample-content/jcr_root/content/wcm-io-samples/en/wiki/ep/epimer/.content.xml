@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Epimer"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Epimer" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[chemistry]], &amp;apos;&amp;apos;&amp;apos;epimers&amp;apos;&amp;apos;&amp;apos; are [[Configurational isomer|configurational isomers]] that differ in configuration of only one [[stereogenic center]]. If the compound has more than one stereogenic centre, the epimer is a [[diastereomer]]. Diastereomers are a class of [[stereoisomers]] that are non-superimposable, non-mirror images of one another.&amp;lt;ref&amp;gt;March, Jerry and Smith, Michael B..  March&amp;apos;s Advanced Organic Chemistry: &amp;apos;&amp;apos;Reactions, Mechanisms and Structure&amp;apos;&amp;apos;. &amp;apos;&amp;apos;6th ed.&amp;apos;&amp;apos; Hoboken, NJ: momo peon &amp;amp; Sons, Inc., 2007.&amp;lt;/ref&amp;gt; &amp;lt;ref&amp;gt;{{GoldBookRef | title = epimers | file = E02167}}&amp;lt;/ref&amp;gt; When compounds only have one stereogenic centre, the epimer is an [[enantiomer]].
+
+In chemical nomenclature, one of the epimeric pairs is given the prefix &amp;apos;&amp;apos;&amp;apos;epi-&amp;apos;&amp;apos;&amp;apos; for example in [[quinine]] and &amp;apos;&amp;apos;epi-quinine&amp;apos;&amp;apos;. When the pairs are [[enantiomer]]s, the prefix becomes &amp;apos;&amp;apos;&amp;apos;ent-&amp;apos;&amp;apos;&amp;apos;.
+
+== Examples ==
+
+The [[sugar]]s &amp;apos;&amp;apos;&amp;apos;α&amp;apos;&amp;apos;&amp;apos;-glucose and &amp;apos;&amp;apos;&amp;apos;β&amp;apos;&amp;apos;&amp;apos;-glucose are epimers. In α-glucose, the -OH group on the first (anomeric) carbon is in the direction opposite the [[methylene group]] on carbon C-6 (in the [[Cyclohexane conformation#Chair conformation|axial]] position). In β-glucose, the -OH group is oriented in the same direction as the methylene group (in the equatorial position).&amp;lt;ref&amp;gt;[http://www.biotopics.co.uk/as/glucose2.html Structure of the glucose molecule&amp;lt;!-- Bot generated title --&amp;gt;]&amp;lt;/ref&amp;gt; These two molecules are both epimers and [[anomer]]s (as indicated by the &amp;apos;&amp;apos;&amp;apos;α&amp;apos;&amp;apos;&amp;apos;-glucose and &amp;apos;&amp;apos;&amp;apos;β&amp;apos;&amp;apos;&amp;apos; designation).
+
+{| class=&amp;quot;wikitable&amp;quot; style=&amp;quot;margin: 1em auto 1em auto&amp;quot;
+|[[Image:Alpha-D-glucopyranose-2D-skeletal.png|220px]] || [[Image:Beta-D-glucopyranose-2D-skeletal.png|220px]]
+|- align=&amp;quot;center&amp;quot;
+|&amp;lt;center&amp;gt;α-&amp;lt;small&amp;gt;D&amp;lt;/small&amp;gt;-glucopyranose&amp;lt;/center&amp;gt; ||
+&amp;lt;center&amp;gt;β-&amp;lt;small&amp;gt;D&amp;lt;/small&amp;gt;-glucopyranose&amp;lt;/center&amp;gt;
+|}
+
+The stereoisomers β-&amp;lt;small&amp;gt;D&amp;lt;/small&amp;gt;-glucopyranose and β-&amp;lt;small&amp;gt;D&amp;lt;/small&amp;gt;-mannopyranose are epimers because they differ only in the stereochemistry at the C-2 position. The hydroxyl group in β-D-glucopyranose is equatorial (in the &amp;quot;plane&amp;quot; of the ring) while in β-D-mannopyranose the C-2 hydroxyl group is [[Cyclohexane conformation#Chair conformation|axial]] (up from the &amp;quot;plane&amp;quot; of the ring). These two molecules are epimers but, because not mirror images of each other, are also not [[enantiomer]]s (enantiomers have the same name but differ in &amp;apos;&amp;apos;&amp;apos;&amp;lt;small&amp;gt;D&amp;lt;/small&amp;gt;&amp;apos;&amp;apos;&amp;apos; and &amp;apos;&amp;apos;&amp;apos;&amp;lt;small&amp;gt;L&amp;lt;/small&amp;gt;&amp;apos;&amp;apos;&amp;apos; classification). They are also not sugar [[anomer]]s, since the wrong carbon is involved in the stereochemistry.
+
+{| class=&amp;quot;wikitable&amp;quot; style=&amp;quot;margin: 1em auto 1em auto&amp;quot;
+|[[File:Beta-D-glucopyranose.svg|200px]] || [[File:Beta-D-mannopyranose.svg|200px]]
+|- align=&amp;quot;center&amp;quot;
+| &amp;lt;center&amp;gt;β-&amp;lt;small&amp;gt;D&amp;lt;/small&amp;gt;-glucopyranose &amp;lt;/center&amp;gt;||
+&amp;lt;center&amp;gt;β-&amp;lt;small&amp;gt;D&amp;lt;/small&amp;gt;-mannopyranose &amp;lt;/center&amp;gt;
+|}
+
+[[Doxorubicin]] and [[epirubicin]] are two closely related drugs and epimers.
+
+{| class=&amp;quot;wikitable&amp;quot; style=&amp;quot;margin: 1em auto 1em auto&amp;quot;
+|[[File:Doxorubicin–epirubicin comparison.svg|456px]]
+|- align=&amp;quot;center&amp;quot;
+|&amp;lt;center&amp;gt;Doxorubicin–epirubicin comparison&amp;lt;/center&amp;gt;
+|}
+
+Other closely related compounds are [[epi-inositol]] and [[inositol]] and [[lipoxin]] and epilipoxin.
+
+{| class=&amp;quot;wikitable&amp;quot; style=&amp;quot;margin: 1em auto 1em auto&amp;quot;
+|[[File:Epi-inositol.svg|156px]] || [[File:Myo-inositol.svg|156px]] || [[File:Lipoxin B4.svg|200px]] || [[File:15-epi-lipoxin B4.svg|200px]]
+|- align=&amp;quot;center&amp;quot;
+|&amp;lt;center&amp;gt;Epi-inositol&amp;lt;/center&amp;gt;
+|&amp;lt;center&amp;gt;Inositol&amp;lt;/center&amp;gt;
+|&amp;lt;center&amp;gt;Lipoxin&amp;lt;/center&amp;gt;
+|&amp;lt;center&amp;gt;Epilipoxin&amp;lt;/center&amp;gt;
+|}
+
+==Epimerisation==
+Epimerisation is a chemical process where an epimer is transformed into its chiral counterpart. It can happen in [[condensed tannins depolymerisation]] reactions. Epimerisation can be spontaneous (generally a slow process), or catalyzed by enzymes, e.g. the epimerization between the sugars N-acetylglucosamine and N-acetylmannosamine, which is catalyzed by [[RENBP|Renin-Binding Protein]].
+
+==References==
+{{Reflist}}
+
+[[Category:Stereochemistry]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

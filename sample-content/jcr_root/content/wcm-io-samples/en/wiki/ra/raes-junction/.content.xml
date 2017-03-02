@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Raes Junction"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Raes Junction" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+&amp;apos;&amp;apos;&amp;apos;Raes Junction&amp;apos;&amp;apos;&amp;apos; is a small settlement in [[New Zealand]], located at the intersection of [[New Zealand State Highway 8|State Highways 8]] and [[New Zealand State Highway 90|90]], in the lower [[South Island]]. The highways which meet at the junction are the main routes to the [[Clutha River|Clutha]] valley for travellers from [[Dunedin]] and [[Invercargill]] respectively.
+
+[[Image:RaesJunctionNZ.jpg|thumb|right|250px|Raes Junction Hotel.]]
+Raes Junction is 62 kilometres by road from [[Milton, New Zealand|Milton]], 67 from [[Gore, New Zealand|Gore]], and 72&amp;amp;nbsp;km from [[Alexandra, New Zealand|Alexandra]]. The junction lies three kilometres to the south of the Clutha River. The nearest town of any significant size is [[Lawrence, New Zealand|Lawrence]], which is 25 kilometres to the southeast.
+
+Although the settlement itself is little more than a farming and horticultural community, its location at this mid-way junction is thus of considerable regional importance, as is the larger settlement of [[Beaumont, New Zealand|Beaumont]], some six kilometres to the southeast. The settlement consists of a mere five families, who occupy four local farms and the settlement&amp;apos;s most well-known feature, the Raes Junction Hotel.
+
+{{Coord|45|47|S|169|28|E|region:NZ_type:city|display=title}}
+{{Central Otago}}
+{{Clutha District}}
+
+[[Category:Populated places in the Otago Region]]
+
+
+{{Otago-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

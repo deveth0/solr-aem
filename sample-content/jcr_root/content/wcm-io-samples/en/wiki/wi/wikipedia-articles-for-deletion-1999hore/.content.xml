@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:Articles for deletion/1999Hore"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:Articles for deletion/1999Hore" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;From Cleanup. All google hits are about a [[Nintendo]] game [http://www.holymonkey.com/emuworld/gamedb/gview.phtml?i=11984] which has nothing do with the description in the article. Delete as unverifiable. [[User:Andris|Andris]] 02:50, May 10, 2004 (UTC)
+
+*It &amp;apos;&amp;apos;appears&amp;apos;&amp;apos; to be a real game, but I agree that unless this can be verified, it&amp;apos;s not worth keeping. [[User:Fredrik|Fredrik]] 14:49, 10 May 2004 (UTC)
+*Transwiki to the Engrish Wikipedia. We don&amp;apos;t have an Engrish wikipedia? Delete then. --[[User:Brockert|Ben Brockert]] 21:58, May 11, 2004 (UTC)
+*Huh. The nintendo game &amp;apos;&amp;apos;is&amp;apos;&amp;apos; the game in the article; it was a board game on the Nintendo. See a screenshot here: [http://www.vgmuseum.com/images/nes/1999.html] --[[User:Brockert|Ben Brockert]] 22:02, May 11, 2004 (UTC)
+*Keep, it is a real game. And the engrish can be dealt with. [[User:Burgundavia|Burgundavia]] 20:36, May 13, 2004 (UTC)
+*Delete: insignificant. [[User:Wile E. Heresiarch|Wile E. Heresiarch]] 13:17, 17 May 2004 (UTC)&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

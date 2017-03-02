@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Cygnus Solutions"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Cygnus Solutions" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox company
+| name   = Cygnus Solutions
+| logo   =
+| company_slogan =
+| fate           = Merged with [[Red Hat]]
+| successor      = [[Red Hat]]
+| foundation     = 1989
+| defunct      = 2000
+| location       =
+| industry       = [[software|Computer software]]
+| key_people     = [[John Gilmore (activist)|John Gilmore]], [[Michael Tiemann]], and David Henkel-Wallace
+| products       = Compilers, debuggers, development tools, [[eCos]], [[Cygwin]]
+| num_employees  =
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Cygnus Solutions&amp;apos;&amp;apos;&amp;apos;, originally &amp;apos;&amp;apos;&amp;apos;Cygnus Support&amp;apos;&amp;apos;&amp;apos;, was founded in 1989 by [[John Gilmore (activist)|John Gilmore]], [[Michael Tiemann]] and David Henkel-Wallace to provide commercial support for [[free software]].  Its tagline was: &amp;apos;&amp;apos;Making free software affordable&amp;apos;&amp;apos;.
+
+For years, employees of Cygnus Solutions were the maintainers of several key [[GNU]] software products, including the [[GNU Debugger]] and [[GNU Binutils]] (which included the [[GNU Assembler]] and [[GNU Linker|Linker]]).  It was also a major contributor to the [[GNU Compiler Collection|GCC]] project and drove the change in the project&amp;apos;s management from having a single gatekeeper to having an independent committee.  Cygnus developed [[Binary File Descriptor library|BFD]], and used it to help port GNU to many architectures, in a number of cases working under [[Non-disclosure agreement|non-disclosure]] to produce tools used for initial bringup of [[software]] for a new chip design.
+
+Cygnus was also the original developer of [[Cygwin]], a [[POSIX]] layer and the [[GNU]] toolkit port to the [[Microsoft Windows]] [[operating system]] family, and of [[eCos]], an embedded [[real-time operating system]].
+
+In the 2001 documentary film &amp;apos;&amp;apos;[[Revolution OS]]&amp;apos;&amp;apos;, Tiemann indicates that the name &amp;quot;Cygnus&amp;quot; was chosen from among several names that incorporated the acronym &amp;quot;GNU&amp;quot;.
+
+On November 15, 1999, Cygnus Solutions announced its merger with [[Red Hat]], and ceased to exist as a separate company in early 2000. {{As of|2007}}, a number of Cygnus employees continue to work for Red Hat, including Tiemann, who serves as Red Hat&amp;apos;s Vice President of Open Source Affairs, and formerly served as CTO.  Red Hat did not retain the trademark to Cygnus Solutions, nor the cygnus.com domain.
+
+==External links==
+{{Portal|Free software}}
+* {{citation | url = http://www.oreilly.com/catalog/opensources/book/tiemans.html | contribution = Future of Cygnus Solutions &amp;amp;mdash; An Entrepreneur&amp;apos;s Account | authorlink = Michael Tiemann | first = Michael | last = Tiemann | title = Open Sources: Voices from the Open Source Revolution | date = January 1999}}.
+* {{citation | url = http://www.toad.com/gnu/cygnus/ | chapter = Marketing Cygnus Support | title = Free Software history | publisher = Toad}}.
+
+[[Category:Free software companies]]
+[[Category:Companies disestablished in 2000]]
+[[Category:Companies established in 1989]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

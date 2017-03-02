@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Rind"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Rind" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|rind}}
+&amp;apos;&amp;apos;&amp;apos;Rind&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+;Food
+*[[Peel (fruit)]]
+*[[Pork rind]]
+*The outer layer of [[cheese]]
+*Candied rind; see [[Succade]]
+*Grated rind; see [[Zest (ingredient)]]
+
+;Places
+*[[Rind, Armenia]], also &amp;apos;&amp;apos;Rrind&amp;apos;&amp;apos;
+
+;People
+*[[Rind (Baloch tribe)]], a tribe in Balochistan
+
+;People with the surname
+*[[Abdost Rind]]  (c. 1984 – 2011), Pakistani reporter
+*[[Bruce Rind]]  (born 1953), American psychologist and chess player
+*[[Mir Chakar Rind]] (1468 – 1565), Baloch chieftain
+*[[Haqeer Rind]], Sindhi poet and social worker
+*[[Darya Khan Rind]], Sindhi poet
+
+;Other
+*[[Rind (giantess)]], a giantess in Norse mythology
+*[[Rind et al. controversy]], about a study on child sexual abuse by lead author Bruce Rind
+*RIND - acronym for [[reversible ischemic neurologic deficit]]
+*[[Weathering rind]] of rocks and boulders, produced by spheroidal weathering
+*[[Millrind]], a support component for millstones
+
+==See also==
+*[[Rynd (disambiguation)]]
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

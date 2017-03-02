@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Diagoras"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Diagoras" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Diagoras&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+*[[Diagoras of Melos]] Atheist philosopher and poet (5th century BC)
+*[[Diagoras of Rhodes]] boxer, Olympian (5th century BC)
+*Diagoras a Greek physician quoted in [[Natural History (Pliny)|&amp;apos;&amp;apos;Natural History&amp;apos;&amp;apos; of Pliny]]
+*[[Diagoras F.C.]] football club named after Diagoras of Rhodes
+*[[Rhodes International Airport, &amp;quot;Diagoras&amp;quot;]]
+*Mr Diagoras, a character from the British science fiction series &amp;apos;&amp;apos;Doctor Who&amp;apos;&amp;apos; who became the human part of [[Dalek Sec]], a Dalek-human hybrid
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

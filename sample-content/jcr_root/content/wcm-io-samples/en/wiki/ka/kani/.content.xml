@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Kani"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Kani" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|kani}}
+&amp;apos;&amp;apos;&amp;apos;Kani&amp;apos;&amp;apos;&amp;apos; may refer to:
+{{TOC right}}
+==Geography==
+* [[Kani (island)]], an island in the Maldives
+* [[Kani, Burma]]
+* [[Kani, Côte d&amp;apos;Ivoire]]
+* [[Kani, Iran (disambiguation)]]
+* [[Kani District, Gifu]], Japan
+* [[Kani, Gifu]], Japan
+
+==Other uses==
+* [[Kani (name)]]
+* [[Kani (tribe)]], a tribe in Kerala
+* [[Amiya Deb]] (1917–1983), Indian footballer and cricketer, nicknamed &amp;quot;Kani&amp;quot;
+* [[Kani (paste)]] (also known as Surimi), a food product made from fish
+* [[Kani (sushi)]], crab used as a sushi ingredient
+* [[4265 Kani]], an asteroid
+
+==See also==
+* [[Kâni]]
+* [[KANI]]
+* [[Kani-Kéli]]
+
+{{disambiguation|geo}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

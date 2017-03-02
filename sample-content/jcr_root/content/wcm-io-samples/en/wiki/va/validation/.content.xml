@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Validation"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Validation" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Wiktionary}}
+&amp;apos;&amp;apos;&amp;apos;Validation&amp;apos;&amp;apos;&amp;apos; may refer to:
+* [[Verification and validation]], in engineering, confirming that a product or service meets the needs of its users
+* [[Verification and validation (software)]], checking that a software system meets specifications and fulfills its intended purpose
+* [[Validation of foreign studies and degrees]], processes for transferring educational credentials between countries
+* [[Validation (drug manufacture)]], documenting that a process or system meets its pre-determined specifications and quality attributes
+* [[Data validation]], in computer science, ensuring that data inserted into an application satisfies defined formats and other input criteria
+* [[Regression model validation]], in statistics, determining whether a model fits the data well
+* [[XML validation]], the process of checking a document written in XML to confirm that it both is &amp;quot;well-formed&amp;quot; and follows a defined structure
+* [[Social validation]], compliance in a social activity to fit in and be part of the majority
+* the validation of a analytical [[test method]], to show that it is suitable for the purpose it is used
+*  [[Forecast verification]], validating and verifying prognostic output from a numerical model
+
+== See also ==
+* [[Cross validation (disambiguation)]]
+* [[Revalidation]]
+* [[Validity (disambiguation)]]
+* [[Verification (disambiguation)]]
+* [[Validate (McAfee)]], software application
+
+{{Disambig}}
+[[fr:Validation]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="DIAC"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="DIAC" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Other uses}}
+__NOTOC__
+[[File:Kennlinie DIAC.svg|right|thumb|Typical DIAC voltage and current relationships. V&amp;lt;sub&amp;gt;BO&amp;lt;/sub&amp;gt; is the &amp;apos;&amp;apos;breakover voltage&amp;apos;&amp;apos;.]]
+[[File:Diac.svg|left|thumb|80px|DIAC]]
+[[File:D3capas sym.PNG|left|thumb|80px|Three-layer DIAC]]
+The &amp;apos;&amp;apos;&amp;apos;DIAC&amp;apos;&amp;apos;&amp;apos;, or &amp;quot;[[diode]] for [[alternating current]]&amp;quot;, is a diode that conducts [[Electrical current|current]] only after its breakover [[voltage]], V&amp;lt;sub&amp;gt;BO&amp;lt;/sub&amp;gt;, has been reached momentarily.
+
+When this occurs, the diode enters the region of [[negative dynamic resistance]], leading to a decrease in the voltage drop across the diode and, usually, a sharp increase in current through the diode. The diode remains &amp;quot;in conduction&amp;quot; until the current through it drops below a value characteristic for the device, called the holding current, I&amp;lt;sub&amp;gt;H&amp;lt;/sub&amp;gt;. Below this value, the diode switches back to its high-resistance (non-conducting) state. This behavior is bidirectional, meaning typically the same for both directions of current.
+
+Most DIACs have a three-layer structure with breakover voltage around 30 V. In this way, their behavior is somewhat similar to (but much more precisely controlled and taking place at lower voltages than) a [[neon lamp]].
+
+DIACs have no gate [[electrode]], unlike some other [[thyristor]]s that they are commonly used to trigger, such as [[TRIAC]]s. Some TRIACs, like [[Quadrac]], contain a built-in DIAC in series with the TRIAC&amp;apos;s &amp;quot;gate&amp;quot; terminal for this purpose.
+
+DIACs are also called &amp;apos;&amp;apos;symmetrical trigger diodes&amp;apos;&amp;apos; due to the symmetry of their characteristic curve. Because DIACs are bidirectional devices, their terminals are not labeled as &amp;apos;&amp;apos;anode&amp;apos;&amp;apos; and &amp;apos;&amp;apos;cathode&amp;apos;&amp;apos; but as A1 and A2 or MT1 (&amp;quot;Main Terminal&amp;quot;) and MT2.
+{{Clr}}
+
+==SIDAC==
+[[Image:SIDAC.gif|left|thumb|SIDAC]]
+[[Image:Diacgraph.png|right|thumb|Idealized breakover diode voltage and current relationships. Once the voltage exceeds the turn-on threshold, the device turns on and the voltage rapidly falls while the current increases.]]
+The &amp;apos;&amp;apos;&amp;apos;SIDAC&amp;apos;&amp;apos;&amp;apos; is a less common electrically similar device, the difference in naming being determined by the manufacturer. In general, SIDACs have higher breakover voltages and current handling.
+
+The SIDAC, or &amp;apos;&amp;apos;Silicon Diode for Alternating Current&amp;apos;&amp;apos;, is another member of the [[thyristor]] family. Also referred to as a SYDAC (Silicon thYristor for Alternating Current), bi-directional thyristor breakover [[diode]], or more simply a bi-directional thyristor diode, it is technically specified as a bilateral voltage triggered switch. Its operation is similar to that of the DIAC, but SIDAC is always a five-layer device with low-voltage drop in latched conducting state, more like a voltage triggered TRIAC without a gate. In general, SIDACs have higher breakover voltages and current handling capacities than DIACs, so they can be directly used for switching and not just for triggering of another switching device.
+
+The operation of the SIDAC is functionally similar to that of a [[spark gap]]. The SIDAC remains nonconducting until the applied voltage meets or exceeds its rated breakover voltage. Once entering this conductive state going through the negative dynamic resistance region, the SIDAC continues to conduct, regardless of voltage, until the applied current falls below its rated holding current. At this point, the SIDAC returns to its initial nonconductive state to begin the cycle once again.
+
+Somewhat uncommon in most [[electronics]], the SIDAC is relegated to the status of a special purpose device. However, where part-counts are to be kept low, simple [[relaxation oscillator]]s are needed, and when the voltages are too low for practical operation of a spark gap, the SIDAC is an indispensable component.
+
+Similar devices, though usually not functionally interchangeable with SIDACs, are the Thyristor Surge Protection Devices (TSPD), [[Trisil]], SIDACtor, or the now-obsolete Surgector. These are designed to tolerate large surge currents for the suppression of overvoltage transients.  In many applications this function is now served by [[Varistor|metal oxide varistors]] (MOVs), particularly for trapping voltage transients on the power mains.
+
+== See also ==
+* [[Shockley diode]]
+* [[TRIAC|Triode for Alternating Current (TRIAC)]]
+* [[Silicon-controlled rectifier|Silicon-controlled Rectifier (SCR)]]
+* [[Trisil]]
+* [[Quadrac]]
+
+== References ==
+* [http://www.st.com/stonline/products/literature/ds/7488/db3.pdf &amp;apos;&amp;apos;DB3 DB4 SMDB3 DIAC&amp;apos;&amp;apos;, ST Datasheet (PDF)]
+* [http://www.littelfuse.com/data/en/Data_Sheets/Littelfuse_Thyristor_Kxxx1G.pdf LittelFuse Kxxx1g Series SIDAC Data Sheet (PDF)]
+
+==External links==
+{{commons category|DIACs}}
+* [http://silenceisdefeat.net/~lgtngstk/Sites/Strobe/Strobe.html Strobe circuit containing a SIDAC]
+{{Electronic component}}
+
+[[Category:Diodes]]
+[[Category:Solid state switches]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Xylota sylvarum"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Xylota sylvarum" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Taxobox
+| image = Diptera-Syrphidae-Xylota-sylvarum-201208160110.JPG
+| regnum = [[Animal]]ia
+| phylum = [[Arthropod]]a
+| classis = [[Insect]]a
+| ordo = [[Fly|Diptera]]
+| familia = [[Syrphidae]]
+| genus = &amp;apos;&amp;apos;[[Xylota]]&amp;apos;&amp;apos;
+| species = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;X. sylvarum&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+| binomial = &amp;apos;&amp;apos;Xylota sylvarum&amp;apos;&amp;apos;
+| binomial_authority = ([[Carolus Linnaeus|Linnaeus]], [[Systema Naturae|1758]])
+| synonyms = *&amp;apos;&amp;apos;Musca longisco&amp;apos;&amp;apos; &amp;lt;small&amp;gt;[[Moses Harris|Harris]], 1780&amp;lt;/small&amp;gt;
+*&amp;apos;&amp;apos;Musca sylvarum&amp;apos;&amp;apos; &amp;lt;small&amp;gt;[[Carolus Linnaeus|Linnaeus]], [[Systema Naturae|1758]]&amp;lt;/small&amp;gt;
+*&amp;apos;&amp;apos;Xylota longisco&amp;apos;&amp;apos; &amp;lt;small&amp;gt;([[Moses Harris|Harris]], 1780)&amp;lt;/small&amp;gt;
+}}
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Xylota sylvarum&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is a common [[Europe]]an species of [[hoverfly]].&amp;lt;ref&amp;gt;{{cite book|author=Stubbs, Alan E. and Falk, Steven J.|year=1983 |title=British Hoverflies: An Illustrated Identification Guide|pages=253, xvpp |publisher=British Entomological &amp;amp; Natural History Society}}&amp;lt;/ref&amp;gt;
+
+==References==
+{{reflist}}
+
+{{DEFAULTSORT:Xylota Sylvarum}}
+[[Category:Diptera of Europe]]
+[[Category:Hoverflies]]
+[[Category:Animals described in 1758]]
+
+
+{{Syrphidae-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="ILLIAC III"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="ILLIAC III" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;ILLIAC III&amp;apos;&amp;apos;&amp;apos; was a fine-grained [[SIMD]] [[pattern recognition]] computer built by the [[University of Illinois at Urbana-Champaign|University of Illinois]] in 1966.
+
+This ILLIAC&amp;apos;s initial task was image processing of bubble chamber experiments used to detect nuclear particles. Later it was used on biological images.
+
+The machine was destroyed in a fire, caused by a [[Variac]] shorting on one of the wooden-top benches, in 1968.  It was rebuilt in the early 1970s, and the core parallel-processing element of the machine, the Pattern Articulation Unit, was successfully implemented.  In spite of this and the productive exploration of other advanced concepts, such as multiple-radix arithmetic, the project was eventually abandoned.
+
+[[Bruce H. McCormick]] was the leader of the project throughout its history.
+&amp;lt;gallery&amp;gt;
+File:ILLIAC III IMG 4178.jpg
+File:ILLIAC III IMG 4177.jpg|Printed circuits of the type used in ILLIAC III
+File:ILLIAC III IMG 4176.jpg|Printed circuits of the type used in ILLIAC III
+&amp;lt;/gallery&amp;gt;
+
+==See also==
+*[[ORDVAC]]
+*[[ILLIAC I]]
+*[[ILLIAC II]]
+*[[ILLIAC IV]]
+
+== External links ==
+{{Commonscat|ILLIAC III}}
+*[http://www.cecs.pdx.edu/~strom/ece587_web/lectures/week9.pdf Advanced Computer Architecture I - Dan Hammerstrom] (PDF) See page 30.
+*[http://www-csag.ucsd.edu/individual/achien/cs433/Lectures/Lecture8.ps SIMD - CS 433 - UC San Diego CS Dept. - Andrew A. Chien] (PS) See page 5.
+
+[[Category:One-of-a-kind computers]]
+[[Category:SIMD computing]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

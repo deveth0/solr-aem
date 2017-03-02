@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="File:Arms-haltemprice.jpg"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="File:Arms-haltemprice.jpg" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;Arms of [[Haltemprice]] Urban District Council. From [http://www.civicheraldry.co.uk civicheraldry.co.uk], with permission.
+
+[[User:Marnanel/CivicHeraldry pages|About the civic heraldry images...]]
+{{Non-free logo|image has rationale=yes}}
+==External links==
+* [http://www.civicheraldry.co.uk/eriding_ob.html#haltemprice%20udc Details of the arms]
+
+{{Non-free use rationale|Article=Haltemprice
+|Description=Arms of [[Haltemprice]] Urban District Council.
+|Source=[http://www.civicheraldry.co.uk civicheraldry.co.uk]
+|Portion=It is necessary to use the whole picture
+|Resolution=Width is lower than 400px.
+|Purpose = illustration
+|Replaceability=Cannot be replaced with a copyright free alternative.
+|other_information=
+}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Xnee"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Xnee" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox software
+| logo                   =
+| developer              = [[GNU Project]], Henrik Sandklef
+| latest release version = 3.15
+| latest release date    = {{release date and age|2012|12|22}}&amp;lt;ref name=&amp;quot;news&amp;quot;&amp;gt;{{cite mailing list |last= Sandklef |first=Henrik |title=GNU Xnee 3.15 (&amp;apos;Shankar&amp;apos;) released |publisher=info-gnu |date=2012-12-22 |url=http://lists.gnu.org/archive/html/info-gnu/2012-12/msg00012.html |accessdate=2012-12-24}}&amp;lt;/ref&amp;gt;
+| operating system       = [[X11]]
+| genre                  = [[X11]] [[Software testing|Test]]
+| license                = [[GNU General Public License]]
+| website                = http://www.sandklef.com/xnee
+}}
+
+&amp;apos;&amp;apos;&amp;apos;GNU Xnee&amp;apos;&amp;apos;&amp;apos; is a suite of programs that can record, replay and distribute user actions under the [[X11]] environment. It can be used for testing and demonstrating X11 applications.&amp;lt;ref name=&amp;quot;LJ&amp;quot;&amp;gt;{{cite journal
+  |url=http://www.linuxjournal.com/article/6660
+  |title=Testing Applications with Xnee
+  |author=Henrik Sandklef
+  |date=January 1, 2004
+  |journal=[[Linux Journal]]
+  |accessdate=August 14, 2009}}&amp;lt;/ref&amp;gt;
+Within X11 each user input (mouse click or key press) is an [[X Window System]] event. Xnee records these events into a file. Later Xnee is used to play the events back from the file and into an X Window System just as though the user were operating the system.&amp;lt;ref name=&amp;quot;Jerry yin Hom&amp;quot;&amp;gt;{{cite web
+  |url=http://www.research.rutgers.edu/~jhom/pubs/thesis.pdf
+  |title=An Execution Context Optimization Framework for Disk Energy
+  |author=Jerry yin Hom
+  |date=May, 2008
+  |format=pdf
+  |pages=56–57
+  |accessdate=August 14, 2009}}&amp;lt;/ref&amp;gt;
+Xnee can also be used to play or &amp;apos;&amp;apos;distribute&amp;apos;&amp;apos; user input events to two or more machines in parallel.&amp;lt;ref name=&amp;quot;LJ&amp;quot;/&amp;gt;
+As the target X Window application sees what appears to be physical user input it has resulted in Xnee being dubbed “&amp;apos;&amp;apos;Xnee is Not an Event Emulator&amp;apos;&amp;apos;.”&amp;lt;ref name=&amp;quot;Jerry yin Hom&amp;quot;/&amp;gt;&amp;lt;ref&amp;gt;{{cite web
+  |url=http://itupw056.itu.chalmers.se/xnee/doc/xnee.html#SEC118
+  |title=Xnee FAQ
+  |publisher=[[Free Software Foundation]]
+  |accessdate=August 14, 2009}}&amp;lt;/ref&amp;gt;
+
+As Xnee is [[free software]], it can be modified to handle special tasks. For example, inserting time stamps as part of the playback.&amp;lt;ref&amp;gt;{{cite web|url=http://www.cs.cmu.edu/~gghartma/final-report.pdf
+  |title=Methods for Recognizing Service Quiescence
+  |author=Gregory Hartman
+  |coauthors=Jack Lin; Michael Merideth
+  |date=December 12, 2002
+  |format=pdf
+  |pages=7–8
+  |accessdate=August 14, 2009}}&amp;lt;/ref&amp;gt;
+
+==See also==
+* [[xdotool]]
+* [[xautomation]]
+
+==External links==
+* [http://www.sandklef.com/xnee/ Official site]
+* [http://search.cpan.org/~mkoderer/X11-GUITest-record-0.11/lib/X11/GUITest/record.pm X11::GUITest::record] - Perl implementation of the X11 record extension
+* [http://sourceforge.net/projects/x11guitest X11::GUITest] - X11 Recording / Playbook using Perl script
+
+==References==
+{{Reflist}}
+
+{{Portal|Free software}}
+
+[[Category:Personal computer automation software]]
+[[Category:X Window System]]
+[[Category:GNU Project software|Xnee]]
+
+
+{{Software-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

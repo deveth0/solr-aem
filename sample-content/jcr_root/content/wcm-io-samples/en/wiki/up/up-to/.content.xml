@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Up to"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Up to" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[File:Partitions of 6-set with 3 singletons.svg|thumb|20 [[Partition of a set|partitions]] of a 6-set have 3 [[Singleton (mathematics)|singletons]]. Up to rotation there are 4, up to rotation and reflection 3.]]
+In [[mathematics]], the phrase &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;up to&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; indicates that its grammatical object is some [[equivalence class]], to be regarded as a single entity, or disregarded as a single entity. If this object is a class of transformations (such as &amp;quot;[[isomorphism]]&amp;quot; or &amp;quot;[[permutation]]&amp;quot;), it implies the equivalence of objects one of which is the [[image_(mathematics)|image]] of the other under such a transformation.
+
+If X is some property or process, the phrase &amp;quot;up to X&amp;quot; means &amp;quot;disregarding a possible difference in X&amp;quot;. For instance we might follow the statement &amp;quot;an integer&amp;apos;s prime factorization is unique &amp;apos;&amp;apos;up to ordering&amp;apos;&amp;apos;&amp;quot;, meaning that the prime factorization is unique if we disregard the order of the factors; or we might say &amp;quot;the solution to an [[indefinite integral]] is &amp;apos;&amp;apos;{{math|f(x)}}&amp;apos;&amp;apos;, &amp;apos;&amp;apos;up to addition [[constant of integration|by a constant]]&amp;apos;&amp;apos;&amp;quot;, meaning that the added constant is not the focus here, the solution &amp;apos;&amp;apos;{{math|f(x)}}&amp;apos;&amp;apos; is, and that the addition of a constant is to be regarded as a background, of secondary focus.  Further examples concerning &amp;apos;&amp;apos;up to isomorphism&amp;apos;&amp;apos;, &amp;apos;&amp;apos;up to permutations&amp;apos;&amp;apos; and &amp;apos;&amp;apos;up to rotations&amp;apos;&amp;apos; are described below.
+
+In informal contexts, mathematicians often use the word &amp;apos;&amp;apos;[[Equivalence relation|modulo]]&amp;apos;&amp;apos; (or simply &amp;quot;mod&amp;quot;) for similar purposes, as in &amp;quot;modulo isomorphism&amp;quot;.
+
+==Examples==
+=== Tetris ===
+
+A simple example is &amp;quot;there are seven reflecting [[tetromino]]s, up to rotations&amp;quot;, which makes reference to the seven possible contiguous arrangements of tetrominoes (collections of four unit squares arranged to connect on at least one side) which are frequently thought of as the seven [[Tetris]] pieces (Box, I, L, J, T, S, Z.)  This could also be written &amp;quot;there are five tetrominos, up to reflections and rotations&amp;quot;, which would take account of the perspective that L and J could be thought of as the same piece, reflected, as well as that S and Z could be seen as the same.  The Tetris game does not allow reflections, so the former notation is likely to seem more natural.
+
+To add in the exhaustive count, there is no formal notation.  However, it is common to write &amp;quot;there are seven reflecting tetrominos (=19 total) up to rotations&amp;quot;.  In this, Tetris provides an excellent example, as a reader might simply count 7 pieces * 4 rotations as 28, where some pieces (the 2x2 Box being the obvious example) have fewer than four rotation states.
+
+===Eight queens===
+In the [[eight queens puzzle]], if the eight queens are considered to be distinct, there are 3&amp;amp;nbsp;709&amp;amp;nbsp;440 distinct solutions. Normally however, the queens are considered to be identical, and one says &amp;quot;there are 92 (= 3&amp;amp;nbsp;709&amp;amp;nbsp;440/8!) unique solutions &amp;apos;&amp;apos;up to&amp;apos;&amp;apos; [[permutation]]s of the queens&amp;quot;, or &amp;quot;there are 92 solutions &amp;apos;&amp;apos;mod&amp;apos;&amp;apos; the names of the queens&amp;quot;, signifying that two different arrangements of the queens are considered equivalent if the queens have been permuted, but the same squares on the [[chessboard]] are occupied by them.
+
+If, in addition to treating the queens as identical, [[rotation]]s and [[Reflection (mathematics)|reflection]]s of the board were allowed, we would have only 12 distinct solutions &amp;apos;&amp;apos;up to [[symmetry]]&amp;apos;&amp;apos;, signifying that two arrangements that are symmetrical to each other are considered equivalent.
+
+===Group Theory===
+
+In [[group theory]], for example, we may have a [[group (mathematics)|group]] &amp;apos;&amp;apos;G&amp;apos;&amp;apos; [[group action|acting]] on a set &amp;apos;&amp;apos;X&amp;apos;&amp;apos;, in which case we say that two elements of &amp;apos;&amp;apos;X&amp;apos;&amp;apos; are equivalent &amp;quot;up to the group action&amp;quot; if they lie in the same [[group action|orbit]].
+
+Another typical example is the statement that &amp;quot;there are two different [[group (mathematics)|groups]] of order 4 &amp;apos;&amp;apos;up to&amp;apos;&amp;apos; [[isomorphism]]&amp;quot;, or &amp;quot;&amp;apos;&amp;apos;modulo&amp;apos;&amp;apos; isomorphism, there are two groups of order 4&amp;quot;. This means that there are two equivalence classes of groups of order 4, if we consider groups to be equivalent if they are [[group isomorphism|isomorphic]].
+==Non-standard analysis==
+A [[hyperreal number|hyperreal]] &amp;apos;&amp;apos;x&amp;apos;&amp;apos; and its [[standard part function|standard part]] st(&amp;apos;&amp;apos;x&amp;apos;&amp;apos;) are equal up to an [[infinitesimal]].
+
+==See also==
+{{Wiktionary}}
+* [[Adequality]]
+* [[All other things being equal]]
+* [[Modulo (jargon)|Modulo]]
+* [[Quotient set]]
+* [[Quotient group]]
+* [[Synecdoche]]
+
+{{DEFAULTSORT:Up To}}
+[[Category:Mathematical terminology]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Puppy (disambiguation)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Puppy (disambiguation)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|puppy}}
+
+&amp;apos;&amp;apos;&amp;apos;Puppy&amp;apos;&amp;apos;&amp;apos; may refer to:
+* A pup, being the young of a [[dog]], other canine or some other animal species (such as seals)
+* By analogy, a young, relatively immature human (boy or girl), especially when considered inexperienced and/or conceited; as in [[puppy pile]]
+* [[Puppy Linux]], a Live CD Linux distribution
+* &amp;quot;[[The Puppy Episode]],&amp;quot; an 1997 episode of the TV sitcom &amp;apos;&amp;apos;[[Ellen (TV series)|Ellen]]&amp;apos;&amp;apos; in which Ellen DeGeneres&amp;apos; character comes out of the closet
+* [[Puppy (album)|&amp;apos;&amp;apos;Puppy&amp;apos;&amp;apos; (album)]], an album by the band Fluke
+* &amp;apos;&amp;apos;[[We Can Only Live Today (Puppy)|Puppy]]&amp;apos;&amp;apos;, a song by Belgian [[drum and bass]] producer [[Netsky (musician)|Netsky]]
+* [[Puppy (film)|&amp;apos;&amp;apos;Puppy&amp;apos;&amp;apos; (film)]], Australian film
+* &amp;apos;&amp;apos;Puppy&amp;apos;&amp;apos;, a sculpture created by [[Jeff Koons]]
+* [[The Puppies]], a 1990s rap group
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

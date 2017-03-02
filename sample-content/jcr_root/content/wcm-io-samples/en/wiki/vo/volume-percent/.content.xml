@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Volume percent"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Volume percent" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Image:Finlandia vodka.jpg|thumb|300px|Volume percent = 40.]]
+
+&amp;apos;&amp;apos;&amp;apos;Volume percent&amp;apos;&amp;apos;&amp;apos; is a common expression of a [[solution]]&amp;apos;s [[concentration]]. It is defined as:
+
+:&amp;lt;math&amp;gt;\textrm{volume\ percent} = \frac{\textrm{volume\ of\ solute}}{\textrm{volume\ of\ solution}}*100\%&amp;lt;/math&amp;gt;
+
+[[Volume]] percent is usually used when the solution is made by mixing two [[fluid]]s, such as [[liquids]] or [[gases]]. However, [[percentages]] are only additive for [[ideal gas]]es.&amp;lt;ref&amp;gt;[http://www.chembuddy.com/?left=concentration&amp;amp;right=volume-volume-percentage &amp;apos;&amp;apos;Volume-volume percentage&amp;apos;&amp;apos;], [http://www.chembuddy.com/?left=about Chembuddy] [[website]]&amp;lt;/ref&amp;gt;
+
+In the case of a mixture of ethanol and water, which are miscible in all proportions, the designation of solvent and solute is arbitrary. The volume of such a mixture is slightly less than the sum of the volumes of the components. Thus, by the above definition, the term &amp;quot;40% alcohol by volume&amp;quot; refers to a mixture of 40 volume units of ethanol with enough water to make a final volume of 100 units, rather than a mixture of 40 units of ethanol with 60 units of water.
+
+==See also==
+*[[Alcohol by volume]]
+*[[Alcohol proof]]
+*[[Apparent molar property]]
+*[[Percentage]]
+
+{{Wiktionary|Volume percent}}
+
+==References==
+&amp;lt;references/&amp;gt;
+
+{{refimprove|date=August 2007}}
+
+[[Category:Analytical chemistry]]
+
+{{Chem-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

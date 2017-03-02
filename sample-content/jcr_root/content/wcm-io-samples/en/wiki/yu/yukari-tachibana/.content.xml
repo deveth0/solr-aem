@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Yukari Tachibana"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Yukari Tachibana" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Yukari Tachibana&amp;apos;&amp;apos;&amp;apos; (橘 ゆかり &amp;apos;&amp;apos;Tachibana Yukari&amp;apos;&amp;apos;; born 8 October 1965 in [[Tokyo]], [[Japan]]) is a Japanese [[actress]].
+
+==External links==
+*{{imdb name|id=0846182|name=Yukari Tachibana}}
+*{{jmdb name|id=0077770|name=Yukari Tachibana}}
+
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Tachibana, Yukari
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION = Japanese actor
+| DATE OF BIRTH     = 8 October 1965
+| PLACE OF BIRTH    =
+| DATE OF DEATH     =
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Tachibana, Yukari}}
+[[Category:Japanese actresses]]
+[[Category:1965 births]]
+[[Category:Living people]]
+
+
+{{Japan-actor-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

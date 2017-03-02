@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Muck"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Muck" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|muck|mucky}}
+
+&amp;apos;&amp;apos;&amp;apos;[[Muck (soil)|Muck]]&amp;apos;&amp;apos;&amp;apos; is a soil made up primarily of humus from drained swampland
+
+&amp;apos;&amp;apos;&amp;apos;Muck&amp;apos;&amp;apos;&amp;apos; may also refer to:
+
+{{tocright}}
+==Places==
+*[[Muck, Scotland]], an island
+*Isle of Muck, a small island connected by sand spit to Portmuck, [[County Antrim]], Northern Ireland
+*[[Muck Glacier]], Queen Maud Mountains, Antarctica
+
+==People==
+*[[Desa Muck]] (born 1955), Slovene writer and actor
+*[[Karl Muck]] (1859–1940), German conductor
+*[[Warren Muck]] (1922–1945), non-commissioned officer in Easy Company, 101st Airborne Division, during World War II
+*[[Muck Sticky]] (born 1977), American musician, songwriter, actor and artist
+
+==Games==
+*[[Muck (gambling)]], a number of actions, both legal and illegal
+**[[Muck (poker)]], the discard pile or the action of discarding one&amp;apos;s hand
+*Multi-User Chat Kingdom or [[TinyMUCK]], a type of text-based multi-user game or chat forum
+
+==Other uses==
+*[[Muck (mining)]], sorting out the rich ore from the poor rock in an underground metallic mine after blasting
+*A red bulldozer character in the children&amp;apos;s television show &amp;apos;&amp;apos;[[Bob the Builder]]&amp;apos;&amp;apos;
+*[[Muck diving]], diving into a normally muddy or &amp;quot;mucky&amp;quot; environment
+
+==See also==
+*[[Mucc]], a Japanese rock band
+*[[Muk (disambiguation)]]
+*[[Mucker (disambiguation)]]
+
+{{disambiguation|geo|surname}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

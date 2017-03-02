@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Planetary"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Planetary" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|planetary}}
+&amp;apos;&amp;apos;&amp;apos;Planetary&amp;apos;&amp;apos;&amp;apos; means relating to a [[planet]] or planets.  It can also refer to:
+
+* [[Planetary (comics)|&amp;apos;&amp;apos;Planetary&amp;apos;&amp;apos; (comics)]], a comic book series by Warren Ellis and John Cassaday
+* [[Planetary habitability]], the measure of an astronomical body&amp;apos;s potential to develop and sustain life
+* [[Planetary nebula]], an astronomical object
+* [[Epicyclic gearing]] (planetary gearing), an automotive transmission technology
+* &amp;apos;&amp;apos;[[Planetary Radio]]&amp;apos;&amp;apos;, a public radio show about space exploration, produced by [[The Planetary Society]]
+* [[The Planetary Society]], the Earth&amp;apos;s largest space interest group
+* [[Planetary (rapper)]], one half of east coast rap group [[OuterSpace]]
+* [[Planetary (Go!)|&amp;quot;Planetary&amp;quot; (Go!)]], a 2011 song by rock band My Chemical Romance
+* [[Planetary scanner]] - type of image scanner for making scans of rare books with mounted camera taking photos
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

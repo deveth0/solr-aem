@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Vyazemsky District"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Vyazemsky District" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[File:Map of Russia - Khabarovsk Krai (2008-03).svg|thumb|right|Location of Khabarovsk Krai in Russia]]
+[[File:Map of Russia - Smolensk Oblast (2008-03).svg|thumb|right|Location of Smolensk Oblast in Russia]]
+
+&amp;apos;&amp;apos;&amp;apos;Vyazemsky District&amp;apos;&amp;apos;&amp;apos; is the name of several administrative and municipal districts in [[Russia]].
+*[[Vyazemsky District, Khabarovsk Krai]], an administrative&amp;lt;ref name=&amp;quot;KhabarovskK_adm&amp;quot;&amp;gt;{{RussiaAdmMunRef|kha|adm|list}}&amp;lt;/ref&amp;gt; and municipal&amp;lt;ref name=&amp;quot;KhabarovskK_munMD&amp;quot;&amp;gt;{{RussiaAdmMunRef|kha|munmd|list}}&amp;lt;/ref&amp;gt; district of [[Khabarovsk Krai]]
+*[[Vyazemsky District, Smolensk Oblast]], an administrative&amp;lt;ref name=&amp;quot;SmolenskO_adm&amp;quot;&amp;gt;{{RussiaAdmMunRef|smo|adm|list}}&amp;lt;/ref&amp;gt; and municipal&amp;lt;ref name=&amp;quot;SmolenskOVyazemskyD_mun&amp;quot;&amp;gt;{{RussiaAdmMunRef|smo|mun|list|vyazemsky}}&amp;lt;/ref&amp;gt; district of [[Smolensk Oblast]]
+
+==See also==
+*[[Vyazemsky (disambiguation)]]
+
+==References==
+{{Reflist}}
+
+{{SIA|Russian districts}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

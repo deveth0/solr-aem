@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ensemble La Fenice"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ensemble La Fenice" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Ensemble La Fenice&amp;apos;&amp;apos;&amp;apos; is a period wind band based in the town of [[Auxerre]] in the [[Bourgogne]] region of [[France]]. Founded in 1990 by the [[cornett]] player [[Jean Tubéry]], the ensemble specializes in music of the [[Baroque]] era played on period instruments.
+
+==External links==
+[http://www.ensemblelafenice.com/index_fr_01.html La Fenice Ensemble home page (in French)]
+[http://www.answers.com/topic/ensemble-la-fenice-classical-musician Information about this ensemble at answers.com]
+* Full Wikipedia Article (in Italian)-
+http://it.wikipedia.org/wiki/Ensemble_La_Fenice
+
+[[Category:French orchestras]]
+[[Category:Chamber orchestras]]
+[[Category:Musical groups established in 1990]]
+
+
+{{France-band-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

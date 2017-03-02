@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Kaminsky catalyst"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Kaminsky catalyst" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+A &amp;apos;&amp;apos;&amp;apos;Kaminsky catalyst&amp;apos;&amp;apos;&amp;apos; is a [[Catalysis|catalytic system]] for [[alkene]] [[polymerization]] discovered in 1980. Kaminsky catalysts are based on [[metallocene]]s of group 4 [[transition metal]]s with [[methylaluminoxane]] (MAO). These catalysts are a type of [[Ziegler-Natta catalyst]], but they are homogeneous and show extremely high activity for polymerization of [[olefin]]s such as [[ethylene]], [[propylene]], and [[styrene]]. In addition, the use of [[Chirality (chemistry)|chiral]] metallocenes that have bridged [[cyclopentadienyl]] rings has made possible highly stereoselective (or stereoregular) polymerization of [[α-olefin]]s. For example, by using metallocene &amp;apos;&amp;apos;&amp;apos;1&amp;apos;&amp;apos;&amp;apos; for polymerization of propylene, [[atactic]] [[polypropylene]] is obtained, while &amp;apos;&amp;apos;C&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt; [[Molecular symmetry|symmetric]] metallocene &amp;apos;&amp;apos;&amp;apos;2&amp;apos;&amp;apos;&amp;apos; and &amp;apos;&amp;apos;C&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;s&amp;lt;/sub&amp;gt; symmetric metallocene &amp;apos;&amp;apos;&amp;apos;3&amp;apos;&amp;apos;&amp;apos; catalytic systems produce [[isotactic]] polymer and [[syndiotactic macromolecule]], respectively.
+
+[[Image:metallocenes3.png]]
+
+[[Image:Polypropylen.svg]]
+
+Kaminsky catalysts are very attractive from the industrial, [[organometallic]], and [[polymer science]] points of view, and they are studied to improve their activity and to achieve high [[tacticity]] and high [[molecular weight]] of the produced polymers.
+
+{{DEFAULTSORT:Kaminsky Catalyst}}
+[[Category:Homogeneous catalysis]]
+[[Category:Organometallic chemistry]]
+[[Category:Polymer chemistry]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Xincheng District, Hohhot"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Xincheng District, Hohhot" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{See also|Xincheng}}
+
+&amp;apos;&amp;apos;&amp;apos;Xincheng District&amp;apos;&amp;apos;&amp;apos; ({{zh|s=新城区 |t=新城區|p=Xīnchéng Qū}}) is a [[District (PRC)|district]] of [[Hohhot]], the capital of the [[Inner Mongolia]] Autonomous Region, [[People&amp;apos;s Republic of China]].
+
+{{Contains Chinese text}}
+{{County-level divisions of Inner Mongolia}}
+
+{{coord|40|51|36|N|111|39|36|E|region:CN-15_type:adm2nd_source:kolossus-dewiki|display=title}}
+
+[[Category:County-level divisions of Inner Mongolia]]
+
+{{InnerMongolia-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

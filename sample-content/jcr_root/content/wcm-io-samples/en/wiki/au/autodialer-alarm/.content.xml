@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Autodialer alarm"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Autodialer alarm" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+&amp;lt;!-- Unsourced image removed: [[File:Communityalarm1.JPG|right|300px|thumb|A Community Alarm Base station]] --&amp;gt;
+An &amp;apos;&amp;apos;&amp;apos;autodialer alarm&amp;apos;&amp;apos;&amp;apos;, or &amp;apos;&amp;apos;&amp;apos;community alarm&amp;apos;&amp;apos;&amp;apos; as it is known in [[United Kingdom|Britain]] when it is run by the [[County council]], is an electronic device that usually has a [[push button]] [[transmitter]], through which an individual may use to summon assistance to their location. These portable transmitters send a signal to the alarm unit. The transmitter is designed to be worn around the neck, on the wrist or clipped onto the clothing. Some brands offer additional methods of setting off the alarm such as a button on the alarm unit itself, wall buttons or pull cords. Some alarms will go off automatically if they [[Smoke alarm|detect smoke]], an intruder, a low room [[temperature]] or if the individual hasn&amp;apos;t moved in a while.
+
+[[File:Communityalarm2.JPG|left|100px|thumb|A Community Alarm RF Pendant]]
+Once the button is pressed, the alarm unit will automatically contact a relative or friend or a special control centre. With most alarm systems it is possible for the person who answers the call to hear and talk to the individual, although this is not necessary as the alarm is raised by pushing the button.
+
+When the device transmits to a control centre, personal information of the owner will automatically appear on a [[computer terminal]] in front of the operator. They will usually try to speak to the individual, often via an intercom channel that is opened up when the alarm is activated, and if the individual needs help or they cannot get a reply, then they will arrange for someone to visit.
+
+An alarm which dials directly through to a relative&amp;apos;s or friend&amp;apos;s house will usually be programmed to dial more than one number, to increase the chances of finding someone at home.
+
+An autodialer alarm is different from an [[alarm autodialer]], part of a wall alarm.
+
+==Connection methods==
+There are five main interfaces on a community alarm base unit.
+# The electricity supply, which runs the unit and charges up internal [[Battery (electricity)|batteries]] so the alarm works even if the [[Mains_electricity|mains]] have been off for a few hours.
+# [[Phone line]], which the base station uses to signal the alarm to the control centre or [[telephone]]. When communicating with a control centre, the base station&amp;apos;s identity is communicated to the control centre&amp;apos;s computer system, often using [[DTMF]]. The name and address, as well as other information stored on the control centre&amp;apos;s database, are displayed on the operator&amp;apos;s [[computer terminal]]. The base station also transmits the source within the house of the alarm.
+# Aerial, to receive the [[Radio frequency|RF]] alarm signal from the pendant.
+# Alarm button on base unit, in case the pendant is lost.
+# Alarm contacts, so the base unit can be connected to smoke or gas detectors.
+
+{{DEFAULTSORT:Autodialer Alarm}}
+[[Category:Security technology]]
+[[Category:Telephony equipment]]
+[[Category:Alarms]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

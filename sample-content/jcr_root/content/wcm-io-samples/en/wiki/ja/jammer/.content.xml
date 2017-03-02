@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Jammer"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Jammer" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Wiktionary}}
+&amp;apos;&amp;apos;&amp;apos;Jammer&amp;apos;&amp;apos;&amp;apos; may refer to:
+* [[Jammer keyboard]]
+* Jammer, a device used in [[radar jamming and deception]] and [[Communications System Jamming]], a technique in electronic warfare to inhibit or halt the transmission of signals
+* [[Mobile phone jammer]], an instrument used to prevent cellular phones from receiving signals from base stations.
+* [[Swim jammer]], a type of male competitive swimwear
+* [[Max Jammer]], a noted physicist in the 20th century
+* [[Jammer (Battlestar Galactica)]], a character in the TV series Battlestar Galactica
+* The red buses used to shuttle guests around [[Glacier National Park (U.S.)|Glacier National Park]]
+* [[Jammer (mascot)]], mascot of the Northern League Joliet Jackhammers
+* A player for the [[Jamestown Jammers]] minor league baseball team
+* Jammer, the scoring position in [[Roller derby]]
+* [[Quentin Jammer]], a cornerback for the San Diego Chargers
+* [[Jammer (rapper)]], a UK grime MC
+* Jammer ([[Jammer Direct]]), a member of the Social Networking Site [[Jammer Direct]]
+* Jammers, a group of characters in the TV series &amp;apos;&amp;apos;[[The Prisoner]]&amp;apos;&amp;apos; who use misdirection to confuse onlookers with misinformation
+* [[Jammer (Sailing)]], a mechanical fitting with a lever arm that cleats a rope.
+* [[Um Jammer Lammy]], a rhythm video game for the [[PlayStation (console)|PlayStation]]
+* [[Jammer (Artist,Host)]], a copyrighted artist and co-host of &amp;quot;[[The Spit or Swallow Beer Review]]&amp;quot; with Shagdog from www.mytrurevu.com and on YouTube channel named &amp;quot;[[mytrurevu]]&amp;quot;
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

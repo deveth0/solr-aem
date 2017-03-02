@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:Building Wikipedia membership/Newsgroups"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:Building Wikipedia membership/Newsgroups" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;Newsgroups are a form of mass mailing list.
+
+Although there are many providers of access to newsgroups, one of the major and more well known sites is [[Google Groups]]
+
+[[Google Groups]] is really easy to use, I&amp;apos;ve discovered--if you don&amp;apos;t have a newsreader set up, it&amp;apos;s a more than adequate substitute.
+
+Groups we have posted to:
+:soc.history.moderated
+:soc.religion.christian.bible-study
+:humanities.classics
+:humanities.lit.authors.shakespeare
+:sci.physics.relativity
+:sci.stat.math
+:sci.econ
+:sci.anthropology
+
+Here are a couple of direct Google links that may be of interest:
+
+* [http://www.google.com/groups?as_q=wikipedia&amp;amp;safe=images&amp;amp;ie=UTF-8&amp;amp;oe=UTF-8&amp;amp;lr=&amp;amp;num=30&amp;amp;as_scoring=d&amp;amp;hl=en Search Google groups for all mentions of Wikipedia]
+* [http://www.google.com/groups?as_q=%22www.wikipedia.org%22&amp;amp;safe=images&amp;amp;ie=UTF-8&amp;amp;oe=UTF-8&amp;amp;lr=&amp;amp;num=30&amp;amp;as_scoring=d&amp;amp;hl=en Search specifically for mentions of English Wikipedia]
+
+:&amp;apos;&amp;apos;See also :&amp;apos;&amp;apos; [[Wikipedia:Building Wikipedia membership|Building Wikipedia membership]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

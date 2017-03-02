@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Plane at infinity"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Plane at infinity" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=June 2009}}
+In [[projective geometry]], the &amp;apos;&amp;apos;&amp;apos;plane at infinity&amp;apos;&amp;apos;&amp;apos; is a [[projective plane]] which is added to the affine 3-space in order to give it closure of [[Incidence (geometry)|incidence]] properties.  The result of the addition is the projective 3-space, &amp;lt;math&amp;gt;P^3&amp;lt;/math&amp;gt;. If the affine 3-space is real, &amp;lt;math&amp;gt;\mathbb{R}^3&amp;lt;/math&amp;gt;, then the addition of a [[real projective plane]] &amp;lt;math&amp;gt;\mathbb{R}P^2&amp;lt;/math&amp;gt; at infinity produces the real projective 3-space &amp;lt;math&amp;gt;\mathbb{R}P^3&amp;lt;/math&amp;gt;.
+==Discussion==
+Note that since the (real) plane at infinity is a projective plane, it is [[homeomorphic]] to the surface of a &amp;quot;sphere modulo antipodes&amp;quot;, i.e. a sphere in which [[antipodal point]]s are equivalent: S&amp;lt;sup&amp;gt;2&amp;lt;/sup&amp;gt;/{1,-1} where the quotient is understood as a quotient by a group action (see [[quotient space]]).
+
+Using [[homogeneous coordinates]], any point on affine 3-space can be represented as (&amp;apos;&amp;apos;X&amp;apos;&amp;apos;:&amp;apos;&amp;apos;Y&amp;apos;&amp;apos;:&amp;apos;&amp;apos;Z&amp;apos;&amp;apos;:1).  Then, any point on the plane at infinity can be represented as (&amp;apos;&amp;apos;X&amp;apos;&amp;apos;:&amp;apos;&amp;apos;Y&amp;apos;&amp;apos;:&amp;apos;&amp;apos;Z&amp;apos;&amp;apos;:0).  The points on the plane at infinity seem to have three degrees of freedom, but homogeneous coordinates are equivalent [[up to]] any rescaling:
+
+: &amp;lt;math&amp;gt; (X : Y : Z : 0) \equiv (a X : a Y : a Z : 0) &amp;lt;/math&amp;gt;,
+
+so that the coordinates (&amp;apos;&amp;apos;X&amp;apos;&amp;apos;:&amp;apos;&amp;apos;Y&amp;apos;&amp;apos;:&amp;apos;&amp;apos;Z&amp;apos;&amp;apos;:0) can be [[Normalized vector|normalized]], thus reducing the degrees of freedom to two (thus, a surface, namely the real projective plane).
+
+&amp;apos;&amp;apos;Proposition&amp;apos;&amp;apos;: Any line which passes through the [[Origin (mathematics)|origin]] (0:0:0:1) and through a point (&amp;apos;&amp;apos;X&amp;apos;&amp;apos;:&amp;apos;&amp;apos;Y&amp;apos;&amp;apos;:&amp;apos;&amp;apos;Z&amp;apos;&amp;apos;:1) will pass the plane at infinity through point (&amp;apos;&amp;apos;X&amp;apos;&amp;apos;:&amp;apos;&amp;apos;Y&amp;apos;&amp;apos;:&amp;apos;&amp;apos;Z&amp;apos;&amp;apos;:0).
+
+&amp;apos;&amp;apos;Proof&amp;apos;&amp;apos;: A line which passes through points (0:0:0:1) and (&amp;apos;&amp;apos;X&amp;apos;&amp;apos;:&amp;apos;&amp;apos;Y&amp;apos;&amp;apos;:&amp;apos;&amp;apos;Z&amp;apos;&amp;apos;:1) will consist of points which are [[homogeneous coordinates#Linear Combinations of Points Described with Homogeneous Co-ordinates|linear combinations]] of the two given points:
+:&amp;lt;math&amp;gt; (1 - 2^n) (0:0:0:1) + 2^n (X:Y:Z:1) \  &amp;lt;/math&amp;gt;
+::&amp;lt;math&amp;gt; = (0:0:0:1) + (2^n X : 2^n Y : 2^n Z : 1), \ &amp;lt;/math&amp;gt;
+::&amp;lt;math&amp;gt; = (2^n X : 2^n Y : 2^n Z : 1), \ &amp;lt;/math&amp;gt;
+::&amp;lt;math&amp;gt; = \left( X : Y : Z : {1 \over 2^n} \right). &amp;lt;/math&amp;gt;
+Since all of these points belong to the line, for any &amp;apos;&amp;apos;n&amp;apos;&amp;apos;, then letting &amp;lt;math&amp;gt; n \rightarrow \infty &amp;lt;/math&amp;gt; (infinity belongs to the projective number line) yields &amp;lt;math&amp;gt; (X : Y : Z : 0) &amp;lt;/math&amp;gt;, as required.  [[Q.E.D.]]
+
+Any pair of parallel lines in 3-space will intersect each other at a point on the plane at infinity.  Also, every line in 3-space intersects the plane at infinity at a unique point.  This point is determined by the direction—and only by the direction—of the line.  To determine this point, &amp;quot;draw&amp;quot; a line parallel to the given line, but passing through the origin.  Then choose any point, other than the origin, on this second line.  If the homogeneous coordinates of this point are (&amp;apos;&amp;apos;X&amp;apos;&amp;apos;:&amp;apos;&amp;apos;Y&amp;apos;&amp;apos;:&amp;apos;&amp;apos;Z&amp;apos;&amp;apos;:1), then the homogeneous coordinates of the point at infinity through which the first and second line both pass is (&amp;apos;&amp;apos;X&amp;apos;&amp;apos;:&amp;apos;&amp;apos;Y&amp;apos;&amp;apos;:&amp;apos;&amp;apos;Z&amp;apos;&amp;apos;:0).
+
+&amp;apos;&amp;apos;Example&amp;apos;&amp;apos;: the first line passes through points (0:0:1:1) and (3:0:1:1).  The second line passes through points (0:0:0:1) and (3:0:0:1).  The second line passes the plane at infinity through point (3:0:0:0).  But the first line also passes through this point:
+:&amp;lt;math&amp;gt; \lambda (3:0:1:1) + (1 - \lambda) (0:0:1:1) \  &amp;lt;/math&amp;gt;
+::&amp;lt;math&amp;gt; = \lambda [(3:0:1:1) - (0:0:1:1)] + (0:0:1:1) \  &amp;lt;/math&amp;gt;
+::&amp;lt;math&amp;gt; = \lambda (3:0:0:1) + (0:0:1:1) \ &amp;lt;/math&amp;gt;
+::&amp;lt;math&amp;gt; = (3 \lambda : 0 : 0 : 1) + (0:0:1:1) \ &amp;lt;/math&amp;gt;
+::&amp;lt;math&amp;gt; = \left( 3 : 0 : 0 : {1 \over \lambda} \right) + (0:0:1:1) &amp;lt;/math&amp;gt;
+Letting &amp;lt;math&amp;gt; \lambda \rightarrow \infty &amp;lt;/math&amp;gt;,
+: &amp;lt;math&amp;gt; (3:0:0:0) + (0:0:1:1) = (3:0:0:0) \ &amp;lt;/math&amp;gt;
+since points at infinity are dominant. ■
+
+Any pair of parallel planes in 3-space will intersect each other at a projective line (a line at infinity) on the plane at infinity.  Also, every plane in 3-space intersects the plane at infinity at a unique line.  This line is determined by the direction—and only by the direction—of the plane.
+
+==See also==
+* [[Hyperplane at infinity]]
+* [[Line at infinity]]
+* [[Point at infinity]]
+
+[[Category:Articles containing proofs]]
+[[Category:Infinity]]
+[[Category:Projective geometry]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

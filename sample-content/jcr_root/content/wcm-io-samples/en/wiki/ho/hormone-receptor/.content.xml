@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Hormone receptor"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Hormone receptor" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;A &amp;apos;&amp;apos;&amp;apos;hormone receptor&amp;apos;&amp;apos;&amp;apos; is a [[molecule]] that can bind to a specific [[hormone]]. Receptors for [[peptide]] hormones tend to be found on the [[cell membrane|plasma membrane]] of cells, whereas receptors for [[lipophillicity|lipid-soluble]] hormones are usually found within the [[cytoplasm]]. Upon hormone binding, the receptor can initiate multiple signaling pathways which ultimately lead to changes in the behaviour of the target cells.
+
+== Peptide hormone receptors ==
+Many hormones are composed of [[peptides|polypeptides]], e.g. [[thyroid-stimulating hormone]], [[follicle-stimulating hormone]], [[leutinizing hormone]] and [[insulin]]. These molecules are not lipid-soluble and therefore cannot [[molecular diffusion|diffuse]] through cell membranes. Consequently, receptors for peptide hormones are located on the plasma membrane.
+
+[[Peptide hormone]] receptors are often [[transmembrane protein]]s. They are also called [[G-protein-coupled receptor]]s, [[sensory receptor]]s or [[ionotropic receptor]]s. These receptors generally function via intracellular [[second messengers]], including  [[cyclic AMP]] (cAMP), inositol 1,4,5-trisphosphate ([[Inositol triphosphate|IP3]]) and the [[Calcium signaling|calcium]] (Ca&amp;lt;sup&amp;gt;2+&amp;lt;/sup&amp;gt;)-[[calmodulin]] system.
+
+==Lipid-soluble hormone receptors==
+[[Steroid hormone receptor]]s and related receptors are generally soluble proteins that function through gene activation.  Their response elements are DNA sequences (promoters) that are bound by the complex of the steroid bound to its receptor.  The receptors themselves are [[zinc-finger]] proteins.&amp;lt;ref&amp;gt;[http://users.rcn.com/jkimball.ma.ultranet/BiologyPages/S/SteroidREs.html Steroid Hormone Receptors and their Response Elements]&amp;lt;/ref&amp;gt;  These receptors include those for [[glucocorticoid]]s, [[estrogen]]s, [[androgen]]s, [[thyroid hormone]] (T3), [[calcitriol]] (the active form of [[vitamin D]]), and the [[retinoid]]s ([[vitamin A]]).
+
+== References ==
+{{reflist}}
+
+{{Neuropeptide receptors}}
+{{Transcription factors|g2}}
+
+[[Category:Receptors]]
+[[Category:Integral membrane proteins]]
+
+
+{{membrane-protein-stub}}
+{{receptor-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

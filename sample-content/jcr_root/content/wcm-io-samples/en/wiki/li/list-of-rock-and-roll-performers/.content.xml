@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="List of rock and roll performers"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="List of rock and roll performers" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{See also|Rock and roll|Popular music|List of popular music performers|Country music|List of country music performers}}
+This is a &amp;apos;&amp;apos;&amp;apos;list of rock and roll performers&amp;apos;&amp;apos;&amp;apos;.
+*[[The Beach Boys]]
+*[[The Beatles]]
+*[[Bill Haley &amp;amp; The Comets]] - key contributor of the [[rockabilly]] revolution from [[R&amp;amp;B]] to rock and roll; &amp;quot;[[Rocket 88]]&amp;quot;, &amp;quot;[[Rock Around the Clock]]&amp;quot;
+*[[Bobby Darin]] - teen idol; &amp;quot;Dream Lover&amp;quot;, &amp;quot;Mack the Knife&amp;quot;
+*[[Bobby Lewis]] - &amp;quot;Tossin&amp;apos; and Turnin&amp;apos;&amp;quot;
+*[[Bruce &amp;amp; Terry]] - surf duo; &amp;quot;Hey Little Cobra&amp;quot;
+*[[Buddy Holly]] - rock and roll musician; &amp;quot;Peggy Sue&amp;quot;
+*[[Carl Perkins]] - rockabilly pioneer; &amp;quot;[[Blue Suede Shoes]]&amp;quot;
+*[[The Chantays]] - surf band; &amp;quot;Pipeline&amp;quot;
+*[[Chuck Berry]] - singer-songwriter, guitarist, &amp;quot;[[Maybelline (song)|Maybellene]]&amp;quot;, &amp;quot;[[Johnny B. Goode]]&amp;quot;
+*[[Dave &amp;quot;Baby&amp;quot; Cortez]] - &amp;quot;The Happy Organ&amp;quot;
+*[[Dick Dale]] - surf music pioneer; &amp;quot;[[Let&amp;apos;s Go Trippin&amp;apos;]]&amp;quot;
+*[[Dorsey Burnette]] - rockabilly singer; &amp;quot;[[Big Rock Candy Mountain]]&amp;quot;
+*[[Johnny Burnette]] - rockabilly singer; &amp;quot;You&amp;apos;re Sixteen&amp;quot;, &amp;quot;[[Train Kept A-Rollin&amp;apos;]]&amp;quot;
+*[[Eddie Cochran]] - rockabilly guitar hero; &amp;quot;[[Summertime Blues]]&amp;quot;
+*[[Elvis Presley]] - popularizer of American rock and roll; &amp;quot;Blue Moon of Kentucky&amp;quot;, &amp;quot;[[Heartbreak Hotel]]&amp;quot;, &amp;quot;[[Jailhouse Rock (song)|Jailhouse Rock]]&amp;quot;, &amp;quot;[[Are You Lonesome Tonight? (song)|Are You Lonesome Tonight?]]&amp;quot;
+*[[Fabian (entertainer)|Fabian]] - teen idol; &amp;quot;Tiger&amp;quot;
+*[[Freddy Cannon]], hard rock, nicknamed &amp;quot;Boom Boom&amp;quot;
+*[[Gene Vincent]] - rockabilly musician; &amp;quot;Be-Bop-A-Lula&amp;quot;
+*[[Gene Summers]] - rockabilly entertainer; &amp;quot;School Of Rock &amp;apos;n Roll&amp;quot; &amp;quot;Big Blue Diamonds&amp;quot;, &amp;quot;Nervous&amp;quot;
+*[[Tommy &amp;amp; The Tom Toms]] aka The Bill Smith Combo - &amp;quot;Tomahawk&amp;quot;, &amp;quot;Heartbreak Hotel&amp;quot;
+*[[Jackie DeShannon]] - pop-folk singer; &amp;quot;What the World Needs Now&amp;quot;
+*[[Jackie Wilson]] - soul singer; &amp;quot;Lonely Teardrops&amp;quot;, &amp;quot;Baby Workout&amp;quot;
+*[[Jan &amp;amp; Dean]] - surf and pop doo-wop duo; &amp;quot;Surf City&amp;quot;, &amp;quot;Baby Talk&amp;quot;
+*[[Jerry Lee Lewis]] - pianist, singer; &amp;quot;Whole Lotta Shakin&amp;apos; Goin&amp;apos; On&amp;quot;, &amp;quot;Great Balls of Fire&amp;quot;
+*[[Pat Boone]] - pop vocalist; &amp;quot;[[Tutti Frutti (song)|Tutti Frutti]]&amp;quot;, &amp;quot;Ain&amp;apos;t That a Shame&amp;quot;
+*[[Ritchie Valens]] - rock and roll musician; &amp;quot;La Bamba&amp;quot;
+*[[Ricky Nelson]] -a  Rockabilly singer and early television teen idol
+*[[Ronnie Van Zant]] - rockabilly performer; &amp;quot;Sweet Home Alabama&amp;quot;, &amp;quot;Free Bird&amp;quot;
+*[[Ronny &amp;amp; the Daytonas]] - surf rock; &amp;quot;G.T.O.&amp;quot;
+*[[Roy Orbison]] - &amp;quot;Running Scared&amp;quot;, &amp;quot;It&amp;apos;s Over&amp;quot;, &amp;quot;Oh, Pretty Woman&amp;quot;
+*[[Jack Scott (singer)|Jack Scott]] - pop balladeer, &amp;quot;Burning Bridges&amp;quot;, &amp;quot;What In The World&amp;apos;s Come Over You&amp;quot;
+*[[The Surfaris]] - surf band; &amp;quot;Wipeout&amp;quot;
+*[[Tommy James &amp;amp; the Shondells]] - pop-rock; &amp;quot;Crimson and Clover&amp;quot;, &amp;quot;Hanky Panky&amp;quot;, &amp;quot;[[I Think We&amp;apos;re Alone Now]]&amp;quot;
+*[[Wilbert Harrison]] - &amp;quot;Kansas City&amp;quot;, &amp;quot;Let&amp;apos;s Work Together&amp;quot;
+
+[[Category:Lists of rock musicians by subgenre|Rock and roll]]
+[[Category:Lists of rock musicians|Rock and rol]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

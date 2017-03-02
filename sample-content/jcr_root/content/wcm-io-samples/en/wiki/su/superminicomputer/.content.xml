@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Superminicomputer"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Superminicomputer" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{About|the class of computer|the European car size class|supermini car}}
+{{Distinguish|minisupercomputer}}
+A &amp;apos;&amp;apos;&amp;apos;superminicomputer&amp;apos;&amp;apos;&amp;apos;, or &amp;apos;&amp;apos;&amp;apos;supermini&amp;apos;&amp;apos;&amp;apos;, is “a [[minicomputer]] with high performance compared to ordinary minicomputers.” The term was an invention used from the mid-1970s&amp;lt;ref&amp;gt;{{Citation
+  | doi = 10.1109/PROC.1973.9322
+  | last = Koudela
+  | first = J., Jr.
+  | author-link =
+  | title = The past, present, and future of minicomputers: A scenario
+  | journal = Proceedings of the IEEE
+  | volume = 61
+  | issue = 11
+  | pages = 1526–1534
+  | date = Nov. 1973
+  | year = 1973
+}}&amp;lt;/ref&amp;gt; mainly to distinguish the emerging [[32-bit]] minis from the classical [[16-bit]] minicomputers.&amp;lt;ref&amp;gt;{{Citation
+  | doi = 10.1109/TNS.1982.4335992
+  | last = Flowers
+  | first = Jeff
+  | author-link =
+  | title = The Use of the 32-Bit Minicomputer for Data Acquisition
+  | journal = IEEE Transactions on Nuclear Science
+  | volume = 29
+  | issue = 1
+  | pages = 927–931
+  | date = Feb. 1982
+  | year = 1982
+}}&amp;lt;/ref&amp;gt; The term is now largely obsolete but still remains of interest for students/researchers of [[history of computers|computer history]].
+
+== Significant superminis ==
+
+* [[Norsk Data]] [[NORD-5]], first supermini, 1972
+* Norsk Data [[Nord-50]], 1975
+* [[Interdata]] [[Interdata 7/32 and 8/32|7/32 and 8/32]] later taken over by [[PerkinElmer]]
+* [[Systems Engineering Laboratories]] [[Systems Engineering Laboratories|32/55]], 1976
+* [[Digital Equipment Corporation|DEC]] [[VAX-11/780]], shipped February 1978
+* [[Data General]] [[Data General Eclipse MV/8000|Eclipse MV/8000]], 1980
+* [[MAI Basic Four]] MAI 8000, 1983 [http://www.answers.com/topic/mai-systems-corporation] and MPx [http://findarticles.com/p/articles/mi_m0EKF/is_n1903_v38/ai_12041852/]
+* [[Gould Electronics]] [[Powernode 9080]]
+* Gould Electronics [[NP-1]]
+* Norsk Data [[ND-500]], 1981
+* Norsk Data [[ND-570/CX]], fastest supermini, 1983, at 7.1 [[Whetstone (benchmark)|Whetstone]] [[million instructions per second|MIPS]]
+* [[Prime Computer]] 750
+
+== References ==
+{{wiktionary}}
+{{Reflist}}
+
+{{Computer sizes}}
+{{mini-compu-stub}}
+
+[[Category:Minicomputers|*Super]]
+[[Category:Classes of computers]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

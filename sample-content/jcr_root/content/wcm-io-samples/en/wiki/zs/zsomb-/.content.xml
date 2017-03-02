@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Zsombó"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Zsombó" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox settlement &amp;lt;!--more fields are available for this Infobox--See Template:Infobox Settlement--&amp;gt;
+|settlement_type        = &amp;lt;!--For Town or Village (Leave blank for the default City)--&amp;gt;
+|subdivision_type = [[Countries of the world|Country]]
+|subdivision_name       = {{HUN}}
+|latd= |latm= |lats= |latNS=N
+|longd= |longm= |longs= |longEW=E
+
+&amp;lt;!--If coordinates are filled in above remove ed notes from &amp;quot;Hungary&amp;quot; in pushpin_map field to display map--&amp;gt;
+|pushpin_map            = &amp;lt;!--Hungary--&amp;gt;
+|pushpin_label_position = &amp;lt;!-- the position of the pushpin label: left, right, top, bottom, none --&amp;gt;
+|pushpin_map_caption    =
+|pushpin_mapsize        =
+|timezone=[[Central European Time|CET]]
+|utc_offset=+1
+|timezone_DST=[[Central European Summer Time|CEST]]
+|utc_offset_DST=+2
+|
+official_name=Zsombó|
+subdivision_type1=[[Counties of Hungary|County]]|
+subdivision_name1=Csongrád|
+area_total_km2=26.90|
+population_as_of=2002|
+population_total=3331|
+population_density_km2=124|
+postal_code_type=[[Postal code]]|
+postal_code=6792|
+area_code=62|
+}}
+
+[[Image:CsongradCounty.gif|thumb|right|300px|Location of [[Csongrád County]] in [[Hungary]]]]
+&amp;apos;&amp;apos;&amp;apos;Zsombó&amp;apos;&amp;apos;&amp;apos; is a [[village]] in [[Csongrád]] county, in the [[Southern Great Plain]] [[region]] of southern [[Hungary]].
+
+==Geography==
+It covers an [[area]] of {{convert|26.9|km2|sqmi|0|abbr=on}} and has a [[population]] of 3331 people (2001).
+More information: [www.zsombo.hu]
+
+{{Csongrad}}
+
+{{coord|46|20|N|19|59|E|region:HU_type:city|display=title}}
+
+{{DEFAULTSORT:Zsombo}}
+[[Category:Populated places in Csongrád county]]
+
+{{Csongrad-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="XERRT-AM"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="XERRT-AM" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox Radio station
+| name                 = XERRT
+| image                =
+| city                 = [[Tampico, Tamaulipas]]
+| area                 =
+| branding             = &amp;apos;&amp;apos;Voz FM: La Radio Impresionante&amp;apos;&amp;apos;
+| slogan               =
+| frequency            = 1270 [[kHz]].
+| repeater             = 92.5 [[MHz]].
+| airdate              =
+| format               = Pop and rock music in english and spanish
+| power                = 2,000 [[watt]]s day, 500 [[watt]]s night
+| class                = B
+| facility_id          =
+| coordinates          =
+| callsign_meaning     =
+| former_callsigns     =
+| affiliations         = Voz FM
+| owner                = Radiorama Tampico
+| licensee             =
+| sister_stations      =
+| webcast              =
+| website              = {{official|http://www.radioramatampico.com}}
+}}
+
+
+&amp;apos;&amp;apos;&amp;apos;XERRT&amp;apos;&amp;apos;&amp;apos; (branded as Voz FM) is a [[Mexico|Mexican]] [[Spanish language|Spanish-language]] AM [[radio station]] that serves the [[Tampico, Tamaulipas|Tampico]], [[Tamaulipas]] market area.
+
+==External links==
+* {{AMQ|XERRT}}
+* {{AML|XERRT}}
+* [http://www.mexicoradiotv.com/listtama.htm mexicoradiotv.com; List of Tamaulipas radio stations]
+* [http://radiostationworld.com/locations/Mexico/radio.asp?m=ta~ radiostationworld.com List of radio stations in Tamaulipas]
+
+{{Tampico Radio}}
+
+{{coord missing|Mexico}}
+
+[[Category:Spanish-language radio stations]]
+[[Category:Radio stations in Tampico]]
+
+
+{{Mexico-radio-station-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

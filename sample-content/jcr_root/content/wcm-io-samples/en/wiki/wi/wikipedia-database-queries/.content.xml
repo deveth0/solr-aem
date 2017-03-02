@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:Database queries"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:Database queries" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{shortcut|WP:SQL}}
+
+{{nutshell|Queries can be run against the Wikipedia database in a variety of ways}}
+
+== Overview ==
+
+Much of the data that makes up the Wikipedia encyclopaedia is stored in a [[SQL database]].  It can sometimes be useful to run queries against this database to extract information that is otherwise hard to find.  For example:
+
+* Articles with &amp;apos;&amp;apos;H.M.S.&amp;apos;&amp;apos; in their title that have not been edited for 12 months.
+* [[WP:Redirect|Redirects]] with fewer than 20 incoming links that redirect to [[WP:Category|categories]]
+* All [[WP:Red link|red links]] on pages within the scope of a particular [[WP:WikiProject|WikiProject]]
+
+Many simple queries can be run directly using the tools built into the [[MediaWiki]] package used by Wikipedia.  Some of the most popular and useful queries are run regularly and can be found at [[Wikipedia:Database reports]].  If neither of these suits your query, you can request that someone run a query for you, or download your own copy of the database to work on.
+
+== Using the MediaWiki tools ==
+Some queries can be satisfied through the MediaWiki interface:
+
+* [http://en.wikipedia.org/w/index.php?title=Special:Search&amp;amp;search=&amp;amp;fulltext=Search&amp;amp;profile=advanced&amp;amp;redirs=1 Search in advanced mode]
+* [[Special:PrefixIndex|All pages with prefix]]
+* [[Special:CategoryTree|Category tree]]
+* [http://www.mediawiki.org/wiki/API MediaWiki API] (see [[Special:ApiSandbox]])
+
+== Queries that are already run regularly ==
+Useful queries that are regularly run can be found at:
+
+* [[Special:SpecialPages]]
+* [[Wikipedia:Database reports]]
+* [[Wikipedia:Statistics]]
+
+And many other places.
+
+== Requesting that a query be run ==
+Some Wikipedians have the ability to run queries on a copy of the live database on the [[WP:Toolserver|toolserver]].  You may request they do this at [[tswiki:Query service]].
+
+Users with both technical access to the database and the willingness to perform queries may be found by viewing the [https://wiki.toolserver.org/w/index.php?title=Special%3AListUsers&amp;amp;group=query-service&amp;amp;limit=50 list of query-service users].
+
+== Running a query yourself ==
+Copies of important Wikipedia database tables are periodically made available to download.  Along with an an installation of the free [[MySQL]] database software, these can be used to set up your own copy of the Wikipedia database on which you can run your own queries.
+
+To do this:
+
+# Download and install [[MySQL]] from [http://dev.mysql.com/downloads/ http://dev.mysql.com/downloads/] if you do not already have a local copy.
+# Download the Wikipedia tables you need from [http://download.wikipedia.org download.wikipedia.org].  Details of the database structure can be found in the MediaWiki [http://svn.wikimedia.org/viewvc/mediawiki/trunk/phase3/maintenance/tables.sql?view=markup source repository] and [http://www.mediawiki.org/wiki/Manual:Database_layout manual] at mediawiki.org.
+# Create a database and import the downloaded table dumps.  More instruction on how to do this can be found at [[Wikipedia:Database download]]
+# Run your query
+
+== Sysop queries ==
+Historically, it was possible to run queries directly against the live Wikipedia database.  This function was disabled in 2004{{why?}}.
+
+
+[[Category:Wikipedia features|{{PAGENAME}}]]
+[[Category:Wikipedia database reports]]
+
+[[de:Wikipedia:Datenbankabfragen]]
+[[fa:ویکی‌پدیا:استخراج آمار از دیتابیس تول سرور]]
+[[fr:Wikipédia:Requêtes SQL]]
+[[hu:Wikipédia:Adatbázis-lekérdezések]]
+[[nl:Wikipedia:SQL-opdrachten]]
+[[ja:Wikipedia:データーベースクエリ]]
+[[ur:منصوبہ:آموختار برائے استخراج شماریات از ٹول سرور]]
+[[zh:Help:数据库查询]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

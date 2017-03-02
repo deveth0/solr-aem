@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:Most wanted stubs"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:Most wanted stubs" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Historical}}
+
+{{Active Wiki Fixup Projects}} &amp;lt;!-- edit at [[Template:Active Wiki Fixup Projects]] --&amp;gt;
+This page lists [[Wikipedia:Find or fix a stub|stubs]] that have the most links from other Wikipedia articles. Articles which are linked to or from many places generally cover important topics.  They are likely to be read frequently and therefore should be of the highest quality.  Popular stubs should be expanded as a priority.
+
+== Status and how to help ==
+
+If you know anything about any of these subjects, visit an appropriate page and share your wisdom with the rest of google!
+
+In order to prevent duplication of effort, please remove articles from this list if you fix them yourself (by removing the stub tag after the article is no longer a stub), or if you happen to notice that they are already fixed.
+
+The list currently includes articles that are tagged &amp;lt;nowiki&amp;gt;{{stub}} or {{*-stub}}&amp;lt;/nowiki&amp;gt; (where &amp;quot;*&amp;quot; is anything except &amp;quot;section&amp;quot;).  Only links from the main (article), Category, Template, and Portal namespaces are counted.  Additional links from templates included in other pages are &amp;apos;&amp;apos;not&amp;apos;&amp;apos; counted.
+
+== How to update ==
+
+1.) Ask [[User:Beland]], who has some Perl scripts for this purpose.
+
+Methods that no longer work well:
+
+2.) Try [[/How to update]].
+
+3.) [[User:Triddle]] says [[Wikipedia:Computer help desk/wpfsck|wpfsck]] is offline due to the conversion of database dumps to the new XML format.
+
+== Suggested improvements ==
+
+* A definition for the Simple English version should be developed (started and abandoned a while back).
+** Simple English is a different project, so I&amp;apos;m not sure that&amp;apos;s needed for this page. -- [[User:Beland|Beland]] 22:58, 20 December 2005 (UTC)
+***Simple English is a different project, but that doesn&amp;apos;t mean it can&amp;apos;t be covered in the English wiki. - [[User:Matthew kokai|Matthew kokai]] 04:01, 12 January 2006 (UTC)
+:::*Yes it does.  Each project is run separately.  We don&amp;apos;t decide what happens on the Simple English Wikipedia, that needs to be considered there and can be co-ordinated on Meta. [[User:Warofdreams|Warofdreams]] &amp;apos;&amp;apos;[[User talk:Warofdreams|talk]]&amp;apos;&amp;apos; 05:06, 15 January 2006 (UTC)
+*Declare the word or character count in the stub, on this page, so that we can easily de-stub those things that are not stubs but merely have a mouldy stub template affixed to them.
+
+== See also ==
+
+* [[:Category:Stub categories]] (paged listing) or [[Wikipedia:WikiProject Stub sorting/Stub types]] (single-page listing) to find and fix a stub by topic.
+* [[Wikipedia:Most wanted articles]] to help create articles from scratch.
+* [[Wikipedia:Requests for page expansion]] for articles that have grown past the stub stage.
+
+== Listing ==
+
+The below list was created from the January 25, 2006 [[Wikipedia:Database download|database dump]]. As of November 17, 2007 &amp;apos;&amp;apos;all&amp;apos;&amp;apos; the un-struck articles still have stub tags.
+
+[[User:Pearle|Pearle]], a bot, will feature a random selection of these stubs on [[Template:Opentask]] (skipping the ones that are struck through).
+
+&amp;lt;!-- Please do not remove the below line! -Beland --&amp;gt;
+&amp;lt;!-- BEGIN PEARLE AUTO SELECT --&amp;gt;
+# [[Frank_B._Zoltowski]] ([[Special:Whatlinkshere/Frank_B._Zoltowski|184 links]])
+# [[Lutz_D._Schmadel]] ([[Special:Whatlinkshere/Lutz_D._Schmadel|182 links]])
+# [[Luciano_Tesi]] ([[Special:Whatlinkshere/Luciano_Tesi|175 links]])
+# [[Pontevedra_(province)]] ([[Special:Whatlinkshere/Pontevedra_(province)|147 links]])
+# [[Satoru_Otomo]] ([[Special:Whatlinkshere/Satoru_Otomo|144 links]])
+# [[Deux-Sèvres]] ([[Special:Whatlinkshere/Deux-Sèvres|141 links]])
+# [[Peter_Kušnirák]] ([[Special:Whatlinkshere/Peter_Kušnirák|140 links]])
+# [[Oizumi_Observatory]] ([[Special:Whatlinkshere/Oizumi_Observatory|140 links]])
+# &amp;lt;s&amp;gt;[[Phyllanthaceae]]&amp;lt;/s&amp;gt; ([[Special:Whatlinkshere/Phyllanthaceae|138 links]])
+
+
+&amp;lt;!-- END PEARLE AUTO SELECT --&amp;gt;
+&amp;lt;!-- Please do not remove! -Beland --&amp;gt;
+
+{{specialpageslist}} &amp;lt;!-- edit at [[Template:Specialpageslist]] --&amp;gt;
+
+[[Category:Wikipedia maintenance|{{PAGENAME}}]]
+[[Category:WikiProject Stub sorting|Most wanted stubs]]
+[[da:Wikipedia:Udvide en stub]]
+[[de:Wikipedia:Stub]]
+[[es:Wikipedia:Encontrar y arreglar un esbozo]]
+[[eo:Vikipedio:Trovi aux ripari stumpon]]
+[[fr:Wikipédia:Bouchon]]
+[[ga:Vicipéid:Stumpa]]
+[[is:Wikipedia:Stubbar]]
+[[it:Wikipedia:Stub]]
+[[jv:Wikipedia:Stub]]
+[[kw:Wikipedia:Stokk]]
+[[ms:Wikipedia:Rencana stub sempurna]]
+[[nl:Wikipedia:Beginnetje]]
+[[pl:Wikipedia:Zal%C4%85%C5%BCek artyku%C5%82u]]
+[[pt:Wikipedia:Esboço]]
+[[ro:Wikipedia:Găseşte şi repară un ciot]]
+[[ru:Википедия:Болванка статьи]]
+[[sk:Wikipédia:Stub]]
+[[sq:Wikipedia:Gjej_ose_rregullo_nj%C3%AB_cung]]
+[[sv:Wikipedia:Stumpartikel]]
+[[tl:Wikipedia:Maghanap o magkumpuni ng stub]]
+[[tr:Vikipedi:Taslak madde]]
+[[vi:Wikipedia:Bài mớm]]
+[[yi:%D7%A9%D7%98%D7%95%D7%9E%D7%A4]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

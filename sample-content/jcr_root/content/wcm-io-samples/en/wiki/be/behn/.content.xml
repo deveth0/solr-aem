@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Behn"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Behn" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{For|a German alcoholic beverage family company|BEHN}}
+&amp;apos;&amp;apos;&amp;apos;{{PAGENAME}}&amp;apos;&amp;apos;&amp;apos; is a surname. Notable persons with that surname include:
+
+* [[Aphra Behn]] (c. 1640–1689), English prolific dramatist
+* [[Ari Behn]] (born 1972), Norwegian author, husband of Princess Märtha Louise of Norway
+* [[Hernan Behn]], Puerto Rican businessman, brother of Sosthenes Behn
+* [[Harry Behn]] (1898–1973), also known as Giles Behn, American screenwriter and children&amp;apos;s author
+* [[Jerry Behn]] (born 1954), American politician
+* [[Noel Behn]] (1928? - 1998) was an American novelist ([[The Kremlin Letter]]), screenwriter and theatrical producer
+* [[Sosthenes Behn]] (1882–1957), Puerto Rican businessman, brother of Hernan Behn
+
+==See also==
+* [[Benn]]
+
+{{Surname}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

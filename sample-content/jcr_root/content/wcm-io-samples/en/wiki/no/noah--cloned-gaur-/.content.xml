@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Noah (cloned gaur)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Noah (cloned gaur)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{multiple issues|
+{{Orphan|date=February 2013}}
+{{no footnotes|date=February 2011}}
+}}
+
+[[File:Noah gaur clone.jpg|thumb|right|Noah, a few hours after birth]]
+&amp;apos;&amp;apos;&amp;apos;Noah&amp;apos;&amp;apos;&amp;apos; was the name of species of [[ox]] called &amp;apos;&amp;apos;[[gaur]]&amp;apos;&amp;apos;, [[cloning|cloned]] and gestated in the [[womb]] of a [[cow]] named Bessie. Gaur is a vulnerable species according to the [[IUCN]]. The baby bull gaur was delivered on January 8, 2001, but died within just 48 hours of a common [[dysentery]] on January 10, 2001. Noah&amp;apos;s condition was monitored by Dr. Jonathan Hill and his teammates in Iowa. The process used to clone Noah was [[nuclear transfer]]. Researchers from Advanced Cell Technology (ACT) in [[Massachusetts]] said the problem was unlikely to be related to the cloning procedure itself.
+
+==References==
+{{refbegin}}
+* BBC News. 2000. Website. [http://news.bbc.co.uk/2/hi/science/nature/962159.stm Endangered species cloned]. &amp;apos;&amp;apos;BBC&amp;apos;&amp;apos;. Retrieved May 31, 2008.
+* CNN.com. 2001. Website. [http://archives.cnn.com/2001/NATURE/01/12/cloned.gaur/index.html First cloned endangered species dies 2 days after birth]. &amp;apos;&amp;apos;CNN.com&amp;apos;&amp;apos;. Retrieved May 31, 2008
+{{refend}}
+
+[[Category:2001 animal births]]
+[[Category:2001 animal deaths]]
+[[Category:Cloned animals]]
+
+
+{{eventoedungulate-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Virus Bulletin"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Virus Bulletin" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox magazine
+| title           = Virus Bulletin
+| image_file      = VirusBulletin.png
+| image_size      =
+| image_alt       =
+| image_caption   =
+| editor          = [[Helen Martin]]
+| editor_title    =
+| previous_editor =
+| staff_writer    = [[John Hawes]]: Technical Consultant &amp;amp; Test Team Director&amp;lt;br&amp;gt;[[Martijn Grooten]]: Web Developer &amp;amp; Anti-spam Test Director&amp;lt;br&amp;gt;[[Simon Bates]]: Security Test Engineer
+| frequency       =
+| circulation     =
+| category        =
+| company         =
+| publisher       =
+| firstdate       = 1989
+| country         = [[United Kingdom]]
+| based           =
+| language        = [[English language|English]]
+| website         = [http://www.virusbtn.com/ virusbtn.com]
+| issn            =
+}}
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Virus Bulletin&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is a magazine about the prevention, detection and removal of [[malware]] and [[spam (electronic)|spam]]. It regularly features analyses of the latest virus threats, articles exploring new developments in the fight against viruses, interviews with anti-virus experts, and evaluations of current [[Antivirus software|anti-malware]] products.
+
+Technical experts from all of the major anti-virus vendors have written articles for the magazine, which also conducts in-depth comparison tests of the detection rates of anti-virus software. Products which manage to detect 100% of the viruses in the wild, without false alarming, are given the VB100 award.
+
+The magazine holds an annual conference (in late September, early October) which is the premier technical event of the anti-virus industry.{{Citation needed|date=January 2010}}  Security companies and corporations meet to discuss the latest malware threats and papers presented, in a technical and corporate capacity, regarding industry developments. Among its recent sponsors are development tools and data services company [[OPSWAT Inc.]] as well as anti-malware companies like [[ESET]], [[Kaspersky]] and CA (formerly [[Computer Associates]]).
+* VB2006 took place in [[Montreal]], [[Quebec]], [[Canada]];
+* VB2007 took place in [[Vienna]], [[Austria]];
+* VB2008 took place in [[Ottawa]], [[Ontario]], [[Canada]];
+* VB2009 took place in [[Geneva]], [[Switzerland]];
+* VB2010 took place in [[Vancouver]], [[Canada]];
+* VB2011 took place in [[Barcelona]], [[Spain]];
+* VB2012 took place in [[Dallas]], [[Texas]], [[USA]];
+VB2013 will take place 2-4 October 2013 in [[Berlin]], [[Germany]].
+
+In recent years both magazine and conference have branched out to discuss anti-spam issues as well as malware.
+
+==Independence==
+Virus Bulletin is located in the [[Sophos]] headquarters in [[Abingdon, Oxfordshire]] in the UK, was co-founded and is currently owned by [[Jan Hruska (businessman)|Jan Hruska]] and [[Peter Lammer]], the co-founders of Sophos. Virus Bulletin claims to have full editorial independence and not to favour [[Sophos]] products in its tests and reviews.&amp;lt;ref&amp;gt;[http://www.virusbtn.com/about/index Virus Bulletin website]&amp;lt;/ref&amp;gt;
+== References ==
+{{Reflist}}
+==External links==
+* [http://www.virusbtn.com Virus Bulletin] - Official website &amp;apos;&amp;apos;(Free sign-up required for full access)&amp;apos;&amp;apos;
+
+{{compu-mag-stub}}
+
+[[Category:Computer security]]
+[[Category:Computer magazines]]
+[[Category:Companies based in Oxfordshire]]
+[[Category:Magazines established in 1989]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

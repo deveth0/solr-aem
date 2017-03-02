@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Beerenburg"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Beerenburg" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=June 2008}}
+&amp;apos;&amp;apos;&amp;apos;Beerenburg&amp;apos;&amp;apos;&amp;apos; ([[West Frisian language|Frisian]]: &amp;apos;&amp;apos;Bearenburch&amp;apos;&amp;apos;) is a [[Dutch people|Dutch]] drink, made by adding herbs to [[jenever]], with about 30% alcohol.
+
+The original Beerenburg was made in the mid-19th century with a secret mixture of spices of the [[Amsterdam]] spice merchant &amp;apos;&amp;apos;Hendrik Beerenburg&amp;apos;&amp;apos;, to whom it owes its name. Soon local Beerenburg varieties emerged, each with its own recipe. These were, however, not allowed to use the name Beerenburg, which is why there are variations on the spelling, such as Berenburg and Berenburger.
+
+Despite the Amsterdam ([[North-Holland]]) origin of Beerenburg, the drink became the most popular in [[Friesland]], [[Groningen (province)|Groningen]] and [[Drenthe]].
+
+==Brands==
+[[File:Distilleerderij F.J. Sonnema in Dokkum.jpg|thumb|Old building of the distillery F.J. Sonnema in Dokkum]]
+Some famous brands of Beerenburg are [[Sonnema]] ([[Dokkum]]), [[Weduwe Joustra]] ([[Sneek]]) Berenburg from [[Friesland]], [[Hooghoudt distillery|Hooghoudt Kalmoes]] from [[Groningen (city)|Groningen]] and Plantinga ([[Bolsward]])..
+
+[[Category:Bitters]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

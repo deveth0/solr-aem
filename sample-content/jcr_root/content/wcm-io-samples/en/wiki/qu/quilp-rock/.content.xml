@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Quilp Rock"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Quilp Rock" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Orphan|date=February 2009}}
+&amp;apos;&amp;apos;&amp;apos;Quilp Rock&amp;apos;&amp;apos;&amp;apos; is a small, isolated rock in [[Laubeuf Fjord]], lying 3.5 miles (6 km) south-southeast of the south tip of [[Pinero Island]] and 1.5 miles (2.4 km) off the northwest side of [[Pourquoi Pas Island]], off the west coast of [[Graham Land]]. First surveyed in 1948 by the [[Falkland Islands Dependencies Survey]] (FIDS), it was named by them after the dwarf, [[Daniel Quilp]], a vicious, ill-tempered character in [[The Old Curiosity Shop]], by [[Charles Dickens]].
+
+{{coord|67|37|S|67|47|W|display=title}}
+{{usgs-gazetteer}}
+
+[[Category:Rock formations in Graham Land]]
+[[Category:Fallières Coast]]
+
+{{FallièresCoast-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

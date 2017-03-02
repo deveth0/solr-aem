@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="IODBC"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="IODBC" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{lowercase|title=iODBC}}
+{{Infobox Software
+|name = iODBC
+|logo =
+|caption =
+|developer =
+|latest_release_version = 3.52.7
+|latest_release_date = September 10, 2009
+|latest preview version =
+|latest preview date =
+|operating_system = [[Cross-platform]]
+|genre = Data Access API
+|license = [[BSD Licenses|BSD]], [[LGPL]]
+|website = [http://www.iodbc.org www.iodbc.org]
+}}
+{{Portal|Free software}}
+&amp;apos;&amp;apos;&amp;apos;iODBC&amp;apos;&amp;apos;&amp;apos; is an [[open source]] initiative managed by OpenLink Software. It is a platform-independent [[Open Database Connectivity|ODBC]] [[Software development kit|SDK]] and runtime offering that enables the development of ODBC-compliant applications and drivers outside the [[Microsoft Windows|Windows]] platform. The prime goals of this project are as follows:
+*Simplify the effort of porting ODBC applications from Windows to other platforms
+*Simplify the effort of porting ODBC drivers from Windows to other platforms
+*Create consistent ODBC-utilization experience across all platforms
+
+== History ==
+iODBC emerged from a cooperative effort between OpenLink Software and Ke Jin. OpenLink Software produced a Driver Manager-less ODBC SDK that it branded as [[Open Database Connectivity#UDBC|Universal DataBase Connectivity]] ([[ODBC#UDBC|UDBC]]) in 1993, because of the sporadic nature of shared library implementations across [[Unix]] platforms. Ke Jin used UDBC as inspiration for building a Driver Manager for ODBC outside the windows platform.
+
+Over time Ke Jin and OpenLink Software decided to merge this effort into a single [[Open Source]] offering under the [[LGPL]] license.
+
+This process occurred at a time when the [[Free Software Foundation]] sought to have iODBC as a [[GNU General Public License|GPL]] offering. The delay in determining final licensing status for iODBC led to the emergence of [[UnixODBC]] and led to a [[Fork (software development)|fork]] in the platform-independent ODBC SDK and runtime that exists today. Drivers and applications written using either SDK have remained compatible (a tribute to both projects).
+
+==External links==
+* [http://www.iodbc.org iODBC homepage]
+
+[[Category:SQL data access]]
+[[Category:Middleware]]
+[[Category:Database APIs]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

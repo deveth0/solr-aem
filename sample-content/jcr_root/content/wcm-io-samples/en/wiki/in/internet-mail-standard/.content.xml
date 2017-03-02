@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Internet mail standard"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Internet mail standard" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Internet]] [[e-mail]] functions through the use of
+[[Internet standard]]s.  Although many more standards actually apply to e-mail, virtually all [[mail server]]s and [[e-mail client]]s support at least the following basic set.
+* [[Simple Mail Transfer Protocol|SMTP]] (or RFC 5321) specifies the protocol by which e-mail is transmitted
+* RFC 5322 specifies the basic format for e-mail
+* [[MIME]] supplements the e-mail formatting rules to allow non-English text in both e-mail headers and bodies, and defines a mechanism for including non-textual attachments in e-mail bodies
+* [[Post Office Protocol|POP3]] and [[Internet Message Access Protocol|IMAP4]] specify e-mail retrieval protocols used by e-mail clients
+
+== See also ==
+
+* [[Internet standard]]
+
+==External links==
+
+* [http://www.imc.org/mail-standards.html Internet Mail Consortium&amp;apos;s list of e-mail standards]
+
+[[Category:Internet mail protocols|*]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Loader (computing)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Loader (computing)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{for|applications that speed up loading from a tape or disk drive|fast loader}}
+{{Refimprove|date=June 2008}}
+
+In [[computing]], a &amp;apos;&amp;apos;&amp;apos;loader&amp;apos;&amp;apos;&amp;apos; is the part of an [[operating system]] that is responsible for loading programs. It is one of the essential stages in the process of starting a program, as it places programs into memory and prepares them for execution. Loading a program involves reading the contents of [[executable|executable file]], the file containing the program text, into memory, and then carrying out other required preparatory tasks to prepare the executable for running. Once loading is complete, the operating system starts the program by passing control to the loaded program code.
+
+All operating systems that support program loading have loaders, apart from systems where code executes directly from ROM or in the case of highly specialized computer systems that only have a fixed set of specialized programs.
+
+In many operating systems the loader is permanently resident in memory, although some operating systems that support [[virtual memory]] may allow the loader to be located in a region of memory that is [[paging|pageable]].
+
+In the case of operating systems that support virtual memory, the loader may not actually copy the contents of executable files into memory, but rather may simply declare to the virtual memory subsystem that there is a mapping between a region of memory allocated to contain the running program&amp;apos;s code and the contents of the associated executable file. (See [[memory-mapped file]].) The virtual memory subsystem is then made aware that pages with that region of memory need to be filled on demand if and when program execution actually hits those areas of unfilled memory. This may mean parts of a program&amp;apos;s code are not actually copied into memory until they are actually used, and unused code may never be loaded into memory at all.
+
+== Responsibilities ==
+In [[Unix]], the loader is the [[callback (computer science)|handler]] for the [[system call]] &amp;lt;code&amp;gt;execve()&amp;lt;/code&amp;gt;.&amp;lt;ref&amp;gt;{{cite web |url=http://www.opengroup.org/onlinepubs/000095399/functions/exec.html |title=exec |publisher=The Open Group |work=The Open Group Base Specifications Issue 6, IEEE Std 1003.1, 2004 Edition |accessdate=2008-06-23}}&amp;lt;/ref&amp;gt; The Unix loader&amp;apos;s tasks include:
+
+# validation (permissions, memory requirements etc.);
+# copying the program image from the disk into [[main memory]];
+# copying the [[command-line argument]]s on the [[Call stack|stack]];
+# initializing [[Processor register|registers]] (e.g., the stack pointer);
+# jumping to the program entry point (&amp;lt;code&amp;gt;_start&amp;lt;/code&amp;gt;).
+
+=== Relocating loaders ===
+Some operating systems need [[Relocation (computer science)|relocating]] loaders, which adjust addresses (pointers) in the executable to compensate for variations in the address at which loading starts. The operating systems that need relocating loaders are those in which a program is not always loaded into the same location in the address space and in which pointers are absolute addresses rather than offsets from the program&amp;apos;s [[base address]]. Some well-known examples are IBM&amp;apos;s [[OS/360]] for their [[System/360]] mainframes, and its descendants, including [[z/OS]] for the [[z/Architecture]] mainframes.
+
+A program that is loaded may itself contain components that are not initially loaded into main storage, but can be loaded if and when their logic is needed. In a multitasking operating system, a program that is sometimes called a dispatcher juggles the computer processor&amp;apos;s time among different tasks and calls the loader when a program associated with a task is not already in main storage. (By program here, we mean a binary file that is the result of a programming language compilation, linkage editing, or some other program preparation process.)
+&amp;lt;ref&amp;gt;http://whatis.techtarget.com/definition/loader&amp;lt;/ref&amp;gt;
+
+=== Dynamic linkers ===
+[[Dynamic linker|Dynamic linking loaders]] are another type of loader that load and link [[shared libraries]] (like [[dynamic link library|.dll files]]) to already loaded running programs.
+
+==See also==
+* [[Library (computing)]]
+* [[Linker (computing)]]
+* [[Dynamic linker]]
+* [[Prebinding]]
+
+==References==
+{{reflist}}
+
+{{Application binary interface}}
+
+{{DEFAULTSORT:Loader (Computing)}}
+[[Category:Operating system kernels]]
+[[Category:Computer libraries]]
+
+{{software-type-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

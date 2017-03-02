@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Cellular digital packet data"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Cellular digital packet data" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{no footnotes|date=March 2013}}
+&amp;apos;&amp;apos;&amp;apos;Cellular Digital Packet Data&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;&amp;apos;CDPD&amp;apos;&amp;apos;&amp;apos;) was a wide-area mobile data service which used unused [[Bandwidth (computing)|bandwidth]] normally used by [[Advanced Mobile Phone System|AMPS]] [[mobile phone]]s between 800 and 900&amp;amp;nbsp;MHz to transfer data. Speeds up to 19.2 kbit/s were possible. The service was discontinued in conjunction with the retirement of the parent AMPS service; it has been functionally replaced by faster services such as [[1xRTT]], [[EV-DO]], and [[UMTS]]/[[High Speed Packet Access|HSPA]].
+
+Developed in the early 1990s, CDPD was large on the horizon as a future technology. However, it had difficulty competing against existing slower but less expensive [[Mobitex]] and [[DataTac]] systems, and never quite gained widespread acceptance before newer, faster standards such as [[GPRS]] became dominant.
+
+CDPD had very limited consumer offerings. [[AT&amp;amp;T Wireless]] first offered the technology in the United States under the PocketNet brand. It was one of the first consumer offerings of wireless web service. Digital Ocean, Inc. an OEM licensee of the Apple Newton, offered the Seahorse product, which integrated the Newton handheld computer, an AMPS/CDPD handset/modem along with a web browser in 1996, winning the CTIA&amp;apos;s hardware product of the year award as a smartphone, arguably the world&amp;apos;s first.  A company named [[OmniSky]] provided service for Palm V devices. Cingular Wireless later offered CDPD under the Wireless Internet brand (not to be confused with Wireless Internet Express, their brand for GPRS/EDGE data). PocketNet was generally considered a failure with competition from 2G services such as Sprint&amp;apos;s Wireless Web. After the four phones AT&amp;amp;T Wireless had offered to the public (two from Panasonic, one from Mitsubishi and the Ericsson R289LX), AT&amp;amp;T Wireless eventually refused to activate the devices.
+
+Despite its limited success as a consumer offering, CDPD was adopted in a number of enterprise and government networks. It was particularly popular as a first-generation wireless data solution for [[telemetry]] devices (machine to machine communications) and for public safety mobile data terminals.
+
+In 2004, major carriers in the [[United States]] announced plans to shut down CDPD service. In July 2005, the [[AT&amp;amp;T Wireless]] and [[Cingular Wireless]] CDPD networks were shut down. Equipment for this service now has little to no residual value.
+
+==CDPD Network==
+Primary elements of a CDPD network are:
+1. &amp;apos;&amp;apos;&amp;apos;End systems&amp;apos;&amp;apos;&amp;apos;: physical &amp;amp; logical end systems that exchange information
+2. &amp;apos;&amp;apos;&amp;apos;Intermediate systems&amp;apos;&amp;apos;&amp;apos;: CDPD infrastructure elements that store, forward &amp;amp; route the information
+
+There are 2 kinds of End systems
+1. &amp;apos;&amp;apos;&amp;apos;Mobile end system&amp;apos;&amp;apos;&amp;apos;: subscriber unit to access CDPD network over a wireless interface
+2. &amp;apos;&amp;apos;&amp;apos;Fixed end system&amp;apos;&amp;apos;&amp;apos;: common host/server that is connected to the CDPD backbone and providing access to specific application and data
+
+There are 2 kinds of Intermediate systems
+1. &amp;apos;&amp;apos;&amp;apos;Generic intermediate system&amp;apos;&amp;apos;&amp;apos;: simple router with no knowledge of mobility issues
+2. &amp;apos;&amp;apos;&amp;apos;mobile data intermediate system&amp;apos;&amp;apos;&amp;apos;: specialized intermediate systemthat routes data based on its knowledge of the current location of Mobile end system. It is a set of hardware and software functions that provide switching, accounting, registration, authentication, encryption, and so on.
+
+The design of CDPD was based on several design objectives that are often repeated in designing overlay networks or new networks. A lot of emphasis was laid on open architectures and reusing as much of the existing RF infrastructure as possible. The design goal of CDPD included location independence and independence fro, service provider, so that coverage could be maximized ; application transparency and multiprotocol support, interoperability between products from multiple vendors.
+
+==External links==
+* [http://www.cio.com/archive/060197/et.html CIO CDPD article]
+* [http://www.emory.edu/BUSINESS/et/cdpd/ History and Development]
+* [http://webmasters-forums.com/showthread.php?tid=393 Detailed Description About CDPD]
+
+{{Mobile telecommunications standards}}
+
+[[Category:Mobile telecommunications]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

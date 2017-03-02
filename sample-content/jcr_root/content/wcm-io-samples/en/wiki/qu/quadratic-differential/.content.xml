@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Quadratic differential"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Quadratic differential" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[mathematics]], a &amp;apos;&amp;apos;&amp;apos;quadratic differential&amp;apos;&amp;apos;&amp;apos; on a [[Riemann surface]] is a section of the [[symmetric square]] of the holomorphic [[cotangent bundle]].
+If the section is holomorphic, then the quadratic differential
+is said to be holomorphic. The vector space of holomorphic quadratic differentials on a Riemann surface
+has a natural interpretation as the cotangent space to the Riemann moduli space or [[Teichmueller space]].
+
+==Local form==
+
+Each quadratic differential on a domain &amp;lt;math&amp;gt; U &amp;lt;/math&amp;gt; in the [[complex plane]] may be written as
+&amp;lt;math&amp;gt; f(z) dz \otimes dz &amp;lt;/math&amp;gt;  where &amp;lt;math&amp;gt; z &amp;lt;/math&amp;gt; is the complex variable and
+&amp;lt;math&amp;gt; f&amp;lt;/math&amp;gt; is a complex valued function on &amp;lt;math&amp;gt; U &amp;lt;/math&amp;gt;.
+Such a &#x60;local&amp;apos;  quadratic differential is holomorphic if and only if &amp;lt;math&amp;gt; f&amp;lt;/math&amp;gt; is [[holomorphic]].
+Given a chart &amp;lt;math&amp;gt; \mu &amp;lt;/math&amp;gt; for a general Riemann surface &amp;lt;math&amp;gt; R&amp;lt;/math&amp;gt;
+and a quadratic differential &amp;lt;math&amp;gt; q &amp;lt;/math&amp;gt; on &amp;lt;math&amp;gt;R&amp;lt;/math&amp;gt;, the [[pull-back]]
+&amp;lt;math&amp;gt; (\mu^{-1})^*(q)&amp;lt;/math&amp;gt;  defines a quadratic differential on a domain in the complex plane.
+
+==Relation to abelian differentials==
+
+If &amp;lt;math&amp;gt; \omega &amp;lt;/math&amp;gt; is an [[abelian differential]] on a Riemann surface,
+then &amp;lt;math&amp;gt; \omega \otimes \omega &amp;lt;/math&amp;gt; is a quadratic differential.
+
+==Singular Euclidean structure==
+
+A holomorphic quadratic differential &amp;lt;math&amp;gt;q&amp;lt;/math&amp;gt; determines a [[Riemannian metric]] &amp;lt;math&amp;gt;|q|&amp;lt;/math&amp;gt; on
+the complement of its zeroes. If &amp;lt;math&amp;gt;q&amp;lt;/math&amp;gt; is defined on a domain in the complex plane
+and &amp;lt;math&amp;gt; q = f(z) dz \otimes dz &amp;lt;/math&amp;gt;, then the associated Riemannian metric is
+&amp;lt;math&amp;gt; |f(z)| (dx^2 + dy^2) &amp;lt;/math&amp;gt; where &amp;lt;math&amp;gt;z=x + i y &amp;lt;/math&amp;gt;.
+Since &amp;lt;math&amp;gt;f&amp;lt;/math&amp;gt;  is holomorphic, the [[curvature]] of this metric is zero.  Thus,
+a holomorphic quadratic differential defines a flat metric on the complement of the
+set of &amp;lt;math&amp;gt; z &amp;lt;/math&amp;gt; such that &amp;lt;math&amp;gt; f(z)=0 &amp;lt;/math&amp;gt;.
+
+==References==
+
+* Kurt Strebel, &amp;apos;&amp;apos;Quadratic differentials&amp;apos;&amp;apos;. Ergebnisse der Mathematik und ihrer Grenzgebiete (3), 5. Springer-Verlag, Berlin, 1984. xii+184 pp. ISBN 3-540-13035-7
+
+* Y. Imayoshi and M. Taniguchi, M. &amp;apos;&amp;apos;An introduction to Teichmüller spaces&amp;apos;&amp;apos;. Translated and revised from the Japanese version by the authors. Springer-Verlag, Tokyo, 1992. xiv+279 pp. ISBN 4-431-70088-9
+
+[[Category:Complex manifolds]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

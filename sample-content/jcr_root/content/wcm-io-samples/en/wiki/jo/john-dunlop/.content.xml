@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="John Dunlop"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="John Dunlop" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;John Dunlop&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+*[[John Boyd Dunlop]] (1840–1921), Scottish/Irish inventor of the pneumatic tyre and founder of the Dunlop rubber company
+*[[John Colin Dunlop]] (c. 1785–1842), Scottish historian
+*[[John Dunlop (racehorse trainer)]] (born 1939), British horse-racing trainer
+*[[John Thomas Dunlop]] (1914–2003), American administrator, former US Secretary of Labor
+*[[John Dunlop (American football)]], American football coach
+*[[John Dunlop (chess player)]] (1886–?), New Zealand chess champion
+*[[John Dunlop (Unionist politician)]] (1910–1996), former MP for Mid Ulster
+*Rev. Dr. [[John Dunlop (Presbyterian)]] (born 1939), Irish Presbyterian minister
+*[[John Dunlop (writer)]] (1755–1820), Scottish song-writer and writer
+*[[John Dunlop (Scottish politician)]], British Member of Parliament for [[Kilmarnock Burghs (UK Parliament constituency)|Kilmarnock Burghs]]
+
+==See also==
+*[[Jack Dunlop]] (c. 1872–1900), outlaw of the American Old West
+*[[John Dunlap]] (1747–1812), first printer of the Declaration of Independence
+*[[Bellefonte Forge House]], Pennsylvania, also known as the John Dunlop House
+
+{{hndis|Dunlop, John}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

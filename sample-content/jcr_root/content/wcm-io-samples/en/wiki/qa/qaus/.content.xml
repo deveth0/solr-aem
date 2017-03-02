@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Qaus"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Qaus" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Redirect|Kaus}}
+{{Unreferenced|auto=yes|date=December 2009}}
+&amp;apos;&amp;apos;&amp;apos;Qaus&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;Qos&amp;apos;&amp;apos;&amp;apos; was the national god of the [[Edom]]ites. He is  also known as &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Qaush&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;, &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Kaush&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;, &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Qaus&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;, &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Kos&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;, and &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Qaws&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;. He was probably a mountain god and may be connected with the [[Nabataean]] deity [[Dushara|Dusares]].{{Encyclopedia of Islam, 2nd ed., Brill, &amp;quot;Ḳaws Ḳuzaḥ&amp;quot;}}
+
+The name of the deity was used as the [[theophoric]] element in the names of the Edomite kings [[Kaus-gabri]] and [[Kaus-malaka]].
+
+{{Portal|Mythology|Ancient Near East}}
+
+[[Category:West Semitic gods]]
+[[Category:Earth gods]]
+[[Category:Edom]]
+
+
+{{MEast-myth-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

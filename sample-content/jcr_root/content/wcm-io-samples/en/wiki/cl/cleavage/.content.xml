@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Cleavage"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Cleavage" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionarypar|cleavage}}
+
+&amp;apos;&amp;apos;&amp;apos;Cleavage&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+*[[Cleavage (breasts)]], partial exposure of the separation between a woman&amp;apos;s breasts.
+**[[Cleavage enhancement]], methods of making a person&amp;apos;s breast cleavage look more substantial than it really is.
+*[[Buttock cleavage]], minor exposure of the buttocks and the gluteal cleft between them
+*[[Toe cleavage]], partial exposure of a woman&amp;apos;s toes in shoes
+*[[Cleavage (crystal)]], in mineralogy and materials science, is a process of splitting a single crystal.
+*[[Cleavage (geology)]], Foliation perpendicular to stress as a result of ductile deformation. e.g. shales (shists)
+*[[Cleavage (embryo)]], in embryology, is the division of cells in the early embryo.
+*[[Cleavage (fiber)]], in optical fibers.
+*Teeth cleavage or tooth cleavage, slang for [[Diastema (dentistry)]], the gap between a person&amp;apos;s two front teeth.
+*In cell biology, the [[Cleavage furrow]] is the indentation that begins the process of cleavage, by which animal cells undergo cytokinesis.
+*[[Bond cleavage]] in chemistry and biochemistry
+*[[Cleavage (politics)]] The divisions of society that cause people to vote differently
+*Cleavage (molecular biology), cutting of the 3&amp;apos; signaling region from a newly synthesized pre-messenger RNA (pre-mRNA) molecule in the process of gene transcription.
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

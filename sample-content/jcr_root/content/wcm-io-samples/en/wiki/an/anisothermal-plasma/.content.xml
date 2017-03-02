@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Anisothermal plasma"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Anisothermal plasma" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Orphan|date=February 2009}}
+An &amp;apos;&amp;apos;&amp;apos;Anisothermal plasma&amp;apos;&amp;apos;&amp;apos; is a [[Plasma (physics)|plasma]] which thermal state can be approximated by more than one temperature for the different [[degrees of freedom (physics and chemistry)|degrees of freedom]] of the plasma.
+The degrees of freedom refer to translation ([[kinetic energy]]), rotation, vibration of each particle type.
+
+Examples of anisothermal plasmas can be found among low-pressure plasmas that are excited by high frequency [[electric field]]s, see [[frequency classification of plasmas]]. They generally exhibit hot [[electron]]s that are powered by the alternating electric field, and a neutral and [[ion]] component, which is significantly colder due the low efficiency of the energy transfer between light electrons and heavy neutrals and ions.
+
+The term [[nonthermal plasma]] includes anisothermal plasmas and means that the different degrees of freedom of the plasma are &amp;apos;&amp;apos;not&amp;apos;&amp;apos; in [[thermal equilibrium]].
+
+==See also==
+*[[List of plasma (physics) articles]]
+
+{{Empty section|date=July 2010}}
+
+==References==
+{{reflist}}
+
+==External links==
+
+[[Category:Plasma physics]]
+
+
+{{physics-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

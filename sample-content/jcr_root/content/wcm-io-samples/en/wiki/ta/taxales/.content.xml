@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Taxales"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Taxales" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The [[plant]] order &amp;apos;&amp;apos;&amp;apos;Taxales&amp;apos;&amp;apos;&amp;apos; was until recently treated as a distinct order in the division [[Pinophyta]], class Pinopsida, and included only those species in the family [[Taxaceae]], known commonly as yews. Under this interpretation, all other [[conifer]]s were classified separately in the order &amp;apos;&amp;apos;&amp;apos;[[Pinales]]&amp;apos;&amp;apos;&amp;apos;. Recent genetic and [[wikt:micromorphological|micromorphological]] studies, however, have shown the Taxaceae are closely related to the other conifers, particularly so to the family [[Cephalotaxaceae]]. The order Taxales is therefore no longer recognised as distinct, and the family [[Taxaceae]] is now included in the order Pinales. See [[Pinophyta]] for more details.
+
+[[Image:Taxus baccata MHNT.jpg|left|thumb|The fleshy [[aril]] which surrounds each seed in the yew is a highly modified seed cone scale.]]
+
+==References==
+* [http://www.conifers.org/pinales.htm Gymnosperm Database - Pinales]
+
+[[Category:Taxaceae]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

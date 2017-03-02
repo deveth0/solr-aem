@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Janus Green B"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Janus Green B" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{chembox
+| Verifiedfields = changed
+| verifiedrevid = 457287598
+| Reference=&amp;lt;ref&amp;gt;[http://www.sigmaaldrich.com/catalog/search/ProductDetail/ALDRICH/201677 Janus Green B], at [[Sigma-Aldrich]]&amp;lt;/ref&amp;gt;
+| ImageFile = Janus green B.svg
+| ImageSize = 200px
+| IUPACName = 8-(4-Dimethylaminophenyl)diazenyl-&amp;apos;&amp;apos;N&amp;apos;&amp;apos;,&amp;apos;&amp;apos;N&amp;apos;&amp;apos;-diethyl-10-phenylphenazin-10-ium-2-amine chloride
+| OtherNames = Diazin Green S&amp;lt;br&amp;gt;Union Green B
+| Section1 = {{Chembox Identifiers
+| CASNo_Ref = {{cascite|changed|??}}
+| CASNo = 2869-83-2
+| EINECS = 220-695-6
+| ChemSpiderID_Ref = {{chemspidercite|correct|chemspider}}
+| ChemSpiderID = 68607
+| ChEBI_Ref = {{ebicite|correct|EBI}}
+| ChEBI = 21184
+| StdInChI_Ref = {{stdinchicite|correct|chemspider}}
+| StdInChI = 1S/C30H31N6.ClH/c1-5-35(6-2)26-17-19-28-30(21-26)36(25-10-8-7-9-11-25)29-20-23(14-18-27(29)31-28)33-32-22-12-15-24(16-13-22)34(3)4;/h7-21H,5-6H2,1-4H3;1H/q+1;/p-1
+| StdInChIKey_Ref = {{stdinchicite|correct|chemspider}}
+| StdInChIKey = XXACTDWGHQXLGW-UHFFFAOYSA-M
+| PubChem = 76123
+| SMILES = CCN(CC)C1=CC2=[N+](C3=C(C=CC(=C3)N=NC4=CC=C(C=C4)N(C)C)N=C2C=C1)C5=CC=CC=C5.[Cl-]
+}}
+| Section2 = {{Chembox Properties
+| Formula = C&amp;lt;sub&amp;gt;30&amp;lt;/sub&amp;gt;H&amp;lt;sub&amp;gt;31&amp;lt;/sub&amp;gt;ClN&amp;lt;sub&amp;gt;6&amp;lt;/sub&amp;gt;
+| MolarMass = 511.06 g/mol
+| Appearance =
+| Density =
+| MeltingPt =
+| BoilingPt =
+| Solubility = }}
+| Section3 = {{Chembox Hazards
+| MainHazards =
+| FlashPt =
+| Autoignition = }}
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Janus Green B&amp;apos;&amp;apos;&amp;apos; is a basic [[dye]] and [[vital stain]] used in [[histology]]. It is also used to stain [[mitochondrion|mitochondria]] supravitally.
+
+The indicator Janus Green B changes colour according to the amount of oxygen present.&amp;lt;ref&amp;gt;http://www.mrothery.co.uk/bio_web_prac/practicals/2anaerobic%20resp%20student.doc&amp;lt;/ref&amp;gt;
+
+*Oxygen present: Indicator oxidised to blue colour
+*Oxygen absent: Indicator reduced to pink colour
+
+==References==
+{{reflist}}
+
+[[Category:Staining dyes]]
+[[Category:Azo dyes]]
+[[Category:Phenazines]]
+[[Category:Chlorides]]
+[[Category:Aromatic amines]]
+[[Category:Anilines]]
+
+{{organic-compound-stub}}
+{{Stains}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

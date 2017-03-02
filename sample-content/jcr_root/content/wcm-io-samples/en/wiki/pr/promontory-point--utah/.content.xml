@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Promontory Point, Utah"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Promontory Point, Utah" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{redirect|Promontory Point}}
+[[Image:UTMap-doton-PromontoryPoint.PNG|right|Location of Promontory Point, Utah]]
+[[File:Great Salt Lake Map.jpg|thumb|Promontory Peninsula with the Lucin Cutoff crossing the end of the peninsula]]
+&amp;apos;&amp;apos;&amp;apos;Promontory Point&amp;apos;&amp;apos;&amp;apos; is the [[Headlands and bays|cape]] or southernmost point of the [[peninsula]] formed where the [[Promontory Mountains]] project into the northern [[Great Salt Lake]] at {{coord|41|12|18|N|112|25|43|W|}} in [[Box Elder County]], [[Utah]], with an [[elevation]] of {{convert|4297|ft}} above [[sea level]].&amp;lt;ref&amp;gt;{{Cite GNIS|1431483|Promontory Point (cape)}}&amp;lt;/ref&amp;gt;&amp;lt;ref name=Point&amp;gt;&amp;apos;&amp;apos;Promontory Point, Utah,&amp;apos;&amp;apos; 7.5 Minute Quadrangle, USGS, 1991 &amp;lt;/ref&amp;gt; It is {{convert|4.75|km}} northwest of the west end of [[Fremont Island]] in [[Weber County, Utah|Weber County]].&amp;lt;ref name=Point/&amp;gt;
+
+Promontory Point also refers to the location {{coord|41|13|20|N|112|24|38|W|}}&amp;lt;ref&amp;gt;{{Cite GNIS|1431484|Promontory Point (locale)}}&amp;lt;/ref&amp;gt; where the [[Lucin Cutoff]] intersects the east coast of the peninsula, {{Convert|1.7|mi}} northeast of the cape. The Lucerne Cutoff passes {{convert|1250|ft}} north of the cape and continues west {{convert|6.4|mi}} to Saline where the cutoff leaves the peninsula.&amp;lt;ref name=Point/&amp;gt;
+
+==References==
+{{Reflist}}
+
+
+[[Category:Cliffs of the United States]]
+[[Category:Great Salt Lake]]
+[[Category:Headlands of the United States]]
+[[Category:Landforms of Box Elder County, Utah]]
+
+[[de:Promontory Point]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

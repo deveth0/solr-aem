@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Sportsman"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Sportsman" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Wiktionarypar|sportsman}}
+&amp;apos;&amp;apos;&amp;apos;Sportsman&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* [[Sportsperson]]: someone who enjoys sport
+* [[Sportsmanship]], conforming to all the rules of game and acting in a fair manner towards the opponent
+* [[Gun rights]] supporter (US politics)
+* [[Sportsman&amp;apos;s Association]] UK gun rights group
+* [[Sportsman of the Year]], an award given by &amp;apos;&amp;apos;Sports Illustrated&amp;apos;&amp;apos; magazine since 1954
+* &amp;apos;&amp;apos;[[The Sportsman]]&amp;apos;&amp;apos; - the name of two separate British sports newspapers
+* [[The Sportsman Channel]] US cable channel devoted to hunting and fishing
+* [[Dodge Sportsman]], a Dodge B-series van manufactured from 1971-1979
+* [[Acme Sportsman]], an American light aircraft built in 1928
+* [[Remington Sportsman 48]] a Remington Arms shotgun
+* [[Sportsman&amp;apos;s Park]] baseball stadium in St. Louis, Missouri
+* [[Sportsman Airpark]] airport in Oregon
+*[[Sportsman (EP)]]
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

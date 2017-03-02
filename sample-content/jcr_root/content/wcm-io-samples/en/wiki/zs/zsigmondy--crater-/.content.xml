@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Zsigmondy (crater)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Zsigmondy (crater)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{lunar crater data|
+ latitude=59.7|
+ N_or_S=N|
+ longitude=104.7|
+ E_or_W=W|
+ diameter=65 km|
+ depth=&amp;apos;&amp;apos;Unknown&amp;apos;&amp;apos;|
+ colong=106|
+ eponym=[[Richard Adolf Zsigmondy|Richard A. Zsigmondy]]}}
+
+&amp;apos;&amp;apos;&amp;apos;Zsigmondy&amp;apos;&amp;apos;&amp;apos; is a [[moon|lunar]] [[Impact crater|crater]] located beyond the northwestern limb on the [[far side (Moon)|far side]] of the [[Moon]].  Attached to the southeastern rim of the crater is the crater [[Omar Khayyam (crater)|Omar Khayyam]], which lies within the much larger [[Poczobutt (crater)|Poczobutt]]. Farther to the east, along the north rim of Poczobutt, is [[Smoluchowski (crater)|Smoluchowski]].
+
+The rim of Zsigmondy is eroded and distorted in form, having a somewhat [[polygon]]al outline. It overlies a comparably sized crater formation Zsigmondy S along the western rim. A pair of small craters lies across the low western rim, and another pair is situated on the inner wall to the southeast. On the interior, the floor is relatively flat in the western half with a low central rise near the midpoint.
+
+==Satellite craters==
+By convention these features are identified on lunar maps by placing the letter on the side of the crater midpoint that is closest to Zsigmondy.
+
+{| class=&amp;quot;wikitable&amp;quot;
+!width=&amp;quot;25%&amp;quot; style=&amp;quot;background:#eeeeee;&amp;quot; |Zsigmondy
+!width=&amp;quot;25%&amp;quot; style=&amp;quot;background:#eeeeee;&amp;quot; |Latitude
+!width=&amp;quot;25%&amp;quot; style=&amp;quot;background:#eeeeee;&amp;quot; |Longitude
+!width=&amp;quot;25%&amp;quot; style=&amp;quot;background:#eeeeee;&amp;quot; |Diameter
+|-
+|align=&amp;quot;center&amp;quot;|A
+|align=&amp;quot;center&amp;quot;|62.8° N
+|align=&amp;quot;center&amp;quot;|102.6° W
+|align=&amp;quot;center&amp;quot;|63&amp;amp;nbsp;km
+|-
+|align=&amp;quot;center&amp;quot;|S
+|align=&amp;quot;center&amp;quot;|59.7° N
+|align=&amp;quot;center&amp;quot;|106.7° W
+|align=&amp;quot;center&amp;quot;|64&amp;amp;nbsp;km
+|-
+|align=&amp;quot;center&amp;quot;|Z
+|align=&amp;quot;center&amp;quot;|62.1° N
+|align=&amp;quot;center&amp;quot;|104.9° W
+|align=&amp;quot;center&amp;quot;|23&amp;amp;nbsp;km
+|}
+
+==References==
+{{Lunar crater references}}
+
+[[Category:Impact craters on the Moon]]
+
+
+{{Moon-crater-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

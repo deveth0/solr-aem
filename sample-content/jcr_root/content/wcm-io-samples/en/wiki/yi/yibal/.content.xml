@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Yibal"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Yibal" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+{{Infobox oil field
+| name        = Yibal
+| image       =
+| caption     =
+| location_map       = Oman
+| location_map_width =
+| location_map_text  = Location of the Yibaloil field within Oman
+| lat_d     = 22
+| lat_m     = 10
+| lat_s     = 0
+| lat_NS    = N
+| long_d    = 56
+| long_m    = 0
+| long_s    = 0
+| long_EW   = E
+| coordinates_type   = type:landmark
+| coordinates_display= inline,title
+| coordinates_ref    =
+| country     = [[Oman]]
+| region      =
+| location    = Onshore
+| block       =
+| offonshore  =
+| operators   = [[petroleum development oman]]
+| partners    =
+| contractors =
+| discovery   =
+| start_development =
+| start_production = 1968
+| peak_year   =
+| abandonment =
+| peak_of_production_oil_bbl/d = 250000
+| peak_of_production_oil_tpy =
+| peak_of_production_gas_mmcuft/d =
+| peak_of_production_gas_mmscm/d =
+| peak_of_production_gas_bcm/y =
+| oil_production_bbl/d = 88000
+| oil_production_tpy =
+| production_year_oil =
+| production_gas_mmcuft/d =
+| production_gas_mmscm/d =
+| production_gas_bcm/y =
+| production_year_gas =
+| est_oil_bbl =
+| est_oil_t   =
+| recover_oil_bbl =
+| recover_oil_t   =
+| est_gas_bft =
+| est_gas_bcm =
+| recover_gas_bft =
+| recover_gas_bcm =
+| formations  =
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Yibal&amp;apos;&amp;apos;&amp;apos; is the largest [[oilfield]] in [[Oman]]. It began production in 1968, and at its peak had a production of nearly {{Convert|250000|oilbbl/d|m3/d}}. In recent years, it has begun to decline, and in 2005 produces about {{Convert|88000|oilbbl/d|m3/d}}. The Yibal oil field is operated primarily by [[Petroleum Development Oman]].
+
+[[Category:Oil fields of Oman]]
+[[Category:Geography of Oman]]
+
+{{Oman-geo-stub}}
+{{Oilfield-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

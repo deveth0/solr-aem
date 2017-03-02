@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Linux Journal"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Linux Journal" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox Magazine
+|title=Linux Journal
+|image_file=Linux Journal logo.svg
+|caption= Linux Journal November 2008 cover
+|frequency = Monthly
+|company = Belltown Media, Inc.
+|country = [[United States]]
+|firstdate = 1994
+|lastdate = August 2011
+|category = [[Computer]]
+|language= [[English language|English]]
+|website = http://www.linuxjournal.com/
+|issn = 1075-3583
+}}
+
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Linux Journal&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is a monthly technology [[magazine]] published by Belltown Media, Inc. of [[Houston]], [[Texas]]. The magazine focuses specifically on [[Linux]], allowing the content to be a highly specialized source of information for [[open source]] enthusiasts.
+
+==History==
+&amp;apos;&amp;apos;Linux Journal&amp;apos;&amp;apos; was the first magazine to be published about the [[Linux kernel]] and [[Linux|operating systems based on it]]. The first issue was published in March 1994 by Phil Hughes and [[Bob Young (businessman)|Bob Young]], co-founder of [[Red Hat]], and featured an interview with [[Linux]] creator [[Linus Torvalds]].&amp;lt;ref&amp;gt;{{cite journal|last=Young|first=Robert|title=Interview with Linus, the Author of Linux|journal=Linux Journal|date=1 March 1994|url=http://www.linuxjournal.com/article/2736|accessdate=6 September 2010}}&amp;lt;/ref&amp;gt;
+
+The publication&amp;apos;s last print edition was August 2011, issue 208.
+&amp;lt;ref&amp;gt;{{cite web|last=Searls|first=Doc|title=Linux Journal Goes 100% Digital|date=19 August 2011|url=http://www.linuxjournal.com/content/linux-journal-goes-100-digital|publisher=Linux Journal|accessdate=19 August 2011}}&amp;lt;/ref&amp;gt; Beginning with the September 2011 issue number 209, the magazine transitioned to publishing monthly in digital-only formats including various desktop, mobile and e-pub platforms.&amp;lt;ref&amp;gt;{{cite web|last=Kinsman|first=Matt|title=How Readers Respond When a Magazine Goes Digital-Only|publisher=Folio|date=23 August 2011|url=http://www.foliomag.com/2011/how-readers-respond-when-magazine-goes-digital-only|accessdate=7 September 2011}}&amp;lt;/ref&amp;gt;
+
+==Content==
+&amp;apos;&amp;apos;Linux Journal&amp;apos;&amp;apos; publishes articles on all levels of developing and using [[Linux]] and the software that runs on it, including everything from how to write [[device driver]]s to how to edit photos with [[GIMP]]. In addition to how-tos and tutorials, each issue features reviews of [[Linux]] products, tips, and market analysis.
+
+=== Current articles and features===
+*&amp;apos;&amp;apos;EOF&amp;apos;&amp;apos; by [[Doc Searls]]
+*&amp;apos;&amp;apos;At the Forge&amp;apos;&amp;apos; by Reuven Lerner
+*&amp;apos;&amp;apos;Cooking with Linux&amp;apos;&amp;apos; by Marcel Gagne
+*&amp;apos;&amp;apos;Work the Shell&amp;apos;&amp;apos; by Dave Taylor
+*&amp;apos;&amp;apos;Hack and /&amp;apos;&amp;apos; by Kyle Rankin
+*&amp;apos;&amp;apos;Current_Issue.tar.gz&amp;apos;&amp;apos; by Shawn Powers
+*&amp;apos;&amp;apos;diff -u by Zack Brown
+*&amp;apos;&amp;apos;UpFront&amp;apos;&amp;apos; by [[Doc Searls]] and Katherine Druckman
+*&amp;apos;&amp;apos;New Products&amp;apos;&amp;apos; by James Gray
+*&amp;apos;&amp;apos;New Projects&amp;apos;&amp;apos; by John Knight
+*&amp;apos;&amp;apos;Tech Tips&amp;apos;&amp;apos; by Mitch Frazier
+*&amp;apos;&amp;apos;Features&amp;apos;&amp;apos; (August 2008 Cool Projects issue features listed), various authors
+:*&amp;apos;&amp;apos;The BUG: a Linux-Based Hardware Mashup&amp;apos;&amp;apos; by Mike Diehl
+:*&amp;apos;&amp;apos;Billix: a Sysadmin&amp;apos;s Swiss Army Knife&amp;apos;&amp;apos; by Bill Childers
+:*&amp;apos;&amp;apos;Fun with E-Ink, X and Gumstix&amp;quot; by Jaya Kumar
+:*&amp;apos;&amp;apos;One Box. Sixteen Trillion Bytes&amp;apos;&amp;apos; by Eric Pearce
+:*&amp;apos;&amp;apos;Linux for the Long Haul&amp;apos;&amp;apos; by Michael Surran
+:*&amp;apos;&amp;apos;Zenoss and the Art of Enterprise Monitoring&amp;apos;&amp;apos; by Jeramiah Bowling
+:*&amp;apos;&amp;apos;How to Fake a UFO Landing&amp;apos;&amp;apos; by Dan Sawyer
+:*&amp;apos;&amp;apos;Quantum GIS: the Open-Source Geographic Information System&amp;apos;&amp;apos; by James Gray
+:*&amp;apos;&amp;apos;Build a MythTV Box without Breaking the Bank&amp;apos;&amp;apos; by P. Surdas Mohit
+:*&amp;apos;&amp;apos;Hot and Bothered at Starbucks&amp;apos;&amp;apos; by Dan Sawyer
+:*&amp;apos;&amp;apos;The Neuros OSD Connects Your TV to the Internet&amp;apos;&amp;apos; by Marco Fioretti
+
+==Editorial staff==
+[[Doc Searls]], Senior Editor, is one of &amp;apos;&amp;apos;Linux Journal&amp;apos;&amp;apos;&amp;lt;nowiki&amp;gt;&amp;apos;&amp;lt;/nowiki&amp;gt;s most well-known editors. Doc, co-writer of the [[The Cluetrain Manifesto]], has written for &amp;apos;&amp;apos;Linux Journal&amp;apos;&amp;apos; since early in its history. Other regular editorial contributors include:
+
+*Senior Editor [[Doc Searls]]
+*Editor: Shawn Powers
+*Executive Editor: Jill Franklin
+*Associate Editor: Mitch Frazier
+*Technical Editor: Michael Baxter
+*Products Editor: James Gray
+*Senior Columnist: Reuven Lerner
+*Chef Francais: Marcel Gagne
+*Security Editor: Mick Bauer
+*Contributing Editor: David Bandel
+*Contributing Editor: Zack Brown
+*Contributing Editor: Marco Fioretti
+*Contributing Editor: Ibrahim Haddad
+*Contributing Editor: [[Greg Kroah-Hartman]]
+*Contributing Editor: [[Robert Love]]
+*Contributing Editor: Ludovic Marcotte
+*Contributing Editor: Dave Phillips
+*Contributing Editor: Paul Barry
+*Contributing Editor: Paul McKenney
+*Web Editor: Katherine Druckman
+*Publisher: Carlie Fairchild
+
+== See also ==
+* [[Linux Magazine]]
+* [[Linux Format]]
+
+==References==
+{{Reflist}}
+
+==External links==
+* {{official website|http://www.linuxjournal.com/}}
+* [http://www.belltownmedia.com/ Publisher&amp;apos;s website]
+
+{{Linux}}
+
+[[Category:Linux magazines]]
+[[Category:Monthly magazines]]
+[[Category:Linux websites]]
+[[Category:Publications established in 1994]]
+
+{{Linux-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

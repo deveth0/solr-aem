@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="IME"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="IME" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;IME&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+{{TOCRight}}
+
+==Organizations==
+* [[Institution of Mechanical Engineers]], British engineering society
+* [[Institute of Management Education]], Hayatabad Peshawar KPK Pakistan
+* &amp;apos;&amp;apos;[[Instituto Militar de Engenharia]]&amp;apos;&amp;apos; (Military Institute of Engineering), an engineering school in [[Rio de Janeiro]], Brazil
+* [[Iran Mercantile Exchange]], an Iranian commodity exchange
+* [[Institution of Mechanical Engineers India]], an Indian engineering society
+
+==Science and Technology==
+* [[Input method editor]], a program or operating system component that allows computer users to enter characters and symbols not found on their keyboard
+* [[In-Movie Experience]], a content channel for providing bonus material on HD-DVD and Blu-ray Disc
+* [[Intron Mediated Enhancement]], a biological process by which some intron sequences can enhance gene expression
+
+==Entertainment==
+*[[I Mother Earth]], an alternative rock band from Canada
+
+==As an acronym or code==
+* In My Experience
+
+==See also==
+* [[I Am Me (disambiguation)]]
+* {{lookfrom|IME}}
+* {{intitle|IME}}
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Snot"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Snot" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionarypar|snot}}
+&amp;apos;&amp;apos;&amp;apos;Snot&amp;apos;&amp;apos;&amp;apos; is slang for [[nasal mucus]] or [[dried nasal mucus]], but it may also refer to:
+
+* [[Snot (band)]], a rock band (1995-1998; 2008)
+* [[Snott]], a character from the video game &amp;apos;&amp;apos;Earthworm Jim&amp;apos;&amp;apos;
+* [[Snot (American Dad!)]], a character from the US television show &amp;apos;&amp;apos;American Dad!&amp;apos;&amp;apos;
+* &amp;apos;&amp;apos;Sid Snot&amp;apos;&amp;apos;, an ageing biker character performed by [[Kenny Everett]]
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Haughton v Smith"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Haughton v Smith" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Haughton v Smith,&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; [1975] AC 476, [1973] 3 All ER 1109, [1974] 3 W.L.R. 1 was a case heard in the [[Judicial functions of the House of Lords|House of Lords]], which held that it was impossible to commit the crime of [[handling stolen goods]] where the goods in question were not in fact stolen; nor could an offence of attempting to handle stolen goods be committed in the same circumstances.
+
+==Judgement==
+[[Reginald Manningham-Buller, 1st Viscount Dilhorne|Viscount Dilhorne]]&amp;apos;s statement about the impossibility of crimes is often quoted at 19 (citing to All E.R..):
+
+:&amp;apos;&amp;apos;A man taking his own umbrella from a club, thinking it the property of someone else, does not steal. His belief does not convert his conduct into an offence. In my view, it matters not that the crime cannot be committed as a result of physical impossibility, e.g. the absence of the property he wants to steal, or of legal impossibility. In either case he cannot be convicted of an attempt when he could not be convicted of the full offence if he had succeeded in doing all that he attempted to do. Conduct which is not criminal is not converted into criminal conduct by the accused believing that a state of affairs exists which does not.&amp;apos;&amp;apos;
+
+This case was subsequently overturned by the [[Criminal Attempts Act 1981]]. There is an in-depth discussion of the law of attempted crimes, in particular the debate about criminal liability in issues of [[Impossibility defense|impossible crimes]].
+
+==References==
+*{{cite BAILII |litigants=Haughton v Smith |court=UKHL |division= |year=1973 |num=4|para= |date=1973-11-21}}
+*[http://www.bailii.org/uk/cases/UKHL/1973/4.html Decision]
+
+[[Category:English criminal case law]]
+[[Category:House of Lords cases]]
+[[Category:1975 in England]]
+[[Category:1975 in case law]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

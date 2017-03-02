@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Maintainability"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Maintainability" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{No footnotes|date=May 2013}}
+
+In [[engineering]], &amp;apos;&amp;apos;&amp;apos;maintainability&amp;apos;&amp;apos;&amp;apos; is the ease with which a product can be maintained in order to:
+* isolate defects or their cause,
+* correct defects or their cause,
+* repair or replace faulty or worn-out components without having to replace still-working parts,
+* prevent unexpected breakdowns,
+* maximize a product&amp;apos;s useful life,
+* maximize efficiency, reliability, and safety,
+* meet new [[requirements]],
+* make future maintenance easier, or
+* cope with a changed environment.
+
+In some cases, maintainability involves a system of [[continuous improvement]] - learning from the past in order to improve the ability to maintain systems, or improve reliability of systems based on maintenance experience.
+
+In [[telecommunication]] and several other engineering fields, the term &amp;apos;&amp;apos;&amp;apos;maintainability&amp;apos;&amp;apos;&amp;apos; has the following meanings:
+
+* A characteristic of design and installation, expressed as the probability that an item will be retained in or restored to a specified condition within a given period of [[time]], when the [[repair and maintenance|maintenance]] is performed in accordance with prescribed procedures and resources.
+* The ease with which maintenance of a [[functional unit]] can be performed in accordance with prescribed requirements.
+
+== Software engineering ==
+In [[software engineering]], these activities are known as [[software maintenance]] (cf. [[ISO/IEC 9126]]).
+
+The maintainability index is calculated with certain formulae from [[Lines of code|lines-of-code measures]], [[McCabe Measure|McCabe measures]] and [[Halstead complexity measures]].
+
+The measurement and track maintainability are intended to help reduce or reverse a system&amp;apos;s tendency toward &amp;quot;code entropy&amp;quot; or degraded integrity, and to indicate when it becomes cheaper and/or less risky to rewrite the code than it is to change it.
+
+{{FS1037C MS188}}
+
+==See also==
+*[[List of system quality attributes]]
+* [[Maintenance, repair, and operations]]
+*[[Supportability (disambiguation)]]
+*[[Serviceability (disambiguation)]]
+*[[Software Sizing]]
+
+== Further reading ==
+* Blanchard S. B., Maintainability: A Key to Effective Serviceability and Maintenance Management, John Wiley &amp;amp; Sons Inc., NewYork 1995
+* Ebeling C. E., &amp;apos;&amp;apos;An Introduction to Reliability and Maintainability Engineering&amp;apos;&amp;apos;, McGraw-Hill Companies, Inc., Boston 1997.
+* Patton J. D., Maintanability and Maintenance Management, Instrument Society of America, Research Triangle Park, North Carolina 19.
+
+==External links==
+* [http://www.virtualmachinery.com/sidebar4.htm Calculation, Field testing and history of Maintainability Index (MI) (with references)]
+* [http://www.verifysoft.com/en_maintainability.html Measurement of Maintainability Index (MI)]
+* [http://www.sei.cmu.edu/reports/97hb001.pdf Original SEI Technical Report Defining the Maintainability Index (p.231)]
+
+[[Category:Telecommunications engineering]]
+[[Category:Design for X]]
+[[Category:Maintenance]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

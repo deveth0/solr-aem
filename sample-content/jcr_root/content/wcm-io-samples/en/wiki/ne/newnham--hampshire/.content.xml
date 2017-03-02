@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Newnham, Hampshire"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Newnham, Hampshire" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{infobox UK place
+|country                  = England
+|static_image_name        = St. Nicholas, Newnham, Hampshire - geograph.org.uk - 1719280.jpg
+|static_image_caption     = St Nicholas, Newnham
+|latitude                 = 51.2799
+|longitude                = -0.9893
+|official_name            = Newnham
+|population               = 513
+|Civil_parish             = Newnham
+|shire_district           =
+|shire_county             = [[Hampshire]]
+|region                   = South East England
+|constituency_westminster =
+|post_town                =
+|postcode_district        =
+|postcode_area            =
+|dial_code                =
+|os_grid_reference        = SU7059153907
+}}&amp;apos;&amp;apos;&amp;apos;Newnham&amp;apos;&amp;apos;&amp;apos; is a [[village]] and [[Civil parish (England)|parish]] in [[Hampshire]], [[England]]. It is situated {{convert|4|mi}} east of [[Basingstoke]], and {{convert|1|mi}} west of [[Hook, north Hampshire|Hook]]. At the [[United Kingdom Census 2001|2001 census]] it had a population of 513.
+
+==Location==
+&amp;apos;&amp;apos;&amp;apos;Position:&amp;apos;&amp;apos;&amp;apos; {{gbmapping|SU705540}}
+
+==Local government==
+Newnham is a civil parish with an elected parish council. Newnham parish falls within the area of [[Basingstoke and Deane|Basingstoke and Deane District Council]] and of [[Hampshire|Hampshire County Council]] and all three councils are responsible for different aspects of local government.
+
+==See also==
+*[[List of places in Hampshire]]
+*[[List of civil parishes in England]]
+
+==External links==
+{{Commons category inline|Newnham, Hampshire}}
+
+[[Category:Villages in Hampshire|Newnham]]
+
+{{Hampshire-geo-stub}}
+{{Basingstoke and Deane}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Nu (letter)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Nu (letter)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Wiktionary|Ν|ν}}
+{{Greek Alphabet|letter=nu}}
+
+&amp;apos;&amp;apos;&amp;apos;Nu&amp;apos;&amp;apos;&amp;apos; {{IPAc-en|nj|uː}} (uppercase &amp;apos;&amp;apos;&amp;apos;Ν&amp;apos;&amp;apos;&amp;apos; lowercase &amp;apos;&amp;apos;&amp;apos;ν&amp;apos;&amp;apos;&amp;apos;, also transcribed &amp;apos;&amp;apos;Ny&amp;apos;&amp;apos;; modern {{Lang-el|Νι}} {{IPA-el|ni|}} Ni), is the 13th letter of the [[Greek alphabet]]. In the system of [[Greek numerals]] it has a value of 50. It is derived from the [[Phoenician alphabet|Phoenician letter]] nun [[Image:Phoenician nun.svg|20px]]. Its [[Latin script|Latin]] equivalent is N, though the lowercase resembles the Roman lowercase [[v]].
+
+The name of the letter is written {{lang|grc|{{Unicode|νῦ}}}} in [[Ancient Greek]] and traditional [[Modern Greek]] [[polytonic orthography]], while in [[Modern Greek]] it is written {{lang|el|νι}} {{IPA|[ni]}}.
+
+The lower-case letter ν is used as a symbol for:
+* [[Degrees of freedom (statistics)|Degree of freedom]] in [[statistics]].
+* The [[frequency]]&amp;lt;ref&amp;gt;See e.g. [[Planck constant|Planck&amp;apos;s formula]]&amp;lt;/ref&amp;gt; of a wave in physics and other fields; sometimes also [[spatial frequency]].
+* The [[specific volume]] in [[thermodynamics]].
+* [[Viscosity#Kinematic_viscosity:_.CE.BD_.3D_.CE.BC_.2F_.CF.81|Kinematic viscosity]] in [[fluid mechanics]].
+* [[Poisson&amp;apos;s ratio]], the ratio of strains perpendicular with and parallel with an applied force.
+* Any of three kinds of [[neutrino]] in particle physics.
+* One of [[Greeks (finance)|the Greeks]] in [[mathematical finance]], known as &amp;quot;vega&amp;quot;.
+* The number of [[neutrons]] released per [[nuclear fission|fission]] of an atom in nuclear physics.
+* A [[DNA polymerase]] found in higher [[eukaryotes]] and implicated in Translesion Synthesis.
+* Molecular vibrational mode, ν&amp;lt;sub&amp;gt;x&amp;lt;/sub&amp;gt; where x is the number of the vibration (a label).
+* The [[stoichiometric coefficient]].
+* The [[Greatest fixed point]] of a function, as commonly used in the [[Mu calculus|μ-calculus]].
+* The maximum conditioning possible for an [[unconditioned stimulus]] in the [[Rescorla-Wagner model]].
+* The [[true anomaly]], it is an angular parameter that defines the position of a body moving along an orbit, see [[orbital elements]].
+
+==Character Encodings==
+
+* Greek Nu / Coptic Ni&amp;lt;ref&amp;gt;Unicode Code Charts: [http://www.unicode.org/charts/PDF/U0370.pdf Greek and Coptic (Range: 0370-03FF)]&amp;lt;/ref&amp;gt;
+
+{{charmap
+|039D|name1=Greek Capital Letter Nu
+|03BD|name2=Greek Small Letter Nu
+|2C9A|name3=Coptic Capital Letter Ni
+|2C9B|name4=Coptic Small Letter Ni
+|map2=DOS Greek|map2char1=8C|map2char2=A4
+|map3=DOS Greek-2|map3char1=B5|map3char2=E7
+|map4=Windows 1253|map4char1=CD|map4char2=ED
+|namedref1=TeX|ref1char2=\nu
+}}
+
+* Mathematical Nu
+
+{{charmap
+|1D6B4|name1=Mathematical Bold&amp;lt;br /&amp;gt;Capital Nu
+|1D6CE|name2=Mathematical Bold&amp;lt;br /&amp;gt;Small Nu
+|1D6EE|name3=Mathematical Italic&amp;lt;br /&amp;gt;Capital Nu
+|1D708|name4=Mathematical Italic&amp;lt;br /&amp;gt;Small Nu
+|1D728|name5=Mathematical Bold Italic&amp;lt;br /&amp;gt;Capital Nu
+|1D742|name6=Mathematical Bold Italic&amp;lt;br /&amp;gt;Small Nu
+}}
+
+{{charmap
+|1D762|name1=Mathematical Sans-Serif&amp;lt;br /&amp;gt;Bold Capital Nu
+|1D77C|name2=Mathematical Sans-Serif&amp;lt;br /&amp;gt;Bold Small Nu
+|1D79C|name3=Mathematical Sans-Serif&amp;lt;br /&amp;gt;Bold Italic Capital Nu
+|1D7B6|name4=Mathematical Sans-Serif&amp;lt;br /&amp;gt;Bold Italic Small Nu
+}}
+
+These characters are used only as mathematical symbols. Stylized Greek text should be encoded using the normal Greek letters, with markup and formatting to indicate text style.
+
+== See also ==
+* [[Movable nu]]
+
+==References==
+{{reflist}}
+
+{{DEFAULTSORT:Nu (Letter)}}
+[[Category:Greek letters]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

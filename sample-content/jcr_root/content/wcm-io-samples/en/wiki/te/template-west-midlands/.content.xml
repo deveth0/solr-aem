@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Template:West Midlands"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Template:West Midlands" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Navbox
+|name = West Midlands
+|title =  [[Districts of England|Districts]] of the [[West Midlands (region)|West Midlands Region]]
+|state = {{{state|autocollapse}}}
+|image = [[File:West Midlands districts 2011 map.svg|153px]]
+|bodyclass = hlist
+
+|group1 = [[Herefordshire]]
+|list1 =
+* [[Herefordshire]]
+
+|group2 = [[Shropshire]]
+|list2 =
+* [[Shropshire Council|Shropshire]]
+* [[Telford and Wrekin]]
+
+|group3 = [[Staffordshire]]
+|list3 =
+* [[Cannock Chase District|Cannock Chase]]
+* [[East Staffordshire]]
+* [[Lichfield District|Lichfield]]
+* [[Borough of Newcastle-under-Lyme|Newcastle-under-Lyme]]
+* [[South Staffordshire]]
+* [[Borough of Stafford|Stafford]]
+* [[Staffordshire Moorlands]]
+* [[Stoke-on-Trent]]
+* [[Tamworth (borough)|Tamworth]]
+
+|group4 = [[Warwickshire]]
+|list4 =
+* [[North Warwickshire]]
+* [[Nuneaton and Bedworth]]
+* [[Borough of Rugby|Rugby]]
+* [[Stratford-on-Avon District|Stratford-on-Avon]]
+* [[Warwick District|Warwick]]
+
+|group5 = [[West Midlands (county)|West Midlands]]
+|list5 =
+* [[Birmingham]]
+* [[Coventry]]
+* [[Metropolitan Borough of Dudley|Dudley]]
+* [[Sandwell]]
+* [[Metropolitan Borough of Solihull|Solihull]]
+* [[Metropolitan Borough of Walsall|Walsall]]
+* [[Wolverhampton]]
+
+|group6 = [[Worcestershire]]
+|list6 =
+* [[Bromsgrove District|Bromsgrove]]
+* [[Malvern Hills District|Malvern Hills]]
+* [[Redditch]]
+* [[Worcester]]
+* [[Wychavon]]
+* [[Wyre Forest District|Wyre Forest]]
+
+}}&amp;lt;noinclude&amp;gt;
+{{collapsible option}}
+[[Category:West Midlands templates]]
+&amp;lt;/noinclude&amp;gt;&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

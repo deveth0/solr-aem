@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="USS Nevada"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="USS Nevada" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Italic title prefixed|3}}
+&amp;apos;&amp;apos;&amp;apos;USS &amp;apos;&amp;apos;Nevada&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+*{{USS|Neshaminy|1865}} was renamed &amp;apos;&amp;apos;Nevada&amp;apos;&amp;apos; in August 1869
+
+*{{USS|Nevada|BM-8}}, was a monitor commissioned in 1902, renamed to &amp;apos;&amp;apos;Tonopah&amp;apos;&amp;apos; in 1909, and sold in 1922
+
+*{{USS|Nevada|BB-36}} was a battleship, commissioned in 1916, damaged in the attack on Pearl Harbor, repaired and served during World War II, used as a target for Operation Crossroads after the war in 1946, and finally sunk for practice in 1948
+
+*{{USS|Nevada|SSBN-733}} is an &amp;apos;&amp;apos;Ohio&amp;apos;&amp;apos;-class ballistic missile submarine commissioned in 1986 and currently in active service
+
+{{Shipindex}}
+
+{{DEFAULTSORT:Nevada}}
+[[Category:United States Navy ship names]]
+[[Category:United States Navy Nevada-related ships]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

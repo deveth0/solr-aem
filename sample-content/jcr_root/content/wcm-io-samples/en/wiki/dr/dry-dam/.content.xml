@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Dry dam"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Dry dam" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=June 2008}}
+
+A &amp;apos;&amp;apos;&amp;apos;dry dam&amp;apos;&amp;apos;&amp;apos; is a [[dam]] constructed for the purpose of [[flood]] control.  Dry dams typically contain no gates or [[Water turbine|turbines]], and are intended to allow the channel to flow freely during normal conditions.  During periods of intense [[rainfall]] that would otherwise cause floods, the dam holds back the excess water, releasing it downstream at a controlled rate.
+[[File:PetraDam.jpg|thumb|[[Nabataeans|Nabataean]] Dry dam in [[Petra]] [[Siq]], [[Jordan]]]]
+
+Development of dry dams was pioneered by the [[Miami Conservancy District]] which built five such dams on tributaries to the [[Great Miami River]] to prevent flooding of the [[Miami Valley (Ohio)|Miami Valley]] and [[Dayton, Ohio]].
+
+==See also==
+* [[Levee]]
+* [[Hydrology]]
+
+==External links==
+*[http://www.miamiconservancy.org/flood/works.asp Miami Conservancy District: How a dry dam works]
+
+[[Category:Dams]]
+[[Category:Hydrology]]
+[[Category:Flood control projects]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

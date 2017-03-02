@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Program derivation"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Program derivation" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[computer science]], &amp;apos;&amp;apos;&amp;apos;program derivation&amp;apos;&amp;apos;&amp;apos; is the derivation of a program from its specification, by mathematical means.
+
+To &amp;apos;&amp;apos;derive&amp;apos;&amp;apos; a program means to write a formal specification, which is usually non-executable, and then apply mathematically correct rules in order to obtain an executable program satisfying that specification. The program thus obtained is then correct by construction.  Program and [[correctness (computer science)|correctness]] proof are constructed together.
+
+The approach usually taken in [[formal verification]] is to first write a program, and then provide a [[mathematical proof|proof]] that it conforms to a given [[program specification|specification]].  The main problems with this are that
+* the resulting proof is often long and cumbersome;
+* no insight is given as to how the program was developed; it appears &amp;quot;like a rabbit out of a hat&amp;quot;;
+* should the program happen to be incorrect in some subtle way, the attempt to verify it is likely to be long and certain to be fruitless.
+
+Program derivation tries to remedy these shortcomings by
+* keeping proofs shorter, by development of appropriate mathematical notations;
+* making design decisions through formal manipulation of the specification.
+
+Terms that are roughly synonymous with program derivation are: transformational programming, algorithmics, deductive programming.
+
+==See also==
+* [[Bird-Meertens Formalism]]
+* [[Hoare logic]]
+* [[Program refinement]]
+* [[Design by contract]]
+* [[Proof-carrying code]]
+
+==References==
+*  [[Edsger W. Dijkstra]], Wim H. J. Feijen, &amp;apos;&amp;apos;A Method of Programming&amp;apos;&amp;apos;, Addison-Wesley, 1988, 188 pages
+* Edward Cohen, &amp;apos;&amp;apos;Programming in the 1990s&amp;apos;&amp;apos;, Springer-Verlag, 1990
+* Anne Kaldewaij, &amp;apos;&amp;apos;Programming: The Derivation of Algorithms&amp;apos;&amp;apos;, Prentice-Hall, 1990, 216 pages
+*  David Gries, &amp;apos;&amp;apos;The Science of Programming&amp;apos;&amp;apos;, Springer-Verlag, 1981, 350 pages
+* [[Eric Hehner|Eric C.R. Hehner]], [http://www.cs.toronto.edu/~hehner/aPToP/ &amp;apos;&amp;apos;a Practical Theory of Programming&amp;apos;&amp;apos;], 2008, 235 pages
+* A.J.M. van Gasteren. &amp;apos;&amp;apos;On the Shape of Mathematical Arguments&amp;apos;&amp;apos;. Lecture Notes in Computer Science #445, Springer-Verlag, 1990. Teaches how to write proofs with clarity and precision.
+
+[[Category:Formal methods]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

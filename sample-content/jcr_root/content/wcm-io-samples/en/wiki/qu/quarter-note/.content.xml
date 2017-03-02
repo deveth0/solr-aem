@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Quarter note"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Quarter note" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Redirect|Negra|other uses|La Negra (disambiguation){{!}}La Negra|and|Negro}}
+{{wiktionary|quarter note}}
+
+A &amp;apos;&amp;apos;&amp;apos;quarter note&amp;apos;&amp;apos;&amp;apos; (American) or &amp;apos;&amp;apos;&amp;apos;crotchet&amp;apos;&amp;apos;&amp;apos; (British) is a [[note (music)|note]] played for one quarter of the duration of a [[whole note]] (or &amp;apos;&amp;apos;semibreve&amp;apos;&amp;apos;). Often, musicians will say that a crotchet is one [[beat (music)|beat]], however, this is not always correct, as the beat is indicated by the [[time signature]] of the music; a quarter note may or may not be the beat. Quarter notes are notated with a filled-in oval [[note head]] and a straight, flagless [[stem (music)|stem]]. The stem usually points upwards if it is below the middle line of the [[musical staff|stave]] or downwards if it is on or above the middle line. However, the stem direction may differentiate more than one [[part (music)|part]]. The head of the note also reverses its orientation in relation to the stem. (See image.)
+
+==Overview==
+In [[Unicode]], the symbol is U+2669 (&amp;lt;span style=&amp;quot;font-size:140%;&amp;quot;&amp;gt;{{unicode|♩}}&amp;lt;/span&amp;gt;).
+
+[[Image:Quarter notes and rest.svg|thumb|right|300px|A quarter note/crotchet with stem pointing up, a quarter note with stem pointing down, and a quarter rest]]
+[[Image:Quarter note run.png|thumb|right|300px|Four quarter notes. Quarter notes are the smallest note value not beamed together.]]
+{{Duple note values|300px}}
+
+A related value is the &amp;apos;&amp;apos;&amp;apos;quarter [[rest (music)|rest]]&amp;apos;&amp;apos;&amp;apos; (or &amp;apos;&amp;apos;&amp;apos;crotchet rest&amp;apos;&amp;apos;&amp;apos;). It denotes a silence of the same duration as a quarter note. It typically  appears as the symbol [[File:crotchet rest alt plain-svg.svg|
+x20px]] and occasionally as the older symbol [[File:crotchet rest plain-svg.svg|x14px]].&amp;lt;ref&amp;gt;Examples of the older symbol are found in English music up to the early 20th century, e.g. W. A. Mozart &amp;apos;&amp;apos;Requiem Mass&amp;apos;&amp;apos;, vocal score ed. W. T. Best, pub. London: Novello &amp;amp; Co. Ltd. 1879&amp;lt;/ref&amp;gt;
+
+The note derives from the &amp;apos;&amp;apos;semiminima&amp;apos;&amp;apos; of [[mensural notation]]. The word &amp;apos;&amp;apos;crotchet&amp;apos;&amp;apos; comes from [[Old French]] &amp;apos;&amp;apos;[[crochet]]&amp;apos;&amp;apos;, meaning &amp;apos;little hook&amp;apos;, diminutive of &amp;apos;&amp;apos;croc&amp;apos;&amp;apos;, &amp;apos;hook&amp;apos;, because of the hook used on the note in black notation. However, because the hook appeared on the [[eighth note]] (or &amp;apos;&amp;apos;quaver&amp;apos;&amp;apos;) in the later white notation, the modern French term &amp;apos;&amp;apos;croche&amp;apos;&amp;apos; refers to an eighth note. {{Citation needed|date=March 2009}}
+
+It is played for half the length of a minim (or &amp;quot;half note&amp;quot;) and twice that of a quaver (an &amp;quot;eighth note&amp;quot;). It is one beat in a bar of 4/4.
+The term &amp;apos;&amp;apos;quarter note&amp;apos;&amp;apos; is a [[calque]] (loan translation) of the German term &amp;apos;&amp;apos;Viertelnote&amp;apos;&amp;apos;. The names of this note (and rest) in most languages are [[calque]]d from the same source:
+
+{|class=&amp;quot;wikitable&amp;quot;
+|-
+!Language
+!note name
+!rest name
+|-
+|Catalan || negra || silenci de negra
+|-
+|Croatian || četvrtinka || četvrtinska pauza
+|-
+|Czech || čtvrťová nota || čtvrťová pauza
+|-
+|Danish || fjerdedelsnode || fjerdedelspause
+|-
+|Dutch || kwartnoot || kwartrust
+|-
+|French || noire || soupir
+|-
+|Galego || negra || silencio de negra
+|-
+|German || Viertelnote || Viertelpause
+|-
+|Greek|| Tetarto (&amp;apos;&amp;apos;τέταρτο&amp;apos;&amp;apos;)|| Pausi tetartou (&amp;apos;&amp;apos;παύση τετάρτου&amp;apos;&amp;apos;)
+|-
+|Italian || semiminima || pausa di semiminima
+|-
+|Norwegian || fjerdedelsnote || fjerdedelspause
+|-
+|Polish || ćwierćnuta || pauza ćwierćnutowa
+|-
+|Portuguese || semínima || pausa de semínima
+|-
+|Russian || четвертная нота || четвертная пауза
+|-
+|Serbian || četvrtin(k)a / четвртин(к)а || četvrtinska pauza/ четвртинска пауза
+|-
+|Slovak || štvrťová nota || štvrťová pomlčka
+|-
+|Spanish || negra || silencio de negra
+|-
+|Swedish || fjärdedelsnot || fjärdedelspaus
+|-
+|Finnish || Neljäsosanuotti || Neljäsosatauko
+|-
+|Turkish || dörtlük nota || dörtlük es
+|-
+|Chinese || 四分音符 || 四分休止符
+|-
+|Japanese || 4分音符 || 4分休符
+|-
+|Thai || โน๊ตตัวดำ || ตัวหยุดตัวดำ
+|}
+
+The Galician, Catalan, French and Spanish names for the note (all of them meaning &amp;quot;black&amp;quot;) derive from the fact that the &amp;apos;&amp;apos;semiminima&amp;apos;&amp;apos; was the longest note to be colored in mensural white notation, which is true as well of the modern form.
+
+The Greek and Chinese names mean &amp;quot;quarter&amp;quot; (for the note) and &amp;quot;quarter&amp;apos;s pause&amp;quot; (for the rest).
+
+== Notes ==
+{{reflist}}
+
+{{Musical note values}}
+
+[[Category:Musical notation]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Expression"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Expression" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Wiktionarypar|expression}}
+
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Expression&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+&amp;apos;&amp;apos;&amp;apos;Symbolic expression&amp;apos;&amp;apos;&amp;apos;
+* [[Expression (language)]], a thought communicated by language
+* [[Expression (mathematics)]], a finite combination of symbols that are well-formed according to applicable rules
+* [[Expression (programming)]], an instruction to execute something that will return a value
+* [[Regular expression]], a means of matching strings of text in computing
+* &amp;apos;&amp;apos;[[Dynamics_(music)#Relative_loudness|Expression marks]]&amp;apos;&amp;apos;, (music) notating the musical dynamics
+
+&amp;apos;&amp;apos;&amp;apos;Bodily expression&amp;apos;&amp;apos;&amp;apos;
+* The &amp;apos;&amp;apos;[[Breastfeeding|expression]]&amp;apos;&amp;apos; of milk
+* [[Emotional expression]], verbal and non-verbal behaviour that communicates emotion
+* [[Facial expression]], a movement of the face that conveys emotional state
+* [[Gene expression]], the process by which information from a gene is used in biochemistry
+* [[Expression (sign language)]], the expressions and postures of the face and body that contribute to the formation of words when signing
+
+&amp;apos;&amp;apos;&amp;apos;Product names&amp;apos;&amp;apos;&amp;apos;
+* [[Expression (album)|&amp;apos;&amp;apos;Expression&amp;apos;&amp;apos; (album)]], an album by John Coltrane
+* [[Expressions (album)|&amp;apos;&amp;apos;Expressions&amp;apos;&amp;apos; (album)]], an album by Chick Corea
+* &amp;apos;&amp;apos;Expressions&amp;apos;&amp;apos;, an album by [[Jon Secada]]
+* [[Expression crew]], a breakdance crew.
+* &amp;apos;&amp;apos;Expressions&amp;apos;&amp;apos;, the annual magazine of [[Vidyalankar Institute of Technology]], Mumbai, India
+* [[Microsoft Expression Studio]], a digital media and graphic design suite
+* [[Ex&amp;apos;pression College for Digital Arts]], a college in Emeryville, California for the entertainment industry
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

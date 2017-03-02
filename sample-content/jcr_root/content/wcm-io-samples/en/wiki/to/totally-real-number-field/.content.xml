@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Totally real number field"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Totally real number field" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[File:TotallyReal.svg|225px|thumb|right|The number field &amp;apos;&amp;apos;&amp;apos;Q&amp;apos;&amp;apos;&amp;apos;(√2) sits inside &amp;apos;&amp;apos;&amp;apos;R&amp;apos;&amp;apos;&amp;apos;, and the two embeddings of the field into &amp;apos;&amp;apos;&amp;apos;C&amp;apos;&amp;apos;&amp;apos; send every element in the field to another element of &amp;apos;&amp;apos;&amp;apos;R&amp;apos;&amp;apos;&amp;apos;, hence the field is totally real.]]
+
+In [[number theory]], a [[number field]] &amp;apos;&amp;apos;K&amp;apos;&amp;apos; is called &amp;apos;&amp;apos;&amp;apos;totally real&amp;apos;&amp;apos;&amp;apos; if for each [[embedding]] of &amp;apos;&amp;apos;K&amp;apos;&amp;apos; into the [[complex number]]s the [[image (mathematics)|image]] lies inside the [[real number]]s. Equivalent conditions are that &amp;apos;&amp;apos;K&amp;apos;&amp;apos; is generated over &amp;apos;&amp;apos;&amp;apos;Q&amp;apos;&amp;apos;&amp;apos; by one root of an [[integer polynomial]] &amp;apos;&amp;apos;P&amp;apos;&amp;apos;, all of the roots of &amp;apos;&amp;apos;P&amp;apos;&amp;apos; being real; or that the [[tensor product of fields|tensor product algebra]] of &amp;apos;&amp;apos;K&amp;apos;&amp;apos; with the real field, over &amp;apos;&amp;apos;&amp;apos;Q&amp;apos;&amp;apos;&amp;apos;, is a product of copies of &amp;apos;&amp;apos;&amp;apos;R&amp;apos;&amp;apos;&amp;apos;.
+
+For example, [[quadratic field]]s &amp;apos;&amp;apos;K&amp;apos;&amp;apos; of degree 2 over &amp;apos;&amp;apos;&amp;apos;Q&amp;apos;&amp;apos;&amp;apos; are either real (and then totally real), or complex, depending on whether the [[square root]] of a positive or negative number is adjoined to &amp;apos;&amp;apos;&amp;apos;Q&amp;apos;&amp;apos;&amp;apos;. In the case of [[cubic field]]s, a cubic integer polynomial &amp;apos;&amp;apos;P&amp;apos;&amp;apos; [[irreducible polynomial|irreducible]] over &amp;apos;&amp;apos;&amp;apos;Q&amp;apos;&amp;apos;&amp;apos; will have at least one real root. If it has one real and two complex roots the corresponding cubic extension of &amp;apos;&amp;apos;&amp;apos;Q&amp;apos;&amp;apos;&amp;apos; defined by adjoining the real root will &amp;apos;&amp;apos;not&amp;apos;&amp;apos; be totally real, although it is a field of real numbers.
+
+The totally real number fields play a significant special role in [[algebraic number theory]]. An [[abelian extension]] of &amp;apos;&amp;apos;&amp;apos;Q&amp;apos;&amp;apos;&amp;apos; is either totally real, or contains a totally real subfield over which it has degree two.
+
+Any number field that is [[Galois extension|Galois]] over the [[rational number|rationals]] must be either totally real or [[totally imaginary number field|totally imaginary]].
+
+==See also==
+*[[Totally imaginary number field]]
+
+==References==
+*{{Citation
+| last=Hida
+| first=Haruzo
+| author-link=Haruzo Hida
+| title=Elementary theory of L-functions and Eisenstein series
+| year=1993
+| publisher=[[Cambridge University Press]]
+| series=London Mathematical Society Student Texts
+| volume=26
+| isbn=978-0-521-43569-7
+}}
+
+[[Category:Field theory]]
+[[Category:Algebraic number theory]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Björkö"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Björkö" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Björkö&amp;apos;&amp;apos;&amp;apos; ([[Swedish language|Swedish]] for &amp;quot;[[Birch]] Island&amp;quot;) can signify:
+# In [[Sweden]]:
+## [[Björkö, Ekerö|Björkö]], a [[Mälaren|Lake Mälaren]] island in [[Ekerö Municipality]], [[Stockholm County]], the location for the excavation and [[World Heritage Site]] [[Birka]].
+## [[Björkö, Öckerö|Björkö]], an island in [[Öckerö Municipality]], [[Västra Götaland County]].
+## [[Björkö, Haninge|Björkö]], an island in [[Haninge Municipality]], Stockholm County.
+## Björkö, the southern part of [[Väddö]] island in northern [[Roslagen]], [[Norrtälje Municipality]], Stockholm County. (Also a former parish there.)
+## [[Björkö, Västervik|Björkö]], an island in [[Västervik Municipality]], [[Kalmar County]].
+# In [[Finland]]:
+## [[Björkö, Houtskär|Björkö]], one of the main islands of the former municipality [[Houtskär]] in the [[Archipelago Sea]].
+## [[Björkö (Korsholm)|Björkö]], a [[Kvarken]] island in [[Korsholm|Korsholm Municipality]], [[Ostrobothnia (region)|Ostrobothnia]].
+## [[Björkö, Kumlinge|Björkö]], an island and a village in [[Kumlinge|Kumlinge Municipality]] in the [[Åland Islands]].
+## [[Björkö, Korpo|Björkö]], an island in the former municipality [[Korpo]] in the [[Archipelago Sea]].
+# In [[Russia]]:
+## The Swedish name for [[Primorsk, Leningrad Oblast|Primorsk]] and the [[Beryozovye Islands]] in the [[Leningrad Oblast]],
+## The [[Treaty of Björkö]], signed by [[Nicholas II of Russia]] and [[William II, German Emperor|William II]] of the [[German Empire]] in 1905.
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Xaintrailles"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Xaintrailles" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox French commune
+|name               = Xaintrailles
+|region             = [[Aquitaine]]
+|image              = Xaintrailles église.JPG
+|department         = [[Lot-et-Garonne]]
+|arrondissement     = [[Arrondissement of Nérac]]
+|canton             = [[Canton of Lavardac]]
+|INSEE              = 47327
+|postal code        = 47230
+|mayor              = Gilles Lespes
+|term               = 2000&amp;amp;ndash;2008
+|intercommunality   = [[Communauté de communes du Val d&amp;apos;Albret]]
+|longitude          = 0.2589
+|latitude           = 44.2064
+|elevation m        = 210
+|elevation min m    = 80
+|elevation max m    = 196
+|area km2           = 10.26
+|population         = 380
+|population date    = 2006
+}}
+
+&amp;apos;&amp;apos;&amp;apos; Xaintrailles &amp;apos;&amp;apos;&amp;apos; is a [[Communes of France|commune]] in the [[Lot-et-Garonne]] [[Departments of France|department]] in south-western [[France]].
+
+==See also==
+*[[Communes of the Lot-et-Garonne department]]
+
+{{Commons category|Xaintrailles}}
+{{Lot-et-Garonne communes}}
+
+[[Category:Communes of Lot-et-Garonne]]
+
+{{LotGaronne-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

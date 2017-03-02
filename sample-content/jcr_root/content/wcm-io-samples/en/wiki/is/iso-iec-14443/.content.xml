@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="ISO/IEC 14443"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="ISO/IEC 14443" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;ISO/IEC 14443&amp;apos;&amp;apos;&amp;apos; &amp;apos;&amp;apos;Identification cards -- Contactless integrated circuit cards -- Proximity cards&amp;apos;&amp;apos; is an international standard that defines [[proximity cards]] used for [[Identification (information)|identification]], and the transmission protocols for communicating with it.&amp;lt;ref name=14443-1&amp;gt;[http://www.iso.org/iso/iso_catalogue/catalogue_ics/catalogue_detail_ics.htm?csnumber=39693 ISO/IEC 14443-1:2008 Identification cards -- Contactless integrated circuit cards -- Proximity cards -- Part 1: Physical characteristics]&amp;lt;/ref&amp;gt;&amp;lt;ref name=14443-2&amp;gt;[http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=50941 ISO/IEC 14443-2:2010 Identification cards -- Contactless integrated circuit cards -- Proximity cards -- Part 2: Radio frequency power and signal interface]&amp;lt;/ref&amp;gt;&amp;lt;ref name=14443-3&amp;gt;[http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=50942 ISO/IEC 14443-3:2011 Identification cards -- Contactless integrated circuit cards -- Proximity cards -- Part 3: Initialization and anticollision]&amp;lt;/ref&amp;gt;&amp;lt;ref name=14443-4&amp;gt;[http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=50648 ISO/IEC 14443-4:2008 Identification cards -- Contactless integrated circuit cards -- Proximity cards -- Part 4: Transmission protocol]&amp;lt;/ref&amp;gt;
+
+==Standard==
+The standard was developed by the &amp;apos;&amp;apos;Working Group 8&amp;apos;&amp;apos; of &amp;apos;&amp;apos;Subcommittee 17&amp;apos;&amp;apos; in &amp;apos;&amp;apos;[[ISO/IEC JTC1|ISO/IEC Joint Technical Committee 1]]&amp;apos;&amp;apos;.
+
+=== Parts ===
+
+* ISO/IEC 14443-1:2008 Part 1: Physical characteristics&amp;lt;ref name=14443-1/&amp;gt;
+* ISO/IEC 14443-2:2010 Part 2: Radio frequency power and signal interface&amp;lt;ref name=14443-2/&amp;gt;
+* ISO/IEC 14443-3:2011 Part 3: Initialization and anticollision&amp;lt;ref name=14443-3/&amp;gt;
+* ISO/IEC 14443-4:2008 Part 4: Transmission protocol&amp;lt;ref name=14443-4/&amp;gt;
+
+=== Types ===
+
+Cards may be Type A and Type B, both of which communicate via [[radio]] at 13.56&amp;amp;nbsp;[[MHz]]. The main differences between these types concern modulation methods, coding schemes (Part 2) and protocol initialization procedures (Part 3). Both Type A and Type B cards use the same transmission protocol described in Part 4. The transmission protocol specifies data block exchange and related mechanisms:
+#data block chaining
+#waiting time extension
+#multi-activation
+
+ISO/IEC 14443 uses following terms for components:
+* PCD: proximity coupling device (the [[card reader]])
+* PICC: proximity [[integrated circuit card]]
+
+== Physical size ==
+Part 1 of the standard specifies that the card shall be compliant with [[ISO/IEC 7810]] or ISO/IEC 15457-1, or &amp;quot;an object of any other dimension&amp;quot;.&amp;lt;ref name=14443-1/&amp;gt;
+
+==Notable implementations==
+*[[MIFARE]] cards
+*[[Calypso (electronic ticketing system)]]
+*iCLASS cards and tags by [[HID Global]]{{citation needed|reason=these are ISO15693, or vicinity cards|date=January 2013}}
+*[[Biometric passports]]
+*[[EMV]] payment cards ([[PayPass]], [[payWave]], [[ExpressPay]])
+*[[German identity card]]
+*[[Near Field Communication]] is based on in part, and is compatible with, ISO/IEC 14443
+
+==See also==
+*[[ISO/IEC 7816]], &amp;quot;with contact&amp;quot; smart card standard
+*[[International Civil Aviation Organization#ICAO standards|International Civil Aviation Organization Standards]]
+* [[List of ISO standards]]
+
+== References ==
+{{reflist}}
+
+==External links==
+*[http://wg8.de/sd1.html Draft ISO/IEC 14443 standards]
+*[[Atmel Corporation]], [http://www.atmel.com/dyn/resources/prod_documents/doc2056.pdf Requirements of ISO/IEC 14443 Type B Proximity Contactless Identification Cards, Application Note], Rev. 2056B–RFID–11/05
+*[http://www.CalypsoTechnology.net The Calypso ticketing standard]
+*[http://www.waazaa.org/14443/ Final Committee Drafts in pdf form]
+
+{{ISO standards}}
+
+{{DEFAULTSORT:ISO IEC 14443}}
+[[Category:Radio-frequency identification]]
+[[Category:Contactless smart cards]]
+[[Category:ISO/IEC standards|#14443]]
+
+{{standard-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Sides of an equation"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Sides of an equation" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+In [[mathematics]], &amp;apos;&amp;apos;&amp;apos;LHS&amp;apos;&amp;apos;&amp;apos; is informal shorthand for the &amp;apos;&amp;apos;&amp;apos;left-hand side&amp;apos;&amp;apos;&amp;apos; of an [[equation]].  Similarly, &amp;apos;&amp;apos;&amp;apos;RHS&amp;apos;&amp;apos;&amp;apos; is the &amp;apos;&amp;apos;&amp;apos;right-hand side&amp;apos;&amp;apos;&amp;apos;. Each is solely a name for a term as part of an expression; and they are in practice interchangeable, since [[equality (mathematics)|equality]] is [[equivalence relation|symmetric]].  This abbreviation is seldom if ever used in print; it is very informal.
+
+More generally, these terms may apply to an [[inequation]] or [[inequality (mathematics)|inequality]]. In the &amp;apos;&amp;apos;inequality case&amp;apos;&amp;apos;, there is no symmetry.  The &amp;apos;&amp;apos;&amp;apos;right-hand side&amp;apos;&amp;apos;&amp;apos; is everything on the right side of a [[test operator]] in an [[Expression (mathematics)|expression]]. Conversely, the &amp;apos;&amp;apos;&amp;apos;left-hand side&amp;apos;&amp;apos;&amp;apos; is everything on the left side.
+
+==Some examples==
+The expression on the right side/right part of the &amp;quot;=&amp;quot; sign is the right side of the equation and the left of the &amp;quot;=&amp;quot; is the left side/left part of equation.&amp;lt;br /&amp;gt;
+&amp;lt;br /&amp;gt;
+Take
+:x + 5 = y + 8
+where &amp;quot;&amp;apos;&amp;apos;x + 5&amp;apos;&amp;apos;&amp;quot; would be the &amp;apos;&amp;apos;&amp;apos;left-hand side&amp;apos;&amp;apos;&amp;apos; (lhs) and &amp;quot;&amp;apos;&amp;apos;y + 8&amp;apos;&amp;apos;&amp;quot; would be the &amp;apos;&amp;apos;&amp;apos;right-hand side&amp;apos;&amp;apos;&amp;apos; (rhs).
+
+==Homogeneous and inhomogeneous equations==
+In solving mathematical equations, particularly [[linear simultaneous equations]], [[differential equation]]s and [[integral equation]]s, the terminology &amp;apos;&amp;apos;homogeneous&amp;apos;&amp;apos; is often used for equations with the RHS set equal to zero. The corresponding &amp;apos;&amp;apos;inhomogeneous&amp;apos;&amp;apos; or &amp;apos;&amp;apos;nonhomogeneous&amp;apos;&amp;apos; equation then has the RHS with some given data, but of a general character.
+
+The typical case is of some [[Operator (mathematics)|operator]] &amp;apos;&amp;apos;L&amp;apos;&amp;apos;, with the difference being that between the equation
+
+:&amp;apos;&amp;apos;Lf&amp;apos;&amp;apos; = 0,
+
+to be solved for a function &amp;apos;&amp;apos;f&amp;apos;&amp;apos;, and the equation
+
+:&amp;apos;&amp;apos;Lf&amp;apos;&amp;apos; = &amp;apos;&amp;apos;g&amp;apos;&amp;apos;,
+
+with &amp;apos;&amp;apos;g&amp;apos;&amp;apos; a fixed function, to solve again for &amp;apos;&amp;apos;f&amp;apos;&amp;apos;. The point of the terminology appears for &amp;apos;&amp;apos;L&amp;apos;&amp;apos; a [[linear operator]]. Then any solution of the inhomogeneous equation may have a solution of the homogeneous equation added to it, and still remain a solution.
+
+For example in [[mathematical physics]], the homogeneous equation may correspond to a physical theory formulated in [[empty space]], while the inhomogeneous equation asks for more &amp;apos;realistic&amp;apos; solutions with some matter, or charged particles.
+
+==Syntax==
+More abstractly, when using [[infix notation]]
+
+:&amp;apos;&amp;apos;T&amp;apos;&amp;apos;*&amp;apos;&amp;apos;U&amp;apos;&amp;apos;
+
+the term &amp;apos;&amp;apos;T&amp;apos;&amp;apos; stands as the &amp;apos;&amp;apos;&amp;apos;left-hand side&amp;apos;&amp;apos;&amp;apos; and &amp;apos;&amp;apos;U&amp;apos;&amp;apos; as the &amp;apos;&amp;apos;&amp;apos;right-hand side&amp;apos;&amp;apos;&amp;apos; of the [[Operation (mathematics)|operator]] *. This usage is less common, though.
+
+==See also==
+* [[equal sign]]
+
+{{DEFAULTSORT:Sides Of An Equation}}
+[[Category:Mathematical terminology]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

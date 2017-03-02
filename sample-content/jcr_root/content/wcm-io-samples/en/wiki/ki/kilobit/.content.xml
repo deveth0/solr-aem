@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Kilobit"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Kilobit" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Quantities of bits}}
+The &amp;apos;&amp;apos;&amp;apos;kilobit&amp;apos;&amp;apos;&amp;apos; is a multiple of the unit [[bit]] for digital [[information]] or [[computer storage]]. The prefix [[kilo-|kilo]] (symbol k) is defined in the [[International System of Units]] (SI) as a multiplier of 10&amp;lt;sup&amp;gt;3&amp;lt;/sup&amp;gt; (1 thousand),&amp;lt;ref&amp;gt;[http://physics.nist.gov/cuu/Units/prefixes.html The NIST Reference on Constants, Units, and Uncertainty: &amp;apos;&amp;apos;SI prefixes&amp;apos;&amp;apos;]&amp;lt;/ref&amp;gt; and therefore,
+:1 kilobit = {{gaps|10&amp;lt;sup&amp;gt;3&amp;lt;/sup&amp;gt;|bits}} = {{gaps|1|000|bits}}.
+
+The kilobit has the unit symbol &amp;apos;&amp;apos;&amp;apos;kbit&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;kb&amp;apos;&amp;apos;&amp;apos;.
+
+Using the common [[byte]] size of 8 bits, 1 kbit is equal to 125 [[byte]]s.
+
+The kilobit is closely related to the [[kibibit]], a unit multiple derived from the [[binary prefix]] [[kibi-|kibi]] (symbol Ki) of the same order of magnitude,&amp;lt;ref&amp;gt;[http://physics.nist.gov/cuu/Units/binary.html The NIST Reference on Constants, Units, and Uncertainty: &amp;apos;&amp;apos;Prefixes for binary multiples&amp;apos;&amp;apos;]&amp;lt;/ref&amp;gt; which is equal to {{gaps|2&amp;lt;sup&amp;gt;10&amp;lt;/sup&amp;gt;|bits}} = {{gaps|1|024|bits}}, or approximately 2% larger than the kilobit. Despite the definitions of these new prefixes for binary-based quantities of storage by international standards organizations, memory semiconductor chips are still marketed using the [[metric prefix]] names to designate binary multiples.
+
+The kilobit is most commonly used in the expression of [[Bit rate|data rates]] of digital communication circuits as kilobits per second ([[kbit/s]] or kb/s), or abbreviated as &amp;apos;&amp;apos;kbps&amp;apos;&amp;apos;,&amp;lt;ref&amp;gt;[http://www.ieee.org/portal/cms_docs_iportals/iportals/publications/authors/transjnl/auinfo07.pdf IEEE information for authors, Appendix A]&amp;lt;/ref&amp;gt; as in, for example, &amp;apos;&amp;apos;a 56 kbps [[PSTN]] circuit&amp;apos;&amp;apos;, or &amp;apos;&amp;apos;a 512 kbit/s [[broadband]] Internet connection&amp;apos;&amp;apos;.
+
+The unit symbol kb is typographically similar to unit symbols of the [[kilobyte]], i.e. kB, with an upper case B. The [[International Electrotechnical Commission]] (IEC) therefore recommends the symbol bit instead of b. The prefix kilo is often used in fields of computer science and information technology with a meaning of multiplication by 1024 instead of 1000, contrary to international standards, in conjunction with the base unit byte and bit, in which case it is often written with a capital letter K,{{Citation needed|date=September 2012}} e.g., Kbit and KB. The decimal SI definition, 1 kbit/s = 1000 bit/s, is used uniformly in the context of [[bit rate|telecommunication transmission speeds]] .
+
+==See also==
+* [[Data rate units]]
+* [[Orders of magnitude (data)]]
+* [[SI prefix]]
+
+==References==
+{{reflist}}
+
+[[Category:Units of information]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

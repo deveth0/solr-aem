@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Help:Protection"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Help:Protection" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{for|reader help|Help:Protected pages}}
+{{Redirect|Wikipedia:Protection|the policy on protecting pages|Wikipedia:Protection policy}}{{pp-protected|small=yes}}
+{{shortcut|WP:TPP}}
+
+Depending on its level of protection, editing on the page has been [[Wikipedia:Semi-protection policy|restricted]] to either [[WP:AUTOCONFIRMED|registered users]] or [[Wikipedia:administrators|administrators]]. We regret any inconvenience this may cause&amp;amp;mdash;we strive to protect pages only when absolutely necessary and to unprotect them as soon as possible. We usually only protect pages that, for whatever reason, show themselves to be particularly prone to vandalism. If you wish to experiment with editing Wikipedia, please try the [[Wikipedia:Sandbox|Wikipedia sandbox]].
+
+&amp;apos;&amp;apos;&amp;apos;For more information on who protected the page and for what reason, see:&amp;apos;&amp;apos;&amp;apos;
+* The [[Wikipedia:Talk page|talk page]] of the protected page
+* The [[Special:Log/protect|protection log]]
+* The [[Wikipedia:Protection policy|protection policy]]
+
+Most pages on Wikipedia are only protected temporarily, to prevent [[Wikipedia:Edit war|edit wars]] or to control [[Wikipedia:Vandalism|vandalism]].  You should be able to edit the page when it is unprotected in a short while. In the meantime, please feel free to discuss the changes you want to make on the talk page of the page in question.  However a few types of pages are protected indefinitely:
+
+*The [[Main page]]  and all pages and images included onto it, via [[Wikipedia:Cascading protection|cascading protection]]
+*Pages in the [[Wikipedia:MediaWiki namespace|MediaWiki namespace]], which contain system messages and text for the user interface
+*Pages which have legally-defined wording, such as the [[Wikipedia:General disclaimer|general disclaimer]] and the [[Wikipedia:Text of the GNU Free Documentation License|licensing policy]]
+*Templates which are transcluded on many pages, such as {{tlx|tl}} and {{tlx|ambox}}, which would make a tempting target for [[denial of service]] attacks
+*Images which are tempting targets for vandalism, such as [[:Image:Wiki.png]].  Some images are also restricted by the [[MediaWiki talk:Bad image list|image blacklist]]
+
+If you discover a page that appears to have been protected and then forgotten about, you can request to have it unprotected by posting on &amp;apos;&amp;apos;&amp;apos;[[Wikipedia:Requests for page protection]]&amp;apos;&amp;apos;&amp;apos;.  If a page has only recently been protected, it may be best to wait a few days first, unless some resolution has been reached on the talk page.
+
+If you think that an edit needs to be made to a protected page, please discuss the change first on its [[Wikipedia:talk page|talk page]].  If the page is only semi-protected, a logged-in user will make the change if necessary.  If the page is fully protected, you can use the template {{tlx|editprotected}} to attract the attention of a Wikipedia administrator who can make the change if it has [[Wikipedia:consensus|consensus]].
+
+==See also==
+{{Wikipedia glossary}}
+* [[Wikipedia:Protection policy]]
+
+[[Category:Wikipedia page help|{{PAGENAME}}]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

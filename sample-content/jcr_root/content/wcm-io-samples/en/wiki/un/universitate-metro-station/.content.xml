@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Universitate metro station"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Universitate metro station" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+
+{{Infobox station
+| name          = Universitate
+| type          =
+| style         = RATB
+| image         = Universitatii metro station.jpg
+| image_caption =
+| address       = [[University Square, Bucharest|University Square]], &amp;lt;br /&amp;gt;[[Sector 1 (Bucharest)|Sector 1]], [[Bucharest]]
+| country       = [[Romania]]
+| coordinates   =
+| line          = &amp;lt;!-- line information is detailed under &amp;quot;services&amp;quot; --&amp;gt;
+| other         =
+| structure     = Underground
+| platform      = 2 - One [[island platform]]
+| depth         =
+| levels        =
+| tracks        =
+| parking       =
+| bicycle       =
+| baggage_check =
+| opened        = October 1987
+| closed        =
+| rebuilt       =
+| electrified   =
+| ADA           =
+| code          =
+| owned         =
+| zone          =
+| smartcardname = [[Bucharest Metro#Card Activ|Card ACTIV]]
+| smartcardstatus = Available
+| former        =
+| passengers    =
+| pass_year     =
+| pass_percent  =
+| pass_system   =
+| mpassengers   =
+| services      = {{s-rail|title=Bucharest Metro}}{{S-line|system=RATB|line=M2|previous=Piaţa Unirii|next=Piaţa Romană}}
+| map_locator   =
+| web           =
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Universitate&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;University&amp;apos;&amp;apos;) is a metro station located in [[University Square, Bucharest]], near the [[University of Bucharest]], the [[Ion Mincu University of Architecture and Urbanism|University of Architecture]], the [[National Theatre Bucharest]] and the [[InterContinental]] Hotel. The station is one of the deepest in the whole system, with a narrow platform, built around huge pillars.
+
+{{Coord|44.43595|26.10274|display=title|type:landmark_region:RO}}
+
+{{Bucharest Metro navbox}}
+
+{{DEFAULTSORT:Universitate Metro Station}}
+[[Category:Bucharest Metro stations]]
+[[Category:Railway stations opened in 1987]]
+
+{{Bucharest-metro-stub}}
+{{Romania-railstation-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

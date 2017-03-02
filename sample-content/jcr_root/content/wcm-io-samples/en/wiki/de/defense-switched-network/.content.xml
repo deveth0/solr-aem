@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Defense Switched Network"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Defense Switched Network" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;Defense Switched Network (DSN)&amp;apos;&amp;apos;&amp;apos; is a primary information transfer [[telecommunications network|network]] for the [[Defense Information Systems Network]] (DISN).  The DSN provides the worldwide non-secure voice, [[secure voice]], data, [[Fax|facsimile]], and [[video teleconference|video teleconferencing]] services for [[United States Department of Defense|DOD]] [[Command and Control (Military)|Command and Control]] (C2) elements, their supporting activities engaged in [[logistics]], [[personnel]], [[engineering]], and [[intelligence (information gathering)|intelligence]], as well as other [[Federal government of the United States|Federal]] agencies.
+
+In 1982, the DSN was designated by the [[Office of the Secretary of Defense]] (OSD) and the [[Joint Chiefs of Staff]] (JCS) as the provider of long-distance communications service for the DOD.  The DSN is designated as a primary system of communication during peacetime, periods of crisis, preattack, non-nuclear, and post-attack phases of war.  The network assures nonblocking service for users with &amp;quot;flash&amp;quot; and &amp;quot;flash override&amp;quot; [[autovon|precedence capabilities]]. Key users include the [[National Command Authorities]], [[Combatant Command|Commanders of the Combatant Commands]], and subordinate component commanders. DSN replaced the older [[Autovon]] system.
+
+The DSN consists of four subsystems:
+*Switching,
+*Transmission,
+*Timing and Synchronization, and
+*[[Network administrator|Network Administration]] and Management.
+The DSN Switching Subsystem consists of multifunction, [[Class 4 telephone switch|stand-alone tandem]], [[Class 5 telephone switch|end office]], and remote switching units.  Using the transmission, timing, and control elements of the DISN, they interconnect all military locations worldwide and provide end-to-end long-distance common user and dedicated voice, secure voice, data, and video services worldwide.
+
+In addition to nonsecure voice, data, and video services, the DSN will provide transmission, switching, and support services for Secure Telephone Units, Third Generation ([[STU-III]]s), the [[Secure Terminal Equipment]] (STE), the [[Defense Red Switch Network]] (DRSN), the dial-up alternative routing for the Unclassified  but Sensitive [[Internet Protocol]] (IP) Router Network ([[NIPRNet]]), and the Secret IP Router Network ([[SIPRNet]]). The DSN can also provide access to the [[Government Emergency Telephone System]] (GETS).
+
+== External links ==
+* [http://www.disa.mil/dsn/dsn.html A brief history of and video about the DSN] US Government Defense Information Systems Agency
+
+{{US-mil-stub}}
+[[Category:United States Department of Defense agencies]]
+[[Category:Military communications of the United States]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

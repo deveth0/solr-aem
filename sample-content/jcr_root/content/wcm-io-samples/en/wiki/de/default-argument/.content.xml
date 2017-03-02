@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Default argument"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Default argument" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Refimprove|date=May 2009}}
+In [[computer programming]], a &amp;apos;&amp;apos;&amp;apos;default argument&amp;apos;&amp;apos;&amp;apos; is an argument to a [[function (programming)|function]] that a programmer is not required to specify.
+In most programming languages, functions may take one or more arguments. Usually, each argument must be specified in full (this is the case in the [[C (programming language)|C programming language]]&amp;lt;ref&amp;gt;http://elec.uq.edu.au/~comp2303/Leslie_C_ref/CPLUSPLUS/CONCEPT/fundefault.html&amp;lt;/ref&amp;gt;).
+
+Later languages (for example, in [[C++]]) allow the programmer to specify default arguments that always have a value, even if one is not specified when calling the function. For example, in the following function declaration:
+
+&amp;lt;source lang=&amp;quot;cpp&amp;quot;&amp;gt;
+ int my_func(int a, int b, int c=12);
+&amp;lt;/source&amp;gt;
+
+This function takes three arguments, of which the last one has a default of twelve. The programmer may call this function in two ways:
+
+&amp;lt;source lang=&amp;quot;cpp&amp;quot;&amp;gt;
+ result = my_func(1, 2, 3);
+&amp;lt;/source&amp;gt;
+&amp;lt;source lang=&amp;quot;cpp&amp;quot;&amp;gt;
+ result = my_func(1, 2);
+&amp;lt;/source&amp;gt;
+
+In the first case the value for the argument called &amp;apos;&amp;apos;c&amp;apos;&amp;apos; is specified as normal. In the second case, the argument is omitted, and the default value of &amp;apos;&amp;apos;12&amp;apos;&amp;apos; will be used instead.
+
+There is no means to know if the argument has been specified by the caller or if the default value was used.
+
+The above mentioned method is especially useful when one wants to set default criteria so that the function can be called with or without parameters.
+Consider the following:
+
+&amp;lt;source lang=&amp;quot;cpp&amp;quot;&amp;gt;
+void printToScreen(istream &amp;amp;input = cin)
+{
+// this outputs any input to the screen
+cout &amp;lt;&amp;lt; input;
+}
+&amp;lt;/source&amp;gt;
+
+The function call:
+&amp;lt;source lang=&amp;quot;cpp&amp;quot;&amp;gt;
+ printToScreen();
+&amp;lt;/source&amp;gt;
+will by default print input from the keyboard to the screen. As this is the most commonly used behaviour it makes sense not to specify
+&amp;lt;source lang=&amp;quot;cpp&amp;quot;&amp;gt;
+printToScreen(cin);
+&amp;lt;/source&amp;gt;
+
+on the other hand any parameter of type istream can now be passed to the same function and the function will print to screen from the source specified as the parameter to the function.
+Consider:
+&amp;lt;source lang=&amp;quot;cpp&amp;quot;&amp;gt;
+printToScreen(fileName);
+&amp;lt;/source&amp;gt;
+where fileName is a file that has been opened to read via ifstream&amp;apos;s open function call.
+
+==Overloaded methods==
+Some other languages, like [[Java (programming language)|Java]], do not have default arguments. However, the same behaviour can be simulated by using [[method overloading]] to create overloaded methods of the same name, which take different numbers of arguments; and the versions with fewer arguments simply call the versions with more arguments, with the default arguments as the missing arguments:
+
+&amp;lt;source lang=&amp;quot;java&amp;quot;&amp;gt;
+int MyFunc(int a, int b) { return MyFunc(a, b, 12); }
+int MyFunc(int a, int b, int c) { /* main implementation here */ }
+&amp;lt;/source&amp;gt;
+
+==Evaluation==
+If a default argument is not simply a literal, but an expression, there is a choice of when the expression is evaluated – once for the entire program (at parse time, compile time, or execution time), or once per function call, at call time.
+
+Python is a notable language that evaluates expressions in default arguments once, at module load time. If evaluation per function call is desired, it can be replicated by having the default argument be a [[sentinel value]], such as &amp;lt;code&amp;gt;None&amp;lt;/code&amp;gt; in Python, and then in the first line of the function, checking for the sentinel value and assigning to expression if found, which ensures expression evaluation.
+
+For example, to have a default argument evaluated to the current time in Python, the following may be used:
+&amp;lt;source lang=python&amp;gt;
+ import datetime
+ def f(a, b=None):
+     b = b or datetime.datetime.now()
+&amp;lt;/source&amp;gt;
+
+==Extent==
+Generally a default argument will behave identically to an argument passed by parameter or a local variable declared at the start of the function, and have the same scope and extent (lifetime) as a parameter or other local variable, namely an [[automatic variable]] which is deallocated on function termination.
+
+In other cases a default argument may instead be statically allocated. If the variable is mutable, it will then retain its value across function calls, as with a static variable.
+
+This behavior is found in Python for mutable types (such as lists). As with evaluation, in order to ensure the same extent as a local variable, one can use a sentinel value, as in this example:
+&amp;lt;source lang=python&amp;gt;
+ def f(a, b=None):
+     b = b or []
+&amp;lt;/source&amp;gt;
+
+==References==
+{{reflist}}
+
+{{use dmy dates|date=January 2012}}
+{{DEFAULTSORT:Default Argument}}
+[[Category:Subroutines]]
+
+{{prog-lang-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

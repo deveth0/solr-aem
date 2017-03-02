@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Adiel"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Adiel" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{eastons}}
+&amp;apos;&amp;apos;&amp;apos;Adiel&amp;apos;&amp;apos;&amp;apos; ({{lang-he|עדיאל}}) is a word that means &amp;quot;ornament of God.&amp;quot; It could also be used to refer to any of the following:
+
+(1.)The father of Azmaveth, who was treasurer
+under [[David]] and [[Solomon]] (1 Chr. 27:25)
+
+(2.) A family head of
+the [[tribe of Simeon]] (1 Chr. 4:36)
+
+(3.) A priest (1 Chr. 9:12)
+
+{{Tanakh-stub}}
+[[Category:Hebrew Bible people]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

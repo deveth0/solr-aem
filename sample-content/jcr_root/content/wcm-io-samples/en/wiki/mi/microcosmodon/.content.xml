@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Microcosmodon"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Microcosmodon" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Taxobox
+| name = &amp;apos;&amp;apos;Microcosmodon&amp;apos;&amp;apos;
+| status = Fossil
+| regnum = [[Animal]]ia
+| phylum = [[Chordata]]
+| classis = [[Mammal]]ia
+| ordo = [[Multituberculata]]
+| familia = [[Microcosmodontidae]]
+| genus = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Microcosmodon&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+| subdivision_ranks = Species
+| subdivision =
+*&amp;apos;&amp;apos;M. arcuatus&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;M. conus&amp;apos;&amp;apos; &amp;lt;small&amp;gt;([[type species]])&amp;lt;/small&amp;gt;
+*&amp;apos;&amp;apos;M. harleyi&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;M. rosei&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;M. woodi&amp;apos;&amp;apos;
+}}
+
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Microcosmodon&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is a [[mammal]] [[genus]] from the [[Paleocene]] of [[North America]]. It was a member of the extinct order [[Multituberculata]], and lies within the suborder [[Cimolodonta]] and family [[Microcosmodontidae]]. The genus &amp;apos;&amp;apos;Microcosmodon&amp;apos;&amp;apos; was named by G.L. Jepsen in 1930.
+
+== Species ==
+The species &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Microcosmodon arcuatus&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; was named by P.A. Johnston and R.C. Fox in 1984. [[Fossil]] remains have been found in the Puercan (Paleocene)-age [[Stratum|strata]] Rav W-1 of [[Saskatchewan]], [[Canada]]. The [[holotype]] is in the [[University of Alberta]] collection. When alive, the creature weighed about the same as a well-fed mouse (about 30 g).
+
+The [[type species]] &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Microcosmodon conus&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; was named by G.L. Jepsen in 1930. Remains have been found in the Tiffanian (Paleocene)-age strata of the Polecat Bench Formation of [[Wyoming]] ([[USA]]) and Saskatchewan, Canada. This species would have weighed around 15 g.
+
+The species &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Microcosmodon harleyi&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; was named by A. Weil in 1998. Remains have been found in the Puercan (Paleocene)-age strata of the Tullock Formation in [[Montana]] (USA). &amp;quot;The presence of the new species suggests that microcosmodontine species richness in the Western Interior was as high at the beginning of the Paleocene as at its end,&amp;quot; (Weil, 1998). The species would have weighed about 20 g.
+
+The species &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Microcosmodon rosei&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; was named by D.W. Krause in 1980. Remains have been found in the Clarforkian (Paleocene)-age strata of the Willwood Formation of Wyoming. This species weighed a fairly standard mouse-sized 25 g+.
+
+The species &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Microcosmodon woodi&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; was named by R.C. Holtzman and D.L. Wolberg in 1977. It is also known as &amp;apos;&amp;apos;Eucosmodontid woodi&amp;apos;&amp;apos; (Weil 1998). Remains have been found in the Middle Paleocene-age strata of Montana and [[North Dakota]] (USA) and [[Alberta]], Canada. However, Weil A. (1998) found that this material &amp;quot;does not belong to this genus or subfamily.&amp;quot;
+
+== References ==
+* Weil (1998), &amp;quot;A new species of &amp;apos;&amp;apos;Microcosmodon&amp;apos;&amp;apos; (Mammalia: Multituberculata) from the Paleocene Tullock Formation of Montana, and an argument for the Micrcosmodontinae&amp;quot;. &amp;apos;&amp;apos;PaleoBios&amp;apos;&amp;apos; &amp;apos;&amp;apos;&amp;apos;18&amp;apos;&amp;apos;&amp;apos;.
+* Krause (1980), &amp;quot;Multituberculates from the Clarkforkian Land-Mammal Age, late Paleocene-early Eocene, of western North America&amp;quot;. &amp;apos;&amp;apos;J. of Paleont.&amp;apos;&amp;apos; &amp;apos;&amp;apos;&amp;apos;54(6)&amp;apos;&amp;apos;&amp;apos;, p.1163-1183.
+*Jepsen (1930), &amp;quot;Stratigraphy and paleontology of the Paleocene of northeastern Park County, Wyoming&amp;quot;. &amp;apos;&amp;apos;Proceedings of the American Philosophical Society&amp;apos;&amp;apos; &amp;apos;&amp;apos;&amp;apos;69(1)&amp;apos;&amp;apos;&amp;apos;, p.463-528.
+*Holtzman &amp;amp; Wolberg (1977), &amp;quot;The Microsmodontinae and &amp;apos;&amp;apos;Microcosmodon woodi&amp;apos;&amp;apos;, new Multituberculata taxa (Mammalia) from the Late Paleocene of North America&amp;quot;. &amp;apos;&amp;apos;Sci. Publ. of the Sci. Mus. of Minnesota&amp;apos;&amp;apos; &amp;apos;&amp;apos;&amp;apos;4(1)&amp;apos;&amp;apos;&amp;apos;, p.1-13.
+*Kielan-Jaworowska Z &amp;amp; Hurum JH (2001), &amp;quot;Phylogeny and Systematics of multituberculate mammals&amp;quot;. &amp;apos;&amp;apos;Palaeontology&amp;apos;&amp;apos; &amp;apos;&amp;apos;&amp;apos;44&amp;apos;&amp;apos;&amp;apos;, p.389-429.
+*Johnston &amp;amp; Fox (1984), &amp;quot;Paleocene and Late Cretaceous mammals from Saskatchewan, Canada&amp;quot;. Palaeontogr. Abt. A: Paläozool., Stratigr. 186, p.163-222.
+*Much of this information has been derived from [http://home.arcor.de/ktdykes/taenio.htm] MESOZOIC MAMMALS: [[Eucosmodontidae]], [[Microcosmodontidae]] and [[Taeniolabidoidea]], an Internet directory.
+
+[[Category:Cimolodonts]]
+[[Category:Paleocene mammals]]
+[[Category:Paleocene extinctions]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

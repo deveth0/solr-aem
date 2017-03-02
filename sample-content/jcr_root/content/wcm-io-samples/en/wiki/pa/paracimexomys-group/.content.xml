@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Paracimexomys group"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Paracimexomys group" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Taxobox
+| name = Paracimexomys group
+| fossil_range = [[Early Cretaceous]] - [[Paleocene]]
+| regnum = [[Animal]]ia
+| phylum = [[Chordata]]
+| classis = [[Mammaliformes]]
+| ordo = [[Multituberculata]]
+| unranked_familia = &amp;apos;&amp;apos;&amp;apos;Paracimexomys group&amp;apos;&amp;apos;&amp;apos;
+| subdivision_ranks = Genera
+| subdivision =
+* &amp;apos;&amp;apos;[[Paracimexomys]]&amp;apos;&amp;apos;
+* &amp;apos;&amp;apos;[[Bryceomys]]&amp;apos;&amp;apos;
+* &amp;apos;&amp;apos;[[Dakotamys]]&amp;apos;&amp;apos;
+* ?&amp;apos;&amp;apos;[[Cimexomys]]&amp;apos;&amp;apos;
+* ??&amp;apos;&amp;apos;[[Cedaromys]]&amp;apos;&amp;apos;
+}}
+The &amp;apos;&amp;apos;&amp;apos;Paracimexomys group&amp;apos;&amp;apos;&amp;apos; is a loose grade of [[extinct]] [[mammals]] which are known from the Lower [[Cretaceous]] and possibly through to the [[Paleocene]] of [[North America]].
+They were members of an also extinct [[order (biology)|order]] called [[Multituberculata]].
+These were generally small, somewhat [[rodent]]-like creatures, some of whom shared the world with [[dinosaur]]s. As remains are rather sparse, it&amp;apos;s not yet been possible to define this group with more certainty.
+
+These mammals seem to represent animals that were anatomically somewhere between the more basal &amp;quot;[[Plagiaulacida]]&amp;quot; and the further derived members of [[Cimolodonta]]. The affinities of &amp;apos;&amp;apos;[[Cimexomys]]&amp;apos;&amp;apos; and &amp;apos;&amp;apos;[[Cedaromys]]&amp;apos;&amp;apos; are even less well established.
+
+== References ==
+* Kielan-Jaworowska Z &amp;amp; Hurum JH (2001), &amp;quot;Phylogeny and Systematics of multituberculate mammals&amp;quot;. &amp;apos;&amp;apos;Paleontology&amp;apos;&amp;apos; &amp;apos;&amp;apos;&amp;apos;44&amp;apos;&amp;apos;&amp;apos;, p.389-429.
+* Much of this information has been derived from [http://home.arcor.de/ktdykes/cimolod.htm] MESOZOIC MAMMALS; &amp;quot;basal&amp;quot; Cimolodonta, Cimolomyidae, Boffidae and Kogaionidae, an Internet directory.
+
+[[Category:Cimolodonts]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

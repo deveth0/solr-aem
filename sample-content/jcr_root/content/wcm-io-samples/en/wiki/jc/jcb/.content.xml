@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="JCB"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="JCB" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary}}
+&amp;apos;&amp;apos;&amp;apos;JCB&amp;apos;&amp;apos;&amp;apos; is a [[three-letter abbreviation]] with multiple meanings, as described below:
+{{TOC right}}
+==Companies==
+* [[J. C. Bamford]] (JCB), a British manufacturer of heavy industrial and agricultural vehicles
+** By extension, slang for any [[backhoe]] digger/excavator in Britain and Europe
+* [[Japan Credit Bureau]], a credit card company based in Tokyo, Japan
+
+==Products==
+* [[JCB (song)|&amp;quot;JCB&amp;quot; (song)]], a song by Nizlopi featuring a JCB excavator
+* JCB, a beer brewed by the [[Wadworth Brewery]] in Devizes, Wiltshire
+* &amp;apos;&amp;apos;[[Journal of Cell Biology]]&amp;apos;&amp;apos;, a weekly biology journal by the Rockefeller University Press
+* &amp;apos;&amp;apos;[[Journal of Crustacean Biology]]&amp;apos;&amp;apos;, a quarterly biology journal specialising in carcinology
+
+==People==
+* [[Johann Christian Bach]], a composer
+* [[Jean-Christophe Boullion]], a racing car driver
+* [[Jason Charles Bourne]], Robert Ludlum&amp;apos;s fictional character
+* [[John Cawte Beaglehole]], New Zealand historian
+
+==Others==
+* &amp;apos;&amp;apos;Juris Canonici Baccalaureus&amp;apos;&amp;apos;, Bachelor of [[Canon Law]] degree
+* [[University of Toronto Joint Centre for Bioethics]], a research centre
+* [[Joint Cipher Bureau]], agency of the Indian armed forces responsible for signals intelligence and cryptanalysis
+* &amp;apos;Jac Codi Baw&amp;apos; is the Welsh child&amp;apos;s name for a J.C.B digger machine, and it translates literally as Jack Dig Dirt
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Dark fibre network"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Dark fibre network" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Refimprove|date=July 2010}}
+
+A &amp;apos;&amp;apos;&amp;apos;dark fibre network&amp;apos;&amp;apos;&amp;apos; or simply &amp;apos;&amp;apos;&amp;apos;dark network&amp;apos;&amp;apos;&amp;apos;&amp;lt;ref name=&amp;quot;STRIVEMAP&amp;quot;&amp;gt;{{cite news|title=Scientists Strive to Map the Shape-Shifting Net|url=http://www.nytimes.com/2010/03/02/science/02topo.html?_r=1&amp;amp;src=sch&amp;amp;pagewanted=all|accessdate=27 July 2010|newspaper=[[The New York Times]]|date=1 March 2010 | first=John | last=Markoff}}&amp;lt;/ref&amp;gt; is a privately operated [[optical fiber|optical fibre]] network that is run directly by its operator over [[dark fibre]] leased or purchased from another supplier, rather than by purchasing [[bandwidth (computing)|bandwidth]] or [[leased line]] capacity. Dark fibre networks may be used for private networking, or as [[Internet]] access or Internet infrastructure networking.
+
+Dark fibre networks may be [[Network topology#Point-to-point|point-to-point]], [[Point-to-multipoint communication|point-to-multipoint]], or use [[self-healing ring]] or [[Mesh networking|mesh]] topologies.
+
+Because there is no intermediate resale of capacity, dark fibre networks can operate using the latest optical protocols using [[wavelength division multiplexing]] to add capacity where needed, and to provide an upgrade path between technologies without removing the network from service.
+
+For example, many dark fibre [[metropolitan area network]]s use cheap [[Gigabit Ethernet]] equipment over [[CWDM]], rather than expensive [[SONET]] ring systems.
+
+They offer very high price-performance for network users who require high performance, such as [[Google]], which has dark network capacities for video and search data,&amp;lt;ref name=&amp;quot;STRIVEMAP&amp;quot;/&amp;gt; or wish to operate their own network for security or other commercial reasons.
+
+However, dark fibre networks are generally only available in high-population-density areas where fibre has already been laid, as the civil engineering costs of installing fibre to new locations is often prohibitive. For these reasons, dark fibre networks are typically run between [[data center]]s and other places with existing fibre infrastructure.
+
+==References==
+{{Reflist}}
+
+{{DEFAULTSORT:Dark Fibre Network}}
+[[Category:Fiber-optic communications]]
+[[Category:Computer networking]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

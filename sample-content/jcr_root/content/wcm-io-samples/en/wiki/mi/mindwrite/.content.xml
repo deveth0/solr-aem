@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="MindWrite"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="MindWrite" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox Software|
+| name                   = MindWrite
+| logo                   =
+| screenshot             =
+| caption                =
+| developer              = DeltaPoint
+| latest_release_version =
+| latest_release_date    =
+| latest_preview_version =
+| latest_preview_date    =
+| operating_system       = [[Macintosh]]
+| genre                  = [[Outliner]]/[[Word Processor]]
+| license                = [[Proprietary software|Proprietary]]
+| website                =
+| status                 = Discontinued
+}}
+
+&amp;apos;&amp;apos;&amp;apos;MindWrite&amp;apos;&amp;apos;&amp;apos; is an early [[word processor]] designed for [[Apple Macintosh|Macintosh]] [[computer]]s. It was published by DeltaPoint.
+It appeared after [[MacWrite]] and has several features that make it appealing to users. It can create multi-level outlines and show them in full, only the first-level outline level or any number of levels desired. Files that are in outline format can easily be changed to regular essay format. This word processor can also alphabetize lists (by the first word in each list element). It cannot be used on Macintosh systems higher than 7.0.
+
+==See also==
+*[[List of word processors]]
+*[[List of old Macintosh software]]
+
+===Compare with===
+*[[MORE (application)]]
+*[[FullWrite Professional]]
+
+==References==
+* Chris Ruben, [http://books.google.com/books?id=BDwEAAAAMBAJ&amp;amp;pg=PA52 &amp;quot;Program Smoothly Integrates Outlining, Word Processing&amp;quot;], &amp;apos;&amp;apos;InfoWorld&amp;apos;&amp;apos;, Volume 9 Number 6 (9 February 1987), pg. 52-54
+* [http://books.google.com/books?id=cDoEAAAAMBAJ&amp;amp;pg=PT23 &amp;quot;MindWrite, Version 1.1&amp;quot;], &amp;apos;&amp;apos;InfoWorld&amp;apos;&amp;apos;, Volume 10 Number 32 (8 August 1987), pg. 32
+
+[[Category:Mac OS word processors]]
+[[Category:Mac OS-only software]]
+
+{{WordProcessor-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Gigabit interface converter"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Gigabit interface converter" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{primary sources|date=October 2011}}
+
+{{Redirect |GBIC |Gold Based Internet Currency | digital gold currency}}
+
+[[Image:GBIC.jpg|thumb|right|200px|[[1000BASE-SX]] GBIC]]
+A &amp;apos;&amp;apos;&amp;apos;gigabit interface converter&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;&amp;apos;GBIC&amp;apos;&amp;apos;&amp;apos;) is a standard for [[transceiver]]s, commonly used with [[Gigabit Ethernet]] and [[fibre channel]] in the 2000s.{{cn|date=March 2013}} By offering a standard, [[hot swap]]pable electrical interface, one gigabit port can support a wide range of physical media, from copper to long-wave [[single-mode optical fiber]], at lengths of hundreds of kilometers.
+
+A variation of the GBIC called the [[small form-factor pluggable transceiver]] (SFP), also known as mini-GBIC, has the same functionality but in a smaller form factor.&amp;lt;ref&amp;gt;{{cite web |title= INF-8074i Specification for SFP (Small Formfactor Pluggable Transceiver) revision 1.0  |publisher= Small Form Factor Committee |date= May 12, 2001 |url= ftp://ftp.seagate.com/sff/INF-8074.PDF |accessdate= June 21, 2011 }}&amp;lt;/ref&amp;gt; Announced in 2001, it largely made the GBIC obsolete.{{cn|date=October 2011}}
+
+==Appeal==
+The appeal of the GBIC standard (and [[:Category:Hot-swappable transceiver|hot-swappable transceivers]] in general) in networking equipment, as opposed to fixed physical interface configurations, is its flexibility. Where multiple different optical technologies are in use, an administrator can purchase GBICs as needed, not in advance, and they can be the specific type needed for each link. This lowers the cost of the base system and gives the administrator far more flexibility. On the other hand if a switch will mostly have one port type (especially if that port type is copper) purchasing a switch with that port type built in will be cheaper and take up less space per port.
+
+==Standards==
+The GBIC standard is non-proprietary and is defined by the [[Small Form Factor committee]] in document number 8053i.&amp;lt;ref name=&amp;quot;spec&amp;quot;&amp;gt;{{cite web |title= SFF-8053 Specification for GBIC (Gigabit Interface Converter) revision 5.5  |publisher= [[Small Form Factor committee]] |date= September 27, 2000 |url= ftp://ftp.seagate.com/sff/INF-8053.PDF |accessdate= June 21, 2011 }}&amp;lt;/ref&amp;gt; The first publication of the proposal was in November 1995. A few corrections and additions were made through September 2000. Robert Snively of [[Brocade Communications]] was technical editor. Original contributors were [[AMP Incorporated]], [[Compaq |Compaq Computers]], [[Sun Microsystems]], and Vixel Corporation.&amp;lt;ref name=&amp;quot;spec&amp;quot;/&amp;gt;
+
+== References==
+{{Commons category|Gigabit Interface Converter}}
+{{Reflist}}
+
+{{Ethernet}}
+[[Category:Hot-swappable transceiver]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

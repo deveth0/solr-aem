@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Yotsubashi Station"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Yotsubashi Station" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=August 2009}}
+[[Image:Osaka-subway-Y14-Yotsubashi-station-platform.jpg|thumb|Platform]]
+{{nihongo|&amp;apos;&amp;apos;&amp;apos;Yotsubashi Station&amp;apos;&amp;apos;&amp;apos;|四ツ橋駅|Yotsubashi-eki}} is a [[railway station]] on the [[Yotsubashi Line (Osaka)|Osaka Municipal Subway Yotsubashi Line]] in [[Nishi-ku, Osaka|Nishi-ku]], [[Osaka]], [[Japan]].
+
+==History==
+*October 1, 1965 - The station opened, because the section of the Yotsubashi Line from Daikokucho to Nishi-Umeda was opened.
+
+==Lines==
+*Osaka Municipal Subway
+**Yotsubashi Line (Station number: Y14)
+
+Yotsubashi Station is treated as the same station as [[Shinsaibashi Station]] for the purpose of fare calculation. Shinsaibashi Station is served by the following lines:
+*[[Nagahori Tsurumi-ryokuchi Line]] (N15)
+*[[Midōsuji Line]] (M19)
+
+==Layout==
+There is an [[island platform]] with two tracks on the second basement in the west of Shinsaibashi Station on the Nagahori Tsurumi-ryokuchi Line.
+{{ja-rail-line|first=2|pfn=1|name=Yotsubashi Line|dir=for {{ja-stalink|Namba}}, {{ja-stalink|Daikokucho}} and {{ja-stalink|Suminoekoen}}|col=#0078ba}}
+{{ja-rail-line|first=3|pfn=2|name=Yotsubashi Line|dir=for {{ja-stalink|Nishi-Umeda}}|col=#0078ba}}
+
+==Surroundings==
+*[[Amerikamura]]
+*Crysta Nagahori
+*Horie
+*Osaka School of Music
+*ORIX Theater
+
+==Stations next to Yotsubashi==
+{{j-railservice start}}
+{{j-route|route=Osaka Municipal Subway Yotsubashi Line (Y14)|col=#0078ba|f=w}}
+{{j-rserv|service=-|previous={{ja-stalink|Hommachi}} (Y13)|next={{ja-stalink|Namba}} (Y15)|f=b}}
+{{end box}}
+{{DEFAULTSORT:Yotsubashi}}
+{{coord|34|40|26.75|N|135|29|48.40|E|region:JP_type:railwaystation|display=title}}
+{{Osaka-railstation-stub}}
+{{Osaka Municipal Subway Yotsubashi Line}}
+[[Category:Osaka Municipal Subway stations]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

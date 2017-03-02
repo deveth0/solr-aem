@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="USS Montana"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="USS Montana" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Italic title prefixed|3}}
+&amp;apos;&amp;apos;&amp;apos;USS &amp;apos;&amp;apos;Montana&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* {{USS|Montana|ACR-13}}, was a {{sclass-|Tennessee|cruiser}} that provided convoy escort duty during World War I, and was eventually renamed and reclassified &amp;apos;&amp;apos;Missoula&amp;apos;&amp;apos; (CA-13)
+
+* {{USS|Montanan|1913}}, was a cargo ship during World War I and sunk by torpedo in August 1918
+
+* {{USS|Montana|BB-51}}, was a [[South Dakota-class battleship (1920)|&amp;apos;&amp;apos;South Dakota&amp;apos;&amp;apos;-class battleship]] laid down in 1920 but canceled and scrapped in 1923
+
+* USS &amp;apos;&amp;apos;Montana&amp;apos;&amp;apos; (BB-67), would have been the lead ship of the {{sclass-|Montana|battleship}} however, the entire class was canceled in 1943
+
+{{Shipindex}}
+
+{{DEFAULTSORT:Montana}}
+[[Category:United States Navy ship names]]
+[[Category:United States Navy Montana-related ships]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

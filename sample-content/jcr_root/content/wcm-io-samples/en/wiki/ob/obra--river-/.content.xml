@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Obra (river)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Obra (river)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=July 2009}}
+&amp;apos;&amp;apos;&amp;apos;Obra&amp;apos;&amp;apos;&amp;apos; is a [[river]] in west [[Poland]], a tributary of the [[Warta]] river (in [[Skwierzyna]]), with a length of 164 kilometres (27th longest) and the basin area of 2,758&amp;amp;nbsp;km&amp;lt;sup&amp;gt;2&amp;lt;/sup&amp;gt;. The river is popular with [[canoe]] and [[kayak]] enthusiasts and an established canoe trail exists.
+
+== Towns ==
+* [[Krzywiń]]
+* [[Kościan]]
+* [[Kargowa]]
+* [[Trzciel]]
+* [[Międzyrzecz]]
+* [[Skwierzyna]]
+==See also==
+* [[Rivers of Poland]]
+
+{{coord|52.6024|N|15.4789|E|source:kolossus-dewiki|display=title}}
+
+[[Category:Rivers of Poland]]
+[[Category:Geography of Lubusz Voivodeship]]
+[[Category:Rivers of Greater Poland Voivodeship]]
+
+{{Lubusz-geo-stub}}
+{{GreaterPoland-geo-stub}}
+{{Polish rivers}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

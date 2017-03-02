@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ring of integers"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ring of integers" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{refimprove|date=November 2012}}
+In [[mathematics]], the &amp;apos;&amp;apos;&amp;apos;ring of integers&amp;apos;&amp;apos;&amp;apos; of an [[algebraic number field]]&amp;amp;nbsp;{{mvar|K}} is the [[ring (mathematics)|ring]] of all [[integral element]]s contained in&amp;amp;nbsp;{{mvar|K}}. An integral element is a [[root of a polynomial|root of]] a [[monic polynomial]] with [[rational integer]] coefficients, {{math|size=120%|&amp;apos;&amp;apos;x&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;&amp;apos;&amp;apos;n&amp;apos;&amp;apos;&amp;lt;/sup&amp;gt; + &amp;apos;&amp;apos;c&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;&amp;apos;&amp;apos;n&amp;apos;&amp;apos;−1&amp;lt;/sub&amp;gt;&amp;apos;&amp;apos;x&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;&amp;apos;&amp;apos;n&amp;apos;&amp;apos;−1&amp;lt;/sup&amp;gt; + … + &amp;apos;&amp;apos;c&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;0&amp;lt;/sub&amp;gt; }}. This ring is often denoted by {{math|size=120%|O&amp;lt;sub&amp;gt;&amp;apos;&amp;apos;K&amp;apos;&amp;apos;&amp;lt;/sub&amp;gt;}} or &amp;lt;math&amp;gt;\mathcal O_K&amp;lt;/math&amp;gt;. Since any [[integer]] number belongs to&amp;amp;nbsp;{{mvar|K}} and is its integral element, the ring&amp;amp;nbsp;{{math|&amp;apos;&amp;apos;&amp;apos;Z&amp;apos;&amp;apos;&amp;apos;}} is always a [[subring]] of&amp;amp;nbsp;{{math|size=120%|O&amp;lt;sub&amp;gt;&amp;apos;&amp;apos;K&amp;apos;&amp;apos;&amp;lt;/sub&amp;gt;}}.
+
+The ring&amp;amp;nbsp;{{math|&amp;apos;&amp;apos;&amp;apos;Z&amp;apos;&amp;apos;&amp;apos;}} is the simplest possible ring of integers.&amp;lt;ref&amp;gt;&amp;apos;&amp;apos;The ring of integers&amp;apos;&amp;apos;, without specifying the field, refers to the ring&amp;amp;nbsp;{{math|&amp;apos;&amp;apos;&amp;apos;Z&amp;apos;&amp;apos;&amp;apos;}} of &amp;quot;ordinary&amp;quot; integers, the prototypical object for all those rings. It is a consequence of the ambiguity of the word &amp;quot;[[wikt:integer|integer]]&amp;quot; in abstract algebra.&amp;lt;/ref&amp;gt; Namely, {{math|size=120%|1=&amp;apos;&amp;apos;&amp;apos;Z&amp;apos;&amp;apos;&amp;apos; = O&amp;lt;sub&amp;gt;&amp;apos;&amp;apos;&amp;apos;Q&amp;apos;&amp;apos;&amp;apos;&amp;lt;/sub&amp;gt;}} where {{math|&amp;apos;&amp;apos;&amp;apos;Q&amp;apos;&amp;apos;&amp;apos;}} is the [[Field (mathematics)|field]] of [[rational number]]s. And indeed, in [[algebraic number theory]] the elements of&amp;amp;nbsp;{{math|&amp;apos;&amp;apos;&amp;apos;Z&amp;apos;&amp;apos;&amp;apos;}} are often called the &amp;quot;rational integers&amp;quot; because of this.
+
+The ring of integers  of a number field is the unique maximal [[order (ring theory)|order]] in the field.
+
+== Properties ==
+The ring of integers {{math|size=120%|O&amp;lt;sub&amp;gt;&amp;apos;&amp;apos;K&amp;apos;&amp;apos;&amp;lt;/sub&amp;gt;}} is a {{math|&amp;apos;&amp;apos;&amp;apos;Z&amp;apos;&amp;apos;&amp;apos;}}-[[module (mathematics)|module]]. Indeed it is a [[free module|free]] {{math|&amp;apos;&amp;apos;&amp;apos;Z&amp;apos;&amp;apos;&amp;apos;}}-module, and thus has an &amp;apos;&amp;apos;&amp;apos;integral basis&amp;apos;&amp;apos;&amp;apos;, that is a [[basis (linear algebra)|basis]] {{math|size=120%|&amp;apos;&amp;apos;b&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt;, … ,&amp;apos;&amp;apos;b&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;&amp;apos;&amp;apos;n&amp;apos;&amp;apos;&amp;lt;/sub&amp;gt; ∈ O&amp;lt;sub&amp;gt;&amp;apos;&amp;apos;K&amp;apos;&amp;apos;&amp;lt;/sub&amp;gt;}} of the {{math|&amp;apos;&amp;apos;&amp;apos;Q&amp;apos;&amp;apos;&amp;apos;}}-vector&amp;amp;nbsp;space&amp;amp;nbsp;{{mvar|K}} such that each element&amp;amp;nbsp;{{mvar|x}} in {{math|size=120%|O&amp;lt;sub&amp;gt;&amp;apos;&amp;apos;K&amp;apos;&amp;apos;&amp;lt;/sub&amp;gt;}} can be uniquely represented as
+:&amp;lt;math&amp;gt;x=\sum_{i=1}^na_ib_i,&amp;lt;/math&amp;gt;
+with {{math|size=120%|&amp;apos;&amp;apos;a&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;&amp;apos;&amp;apos;i&amp;apos;&amp;apos;&amp;lt;/sub&amp;gt; ∈ &amp;apos;&amp;apos;&amp;apos;Z&amp;apos;&amp;apos;&amp;apos;}}.  The rank&amp;amp;nbsp;{{mvar|n}} of {{math|size=120%|O&amp;lt;sub&amp;gt;&amp;apos;&amp;apos;K&amp;apos;&amp;apos;&amp;lt;/sub&amp;gt;}} as a free {{math|&amp;apos;&amp;apos;&amp;apos;Z&amp;apos;&amp;apos;&amp;apos;}}-module is equal to the [[Degree of a field extension|degree]] of&amp;amp;nbsp;{{mvar|K}} over {{math|&amp;apos;&amp;apos;&amp;apos;Q&amp;apos;&amp;apos;&amp;apos;}}.
+
+The rings of integers in number ﬁelds are [[Dedekind domain]]s.
+
+==Examples==
+If {{mvar|p}} is a [[prime number|prime]], ζ is a {{mvar|p}}th [[root of unity]] and {{math|size=120%|1=&amp;apos;&amp;apos;K&amp;apos;&amp;apos; = &amp;apos;&amp;apos;&amp;apos;Q&amp;apos;&amp;apos;&amp;apos;(ζ)}} is the corresponding [[cyclotomic field]], then an integral basis of {{math|size=120%|1=O&amp;lt;sub&amp;gt;&amp;apos;&amp;apos;K&amp;apos;&amp;apos;&amp;lt;/sub&amp;gt; = &amp;apos;&amp;apos;&amp;apos;Z&amp;apos;&amp;apos;&amp;apos;[ζ]}} is given by {{math|size=120%|(1, ζ, ζ&amp;lt;sup&amp;gt;2&amp;lt;/sup&amp;gt;, … , ζ&amp;lt;sup&amp;gt;&amp;apos;&amp;apos;p&amp;apos;&amp;apos;−2&amp;lt;/sup&amp;gt;)}}.
+
+If {{mvar|d}} is a [[square-free integer]] and {{math|size=120%|1=&amp;apos;&amp;apos;K&amp;apos;&amp;apos; = &amp;apos;&amp;apos;&amp;apos;Q&amp;apos;&amp;apos;&amp;apos;({{sqrt|&amp;apos;&amp;apos;d&amp;apos;&amp;apos;}})}} is the corresponding [[quadratic field]], then {{math|size=120%|O&amp;lt;sub&amp;gt;&amp;apos;&amp;apos;K&amp;apos;&amp;apos;&amp;lt;/sub&amp;gt;}} is a ring of [[quadratic integer]]s and its integral basis is given by {{math|size=120%|(1, (1 + {{sqrt|&amp;apos;&amp;apos;d&amp;apos;&amp;apos;}})/2)}} if {{math|&amp;apos;&amp;apos;d&amp;apos;&amp;apos; ≡ 1 ([[Modular arithmetic|mod]] 4)}} and by {{math|size=120%|(1, {{sqrt|&amp;apos;&amp;apos;d&amp;apos;&amp;apos;}})}} if {{math|&amp;apos;&amp;apos;d&amp;apos;&amp;apos; ≡ 2, 3 (mod 4)}}.
+
+==Generalization==
+One defines the ring of integers of a [[non-archimedean local field]] F as the set of all elements of F with absolute value ≤1; this is a ring because of the strong triangle inequality. If F is the completion of an algebraic number field, its ring of integers is the completion of the latter&amp;apos;s ring of integers.
+
+For example, the {{mvar|p}}-adic integers {{math|size=120%|&amp;apos;&amp;apos;&amp;apos;Z&amp;apos;&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;&amp;apos;&amp;apos;p&amp;apos;&amp;apos;&amp;lt;/sub&amp;gt;}} are the ring of integers of the [[p-adic number|{{mvar|p}}-adic numbers]] {{math|size=120%|&amp;apos;&amp;apos;&amp;apos;Q&amp;apos;&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;&amp;apos;&amp;apos;p&amp;apos;&amp;apos;&amp;lt;/sub&amp;gt; }}.
+
+==References==
+*{{Neukirch ANT}}
+
+== Notes ==
+{{reflist}}
+
+[[Category:Ring theory]]
+[[Category:Algebraic number theory]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

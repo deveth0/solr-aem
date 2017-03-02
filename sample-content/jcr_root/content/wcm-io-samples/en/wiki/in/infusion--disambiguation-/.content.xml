@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Infusion (disambiguation)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Infusion (disambiguation)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|infuse|infusion}}
+An &amp;apos;&amp;apos;&amp;apos;[[infusion]]&amp;apos;&amp;apos;&amp;apos; is a method of extracting flavours with a solvent such as water or oil or alcohol.
+
+&amp;apos;&amp;apos;&amp;apos;Infusion&amp;apos;&amp;apos;&amp;apos; may also refer to:
+
+* [[Intravenous therapy|Intravenous infusion]],  the infusion of liquid substances directly into a vein
+* [[Infusion (band)]], an Australian dance-music act
+* [[Tea infuser]], a device in which loose tea leaves are placed for brewing
+* A medical treatment in which liquid substances are delivered through various [[Route of administration|routes of administration]]
+* [[Infusion (roller coaster)]], a roller coaster at Pleasure Beach, Blackpool, UK
+*&amp;apos;&amp;apos;INFUSION&amp;apos;&amp;apos;, a type of basketball produced by [[Spalding (sports equipment)]]
+* Infusion(s), the name of extensions made to the core functionality of [[PHP-Fusion]], an open-source content management system
+
+== See also ==
+* [[Affusion]], a form of Christian baptism where water is poured over the head
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

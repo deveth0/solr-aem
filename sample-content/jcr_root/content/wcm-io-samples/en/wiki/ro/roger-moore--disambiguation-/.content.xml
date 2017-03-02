@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Roger Moore (disambiguation)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Roger Moore (disambiguation)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;[[Roger Moore]]&amp;apos;&amp;apos;&amp;apos; (born 1927) is an English actor, most famous for his role as James Bond.
+
+&amp;apos;&amp;apos;&amp;apos;Roger Moore&amp;apos;&amp;apos;&amp;apos; may also refer to:
+
+* [[Roger Moore (computer scientist)]], designer and implementer of APL\360
+* [[Roger Moore (poker player)]] (1938–2011), member of the Poker Hall of Fame
+* [[Roger E. Moore]] (born 1955), writer of roleplaying games including &amp;apos;&amp;apos;Dungeons &amp;amp; Dragons&amp;apos;&amp;apos;
+* [[Rory O&amp;apos;Moore (Irish noble)]] (c. 1600 – 1655), also known as Sir Roger Moore, a leader of the Irish Rebellion of 1641
+
+== See also ==
+*[[Roger More (disambiguation)]]
+* [[Moore (disambiguation)]]
+
+
+{{Hndis|name=Moore, Roger}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

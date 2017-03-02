@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Blocking"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Blocking" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|blocking|block}}
+{{selfref|For blocking on Wikipedia, please see [[Wikipedia:Blocking policy]].}}
+&amp;apos;&amp;apos;&amp;apos;Blocking&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+== Telecommunications and computing ==
+*[[Blocking (computing)]], holding up a task until an event occurs
+*[[Head-of-line blocking]] in some network switching fabrics
+
+== Theatre and film ==
+* [[Blocking (stage)]], the movement and positioning of actors on the stage (and in film, within the frame)
+* [[Blocking (animation)]]
+
+== Sport ==
+* [[Blocking (American football)]], the legal interference with another player&amp;apos;s motion
+* [[Blocking (martial arts)]], a defensive technique in martial arts
+
+== Behaviour ==
+* [[Thought blocking]], a type of thought disorder
+* [[Blocking effect]], in psychology
+
+== Other ==
+* [[Blocking (textile arts)]], the process of stretching a knitted garment into shape while wet or using steam
+* [[Blocking (statistics)]], in the design of experiments, the arranging of experimental units in groups (blocks) which are similar to one another
+* [[Western_blot#Blocking|Blocking]] in western blot, a process to prevent unwanted binding of antibody to the membrane
+* [[Blocking (construction)]], horizontal boards placed between wall studs to facilitate hardware attachment
+
+== See also ==
+* [[Block (disambiguation)]]
+* [[Non-blocking (disambiguation)]], for computers running multiple programs at once, it is important for no single task waiting for completion of an operation to indefinitely block the processing of any other task
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

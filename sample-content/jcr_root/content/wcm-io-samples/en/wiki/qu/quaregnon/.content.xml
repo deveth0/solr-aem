@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Quaregnon"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Quaregnon" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox Belgium Municipality
+|name=Quaregnon
+|picture=Quaregnon JPG03.jpg
+|picture-legend=
+|map=QuaregnonLocation.png
+|map-legend=Location of Quaregnon in Hainaut
+|arms=
+|flag=Quaregnon_Belgium.svg
+|region={{BE-REG-WAL}}
+|community={{BE-FR}}
+|province={{BE-PROV-HT}}
+|arrondissement=[[Arrondissement of Mons|Mons]]
+|nis=53065
+|pyramid-date=
+|0-19=
+|20-64=
+|65=
+|foreigners=
+|foreigners-date=
+|mayor=Guy Roland
+|majority=[[Socialist Party (francophone Belgium)|PS]]
+|postal-codes=7390
+|telephone-area=065
+|web=[http://www.quaregnon.be/ www.quaregnon.be]
+|lat_deg=50
+|lat_min=26
+|lon_deg=03
+|lon_min=51
+}}
+&amp;apos;&amp;apos;&amp;apos;Quaregnon&amp;apos;&amp;apos;&amp;apos; is a [[Wallonia|Walloon]] [[municipality]] located in the [[Belgium|Belgian]] province of [[Hainaut (province)|Hainaut]]. On January 1, 2006 Quaregnon had a total population of 18,744. The total area is 11.08 km² which gives a [[population density]] of 1,692 inhabitants per km².
+
+== See also ==
+* [[Charter of Quaregnon]]
+
+==References==
+{{reflist}}
+
+{{Hainaut}}
+
+[[Category:Municipalities of Hainaut (province)]]
+
+{{Hainaut-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

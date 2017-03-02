@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Redechius"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Redechius" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Redechius&amp;apos;&amp;apos;&amp;apos; ({{lang-cy|Rhydderch mab Arthmael}}{{Citation needed|date=January 2009}}) was a legendary king of the [[Britons (historic)|Britons]] according to [[Geoffrey of Monmouth]]&amp;apos;s &amp;apos;&amp;apos;[[Historia Regum Britanniae|History of the Kings of Britain]]&amp;apos;&amp;apos; (1136). He was preceded by [[Redon (king)|Redon]] and succeeded by [[Sawyl Penuchel|Samuil Penissel]].&amp;lt;ref&amp;gt;[[wikisource:History of the Kings of Britain/Book 3#19|&amp;apos;&amp;apos;History of the Kings of Britain&amp;apos;&amp;apos; 3.19]] at Wikisource. Lewis Thorpe&amp;apos;s translation for Penguin Classics (p. 105) gives two kings following him, Samuil followed by Penessil.&amp;lt;/ref&amp;gt;
+
+==References==
+{{Reflist}}
+
+
+{{s-start}}
+{{s-reg | leg }}
+{{s-bef | before = [[Redon of Britain|Redon]] }}
+{{s-ttl | title  = [[List of legendary kings of Britain|King of Britain]] }}
+{{s-aft | after  = [[Sawyl Penuchel|Samuil Penissel]] }}
+{{s-end}}
+
+&amp;lt;!-- NB not a stub - this is absolutely ALL there is to say about Geoffrey&amp;apos;s one-line fictitious character (like so many of the others in this cat.!) --&amp;gt;
+
+[[Category:British traditional history]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

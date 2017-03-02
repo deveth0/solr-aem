@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Argiope"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Argiope" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Argiope&amp;apos;&amp;apos;&amp;apos; (&amp;quot;silver face&amp;quot;) may refer to:
+
+==Greek Mythological Persons==
+* Argiope, a Naiad, a daughter of the River God Nile. She was wife of Agenor and mother of his children. More commonly known as [[Telephassa]]
+* Argiope, a Naiad of mount Parnassus, possibly the daughter of the river-god Cephissus, mother of [[Thamyras]] by Philammon
+* Argiope, a Naiad of the town of Eleusis, possibly the daughter of the river-god Cephissus, mother of [[Cercyon]] by Branchus
+* Argiope, daughter of [[Teuthras]], king of Teuthrania
+
+==Other uses==
+
+* [[Argiope (spider)]], a genus of spiders which includes the St Andrew&amp;apos;s Cross spider and the wasp spider
+* Argiope, a popular monster from the MMORPG [[Ragnarok Online]]
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

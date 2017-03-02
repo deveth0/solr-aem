@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Visibility graph"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Visibility graph" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[computational geometry]] and [[robot]] [[motion planning]], a &amp;apos;&amp;apos;&amp;apos;visibility graph&amp;apos;&amp;apos;&amp;apos; is a [[graph (mathematics)|graph]] of intervisible locations, typically for a set of points and obstacles in the [[Euclidean plane]].  Each [[vertex (graph theory)|node]] in the graph represents a point location, and each [[graph theory|edge]] represents a [[visible connection]] between them. That is, if the line segment connecting two locations does not pass through any obstacle, an edge is drawn between them in the graph.
+
+==Applications==
+Visibility graphs may be used to find [[Euclidean shortest path]]s among a set of [[polygon]]al obstacles in the plane: the shortest path between two obstacles follows straight line segments except at the [[vertex (geometry)|vertices]] of the obstacles, where it may turn, so the Euclidean shortest path is the shortest path in a visibility graph that has as its nodes the start and destination points and the [[vertex (geometry)|vertices]] of the obstacles.&amp;lt;ref name=&amp;quot;robot&amp;quot;&amp;gt;{{harvtxt|de Berg|van Kreveld|Overmars|Schwarzkopf|2000}}, sections 5.1 and 5.3; {{harvtxt|Lozano-Pérez|Wesley|1979}}.&amp;lt;/ref&amp;gt; Therefore, the Euclidean shortest path problem may be decomposed into two simpler subproblems: constructing the visibility graph, and applying a shortest path algorithm such as [[Dijkstra&amp;apos;s algorithm]] to the graph. For planning the motion of a robot that has non-negligible size compared to the obstacles, a similar approach may be used after expanding the obstacles to compensate for this size of the robot.&amp;lt;ref name=&amp;quot;robot&amp;quot;/&amp;gt; {{harvtxt|Lozano-Pérez|Wesley|1979}} attribute the visibility graph method for Euclidean shortest paths to research in 1969 by [[Nils Nilsson (researcher)|Nils Nilsson]] on motion planning for [[Shakey the robot]], and also cite a 1973 description of this method by Russian mathematicians M. B. Ignat&amp;apos;yev, F. M. Kulakov, and A. M. Pokrovskiy.
+
+Visibility graphs may also be used to calculate the placement of [[Antenna (radio)|radio antennas]], or as a tool used within [[architecture]] and [[urban planning]] through [[visibility graph analysis]].
+
+==Characterization==
+The visibility graph of a [[simple polygon]] has the polygon&amp;apos;s vertices as its point locations, and the exterior of the polygon as the only obstacle. Visibility graphs of simple polygons must be [[Hamiltonian graph]]s: the boundary of the polygon forms a Hamiltonian cycle in the visibility graph. However, the precise characterization of these graphs is unknown. It is a major open problem in this area whether there exists a polynomial time algorithm that can take as input a graph (possibly together with a fixed Hamiltonian in the cycle that is to correspond to the boundary) and produce as output a polygon for which it is the visibility graph, if such a polygon exists.
+
+==Related problems==
+The [[art gallery problem]] is the problem of finding a small set of points such that all other non-obstacle points are visible from this set. Certain forms of the art gallery problem may be interpreted as finding a [[dominating set]] in a visibility graph.
+
+The [[bitangent]]s of a system of polygons or curves are lines that touch two of them without penetrating them at their points of contact. The bitangents of a set of polygons form a subset of the visibility graph that has the polygon&amp;apos;s vertices as its nodes and the polygons themselves as the obstacles. The visibility graph approach to the Euclidean shortest path problem may be sped up by forming a graph from the bitangents instead of using all visibility edges, since a Euclidean shortest path may only enter or leave the boundary of an obstacle along a bitangent.&amp;lt;ref&amp;gt;{{harvtxt|de Berg|van Kreveld|Overmars|Schwarzkopf|2000}}, p. 316.&amp;lt;/ref&amp;gt;
+
+==Notes==
+{{reflist}}
+
+==References==
+* {{citation
+ | last1 = de Berg | first1 = Mark
+ | last2 = van Kreveld | first2 = Marc
+ | last3 = Overmars | first3 = Mark | author3-link = Mark Overmars
+ | last4 = Schwarzkopf | first4 = Otfried
+ | contribution = Chapter 15: Visibility Graphs
+ | edition = 2nd
+ | isbn = 3-540-65620-0
+ | pages = 307–317
+ | publisher = [[Springer-Verlag]]
+ | title = Computational Geometry
+ | year = 2000}}.
+*{{citation
+ | last1 = Lozano-Pérez | first1 = Tomás
+ | last2 = Wesley | first2 = Michael A.
+ | doi = 10.1145/359156.359164
+ | issue = 10
+ | journal = Communications of the ACM
+ | pages = 560–570
+ | title = An algorithm for planning collision-free paths among polyhedral obstacles
+ | volume = 22
+ | year = 1979}}.
+
+== External links ==
+*[http://www.VisiLibity.org VisiLibity: A free open source C++ library of floating-point visibility algorithms and supporting data types.  This software can be used for calculating visibility graphs of polygonal environments with polygonal holes.  A Matlab interface is also included.]
+
+==See also==
+
+*[[Visibility graph analysis]]
+*[[Fuzzy architectural spatial analysis]]
+*[[Space syntax]]
+
+[[Category:Robot control]]
+[[Category:Geometric graphs]]
+[[he:בעיית הגלריה לאמנות]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Free energy"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Free energy" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Free energy&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+In &amp;apos;&amp;apos;&amp;apos;economics&amp;apos;&amp;apos;&amp;apos;:
+* Energy from sources that do not require an input which has to be paid for, (usually a sub-set of [[renewable energy]])
+In &amp;apos;&amp;apos;&amp;apos;science&amp;apos;&amp;apos;&amp;apos;:
+* [[Thermodynamic free energy]], the energy in a physical system that can be converted to do work, in particular:
+** [[Helmholtz free energy]], the energy that can be converted into work at a constant temperature and volume
+**[[Work content]], a related concept used in chemistry
+** [[Gibbs free energy]], the energy that can be converted into work at a uniform temperature and pressure throughout a system
+* Variational free energy, a construct from information theory that is used in [[Variational Bayesian methods]]
+In &amp;apos;&amp;apos;&amp;apos;pseudoscience&amp;apos;&amp;apos;&amp;apos;:
+* Free energy device
+** a hypothetical [[perpetual motion]] device that creates energy, thereby contradicting the laws of thermodynamics
+** a device of which a controversial claim is made that it taps an unconventional energy source not regarded as viable by the scientific community at large
+In &amp;apos;&amp;apos;&amp;apos;popular culture&amp;apos;&amp;apos;&amp;apos;:
+*[[Free energy suppression]], a conspiracy theory that advanced energy technologies are being suppressed by [[governments]] and/or [[Advocacy group|special interest groups]]
+In &amp;apos;&amp;apos;&amp;apos;music&amp;apos;&amp;apos;&amp;apos;:
+*[[Free Energy (band)]], a 5-piece rock band on DFA Records
+
+==See also==
+*[[Free-energy relationship]] - a relation between the reaction rate or equilibrium constants of two series of chemical reactions
+*[[Free energy perturbation]] - a method based on statistical mechanics that is used in computational chemistry for computing free energy differences
+*[[Free energy principle]] - a variational formulation of self-organisation in biological systems, applied in particular to neuroscience
+*[[Principle of minimum energy]] - a thermodynamic formulation based on the second law{{dab}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

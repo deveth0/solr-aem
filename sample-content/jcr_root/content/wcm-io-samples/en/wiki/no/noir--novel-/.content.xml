@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Noir (novel)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Noir (novel)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Primary sources|date=March 2010}}
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Noir&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is a [[science fiction]] [[novel]] by [[K. W. Jeter]], published in 1998.&amp;lt;ref&amp;gt;[[K. W. Jeter]], &amp;apos;&amp;apos;Noir&amp;apos;&amp;apos;, 1998, ISBN 0-553-10483-7&amp;lt;/ref&amp;gt; It uses the [[Convention (norm)|conventions]] of [[film noir]] – the alienated, doomed hero, the [[cynical]] [[private detective]], the [[femme fatale]], universal corruption and moral breakdown – to portray a [[dystopian]] vision of [[capitalism]] run riot.
+
+Even the [[monochrome]] visual style of &amp;apos;&amp;apos;film noir&amp;apos;&amp;apos; is a factor in &amp;apos;&amp;apos;Noir&amp;apos;&amp;apos;, as the hero has had his eyes specially treated to show the world as a [[black-and-white]] movie, altering his perception of people and objects around him so they fit into the aesthetic. The hero is a detective named [[nihilism|McNihil]] who is hired by corporate executives ostensibly to investigate the death of one of their colleagues.
+
+The book is set in the Pacific Fringe – the only remaining industrialised part of the world – in a society where [[free market]] [[capitalism]] holds absolute sway. Even the dead, including the hero&amp;apos;s wife, can be brought back to life as slave labour if they fail to meet their financial obligations. The [[internet]] has evolved radically so that [[emails]] can be seen fluttering around the recipient and pestering for attention, while strange online sexual experiences can be had through electronic surrogates called prowlers.
+
+==References==
+{{reflist}}
+
+[[Category:1998 novels]]
+[[Category:1990s science fiction novels]]
+[[Category:American science fiction novels]]
+[[Category:Novels by K. W. Jeter]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

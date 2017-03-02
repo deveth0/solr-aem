@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Central Baptist Association"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Central Baptist Association" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{baptist}}The &amp;apos;&amp;apos;&amp;apos;Central Baptist Association&amp;apos;&amp;apos;&amp;apos; is an association of churches located from [[South Carolina]] to [[Indiana]], with most of the churches being in eastern [[Tennessee]] and southwestern [[Virginia]]. In 1956, some churches of the Eastern District [[Primitive Baptists|Primitive Baptist]] Association separated and formed the Central Baptist Association. The churches entering this new organization desired to be more progressive and to provide a home for homeless and destitute children. They adopted the name Central Baptist &amp;quot;as an indication of our acceptance of the Holy Scriptures in their entirety, varying neither to the right or left&amp;quot; (Minutes, 1996, p.4). In 1996 there were almost 4000 members in 34 churches located in five states. Currently they have headquarters in [[Jasper, Virginia]], including a tabernacle, a children&amp;apos;s home and a youth Bible camp.
+
+&amp;quot;The work of the Association includes the building of a fellowship of churches to provide, first for a general union of churches; second, to preserve inviolable a chain of communion among the churches; third, to give the churches all necessary advice and help in matters of church difficulty, so far as this is possible by peaceful methods: assisting churches in a Sunday School program for all ages, weekly prayer meetings, worship services, a monthly business meeting, an active youth program, Bible teaching, evangelistic and missionary work, visitation program, aiding established churches in organizing new churches and related projects; also support a home for adults and a children&amp;apos;s home, youth camp, and Bible camp for all ages.&amp;quot; (Minutes, 1996, p.4)
+
+==Sources==
+* Central Baptist Association minutes
+* Baptists Around the World, by Albert W. Wardin, Jr.
+* Handbook of Denominations, by Frank S. Mead and Samuel Hill
+
+{{US baptist denominations}}
+
+[[Category:Religious organizations established in 1956]]
+[[Category:Baptist denominations in North America]]
+[[Category:Baptist denominations and unions established in the 20th century]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

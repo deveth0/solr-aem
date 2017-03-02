@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Moxa"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Moxa" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox German location
+|image_photo       =
+|Wappen            = Wappen Moxa.png
+|lat_deg           = 50 |lat_min = 38 |lat_sec = 28
+|lon_deg           = 11 |lon_min = 37 |lon_sec = 47
+|Lageplan          = Moxa in SOK.png
+|Bundesland        = Thüringen
+|Landkreis         = Saale-Orla-Kreis
+|Verwaltungsgemeinschaft = Ranis-Ziegenrück
+|Höhe              = 430
+|Fläche            = 4.67
+|Einwohner         = 92
+|Stand             = 2006-12-31
+|PLZ               = 07381
+|Vorwahl           = 036483
+|Kfz               = SOK
+|Gemeindeschlüssel = 16 0 75 069
+|Straße            = Ortsstr. 19
+|Website           = [http://www.vg-ranis-ziegenrueck.de/ www.vg-ranis-ziegenrueck.de]
+|Bürgermeister     = Karin Knoll
+}}
+
+{{for|the oriental medicine moxa|moxibustion}}
+
+The municipality of &amp;apos;&amp;apos;&amp;apos;Moxa&amp;apos;&amp;apos;&amp;apos; forms part of the [[Saale-Orla-Kreis|Saale-Orla district]] in [[Thuringia]], [[Germany]].
+
+{{Cities and towns in Saale-Orla-Kreis (district)}}
+==References==
+{{Reflist}}
+
+{{SaaleOrla-geo-stub}}
+
+[[ca:Moxa]]
+[[fr:Moxa]]
+[[sk:Moxa]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="In the Red (novel)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="In the Red (novel)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Use dmy dates|date=November 2012}}
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;In the Red&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is a 1989 novel by [[Mark Tavener]], a [[black comedy]] revolving around murder, finance, and intrigue in the halls of the [[BBC]].
+Despite this, it was the BBC that successfully adapted it for both radio and television.
+
+The title comes from the expression &amp;quot;[[wikt:in the red|in the red]]&amp;quot;.
+
+In 1995, it was adapted for radio by Tavener and [[Peter Baynham]], and aired on [[BBC Radio 4]] with [[Michael Williams (actor)|Michael Williams]] and [[Barry Foster (actor)|Barry Foster]] in lead roles.
+The radio version was successful, and was followed by three sequels: &amp;apos;&amp;apos;[[In the Balance]]&amp;apos;&amp;apos;, &amp;apos;&amp;apos;In the Chair&amp;apos;&amp;apos;, and &amp;apos;&amp;apos;In the End&amp;apos;&amp;apos;.
+
+In 1998, it was adapted for television by [[Malcolm Bradbury]], and aired on [[BBC Two]]. The series included a cast of famous UK television performers including [[Rik Mayall]], [[Warren Clarke]], [[Richard Griffiths]], [[Alun Armstrong (actor)|Alun Armstrong]], [[Stephen Fry]], [[John Sessions]] and [[John Bird (actor)|John Bird]].
+
+In 2000, a pair of characters, BBC executives played in both the radio and television versions by Stephen Fry and John Bird, were spun off into their own Radio 4 series, &amp;apos;&amp;apos;[[Absolute Power (comedy)|Absolute Power]]&amp;apos;&amp;apos;, written by Tavener. A television version followed, written by other writers.
+
+==External links and references==
+*Radio series [http://www.angelfire.com/pq/radiohaha/INTHERED.html &amp;apos;&amp;apos;In the Red&amp;apos;&amp;apos;] at radiohaha
+*Television series {{imdb title|id=0158414|title=In the Red}}
+
+[[Category:1989 novels]]
+[[Category:BBC Radio 4 programmes]]
+[[Category:BBC Television programmes]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

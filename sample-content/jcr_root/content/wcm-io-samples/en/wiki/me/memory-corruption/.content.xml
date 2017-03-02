@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Memory corruption"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Memory corruption" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Memory corruption&amp;apos;&amp;apos;&amp;apos; occurs in a [[computer program]] when the contents of a [[memory location]] are unintentionally modified due to programming errors; this is termed violating [[memory safety]]. When the corrupted memory contents are used later in that program, it leads either to program crash or to strange and bizarre program behavior. Nearly 10% of application crashes on Windows systems are due to heap corruption.&amp;lt;ref&amp;gt;{{Cite web
+ |title= Application Verifier
+ |work= MSDN Library
+ |publisher= Microsoft
+ |date= 19 April 2011
+ |url= http://msdn.microsoft.com/en-us/library/dd371695%28v=vs.85%29.aspx
+ |accessdate= 4 May 2011}}&amp;lt;/ref&amp;gt;
+
+Modern programming languages like [[C (programming language)|C]] and [[C++]] have powerful features of explicit memory management and [[pointer arithmetic]]. These features are designed for developing efficient applications and system software. However, using these features incorrectly may lead to memory corruption errors.
+
+Memory corruption is one of the most intractable class of programming errors, for two reasons:
+#The source of the memory corruption and its manifestation may be far apart, making it hard to correlate the cause and the effect.
+#Symptoms appear under unusual conditions, making it hard to consistently reproduce the error.
+
+Memory corruption errors can be broadly classified into four categories:
+
+#Using uninitialized memory: Contents of uninitialized memory are treated as garbage values. Using such values can lead to unpredictable program behavior.
+#Using un-owned memory: It is common to use pointers to access and modify memory. If such a pointer is a null pointer, [[dangling pointer]] (pointing to memory that has already been freed), or to a memory location outside of current stack or heap bounds, it is referring to memory that is not then possessed by the program. Using such pointers is a serious programming flaw. Accessing such memory usually causes operating system exceptions, which most commonly lead to a program crash. Strictly-speaking, if the memory access is a READ the issue may not be considered corruption because the memory is not modified.
+#Using beyond allocated memory ([[buffer overflow]]): If an array is used in a loop, with incorrect terminating condition, memory beyond the array bounds may be manipulated. Buffer overflow is one of the most common programming flaws exploited by computer viruses causing serious [[computer security]] issues (e.g. [[return-to-libc attack]], [[stack-smashing protection]]) in widely used programs. One can also incorrectly access the memory before the beginning of a buffer.
+#Faulty heap memory management: [[Memory leak]]s and freeing non-heap or un-allocated memory are the most frequent errors caused by faulty heap memory management.
+
+Many [[memory debugger]]s such as [[Purify (software)|Purify]], [[Valgrind]], [[Insure++]], AddressSanitizer&amp;lt;ref&amp;gt;{{cite web |url=http://code.google.com/p/address-sanitizer/wiki/AddressSanitizer |title=AddressSanitizer, a fast memory error detector |accessdate=2012-05-13}}&amp;lt;/ref&amp;gt; are available to detect memory corruption errors.
+
+== References ==
+&amp;lt;references /&amp;gt;
+
+==External links==
+*Article &amp;quot;[http://www.ibm.com/developerworks/rational/library/06/0822_satish-giridhar/ Navigating &amp;quot;C&amp;quot; in a &amp;quot;leaky&amp;quot; boat? Try Purify]&amp;quot;. by Satish Chandra Gupta and Giridhar Sreenivasamurthy
+*[http://www.rt-embedded.com/blog/archives/resolving-memory-corruption/ Resolving memory corruption] - An article from the Real-Time embedded blog by Hai Shalom
+
+[[Category:Software bugs]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

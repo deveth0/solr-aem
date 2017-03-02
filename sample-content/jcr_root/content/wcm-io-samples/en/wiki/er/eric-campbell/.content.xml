@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Eric Campbell"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Eric Campbell" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Eric Campbell&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* [[Eric Campbell (actor)]] (1879–1917), silent film star
+* [[Eric Campbell (New Guard leader)]] (1893-1970)
+* [[Eric Campbell (reporter)]], Australian foreign correspondent
+* [[Eric Campbell Geddes]] (1875–1937), British Conservative politician
+* [[Eric-Campbell]], a British car maker between 1919 and 1926
+
+==See also==
+*[[Erik Campbell]] (born 1966), gridiron football coach and former player
+
+{{hndis|name=Campbell, Eric}}
+
+{{DEFAULTSORT:Campbell, Eric}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

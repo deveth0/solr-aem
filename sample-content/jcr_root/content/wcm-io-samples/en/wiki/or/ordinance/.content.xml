@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ordinance"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ordinance" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|ordinance}}
+{{Distinguish|Ordnance (disambiguation)}}
+
+&amp;apos;&amp;apos;&amp;apos;Ordinance&amp;apos;&amp;apos;&amp;apos;  may refer to:
+
+==Law==
+* [[Local ordinance]], a law made by a municipality or other local authority
+* [[Act of Parliament]], in some jurisdictions, such as England when the parliament operated without regal sanction, and a number of British colonies
+** &amp;apos;&amp;apos;Royal ordinance&amp;apos;&amp;apos;, see [[Decree]]
+* &amp;apos;&amp;apos;[[Ordonnance]] (French constitutional law)&amp;apos;&amp;apos;, in French government, a regulation adopted by the executive in a domain normally reserved for statute law
+* [[Ordinance (Belgium)]], a law adopted by the Brussels Parliament or the Common Community Commission
+* [[Ordinance (university)]], a particular class of internal legislation in a United Kingdom university
+* [[Ordinance XX]], a law passed down in Pakistan which prevents Ahmadi Muslims from being identified as Muslims
+
+In &amp;apos;&amp;apos;&amp;apos;religion&amp;apos;&amp;apos;&amp;apos;:
+* [[Ordination]], the process by which one is consecrated
+* [[Ecclesiastical ordinances]], the bylaws of a Christian religious organization
+* [[Ordinance (Christian)]], Protestant term for religious ritual
+** [[Baptist ordinance]], Believer&amp;apos;s Baptism and Lord&amp;apos;s Supper
+* [[Ordinance (The Church of Jesus Christ of Latter-day Saints)]], a religious ritual of special significance
+**[[Ordinance room]], place for Latter-day Saint ordinances
+**[[Pentob Religion Ordinance]], An action which is allowed but not recommended(Pentob Bible)
+==See also==
+*[[Ordinances of 1311]]
+*[[List of Acts and Ordinances of the Parliament of England, 1642 to 1660]]
+*[[Northwest Ordinance]]
+*{{MV|Ordinence}}, a British coaster
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

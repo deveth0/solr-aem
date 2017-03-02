@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:List of empty images"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:List of empty images" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{historical}}
+
+This page should eventually become obsolete due to the fixing of [http://bugzilla.wikipedia.org/show_bug.cgi?id=484 Bug 484]. [[User:Silsor|silsor]] 19:02, Jun 11, 2005 (UTC)
+
+{{specialpageslist}}
+{{Shortcut|WP:LEI}}
+This is a listing of images which never uploaded properly and have zero size. This list was last updated [[22 September]] [[2004]] from the live database.
+
+==What to do==
+Suggested guidelines for dealing with these (by [[User:Delirium]]):
+*When you can verify that the images were re-uploaded with another filename, delete them, with the deletion comment containing the new filename.
+*With zero-byte images added by regular contributors, but which you cannot verify having been re-uploaded, delete them and leave a message on the contributor&amp;apos;s talk page with the filename and its former caption, so they can re-upload if they have a copy still.
+*With zero-byte images added by no-longer-active users, delete them.
+*With zero-byte images added by regular contributors and having some significant amount of material on the image description page beyond the one-line caption (e.g., copyright information), leave the page there and leave a note on the user&amp;apos;s talk page.
+*When there exists a non-zero-byte old revision, revert to it.
+*Remember that the lack of a link to the image in the image description does not mean the image is unused - those links are routinely incomplete. You&amp;apos;ll need to use the site search to find every place where it is used in en. Even that won&amp;apos;t find non-en uses.
+
+If you are not a sysop and want an image deleted, you should list it on [[Wikipedia:Images and media for deletion]]. See that page for further instructions.
+
+Images that have been deleted or successfully re-uploaded can be removed from this list.
+
+==How to update==
+The SQL query for updating this list is:
+
+&amp;lt;pre&amp;gt;
+SELECT concat(&amp;apos;&amp;lt;tr&amp;gt;&amp;lt;td&amp;gt;&amp;lt;small&amp;gt;&amp;apos;, img_timestamp, &amp;apos;&amp;lt;/small&amp;gt;&amp;lt;td&amp;gt;[[User talk:&amp;apos;, img_user_text,
+   &amp;apos;|t]] [[User:&amp;apos;, img_user_text, &amp;apos;|&amp;apos;, img_user_text, &amp;apos;]]&amp;lt;td&amp;gt;&amp;lt;small&amp;gt;[[:Image:&amp;apos;, img_name,
+   &amp;apos;]]&amp;lt;/small&amp;gt;&amp;lt;td&amp;gt;&amp;apos;, img_description)
+FROM image
+WHERE img_size=0
+ORDER BY img_timestamp
+&amp;lt;/pre&amp;gt;
+
+Run the query and copy and paste the result into the table.
+
+==The list==
+
+The list is empty at the moment.
+
+&amp;lt;table border=1 bordercolor=black cellspacing=0 cellpadding=2&amp;gt;
+&amp;lt;tr&amp;gt;&amp;lt;th&amp;gt;Timestamp&amp;lt;th&amp;gt;Uploader&amp;lt;th&amp;gt;Image&amp;lt;th&amp;gt;Description
+&amp;lt;!-- PASTE BELOW THIS LINE --&amp;gt;
+
+
+&amp;lt;!-- PASTE ABOVE THIS LINE --&amp;gt;
+&amp;lt;/table&amp;gt;&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Template:Scandinavia"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Template:Scandinavia" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Sidebar
+|name = Scandinavia
+|bodystyle = width:18.0em;
+|topimage = [[File:Scandinavia M2002074 lrg.jpg|175px|Snow cover across Scandinavia, as imaged by MODIS on board NASA&amp;apos;s Terra satellite in 2002]]
+|pretitle = This article is part of [[:Category:Scandinavia|a series]] on
+|titlestyle = font-size:200%;font-weight:normal;
+|title = [[Scandinavia]]
+|headingstyle = padding:0.1em 0.1em 0.1em;background:gainsboro;
+|contentclass = hlist
+|contentstyle = padding:0.2em 0.2em 0.6em;
+
+
+|heading1 = Geography
+|content1 =
+*[[Scandinavian Mountains|Mountains]]
+*[[Scandinavian Peninsula|Peninsula]]
+
+
+|heading2 = [[Viking Age]]
+|content2 =
+*[[Old Norse]]
+*[[Viking]]
+*&amp;apos;&amp;apos;[[Thing (assembly)|Thing]]&amp;apos;&amp;apos;
+
+*[[Norse mythology|Mythology]]
+*[[Christianization of Scandinavia|Christianization]]
+
+*[[Northern Arc (trade route)|Northern Arc]]
+
+
+|heading3 = Political entities
+|content3 =
+*[[Denmark–Norway]]
+
+*[[Sweden–Finland]]
+
+*[[Union between Sweden and Norway|Sweden&amp;amp;ndash;Norway union]]
+
+
+|heading4 = [[History of Scandinavia|History]]
+|content4 =
+*[[History of Denmark|Denmark]]
+*[[History of Finland|Finland]]
+*[[History of Norway|Norway]]
+
+*[[History of Sweden|Sweden]]
+*[[History of Iceland|Iceland]]
+
+
+|heading5 = Other topics
+|content5 =
+*[[North Germanic languages|Languages]]
+*[[Scandinavism]]
+
+*[[Nordic Council]]
+*[[Scandinavian Monetary Union|Monetary Union]]
+
+*[[Scandinavian defence union|Defence Union]]
+
+*[[Scandinavian Airlines]]
+
+}}&amp;lt;noinclude&amp;gt;
+
+{{documentation}}
+&amp;lt;/noinclude&amp;gt;&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

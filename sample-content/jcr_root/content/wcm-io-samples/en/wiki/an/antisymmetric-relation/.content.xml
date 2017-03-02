@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Antisymmetric relation"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Antisymmetric relation" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Refimprove|date=January 2010}}
+{{Textbook|date=January 2010}}
+In [[mathematics]], a [[binary relation]] &amp;apos;&amp;apos;R&amp;apos;&amp;apos; on a [[Set (mathematics)|set]] &amp;apos;&amp;apos;X&amp;apos;&amp;apos; is &amp;apos;&amp;apos;&amp;apos;antisymmetric&amp;apos;&amp;apos;&amp;apos; if there is no pair of distinct elements of &amp;apos;&amp;apos;X&amp;apos;&amp;apos; each of which is related by &amp;apos;&amp;apos;R&amp;apos;&amp;apos; to the other. More formally, &amp;apos;&amp;apos;R&amp;apos;&amp;apos; is antisymmetric precisely if for all &amp;apos;&amp;apos;a&amp;apos;&amp;apos; and &amp;apos;&amp;apos;b&amp;apos;&amp;apos; in &amp;apos;&amp;apos;X&amp;apos;&amp;apos;
+:if &amp;apos;&amp;apos;R(a,b)&amp;apos;&amp;apos; and &amp;apos;&amp;apos;R(b,a)&amp;apos;&amp;apos;, then &amp;apos;&amp;apos;a&amp;apos;&amp;apos;&amp;amp;nbsp;=&amp;amp;nbsp;&amp;apos;&amp;apos;b&amp;apos;&amp;apos;,
+or, equivalently,
+:if &amp;apos;&amp;apos;R(a,b)&amp;apos;&amp;apos; with &amp;apos;&amp;apos;a&amp;apos;&amp;apos;&amp;amp;nbsp;≠&amp;amp;nbsp;&amp;apos;&amp;apos;b&amp;apos;&amp;apos;, then &amp;apos;&amp;apos;R(b,a)&amp;apos;&amp;apos; must not hold.
+
+As a simple example, the [[divisibility]] order on the [[natural number]]s is an antisymmetric relation. And what antisymmetry means here is that the only way each of two numbers can be divisible by the other is if the two are, in fact, the same number; equivalently, if &amp;apos;&amp;apos;n&amp;apos;&amp;apos; and &amp;apos;&amp;apos;m&amp;apos;&amp;apos; are distinct and &amp;apos;&amp;apos;n&amp;apos;&amp;apos; is a factor of &amp;apos;&amp;apos;m&amp;apos;&amp;apos;, then &amp;apos;&amp;apos;m&amp;apos;&amp;apos; cannot be a factor of &amp;apos;&amp;apos;n&amp;apos;&amp;apos;.
+
+In [[mathematical notation]], this is:
+
+:&amp;lt;math&amp;gt;\forall a, b \in X,\ R(a,b) \and R(b,a) \; \Rightarrow \; a = b&amp;lt;/math&amp;gt;
+
+or, equivalently,
+
+&amp;lt;!-- this is the same formula as above, but due to the addition of the negation, it is more clear where the term anti-symmetric comes from --&amp;gt;
+:&amp;lt;math&amp;gt;\forall a, b \in X,\ R(a,b) \and a \ne b \Rightarrow \lnot  R(b,a) .&amp;lt;/math&amp;gt;
+
+The usual [[order relation]] ≤ on the [[real number]]s is antisymmetric: if for two real numbers &amp;apos;&amp;apos;x&amp;apos;&amp;apos; and &amp;apos;&amp;apos;y&amp;apos;&amp;apos; both [[inequality (mathematics)|inequalities]] &amp;apos;&amp;apos;x&amp;apos;&amp;apos;&amp;amp;nbsp;≤&amp;amp;nbsp;&amp;apos;&amp;apos;y&amp;apos;&amp;apos; and &amp;apos;&amp;apos;y&amp;apos;&amp;apos;&amp;amp;nbsp;≤&amp;amp;nbsp;&amp;apos;&amp;apos;x&amp;apos;&amp;apos; hold then &amp;apos;&amp;apos;x&amp;apos;&amp;apos; and &amp;apos;&amp;apos;y&amp;apos;&amp;apos; must be equal. Similarly,  the [[subset order]] ⊆ on the subsets of any given set is antisymmetric: given two sets &amp;apos;&amp;apos;A&amp;apos;&amp;apos; and &amp;apos;&amp;apos;B&amp;apos;&amp;apos;, if every [[Element (mathematics)|element]] in &amp;apos;&amp;apos;A&amp;apos;&amp;apos; also is in &amp;apos;&amp;apos;B&amp;apos;&amp;apos; and every element in &amp;apos;&amp;apos;B&amp;apos;&amp;apos; is also in &amp;apos;&amp;apos;A&amp;apos;&amp;apos;, then &amp;apos;&amp;apos;A&amp;apos;&amp;apos; and &amp;apos;&amp;apos;B&amp;apos;&amp;apos; must contain all the same elements and therefore be equal:
+:&amp;lt;math&amp;gt;A \subseteq B \and B \subseteq A \Rightarrow A = B&amp;lt;/math&amp;gt;
+
+[[partial order|Partial]] and [[total order]]s are antisymmetric by definition. A relation can be both [[symmetric relation|symmetric]] and antisymmetric (e.g., [[equality (mathematics)|the equality relation]]), and there are relations which are neither symmetric nor antisymmetric (e.g., the &amp;quot;preys on&amp;quot; relation on biological [[species]]).
+
+Antisymmetry is different from [[Asymmetric relation|asymmetry]].  According to one definition of &amp;apos;&amp;apos;&amp;apos;asymmetric&amp;apos;&amp;apos;&amp;apos;, anything that fails to be symmetric is asymmetric.  Another definition of &amp;apos;&amp;apos;&amp;apos;asymmetric&amp;apos;&amp;apos;&amp;apos; makes asymmetry equivalent to antisymmetry plus [[reflexive relation|irreflexivity]].
+
+==Examples==
+The relation &amp;quot;&amp;apos;&amp;apos;x&amp;apos;&amp;apos; is even, &amp;apos;&amp;apos;y&amp;apos;&amp;apos; is odd&amp;quot; between a pair (&amp;apos;&amp;apos;x&amp;apos;&amp;apos;, &amp;apos;&amp;apos;y&amp;apos;&amp;apos;) of [[integer]]s is antisymmetric:
+:::[[File:Even and odd antisymmetric relation.png|Even and odd antisymmetric relation]]
+
+==See also==
+* [[Symmetry in mathematics]]
+
+==References==
+*{{MathWorld | urlname=AntisymmetricRelation | title=Antisymmetric Relation}}
+*{{cite book |title=Theory and Problems of Discrete Mathematics |first=Seymour |last=Lipschutz |authorlink=Seymour Lipschutz |coauthors=Marc Lars Lipson |year=1997 |publisher=McGraw-Hill |isbn=0-07-038045-7 |page=33}}
+
+{{DEFAULTSORT:Antisymmetric Relation}}
+[[Category:Mathematical relations]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

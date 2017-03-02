@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Your Family Tree"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Your Family Tree" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox Magazine|
+  title          = Your Family Tree |
+  image          = &amp;lt;!-- Unsourced image removed: [[Image:yftcover.jpg|100px|center]]  --&amp;gt;|
+  editor         = Adam Rees |
+  frequency      = 13 per year |
+  category       = [[Genealogy]] |
+  company        = [[Future plc]]  |
+  firstdate      = 2003 |
+  country        = United Kingdom |
+  website        = http://www.yourfamilytreemag.co.uk |
+}}
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Your Family Tree&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is a British magazine devoted to [[genealogy]] and [[family history]] subjects.
+
+The magazine is designed to offer practical advice, written by experts, on all areas of family history research from how to make the most out of the ever-expanding family history records available online as well as traditional means of research.
+
+The magazine has a mix of broad articles on using the key family history records such as censuses, birth, marriage and death certificates, parish registers; practical features aimed at beginners, experienced researchers and experts alike; social and military history pieces; regional research guides; news, reviews, surname histories and much more.
+
+Each issue comes with free resources such as directories, parish indexes and software.
+
+In 2011 the magazine became available digitally on iTunes newsstand. It is also available on Zinio, Nook and Kindle Fire.
+
+Adam Rees has been the editor since 2011.
+
+There are 13 issues per year. It is published in [[Bath, Somerset|Bath]], England by [[Future plc]].
+
+
+==References==
+{{Reflist}}
+
+==External links==
+*[http://www.yourfamilytreemag.co.uk Official website]
+
+{{Future plc}}
+
+[[Category:British magazines]]
+[[Category:Genealogy publications]]
+[[Category:Magazines established in 2003]]
+
+{{hist-mag-stub}}
+{{hobby-mag-stub}}
+{{UK-mag-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

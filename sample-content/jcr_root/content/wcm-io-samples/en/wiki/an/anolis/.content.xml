@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Anolis"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Anolis" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{italic title}}
+{{Taxobox
+| name = &amp;apos;&amp;apos;Anolis&amp;apos;&amp;apos;
+| image = Anole.jpg
+| image_width =
+| image_caption = [[Green anole]] (&amp;apos;&amp;apos;Anolis carolinensis&amp;apos;&amp;apos;)
+| regnum = [[Animal]]ia
+| phylum = [[Chordata]]
+| subphylum = [[Vertebrate|Vertebrata]]
+| classis = [[Reptile|Reptilia]]
+| ordo = [[Squamata]]
+| subordo = [[Iguania]]
+| familia = [[Polychrotidae]]
+| genus = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Anolis&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+| genus_authority = [[François Marie Daudin|Daudin]], 1802
+| subdivision_ranks = Species
+| subdivision = ca. 372 spp., see [[#Species|text]]
+}}
+
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Anolis&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is a [[genus]] of [[lizard]]s belonging to the family [[Dactyloidae]]. With nearly 400 species, &amp;apos;&amp;apos;Anolis&amp;apos;&amp;apos; represents the world&amp;apos;s most species-rich [[amniote]] genus. Several species of &amp;apos;&amp;apos;Anolis&amp;apos;&amp;apos; are occasionally ascribed to the genus &amp;apos;&amp;apos;[[Norops]]&amp;apos;&amp;apos;, but the validity of the &amp;apos;&amp;apos;Norops&amp;apos;&amp;apos; genus is not widely accepted. The [[green anole]] (&amp;apos;&amp;apos;Anolis carolinensis&amp;apos;&amp;apos;) has recently become the first reptile to have its complete genome sequenced.&amp;lt;ref&amp;gt;[http://www.broadinstitute.org/models/anole Anolis Genome Sequencing Project], Broad Institute&amp;lt;/ref&amp;gt;
+
+==Ecomorphs==
+&amp;apos;&amp;apos;Anolis&amp;apos;&amp;apos; lizards are some of the best examples of both [[adaptive radiation]] and [[convergent evolution]].  Populations of lizards on isolated islands diverge to occupy separate [[ecological niches]], mostly in terms of the location within the vegetation where they forage (such as in the crown of trees vs. the trunk vs. underlying shrubs).&amp;lt;ref&amp;gt;Losos, J.B. (2007). Detective work in the West Indies: integrating historical and experimental approaches to study island lizard evolution. &amp;apos;&amp;apos;BioScience&amp;apos;&amp;apos; &amp;apos;&amp;apos;&amp;apos;57&amp;apos;&amp;apos;&amp;apos;:585-597.&amp;lt;/ref&amp;gt; These divergences in [[habitat]] are accompanied by [[Morphology (biology)|morphological]] changes primarily related to moving on the substrate diameter they most frequently encounter, with twig ecomorphs having short limbs, while trunk ecomorphs have long limbs.
+
+In addition, these patterns repeat on numerous islands, with animals in similar habitats converging on similar body forms repeatedly.&amp;lt;ref&amp;gt;Losos, J. B., Jackman, T. R., Larson, A., de Queiroz, K., &amp;amp; Rodriguez-Schettino, L. (1998) Contingency and determinism in replicated adaptive radiations of island lizards. Science, 279, 2115-2118.&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;Losos, J.B. (2007). Detective work in the West Indies: integrating historical and experimental approaches to study island lizard evolution. &amp;apos;&amp;apos;BioScience&amp;apos;&amp;apos; &amp;apos;&amp;apos;&amp;apos;57&amp;apos;&amp;apos;&amp;apos;:585-597.&amp;lt;/ref&amp;gt; This demonstrates adaptive radiation can actually be predictable based on habitat encountered, and experimental introductions onto formerly lizard-free islands have proven &amp;apos;&amp;apos;Anolis&amp;apos;&amp;apos; evolution can be predicted.&amp;lt;ref&amp;gt;Calsbeek, R. (2008). Experimental evidence that competition and habitat use shape the individual fitness surface. &amp;apos;&amp;apos;Journal of Evolutionary Biology&amp;apos;&amp;apos; &amp;apos;&amp;apos;&amp;apos;22&amp;apos;&amp;apos;&amp;apos;:97-108.&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;Calsbeek, R., W. Buermann, and T.B. Smith. (2009). Parallel shifts in ecology and natural selection in an island lizard. &amp;apos;&amp;apos;BMC Evolutionary Biology&amp;apos;&amp;apos; &amp;apos;&amp;apos;&amp;apos;9&amp;apos;&amp;apos;&amp;apos;:3.&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;Calsbeek, R., and R.M. Cox. (2010). Experimentally assessing the relative importance of predation and competition as agents of selection. &amp;apos;&amp;apos;Nature&amp;apos;&amp;apos; &amp;apos;&amp;apos;&amp;apos;465&amp;apos;&amp;apos;&amp;apos;:613-616.&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;Calsbeek, R., and T.B. Smith. (2007). Probing the adaptive landscape using experimental islands: density-dependent natural selection on lizard body size. &amp;apos;&amp;apos;Evolution&amp;apos;&amp;apos; &amp;apos;&amp;apos;&amp;apos;61&amp;apos;&amp;apos;&amp;apos;:1052-1061.&amp;lt;/ref&amp;gt;
+
+==Species==
+{{Main|List of Anolis lizards}}
+
+==See also==
+*[[Polychrotidae]]
+*[[Carolina anole]]
+*[[Brown anole]]
+
+==References==
+{{commons|Anolis}}
+{{wikispecies}}
+{{reflist}}
+* Losos, J.B. (2009) Lizards in an Evolutionary Tree: Ecology and Adaptive Radiation of Anoles. University of California Press:Berkeley, Ca. [http://www.ucpress.edu/books/pages/11151.php]
+* Anole Annals [http://www.anoleannals.org/]
+* [http://reptile-database.reptarium.cz/search.php?submit=Search&amp;amp;exact=genus&amp;amp;genus=Anolis &amp;apos;&amp;apos;Anolis&amp;apos;&amp;apos;], The Reptile Database
+
+[[Category:Anoles]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

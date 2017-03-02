@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Rosicrucian Digest"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Rosicrucian Digest" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Rosicrucian Digest&amp;apos;&amp;apos;&amp;apos; is a publication of [[Ancient Mystical Order Rosae Crucis|AMORC]], published continuously from 1915.
+
+It is sent to members via correspondence, but it is also available to the general public.
+
+You can read Rosicrucian Digest issues at the web site of the [http://www.rosicrucian.org/ English Grand Lodge of the Americas].
+
+It is not the same as [[Rosicrucian Forum]], which is another publication of AMORC available only to members.
+
+In the past Rosicrucian Digest was named [[Mystic Triangle]].
+
+==See also==
+* [[Rosicrucian Forum]]
+* [[Ancient Mystical Order Rosae Crucis|AMORC]]
+* [[Rosicrucianism]]
+
+==External links==
+* [http://www.rosicrucian.org/ AMORC English Grand Lodge of the Americas]
+* [http://www.rosicrucian.org/publications/digest/publication_archive.html A list with old publications of AMORC that anybody can read online for free]
+** [http://www.rosicrucian.org/publications/digest/2003/digest_vol_81_1.pdf Rosicrucian Digest 2003 vol.81 1 in PDF format]
+** [http://www.rosicrucian.org/publications/digest/2003/digest_vol_81_2.pdf Rosicrucian Digest 2003 vol.81 2 in PDF format]
+** [http://www.rosicrucian.org/publications/digest/2003/digest_vol_81_3.pdf Rosicrucian Digest 2003 vol.81 3 in PDF format]
+** [http://www.rosicrucian.org/publications/digest/2003/digest_vol_81_4.pdf Rosicrucian Digest 2003 vol.81 4 in PDF format]
+
+[[Category:Publications established in 1915]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

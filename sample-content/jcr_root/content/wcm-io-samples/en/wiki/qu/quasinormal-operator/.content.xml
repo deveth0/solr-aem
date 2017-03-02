@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Quasinormal operator"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Quasinormal operator" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[operator theory]], &amp;apos;&amp;apos;&amp;apos;quasinormal operators&amp;apos;&amp;apos;&amp;apos; is a class of bounded operators defined by weakening the requirements of a [[normal operator]].
+
+Every quasinormal operator is a [[subnormal operator]]. Every quasinormal operator on a finite-dimensional Hilbert space is normal.
+
+== Definition and some properties ==
+=== Definition ===
+Let &amp;apos;&amp;apos;A&amp;apos;&amp;apos; be a bounded operator on a Hilbert space &amp;apos;&amp;apos;H&amp;apos;&amp;apos;, then &amp;apos;&amp;apos;A&amp;apos;&amp;apos; is said to be &amp;apos;&amp;apos;&amp;apos;quasinormal&amp;apos;&amp;apos;&amp;apos; if &amp;apos;&amp;apos;A&amp;apos;&amp;apos; commutes with &amp;apos;&amp;apos;A*A&amp;apos;&amp;apos;, i.e.
+
+:&amp;lt;math&amp;gt;A(A^*A) = (A^*A) A.\,&amp;lt;/math&amp;gt;
+
+=== Properties ===
+
+A normal operator is necessarily quasinormal.
+
+Let &amp;apos;&amp;apos;A&amp;apos;&amp;apos; = &amp;apos;&amp;apos;UP&amp;apos;&amp;apos; be the [[polar decomposition]] of &amp;apos;&amp;apos;A&amp;apos;&amp;apos;. If &amp;apos;&amp;apos;A&amp;apos;&amp;apos; is quasinormal, then &amp;apos;&amp;apos;UP = PU&amp;apos;&amp;apos;. To see this, notice that
+the positive factor &amp;apos;&amp;apos;P&amp;apos;&amp;apos; in the polar decomposition is of the form (&amp;apos;&amp;apos;A*A&amp;apos;&amp;apos;)&amp;lt;sup&amp;gt;&amp;amp;frac12;&amp;lt;/sup&amp;gt;, the unique positive square root of &amp;apos;&amp;apos;A*A&amp;apos;&amp;apos;. Quasinormality means &amp;apos;&amp;apos;A&amp;apos;&amp;apos; commutes with &amp;apos;&amp;apos;A*A&amp;apos;&amp;apos;. As a consequence of the [[continuous functional calculus]] for self adjoint operators, &amp;apos;&amp;apos;A&amp;apos;&amp;apos; commutes with &amp;apos;&amp;apos;P&amp;apos;&amp;apos; = (&amp;apos;&amp;apos;A*A&amp;apos;&amp;apos;)&amp;lt;sup&amp;gt;&amp;amp;frac12;&amp;lt;/sup&amp;gt; also, i.e.
+
+:&amp;lt;math&amp;gt;U P P = P U P.\,&amp;lt;/math&amp;gt;
+
+So &amp;apos;&amp;apos;UP = PU&amp;apos;&amp;apos; on the range of &amp;apos;&amp;apos;P&amp;apos;&amp;apos;. On the other hand, if &amp;apos;&amp;apos;h&amp;apos;&amp;apos; &amp;amp;isin; &amp;apos;&amp;apos;H&amp;apos;&amp;apos; lies in kernel of &amp;apos;&amp;apos;P&amp;apos;&amp;apos;, clearly &amp;apos;&amp;apos;UP h&amp;apos;&amp;apos;  = 0. But &amp;apos;&amp;apos;PU h&amp;apos;&amp;apos; = 0 as well. because &amp;apos;&amp;apos;U&amp;apos;&amp;apos; is a [[partial isometry]] whose initial space is closure of range &amp;apos;&amp;apos;P&amp;apos;&amp;apos;. Finally, the self-adjointness of &amp;apos;&amp;apos;P&amp;apos;&amp;apos; implies that &amp;apos;&amp;apos;H&amp;apos;&amp;apos; is the direct sum of its range and kernel. Thus the argument given proves &amp;apos;&amp;apos;UP&amp;apos;&amp;apos; = &amp;apos;&amp;apos;PU&amp;apos;&amp;apos; on all of &amp;apos;&amp;apos;H&amp;apos;&amp;apos;.
+
+On the other hand, one can readily verify that if &amp;apos;&amp;apos;UP&amp;apos;&amp;apos; = &amp;apos;&amp;apos;PU&amp;apos;&amp;apos;, then &amp;apos;&amp;apos;A&amp;apos;&amp;apos; must be quasinormal. Thus the operator &amp;apos;&amp;apos;A&amp;apos;&amp;apos; is quasinormal if and only if &amp;apos;&amp;apos;UP&amp;apos;&amp;apos; = &amp;apos;&amp;apos;PU&amp;apos;&amp;apos;.
+
+When &amp;apos;&amp;apos;H&amp;apos;&amp;apos; is finite dimensional, every quasinormal operator &amp;apos;&amp;apos;A&amp;apos;&amp;apos; is normal. This is because that in the finite dimensional case, the partial isometry &amp;apos;&amp;apos;U&amp;apos;&amp;apos; in the polar decomposition &amp;apos;&amp;apos;A&amp;apos;&amp;apos; = &amp;apos;&amp;apos;UP&amp;apos;&amp;apos; can be taken to be unitary. This then gives
+
+:&amp;lt;math&amp;gt;A^*A = (UP)^* UP =  PU (PU)^* = AA^*.\,&amp;lt;/math&amp;gt;
+
+In general, a partial isometry may not be extendable to a unitary operator and therefore a quasinormal operator need not be normal. For example, consider the [[unilateral shift]] &amp;apos;&amp;apos;T&amp;apos;&amp;apos;. &amp;apos;&amp;apos;T&amp;apos;&amp;apos; is quasinormal because &amp;apos;&amp;apos;T*T&amp;apos;&amp;apos; is the identity operator. But &amp;apos;&amp;apos;T&amp;apos;&amp;apos; is clearly not normal.
+
+== Quasinormal invariant subspaces ==
+
+It is not known that, in general, whether a bounded operator &amp;apos;&amp;apos;A&amp;apos;&amp;apos; on a Hilbert space &amp;apos;&amp;apos;H&amp;apos;&amp;apos; has a nontrivial invariant subspace. However, when &amp;apos;&amp;apos;A&amp;apos;&amp;apos; is normal, an affirmative answer is given by the [[spectral theorem]]. Every normal operator &amp;apos;&amp;apos;A&amp;apos;&amp;apos; is obtained by integrating the identity function with respect to a spectral measure &amp;apos;&amp;apos;E&amp;apos;&amp;apos; = {&amp;apos;&amp;apos;E&amp;lt;sub&amp;gt;B&amp;lt;/sub&amp;gt;&amp;apos;&amp;apos;} on the spectrum of &amp;apos;&amp;apos;A&amp;apos;&amp;apos;, &amp;apos;&amp;apos;&amp;amp;sigma;&amp;apos;&amp;apos;(&amp;apos;&amp;apos;A&amp;apos;&amp;apos;):
+
+:&amp;lt;math&amp;gt;A = \int_{\sigma(A)} \lambda d E (\lambda).\,&amp;lt;/math&amp;gt;
+
+For any Borel set &amp;apos;&amp;apos;B&amp;apos;&amp;apos; &amp;amp;sub; &amp;apos;&amp;apos;&amp;amp;sigma;&amp;apos;&amp;apos;(&amp;apos;&amp;apos;A&amp;apos;&amp;apos;), the projection &amp;apos;&amp;apos;E&amp;lt;sub&amp;gt;B&amp;lt;/sub&amp;gt;&amp;apos;&amp;apos; commutes with &amp;apos;&amp;apos;A&amp;apos;&amp;apos; and therefore the range of &amp;apos;&amp;apos;E&amp;lt;sub&amp;gt;B&amp;lt;/sub&amp;gt;&amp;apos;&amp;apos; is an invariant subpsace of &amp;apos;&amp;apos;A&amp;apos;&amp;apos;.
+
+The above can be extended directly to quasinormal operators. To say &amp;apos;&amp;apos;A&amp;apos;&amp;apos; commutes with &amp;apos;&amp;apos;A*A&amp;apos;&amp;apos; is to say that &amp;apos;&amp;apos;A&amp;apos;&amp;apos; commutes with (&amp;apos;&amp;apos;A*A&amp;apos;&amp;apos;)&amp;lt;sup&amp;gt;&amp;amp;frac12;&amp;lt;/sup&amp;gt;. But this implies that &amp;apos;&amp;apos;A&amp;apos;&amp;apos; commutes with any projection &amp;apos;&amp;apos;E&amp;lt;sub&amp;gt;B&amp;lt;/sub&amp;gt;&amp;apos;&amp;apos; in the spectral measure of (&amp;apos;&amp;apos;A*A&amp;apos;&amp;apos;)&amp;lt;sup&amp;gt;&amp;amp;frac12;&amp;lt;/sup&amp;gt;, which proves the invariant subspace claim. In fact, one can conclude something stronger. The range of &amp;apos;&amp;apos;E&amp;lt;sub&amp;gt;B&amp;lt;/sub&amp;gt;&amp;apos;&amp;apos; is actually a &amp;apos;&amp;apos;reducing subspace&amp;apos;&amp;apos; of &amp;apos;&amp;apos;A&amp;apos;&amp;apos;, i.e. its orthogonal complement is also invariant under &amp;apos;&amp;apos;A&amp;apos;&amp;apos;.
+
+== References ==
+*P. Halmos, A Hilbert Space Problem Book, Springer, New York 1982.
+
+[[Category:Operator theory]]
+[[Category:Invariant subspaces]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

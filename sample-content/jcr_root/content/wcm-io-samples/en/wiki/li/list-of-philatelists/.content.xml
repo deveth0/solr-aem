@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="List of philatelists"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="List of philatelists" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{ref improve|date=October 2011}}
+This is a &amp;apos;&amp;apos;&amp;apos;list of philatelists&amp;apos;&amp;apos;&amp;apos;, persons notable for their contributions to [[philately]].
+&amp;lt;!--PLEASE RESPECT ALPHABETICAL ORDER--&amp;gt;
+* [[Oscar Berger-Levrault]]
+* [[Kasimir Bileski]]
+* [[Gustave Caillebotte]]
+* [[Samuel Chapman]], of Mexico
+* [[Sir Daniel Cooper, 1st Baronet|Daniel Cooper]], founder and first president of Philatelic Society of London
+* [[Jal Cooper]]
+* [[Gerald Davis, philatelist|Gerald Davis]]
+* [[C.D. Desai]]
+* [[Sir Ernest de Silva]], Sri Lanka&amp;apos;s greatest philatelist
+* [[Emilio Diena]], ancient Italian state specialist&amp;lt;ref&amp;gt;{{cite web|url=http://www.enzodiena.com/storia_en.html |title=Enzo Diena: Short history of Dienas&amp;apos; Philatelic Bureau |publisher=Enzo Diena.com |accessdate=2008-12-15}}&amp;lt;/ref&amp;gt;&amp;lt;ref name=&amp;quot;apshof00-04&amp;quot;&amp;gt;{{cite web|url=http://www.stamps.org/almanac/alm_halloffame_2000-04.htm |title=Hall of Fame - 2000-2004 |publisher=[[American Philatelic Society]] |date=1999 |accessdate=2008-12-15}} &amp;lt;/ref&amp;gt;
+* [[Robert Brisco Earée]], album weeds
+* [[Edward B. Evans]], &amp;quot;Major Evans&amp;quot;
+* [[David Feldman (philatelist)|David Feldman]]
+* [[Adelaide Lucy Fenton]], early female philatelist
+* [[Ferdinand of Bulgaria]]
+* [[Philipp von Ferrary]]
+* [[George V of the United Kingdom]], royal collector
+* [[Edward Stanley Gibbons]], British dealer
+* [[John Edward Gray]]
+* [[Edward Howland Robinson Green|Colonel Green]]
+* [[George Higlett]]
+* [[Arthur Hind (1856 - 1933)|Arthur Hind]]
+* [[Mauritius &amp;quot;Post Office&amp;quot;#Philatelic discovery|Hiroyuki Kanai]], of Mauritius
+* [[Anatoly Karpov]]&amp;lt;ref&amp;gt;{{cite web |url= http://www.davidfeldman.com/buying/auctions/upcoming-auctions/autumn-sales-series-geneva-december-6-10-2011/belgium-collection/ |title=Belgium collection formed by Anatoly Karpov |publisher=David Feldman |year=2011 |accessdate=2011-10-12}}&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;{{cite web|url=http://www.watch-clone.com/articles/c4.html|title=Anatoly Karpov: The Owner of the Unique Stamp Collection|publisher=Watch-Clone.com|accessdate=28 March 2011}}&amp;lt;/ref&amp;gt;
+* [[Adolph Koeppel]]
+* [[Pierre Langlois (philatelist)|Pierre Langlois]]
+* [[H. Dormer Legge]]
+* [[Alfred Lichtenstein (philatelist)|Alfred Lichtenstein]]&amp;lt;ref name=&amp;quot;apshof46-49&amp;quot;&amp;gt;{{cite web|url=http://www.stamps.org/almanac/alm_halloffame_1946-49.htm |title=Hall of Fame - 1946-1949 |publisher=[[American Philatelic Society]] |date=1999 |accessdate=2008-12-15}} &amp;lt;/ref&amp;gt;
+* [[James Ludovic Lindsay, 26th Earl of Crawford, 9th Earl of Balcarres|James Lindsay, 26th Earl of Crawford]], formed massive philatelic library&amp;lt;ref name=&amp;quot;apshof41&amp;quot;&amp;gt;{{cite web|url=http://www.stamps.org/almanac/alm_halloffame_1941.htm |title=Hall of Fame - 1941 |publisher=[[American Philatelic Society]] |date=1999 |accessdate=2008-12-15}} &amp;lt;/ref&amp;gt;
+* [[George Ward Linn]], founder of Linn&amp;apos;s Weekly Stamp News
+* [[Robson Lowe]], the &amp;quot;father of postal history&amp;quot;&amp;lt;ref name=&amp;quot;apshof95-99&amp;quot;&amp;gt;{{cite web|url=http://www.stamps.org/almanac/alm_HallofFame_1995-99.htm |title=Hall of Fame - 1995-1999 |publisher=[[American Philatelic Society]] |date=1999 |accessdate=2008-12-15}}&amp;lt;/ref&amp;gt;
+* [[John Luff]]&amp;lt;ref name=&amp;quot;apshof41&amp;quot;/&amp;gt;
+* [[James A. Mackay]]
+* [[Fred Melville]]
+* [[Jean-Baptiste Moens]], the &amp;quot;father of philately&amp;quot;
+* [[Walter Morley]]
+* [[Edwin Müller]]&amp;lt;ref name=&amp;quot;apshof70-74&amp;quot;&amp;gt;{{cite web|url=http://www.stamps.org/Almanac/alm_HallofFame_1970-74.htm |title=Hall of Fame - 1970-1974 |publisher=[[American Philatelic Society]] |date=1999 |accessdate=2008-12-27}}&amp;lt;/ref&amp;gt;
+* [[Douglas Myall]]
+* [[Alfred Potiquet]], first stamp catalogue
+* [[Ayn Rand]]&amp;lt;ref name=&amp;quot;apshof1a-ad&amp;quot;&amp;gt;{{cite web|url=http://www.ellensplace.net/ar_stamp.html |title=Why I Like Stamp Collecting - 1971 |publisher=Minkus Stamp Journal |accessdate=2009-01-13}}&amp;lt;/ref&amp;gt;
+* [[L. T. Rose-Hutchinson]]
+* [[Stuart Rossiter]]
+* [[Gary Ryan (philatelist)|Gary Ryan]]
+* [[Franklin Delano Roosevelt|Franklin D. Roosevelt]], presidential collector&amp;lt;ref name=&amp;quot;apshof42-45&amp;quot;&amp;gt;{{cite web|url=http://www.stamps.org/almanac/alm_halloffame_1942-45.htm |title=Hall of Fame - 1942-1945 |publisher=[[American Philatelic Society]] |date=1999 |accessdate=2008-12-15}}&amp;lt;/ref&amp;gt;
+* [[Lawrence L. Shenfield|Lawrence L Shenfield]], Confederate postal history
+* [[E. A. Smythies|Evelyn Arthur Smythies]]
+* [[Richard Stevens]], Mexico revenue catalog
+* [[William Carlos Stone]], revenues and philatelic literature&amp;lt;ref name=&amp;quot;apshof46-49&amp;quot;/&amp;gt;
+* [[Thomas Tapling]]&amp;lt;ref name=&amp;quot;apshof41&amp;quot;/&amp;gt;
+* [[Charlotte Tebay]], early female philatelist
+* [[Leon Norman Williams]]&amp;lt;ref name=&amp;quot;apshof00-04&amp;quot;/&amp;gt;
+* [[Hakim Syed Zillur Rahman]], collector of medical stamps
+* [[Robert Zoellner]], only complete US collection
+
+==See also==
+* [[Topical stamp collecting]]
+
+==References==
+{{reflist}}
+
+[[Category:Lists of people by occupation|Philatelists]]
+
+[[Category:Philatelists| ]]
+&amp;lt;!-- star for lists μ for stubs--&amp;gt;&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

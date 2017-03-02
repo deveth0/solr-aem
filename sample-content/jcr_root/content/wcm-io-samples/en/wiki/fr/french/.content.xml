@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="French"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="French" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Wiktionary|French}}
+&amp;apos;&amp;apos;&amp;apos;French&amp;apos;&amp;apos;&amp;apos; may refer to:
+* anything of, from, or related to the country and nation of [[France]]
+** [[French people]], an ethnic group
+** [[French language]], a Romance language
+*** [[French dialects]], variants of the French language
+** [[French cuisine]], traditional foods
+** [[French folklore]]
+** [[Mythology in France|French mythology]], traditional religion
+* [[French catheter scale]], a gauge system commonly used to measure the size of a catheter
+* [[French (surname)]]
+* [[French Open]], one of the four major tennis tournaments
+* [[French defence]], a chess opening (1 e4 e6)
+* [[French River, Colchester, Nova Scotia]], Canada
+* [[French River, Pictou, Nova Scotia]], Canada
+* [[French River (Ontario)]], Canada
+* [[French River (Massachusetts)]], Massachusetts
+* [[French&amp;apos;s]], an American manufacturer of mustard condiment
+
+==See also==
+* [[French fries]]
+* [[French kiss]]
+* [[French dressing]]
+* [[Frenching (disambiguation)]]
+* {{look from}}
+* {{in title}}
+
+{{disambig}}
+[[el:Γαλλικά]]
+[[es:Francés]]
+[[hu:Francia]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

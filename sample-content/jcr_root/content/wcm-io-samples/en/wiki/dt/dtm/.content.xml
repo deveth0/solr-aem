@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="DTM"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="DTM" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;lt;!-- Only add acronyms that actually have a wiki article --&amp;gt;
+In &amp;apos;&amp;apos;&amp;apos;sport:&amp;apos;&amp;apos;&amp;apos;
+* [[Deutsche Tourenwagen Masters]], a motor-racing series staged annually in Germany since 2000
+* [[Deutsche Tourenwagen Meisterschaft]], a motor-racing championship staged in Germany from 1984 to 1995
+
+In &amp;apos;&amp;apos;&amp;apos;computing:&amp;apos;&amp;apos;&amp;apos;
+* Deterministic [[Turing machine]], an abstract symbol-manipulating device that was first described in 1936 by Alan Turing
+* [[Digital terrain model]], a digital representation of ground-surface topography or terrain
+* [[Discrete multitone modulation]], an ADSL modulation method
+* [[Driver Test Manager]], a test-automation framework provided by Microsoft as a part of Windows Driver Kit (WDK)
+* [[Dual Transfer Mode]], supporting simultaneous voice and packet data in a GSM network
+* [[Dynamic synchronous Transfer Mode]], a networking technology
+
+In &amp;apos;&amp;apos;&amp;apos;process control/automation:&amp;apos;&amp;apos;&amp;apos;
+* A [[Device Type Manager]] (DTM) is part of the Field Device Tool (FDT) standard that is a software component for a device that contains the device-specific data, functions and logic elements. DTMs can reach from a simple graphical user interface for setting device parameters up to a highly sophisticated application that, for example, can perform complex calculations for diagnostics and maintenance purposes or can implement arbitrarily complex business logics for device calibration.
+
+In &amp;apos;&amp;apos;&amp;apos;media:&amp;apos;&amp;apos;&amp;apos;
+* [[Dennis the Menace (disambiguation)]], original comics as well as TV series, films and video games based on them
+* [[Detroit Techno Militia]], a collective of techno DJs and Musicians in Michigan.
+* DTM stands for [[:ja:デスクトップミュージック|desktop music]], an [[wasei-eigo|English term originating from Japan]], roughly meaning [[Computer Music]].
+
+In &amp;apos;&amp;apos;&amp;apos;demography:&amp;apos;&amp;apos;&amp;apos;
+* [[Demographic transition model]], a model used to represent the changes in birth- and death-rates of a country
+
+In &amp;apos;&amp;apos;&amp;apos;certification:&amp;apos;&amp;apos;&amp;apos;
+* [[Toastmasters International#Distinguished Toastmaster|Distinguished Toastmaster]], a certification of Toastmasters International
+
+In &amp;apos;&amp;apos;&amp;apos;transportation:&amp;apos;&amp;apos;&amp;apos;
+* [[Dortmund Airport]], an international airport in Germany
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

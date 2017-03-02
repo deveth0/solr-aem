@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Polygon (computer graphics)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Polygon (computer graphics)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+&amp;apos;&amp;apos;&amp;apos;Polygons&amp;apos;&amp;apos;&amp;apos; are used in [[computer graphics]] to compose images that are [[3D computer graphics|three-dimensional]] in appearance.  Usually (but not always) triangular, polygons arise when an object&amp;apos;s surface is modeled, vertices are selected, and the object is [[rendering (computer graphics)|rendered]] in a [[wire frame model]].  This is quicker to display than a shaded model; thus the polygons are a stage in [[computer animation]].  The &amp;apos;&amp;apos;polygon count&amp;apos;&amp;apos; refers to the number of polygons being rendered per [[Frame (film)|frame]].
+
+==Competing methods for rendering polygons that avoid seams==
+* [[Decimal separator|Point]]
+**[[Floating_point|Floating Point]]
+**[[Fixed-Point]]
+**[[Polygon]]
+**because of [[rounding]], every [[scanline]] has its own direction in space and may show its front or back side to the viewer.
+*[[Fraction (mathematics)]]
+**[[Bresenham&amp;apos;s line algorithm]]
+**Polygons have to be split into [[triangle]]s
+**The whole triangle shows the same side to the viewer
+**The [[Decimal separator|point]] numbers from the [[Transform and lighting]] stage have to converted to [[Fraction (mathematics)]]
+*[[Barycentric coordinates (mathematics)]]
+**Used in [[Ray tracing (graphics)|raytracing]]
+
+==See also==
+* [[Low poly]]
+* [[Polygon]], for general polygon information
+* [[Polygon mesh]], for polygon object representation
+* [[Polygon modeling]]
+
+{{DEFAULTSORT:Polygon (Computer Graphics)}}
+[[Category:3D computer graphics]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

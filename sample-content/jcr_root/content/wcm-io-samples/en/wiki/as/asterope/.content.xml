@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Asterope"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Asterope" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Asterope&amp;apos;&amp;apos;&amp;apos; can refer to:
+
+* In Greek mythology:
+** [[Asterope (Hesperide)]], a [[Hesperides|Hesperide]]
+** [[Sterope (Pleiad)]], one of the Pleiades
+*** [[Asterope (star)]], one of the stars in the Pleiades cluster, named for the mythical figure
+** Hesperia, the wife or desired lover of [[Aesacus]] and daughter of Cebren
+** Asterope, mother of [[Peneleos]] by Hippalcimus
+** Sterope, daughter of [[Cepheus, King of Tegea]]
+** Asterope, an [[Oceanid]], mother of Acragas by Zeus
+* [[Asterope (butterfly)|&amp;apos;&amp;apos;Asterope&amp;apos;&amp;apos; (butterfly)]], a butterfly genus
+* [[233 Asterope]], a main-belt asteroid
+* [[AsteRope]], a pair of parallel circumferential tethers circling an asteroid to enable improved [[extra-vehicular activity]]
+
+{{Disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

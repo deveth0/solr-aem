@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Kawashima, Tokushima"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Kawashima, Tokushima" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{nihongo|&amp;apos;&amp;apos;&amp;apos;Kawashima&amp;apos;&amp;apos;&amp;apos;|川島町|Kawashima-chō}} was a [[towns of Japan|town]] located in [[Oe District, Tokushima|Oe District]], [[Tokushima Prefecture|Tokushima]], [[Japan]].
+
+On October 1, 2004 Kawashima was merged with the towns of [[Kamojima, Tokushima|Kamojima]] and [[Yamakawa, Tokushima|Yamakawa]], and the village of [[Misato, Tokushima|Misato]], all from [[Oe District, Tokushima|Oe District]], to form the new city of [[Yoshinogawa, Tokushima|Yoshinogawa]].
+
+As of 2003, the town had an estimated [[population]] of 8,484 and a [[population density]] of 479.59 persons per km². The total area was 17.69 km².
+
+==External links==
+* [http://www.city.yoshinogawa.lg.jp/ Yoshinogawa official website] {{ja icon}}
+
+{{Tokushima-geo-stub}}
+
+[[Category:Dissolved municipalities of Tokushima Prefecture]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

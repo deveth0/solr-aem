@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="XPD (disambiguation)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="XPD (disambiguation)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;XPD&amp;apos;&amp;apos;&amp;apos; can mean multiple things:
+* &amp;apos;&amp;apos;[[XPD]]&amp;apos;&amp;apos;, a spy novel by Len Deighton.
+* the [[ISO 4217]] code for tracking the value of one [[troy ounce]] of [[palladium]].
+* XPD, a name for the [[ERCC2]] protein.
+* [[XPD Adventure Race]], a multi-day adventure race held annually in Australia.
+* XPD, Cross Polarization Discrimination, in wave transmission: ratio of the co-polarized average received power to the cross-polarized average received power.
+* [[XPD Systems AB]], an independent security consultancy and research firm.
+* [[X-ray photoelectron diffraction]], an anyalytic methode to get structural and chemical information from surfaces.
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

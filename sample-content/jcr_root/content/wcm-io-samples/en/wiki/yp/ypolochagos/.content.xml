@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ypolochagos"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ypolochagos" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+[[File:Army-GRE-OF-01a.svg|thumb|right|80px|Current rank insignia of a Hellenic Army &amp;apos;&amp;apos;Ypolochagos&amp;apos;&amp;apos;.]]
+
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Ypolochagos&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;  ({{Lang-el|Υπολοχαγός, abbreviated Υπλγος}}) is used in the modern [[Greek language]] to mean &amp;quot;[[First Lieutenant]]&amp;quot;.
+
+In the modern [[Hellenic Army]] the rank is superior to that of &amp;apos;&amp;apos;[[Anthypolochagos]]&amp;apos;&amp;apos; (Literally: &amp;apos;In place of-Lieutenant&amp;apos;, i.e. [[Second Lieutenant]]) and inferior to that of an &amp;apos;&amp;apos;[[Lochagos]]&amp;apos;&amp;apos; ([[Captain (OF-2)|Captain]]). The insignia consists of two silver stars. Officers holding this rank should be addressed as &amp;quot;&amp;apos;&amp;apos;Kyrie Ypolochage&amp;apos;&amp;apos;&amp;quot; (Κύριε Υπολοχαγέ) by their subordinates, or &amp;quot;&amp;apos;&amp;apos;Ypolochage&amp;apos;&amp;apos; + family name&amp;quot; by their superior officers.
+
+{{Greece officer ranks}}
+
+[[Category:Military ranks of Greece]]
+
+
+{{Greece-mil-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

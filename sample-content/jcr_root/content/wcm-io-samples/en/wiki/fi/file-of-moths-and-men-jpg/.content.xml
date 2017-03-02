@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="File:Of Moths and Men.jpg"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="File:Of Moths and Men.jpg" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;== Summary ==
+{{Information
+| Description = [[Of Moths and Men]] book cover
+|      Source = [[Of Moths and Men]] book cover
+*Derived from a scan of the book cover (creator of this digital version is irrelevant as the copyright in all equivalent images is still held by the same party). Copyright held by the publisher or the author.  Claimed as fair use regardless.
+|        Date =
+|      Author = [[Judith Hooper]]
+|  Permission = Non-free book cover
+}}
+==Fair use rationale==
+{{Non-free use rationale|Article=Of Moths and Men
+|Description= [[Of Moths and Men]] book cover
+|Source= [[Of Moths and Men]] book cover
+*Derived from a scan of the book cover (creator of this digital version is irrelevant as the copyright in all equivalent images is still held by the same party). Copyright held by the publisher or the author.  Claimed as fair use regardless.
+|Portion=book cover
+|Resolution=low resolution
+|Purpose= for fair use on [[Of Moths and Men]]
+# This image is a low-resolution image of a book cover.
+# This image does not limit the copyright holder&amp;apos;s ability to profit from the original source, nor will it dilute the importance or recognition of the book or the author in connection with its organization.
+# This image enhances the article in which it&amp;apos;s displayed, as it provides an immediate relevance to the reader more capably than the textual description alone.
+#Use of the book cover visually identifies the book and the author and the publisher in a manner that mere prose cannot, and meets all criteria in [[WP:NFCC]].
+|Replaceability=Not replaceable; book covers are always presumed non-free.
+}}
+== Licensing ==
+{{Non-free book cover|image has rationale=yes}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

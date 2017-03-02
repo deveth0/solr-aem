@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="USS Annapolis"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="USS Annapolis" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Italic title prefixed|3}}
+&amp;apos;&amp;apos;&amp;apos;USS &amp;apos;&amp;apos;Annapolis&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* {{USS|Annapolis|PG-10}}, a gunboat commissioned in 1897 and in periodic service until 1919, then used as a training ship until 1940
+* {{USS|Annapolis|PF-15}}, a {{sclass-|Tacoma|frigate}} in service from 1944 to 1946, and sold to Mexico in 1947
+* {{USS|Annapolis|AGMR-1}}, the {{USS|Gilbert Islands|CVE-107}} escort carrier renamed &amp;apos;&amp;apos;Annapolis&amp;apos;&amp;apos; (AGMR-1) in 1963
+* {{USS|Annapolis|SSN-760}}, a {{sclass-|Los Angeles|submarine}} commissioned in 1992
+
+{{Shipindex}}
+
+{{DEFAULTSORT:Annapolis}}
+[[Category:United States Navy ship names]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

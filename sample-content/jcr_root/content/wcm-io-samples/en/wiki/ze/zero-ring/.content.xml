@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Zero ring"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Zero ring" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[ring theory]], a branch of [[mathematics]], a &amp;apos;&amp;apos;&amp;apos;zero ring&amp;apos;&amp;apos;&amp;apos; is a [[Pseudo-ring|ring]] (without [[unit]]y) in which the product of any two elements is 0 (the [[additive identity]] element).&amp;lt;ref&amp;gt;{{Cite book|title=Algèbre (Chapitres 1 à 3)|last=Bourbaki|first=Nicolas|language=fr|publisher=Hermann|year=1970|page=I-97}} with the denomination &amp;apos;&amp;apos;pseudo-anneau de carré nul&amp;apos;&amp;apos;&amp;lt;/ref&amp;gt; (Note: Some authors&amp;lt;ref&amp;gt;For example {{cite book |title=Modern Algebra|first=Seth|last=Warner
+|publisher=Courier Dover|year=1990|volume=1|isbn=0-486-66341-8|page=188}}&amp;lt;/ref&amp;gt;
+define a &amp;quot;&amp;apos;&amp;apos;&amp;apos;zero ring&amp;apos;&amp;apos;&amp;apos;&amp;quot; to be a ring with a single element, see [[trivial ring]]. These authors require their rings to have unity, hence all zero rings are trivial.) Another common name for zero rings is &amp;apos;&amp;apos;&amp;apos;null ring&amp;apos;&amp;apos;&amp;apos;; since the ring is not required to have unity, [[ideal (ring theory)|ideals]] can also be null rings, in which case they are referred to as &amp;apos;&amp;apos;&amp;apos;null ideals&amp;apos;&amp;apos;&amp;apos;.
+
+Any [[abelian group]] can be turned into a zero ring by defining the product of any two elements to be 0. This proves that any abelian group is the additive group of some ring.
+
+Any [[subgroup]] of the additive group of a zero ring is an [[Ideal (ring theory)|ideal]]. It follows that the only zero rings that are [[simple ring|simple]] are those whose additive groups are [[cyclic group]]s of prime order.&amp;lt;ref&amp;gt;{{Cite book|last1=Zariski|first1=Oscar|last2=Samuel|first2=Pierre|title=Commutative Algebra|volume=1|publisher=Van Nostrand|year=1958|page=133}}&amp;lt;/ref&amp;gt;
+
+==See also==
+* [[Pseudo-ring#Zero ring|zero rng]]
+
+==References==
+{{reflist}}
+*{{cite book |title=An Introduction to Abstract Algebra|first=Frederick Michael|last=Hall
+|publisher=CUP Archive|year=1969|volume=2|page=64}}
+
+[[Category:Ring theory]]
+
+{{Abstract-algebra-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

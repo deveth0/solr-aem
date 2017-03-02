@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Frequency distribution"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Frequency distribution" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Refimprove|date=August 2008}}In [[statistics]], a &amp;apos;&amp;apos;&amp;apos;frequency distribution&amp;apos;&amp;apos;&amp;apos; is an arrangement of the values that one or more variables take in a [[Sampling (statistics)|sample]]. Each entry in the table contains the [[frequency (statistics)|frequency]] or count of the occurrences of values within a particular group or interval, and in this way, the table summarizes the [[statistical distribution|distribution]] of values in the sample.
+
+==Univariate frequency tables==
+
+:
+
+{| class=&amp;quot;wikitable sortable&amp;quot;
+![[ranking|Rank]]
+!Degree of agreement
+!Number
+|-
+|1
+|Strongly agree
+|20
+|-
+|2
+|Agree somewhat
+|30
+|-
+|3
+|Not sure
+|20
+|-
+|4
+|Disagree somewhat
+|15
+|-
+|5
+|Strongly disagree
+|15
+|}
+
+A different tabulation scheme aggregates values into bins such that each bin encompasses a range of values. For example, the heights of the students in a class could be organized into the following frequency table.
+{| class=&amp;quot;wikitable sortable&amp;quot;
+!Height range
+!Number of students
+!Cumulative number
+|-
+
+|25
+|25
+|-
+|5.0–5.5 feet
+|35
+|60
+|-
+|5.5–6 feet
+|20
+|80
+|-
+|6.0–6.5 feet
+|20
+|100
+|-
+|}
+
+A &amp;apos;&amp;apos;&amp;apos;frequency distribution&amp;apos;&amp;apos;&amp;apos; shows us a summarized grouping of data divided into mutually exclusive classes and the number of occurrences in a class. It is a way of showing unorganized data e.g. to show results of an election, income of people for a certain region, sales of a product within a certain period, student loan amounts of graduates, etc. Some of the graphs that can be used with frequency distributions are histograms, line graphs, bar charts and pie charts. Frequency distributions are used for both qualitative and quantitative data.
+
+==Joint frequency distributions==
+
+Bivariate joint frequency distributions are often presented as (two-way) [[contingency tables]]:
+
+{| class=&amp;quot;wikitable sortable&amp;quot;
+|+ &amp;apos;&amp;apos;Two-way contingency table with marginal frequencies&amp;apos;&amp;apos;
+|-
+! !! Dance !! Sports !! TV !! Total
+|-
+! Men
+| 2 || 10 || 8 || 20
+|-
+! Women
+| 16 || 6 || 8 || 30
+|-
+! Total
+| 18 || 16 || 16 || 50
+|}
+
+The &amp;apos;&amp;apos;total&amp;apos;&amp;apos; row and &amp;apos;&amp;apos;total&amp;apos;&amp;apos; column report the &amp;apos;&amp;apos;&amp;apos;marginal frequencies&amp;apos;&amp;apos;&amp;apos; or [[marginal distribution]], while the body of the table reports the &amp;apos;&amp;apos;&amp;apos;joint frequencies&amp;apos;&amp;apos;&amp;apos;.&amp;lt;ref&amp;gt;Stat Trek, Statistics and Probability Glossary, &amp;apos;&amp;apos;s.v.&amp;apos;&amp;apos; [http://stattrek.com/Help/Glossary.aspx?Target=Joint_frequency Joint frequency]&amp;lt;/ref&amp;gt;
+
+==Applications==
+Managing and operating on frequency tabulated data is much simpler than operation on raw data. There are simple algorithms to calculate median, mean, standard deviation etc. from these tables.
+
+[[Statistical hypothesis testing]] is founded on the assessment of differences and similarities between frequency distributions. This assessment involves measures of [[Measures of central tendency|central tendency]] or [[average]]s, such as the [[mean]] and [[median]], and measures of variability or [[statistical dispersion]], such as the [[standard deviation]] or [[variance]].
+
+A frequency distribution is said to be [[Skewness|skewed]] when its mean and median are different. The [[kurtosis]] of a frequency distribution is the concentration of scores at the mean, or how peaked the distribution appears if depicted graphically&amp;amp;mdash;for example, in a [[histogram]]. If the distribution is more peaked than the [[normal distribution]] it is said to be leptokurtic; if less peaked it is said to be platykurtic.
+
+[[Letter frequency]] distributions are also used in [[frequency analysis (cryptanalysis)|frequency analysis]] to crack codes and are referred to the relative frequency of letters in different languages.
+
+==Notes==
+&amp;lt;references/&amp;gt;
+
+==See also==
+{{Portal|Statistics}}
+*[[Cross tabulation]]
+*[[Cumulative frequency]]
+
+{{Statistics|descriptive}}
+
+{{DEFAULTSORT:Frequency Distribution}}
+[[Category:Summary statistics]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

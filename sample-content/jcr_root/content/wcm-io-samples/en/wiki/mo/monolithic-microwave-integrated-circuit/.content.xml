@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Monolithic microwave integrated circuit"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Monolithic microwave integrated circuit" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Image:MMIC example.jpg|thumb|right|300px|Photograph of a GaAs MMIC (a 2-18GHz upconverter)]]
+[[Image:Monolithic microwave integrated circuit MSA0686 fixed.png|thumb|MMIC MSA-0686.]]
+A &amp;apos;&amp;apos;&amp;apos;Monolithic Microwave Integrated Circuit&amp;apos;&amp;apos;&amp;apos;, or &amp;apos;&amp;apos;&amp;apos;MMIC&amp;apos;&amp;apos;&amp;apos; (sometimes pronounced &amp;quot;mimic&amp;quot;), is a type of [[integrated circuit]] (IC) device that operates at [[microwave]] [[radio frequency|frequencies]] (300 MHz to 300 GHz). These devices typically perform functions such as microwave [[Frequency mixer|mixing]], power amplification, [[Low-noise amplifier|low noise amplification]], and high frequency switching. Inputs and outputs on MMIC devices are frequently matched to a [[characteristic impedance]] of 50 ohms. This makes them easier to use, as cascading of MMICs does not then require an external [[matching network]]. Additionally most microwave test equipment is designed to operate in a 50 ohm environment.
+
+MMICs are dimensionally small (from around 1 mm² to 10 mm²) and can be mass produced, which has allowed the proliferation of high frequency devices such as [[cellular phone]]s. MMICs were originally fabricated using [[gallium(III) arsenide|gallium arsenide]] (GaAs), a [[Extrinsic semiconductor#Semiconductor doping|III-V compound semiconductor]]. It has two fundamental advantages over [[Silicon]] (Si), the traditional material for IC realisation: device ([[transistor]]) speed and a semi-insulating [[Wafer (electronics)|substrate]]. Both factors help with the design of high frequency circuit functions. However, the speed of Si-based technologies has gradually increased as transistor feature sizes have reduced and MMICs can now also be fabricated in Si technology. The primary advantage of Si technology is its lower fabrication cost compared with GaAs. Silicon wafer diameters are larger (typically 8&amp;quot; or 12&amp;quot; compared with 4&amp;quot; or 6&amp;quot; for GaAs) and the wafer costs are lower, contributing to a less expensive IC.
+
+Other III-V technologies, such as [[Indium Phosphide]] (InP), have been shown to offer superior performance to GaAs in terms of gain, higher  cutoff frequency, and low noise. However they also tend to be more expensive due to smaller wafer sizes and increased material fragility.
+
+[[SiGe|Silicon Germanium]] (SiGe) is a Si-based compound semiconductor technology offering higher speed transistors than conventional Si devices but with similar cost advantages.
+
+[[GaN|Gallium Nitride]] (GaN) is also an option for MMICs.  Because GaN transistors can operate at much higher temperatures and work at much higher voltages than GaAs transistors, they make ideal power amplifiers at microwave frequencies.
+
+==See also==
+* [[Integrated Circuit]]
+* [[Hybrid Integrated Circuit]]
+* [[Transmission line]]
+* [[HEMT]]
+
+==References==
+* &amp;apos;&amp;apos;Practical MMIC Design&amp;apos;&amp;apos; published by Artech House ISBN 1-59693-036-5
+Author S. P. Marsh
+* &amp;apos;&amp;apos;RFIC and MMIC Design and Technology&amp;apos;&amp;apos; published by the IEE (London) ISBN 0-85296-786-1
+Editors I. D. Robertson and S. Lucyszyn
+
+== External links ==
+*[http://www.fbh-berlin.com/departments/microwave-department/circuit-design  MMIC circuit design at Ferdinand-Braun-Institut (FBH)]
+
+[[Category:Integrated circuits]]
+[[Category:Microwave technology]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

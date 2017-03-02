@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Chalciope"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Chalciope" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{For|the [[genus]] of [[noctuidae|noctuid]] [[moth]]s|Chalciope (moth)}}
+
+&amp;apos;&amp;apos;&amp;apos;Chalciope&amp;apos;&amp;apos;&amp;apos; ({{Lang-el|Χαλκιόπη}}), in [[Greek mythology]], is a name that may refer to several characters.
+
+* &amp;apos;&amp;apos;&amp;apos;Chalciope&amp;apos;&amp;apos;&amp;apos;, daughter of King [[Aeetes]] of [[Colchis]], sister of [[Medea]] and wife of [[Phrixus]], by whom she had four sons: Argus, [[Phrontis]], [[Melas (mythology)|Melas]] and Cytisorus (some authors add [[Presbon]]).&amp;lt;ref&amp;gt;Pseudo-[[Apollodorus of Athens|Apollodorus]], &amp;apos;&amp;apos;[[Bibliotheca (Pseudo-Apollodorus)|Bibliotheca]]&amp;apos;&amp;apos; 1. 9. 1&amp;lt;/ref&amp;gt;&amp;lt;ref name=&amp;quot;Hyginus, Fabulae, 3&amp;quot;&amp;gt;[[Hyginus]], &amp;apos;&amp;apos;Fabulae&amp;apos;&amp;apos;, 3 (he erroneously refers to Cytisorus as &amp;quot;Cylindrus&amp;quot;)&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;[[Pausanias (geographer)|Pausanias]], &amp;apos;&amp;apos;Description of Greece&amp;apos;&amp;apos;, 9. 34. 8&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;[[Scholia]] on [[Apollonius Rhodius]], &amp;apos;&amp;apos;Argonautica&amp;apos;&amp;apos;, 2. 1122&amp;lt;/ref&amp;gt; When Aeetes was dethroned and banished by his brother [[Perses (brother of Aeetes)|Perses]], Chalciope expressed great filial devotion and stayed by her father&amp;apos;s side,&amp;lt;ref&amp;gt;[[Hyginus]], &amp;apos;&amp;apos;Fabulae&amp;apos;&amp;apos;, 254&amp;lt;/ref&amp;gt; even though he had killed her husband.&amp;lt;ref name=&amp;quot;Hyginus, Fabulae, 3&amp;quot; /&amp;gt; [[Hesiod]] referred to her as &amp;apos;&amp;apos;&amp;apos;Iophossa&amp;apos;&amp;apos;&amp;apos;,&amp;lt;ref&amp;gt;Cited in [[scholia]] on [[Apollonius Rhodius]], &amp;apos;&amp;apos;Argonautica&amp;apos;&amp;apos;, 2. 1122&amp;lt;/ref&amp;gt; and [[Pherecydes of Leros|Pherecydes]] as &amp;apos;&amp;apos;&amp;apos;Euenia&amp;apos;&amp;apos;&amp;apos;.&amp;lt;ref&amp;gt;[[Scholia]] on [[Apollonius Rhodius]], &amp;apos;&amp;apos;Argonautica&amp;apos;&amp;apos;, 2. 1149&amp;lt;/ref&amp;gt;
+
+*&amp;apos;&amp;apos;&amp;apos;Chalciope&amp;apos;&amp;apos;&amp;apos;, daughter of [[Rhexenor (disambiguation)|Rhexenor]] (or of [[Chalcodon]]) and the second wife of [[Aegeas]]. She bore him no heirs.&amp;lt;ref&amp;gt;&amp;apos;&amp;apos;[[Bibliotheca (Pseudo-Apollodorus)|Bibliotheca]]&amp;apos;&amp;apos; 3. 15. 6&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;[[Athenaeus]], &amp;apos;&amp;apos;Banquet of the Learned&amp;apos;&amp;apos;, 13. 4&amp;lt;/ref&amp;gt;
+
+*&amp;apos;&amp;apos;&amp;apos;Chalciope&amp;apos;&amp;apos;&amp;apos;, daughter of [[Eurypylus]] of [[Kos|Cos]], mother of [[Thessalus]] by [[Heracles]].&amp;lt;ref&amp;gt;Pseudo-[[Apollodorus of Athens|Apollodorus]], &amp;apos;&amp;apos;[[Bibliotheca (Pseudo-Apollodorus)|Bibliotheca]]&amp;apos;&amp;apos; 2. 7. 8&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;[[Plutarch]], &amp;apos;&amp;apos;[[Quaestiones Graecae]]&amp;apos;&amp;apos;, 58&amp;lt;/ref&amp;gt;
+
+*&amp;apos;&amp;apos;&amp;apos;Chalciope&amp;apos;&amp;apos;&amp;apos;, consort of the aforementioned Thessalus, mother of his son [[Antiphus]],&amp;lt;ref&amp;gt;[[Hyginus]], &amp;apos;&amp;apos;Fabulae&amp;apos;&amp;apos;, 97&amp;lt;/ref&amp;gt; presumably also of [[Pheidippus]] and Nesson.&amp;lt;ref&amp;gt;[[Homer]], &amp;apos;&amp;apos;Iliad&amp;apos;&amp;apos;, 2. 679&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;[[Strabo]], &amp;apos;&amp;apos;Geography&amp;apos;&amp;apos;, 9. 5. 23&amp;lt;/ref&amp;gt;
+
+*&amp;apos;&amp;apos;&amp;apos;Chalciope&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;Chalcippe&amp;apos;&amp;apos;&amp;apos;, daughter of [[Phalerus]].&amp;lt;ref&amp;gt;[[Scholia]] on [[Apollonius Rhodius]], &amp;apos;&amp;apos;Argonautica&amp;apos;&amp;apos;, 1. 97&amp;lt;/ref&amp;gt;
+
+==References==
+{{reflist}}
+
+{{Greek myth index}}
+
+[[Category:Women in Greek mythology]]
+[[Category:Colchis in mythology]]
+
+{{Greek-myth-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

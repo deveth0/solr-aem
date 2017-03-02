@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Cataclysm"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Cataclysm" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|cataclysm|cataclysmic}}
+The  term &amp;apos;&amp;apos;&amp;apos;cataclysm&amp;apos;&amp;apos;&amp;apos; (from the Greek &amp;apos;&amp;apos;kataklysmos&amp;apos;&amp;apos;, to &amp;apos;wash down&amp;apos; (&amp;apos;&amp;apos;kluzein&amp;apos;&amp;apos; &amp;quot;wash&amp;quot; + &amp;apos;&amp;apos;kata&amp;apos;&amp;apos; &amp;quot;down&amp;quot;) may refer to:
+*[[Deluge (mythology)]]
+*a hypothetical [[Risks to civilization, humans, and planet Earth|Doomsday event]]
+*any catastrophic [[List of geological phenomena|geological phenomenon]]
+**[[volcanic eruption]]
+**[[earthquake]], the result of a sudden release of energy in the Earth&amp;apos;s crust that creates seismic waves
+*more generally, any large-scale [[disaster]]
+*[[World_of_Warcraft:_Cataclysm|World of Warcraft: Cataclysm]], the third [[expansion pack]] of [[Blizzard Entertainment|Blizzard Entertainment&amp;apos;s]] [[World of Warcraft]]
+
+== See also ==
+*[[ekpyrosis]] (conflagration)
+*[[eschatology]]
+
+{{Disambiguation}}
+[[Category:Septuagint words and phrases]]
+
+[[cs:Kataklyzma]]
+[[de:Kataklysmus]]
+[[es:Cataclismo]]
+[[pt:Cataclismo]]
+[[ru:Катаклизм]]
+[[sh:Kataklizma]]
+[[fi:Kataklysmi]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

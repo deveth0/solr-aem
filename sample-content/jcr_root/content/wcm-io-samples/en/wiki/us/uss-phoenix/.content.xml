@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="USS Phoenix"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="USS Phoenix" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Italic title prefixed|3}}
+&amp;apos;&amp;apos;&amp;apos;USS &amp;apos;&amp;apos;Phoenix&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; may refer to one of many real-world or fictional vessels:
+
+In the &amp;apos;&amp;apos;&amp;apos;United States Navy&amp;apos;&amp;apos;&amp;apos;:|
+* {{USS|Phoenix|1778}}, a [[packet ship]] purchased by the [[Continental Navy]] in 1778.
+* {{USS|Phoenix|1841}}, a 2-gun [[schooner]], built in 1841 and sold in 1853.
+* {{USS|Phoenix|1861}}, an American wooden whaler based in New London, Connecticut, sunk as a breakwater in 1861.
+* {{USS|Phoenix|CL-46}}, a &amp;apos;&amp;apos;Brooklyn&amp;apos;&amp;apos;-class light cruiser, transferred to Argentina in 1951, and sunk during the [[Falklands War]].
+* {{USNS|Phoenix|T-AG-172}} (previously USS &amp;apos;&amp;apos;Phoenix&amp;apos;&amp;apos; (AG-172), a &amp;apos;&amp;apos;Phoenix&amp;apos;&amp;apos;-class miscellaneous auxiliary, sold to the Philippines in 1973.
+* {{USS|Phoenix|SSN-702}}, a &amp;apos;&amp;apos;Los Angeles&amp;apos;&amp;apos;-class submarine, decommissioned and a stricken in 1998.
+
+In &amp;apos;&amp;apos;&amp;apos;fiction&amp;apos;&amp;apos;&amp;apos;:
+* USS &amp;apos;&amp;apos;Phoenix&amp;apos;&amp;apos; (NCC-65420), a &amp;apos;&amp;apos;Nebula&amp;apos;&amp;apos;-class starship that appears in [[The Wounded (Star Trek: The Next Generation)|the &amp;apos;&amp;apos;Star Trek: The Next Generation&amp;apos;&amp;apos; episode &amp;quot;The Wounded.&amp;quot;]]  This one is presumably named for [[Star Trek: First Contact|humanity&amp;apos;s first FTL-capable spacecraft]] rather than [[Phoenix, Arizona|the American city]] or [[Phoenix (mythology)|the mythological bird]].
+
+{{Shipindex}}
+
+{{DEFAULTSORT:Phoenix, USS}}
+[[Category:United States Navy ship names]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

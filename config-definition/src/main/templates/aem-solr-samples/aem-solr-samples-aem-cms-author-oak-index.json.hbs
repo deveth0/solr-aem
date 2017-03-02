@@ -1,0 +1,18 @@
+{{!--
+  Create oak index
+--}}
+{
+  "jcr:primaryType": "rep:root",
+
+  "oak:index": {
+    "jcr:primaryType": "nt:unstructured",
+
+    "sorlIndex": {
+      "jcr:primaryType": "oak:QueryIndexDefinition",
+      "async": "async",
+      "type":"solr",
+      "reindex": true
+    }
+
+  }
+}

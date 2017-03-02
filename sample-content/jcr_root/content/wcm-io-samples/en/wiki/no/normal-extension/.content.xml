@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Normal extension"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Normal extension" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[abstract algebra]], an [[algebraic extension|algebraic field extension]] &amp;apos;&amp;apos;L&amp;apos;&amp;apos;/&amp;apos;&amp;apos;K&amp;apos;&amp;apos; is said to be &amp;apos;&amp;apos;&amp;apos;normal&amp;apos;&amp;apos;&amp;apos; if &amp;apos;&amp;apos;L&amp;apos;&amp;apos; is the [[splitting field]] of a family of [[polynomial]]s in &amp;apos;&amp;apos;K&amp;apos;&amp;apos;[&amp;apos;&amp;apos;X&amp;apos;&amp;apos;]. [[Nicolas Bourbaki|Bourbaki]] calls such an extension a &amp;apos;&amp;apos;&amp;apos;quasi-[[Galois extension]]&amp;apos;&amp;apos;&amp;apos;.
+
+== Equivalent properties and examples ==
+
+The normality of &amp;apos;&amp;apos;L&amp;apos;&amp;apos;/&amp;apos;&amp;apos;K&amp;apos;&amp;apos; is equivalent to either of the following properties. Let &amp;apos;&amp;apos;K&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;&amp;apos;&amp;apos;a&amp;apos;&amp;apos;&amp;lt;/sup&amp;gt; be an [[algebraic closure]] of &amp;apos;&amp;apos;K&amp;apos;&amp;apos; containing &amp;apos;&amp;apos;L&amp;apos;&amp;apos;.
+
+* Every [[embedding]] σ of &amp;apos;&amp;apos;L&amp;apos;&amp;apos; in &amp;apos;&amp;apos;K&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;&amp;apos;&amp;apos;a&amp;apos;&amp;apos;&amp;lt;/sup&amp;gt; that restricts to the identity on &amp;apos;&amp;apos;K&amp;apos;&amp;apos;, satisfies σ(&amp;apos;&amp;apos;L&amp;apos;&amp;apos;)&amp;amp;nbsp;=&amp;amp;nbsp;&amp;apos;&amp;apos;L&amp;apos;&amp;apos;. In other words, σ is an [[automorphism]] of &amp;apos;&amp;apos;L&amp;apos;&amp;apos; over &amp;apos;&amp;apos;K&amp;apos;&amp;apos;.
+* Every [[irreducible polynomial]] in &amp;apos;&amp;apos;K&amp;apos;&amp;apos;[&amp;apos;&amp;apos;X&amp;apos;&amp;apos;] that has one root in &amp;apos;&amp;apos;L&amp;apos;&amp;apos;, has all of its roots in &amp;apos;&amp;apos;L&amp;apos;&amp;apos;, that is, it decomposes into linear factors in &amp;apos;&amp;apos;L&amp;apos;&amp;apos;[&amp;apos;&amp;apos;X&amp;apos;&amp;apos;]. (One says that the polynomial &amp;apos;&amp;apos;splits&amp;apos;&amp;apos; in &amp;apos;&amp;apos;L&amp;apos;&amp;apos;.)
+
+If &amp;apos;&amp;apos;L&amp;apos;&amp;apos; is a finite extension of &amp;apos;&amp;apos;K&amp;apos;&amp;apos; that is [[separable extension|separable]] (for example, this is automatically satisfied if &amp;apos;&amp;apos;K&amp;apos;&amp;apos; is finite or has characteristic zero) then the following property is also equivalent:
+
+* There exists an irreducible polynomial whose roots, together with the elements of &amp;apos;&amp;apos;K&amp;apos;&amp;apos;,  generate &amp;apos;&amp;apos;L&amp;apos;&amp;apos;. (One says that &amp;apos;&amp;apos;L&amp;apos;&amp;apos; is the [[splitting field]] for the polynomial.)
+
+For example, &amp;lt;math&amp;gt;\mathbb{Q}(\sqrt{2})&amp;lt;/math&amp;gt; is a normal extension of &amp;lt;math&amp;gt;\mathbb{Q}&amp;lt;/math&amp;gt;, since it is a splitting field of &amp;apos;&amp;apos;x&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;2&amp;lt;/sup&amp;gt;&amp;amp;nbsp;&amp;amp;minus;&amp;amp;nbsp;2. On the other hand, &amp;lt;math&amp;gt;\mathbb{Q}(\sqrt[3]{2})&amp;lt;/math&amp;gt; is not a normal extension of &amp;lt;math&amp;gt;\mathbb{Q}&amp;lt;/math&amp;gt; since the irreducible polynomial &amp;apos;&amp;apos;x&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;3&amp;lt;/sup&amp;gt;&amp;amp;nbsp;&amp;amp;minus;&amp;amp;nbsp;2 has one root in it (namely, &amp;lt;math&amp;gt;\sqrt[3]{2}&amp;lt;/math&amp;gt;), but not all of them (it does not have the non-real cubic roots of&amp;amp;nbsp;2).
+
+The fact that &amp;lt;math&amp;gt;\mathbb{Q}(\sqrt[3]{2})&amp;lt;/math&amp;gt; is not a normal extension of &amp;lt;math&amp;gt;\mathbb{Q}&amp;lt;/math&amp;gt; can also be seen using the first of the  three properties above. The field &amp;lt;math&amp;gt;\mathbb{A}&amp;lt;/math&amp;gt; of [[algebraic number]]s is an algebraic closure of &amp;lt;math&amp;gt;\mathbb{Q}&amp;lt;/math&amp;gt; containing &amp;lt;math&amp;gt;\mathbb{Q}(\sqrt[3]{2})&amp;lt;/math&amp;gt;. On the other hand
+:&amp;lt;math&amp;gt;\mathbb{Q}(\sqrt[3]{2})=\{a+b\sqrt[3]{2}+c\sqrt[3]{4}\in\mathbb{A}\,|\,a,b,c\in\mathbb{Q}\}&amp;lt;/math&amp;gt;
+and, if ω is one of the two non-real cubic roots of 2, then the map
+:&amp;lt;math&amp;gt;\begin{array}{rccc}\sigma:&amp;amp;\mathbb{Q}(\sqrt[3]{2})&amp;amp;\longrightarrow&amp;amp;\mathbb{A}\\&amp;amp;a+b\sqrt[3]{2}+c\sqrt[3]{4}&amp;amp;\mapsto&amp;amp;a+b\omega+c\omega^2\end{array}&amp;lt;/math&amp;gt;
+is an embedding of &amp;lt;math&amp;gt;\mathbb{Q}(\sqrt[3]{2})&amp;lt;/math&amp;gt; in &amp;lt;math&amp;gt;\mathbb{A}&amp;lt;/math&amp;gt; whose restriction to &amp;lt;math&amp;gt;\mathbb{Q}&amp;lt;/math&amp;gt; is the identity. However, σ is not an automorphism of &amp;lt;math&amp;gt;\mathbb{Q}(\sqrt[3]{2})&amp;lt;/math&amp;gt;.
+
+For any prime &amp;apos;&amp;apos;p&amp;apos;&amp;apos;, the extension &amp;lt;math&amp;gt;\mathbb{Q}(\sqrt[p]{2}, \zeta_p)&amp;lt;/math&amp;gt; is normal of degree &amp;apos;&amp;apos;p&amp;apos;&amp;apos;(&amp;apos;&amp;apos;p&amp;apos;&amp;apos;&amp;amp;nbsp;−&amp;amp;nbsp;1). It is a splitting field of &amp;apos;&amp;apos;x&amp;lt;sup&amp;gt;p&amp;lt;/sup&amp;gt;&amp;apos;&amp;apos;&amp;amp;nbsp;−&amp;amp;nbsp;2. Here &amp;lt;math&amp;gt;\zeta_p&amp;lt;/math&amp;gt; denotes any &amp;apos;&amp;apos;p&amp;apos;&amp;apos;th [[primitive root of unity]]. The field &amp;lt;math&amp;gt;\mathbb{Q}(\sqrt[3]{2}, \zeta_3)&amp;lt;/math&amp;gt; is the normal closure (see below) of &amp;lt;math&amp;gt;\mathbb{Q}(\sqrt[3]{2})&amp;lt;/math&amp;gt;.
+
+== Other properties ==
+
+Let &amp;apos;&amp;apos;L&amp;apos;&amp;apos; be an extension of a field &amp;apos;&amp;apos;K&amp;apos;&amp;apos;. Then:
+
+* If &amp;apos;&amp;apos;L&amp;apos;&amp;apos; is a normal extension of &amp;apos;&amp;apos;K&amp;apos;&amp;apos; and if &amp;apos;&amp;apos;E&amp;apos;&amp;apos; is an intermediate extension (i.e., &amp;apos;&amp;apos;L&amp;apos;&amp;apos;&amp;amp;nbsp;⊃&amp;amp;nbsp;&amp;apos;&amp;apos;E&amp;apos;&amp;apos;&amp;amp;nbsp;⊃&amp;amp;nbsp;&amp;apos;&amp;apos;K&amp;apos;&amp;apos;), then &amp;apos;&amp;apos;L&amp;apos;&amp;apos; is a normal extension of &amp;apos;&amp;apos;E&amp;apos;&amp;apos;.
+
+* If &amp;apos;&amp;apos;E&amp;apos;&amp;apos; and &amp;apos;&amp;apos;F&amp;apos;&amp;apos; are normal extensions of &amp;apos;&amp;apos;K&amp;apos;&amp;apos; contained in &amp;apos;&amp;apos;L&amp;apos;&amp;apos;, then the [[compositum]] &amp;apos;&amp;apos;EF&amp;apos;&amp;apos; and &amp;apos;&amp;apos;E&amp;apos;&amp;apos;&amp;amp;nbsp;∩&amp;amp;nbsp;&amp;apos;&amp;apos;F&amp;apos;&amp;apos; are also normal extensions of &amp;apos;&amp;apos;K&amp;apos;&amp;apos;.
+
+==Normal closure==
+If &amp;apos;&amp;apos;K&amp;apos;&amp;apos; is a field and &amp;apos;&amp;apos;L&amp;apos;&amp;apos; is an algebraic extension of &amp;apos;&amp;apos;K&amp;apos;&amp;apos;, then there is some algebraic extension &amp;apos;&amp;apos;M&amp;apos;&amp;apos; of &amp;apos;&amp;apos;L&amp;apos;&amp;apos; such that &amp;apos;&amp;apos;M&amp;apos;&amp;apos; is a normal extension of &amp;apos;&amp;apos;K&amp;apos;&amp;apos;. Furthermore, [[up to isomorphism]] there is only one such extension which is minimal, i.e. such that the only subfield of &amp;apos;&amp;apos;M&amp;apos;&amp;apos; which contains &amp;apos;&amp;apos;L&amp;apos;&amp;apos; and which is a normal extension of &amp;apos;&amp;apos;K&amp;apos;&amp;apos; is &amp;apos;&amp;apos;M&amp;apos;&amp;apos; itself. This extension is called the &amp;apos;&amp;apos;&amp;apos;normal closure&amp;apos;&amp;apos;&amp;apos; of the extension &amp;apos;&amp;apos;L&amp;apos;&amp;apos; of &amp;apos;&amp;apos;K&amp;apos;&amp;apos;.
+
+If &amp;apos;&amp;apos;L&amp;apos;&amp;apos; is a finite extension of &amp;apos;&amp;apos;K&amp;apos;&amp;apos;, then its normal closure is also a finite extension.
+
+== See also ==
+
+*[[Galois extension]]
+*[[Normal basis]]
+
+== References ==
+
+* {{Lang Algebra}}
+* {{citation | last = Jacobson | first = Nathan | author-link = Nathan Jacobson | title = Basic Algebra II| edition = 2nd | year = 1989 | publisher = W.&amp;amp;nbsp;H. Freeman | isbn = 0-7167-1933-9}}
+
+[[Category:Field extensions]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Xingu"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Xingu" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Xingu&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* [[Xingu River]], in north Brazil, a southeast tributary of the Amazon
+* [[Xingu peoples]], indigenous peoples living near the Xingu River
+* [[Roman Catholic Territorial Prelature of Xingu]], located in the area of the Xingu River
+* [[Xingu National Park]], located in the state of Mato Grosso, Brazil
+* Xingu, a character in James Thurber&amp;apos;s children&amp;apos;s book &amp;apos;&amp;apos;[[The 13 Clocks]]&amp;apos;&amp;apos;
+* &amp;apos;&amp;apos;[[Xingu and Other Stories]]&amp;apos;&amp;apos;, a short story collection by [[Edith Wharton]]
+* [[Xingu (beer)]], a Brazilian Schwarzbier produced by the FEMSA beverage company
+* [[Embraer EMB 121 Xingu]], a type of aircraft produced by the Brazilian manufacturer Embraer
+* [[Xingu Hill]], a project of musician John Sellekaers
+* [[Xingu corydoras]], a tropical freshwater fish
+* [[Xingu (film)]], a 2012 film by director [[Cao Hamburger]]
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

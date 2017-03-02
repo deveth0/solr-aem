@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Shiroka Polyana"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Shiroka Polyana" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=July 2009}}[[Image:Dam-Shiroka-Poliana.jpg|250px|thumb|Shiroka Polyana dam lake.]]
+&amp;apos;&amp;apos;&amp;apos;Shiroka Polyana&amp;apos;&amp;apos;&amp;apos; ({{lang-bg|Широка поляна}}) is a [[reservoir]] lake situated in the Western [[Rhodopes]] mountains in [[Bulgaria]].
+
+The lake is situated 30&amp;amp;nbsp;km south of [[Batak, Bulgaria|Batak]], on the road to [[Dospat]]. It is located 1500 meters above sea level amidst a forest of old pine trees. Different legends are told about the lake.
+The shape of Shiroka Poliana reservoir is unique. Viewed from the ring-road it seems that the lake is composed of numerous small lakes with separate walls. This illusion is due to the indented relief of the lake bed that consists of several mountain gullies.
+
+Although the banks of the lake are far from the road and comparatively hard to access, it attracts many visitors and sports fishermen because of the abundance of fish, including grey [[Mullet (fish)|mullet]], [[European perch]], and [[trout]].
+
+{{coord|41|45|49|N|24|10|35|E|type:waterbody_region:BG|display=title}}
+
+[[Category:Reservoirs and dams in Bulgaria]]
+[[Category:Geography of Pazardzhik Province]]
+[[Category:Rhodope Mountains]]
+[[Category:Visitor attractions in Pazardzhik Province]]
+
+
+{{bulgaria-struct-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

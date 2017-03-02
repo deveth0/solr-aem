@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="USS Conquest (1812)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="USS Conquest (1812)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{otherships|USS Conquest}}
+{|{{Infobox Ship Begin}}
+{{Infobox Ship Image
+|Ship image=
+|Ship caption=
+}}
+{{Infobox Ship Career
+|Hide header=
+|Ship country=
+|Ship flag= {{USN flag|1815}}
+|Ship name= USS &amp;apos;&amp;apos;Conquest&amp;apos;&amp;apos;
+|Ship ordered=
+|Ship builder=
+|Ship laid down=
+|Ship launched=
+|Ship acquired=by purchase, 8 October 1812
+|Ship commissioned=
+|Ship decommissioned=
+|Ship in service=
+|Ship out of service=
+|Ship struck=
+|Ship homeport=
+|Ship motto=
+|Ship honours=
+|Ship fate= Sold, May 1815
+|Ship status=
+|Ship notes=
+}}
+{{Infobox Ship Characteristics
+|Hide header=
+|Header caption=
+|Ship type= [[Schooner]]
+|Ship displacement= {{convert|82|LT|t|0|lk=in|abbr=on}}
+|Ship length=
+|Ship beam=
+|Ship draft=
+|Ship propulsion= Sail
+|Ship sail plan=
+|Ship speed=
+|Ship range=
+|Ship complement=
+|Ship armament=3 × guns
+|Ship notes=
+}}
+|}
+The first &amp;apos;&amp;apos;&amp;apos;USS &amp;apos;&amp;apos;Conquest&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; was a [[schooner]] in the [[United States Navy]] during the [[War of 1812]].
+
+&amp;apos;&amp;apos;Conquest&amp;apos;&amp;apos;, formerly the merchant ship &amp;apos;&amp;apos;Genesee Packet&amp;apos;&amp;apos;, was purchased 8 October 1812 at [[Oswego, New York]], for service on [[Lake Ontario]] under Commodore [[Isaac Chauncey]].
+
+Commanded by Lieutenant [[J. D. Elliott]], &amp;apos;&amp;apos;Conquest&amp;apos;&amp;apos; cruised constantly on Lake Ontario during the [[War of 1812]], taking part in the attacks on [[Kingston, Ontario|Kingston]] on 9 December 1812; York (now [[Toronto]]) on 27 April 1813; and [[Fort George, Ontario|Fort George]] on 27 May 1813. She joined in the engagements with the British squadron of 7 to 11 August, 11 and 28 September 1813.
+
+She was laid up at [[Sacketts Harbor, New York]], at the end of the war and sold there in May 1815.
+
+==References==
+{{DANFS}}
+
+{{DEFAULTSORT:Conquest (1812)}}
+[[Category:Schooners of the United States Navy]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

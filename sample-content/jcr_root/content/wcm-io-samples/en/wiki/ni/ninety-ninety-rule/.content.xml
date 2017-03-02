@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ninety-ninety rule"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ninety-ninety rule" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[computer programming]] and [[software engineering]], the &amp;apos;&amp;apos;&amp;apos;ninety-ninety rule&amp;apos;&amp;apos;&amp;apos; is a humorous [[aphorism]] that states:
+
+{{quote |text=&amp;lt;!-- PLEASE DON&amp;apos;T CHANGE THIS QUOTE WITHOUT CHECKING THE ORIGINAL SOURCE! THE %&amp;apos;S ARE NOT SUPPOSED TO TOTAL 100%! --&amp;gt;&amp;quot;The first 90 percent of the code accounts for the first 90 percent of the development time. The remaining 10 percent of the code accounts for the other 90&amp;lt;!-- YES THIS TOTALS 180%! THIS IS NOT AN ERROR! --&amp;gt; percent of the development time.&amp;quot;&amp;lt;ref name=&amp;quot;Bentley1985&amp;quot;/&amp;gt; |sign=Tom Cargill |source=[[Bell Labs]]}}
+
+That the total development time sums to 180% is a wry allusion to the notorious tendency of software development projects to significantly overrun their original schedules. It expresses both the rough allocation of time to easy and hard portions of a programming project and the cause of the lateness of many projects (that is, failure to anticipate the hard parts). In other words, it takes both more time and more coding than expected to make a project work.
+
+The rule is attributed to Tom Cargill of [[Bell Labs]] and was made popular by [[Jon Bentley|Jon Bentley&amp;apos;s]] September 1985 &amp;quot;Programming Pearls&amp;quot; column in &amp;apos;&amp;apos;[[Communications of the ACM]]&amp;apos;&amp;apos;, in which it was titled the &amp;quot;Rule of Credibility&amp;quot;.&amp;lt;ref name=&amp;quot;Bentley1985&amp;quot;&amp;gt;{{cite journal|last=Bentley|first=Jon|year=1985|title=Programmimg pearls|journal=Communications of the ACM|volume=28|issue=9|pages=896–901|issn=00010782|doi=10.1145/4284.315122|format=fee required}}&amp;lt;/ref&amp;gt;
+
+==See also==
+* [[Pareto principle]]
+
+==References==
+&amp;lt;references/&amp;gt;
+
+{{DEFAULTSORT:Ninety-Ninety Rule}}
+[[Category:Adages]]
+[[Category:Computer humor]]
+[[Category:Software project management]]
+[[Category:Programming rules of thumb]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

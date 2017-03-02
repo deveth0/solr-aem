@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Reform Act"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Reform Act" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{unreferenced|date=May 2009}}
+In the [[United Kingdom]], &amp;apos;&amp;apos;&amp;apos;Reform Act&amp;apos;&amp;apos;&amp;apos; is a generic term used for legislation concerning electoral matters. It is most commonly used for laws passed to enfranchise new groups of voters and to redistribute seats in the [[British House of Commons]]. The periodic redrawing of constituency boundaries is now dealt with by a permanent [[Boundary Commissions (United Kingdom)|Boundary Commission]] in each part of the United Kingdom, rather than by a &amp;apos;&amp;apos;&amp;apos;Reform Act&amp;apos;&amp;apos;&amp;apos;.
+
+Some people in Britain, mostly associated with the [[Liberal Democrats]], have called for a new &amp;quot;Great Reform Act&amp;quot; to introduce electoral changes they favour. These would include lowering the minimum voting age to 16 and introducing [[proportional representation]].
+
+&amp;apos;&amp;apos;&amp;apos;Reform Act&amp;apos;&amp;apos;&amp;apos; may refer to:
+*  [[Reform Act 1832]] (England and Wales), which gave representation to previously underrepresented urban areas and extended the qualifications for voting
+* [[Scottish Reform Act 1832]], a similar reform applying to Scotland
+* [[Irish Reform Act 1832]], a similar reform applying to Ireland
+* [[Reform Act 1867]], which widened the franchise and adjusted representation to be more equitable
+* [[Ballot Act 1872]] (sometimes called the &amp;quot;Reform Act of 1872&amp;quot;), which introduced the secret ballot
+[[Image:VotingbyGender.PNG|right|300px]]
+*  [[Corrupt and Illegal Practices Prevention Act 1883]] (sometimes called the &amp;quot;Reform Act of 1883&amp;quot;), which introduced campaign spending limits
+*[[Reform Act 1884]], which allowed people in counties to vote on the same basis as those in towns.  Home ownership was the only qualification
+*  [[Reform Act 1885]], which split most multi-member constituencies into multiple single-member ones
+*  [[Representation of the People Act 1918|Reform Act 1918]], which abolished property qualifications for men and introduced limited female suffrage
+*  [[Reform Act 1928]], which widened suffrage by giving women electoral equality with men
+
+
+[[Category:British laws]]
+[[Category:History of the United Kingdom]]
+[[Category:Politics of the United Kingdom]]
+[[Category:Constitution of the United Kingdom]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

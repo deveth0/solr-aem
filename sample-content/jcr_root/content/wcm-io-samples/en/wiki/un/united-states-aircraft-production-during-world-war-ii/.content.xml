@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="United States aircraft production during World War II"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="United States aircraft production during World War II" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{see also|Air warfare of World War II}}
+[[Image:Assembling B-25 bombers at North American Aviation, Kansas City, Kansas.jpg|thumb|right|Assembling [[North American B-25 Mitchell|B-25]] bombers at [[North American Aviation]], Kansas City, October 1942.]]
+==Total Production==
+
+
+{| class=&amp;quot;wikitable&amp;quot;
+! !! !! !! !! !! !! !!
+|-style=&amp;quot;background: khaki&amp;quot;
+| &amp;apos;&amp;apos;&amp;apos;Type of aircraft &amp;apos;&amp;apos;&amp;apos;||align=center|&amp;apos;&amp;apos;&amp;apos;Total&amp;apos;&amp;apos;&amp;apos;||align=center|&amp;apos;&amp;apos;&amp;apos;1940¹&amp;apos;&amp;apos;&amp;apos; ||align=center|&amp;apos;&amp;apos;&amp;apos;1941&amp;apos;&amp;apos;&amp;apos; ||align=center|&amp;apos;&amp;apos;&amp;apos;1942&amp;apos;&amp;apos;&amp;apos; ||align=center|&amp;apos;&amp;apos;&amp;apos;1943&amp;apos;&amp;apos;&amp;apos; ||align=center|&amp;apos;&amp;apos;&amp;apos;1944&amp;apos;&amp;apos;&amp;apos; ||align=center|&amp;apos;&amp;apos;&amp;apos;1945²&amp;apos;&amp;apos;&amp;apos;
+|-
+| &amp;apos;&amp;apos;&amp;apos;Grand total&amp;apos;&amp;apos;&amp;apos; || align=center|&amp;apos;&amp;apos;&amp;apos;295,959&amp;apos;&amp;apos;&amp;apos; ||align=center|3,611 || align=center|18,466 ||align=center|46,907 ||align=center|84,853||align=center|96,270||align=center|45,852
+|-style=&amp;quot;background: #eeeeee;&amp;quot;
+| &amp;apos;&amp;apos;&amp;apos;Combat aircraft&amp;apos;&amp;apos;&amp;apos;|| &amp;apos;&amp;apos;&amp;apos;200,443&amp;apos;&amp;apos;&amp;apos;||align=center|1,771||align=center|8,395||24,669||53,183||74,564||37,861
+|-
+|Very heavy bomber||align=center|&amp;apos;&amp;apos;3,740&amp;apos;&amp;apos;||align=center|-||align=center|-||align=center|4||align=center44|91||align=center|1,147||align=center|2,498
+|-
+|Heavy bomber||&amp;apos;&amp;apos;31,685&amp;apos;&amp;apos;||align=center|46||align=center|282||align=center|2,513||align=center|9,574||15,057||align=center|4,213
+|-
+|Medium bomber||&amp;apos;&amp;apos;21,461&amp;apos;&amp;apos;||align=center|52||align=center|762||align=center|4,040||align=center|7,256||align=center|6,732||align=center|2,619
+|-
+|Light bomber||&amp;apos;&amp;apos;39,986&amp;apos;&amp;apos;||align=center|453||align=center|2,617||align=center|5,954||11,848||12,376||align=center|6,738
+|-
+|Fighter||&amp;apos;&amp;apos;99,465&amp;apos;&amp;apos;||align=center|1,157||align=center|4,036||10,721||23,621||38,848||21,082
+|-
+|Reconnaissance||align=center|&amp;apos;&amp;apos;4,106&amp;apos;&amp;apos;||align=center|63||align=center|698||align=center|1,437||align=center|793||align=center|404||align=center|711
+|-style=&amp;quot;background: #eeeeee;&amp;quot;
+|&amp;apos;&amp;apos;&amp;apos;Support aircraft&amp;apos;&amp;apos;&amp;apos;||align=center|&amp;apos;&amp;apos;&amp;apos;95,516&amp;apos;&amp;apos;&amp;apos;||align=center|1,840||10,071||22,238||31,670||21,706||align=center|7,991
+|-
+|Transport||&amp;apos;&amp;apos;23,900&amp;apos;&amp;apos;||align=center|164||align=center|525||align=center|1,887||align=center|6,913||align=center|9,925||align=center|4,486
+|-
+|Trainer||&amp;apos;&amp;apos;58,085&amp;apos;&amp;apos;||align=center|1,676||align=center|9,294||17,237||20,950||align=center|7,936||align=center|1,352
+|-
+|Communication||&amp;apos;&amp;apos;13,531&amp;apos;&amp;apos;||align=center|-||align=center|252||align=center|3,114||align=center|4,167||align=center|3,845||align=center|2,153
+|}
+¹&amp;lt;small&amp;gt;July-December&amp;lt;/small&amp;gt;
+²&amp;lt;small&amp;gt;January-August&amp;lt;/small&amp;gt;
+
+==Recipients of U.S. aircraft production==
+{| class=&amp;quot;wikitable&amp;quot;
+! !! !! !! !! !! !! !!
+|-style=&amp;quot;background: khaki&amp;quot;
+| &amp;apos;&amp;apos;&amp;apos;Type of airplane &amp;apos;&amp;apos;&amp;apos;||align=center|&amp;apos;&amp;apos;&amp;apos;Total&amp;apos;&amp;apos;&amp;apos;||align=center|&amp;apos;&amp;apos;&amp;apos;[[U.S. Army Air Forces|US Army Air Forces]]&amp;apos;&amp;apos;&amp;apos; ||align=center|&amp;apos;&amp;apos;&amp;apos;[[U.S. Navy|US Navy]]-[[U.S. Marine Corps|Marines]]&amp;apos;&amp;apos;&amp;apos; ||align=center|&amp;apos;&amp;apos;&amp;apos;Other U.S.&amp;apos;&amp;apos;&amp;apos; ||align=center|&amp;apos;&amp;apos;&amp;apos;[[British Empire]]&amp;apos;&amp;apos;&amp;apos; ||align=center|&amp;apos;&amp;apos;&amp;apos;[[Soviet Union]]&amp;apos;&amp;apos;&amp;apos; ||align=center|&amp;apos;&amp;apos;&amp;apos;Other nations&amp;apos;&amp;apos;&amp;apos;
+|-
+| &amp;apos;&amp;apos;&amp;apos;Grand total&amp;apos;&amp;apos;&amp;apos; || align=center|&amp;apos;&amp;apos;&amp;apos;295,959&amp;apos;&amp;apos;&amp;apos; ||align=center|158,880|| align=center|73,711||align=center|3,714||align=center|38,811||align=center|14,717||align=center|6,126
+|-style=&amp;quot;background: #eeeeee;&amp;quot;
+| &amp;apos;&amp;apos;&amp;apos;Combat aircraft&amp;apos;&amp;apos;&amp;apos;|| &amp;apos;&amp;apos;&amp;apos;200,443&amp;apos;&amp;apos;&amp;apos;||align=center|99,487||align=center|56,695||align=center|8||align=center|27,152||align=center|13,929||align=center|3,172
+|-
+|Very heavy bombers||align=center|&amp;apos;&amp;apos;3,740&amp;apos;&amp;apos;||align=center|3,740||align=center|-||align=center|-||align=center|-||align=center|-||align=center|-
+|-
+|Heavy bombers||&amp;apos;&amp;apos;31,685&amp;apos;&amp;apos;||align=center|27,867||align=center|1,683||align=center|-||align=center|2,135||align=center|-||align=center|-
+|-
+|Medium bombers||&amp;apos;&amp;apos;21,461&amp;apos;&amp;apos;||align=center|11,835||align=center|4,693||align=center|8||align=center|3,247||align=center|1,010||align=center|638
+|-
+|Light bombers||&amp;apos;&amp;apos;39,986&amp;apos;&amp;apos;||align=center|7,779||align=center|20,703||align=center|-||align=center|8,003||align=center|3,021||align=center|480
+|-
+|Fighters||&amp;apos;&amp;apos;99,465&amp;apos;&amp;apos;||align=center|47,050||align=center|27,163||align=center|-||align=center|13,417||align=center|9,868||align=center|1,967
+|-
+|Reconnaissance||align=center|&amp;apos;&amp;apos;4,106&amp;apos;&amp;apos;||align=center|1,216||align=center|2,453||align=center|-||align=center|350||align=center|30||align=center|57
+|-style=&amp;quot;background: #eeeeee;&amp;quot;
+|&amp;apos;&amp;apos;&amp;apos;Support aircraft&amp;apos;&amp;apos;&amp;apos;||align=center|&amp;apos;&amp;apos;&amp;apos;95,516&amp;apos;&amp;apos;&amp;apos;||align=center|59,939||align=center|17,016||align=center|3,706||align=center|11,659||align=center|788||align=center|2,954
+|-
+|Transports||&amp;apos;&amp;apos;23,900&amp;apos;&amp;apos;||align=center|15,769||align=center|2,702||align=center|267||align=center|3,789||align=center|703||align=center|670
+|-
+|Trainers||&amp;apos;&amp;apos;58,085&amp;apos;&amp;apos;||align=center|34,469||align=center|13,859||align=center|3||align=center|7,640||align=center|85||align=center|2,029
+|-
+|Communications||&amp;apos;&amp;apos;13,531&amp;apos;&amp;apos;||align=center|9,155||align=center|455||align=center|3,436||align=center|230||align=center|-||align=center|255
+|}
+
+==Source==
+ [http://www.usaaf.net/digest/index.htm AAF Digest Table 79]
+
+[[Category:World War II aircraft of the United States|Production]]
+{{USWWII}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Royal Botanic Gardens"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Royal Botanic Gardens" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Royal Botanic Gardens&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;Royal Botanical Gardens&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+{{tocright}}
+== Australia ==
+* [[Royal Botanic Gardens, Cranbourne]]
+* [[Royal Botanic Gardens, Melbourne]]
+* [[Royal Botanic Gardens, Sydney]]
+* [[Royal Tasmanian Botanical Gardens]], Hobart
+
+==Canada==
+* [[Royal Botanical Gardens (Ontario)]], Burlington and Hamilton, Ontario
+
+==India==
+* Royal Botanic Gardens, now the [[Acharya Jagadish Chandra Bose Indian Botanic Garden]], Calcutta
+
+==Spain==
+* [[Royal Botanical Garden of Madrid]]
+
+==Sri Lanka==
+* [[Royal Botanical Gardens, Sri Lanka]], Peradeniya
+
+==Trinidad and Tobago==
+* [[Royal Botanic Gardens, Trinidad]], Port of Spain
+
+== United Kingdom ==
+* [[Royal Belfast Botanical Gardens]], Northern Ireland
+* [[Royal Botanic Garden Edinburgh]], Scotland
+* [[Royal Botanic Gardens, Kew]], England
+
+== See also ==
+* [[Royal Gardens (disambiguation)]]
+
+{{disambiguation|geo}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

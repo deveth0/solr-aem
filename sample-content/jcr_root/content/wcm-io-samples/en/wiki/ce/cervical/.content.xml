@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Cervical"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Cervical" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Wiktionarypar|cervical}}
+In anatomy, &amp;apos;&amp;apos;&amp;apos;cervical&amp;apos;&amp;apos;&amp;apos; is an adjective that has two meanings:
+# of or pertaining to any [[neck]].
+# of or pertaining to the female [[cervix]]: i.e., the &amp;apos;&amp;apos;neck&amp;apos;&amp;apos; of the uterus.
+
+*Commonly used medical phrases involving the &amp;apos;&amp;apos;&amp;apos;neck&amp;apos;&amp;apos;&amp;apos; are
+**[[cervical collar]]
+**cervical disc ([[intervertebral disc]])
+**[[cervical lymph nodes]]
+**[[cervical nerves]]
+**[[cervical vertebrae]]
+**[[cervical rib]]
+
+*Phrases that involve the &amp;apos;&amp;apos;&amp;apos;uterine cervix&amp;apos;&amp;apos;&amp;apos; include
+**[[cervical cancer]]
+**cervical smear or [[Pap smear]]
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Quebec Route 147"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Quebec Route 147" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox road
+|province=QC
+|type=QC
+|route=147
+|maint=[[Transports Québec]]
+|map=Route 147-QC.png
+|established=
+|decommissioned=
+| length_km   = 41.5
+|length_round = 1
+|length_ref=&amp;lt;ref&amp;gt;Ministère des transports, &amp;quot;Distances routières&amp;quot;, page 70, Les Publications du Québec, 2005&amp;lt;/ref&amp;gt;
+|direction_a=South
+|direction_b=North
+|terminus_a= {{jct|state=VT|VT|147}} at [[Norton, Vermont]]
+|terminus_b= {{jct|state=QC|QC|108|QC|143}} in [[Waterville, Quebec|Waterville]]
+|previous_type=QC
+|previous_route=143
+|next_type=QC
+|next_route=148
+|counties=[[Coaticook Regional County Municipality, Quebec|Coaticook]]
+|junction= {{jct|state=QC|QC|141|QC|206}} in Coaticook &amp;lt;br&amp;gt; {{jct|state=QC|QC|208}} in Compton
+}}
+&amp;apos;&amp;apos;&amp;apos;Route 147&amp;apos;&amp;apos;&amp;apos; is a two-lane north/south highway on the south shore of the [[Saint Lawrence River]] in Quebec, Canada. Its northern terminus is in Waterville at the junction of [[Quebec Route 143|Route 143]], and the southern terminus is at the border with Norton, Vermont, where the road continues past the [[Norton-Stanhope Border Crossing]] as [[Vermont Route 147]].
+
+==Municipalities along Route 147==
+* &amp;apos;&amp;apos;[[Stanhope, Quebec|Stanhope]]&amp;apos;&amp;apos; ([[Coaticook, Quebec|Coaticook]])
+* [[Dixville, Quebec|Dixville]]
+* [[Coaticook, Quebec|Coaticook]]
+* [[Compton, Quebec|Compton]]
+* [[Waterville, Quebec|Waterville]]
+
+==Major intersections==
+{| class=wikitable
+![[List of regional county municipalities and equivalent territories in Quebec|RCM]] or [[List of regional county municipalities and equivalent territories in Quebec|ET]]
+!Municipality
+!Km
+!Road
+!Notes
+|-
+|colspan=&amp;quot;5&amp;quot;|{{center|&amp;apos;&amp;apos;&amp;apos;Southern terminus of Route 147&amp;apos;&amp;apos;&amp;apos;}}
+|-
+|rowspan=&amp;quot;7&amp;quot;|[[Coaticook Regional County Municipality, Quebec|Coaticook]]
+|&amp;apos;&amp;apos;Stanhope&amp;apos;&amp;apos;
+|0.0
+|{{jct|state=VT|VT|147}}
+|&amp;lt;small&amp;gt;&amp;apos;&amp;apos;&amp;apos;147 SOUTH:&amp;apos;&amp;apos;&amp;apos;&amp;lt;/small&amp;gt; to [[Norton, Vermont]]
+|-
+|rowspan=&amp;quot;3&amp;quot;|Coaticook
+|{{Jctint/type|concur}}|12.7
+|{{Jctint/type|concur}}|{{jct|state=QC|QC|141}} &amp;lt;small&amp;gt;&amp;apos;&amp;apos;&amp;apos;(Overlap 2.4&amp;amp;nbsp;km)&amp;apos;&amp;apos;&amp;apos;&amp;lt;/small&amp;gt;
+|{{Jctint/type|concur}}|&amp;lt;small&amp;gt;&amp;apos;&amp;apos;&amp;apos;141 SOUTH:&amp;apos;&amp;apos;&amp;apos;&amp;lt;/small&amp;gt; to [[Dixville, Quebec|Dixville]]
+|-
+|14.6
+|{{jct|state=QC|QC|206}} &amp;lt;small&amp;gt;&amp;apos;&amp;apos;&amp;apos;(West end)&amp;apos;&amp;apos;&amp;apos;&amp;lt;/small&amp;gt;
+|&amp;lt;small&amp;gt;&amp;apos;&amp;apos;&amp;apos;206 EAST:&amp;apos;&amp;apos;&amp;apos;&amp;lt;/small&amp;gt; to [[Sainte-Edwidge-de-Clifton, Quebec|Sainte-Edwidge-de-Clifton]]
+|-
+|{{Jctint/type|concur}}|15.1
+|{{Jctint/type|concur}}|{{jct|state=QC|QC|141}} &amp;lt;small&amp;gt;&amp;apos;&amp;apos;&amp;apos;(Overlap 2.4&amp;amp;nbsp;km)&amp;apos;&amp;apos;&amp;apos;&amp;lt;/small&amp;gt;
+|{{Jctint/type|concur}}|&amp;lt;small&amp;gt;&amp;apos;&amp;apos;&amp;apos;141 NORTH:&amp;apos;&amp;apos;&amp;apos;&amp;lt;/small&amp;gt; to [[Barnston-Ouest, Quebec|Barnston-Ouest]]
+|-
+|Compton
+|{{Jctint/type|concur}}|27.9 &amp;lt;br&amp;gt; 28.2
+|{{Jctint/type|concur}}|{{jct|state=QC|QC|208}} &amp;lt;small&amp;gt;&amp;apos;&amp;apos;&amp;apos;(Overlap 0.3&amp;amp;nbsp;km)&amp;apos;&amp;apos;&amp;apos;&amp;lt;/small&amp;gt;
+|{{Jctint/type|concur}}|&amp;lt;small&amp;gt;&amp;apos;&amp;apos;&amp;apos;208 EAST:&amp;apos;&amp;apos;&amp;apos;&amp;lt;/small&amp;gt; to [[Martinville, Quebec|Martinville]] &amp;lt;br&amp;gt; &amp;lt;small&amp;gt;&amp;apos;&amp;apos;&amp;apos;208 WEST:&amp;apos;&amp;apos;&amp;apos;&amp;lt;/small&amp;gt; to [[Hatley, Quebec|Hatley]]
+|-
+|rowspan=&amp;quot;2&amp;quot;|Waterville
+|rowspan=&amp;quot;2&amp;quot;|41.5
+|{{jct|state=QC|QC|108}}
+|&amp;lt;small&amp;gt;&amp;apos;&amp;apos;&amp;apos;108 WEST:&amp;apos;&amp;apos;&amp;apos;&amp;lt;/small&amp;gt; to [[North Hatley, Quebec|North Hatley]] &amp;lt;br&amp;gt; &amp;lt;small&amp;gt;&amp;apos;&amp;apos;&amp;apos;108 EAST:&amp;apos;&amp;apos;&amp;apos;&amp;lt;/small&amp;gt; to &amp;apos;&amp;apos;[[Lennoxville, Quebec|Lennoxville]]&amp;apos;&amp;apos; ([[Sherbrooke]])
+|-
+|{{jct|state=QC|QC|143}}
+| &amp;lt;small&amp;gt;&amp;apos;&amp;apos;&amp;apos;143 SOUTH:&amp;apos;&amp;apos;&amp;apos;&amp;lt;/small&amp;gt; to [[Hatley, Quebec (township)|Hatley Township]] &amp;lt;br&amp;gt; &amp;lt;small&amp;gt;&amp;apos;&amp;apos;&amp;apos;143 NORTH:&amp;apos;&amp;apos;&amp;apos;&amp;lt;/small&amp;gt; to &amp;apos;&amp;apos;[[Lennoxville, Quebec|Lennoxville]]&amp;apos;&amp;apos; ([[Sherbrooke]])
+|-
+|colspan=&amp;quot;5&amp;quot;|{{center|&amp;apos;&amp;apos;&amp;apos;Northern terminus of Route 147&amp;apos;&amp;apos;&amp;apos;}}
+|}
+
+==See also==
+* [[List of Quebec provincial highways]]
+
+==References==
+{{reflist}}
+
+== External links ==
+* [http://www.quebec511.gouv.qc.ca/fr/index.asp Interactive Provincial Route Map (Transports Québec)] {{fr icon}}
+{{Quebec Routes (100-199)}}
+* [http://maps.google.com/maps?f=d&amp;amp;saddr=RTE-147+%4045.011094,+-71.793091&amp;amp;daddr=45.342976,-71.864319&amp;amp;hl=en&amp;amp;geocode=483789702654258292,45.011094,-71.793091&amp;amp;mra=dme&amp;amp;mrcr=0&amp;amp;mrsp=1&amp;amp;sz=12&amp;amp;dirflg=h&amp;amp;sll=45.323668,-71.83445&amp;amp;sspn=0.11104,0.30899&amp;amp;ie=UTF8&amp;amp;ll=45.188812,-71.920624&amp;amp;spn=0.445215,1.235962&amp;amp;z=10 Route 147] on Google Maps
+
+[[Category:Quebec Routes|147]]
+
+
+{{Quebec-road-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

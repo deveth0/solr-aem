@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Sieg"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Sieg" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{other uses}}
+{{Infobox River | river_name = Sieg
+  | image_name = Kanufahrt auf der Sieg.jpg
+  | caption = The Sieg near [[Windeck]]
+  | origin = [[Siegerland]]
+  | mouth = [[Rhine]]&amp;lt;br&amp;gt;{{coord|50|46|7|N|7|4|32|E|display=inline,title}}
+  | basin_countries = [[Germany]]
+  | length = 153 km
+  | elevation = 603 m
+  | discharge = 52 m³/s
+  | watershed = 2,832 km²
+}}
+{{Unreferenced|date=December 2008}}The &amp;apos;&amp;apos;&amp;apos;Sieg&amp;apos;&amp;apos;&amp;apos; is a [[river]] in [[North Rhine-Westphalia]] and [[Rhineland-Palatinate]], [[Germany]] named after the [[Sigambrer]]. It is a [[right tributary]] of the [[Rhine]] and 153 kilometres in length.
+
+The source is located in the [[Rothaargebirge]] mountains. From here the river runs southwestwards to the city of [[Siegen]] and the hills of [[Siegerland]], both named after the river. Further west the Sieg valley forms the boundary of the [[Bergisches Land]] (northern) and [[Westerwald]] (southern). The river finally runs through a protected area east of the city of [[Bonn]].
+
+After passing the cities of [[Hennef]] and [[Siegburg]] it joins the Rhine near Niederkassel/Mondorf just a few kilometres north of the centre of Bonn.
+
+{{Commonscat}}
+
+{{Rhine Tributaries}}
+
+[[Category:Rhine basin]]
+[[Category:Rivers of North Rhine-Westphalia]]
+[[Category:Rivers of Rhineland-Palatinate]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

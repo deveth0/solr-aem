@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Zimovia Strait"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Zimovia Strait" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Image:AKMap-doton-Wrangell.PNG|right|Location of Wrangell, Alaska]]
+
+&amp;apos;&amp;apos;&amp;apos;Zimovia Strait&amp;apos;&amp;apos;&amp;apos; is a narrow [[strait]] in the [[Alexander Archipelago]] in the [[U.S. state]] of [[Alaska]]. It is about 100&amp;amp;nbsp;km (60&amp;amp;nbsp;mi) long and bounded by [[Wrangell Island]] to the east and [[Woronkofski Island|Woronkofski]] and [[Etolin Island]]s to the west. The strait is shown in a 1844 Russian chart, but the name was first published in 1853 on a [[Russia]]n Hydrographic Department chart as &amp;quot;Proliv Zimov&amp;apos;ya&amp;quot; ([[English language|English]]: &amp;apos;&amp;apos;Winter Strait&amp;apos;&amp;apos;).&amp;lt;ref name=gnis&amp;gt;{{gnis|1415900|Zimovia Strait}}&amp;lt;/ref&amp;gt;
+
+==References==
+{{Reflist}}
+
+{{coord|56|13|03|N|132|19|42|W|scale:500000|display=title}}
+
+[[Category:Straits of Alaska]]
+[[Category:Landforms of Wrangell City and Borough, Alaska]]
+
+
+{{WrangellAK-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

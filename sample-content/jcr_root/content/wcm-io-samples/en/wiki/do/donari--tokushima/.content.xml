@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Donari, Tokushima"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Donari, Tokushima" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{nihongo|&amp;apos;&amp;apos;&amp;apos;Donari&amp;apos;&amp;apos;&amp;apos;|土成町|Donari-chō}} was a [[towns of Japan|town]] located in [[Itano District, Tokushima|Itano District]], [[Tokushima Prefecture|Tokushima]], [[Japan]].
+
+On April 1, 2005 Donari was merged with the towns of [[Awa, Tokushima|Awa]] (old) and [[Ichiba, Tokushima|Ichiba]], both from [[Awa District, Tokushima|Awa District]], and the town of [[Yoshino, Tokushima|Yoshino]], also from [[Itano District, Tokushima|Itano District]], to form the new city of [[Awa, Tokushima|Awa]].
+
+As of 2003, the town had an estimated [[population]] of 8,255 and a [[population density|density]] of 145.82 persons per km². The total area was 56.61 km².
+
+==External links==
+* [http://www.city.awa.lg.jp/ Awa official website] (in Japanese)
+
+[[Category:Dissolved municipalities of Tokushima Prefecture]]
+
+{{Tokushima-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Xavier Le Floch"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Xavier Le Floch" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{MedalTableTop}}
+{{MedalCountry | {{FRA}} }}
+{{MedalSport | Men&amp;apos;s [[triathlon]]}}
+{{MedalCompetition|[[ITU Long Distance Triathlon World Championships|ITU Long Distance World Championships]]}}
+{{MedalSilver| 2007 Lorient | Elite men&amp;apos;s race}}
+{{MedalBronze| 2003 Ibiza | Elite men&amp;apos;s race}}
+{{MedalBronze| 2005 Fredericia | Elite men&amp;apos;s race}}
+{{MedalBottom}}
+
+&amp;apos;&amp;apos;&amp;apos;Xavier Le Floch&amp;apos;&amp;apos;&amp;apos; is a [[France|French]] [[triathlon|triathlete]].
+
+Le Floch won his first World Championships medal at the [[ITU Long Distance Triathlon World Championships]] in 2003, held in [[Ibiza]] where he finished in third position, claiming the bronze.&amp;lt;ref name=&amp;quot;ITU&amp;quot;&amp;gt;[[International Triathlon Union]]. [http://www.triathlon.org/athletes/profile/7048 &amp;quot;Xavier Le Floch | Triathlon.org&amp;quot;]. Retrieved on 25 May 2013.&amp;lt;/ref&amp;gt; Two years later in [[Fredericia]] he would equal his effort and won his second bronze medal at the same event.&amp;lt;ref name=&amp;quot;ITU&amp;quot; /&amp;gt; He won the silver medal at the 2007 Triathlon Long Distance World Championships in [[Lorient]],&amp;lt;ref name=&amp;quot;ITU&amp;quot; /&amp;gt; beating his fellow country man [[Sebastien Berlier]] for the bronze medal, but finished behind [[Julien Loy]], also from France.
+
+==References==
+{{reflist}}
+
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              =Le Floch, Xavier
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION = French triathlete
+| DATE OF BIRTH     =
+| PLACE OF BIRTH    =
+| DATE OF DEATH     =
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Le Floch, Xavier}}
+[[Category:Living people]]
+[[Category:French triathletes]]
+
+{{France-sport-bio-stub}}
+{{Triathlon-bio-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

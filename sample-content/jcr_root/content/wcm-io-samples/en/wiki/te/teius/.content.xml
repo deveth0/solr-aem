@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Teius"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Teius" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Refimprove|type=animal|date=December 2009}}
+{{Italic title}}
+:&amp;apos;&amp;apos;For the city in Alba county, Romania, see [[Teiuş]].&amp;apos;&amp;apos;
+{{Taxobox
+|image=
+|image_caption =
+| name = &amp;apos;&amp;apos;Teius&amp;apos;&amp;apos;
+| regnum = [[Animal]]ia
+| phylum = [[Chordate|Chordata]]
+| classis = [[Reptile|Reptilia]]
+| ordo = [[Squamata]]
+| familia = [[Teiidae]]
+| genus = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Teius&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+}}
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Teius&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is a [[genus]] of South American whiptail lizard that belongs to the family [[Teiidae]].
+
+==Classification==
+Listed alphabetically.&amp;lt;ref&amp;gt;[http://reptile-database.reptarium.cz/advanced_search?genus=teius&amp;amp;exact%5B0%5D=genus&amp;amp;submit=Search &amp;apos;&amp;apos;Teius&amp;apos;&amp;apos;], The Reptile Database&amp;lt;/ref&amp;gt;
+*&amp;apos;&amp;apos;[[Teius oculatus]]&amp;apos;&amp;apos; (D’Orbigny &amp;amp; Bibron, 1837)
+*&amp;apos;&amp;apos;[[Teius suquiensis]]&amp;apos;&amp;apos; Avila &amp;amp; Martori, 1991
+*&amp;apos;&amp;apos;[[Teius teyou]]&amp;apos;&amp;apos; (Daudin, 1802) – Four-toed Whiptail
+
+==References==
+{{reflist}}
+
+[[Category:Teiidae]]
+
+{{Lizard-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

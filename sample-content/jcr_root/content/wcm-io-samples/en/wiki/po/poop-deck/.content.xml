@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Poop deck"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Poop deck" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{semiprotected|small=yes}}{{pp-move-indef}}
+[[Image:Soleil-Royal mp3h9369.jpg|thumb|Poop deck of a model of the [[French ship Soleil-Royal (1670)|&amp;apos;&amp;apos;Soleil-Royal&amp;apos;&amp;apos;]], as seen from the [[forecastle]] (fo&amp;apos;c&amp;apos;sle)]]
+In [[naval architecture]], a &amp;apos;&amp;apos;&amp;apos;poop deck&amp;apos;&amp;apos;&amp;apos; is a [[deck (ship)|deck]] that forms the [[roof]] of a cabin built in the rear, or  &amp;quot;[[aft]]&amp;quot;, part of the [[superstructure]] of a [[ship]].
+
+The name originates from the [[French language|French]] word for [[stern]], &amp;apos;&amp;apos;la poupe&amp;apos;&amp;apos;, from [[Latin]] &amp;apos;&amp;apos;puppis&amp;apos;&amp;apos;. Thus the poop deck is technically a &amp;apos;&amp;apos;&amp;apos;stern deck&amp;apos;&amp;apos;&amp;apos;, which in sailing ships was usually elevated as the roof of the stern or &amp;quot;after&amp;quot; cabin, also known as the &amp;quot;poop cabin&amp;quot;. In sailing ships, with the [[helmsman]] at the stern, an elevated position was ideal for both [[navigation]] and observation of the crew and sails.&amp;lt;ref&amp;gt;{{cite web|url=http://www.hms-victory.com/index.php?option=com_content&amp;amp;view=article&amp;amp;id=105&amp;amp;Itemid=541|title=Poop Deck|work=HMS Victory|publisher=[[Portsmouth Historic Dockyard]]|accessdate=27 April 2013|quote=Located at the stern, this short deck takes its name from the Latin word puppis - which means after deck or rear. Guns were rarely carried on this deck. It was mainly used as a viewpoint and signalling platform. The poop deck also gave protection to the men at the wheel and provided a roof for the captain&amp;apos;s cabin. The ropes controlling the yards (spars) and sails of the main and mizzen masts were operated from the poop deck.}}&amp;lt;/ref&amp;gt;
+
+On modern, motorized warships, the ship functions which were once carried out on the poop deck have been moved to the [[Bridge (nautical)|bridge]], usually located on the superstructure in the center of the ship or the island on the starboard side in the case of [[aircraft carrier]]s.
+
+==See also==
+*[[Deck (ship)#Common names for decks]]
+
+==References==
+;Notes
+{{reflist}}
+&amp;lt;!--spacing--&amp;gt;
+{{Sailing ship elements}}
+
+[[Category:Sailing ship components]]
+[[Category:Ship construction]]
+[[Category:Nautical terms]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

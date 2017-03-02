@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Core concern"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Core concern" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;lt;!-- By Fabartus, 15 May 2011: Merge proposal failed of interest, vote count in reasonable amount of time; today documented the tagging event discussion, history by commenting out.
+{{mergeto|Separation of concerns|date=August 2009}}
+---&amp;gt;
+{{unref|date=December 2006}}
+
+In [[computer science]], a &amp;apos;&amp;apos;&amp;apos;core concern&amp;apos;&amp;apos;&amp;apos; is one of the main [[Concern (computer science)|concern]]s a [[computer program|program]] is written for. The main coding of the application is to satisfy the core concerns, such as doing the tasks as visualized. Other coding which is to document changes, maintain histories and other non-direct actions supportive of the core tasks are not core concerns.
+
+==Example==
+If writing an [[application software|application]] for &amp;apos;&amp;apos;Medical Records&amp;apos;&amp;apos;, the bookkeeping and indexing of such records is a core concern, while [[Data logging|logging]] a history of changes to the record database or user database, or an authentication system, would be [[cross-cutting concern]]s since they touch more parts of the program.
+
+The sum of all core concerns is the [[business logic]] of a program, while all other [[aspect (computer science)|aspect]]s of the program are needed for proper execution, but not part of the actual business logic.
+
+==See also==
+* [[Aspect-oriented software development]]
+* [[Aspect-oriented programming]]
+* [[Separation of concerns]]
+* [[Concern (computer science)]]
+* [[Core competency]]
+
+[[Category:Programming paradigms]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

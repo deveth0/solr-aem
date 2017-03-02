@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Union County"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Union County" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Union County&amp;apos;&amp;apos;&amp;apos; is the name of seventeen&amp;lt;ref&amp;gt;See also [[Union Parish, Louisiana]].&amp;lt;/ref&amp;gt; counties in the United States:
+
+* [[Union County, Arkansas]]
+* [[Union County, Florida]]
+* [[Union County, Georgia]]
+* [[Union County, Illinois]]
+* [[Union County, Indiana]]
+* [[Union County, Iowa]]
+* [[Union County, Kentucky]]
+* [[Union County, Mississippi]]
+* [[Union County, New Jersey]]
+* [[Union County, New Mexico]]
+* [[Union County, North Carolina]]
+* [[Union County, Ohio]]
+* [[Union County, Oregon]]
+* [[Union County, Pennsylvania]]
+* [[Union County, South Carolina]]
+* [[Union County, South Dakota]]
+* [[Union County, Tennessee]]
+
+{{reflist}}
+&amp;lt;!-- Templates --&amp;gt;
+
+{{disambiguation}}
+[[Category:County name disambiguation pages]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

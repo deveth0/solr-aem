@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Online Books Page"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Online Books Page" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;The Online Books Page&amp;apos;&amp;apos;&amp;apos; is an index of [[e-text]] books available on the [[Internet]].&amp;lt;ref&amp;gt;Nicholas G. Tomaiuolo, Barbara Quint. &amp;apos;&amp;apos;The Web library: building a world class personal library with free Web resources&amp;apos;&amp;apos;, Information Today, Inc., 2004. [http://books.google.com/books?id=Ri0hoL0MIqgC&amp;amp;pg=PA234 pg. 234-35]&amp;lt;/ref&amp;gt; It is edited by [[John Mark Ockerbloom]] and is hosted by the library of the [[University of Pennsylvania]].&amp;lt;ref name=alamars&amp;gt;[http://www.ala.org/ala/rusa/rusaourassoc/rusasections/mars/marspubs/marsbestref2003.cfm ALA MARS 2003 awards (include a review of the site)]&amp;lt;/ref&amp;gt; The Online Books Page lists over 30,000 books and has several features, such as &amp;apos;&amp;apos;A Celebration of Women Writers&amp;apos;&amp;apos; and &amp;apos;&amp;apos;Banned Books Online&amp;apos;&amp;apos;.
+
+&amp;apos;&amp;apos;The Online Books Page&amp;apos;&amp;apos; was the second substantial effort to catalog online texts, but the first to do so with the rigors required by library science.  It first appeared on the Web in the summer of 1993.  The [[Internet Public Library]] came shortly thereafter.
+
+The web site was named one of the best free reference web sites in 2003 by the Machine-Assisted Reference Section of the [[American Library Association]].&amp;lt;ref name=alamars/&amp;gt;
+
+==See also==
+*[[Digital library]]
+*[[List of digital library projects]]
+*[[Project Gutenberg]]
+
+==References==
+{{Reflist}}
+
+==External links==
+*[http://onlinebooks.library.upenn.edu/ The Online Books Page], official website.
+
+
+[[Category:Aggregation-based digital libraries]]
+[[Category:Digital libraries]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

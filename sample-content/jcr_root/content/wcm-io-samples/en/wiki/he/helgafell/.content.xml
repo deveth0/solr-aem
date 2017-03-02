@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Helgafell"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Helgafell" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{about|a mountain on Snæfellsnes|a Vestmannaeyjar volcano of the same name|Helgafell (volcano)}}
+{{Unreferenced stub|auto=yes|date=December 2009}}
+{{Infobox mountain
+| name = Helgafell
+| photo = Helgafell í Helgafellssveit 0460.jpg
+| photo_caption =
+| elevation_m   = 73
+| elevation_ref =
+| prominence_m  =
+| prominence_ref=
+| listing =
+| location = {{flag|Iceland}}
+| range =
+| map = Iceland |relief=1
+| map_caption =
+| map_size = 200
+| label_position = right
+| lat_d = 65.0426 | lat_m = | lat_s = | lat_NS = N
+| long_d= 22.7279 | long_m= | long_s= | long_EW= W
+| coordinates_ref =
+| type =
+| age =
+| last_eruption =
+| first_ascent =
+| easiest_route =
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Helgafell&amp;apos;&amp;apos;&amp;apos; (&amp;quot;holy mountain&amp;quot;) is a small mountain on the [[Snæfellsnes]] Peninsula of [[Iceland]]. The mountain is {{Convert|73|m|ft|sigfig=3}} high, and a temple in honor of [[Thor|Þór]] was built there by the first settler of the area, Þórólfr Mostrarskegg. Helgafell also appears in the [[Laxdaela saga]] as the location where the heroine [[Guðrún Ósvífrsdóttir]] last lived and is supposedly where she is buried.
+
+[[Category:Mountains of Iceland]]
+
+{{Iceland-geo-stub}}
+[[fr:Helgafell]]
+[[nl:Helgafell]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

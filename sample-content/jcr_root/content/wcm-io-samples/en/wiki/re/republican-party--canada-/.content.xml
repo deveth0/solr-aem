@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Republican Party (Canada)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Republican Party (Canada)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{distinguish|Republican Party of Canada}}
+The &amp;apos;&amp;apos;&amp;apos;Parti republicain/Republican Party&amp;apos;&amp;apos;&amp;apos; was a [[Quebec]]-based [[Canada|Canadian]] political party that nominated four candidates in federal elections and by-elections between 1964 and 1971. None were elected.
+
+In the 10 February 1964 by-election in [[Saint-Denis (electoral district)|Saint-Denis]] [[Electoral district (Canada)|riding]], Paul Ferron ran for the party and collected 183 votes (1.2% of the popular vote).
+
+In the [[Canadian federal election, 1965|1965 federal election]], [[Lucien Rivard]] ran for the party in [[Papineau (electoral district)|Papineau]] riding, winning 297 votes (1.1% of those cast).
+
+The party nominated two candidates in by-elections held on 31 May 1971. In [[Chambly (electoral district)|Chambly]] riding, Claude Longtin won 396 votes, (1.6% of the total), and in [[Trois-Rivières (electoral district)|Trois-Rivières]], Joseph Thibodeau won 170 votes (0.6%).
+
+==See also==
+* [[List of political parties in Canada]]
+
+==References==
+{{reflist}}
+
+==Sources==
+*[http://www.parl.gc.ca/ Parliament of Canada History of the Federal Electoral Ridings since 1867]
+
+[[Category:Federal political parties in Canada]]
+[[Category:Defunct political parties in Canada]]
+[[Category:Republicanism in Canada]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="I packed my bag"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="I packed my bag" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=October 2007}}
+{{Orphan|date=February 2009}}
+&amp;apos;&amp;apos;&amp;apos;I packed my bag&amp;apos;&amp;apos;&amp;apos; is a [[car game]]. One person says &amp;quot;I packed my bag and in it I put...&amp;quot;, followed by any object they like in the traditional version of the game. The next person then says &amp;quot;I packed my bag and in it I put...&amp;quot;, followed by the original suggestion, and adding their own. A player is disqualified if they forget one of the previously occurring items or can not think of a new item to add to the bag. The game continues until all but the winner has been disqualified.
+
+A typical list might end up something like: &amp;quot;I packed my bag and in it I put a PSP, a PS3, a TV, High-End PC, Gabe Newell, a C# program that can divide by zero, death metal t-shirts, a house, stolen bicycle, my pet mouse, a bar of health.&amp;quot;
+
+A common variation of the game is that the items listed must be in [[alphabet]]ical order, so the first person would need to choose an object beginning with A, the second person&amp;apos;s object would begin with B, and so on.
+
+Other variations involve using a scenario other than packing the bag. For example, &amp;quot;I went to the [[zoo]] and saw...&amp;quot; following the same rules as either of the above variants.
+
+[[Category:Car games]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Post Office circular"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Post Office circular" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Multiple issues|confusing =October 2008|unreferenced =October 2008}}
+
+From the introduction of the [[Penny Black]] by the [[United Kingdom|British]] [[postal system]], &amp;apos;&amp;apos;&amp;apos;Post Office Circulars&amp;apos;&amp;apos;&amp;apos; have been sent out from the main office, (originally in Edinburgh), to give information and examples of the new [[postage stamps]] which were coming into general use.
+
+The original notice regarding the introduction of [[postage stamps]] was sent out in April 1840 and refers to the usage and cancellation of the 1d and 2d stamps. These are usually found with a pair of [[penny black]]s attached.
+
+A second notice was sent on 7 May with examples of the 2d stamps as well as the [[VR official]]. The pairs of stamps sent with this notice were not originally attached to the notice.
+
+==See also==
+[[Government circular]]
+
+{{DEFAULTSORT:Post Office Circular}}
+[[Category:Postal system of the United Kingdom]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

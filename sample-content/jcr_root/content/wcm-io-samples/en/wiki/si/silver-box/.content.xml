@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Silver box"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Silver box" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=June 2008}}
+[[Image:Autovon.png|200px|right|thumb|A diagram of an Autovon telephone keypad with the four precedence levels]]
+A &amp;apos;&amp;apos;&amp;apos;silver box&amp;apos;&amp;apos;&amp;apos; is a modified [[DTMF]] keypad that adds the four additional keys used in the now-obsolete [[autovon]] phone system. This was usually accomplished with the addition of a toggle switch and a crystal that switched one column of a standard phone keypad into the &amp;quot;fourth column&amp;quot; used in the Autovon system. (These keys were used to set the priority level of a call, and are the red keys in the photo on the right. More information is available in the [[Autovon]] article.)
+
+Modern phones with an integrated circuit based DTMF generator can frequently be modified by simply soldering a wire from the 1633&amp;amp;nbsp;Hz leg to a switch that toggles
+between that leg and the 1477&amp;amp;nbsp;Hz leg for the rightmost column of keys.
+
+{{Phreaking Boxes}}
+
+[[Category:Phreaking boxes]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

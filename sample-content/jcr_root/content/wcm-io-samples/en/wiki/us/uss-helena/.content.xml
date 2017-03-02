@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="USS Helena"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="USS Helena" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Italic title prefixed|3}}
+Four ships of the [[United States Navy]] have been named &amp;apos;&amp;apos;&amp;apos;USS &amp;apos;&amp;apos;Helena&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;, after the city of [[Helena, Montana]].
+
+* {{USS|Helena|PG-9}} was a [[gunboat]] in service from 1897 to 1932.
+* {{USS|Helena|CL-50}} was a {{sclass-|St. Louis|cruiser (1938)|0}} [[light cruiser]], commissioned in 1939, that saw heavy action in the Solomon Islands during World War II, ultimately being sunk in the Battle of Kula Gulf in July 1943.
+* {{USS|Helena|CL-113}} was a planned {{sclass-|Fargo|cruiser|0}} light cruiser canceled in 1944 while under construction.
+* {{USS|Helena|CA-75}} was a {{sclass-|Baltimore|cruiser|0}} [[heavy cruiser]] commissioned in 1945, active in the Korean War, and decommissioned in 1963.
+* {{USS|Helena|SSN-725}} is a {{sclass-|Los Angeles|submarine|0}} nuclear [[attack submarine]] commissioned in 1987 and currently in active service.
+
+==See also==
+* {{USS|Helena I|SP-24}}, a patrol boat in commission from 1917 to 1919
+
+{{Shipindex}}
+
+{{DEFAULTSORT:Helena, USS}}
+[[Category:United States Navy ship names]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

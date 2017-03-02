@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Sheath"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Sheath" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|sheath}}
+
+&amp;apos;&amp;apos;&amp;apos;Sheath&amp;apos;&amp;apos;&amp;apos; pronounced as /ʃiːθ/ and /ʃeθ/ in [[Old English]] may refer to:
+
+* [[Scabbard]], a sheath for holding a sword, knife, or other large blade, as well as guns, such as rifles.
+* The outer covering of a [[cable]]
+* [[Condom]], a kind of contraception
+* [[Debye sheath]], a layer of a plasma in physics
+* [[Heliosheath]], the region of the heliosphere beyond the termination shock
+* [[Koteka]], a penis sheath worn by some natives of New Guinea
+* [[Leaf sheath]], the leaf base when it forms a vertical coating surrounding the stem
+* [[Sheath (album)|&amp;apos;&amp;apos;Sheath&amp;apos;&amp;apos; (album)]], a 2003 techno album by LFO
+* [[Sheath dress]], a type of dress
+* [[Kosha]], an element in human being makeup according to Hinduist philosophy
+
+;Anatomy
+* [[Myelin sheath]], an insulating layer over the axon of a neuron
+* [[Tendon sheath]], a synovial membrane surrounding a tendon in, for example, the fingers
+* [[Penile sheath]]
+* [[Vagina]], the internal structure of the female genitalia
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

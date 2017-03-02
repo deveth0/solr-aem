@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Illegal"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Illegal" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|illegal|illegally|extralegal|unlawful}}
+&amp;apos;&amp;apos;&amp;apos;Illegal&amp;apos;&amp;apos;&amp;apos;, or &amp;apos;&amp;apos;&amp;apos;unlawful&amp;apos;&amp;apos;&amp;apos;, is used to describe something that is prohibited or not authorized by &amp;apos;&amp;apos;&amp;apos;[[law]]&amp;apos;&amp;apos;&amp;apos;.
+
+&amp;apos;&amp;apos;&amp;apos;Illegal&amp;apos;&amp;apos;&amp;apos; may also refer to:
+* Law
+** [[Crime]], the practice of breaking the law
+** An illegal immigrant - see [[illegal immigration]]
+** Illegal [[resident spy]]
+* Entertainment
+** [[Illegal (1932 film)|&amp;apos;&amp;apos;Illegal&amp;apos;&amp;apos; (1932 film)]], a British film
+** [[Illegal (1955 film)|&amp;apos;&amp;apos;Illegal&amp;apos;&amp;apos; (1955 film)]], an American film
+** [[Illegal (2010 film)|&amp;apos;&amp;apos;Illegal&amp;apos;&amp;apos; (2010 film)]], a 2010 Belgian film
+** [[Illegal (group)]], a 1990s rap group
+** [[Illegal (song)|&amp;quot;Illegal&amp;quot; (song)]], a track from pop singer Shakira&amp;apos;s 2005 release, &amp;apos;&amp;apos;Oral Fixation Vol. 2&amp;apos;&amp;apos;
+
+==See also==
+&amp;lt;!-- Whether this entry really belongs on the disambiguation page or not is a borderline case, but I thought it might be useful. Feel free to remove it if you consider it irrelevant.  In any case it shouldn&amp;apos;t be included in the main list of &amp;quot;things named &amp;apos;illegal&amp;apos;&amp;quot;. --&amp;gt;
+* [[Illegal Art]], a record label
+* [[Illegal drug trade]]
+* [[Illegal fishing]]
+* [[Illegal immigration]]
+* [[Illegalism]], an anarchist philosophy which openly embraced criminality as a lifestyle
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

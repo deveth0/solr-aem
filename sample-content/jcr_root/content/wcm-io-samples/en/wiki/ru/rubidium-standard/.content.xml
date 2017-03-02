@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Rubidium standard"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Rubidium standard" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[File:Rb oscillator.jpg|thumb|right|Rb oscillator]]
+A &amp;apos;&amp;apos;&amp;apos;rubidium standard&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;rubidium atomic clock&amp;apos;&amp;apos;&amp;apos; is a [[frequency standard]] in which a specified [[hyperfine level|hyperfine]] transition of [[electron]]s in [[rubidium]]-87 atoms is used to control the output frequency. It is the most inexpensive, compact, and widely used type of [[atomic clock]], used to control the frequency of [[television station]]s, [[cellular base station|cell phone base stations]], in test equipment, and [[global navigation satellite system]]s like [[Global Positioning System|GPS]]. Commercial rubidium clocks are less accurate than [[Cesium clock|cesium atomic clock]]s which serve as [[Primary standard|primary frequency standards]], so the rubidium clock is a [[secondary frequency standard]]. However, rubidium fountains are currently being developed that are even more stable than caesium fountain clocks.
+
+All commercial rubidium frequency standards operate by disciplining a [[crystal oscillator]] to the rubidium hyperfine transition of 6&amp;amp;nbsp;834&amp;amp;nbsp;682&amp;amp;nbsp;610.904&amp;amp;nbsp;324&amp;amp;nbsp;Hz. The amount of light from a rubidium [[discharge lamp]] that reaches a [[photodetector]] through a resonance cell will drop by about 0.1% when the rubidium vapor in the resonance cell is exposed to [[microwave]] power near the [[transition frequency]]. The crystal oscillator is stabilized to the rubidium transition by detecting the light dip while sweeping an [[Radio frequency|RF]] [[frequency synthesizer|synthesizer]] (referenced to the crystal) through the transition frequency.
+
+==See also==
+* [[Atomic clock]]
+* [[Caesium standard]]
+* [[Hydrogen maser]]
+
+== References ==
+*{{NIST-PD|http://tf.nist.gov/general/enc-re.htm#resonancefrequency}}
+*{{FS1037C}}
+
+== External links ==
+* [http://tf.nist.gov/general/enc-re.htm#resonancefrequency NIST Time &amp;amp; Frequency A-Z Glossary - Resonance Frequency]
+* [http://www.npl.co.uk/server.php?show=ConWebDoc.1727 Secondary Representation of the SI Second]
+* [http://www.ptb.de/en/org/4/44/441/info2_e.htm PTB &amp;quot;Unit of Time&amp;quot;]
+* [http://tycho.usno.navy.mil/clockdev/RubidiumFountain.html USNO Rubidium Fountain Project]
+* [http://www.npl.co.uk/science-technology/time-frequency/microwave-frequency-standards/research/rb-fountain NPL Rubidium Fountain]
+
+[[Category:Electronics standards]]
+[[Category:Clocks]]
+[[Category:Rubidium]]
+
+
+{{physics-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

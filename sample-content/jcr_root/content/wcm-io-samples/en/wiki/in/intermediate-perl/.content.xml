@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Intermediate Perl"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Intermediate Perl" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox book
+| name             = Intermediate Perl, 2nd Edition
+| image            = [[File:Intermediate_Perl_2nd_Edition_cover.png|200px|alt=Cover]] &amp;lt;!-- include the file, px and alt: [[File:Example.jpg|200px|alt=Cover]] --&amp;gt;
+| image_caption    =
+| author           = Randal L. Schwartz, brian d foy, Tom Phoenix
+| title_orig       = &amp;lt;!-- if not in English --&amp;gt;
+| publisher        = O&amp;apos;Reilly Media
+| pub_date         = July 2012
+| media_type       = Print, Ebook
+| pages            = 396
+| isbn             = 978-1-4493-9309-0 (print), 978-1-4493-0459-1 (ebook)
+}}
+
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Intermediate Perl&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is a book by [[Randal L. Schwartz]], [[brian d foy]] and Tom Phoenix, published in 2006 by [[O&amp;apos;Reilly Media]]. It was released as a retitled second edition of &amp;apos;&amp;apos;Learning Perl Objects, References &amp;amp; Modules&amp;apos;&amp;apos; (ISBN 0-596-00478-8) by Schwartz and Phoenix, published by O&amp;apos;Reilly Media in 2003 to favorable reviews.&amp;lt;ref&amp;gt;{{cite web|url=http://drdobbs.com/web-development/184416041|title=Learning Perl Objects, References, &amp;amp; Modules|publisher=[[Dr. Dobb&amp;apos;s Journal|The Perl Journal]]|month=August|year=2003}}&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;{{cite web|url=http://developers.slashdot.org/story/03/08/01/0619259/Learning-Perl-Objects-References-amp-Modules|title=Learning Perl Objects, References &amp;amp; Modules|publisher=[[Slashdot]]|month=August|year=2003}}&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;{{cite web|url=http://www.linuxjournal.com/article/7431|title=February Mini Book Reviews - Learning Perl Objects, References &amp;amp; Modules|publisher=[[Linux Journal]]|date=1 March 2004}}&amp;lt;/ref&amp;gt; A second edition of &amp;apos;&amp;apos;Intermediate Perl&amp;apos;&amp;apos; was released in 2012.
+
+&amp;apos;&amp;apos;Intermediate Perl&amp;apos;&amp;apos; is a follow-up to &amp;apos;&amp;apos;Learning Perl&amp;apos;&amp;apos;. Just as &amp;apos;&amp;apos;Learning Perl&amp;apos;&amp;apos; features a [[llama]] on its cover, its follow-up features an [[alpaca]]. For this reason, they are sometimes referred to as, respectively, &amp;quot;the llama book&amp;quot; and &amp;quot;the alpaca book&amp;quot;.
+
+This book is written in very much the same style as its predecessor.  It picks up right where &amp;apos;&amp;apos;Learning Perl&amp;apos;&amp;apos; left off, and takes the reader from the most basic features of Perl references all the way through to creating [[Perl module]]s and distributing them to [[CPAN]].
+
+== Editions ==
+* First edition (2006; ISBN 0-596-10206-2)
+* Second edition (2012; ISBN 978-1-4493-9309-0)
+
+==References==
+{{reflist}}
+
+== External links ==
+* [http://www.oreilly.com/catalog/lrnperlorm/index.html O&amp;apos;Reilly Catalog: Learning Perl Objects, References &amp;amp; Modules]
+* [http://shop.oreilly.com/product/0636920012689.do O&amp;apos;Reilly Catalog: Intermediate Perl, 2nd Edition]
+
+[[Category:2003 books]]
+[[Category:O&amp;apos;Reilly Media books]]
+[[Category:Books about Perl]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

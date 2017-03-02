@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Sarah and Son"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Sarah and Son" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox film
+| name           = Sarah and Son
+| image          = Poster of the movie Sarah and Son.jpg
+| image_size     =
+| caption        =
+| director       = [[Dorothy Arzner]]
+| producer       =
+| writer         = [[Zoë Akins]]&amp;lt;br /&amp;gt;[[Timothy Shea]]  (novel)
+| narrator       =
+| starring       = [[Ruth Chatterton]]&amp;lt;br /&amp;gt;[[Fredric March]]
+| music          =
+| cinematography =
+| editing        =
+| distributor    =
+| released       = {{start date|1930||}}
+| runtime        = 86 minutes
+| country        = United States
+| language       = English
+| budget         =
+| preceded_by    =
+| followed_by    =
+}}
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Sarah and Son&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is a [[1930 in film|1930 film]] which tells the story of a woman who searches for the son that her abusive husband sold to a wealthy family.  It stars [[Ruth Chatterton]], [[Fredric March]], [[Fuller Mellish Jr.]], [[Gilbert Emery]] and [[Doris Lloyd]].
+
+The movie was adapted by [[Zoë Akins]] from the novel by [[Timothy Shea]].  It was directed by [[Dorothy Arzner]].
+
+==Awards==
+It was nominated for the [[Academy Award for Best Actress]] (Ruth Chatterton).
+
+==External links==
+*{{imdb title|id=0021335|title=Sarah and Son}}
+
+&amp;lt;!-- Ruth Chatterton --&amp;gt;
+
+{{DEFAULTSORT:Sarah And Son}}
+[[Category:1930 films]]
+[[Category:American films]]
+[[Category:English-language films]]
+[[Category:Black-and-white films]]
+[[Category:1930s drama films]]
+[[Category:Films directed by Dorothy Arzner]]
+[[Category:Paramount Pictures films]]
+[[Category:Films based on novels]]
+
+{{1930s-drama-film-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

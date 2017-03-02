@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:Dead-end pages"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:Dead-end pages" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;lt;div style=&amp;quot;float:right&amp;quot;&amp;gt;{{Dead-end pages progress}}&amp;lt;/div&amp;gt;
+{{Shortcut|WP:DEP|WP:DEADEND}}
+
+A &amp;apos;&amp;apos;&amp;apos;dead-end page&amp;apos;&amp;apos;&amp;apos; is a page that contains no [[WP:MOS-L|internal links]] to other Wikipedia articles. Adding links to these pages will help to integrate them into the encyclopedia, and assist readers by allowing for easy cross-referencing of information.
+
+==How you can help==
+{{MiniAWFP}}
+*For general guidance on how to create internal links, see [[Help:Link#Wikilinks]] for the basics, and [[MOS:LINK#Techniques]] for more advanced techniques.
+*When writing an article, try to incorporate relevant links to other articles within the text. Before saving the edit, check that the link connects to the article you intended (and not, for example, to a [[WP:DAB|disambiguation page]]). For example, if an article begins &amp;quot;[[Joe Bloggs]] was born in Birmingham,&amp;quot; you should create a link for &amp;lt;nowiki&amp;gt;[[Birmingham]]&amp;lt;/nowiki&amp;gt; – but first determine whether it&amp;apos;s [[Birmingham|Birmingham, England]], or [[Birmingham, Alabama]], or [[Birmingham (disambiguation)|another city with that name]].
+**Remember to only add links that are relevant to the context. An article with an excessive number of links is said to be [[WP:OVERLINK|overlinked]]; this can be distracting, and makes it harder for the reader to identify links which might actually aid their understanding of the subject.
+*If you come across an article with no internal links, either add links yourself or apply a {{tl|dead end}} tag.
+*The article may need other cleanup. If so, fix the problems yourself or add the appropriate cleanup tag from [[WP:Template messages/Cleanup]].
+**If the article is a short [[WP:WINAD|dictionary definition]], tag it with {{tl|Copy to Wiktionary}}.
+**If the article&amp;apos;s subject is explained better in another article, consider a [[WP:Merge|merge]] and/or [[WP:Redirect|redirect]].
+**If the subject of the article doesn&amp;apos;t appear to be [[WP:Notability|notable]], consider nominating the article for [[WP:DP#Processes|deletion]]. If you&amp;apos;re unsure whether the subject is notable, you can just add a {{tl|notability}} tag instead.
+*Once links have been added to the article, remove the {{tl|dead end}} tag. If you want, you can place &amp;apos;&amp;apos;&amp;apos;&amp;lt;nowiki&amp;gt;Dead-end pages clean up project; [[Wikipedia:Dead-end pages|you can help!]]&amp;lt;/nowiki&amp;gt;&amp;apos;&amp;apos;&amp;apos; in your edit summary.
+
+==Finding dead-end pages==
+Articles tagged with {{tl|dead end}} can be found within the monthly subcategories of [[:Category:Dead-end pages]].
+
+To generate a list of articles with no internal links, follow the instructions below.
+
+#Download the most recent dump of the Wikipedia database from [http://download.wikimedia.org/backup-index.html download.wikimedia.org]. For the English version of Wikipedia, select the entry labeled &amp;quot;enwiki.&amp;quot;
+#Uncompress the database with [[bzip2]]. Other uncompression software may fail silently. You need the file called &amp;quot;enwiki-nnnnnn-pages-articles.xml.bz2&amp;quot;.
+#Install and start [[Wikipedia:AutoWikiBrowser|AutoWikiBrowser]].
+#In the Tools menu, choose &amp;quot;Database scanner&amp;quot;.
+#In the &amp;apos;&amp;apos;Wiki Database Scanner&amp;apos;&amp;apos; window that appears, select the &amp;quot;Dump&amp;quot; tab, then click &amp;quot;Browse...&amp;quot; to select the extracted XML file.
+#In the &amp;quot;Namespace&amp;quot; tab, select &amp;quot;Content&amp;quot;.
+#In the &amp;quot;Text&amp;quot; tab, click &amp;quot;Regex&amp;quot; and &amp;quot;Does not contain:&amp;quot; and in the corresponding text field add &amp;quot;&amp;lt;nowiki&amp;gt;{{(deletedpage|softredirect|wi)(\||}})&amp;lt;/nowiki&amp;gt;&amp;quot; (without the quotation marks), a [[regular expression]] which filters out pages which contain the &amp;quot;deleted page,&amp;quot; &amp;quot;softredirect,&amp;quot; and some &amp;quot;see Wiktionary&amp;quot; templates. This will reduce the number of results significantly. In the dropdown labeled &amp;quot;No. of links&amp;quot; select &amp;quot;at most&amp;quot; and change the corresponding number to 1.
+#Click the button labeled &amp;quot;Start,&amp;quot; and wait for the program to finish.
+#Click the button marked &amp;quot;Sort&amp;quot; to alphabetize the list.
+#On the right side of the window labeled &amp;quot;Make wikified list from results,&amp;quot; check the box which says &amp;quot;A B C... headings&amp;quot; and click the button labeled &amp;quot;Make.&amp;quot;
+#Click the button labeled &amp;quot;Copy to clipboard&amp;quot; and paste your results to the proper places.
+
+&amp;lt;!-- The regex above does not filter out redirects to Wiktionary that are piped (in the format &amp;lt;nowiki&amp;gt;{{wi|foo}&amp;lt;/nowiki&amp;gt;). To filter those out, run the list through the list compare function of AWB, excluding everything in [[:Category:Redirects to Wiktionary]]. --&amp;gt;
+
+[[Category:Wikipedia maintenance|{{PAGENAME}}]]
+
+[[ar:ويكيبيديا:الصفحات المسدودة]]
+[[pt:Wikipedia:Artigos sem saída]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

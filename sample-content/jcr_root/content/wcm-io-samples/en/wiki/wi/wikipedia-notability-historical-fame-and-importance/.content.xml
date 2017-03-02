@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:Notability/Historical/Fame and importance"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:Notability/Historical/Fame and importance" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{historical}}
+&amp;lt;div style=&amp;quot;background:#f8eaba; border:1px solid; padding:1em&amp;quot; align=&amp;quot;center&amp;quot;&amp;gt;&amp;apos;&amp;apos;This has been replaced by [[Wikipedia:Notability]], which is most referred to by Wikipedia editors.&amp;apos;&amp;apos;&amp;lt;/div&amp;gt;
+
+== Content moved to Talk page ==
+In 2004, there was no consensus that lack of &amp;quot;&amp;apos;&amp;apos;&amp;apos;fame&amp;apos;&amp;apos;&amp;apos;&amp;quot; or &amp;quot;&amp;apos;&amp;apos;&amp;apos;importance&amp;apos;&amp;apos;&amp;apos;&amp;quot; should be a legitimate reason to delete an article. There was much discussion of this question on [[Wikipedia talk:Importance|the talk page]]. In 2005, there is consensus that not establishing the importance of its subject &amp;apos;&amp;apos;is&amp;apos;&amp;apos; a legitimate reason to delete an article.  As of 2006, several topical notability guidelines have been incorporated into policy at [[Wikipedia:Deletion policy]], and the related guideline [[WP:N|Wikipedia:Notability]] was written and remains heavily debated.&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

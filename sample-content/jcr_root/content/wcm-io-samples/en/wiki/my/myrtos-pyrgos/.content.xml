@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Myrtos Pyrgos"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Myrtos Pyrgos" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{for|other places named Pyrgos|Pyrgos (disambiguation)}}
+&amp;apos;&amp;apos;&amp;apos;Pyrgos&amp;apos;&amp;apos;&amp;apos; (also Myrtos-Pyrgos) is an archaeological site of the [[Minoan civilization]] near [[Myrtos]] in the municipality of [[Ierapetra]] on the south coast of [[Crete]].
+
+==Archaeology==
+[[File:Pyrgos Myrtos overlooking the Libyan Sea.jpg|thumb|Pyrgos Myrtos overlooking the Libyan Sea]]
+
+This Minoan settlement on the road to [[Ierapetra]] boasts several Minoan features:  a drain, paved floors and footpaths and [[ashlar]] foundation blocks for its central building.
+
+==External links==
+*http://www.minoancrete.com/pyrgos.htm
+* http://www.minoan-aegis.be/field-projects/myrtos-pyrgos/?lang=en
+
+{{coord|35|00|25|N|25|35|26|E|display=title|region:GR_type:landmark_source:nlwiki}}
+
+[[Category:Minoan sites in Crete]]
+[[Category:Ierapetra]]
+[[Category:Populated places in Ancient Greece]]
+[[Category:Former populated places in Greece]]
+
+
+{{AncientGreece-stub}}
+{{europe-archaeology-stub}}
+{{Crete-geo-stub}}
+
+[[de:Pyrgos]]
+[[pt:Pyrgos (Myrtos)]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

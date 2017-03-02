@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="EuroLinux"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="EuroLinux" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;__NOTOC__
+&amp;apos;&amp;apos;&amp;apos;EuroLinux&amp;apos;&amp;apos;&amp;apos; is a campaigning organisation that promotes [[open source software]] / [[free software]] in [[Europe]], and that are opposed to the [[European Union]]&amp;apos;s proposals to introduce laws on [[software patent]]s. It is also known as &amp;apos;&amp;apos;&amp;apos;EuroLinux Alliance&amp;apos;&amp;apos;&amp;apos;.
+It is &amp;apos;&amp;apos;not&amp;apos;&amp;apos; the [[umbrella organisation]] for [[Linux User Group]]s in Europe.
+
+It describes itself as: &amp;quot;The EuroLinux Alliance for a [[Free Information Infrastructure]] is an open coalition of commercial companies and non-profit associations united to promote and protect a vigorous European Software Culture based on [[copyright]], [[open standard]]s, open competition and open source software such as Linux. Corporate members or sponsors of EuroLinux develop or sell software under free, semi-free and non-free licenses for [[operating system]]s such as [[Linux]], [[Mac OS]] or [[Microsoft Windows]].&amp;quot;
+
+Eurolinux organised the public EU campaign against software patents that was signed by more than 300,000 people. Members include [[FFII]], APRIL, [[AFUL]], AEL, and European Linux user group (LUG) umbrella associations.
+
+== See also ==
+* [[European Information, Communications and Consumer Electronics Technology Industry Associations]] (EICTA)
+
+== External links ==
+* [http://www.eurolinux.org Web site]
+* [http://web.archive.org/web/20051227032443/petition.eurolinux.org/index_html?NO_COOKIE=true Old petition for a software patent-free Europe] (archive.org copy)
+
+{{DEFAULTSORT:Eurolinux}}
+[[Category:Linux organizations]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

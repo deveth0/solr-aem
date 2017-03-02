@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Yaesu FT-847"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Yaesu FT-847" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{multiple issues|
+{{Notability|products|date=June 2008}}
+{{Refimprove|date=April 2007}}
+{{Tone|date=December 2007}}
+}}
+
+The [[Yaesu (brand)|Yaesu]] &amp;apos;&amp;apos;&amp;apos;FT-847&amp;apos;&amp;apos;&amp;apos; was known as the &amp;quot;Earth Station&amp;quot; according to sales literature&amp;lt;ref&amp;gt;http://www.yaesu.com/downloadFile.cfm?FileID=620&amp;amp;FileCatID=154&amp;amp;FileName=FT%2D847.pdf&amp;amp;FileContentType=application%2Fpdf&amp;lt;/ref&amp;gt; and the company&amp;apos;s web site.&amp;lt;ref&amp;gt;[http://www.yaesu.com/indexVS.cfm?cmd=DisplayProducts&amp;amp;ProdCatID=102&amp;amp;encProdID=1F9F41E47B926F9590C43C638C5EFD00&amp;amp;DivisionID=65&amp;amp;isArchived=1 Welcome to Yaesu.com&amp;lt;!-- Bot generated title --&amp;gt;]&amp;lt;/ref&amp;gt; Yaesu introduced the FT-847 in 1998 as a replacement for the then discontinued FT-736 VHF/UHF Satellite transceiver, with production ending in 2005.&amp;lt;ref&amp;gt;[http://www.rigpix.com/yaesu/ft847.htm RigPix Database - Yaesu - FT-847&amp;lt;!-- Bot generated title --&amp;gt;]&amp;lt;/ref&amp;gt; The FT-847 is a multimode transceiver providing coverage of all nine [[High frequency|HF]] [[Amateur radio frequency allocations|Amateur bands]] (predating the [[60m band]] allocation), plus [[Very high frequency|VHF]] and [[Ultra high frequency|UHF]] coverage of the 50&amp;amp;nbsp;MHz ([[6 Meters|6 m]]), 144&amp;amp;nbsp;MHz ([[2 Meters|2 m]]) and 440&amp;amp;nbsp;MHz ([[70 centimeters|70 cm]]), with provisions for [[amateur satellite]] operations.
+
+== Feature overview ==
+* HF, VHF, and UHF coverage
+* [[Digital signal processor|DSP]] Filter
+* Dual Watch
+* 0.1&amp;amp;nbsp;Hz Tuning
+* [[CTCSS]]/[[Digital-Coded Squelch#DCS|DCS]] encode and decode
+* [[Crossband operation|Cross-band Full Duplex]]
+* 1200/9600 bit/s Packet Ready
+
+== Some specifications ==
+Frequency Range Receive:
+* 100&amp;amp;nbsp;kHz–30&amp;amp;nbsp;MHz
+* 36–76&amp;amp;nbsp;MHz
+* 108–174&amp;amp;nbsp;MHz
+* 420–512&amp;amp;nbsp;MHz
+
+Frequency Range Transmit
+* 160 to 6 m, excluding 60 meters (amateur bands only): 100 W (25 W AM carrier)
+* 4 m: 50W 70 Mhz With mod.
+* 2 m: 50 W (12.5 W AM carrier)
+* 70 cm: 50 W (12.5 W AM carrier)
+
+
+Emission Modes:
+* USB, LSB, CW, AM, FM, F1 (9600 bit/s Packet), F2 (1200 bit/s Packet), AFSK
+
+Remote control with CAT RS232 interface on board
+At control
+
+==Interesting information==
+* The FT-847 is a transceiver designed with [[amateur radio satellite]] operation in mind, with features such as cross band full duplex operation, Normal/Reverse Tracking, CTCSS/DCS Encode and Decode and 0.1&amp;amp;nbsp;Hz tuning steps.
+
+* An often overlooked feature of the FT-847 is its four (4) antenna connectors, separating HF, 6 m, 2 m, and 70&amp;amp;nbsp;cm.
+
+==External links==
+*[http://rigreference.com/rigs/view/4359/Yaesu_FT_847 Specifications/images/reviews]
+*[http://www.yaesu.com/ Yaesu&amp;apos;s Home Page]
+*[http://groups.yahoo.com/group/FT847/ FT-847 on Yahoo! Groups ]
+
+==Notes==
+{{reflist}}
+
+{{DEFAULTSORT:Yaesu FT-0847}}
+[[Category:Amateur radio transceivers]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="File:Confedstarburst.png"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="File:Confedstarburst.png" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;== Summary ==
+{{Information
+| Description    = Terran Confederation Star
+
+This starburst originates from the [[Wing Commander (computer game)|Wing Commander]] universe, in which it is the symbol of the Terran Confederation, and appears on all documentation from &amp;apos;&amp;apos;Wing Commander Armada&amp;apos;&amp;apos; on. It appears in the courtroom during Admiral [[Geoffrey Tolwyn]]&amp;apos;s tribunal at the end of &amp;apos;&amp;apos;Wing Commander IV&amp;apos;&amp;apos;, and on the flag in the movie introduction.
+| Source         = As for the actual image, I created it myself, using gmax and Arcsoft Photostudio software (as I lacked vector graphics software at the time).
+| Date           =
+| Author         = [[User:Bob_McDob|Bob_McDob]] ([[User talk:Bob_McDob|talk]]) ([[Special:ListFiles/Bob_McDob|Uploads]])
+| Permission     =
+| other_versions =
+}}
+
+== Licensing ==
+{{GFDL-en|migration=relicense}}
+{{Copy to Wikimedia Commons|bot=Svenbot}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

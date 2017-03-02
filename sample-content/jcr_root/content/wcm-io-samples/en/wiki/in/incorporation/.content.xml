@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Incorporation"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Incorporation" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary}}
+
+&amp;apos;&amp;apos;&amp;apos;Incorporation&amp;apos;&amp;apos;&amp;apos; may refer to:
+* [[Incorporation (business)]], the creation of a corporation
+* [[Incorporation (association)]], giving legal form to an association by registering it as a corporation
+* Incorporation of a place, creation of [[municipal corporation]] such as a city or county
+* [[Incorporation of the Bill of Rights]], extension of parts of the United States Bill of Rights to bind individual American states.
+* [[Incorporation of international law]], giving domestic legal force to a sovereign state&amp;apos;s international legal obligations
+* [[Incorporation (linguistics)]]
+
+== See also ==
+* [[Incorporation by reference]]
+* [[Incorporated (disambiguation)]]
+* [[Corporation]]
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

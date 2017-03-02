@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="XML/EDIFACT"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="XML/EDIFACT" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;XML/EDIFACT&amp;apos;&amp;apos;&amp;apos; is an [[Electronic Data Interchange]] format used in [[Business-to-business]] transactions. It allows [[EDIFACT]] message types to be used by [[XML]] systems.
+
+[[EDIFACT]] is a formal, readable language-for-machine description of electronic business documents. It uses a syntax close to delimiter separated files. This syntax was invented in the 1980s to keep files as small as possible. Because of the Internet boom around 2000, XML started to become the most widely supported file syntax. But for example, an invoice is still an invoice, containing information about buyer, seller, product, due amount. EDIFACT works perfectly from the content viewpoint, but many software systems struggle to handle its syntax. So combining EDIFACT vocabulary and grammar with XML syntax makes XML/EDIFACT.
+
+The rules for XML/EDIFACT are defined by ISO TS 20625.
+
+== Use-cases ==
+
+XML/EDIFACT is used in B2B scenarios as listed below:
+
+1) Newer [[Enterprise application integration|EAI]] or [[Business-to-business|B2B]] systems often cannot handle EDI ([[Electronic Data Interchange]]) syntax directly. Simple syntax converters do a 1:1 conversion before. Their input is an EDIFACT transaction file, their output an XML/EDIFACT instance file.
+
+2) XML/EDIFACT keeps XML B2B transactions relatively small. XML element names derived from EDIFACT tags are much shorter and more formal than those derived from natural language since they are simply expressions of the EDIFACT syntax. Such formal tags although not semantically understandable, taken from the &amp;quot;EDIFACT modelling language&amp;quot;, are readable by B2B experts worldwide if they are conversant in the EDIFACT syntax.
+
+3) A company does not want to invest into new vocabularies from scratch. XML/EDIFACT reuses business content defined in UN/EDIFACT. Since 1987, the UN/EDIFACT library was enriched by global business needs for all sectors of industry, transport and public services. For XML, there are a number of vocabularies, each tailored for their specific user community.
+
+4) Large companies can order goods from small companies via XML/EDIFACT. The small companies use XSL  stylesheets to browse the message content in human readable forms - once again provided they understand the EDIFACT syntax.
+
+== Example 1: EDIFACT source code ==
+
+A name and address (NAD) segment, containing customer ID and customer address, expressed in EDIFACT syntax:
+
+&amp;lt;nowiki&amp;gt;NAD+BY+CST9955::91++Candy Inc+Sirup street 15+Sugar Town++55555&amp;apos;&amp;lt;/nowiki&amp;gt;
+
+== Example 2: XML/EDIFACT source code ==
+
+The same information content in an XML/EDIFACT instance file:
+
+&amp;lt;source lang=&amp;quot;xml&amp;quot;&amp;gt;
+&amp;lt;S_NAD&amp;gt;
+  &amp;lt;D_3035&amp;gt;BY&amp;lt;/D_3035&amp;gt;
+  &amp;lt;C_C082&amp;gt;&amp;lt;D_3039&amp;gt;CST9955&amp;lt;/D_3039&amp;gt;&amp;lt;D_3055&amp;gt;91&amp;lt;/D_3055&amp;gt;&amp;lt;/C_C082&amp;gt;
+  &amp;lt;C_C080&amp;gt;&amp;lt;D_3036&amp;gt;Candy Inc&amp;lt;/D_3036&amp;gt;&amp;lt;/C_C080&amp;gt;
+  &amp;lt;C_C059&amp;gt;&amp;lt;D_3042&amp;gt;Sirup street 15&amp;lt;/D_3042&amp;gt;&amp;lt;/C_C059&amp;gt;
+  &amp;lt;D_3164&amp;gt;Sugar Town&amp;lt;/D_3164&amp;gt;&amp;lt;D_3251&amp;gt;55555&amp;lt;/D_3251&amp;gt;
+&amp;lt;/S_NAD&amp;gt;
+&amp;lt;/source&amp;gt;
+
+== Example 3: XML/EDIFACT in Internet Explorer ==
+
+The same XML/EDIFACT instance presented with help of an [[Extensible Stylesheet Language|XSL]] stylesheet:
+
+[[File:XmlEdifact Order Form.png]]
+
+== External links ==
+* [http://www.unece.org/trade/untdid/welcome.htm UN/EDIFACT Main Page]
+* [http://www.iso.org/iso/catalogue_detail.htm?csnumber=37020 ISO/TS 20625:2002] - Unfortunately, this [[International Organization for Standardization|ISO]] document costs CHF 158,00 :-/
+* [http://parse-EDIFACT.net/ parse-EDIFACT.net] - An [[EDIFACT]] parser, that transform the EDIFACT instance into [[XML]] for further processing using [[XSLT]] (Site is down 2011/06/01).
+* [http://www.edifabric.com/ www.edifabric.com] - A .NET framework for converting EDIFACT and X12 messages into XML and vice versa.
+* [http://github.com/metormote/edifact-xml Edifact-XML] - A free complete java parser library for converting UN EDIFACT messages to XML.
+
+{{DEFAULTSORT:XML EDIFACT}}
+[[Category:XML-based standards]]
+[[Category:Information technology management]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

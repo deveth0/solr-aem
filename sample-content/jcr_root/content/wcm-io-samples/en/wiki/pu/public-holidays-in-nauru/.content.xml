@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Public holidays in Nauru"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Public holidays in Nauru" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Multiple issues|notability = August 2010|prose = August 2010|unreferenced = April 2008}}
+
+&amp;apos;&amp;apos;&amp;apos;[[Holiday]]s in [[Nauru]]&amp;apos;&amp;apos;&amp;apos;. Nauru is an island nation in Micronesia.
+
+{| class=&amp;quot;wikitable&amp;quot;
+|+ Holidays
+|-
+! Date !! English Name !! Local Name !! Remarks
+|-
+| January 1
+| [[New Year&amp;apos;s Day]]
+|
+|
+|-
+| January 31
+| [[Independence Day]]
+|
+| Anniversary of independence in 1968
+|-
+| March-April
+| [[Good Friday]]
+|
+|
+|-
+| May 17
+| [[Constitution Day]]
+|
+| Anniversary of constitution in 1968
+|-
+| October 26
+| [[Angam Day]]
+|
+| Celebrates the several occasions when Nauru&amp;apos;s population has reached 1500, the minimum supposed sustainable population size
+|-
+| December 25, 26
+| [[Christmas]]
+|
+|
+|}
+
+{{Nauru topics}}
+{{Oceania topic|Public holidays in}}
+
+[[Category:Nauruan culture]]
+[[Category:Public holidays by country|Nauru]]
+[[Category:Events in Nauru]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

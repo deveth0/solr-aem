@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Verdaccio"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Verdaccio" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Verdaccio&amp;apos;&amp;apos;&amp;apos; is an [[Italian language|Italian]] name for the mixture of black, white, and yellow pigments resulting in a grayish or yellowish (depending on the proportion) soft greenish brown.
+
+&amp;apos;&amp;apos;&amp;apos;Verdaccio&amp;apos;&amp;apos;&amp;apos; became an integral part of [[fresco painting]], in which this color is used for defining tonal values, forming a complete monochromatic [[underpainting]]. Often architectural details in frescoes are left in verdaccio without any additional color layers; a notable example is the ceiling of the [[Sistine Chapel]], where verdaccio underpainting can be clearly seen, left as is on all architectural details of the composition.
+
+In oil painting, a similar technique is used by [[Flemish painters]], referred to as the &amp;quot;dead layer,&amp;quot; is applied over the traditional bone colour (1 part raw umber to 1 part yellow ochre) priming to refine the values and remove the warm tone of the primer. The resulting &amp;quot;white to olive green to black&amp;quot; underpainting is &amp;quot;like being illuminated by moonlight.&amp;quot; It does not affect the tonality of the final painting.
+
+==External links==
+* [http://www.wetcanvas.com/Articles2/3261/292/ WetCanvas!: Michael Georges: Underpainting - A primer for the new painter]
+
+{{painting-stub}}
+
+[[Category:Painting techniques]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

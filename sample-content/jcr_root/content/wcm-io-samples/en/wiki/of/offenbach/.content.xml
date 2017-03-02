@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Offenbach"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Offenbach" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Offenbach&amp;apos;&amp;apos;&amp;apos;  may refer to:
+{{toc right}}
+==Places==
+* [[Offenbach am Main]], a city in Hesse, Germany
+** [[Kickers Offenbach]], football club
+** [[VfB 1900 Offenbach]], football club
+* [[Offenbach (district)]], a kreis in Hesse, Germany
+* [[Offenbach an der Queich]], a municipality in Südliche Weinstraße, Rhineland-Palatinate, Germany
+** [[Offenbach an der Queich (Verbandsgemeinde)]], the collective municipality surrounding the town above
+* [[Offenbach-Hundheim]], a municipality in Kusel, Rhineland-Palatinate, Germany
+
+==People==
+* [[Jacques Offenbach]] (1819–1880), German-born French composer, cellist and impresario
+* [[John Offenbach]], England based photographer
+* [[John Louis of Isenburg-Offenbach]] (fl. 1635–1685), count
+
+==Other uses==
+* [[Offenbach (band)]], Quebec rock band
+* [[10820 Offenbach]], a main-belt asteroid
+* [[Offenbach Archival Depot]], a post World War II document collection facility
+* A typeface created by [[Rudolf Koch]]
+
+== See also ==
+* [[Ofenbach (disambiguation)]]
+
+{{disambig|geo}}
+
+[[Category:Jewish surnames]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

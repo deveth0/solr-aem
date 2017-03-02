@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Unlicensed broadcasting"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Unlicensed broadcasting" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Unlicensed broadcasting&amp;apos;&amp;apos;&amp;apos;, also called &amp;apos;&amp;apos;&amp;apos;pirate broadcasting&amp;apos;&amp;apos;&amp;apos; is a term used for any type of [[broadcasting]] without a [[broadcast license]].
+
+Some  unlicensed broadcasting, such as certain [[low-power broadcasting]], may be legal.  For example, in the [[United States]], [[Title 47 CFR Part 15]] (or &amp;quot;part 15&amp;quot;), is a regulation that allows unlicensed broadcasting within a range of just a few meters. Legal broadcast methods may include [[ISM band]]s, used legally at low power to broadcast for personal use, a [[video sender]], used to distribute video (sometimes wireless security cameras) within a home or small business, or FM Transmitters, used to transmit satellite radio or digital media players to stereo systems which have no wired input (i.e. car radios).
+
+{{main|Pirate radio|Pirate television}}
+The term &amp;quot;pirate broadcasting&amp;quot;, by contrast, is almost always used to indicate broadcasting that is illegal, particularly as applied to [[pirate radio]] and [[pirate television]]. The justifications usually given for legal prohibitions on broadcasting include the need to keep certain broadcast frequencies open for emergency communications, the need to control the broadcasting of material that is [[obscenity|obscene]] or violates [[copyright]]s, and the preservation of government revenue derived from licensing airwaves.
+
+==See also==
+* [[Media regulation]]
+
+[[Category:Broadcasting]]
+[[Category:Crimes]]
+[[Category:Media law]]
+
+{{law-stub}}
+{{broadcasting-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

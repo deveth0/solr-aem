@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Kent Street (Ottawa)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Kent Street (Ottawa)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced stub|auto=yes|date=December 2009}}
+[[Image:Kent and Queen.jpg|thumb|300px|right|Kent St. and Queen St. intersection]]
+[[File:Kentandflorence.JPG|thumb|300px|Kent St. looking south from Florence St.]]
+&amp;apos;&amp;apos;&amp;apos;Kent Street&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;&amp;apos;[[List of numbered routes in Ottawa|Ottawa Road]] #83&amp;apos;&amp;apos;&amp;apos;) is a major [[street]] in downtown [[Ottawa]], [[Canada]]. One block west of [[Bank Street (Ottawa)|Bank Street]], Kent is one way running north. It begins at the [[Queensway (Ottawa)|Queensway]] at the south and ends at [[Wellington Street (Ottawa)|Wellington Street]].  The street has fewer storefronts than Bank Street. South of downtown it is mainly small and medium sized office buildings, with some restaurants and residences. The northern part of the street is home to several large office towers, mainly governmental. It was originally known as &amp;apos;&amp;apos;&amp;apos;Hugh Street&amp;apos;&amp;apos;&amp;apos;.
+
+Some of the buildings or other key sites located along Kent Street (although the address is not necessarily registered on it) includes:
+
+* [[Supreme Court of Canada]], located north of [[Wellington Street (Ottawa)|Wellington Street]]
+* [[East Memorial Building]]
+* [[Sparks Street Mall]], although not the commercial core
+* [[C.D. Howe Building]] (at Queen Street)
+* [[Place de Ville]] (towers A &amp;amp; B)
+* Ottawa [[Marriott International|Marriott]] Hotel
+* [[Minto Place]] (last tower
+* [[Jean Edmonds Towers]] (east side between Slater and Laurier)
+* [[Constitution Square (Ottawa)|Constitution Square]] (west side between Albert and Slater)
+* [[St. Patrick&amp;apos;s Basilica]],
+* [[Ottawa Central Bus Station]], located near [[Highway 417 (Ontario)|Highway 417]]
+
+{{Ottawa Roads}}
+
+[[Category:Roads in Ottawa]]
+
+{{Ottawa-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

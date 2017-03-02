@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="IShell"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="IShell" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{primarysources|date=June 2011}}
+{{lowercase|title=iShell}}
+&amp;apos;&amp;apos;&amp;apos;iShell&amp;apos;&amp;apos;&amp;apos; is a traditional multimedia authoring environment, similar in many ways to [[Macromedia Director]]. A descendant of the [[Apple Media Tool]], iShell is designed to be easy to use, but powerful enough to grow as a user&amp;apos;s skill set increases. iShell was first released by [[Tribeworks]] in 1999. In July 2006, [http://www.tribalmedia.com tribalmedia] acquired all rights to iShell. The current version of iShell is 4.5r7.
+
+iShell uses the [[Key (Programming Language)|Key]] programming language, which is based on [[Eiffel (programming language)|Eiffel]]. This language was previously known as the Apple Media Language (AML) which was part of the [[Apple Media Tool]]. Both iShell and the Apple Media Tool were developed by [[Patrick Soquet]], one of the founders of Tribeworks. The two tools share many design features in common.
+
+iShell differs in its distribution model from similar applications, allowing users access to the source code.
+
+==Features==
+* [[Cross-platform]] creation and delivery (Macintosh and Windows)
+* Graphical reusable object and event based programming and design environment
+* Support and use of the [[QuickTime]] media framework
+* Text support via basic [[Rich Text Format|RTF]] and HTML, and common styled input fields
+* Pluggable architecture for the addition of external third-party plugins and scripts
+* Access local and remote media assets
+* XML creation and parsing through [[Document Object Model|DOM]] and [[Simple API for XML|SAX]]
+* Flat file text database support
+* Common programming functions and logic for strings, numbers, etc. without the need for scripting
+
+==Third-party plugins==
+Numerous developers have taken advantage of iShell&amp;apos;s [[community source|community-source]] model to build commercial plugins for the software. tribalmedia acts as a reseller for many of these third-party developers.
+*&amp;apos;&amp;apos;&amp;apos;Kromo&amp;apos;&amp;apos;&amp;apos;: Adds several features to iShell, including database integration and filesystem functions.
+*&amp;apos;&amp;apos;&amp;apos;Spunk&amp;apos;&amp;apos;&amp;apos;: A companion program to Kromo, allows developer to incorporate web-based content into iShell projects.
+*&amp;apos;&amp;apos;&amp;apos;ImageLayer&amp;apos;&amp;apos;&amp;apos;: Full integration of Photoshop files.
+*&amp;apos;&amp;apos;&amp;apos;ZebraSpeak&amp;apos;&amp;apos;&amp;apos;: Adds text-to-speech and advanced keyboard interaction to iShell.
+*&amp;apos;&amp;apos;&amp;apos;ZebraTools&amp;apos;&amp;apos;&amp;apos;: Adds numerous new features to iShell.
+*&amp;apos;&amp;apos;&amp;apos;OpenTribe plugins&amp;apos;&amp;apos;&amp;apos;: iSQUALE, DiSx, iStorm, iGDIP, iDream
+
+==External links==
+*{{official|http://www.iShell.com}}
+*[http://www.tribalmedia.com/wiki/index.php iShell Wiki]
+*[http://www.tribalmedia.com/ tribalmedia homepage]
+*[http://www.iShell101.com/ iShell 101]
+
+[[Category:Multimedia software]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

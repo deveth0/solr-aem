@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Queen Secret Keeper"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Queen Secret Keeper" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox Album | &amp;lt;!-- See Wikipedia:WikiProject_Albums --&amp;gt;
+| Name        = Queen Secret
+| Type        = [[Album]]
+| Artist      = [[Judie Tzuke]]
+| Cover       = Judie_tzuke_-_queen_secret_keeper.jpg
+| Released    = 2001
+| Genre       = [[Pop music|Pop]] / [[Rock music|Rock]]
+| Label       = Big Moon Records
+| Producer = Paul Muggleton, David P. Goodes
+| Last album  = &amp;apos;&amp;apos;[[Six Days Before the Flood]]&amp;apos;&amp;apos;&amp;lt;br/&amp;gt;(1999)
+| This album  = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Queen Secret Keeper&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;lt;br/&amp;gt;(2001)
+| Next album  = &amp;apos;&amp;apos;[[Drive Live]]&amp;apos;&amp;apos;&amp;lt;br/&amp;gt;(2002)
+}}
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Queen Secret Keeper&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is the twelfth studio album by the British [[singer]]-[[songwriter]] [[Judie Tzuke]], released in 2001.
+
+==Track listing==
+# &amp;quot;Don&amp;apos;t Look Behind You&amp;quot;
+# &amp;quot;The One That Got Away&amp;quot;
+# &amp;quot;Do You&amp;quot;
+# &amp;quot;1 2 3&amp;quot;
+# &amp;quot;Drive&amp;quot;
+# &amp;quot;Indian Giver&amp;quot;
+# &amp;quot;On Days Like These&amp;quot;
+# &amp;quot;All of Me&amp;quot;
+# &amp;quot;One Minute&amp;quot;
+# &amp;quot;Little Diva&amp;quot;
+# &amp;quot;Breathless&amp;quot;
+# &amp;quot;Lion&amp;quot;
+
+==References==
+*[http://www.tzuke.com/qsk.html Official website]
+
+[[Category:Judie Tzuke albums]]
+[[Category:2001 albums]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

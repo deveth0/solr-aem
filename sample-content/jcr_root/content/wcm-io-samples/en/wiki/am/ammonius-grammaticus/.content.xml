@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ammonius Grammaticus"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ammonius Grammaticus" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{multiple issues|
+{{one source|date=February 2012}}
+{{no footnotes|date=February 2012}}
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Ammonius Grammaticus&amp;apos;&amp;apos;&amp;apos; is the supposed author of a treatise titled &amp;apos;&amp;apos;Peri homoíōn kai diaphórōn léxeōn&amp;apos;&amp;apos; (περὶ ὁμοίων καὶ διαφόρων λέξεων, &amp;apos;&amp;apos;On the Differences of Synonymous Expressions&amp;apos;&amp;apos;), of whom nothing is known.
+
+He was formerly identified with an [[Egypt]]ian priest who, after the destruction of the pagan temple at [[Alexandria, Egypt|Alexandria]] (389), fled to [[Constantinople]], where he became the tutor of the ecclesiastical historian [[Socrates Scholasticus|Socrates]].  But it seems more probable
+that the real author was [[Herennius Philo]] of Byblus, who was born during the reign of [[Nero]] and lived till the reign of [[Hadrian]], and that the treatise in its present form is a revision prepared by a later Byzantine editor, whose name may have been Ammonius.
+
+==References==
+*{{1911}}
+
+{{Persondata
+| NAME              = Ammonius Grammaticus
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION = Egyptian author
+| DATE OF BIRTH     =
+| PLACE OF BIRTH    =
+| DATE OF DEATH     =
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Ammonius Grammaticus}}
+[[Category:Ancient Greek grammarians]]
+[[Category:Year of birth unknown]]
+[[Category:Year of death unknown]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

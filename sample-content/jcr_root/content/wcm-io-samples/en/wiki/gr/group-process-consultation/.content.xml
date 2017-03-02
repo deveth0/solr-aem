@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Group process consultation"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Group process consultation" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+&amp;apos;&amp;apos;&amp;apos;Group process consultation&amp;apos;&amp;apos;&amp;apos; consists of activities designed to increase group [[awareness]] and [[understanding]], so that the group or organization can take steps to improve the way that its members work together.
+
+The [[consultant]] or [[Trainer (business)|trainer]] observes the interactions between members of the organization in the normal flow of work and in the conduct of meetings. The trainer or consultant then provides [[feedback]] to members of the organization or group to help them learn to identify the attitudes and behaviors that help or hinder the group&amp;apos;s success, and to take steps to improve the way the group functions.
+
+{{DEFAULTSORT:Group Process Consultation}}
+[[Category:Group psychotherapy]]
+
+
+{{Psychology-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

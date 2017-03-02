@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Irish Benevolent Society of London, Ontario"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Irish Benevolent Society of London, Ontario" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{primary sources|date=April 2009}}
+{{Infobox Organization
+|name = Irish Benevolent Society of London, Ontario
+|image =
+|image_border =
+|size = 280px
+|caption =
+|map =
+|msize =
+|mcaption =
+|abbreviation = IBSL
+|motto =
+|formation =
+|extinction =
+|type = Irish organization based in [[London, Ontario|London]], [[Ontario]], [[Canada]]
+|status = active
+|purpose = advocate and public voice, educator and network
+|headquarters = [[London, Ontario|London]], [[Ontario]], [[Canada]]
+|location =
+|region_served = [[London, Ontario|London]], [[Ontario]], [[Canada]]
+|membership =
+|language = [[English language|English]], [[French language|French]]
+|leader_title =
+|leader_name =
+|main_organ =
+|parent_organization =
+|affiliations = [[Benevolent Irish Society]]
+|num_staff =
+|num_volunteers =
+|budget =
+|website =*[http://www.irishbenevolentsociety.ca Irish Benevolent Society website]
+|remarks = }}
+&amp;apos;&amp;apos;&amp;apos;The Irish Benevolent Society of [[London, Ontario]]&amp;apos;&amp;apos;&amp;apos; is a philanthropic organization founded on March 1, 1877. Its purposes are to provide opportunities for [[Canada|Canadians]] of [[Ireland|Irish]] descent and their friends to engage in benevolent activities and to preserve their Irish heritage.
+
+The Society was unique at the time of its foundation in accepting both [[Roman Catholic]] and [[Protestant]] members. In much of [[Ontario]] [[sectarianism]] ruled, and continued to rule until well into the twentieth century, with the [[Orange Institution|Orange Order]] pitted against Roman Catholic and other organizations. In fact, the constitution of the Society provides that presidents (who are elected for one year) must be alternately Roman Catholic and Protestant. The discussion of Irish politics has also been forbidden at meetings since the Society&amp;apos;s inception. The Society was immediately popular, and as a result of its popularity the importance of separate Protestant and Roman Catholic organizations in municipal politics was markedly reduced.
+
+The Society&amp;apos;s chief fundraising event benefits the [[Lawson Health Research Institute]], but it also helps many other institutions and individuals.
+
+==See also==
+* The [[Benevolent Irish Society]]
+
+==External links==
+*[http://www.irishbenevolentsociety.ca Irish Benevolent Society website]
+
+[[Category:Irish-Canadian culture in Ontario]]
+[[Category:Organizations based in London, Ontario]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

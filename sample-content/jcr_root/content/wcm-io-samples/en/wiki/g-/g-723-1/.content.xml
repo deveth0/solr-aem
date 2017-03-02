@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="G.723.1"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="G.723.1" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;G.723.1&amp;apos;&amp;apos;&amp;apos; is an audio [[codec]] for voice that compresses voice audio in 30 ms frames. An algorithmic look-ahead of 7.5 ms duration means that total algorithmic delay is 37.5 ms. Its official name is &amp;apos;&amp;apos;Dual rate speech coder for multimedia communications transmitting at 5.3 and 6.3 kbit/s&amp;apos;&amp;apos;.
+
+Note that this is a completely different codec from [[G.723]].
+
+There are two [[bit rate]]s at which G.723.1 can operate:
+* 6.3 kbit/s (using 24 byte frames) using a [[MPC-MLQ]] algorithm ([[Mean Opinion Score|MOS]] 3.9)
+* 5.3 kbit/s (using 20 byte frames) using an [[ACELP]] algorithm ([[Mean Opinion Score|MOS]] 3.62)
+
+== Use ==
+G.723.1 is mostly used in Voice over IP ([[VoIP]]) applications due to its low bandwidth requirement. Music or tones such as [[DTMF]] or [[fax]] tones cannot be transported reliably with this codec, and thus some other method such as [[G.711]] or [[out-of-band signaling|out-of-band]] methods should be used to transport these signals. The complexity of the algorithm is below 16 MIPS. 2.2 kilobytes of RAM is needed for codebooks.
+
+G.723.1 is a required audio codec in the [[H.324]] ITU-T recommendation for H.324 terminals offering audio communication. In [[3GPP]] [[3G-324M]] specification support for G.723.1 is not mandatory, but recommended.
+
+== Features ==
+* Sampling frequency 8&amp;amp;nbsp;kHz/16-bit (240 samples for 30 ms frames)
+* Fixed bit rate (5.3 kbit/s with 20 byte 30 ms frames, 6.3 kbit/s with 24 byte 30 ms frames)
+* Fixed frame size for each rate (5.3 kbit/s with 20 byte 30 ms frames, 6.3 kbit/s with 24 byte 30 ms frames)
+* Algorithmic delay is 37.5 ms per frame, with 7.5 ms look-ahead delay
+* G.723 is a hybrid speech coder, with high bit rate using Multi-Pulse Maximum Likelihood Quantization (MP-MLQ) and low bit rate using Algebraic Code Excited Linear Prediction (ACELP)
+* The complexity of the algorithm is rated at 25, using a relative scale where [[G.711]] is 1 and [[G.729a]] is 15.
+* G.723.1 Annex A defines 4 byte Silence Insertion Descriptor (SID) frame for [[Comfort noise|Comfort Noise Generation]]
+* [[PSQM]] testing under ideal conditions yields [[Mean Opinion Score]]s of 4.08 for G.723.1 (6.3 kbit/s), compared to 4.45 for [[G.711]] ([[μ-law]])
+*[[PSQM]] testing under network stress yields [[Mean Opinion Score]]s of 3.57 for G.723.1 (6.3 kbit/s), compared to 4.13 for [[G.711]] ([[μ-law]])
+
+== Licensing ==
+Use of G.723.1 requires a license for the patents that cover the algorithm. The last patent will expire in 2014.
+
+The authorized [[intellectual property rights]] (IPR) &amp;apos;&amp;apos;Licensing Administrator&amp;apos;&amp;apos; for G.723.1 technology is Sipro Lab Telecom.&amp;lt;ref name=&amp;quot;sipro&amp;quot;&amp;gt;{{cite web |author=VoiceAge Corporation |url=http://www.voiceage.com/licg7231.php |title=G.723.1 Licensing |date=2007-10-14 |accessdate=2009-09-17 |archiveurl=http://web.archive.org/web/20071014161510/http://www.voiceage.com/licg7231.php |archivedate=2007-10-14}}&amp;lt;/ref&amp;gt;&amp;lt;ref name=&amp;quot;siprolab-faq&amp;quot;&amp;gt;{{cite web |author=Sipro Lab Telecom |url=http://www.sipro.com/faq.php |title=FAQ G.729 and G.723.1 |date=2007-10-25 |accessdate=2009-09-17 |archiveurl=http://web.archive.org/web/20071025051836/http://www.sipro.com/faq.php |archivedate=2007-10-25}}&amp;lt;/ref&amp;gt;&amp;lt;ref name=&amp;quot;siprolab-g723&amp;quot;&amp;gt;{{cite web |author=Sipro Lab Telecom |url=http://www.sipro.com/g7231.php |title=G.723.1, the highest ITU-T compression ratio |date=2006-10-29 |accessdate=2009-09-17 |archiveurl=http://web.archive.org/web/20061029005629/http://www.sipro.com/g7231.php |archivedate=2006-10-29}}&amp;lt;/ref&amp;gt;
+
+Members of the G.723.1 [[patent pool]] are [[AudioCodes]], [[France Telecom]], [[Université de Sherbrooke]], [[Nippon Telegraph and Telephone Corporation]] and [[Nokia]].&amp;lt;ref name=&amp;quot;siprolab-g723-patentpool&amp;quot;&amp;gt;{{cite web |author=Sipro Lab Telecom |url=http://www.sipro.com/g723members.php |title=G.723.1 - Members |date=2006-10-29 |accessdate=2009-09-17 |archiveurl=http://web.archive.org/web/20061029005826/http://www.sipro.com/g723members.php |archivedate=2006-10-29}}&amp;lt;/ref&amp;gt;
+
+== See also ==
+* [[List of codecs]]
+* [[Comparison of audio codecs]]
+* [[RTP audio video profile]]
+
+== References ==
+{{reflist}}
+
+== External links ==
+* [http://www.itu.int/rec/T-REC-G.723.1 ITU-T Recommendation G.723.1] - technical speciffication
+* [http://www.itu.int/ITU-T/ipr/index.html ITU Patent database]
+* [http://www.sipro.com/g7231.php Sipro administers the patent pool for G.723.1 and G.729]
+
+{{Compression formats}}
+
+[[Category:Audio codecs]]
+[[Category:Speech codecs]]
+[[Category:ITU-T recommendations]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

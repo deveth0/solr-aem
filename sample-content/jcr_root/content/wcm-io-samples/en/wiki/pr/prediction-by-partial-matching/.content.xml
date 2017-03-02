@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Prediction by partial matching"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Prediction by partial matching" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Prediction by partial matching&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;&amp;apos;PPM&amp;apos;&amp;apos;&amp;apos;) is an adaptive [[statistics|statistical]] [[data compression]] technique based on [[context modeling]] and [[prediction]]. PPM models use a set of previous symbols in the uncompressed symbol stream to predict the next symbol in the stream.  PPM algorithms can also be used to cluster data into predicted groupings in [[cluster analysis]].
+
+== Theory ==
+
+Predictions are usually reduced to [[symbol]] [[ranking]]s. The number of previous symbols, &amp;apos;&amp;apos;n&amp;apos;&amp;apos;, determines the order of the PPM model which is denoted as PPM(&amp;apos;&amp;apos;n&amp;apos;&amp;apos;). Unbounded variants where the context has no length limitations also exist and are denoted as &amp;apos;&amp;apos;PPM*&amp;apos;&amp;apos;. If no prediction can be made based on all n context symbols a prediction is attempted with &amp;apos;&amp;apos;n&amp;apos;&amp;apos;&amp;amp;nbsp;&amp;amp;minus;&amp;amp;nbsp;1 symbols. This process is repeated until a match is found or no more symbols remain in context. At that point a fixed prediction is made.
+
+Much of the work in optimizing a PPM model is handling inputs that have not already occurred in the input stream. The obvious way to handle them is to create a &amp;quot;never-seen&amp;quot; symbol which triggers the [[escape sequence]]. But what probability should be assigned to a symbol that has never been seen? This is called the [[zero-frequency problem]]. One variant uses the Laplace estimator, which assigns the &amp;quot;never-seen&amp;quot; symbol a fixed [[pseudocount]] of one. A variant called &amp;apos;&amp;apos;&amp;apos;PPMD&amp;apos;&amp;apos;&amp;apos; increments the pseudocount of the &amp;quot;never-seen&amp;quot; symbol every time the &amp;quot;never-seen&amp;quot; symbol is used. (In other words, PPMD estimates the probability of a new symbol as the ratio of the number of unique symbols to the total number of symbols observed).
+
+== Implementation ==
+
+PPM compression implementations vary greatly in other details. The actual symbol selection is usually recorded using [[arithmetic coding]], though it is also possible to use [[Huffman encoding]] or even some type of [[dictionary coder|dictionary coding]] technique. The underlying model used in most PPM algorithms can also be extended to predict multiple symbols. It is also possible to use non-Markov modeling to either replace or supplement Markov modeling. The symbol size is usually static, typically a single byte, which makes generic handling of any file format easy.
+&amp;lt;!-- Some PPM algorithms have the useful property of being able to interpret any collection of bytes as valid compressed input. An algorithm with this property is said to be bijective. Bijectiveness has positive implications for compression efficiency and security because there is no way to distinguish random data from valid output. [see talk page [[User:M.e|m.e.]] 10:34, 8 Oct 2004 (UTC)] --&amp;gt;
+
+Published research on this family of algorithms can be found as far back as the mid-1980s. Software implementations were not popular until the early 1990s because PPM algorithms require a significant amount of [[Random Access Memory|RAM]]. Recent PPM implementations are among the best-performing [[lossless compression]] programs for [[natural language]] text.
+
+Trying to improve PPM algorithms led to the [[PAQ]] series of data compression algorithms.
+
+A PPM algorithm, rather than being used for compression, is used to increase the efficiency of user input in the alternate input method program [[Dasher (software)|Dasher]].
+
+== References ==
+* J.G. Cleary, and I.H. Witten, [http://ieeexplore.ieee.org/search/wrapper.jsp?arnumber=1096090 Data compression using adaptive coding and partial string matching], &amp;apos;&amp;apos;IEEE Transactions on Communications&amp;apos;&amp;apos;, Vol. &amp;apos;&amp;apos;&amp;apos;32&amp;apos;&amp;apos;&amp;apos; (4), pp. 396&amp;amp;ndash;402, April 1984.
+* A. Moffat, {{doi-inline|10.1109/26.61469|Implementing the PPM data compression scheme}}, &amp;apos;&amp;apos;IEEE Transactions on Communications&amp;apos;&amp;apos;, Vol. &amp;apos;&amp;apos;&amp;apos;38&amp;apos;&amp;apos;&amp;apos; (11), pp. 1917&amp;amp;ndash;1921, November 1990.
+* J.G. Cleary, W.J. Teahan, and I.H. Witten, Unbounded length contexts for PPM, In J.A. Storer and M. Cohn, editors, &amp;apos;&amp;apos;Proceedings DCC-95&amp;apos;&amp;apos;, IEEE Computer Society Press, 1995.
+* C. Bloom, [http://www.cbloom.com/papers/ppmz.zip Solving the problems of context modeling].
+* W.J. Teahan, [http://cotty.16x16.com/compress/peppm.htm Probability estimation for PPM].
+* T. Schürmann and P. Grassberger, [http://scitation.aip.org/getabs/servlet/GetabsServlet?prog=normal&amp;amp;id=CHAOEH000006000003000414000001&amp;amp;idtype=cvips&amp;amp;gifs=yes Entropy estimation of symbol sequences], &amp;apos;&amp;apos;Chaos&amp;apos;&amp;apos;, Vol. &amp;apos;&amp;apos;&amp;apos;6&amp;apos;&amp;apos;&amp;apos;, pp. 414&amp;amp;ndash;427, September 1996.
+
+== See also ==
+
+* [[Language model]]
+* [[N-gram]]
+
+== External links ==
+* [http://mattmahoney.net/dc/text.html Suite of PPM compressors with benchmarks]
+* [http://www3.sympatico.ca/mt0000/bicom/bicom.html BICOM, a bijective PPM compressor]
+* [http://dogma.net/markn/articles/arith/part2.htm &amp;quot;Arithmetic Coding + Statistical Modeling = Data Compression&amp;quot;, Part 2]
+* {{ru icon}} [http://compression.ru/ds/ PPMd compressor] by Dmitri Shkarin
+
+{{Compression Methods}}
+
+[[Category:Lossless compression algorithms]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

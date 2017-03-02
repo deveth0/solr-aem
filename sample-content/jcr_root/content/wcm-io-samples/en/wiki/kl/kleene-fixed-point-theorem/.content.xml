@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Kleene fixed-point theorem"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Kleene fixed-point theorem" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2011}}
+
+In the [[mathematics|mathematical]] areas of [[order theory|order]] and [[lattice theory]], the &amp;apos;&amp;apos;&amp;apos;Kleene fixed-point theorem&amp;apos;&amp;apos;&amp;apos;, named after American mathematician [[Stephen Cole Kleene]], states the following:
+:&amp;apos;&amp;apos;Let L be a [[complete partial order]], and let f&amp;amp;nbsp;:&amp;amp;nbsp;L&amp;amp;nbsp;→&amp;amp;nbsp;L be a [[Scott continuity|Scott-continuous]] (and therefore [[monotone function|monotone]]) [[function (mathematics)|function]]. Then f has a [[least fixed point]], which is the [[supremum]] of the ascending Kleene chain of f.
+
+The &amp;apos;&amp;apos;&amp;apos;ascending Kleene chain&amp;apos;&amp;apos;&amp;apos; of &amp;apos;&amp;apos;f&amp;apos;&amp;apos; is the [[chain (order theory)|chain]]
+
+:&amp;lt;math&amp;gt;\bot \; \le \; f(\bot) \; \le \; f\left(f(\bot)\right) \; \le \; \dots \; \le \; f^n(\bot) \; \le \; \dots&amp;lt;/math&amp;gt;
+
+obtained by [[iterated function|iterating]] &amp;apos;&amp;apos;f&amp;apos;&amp;apos; on the [[least element]] ⊥ of &amp;apos;&amp;apos;L&amp;apos;&amp;apos;. Expressed in a formula, the theorem states that
+
+:&amp;lt;math&amp;gt;\textrm{lfp}(f) = \sup \left(\left\{f^n(\bot) \mid n\in\mathbb{N}\right\}\right)&amp;lt;/math&amp;gt;
+
+where &amp;lt;math&amp;gt;\textrm{lfp}&amp;lt;/math&amp;gt; denotes the least fixed point.
+
+This result is often attributed to [[Alfred Tarski]], but [[Tarski&amp;apos;s fixed point theorem]] pertains to monotone functions on complete lattices.
+
+== Proof ==
+
+We first have to show that the ascending Kleene chain of &amp;apos;&amp;apos;f&amp;apos;&amp;apos; exists in L. To show that, we prove the following lemma:
+
+:Lemma 1:&amp;apos;&amp;apos;If L is CPO, and f&amp;amp;nbsp;:&amp;amp;nbsp;L&amp;amp;nbsp;→&amp;amp;nbsp;L is a Scott-continuous, then &amp;lt;math&amp;gt;f^n(\bot) \le f^{n+1}(\bot), n \in \mathbb{N}_0&amp;lt;/math&amp;gt;
+
+Proof by induction:
+* Assume n = 0. Then &amp;lt;math&amp;gt;f^0(\bot) = \bot \leq f^1(\bot)&amp;lt;/math&amp;gt;, since ⊥ is the least element.
+* Assume n &amp;gt; 0. Then we have to show that &amp;lt;math&amp;gt;f^n(\bot) \leq f^{n+1}(\bot)&amp;lt;/math&amp;gt;. By rearranging we get &amp;lt;math&amp;gt;f(f^{n-1}(\bot)) \leq f(f^n(\bot))&amp;lt;/math&amp;gt;. By inductive assumption, we know that &amp;lt;math&amp;gt;f^{n-1}(\bot) \leq f^n(\bot)&amp;lt;/math&amp;gt; holds, and because f is monotone (property of Scott-continuous functions), the result holds as well.
+
+Immediate corollary of Lemma 1 is the existence of the chain.
+
+Let &amp;lt;math&amp;gt;\mathbb{M}&amp;lt;/math&amp;gt; be the set of all elements of the chain: &amp;lt;math&amp;gt;\mathbb{M} = \{ \bot, f(\bot), f(f(\bot)), \ldots\}&amp;lt;/math&amp;gt;. This set is clearly directed due to Lemma 1. From definition of CPO follows that this set has a supremum, we will call it &amp;lt;math&amp;gt;m&amp;lt;/math&amp;gt;. What remains now is to show that &amp;lt;math&amp;gt;m&amp;lt;/math&amp;gt; is the least fixed-point.
+
+First, we show that &amp;lt;math&amp;gt;m&amp;lt;/math&amp;gt; is a fixed point. That is, we have to show that &amp;lt;math&amp;gt;f(m) = m&amp;lt;/math&amp;gt;. Because &amp;lt;math&amp;gt;f&amp;lt;/math&amp;gt; is [[Scott continuity|Scott-continuous]], &amp;lt;math&amp;gt;f(\sup(\mathbb{M})) = \sup(f(\mathbb{M}))&amp;lt;/math&amp;gt;, that is &amp;lt;math&amp;gt;f(m) = \sup(f(\mathbb{M}))&amp;lt;/math&amp;gt;. Also, &amp;lt;math&amp;gt;\sup(f(\mathbb{M})) = \sup(\mathbb{M})&amp;lt;/math&amp;gt; (from the property of the chain) and from that &amp;lt;math&amp;gt;f(m) = m&amp;lt;/math&amp;gt;, making &amp;lt;math&amp;gt;m&amp;lt;/math&amp;gt; a fixed-point of &amp;lt;math&amp;gt;f&amp;lt;/math&amp;gt;.
+
+The proof that &amp;lt;math&amp;gt;m&amp;lt;/math&amp;gt; is in fact the &amp;apos;&amp;apos;least&amp;apos;&amp;apos; fixed point can be done by showing that any Element in &amp;lt;math&amp;gt;\mathbb{M}&amp;lt;/math&amp;gt; is smaller than any fixed-point of &amp;lt;math&amp;gt;f&amp;lt;/math&amp;gt;. This is done by induction: Assume &amp;lt;math&amp;gt;k&amp;lt;/math&amp;gt; is some fixed-point of &amp;lt;math&amp;gt;f&amp;lt;/math&amp;gt;. We now proof by induction over &amp;lt;math&amp;gt;i&amp;lt;/math&amp;gt; that &amp;lt;math&amp;gt;\forall i \in \mathbb{N}\colon f^i(\bot) \sqsubseteq k&amp;lt;/math&amp;gt;. For the induction start, we take &amp;lt;math&amp;gt;i = 0&amp;lt;/math&amp;gt;: &amp;lt;math&amp;gt;f^0(\bot) = \bot \sqsubseteq k&amp;lt;/math&amp;gt; obviously holds, since &amp;lt;math&amp;gt;\bot&amp;lt;/math&amp;gt; is the smallest element of &amp;lt;math&amp;gt;L&amp;lt;/math&amp;gt;. As the induction hypothesis, we may assume that &amp;lt;math&amp;gt;f^i(\bot) \sqsubseteq k&amp;lt;/math&amp;gt;. We now do the induction step: From the induction hypothesis and the monotonicity of &amp;lt;math&amp;gt;f&amp;lt;/math&amp;gt; (again, implied by the Scott-continuity of &amp;lt;math&amp;gt;f&amp;lt;/math&amp;gt;), we may conclude the following: &amp;lt;math&amp;gt;f^i(\bot) \sqsubseteq k ~\implies~ f^{i+1}(\bot) \sqsubseteq f(k)&amp;lt;/math&amp;gt;. Now, by the assumption that &amp;lt;math&amp;gt;k&amp;lt;/math&amp;gt; is a fixed-point of &amp;lt;math&amp;gt;f&amp;lt;/math&amp;gt;, we know that &amp;lt;math&amp;gt;f(k) = k&amp;lt;/math&amp;gt;, and from that we get &amp;lt;math&amp;gt;f^{i+1}(\bot) \sqsubseteq k&amp;lt;/math&amp;gt;.
+
+== See also ==
+* [[Knaster–Tarski theorem]]
+* Other [[fixed-point theorem]]s
+
+[[Category:Order theory]]
+[[Category:Fixed-point theorems]]
+
+{{mathlogic-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

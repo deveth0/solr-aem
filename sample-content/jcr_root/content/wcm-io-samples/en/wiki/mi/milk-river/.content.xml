@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Milk River"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Milk River" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;Milk River&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+==Rivers==
+;Canada and the United States
+*The [[Milk River (British Columbia)]], a tributary of the upper [[Fraser River]] in Canada
+*The [[Milk River (Michigan)]], United States
+*The [[Milk River (Alberta–Montana)]], a tributary of the Missouri River
+;Jamaica
+*The [[Milk River (Jamaica)]]
+;Nepal
+*The [[Dudh Kosi]] in Nepal
+
+==Places==
+*[[Milk River, Alberta]], a town in Canada
+*[[Milk River Ridge]], Alberta, Canada
+*[[Milk River Bath]], Jamaica
+
+==Other uses==
+*[[Milk River Ridge Reservoir]], a large body of water in Southern Alberta, Canada
+*Milk River, a painting by [[Agnes Martin]]
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

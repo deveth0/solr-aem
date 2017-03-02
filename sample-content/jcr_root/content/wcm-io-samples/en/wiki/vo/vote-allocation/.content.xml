@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Vote allocation"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Vote allocation" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=October 2007}}
+&amp;apos;&amp;apos;&amp;apos;Vote allocation&amp;apos;&amp;apos;&amp;apos; is a system of [[tactical voting]] used in the [[Republic of China]] on [[Taiwan]] from the late-1990s until 2004, after which the voting system is to be changed from [[single non-transferable vote]] to a [[parallel voting]] system. In this system, voters are asked to vote for a party candidate based on items such as their day of birthday so as to evenly distribute votes. In districts where a party is running two candidates, males may be asked to vote for one candidate and females for another to insure even distribution. It was also practice in Japan and South Korea, where the SNTV  system were used.
+
+Hong Kong political parties started to adopt this strategy since 2000 to overcome the effect of the largest remainder system with Hare quota combined with small constituencies (5- to 8-member in 2008). They are able to get more seats with fewer votes by filling separate lists of candidates in the same constituencies.
+
+[[Category:Elections]]
+[[Category:Politics of Taiwan]]
+[[Category:Elections in Hong Kong]]
+
+{{election-stub}}
+{{Taiwan-poli-stub}}
+{{hK-poli-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Leam, Derbyshire"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Leam, Derbyshire" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox UK place
+|country                  = England
+|static_image             = [[Image:578971 36122937-by-Roger-Temple.jpg|240px]]
+|static_image_caption=Leam Farm.
+|latitude                 = 53.309
+|longitude                = -1.651
+|map_type                 = Derbyshire
+|official_name            = Leam
+|population               =
+|shire_district           = [[Derbyshire Dales]]
+| shire_county            = [[Derbyshire]]
+|region                   = East Midlands
+|constituency_westminster =
+|post_town                = HOPE VALLEY
+|postcode_district        =S32
+|postcode_area            = S
+|dial_code                =
+|os_grid_reference        = SK233791
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Leam&amp;apos;&amp;apos;&amp;apos; is a [[hamlet (place)|hamlet]] in the [[England|English]] county of [[Derbyshire]]. There are a number of buildings, which once formed a single estate.
+
+Leam is due south of [[Hathersage]], close to [[Grindleford]]. There are several inhabitants.{{Citation needed|date=April 2010}}
+
+== External links ==
+*
+
+
+
+
+{{Derbyshire-geo-stub}}
+
+[[Category:Hamlets in Derbyshire]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Greatest element"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Greatest element" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[mathematics]], especially in [[order theory]], the &amp;apos;&amp;apos;&amp;apos;greatest element&amp;apos;&amp;apos;&amp;apos; of a subset &amp;apos;&amp;apos;S&amp;apos;&amp;apos; of a [[partially ordered set]] (poset) is an element of &amp;apos;&amp;apos;S&amp;apos;&amp;apos; which is greater than or equal to any other element of &amp;apos;&amp;apos;S&amp;apos;&amp;apos;. The term &amp;apos;&amp;apos;&amp;apos;least element&amp;apos;&amp;apos;&amp;apos; is defined [[duality (order theory)|dually]]. A &amp;apos;&amp;apos;&amp;apos;bounded poset&amp;apos;&amp;apos;&amp;apos; is a poset that has both a greatest element and a least element.
+
+Formally, given a partially ordered set (&amp;apos;&amp;apos;P&amp;apos;&amp;apos;, ≤), then an element &amp;apos;&amp;apos;g&amp;apos;&amp;apos; of a subset &amp;apos;&amp;apos;S&amp;apos;&amp;apos; of &amp;apos;&amp;apos;P&amp;apos;&amp;apos; is the greatest element of &amp;apos;&amp;apos;S&amp;apos;&amp;apos; if
+
+: &amp;apos;&amp;apos;s&amp;apos;&amp;apos; ≤ &amp;apos;&amp;apos;g&amp;apos;&amp;apos;, for all elements &amp;apos;&amp;apos;s&amp;apos;&amp;apos; of &amp;apos;&amp;apos;S&amp;apos;&amp;apos;.
+
+Hence, the greatest element of &amp;apos;&amp;apos;S&amp;apos;&amp;apos; is an [[upper bound]] of &amp;apos;&amp;apos;S&amp;apos;&amp;apos; that is contained within this subset. It is necessarily unique. By using ≥ instead of ≤ in the above definition, one defines the least element of &amp;apos;&amp;apos;S&amp;apos;&amp;apos;.
+
+Like upper bounds, greatest elements may fail to exist. Even if a set has some upper bounds, it need not have a greatest element, as shown by the example of the negative real numbers.  This example also demonstrates that the existence of a [[least upper bound]] (the number 0 in this case) does not imply the existence of a greatest element either. Similar conclusions hold for least elements. A finite [[chain (order theory)|chain]] always has a greatest and a least element.
+
+Greatest elements of a partially ordered subset must not be confused with [[maximal element]]s of such a set which are elements that are not smaller than any other element. A poset can have several maximal elements without having a greatest element.
+
+In a [[total order|totally ordered set]] both terms coincide; it is also called &amp;apos;&amp;apos;&amp;apos;maximum&amp;apos;&amp;apos;&amp;apos;; in the case of function values it is also called the &amp;apos;&amp;apos;&amp;apos;absolute maximum&amp;apos;&amp;apos;&amp;apos;, to avoid confusion with a local maximum. The dual terms are &amp;apos;&amp;apos;&amp;apos;minimum&amp;apos;&amp;apos;&amp;apos; and &amp;apos;&amp;apos;&amp;apos;absolute minimum&amp;apos;&amp;apos;&amp;apos;. Together they are called the &amp;apos;&amp;apos;&amp;apos;[[extreme value|absolute extrema]]&amp;apos;&amp;apos;&amp;apos;.
+
+The least and greatest elements of the whole partially ordered set play a special role and are also called &amp;apos;&amp;apos;&amp;apos;bottom&amp;apos;&amp;apos;&amp;apos; and &amp;apos;&amp;apos;&amp;apos;top&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;zero&amp;apos;&amp;apos;&amp;apos; (0) and &amp;apos;&amp;apos;&amp;apos;unit&amp;apos;&amp;apos;&amp;apos; (1), respectively. The latter notation of 0 and 1 is only used when no confusion is likely, i.e. when one is not talking about partial orders of numbers that already contain elements 0 and 1. The existence of least and greatest elements is a special [[completeness (order theory)|completeness property]] of a partial order. Bottom and top are often represented by the symbols ⊥ and ⊤, respectively.
+
+Further introductory information is found in the article on [[order theory]].
+==Examples==
+*&amp;apos;&amp;apos;&amp;apos;Z&amp;apos;&amp;apos;&amp;apos; in &amp;apos;&amp;apos;&amp;apos;R&amp;apos;&amp;apos;&amp;apos; has no upper bound.
+*Let the relation &amp;quot;≤&amp;quot; on {&amp;apos;&amp;apos;a&amp;apos;&amp;apos;, &amp;apos;&amp;apos;b&amp;apos;&amp;apos;, &amp;apos;&amp;apos;c&amp;apos;&amp;apos;, &amp;apos;&amp;apos;d&amp;apos;&amp;apos;} be given by &amp;apos;&amp;apos;a&amp;apos;&amp;apos; ≤ &amp;apos;&amp;apos;c&amp;apos;&amp;apos;, &amp;apos;&amp;apos;a&amp;apos;&amp;apos; ≤ &amp;apos;&amp;apos;d&amp;apos;&amp;apos;, &amp;apos;&amp;apos;b&amp;apos;&amp;apos; ≤ &amp;apos;&amp;apos;c&amp;apos;&amp;apos;, &amp;apos;&amp;apos;b&amp;apos;&amp;apos; ≤ &amp;apos;&amp;apos;d&amp;apos;&amp;apos;. The set {&amp;apos;&amp;apos;a&amp;apos;&amp;apos;, &amp;apos;&amp;apos;b&amp;apos;&amp;apos;} has upper bounds &amp;apos;&amp;apos;c&amp;apos;&amp;apos; and &amp;apos;&amp;apos;d&amp;apos;&amp;apos;, but no least upper bound.
+*In &amp;apos;&amp;apos;&amp;apos;Q&amp;apos;&amp;apos;&amp;apos;, the set of numbers with their square less than 2 has upper bounds but no least upper bound.
+*In &amp;apos;&amp;apos;&amp;apos;R&amp;apos;&amp;apos;&amp;apos;, the set of numbers less than 1 has a least upper bound, but no greatest element.
+*In &amp;apos;&amp;apos;&amp;apos;R&amp;apos;&amp;apos;&amp;apos;, the set of numbers less than or equal to 1 has a greatest element.
+*In &amp;apos;&amp;apos;&amp;apos;R&amp;apos;&amp;apos;&amp;apos;² with the [[product order]], the set of (&amp;apos;&amp;apos;x&amp;apos;&amp;apos;, &amp;apos;&amp;apos;y&amp;apos;&amp;apos;) with 0 &amp;lt; &amp;apos;&amp;apos;x&amp;apos;&amp;apos; &amp;lt; 1 has no upper bound.
+*In &amp;apos;&amp;apos;&amp;apos;R&amp;apos;&amp;apos;&amp;apos;² with the [[lexicographical order]], this set has upper bounds, e.g. (1, 0). It has no least upper bound.
+
+== See also ==
+* [[Initial and terminal objects]]
+* [[Maximal element]]
+* [[Upper and lower bounds]]
+
+==References==
+* {{cite book
+ | last1=Davey | first1=B. A. | last2=Priestley | first2=H. A.
+ | year = 2002
+ | title = Introduction to Lattices and Order
+ | edition = 2nd
+ | publisher = [[Cambridge University Press]]
+ | isbn = 978-0-521-78451-1
+}}
+
+[[Category:Order theory]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

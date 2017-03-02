@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Domitius Marsus"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Domitius Marsus" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{one source|date=February 2012}}
+{{no footnotes|date=February 2012}}
+&amp;apos;&amp;apos;&amp;apos;Domitius Marsus&amp;apos;&amp;apos;&amp;apos; was a [[Latin]] [[poet]], friend of [[Virgil]] and [[Tibullus]], and contemporary of [[Horace]].
+
+He survived Tibullus (died 19 BC), but was no longer alive when [[Ovid]] wrote (c. 12 AD) the epistle from [[Pontus]] (&amp;apos;&amp;apos;E Ponto&amp;apos;&amp;apos;, iv. 16) containing a list of poets. He was the author of a collection of [[epigram]]s called &amp;apos;&amp;apos;Cicuta&amp;apos;&amp;apos; (&amp;quot;[[Cicuta|hemlock]]&amp;quot;) for their bitter sarcasm, and of a beautiful epitaph on the death of Tibullus; of elegiac poems, probably of an erotic character; of an epic poem &amp;apos;&amp;apos;Amazonis&amp;apos;&amp;apos;; and of a prose work on wit (&amp;apos;&amp;apos;De urbanitate&amp;apos;&amp;apos;).
+
+[[Martial]] often alludes to Marsus as one of his predecessors, but he is never mentioned by Horace, although a passage in the &amp;apos;&amp;apos;Odes&amp;apos;&amp;apos; (iv. 4, 19) is supposed to be an indirect allusion to the &amp;apos;&amp;apos;Amazonis&amp;apos;&amp;apos; (M. Haupt, &amp;apos;&amp;apos;Opuscula&amp;apos;&amp;apos;, iii. 332).
+
+See JA Weichert, &amp;apos;&amp;apos;Poetarum latinorum vitae et reliquiae&amp;apos;&amp;apos; (1830); R Unger, &amp;apos;&amp;apos;De Dom. Marsi cicuta&amp;apos;&amp;apos; (Friedland, 1861).
+
+{{1911}}
+
+{{DEFAULTSORT:Marsus, Domitius}}
+[[Category:Roman-era poets]]
+[[Category:Golden Age Latin writers]]
+[[Category:1st-century BC Romans]]
+[[Category:Epigrammatists]]
+[[Category:1st-century BC poets]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

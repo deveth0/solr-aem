@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Xanthorrhoea quadrangulata"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Xanthorrhoea quadrangulata" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Speciesbox
+|taxon = Xanthorrhoea quadrangulata
+|image = Xanthorrhoea quadrangulata HRM1.jpg
+|authority =
+}}
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Xanthorrhoea quadrangulata&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is a plant in the genus [[Xanthorrhoea]].
+
+
+==Gallery==
+{{Gallery
+| title =
+| lines = 4
+|File:Yaccas at Parra Wirra 1.JPG|alt1=Yaccas1|&amp;apos;&amp;apos;X. quadrangulata&amp;apos;&amp;apos; growing in crevices in granite gneiss outcrop at [[Para Wirra Recreation Park|Parra Wirra]], South Australia
+|File:Yaccas at Parra Wirra 2.JPG|alt1=Yaccas2|&amp;apos;&amp;apos;X. quadrangulata&amp;apos;&amp;apos; growing in crevice in granite gneiss outcrop at [[Para Wirra Recreation Park|Parra Wirra]], South Australia
+}}
+
+{{Commonscat|Xanthorrhoea quadrangulata}}
+
+[[Category:Xanthorrhoeoideae]]
+
+
+{{Asparagales-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

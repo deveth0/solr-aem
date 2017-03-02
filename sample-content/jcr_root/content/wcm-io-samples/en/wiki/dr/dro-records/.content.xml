@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Dro Records"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Dro Records" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Dro Records&amp;apos;&amp;apos;&amp;apos; is a [[Spain|Spanish]] [[record label]] founded in [[1982 in music|1982]] by the band [[Aviador Dro]].&amp;lt;ref name = list&amp;gt;* [http://www.allrecordlabels.com AllRecordLabels.com] very extensive site with links to over 20,000 current record labels
+&amp;lt;/ref&amp;gt; During the 80s Dro became the most important [[independent record label]] from [[Spain]] publishing artists that would define the decade.
+
+Later in the 90&amp;apos;s the multinational label [[Eastwest Records]] bought the label which was renamed [[Dro East West]].
+
+DRO is an acronym which stands for &amp;quot;Discos Radioactivos Organizados&amp;quot;, that means &amp;quot;Organized Radioactive Records&amp;quot;.
+==References==
+{{reflist}}
+==See also==
+* [[List of record labels]]
+
+[[Category:Spanish record labels]]
+[[Category:Defunct record labels]]
+[[Category:Record labels established in 1982]]
+[[Category:IFPI members]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

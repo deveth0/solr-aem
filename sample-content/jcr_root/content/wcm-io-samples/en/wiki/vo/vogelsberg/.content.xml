@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Vogelsberg"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Vogelsberg" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{For|the mountains in Hesse|Vogelsberg Mountains}}
+
+{{Infobox German location
+|Name              = Vogelsberg
+|image_photo       =
+|Wappen            = Wappen Vogelsberg (Thueringen).png
+|lat_deg           = 51 |lat_min = 8 |lat_sec = 2
+|lon_deg           = 11 |lon_min = 14 |lon_sec = 37
+|Lageplan = Vogelsberg in SÖM.png
+|Bundesland        = Thüringen
+|Landkreis         = Sömmerda
+|Verwaltungsgemeinschaft = An der Marke
+|Höhe              = 155
+|Fläche            = 12.84
+|Einwohner         = 739
+|Stand             = 2006-12-31
+|PLZ               = 99610
+|Vorwahl           = 036372
+|Kfz               = SÖM
+|Gemeindeschlüssel = 16 0 68 056
+|Adresse           = Neue Str. 3  &amp;lt;br /&amp;gt;99610 Vogelsberg
+|Website           = [http://www.vogelsberg-thueringen.de/ www.vogelsberg-thueringen.de]
+|Bürgermeister     = Gerhard Harsch
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Vogelsberg&amp;apos;&amp;apos;&amp;apos; is a [[Municipalities in Germany|municipality]] in the [[Sömmerda (district)|Sömmerda]] [[Districts of Germany|district]] of [[Thuringia]], [[Germany]].
+
+{{Cities and towns in Sömmerda (district)}}
+
+==References==
+{{Reflist}}
+
+{{Sömmerda-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

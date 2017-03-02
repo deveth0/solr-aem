@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Adaptive Communication Environment"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Adaptive Communication Environment" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox software
+| name                   = The ADAPTIVE Communication Environment (ACE)
+| logo                   =
+| author                 =
+| developer              =
+| released               =
+| latest release version = 6.1.5
+| latest release date    = {{release date|2012|10|12}}
+| latest preview version =
+| latest preview date    =
+| programming language   = [[C++]]
+| status                 = Active
+| genre                  = object-oriented C++ classes Framework for Network
+| license                =
+| website                = [http://www.cse.wustl.edu/~schmidt/ACE.html The ADAPTIVE Communication Environment (ACE)]
+| size                   =
+}}
+The &amp;apos;&amp;apos;&amp;apos;Adaptive Communication Environment&amp;apos;&amp;apos;&amp;apos; (often referred to as &amp;apos;&amp;apos;&amp;apos;ACE&amp;apos;&amp;apos;&amp;apos;) is an [[open source|open-source]] [[Software framework|framework]] used to simplify various aspects of network programming. It provides a set of high performance [[Object-oriented programming|object-oriented]] [[C++]] [[class (computer science)|class]]es designed to help address the inherent complexities and challenges in network programming by preventing common errors.&amp;lt;ref&amp;gt;[http://www.riverace.com/acebooks/index.htm#cnpv1 C++ Network Programming, Volume 1, Schmidt and Huston, Addison Wesley Professional, 2001]&amp;lt;/ref&amp;gt;
+
+==History==
+ACE was initially developed by [[Douglas C. Schmidt]] during his graduate work at the [[University of California, Irvine]]. Development followed him to the [[Washington University, St. Louis|Washington University in St. Louis]] where he was employed. It was there in the Distributed Object Computer (DOC) group where ACE was released as open source. Today, most of the development work on ACE continues as part of the Institute for Software Integrated Systems (ISIS) at [[Vanderbilt University]].&amp;lt;ref&amp;gt;[http://www.riverace.com/acebooks/index.htm#apg ACE Programmer&amp;apos;s Guide, The: Practical Design Patterns for Network and Systems Programming, Huston, Johnson and Syyid, Addison Wesley Professional, 2003]&amp;lt;/ref&amp;gt;
+
+==Features==
+ACE provides a standardized usage for operating system/machine specific features. It provides common data types and methods&amp;lt;ref&amp;gt;Wrapper Facade, A Structural Pattern for Encapsulating Functions within Classes, Schmidt, http://www.cs.wustl.edu/~schmidt/PDF/wrapper-facade.pdf, access October 22, 2008&amp;lt;/ref&amp;gt; to access the powerful but complex features of modern [[operating system]]s. These include: [[inter-process communication]], [[thread (computer science)|thread]] management, efficient [[memory management]], etc.
+
+It was designed to be portable and provides a common framework. The same code will work on most [[Unix]]es, [[Microsoft Windows]], [[VxWorks]], [[QNX]], [[OpenVMS]], etc., with minimal changes.&amp;lt;ref&amp;gt;Porting ACE to a New OS, http://www.dre.vanderbilt.edu/~schmidt/DOC_ROOT/ACE/docs/ACE-porting.html, accessed Oct. 22, 2008&amp;lt;/ref&amp;gt; Due to this [[cross-platform]] support, it has been widely used in the development of [[communication software]]. Some of the successful projects that have used ACE includes: [[Motorola]] [[Iridium (satellite)|Iridium]] satellites, [[Boeing Wedgetail]]&amp;apos;s Australian airborne early warning &amp;amp; control (AEW&amp;amp;C) system, and others.&amp;lt;ref&amp;gt;ACE and TAO Success Stories, http://www.cs.wustl.edu/~schmidt/TAO-users.html, Accessed Oct. 22, 2008&amp;lt;/ref&amp;gt;
+
+==Design patterns==
+One of the unique features of ACE is the extensive use of [[Software design pattern|design patterns]] in addressing the complexity of software. The ACE framework uses the following design patterns:&amp;lt;ref&amp;gt;Pattern-Oriented Software Architecture, Volume 2, Schmidt et al., Jon Wiley &amp;amp; Sons, Ltd, 2000&amp;lt;/ref&amp;gt;
+
+&amp;apos;&amp;apos;&amp;apos;Event handling patterns:&amp;apos;&amp;apos;&amp;apos;
+*[[Reactor pattern|Reactor]]
+*Acceptor-connector
+*[[Proactor pattern|proactor]]
+*Asynchronous completion token
+
+&amp;apos;&amp;apos;&amp;apos;Synchronization patterns:&amp;apos;&amp;apos;&amp;apos;
+*Scoped locking
+*Strategized locking
+*Thread-safe interface
+*[[Double-checked locking optimization]]
+
+&amp;apos;&amp;apos;&amp;apos;Concurrency patterns:&amp;apos;&amp;apos;&amp;apos;
+*[[Thread-specific storage]]
+*[[Monitor (synchronization)|monitor object]]
+*[[Active object]]
+*Half-synch/half-asynch
+*Leader/follower
+
+&amp;apos;&amp;apos;&amp;apos;Service access and configuration patterns:&amp;apos;&amp;apos;&amp;apos;
+*Component configurator
+*Interceptor
+*Extension interface
+*Wrapper facade
+
+==See also==
+*[[TAO (software)|TAO]] ([[component-integrated ACE ORB]] a [[CORBA]] implementation)
+*[[Component-integrated ACE ORB|CIAO]]
+*[[Communication software]]
+*[[Cross-platform support middleware]]
+
+==References==
+{{reflist}}
+
+==External links==
+*[http://www.cs.wustl.edu/~schmidt/ACE.html Official website]
+*[http://www.dre.vanderbilt.edu Distributed object computer (DOC) Group website]
+*[http://www.isis.vanderbilt.edu/research/DOC Institute for Software Integrated Systems (ISIS) website]
+*[http://doxygen.theaceorb.nl/libace-doc/index.html ACE Doxygen reference]
+*[http://www.acejoy.com ACE Developer Support Forum]
+
+[[Category:Application programming interfaces]]
+[[Category:Cross-platform software]]
+[[Category:C++ libraries]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

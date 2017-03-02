@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="The Interpretation of Music"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="The Interpretation of Music" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Orphan|date=February 2009}}
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;The Interpretation of Music&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is a book by Prof. [[Thurston Dart]]. It is described by the [[Encyclopædia Britannica]] as &amp;quot;the best direct and concise account of the issues of performance&amp;quot;.&amp;lt;ref&amp;gt;{{cite web |url=http://www.britannica.com/EBchecked/topic/399251/musical-performance |title=Musical Performance |work=[[Britannica Online]] |accessdate=2008-10-25 |format=select &amp;quot;Additional reading&amp;quot;}}&amp;lt;/ref&amp;gt;
+
+This book deals with correct performance conventions and procedures relevant to different periods and styles (for example Gregorian intonation, divisions upon parts, French [[baroque]] over-dotting, etc.). It covers these various topics in a chronological order, also giving descriptions of period instruments and their uses. It is a book useful for those wishing to compose in a more authentic antiquated style, and for those wishing to make performances more historically &amp;quot;correct&amp;quot;.
+
+==References==
+{{reflist}}
+
+{{DEFAULTSORT:Interpretation Of Music, The}}
+[[Category:Music books]]
+
+
+{{music-publication-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

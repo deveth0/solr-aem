@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Xylocarpus"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Xylocarpus" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Use mdy dates|date=February 2012}}
+{{taxobox
+|image=Xylocarpus granatum.jpg
+|image_caption=Cannonball mangrove in the Daintree region of Queensland, Australia.
+|regnum = [[Plantae]]
+|unranked_divisio = [[Angiosperms]]
+|unranked_classis = [[Eudicots]]
+|unranked_ordo = [[Rosids]]
+|ordo = [[Sapindales]]
+|familia = [[Meliaceae]]
+|genus = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Xylocarpus&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+|genus_authority = [[Johann Gerhard König|J.Koenig]]
+|subdivision_ranks = [[Species]]
+|subdivision = &amp;apos;&amp;apos;[[Xylocarpus granatum]]&amp;apos;&amp;apos;, Cannonball mangrove&amp;lt;br&amp;gt;
+&amp;apos;&amp;apos;[[Xylocarpus mekongensis]]&amp;apos;&amp;apos;, Cedar mangrove&amp;lt;br&amp;gt;
+&amp;apos;&amp;apos;[[Xylocarpus moluccensis]]&amp;apos;&amp;apos;, Cedar mangrove, puzzlenut
+|}}
+
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Xylocarpus&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is a [[genus]] of plants in the mahogany family ([[Meliaceae]]). It includes two&amp;lt;ref&amp;gt;&amp;quot;Xylocarpus&amp;quot;, NPGS-GRIN database, accessed June 1, 2008. [http://www.ars-grin.gov/cgi-bin/npgs/html/splist.pl?12981]&amp;lt;/ref&amp;gt; or three&amp;lt;ref&amp;gt; Raju, J.S.S.N &amp;quot;Xylocarpus (Meliaceae): A less-known mangrove taxon of the Godavari estuary, India&amp;quot;. &amp;apos;&amp;apos;Current Science&amp;apos;&amp;apos;, Indian Academy of Sciences, vol. 84, no. 7; April 10 2003, Pgs. 879–881 [http://www.ias.ac.in/currsci/apr102003/879.pdf]&amp;lt;/ref&amp;gt; species of [[mangrove]]s, native to coastal mangrove forests of the [[Western Indo-Pacific|Western]] and [[Central Indo-Pacific|Central]] [[Indo-Pacific]], from eastern Africa to [[Tonga]].
+
+&amp;apos;&amp;apos;Xylocarpus&amp;apos;&amp;apos; is the only mangrove genus in family Meliaceae.
+
+==References==
+{{reflist|colwidth=30em}}
+
+[[Category:Mangroves]]
+[[Category:Meliaceae]]
+
+{{Meliaceae-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

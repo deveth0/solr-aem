@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Vertex function"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Vertex function" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[quantum electrodynamics]], the &amp;apos;&amp;apos;&amp;apos;vertex function&amp;apos;&amp;apos;&amp;apos; describes the coupling between a photon and an electron beyond the leading order of [[perturbation theory (quantum mechanics)| perturbation theory]].  In particular, it is the [[one particle irreducible correlation function]] involving the [[fermion]] &amp;lt;math&amp;gt;\psi~&amp;lt;/math&amp;gt;, the antifermion &amp;lt;math&amp;gt;\bar{\psi}&amp;lt;/math&amp;gt;, and the [[vector potential]] &amp;apos;&amp;apos;&amp;apos;A&amp;apos;&amp;apos;&amp;apos;.
+
+==Definition==
+The vertex function Γ&amp;lt;sup&amp;gt;μ&amp;lt;/sup&amp;gt; can be defined in terms of a [[functional derivative]] of the [[effective action]] S&amp;lt;sub&amp;gt;eff&amp;lt;/sub&amp;gt; as
+
+:&amp;lt;math&amp;gt;\Gamma^\mu = -{1\over e}{\delta^3 S_{\mathrm{eff}}\over \delta \bar{\psi} \delta \psi \delta A_\mu}&amp;lt;/math&amp;gt;
+
+
+[[Image:vertex_correction.svg|thumb|The one-loop correction to the vertex function. This is the dominant contribution to the anomalous magnetic moment of the electron.]]
+The dominant (and classical) contribution to Γ&amp;lt;sup&amp;gt;μ&amp;lt;/sup&amp;gt; is the [[gamma matrix]] γ&amp;lt;sup&amp;gt;μ&amp;lt;/sup&amp;gt;, which explains the choice of the letter.  The vertex function is constrained by the symmetries of quantum electrodynamics -- [[Lorentz invariance]]; [[gauge invariance]] or the [[Photon polarization| transversality]] of the photon, as expressed by the [[Ward identity]]; and invariance under [[Parity (physics)| parity]] -- to take the following form:
+
+:&amp;lt;math&amp;gt; \Gamma^\mu = \gamma^\mu F_1(q^2) + \frac{i \sigma^{\mu\nu} q_{\nu}}{2 m} F_2(q^2) &amp;lt;/math&amp;gt;
+
+where &amp;lt;math&amp;gt; \sigma^{\mu\nu} = (i/2) [\gamma^{\mu}, \gamma^{\nu}] &amp;lt;/math&amp;gt;, &amp;lt;math&amp;gt; q_{\nu} &amp;lt;/math&amp;gt; is the incoming four-momentum of the external photon (on the right-hand side of the figure), and F&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt;(q&amp;lt;sup&amp;gt;2&amp;lt;/sup&amp;gt;) and F&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;(q&amp;lt;sup&amp;gt;2&amp;lt;/sup&amp;gt;) are &amp;apos;&amp;apos;form factors&amp;apos;&amp;apos; that depend only on the momentum transfer q&amp;lt;sup&amp;gt;2&amp;lt;/sup&amp;gt;.  At tree level (or leading order), F&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt;(q&amp;lt;sup&amp;gt;2&amp;lt;/sup&amp;gt;) = 1 and F&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;(q&amp;lt;sup&amp;gt;2&amp;lt;/sup&amp;gt;) = 0.  Beyond leading order, the corrections to F&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt;(0) are exactly canceled by the [[wave function renormalization]] of the incoming and outgoing electron lines according to the [[Ward-Takahashi identity]].  The form factor F&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;(0) corresponds to the [[anomalous magnetic moment]] &amp;apos;&amp;apos;a&amp;apos;&amp;apos; of the fermion, defined in terms of the [[Landé g-factor]] as:
+
+:&amp;lt;math&amp;gt; a = \frac{g-2}{2} = F_2(0) &amp;lt;/math&amp;gt;
+
+==References==
+*Michael E. Peskin and Daniel V. Schroeder, &amp;apos;&amp;apos;An Introduction to Quantum Field Theory&amp;apos;&amp;apos;, Addison-Wesley, Reading, 1995.
+
+{{QED}}
+
+[[Category:Quantum electrodynamics]]
+[[Category:Quantum field theory]]
+{{quantum-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

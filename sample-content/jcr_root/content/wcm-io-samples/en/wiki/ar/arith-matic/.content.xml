@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="ARITH-MATIC"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="ARITH-MATIC" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{no footnotes|date=March 2013}}
+:&amp;apos;&amp;apos;You may have been looking for [[arithmetic]], a branch of [[mathematics]].&amp;apos;&amp;apos;
+&amp;apos;&amp;apos;&amp;apos;ARITH-MATIC&amp;apos;&amp;apos;&amp;apos; is an extension of [[Grace Hopper]]&amp;apos;s  [[A-2 (programming language)|A-2]] [[programming language]], developed around 1955. ARITH-MATIC was originally known as A-3, but was renamed by the marketing department of [[Remington Rand]] [[UNIVAC]].
+
+&amp;lt;!--How was A-2 extended?--&amp;gt;
+
+==References==
+{{FOLDOC}}
+
+==See also==
+* [[A-0 System]]
+
+==External links==
+* [http://cispom.boisestate.edu/cis221emaxson/hophtm.htm Website at Boise] {{dead link|date=October 2011}}
+
+{{compu-lang-stub}}
+
+[[Category:Numerical programming languages]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

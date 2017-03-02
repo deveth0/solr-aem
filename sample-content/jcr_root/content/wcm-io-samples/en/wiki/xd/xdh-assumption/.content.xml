@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="XDH assumption"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="XDH assumption" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;external Diffie&amp;amp;ndash;Hellman (XDH) assumption&amp;apos;&amp;apos;&amp;apos; is a mathematic assumption used in [[elliptic curve cryptography]].  The XDH assumption holds that there exist certain [[subgroup]]s of elliptic curves which have useful properties for cryptography.  Specifically, XDH implies the existence of two distinct [[Group (mathematics)|groups]] &amp;lt;math&amp;gt;\langle{\mathbb G}_1, {\mathbb G}_2\rangle&amp;lt;/math&amp;gt; with the following properties:
+
+# The [[discrete logarithm problem]] (DLP), the [[computational Diffie&amp;amp;ndash;Hellman assumption|computational Diffie&amp;amp;ndash;Hellman problem]] (CDH), and the [[computational co-Diffie&amp;amp;ndash;Hellman assumption|computational co-Diffie&amp;amp;ndash;Hellman problem]] are all intractable in &amp;lt;math&amp;gt;{\mathbb G}_1&amp;lt;/math&amp;gt; and &amp;lt;math&amp;gt;{\mathbb G}_2&amp;lt;/math&amp;gt;.
+# There exists an efficiently computable [[bilinear map]] (pairing) &amp;lt;math&amp;gt;e(\cdot, \cdot) : {\mathbb G}_1 \times {\mathbb G}_2 \rightarrow {\mathbb G}_T&amp;lt;/math&amp;gt;.
+# The [[decisional Diffie&amp;amp;ndash;Hellman assumption|decisional Diffie&amp;amp;ndash;Hellman problem]] (DDH) is intractable in &amp;lt;math&amp;gt;{\mathbb G}_1&amp;lt;/math&amp;gt;.
+
+The above formulation is referred to as &amp;apos;&amp;apos;&amp;apos;asymmetric XDH&amp;apos;&amp;apos;&amp;apos;.  A stronger version of the assumption (&amp;apos;&amp;apos;&amp;apos;symmetric XDH&amp;apos;&amp;apos;&amp;apos;, or &amp;apos;&amp;apos;&amp;apos;SXDH&amp;apos;&amp;apos;&amp;apos;) holds if [[decisional Diffie&amp;amp;ndash;Hellman assumption|DDH]] is &amp;apos;&amp;apos;also&amp;apos;&amp;apos; intractable in &amp;lt;math&amp;gt;{\mathbb G}_2&amp;lt;/math&amp;gt;.
+
+The XDH assumption is used in some [[pairing-based cryptography|pairing-based]] cryptographic protocols.  In certain elliptic curve subgroups, the existence of an efficiently-computable [[bilinear map]] (pairing) can allow for practical solutions to the [[decisional Diffie&amp;amp;ndash;Hellman assumption|DDH]] problem.  These groups, referred to as [[gap Diffie&amp;amp;ndash;Hellman]] (GDH) groups, facilitate a variety of novel cryptographic protocols, including tri-partite [[key exchange]], [[identity based encryption]], and [[secret handshakes]] (to name a few).  However, the ease of computing DDH within a GDH group can also be an obstacle when constructing cryptosystems; for example, it is not possible to use DDH-based cryptosystems such as [[ElGamal encryption|Elgamal]] within a GDH group.  Because the DDH assumption holds within at least one of a pair of XDH groups, these groups can be used to construct pairing-based protocols which allow for  ElGamal-style encryption and other novel cryptographic techniques.
+
+In practice, it is believed that the XDH assumption may hold in certain subgroups of [[MNT curve|MNT]] elliptic curves.  This notion was first proposed by Scott (2002), and later by [[Dan Boneh|Boneh]], Boyen and Shacham (2002) as a means to improve the efficiency of a signature scheme.  The assumption was formally defined by Ballard, Green, de Medeiros and Monrose (2005), and full details of a proposed implementation were advanced in that work.  Evidence for the validity of this assumption is the proof by Verheul (2001) and Galbraith and Rotger (2004) of the non-existence of [[distortion map]]s in two specific elliptic curve subgroups which possess an efficiently computable pairing.  As pairings and distortion maps are currently the only known means to solve the DDH problem in elliptic curve groups, it is believed that the DDH assumption therefore holds in these subgroups, while pairings are still feasible between elements in distinct groups.
+
+==References==
+# Mike Scott.  Authenticated ID-based exchange and remote log-in with simple token and [[Personal identification number|PIN]]. E-print archive (2002/164), 2002. ([http://eprint.iacr.org/2002/164.pdf pdf file])
+# [[Dan Boneh]], Xavier Boyen, Hovav Shacham.  Short Group Signatures.  CRYPTO 2004. ([http://crypto.stanford.edu/~dabo/papers/groupsigs.pdf pdf file])
+# Lucas Ballard, Matthew Green, Breno de Medeiros, Fabian Monrose.  Correlation-Resistant Storage via Keyword-Searchable Encryption.  E-print archive (2005/417), 2005.  ([http://eprint.iacr.org/2005/417.pdf pdf file])
+# Steven D Galbraith, Victor Rotger.  Easy Decision Diffie&amp;amp;ndash;Hellman Groups.  LMS Journal of Computation and Mathematics, August 2004.  ([http://www.lms.ac.uk/jcm/7/lms2004-010/])
+# E.R. Verheul, Evidence that XTR is more secure than supersingular elliptic curve cryptosystems, in B. Pfitzmann (ed.) EUROCRYPT 2001, Springer LNCS 2045 (2001) 195–210. [http://portal.acm.org/citation.cfm?id=647086.715689]
+
+[[Category:Computational hardness assumptions]]
+[[Category:Elliptic curve cryptography]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

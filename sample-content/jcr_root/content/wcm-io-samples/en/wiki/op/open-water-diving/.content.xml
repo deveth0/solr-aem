@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Open-water diving"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Open-water diving" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Open-water diving&amp;apos;&amp;apos;&amp;apos; has at least two different meanings in [[scuba diving]]:
+* In the later stages of initial [[diver training]], divers progress from diving in swimming pools to &amp;quot;open water&amp;quot;, which normally implies the [[sea]] or a [[lake]], including [[Scuba diving quarry|quarries]].
+* Any diving where the surface of the water immediately above the diver is in contact with the Earth&amp;apos;s atmosphere. &amp;quot;Open water diving&amp;quot; implies that if a problem arises, the diver can directly ascend vertically to the atmosphere to breathe air. [[Penetration diving]]—involving entering caves or wrecks, or diving under ice—is therefore not &amp;quot;open water&amp;quot;&amp;quot; diving.
+
+[[Category:Underwater diving procedures]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

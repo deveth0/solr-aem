@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Riverside Freeway"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Riverside Freeway" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;Riverside Freeway&amp;apos;&amp;apos;&amp;apos; is a named freeway in [[Orange County, California|Orange]], [[Riverside County, California|Riverside]], and [[San Bernardino County, California|San Bernardino]] Counties in the [[U.S. state]] of [[California]]. It consists of two segments:
+
+*[[California State Route 91]], from [[Interstate 5 in California|Interstate 5]] in [[Buena Park, California|Buena Park]] to [[California State Route 60]] in [[Riverside, California|Riverside]]
+*[[Interstate 215 (California)]], from [[California State Route 60]] in [[Riverside, California|Riverside]] to [[Interstate 10 in California|Interstate 10]] in [[San Bernardino, California|San Bernardino]]
+
+==See also==
+*[[Riverside Expressway]], a highway in [[Brisbane]], [[Queensland]], [[Australia]]
+
+{{Roadindex}}
+
+[[Category:Southern California freeways]]
+[[Category:Named freeways in California]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:Historical archive/Imported pictures/Pictures from southwarkphotolibrary.co.uk details"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:Historical archive/Imported pictures/Pictures from southwarkphotolibrary.co.uk details" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;Dear Nancy
+
+I don&amp;apos;t know if you can help me, or know who I should contact, but I&amp;apos;ve
+been asked if an on-line local history site can use small images from the
+photo library. They would be a maximum of 300 pixels wide and used to
+illustrate articles about the borough.
+
+It isn&amp;apos;t obvious from the photo library the license that the photos have
+been released under. The projects runs under a &amp;quot;copyleft&amp;quot; license (the
+GFDL) and ideally would need images in the public domain, or specific
+permission to use them.
+
+Thanks for your help
+
+XXXX
+--------------------------------------
+Hi XXXX,
+
+They can download general images of the borough from our website. It&amp;apos;s
+only pics of Councillors and residents that are password protected.
+
+If they log onto the website, they need to click on the &amp;apos;News&amp;apos; icon, then
+&amp;apos;Photolibrary&amp;apos;. Photos of the borough are under &amp;apos;Places&amp;apos;.
+
+Hope this helps. Any questions, do come back to me - or you can give them
+my number and I&amp;apos;ll talk to them direct if that helps.
+
+Nancy.
+(Press office, x XXXX)
+[[Category:Wikipedia image galleries permissions|Southwarkphotolibrary.co.uk]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

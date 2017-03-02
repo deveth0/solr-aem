@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Template:Sandbox heading"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Template:Sandbox heading" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{#ifeq: {{ROOTPAGENAME}}|Tutorial|{{Tutorial sandbox heading}}|{{ombox
+|image=[[File:Sandbox.png|75px|alt=|link=]]
+|style=margin: auto;
+|text={{#ifeq: {{FULLPAGENAME}}|Wikipedia talk:Sandbox|{{Template:Sandbox heading/Talk not}}}}
+Welcome to this [[Wikipedia:About the Sandbox|Sandbox page]], which allows you to carry out experiments. To edit, click &amp;lt;span class=&amp;quot;plainlinks&amp;quot;&amp;gt;&amp;apos;&amp;apos;&amp;apos;[{{SERVER}}{{localurl:{{NAMESPACE}}:{{PAGENAME}}|action=edit}} here]&amp;apos;&amp;apos;&amp;apos;&amp;lt;/span&amp;gt; or the &amp;apos;&amp;apos;Edit&amp;apos;&amp;apos; tab above{{talk other|, or, to easily create a new discussion topic, click the &amp;apos;&amp;apos;New section&amp;apos;&amp;apos; tab instead}}; make your changes, and click the &amp;apos;&amp;apos;Save page&amp;apos;&amp;apos; button when finished. Content will &amp;apos;&amp;apos;&amp;apos;not&amp;apos;&amp;apos;&amp;apos; stay permanently; this page is automatically cleaned regularly, and may be overwritten by other testing users. {{#ifeq: {{FULLPAGENAME}}|Wikipedia talk:Sandbox|[//en.wikipedia.org/w/index.php?title=Wikipedia_talk:Sandbox&amp;amp;action=edit&amp;amp;oldid=448778320&amp;amp;edit&amp;amp;summary=Clearing+sandbox&amp;amp;minor=yes If you want to start editing in a clear sandbox, click here.]|[//en.wikipedia.org/w/index.php?title=Wikipedia:Sandbox&amp;amp;action=edit&amp;amp;oldid=446999758&amp;amp;edit&amp;amp;summary=Clearing+sandbox&amp;amp;minor=yes If you want to start editing in a clear sandbox, click here.]}}
+
+Please [[Wikipedia:Misuse of the sandbox|do not place copyrighted, offensive, or libelous content]] in the sandboxes.
+
+If you have registered an account, and you are logged in, [{{fullurl:Special:Mypage/sandbox|action=edit&amp;amp;preload=Template:User_Sandbox/preload}} you can find or create your own user sandbox here]. For future easy access, you can put &amp;lt;tt&amp;gt;{{tl|My sandbox}}&amp;lt;/tt&amp;gt; on your user page.
+
+{{Further2|[[Wikipedia:Introduction|Introduction to Wikipedia]]|[[Wikipedia:Tutorial|Editing tutorial]]}}
+| imageright = {{#ifeq: {{FULLPAGENAME}}|Wikipedia talk:Sandbox|{{Ombox/Shortcut|WT:SB|WT:SAND|WT:SANDBOX|WT:TEST|WT:FOO}}|{{Ombox/Shortcut|WP:SB|WP:SAND|WP:SANDBOX|WP:TEST|WP:FOO}} }}}}
+}}{{#ifeq:{{FULLPAGENAME}}|Wikipedia:Sandbox|
+
+[[Category:Wikipedia editing aids]]
+
+&amp;lt;!-- Sandbox for other languages of Wikipedia --&amp;gt;
+
+[[af:Wikipedia:Sandput]]
+[[ar:ويكيبيديا:ساحة التجربة]]
+[[als:Wikipedia:Spielwiese]]
+[[ang:Wikipedia:Sandbox]]
+[[bg:Уикипедия:Пясъчник]]
+[[bn:Wikipedia:Sandbox]]
+[[ca:Viquipèdia:Pàgina de proves]]
+[[cs:Wikipedie:Pískoviště]]
+[[cy:Wicipedia:Pwll tywod]]
+[[da:Wikipedia:Sandkassen]]
+[[de:Wikipedia:Spielwiese]]
+[[el:Βικιπαίδεια:Αμμοδοχείο]]
+[[eo:Vikipedio:Testejo]]
+[[es:Wikipedia:Zona de pruebas]]
+[[et:Vikipeedia:Liivakast]]
+[[eu:Wikipedia:Proba orria]]
+[[fa:ویکی‌پدیا:صفحه تمرین]]
+[[fi:Wikipedia:Hiekkalaatikko]]
+[[fr:Wikipédia:Bac à sable]]
+[[fy:Wikipedy:Kladblok]]
+[[ga:Vicipid:Clár dubh]]
+[[he:ויקיפדיה:ארגז חול]]
+[[hi:विकिपीडिया:प्रयोगस्थल]]
+[[hr:Wikipedija:Stranica za vježbanje]]
+[[hu:Wikipédia:Homokozó]]
+[[ia:Wikipedia:Sabliera]]
+[[id:Wikipedia:Bak pasir]]
+[[it:Wikipedia:Sandbox]]
+[[ja:Wikipedia:サンドボックス]]
+[[kk:Уикипедия:Құмжәшік]]
+[[ko:위키백과:연습장]]
+[[la:Vicipaedia:Harenarium]]
+[[li:Wikipedia:Zandjbak]]
+[[mi:Wikipedia:Papa tākaro]]
+[[ml:വിക്കിപീഡിയ:എഴുത്തുകളരി]]
+[[mr:विकिपीडिया:धूळपाटी]]
+[[ms:Wikipedia:Kotak pasir]]
+[[nds:Wikipedia:Speelwisch]]
+[[nl:Wikipedia:Zandbak]]
+[[nn:Wikipedia:Sandkasse]]
+[[no:Wikipedia:Sandkasse]]
+[[pl:Wikipedia:Brudnopis]]
+[[pt:Wikipedia:Página de testes]]
+[[ro:Wikipedia:Cutia cu nisip]]
+[[ru:Википедия:Песочница]]
+[[si:විකිපීඩියා:වැලිපිල්ල]]
+[[simple:Wikipedia:Sandbox]]
+[[sr:Википедија:Песак]]
+[[sq:Wikipedia:Livadhi]]
+[[sh:Wikipedia:Eksperimenti]]
+[[sv:Wikipedia:Sandlådan]]
+[[th:วิกิพีเดีย:กระบะทราย]]
+[[tr:Vikipedi:Deneme tahtası]]
+[[uk:Вікіпедія:Пісочниця]]
+[[vep:Vikipedii:Letenik]]
+[[vi:Wikipedia:Chỗ thử]]
+[[zh:Wikipedia:沙盒]]
+
+}}&amp;lt;noinclude&amp;gt;
+{{documentation}}
+&amp;lt;/noinclude&amp;gt;&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

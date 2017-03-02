@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Municipalities of San Marino"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Municipalities of San Marino" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;These are the &amp;apos;&amp;apos;&amp;apos;9 &amp;apos;&amp;apos;castelli&amp;apos;&amp;apos; (municipalities) of [[San Marino]]&amp;apos;&amp;apos;&amp;apos;:   [[File:San Marino.png|thumb|right|250px|Location of the 9 castelli of San Marino]]
+
+{| class=&amp;quot;wikitable&amp;quot;
+|-----
+|colspan=&amp;quot;6&amp;quot; align=&amp;quot;center&amp;quot; bgcolor=&amp;quot;#FFA500&amp;quot; | &amp;apos;&amp;apos;&amp;apos;Cities in San Marino&amp;apos;&amp;apos;&amp;apos;
+|-----
+|rowspan=&amp;quot;2&amp;quot; align=&amp;quot;center&amp;quot; bgcolor=&amp;quot;#98FB98&amp;quot; | &amp;apos;&amp;apos;&amp;apos;Rank&amp;apos;&amp;apos;&amp;apos; || rowspan=&amp;quot;2&amp;quot; align=&amp;quot;center&amp;quot; bgcolor=&amp;quot;#98FB98&amp;quot; | &amp;apos;&amp;apos;&amp;apos;City&amp;apos;&amp;apos;&amp;apos; || rowspan=&amp;quot;2&amp;quot; align=&amp;quot;center&amp;quot; bgcolor=&amp;quot;#98FB98&amp;quot; | &amp;apos;&amp;apos;&amp;apos;Area&amp;lt;br&amp;gt;km&amp;lt;sup&amp;gt;2&amp;lt;/sup&amp;gt;&amp;apos;&amp;apos;&amp;apos; || colspan=&amp;quot;3&amp;quot; align=&amp;quot;center&amp;quot; bgcolor=&amp;quot;#98FB98&amp;quot; | &amp;apos;&amp;apos;&amp;apos;Population&amp;apos;&amp;apos;&amp;apos;
+|-----
+|align=&amp;quot;center&amp;quot; bgcolor=&amp;quot;#98FB98&amp;quot; | &amp;apos;&amp;apos;&amp;apos;1986&amp;apos;&amp;apos;&amp;apos; || align=&amp;quot;center&amp;quot; bgcolor=&amp;quot;#98FB98&amp;quot; | &amp;apos;&amp;apos;&amp;apos;1996&amp;apos;&amp;apos;&amp;apos; || align=&amp;quot;center&amp;quot; bgcolor=&amp;quot;#98FB98&amp;quot; | &amp;apos;&amp;apos;&amp;apos;2006&amp;apos;&amp;apos;&amp;apos;
+|-----
+|align=right | 1. || [[Serravalle (San Marino)|Serravalle]] || align=right | 10,53 || align=right | 6.995 || align=right | 8.085 || align=right | 9.847
+|-----
+|align=right | 2. || [[Borgo Maggiore]] || align=right | 9,01 || align=right | 4.421 || align=right | 5.358 || align=right | 6.061
+|-----
+|align=right | 3. || [[City of San Marino]] || align=right | 7,09 || align=right | 4.179 || align=right | 4.350 || align=right | 4.409
+|-----
+|align=right | 4. || [[Domagnano]] || align=right | 6,62 || align=right | 1.885 || align=right | 2.207 || align=right | 2.899
+|-----
+|align=right | 5. || [[Fiorentino]] || align=right | 6,56 || align=right | 1.478 || align=right | 1.798 || align=right | 2.253
+|-----
+|align=right | 6. || [[Acquaviva (San Marino)|Acquaviva]] || align=right | 4,86 || align=right | 1.148 || align=right | 1.264 || align=right | 1.881
+|-----
+|align=right | 7. || [[Faetano]] || align=right | 7,75 || align=right | 738 || align=right | 870 || align=right | 1.139
+|-----
+|align=right | 8. || [[Chiesanuova]] || align=right | 5,46 || align=right | 724 || align=right | 866 || align=right | 1.036
+|-----
+|align=right | 9. || [[Montegiardino]] || align=right | 3,31 || align=right | 557 || align=right | 717 || align=right | 843
+|-----bgcolor=&amp;quot;#98FB98&amp;quot;
+|align=right | &amp;amp;nbsp; || &amp;apos;&amp;apos;&amp;apos;San Marino&amp;apos;&amp;apos;&amp;apos; || align=right | 61,19 || align=right | 22.125 || align=right | 25.515 || align=right | 30.368
+|}
+
+Though it is one of the biggest towns of the Republic, [[Dogana]] is not an autonomous &amp;apos;&amp;apos;castello&amp;apos;&amp;apos; but belongs to the &amp;apos;&amp;apos;castello&amp;apos;&amp;apos; of Serravalle. Like Italian [[comune|&amp;apos;&amp;apos;comuni&amp;apos;&amp;apos;]], the &amp;apos;&amp;apos;castelli&amp;apos;&amp;apos; of San Marino include a main town that is the seat of the castello, called the &amp;apos;&amp;apos;capoluogo&amp;apos;&amp;apos;, and some small settlements known as &amp;apos;&amp;apos;[[frazione|frazioni]]&amp;apos;&amp;apos; or &amp;apos;&amp;apos;curazie&amp;apos;&amp;apos;.
+
+==See also==
+*[[ISO 3166-2:SM]]
+
+{{San Marino}}
+{{List of cities in Europe}}
+{{Articles on first-level administrative divisions of European countries}}
+
+[[Category:Municipalities of San Marino| ]]
+[[Category:Subdivisions of San Marino|Municipalities]]
+[[Category:Lists of country subdivisions|San Marino, Municipalities]]
+[[Category:Country subdivisions of Europe|San Marino 1]]
+[[Category:First-level administrative country subdivisions|Municipalities, San Marino]]
+[[Category:Lists of cities by country|San Marino]]
+[[Category:San Marino-related lists|Cities]]
+
+
+{{SanMarino-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

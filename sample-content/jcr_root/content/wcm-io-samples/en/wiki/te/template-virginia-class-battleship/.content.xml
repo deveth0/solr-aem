@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Template:Virginia class battleship"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Template:Virginia class battleship" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{military navigation
+| name = Virginia class battleship
+| title = {{sclass-|Virginia|battleship|1}}s
+| state = {{{state|autocollapse}}}
+| bodyclass = hlist
+| style = wide
+
+| list1 =
+* {{USS|Virginia|BB-13|2}}
+* {{USS|Nebraska|BB-14|2}}
+* {{USS|Georgia|BB-15|2}}
+* {{USS|New Jersey|BB-16|2}}
+* {{USS|Rhode Island|BB-17|2}}
+
+| list2 =
+* Preceded by: {{sclass-|Maine|battleship|4}}
+* Followed by: {{sclass-|Connecticut|battleship|4}}
+
+| below =
+* [[List of battleships of the United States Navy]]
+
+}}&amp;lt;noinclude&amp;gt;
+{{collapsible option}}
+[[Category:Virginia-class battleships|~]]
+[[Category:United States military ship templates|{{PAGENAME}}]]
+
+&amp;lt;/noinclude&amp;gt;&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="File:HMS Opportune (Oberon-class submarine).jpg"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="File:HMS Opportune (Oberon-class submarine).jpg" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;== Summary ==
+{{Non-free use rationale|Article=HMS Opportune (S20)
+|Description=[[HMS Opportune (S20)|HMS &amp;apos;&amp;apos;Opportune&amp;apos;&amp;apos;]], [[Oberon class submarine]]
+|Source=[http://www.navyphotos.co.uk/ Navyphotos]
+|Portion=Entire photo
+|Low_resolution=Yes
+|Purpose=To identify and illustrate HMS &amp;apos;&amp;apos;Opportune&amp;apos;&amp;apos;
+|Replaceability=No; I do not believe any free photos of HMS &amp;apos;&amp;apos;Opportune&amp;apos;&amp;apos; exist, and I doubt that any suitable ones could be created. HMS &amp;apos;&amp;apos;Opportune&amp;apos;&amp;apos; was sold in 1992.
+|other_information=
+}}
+== Licensing ==
+{{Non-free fair use in|HMS Opportune (S20)|image has rationale=yes}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

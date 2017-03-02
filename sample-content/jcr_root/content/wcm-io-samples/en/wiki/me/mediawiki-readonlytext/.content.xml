@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="MediaWiki:Readonlytext"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="MediaWiki:Readonlytext" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{fmbox
+|id    = mw-readonlytext
+|type  = editnotice
+|image = [[File:Padlock.svg|45px|Database locked]]
+|text  = The Wikipedia database is temporarily in read-only mode for the following reason: &amp;lt;div&amp;gt;&amp;apos;&amp;apos;&amp;apos;$1&amp;apos;&amp;apos;&amp;apos;&amp;lt;/div&amp;gt; This is probably due to routine maintenance; if so, you will be able to edit again within a few minutes. Sorry for any inconvenience this might have caused. You can continue to browse Wikipedia articles while the database is locked. For further information, you can visit the [irc://irc.freenode.net/wikipedia #wikipedia] channel on the [http://freenode.net/ freenode] [[Internet Relay Chat|IRC]] network.
+}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

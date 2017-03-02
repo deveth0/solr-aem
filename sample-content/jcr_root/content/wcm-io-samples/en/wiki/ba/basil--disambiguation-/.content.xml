@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Basil (disambiguation)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Basil (disambiguation)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|Basil|basil}}
+&amp;apos;&amp;apos;&amp;apos;[[Basil]]&amp;apos;&amp;apos;&amp;apos; is a plant and seasoning.
+
+&amp;apos;&amp;apos;&amp;apos;Basil&amp;apos;&amp;apos;&amp;apos; may also refer to:
+
+* [[Basil (name)]], people named Basil
+* Basil, California, former name of [[Redwood Valley, California]]
+* [[Basil (novel)|&amp;apos;&amp;apos;Basil&amp;apos;&amp;apos; (novel)]], by Wilkie Collins
+* [[Basil (film)|&amp;apos;&amp;apos;Basil&amp;apos;&amp;apos; (film)]], a 1998 film by Radha Bharadwaj starring Jared Leto
+* [[Basil (Sesame Park)]], the main character on the Canadian children&amp;apos;s show &amp;apos;&amp;apos;Sesame Park&amp;apos;&amp;apos;
+* [[Basil Fawlty]], the main character in &amp;apos;&amp;apos;Fawlty Towers&amp;apos;&amp;apos;
+* [[Saint Basil (disambiguation)]]
+*&amp;apos;&amp;apos;[[The Great Mouse Detective]]&amp;apos;&amp;apos;, also known as &amp;apos;&amp;apos;Basil the Great Mouse Detective&amp;apos;&amp;apos;, an animated film by Disney
+
+== See also ==
+* [[Basal]], referring to a base or minimum level
+* [[Basel]], Switzerland
+* [[Vasily (disambiguation)]], the Slavic form of the name
+
+{{Disambiguation}}
+[[ja:バジル (曖昧さ回避)]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

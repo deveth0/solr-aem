@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Alphabet Synthesis Machine"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Alphabet Synthesis Machine" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Orphan|date=February 2009}}
+The &amp;apos;&amp;apos;&amp;apos;Alphabet Synthesis Machine&amp;apos;&amp;apos;&amp;apos; (2002) is a work of [[interactive art]] which makes use of [[genetic algorithm]]s to &amp;quot;evolve&amp;quot; a set of glyphs similar in appearance to a real-world alphabet. Users create initial glyphs and the program takes over. As the creators of the project put it, their goal was &amp;quot;to bring about the specific feeling of semi-sense one experiences when one recognizes—- but cannot read—- the unfamiliar writing of another culture.&amp;quot;&amp;lt;ref&amp;gt;http://www.alphabetsynthesis.com/#background&amp;lt;/ref&amp;gt; The project was developed by [[Golan Levin]], a new-media artist, in collaboration with [[Cassidy Curtis]]&amp;lt;ref&amp;gt;http://www.wired.com/culture/lifestyle/news/2003/12/61720?currentPage=2&amp;lt;/ref&amp;gt; and [[Jonathan Feinberg]].
+
+==Notes==
+{{reflist}}
+
+==References==
+* http://www.pbs.org/art21/series/seasonone/online.html (PBS and Art21 commissioned the work)
+* http://www.flong.com/storage/pdf/reports/alphabet_report.pdf (White paper by artists that describes the work in detail)
+* http://www.ciac.ca/magazine/archives/no_19/en/entrevue.htm (Interview with Golan Levin by &amp;apos;&amp;apos;CIAC&amp;apos;s Electronic Magazine&amp;apos;&amp;apos;)
+
+==External links==
+* http://www.alphabetsynthesis.com/ (and a [http://www.flong.com/projects/alphabet/ project page] composed by Golan Levin)
+* http://www.users.globalnet.co.uk/~ngo/font0000.htm (examples of fonts produced by the Machine)
+* http://www.tug.org/TUGboat/Articles/tb26-1/tb82beet.pdf (brief mention in &amp;apos;&amp;apos;TUGboat&amp;apos;&amp;apos;)
+
+[[Category:Computer art]]
+{{art-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

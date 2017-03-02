@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="The Wedge"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="The Wedge" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{see also|Wedge (disambiguation)}}
+
+&amp;apos;&amp;apos;&amp;apos;The Wedge&amp;apos;&amp;apos;&amp;apos; can refer to:
+* [[The Wedge (Australian TV series)|The Wedge]], an Australian television comedy series on Network Ten.
+* [[The Wedge (Canadian TV series)|The Wedge]], a Canadian television series airing on MuchMusic.
+* [[The Wedge (surfing)|The Wedge]], a surf spot located on the Balboa Peninsula in Newport Beach, California.
+* [[The Wedge (border)|The Wedge]], part of the boundary between the states of Pennsylvania and Delaware in the United States.
+* The Wedge, a popular nickname for the [[Lowry Hill East, Minneapolis|Lowry Hill East]] neighborhood in Minneapolis, Minnesota.
+* The [[Wedge Community Co-op]], located just outside of the Wedge neighborhood in Minneapolis, Minnesota.
+* The Wedge, the narrowest house in Britain, located on the island of [[Great Cumbrae]] (off the [[North Ayrshire]] coast, [[Scotland]]) which is just 47 inches wide at the front but 22&amp;amp;nbsp;ft wide at the rear.&amp;lt;ref&amp;gt;[http://www.dailymail.co.uk/news/article-2011199/Worlds-narrowest-house-Warsaw-just-60-inches-wide.html Daily Mail story of narrow houses appeared 4th July 2011 retrieved 4th July 2011]&amp;lt;/ref&amp;gt;
+* The [[Wedge strategy]], a plan for the promotion of [[Intelligent design]].
+* &amp;quot;The Wedge Fugue&amp;quot; is the popular name given to the [[organ (music)|organ]] fugue from &amp;apos;&amp;apos;[[Prelude (music)|Prelude]] and [[Fugue]] in [[E minor]]&amp;apos;&amp;apos; ([[BWV 548]]) by [[Johann Sebastian Bach]] on account of the opening theme which starts with one note, then with two notes either side forming a [[minor third]] (a small [[interval (music)|interval]]) and then gradually widening to an [[octave]].
+* [[The Wedge (album)]], an album by the British neo-prog band [[Pallas (band)|Pallas]]
+* The Wedge, a song by the jam band [[Phish]].
+
+&amp;lt;references /&amp;gt;
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

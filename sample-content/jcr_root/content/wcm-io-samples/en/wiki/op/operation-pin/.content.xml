@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Operation Pin"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Operation Pin" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Operation Pin&amp;apos;&amp;apos;&amp;apos; is an initiative of the [[Virtual Global Taskforce]], which consists of UK&amp;apos;s [[National Crime Squad]], the [[FBI]], [[Interpol]], the [[Royal Canadian Mounted Police]] and the [[Australian Hi-Tech Crime Centre]] / Australian Federal Police (AFP). Its stated aim is to identify [[pedophilia|pedophiles]] and other people who are using the internet to access [[child pornography]]. Announced on 18 December 2003, the operation is said to involve the creation and operation of a number of websites (so-called &amp;quot;[[honeypot (computing)|honeypot]]s&amp;quot;) purporting to offer illegal images. While these websites will not contain child pornography images, they  will be designed to look like the real thing so as to ensnare as many offenders as possible.
+
+The websites will present visitors with a variety of options which, instead of leading to illegal images, lead to a law enforcement site that will inform them that their personal details have been recorded and that they have committed a crime. They will also be given details of appropriate helplines. It is unclear if the information recorded will be technical (for example, an [[IP address]]) or personal (for example, [[credit card]] details).
+
+The stated purpose of Operation Pin is to cause people seeking out  child pornography on the Internet to wonder whether they will find an illegal site or one operated by law enforcement agencies. It can thus be understood as a kind of [[deterrence (legal)|deterrence]].
+
+==External links==
+*[http://news.bbc.co.uk/1/hi/technology/3330929.stm Online dragnet to thwart paedophiles] [[BBC News]], December 18, 2003
+*[http://news.bbc.co.uk/1/hi/uk/3329567.stm Police to trap online paedophiles] [[BBC news]], December 18, 2003
+
+[[Category:Child pornography crackdowns|Pin]]
+[[Category:Law enforcement websites]]
+
+{{law-enforcement-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Virginópolis"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Virginópolis" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=June 2008}}
+&amp;apos;&amp;apos;&amp;apos;Virginópolis&amp;apos;&amp;apos;&amp;apos; is a [[Brazil]]ian city in the state of [[Minas Gerais]]. As of 2004 its population is estimated to be 10,180. The city celebrates every year, in the end of October and beginning of November, its &amp;quot;Festival of [[Jabuticaba]]&amp;quot;.  It&amp;apos;s a king of very delicious and rare fruit that grows in the region.  It&amp;apos;s also the way the city found to have all the &amp;quot;Virginopolitanos&amp;quot; living abroad, meeting each other.
+
+{{coord|18|45|S|42|45|W|region:BR_type:city|display=title}}
+
+[[Category:Populated places in Minas Gerais]]
+
+{{MinasGerais-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

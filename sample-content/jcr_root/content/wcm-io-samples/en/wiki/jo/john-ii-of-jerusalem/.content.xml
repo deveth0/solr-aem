@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="John II of Jerusalem"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="John II of Jerusalem" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{For|the bishop|John II, Bishop of Jerusalem}}
+{{Unreferenced|date=December 2009}}
+&amp;apos;&amp;apos;&amp;apos;John II of Jerusalem&amp;apos;&amp;apos;&amp;apos; (1259 or ca. 1267 &amp;amp;ndash; [[Nicosia]], 20 May 1285) was the eldest son of [[Hugh III of Cyprus]] and Isabella of Ibelin. He succeeded his father as [[Kingdom of Cyprus|King of Cyprus]] (as &amp;apos;&amp;apos;&amp;apos;John I&amp;apos;&amp;apos;&amp;apos;) on March 24 and was crowned at [[Selimiye Mosque (Nicosia)|Santa Sophia]], [[Nicosia]] on May 11, 1284. His succession as [[Kingdom of Jerusalem|King of Jerusalem]] was opposed by [[Charles I of Naples|Charles of Anjou]], who had also disrupted his father&amp;apos;s succession. John died the following year on 20 May, having never married and leaving no children. He was buried in the church of [[St. Demetrius]] or according to some [[Selimiye Mosque (Nicosia)|Santa Sophia]], in [[Nicosia]]. According to some authors he was poisoned by his brothers, one of whom, [[Henry II of Cyprus|Henry II]], succeeded him in Cyprus and [[Jerusalem]]. He died unmarried and without issue.
+
+{{S-start}}
+{{S-bef| rows   = 2 | before = [[Hugh III of Cyprus|Hugh III/I]] }}
+{{S-ttl| title  = [[Kingdom of Cyprus|King of Cyprus]]
+       | years  = 1284–1285 }}
+{{S-aft| rows   = 2 | after  = [[Henry II of Jerusalem|Henry II]] }}
+{{S-ttl| title  = [[Kings of Jerusalem|King of Jerusalem]]
+       | years  = 1284–1285 }}
+{{S-end}}
+
+{{Jerusalem Monarchs}}
+{{Cypriot Monarchs}}
+
+{{Persondata
+| name              = John II of Jerusalem
+| alternative names =
+| short description = King of Cyprus and Jerusalem
+| date of birth     = 1259
+| place of birth    =
+| date of death     = 1285
+| place of death    =
+}}
+{{DEFAULTSORT:John 02 Of Jerusalem}}
+[[Category:Roman Catholic monarchs]]
+[[Category:1259 births]]
+[[Category:1285 deaths]]
+[[Category:Kings of Jerusalem]]
+[[Category:Kings of Cyprus|John I of Cyprus]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

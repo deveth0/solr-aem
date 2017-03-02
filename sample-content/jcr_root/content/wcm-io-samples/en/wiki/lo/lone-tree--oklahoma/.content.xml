@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Lone Tree, Oklahoma"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Lone Tree, Oklahoma" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+&amp;apos;&amp;apos;&amp;apos;Lone Tree, Oklahoma&amp;apos;&amp;apos;&amp;apos; is a rural community in eastern [[Okmulgee County, Oklahoma|Okmulgee County]], about six miles east of [[Morris, Oklahoma]]; was named for a &amp;quot;lone tree&amp;quot; sitting on the skyline of a mountain. Lone Tree Church is also located in this area near High Spring Mountains.
+
+Lone Tree is the birthplace of [[Anita Hill]], notable for accusing [[Supreme Court of the United States|Supreme Court]] Justice [[Clarence Thomas]] of [[sexual harassment]] during his confirmation hearings in 1991.
+
+{{Coord|35|35|33|N|95|44|53|W|format=dms|display=title|type:city_region:US-OK}}
+
+[[Category:Unincorporated communities in Oklahoma]]
+[[Category:Geography of Okmulgee County, Oklahoma]]
+
+
+{{Oklahoma-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

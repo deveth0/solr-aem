@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="XVL"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="XVL" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{multiple issues|
+{{one source|date=May 2012}}
+{{primary sources|date=May 2012}}
+}}
+
+&amp;apos;&amp;apos;&amp;apos;XVL&amp;apos;&amp;apos;&amp;apos; is a lightweight 3D file format for [[3D computer graphics]] data. XVL is developed by Lattice Technology Inc.
+Like [[U3D]] and other open and standard 3D formats, XVL supports compression of 3D data. The company claims compression rates of between 1:50 - 1: 200 for typical mesh objects. After a registration, a closed source, [[Windows]] only, viewer for XVL files can be downloaded from the company site.
+
+==External links==
+* [http://www.lattice3d.com] The company developing the XVL 3D format.
+
+==See also==
+* [[U3D]]: an [[ECMA]] standard open format for 3D data that supports compression.
+
+[[Category:3D computer graphics]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

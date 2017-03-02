@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Quidi Vidi Brewing Company"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Quidi Vidi Brewing Company" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{no footnotes|date=March 2013}}
+{{Infobox Brewery
+| name           = Quidi Vidi Brewing Company
+| image          = [[Image:QuidiVidiBrewingStJohnsNewfoundland.JPG|250px|]]| caption=Quidi Vidi Brewing Company
+| caption        =
+| location       = [[St. John&amp;apos;s, Newfoundland and Labrador]]&amp;lt;br/&amp;gt;[[Canada]]
+| owner          = David Rees
+| opened         = 1996
+| production     =
+| active_beers   =
+    {{brewbox_beer | name=1892 Traditional Ale|style=[[Amber Ale]]}}
+    {{brewbox_beer | name=Eric&amp;apos;s Cream Ale|style=[[Cream Ale]]}}
+    {{brewbox_beer | name=Honey Brown|style=[[Dark Lager]]}}
+    {{brewbox_beer | name=Honey Brown Light|style=[[Brown Ale]]}}
+    {{brewbox_beer | name=QV Lager|style=[[Pale Lager]]}}
+    {{brewbox_beer | name=QV Light|style=[[Pale Lager]]}}
+| seasonal_beers =
+| other_beers    =
+}}
+&amp;lt;div style=&amp;quot;float:right;width:200px;margin-left:25px;clear:both&amp;quot;&amp;gt;
+&amp;lt;/div&amp;gt;
+
+
+&amp;apos;&amp;apos;&amp;apos;Quidi Vidi Brewing Company&amp;apos;&amp;apos;&amp;apos; is a [[microbrewery]] located in [[Quidi Vidi]] village, a neighbourhood of [[St. John&amp;apos;s, Newfoundland and Labrador|St. John&amp;apos;s]], [[Newfoundland and Labrador]], [[Canada]].
+
+Founded by David Rees and David Fong in 1996, Quidi Vidi is the third-largest brewer in the province of Newfoundland and Labrador, after [[Labatt]] and [[Molson]]. Its products are available province-wide in liquor stores, corner stores and on draft, and it is the most popular microbrew in the province. It is also the largest microbrewery in [[Atlantic Canada]].{{Fact|date=February 2007}}
+
+The names of Quidi Vidi&amp;apos;s &amp;quot;Northern Lager&amp;quot; and &amp;quot;Northern Light&amp;quot; beers were changed in 2005 after legal action by [[Northern Breweries]].  They were rebranded as &amp;quot;QV&amp;quot; and &amp;quot;QV Light&amp;quot;. Quidi Vidi brews four other varieties: Eric&amp;apos;s Cream Ale, 1892 Traditional Ale, QV Honey Brown Lager, and QV Honey Brown Light. A seventh variety, Iceberg, was launched in 2007/2008, and is so called because it is be brewed from glacial water from the [[iceberg]]s that are commonly found off the Newfoundland coast.
+
+Quidi Vidi brews all their beers with no [[adjuncts]]; that is, no [[maize|corn]] or [[rice]], only [[malt]].
+
+==External links==
+*http://www.quidividibrewery.ca/
+
+[[Category:Canadian brewing companies]]
+[[Category:Microbreweries]]
+[[Category:Cuisine of Newfoundland and Labrador]]
+[[Category:Companies based in St. John&amp;apos;s, Newfoundland and Labrador]]
+{{beer-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

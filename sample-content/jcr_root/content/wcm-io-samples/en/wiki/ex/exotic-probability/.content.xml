@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Exotic probability"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Exotic probability" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Exotic probability&amp;apos;&amp;apos;&amp;apos; is a branch of [[probability theory]] that deals with probabilities which are outside the normal range of [0, 1].
+
+The most common author of papers on exotic probability theory is [[Saul Youssef]]. According to Youssef, the valid possible alternatives for probability values are the [[real number]]s, the [[complex number]]s and the [[quaternion]]s.&amp;lt;ref&amp;gt;[http://xxx.lanl.gov/abs/hep-th/0110253 Saul Youssef, Physics with exotic probability theory,22008]&amp;lt;/ref&amp;gt; Youssef also cites the work of [[Richard Feynman]], [[P. A. M. Dirac]], [[Stanley Gudder]] and [[S. K. Srinivasan]] as relevant to exotic probability theories.
+
+Of the application of such theories to [[quantum mechanics]], [[Bill Jefferys]] has said: &amp;quot;Such approaches are also not necessary and in my opinion they confuse more than they illuminate.&amp;quot;&amp;lt;ref&amp;gt;Jefferys (2002)  [http://www.lns.cornell.edu/spr/2002-03/msg0040195.html Newsgroup discussion on sci.physics.research] accessed 1-Sept-2010&amp;lt;/ref&amp;gt;
+
+==See also==
+* [[Negative probability]]
+* [[Signed measure]]
+* [[Complex measure]]
+
+==References==
+{{reflist}}
+
+==External links==
+* http://physics.bu.edu/~youssef/quantum/quantum_refs.html
+* http://fnalpubs.fnal.gov/library/colloq/colloqyoussef.html
+* [http://flux.aps.org/meetings/YR97/BAPSAPR97/vpr/layn18-4.html Measuring Negative Probabilities, Demystifying Schroedinger&amp;apos;s Cat and Exploring Other Quantum Peculiarities With Trapped Atoms]
+* [http://www.mathpages.com/home/kmath309.htm MathPages - The Complex Domain of Probability]
+
+[[Category:Probability theory]]
+[[Category:Exotic probabilities| ]]
+
+
+{{probability-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

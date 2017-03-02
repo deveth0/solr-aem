@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Audio Video Standard"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Audio Video Standard" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{multiple issues|
+{{update|date=June 2012}}
+{{refimprove|date=December 2011}}
+}}
+{{Use mdy dates|date=May 2012}}
+
+&amp;apos;&amp;apos;&amp;apos;Audio Video Standard&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;&amp;apos;AVS&amp;apos;&amp;apos;&amp;apos;) is a compression standard for [[digital audio]] and [[digital video]], and is competing with [[Advanced Audio Coding|AAC]] and [[H.264/MPEG-4 AVC]] to potentially replace [[MPEG-2]]. Chinese companies own 90% of AVS patents.&amp;lt;ref&amp;gt;[http://www.avs.org.cn/en/index.asp AVS official web site]&amp;lt;/ref&amp;gt; The audio and video files have an .avs extension as a container format.
+
+==Overview==
+Development of AVS was initiated by the government of the People&amp;apos;s Republic of China. Commercial success of the AVS [[standardization|standard]] would not only reduce China&amp;apos;s royalty/licensing payments to foreign companies, it would presumably earn China&amp;apos;s electronics industry recognition among the more established industries of the developed world, where China is still seen as an outlet for mass production with limited indigenous design capability.
+
+In January 2005, the AVS workgroup submitted their draft report to the [[Information Industry Department]] (IID). On March 30, 2005, the first trial by the IID approved the video portion of the draft standard for a public showing time.
+
+The dominant audio/video compression standards, [[Moving Picture Experts Group|MPEG]] and [[Video Coding Experts Group|VCEG]], enjoy widespread use in consumer digital media devices, such as DVD players. Their usage requires Chinese manufacturers to pay substantial [[patent|royalty]] fees to the mostly-foreign companies that hold patents on technology in those standards. For example, as of 2006, licenses ranging from $2.50 to $4 already make up about ten percent of the cost for a contract-manufactured DVD player unit.&amp;lt;ref&amp;gt;[http://www.eetimes.com/story/OEG20020524S0091 Taiwan joins Chinese effort on proprietary DVD format]&amp;lt;/ref&amp;gt;
+
+According to the state-run media, a key consideration of AVS was to reduce foreign dependence on core intellectual properties used in digital media technology. Proposed as a national standard in 2004, AVS had a targeted royalty of 1 RMB (or about $0.10 USD) per player. On April 30, 2005, AVS standard video officially passed the public show and became the national standard.
+
+AVS was expected{{by whom|date=December 2011}} to be approved for the Chinese [[High-definition television|high-definition]] successor to the [[Enhanced Versatile Disc|EVD]], and when [[China Blue High-definition Disc|CBHD]] was released it shipped with 30GB blue laser discs and video in the AVS format, which rapidly gained market share – standing at 30% of the video disc market after four months.
+
+[[Open-source]] implementations of an AVS video decoder can be found in the [[OpenAVS]] project and within the [[libavcodec]] library. The latter is integrated in some free video players like [[MPlayer]], [[VLC media player|VLC]] or [[xine]]. [[xAVS]] is also an open source AVS encoder with a working decoder.
+
+China&amp;apos;s high-definition video disc format [[China Blue High-definition Disc|CBHD]] (China blue high-definition) supports AVS.&amp;lt;ref name=&amp;quot;Register_readies&amp;quot;&amp;gt;{{cite news |first=Austin |last=Modine |title=China readies Blu-Ray competitor |url=http://www.theregister.co.uk/2008/07/29/china_cbhd_ready/ |work=[[The Register]] |date=2008-07-29 |accessdate=2008-08-06 }}&amp;lt;/ref&amp;gt;
+
+==References==
+{{reflist|colwidth=30em}}
+
+==External links==
+*[http://www.avs.org.cn/en/ AVS homepage]
+*[http://www.avs.org.cn/fruits/en/softList.asp AVS sample clips]
+
+{{Compression formats}}
+
+[[Category:Video codecs]]
+[[Category:Audio codecs]]
+[[Category:Free codecs]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

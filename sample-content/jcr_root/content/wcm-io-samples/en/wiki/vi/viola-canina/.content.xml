@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Viola canina"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Viola canina" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{italic title}}
+{{taxobox
+|name = &amp;apos;&amp;apos;Viola canina&amp;apos;&amp;apos;
+|image = Viola riviniana and canina.jpg
+|regnum = [[Plant]]ae
+|unranked_divisio = [[Angiosperms]]
+|unranked_classis = [[Eudicots]]
+|unranked_ordo = [[Rosids]]
+|ordo = [[Malpighiales]]
+|familia = [[Violaceae]]
+|genus = &amp;apos;&amp;apos;[[Viola (plant)|Viola]]&amp;apos;&amp;apos;
+|species = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;V. canina&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+|binomial = &amp;apos;&amp;apos;Viola canina&amp;apos;&amp;apos;
+|binomial_authority = [[Carolus Linnaeus|L.]] &amp;lt;ref name=trop&amp;gt;&amp;amp;nbsp;&amp;apos;&amp;apos;Viola canina&amp;apos;&amp;apos; was first described and published in &amp;apos;&amp;apos;[[Species Plantarum]]&amp;apos;&amp;apos; 2: 935. 1753 {{ cite web |url=http://www.tropicos.org/Name/33800059 |title=Name - &amp;apos;&amp;apos;Viola canina&amp;apos;&amp;apos; L. |work=Tropicos |publisher=[[Missouri Botanical Garden]] |location=[[Saint Louis, Missouri]] |accessdate=August 21, 2011}}&amp;lt;/ref&amp;gt;
+|}}
+
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Viola canina&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;&amp;apos;Heath Dog-violet&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;Heath Violet&amp;apos;&amp;apos;&amp;apos;) is a species of the genus &amp;apos;&amp;apos;[[Violet (plant)|Viola]]&amp;apos;&amp;apos;, native to [[Europe]], where it is found in the uplands of box hill in Dorset, [[heath (habitat)|heaths]], [[fen]]s, and moist woodlands, especially on acidic soils.&amp;lt;ref name=fbne&amp;gt;{{ cite book |author=Blamey, M. &amp;amp; Grey-Wilson, C. |year=1989 |title=Flora of Britain and Northern Europe |publisher=Hodder &amp;amp; Stoughton |isbn=0-340-40170-2.}}&amp;lt;/ref&amp;gt;
+
+It is a [[herbaceous]] [[perennial plant]] growing to 5–15&amp;amp;nbsp;cm tall. The flowers are pale blue, produced from April to July. Colonies of plants may be extensive.&amp;lt;ref name=fbne/&amp;gt;
+
+==References==
+{{reflist}}
+
+[[Category:Viola|canina]]
+[[Category:Plants described in 1753]]
+[[Category:Flora of Europe]]
+[[Category:Flora of Finland]]
+[[Category:Flora of Russia]]
+[[Category:Flora of Great Britain]]
+
+{{Violaceae-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:Articles for deletion/Pointless article"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:Articles for deletion/Pointless article" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;*Orphan self-referential article. Not enencyclopedic. -- [[User:Seth Ilys|Seth Ilys]] 21:41, 6 Apr 2004 (UTC)
+*Delete, pointless. [[User:Angela|Angela]][[user talk:Angela|.]] 22:41, Apr 6, 2004 (UTC)
+* Delete, and [[Self-referential article]], which redirects to it. -- [[User:Cyrius|Cyrius]]|[[User talk:Cyrius|&amp;amp;#9998]] 22:49, Apr 6, 2004 (UTC)
+* Pretty clever though - it&amp;apos;s just turned itself into a performance piece. Could we keep it on the jokes page? --[[User:Pteron|Pteron]] 00:23, 7 Apr 2004 (UTC)
+*I like it.  The article on offensive reserved words in computer languages rates up there, too! [[User:Kd4ttc|Kd4ttc]] 03:08, 7 Apr 2004 (UTC)
+*[[Wikipedia|BJAODN]]. [[User:Fennec|Fennec]] 04:38, 7 Apr 2004 (UTC)
+**Delete. But agree, BJAODN. [[User:Andrewa|Andrewa]] 17:12, 14 Apr 2004 (UTC)
+* Delete. Not funny, either. [[User:Cribcage|Cribcage]] 04:51, 7 Apr 2004 (UTC)
+* I vote to delete, but not without some reservations.  I admit I got a chuckle out of the last line!  [[User:Lucky 6.9|Lucky 6.9]] 23:31, 9 Apr 2004 (UTC)
+* Delete. [[User:Jacob1207|Jacob1207]] 22:49, 10 Apr 2004 (UTC)
+* Keep. Pointless article.  [[User:JRR Trollkien|JRR Trollkien]] 22:38, 14 Apr 2004 (UTC)
+*Delete. Did you notice the last line&amp;apos;s hyperlink URL?  &amp;quot;HAPPY BIRTHDAY TO ME, etc..&amp;quot;&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Otto von der Gablentz"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Otto von der Gablentz" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Expand German|Otto von der Gablentz|date=February 2009}}
+&amp;apos;&amp;apos;&amp;apos;Otto Martin von der Gablentz&amp;apos;&amp;apos;&amp;apos; (9 October 1930 – 13 July 2007) was a [[Germany|German]] [[diplomat]] and [[Rector (academia)|Rector]] of the [[College of Europe]].
+
+He was born and studied law in [[Berlin, Germany|Berlin]], also studying in [[Freiburg]]. He studied at the [[College of Europe]] in 1953 and returned to his alma mater as an assistant in 1955 and 1956. He began his diplomatic career in 1959.
+
+As a diplomat, he served as the German [[ambassador]] to the [[Netherlands]] (1983–1990), [[Israel]] (1990–1993) and [[Russia]] (1993–1995).
+
+He was Rector of the College of Europe from 1996 until 2001. He died on 13 July 2007 in [[Amsterdam]].
+
+== References ==
+* [http://www.coleurop.be/template.asp?pagename=histrector&amp;amp;sub=gablentz Short biography] at the College of Europe
+* {{DNB portal|127007776|TYP=}}
+
+{{s-start}}
+{{succession box
+| title  = [[List of College of Europe Rectors and Vice-Rectors|Rectors of the College of Europe]]
+| years  = 1996–2001
+| before = [[Gabriel Fragnière]]
+| after  = [[Piet Akkermans]]
+}}
+{{s-end}}
+
+{{Authority control|VIAF=1021571}}
+{{Persondata
+| NAME              = Gablentz, Otto Martin von der
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION = German diplomat
+| DATE OF BIRTH     = 9 October 1930
+| PLACE OF BIRTH    = [[Berlin]]
+| DATE OF DEATH     = 13 July 2007
+| PLACE OF DEATH    = [[Amsterdam]]
+}}
+{{DEFAULTSORT:Gablentz, Otto von der}}
+[[Category:1930 births]]
+[[Category:2007 deaths]]
+[[Category:German untitled nobility]]
+[[Category:German diplomats]]
+[[Category:College of Europe alumni]]
+[[Category:Rectors of the College of Europe]]
+[[Category:Ambassadors of Germany to the Netherlands]]
+[[Category:Ambassadors of Germany to Israel]]
+[[Category:Ambassadors of Germany to Russia]]
+
+
+{{Germany-noble-stub}}
+{{Germany-diplomat-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

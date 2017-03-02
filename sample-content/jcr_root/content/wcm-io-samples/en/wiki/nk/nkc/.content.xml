@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="NKC"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="NKC" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;NKC is a three letter abbreviation that may refer to:&amp;apos;&amp;apos;&amp;apos;
+
+*The [[IATA]] [[airport code]] for [[Nouakchott International Airport]]
+*The [[National Kennel Club]], an all-breed dog registry in the United States.
+*[[Nat King Cole]], an American jazz singer/musician
+*The [[Northwest Kidney Centers]], the world’s first outpatient hemodialysis treatment center.
+*[[Natural killer cell]], a cell involved in the innate immune system.
+*[[National Knowledge Commission]], and Indian Commission set up by [[Dr. Manmohan Singh]] the [[Prime Minister]] of India.
+*National Kevin City, a town located in America.
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

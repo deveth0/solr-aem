@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Disk controller"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Disk controller" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{unreferenced|date=May 2010}}
+The &amp;apos;&amp;apos;&amp;apos;disk controller&amp;apos;&amp;apos;&amp;apos; is the [[Electronic circuit|circuit]] which enables the [[Central processing unit|CPU]] to communicate with a [[hard disk]], [[floppy disk]] or other kind of [[disk drive]].
+
+Early disk controllers were identified by their storage methods and data encoding.  They were typically implemented on a separate controller card. [[Modified frequency modulation]] (MFM) controllers were the most common type in small computers, used for both floppy disk and hard disk drives. [[Run length limited]] (RLL) controllers used data compression to increase storage capacity by about 50%.  Priam created a proprietary storage algorithm that could double the disk storage.  [[Shugart Associates]] Systems Interface ([[Shugart Associates System Interface|SASI]]) was a predecessor to [[SCSI]].
+
+Modern disk controllers are integrated into the disk drive. For example, disks called &amp;quot;SCSI disks&amp;quot; have built-in SCSI controllers. In the past, before most SCSI controller functionality was implemented in a single chip, separate SCSI controllers interfaced disks to the SCSI bus.
+
+The most common types of interfaces provided nowadays by disk controllers are [[Parallel ATA|PATA (IDE)]] and [[Serial ATA]] for home use. High-end disks use [[SCSI]], [[Fibre Channel]] or [[Serial Attached SCSI]].  Disk controllers can also control the timing of access to [[flash memory]] which is mechless in nature (i.e. no physical disk).
+
+==Disk controller versus host adapter==
+The correct term for the components that allows a &amp;apos;&amp;apos;computer&amp;apos;&amp;apos; to talk to a peripheral bus is [[host adapter]] or host bus adapter (HBA). On the other hand, a disk controller allows a &amp;apos;&amp;apos;disk&amp;apos;&amp;apos; to talk to the same bus. Those two are often confused, especially in the [[Advanced Technology Attachment|PC world]]. In fact signals read by a [[disk read-and-write head]] are converted by a disk controller, then transmitted over the peripheral bus, then converted again by the host adapter into the suitable format for the [[motherboard]]&amp;apos;s bus, and then read by the [[CPU]].
+
+Sometimes there may be yet another controller between a host adapter and a disk controller - a [[disk array controller]] that allows [[RAID#Hardware RAID|hardware RAID]] to be formed. Sometimes it may be even physically integrated with an HBA, but it performs different functions.
+
+==See also==
+* [[Disk array controller]]
+* [[Floppy disk controller]]
+* [[Forensic disk controller]]
+* [[Controller (computing)]]
+
+{{FOLDOC}}
+[[Category:Computer storage]]
+[[Category:Integrated circuits]]
+
+[[fr:Disque dur#Contrôleur de disque]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

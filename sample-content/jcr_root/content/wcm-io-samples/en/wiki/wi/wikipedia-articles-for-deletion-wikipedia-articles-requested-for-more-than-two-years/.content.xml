@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:Articles for deletion/Wikipedia:Articles requested for more than two years"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:Articles for deletion/Wikipedia:Articles requested for more than two years" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;[http://en.wikipedia.org/w/wiki.phtml?title=MediaWiki:VfD-Wikipedia:Articles_requested_for_more_than_two_years&amp;amp;action=edit Add to this debate.]&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+
+This page is empty and serves no point. --[[User:Alex S|Alex S]] 03:46, 27 Mar 2004 (UTC)
+
+Keep.  It is only empty because it has been successful and all such requests have been cleared up.  This page has been a useful tool in the past, with many requests cleared up, and will again be useful in the future.  Within a few weeks there will be a bunch more two year old requests, and they shall then be added to this page. - [[User:SimonP|SimonP]] 07:22, Mar 27, 2004 (UTC)
+
+:Good point. Retracting. --[[User:Alex S|Alex S]] 17:53, 27 Mar 2004 (UTC)&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="CWI"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="CWI" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;CWI&amp;apos;&amp;apos;&amp;apos; is an abbreviation for the following organizations/institutions:
+
+*[[Centrum Wiskunde &amp;amp; Informatica]], Amsterdam, The Netherlands
+*[[College of Western Idaho]], a new Community College in Nampa, Idaho
+*[[Committee for a Workers&amp;apos; International]], an international socialist organisation
+*[[Communist Workers&amp;apos; International]]
+*[[Country Women&amp;apos;s Institute]]
+*[[Christian Witness to Israel]]
+*[[Care for the Wild International]]
+*[[Civil War Institute at Gettysburg College]]
+*Canadian Wrestling International, a [[Canada|Canadian]] professional wrestling promotion based in [[Brantford]]
+
+&amp;apos;&amp;apos;&amp;apos;CWI&amp;apos;&amp;apos;&amp;apos; can also refer to:
+*[[Certified Welding Inspector]], a certification from the American Welding Society
+*[[Chicago and Western Indiana Railroad]]
+*[[Child Well-Being Index]]
+*[[Civil War: The Initiative]], a comic book crossover storyline.
+*[[Comparable Wage Index]]
+*[[Creditworthiness Index]]
+*[[Cloverway Inc.]], a Japanese Animation dubbing company in the United States
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

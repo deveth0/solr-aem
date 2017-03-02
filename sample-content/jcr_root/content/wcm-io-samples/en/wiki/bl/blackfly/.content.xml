@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Blackfly"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Blackfly" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionarypar|blackfly}}
+&amp;apos;&amp;apos;&amp;apos;Blackfly&amp;apos;&amp;apos;&amp;apos;, &amp;apos;&amp;apos;&amp;apos;black-fly&amp;apos;&amp;apos;&amp;apos;, or &amp;apos;&amp;apos;&amp;apos;black fly&amp;apos;&amp;apos;&amp;apos; may refer to:
+*[[Black fly]], a fly of the family &amp;apos;&amp;apos;Simuliidae&amp;apos;&amp;apos;
+*[[Blackfly (TV series)|&amp;apos;&amp;apos;Blackfly&amp;apos;&amp;apos; (TV series)]], a 2001 Canadian comedy series
+*The [[black bean aphid]] (&amp;apos;&amp;apos;Aphis fabae&amp;apos;&amp;apos;)
+
+==See also==
+*&amp;quot;[[The Black Fly Song]]&amp;quot;, a song written by Wade Hemsworth
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

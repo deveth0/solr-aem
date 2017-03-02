@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ka (Cyrillic)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ka (Cyrillic)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=February 2007}}
+{{Cyrillic alphabet navbox|
+Heading=Cyrillic letter Ka|
+Image=[[File:Cyrillic letter Ka - uppercase and lowercase.svg|120px]]|
+uuc=041A|ulc=043A|numeral=20}}
+&amp;apos;&amp;apos;&amp;apos;Ka&amp;apos;&amp;apos;&amp;apos; (К&amp;amp;nbsp;к; italics: &amp;lt;span style=&amp;quot;font-family: times, &amp;apos;Times New Roman&amp;apos;, serif; font-size: larger&amp;quot;&amp;gt;&amp;apos;&amp;apos;К&amp;amp;nbsp;к&amp;apos;&amp;apos;&amp;lt;/span&amp;gt;) is a letter of the [[Cyrillic script]].
+
+It commonly represents the [[voiceless velar plosive]] {{IPA|/k/}}, like the pronunciation of ⟨k⟩ in &amp;quot;&amp;apos;&amp;apos;&amp;apos;k&amp;apos;&amp;apos;&amp;apos;ing&amp;quot;.
+
+==History==
+The Cyrillic letter Ka was derived from the [[Kappa (letter)|Greek letter Kappa]] (Κ&amp;amp;nbsp;κ).
+
+In the [[Early Cyrillic alphabet]] its name was {{Script|Cyrs|како}} (&amp;apos;&amp;apos;kako&amp;apos;&amp;apos;), meaning &amp;quot;as&amp;quot;.
+
+In the [[Cyrillic numerals|Cyrillic numeral system]], Ka had a value of 20.
+
+==Form==
+The Cyrillic letter Ka [[Homoglyph|looks very similar]], and corresponds to the [[K|Latin letter K]] but, as with most Cyrillic letters, the lowercase form is simply a smaller version of the uppercase. Cyrillic Ka is generally differentiated from its Latin and Greek counterparts by drawing its diagonal spurs with curves instead of straight lines.
+
+==Usage==
+In [[Russian language|Russian]], the letter Ka represents the plain [[voiceless velar plosive]] {{IPA|/k/}} or the palatalized one {{IPA|/kʲ/}}; for example, the word &amp;apos;&amp;apos;короткий&amp;apos;&amp;apos; (&amp;apos;&amp;apos;&amp;quot;short&amp;quot;&amp;apos;&amp;apos;) contains both the kinds: [kɐˈrotkʲɪj]. The palatalized variant is pronounced when the following letter in the word is &amp;apos;&amp;apos;[[ь]]&amp;apos;&amp;apos;, &amp;apos;&amp;apos;[[е]]&amp;apos;&amp;apos;, &amp;apos;&amp;apos;[[ё]]&amp;apos;&amp;apos;, &amp;apos;&amp;apos;[[и]]&amp;apos;&amp;apos;, &amp;apos;&amp;apos;[[ю]]&amp;apos;&amp;apos;, or &amp;apos;&amp;apos;[[я]]&amp;apos;&amp;apos;.
+
+In [[Macedonian language|Macedonian]] it always represents the sound /k/.
+
+==Related letters and other similar characters==
+*Κ κ/ϰ : [[Κ|Greek letter Kappa]]
+*K k : [[K|Latin letter K]]
+
+==Computing codes==
+
+{{charmap
+|041A|name1=Cyrillic Capital Letter Ka
+|043A|name2=Cyrillic Small Letter Ka
+|map1=[[KOI8-R]] and [[KOI8-U]] |map1char1=EB |map1char2=CB
+|map2=[[Code page 855]] |map2char1=C7 |map2char2=C6
+|map3=[[Code page 866]] |map3char1=8A |map3char2=AA
+|map4=[[Windows-1251]] |map4char1=CA |map4char2=EA
+|map5=[[ISO-8859-5]] |map5char1=BA |map5char2=DA
+|map6=[[Macintosh Cyrillic encoding|Macintosh Cyrillic]] |map6char1=8A |map6char2=EA
+}}
+
+==External links==
+*{{Wiktionary-inline|К}}
+*{{Wiktionary-inline|к}}
+
+{{Cyrillic-alphabet-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

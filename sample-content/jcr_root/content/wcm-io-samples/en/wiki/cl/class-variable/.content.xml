@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Class variable"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Class variable" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{distinguish|Static variable}}
+In [[object-oriented programming]] with [[Class (computer science)|class]]es, a &amp;apos;&amp;apos;&amp;apos;class variable&amp;apos;&amp;apos;&amp;apos; is a [[Variable (programming)|variable]] defined in a class (i.e. a [[member variable]]) of which a single copy exists, regardless of how many [[Instance (computer science)|instance]]s of the class exist.&amp;lt;ref name=TheJavaTurotialVariables&amp;gt;{{cite web|url=http://download.oracle.com/javase/tutorial/java/nutsandbolts/variables.html|title=The Java Tutorial, Variables |accessdate=2010-10-21}}&amp;lt;/ref&amp;gt;&amp;lt;ref name=TheJavaTutorialUnderstandingInstanceAndClassMembers&amp;gt;{{cite web|url=http://download.oracle.com/javase/tutorial/java/javaOO/classvars.html|title=The Java Tutorial, Understanding Instance and Class Members|accessdate=2010-10-21}}&amp;lt;/ref&amp;gt;&amp;lt;ref name=ThePythonLanguageReferenceCompoundStatements&amp;gt;{{cite web|url=http://docs.python.org/reference/compound_stmts.html#class-definitions|title=The Python Language Reference, Compound Statements|accessdate=2010-10-21}}&amp;lt;/ref&amp;gt;&amp;lt;ref name=ObjectiveCRuntimeReference&amp;gt;{{cite web|url=http://developer.apple.com/library/mac/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html|title= Objective-C Runtime Reference |accessdate=2010-10-21}}&amp;lt;/ref&amp;gt;
+
+A class variable is not an [[instance variable]]. It is a special type of [[Class (computer science)#Structure|class attribute]] (or class property, field, or data member). The same dichotomy between &amp;apos;&amp;apos;instance&amp;apos;&amp;apos; and &amp;apos;&amp;apos;class&amp;apos;&amp;apos; members applies to [[method (computer science)|method]]s (&amp;quot;member functions&amp;quot;) as well; a class may have both [[instance method]]s and [[class method]]s.
+
+==Static member variables and static member functions==
+In some languages, class variables and class methods are either statically resolved, rather than via [[dynamic dispatch]], or their memory [[static memory allocation|statically allocated]] at compile time (once for the entire class, as [[static variable]]s), rather than dynamically allocated at run time (at every instantiation of an object), but in other cases either or both of these are dynamic. For example, if classes can be dynamically defined (at run time), class variables of these classes are allocated dynamically when the class is defined, and in some languages class methods are also dispatched dynamically.
+
+Thus in some languages, &amp;apos;&amp;apos;&amp;apos;static member variable&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;static member function&amp;apos;&amp;apos;&amp;apos; are used synonymously with or in place of &amp;quot;class variable&amp;quot; or &amp;quot;class function&amp;quot;, but these are not synonymous across languages. These terms are commonly used in [[Java (programming language)|Java]], [[C Sharp (programming language)|C#]], and [[C++]], where class variables and class methods are declared with the [[Static (keyword)|&amp;lt;code&amp;gt;static&amp;lt;/code&amp;gt; keyword]], and referred to  as &amp;apos;&amp;apos;&amp;apos;static member variables&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;static member functions&amp;apos;&amp;apos;&amp;apos;.
+
+==Example==
+
+&amp;lt;source lang=&amp;quot;cpp&amp;quot;&amp;gt;
+struct Request {
+
+static int count;
+int number;
+
+    Request() {
+        number = count; // modifies the instance variable &amp;quot;this-&amp;gt;number&amp;quot;
+       ++count; // modifies the class variable &amp;quot;Request::count&amp;quot;
+    }
+
+};
+
+int Request::count = 0;
+&amp;lt;/source&amp;gt;
+
+In this C++ example, the class variable &amp;lt;code&amp;gt;Request::count&amp;lt;/code&amp;gt; is [[increment operator|incremented]] on each call to the [[constructor (computer science)|constructor]], so that &amp;lt;code&amp;gt;Request::count&amp;lt;/code&amp;gt; always holds the number of Requests that have been constructed, and each new Request object is given a &amp;lt;code&amp;gt;number&amp;lt;/code&amp;gt; in sequential order. Since &amp;lt;code&amp;gt;count&amp;lt;/code&amp;gt; is a class variable, there is only one object &amp;lt;code&amp;gt;Request::count&amp;lt;/code&amp;gt;; in contrast, each Request object contains its own distinct &amp;lt;code&amp;gt;number&amp;lt;/code&amp;gt; field.
+
+==Notes==
+{{Reflist|2}}
+
+{{DEFAULTSORT:Class Variable}}
+[[Category:Object-oriented programming]]
+[[Category:Variable (computer programming)]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

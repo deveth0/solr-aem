@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="New River Valley"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="New River Valley" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;New River Valley&amp;apos;&amp;apos;&amp;apos; is a region in the eastern [[United States]] along the [[New River (Kanawha River)|New River]] in the Commonwealth of [[Virginia]] (specifically [[Southwest Virginia]]).  The valley comprises the counties of Montgomery (including the towns of [[Blacksburg, Virginia|Blacksburg]] and [[Christiansburg, Virginia|Christiansburg]]), Pulaski, Floyd, Giles and the independent City of Radford.  It is part of the [[Great Appalachian Valley]] and was one of the first frontier areas in the United States, and was key to encouraging western expansion.  The first [[Europe]]an to explore the valley was [[Abraham Wood]] of [[Fort Henry (Virginia)|Fort Henry]] in 1671 and settlements began to develop in the 18th century. A branch of the [[Great Wagon Road]] led through the New River Valley. The valley was the location of several small American Civil War battles and according to the 2000 census is home to approximately 165,145 residents. The New River Valley is also home to several institutions of higher learning including [[Virginia Tech]], [[Radford University]] and [[New River Community College]].
+
+== External links ==
+*[http://www.newriverva.com/ New River Valley Web Portal]
+
+{{Coord|37|13|44|N|80|22|56.8|W|display=title}}
+
+[[Category:Valleys of Virginia]]
+[[Category:River valleys]]
+
+{{Virginia-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

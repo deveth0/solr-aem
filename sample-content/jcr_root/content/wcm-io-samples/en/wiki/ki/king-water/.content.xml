@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="King Water"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="King Water" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{for|the chemical|aqua regia}}
+&amp;apos;&amp;apos;&amp;apos;King Water&amp;apos;&amp;apos;&amp;apos; is a river in the north of [[Cumbria, England]]. The [[Brampton Angling Association]] has a long term let from the [[Earl of Carlisle]] for [[fishing]] rights on a portion of the [[River Irthing]] and part of the King Water.&amp;lt;ref&amp;gt;[http://www.bramptonangling.plus.com/Memorandum%20of%20Agreement.htm 1891 River Agreement between the Earl of Carlisle and the Bramption Angling Association]&amp;lt;/ref&amp;gt;  [[Hadrian&amp;apos;s Wall]] crossed the King Water to the east of the village of [[Walton, Cumbria|Walton]]
+
+==References==
+{{reflist}}
+
+{{coord|54|57|N|2|44|W|display=title|region:GB_type:river_source:GNS-enwiki}}
+
+[[Category:Rivers of Cumbria]]
+
+{{Cumbria-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="XHNX-FM"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="XHNX-FM" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox Radio station
+ | name = XHNX-AM
+ | image = &amp;lt;!--  Commented out because image was deleted: [[Image:GrupoM.gif|200px]] --&amp;gt;
+ | city = [[Toluca]], [[State of México]], [[Mexico]]
+ | area = [[Toluca]]
+ | branding = Super Stereo Miled
+ | slogan =
+ | airdate =
+ | frequency = 98.9 MHz
+ | format = Mexican
+ | power =
+ | erp =
+ | class =
+ | callsign_meaning =
+ | former_callsigns =
+ | owner =
+ | webcast =
+ | website = www.miled.com
+ | affiliations =
+}}
+XHNX-FM comprise the group of [[Mexico|Mexican]] regional [[radio station]]s that serves the [[State of México]].
+
+&amp;lt;br clear=all&amp;gt;
+{{Mexico State Radio}}
+
+{{coord missing|Mexico}}
+
+[[Category:Regional Mexican radio stations]]
+[[Category:Spanish-language radio stations]]
+[[Category:Radio stations in Mexico State]]
+
+{{Mexico-radio-station-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Sir James Mitchell National Park"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Sir James Mitchell National Park" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{refimprove|date=December 2010}}
+
+{{Infobox Protected Area | name = Sir James Mitchell National Park
+  | iucn_category = II
+  | photo =
+  | photo_caption =
+  | nearest_town_or_city  =
+  | map = Western Australia
+  | region = AU-WA
+  | lat_d = 34
+  | lat_m = 27
+  | lat_s = 22
+  | lat_NS = S
+  | long_d = 116
+  | long_m = 14
+  | long_s = 23
+  | long_EW = E
+  | area = {{convert|247|ha|abbr=on}}&amp;lt;ref&amp;gt;{{cite journal| year=2010| title=Department of Environment and Conservation 2009–2010 Annual Report|pages=48|publisher = Department of Environment and Conservation| issn = 1835-114X| url = http://www.dec.wa.gov.au/content/view/6139/2345/}}&amp;lt;/ref&amp;gt;
+  | established = 1969
+  | visitation_num =
+  | visitation_year =
+  | governing_body = [[Department of Environment and Conservation (Western Australia)|Department of Environment and Conservation]]
+  | url=
+}}
+&amp;apos;&amp;apos;&amp;apos;Sir James Mitchell National Park&amp;apos;&amp;apos;&amp;apos; is a national park in the [[South West (Western Australia)|South West region]] of [[Western Australia]] ([[Australia]]), 284&amp;amp;nbsp;km south of [[Perth, Western Australia|Perth]].
+
+==References==
+{{Reflist}}
+
+==See also==
+* [[Protected areas of Western Australia]]
+{{National Parks of Western Australia}}
+
+[[Category:National parks of Western Australia]]
+[[Category:Protected areas established in 1969]]
+
+
+{{WesternAustralia-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

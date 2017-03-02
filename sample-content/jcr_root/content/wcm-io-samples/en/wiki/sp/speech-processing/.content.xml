@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Speech processing"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Speech processing" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Speech processing&amp;apos;&amp;apos;&amp;apos; is the study of [[Speech communication|speech]] [[Signal (information theory)|signals]] and the processing methods of these signals. The signals are usually processed in a [[Digital data|digital]] representation, so speech processing can be regarded as a special case of [[digital signal processing]], applied to speech signal.{{Clarify|date=December 2010}} Aspects of speech processing includes the acquisition, manipulation, storage, transfer and output of digital speech signals.
+
+It is also closely tied to [[natural language processing]] (NLP), as its input can come from / output can go to NLP applications. E.g. [[text-to-speech]] synthesis may use a [[syntactic parsing|syntactic parser]] on its input text and [[speech recognition]]&amp;apos;s output may be used by e.g. [[information extraction]] techniques. The main applications of speech processing are the recognition, synthesis and compression of human speech.
+
+Speech processing includes the following areas of study:
+* [[Speech recognition]] (also called voice recognition), which deals with analysis of the [[linguistics|linguistic]] content of a speech signal and its conversion into a computer-readable format.
+* [[Speaker recognition]], where the aim is to recognize the [[Identity (social science)|identity]] of the speaker.
+* [[Speech coding]], a specialized form of [[data compression]], is important in the [[telecommunication]] area.
+* [[Voice analysis]] for medical purposes, such as analysis of [[vocal loading]] and dysfunction of the [[vocal cords]].
+* [[Speech synthesis]]: the artificial synthesis of speech, which usually means computer-generated speech. Advances in this area improve the computer&amp;apos;s usability for the visually impaired.
+* [[Speech enhancement]]: enhancing the [[intelligibility]] and/or perceptual quality of a speech signal, like [[audio noise reduction]] for audio signals.
+* [[Speech data compression|Speech compression]] is important in the telecommunications area for increasing the amount of information which can be transferred, stored, or heard, for a given set of time and space constraints.
+* [[Speaker diarization]] is the process of determining who spoke when in a signal.
+
+== See also ==
+* [[Audio signal processing]]
+* [[Linguistics]]
+* [[Neurocomputational speech processing]]
+* [[Origin of speech]]
+* [[Phonetics]]
+* [[Speech impediment]]
+* [[Speech interface guideline]]
+* [[Packet loss concealment]]
+* [[Utterance]]
+
+== External links ==
+*{{Dmoz|Computers/Speech_Technology/Research|Speech technology research}}
+&amp;lt;!-- Please add new links to the Open Directory Project at the link above, unless they conform VERY tightly to the guidelines at http://en.wikipedia.org/wiki/Wikipedia:External_links --&amp;gt;
+
+{{DSP}}
+
+{{DEFAULTSORT:Speech Processing}}
+[[Category:Speech recognition]]
+[[Category:Speech processing| ]]
+[[Category:Speech]]
+[[Category:Speech processing software]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

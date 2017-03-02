@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Emissary"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Emissary" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|emissary}}
+&amp;apos;&amp;apos;&amp;apos;Emissary&amp;apos;&amp;apos;&amp;apos; may refer to:
+* [[Ambassador]]
+* [[Apostle (disambiguation)]]
+* [[Diplomat]]
+* [[Super Smash Bros. Brawl#Adventure Mode: The Subspace Emissary|The Subspace Emissary]], the single-player Adventure Mode in the video game &amp;apos;&amp;apos;Super Smash Bros. Brawl&amp;apos;&amp;apos;
+* [[Emissaries (album)|&amp;apos;&amp;apos;Emissaries&amp;apos;&amp;apos; (album)]], an album by black metal group Melechesh
+* [[Emissary (comics)]], an Image comic by Jim Valentino
+* [[Emissary (hydraulics)]], channel by which an outlet is formed to carry off any stagnant body of water
+* [[Emissary veins]], valveless veins which normally drain the intracranial venous sinuses to veins on the outside of the skull
+* [[Emissary (Internet Software)]], an early Internet Suite
+* [[The Emissary (TV series)|&amp;apos;&amp;apos;The Emissary&amp;apos;&amp;apos; (TV series)]], 1982 Hong Kong TV series
+
+In &amp;apos;&amp;apos;&amp;apos;Star Trek&amp;apos;&amp;apos;&amp;apos;:
+
+* [[Benjamin Sisko]], called the Emissary by the Bajorans
+* [[Emissary (Star Trek: Deep Space Nine)|&amp;quot;Emissary&amp;quot; (&amp;apos;&amp;apos;Star Trek: Deep Space Nine&amp;apos;&amp;apos;)]], the pilot episode of &amp;apos;&amp;apos;Star Trek: Deep Space Nine&amp;apos;&amp;apos;
+* [[The Emissary (Star Trek: The Next Generation)|&amp;quot;The Emissary&amp;quot; (&amp;apos;&amp;apos;Star Trek: The Next Generation)&amp;apos;&amp;apos;]], a second-season episode of &amp;apos;&amp;apos;Star Trek: The Next Generation&amp;apos;&amp;apos;
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

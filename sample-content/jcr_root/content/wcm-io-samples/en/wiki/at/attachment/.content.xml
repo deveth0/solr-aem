@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Attachment"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Attachment" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Wiktionary}}
+&amp;apos;&amp;apos;&amp;apos;Attachment&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* [[Attachment theory]], the psychological theory which is used to describe and investigate the predictable emotional connection between individuals
+* &amp;quot;Attachment&amp;quot; as a vice:
+** [[Upādāna]], a cause of suffering (in Buddhism)
+** [[Moh]], a vice in Sikh belief
+;Law
+* [[Attachment (law)]], a means of collecting a legal judgment by levying on property in the possession of a third party
+** [[Attachment of earnings]], collecting money owed by a debtor directly from the debtor&amp;apos;s employer
+;Science
+*The process by which any [downward] leader &amp;quot;connects&amp;quot; to any available [upward] streamer in a lightning flash.
+;Technology
+*An [[e-mail attachment]]
+*[[AT Attachment]], a computer disk drive interface standard
+*The binding of a [[virus]] to its target cell
+*[[Precision attachment]], the functional mechanical parts of a removable partial denture
+*[[Rental accessories and attachments|Rental attachments]], components attached to rental machinery
+*[[Excavator#Excavator_attachments]] added onto construction equipment to alter its function
+
+*[[Attachments (TV series)|&amp;apos;&amp;apos;Attachments&amp;apos;&amp;apos; (TV series)]], a BBC comedy-drama that ran from 2000 to 2002 about an Internet startup company
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

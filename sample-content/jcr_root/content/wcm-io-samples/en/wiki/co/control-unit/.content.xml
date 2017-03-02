@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Control unit"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Control unit" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{About|the component of a computer&amp;apos;s CPU}}
+{{Multiple issues|refimprove = June 2008|cleanup = June 2008|expert=Computing|date=November 2008}}
+
+The &amp;apos;&amp;apos;&amp;apos;control unit&amp;apos;&amp;apos;&amp;apos; coordinates the components of a computer system. It fetches the code of all of the instructions in the program.
+It directs the operation of the other units by providing timing and control signals.
+All computer resources are managed by the CU. It directs the flow of data between the Central Processing Unit (CPU) and the other devices.
+
+The control unit was historically &amp;lt;!-- reluctant to write &amp;quot;first&amp;quot; for &amp;quot;historically&amp;quot; without further research which, sorry, I&amp;apos;m not bothering about right now --&amp;gt; defined as one distinct part of the 1946 reference model of [[Von Neumann architecture]]. In modern computer designs, the control unit is typically an internal part of the [[Central processing unit|CPU]]&amp;lt;!-- or other device that directs its operation--&amp;gt; with its overall role and operation unchanged.
+
+The control unit is the circuitry that controls the flow of data through the processor, and coordinates the activities of the other units within it. In a way, it is the &amp;quot;brain within the brain&amp;quot;, as it controls what happens inside the processor, which in turn controls the rest of the computer.
+The examples of devices that require a control unit are CPUs and graphics processing units (GPUs). The control unit receives external instructions or commands which it converts into a sequence of control signals that the control unit applies to the data path to implement a sequence of [[register-transfer level]] operations.
+
+== Hardwired control unit ==&amp;lt;!-- Front end processor redirects here --&amp;gt;
+
+Hardwired control units are implemented through use of [[sequential logic]] units, featuring a finite number of gates that can generate specific results based on the instructions that were used to invoke those responses. Hardwired  control units are generally faster than microprogrammed designs.
+
+Their design uses a fixed architecture &amp;amp;mdash; it requires changes in the wiring if the [[instruction set]] is modified or changed.
+This architecture is preferred in [[Reduced instruction set computing|reduced instruction
+set computer]]s (RISC) as they use a simpler instruction set.
+
+A controller that uses this approach can operate at high speed. However, it has little flexibility, and the complexity of the instruction set it can implement is limited.
+
+The hardwired approach has become less popular as computers have evolved as at one time, control units for CPUs were ad-hoc logic, and they were difficult to design.
+
+== Microprogram control unit ==
+{{main|Microcode}}
+
+The idea of microprogramming was introduced by [[Maurice Wilkes]] in 1951 as an intermediate level to execute computer program instructions. Microprograms were organized as a sequence of &amp;apos;&amp;apos;microinstructions&amp;apos;&amp;apos; and stored in special control memory. The algorithm for the microprogram control unit is usually specified by [[flowchart]] description.&amp;lt;ref&amp;gt;{{Cite book  | last1 = Barkalov | first1 = Alexander | title = Logic synthesis for FSM based control units / Alexander Barkalov and Larysa Titarenko | year = 2009 | publisher = Springer | location = Berlin | isbn = 978-3-642-04308-6 | pages =  }}&amp;lt;/ref&amp;gt; The main advantage of the microprogram control unit is the simplicity of its structure. Outputs of the controller are organized in microinstructions and  they can be easily replaced.&amp;lt;ref&amp;gt;{{Cite book  | last1 = Wiśniewski | first1 = Remigiusz | title = Synthesis of compositional microprogram control units for programmable devices   | year = 2009 | publisher = University of Zielona Góra | location = Zielona Góra | isbn = 978-83-7481-293-1 | pages = 153 }}&amp;lt;/ref&amp;gt;
+
+== Functions of the control unit ==
+The control unit implements the [[instruction set]] of the CPU. It performs the tasks of fetching, decoding, managing execution and then storing results. It may manage the translation of instructions (not data) to micro-instructions and manage scheduling the micro-instructions between the various execution units. On some processors the control unit may be further broken down into other units, such as a scheduling unit to handle scheduling and a retirement unit to deal with results coming from the pipeline; It is the main function of CPU.
+
+== See also ==
+*[[CPU design]]
+*[[Computer architecture]]
+*[[Richards controller]]
+*[[Controller (computing)]]
+
+==References==
+{{reflist}}
+
+{{CPU technologies}}
+
+{{DEFAULTSORT:Control Unit}}
+[[Category:Central processing unit]]
+[[Category:Digital electronics]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

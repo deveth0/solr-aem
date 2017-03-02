@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Hitachi 917"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Hitachi 917" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+The &amp;apos;&amp;apos;&amp;apos;Hitachi 917&amp;apos;&amp;apos;&amp;apos; is an automated [[clinical biochemistry|biochemistry]] [[automated analyser|analyser]] used by [[medical laboratory|medical laboratories]] to process biological fluid specimens, such as [[urine]], [[cerebrospinal fluid]], and most commonly, [[blood]].
+
+[[image:hit917.jpg|left|Side-on view of the Hitachi 917.]]
+
+Manufactured by [[Boehringer Mannheim]], the Hitachi 917 is a commonly used routine chemical bichromatic analyser. Capable of doing 1200 test/hour with [[ion selective electrode|ISE]], it is a popular choice among small to medium size laboratories.
+
+==Appearance and use==
+The 917 has two trays for racks, plus a [[statim|stat]] rack. Racks that hold five [[test tube]]s slide in on the left side of the machine. There are two reagents carousels on the right side of the 917. In the centre, towards the back, are the reaction vessels, where the chemical reactions take place.
+
+==Features at a glance==
+*Type:Chemistry Analyzer
+*Parameters: 69 analytes
+*Method: Spectrophotometric Method.
+*Weight: 455 kilos
+*W x D x H: 60x30x44 inches / 152x76x112 cm
+
+==Tests available==
+* [[Ion selective electrode]]s (e.g. [[Sodium|Na]], [[potassium|K]], [[Chloride|Cl]])
+* Rate (e.g. creatine kinase)
+* End point
+* Immunoturbidity
+
+==See also==
+*[[Medical technologist]]
+
+
+{{Hitachi}}
+[[Category:Laboratory equipment]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

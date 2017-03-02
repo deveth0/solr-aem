@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="LTU"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="LTU" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;LTU&amp;apos;&amp;apos;&amp;apos; may mean:
+*IATA code for [[Latur Airport]], India
+*[[La Trobe University]], a university in Australia
+*[[Lambda the Ultimate]], a weblog devoted to programming languages
+*[[Land treatment unit]], a term in bioremediation
+*[[Leeds Trinity University]]
+*[[Lawrence Technological University]], a university in Southfield, Michigan
+*[[Le Quy Don Technical University]], a university in Hanoi, Vietnam
+*[[Liaoning Technical University]], a university in China
+*[[Licence to use]], a type of intellectual property licence
+*Lietuvos Teisės Universitetas, present-day [[Mykolas Romeris University]] in Lithuania
+*[[Louisiana Tech University]], a university in Ruston, Louisiana
+*LTU, the country code for [[Lithuania]] as used by some governing bodies, notably the IOC and FIFA
+*[[LTU International]], a German airline
+*[[LTU Technologies]], a software company
+*[[Luleå University of Technology]], a university in Sweden
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

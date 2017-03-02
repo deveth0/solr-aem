@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Sung Document"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Sung Document" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;Sung Document&amp;apos;&amp;apos;&amp;apos; is a work of a [[China|Chinese]] author circa 1178, during the [[Song Dynasty]]. It states that [[Muslim]] sailors reached a region called &amp;quot;Mu-Lan-Pi&amp;quot;, which, though normally identified as Spain, has been claimed to be some part of the [[Americas]] (specifically, present-day [[California]].)
+
+If the document is authentic, and furthermore if the identification of Mu-Lan-Pi with America is correct, then it is one of the earliest records of [[pre-Columbian trans-oceanic contact|pre-Columbian trans-oceanic travel]] from the [[Eurasia]]n continent to the Americas. However both the authenticity of the Sung Document and the identification of Mu-Lan-Pi with America are doubtful. The historian  [[Joseph Needham]] is open to the possibility but doubts that Arabic ships at the time would have been able to withstand a return journey over such a long distance across the Atlantic Ocean and points out that a return journey would have been impossible without knowledge of prevailing winds and currents. Needham states that there is no evidence that these were known five centuries before the Portuguese used them.&amp;lt;ref&amp;gt;{{Cite book|title=The Shorter Science and Civilisation in China|volume=3|author=[[Joseph Needham]] &amp;amp; Colin A. Ronan|publisher=[[Cambridge University Press]]|year=1986|isbn=0-521-31560-3|page=120|postscript=&amp;lt;!--None--&amp;gt;}}&amp;lt;/ref&amp;gt;
+
+==References==
+{{Reflist}}
+*{{citation|title=The Shorter Science and Civilisation in China|volume=3|author=[[Joseph Needham]] &amp;amp; Colin A. Ronan|publisher=[[Cambridge University Press]]|year=1986|isbn=0-521-31560-3}}&amp;lt;/ref&amp;gt;
+*{{citation|author=Hui-lin Li|title=Mu-lan-p&amp;apos;i: A Case for Pre-Columbian Transatlantic Travel by Arab Ships|journal=[[Harvard Journal of Asiatic Studies]]|volume=23|year=1960-1961|pages=114–126|publisher=[[Harvard-Yenching Institute]]|jstor=2718572}}
+
+==See also==
+*[[Zheng He]]
+**&amp;apos;&amp;apos;[[1421: The Year China Discovered the World]]&amp;apos;&amp;apos;
+*[[Chinese exploration]]
+
+[[Category:Historical documents]]
+[[Category:Pre-Columbian trans-oceanic contact]]
+[[Category:Song Dynasty|Document]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

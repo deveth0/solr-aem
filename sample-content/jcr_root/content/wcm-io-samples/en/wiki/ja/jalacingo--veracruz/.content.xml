@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Jalacingo, Veracruz"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Jalacingo, Veracruz" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Jalacingo&amp;apos;&amp;apos;&amp;apos; is a city in the [[Mexican state]] of [[Veracruz]], bordered by [[Tlapacoyan]], [[Perote (Veracruz)|Perote]] and [[Atzalán]] and on [[Mexican Federal Highway|Federal Highways 180 &amp;amp; 190]]. It was founded by [[Gonzalo de Sandoval]].
+
+In Jalacingo the main indigenous language is [[Nahuatl]].
+== External links ==
+
+* {{es icon}} [http://www.jalacingo.gob.mx Municipal Official Site]
+* {{es icon}} [http://portal.veracruz.gob.mx/portal/page?_pageid=153,4493464&amp;amp;_dad=portal&amp;amp;_schema=PORTAL&amp;amp;municipio=jalacingo.pdf Municipal Official Information]
+
+
+{{coord|19|48|N|97|18|W|region:MX_type:city|display=title}}
+
+[[Category:Populated places in Veracruz]]
+
+{{Veracruz-geo-stub}}
+{{Veracruz}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

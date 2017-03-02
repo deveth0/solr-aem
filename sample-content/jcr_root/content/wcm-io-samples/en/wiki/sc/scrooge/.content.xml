@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Scrooge"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Scrooge" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;[[Miser|Scrooge]]&amp;apos;&amp;apos;&amp;apos; is a term for a miserly person - it may also refer to:
+
+==The character from the novel==
+*[[Ebenezer Scrooge]], the protagonist of Charles Dickens&amp;apos; novel &amp;apos;&amp;apos;[[A Christmas Carol]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Scrooge, or, Marley&amp;apos;s Ghost]]&amp;apos;&amp;apos;, a 1901 silent film
+*[[Scrooge (1913 film)|&amp;apos;&amp;apos;Scrooge&amp;apos;&amp;apos; (1913 film)]]
+*[[Scrooge (1935 film)|&amp;apos;&amp;apos;Scrooge&amp;apos;&amp;apos; (1935 film)]]
+*[[Scrooge (1951 film)|&amp;apos;&amp;apos;Scrooge&amp;apos;&amp;apos; (1951 film)]]
+*[[Scrooge (1970 film)|&amp;apos;&amp;apos;Scrooge&amp;apos;&amp;apos; (1970 film)]], a musical film
+*&amp;apos;&amp;apos;[[Scrooge (musical)]]&amp;apos;&amp;apos;, a 1992 stage musical
+
+==Others==
+*&amp;apos;&amp;apos;[[Scrooged]]&amp;apos;&amp;apos;, a 1988 film
+*[[Scrooge McDuck]], a Disney cartoon and comics character who also bears a miserly personality
+**&amp;apos;&amp;apos;[[Scrooge McDuck and Money]]&amp;apos;&amp;apos;
+**[[Scrooge McDuck universe]]
+*&amp;apos;&amp;apos;[[Scrooge McRock]]&amp;apos;&amp;apos;, Grand Buffet album, 1997
+*[[RT-20 (missile)]] (NATO reporting name: SS-15 Scrooge), an intercontinental ballistic missile developed by the Soviet Union
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

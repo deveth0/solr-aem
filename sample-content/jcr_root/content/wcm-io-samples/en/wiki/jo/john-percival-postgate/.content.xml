@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="John Percival Postgate"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="John Percival Postgate" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Use dmy dates|date=May 2012}}
+{{Use British English|date=May 2012}}
+&amp;apos;&amp;apos;&amp;apos;John Percival Postgate&amp;apos;&amp;apos;&amp;apos; (24 October 1853 – 15 July 1926) was an [[England|English]] [[classics|classicist]], professor of [[Latin]] at the [[University of Liverpool]] from 1909 to 1920.
+
+Born in [[Birmingham]], the son of John Postgate, he was educated at [[King Edward&amp;apos;s School, Birmingham|King Edward&amp;apos;s School]] where he became head boy. He won a scholarship to [[Trinity College, Cambridge]] where he read classics, being elected a Fellow in 1878.&amp;lt;ref&amp;gt;{{Venn|id=PSTT872JP|name=Postgate, John Percival}}&amp;lt;/ref&amp;gt;
+
+He established himself as a creative editor of [[Latin]] [[poetry]] with published editions of [[Propertius]], [[Lucan (poet)|Lucan]], [[Tibullus]] and [[Phaedrus (fabulist)|Phaedrus]]. His major work was the two-volume &amp;apos;&amp;apos;Corpus Poetarum Latinorum&amp;apos;&amp;apos;, a triumph of editorial organisation. While at Cambridge, he edited the &amp;apos;&amp;apos;[[Classical Review]]&amp;apos;&amp;apos; and the &amp;apos;&amp;apos;[[Classical Quarterly]]&amp;apos;&amp;apos; while holding the chair of comparative philology at [[University College, London]]. In 1909, reconciled that the Cambridge Chair would go to [[A.E. Housman]], as it did in 1911, Postgate opted to become Professor of Latin at Liverpool.
+
+He retired to Cambridge in 1920. On 14 July 1926 he was injured in a cycling accident and died of his injuries the following day.
+
+==Family==
+He was the father of [[Raymond Postgate]] (a journalist, historian and novelist), and [[Margaret Cole]] (a politician), and was grandfather to the animator and puppeteer [[Oliver Postgate]].
+
+==References==
+{{reflist}}
+*Todd, R. B. (ed.) (2004) &amp;apos;&amp;apos;Dictionary of British Classicists&amp;apos;&amp;apos; ISBN 1-85506-997-0
+
+==External links==
+*{{wikisource author-inline}}
+*[http://www.archive.org/search.php?query=creator:(postgate+j+p) Works by J. P. Postgate] at the [[Internet Archive]]
+
+{{Authority control|VIAF=49261366}}
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Postgate, John Percival
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION =
+| DATE OF BIRTH     = 24 October 1853
+| PLACE OF BIRTH    =
+| DATE OF DEATH     = 15 July 1926
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Postgate, John Percival}}
+[[Category:1853 births]]
+[[Category:1926 deaths]]
+[[Category:British classical scholars]]
+[[Category:People from Birmingham, West Midlands]]
+[[Category:Alumni of Trinity College, Cambridge]]
+[[Category:Fellows of Trinity College, Cambridge]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

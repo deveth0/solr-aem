@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Regius Professor of Engineering, Cambridge University"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Regius Professor of Engineering, Cambridge University" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Refimprove|date=April 2013}}
+
+The &amp;apos;&amp;apos;&amp;apos;Regius Professorship of Engineering&amp;apos;&amp;apos;&amp;apos; is a  [[List of Professorships at the University of Cambridge|professorship]] at the [[University of Cambridge]]. Founded in 1875 as a chair in &amp;quot;Mechanism and Applied Mechanics&amp;quot;, it was renamed to &amp;quot;Mechanical Sciences&amp;quot; in 1934, and to &amp;quot;Engineering&amp;quot; in 1966. The chair was bestowed the honorary title of [[Regius Professor]]ship by [[Elizabeth II|Queen Elizabeth&amp;amp;nbsp;II]] in 2011, to mark the end of the [[Prince Philip, Duke of Edinburgh|Duke of Edinburgh]]&amp;apos;s 34-year tenure as [[List of Chancellors of the University of Cambridge|Chancellor]] of the University.&amp;lt;ref name=&amp;quot;MacKay&amp;quot;&amp;gt;{{Cite web |url=http://www.cam.ac.uk/research/news/david-mackay-appointed-regius-professor-of-engineering |title=David MacKay appointed Regius Professor of Engineering |publisher=University of Cambridge |date=28 March 2013 |accessdate=3 April 2013}}&amp;lt;/ref&amp;gt;
+
+== Professors of Mechanism and Applied Mechanics ==
+
+* [[James Stuart (politician)|James Stuart]] (1875)
+* [[James Alfred Ewing]] (1890)
+* [[Bertram Hopkinson]] (1903)
+* [[Charles Edward Inglis]] (1919)
+* [[John Fleetwood Baker]] (1943)
+
+== Professors of Engineering ==
+
+* [[Arnold Beck|Arnold Hugh William Beck]] (1966–1970)
+* [[Peter McGregor Ross]] (1970–1974)
+* [[David Edward Newland]] (1976–2003)
+* [[Daniel Mark Wolpert]] (2005–2013)
+* [[David J. C. MacKay]] (2013–present)&amp;lt;ref name=&amp;quot;MacKay&amp;quot;/&amp;gt;
+
+== References ==
+&amp;lt;references/&amp;gt;
+
+{{DEFAULTSORT:Professor Of Engineering, Cambridge University}}
+[[Category:Professorships at the University of Cambridge|Engineering]]
+[[Category:Professorships in engineering]]
+[[Category:1875 establishments in England]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

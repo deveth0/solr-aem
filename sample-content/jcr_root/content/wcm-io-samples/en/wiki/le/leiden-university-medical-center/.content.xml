@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Leiden University Medical Center"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Leiden University Medical Center" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{unreferenced|date=May 2012}}
+[[Image:LUMC.jpg|thumb|320px|right|Leiden University Medical Center]]
+The &amp;apos;&amp;apos;&amp;apos;Leiden University Medical Center&amp;apos;&amp;apos;&amp;apos; (Dutch: &amp;apos;&amp;apos;Leids Universitair Medisch Centrum&amp;apos;&amp;apos;) or &amp;apos;&amp;apos;&amp;apos;LUMC&amp;apos;&amp;apos;&amp;apos;, is the university hospital affiliated with [[Leiden University]], of which it forms the [[medical faculty]]. It resulted from the merger of the &amp;apos;&amp;apos;Academisch Ziekenhuis Leiden&amp;apos;&amp;apos; (Leiden Academic Hospital) and the medical faculty of Leiden University in the late 1990s, forming an [[academic health science centre]]. Similar arrangements exist for most university hospitals in the [[Netherlands]].
+
+The hospital has clinical departments of all [[medicine|medical]] specialties, and acts as a tertiary referral centre for the northern part of the province of [[South Holland]]. In addition, it has a wide range of research programmes in both clinical and basic medical research, leading to a large output of scientific publications.
+
+Special units include:
+* Ophthalmology
+* Neurosurgery
+* Cardiothoracic surgery
+* Neonatal and pediatric surgery and intensive care
+* Pediatric oncology
+* Orthopedic medicine
+* Biliary surgery
+* Rheumatology
+* [[Level I trauma center]]
+
+==See also==
+* [[Universiteit Leiden]]
+* [[Leiden]]
+
+==External links==
+*[http://www.lumc.nl LUMC homepage]
+
+{{coord|52|09|57|N|4|28|39|E|display=title|region:NL_type:landmark_source:nlwiki}}
+
+[[Category:Leiden University|Medical Centre]]
+[[Category:Hospitals in the Netherlands]]
+[[Category:Academic health science centres]]
+[[Category:Hospitals established in 1873]]
+[[Category:1873 establishments in the Netherlands]]
+
+{{Netherlands-struct-stub}}
+{{Europe-hospital-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

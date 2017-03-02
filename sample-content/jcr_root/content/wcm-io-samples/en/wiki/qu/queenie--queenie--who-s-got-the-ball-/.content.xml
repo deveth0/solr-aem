@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Queenie, Queenie, who&#x27;s got the ball?"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Queenie, Queenie, who&#x27;s got the ball?" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{One source|date=March 2012}}
+&amp;apos;&amp;apos;&amp;apos;&amp;quot;Queenie, Queenie, who&amp;apos;s got the ball&amp;quot;&amp;apos;&amp;apos;&amp;apos; is a common children&amp;apos;s [[playground game]]. It is played with a [[ball]] by four or more [[Player (game)|players]].
+
+A person is picked to be the &amp;quot;Queenie,&amp;quot; and that person turns her back to everyone else. The &amp;quot;Queenie&amp;quot; then throws the ball over her shoulder and one of the other players needs to catch it or pick it up. Everyone, except the &amp;quot;Queenie&amp;quot;, puts their hands behind their backs so that the &amp;quot;Queenie&amp;quot; does not know who has the ball. The &amp;quot;Queenie&amp;quot; then turns around and everyone shouts:
+
+:&amp;apos;&amp;apos;&amp;quot;Queenie, Queenie who&amp;apos;s got the ball?&amp;apos;&amp;apos;
+:&amp;apos;&amp;apos;Are they short, or are they tall?&amp;apos;&amp;apos;
+:&amp;apos;&amp;apos;Are they hairy, or are they bald?&amp;apos;&amp;apos;
+:&amp;apos;&amp;apos;You don&amp;apos;t know because you don&amp;apos;t have the ball!&amp;quot;&amp;apos;&amp;apos;
+
+Another version of the chant is:
+
+:&amp;apos;&amp;apos;Queenio, Queenio, who&amp;apos;s got the ballio?&amp;apos;&amp;apos;
+:&amp;apos;&amp;apos;I haven&amp;apos;t got it&amp;apos;&amp;apos;
+:&amp;apos;&amp;apos;It isn&amp;apos;t in my pocket&amp;apos;&amp;apos;
+:&amp;apos;&amp;apos;Queenio, Queenio, who&amp;apos;s got the ballio?&amp;apos;&amp;apos;
+
+The &amp;quot;Queenie&amp;quot; has to guess who has the ball through a [[process of elimination]]. If the person with the ball is the last one to be picked, that person becomes the new &amp;quot;queenie.&amp;quot; The player must admit to having the ball or will  automatically be &amp;quot;out&amp;quot;. The player who is the &amp;quot;Queenie&amp;quot; must not look when throwing the ball or the &amp;quot;Queenie&amp;quot; herself will be &amp;quot;out&amp;quot;.
+
+==External links==
+*[http://www.todaysparent.com/shared/article.jsp?content=355#queenie Article &amp;quot;Games People Play&amp;quot;, originally published in &amp;apos;&amp;apos;Today&amp;apos;s Parent&amp;apos;&amp;apos;, August 1998]
+
+[[Category:Singing games]]
+{{game-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

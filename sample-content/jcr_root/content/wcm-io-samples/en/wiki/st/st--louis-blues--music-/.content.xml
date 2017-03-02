@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="St. Louis blues (music)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="St. Louis blues (music)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{other uses|St. Louis Blues (disambiguation)}}
+{{Infobox music genre
+|name=St Louis blues
+|color=white
+|bgcolor=#0000E1
+|stylistic_origins= [[Blues]], [[jump blues]], [[ragtime]] and [[piano blues]]
+|cultural_origins=1950s [[St. Louis, Missouri]]
+|instruments= [[Piano]], [[vocals|singers]], [[drum]]s, [[upright bass|bass]]
+|popularity=1950s
+}}
+&amp;apos;&amp;apos;&amp;apos;St. Louis blues&amp;apos;&amp;apos;&amp;apos; is a type of [[blues]] music. It is usually more [[piano]]-based than other forms of the blues, and is closely related to the [[jump blues]], [[ragtime]] and [[piano blues]]. Typically, a small number of singers, a pianist and a few other [[musical instrument]]s (used primarily for [[rhythm]]) make up a [[musical ensemble|band]].&amp;lt;ref&amp;gt;{{cite web|author= |url=http://www.allmusic.com/style/st-louis-blues-ma0000012094 |title=St. Louis Blues : Significant Albums, Artists and Songs, Most Viewed |publisher=AllMusic |date= |accessdate=2012-12-10}}&amp;lt;/ref&amp;gt;
+
+==Notable musicians==
+*[[Chuck Berry]]
+*[[James Crutchfield]]
+*[[Teddy Darby]]
+*[[Walter Davis (blues)|Walter Davis]]
+*[[James &amp;quot;Stump&amp;quot; Johnson]]
+*[[Johnnie Johnson (musician)|Johnnie Johnson]]
+*[[Lonnie Johnson]]
+*[[Charley Jordan]]
+*[[Luella Miller]]
+*[[Robert Lee McCollum|Robert Nighthawk]]
+*[[Yank Rachell]]
+*[[Bennie Smith]]
+*[[Roosevelt Sykes]]
+*[[Henry Townsend (musician)|Henry Townsend]]
+*[[Ike Turner]]
+*[[Albert King]]
+*[[Little Milton]]
+
+==See also==
+&amp;quot;[[St. Louis Blues (song)]]&amp;quot; for the [[W. C. Handy]] song.
+
+==References==
+{{Reflist}}
+
+{{blues}}
+
+[[Category:Music of St. Louis, Missouri]]
+[[Category:Blues music genres]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="List of battleships of Japan"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="List of battleships of Japan" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;This is a list of Japanese Navy battleships from 1860 to 1945.
+
+Dates are launching dates.
+
+==Early battleships==
+* {{ship|Japanese ironclad|Fusō||2}} (1877) - BU 1910
+* {{ship|Japanese battleship|Chin&amp;apos;en||2}} (1882) (ex-Chinese {{ship|Chinese turret ship|Zhenyuan||2}}, captured 1895) - BU 1914
+
+==Pre-Dreadnoughts==
+* {{sclass-|Fuji|battleship|4}}
+** {{ship|Japanese battleship|Fuji||2}} (1896) - BU 1948
+** {{ship|Japanese battleship|Yashima||2}} (1896) - Mined 1904
+* {{sclass-|Shikishima|battleship|4}}
+** {{ship|Japanese battleship|Shikishima||2}} (1898) - BU 1948
+** {{ship|Japanese battleship|Hatsuse||2}} (1899) - Mined 1904
+* {{ship|Japanese battleship|Asahi||2}} (1899) - Sunk 1942
+* {{ship|Japanese battleship|Mikasa||2}} (1900) - Preserved [[Yokosuka]]
+* {{ship|Japanese battleship|Iki||2}} (1889) (ex-Russian {{ship|Russian battleship|Imperator Nikolai I||2}}, captured 1905) - sunk as target 1915
+* {{ship|Japanese battleship|Tango||2}} (1894) (ex-Russian {{ship|Russian battleship|Poltava||2}}, captured 1905) - BU 1923
+* {{ship|Japanese battleship|Sagami||2}} (1898) (ex-Russian {{ship|Russian battleship|Peresvet||2}}, captured 1905)
+* {{ship|Japanese battleship|Suwo||2}} (1900) (ex-Russian {{ship|Russian battleship|Pobieda||2}}, captured 1905)
+* {{ship|Japanese battleship|Hizen||2}} (1900) (ex-Russian {{ship|Russian battleship|Retvizan||2}}, captured 1905)
+* {{ship|Japanese battleship|Iwami||2}} (1902) (ex-Russian {{ship|Russian battleship|Oryol||2}}, captured 1905)
+* {{ship|Japanese battleship|Mishima||2}} (1894) (ex-Russian {{ship|Russian coast defense ship|Admiral Seniavin||2}}, captured 1905)
+* {{ship|Japanese battleship|Okinoshima||2}} (1896) (ex-Russian {{ship|Russian coast defense ship|General Admiral Graf Apraksin||2}}, captured 1905)
+* {{sclass-|Katori|battleship|4}}
+** {{ship|Japanese battleship|Katori||2}} (1905) - scrapped 1924
+** {{ship|Japanese battleship|Kashima||2}} (1905) - scrapped 1924
+* {{sclass-|Satsuma|battleship|4}}
+** {{ship|Japanese battleship|Satsuma||2}} (1906) - Scuttled 1924
+** {{ship|Japanese battleship|Aki||2}} (1907) - Sunk 1924
+* {{sclass-|Kawachi|battleship|4}}
+** {{ship|Japanese battleship|Kawachi||2}} (1910) - sunk 1918
+** {{ship|Japanese battleship|Settsu||2}} (1911) - scrapped 1947
+
+==Dreadnoughts==
+* {{sclass-|Kongō|battlecruiser|4}}
+** {{ship|Japanese battleship|Kongō||2}}
+** {{ship|Japanese battleship|Hiei||2}}
+** {{ship|Japanese battleship|Kirishima||2}}
+** {{ship|Japanese battleship|Haruna||2}}
+
+* {{sclass-|Fusō|battleship|4}}
+** {{ship|Japanese battleship|Fusō||2}} (1914) - Sunk October 1944 in [[Battle of Leyte Gulf]].
+** {{ship|Japanese battleship|Yamashiro||2}} (1915) - Sunk October 1944 in [[Battle of Leyte Gulf]].
+
+* {{sclass-|Ise|battleship|4}}
+** {{ship|Japanese battleship|Ise||2}} - Bombed 1945, refloated, BU
+** {{ship|Japanese battleship|Hyūga||2}} - Bombed 1945, refloated, BU
+
+* {{sclass-|Nagato|battleship|4}}
+** {{ship|Japanese battleship|Mutsu||2}} - Blew up in harbor (magazine explosion?) 1943
+** {{ship|Japanese battleship|Nagato||2}} - Sunk following [[Bikini atomic experiments]] 1946
+
+* {{sclass-|Tosa|battleship|4}}
+** {{ship|Japanese battleship|Tosa||2}} - incomplete, scuttled 1925
+** {{ship|Japanese aircraft carrier|Kaga||2}} - completed as aircraft carrier, sunk June 1942 at the [[Battle of Midway]].
+
+* {{sclass-|Amagi|battlecruiser|4}} (only &amp;apos;&amp;apos;Akagi&amp;apos;&amp;apos; completed, but as an aircraft carrier)
+** {{ship|Japanese battlecruiser|Amagi||2}} - badly damaged in the [[1923 Great Kantō earthquake]]
+** {{ship|Japanese aircraft carrier|Akagi||2}} - sunk June 1942 at the [[Battle of Midway]].
+** &amp;apos;&amp;apos;Takao&amp;apos;&amp;apos; - scrapped incomplete
+** &amp;apos;&amp;apos;Atago&amp;apos;&amp;apos; - scrapped incomplete
+
+* {{sclass-|Kii|battleship|4}} (design only)
+** &amp;apos;&amp;apos;Kii&amp;apos;&amp;apos;
+** &amp;apos;&amp;apos;Owari&amp;apos;&amp;apos;
+** &amp;apos;&amp;apos;Suruga&amp;apos;&amp;apos;
+** &amp;apos;&amp;apos;Omi&amp;apos;&amp;apos;
+
+* {{sclass2-|Number 13|battleship|4}}
+** Dreadnought No. 13 - No. 16 (no names, plan only)
+
+* {{sclass-|Yamato|battleship|4}}
+** {{ship|Japanese battleship|Yamato||2}} (1940) - Sunk in route to [[Operation Ten-Go|Okinawa]] April, 1945
+** {{ship|Japanese battleship|Musashi||2}} (1940) - Sunk October 1944 in [[Battle of Leyte Gulf]].
+** {{ship|Japanese aircraft carrier|Shinano||2}} (converted to an aircraft carrier, as the &amp;apos;&amp;apos;Shinano&amp;apos;&amp;apos; class) - Sunk by submarine torpedo attack November 1944.
+** No. 111 (&amp;apos;&amp;apos;Kii&amp;apos;&amp;apos;?) (scrapped while under construction)
+** No. 797 (design-only)
+
+* [[Design A-150 battleship|A-150 project]]
+** Warship No. 798 - No. 799 (no names, plan-only)
+
+Note: BU = Broken Up date
+
+==External links==
+* [http://homepage2.nifty.com/nishidah/e/index.htm Hiroshi Nishida&amp;apos;s IJN site]
+* [http://www.combinedfleet.com Imperial Japanese Navy Page]
+* [http://ww2db.com/ship.php?q=1&amp;amp;list=c List of WW2-era Japanese Warships]
+
+{{DEFAULTSORT:List of battleships of Japan}}
+[[Category:Battleships of Japan| ]]
+[[Category:Lists of battleships|Japan]]
+[[Category:Lists of ships of Japan|Battleship]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

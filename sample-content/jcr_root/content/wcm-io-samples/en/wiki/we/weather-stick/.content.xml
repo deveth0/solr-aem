@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Weather stick"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Weather stick" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;lt;!-- Deleted image removed: [[Image:wstick.jpg|thumbnail|300px|right|Left: dry air, Center: increasing humidity, Right: very humid]] --&amp;gt;
+A &amp;apos;&amp;apos;&amp;apos;weather stick&amp;apos;&amp;apos;&amp;apos; is a traditional means of weather prediction used by some [[Indigenous peoples of the Americas|Native Americans]]. It consists of a [[balsam fir]] or [[birch]] rod mounted outdoors which twists upwards in low [[humidity]] and downwards in high-humidity environments.&amp;lt;ref&amp;gt;http://www.novalynx.com/glossary-w.html&amp;lt;/ref&amp;gt; These sticks were first used by the [[Indigenous peoples of the Americas|Native Americans]] of the American northeast and the Canadian east and southeast, who noted the behavior of dry branches prior to the arrival of weather changes. The weather stick is a rare example of a weather prediction tool which predates the mercury [[barometer]].{{Citation needed|date=May 2009}}
+
+==See also==
+*[[Tell-tale]]
+*[[Weather Rock]]
+
+==References==
+{{reflist}}
+
+==External links==
+*[http://www.theweatherstick.com The Weather Stick.com]
+*[http://www.new-potato.com/wstick/ New Potato.com]
+
+[[Category:First Nations history]]
+[[Category:Meteorological instrumentation and equipment]]
+[[Category:Native American culture]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

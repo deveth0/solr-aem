@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Initiator"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Initiator" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionarypar|initiator}}
+An &amp;apos;&amp;apos;&amp;apos;initiator&amp;apos;&amp;apos;&amp;apos; can refer to:
+* A person that takes an [[initiative]] in making something happen.
+* [[Modulated neutron initiator]], a neutron source used in some [[nuclear weapons]]
+* [[Pyrotechnic initiator]], a device containing a pyrotechnic composition used primarily to ignite other, more difficult to ignite materials
+* [[Radical initiator]], chemical substances that can produce radical species under mild conditions
+** [[Photoinitiator]], chemical substances that produce radical specials upon exposure to light
+* [[SCSI initiator]], the host-side endpoint of a SCSI session
+* Monomeric polyols, such as glycerin, pentaerythritol, ethylene glycol and sucrose, serving as the starting point for polymeric polyols
+
+==See also==
+
+* [[Explosive booster]]
+* [[Nuclear chain reaction]]
+
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

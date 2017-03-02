@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Brętowo"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Brętowo" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Brętowo&amp;apos;&amp;apos;&amp;apos; ({{lang-de|Brentau}}) is one of the quarters of the city of [[Gdańsk]], [[Poland]]. It includes 2 housing estates, Niedźwiednik and Matemblewo, that are located inside [[Oliwa forests]].
+
+The old (now-closed) railway track from [[Wrzeszcz]] (Langfuhr) to [[Kartuzy]] (Karthaus) goes through the quarter, with [[Gdańsk Brętowo (PKP station)]] being the former station. As few railway bridges were destroyed, the remaining bridges are used by alpinists to train.
+
+==External links==
+* [http://gis.gdansk.pl/dziel/d-12.htm Map of Brętowo]
+* [http://sabaoth.infoserve.pl/danzig-online/plan/map7a.jpg Old map of Brentau]
+
+{{Gdańsk}}
+
+{{Pomorze-geo-stub}}
+
+{{coord|54|22|N|18|34|E|display=title|region:PL_type:city_source:GNS-enwiki}}
+
+[[Category:Districts of Gdańsk]]
+
+{{DEFAULTSORT:Bretowo}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

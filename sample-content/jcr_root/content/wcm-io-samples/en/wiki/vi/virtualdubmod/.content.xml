@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="VirtualDubMod"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="VirtualDubMod" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{original research|date=March 2012}}
+{{Infobox Software
+| name                   = VirtualDubMod
+| logo                   =
+| screenshot             = [[File:VirtualDubMod in Wine.png|300px]]
+| caption                =
+| developer              =
+| programming language   = C, C++, Pascal
+| latest_release_version = 1.5.10.2
+| latest_release_date    = {{Start date and age|2005|08|29}}
+| latest preview version =
+| latest preview date    =
+| operating_system       = [[Microsoft Windows]]
+| genre                  = [[video capture]], [[video processing]]
+| status                 = [[Abandonware]]
+| license                = [[GNU General Public License|GNU GPL]]
+| website                = {{URL|virtualdubmod.sourceforge.net}}
+}}
+
+&amp;apos;&amp;apos;&amp;apos;VirtualDubMod&amp;apos;&amp;apos;&amp;apos; was an [[open source]] [[video capture]] and [[video processing|processing]] tool for [[Microsoft Windows]], based on Avery Lee&amp;apos;s [[VirtualDub]].
+
+==History==
+Version 1.5.10.2 (build 2542) was released on 21 February 2006. VirtualDub&amp;apos;s author, which hosts VirtualDubMod&amp;apos;s forums, claimed that development had been [[Abandonware|abandoned]].&amp;lt;ref&amp;gt;{{cite web| url=http://forums.virtualdub.org/index.php?act=ST&amp;amp;f=12&amp;amp;t=8931| title=Status Of VirtualDubMod, and forum change| author=[[VirtualDub]]&amp;apos;s author| publisher=forums.virtualdub.org| date=2005-02-03| accessdate=2009-06-16}}&amp;lt;/ref&amp;gt; A version labeled as &amp;quot;VirtualDubMod 1.6.0.0 SURROUND&amp;quot;, dated 9 April 2006, was released by a company called Aud-X.&amp;lt;ref&amp;gt;{{cite web| url=http://www.aud-x.com| title=Aud-X| publisher=aud-x.com| date=2006-03-16| accessdate=2009-06-16}}&amp;lt;/ref&amp;gt; A Version 1.5.10.3 build 2550 was released by VirtualDub-Fr.&amp;lt;ref&amp;gt;{{cite web| url=http://www.virtualdub-fr.org| title=VirtualDub-Fr| publisher=VirtualDub-Fr.org| date=2010-01-29| accessdate=2010-01-29}}&amp;lt;/ref&amp;gt;
+
+==Features==
+VirtualDubMod merged several specialized [[Fork (software development)|forks]] of VirtualDub posted on the [[Doom9]] forums. Added features included [[Matroska]] (MKV) support, [[OGM]] support, and [[MPEG-2]] support.&amp;lt;ref&amp;gt;{{cite web | url=http://sourceforge.net/mailarchive/message.php?msg_id=350319 | title=Matroska open source A/V container format officially released | publisher=sourceforge.net | author=Christian HJ Wiesner | date=2003-04-30 |accessdate=2011-06-27}}&amp;lt;/ref&amp;gt;
+
+One notable feature that remains missing in VirtualDubMod is the ability to program timed video captures, which was present in one VirtualDub fork called VirtualDubVCR.&amp;lt;ref&amp;gt;{{cite web| url=http://www.virtualdub.net/download.htm| title=Download| publisher=virtualdub.net| language=[[German language|German]]| accessdate=2009-06-16}}&amp;lt;/ref&amp;gt;
+
+Despite the abandonment of development of VirtualDubMod, some of its features can be added to VirtualDub through input plugins and [[Windows legacy audio components#Audio Compression Manager|ACM]] [[codec]]s provided by users on VirtualDub forums.&amp;lt;ref&amp;gt;{{cite web | url=http://forums.virtualdub.org/index.php?act=SF&amp;amp;f=7 | title=VirtualDub Filters and Filter Development | publisher=Unofficial VirtualDub Support Forums | accessdate=2012-02-01}}&amp;lt;/ref&amp;gt;
+
+==See also==
+* [[Avidemux]] - a cross platform program similar to VirtualDub, available for Linux, Windows and Mac.
+* [[Comparison of video editing software]]
+* [[VirtualDub]]
+* [[Doom9]]
+
+==References==
+&amp;lt;references/&amp;gt;
+
+==External links==
+*{{ Official site |http://virtualdubmod.sourceforge.net }}
+*[http://sourceforge.net/projects/virtualdubmod SourceForge Project Page]
+*{{cite web| url=http://forums.virtualdub.org/?c=5| title=Forums| publisher=forums.virtualdub.org| accessdate=2009-06-16}}
+*{{cite web| url=http://www.videohelp.com/tools/VirtualdubMOD| title=Help page| publisher=videohelp.com | accessdate=2009-06-16}}
+{{Video editors}}
+
+{{DEFAULTSORT:Virtualdubmod}}
+[[Category:Free video software]]
+[[Category:Free software programmed in C]]
+[[Category:Free software programmed in C++]]
+[[Category:Free software programmed in Pascal]]
+[[Category:Windows-only free software]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

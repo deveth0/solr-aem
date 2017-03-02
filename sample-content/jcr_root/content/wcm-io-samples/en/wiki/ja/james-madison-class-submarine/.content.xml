@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="James Madison-class submarine"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="James Madison-class submarine" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{DISPLAYTITLE:&amp;apos;&amp;apos;James Madison&amp;apos;&amp;apos;-class submarine}}
+{{use dmy dates|date=February 2013}}
+{|{{Infobox ship begin}}
+{{Infobox ship image
+|Ship image=[[File:USS John C. Calhoun (SSBN-630).jpg|300px]]
+|Ship caption= USS &amp;apos;&amp;apos;John C. Calhoun&amp;apos;&amp;apos; (SSBN-630)|alt=Angled view of gray submarine in river steaming towards camera. Personnel wearing high-visibility apparel are standing atop the submarine, while a tugboat spraying water is visible at the submarine&amp;apos;s starboard side.
+}}
+{{Infobox ship class overview
+|Builders=[[General Dynamics Electric Boat]]&amp;lt;ref Name=FAS/&amp;gt;&amp;lt;br /&amp;gt;[[Mare Island Naval Shipyard]]&amp;lt;ref Name=FAS/&amp;gt;&amp;lt;br /&amp;gt;[[Portsmouth Naval Shipyard]]&amp;lt;ref Name=FAS/&amp;gt;&amp;lt;br/&amp;gt;[[Newport News Shipbuilding and Drydock Company]]&amp;lt;ref Name=FAS&amp;gt;[http://www.fas.org/programs/ssp/man/uswpns/navy/submarines/ssbn616_lafayette.html &amp;quot;SSBN-616 Lafayette-Class FBM Submarines&amp;quot; from the FAS]&amp;lt;/ref&amp;gt;
+|Operators= {{navy|USA}}
+|Class before={{sclass-|Lafayette|submarine}}
+|Class after={{sclass-|Benjamin Franklin|submarine}}
+|Subclasses=
+|Built range=1962–1964
+|In commission range=1964–1995
+|Total ships building=
+|Total ships planned=
+|Total ships completed=10
+|Total ships cancelled=
+|Total ships active=
+|Total ships laid up=
+|Total ships lost=
+|Total ships retired=10
+|Total ships preserved=1 (As Training Vessel - [[SSBN-635]])
+}}
+{{Infobox ship characteristics
+|Hide header=
+|Header caption=
+|Ship type=[[Submarine#Ballistic_Missile_Submarines|Ballistic Missile Submarine]]
+|Ship displacement= {{convert|7250|LT|t|lk=in|abbr=on}} surfaced &amp;lt;ref Name=FAS/&amp;gt;&amp;lt;br /&amp;gt; {{convert|8250|LT|t|abbr=on}} submerged &amp;lt;ref Name=navysite&amp;gt;[http://www.navysite.de/ssbn/ssbn627.htm &amp;quot;USS James Madison (SSBN 627)&amp;quot; from the navysite.de]&amp;lt;/ref&amp;gt;
+|Ship length=  {{convert|425|ft|m|abbr=on}} &amp;lt;ref Name=navysite/&amp;gt;
+|Ship beam= {{convert|33|ft|m|abbr=on}} &amp;lt;ref Name=navysite/&amp;gt;
+|Ship draft= {{convert|31|ft|6|in|m|abbr=on}} &amp;lt;ref Name=navysite/&amp;gt;
+|Ship propulsion=1 × [[S5W reactor]] - two geared steam turbines - 1 shaft &amp;lt;ref Name=FAS/&amp;gt;
+|Ship speed={{convert|20|kn|km/h}} surfaced &amp;lt;ref Name=navysite/&amp;gt;&amp;lt;br /&amp;gt;{{convert|25|kn|km/h}} submerged &amp;lt;ref Name=navysite/&amp;gt;
+|Ship range=
+|Ship endurance=
+|Ship test depth=
+|Ship complement=Two crews of 13 officers and 130 enlisted &amp;lt;ref Name=navysite/&amp;gt;
+|Ship sensors=
+|Ship EW=
+|Ship armament= • 4 × {{convert|21|in|mm|abbr=on}} torpedo tubes for [[Mark 48 torpedo]]es&amp;lt;ref Name=navysite/&amp;gt;&amp;lt;br/&amp;gt;• 16 × vertical tubes for [[UGM-27 Polaris|Polaris]] or [[UGM-73 Poseidon|Poseidon]] ballistic missiles &amp;lt;ref Name=navysite/&amp;gt;
+|Ship notes=
+}}
+|}
+
+The &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;James Madison&amp;apos;&amp;apos; class&amp;apos;&amp;apos;&amp;apos; of submarine was an evolutionary development from the {{sclass-|Lafayette|submarine|4}} of fleet [[ballistic missile submarine]]. They were identical to the &amp;apos;&amp;apos;Lafayette&amp;apos;&amp;apos;s except for being designed to carry the [[Polaris A-3 missile]] instead of the earlier A-2. During the late 1970s and early 1980s, select units were further modified to carry [[Trident missile|Trident-I]] (C-4) missiles. This class, together with
+the {{sclass-|George Washington|submarine|5}}, {{sclass-|Ethan Allen|submarine|5}}, {{sclass-|Lafayette|submarine|5}}, and {{sclass-|Benjamin Franklin|submarine|5}} classes, comprised the &amp;quot;[[41 for Freedom]].&amp;quot;
+
+== Class Improvements ==
+Improvements in the James Madison class included the [[ballistic missile]], [[missile guidance|guidance]], [[Fire-control system|fire control]], [[Inertial navigation system|navigation]], and launcher systems. The improved missile system introduced was the Polaris A3 missile. The A3 was restricted by size because it had to fit into the existing submarine launch tube. But it was {{convert|1.5|in|cm}} longer, weighed {{convert|4000|lbs|kg}} more, and had a range {{convert|1000|nmi|km}} farther than the A2. Additionally, the number of reentry systems was increased from 1 to 3, making this the first [[multiple reentry vehicle]] missile.
+
+The guidance, fire control, and navigation systems were improved to account for the longer range of the A3 missile. The launcher system was improved by replacing the liquid springs on which the launch tube rested with [[polyurethane]] foam.
+
+== Boats ==
+Submarines of the James Madison class:&amp;lt;ref&amp;gt;http://www.submarinehistory.com/FleetBallisticMissileSubmarines.html California Center for Military History&amp;lt;/ref&amp;gt;
+* {{USS|James Madison|SSBN-627}}
+* {{USS|Tecumseh|SSBN-628}}
+* {{USS|Daniel Boone|SSBN-629}}
+* {{USS|John C. Calhoun|SSBN-630}}
+* {{USS|Ulysses S. Grant|SSBN-631}}
+* {{USS|Von Steuben|SSBN-632}}
+* {{USS|Casimir Pulaski|SSBN-633}}
+* {{USS|Stonewall Jackson|SSBN-634}}
+* {{USS|Sam Rayburn|SSBN-635}}
+* {{USS|Nathanael Greene|SSBN-636}}
+
+== See also ==
+{{Commonscat-inline|James Madison class submarines}}
+* [[Fleet Ballistic Missile]]
+
+==References==
+&amp;lt;references /&amp;gt;
+{{James Madison class submarine}}
+{{ColdwarUSSubmarines}}
+
+{{DEFAULTSORT:James Madison Class Submarine}}
+[[Category:Submarine classes]]
+[[Category:James Madison-class submarines| ]]
+[[Category:Cold War submarines of the United States| James Madison class]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

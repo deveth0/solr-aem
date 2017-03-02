@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Kijkduin"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Kijkduin" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{for|the Kijkduin near Den Helder|Huisduinen}}
+[[Image:Kijkduin Beach.jpg|thumb|250px|right|The beach at Kijkduin.]]&amp;apos;&amp;apos;&amp;apos;Kijkduin&amp;apos;&amp;apos;&amp;apos; is a [[seaside resort]] on the [[North Sea]] coast of the province of [[South Holland]] in the [[Netherlands]]. It is one of the two seaside resorts of the city of [[The Hague]], the other (more famous) one being [[Scheveningen]].
+Kijkduin was established in 1923 by the developer Joh. D. van der Houwen. Architects Bijvoet and Duiker were the inspiration and architects for this 126 residence village. The sales brochure &amp;quot;Villa-Dorp Kijkduin&amp;quot; provides a detailed description of the new development, its inspiration and contains many re-prints of local newspaper articles describing the uniqueness of the architecture, layout of the development and expected lifestyle of the new residents.
+
+{{coord|52|04|N|4|15|E|display=title|region:NL_type:city_source:GNS-enwiki}}
+{{Commons category}}
+
+[[Category:Populated places in South Holland]]
+[[Category:The Hague]]
+
+{{SouthHolland-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

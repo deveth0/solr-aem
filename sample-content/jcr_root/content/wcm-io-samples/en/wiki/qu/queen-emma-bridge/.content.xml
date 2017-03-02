@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Queen Emma Bridge"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Queen Emma Bridge" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{unreferenced|date=August 2009}}
+{{Infobox Bridge |
+|image=Curacao-Queen-Emma-Bridge.JPG
+|caption=The bridge seen from the Otrobanda end towards Punda
+|bridge_name=Queen Emma Bridge
+|official_name=
+|carries=
+|crosses=St. Anna bay
+|locale=[[Willemstad]], [[Curaçao]]
+|maint=
+|open=1888, restored 1939 and 2006
+|design=[[Pontoon bridge]]
+|length=167 m (548 feet)
+|width=9.80 m (32 feet)
+}}
+The &amp;apos;&amp;apos;&amp;apos;Queen Emma Bridge&amp;apos;&amp;apos;&amp;apos; is a [[pontoon bridge]] across [[Sint Anna Bay|St. Anna Bay]] in [[Curaçao]]. It connects the Punda and [[Otrobanda]] quarters of the capital city, [[Willemstad]]. The bridge is hinged and opens regularly to enable the passage of ocean going vessels. On the opposite end from the hinge is a small shelter where an operator controls two diesel engines turning propellers. The propellers are mounted perpendicular to the length of the bridge and allow it to swing parallel to the shore. The process only takes a few minutes to complete.
+
+[[File:Curacao-Emma-In-Action.JPG|thumb|left|350px|The bridge when it is operating for pedestrians, seen from the Punda side towards the Otrobanda side.]]
+The bridge was built in 1888 and was completely renovated in 1939.  Originally it was a toll bridge. Individuals without shoes were permitted to cross the bridge without paying the toll; however, today, a toll is no longer applied. When the bridge swings open, two ferries spring into action to bring pedestrians across the water. The ferries are also free of charge.
+
+&amp;lt;br clear=&amp;quot;all&amp;quot;&amp;gt;
+==External links==
+* {{structurae|id=s0005991|title=Queen Emma Bridge}}
+
+{{coord|12|06|22|N|68|56|07|W|display=title|region:NL_type:landmark_source:dewiki}}
+
+[[Category:Bridges in the Netherlands]]
+[[Category:Pontoon bridges]]
+[[Category:Bridges completed in 1888]]
+
+{{Netherlands-struct-stub}}
+{{Europe-bridge-struct-stub}}
+{{Netherlands-transport-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

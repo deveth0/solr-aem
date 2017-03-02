@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="InterNetNews"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="InterNetNews" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox Software
+| name                   = InterNetNews
+| logo                   =
+| screenshot             =
+| caption                =
+| collapsible            =
+| author                 = [[Rich Salz]]
+| developer              = [[Internet Systems Consortium|ISC]]
+| released               = {{start date|1991}}&amp;lt;ref group=&amp;quot;nb&amp;quot;&amp;gt;The copyright dates in the LICENSE file&amp;lt;!-- should cite the LICENSE footnote here, but can&amp;apos;t get the #tag:ref thing to work right --&amp;gt; begin with 1991.&amp;lt;/ref&amp;gt;
+| latest release version = 2.5.3
+| latest release date    = {{start date and age|2012|08|14}}&amp;lt;ref&amp;gt;{{cite mailing list |title=&amp;lt;nowiki&amp;gt;[ANNOUNCE] INN 2.5.3 available&amp;lt;/nowiki&amp;gt; |mailinglist=inn-announce |url=https://lists.isc.org/mailman/htdig/inn-announce/2010-March/000004.html |last=Allbery |first=Russ |date=25 March 2010 |accessdate=27 March 2010}}&amp;lt;/ref&amp;gt;
+&amp;lt;!-- Update and uncomment this if a preview version newer than the release version is published.
+| latest preview version = 2.5.0rc1
+| latest preview date    = {{start date and age|2009|03|10}}&amp;lt;ref&amp;gt;{{cite mailing list |title=&amp;lt;nowiki&amp;gt;[ANNOUNCE] INN 2.5.0 release candidate available&amp;lt;/nowiki&amp;gt; |mailinglist=inn-announce |url=https://lists.isc.org/pipermail/inn-announce/2009-March/000000.html |last=Allbery |first=Russ |date=10 March 2009 |accessdate=17 April 2009}}&amp;lt;/ref&amp;gt;
+--&amp;gt;
+| frequently updated     = no
+| programming language   = [[C (programming language)|C]], with some tools in [[Perl]] and [[Python (programming language)|Python]]
+| operating system       = [[Unix-like]]
+| platform               = [[Multi-platform]]
+| size                   =
+| language               = [[English language|English]]
+| status                 = Active
+| genre                  = [[:Category:Usenet servers|Usenet server]]
+| license                = Mostly [[ISC license]], with parts under other licenses&amp;lt;ref name=&amp;quot;license&amp;quot;&amp;gt;{{cite web |url=http://www.eyrie.org/~eagle/software/inn/docs/license.html |title=INN License Information |work=INN CURRENT Documentation |date=22 April 2008 |accessdate=11 July 2008}}&amp;lt;/ref&amp;gt;
+| website                = [http://www.isc.org/software/inn/ isc.org/software/inn]
+}}
+
+&amp;apos;&amp;apos;&amp;apos;InterNetNews&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;&amp;apos;INN&amp;apos;&amp;apos;&amp;apos;) is a [[Usenet]] [[news server]] package, originally released by [[Rich Salz]] in 1991, and presented at the Summer 1992 [[USENIX]] conference in [[San Antonio, Texas]]. It was the first news server with integrated [[Network News Transfer Protocol|NNTP]] functionality.
+
+While previous servers processed articles individually or in batches, &amp;apos;&amp;apos;innd&amp;apos;&amp;apos; is a single continuously running process that receives articles from the network, files them, and records what remote hosts should receive them.  Readers can access articles directly from the disk in the same manner as [[B News]] and [[C News]], but an included program, called &amp;apos;&amp;apos;nnrpd&amp;apos;&amp;apos;, also serves [[News client|newsreader]]s that employ NNTP.
+
+A later improvement was the Cyclical News [[Filesystem]] (CNFS), which sequentially stores articles in large on-disk buffers.  This method, implemented by Scott Fritchie, greatly increased performance by eliminating the operating system overhead needed to deal with thousands of individual article files.
+
+James Brister&amp;apos;s &amp;apos;&amp;apos;innfeed&amp;apos;&amp;apos; program was also added to the package.  Like &amp;apos;&amp;apos;innd&amp;apos;&amp;apos;, &amp;apos;&amp;apos;innfeed&amp;apos;&amp;apos; operates continuously to feed articles out to other servers, while the earlier &amp;apos;&amp;apos;innxmit&amp;apos;&amp;apos; processed them in batches. This combination allows articles to be received and redistributed with virtually no latency, and has substantially changed the nature of Usenet interaction by reducing the time for messages to be posted, read across the network and answered, from hours or days, to seconds or minutes.  A similar earlier program, called &amp;apos;&amp;apos;nntplink,&amp;apos;&amp;apos; provided a comparable function, but it was produced independently.
+
+INN is under active development {{As of|2012|lc=on}}.  The package is maintained by volunteers, and development is hosted by the [[Internet Systems Consortium]].
+
+==Notes==
+&amp;lt;references group=&amp;quot;nb&amp;quot;/&amp;gt;
+
+==References==
+&amp;lt;references/&amp;gt;
+
+==External links==
+* Rich Salz (1992). [ftp://ftp.isc.org/isc/inn/extra-docs/innusenix.pdf InterNetNews: Usenet transport for Internet sites.]&amp;apos;&amp;apos;
+* [https://www.isc.org/software/inn/ Home page for INN]
+
+{{DEFAULTSORT:Internetnews}}
+[[Category:Usenet]]
+[[Category:Usenet servers]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

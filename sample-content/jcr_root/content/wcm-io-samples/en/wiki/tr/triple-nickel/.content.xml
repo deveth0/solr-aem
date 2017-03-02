@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Triple Nickel"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Triple Nickel" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Triple Nickel&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;Triple Nickels&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+*[[555 California Street]] San Francisco, California, United States (a building in the Financial District)
+*[[555th Engineer Brigade (United States)]]
+*[[555th Parachute Infantry Battalion (United States)]]
+*[[555th Fighter Squadron]], part of the United States 31st Fighter Wing
+*[[555 Field Artillery Battalion]], part of the United States 5th Infantry Regiment
+*[[Triple Nickel Course of Fire]], a firearms course
+*[[Triple Nickel Books]], published by Solomon Gelman
+*[[555 timer IC]], an integrated circuit popular with hobbyists
+*Triple Nickel lift at [[Bluewood Ski Area]]
+*College Eye EC-121D, a [[Lockheed EC-121 Warning Star]] aircraft
+*The popular nickname for the 555th Mobile Infantry Regiment, an elite military unit in [[John Ringo]]&amp;apos;s &amp;apos;&amp;apos;[[Legacy of the Aldenata]]&amp;apos;&amp;apos; series
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

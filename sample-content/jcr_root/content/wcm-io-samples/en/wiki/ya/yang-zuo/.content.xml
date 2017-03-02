@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Yang Zuo"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Yang Zuo" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{unsourced|date=January 2009}}
+{{Chinese
+|t=楊祚
+|s=杨祚
+}}
+{{chinese name|[[Yang (surname)|Yang]]}}
+&amp;apos;&amp;apos;&amp;apos;Yang Zuo&amp;apos;&amp;apos;&amp;apos; was a military general serving under the warlord [[Gongsun Yuan]] during the [[Three Kingdoms]] period of [[History of China|Chinese history]]. In 238, he led a front of troops along with [[Bei Yan]] during [[Sima Yi]]&amp;apos;s [[Sima Yi&amp;apos;s Liaodong campaign|Liaodong campaign]] against Gongsun. Yang then engaged Sima during a protracted battle, but ended up being lured out by Sima and defeated. He then escaped into Xiangping (襄平), Gongsun&amp;apos;s headquarters, and surrendered to Sima when the city was under siege.
+
+==See also==
+*[[List of people of the Three Kingdoms]]
+
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Yang, Zuo
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION = Chinese general
+| DATE OF BIRTH     =
+| PLACE OF BIRTH    =
+| DATE OF DEATH     =
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Yang, Zuo}}
+[[Category:Gongsun Yuan and associates]]
+
+
+{{China-bio-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

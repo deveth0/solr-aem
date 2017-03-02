@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Zábiedovo"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Zábiedovo" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Image:Okres_tvrdosin.png|thumb|right|350px|Location of [[Tvrdošín District]] in the [[Zilina Region]]]]
+&amp;apos;&amp;apos;&amp;apos;Zábiedovo&amp;apos;&amp;apos;&amp;apos; is a [[village]] and [[municipality]] in [[Tvrdošín District]] in the [[Žilina Region]] of northern [[Slovakia]].
+
+==History==
+In [[history|historical records]] the [[village]] was first mentioned in 1567.
+
+==Geography==
+The [[municipality]] lies at an [[elevation]] of 670 metres and covers an [[area]] of 17.974 km². It has a [[population]] of about 790 people.
+
+==External links==
+*http://www.statistics.sk/mosmis/eng/run.html
+
+{{Tvrdosin District}}
+
+{{Žilina-geo-stub}}
+
+{{coord|49|19|N|19|37|E|region:SK_type:city|display=title}}
+
+[[Category:Villages and municipalities in Tvrdošín District|Zabiedovo]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

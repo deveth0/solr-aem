@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Transfinite number"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Transfinite number" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Transfinite numbers&amp;apos;&amp;apos;&amp;apos; are numbers that are &amp;quot;[[Infinity|infinite]]&amp;quot; in the sense that they are larger than all [[finite set|finite]] numbers, yet not necessarily [[absolutely infinite]]. The term &amp;apos;&amp;apos;transfinite&amp;apos;&amp;apos; was coined by [[Georg Cantor]], who wished to avoid some of the implications of the word &amp;apos;&amp;apos;infinite&amp;apos;&amp;apos; in connection with these objects, which were nevertheless not &amp;apos;&amp;apos;finite&amp;apos;&amp;apos;. Few contemporary writers share these qualms; it is now accepted usage to refer to transfinite [[cardinal number|cardinals]] and [[ordinal number|ordinals]] as &amp;quot;infinite&amp;quot;. However, the term &amp;quot;transfinite&amp;quot; also remains in use.
+
+==Definition==
+As with finite numbers, there are two ways of thinking of transfinite numbers, as ordinal and cardinal numbers.  Unlike the finite ordinals and cardinals, the transfinite ordinals and cardinals define different classes of numbers.
+
+* [[Ordinal_number#Ordinals_extend_the_natural_numbers|ω]] (omega) is defined as the lowest transfinite ordinal number and is the [[order type]] of the [[natural number]]s under their usual linear ordering.
+
+* [[Aleph-null]], &amp;lt;math&amp;gt;\scriptstyle {\aleph_0}&amp;lt;/math&amp;gt;, is defined as the first transfinite cardinal number and is the [[cardinality]] of the [[infinite set]] of the natural numbers. If the [[axiom of choice]] holds, the next higher cardinal number is [[aleph-one]], &amp;lt;math&amp;gt;\scriptstyle {\aleph_1}&amp;lt;/math&amp;gt;. If not, there may be other cardinals which are incomparable with aleph-one and larger than aleph-zero. But in any case, there are no cardinals between aleph-zero and aleph-one.
+
+The [[continuum hypothesis]] states that there are no intermediate cardinal numbers between aleph-null and the [[cardinality of the continuum]] (the set of [[real number]]s): that is to say, aleph-one is the cardinality of the set of real numbers. (If [[Zermelo–Fraenkel set theory|Zermelo–Fraenkel set theory (&amp;apos;&amp;apos;ZFC&amp;apos;&amp;apos;)]] is consistent, then neither the continuum hypothesis nor its negation can be proven from [[Zermelo–Fraenkel set theory|ZFC]].)
+
+Some authors, including P. Suppes and J. Rubin, use the term &amp;apos;&amp;apos;transfinite cardinal&amp;apos;&amp;apos; to refer to the cardinality of a [[Dedekind-infinite set]], in contexts where this may not be equivalent to &amp;quot;infinite cardinal&amp;quot;; that is, in contexts where the [[axiom of countable choice]] is not assumed or is not known to hold. Given this definition, the following are all equivalent:
+* &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;m&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is a transfinite cardinal. That is, there is a Dedekind infinite set &amp;apos;&amp;apos;A&amp;apos;&amp;apos; such that the cardinality of &amp;apos;&amp;apos;A&amp;apos;&amp;apos; is &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;m&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;.
+* &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;m&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; + 1 = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;m&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;.
+* &amp;lt;math&amp;gt;\scriptstyle {\aleph_0}&amp;lt;/math&amp;gt; ≤ &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;m&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;.
+* there is a cardinal &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;n&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; such that &amp;lt;math&amp;gt;\scriptstyle {\aleph_0}&amp;lt;/math&amp;gt; + &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;n&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;m&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;.
+
+==See also==
+{{col-begin}}
+{{col-break|width=33%}}
+*[[Absolutely infinite]]
+*[[Aleph number]]
+*[[Beth number]]
+*[[Georg Cantor]]
+*[[Cardinal number]]
+*[[Inaccessible cardinal]]
+*[[Infinity plus one]]
+*[[Infinitesimal]]
+{{col-break}}
+{{Wiktionary|transfinite}}&amp;lt;!--placed at top of last column to render correctly--&amp;gt;
+*[[Large cardinal]]
+*[[Large countable ordinal]]
+*[[Limit ordinal]]
+*[[Mahlo cardinal]]
+*[[Measurable cardinal]]
+*[[Ordinal arithmetic]]
+*[[Ordinal number]]
+*[[Transfinite induction]]
+{{col-end}}
+
+==References==
+*Levy, Azriel, 2002 (1978) &amp;apos;&amp;apos;Basic Set Theory&amp;apos;&amp;apos;. Dover Publications. ISBN 0-486-42079-5
+*O&amp;apos;Connor, J. J. and E. F. Robertson (1998) &amp;quot;[http://www-groups.dcs.st-and.ac.uk/~history/Biographies/Cantor.html Georg Ferdinand Ludwig Philipp Cantor,]&amp;quot; [[MacTutor History of Mathematics archive]].
+*Rubin, Jean E., 1967. &amp;quot;Set Theory for the Mathematician&amp;quot;. San Francisco: Holden-Day. Grounded in [[Morse-Kelley set theory]].
+*[[Rudy Rucker]], 2005 (1982) &amp;apos;&amp;apos;Infinity and the Mind&amp;apos;&amp;apos;. Princeton Univ. Press. Primarily an exploration of the philosophical implications of Cantor&amp;apos;s paradise. ISBN 978-0-691-00172-2.
+*[[Patrick Suppes]], 1972 (1960) &amp;quot;Axiomatic Set Theory&amp;quot;. Dover. ISBN 0-486-61630-4. Grounded in [[ZFC]].
+
+{{Large numbers}}
+{{Infinity}}
+
+[[Category:Basic concepts in infinite set theory]]
+[[Category:Cardinal numbers]]
+[[Category:Ordinal numbers]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

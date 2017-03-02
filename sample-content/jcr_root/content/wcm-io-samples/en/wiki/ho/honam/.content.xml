@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Honam"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Honam" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{for|the administrative subdivision of Iran|Honam Rural District}}
+{{Infobox Korean name|
+hangul={{linktext|호|남}}|
+hanja={{linktext|湖|南}}|
+mr=Honam|
+rr=Honam|
+}}
+&amp;apos;&amp;apos;&amp;apos;Honam&amp;apos;&amp;apos;&amp;apos; (literally &amp;quot;south of the lake&amp;quot;) is a region coinciding with the former [[Jeolla]] Province in what is now [[South Korea]].  Today, the term refers to [[Gwangju]], [[South Jeolla]] and [[North Jeolla]] Provinces.
+
+The name &amp;quot;Honam&amp;quot; is used in the names of the [[Honam Line|Honam railway line]]  and [[Honam Expressway]], which are major transportation corridors connecting [[Seoul]] and [[Daejeon]] to the Honam region.
+
+The name is often used to refer to people residing in the region.
+
+There is also [[Honam University]], which is located in [[Gwangju]], the capital of South Jeolla Province.
+
+==See also==
+*[[Jeollabuk-do]]
+*[[Jeollanam-do]]
+*[[Gwangju]]
+*[[Regions of Korea]]
+*[[Yeongnam]]
+*[[List of Korea-related topics]]
+
+{{regions and administrative divisions of South Korea}}
+
+{{Korea-geo-stub}}
+
+[[Category:Regions of Korea]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

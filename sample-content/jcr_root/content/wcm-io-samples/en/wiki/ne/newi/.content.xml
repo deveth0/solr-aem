@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Newi"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Newi" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{For|the North East Wales Institute of Higher Education (&amp;quot;NEWI&amp;quot;)|North East Wales Institute of Higher Education}}
+
+&amp;apos;&amp;apos;&amp;apos;Newi&amp;apos;&amp;apos;&amp;apos; is an [[acronym]] for &amp;apos;&amp;apos;&amp;apos;NEw World Infrastructure&amp;apos;&amp;apos;&amp;apos;, a [[software architecture]] for [[software componentry]], mostly known as &amp;apos;&amp;apos;&amp;apos;Newi Business Objects&amp;apos;&amp;apos;&amp;apos; which coined the term &amp;apos;&amp;apos;[[Business object (computer science)|business object]]&amp;apos;&amp;apos;.
+Newi was developed by [[Integrated Object Systems]], England. It was one of the first implemented architectures for software components.
+
+==Brief History==
+The initial concept behind Newi originated in 1989 when Oliver Sims, then working for IBM, saw the need for an infrastructure whereby a given real-world business concept (process or entity) could be implemented as a software module that could be plugged into a running system.  Applications would be created by composing an appropriate set of modules. IBM UK funded development of the concept through collaboration with Softwright, a UK bespoke software company.
+
+After several successful prototypes, and an early AS400 production version, a joint venture called Integrated Object Systems (IOS) was created in 1993 to exploit the concept. The first version of Newi was announced and shipped in 1994.
+
+Newi was what today is called a component container. The concepts behind the Newi middleware can be found in Oliver Sims&amp;apos; book &amp;quot;Business Objects&amp;quot;, McGraw-Hill 1994. In spite of the title, the book was about software components.
+
+Newi components were language-neutral. That is, a Newi component could be written in one of a variety of languages that was supported by Newi. At its height, Newi supported software components written in Cobol, Ada, C, C++, Rexx, and Java. Platforms supported included Windows 3.1, Win95, WinNT, three varieties of Unix - and a prototype supporting components written in RPG was running on the AS400.
+
+Newi components were intended to be &amp;quot;objects in the large&amp;quot;. There was a form of sub/supertyping which was implemented by the infrastructure through an intelligent delegation mechanism. For example, a component written in C could be &amp;quot;subtyped&amp;quot; by a component written in Cobol. Component names (or types?) were separated from the code implementation module. Messages (both sync and async) were passed using a proprietary form of &amp;quot;tagged data&amp;quot; (a similar concept to today&amp;apos;s XML). There was also a notification service. The various system services (including the GUI framework and communications subsystems) were implemented as Newi components. Throughout, there was a rigorous focus on making the programming of application components as simple as possible, with Newi providing many transparencies.
+
+From the start, Newi was targeted at both front-end GUI systems and back-end server systems. The front-end version had a GUI run-time framework implemented as components. The component concept fitted very well with the object-based UI provided. Hence a designer/programmer used the same technical code structure to implement both front-end and back-end business function.
+
+In early 1996, IOS was bought by SSA (System Software Associates, Inc), who saw great potential in Newi. The software was significantly further developed within SSA, in particular in its back-end capability, as well as havinf its underlying communications function moved to a COTS Corba product that provided the communications &amp;quot;wet string&amp;quot; while maintaining the Newi programming model and loosely-coupled component interaction. Tools were also significantly expanded. SSA also announced an early and proprietary form of web services, based on the re-developed Newi, called &amp;quot;Semantic Message Gateways&amp;quot;, or SMG.
+
+In 1998, for reasons other than their technology base, SSA had to down-size dramatically, Newi development was halted then abandoned, and the development team (around forty people in UK and USA) was dispersed. Sic transit gloria mundi.
+
+Two further books based on the Newi phenomenon are: Peter Eeles and Oliver Sims, &amp;quot;Building Business Objects&amp;quot;, Wiley 1998. Peter Herzum and Oliver Sims, &amp;quot;Business Component Factory&amp;quot;, Wiley 2000.
+
+Retrieved from &amp;quot;http://en.wikipedia.org/wiki/Talk:Newi&amp;quot;
+
+==See also==
+*[[Software component]]
+
+[[Category:Component-based software engineering]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

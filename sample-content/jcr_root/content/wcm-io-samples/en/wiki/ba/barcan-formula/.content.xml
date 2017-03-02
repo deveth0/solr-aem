@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Barcan formula"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Barcan formula" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In quantified [[modal logic]], the &amp;apos;&amp;apos;&amp;apos;Barcan formula&amp;apos;&amp;apos;&amp;apos; and the &amp;apos;&amp;apos;&amp;apos;converse Barcan formula&amp;apos;&amp;apos;&amp;apos; (more accurately, schemata rather than formulas) (i) syntactically state principles or interchange between quantifiers and modalities; (ii) semantically state a relation between domains of possible worlds. The formulas were  introduced as axioms by [[Ruth Barcan Marcus]], in the first extensions of modal propositional logic to include quantification. &amp;lt;ref&amp;gt;Journal of Symbolic Logic (1946),11 and (1947), 12 under Ruth C. Barcan&amp;lt;/ref&amp;gt;
+
+Related formulas include the [[Buridan formula]], and the [[converse Buridan formula]].
+
+== The Barcan formula ==
+
+The Barcan formula is:
+
+:&amp;lt;math&amp;gt;\forall x \Box Fx \rightarrow \Box \forall x Fx&amp;lt;/math&amp;gt;.
+
+In [[English language|English]], the schema reads: If everything is necessarily F, then it is necessary that everything is F. It is equivalent to
+
+:&amp;lt;math&amp;gt;\Diamond\exists xFx\to\exists x\Diamond Fx&amp;lt;/math&amp;gt;.
+
+The Barcan formula has generated some controversy because - in terms of possible world semantics - it implies that all objects which exist in any possible world (accessible to the actual world) exist in the actual world, i.e. that domains cannot grow when one moves to accessible worlds. This thesis is sometimes known as [[actualism]]--i.e. that there are no &amp;apos;&amp;apos;merely&amp;apos;&amp;apos; possible individuals. There is some debate as to the informal interpretation of the Barcan formula and its converse.
+
+== Converse Barcan formula ==
+The converse Barcan formula is:
+
+:&amp;lt;math&amp;gt;\Box \forall x Fx \rightarrow \forall x \Box Fx&amp;lt;/math&amp;gt;.
+
+If a frame is based on a symmetric accessibility relation, then the Barcan formula will be valid in the frame if, and only if, the converse Barcan formula is valid in the frame. It states that domains cannot shrink as one moves to accessible worlds, i.e. that individuals cannot cease to be possible. The converse Barcan formula is taken to be more plausible than the Barcan formula.
+
+==References==
+{{reflist}}
+
+==External links==
+*[http://comet.lehman.cuny.edu/fitting/bookspapers/pdf/papers/Barcan.pdf &amp;apos;&amp;apos;Barcan both ways&amp;apos;&amp;apos;] by Melvin Fitting
+*[http://www.unl.edu/philosop/people/faculty/hayaki/ContingentObjectsAndBF.pdf &amp;apos;&amp;apos;Contingent Objects and the Barcan Formula&amp;apos;&amp;apos;] by Hayaki Reina
+
+{{logic-stub}}
+
+[[Category:Modal logic]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

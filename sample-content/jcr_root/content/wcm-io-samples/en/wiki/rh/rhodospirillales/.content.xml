@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Rhodospirillales"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Rhodospirillales" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Refimprove|type=bacteria|date=December 2009}}
+{{Taxobox
+| name = Purple sulfur bacteria
+| regnum = [[Bacteria]]
+| phylum = [[Proteobacteria]]
+| classis = [[Alphaproteobacteria]]
+| ordo = &amp;apos;&amp;apos;&amp;apos;Rhodospirillales&amp;apos;&amp;apos;&amp;apos;
+| subdivision_ranks = Families
+| subdivision =
+[[Rhodospirillaceae]]&amp;lt;br&amp;gt;
+[[Acetic acid bacteria|Acetobacteraceae]]
+}}
+The &amp;apos;&amp;apos;&amp;apos;Rhodospirillales&amp;apos;&amp;apos;&amp;apos; is an order of [[Proteobacteria]], with two families: the [[Acetobacteraceae]] and the [[Rhodospirillaceae]].&amp;lt;ref&amp;gt;[http://www.bacterio.cict.fr/qr/rhodospirillales.html LPSN]&amp;lt;/ref&amp;gt;
+
+The Acetobacteraceae comprise the [[acetic acid bacteria]], which are [[heterotrophic]] and produce [[acetic acid]] during their respiration.&amp;lt;ref name=BergeyAlpha&amp;gt;Garrity, George M.; Brenner, Don J.; Krieg, Noel R.; Staley, James T. (eds.) (2005). Bergey&amp;apos;s Manual of Systematic Bacteriology, Volume Two: The Proteobacteria, Part C: The Alpha-, Beta-, Delta-, and Epsilonproteobacteria. New York, New York: Springer. ISBN 978-0-387-24145-6.&amp;lt;/ref&amp;gt;  The [[Rhodospirillaceae]] include mainly [[purple bacteria|purple non-sulfur bacteria]], which produce energy through [[photosynthesis]].&amp;lt;ref name=BergeyAlpha /&amp;gt;
+
+==References==
+{{Reflist}}
+
+[[Category:Rhodospirillales|*]]
+
+{{Proteobacteria-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="List of gene families"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="List of gene families" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Cleanup|date=February 2008}}
+
+This is a list of &amp;apos;&amp;apos;&amp;apos;[[gene family|gene families]]&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;[[gene complex]]es&amp;apos;&amp;apos;&amp;apos;, that is sets of genes which occur across a number of different [[species]] which often serve similar biological functions.  These gene families typically encode functionally related [[protein]]s, and sometimes the term gene families is a shorthand for the sets of proteins that the genes encode.  They may or may not be physically adjacent on the same [[chromosome]].
+
+==Regulatory protein gene families==
+
+*[[14-3-3 protein|14-3-3 protein family]]
+*[[Homeobox]] (&amp;apos;&amp;apos;Hox&amp;apos;&amp;apos; gene family)
+*[[Achaete-scute complex]] ([[Neuroblast]] formation)
+*[[Krüppel-type zinc finger (ZNF)]]
+*[[MADS-box]] Gene Family
+
+==Immune system proteins==
+*[[Major histocompatibility complex]] (MHC)
+*[[Immunoglobulin superfamily]]
+
+==Motor proteins==&amp;lt;!-- This section is linked from [[Mitosis]] --&amp;gt;
+*[[Myosin]]
+*[[Kinesin]]
+*[[Dynein]]
+
+==Signal transducing proteins==
+*[[G-protein]]s
+*[[Mitogen-activated protein kinase|MAP Kinase]]
+*[[Olfactory_receptor|Olfactory Receptor]]
+*[[Receptor tyrosine kinase]]s
+
+==Transporters==
+*[[Abc transporters - general|ABC transporters ]]
+*[[Antiporter]]
+*[[Aquaporins]]
+
+
+==Unclassfied families==
+
+*[[Expansin]] Gene Family
+*FH2 protein ([[formin]]) Gene Family
+*[[Ion channel|Ion channels]]
+*[[SNARE (protein)]] family
+*Protocadherin Gene Family
+
+== See also ==
+* [[protein family]]
+
+
+
+
+{{DEFAULTSORT:Gene families}}
+[[Category:Biology-related lists]]
+[[Category:Scientific classification]]
+[[Category:Genes]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

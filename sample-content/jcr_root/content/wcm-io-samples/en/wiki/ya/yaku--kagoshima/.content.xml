@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Yaku, Kagoshima"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Yaku, Kagoshima" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Image:Jhomonsugi_in_Yaku_Island_Japan_001.JPG|right|thumb|[[Jōmon Sugi]] in Yaku Island Japan]]
+{{nihongo|&amp;apos;&amp;apos;&amp;apos;Yaku&amp;apos;&amp;apos;&amp;apos;|屋久町|Yaku-chō}} was a [[towns of Japan|town]] located on the southern half of [[Yakushima]] (Yaku Island) in [[Kumage District, Kagoshima|Kumage District]], [[Kagoshima Prefecture|Kagoshima]], [[Japan]].
+
+On October 1, 2007 Yaku was merged with the town of [[Kamiyaku, Kagoshima|Kamiyaku]], also from [[Kumage District, Kagoshima|Kumage District]], to form the new town of [[Yakushima, Kagoshima|Yakushima]].
+
+As of 2003, the town had an estimated [[population]] of 7,008 and a [[population density]] of 28.96 persons per km². The total area was 242.03 km².
+
+==External links==
+*{{ja icon}}{{iawm|http://www3.synapse.ne.jp/yaku/|Yaku Town}}
+*{{en icon}}{{iawm|http://www3.synapse.ne.jp/yaku/for_english/top_page.htm|Yaku Town}}
+*{{ja icon}}[http://www.yakushima-town.jp/ Yakushima Town]
+
+[[Category:Dissolved municipalities of Kagoshima Prefecture]]
+
+{{coord|30|16|48|N|130|34|38|E|region:JP_type:city|display=title}}
+
+{{Kagoshima-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

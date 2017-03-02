@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Calgary (disambiguation)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Calgary (disambiguation)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Calgary]] is a city in Alberta, Canada.
+
+&amp;apos;&amp;apos;&amp;apos;Calgary&amp;apos;&amp;apos;&amp;apos; may also refer to:
+
+* [[Calgary, Mull]], a village and a bay on the Isle of Mull, Scotland
+* [[Fort Calgary]], a historical North West Mounted Police fort
+* [[96192 Calgary]], an asteroid
+* {{HMCS|Calgary}}, several warships
+* &amp;quot;Calgary&amp;quot; a song by Bon Iver from the album &amp;apos;&amp;apos;[[Bon Iver (album)|Bon Iver]]&amp;apos;&amp;apos;.
+
+==See also==
+*[[South Calgary (disambiguation)]]
+*[[Calvary]]
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

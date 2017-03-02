@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:Articles for deletion/David Simpson"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:Articles for deletion/David Simpson" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;Article [[David Simpson]] listed on [[WP:VFD]] Apr 26 to May 3 2004, consensus was to delete.  Discussion:
+
+Vanity.  Reads like a resume.  [[User:UninvitedCompany|UninvitedCompany]] 22:36, 26 Apr 2004 (UTC)
+*Delete. Common name makes it hard to verify, but even the accomplishments claimed on his cv don&amp;apos;t sound too notable. But we should probably also de-link his name, and most the other names at [[Ehmphasis]], or we&amp;apos;ll keep repeating this. [[User:Niteowlneils|Niteowlneils]] 23:12, 26 Apr 2004 (UTC)
+*Delete.  [[User:RickK|Rick]]&amp;apos;&amp;apos;&amp;apos;[[User talk:RickK|K&amp;apos;&amp;apos;&amp;apos;]] 23:22, 26 Apr 2004 (UTC)
+* Delete.  [[User:Postdlf|Postdlf]] 8:28 27 Apr 2004 (UTC)
+*Possibly keep. [[User:Fatal Ruminate|Fatal Ruminate]] Redundant article, subject already covered in &amp;apos;&amp;apos;&amp;apos;&amp;apos;Who&amp;apos;s Who in Canada&amp;apos;&amp;apos;&amp;apos;&amp;apos;. Minor celebrity in Toronto only, not a well-known author. Most likely added due to Ehmphasis connection or due to charity work.
+*The court case may be worth keeping if it became a famous case, but other than that I don&amp;apos;t see anything to make him interesting. [[User:Wiwaxia|Wiwaxia]] 07:22, 28 Apr 2004 (UTC)
+*Delete: vanity, nobody in particular. The so-called &amp;quot;landmark case involving libel/slander on Usenet&amp;quot;, [[Simpson vs. Savoie]], yields 0 hits. Makes me think it wasn&amp;apos;t much of a landmark. [[User:Wile E. Heresiarch|Wile E. Heresiarch]] 08:24, 1 May 2004 (UTC)
+
+&amp;apos;&amp;apos;End discussion&amp;apos;&amp;apos;&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

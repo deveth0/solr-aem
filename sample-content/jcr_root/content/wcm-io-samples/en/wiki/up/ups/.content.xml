@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="UPS"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="UPS" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|UPS|ups}}
+
+&amp;apos;&amp;apos;&amp;apos;UPS&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+== Science, technology and medicine ==
+* [[Uninterruptible power supply]]
+* [[Proteasome#Ubiquitin-independent degradation|Ubiquitin proteasome system]]
+* [[Ultraviolet photoelectron spectroscopy]]
+* [[Universal Polar Stereographic coordinate system]]
+* [[Ups (debugger)]]
+* [[Medically unexplained physical symptoms|Medically &amp;quot;unexplained physical symptoms&amp;quot;]]
+
+== Companies and groups ==
+* [[United Parcel Service]], international shipping company
+* [[Universal Press Syndicate]]
+* [[Underground Press Syndicate]]
+* [[Union-Philanthropic Society]] of Hampden-Sydney College
+* [[Union Philosophical Society]]
+* &amp;apos;&amp;apos;Union Progressiste Sénégalaise&amp;apos;&amp;apos;, the former name of the [[Socialist Party of Senegal]]
+* [[Universal Pantheist Society]]
+* [[University of Puget Sound]], Tacoma, Washington
+* [[University Philosophical Society (Trinity College, Dublin)]]
+
+== Other uses ==
+* [[The UPS Store]]
+* [[USS Puget Sound]]
+* [[University of Phoenix Stadium]], a stadium in Glendale, Arizona, United States
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

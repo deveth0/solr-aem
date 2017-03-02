@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Well-posed problem"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Well-posed problem" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The [[mathematics|mathematical]] term &amp;apos;&amp;apos;&amp;apos;well-posed problem&amp;apos;&amp;apos;&amp;apos; stems from a definition given by [[Jacques Hadamard]]. He believed that mathematical models of physical phenomena should have the properties that
+# A solution exists
+# The solution is unique
+# The solution&amp;apos;s behavior hardly changes when there&amp;apos;s a slight change in the initial condition ([[topology]]).
+
+Examples of [[archetypal]] well-posed problems include the [[Laplace&amp;apos;s_equation#Boundary_conditions|Dirichlet problem for Laplace&amp;apos;s equation]], and the [[heat equation]] with specified initial conditions. These might be regarded as &amp;apos;natural&amp;apos; problems in that there are physical processes that solve these problems. By contrast the inverse heat equation, deducing a previous distribution of temperature from final data is not well-posed in that the solution is highly sensitive to changes in the final data. Problems that are not well-posed in the sense of Hadamard are termed &amp;apos;&amp;apos;&amp;apos;ill-posed&amp;apos;&amp;apos;&amp;apos;.  [[Inverse problem]]s are often ill-posed.
+
+Such continuum problems must often be discretized in order to obtain a numerical solution. While in terms of [[functional analysis]] such problems are typically continuous, they may suffer from [[numerical instability]] when solved with finite precision, or with errors in the data. Even if a problem is well-posed, it may still be ill-conditioned, meaning that a small error in the initial data can result in much larger errors in the answers.  An ill-conditioned problem is indicated by a large [[condition number]].
+
+If the problem is well-posed, then it stands a good chance of solution on
+a computer using a [[numerical stability|stable algorithm]].  If it is not well-posed, it needs to be re-formulated for numerical treatment. Typically this involves including additional assumptions, such as smoothness of solution. This process is known as &amp;apos;&amp;apos;[[Regularization (mathematics)|regularization]]&amp;apos;&amp;apos;. [[Tikhonov regularization]] is one of the most commonly used for regularization of linear ill-posed problems.
+
+==References==
+*{{Cite book |first=Jacques |last=Hadamard |year=1902 |title=Sur les problèmes aux dérivées partielles et leur signification physique |work=Princeton University Bulletin |pages=49–52 }}
+*{{Cite book |title=McGraw-Hill Dictionary of Scientific and Technical Terms |edition=4th |origyear=1974 |year=1989 |editor-first=Sybil B. |editor-last=Parker |publisher=McGraw-Hill |location=New York |isbn=0-07-045270-9 }}
+*{{Cite book |first=A. N. |last=Tikhonov |first2=V. Y. |last2=Arsenin |title=Solutions of Ill-Posed Problems |publisher=Winston |location=New York |year=1977 |isbn=0-470-99124-0 }}
+
+[[Category:Numerical analysis]]
+[[Category:Partial differential equations]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

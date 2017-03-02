@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Value"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Value" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|valuable|value|value types|valued|values}}
+&amp;apos;&amp;apos;&amp;apos;Value&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;values&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+== Concepts of worth ==
+* [[Value theory]], overview of approaches in various disciplines
+* [[Value (ethics)]]
+** [[Value (personal and cultural)]]
+* [[Value (economics)]], a measure of the benefit that an economic actor can gain from either a good or service
+** [[Theory of value (economics)]]
+** [[Value investing]], an investment paradigm
+** [[Value (marketing)]], the difference between the prospective customer&amp;apos;s evaluation of all the benefits &amp;amp; all the cost of an offering &amp;amp; the perceived alternatives
+* [[Value (law)]], i.e. consideration
+
+== Concepts of quantity, amount, or entity ==
+* [[Value (semiotics)]]
+* [[Value (mathematics)]], commonly refers to the output of a function
+* [[Value (computer science)]], an expression which cannot be evaluated any further (a normal form)
+* [[Note value]] (music), indicates the relative duration of a note, using the color or shape
+
+== Colour theory ==
+* [[Lightness]], a property of a color, or a dimension of a color space
+
+{{Disambiguation}}
+[[Category:Philosophy disambiguation]]
+[[Category:Axiology]]
+[[Category:Value]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

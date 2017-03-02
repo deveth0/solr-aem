@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Open House"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Open House" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionarypar|open house}}
+&amp;apos;&amp;apos;&amp;apos;Open House&amp;apos;&amp;apos;&amp;apos; may refer to:
+*[[Open house (common school event)]], a common school event held in the United States and Canada
+*Open house (real estate), a free, one-day event held by a [[real estate agent]] to show a listed residential property to any interested parties
+*[[Open House (album)|&amp;apos;&amp;apos;Open House&amp;apos;&amp;apos; (album)]],  a 1960 album by jazz organist Jimmy Smith
+*[[Open House! (Johnny &amp;quot;Hammond&amp;quot; Smith album)|&amp;apos;&amp;apos;Open House!&amp;apos;&amp;apos; (Johnny &amp;quot;Hammond&amp;quot; Smith album)]], a 1963 album by jazz organist Johnny &amp;quot;Hammond&amp;quot; Smith
+*[[Open House (2004)|&amp;apos;&amp;apos;Open House&amp;apos;&amp;apos; (2004)]],  a 2004 independent film
+*[[Open House (2010)|&amp;apos;&amp;apos;Open House&amp;apos;&amp;apos; (2010)]],  a 2010 film
+*[[Open House (novel)|&amp;apos;&amp;apos;Open House&amp;apos;&amp;apos; (novel)]], a 2000 novel by Elizabeth Berg
+*[[Open House (TV series)|&amp;apos;&amp;apos;Open House&amp;apos;&amp;apos; (TV series)]], a 1989-1990 FOX sitcom
+*[[Open House (1964 TV series)|&amp;apos;&amp;apos;Open House&amp;apos;&amp;apos; (1964 TV series)]], a 1964 BBC series
+*[[Open House (Ireland)|&amp;apos;&amp;apos;Open House&amp;apos;&amp;apos; (Ireland)]],  an Irish daytime chat show
+*[[Open House (Pee-wee&amp;apos;s Playhouse)|&amp;quot;Open House&amp;quot; (&amp;apos;&amp;apos;Pee-wee&amp;apos;s Playhouse&amp;apos;&amp;apos;)]], an episode of &amp;apos;&amp;apos;Pee-wee&amp;apos;s Playhouse&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Open House with Gloria Hunniford]]&amp;apos;&amp;apos;, a UK daytime chat show
+*[[Open House (FP7)]], a project launched by the European Seventh Framework Program
+*[[Open House London]], a UK architecture charity
+*[[Jerusalem Open House]], an Israeli gay rights organisation
+*&amp;apos;&amp;apos;[[Your Bottom Line]]&amp;apos;&amp;apos; or &amp;apos;&amp;apos;Open House&amp;apos;&amp;apos;, a CNN weekend financial news program
+*&amp;apos;&amp;apos;Open House&amp;apos;&amp;apos;, a 1941 book of poetry by [[Theodore Roethke]]
+*Open House, a musical group led by [[Kevin Burke (musician)|Kevin Burke]]
+*[[Open House (Breaking Bad)|&amp;quot;Open House&amp;quot; (&amp;apos;&amp;apos;Breaking Bad&amp;apos;&amp;apos;)]], a season four episode of &amp;apos;&amp;apos;Breaking Bad&amp;apos;&amp;apos;
+*[[Doors Open Days|Open House]], international program showcasing city&amp;apos;s buildings to all for free
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

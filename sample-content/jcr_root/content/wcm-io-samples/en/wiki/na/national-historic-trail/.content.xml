@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="National Historic Trail"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="National Historic Trail" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;National Historic Trail&amp;apos;&amp;apos;&amp;apos; is a designation for a [[protected area]] in the [[United States]] containing historic trails and surrounding areas.  They are part of the [[National Trails System]].
+
+National Historic Trails were authorized under the National Parks and Recreation Act of 1978 (Public Law 95-625),&amp;lt;ref&amp;gt;[http://codes.lp.findlaw.com/uscode/16/27/1244/notes Notes on 16 U.S.C. §1244]&amp;lt;/ref&amp;gt; amending the [[National Trails System Act of 1968]]  (Public Law 90-543), which had introduced [[National Scenic Trail]]s and [[National Recreation Trail]]s. National Scenic Trails and National Historic Trails may only be designated by an act of Congress.
+
+National Historic Trails are designated to protect the remains of significant overland or water routes to reflect the history of the nation.  Most of them are highway routes and are not hiking trails, although they provide opportunities for hiking and other outdoor activities along their routes.  Only one is a [[water trail]], [[Captain John Smith Chesapeake National Historic Trail]].
+
+==List of National Historic Trails==
+{|class=&amp;quot;wikitable sortable&amp;quot;
+!Trail Name!!Year Established!!Length Authorized
+|-
+|[[Oregon National Historic Trail]]||style=&amp;quot;text-align:center;&amp;quot;|1978||style=&amp;quot;text-align:right;&amp;quot;|{{convert|2170|mi|km}}
+|-
+|[[Mormon Pioneer National Historic Trail]]||style=&amp;quot;text-align:center;&amp;quot;|1978||style=&amp;quot;text-align:right;&amp;quot;|{{convert|1300|mi|km}}
+|-
+|[[Lewis and Clark National Historic Trail]]||style=&amp;quot;text-align:center;&amp;quot;|1978||style=&amp;quot;text-align:right;&amp;quot;|{{convert|3700|mi|km}}
+|-
+|[[Iditarod National Historic Trail]]||style=&amp;quot;text-align:center;&amp;quot;|1978||style=&amp;quot;text-align:right;&amp;quot;|{{convert|2350|mi|km}}
+|-
+|[[Overmountain Victory National Historic Trail]]||style=&amp;quot;text-align:center;&amp;quot;|1980||style=&amp;quot;text-align:right;&amp;quot;|{{convert|275|mi|km}}
+|-
+|[[Nez Perce National Historic Trail]]||style=&amp;quot;text-align:center;&amp;quot;|1986||style=&amp;quot;text-align:right;&amp;quot;|{{convert|1170|mi|km}}
+|-
+|[[Santa Fe National Historic Trail]]||style=&amp;quot;text-align:center;&amp;quot;|1987||style=&amp;quot;text-align:right;&amp;quot;|{{convert|1203|mi|km}}
+|-
+|[[Trail of Tears National Historic Trail]]||style=&amp;quot;text-align:center;&amp;quot;|1987||style=&amp;quot;text-align:right;&amp;quot;|{{convert|2200|mi|km}}
+|-
+|[[Juan Bautista de Anza National Historic Trail]]||style=&amp;quot;text-align:center;&amp;quot;|1990||style=&amp;quot;text-align:right;&amp;quot;|{{convert|1200|mi|km}}
+|-
+|[[California National Historic Trail]]||style=&amp;quot;text-align:center;&amp;quot;|1992||style=&amp;quot;text-align:right;&amp;quot;|{{convert|5665|mi|km}}
+|-
+|[[Pony Express National Historic Trail]]||style=&amp;quot;text-align:center;&amp;quot;|1992||style=&amp;quot;text-align:right;&amp;quot;|{{convert|1966|mi|km}}
+|-
+|[[Selma to Montgomery National Historic Trail]]||style=&amp;quot;text-align:center;&amp;quot;|1996||style=&amp;quot;text-align:right;&amp;quot;|{{convert|54|mi|km}}
+|-
+|[[El Camino Real de Tierra Adentro National Historic Trail]]||style=&amp;quot;text-align:center;&amp;quot;|2000||style=&amp;quot;text-align:right;&amp;quot;|{{convert|404|mi|km}}
+|-
+|[[Ala Kahakai National Historic Trail]]||style=&amp;quot;text-align:center;&amp;quot;|2000||style=&amp;quot;text-align:right;&amp;quot;|{{convert|175|mi|km}}
+|-
+|[[Old Spanish National Historic Trail]]||style=&amp;quot;text-align:center;&amp;quot;|2002||style=&amp;quot;text-align:right;&amp;quot;|{{convert|2700|mi|km}}
+|-
+|[[El Camino Real de los Tejas National Historic Trail]]||style=&amp;quot;text-align:center;&amp;quot;|2004||style=&amp;quot;text-align:right;&amp;quot;|{{convert|2580|mi|km}}
+|-
+|[[Captain John Smith Chesapeake National Historic Trail]]||style=&amp;quot;text-align:center;&amp;quot;|2006||style=&amp;quot;text-align:right;&amp;quot;|{{convert|3000|mi|km}}
+|-
+|[[Star-Spangled Banner National Historic Trail]]||style=&amp;quot;text-align:center;&amp;quot;|2008||style=&amp;quot;text-align:right;&amp;quot;|{{convert|290|mi|km}}
+|-
+|[[Washington-Rochambeau Revolutionary Route|Washington-Rochambeau Revolutionary Route National Historic Trail]]||style=&amp;quot;text-align:center;&amp;quot;|2009||style=&amp;quot;text-align:right;&amp;quot;|{{convert|600|mi|km}}
+|-class=&amp;quot;sortbottom&amp;quot;
+|||Total:||style=&amp;quot;text-align:center;&amp;quot;|{{convert|33002|mi|km}}
+|}
+
+==See also==
+*[[National Recreation Trail]]
+*[[National Scenic Trail]]
+*[[Oregon-California Trails Association]]
+*[[Exploration of North America]]
+*[[National Historic Trails Interpretive Center]]
+*[[National Historic Oregon Trail Interpretive Center]]
+
+==References==
+{{Reflist}}
+
+==External links==
+*[http://www.nps.gov/ncrc/programs/nts/legislation.html The National Trails System Act of 1968, as amended]
+&amp;lt;!--dead; 5/9/2010-- [http://www.octa-trails.org/learning_center/trail_facts.html Historic Trail Facts]--&amp;gt;
+* [http://www.nationaltrailspartnership.org/about.asp About PNTS]
+
+{{TrailSystem}}
+
+[[Category:National Historic Trails of the United States|*]]
+
+
+{{US-NationalParkService-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

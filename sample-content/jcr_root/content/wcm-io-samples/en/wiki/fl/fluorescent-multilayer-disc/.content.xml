@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Fluorescent Multilayer Disc"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Fluorescent Multilayer Disc" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox storage medium
+| logo          =
+| image         =
+| caption       =
+| type          = [[Optical disc]]
+| encoding      =
+| capacity      = 50 [[gigabyte]]s &amp;lt;small&amp;gt;(prototype)&amp;lt;/small&amp;gt;&amp;lt;br&amp;gt;1 [[terabyte]] &amp;lt;small&amp;gt;(hypothetical)&amp;lt;/small&amp;gt;
+| blocksize     =
+| read          =
+| write         =
+| standard      =
+| owner         = [[Constellation 3D]]
+| use           = [[3D optical data storage]]
+| dimensions    =
+| weight        =
+| extended from =
+| extended to   = [[Digital Multilayer Disk]]
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Fluorescent Multilayer Disc&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;&amp;apos;FMD&amp;apos;&amp;apos;&amp;apos;) is an [[optical disc]] format developed by [[Constellation 3D]] that uses [[fluorescent]], rather than [[Reflection (physics)|reflective]] materials to store data. Reflective disc formats (such as [[Compact Disc]] and [[DVD]]) have a practical limitation of about two layers, primarily due to interference, scatter, and inter-layer cross talk. However, the use of fluorescence allowed FMDs to operate according to the principles of [[3D optical data storage]] and have up to 100 data layers.  These extra layers potentially allowed FMDs to have capacities of up to a [[terabyte]], while maintaining the same physical size of traditional optical discs.
+
+==Operating principles==
+The pits in an FMD are filled with fluorescent material. When [[coherent light]] from the [[laser]] strikes a pit the material glows, giving off [[Coherence (physics)|incoherent]] light of a different [[wavelength]]. Since FMDs are clear, this light is able to travel through many layers unimpeded. The clear discs, combined with the ability to filter out laser light (based on wavelength and coherence), yield a much greater [[signal-to-noise ratio]] than reflective media. This is what allows FMDs to have many layers. The main limitation on the number of layers in an FMD is the overall thickness of the disc.
+
+==Development==
+A 50 [[gigabyte|GB]] [[prototype]] disc was demonstrated at the [[COMDEX]] industry show in November 2000. First generation FMDs were to use 650 nm red lasers, yielding roughly 140 GB per disc. Second and third generation FMDs were to use 405 nm blue lasers, giving capacities of up to a terabyte.
+
+D Data, Inc. acquired the [[patent portfolio]] of Constellation 3D in 2003, with plans to reintroduce the technology under the new name [[Digital Multilayer Disk]] (DMD).
+
+==See also==
+* [[Fluorescent Multilayer Card]]
+* [[Hyper CD-ROM]]
+
+{{Homevid}}
+
+[[Category:Computer storage media]]
+[[Category:120 mm discs]]
+[[Category:Audio storage]]
+[[Category:Video storage]]
+[[Category:Vaporware]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

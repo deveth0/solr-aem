@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Headlinese"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Headlinese" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{multiple issues|
+{{Original research|date=August 2008}}
+{{Refimprove|date=July 2010}}
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Headlinese&amp;apos;&amp;apos;&amp;apos; is an abbreviated writing style used in [[newspaper]] [[headline]]s.&amp;lt;ref&amp;gt;[http://www.wordnik.com/words/headlinese Headlinese] Collated definitions via &amp;apos;&amp;apos;www.wordnik.com&amp;apos;&amp;apos;&amp;lt;/ref&amp;gt;
+
+==Syntax==
+Because space is limited, headlines are written in a compressed [[Telegram style|telegraphic style]], using special syntactic conventions:
+
+* [[Zero copula|Forms of the verb &amp;quot;to be&amp;quot;]] are omitted.
+* [[Article (grammar)|Articles]] are usually omitted.
+*  Most verbs are in the [[simple present (English)|simple present]] tense, &amp;apos;&amp;apos;e.g.&amp;apos;&amp;apos; &amp;quot;Governor signs bill&amp;quot;.
+* The future is expressed as &amp;quot;to&amp;quot; followed by a [[verb]], &amp;apos;&amp;apos;e.g.&amp;apos;&amp;apos; &amp;quot;Governor to sign bill&amp;quot;.
+* [[Grammatical conjunction|Conjunctions]] are often replaced by a comma, as in &amp;quot;Bush, Blair laugh off microphone mishap&amp;quot;.&amp;lt;ref&amp;gt;{{cite news|url=http://www.cnn.com/2006/WORLD/europe/07/18/bush.tape.reaction/index.html|title=Bush, Blair laugh off microphone mishap|publisher=CNN|date=2006-07-21|accessdate=2007-07-17 |archiveurl = http://web.archive.org/web/20070816181203/http://www.cnn.com/2006/WORLD/europe/07/18/bush.tape.reaction/index.html &amp;lt;!-- Bot retrieved archive --&amp;gt; |archivedate = 2007-08-16}}&amp;lt;/ref&amp;gt;
+
+Headlines are generally [[Sentence (linguistics)|sentence]]s or [[noun phrase]]s.
+
+==Short forms==
+
+Individuals are usually named by their last name only, with no [[honorific]]s.
+
+Organizations and institutions are often named by [[metonymy]]: &amp;quot;Wall Street&amp;quot; for &amp;quot;the financial industry&amp;quot;, &amp;quot;Whitehall&amp;quot; for the UK government administration, &amp;quot;Madrid&amp;quot; for &amp;quot;the government of Spain&amp;quot;, the &amp;quot;Davos&amp;quot; for &amp;quot;World Economic Forum&amp;quot;, and so on.
+
+Headlines use many [[contraction (grammar)|contraction]]s and [[abbreviation]]s: in the USA, for example, &amp;apos;&amp;apos;Pols&amp;apos;&amp;apos; (for &amp;quot;[[politician]]s&amp;quot;), &amp;apos;&amp;apos;Dems&amp;apos;&amp;apos; (for &amp;quot;[[Democratic Party (United States)|Democrats]]&amp;quot;), &amp;apos;&amp;apos;GOP&amp;apos;&amp;apos; (for the [[Republican Party (United States)|Republican Party]], from the nickname &amp;quot;Grand Old Party&amp;quot;), &amp;apos;&amp;apos;Govt&amp;apos;&amp;apos; for [[government]]; in the UK, &amp;apos;&amp;apos;Lib Dems&amp;apos;&amp;apos; (for the [[Liberal Democrats]]), &amp;apos;&amp;apos;[[Tory|Tories]]&amp;apos;&amp;apos; (for the [[Conservative Party (UK)|Conservative Party]]). Some periodicals have their own distinctive headline styles, especially &amp;apos;&amp;apos;[[Variety (magazine)|Variety]]&amp;apos;&amp;apos; and its entertainment-jargon headlines such as &amp;quot;[[Sticks nix hick pix]]&amp;quot;.
+
+==Commonly used short words==
+To save space, headlines often use extremely short words in unusual or idiosyncratic ways:
+{{colbegin|3}}
+*&amp;apos;&amp;apos;axe&amp;apos;&amp;apos; (eliminate)
+*&amp;apos;&amp;apos;bid&amp;apos;&amp;apos; (attempt)
+*&amp;apos;&amp;apos;chop&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;confab&amp;apos;&amp;apos; (meeting)
+*&amp;apos;&amp;apos;curb&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;duo&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;eye&amp;apos;&amp;apos; (consider)
+*&amp;apos;&amp;apos;fury&amp;apos;&amp;apos; (at least in the UK)
+*&amp;apos;&amp;apos;gal&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;guy&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;hike&amp;apos;&amp;apos; (increase)
+*&amp;apos;&amp;apos;hit&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;hype&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;ink&amp;apos;&amp;apos; (sign a contract)
+*&amp;apos;&amp;apos;laud&amp;apos;&amp;apos; (praise)
+*&amp;apos;&amp;apos;lull&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;mar&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;mull&amp;apos;&amp;apos; (consider)
+*&amp;apos;&amp;apos;nab&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;nix&amp;apos;&amp;apos; (reject)
+*&amp;apos;&amp;apos;parley&amp;apos;&amp;apos; (meeting)
+*&amp;apos;&amp;apos;pen&amp;apos;&amp;apos; (write)
+*&amp;apos;&amp;apos;pose&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;probe&amp;apos;&amp;apos; (investigation)
+*&amp;apos;&amp;apos;quiz&amp;apos;&amp;apos; (question, either as a noun or a verb)
+*&amp;apos;&amp;apos;rap&amp;apos;&amp;apos; (criticize)
+*&amp;apos;&amp;apos;revel&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;rout&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;see&amp;apos;&amp;apos; (forecast)
+*&amp;apos;&amp;apos;slam&amp;apos;&amp;apos; (heavily criticize)
+*&amp;apos;&amp;apos;stun&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;temblor&amp;apos;&amp;apos; (earthquake)
+*&amp;apos;&amp;apos;tout&amp;apos;&amp;apos; (endorse)
+*&amp;apos;&amp;apos;vie&amp;apos;&amp;apos; (compete)
+*&amp;apos;&amp;apos;woe&amp;apos;&amp;apos;
+{{colend}}
+
+==Custom==
+The vocabulary and grammatical constructs used in headlines have become so culturally ingrained that they are often encountered even where there are no space constraints, for example in [[World Wide Web|internet]] [[news agency|news agencies]]&amp;apos; headlines.
+
+==See also==
+* [[Headline]]
+* [[Copy editing]]
+* [[Corporate jargon]]
+* [[Crash blossom]], an ambiguous headline
+* [[Ellipsis]], omission of words
+
+==References==
+{{Reflist}}
+
+===Further reading===
+*Headlinese : on the grammar of English front page headlines, Ingrid Mard, ISBN 91-40-04753-9 (pbk.), Lund studies in English
+
+[[Category:Headlines]]
+[[Category:English language]]
+[[Category:Copy editing]]
+[[Category:Forms of English]]
+[[Category:Newswriting]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ternary operation"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ternary operation" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{For|the ternary &amp;quot;if&amp;quot; operator in C-like languages|?:}}
+
+In [[mathematics]], a &amp;apos;&amp;apos;&amp;apos;ternary operation&amp;apos;&amp;apos;&amp;apos; is an [[n-ary|&amp;apos;&amp;apos;n&amp;apos;&amp;apos;-ary]] [[Operation (mathematics)|operation]] with &amp;apos;&amp;apos;n&amp;apos;&amp;apos; = 3. A ternary operation on a set A takes any given three elements of A and combines them to form a single element of A. An example of a ternary operation is the product in a [[heap (mathematics)|heap]].
+
+In [[computer science]], a &amp;apos;&amp;apos;&amp;apos;ternary operator&amp;apos;&amp;apos;&amp;apos; (sometimes incorrectly called a &amp;apos;&amp;apos;tertiary operator&amp;apos;&amp;apos;) is an [[Operator (programming)|operator]] that takes three arguments. The arguments and result can be of different types. Many programming languages that use [[C syntax|C-like syntax]] feature a ternary operator, &amp;lt;code&amp;gt;[[?:]]&amp;lt;/code&amp;gt;, which defines a [[conditional (programming)#If expressions|conditional expression]]. Since this operator is often the only existing ternary operator in the language, it is sometimes simply referred to as &amp;quot;&amp;apos;&amp;apos;the&amp;apos;&amp;apos; ternary operator&amp;quot;. In some languages, this operator is referred to as &amp;quot;the conditional operator&amp;quot;.
+
+== See also ==
+* [[?:]], the ternary conditional expression
+
+== References ==
+{{Reflist}}
+
+[[Category:Ternary operations]]
+[[Category:Operators (programming)]]
+
+[[es:Operación ternaria]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

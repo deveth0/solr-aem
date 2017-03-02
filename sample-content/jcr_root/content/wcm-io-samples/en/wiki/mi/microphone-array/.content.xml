@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Microphone array"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Microphone array" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;A &amp;apos;&amp;apos;&amp;apos;microphone array&amp;apos;&amp;apos;&amp;apos; is any number of [[microphone]]s operating in [[tandem]]. There are many applications:
+*Systems for extracting voice input from [[ambient noise level|ambient noise]] (notably [[telephone]]s, [[speech recognition]] systems, [[hearing aid]]s)
+*[[Surround sound]] and related technologies
+*Locating objects by sound: [[acoustic source localization]], e.g., military use to locate the source(s) of artillery fire. Aircraft location and tracking.
+*[[High fidelity]] original recordings
+
+Typically, an array is made up of [[omnidirectional]] microphones distributed about the [[perimeter]] of a space, linked to a [[computer]] that records and interprets the results into a coherent form. Arrays may also be formed using numbers of very closely spaced microphones. Given a fixed physical relationship in space between the different individual microphone transducer array elements, simultaneous DSP ([[digital signal processor]]) processing of the signals from each of the individual microphone array elements can create one or more &amp;quot;virtual&amp;quot; microphones. Different algorithms permit the creation of virtual microphones with extremely complex virtual polar patterns and even the possibility to steer the individual lobes of the virtual microphones patterns so as to home-in-on, or to reject, particular sources of sound.
+
+An array of 1020 microphones [http://cag.csail.mit.edu/mic-array/], the largest in the world, was built by researchers at the [[Massachusetts Institute of Technology|MIT]] [[Csail|Computer Science and Artificial Intelligence Laboratory]].
+
+== Soundfield microphone ==
+
+The [[Soundfield microphone]] system is a well established example of the use of a microphone array in professional sound recording.
+
+==See also==
+* [[Microphone]]
+* [[Stereophonic sound]]
+* [[Decca tree]]
+* [[Surround sound]]
+* [[Ambisonics]]
+* [[Acoustic source localization]]
+* [[SOSUS]]
+
+==External links==
+* [http://www.acoustic-camera.com Acoustic Camera], System for online and Real-Time Sound Sources Identification in 2D and 3D.
+* [http://www.aes.org/e-lib/browse.cfm?elib=10108 Fukada&amp;apos;s tree], in an AES paper about Multichannel Music Recording.
+* [http://www.aes.org/e-lib/browse.cfm?elib=12288 Hamasaki&amp;apos;s square], in an AES paper about Multichannel Recording Techniques.
+* [http://bebec.eu/Downloads/Beamforming_Repository/beamforming_literature.html Literature] on source localization with microphone arrays.
+* [http://www.lmsintl.com/acoustic-holography An introduction to Acoustic Holography]
+* A collection of pages providing a simple introduction to [http://www.labbookpages.co.uk/audio/beamforming.html microphone array beamforming]
+
+{{DEFAULTSORT:Microphone Array}}
+[[Category:Microphones]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

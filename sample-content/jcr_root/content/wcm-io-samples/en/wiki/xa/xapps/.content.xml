@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="XApps"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="XApps" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{lowercase}}
+&amp;apos;&amp;apos;&amp;apos;xApp&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;&amp;apos;[[SAP AG]] Composite Application&amp;apos;&amp;apos;&amp;apos;), is a collective term applied to software products built following the SAP xApps convention and running on a [[SAP NetWeaver]] application server. Including a range of software products from [[SAP AG]], solutions by SAP partners and customer made composite applications. xApps are commonly targeted at specific industries or are geared towards vertical applications common across a range of industries. xApps typically have a smaller footprint than some of the company&amp;apos;s other business applications such as [[MySAP]]. xApp is the general term for applications based on the [[SAP ESOA]], i.e. applications using SAP enterprise SOA services.
+
+As of October 2006, SAP offered xApps targeted at Product lifecycle management, supply chain management, manufacturing intelligence and other areas.
+
+Example xApps provided by SAP include:
+*&amp;apos;&amp;apos;&amp;apos;SAP xApp Cost and Quotation Management&amp;apos;&amp;apos;&amp;apos; (SAP xCQM) - allows alignment of disparate functions of design, sourcing, and costing to enable profitable decision making
+*&amp;apos;&amp;apos;&amp;apos;SAP xApp Integrated Exploration and Production&amp;apos;&amp;apos;&amp;apos; (SAP xIEP) - an enterprise-wide operating environment to optimize the exploration and production (E&amp;amp;P) life cycle
+*&amp;apos;&amp;apos;&amp;apos;SAP xApp Manufacturing Integration and Intelligence&amp;apos;&amp;apos;&amp;apos; (SAP [[Xmii|xMII]]) - Connects manufacturing with enterprise business processes, providing information to improve production performance
+*&amp;apos;&amp;apos;&amp;apos;SAP xApp Product Definition&amp;apos;&amp;apos;&amp;apos; (SAP xPD) - helps translate ideas into successful and innovative products
+*&amp;apos;&amp;apos;&amp;apos;SAP xApp Resource and Portfolio Management&amp;apos;&amp;apos;&amp;apos; (SAP [[xRPM]]) - improves portfolio performance and aligns it with organizational objectives for new product development, IT, Six Sigma, and services across an enterprise
+
+SAP xApps are [[composite applications]] which can combine [[Web services]] and data from multiple systems. The application architecture is defined by the [[SAP Composite Application Framework]] within the [[SAP NetWeaver]] platform. The framework includes the methodology, tools, and run-time environment to develop composite applications. It provides a consistent object model and allows developers to build composite applications with a rich user interface, which can access multiple other heterogeneous applications via services.
+
+Some xApps are relatively new additions to the SAP product offering and may thus be less tightly integrated with SAP&amp;apos;s common platforms such as [[NetWeaver]]. As a result, many xApps can be deployed by firms who do not currently run other SAP applications{{Fact|date=February 2007}}.
+
+==External links==
+* [http://scn.sap.com/community/bpm/composite-applications SAP Netweaver Capabilities - Composition] discussions, blogs, documents and videos on the [http://scn.sap.com/welcome SAP Community Network (SCN)]
+
+{{DEFAULTSORT:Xapps}}
+[[Category:SAP AG]]
+
+
+{{Compu-soft-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

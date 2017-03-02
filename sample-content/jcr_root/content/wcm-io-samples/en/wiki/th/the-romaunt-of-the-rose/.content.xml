@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="The Romaunt of the Rose"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="The Romaunt of the Rose" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+[[Image:Romaunt rose chaucer.jpg|thumb|Page from a copy (c.1440)]]
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;The Romaunt of the Rose&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is a partial translation into [[Middle English]] of the French [[allegory]], the &amp;apos;&amp;apos;[[Roman de la Rose]]&amp;apos;&amp;apos;.  In [[Geoffrey Chaucer]]&amp;apos;s &amp;apos;&amp;apos;[[The Legend of Good Women]]&amp;apos;&amp;apos; he confirms that he has translated at least part of the poem but the extant work is of dubious authenticity.  Of the three existing fragments, the first uses Chaucer&amp;apos;s language and style and is often accepted as his early work.  The second seems to be written in [[northern English]] and is rejected and the third part is closer to Chaucer&amp;apos;s style but is also usually rejected.
+
+The story begins with an allegorical dream, in which the narrator receives advice from the god of love on gaining his lady&amp;apos;s favour, her love being symbolized by a rose, he is unable to get to the rose.  The second fragment is a satire on the mores of the time, with respect to courting, religious order, and religious hypocrisy. In the second fragment, the narrator is able to kiss the rose, but then the allegorical character Jealousy builds a fortress encircling it so that the narrator does not have access to it. The third fragment of the translation takes up the poem 5,000 lines after the second fragment ends and at its beginning, the god of love is planning to attack the fortress of Jealousy with his barons. The rest of the fragment is a confession given by Fals-Semblant, or false-seeming, which is a treatise on the ways in which men are false to one another, especially the clergy to their parishioners. The third fragment ends with Fals-Semblant going to the fortress of Jealousy in the disguise of a religious pilgrim. He speaks with Wikked-Tunge that is holding one of the gates of the fortress and convinces him to repent his sins. The poem ends with Fals-Semblant absolving Wikked-Tunge of his sins.
+
+{{Chaucer}}
+
+{{DEFAULTSORT:Romaunt Of The Rose, The}}
+[[Category:Medieval literature]]
+[[Category:Translations]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Nectar (disambiguation)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Nectar (disambiguation)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|nectar}}
+&amp;apos;&amp;apos;&amp;apos;[[Nectar]]&amp;apos;&amp;apos;&amp;apos;, in its most common modern use, refers to the sugar-rich liquid produced by the flowers of plants in order to attract pollinating animals.
+
+&amp;apos;&amp;apos;&amp;apos;Nectar&amp;apos;&amp;apos;&amp;apos; was originally a name of the food or drink of the gods in Greek mythology; see [[ambrosia]].
+
+It may also refer to:
+
+*[[Nectar (drink)]], a fruit juice beverage
+*[[Nectar, Alabama]], a town in central Alabama
+*[[Nectar Covered Bridge]], a former covered bridge in Alabama
+*[[Nectar loyalty card]], a loyalty card issued by a partnership of United Kingdom retailers
+* Nectar, a fictional performance-enhancing drug in [[Free Radical Design]]&amp;apos;s PS3 game, [[Haze (video game)|HAZE]]
+
+==See also==
+*[[Nectar source]], a flowering plant that produces nectar
+*[[Mare Nectaris]], the Sea of Nectar, a geographic feature of the Moon
+*[[Nektar]], a 1970s English/German progressive rock band based in Germany
+*[[Nectar Lifesciences]], an Indian pharmaceutical organisation
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

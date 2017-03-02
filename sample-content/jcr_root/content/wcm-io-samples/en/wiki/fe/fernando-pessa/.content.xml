@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Fernando Pessa"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Fernando Pessa" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=November 2007}}
+{{distinguish2|[[Fernando Pessoa]]}}
+
+&amp;apos;&amp;apos;&amp;apos;Fernando Pessa&amp;apos;&amp;apos;&amp;apos;, &amp;lt;small&amp;gt;[[Order of Infante D. Henrique|ComIH]], [[Order of Merit (Portugal)|GOM]], [[Order of British Empire|OBE]]&amp;lt;/small&amp;gt; (April 15, 1902 &amp;amp;ndash; April 29, 2002) was a [[Portugal|Portuguese]] journalist and reporter. Early in 2002, Pessa was hailed as the world&amp;apos;s oldest journalist.  He joined Portugal&amp;apos;s state radio in 1934, and covered [[World War II]] for [[BBC]] radio, for which he was subsequently appointed an [[British honours system|Officer of the Order of the British Empire]] by [[George VI of the United Kingdom|King George VI]]. On March 7, 1957 Pessa made the first live television transmission of the [[Rádio e Televisão de Portugal|Portuguese Radio and Television]] service.
+
+{{Authority control|VIAF=45124649}}
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              =Pessa, Fernando
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION =
+| DATE OF BIRTH     = April 15, 1902
+| PLACE OF BIRTH    =
+| DATE OF DEATH     = April 29, 2002
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Pessa, Fernando}}
+[[Category:1902 births]]
+[[Category:2002 deaths]]
+[[Category:Portuguese centenarians]]
+[[Category:Portuguese journalists]]
+
+{{Portugal-writer-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

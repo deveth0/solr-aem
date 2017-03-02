@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="U of L"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="U of L" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;U of L&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+;Austria
+* [[University of Leoben]]
+* [[University of Linz]]
+
+;Canada
+* [[University of Lethbridge]] in Lethbridge, Alberta
+
+;Ireland
+* [[University of Limerick]] in Castletroy, Limerick
+
+;Latvia
+* [[University of Latvia]]
+
+;Portugal
+* [[Lisbon University|University of Lisbon]]
+
+;South Africa
+* [[University of Limpopo]]
+
+;United Kingdom
+* [[University of Leeds]]
+* [[University of Leicester]]
+* [[University of Lincoln]]
+* [[University of Liverpool]]
+* [[University of London]]
+
+;United States
+* [[University of Louisiana at Lafayette]]
+* [[University of Louisville]] in [[Louisville, Kentucky|Louisville]], [[Kentucky]]
+
+==See also==
+* [[UL (disambiguation)]]
+
+{{disambiguation|school}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

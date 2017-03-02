@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ostrom"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ostrom" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|ostrom}}
+&amp;apos;&amp;apos;&amp;apos;Ostrom&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;Öström&amp;apos;&amp;apos;&amp;apos; is a Swedish surname meaning &amp;quot;island stream&amp;quot;. Notable people with the surname include:
+
+* [[Elinor Ostrom]] (1933-2012), American political economist
+* Ellen Ostrom, dancer in the [[New York City Ballet]]&amp;apos;s &amp;apos;&amp;apos;corps de ballet&amp;apos;&amp;apos;
+* [[Gilbert Wellington Ostrom]] (born 1837), Ontario lawyer and political figure
+* [[Hans Ostrom]] (born 1954), American professor, writer, editor, and scholar
+* [[John Ostrom]] (1928–2005), American paleontologist
+* Magnus Öström,  drummer for the [[Esbjörn Svensson Trio]]
+* [[Meredith Ostrom]] (born 1977), American actress, model, and painter
+* [[Tom Ostrom]] (1936–1994), American psychologist
+* [[Vincent Ostrom]] (1919-2012), American political scientist
+* [[Walter Ostrom]], ceramic artist
+
+== See also ==
+* [[Ostrom, California]], unincorporated community in Yuba County, California
+* [[Ostrum (disambiguation)]]
+
+{{surname|Ostrom}}
+
+[[Category:Swedish-language surnames]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

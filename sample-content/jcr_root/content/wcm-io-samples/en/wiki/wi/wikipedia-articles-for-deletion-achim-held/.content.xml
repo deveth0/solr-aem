@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:Articles for deletion/Achim Held"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:Articles for deletion/Achim Held" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;* Not famous. Only linked to by [[Bielefeld-Verschwörung]]. [[User:Wmahan|Wmahan]] 01:24, 2004 Apr 6 (UTC)
+* Delete -- [[User:Cyrius|Cyrius]]|[[User talk:Cyrius|&amp;amp;#9998]] 01:27, Apr 6, 2004 (UTC)
+*Keep.  Seems famous enough. [[User:Anthony DiPierro|anthony]] [[User:Anthony_DiPierro/warning|(see warning)]] 04:45, 7 Apr 2004 (UTC)
+*Keep. Is famous at least in some insider groups. --[[User:Spacey|Spacey]] 21:51, 8 Apr 2004 (UTC)
+*Delete. We do not need entries about every possible hoax like the [[Bielefeld-Verschwörung]]. [[User:Get-back-world-respect|Get-back-world-respect]] 22:07, 9 Apr 2004 (UTC)
+*Delete - claims to be part of the fake conspiracy - [[User:Texture|T&amp;amp;#949;x]][[User Talk:Texture|&amp;lt;font color=red&amp;gt;&amp;amp;#964;&amp;lt;/font&amp;gt;]][[User:Texture|ur&amp;amp;#949;]] 00:21, 13 Apr 2004 (UTC)
+*Delete.  Not famous.  Article uninformative, only contains resume summary and a link to an obscure hoax that he supposedly started.  [[User:UninvitedCompany|UninvitedCompany]] 20:26, 15 Apr 2004 (UTC)
+
+*&amp;apos;&amp;apos;&amp;apos;Deleted on April 16, 2004 - concensus to delete &amp;apos;&amp;apos;&amp;apos;&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

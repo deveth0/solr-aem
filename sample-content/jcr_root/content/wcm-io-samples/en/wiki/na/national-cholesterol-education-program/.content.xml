@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="National Cholesterol Education Program"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="National Cholesterol Education Program" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Primarysources|article|date=May 2011}}The &amp;apos;&amp;apos;&amp;apos;National Cholesterol Education Program&amp;apos;&amp;apos;&amp;apos; is a program managed by the [[National Heart, Lung and Blood Institute]], a division of the &amp;apos;&amp;apos;&amp;apos;[[National Institutes of Health]]&amp;apos;&amp;apos;&amp;apos;. Its goal is to reduce increased [[cardiovascular disease]] rates due to [[hypercholesterolemia]] (elevated [[cholesterol]] levels) in the [[United States of America]]. The program has been running since 1985.
+
+The assigned goal of the NCEP committee is to meet on a recurring basis, review ongoing scientific research about [[atherosclerosis|atherosclerotic]] [[cardiovascular disease]] and make simplified, consensus, committee recommendations to be promoted by the [[NIH]], the [[American Heart Association]] and other groups to both physicians and the public about how to reduce the incidence of disability and death resulting from [[atherosclerosis|atherosclerotic]] [[cardiovascular disease]].
+
+==External links==
+* [http://www.nhlbi.nih.gov/about/ncep/ NCEP main page]
+* [http://www.nhlbi.nih.gov/guidelines/cholesterol/atp3_rpt.htm Third Report of the Expert Panel on Detection, Evaluation, and Treatment of High Blood Cholesterol in Adults (Adult Treatment Panel III) Final Report, 2002]
+
+[[Category:Medical research]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

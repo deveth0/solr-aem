@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:WikiProject Gastropods/genus taxobox example with picture"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:WikiProject Gastropods/genus taxobox example with picture" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{italic title}}
+{{Taxobox
+| name = &amp;apos;&amp;apos;Helix&amp;apos;&amp;apos;
+| fossil_range= {{fossil range|Oligocene|Recent}}
+| image = Snail1web.jpg
+| image_caption = Garden snail (&amp;apos;&amp;apos;[[Helix aspersa]]&amp;apos;&amp;apos;) on &amp;apos;&amp;apos;[[Limonium]]&amp;apos;&amp;apos;
+| regnum = [[Animal]]ia
+| phylum = [[Mollusca]]
+| classis = [[Gastropoda]]
+| unranked_superfamilia =
+clade [[Heterobranchia]]&amp;lt;br/&amp;gt;
+informal group [[Pulmonata]]&amp;lt;br/&amp;gt;
+clade [[Eupulmonata]]&amp;lt;br/&amp;gt;
+clade [[Stylommatophora]]
+| superfamilia = [[Helicoidea]]
+| familia = [[Helicidae]]
+| genus = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Helix&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+| genus_authority = [[Carl Linnaeus|Linnaeus]], 1758
+| subdivision_ranks = Species
+| subdivision = &amp;apos;&amp;apos;See text&amp;apos;&amp;apos;
+| synonyms =
+&amp;apos;&amp;apos;[[Cantareus]]&amp;apos;&amp;apos;&amp;lt;ref&amp;gt;[http://www.animalbase.uni-goettingen.de/zooweb/servlet/AnimalBase/home/genustaxon?id=2796 &amp;apos;&amp;apos;Genus taxon summary for Cantareus&amp;apos;&amp;apos;]. AnimalBase, Last modified 14-11-2006 by F. Welter Schultes, accessed 1 April 2009.&amp;lt;/ref&amp;gt;
+}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

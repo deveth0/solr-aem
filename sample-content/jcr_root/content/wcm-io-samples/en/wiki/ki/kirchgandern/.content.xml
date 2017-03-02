@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Kirchgandern"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Kirchgandern" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox German location
+|image_photo       =
+|Wappen            = Wappen Kirchgandern.png
+|lat_deg           = 51 |lat_min = 23 |lat_sec = 5
+|lon_deg           =  9 |lon_min = 57 |lon_sec = 43
+|Lageplan = Kirchgandern in EIC.svg
+|Bundesland        = Thüringen
+|Landkreis         = Eichsfeld
+|Verwaltungsgemeinschaft = Hanstein-Rusteberg
+|Höhe              = 205
+|Fläche            = 4.37
+|Einwohner         = 626
+|Stand             = 2006-12-31
+|PLZ               = 37318
+|Vorwahl           = 036081
+|Kfz               = EIC
+|Gemeindeschlüssel = 16 0 61 057
+|Adresse-Verband   = Steingraben 49&amp;lt;br /&amp;gt;37318 Hohengandern
+|Website           = [http://www.kirchgandern.de/ www.kirchgandern.de]
+|Bürgermeister     = Herwig August
+|Partei            = FDP
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Kirchgandern&amp;apos;&amp;apos;&amp;apos; is a [[Thuringia]]n municipality in the district of [[Eichsfeld (district)|Eichsfeld]] in Germany, in the [[Verwaltungsgemeinschaft]] Hanstein-Rusteberg.
+
+Kirchgandern was first mentioned in documentary in 1118.
+
+{{Cities and towns in Eichsfeld (district)}}
+==References==
+{{Reflist}}
+
+{{Eichsfeld-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

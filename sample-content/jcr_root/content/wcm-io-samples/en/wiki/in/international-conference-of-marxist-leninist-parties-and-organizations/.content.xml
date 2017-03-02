@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="International Conference of Marxist–Leninist Parties and Organizations"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="International Conference of Marxist–Leninist Parties and Organizations" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;International Conference of Marxist–Leninist Parties and Organizations&amp;apos;&amp;apos;&amp;apos; (ICMLPO) is a name used by two unrelated networks of communist groups:
+
+* [[International Conference of Marxist–Leninist Parties and Organizations (International Newsletter)]]: A grouping of parties and organizations adhering to [[Maoism|Marxism-Leninism-Mao Zedong Thought]]. Main organizer is the [[Marxist-Leninist Party of Germany|MLPD]].
+* [[International Conference of Marxist–Leninist Parties and Organizations (Unity &amp;amp; Struggle)]]: A grouping of parties and organizations that uphold the line of [[Enver Hoxha]] and the [[Albanian Party of Labour]].
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Neophyte"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Neophyte" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionarypar|neophyte}}
+A &amp;apos;&amp;apos;&amp;apos;neophyte&amp;apos;&amp;apos;&amp;apos; is a beginner.
+
+In the context of [[Christianity]], the term often refers to a:
+# New convert to the religion, in the [[Roman Catholicism|Catholic]] and [[Orthodox Churches]] an adult convert is considered a neophyte for one year after conversion. Roman Catholic neophytes are considered full members of the Church, but may not act as sponsors for others planning to join,
+# Newly ordained priest,
+# Person who recently took a [[Religious vows|monastic vow]].
+
+&amp;apos;&amp;apos;&amp;apos;Neophyte&amp;apos;&amp;apos;&amp;apos; may also refer to:
+
+* [[Neophyte (botany)]], a plant species recently introduced to an area (in contrast to an archaeophyte, a long-established introduced species)
+* [[Neophyte (band)]], a Dutch group that produces Gabber/Hardcore music
+* [[Neophyte (comics)]], a character from Marvel Comics
+* [[Neophyte (series)]], a series of freeware videogames from Alien Software
+* Neophyte, a [[Space Marines (Warhammer 40,000)#Neophyte|character in &amp;apos;&amp;apos;Warhammer 40,000&amp;apos;&amp;apos;]]
+* In [[Fraternity|fraternities]], it is a person that is a new convert or member of a secret fraternal organization, a beginner or novice member of the organization, or a recent convert (rookie/freshman) to the fraternal organization.
+* Neophyte Redglare, a character in [[Homestuck]].
+
+==See also==
+* [[Newbie]]
+* [[Novice]]
+* [[Neophytus (disambiguation)]]
+* [[Neofit (disambiguation)]]
+
+{{disambig}}
+
+[[Category:Beginners and newcomers]]
+
+[[bg:Неофит]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

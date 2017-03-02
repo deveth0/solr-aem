@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Hing"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Hing" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Hing&amp;apos;&amp;apos;&amp;apos; is another name for the spice [[asafoetida]] derived from the plant &amp;apos;&amp;apos;Ferula assa-foetida&amp;apos;&amp;apos;
+
+&amp;apos;&amp;apos;&amp;apos;Hing&amp;apos;&amp;apos;&amp;apos; may also refer to:
+
+* [[Hing Tong]] (1922-2007), American mathematician
+* [[Kwan Tak Hing]] (1905-1996), Hong Kong actor
+* [[Kwong Siu Hing]] (born 1929), Chinese billionaire
+* [[Lai Yee Hing]] (21st century), Singaporean organic chemistry professor
+* [[Leung Hing Kit]] (born 1989), Hong Kong professional football player
+* [[Lew Hing]] (1858-1934), American businessman
+* [[Ng Moon Hing]] (born 1955), Anglican bishop
+* [[Hing (surname)]]
+* Hing means &amp;quot;soul, life, ghost, spirit, breath&amp;quot; in the [[Estonian language]]
+
+==See also==
+
+* [[Cheung-Hing]]
+
+{{wiktionary|hing}}
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

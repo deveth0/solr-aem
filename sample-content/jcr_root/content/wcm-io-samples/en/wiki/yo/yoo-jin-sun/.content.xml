@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Yoo Jin-Sun"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Yoo Jin-Sun" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Korean name|Yoo}}
+{{MedalTableTop}}
+{{MedalSport | Men&amp;apos;s [[Tennis]]}}
+{{MedalCountry|{{KOR}}}}
+{{MedalCompetition|[[Asian Games]]}}
+{{MedalGold|[[1986 Asian Games|1986 Seoul]]|Singles}}
+{{MedalGold|[[1986 Asian Games|1986 Seoul]]|Doubles}}
+{{MedalGold|[[1986 Asian Games|1986 Seoul]]|Mixed doubles}}
+{{MedalGold|[[1986 Asian Games|1986 Seoul]]|Team}}
+{{MedalBottom}}
+&amp;apos;&amp;apos;&amp;apos;Yoo Jin-Sun&amp;apos;&amp;apos;&amp;apos; (born July 12, 1962 in [[Seocheon]], [[Chungcheongnam-do]]) is a former [[tennis player]] from [[South Korea]], who represented his native country as a qualifier at the [[1988 Summer Olympics]] in [[Seoul]]. There he was defeated in the first round by the number twelve seed from [[Israel]], [[Amos Mansdorf]]. The right-hander reached his highest singles [[Association of Tennis Professionals|ATP]]-ranking on June 13, 1988, when he became the number 194 of the world.
+
+==External links==
+*[http://www.atptennis.com/en/players/playerprofiles/default2.asp?playernumber=Y010 Profile at ATP-site]
+
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Yoo, Jin-Sun
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION = Tennis player
+| DATE OF BIRTH     = July 12, 1962
+| PLACE OF BIRTH    =
+| DATE OF DEATH     =
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Yoo, Jin-Sun}}
+[[Category:1962 births]]
+[[Category:Living people]]
+[[Category:South Korean male tennis players]]
+[[Category:Tennis players at the 1988 Summer Olympics]]
+[[Category:Olympic tennis players of South Korea]]
+[[Category:Asian Games medalists in tennis]]
+
+
+{{SouthKorea-tennis-bio-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

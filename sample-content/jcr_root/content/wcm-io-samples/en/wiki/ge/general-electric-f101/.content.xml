@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="General Electric F101"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="General Electric F101" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;lt;!-- This article is a part of [[Wikipedia:WikiProject Aircraft]]. Please see [[Wikipedia:WikiProject Aircraft/page content]] for recommended layout. --&amp;gt;
+{|{{Infobox Aircraft Begin
+ |name= F101
+ |image= General Electric F101.jpg
+ |caption= A General Electric F101 engine
+}}
+{{Infobox Aircraft Engine
+ |type= [[Turbofan]]
+ |national origin = [[United States]]
+ |manufacturer= [[GE Aviation|General Electric]]
+ |first run= 1970s
+ |major applications= [[B-1 Lancer]]
+ |number built =
+ |program cost =
+ |unit cost =
+ |developed from =
+ |developed into = [[General Electric F110]] &amp;lt;br&amp;gt; [[CFM International CFM56]]
+ |variants with their own articles =
+}}
+|}
+
+The &amp;apos;&amp;apos;&amp;apos;General Electric F101&amp;apos;&amp;apos;&amp;apos; is an [[Afterburner|afterburning]] [[turbofan]] [[jet engine]]. It powers the [[B-1 Lancer]] strategic bomber fleet of the [[USAF]]. In full afterburner it produces a thrust of {{convert|30000|lb-f|kN|lk=on}}.  The F101 was [[GE Aviation|GE]]&amp;apos;s first turbofan with an afterburner.&amp;lt;ref&amp;gt;[http://www.geae.com/engines/military/f101/index.html GE&amp;apos;s F101 web page]&amp;lt;/ref&amp;gt;
+
+==Development==
+The F101 was developed specifically for the Advanced Manned Strategic Aircraft, which became the B-1A. The F101 powered the four development aircraft from 1970 to 1981. The B-1A was officially cancelled in 1977.  However the flight test program continued.  [[General Electric]] was awarded a contract to further develop the F101-102 engine variant. This turbofan eventually powered the B-1B from 1984, entering service in 1986.  The B-1&amp;apos;s four F101 engines helped the aircraft win 61 world records for speed, payload and range.
+
+The [[General Electric F110|GE F110]] fighter engine is a derivative of the F101, designed using data from the F101-powered variant of the [[F-16 Fighting Falcon]] tested in the early 1980s.  The F101 also became the basis for the highly successful [[CFM International CFM56|CFM56]] series of civil turbofans.
+
+==Specifications (F101-GE-102)==
+{{jetspecs
+&amp;lt;!-- If you do not understand how to use this template, please ask at [[Wikipedia talk:WikiProject Aircraft]] --&amp;gt;
+&amp;lt;!-- Please include units where appropriate (main comes first, alt in parentheses). If data are missing, leave the parameter blank (do not delete it). For additional lines, end your alt units with )&amp;lt;/li&amp;gt; and start a new, fully-formatted line with &amp;lt;li&amp;gt; --&amp;gt;
+|ref=&amp;lt;ref&amp;gt;Gas Turbine Engines. &amp;apos;&amp;apos;Aviation Week &amp;amp; Space Technology 2009 Source Book&amp;apos;&amp;apos;. p. 118.&amp;lt;/ref&amp;gt;
+|type=Turbofan
+|length=181 in. (460 cm)
+|diameter=55 in. (140 cm)
+|weight=4,400 lbf (1995 kg)
+|compressor=Axial, 2 stage fan, 9 stage high pressure compressor
+|combustion=Annular
+|turbine=1 stage high pressure turbine, 2 stage low pressure turbine
+|fueltype=
+|oilsystem=
+|power=31,000 lb (138 kN) (with afterburner)
+|thrust=
+|compression=26.8:1
+|aircon=
+|turbinetemp=
+|fuelcon=
+|specfuelcon=2.46 lb/lbf-hr (max thrust)
+|power/weight=
+|thrust/weight=7.04:1 (afterburner)
+}}
+
+==See also==
+{{aircontent
+&amp;lt;!-- first, the related articles that do not fit the specific entries: --&amp;gt;
+|see also=
+
+&amp;lt;!-- designs which were developed into or from this aircraft or engine: --&amp;gt;
+|related=
+
+&amp;lt;!-- aircraft that are of similar role, era, and capability as this design: --&amp;gt;
+|similar aircraft=
+
+&amp;lt;!-- relevant lists that this aircraft appears in: --&amp;gt;
+|lists=
+*[[List of aircraft engines]]
+&amp;lt;!-- For aircraft engine articles.  Engines that are of similar to this design: --&amp;gt;
+|similar engines=
+*[[Kuznetsov NK-32]]
+&amp;lt;!-- See [[WP:Air/PC]] for more explanation of these fields. --&amp;gt;
+}}
+
+==References==
+{{reflist}}
+
+==External links==
+{{Commons category}}
+*[http://www.geaviation.com/engines/military/f101/ F101 on GE Aviation&amp;apos;s site]
+*[http://www.globalsecurity.org/military/systems/aircraft/systems/f101.htm F101 page on GlobalSecurity.org]
+
+{{GE aeroengines}}
+{{USAF gas turbine engines}}
+{{Aviation lists}}
+
+[[Category:Low-bypass turbofan engines]]
+[[Category:General Electric aircraft engines|F101]]
+[[Category:Turbofan engines 1970–1979]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

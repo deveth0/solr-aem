@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Virama"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Virama" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Diacritical marks|&amp;amp;#x094D;}}
+&amp;apos;&amp;apos;&amp;apos;Virama&amp;apos;&amp;apos;&amp;apos; ({{indic|lang=sa|indic=विराम|trans=virāma}}) is a generic term for the [[diacritic]] in many [[Brahmic scripts]], including [[Devanagari]] and [[Eastern Nagari script]], that is used to suppress the [[inherent vowel]] that otherwise occurs with every consonant letter. The name is [[Sanskrit]] for &amp;quot;cessation, termination, end&amp;quot;. As a [[Sanskrit]] word, it is used in place of several language-specific terms, such as &amp;apos;&amp;apos;halant&amp;apos;&amp;apos; ({{indic|lang=hi|indic=हलन्त्|trans=halant}}), &amp;apos;&amp;apos;hôshonto&amp;apos;&amp;apos; ({{indic|lang=bn|indic=হসন্ত|trans=hoshonto}}), &amp;apos;&amp;apos;halanta&amp;apos;&amp;apos; ({{indic|lang=te|indic=హలంత|trans=halanta}}), &amp;apos;&amp;apos;pulli&amp;apos;&amp;apos; ({{indic|lang=ta|indic=புள்ளி|trans=puḷḷi}}),  &amp;apos;&amp;apos;chandrakkala&amp;apos;&amp;apos; ({{indic|lang=ml|indic=ചന്ദ്രക്കല|trans=candrakkala}}), &amp;apos;&amp;apos;halanta&amp;apos;&amp;apos; ({{indic|lang=kn|indic=ಹಲಂತ|trans=halanta}}), &amp;apos;&amp;apos;halanta&amp;apos;&amp;apos; ({{indic|lang=or|indic=ହଳନ୍ତ|trans=haḷanta}}), &amp;apos;&amp;apos;a that&amp;apos;&amp;apos; ({{lang-my|အသတ်}}, &amp;apos;&amp;apos;a.sat&amp;apos;&amp;apos; {{IPA-my|ʔa̰θaʔ|IPA}}, lit. &amp;quot;sound killer&amp;quot;) and &amp;apos;&amp;apos;phinthu&amp;apos;&amp;apos; ({{lang-th|–ฺ}} {{lang|th|พินทุ}}).
+
+In [[Devanagari]] and many other [[Brahmic family of scripts|Indic scripts]], a virama is used to cancel—or “kill”—the [[inherent vowel]] of a consonant letter and represent a consonant without a vowel, so-called a “dead” consonant. For example, in Devanagari,
+#{{lang|sa|क}} is a consonant letter, &amp;apos;&amp;apos;ka&amp;apos;&amp;apos;,
+#&amp;amp;#x094d; is a virama; therefore,
+#{{lang|sa|क्}} (&amp;apos;&amp;apos;ka&amp;apos;&amp;apos; + virama) represents a dead consonant &amp;apos;&amp;apos;k&amp;apos;&amp;apos;.
+If this &amp;apos;&amp;apos;k&amp;apos;&amp;apos; {{lang|sa|क्}} is further followed by another consonant letter, for example, {{Unicode|&amp;apos;&amp;apos;ṣa&amp;apos;&amp;apos;}} {{lang|sa|ष}}, the result might look like {{lang|sa|क्‌ष}}, which represents {{Unicode|&amp;apos;&amp;apos;kṣa&amp;apos;&amp;apos;}} as &amp;apos;&amp;apos;ka&amp;apos;&amp;apos; + (visible) virama + {{Unicode|&amp;apos;&amp;apos;ṣa&amp;apos;&amp;apos;}}. In this case, two elements &amp;apos;&amp;apos;k&amp;apos;&amp;apos; {{lang|sa|क्}} and {{Unicode|&amp;apos;&amp;apos;ṣa&amp;apos;&amp;apos;}} {{lang|sa|ष}} are simply placed one by one, side by side. Alternatively, {{Unicode|&amp;apos;&amp;apos;kṣa&amp;apos;&amp;apos;}} can be also written as a [[Typographic ligature|ligature]] {{lang|sa|क्ष}}, which is actually the preferred form.
+
+Generally, when a dead consonant letter C&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt; and another consonant letter C&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt; are conjoined, the result may be either:
+#A fully conjoined ligature of C&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt;+C&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;;
+#Half-conjoined—
+#*C&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt;-conjoining: a modified form (half form) of C&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt; attached to the original form (full form) of C&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;
+#*C&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;-conjoining: a modified form of C&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt; attached to the full form of C&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt;; or
+#Non-ligated: full forms of C&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt; and C&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt; with a visible virama.&amp;lt;ref&amp;gt;{{cite web|last=Constable|first=Peter|title=Clarification of the Use of Zero Width Joiner in Indic Scripts|work=[http://www.unicode.org/review/resolved-pri.html#pri37 Public Review Issue #37]|url=http://www.unicode.org/review/pr-37.pdf|publisher=Unicode, Inc|format=PDF|year=2004| accessdate=2009-11-19}}&amp;lt;/ref&amp;gt;
+
+If the result is fully or half-conjoined, the (conceptual) virama which made C&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt; dead becomes invisible, only logically existing in a [[character encoding]] scheme such as [[Indian Script Code for Information Interchange|ISCII]] or [[Unicode]]. If the result is non-ligated, a virama is visible, attached to C&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt;, actually written.
+
+Basically, those differences are only glyph variants and three forms are [[Semantics|semantically]] identical. Although there may be a preferred form for a given consonant cluster in each language and some scripts do not have some kind of ligatures or half forms at all, it is generally acceptable to use a non-ligature form instead of a ligature form even when the latter is preferred, if the font does not have a glyph for the ligature. In some other cases, whether to use a ligature or not is merely a matter of taste.
+
+The virama in the sequence C&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt; + virama + C&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt; may thus work as an invisible control character to ligate C&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt; and C&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt; in Unicode. For example,
+*&amp;apos;&amp;apos;ka&amp;apos;&amp;apos; {{lang|sa|क}} + virama + {{Unicode|&amp;apos;&amp;apos;ṣa&amp;apos;&amp;apos;}} {{lang|sa|ष}} = {{Unicode|&amp;apos;&amp;apos;kṣa&amp;apos;&amp;apos;}} {{lang|sa|क्ष}}
+is a fully conjoined ligature. It is also possible that the virama does not ligate C&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt; and C&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;, leaving the full forms of C&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt; and C&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt; as they are:
+*&amp;apos;&amp;apos;ka&amp;apos;&amp;apos; {{lang|sa|क}} + virama + {{Unicode|&amp;apos;&amp;apos;ṣa&amp;apos;&amp;apos;}} {{lang|sa|ष}} = {{Unicode|&amp;apos;&amp;apos;kṣa&amp;apos;&amp;apos;}} {{lang|sa|क्‌ष}}
+is an example of such a non-ligated form.
+
+The sequences ङ्क ङ्ख ङ्ग ङ्घ {{IPA|[ŋka ŋkʰa ŋɡa ŋɡʱa]}} in correct Devanagari handwriting should be written as conjuncts (the virama and the top cross line of the second letter disappear, and what is left of the second letter is written under the ङ and joined to it).
+
+==See also==
+*[[Sukun]], a similar diacritic in Arabic script
+*[[Zero consonant]]
+
+==References==
+&amp;lt;references/&amp;gt;
+
+==External links==
+*[http://blogs.msdn.com/michkap/archive/2005/04/09/406765.aspx Blog: Sorting it all Out]
+
+[[Category:Brahmic diacritics]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

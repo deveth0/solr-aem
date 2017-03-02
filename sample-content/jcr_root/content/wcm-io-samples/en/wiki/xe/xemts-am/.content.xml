@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="XEMTS-AM"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="XEMTS-AM" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox radio station
+ | name = XEMTS
+ | image =
+ | city = [[Tampico, Tamaulipas|Tampico]]
+ | area = [[Tampico, Tamaulipas|Tampico]], [[Tamaulipas]], [[Mexico]]
+ | branding = Radio Formula
+ | slogan =
+ | airdate =
+ | frequency = 780 AM
+ | format =
+ | power =
+ | erp =
+ | class =
+ | callsign_meaning =
+ | former_callsigns =
+ | owner =
+ | webcast =
+ | website = [http://www.radioformula.com.mx/ radioformula.com]
+ | affiliations =
+}}
+
+&amp;apos;&amp;apos;&amp;apos;XEMTS&amp;apos;&amp;apos;&amp;apos; (branded as Radio Formula) is a [[Mexico|Mexican]] [[Spanish language|Spanish-language]] AM [[radio station]] that serves [[Tampico, Tamaulipas|Tampico]], [[Tamaulipas]] market area.
+
+==External links==
+* {{AMQ|XEMTS}}
+* {{AML|XEMTS}}
+* [http://www.mexicoradiotv.com/listtama.htm mexicoradiotv.com; List of Tamaulipas radio stations]
+* [http://www.radioformula.com.mx/ radioformula.com]
+* [http://radiostationworld.com/locations/Mexico/radio.asp?m=ta~ radiostationworld.com List of radio stations in Tamaulipas]
+
+{{Tampico Radio}}
+
+{{coord missing|Mexico}}
+
+[[Category:Spanish-language radio stations]]
+[[Category:Radio stations in Tampico]]
+
+
+{{Mexico-radio-station-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

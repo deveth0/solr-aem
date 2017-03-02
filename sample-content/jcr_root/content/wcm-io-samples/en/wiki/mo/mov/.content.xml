@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="MOV"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="MOV" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|MOV|mov}}
+&amp;apos;&amp;apos;&amp;apos;MOV&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* [[MOV (x86 instruction)]], a mnemonic for the copying of data from one location to another in the x86 assembly language
+* [[.mov]], filename extension for the QuickTime multimedia file format
+* [[Varistor|Metal oxide varistor]], an electronic component with a significant non-ohmic current-voltage characteristic
+* [[Marconi-Osram Valve]], a former British manufacturer of vacuum tubes
+* [[The Merchant of Venice]], a play by William Shakespeare
+* [[MOV (TV channel)]], a Portuguese television channel operated by ZON Multimédia
+* [[Mid-Ohio Valley]], a subregion of the [[Ohio Valley]], United States
+* [[Microwave oven]]
+* [[Member of the Order of the Volta]], one of the highest national awards of [[Ghana]]
+* [[MOV (album)|&amp;apos;&amp;apos;MOV&amp;apos;&amp;apos; (album)]], a 1999 album by R&amp;amp;B group Men of Vizion
+* MOV (Management of Value), Value management technique from the Cabinet Office
+* Motor-operated valve, a style of [[Valve actuator]] for controlling flow in pipes
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

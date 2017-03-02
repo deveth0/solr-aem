@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Fontenoy"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Fontenoy" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Fontenoy&amp;apos;&amp;apos;&amp;apos; ({{IPA-fr|fɔ̃tənwa}}) may refer to:
+*[[Battle of Fontenoy (1745)]]
+*[[Battle of Fontenay (841)]]
+*[[Fontenoy (novel)]] by Liam Mac Cóil
+
+==People==
+*[[Maud Fontenoy]], a French sailor
+
+==Places==
+Belgium:
+*Fontenoy, a village in the municipality of [[Antoing]], Belgium
+
+Several [[Commune in France|commune]]s in [[France]]:
+*[[Fontenoy, Aisne|Fontenoy]], in the [[Aisne]] &amp;apos;&amp;apos;[[département in France|département]]&amp;apos;&amp;apos;
+*[[Fontenoy, Yonne|Fontenoy]], in the [[Yonne]] &amp;apos;&amp;apos;département&amp;apos;&amp;apos;
+*[[Fontenoy-la-Joûte]], in the [[Meurthe-et-Moselle]] &amp;apos;&amp;apos;département&amp;apos;&amp;apos; (a [[book town]])
+*[[Fontenoy-le-Château]], in the [[Vosges]] &amp;apos;&amp;apos;département&amp;apos;&amp;apos;
+*[[Fontenoy-sur-Moselle]], in the [[Meurthe-et-Moselle]] &amp;apos;&amp;apos;département&amp;apos;&amp;apos;
+
+Australia:
+*[[Fontenoy, New South Wales|Fontenoy]],a property owned by the Moloney family in Junee, New South Wales
+
+United States:
+*[[Fontenoy, Wisconsin|Fontenoy]], an unincorporated community in Brown County, Wisconsin
+
+==See also==
+*[[Fontenay (disambiguation)]]
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

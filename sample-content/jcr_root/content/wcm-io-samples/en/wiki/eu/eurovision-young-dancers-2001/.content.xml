@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Eurovision Young Dancers 2001"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Eurovision Young Dancers 2001" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+The 9th &amp;apos;&amp;apos;&amp;apos;[[Eurovision Young Dancers Competition]]&amp;apos;&amp;apos;&amp;apos; was held at the [[Linbury Studio Theatre]] in [[London]], [[United Kingdom]] between June 18 and June 24, 2001.
+
+==Winners and Remaining Finalists==
+{| class=&amp;quot;wikitable&amp;quot;
+|-
+! Pos !! Country !! Name
+|-
+| 1 || [[Image:Flag of Poland.svg|20px]] [[Poland]] || Dawid Kupinski &amp;amp; Marcin Kupinski
+|-
+| 2 || [[Image:Flag of Belgium.svg|20px]] [[Belgium]] || Jeroen Verbruggen
+|-
+| 3 || [[Image:Flag of the Netherlands.svg|20px]] [[Netherlands]] || Maartje Hermans &amp;amp; [[Golan Yosef]]
+|-
+| - || [[Image:Flag of Cyprus.svg|20px]] [[Cyprus]] || Marina Kyriakidou
+|-
+| - || [[Image:Flag of Estonia.svg|20px]] [[Estonia]] || Sergei Upkin
+|-
+| - || [[Image:Flag of Finland.svg|20px]] [[Finland]] || Johanna Nuutinen
+|-
+| - || [[Image:Flag of Germany.svg|20px]] [[Germany]] || [[Thiago Bordin]]
+|-
+| - || [[Image:Flag of Greece.svg|20px]] [[Greece]] || Olga Tsimourta &amp;amp; Tina Nasika
+|-
+| - || [[Image:Flag of Sweden.svg|20px]] [[Sweden]] || Johan Thelander &amp;amp; Elizaveta Penkóva
+|-
+| - || [[Image:Flag of the United Kingdom.svg|20px]] [[United Kingdom]] || Jamie Bond
+|}
+
+{{Eurovision Young Dancers}}
+
+[[Category:Eurovision Young Dancers]]
+[[Category:2001 in the United Kingdom]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Zé Manel"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Zé Manel" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[Portuguese language|Portuguese]], &amp;apos;&amp;apos;&amp;apos;Zé Manel&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;Ze&amp;apos;Manel&amp;apos;&amp;apos;&amp;apos; ({{IPA-pt|zɛmɐˈnɛɫ}}) is a common short form of the name &amp;apos;&amp;apos;José Manuel&amp;apos;&amp;apos;, and can refer to:
+
+*[[José Manuel Durão Barroso]], the current President of the European Commission
+*[[José Manuel da Silva Fernandes]], a football player
+*Zé Manel, a singer and instrumentalist [[Music of Guinea-Bissau|from Guinea-Bissau]]
+*[[José Manuel Cerqueira Afonso dos Santos]], a folk musician and political icon, also known as Zeca Afonso or only Zeca
+
+{{given name}}&amp;lt;!-- It does not help to add disambig or hndis tags where the page only contains people who share a given name --&amp;gt;
+
+{{DEFAULTSORT:Ze Manel}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

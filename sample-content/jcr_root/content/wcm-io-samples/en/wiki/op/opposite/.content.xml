@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Opposite"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Opposite" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|opposite|opposites}}
+&amp;apos;&amp;apos;&amp;apos;Opposite&amp;apos;&amp;apos;&amp;apos; may refer to:
+* [[Opposite (semantics)]], a word that means the opposite of a word
+* In botany opposite is a kind of [[Leaf#Arrangement on the stem|arrangement of leaves]]
+* [[Additive inverse]], in mathematics, taking the negative (&amp;quot;opposite&amp;quot;) of a number
+* [[Dual (category theory)|Opposite category]] or dual category, in category theory
+* An opposite hitter, also  an opposite, is a position in [[volleyball]]
+* [[Opposites (album)|&amp;apos;&amp;apos;Opposites&amp;apos;&amp;apos; (album)]], by Scottish alternative rock band Biffy Clyro, released on 28 January 2013
+* [[The Opposites]], Dutch rap duo
+
+==See also==
+* [[Opposition (disambiguation)]]
+* [[Contrary (disambiguation)]]
+
+{{disambiguation}}
+[[Category:Mathematical disambiguation]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

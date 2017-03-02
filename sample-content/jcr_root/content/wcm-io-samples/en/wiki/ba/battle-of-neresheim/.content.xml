@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Battle of Neresheim"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Battle of Neresheim" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{no footnotes|date=March 2013}}
+{{coord|48|45|15|N|10|20|4|E|display=title}}
+{{Infobox Military Conflict
+|conflict=Battle of Neresheim
+|partof=the [[French Revolutionary War]]
+|campaign=
+|lat_deg           = 48 |lat_min = 45 |lat_sec = 15
+|lon_deg           = 10 |lon_min = 20 |lon_sec = 04
+|image=
+|caption=
+|date=11 August 1796
+|place=[[Neresheim]], [[Duchy of Württemberg]]
+|result=French victory; the Austrians retreat further into Bavaria
+|combatant1={{flagicon|France}} [[First French Republic|French Republic]]
+|combatant2={{flag|Holy Roman Empire}} [[Habsburg Austria]]
+|commander1=[[Jean Victor Marie Moreau]]
+|commander2={{flagicon|Holy Roman Empire}}[[Archduke Charles, Duke of Teschen|Archduke Charles]]
+|strength1=50,000
+|strength2=20,000
+|casualties1=2,400
+|casualties2=1,600
+}}
+{{Campaignbox First Coalition}}
+The &amp;apos;&amp;apos;&amp;apos;Battle of Neresheim&amp;apos;&amp;apos;&amp;apos; was fought on 11 August 1796 and resulted the victory of French under General Moreau against Austrians under Archduke Charles.
+
+The Austrians had originally planned to draw Moreau&amp;apos;s eastwards into a trap, where they would surrounded and overwhelmed . However, because of poor coordination and disagreement between the Austrian commanders, only a small force of Austrians were in position to engage the French when they arrived. The defeat forced the Austrians to withdraw further into [[Electorate of Bavaria|Bavaria]].
+
+==References==
+
+*Pope, Stephen. &amp;apos;&amp;apos;The Cassell Dictionary of the Napoleonic Wars&amp;apos;&amp;apos;, Cassell (1999)
+
+{{DEFAULTSORT:Neresheim}}
+[[Category:Conflicts in 1796]]
+[[Category:Battles of the French Revolutionary Wars]]
+[[Category:Battles involving Austria]]
+[[Category:Battles involving France]]
+[[Category:1796 in Austria]]
+[[Category:1796 in France]]
+[[Category:Battles of the War of the First Coalition]]
+[[Category:War of the First Coalition]]
+
+
+{{Napoleonic-battle-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

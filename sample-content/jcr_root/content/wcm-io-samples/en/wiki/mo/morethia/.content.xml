@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Morethia"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Morethia" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{italic title}}
+{{Taxobox
+| name = &amp;apos;&amp;apos;Morethia&amp;apos;&amp;apos;
+| image =
+| image_width =
+| image_caption =
+| regnum = [[Animal]]ia
+| phylum = [[Chordate|Chordata]]
+| classis = [[Reptile|Reptilia]]
+| ordo = [[Squamata]]
+| familia = [[Scincidae]]
+| genus = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Morethia&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+| genus_authority =
+| subdivision_ranks = [[Species]]
+| subdivision = 8 sp., see text
+}}
+
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Morethia&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is a [[Scincidae|skink]] genus of the order [[Squamata]], commonly called &amp;apos;&amp;apos;&amp;apos;Morethia skinks&amp;apos;&amp;apos;&amp;apos;  or &amp;apos;&amp;apos;&amp;apos;Firetail skinks&amp;apos;&amp;apos;&amp;apos;, found in [[Australia]].
+
+==Species==
+Listed alphabetically.&amp;lt;ref&amp;gt;[http://reptile-database.reptarium.cz/search.php?taxon=&amp;amp;genus=Morethia&amp;amp;submit=Search &amp;apos;&amp;apos;Morethia&amp;apos;&amp;apos;], The Reptile Database&amp;lt;/ref&amp;gt;
+*&amp;apos;&amp;apos;[[Morethia adelaidensis]]&amp;apos;&amp;apos; (Peters, 1874) – Saltbush Morethia Skink
+*&amp;apos;&amp;apos;[[Morethia boulengeri]]&amp;apos;&amp;apos; (Ogilby, 1890) – Boulenger&amp;apos;s Skink, South-eastern Morethia Skink
+*&amp;apos;&amp;apos;[[Morethia butleri]]&amp;apos;&amp;apos; (Storr, 1963) – Woodland Morethia Skink
+*&amp;apos;&amp;apos;[[Morethia lineoocellata]]&amp;apos;&amp;apos; (Duméril &amp;amp; Bibron, 1839) – West Coast Morethia Skink, Western Pale-flecked Morethia
+*&amp;apos;&amp;apos;[[Morethia obscura]]&amp;apos;&amp;apos; (Storr, 1972) – Shrubland Morethia Skink
+*&amp;apos;&amp;apos;[[Morethia ruficauda]]&amp;apos;&amp;apos; (Lucas &amp;amp; Frost, 1895) – Lined Firetail Skink
+*&amp;apos;&amp;apos;[[Morethia storri]]&amp;apos;&amp;apos; (Greer, 1980) – Top End Firetail Skink
+*&amp;apos;&amp;apos;[[Morethia taeniopleura]]&amp;apos;&amp;apos; (Peters, 1874) – North-eastern Firetail Skink, Fire-tailed Skink
+
+==References==
+{{commons}}
+{{reflist}}
+
+[[Category:Skinks]]
+
+{{skink-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

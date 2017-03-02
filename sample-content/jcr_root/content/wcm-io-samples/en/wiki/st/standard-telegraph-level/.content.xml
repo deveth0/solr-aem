@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Standard telegraph level"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Standard telegraph level" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{orphan|date=January 2009}}
+In [[telecommunication]], &amp;apos;&amp;apos;&amp;apos;standard telegraph level&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;STL&amp;apos;&amp;apos;) is the [[Power (physics)|power]] per individual telegraph [[channel (communications)|channel]] required to yield the [[standardization|standard]] composite [[data]] level.
+
+For example, for a composite data level of -13 [[dBm]] at 0-dBm [[transmission level point]] (0TLP), the &amp;apos;&amp;apos;STL&amp;apos;&amp;apos; would be approximately -25 dBm for a 16-channel VFCT [[terminal (telecommunication)|terminal]] computed from &amp;apos;&amp;apos;STL&amp;apos;&amp;apos; = - (13+10log&amp;lt;sub&amp;gt;10&amp;lt;/sub&amp;gt;&amp;apos;&amp;apos; n&amp;apos;&amp;apos; ), where &amp;apos;&amp;apos;n&amp;apos;&amp;apos; is the number of telegraph channels and the &amp;apos;&amp;apos;STL&amp;apos;&amp;apos; is in dBm.
+
+==References==
+*{{FS1037C MS188}}
+
+[[Category:Data transmission]]
+[[Category:Telegraphy]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

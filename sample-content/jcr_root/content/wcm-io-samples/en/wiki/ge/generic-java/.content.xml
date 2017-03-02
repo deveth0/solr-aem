@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Generic Java"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Generic Java" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox programming language
+|name = Generic Java
+|logo =
+|paradigm = [[Object-oriented programming|object-oriented]]
+|generation = [[3GL]]
+|year =
+|designer = [[Martin Odersky]], [[Philip Wadler]], [[Gilad Bracha]], [[William Maddox (computer scientist)|William Maddox]], and [[David Stoutamire]]
+|developer =
+|latest release version =
+|latest release date =
+|typing = [[strong typing|strong]]
+|implementations =
+|dialects =
+|influenced_by = [[Java (programming language)|Java]], [[Pizza (programming language)|Pizza]]
+|influenced = [[Java (programming language)|Java]] 5.0
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Generic Java&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;&amp;apos;Generic Java&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;GJ&amp;apos;&amp;apos;&amp;apos;) is a [[programming language]] that is a [[superset]] of [[Java (programming language)|Java]] which adds support for [[generic programming]]. It was designed by [[Gilad Bracha]], [[Martin Odersky]], [[David Stoutamire]], and [[Philip Wadler]] to offer developers a smoother transition and better Java compatibility than the [[Pizza programming language]], previously created by Odersky and Wadler.
+
+Generic Java was incorporated, with the addition of [[Java_generics#Wildcards|wildcards]], into the official Java language version [[Java Platform, Standard Edition|J2SE]] 5.0.
+
+==See also==
+* [[Generic programming]]
+* [[Pizza (programming language)|Pizza programming language]]
+* [[Scala (programming language)|Scala programming language]]
+
+== External links ==
+* {{official website|http://homepages.inf.ed.ac.uk/wadler/pizza/gj/}}
+
+[[Category:Java programming language family]]
+
+
+{{compu-lang-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

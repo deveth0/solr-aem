@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Continuous linear extension"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Continuous linear extension" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[functional analysis]], it is often convenient to define a [[linear transformation]] on a [[complete space|complete]], [[normed vector space]] &amp;lt;math&amp;gt;X&amp;lt;/math&amp;gt; by first defining a linear transformation &amp;lt;math&amp;gt;\mathsf{T}&amp;lt;/math&amp;gt; on a [[dense set|dense]] [[subset]] of &amp;lt;math&amp;gt;X&amp;lt;/math&amp;gt; and then extending &amp;lt;math&amp;gt;\mathsf{T}&amp;lt;/math&amp;gt; to the whole space via the theorem below. The resulting extension remains [[linearity|linear]] and [[bounded operator|bounded]] (thus [[continuous function|continuous]]).
+
+This procedure is known as &amp;apos;&amp;apos;&amp;apos;continuous linear extension&amp;apos;&amp;apos;&amp;apos;.
+
+==Theorem==
+
+Every bounded linear transformation &amp;lt;math&amp;gt;\mathsf{T}&amp;lt;/math&amp;gt; from a normed vector space &amp;lt;math&amp;gt;X&amp;lt;/math&amp;gt; to a complete, normed vector space &amp;lt;math&amp;gt;Y&amp;lt;/math&amp;gt; can be uniquely extended to a bounded linear transformation &amp;lt;math&amp;gt;\tilde{\mathsf{T}}&amp;lt;/math&amp;gt; from the [[complete space#Completion|completion]] of &amp;lt;math&amp;gt;X&amp;lt;/math&amp;gt; to &amp;lt;math&amp;gt;Y&amp;lt;/math&amp;gt;. In addition, the [[operator norm]] of &amp;lt;math&amp;gt;\mathsf{T}&amp;lt;/math&amp;gt; is &amp;lt;math&amp;gt;c&amp;lt;/math&amp;gt; [[iff]] the norm of &amp;lt;math&amp;gt;\tilde{\mathsf{T}}&amp;lt;/math&amp;gt; is &amp;lt;math&amp;gt;c&amp;lt;/math&amp;gt;.
+
+This theorem is sometimes called the B L T theorem, where B L T stands for &amp;apos;&amp;apos;bounded linear transformation&amp;apos;&amp;apos;.
+
+==Application==
+
+Consider, for instance, the definition of the [[Riemann integral]]. A [[step function]] on a [[closure (mathematics)|closed]] [[interval (mathematics)|interval]] &amp;lt;math&amp;gt;[a,b]&amp;lt;/math&amp;gt;  is a function of the form: &amp;lt;math&amp;gt;f\equiv r_1 \mathit{1}_{[a,x_1)}+r_2 \mathit{1}_{[x_1,x_2)} + \cdots + r_n \mathit{1}_{[x_{n-1},b]}&amp;lt;/math&amp;gt;
+where &amp;lt;math&amp;gt;r_1, \ldots, r_n&amp;lt;/math&amp;gt; are real numbers, &amp;lt;math&amp;gt;a=x_0&amp;lt;x_1&amp;lt;\ldots &amp;lt;x_{n-1}&amp;lt;x_n=b&amp;lt;/math&amp;gt;, and &amp;lt;math&amp;gt;\mathit{1}_S&amp;lt;/math&amp;gt; denotes the [[indicator function]] of the set &amp;lt;math&amp;gt;S&amp;lt;/math&amp;gt;. The space of all step functions on &amp;lt;math&amp;gt;[a,b]&amp;lt;/math&amp;gt;, normed by the &amp;lt;math&amp;gt;L^\infty&amp;lt;/math&amp;gt; norm (see [[Lp space]]), is a normed vector space which we denote by &amp;lt;math&amp;gt;\mathcal{S}&amp;lt;/math&amp;gt;. Define the integral of a step function by: &amp;lt;math&amp;gt;\mathsf{I} \left(\sum_{i=1}^n r_i \mathit{1}_{ [x_{i-1},x_i)}\right) = \sum_{i=1}^n r_i (x_i-x_{i-1})&amp;lt;/math&amp;gt;.
+&amp;lt;math&amp;gt;\mathsf{I}&amp;lt;/math&amp;gt; as a function is a bounded linear transformation from &amp;lt;math&amp;gt;\mathcal{S}&amp;lt;/math&amp;gt; into &amp;lt;math&amp;gt;\mathbb{R}&amp;lt;/math&amp;gt;.&amp;lt;ref&amp;gt;Here, &amp;lt;math&amp;gt;\mathbb{R}&amp;lt;/math&amp;gt; is also a normed vector space; &amp;lt;math&amp;gt;\mathbb{R}&amp;lt;/math&amp;gt; is a vector space because it satisfies all of the [[vector space#Formal_definition|vector space axioms]] and is normed by the [[absolute value|absolute value function]].&amp;lt;/ref&amp;gt;
+
+Let &amp;lt;math&amp;gt;\mathcal{PC}&amp;lt;/math&amp;gt; denote the space of bounded, [[piecewise]] continuous functions on &amp;lt;math&amp;gt;[a,b]&amp;lt;/math&amp;gt; that are continuous from the right, along with the &amp;lt;math&amp;gt;L^\infty&amp;lt;/math&amp;gt; norm. The space &amp;lt;math&amp;gt;\mathcal{S}&amp;lt;/math&amp;gt; is dense in &amp;lt;math&amp;gt;\mathcal{PC}&amp;lt;/math&amp;gt;, so we can apply the B.L.T. theorem to extend the linear transformation &amp;lt;math&amp;gt;\mathsf{I}&amp;lt;/math&amp;gt; to a bounded linear transformation &amp;lt;math&amp;gt;\tilde{\mathsf{I}}&amp;lt;/math&amp;gt; from &amp;lt;math&amp;gt;\mathcal{PC}&amp;lt;/math&amp;gt; to &amp;lt;math&amp;gt;\mathbb{R}&amp;lt;/math&amp;gt;. This defines the Riemann integral of all functions in &amp;lt;math&amp;gt;\mathcal{PC}&amp;lt;/math&amp;gt;; for every &amp;lt;math&amp;gt;f\in \mathcal{PC}&amp;lt;/math&amp;gt;, &amp;lt;math&amp;gt;\int_a^b f(x)dx=\tilde{\mathsf{I}}(f)&amp;lt;/math&amp;gt;.
+
+==The Hahn–Banach theorem==
+
+The above theorem can be used to extend a bounded linear transformation &amp;lt;math&amp;gt;T:S\rightarrow Y&amp;lt;/math&amp;gt; to a bounded linear transformation from &amp;lt;math&amp;gt;\bar{S}=X&amp;lt;/math&amp;gt; to &amp;lt;math&amp;gt;Y&amp;lt;/math&amp;gt;, &amp;apos;&amp;apos;if&amp;apos;&amp;apos; &amp;lt;math&amp;gt;S&amp;lt;/math&amp;gt; is dense in &amp;lt;math&amp;gt;X&amp;lt;/math&amp;gt;. If &amp;lt;math&amp;gt;S&amp;lt;/math&amp;gt; is not dense in &amp;lt;math&amp;gt;X&amp;lt;/math&amp;gt;, then the [[Hahn–Banach theorem]] may sometimes be used to show that an extension [[existence|exists]]. However, the extension may not be unique.
+
+==References==
+
+*{{cite book|last=Reed|first=Michael|coauthors=Barry Simon|year=1980|title=Methods of Modern Mathematical Physics, Vol. 1: Functional Analysis|publisher=Academic Press|location=San Diego|isbn=0-12-585050-6}}
+
+===Footnotes===
+&amp;lt;references/&amp;gt;
+
+{{DEFAULTSORT:Continuous Linear Extension}}
+[[Category:Functional analysis]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

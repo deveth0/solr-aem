@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ali Benflis"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ali Benflis" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Ali Benflis&amp;apos;&amp;apos;&amp;apos; ({{lang-ar|على بن فليس}}) (born September 8, 1944 in [[Batna City|Batna]]) is a politician from [[Algeria]], former [[Prime Minister of Algeria|Prime Minister]] from 2000 to 2003.&amp;lt;ref&amp;gt;{{cite news|title=Algeria&amp;apos;s presidential challengers|url=http://news.bbc.co.uk/2/hi/africa/3511120.stm|accessdate=30 October 2010|newspaper=BBC News|date=9 April 2004}}&amp;lt;/ref&amp;gt; As of 2003, he is the general secretary of the [[National Liberation Front (Algeria)|National Liberation Front]] party. He was defeated in the Algerian presidential election of April 8, 2004 by President [[Abdelaziz Bouteflika]], taking only 6.4% of the vote.
+
+{{s-start}}
+{{s-off}}
+{{succession box|title=[[Prime Minister of Algeria]]|before=[[Ahmed Benbitour]]|after=[[Ahmed Ouyahia]]|years=2000&amp;amp;ndash;2003}}
+{{s-end}}
+
+==References==
+{{Reflist}}
+
+{{AlgerianPMs}}
+
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              =Benflis, Ali
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION = Algerian politician
+| DATE OF BIRTH     = September 8, 1944
+| PLACE OF BIRTH    =
+| DATE OF DEATH     =
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Benflis, Ali}}
+[[Category:1944 births]]
+[[Category:Living people]]
+[[Category:People from Batna, Algeria]]
+[[Category:Chaoui people]]
+[[Category:National Liberation Front (Algeria) politicians]]
+
+
+{{Algeria-politician-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

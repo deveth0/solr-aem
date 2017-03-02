@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="KDE Display Manager"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="KDE Display Manager" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox software
+|name = KDE Display Manager (KDM)
+|screenshot = [[Image:KDM.jpg|250px]]
+|caption =
+|developer = [[KDE]]
+|latest_release_version = 4.9.4
+|operating_system = [[Berkeley Software Distribution|BSD]], [[Linux]], [[Solaris (operating system)|Solaris]], other [[Unix-like]]
+|genre = [[X display manager (program type)|X display manager]]
+|license = [[GNU General Public License|GPL]]
+|website = [http://www.kde.org www.kde.org]
+}}
+&amp;apos;&amp;apos;&amp;apos;KDE Display Manager&amp;apos;&amp;apos;&amp;apos; (KDM) is a graphical login interface for [[computer]]s using [[Unix-like]] [[operating system]]s. It is the [[KDE Software Compilation|KDE SC]] replacement for [[X Display Manager (implementation)|XDM]], the default [[X display manager (program type)|X display manager]] (from which it was originally developed).&amp;lt;ref&amp;gt;{{cite book
+ | first = Roderick W.
+ | last = Smith
+ | title = CompTIA Linux+ Study Guide
+ | page = 28
+ | year = 2009
+ | isbn = 978-0-470-50384-3
+ | publisher = Wiley Publishing, Inc.
+ | location = Indianapolis, Indiana
+}}&amp;lt;/ref&amp;gt; KDM allows users to pick their session type on a per-login basis. Like KDE SC, it uses the [[Qt (framework)|Qt]] toolkit and can be configured from the [[System Settings]]. It also allows theming and user photos.
+&amp;lt;!-- The most recent releases allows the user to install complete themes to play like the login manager, [[GNOME Display Manager|GDM]]. --&amp;gt;
+
+A simple KDM login dialog box has a list of users on the left, stating their username, their &amp;quot;real name&amp;quot; and optionally also containing a small picture that can be chosen by the user or the administrator. To the right from the list is a greeting and a picture. These items can be customised using the [[System Settings]]. Users may also replace this picture with an analog clock. Under the picture/clock are the &amp;apos;&amp;apos;&amp;apos;Username&amp;apos;&amp;apos;&amp;apos; and &amp;apos;&amp;apos;&amp;apos;Password&amp;apos;&amp;apos;&amp;apos; text boxes.  On some systems, users will find a session selector under the password field where you can select the kind of session type you want to start, e.g. [[KDE]], [[GNOME]] or a simple terminal. At the bottom, there is a series of buttons which offers commands to shut down and reboot the computer, restart the X server or start a tool to manage users.
+
+== See also ==
+{{Portal|Free software}}
+*[[GNOME Display Manager|GDM]], the [[GNOME]] display manager.
+*[[X display manager (program type)#Some implementations|Other display managers]]
+
+== References ==
+&amp;lt;references /&amp;gt;
+
+==External links==
+{{Commons category}}
+*[http://docs.kde.org/stable/en/kde-workspace/kdm/index.html The KDM Handbook]
+*[http://kde-look.org/index.php?xcontentmode=41 KDM Themes (KDE-Look.org)]
+
+{{KDE}}
+[[Category:KDE Software Compilation]]
+[[Category:X display managers]]
+[[Category:Software that uses Qt]]
+
+{{KDE-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

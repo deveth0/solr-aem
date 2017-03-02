@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Nevile Gardiner"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Nevile Gardiner" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+&amp;apos;&amp;apos;&amp;apos;Nevile Gardiner&amp;apos;&amp;apos;&amp;apos;, (b. 1902 - d. 1954) was an English [[diplomat]]. He was brother of [[Gerald Gardiner|Baron Gerald Gardiner]] ([[Lord Chancellor]] 1964-70), his father was [[Sir Robert Septimus Gardiner]] and his mother was [[Alice von Ziegesar]] (daughter of [[Count von Ziegesar]]).
+
+Gardiner was educated at [[University of Oxford|Oxford]], and entered the [[British Civil Service]], originally posted to [[Washington, D.C.]]. He eventually became Commercial Secretary in the Diplomatic Service at  [[The Hague]], Netherlands.
+
+In 1954, he was bitten by an unidentified species of [[venom]]ous insect while visiting the [[Philippines|Philippine Islands]]. He died within 48 hours. He was survived by his wife, Madeleine Michelson, daughter of Dr. [[Albert A. Michelson]], who won the [[Nobel Prize]] for Physics.
+
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              =Gardiner, Nevile
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION =
+| DATE OF BIRTH     = 1902
+| PLACE OF BIRTH    =
+| DATE OF DEATH     = 1954
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Gardiner, Nevile}}
+[[Category:1902 births]]
+[[Category:1954 deaths]]
+[[Category:Deaths due to insect bites and stings]]
+[[Category:English diplomats]]
+[[Category:Alumni of the University of Oxford]]
+[[Category:Accidental deaths in the Philippines]]
+
+
+{{England-bio-stub}}
+{{UK-diplomat-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Bubalus"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Bubalus" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{unreferenced|date=March 2013}}
+{{Taxobox
+| image = Water buffalo bathing.jpg
+| image_width = 240px
+| image_caption = &amp;apos;&amp;apos;[[Bubalus bubalis]]&amp;apos;&amp;apos;
+| regnum = [[Animal]]ia
+| phylum = [[Chordate|Chordata]]
+| classis = [[Mammal]]ia
+| ordo = [[Artiodactyla]]
+| familia = [[Bovidae]]
+| subfamilia = [[Bovinae]]
+| genus = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Bubalus&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+| genus_authority = [[Charles Hamilton Smith|C.H. Smith]], 1827
+| subdivision_ranks = Species
+| subdivision =
+&amp;apos;&amp;apos;Bubalus bubalis&amp;apos;&amp;apos;&amp;lt;br /&amp;gt;
+&amp;apos;&amp;apos;Bubalus depressicornis&amp;apos;&amp;apos;&amp;lt;br /&amp;gt;
+&amp;apos;&amp;apos;Bubalus quarlesi&amp;apos;&amp;apos;&amp;lt;br /&amp;gt;
+&amp;apos;&amp;apos;Bubalus mindorensis&amp;apos;&amp;apos;&amp;lt;br /&amp;gt;
+&amp;apos;&amp;apos;Bubalus cebuensis
+}}
+
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Bubalus&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is a genus of [[bovine]]s, whose English name is buffalo. Species that belong to this genus are:
+
+* &amp;apos;&amp;apos;&amp;apos;Subgenus&amp;apos;&amp;apos;&amp;apos; &amp;apos;&amp;apos;Bubalus&amp;apos;&amp;apos;
+** &amp;apos;&amp;apos;&amp;apos;[[Water Buffalo]]&amp;apos;&amp;apos;&amp;apos;, &amp;apos;&amp;apos;Bubalus bubalis&amp;apos;&amp;apos;
+*** &amp;apos;&amp;apos;&amp;apos;[[Carabao]]&amp;apos;&amp;apos;&amp;apos;, &amp;apos;&amp;apos;Bubalus bubalis carabanesis&amp;apos;&amp;apos;
+*** &amp;apos;&amp;apos;&amp;apos;[[Water buffalo]]&amp;apos;&amp;apos;&amp;apos; &amp;apos;&amp;apos;Bubalus bubalis bubalis&amp;apos;&amp;apos;
+** &amp;apos;&amp;apos;&amp;apos;[[Wild Asian Water Buffalo]]&amp;apos;&amp;apos;&amp;apos;, &amp;apos;&amp;apos;Bubalus arnee&amp;apos;&amp;apos;
+** &amp;apos;&amp;apos;&amp;apos;[[Bubalus cebuensis|Cebu Dwarf buffalo]]&amp;apos;&amp;apos;&amp;apos; &amp;apos;&amp;apos;Bubalus cebuensis&amp;apos;&amp;apos; †
+** &amp;apos;&amp;apos;&amp;apos;[[Short-horned Water Buffalo]]&amp;apos;&amp;apos;&amp;apos;, &amp;apos;&amp;apos;Bubalus mephistopheles&amp;apos;&amp;apos; †
+** &amp;apos;&amp;apos;&amp;apos;[[Tamaraw]]&amp;apos;&amp;apos;&amp;apos;, &amp;apos;&amp;apos;Bubalus mindorensis&amp;apos;&amp;apos;
+** &amp;apos;&amp;apos;&amp;apos;[[European Water Buffalo]]&amp;apos;&amp;apos;&amp;apos;, &amp;apos;&amp;apos;Bubalus murrensis&amp;apos;&amp;apos; †
+* &amp;apos;&amp;apos;&amp;apos;Subgenus&amp;apos;&amp;apos;&amp;apos; &amp;apos;&amp;apos;[[Anoa]]&amp;apos;&amp;apos;
+** &amp;apos;&amp;apos;&amp;apos;Lowland Anoa&amp;apos;&amp;apos;&amp;apos;, &amp;apos;&amp;apos;Bubalus depressicornis&amp;apos;&amp;apos;
+** &amp;apos;&amp;apos;&amp;apos;Mountain Anoa&amp;apos;&amp;apos;&amp;apos;, &amp;apos;&amp;apos;Bubalus quarlesi&amp;apos;&amp;apos;
+[[File:Bubalus murrensis.JPG|thumb|left|&amp;apos;&amp;apos;Bubalus murrensis&amp;apos;&amp;apos; fossil]]
+
+Some [[zoologist]]s split the Water Buffalo into two or three species, the [[Domestic Asian Water Buffalo]], the Philippines Carabao and the [[Wild Asian Water Buffalo]], a rare [[endangered species]] which is the domestic buffalo&amp;apos;s ancestor.
+
+==Dwarf Buffalo==
+
+The &amp;apos;&amp;apos;&amp;apos;Tamaraw&amp;apos;&amp;apos;&amp;apos;, &amp;apos;&amp;apos;&amp;apos;Anoa&amp;apos;&amp;apos;&amp;apos; and extinct &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Bubalus cebuensis&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; are all [[island dwarfism|island dwarf]] species of &amp;apos;&amp;apos;Bubalus&amp;apos;&amp;apos;.{{Citation needed|date=April 2011}}
+
+==See also==
+* [[List of Domestic Asian Water buffalo breeds]]
+
+{{Wikisource1911Enc|Buffalo (animal)}}
+
+{{Artiodactyla|R.4}}
+
+[[Category:Bovines]]
+[[Category:Herbivorous animals]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

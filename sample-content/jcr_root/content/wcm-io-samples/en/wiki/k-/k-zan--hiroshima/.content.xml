@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Kōzan, Hiroshima"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Kōzan, Hiroshima" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{nihongo|&amp;apos;&amp;apos;&amp;apos;Kōzan&amp;apos;&amp;apos;&amp;apos;|甲山町|Kōzan-chō}} was a [[towns of Japan|town]] located in [[Sera District, Hiroshima|Sera District]], [[Hiroshima Prefecture|Hiroshima]], [[Japan]].
+
+On October 1, 2004 Kōzan, along with the town of [[Seranishi, Hiroshima|Seranishi]], also from [[Sera District, Hiroshima|Sera District]], was merged into the expanded town of [[Sera, Hiroshima|Sera]] and no longer exists as an independent [[municipality of Japan|municipality]].
+
+As of 2003, the town had an estimated [[population]] of 6,732 and a [[population density|density]] of 67.46 persons per km². The total area was 99.79 km².
+
+==External links==
+* [http://www.town.sera.hiroshima.jp/ Official website of Sera] {{ja icon}}
+
+{{DEFAULTSORT:Kozan, Hiroshima}}
+[[Category:Dissolved municipalities of Hiroshima Prefecture]]
+
+
+{{Hiroshima-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

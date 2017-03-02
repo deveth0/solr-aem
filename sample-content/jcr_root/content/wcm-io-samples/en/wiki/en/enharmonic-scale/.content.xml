@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Enharmonic scale"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Enharmonic scale" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Image:Enharmonic scale segment on C.png|thumb|Enharmonic scale [segment] on C.&amp;lt;ref name=&amp;quot;Moore&amp;quot;&amp;gt;Moore, John Weeks (1854). &amp;apos;&amp;apos;Complete Encyclopædia of Music&amp;apos;&amp;apos;, p.281. J. P. Jewett. Moore cites Greek use of quarter tones until the time of Alexander the Great.&amp;lt;/ref&amp;gt;&amp;lt;ref name=&amp;quot;Callcott&amp;quot;/&amp;gt; {{audio|Enharmonic scale segment on C.mid|Play}}&amp;lt;ref name=&amp;quot;Callcott&amp;quot;/&amp;gt; Note that in this depiction C{{music|#}} and D{{music|b}} are distinct rather than equivalent as in modern notation.]]
+[[Image:Enharmonic scale on C.png|thumb|Enharmonic scale on C.&amp;lt;ref name=&amp;quot;Elson&amp;quot;&amp;gt;Louis Charles Elson (1905). &amp;apos;&amp;apos;Elson&amp;apos;s Music Dictionary&amp;apos;&amp;apos;, p.100. O. Ditson Company.&amp;lt;/ref&amp;gt;]]
+&amp;lt;!--
+DON&amp;apos;T EDIT THIS UNLESS YOU ARE AWARE THAT &amp;quot;enharmonic scale&amp;quot; is very different from &amp;quot;enharmonic note&amp;quot;. Thanks.
+--&amp;gt;
+In music theory, an &amp;apos;&amp;apos;&amp;apos;enharmonic scale&amp;apos;&amp;apos;&amp;apos; is &amp;quot;an [imaginary] gradual progression by quarter tones&amp;quot; or any &amp;quot;[musical] scale proceeding by quarter tones&amp;quot;.&amp;lt;ref name=&amp;quot;Elson&amp;quot;/&amp;gt; The enharmonic scale uses dieses (divisions) nonexistent on most keyboards,&amp;lt;ref name=&amp;quot;Callcott&amp;quot;&amp;gt;John Wall Callcott (1833). &amp;apos;&amp;apos;A Musical Grammar in Four Parts&amp;apos;&amp;apos;, p.109. James Loring.&amp;lt;/ref&amp;gt; since modern standard keyboards have only half-tone dieses.
+
+More broadly, an enharmonic scale is a scale in which (using standard notation) there is no exact equivalence between a sharpened note and the flattened note it is enharmonically related to, such as in the quarter tone scale. As an example, F sharp and G flat are equivalent in a chromatic scale (the same sound is spelled differently), but they would be different sounds in an enharmonic scale. See: [[musical tuning]].
+
+[[Musical keyboard]]s which distinguish between enharmonic notes are called by some modern scholars [[enharmonic keyboard]]s. (The [[enharmonic genus]], a tetrachord with roots in early Greek music, is only loosely related to enharmonic scales.)
+
+[[Image:Lesser diesis (difference m2-A1).PNG|thumb|right|440px|Diesis defined in [[quarter-comma meantone]] as a [[diminished second]] (m2 &amp;amp;minus; A1 ≈ 117.1 &amp;amp;minus; 76.0 ≈ 41.1 cents), or an interval between two [[enharmonic|enharmonically equivalent]] notes (from C{{Music|#}} to D{{Music|b}}). {{audio|Enharmonic scale segment on C.mid|Play}}]]
+
+Consider a scale constructed through [[Pythagorean tuning]].  A Pythagorean scale can be constructed &amp;quot;upwards&amp;quot; by wrapping a chain of [[perfect fifth]]s around an [[octave]], but it can also be constructed &amp;quot;downwards&amp;quot; by wrapping a chain of [[perfect fourth]]s around the same octave.  By juxtaposing these two slightly different scales, it is possible to create an enharmonic scale.
+
+The following Pythagorean scale is enharmonic:
+
+{| class=&amp;quot;wikitable&amp;quot;
+! Note
+! Ratio
+! Decimal
+! [[Cent (music)|Cents]]
+! Difference (Cents)
+|-
+| C || 1:1 || 1.00000 || 0.00000
+|-
+| D{{music|♭}} || 256:243 || 1.05350 || 90.2250 || rowspan=&amp;quot;2&amp;quot; | 23.4600
+|-
+| C{{music|♯}} || 2187:2048 || 1.06787 || 113.685
+|-
+| D || 9:8 || 1.12500 || 203.910
+|-
+| E{{music|♭}} || 32:27 || 1.18519 || 294.135 || rowspan=&amp;quot;2&amp;quot; | 23.4600
+|-
+| D{{music|♯}} || 19683:16384 || 1.20135 || 317.595
+|-
+| E || 81:64 || 1.26563 || 407.820
+|-
+| F || 4:3 || 1.33333 || 498.045
+|-
+| G{{music|♭}} || 1024:729 || 1.40466 || 588.270 || rowspan=&amp;quot;2&amp;quot; | 23.4600
+|-
+| F{{music|♯}} || 729:512 || 1.42383 || 611.730
+|-
+| G || 3:2 || 1.50000 || 701.955
+|-
+| A{{music|♭}} || 128:81 || 1.58025 || 792.180 || rowspan=&amp;quot;2&amp;quot; | 23.4600
+|-
+| G{{music|♯}} || 6561:4096 || 1.60181 || 815.640
+|-
+| A || 27:16 || 1.68750 || 905.865
+|-
+| B{{music|♭}} || 16:9 || 1.77778 || 996.090 || rowspan=&amp;quot;2&amp;quot; | 23.4600
+|-
+| A{{music|♯}} || 59049:32768 || 1.80203 || 1019.55
+|-
+| B || 243:128 || 1.89844 || 1109.78
+|-
+| C&amp;apos; || 2:1 || 2.00000 || 1200.00
+|}
+
+In the above scale the following pairs of notes are said to be enharmonic:
+* C{{music|♯}} and D{{music|♭}}
+* D{{music|♯}} and E{{music|♭}}
+* F{{music|♯}} and G{{music|♭}}
+* G{{music|♯}} and A{{music|♭}}
+* A{{music|♯}} and B{{music|♭}}
+
+In this example, natural notes are sharpened by multiplying its frequency ratio by 256:243 (called a [[Pythagorean limma|limma]]), and a natural note is flattened by multiplying its ratio by 243:256.  A pair of enharmonic notes are separated by a [[Pythagorean comma]], which is equal to 531441:524288 (about 23.46 [[Cent (music)|cents]]).
+
+==Sources==
+{{reflist}}
+
+==External links==
+* Barbieri, Patrizio. [http://www.patriziobarbieri.it/1.htm Enharmonic instruments and music, 1470-1900]. (2008) Latina, Il Levante Libreria Editrice
+
+{{scales}}
+
+[[Category:Musical scales]]
+[[Category:Musical tuning]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

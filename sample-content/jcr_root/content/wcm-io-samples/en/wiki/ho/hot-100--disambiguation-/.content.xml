@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Hot 100 (disambiguation)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Hot 100 (disambiguation)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Hot 100&amp;apos;&amp;apos;&amp;apos; most commonly refers to the U.S. weekly music charts [[Billboard Hot 100|&amp;apos;&amp;apos;Billboard&amp;apos;&amp;apos; Hot 100]]. It may also refer to:
+
+&amp;apos;&amp;apos;&amp;apos;Record lists&amp;apos;&amp;apos;&amp;apos;:
+* [[Billboard Hot 100 50th Anniversary Charts|Hot 100 50th Anniversary Charts]]
+* The [[Canadian Hot 100]]
+* [[Eurochart Hot 100 Singles]]
+* The [[Japan Hot 100]]
+* The [[Korea K-Pop Hot 100]]
+* [[Brasil Hot 100 Airplay|Billboard Brasil Hot 100]]
+* The [[Australia]]n [[Triple J Hottest 100]], a list of the most popular songs of the year by popular vote.
+
+&amp;apos;&amp;apos;&amp;apos;Radio stations&amp;apos;&amp;apos;&amp;apos;:
+* Hot 100, [[WWOT]], Pennsylvania
+* Hot 101, [[WHOT]], Ohio
+* [[Hot 100 FM]], Australia
+
+&amp;apos;&amp;apos;&amp;apos;Radio programs&amp;apos;&amp;apos;&amp;apos;:
+* [[Hot 100 (Japan FM League)]]
+
+&amp;apos;&amp;apos;&amp;apos;Other&amp;apos;&amp;apos;&amp;apos;
+* &amp;apos;&amp;apos;&amp;apos;Phillips&amp;apos; Hot 100&amp;apos;&amp;apos;&amp;apos;, a hundred-proof (50% ABV), [[cinnamon]]-flavored [[schnapps]] produced by the [[Phillips Distilling Company]].
+* &amp;apos;&amp;apos;[[Maxim (magazine)#Maxim Hot 100]]&amp;apos;&amp;apos;, &amp;apos;&amp;apos;Maxim&amp;apos;&amp;apos; magazine&amp;apos;s annual list that features the 100 hottest women of the year
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

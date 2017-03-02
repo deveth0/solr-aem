@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Eastwood"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Eastwood" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Eastwood&amp;apos;&amp;apos;&amp;apos; may refer to:
+{{TOCright}}
+==Places==
+;in Australia
+*[[Eastwood, New South Wales]]
+*[[Eastwood railway station]]
+*[[Eastwood, South Australia]]
+*[[Electoral district of Eastwood]]
+
+;in Canada
+*[[Eastwood, Ontario]]
+*[[Eastwood, Edmonton]], Alberta, a neighborhood
+
+;in the Philippines
+*[[Eastwood City]]
+
+;in the UK
+*[[Eastwood, Essex]], England
+*[[Eastwood, Herefordshire]], England
+*[[Eastwood, Nottinghamshire]], England
+*[[Eastwood, Strathclyde]], Scotland
+**[[East Renfrewshire (UK Parliament constituency)]], formerly known as Eastwood, a constituency of the Parliament of the United Kingdom
+**[[Eastwood (Scottish Parliament constituency)]], a constituency of the Scottish Parliament
+*[[Eastwood, West Yorkshire]], England
+
+;in the USA
+*[[Eastwood, California]]
+*[[Eastwood, Louisiana]]
+*[[Eastwood, Michigan]]
+*Neighborhoods:
+**[[Eastwood, Louisville]], Kentucky
+**[[Eastwood, Syracuse]], New York
+**[[Eastwood, Dallas, Texas]]
+**[[Eastwood, Houston]], Texas
+
+==Other uses==
+*[[Eastwood (surname)]]
+*[[Eastwood (album)|&amp;apos;&amp;apos;Eastwood&amp;apos;&amp;apos; (album)]], the 2003 Cuban Boys&amp;apos; album
+*[[Eastwood Guitars]]
+
+{{disambiguation|surname}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

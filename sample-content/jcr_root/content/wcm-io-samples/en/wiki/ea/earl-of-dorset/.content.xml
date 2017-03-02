@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Earl of Dorset"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Earl of Dorset" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Earl of Dorset&amp;apos;&amp;apos;&amp;apos; is a title that has been created at least four times in the [[Peerage of England]]. It was created in 1411 for [[Thomas Beaufort, 1st Duke of Exeter|Thomas Beaufort]], who was later created [[Duke of Exeter]].  The peerages became extinct on his death.
+
+It was next created in 1441 for [[Edmund Beaufort, 1st Duke of Somerset|Edmund Beaufort]] who was later created first [[Marquess of Dorset]] (1442) then [[Duke of Somerset]] (1446).  These titles were forfeited by the second duke in 1464.
+
+The last creation was in 1604 for [[Thomas Sackville, 1st Earl of Dorset|Thomas Sackville, 1st Baron Buckhurst]].  In 1720 the seventh earl was created [[Duke of Dorset]] in the [[Peerage of Great Britain]].  On the death of the fifth duke in 1843 the peerages became extinct.
+
+==Earls of Dorset; First creation (1070)==
+*[[Saint Osmund|Osmund de Sees, Earl of Dorset]] (d. 1099)
+
+==Earls of Dorset: Second  creation (1411)==
+*see [[Duke of Exeter]]
+
+==Earls of Dorset; Third  creation (1441)==
+*see [[Duke of Somerset]]
+
+==Earls of Dorset: Fourth    creation (1604)==
+*see [[Duke of Dorset]]
+
+==References==
+*{{Rayment|date=February 2012}}
+
+[[Category:Earldoms in the Peerage of England|Dorset]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

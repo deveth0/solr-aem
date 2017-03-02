@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Protein sequencer"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Protein sequencer" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|auto=yes|date=December 2009}}
+{{Orphan|date=February 2009}}
+{{Merge to |Protein sequencing |date=November 2011}}
+A &amp;apos;&amp;apos;&amp;apos;protein sequencer&amp;apos;&amp;apos;&amp;apos; is a machine that is used to determine the sequence of [[amino acid]]s in a [[protein]].
+
+They work by tagging and removing one amino acid at a time&amp;lt;!--how? by chemicals? what are these chemicals designed to do--&amp;gt;, which is analysed and identified. This is done repetitively for the whole [[polypeptide]], until the whole sequence is established.
+
+This method has generally been replaced by [[nucleic acid]] technology, and it is often easier to identify the sequence of a protein by looking at the [[DNA]] that codes for it.
+
+{{Protein methods}}
+
+
+
+{{DEFAULTSORT:Protein Sequencer}}
+
+
+{{Cell-biology-stub}}
+
+[[Category:Cell biology]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Polymorphism"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Polymorphism" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|dimorphic|dimorphism|dimorphous|polymorphism|polymorphous}}
+&amp;apos;&amp;apos;&amp;apos;Polymorphism&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;dimorphism&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+{{tocright}}
+==Biology==
+* [[Polymorphism (biology)]], including:
+** having multiple [[phenotype]]s within a population; the &amp;apos;&amp;apos;switch&amp;apos;&amp;apos; that determines which phenotype an individual displays can be genetic or environmental
+*** includes [[Sexual dimorphism]], differences in the physiology of a species based only on sex
+**Point mutations in the DNA
+*** having multiple alleles of a gene within a population, usually expressing different phenotypes
+*** [[genetic marker]]s based on such allelic variations, including [[single nucleotide polymorphism]]s
+* [[Lipid polymorphism]], the property of amphiphiles that gives rise to various aggregations of lipids
+* [[Nuclear dimorphism]], when a cell&amp;apos;s nuclear apparatus is composed of two structurally and functionally differentiated types of nuclei
+*[[Frond dimorphism]], differing forms of fern fronds between the sterile and fertile fronds
+
+==Computing==
+* [[Polymorphism (computer science)]], allowing program code to work with various types
+** [[Polymorphism in object-oriented programming]], the ability of an interface to be realized in multiple ways
+* Dialog polymorphism, changing the form of a computer dialog every time it is presented to a user, in order to prevent [[habituation]]
+* [[Polymorphic code]], self-modifying program code designed to defeat anti-virus programs or to defeat reverse engineers
+
+==Chemistry==
+* [[Polymorphism (materials science)]], the ability of a solid material to exist in more than one form or crystal structure
+
+==Medicine==
+* A type of [[QRS complex]] seen on an electrocardiogram
+
+==Psychology==
+* [[Polymorphous perversity]], a concept in psychoanalytic theory
+
+==See also==
+* [[Polymorph (disambiguation)]]
+* [[Monomorphic (disambiguation)]]
+* [[Dimorphic fungi]]
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

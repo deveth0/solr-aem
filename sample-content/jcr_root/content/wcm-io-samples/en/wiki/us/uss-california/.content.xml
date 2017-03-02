@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="USS California"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="USS California" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Italic title prefixed|3}}
+&amp;apos;&amp;apos;&amp;apos;USS &amp;apos;&amp;apos;California&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* {{USS|California|1867}} was a screw sloop originally named &amp;apos;&amp;apos;Minnetonka&amp;apos;&amp;apos;
+
+* {{USS|California|ACR-6}} was a {{sclass-|Pennsylvania|cruiser}} commissioned in 1907, renamed &amp;apos;&amp;apos;San Diego&amp;apos;&amp;apos; in 1914 and sunk by a mine in World War I
+
+* {{USS|California|SP-249}} served during World War I as a motor patrol boat in New York City Harbor; later renamed &amp;apos;&amp;apos;Hauoli&amp;apos;&amp;apos;
+
+* {{USS|California|SP-647}} was a motor patrol boat in San Francisco Harbor during World War I.
+
+*{{USS|California|BB-44}} was a {{sclass-|Tennessee|battleship}} active in World War II
+
+* {{USS|California|CGN-36}} was the lead ship of [[California-class cruiser|her class]] of nuclear-powered guided missile cruisers; known as the &amp;quot;Golden Grizzly.&amp;quot;
+
+* {{USS|California|SSN-781}} is a {{sclass-|Virginia|submarine}} commissioned in 2011
+
+;See also
+* {{USS|Californian|1900}}
+* {{SS|California}}
+
+{{Shipindex}}
+
+{{DEFAULTSORT:California, USS}}
+[[Category:United States Navy ship names]]
+[[Category:United States Navy California-related ships]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

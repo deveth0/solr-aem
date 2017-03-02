@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Kantorovich inequality"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Kantorovich inequality" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[mathematics]], the &amp;apos;&amp;apos;&amp;apos;Kantorovich inequality&amp;apos;&amp;apos;&amp;apos; is a particular case of the [[Cauchy-Schwarz inequality]], which is itself a generalization of the [[triangle inequality]].
+
+The triangle inequality states that the length of two sides of any triangle, added together, will be equal to or greater than the length of the third side.  In simplest terms, the Kantorovich inequality translates the basic idea of the triangle inequality into the terms and notational conventions of [[linear programming]]. (See [[vector space]], [[inner product]], and [[normed vector space]] for other examples of how the basic ideas inherent in the triangle inequality--line segment and distance--can be generalized into a broader context.)
+
+More formally, the Kantorovich inequality can be expressed this way:
+
+:Let
+
+:: &amp;lt;math&amp;gt;p_i \geq 0,\quad 0 &amp;lt; a \leq x_i \leq b\text{ for }i=1, \dots ,n.&amp;lt;/math&amp;gt;
+
+:Let &amp;lt;math&amp;gt;A_n=\{1,2,\dots ,n\}.&amp;lt;/math&amp;gt;
+
+:Then
+
+:: &amp;lt;math&amp;gt;
+\begin{align}
+&amp;amp; {} \qquad \left( \sum_{i=1}^n p_ix_i \right ) \left (\sum_{i=1}^n \frac{p_i}{x_i} \right) \\
+&amp;amp; \leq \frac{(a+b)^2}{4ab} \left (\sum_{i=1}^n p_i \right )^2
+-\frac{(a-b)^2}{4ab} \cdot \min \left\{ \left (\sum_{i \in X}p_i-\sum_{j \in Y}p_j \right )^2\,:\, {X \cup Y=A_n},{X \cap Y=\varnothing} \right\}.
+\end{align}
+&amp;lt;/math&amp;gt;
+
+The Kantorovich inequality is used in [[convergence analysis]]; it bounds the convergence rate of Cauchy&amp;apos;s [[steepest descent]].
+
+Equivalents of the Kantorovich inequality have arisen in a number of different fields.  For instance, the [[Bunyakovsky inequality]], the [[Wielandt inequality]], and the [[Cauchy&amp;amp;ndash;Schwarz inequality]] are equivalent to the Kantorovich inequality and all of these are, in turn, special cases of the [[Hölder inequality]].
+
+The Kantorovich inequality is named after Soviet economist, mathematician, and [[Nobel Prize]] winner [[Leonid Kantorovich]], a pioneer in the field of [[linear programming]].
+
+==References==
+* {{MathWorld|urlname=KantorovichInequality|title=Kantorovich Inequality}}
+
+* {{PlanetMath|urlname=KantorovichInequality|title=Cauchy-Schwarz inequality}}
+
+* [http://carbon.cudenver.edu/~hgreenbe/glossary/index.php?page=K.html Mathematical Programming Glossary entry on &amp;quot;Kantorovich inequality&amp;quot;]
+
+==External links==
+*[http://www-groups.dcs.st-and.ac.uk/~history/Mathematicians/Kantorovich.html Biography of Leonid Vitalyevich Kantorovich]
+
+[[Category:Mathematical analysis]]
+[[Category:Inequalities]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

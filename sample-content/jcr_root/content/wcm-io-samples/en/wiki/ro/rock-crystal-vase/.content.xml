@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Rock crystal vase"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Rock crystal vase" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[File:Vase de cristal d&amp;apos;Aliénor.jpg|thumb|upright|The [[Eleanor of Aquitaine]] vase, at the [[Louvre Museum]].]]
+A &amp;apos;&amp;apos;&amp;apos;rock crystal vase&amp;apos;&amp;apos;&amp;apos; is a [[vase]] made of [[rock crystal]], a type of [[hardstone carving]].
+
+Some such vases were rare expensive items, decorated with [[gold]] and [[Gemstone|jewel]]s, used by [[Royal family|royalty]] in [[Europe]].
+
+A rock crystal vase that probably originated in the seventh century was given to [[William IX of Aquitaine]] (the [[Troubadour]]) by a Muslim ally. When [[Eleanor of Aquitaine]], William IX&amp;apos;s granddaughter, married King [[Louis VII of France]] in 1137, she gave him the rock crystal vase as a wedding present.  The inscription on it says he, in turn, gave it to the [[Abbey of St.-Denis]].  It is now in the [[Louvre]] in [[Paris]] and is the only artifact of Eleanor&amp;apos;s known to exist today.
+
+Another was a crystal and gold [[posset]] set the Spanish Ambassador gave [[Mary I of England]] and [[Philip II of Spain]] as a betrothal gift.  It was made by [[Benvenuto Cellini]] and the whole set is now on display at [[Hatfield House]] ([[England]]).
+
+==External links==
+{{commonscat|Rock crystal objects}}
+*[http://vrcoll.fa.pitt.edu/medart/menufrance/sdenis/treasure/FelePl4/PlateIV-z.html The Eleanor Vase] &amp;apos;&amp;apos;Images of Medieval Art and Architecture&amp;apos;&amp;apos;
+
+
+[[Category:Hardstone carving]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

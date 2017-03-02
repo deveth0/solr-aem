@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="YMODEM"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="YMODEM" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{unref|date=January 2009}}
+&amp;apos;&amp;apos;&amp;apos;YMODEM&amp;apos;&amp;apos;&amp;apos; is a [[protocol for file transfer]] used between [[modem]]s. YMODEM was developed by [[Chuck Forsberg]] as the successor to [[XMODEM]] and [[XMODEM#MODEM7|MODEM7]], and was first implemented in his [[CP/M]] &amp;apos;&amp;apos;YAM&amp;apos;&amp;apos; program. It was formally given the name &amp;quot;YMODEM&amp;quot; in 1985 by [[Ward Christensen]].
+
+The original YMODEM was essentially the same as XMODEM except that it sent the file&amp;apos;s [[filename|name]], size, and [[timestamp]] in a regular XMODEM block, &amp;quot;block 0&amp;quot;, before actually transferring the file. Sending the file size solved XMODEM&amp;apos;s problem of superfluous [[Data padding|padding]] at the end of the file.
+
+Forsberg built the standard with a number of optional features, believing that programmers would want to implement as many as possible on any given platform. He was dismayed to find that the majority of implementations were actually providing nothing more than 1 kilobyte block size with [[Cyclic redundancy check|CRC-16]], while continuing to use the &amp;quot;YMODEM&amp;quot; name. The result was a large number of mutually incompatible YMODEMs.
+
+==Common variants==
+
+&amp;apos;&amp;apos;&amp;apos;YMODEM-1K&amp;apos;&amp;apos;&amp;apos; uses a block size of one [[kilobyte]] instead of the standard 128 [[byte]]s. 1K blocks were an option in the original YMODEM standard, but this variant is missing the rest of the features, and is best described as a 1k variant of XMODEM.
+
+&amp;apos;&amp;apos;&amp;apos;YMODEM-g&amp;apos;&amp;apos;&amp;apos; is a streaming variant used for error-free connections. It simply removes the [[Cyclic redundancy check|CRC]] and does not wait for an [[Acknowledge_character|ACK]] to be received before sending the next packet. The protocol was faster than YMODEM because no [[Error detection and correction|error-checking]] is performed. However, despite this protocol potentially being faster than [[ZMODEM]] it was still rarely used. This was partially due to the lack of other functionality, but also a more serious issue. Before the emergence of the [[16550 UART]], there was a serious risk of [[Buffer overflow|buffer overrun]] on the [[serial port]], and YMODEM-g would not notice this.
+
+==See also==
+*[[ZMODEM]]
+*[[Kermit (protocol)]]
+
+==External links==
+* [http://www.textfiles.com/programming/ymodem.txt XMODEM/YMODEM Protocol Reference], Chuck Forsberg
+
+[[Category:BBS file transfer protocols]]
+
+{{Modem file transfer protocols}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

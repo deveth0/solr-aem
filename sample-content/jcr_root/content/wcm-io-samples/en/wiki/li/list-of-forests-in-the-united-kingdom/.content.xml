@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="List of forests in the United Kingdom"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="List of forests in the United Kingdom" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;This is a list of some of the [[forest]]s in the [[United Kingdom]].
+
+==[[England]]==
+{{England Labelled Map|400px|float=right|Londonprefix = Greater|WMsuffix = (region)}}
+
+===[[East Anglia]]===
+&amp;apos;&amp;apos;&amp;apos;[[Norfolk]]&amp;apos;&amp;apos;&amp;apos;
+*[[Thetford Forest]]
+*[[Horsford Woods (Horsford Forest)]]
+
+===[[The Midlands, England|The Midlands]]===
+*[[Forest of Mercia]]
+
+&amp;apos;&amp;apos;&amp;apos;[[West Midlands (county)|West Midlands]]&amp;apos;&amp;apos;&amp;apos;
+*[[Black Country Urban Forest]]
+
+&amp;apos;&amp;apos;&amp;apos;[[Shropshire]]&amp;apos;&amp;apos;&amp;apos;
+*[[Royal forest#Royal forests in England|Morfe Forest]]
+*[[Mortimer Forest]]
+
+&amp;apos;&amp;apos;&amp;apos;[[Staffordshire]]&amp;apos;&amp;apos;&amp;apos;
+*[[Cannock Chase]]
+*[[Kinver Forest]]
+
+&amp;apos;&amp;apos;&amp;apos;[[Warwickshire]]&amp;apos;&amp;apos;&amp;apos;
+*[[Arden, Warwickshire|Forest of Arden]]
+*[[Forest of Dennis]]
+
+&amp;apos;&amp;apos;&amp;apos;[[Worcestershire]]&amp;apos;&amp;apos;&amp;apos;
+*[[Wyre Forest]] (part in &amp;apos;&amp;apos;&amp;apos;Shropshire&amp;apos;&amp;apos;&amp;apos;)
+
+&amp;apos;&amp;apos;&amp;apos;[[East Midlands]]&amp;apos;&amp;apos;&amp;apos;
+* [[National Forest, England|National Forest]]
+
+&amp;apos;&amp;apos;&amp;apos;[[Derbyshire]]&amp;apos;&amp;apos;&amp;apos;
+*[[Darwin Forest]]
+
+&amp;apos;&amp;apos;&amp;apos;[[Nottinghamshire]]&amp;apos;&amp;apos;&amp;apos;
+*[[Greenwood Forest]]
+*[[Sherwood Forest]]
+
+&amp;apos;&amp;apos;&amp;apos;[[Leicestershire]]&amp;apos;&amp;apos;&amp;apos;
+*[[Charnwood Forest]]
+
+&amp;apos;&amp;apos;&amp;apos;[[Rutland]]&amp;apos;&amp;apos;&amp;apos;
+*[[Leighfield|Leighfield Forest]]
+
+&amp;apos;&amp;apos;&amp;apos;[[Northamptonshire]]&amp;apos;&amp;apos;&amp;apos;
+*[[Rockingham Forest]]
+
+===[[North East England]]===
+&amp;apos;&amp;apos;&amp;apos;[[Northumberland]]&amp;apos;&amp;apos;&amp;apos;
+*[[Kielder Forest]]
+
+&amp;apos;&amp;apos;&amp;apos;[[County Durham]]&amp;apos;&amp;apos;&amp;apos;
+* [[Hamsterley Forest]]
+
+===[[North West England]]===
+&amp;apos;&amp;apos;&amp;apos;[[Cheshire]]&amp;apos;&amp;apos;&amp;apos;
+*[[Delamere Forest]]
+*[[Mersey Forest]]
+*[[Macclesfield Forest]]
+
+&amp;apos;&amp;apos;&amp;apos;[[Cumbria]]&amp;apos;&amp;apos;&amp;apos;
+*[[Whinfell Forest]]
+
+&amp;apos;&amp;apos;&amp;apos;[[Lancashire]]&amp;apos;&amp;apos;&amp;apos;
+*[[Gisburn Forest]]
+
+===[[South East England]]===
+*[[Forest of Andred]]
+
+&amp;apos;&amp;apos;&amp;apos;[[Essex]]&amp;apos;&amp;apos;&amp;apos;
+*[[Epping Forest]]
+
+&amp;apos;&amp;apos;&amp;apos;[[Bedfordshire]]&amp;apos;&amp;apos;&amp;apos;
+*[[Forest of Marston Vale]]
+
+&amp;apos;&amp;apos;&amp;apos;[[Buckinghamshire]]&amp;apos;&amp;apos;&amp;apos;
+*[[Burnham Beeches]]
+*[[Whiteleaf, Buckinghamshire|Whiteleaf Hill]]
+
+&amp;apos;&amp;apos;&amp;apos;[[Sussex]]&amp;apos;&amp;apos;&amp;apos;
+*[[Ashdown Forest]]
+*[[Dallington Forest]]
+*[[St Leonard&amp;apos;s Forest]]
+*[[Worth Forest]]
+
+&amp;apos;&amp;apos;&amp;apos;[[Hampshire]]&amp;apos;&amp;apos;&amp;apos;
+*[[New Forest]]
+
+&amp;apos;&amp;apos;&amp;apos;[[Isle of Wight]]&amp;apos;&amp;apos;&amp;apos;
+*[[Brighstone Forest]]
+*[[Parkhurst Forest]]
+
+&amp;apos;&amp;apos;&amp;apos;[[Kent]]&amp;apos;&amp;apos;&amp;apos;
+*[[Bedgebury Forest]]
+
+&amp;apos;&amp;apos;&amp;apos;[[Oxfordshire]]&amp;apos;&amp;apos;&amp;apos;
+*[[Wychwood]]
+
+===[[South West England]]===
+&amp;apos;&amp;apos;&amp;apos;[[Somerset]]&amp;apos;&amp;apos;&amp;apos;
+*the former [[Royal Forest]] of [[North Petherton]]
+*[[Selwood Forest]]
+*[[Forest of Avon Trust|Forest of Avon]]
+
+&amp;apos;&amp;apos;&amp;apos;[[Gloucestershire]]&amp;apos;&amp;apos;&amp;apos;
+* [[Royal Forest of Dean]]
+*[[Forest of Avon Trust|Forest of Avon]]
+
+&amp;apos;&amp;apos;&amp;apos;[[Wiltshire]]&amp;apos;&amp;apos;&amp;apos;
+*[[Savernake Forest]]
+
+&amp;apos;&amp;apos;&amp;apos;[[Devon]]&amp;apos;&amp;apos;&amp;apos;
+*[[Ashclyst Forest]]
+* Derbyland Forest
+
+===[[Yorkshire]]===
+*[[Dalby Forest]]
+*[[Wykeham Forest]]
+
+==[[Scotland]]==
+&amp;apos;&amp;apos;&amp;apos;Angus&amp;apos;&amp;apos;&amp;apos;
+*[[Backmuir Wood]]
+
+&amp;apos;&amp;apos;&amp;apos;Argyll and Bute&amp;apos;&amp;apos;&amp;apos;
+*[[Argyll Forest Park]]
+
+&amp;apos;&amp;apos;&amp;apos;Dumfries and Galloway&amp;apos;&amp;apos;&amp;apos;
+*[[Forest of Ae]]
+*[[Carsphairn Forest]]
+*[[Corriedoo Forest]]
+*[[Dalbeattie Forest]]
+*[[Dundeugh Forest]]
+*[[Fleet Forest]]
+*[[Laurieston Forest]]
+*[[Mabie Forest]]
+*[[Penninghame Forest]]
+
+&amp;apos;&amp;apos;&amp;apos;Strathspey &amp;amp; Badenoch&amp;apos;&amp;apos;&amp;apos;
+*[[Abernethy Forest]]
+*[[Glenmore Forest Park|Glenmore Forest]]
+*[[Rothiemurchus Forest]]
+
+&amp;apos;&amp;apos;&amp;apos;Fife&amp;apos;&amp;apos;&amp;apos;
+*[[Tentsmuir Forest]]
+
+&amp;apos;&amp;apos;&amp;apos;Scottish Borders&amp;apos;&amp;apos;&amp;apos;
+*[[Craik Forest]]
+*[[Ettrick Forest]]
+*[[Wauchope Forest]]
+
+&amp;apos;&amp;apos;&amp;apos;South Ayrshire&amp;apos;&amp;apos;&amp;apos;
+*[[Arecleoch Forest]]
+*[[Carrick Forest]]
+*[[Changue Forest]]
+*[[Tairlaw Forest]]
+
+&amp;apos;&amp;apos;&amp;apos;Stirling&amp;apos;&amp;apos;&amp;apos;
+*[[Queen Elizabeth Forest Park]]
+*[[Rowardennan Forest]]
+*[[Strathyre Forest]]
+
+==[[Wales]]==
+&amp;apos;&amp;apos;&amp;apos;Caerfyrddin&amp;apos;&amp;apos;&amp;apos; (Carmarthenshire)
+*[[Brechfa Forest]]
+&amp;apos;&amp;apos;&amp;apos;Ceredigion&amp;apos;&amp;apos;&amp;apos;
+*[[Penglais Nature Park]]
+&amp;apos;&amp;apos;&amp;apos;Conwy&amp;apos;&amp;apos;&amp;apos;
+*[[Gwydir Forest]]
+&amp;apos;&amp;apos;&amp;apos;Conwy/Denbighshire&amp;apos;&amp;apos;&amp;apos;
+*[[Clocaenog Forest]]
+&amp;apos;&amp;apos;&amp;apos;Denbighshire&amp;apos;&amp;apos;&amp;apos;
+*[[Llandegla Forest]]
+&amp;apos;&amp;apos;&amp;apos;Gwynedd&amp;apos;&amp;apos;&amp;apos;
+*[[Coed-y-Brenin]]
+&amp;apos;&amp;apos;&amp;apos;Monmouthshire&amp;apos;&amp;apos;&amp;apos;
+*[[Wentwood]]
+&amp;apos;&amp;apos;&amp;apos;Neath Port Talbot&amp;apos;&amp;apos;&amp;apos;
+*[[Afan Forest Park]]
+&amp;apos;&amp;apos;&amp;apos;Powys&amp;apos;&amp;apos;&amp;apos;
+*[[Clun Forest]]
+*[[Hafren Forest]]
+&amp;apos;&amp;apos;&amp;apos;Ynys Mon&amp;apos;&amp;apos;&amp;apos; (Anglesey)
+*[[Newborough Forest]]
+
+==[[Northern Ireland]]==
+*[[Ballypatrick Forest]]
+*[[Belvoir Forest]]
+*[[Castlewellan Forest Park]]
+*[[Drum Manor Forest Park]]
+*[[Ely Lodge Forest]]
+*[[Florence Court Forest Park]]
+*[[Glenariff Forest Park]]
+*[[Gortin Glen Forest Park]]
+*[[Gosford Forest Park]]
+*[[Lough Navar Forest Drive]]
+*[[Rostrevor Forest]]
+*[[Tollymore Forest Park]]
+
+==See also==
+*[[Forestry in the United Kingdom]]
+*[[Community forests in England]]
+*[[Crown Estate]]
+*[[English Lowlands beech forests]]
+*[[Forestry Commission]]
+*[[List of Ancient Woods in England]]
+*[[List of forests managed by the Forestry Commission]]
+
+==External links==
+* [http://www.forestserviceni.gov.uk/our_forests/our_forests_home.htm Forest Service Northern Ireland]
+
+[[Category:Forests and woodlands of the United Kingdom| ]]
+[[Category:United Kingdom geography-related lists|Forests in the United Kingdom]]
+[[Category:Lists of forests|United Kingdom]]
+
+{{Europe in topic|List of forests in |countries_only=yes}}
+
+{{ecology-stub}}
+{{UK-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Communication source"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Communication source" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{unreferenced|date=September 2009}}
+A &amp;apos;&amp;apos;&amp;apos;source&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;sender&amp;apos;&amp;apos;&amp;apos; is one of the basic concepts of [[communication]] and [[information processing]]. Sources  are objects which [[wikt:encode|encode]] [[message]] [[data]] and [[Transmission (telecommunications)|transmit]] the [[information]], via a [[channel (communications)|channel]], to one or more [[observation|observer]]s (or [[receiver (information theory)|receivers]]).
+
+In the strictest sense of the word, particularly in [[information theory]], a &amp;apos;&amp;apos;source&amp;apos;&amp;apos; is a process that generates message data that one would like to communicate, or reproduce as exactly as possible somewhere else in space or time.  A source may be modelled as memoryless, [[ergodic]], [[Stationary process|stationary]], or [[stochastic]], in order of increasing generality.
+==See also==
+*[[Common technical regulation]]
+*[[CALM M5]]
+{{telecomm-stub}}
+
+[[Category:Communication|Source]]
+[[Category:Information theory]]
+[[Category:Television terminology]]
+
+[[nn:avsendar]]
+[[pl:Nadawca]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

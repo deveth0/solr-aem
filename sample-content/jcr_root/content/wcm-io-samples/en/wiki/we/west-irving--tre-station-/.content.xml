@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="West Irving (TRE station)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="West Irving (TRE station)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox Station
+ | name= West Irving Station
+ | image=DART-TRE West Irving.jpg
+ | image_size=275px
+ | image_caption= DART buses and TRE trains awaiting departure.
+ | address= 4200 Jackson Street&amp;lt;br&amp;gt;Irving, Texas  75061
+ | coordinates={{coord|32.8161|-97.0072|type:railwaystation_region:US-TX|display=inline,title}}
+ | line= {{rail color box|system=DART|line=TRE}}
+ | other= DART Routes {{DART RFB|505}} (M-F) and {{DART RFB|514}} (M-F).
+ | platform= 1 [[island platform]]
+ | tracks=2
+ | parking=free, no overnight
+ | bicycle=bike racks available
+ | passengers=
+ | pass_year=
+ | pass_percent=
+ | opened= November 13, 2000&amp;lt;ref name=&amp;quot;October 29, 2000&amp;quot;&amp;gt;{{cite news
+  | last =Richter | first =Marice | title =Trinity Express to expand: Ridership exceeding target, official says | work =The Dallas Morning News | date =October 29, 2000}}&amp;lt;/ref&amp;gt;
+ | rebuilt=
+ | ADA=Yes
+ | code=
+ | owned= [[Dallas Area Rapid Transit]]
+ | zone=Eastern TRE Fare Zone
+ | services=
+{{s-rail|title=Trinity Railway Express}}
+{{s-line|system=DART|line=TRE|previous=CentrePort/DFW Airport|next=Downtown Irving/Heritage Crossing}}
+}}
+
+&amp;apos;&amp;apos;&amp;apos;West Irving Station&amp;apos;&amp;apos;&amp;apos; is a [[Trinity Railway Express]] [[commuter rail]] station located in [[Irving, Texas]], at Jackson Street near Esters Road (between [[Dallas]] and [[Fort Worth, Texas]]). It opened on November 13, 2000, and is a station on the [[Trinity Railway Express|TRE commuter line]], serving [[Irving Mall]] with connecting [[bus]] service to [[Las Colinas]] and [[North Lake College]].
+
+Unlike many rail stations, West Irving does not have an indoor heating/cooling facility, nor does it have a station attendant. However, it does have passenger shelters for bus and TRE riders.
+
+==References==
+{{Reflist}}
+
+==External links==
+* [http://www.trinityrailwayexpress.org/westirvingstation.html TRE - West Irving Station]
+* [http://www.dart.org DART - Dallas Area Rapid Transit]
+
+[[Category:Trinity Railway Express stations]]
+[[Category:Dallas Area Rapid Transit|West Irving (TRE station)]]
+[[Category:Railway stations opened in 2000]]
+
+
+{{Texas-railstation-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Flag of São Tomé and Príncipe"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Flag of São Tomé and Príncipe" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Merge|São Tomé and Príncipe|date=January 2013}}
+[[File:Flag of Sao Tome and Principe.svg|thumb|250px|right|Flag of [[São Tomé and Príncipe]]]]
+
+The &amp;apos;&amp;apos;&amp;apos;flag of São Tomé and Príncipe&amp;apos;&amp;apos;&amp;apos;, although in the [[Pan-Africanism|Pan-African]] colours, is derived from that of the [[Movement for the Liberation of São Tomé and Príncipe/Social Democratic Party|Liberation Movement]]. The two black stars express the unity of the two islands, while the red represents the struggle for independence.
+
+&amp;lt;br clear=all&amp;gt;
+{{Africa topic|Flag of|title=[[Flags of Africa]]}}
+{{Nationalflags}}&amp;lt;!-- to edit this table, go to [[Template:Nationalflags]] --&amp;gt;
+
+{{DEFAULTSORT:Sao Tome And Principe, Flag of}}
+[[Category:National symbols of São Tomé and Príncipe|Flag]]
+[[Category:National flags]]
+
+{{Africa-flag-stub}}
+{{SaoTomePrincipe-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

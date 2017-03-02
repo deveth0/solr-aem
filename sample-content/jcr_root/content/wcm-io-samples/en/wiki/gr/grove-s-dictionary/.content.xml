@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Grove&#x27;s dictionary"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Grove&#x27;s dictionary" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Grove&amp;apos;s dictionary&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* &amp;apos;&amp;apos;The [[Grove Dictionary of Art]]&amp;apos;&amp;apos;
+* &amp;apos;&amp;apos;The New [[Grove Dictionary of Jazz]]&amp;apos;&amp;apos;
+* &amp;apos;&amp;apos;The New [[Grove Dictionary of Music and Musicians]]&amp;apos;&amp;apos;,
+* &amp;apos;&amp;apos;The New [[Grove Dictionary of Opera]]&amp;apos;&amp;apos;
+* &amp;apos;&amp;apos;The New [[Grove Dictionary of Musical Instruments]]&amp;apos;&amp;apos;, 1984
+* &amp;apos;&amp;apos;The New [[Grove Dictionary of American Music]]&amp;apos;&amp;apos; (4 volumes), 1986, with 1000 entries on composers and 2500 on performers
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Timber and Stone Act"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Timber and Stone Act" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=October 2010}}
+
+The &amp;apos;&amp;apos;&amp;apos;Timber and Stone Act of 1878&amp;apos;&amp;apos;&amp;apos; ([[45th United States Congress|45th Congress]], Sess. 2, ch. 151, {{USStat|20|89}}) in the [[United States]] sold [[Western United States|Western]] timberland for $2.50 per acre ($618/km²) in 160 acre (0.6 km²) blocks.
+
+Land that was deemed &amp;quot;unfit for [[farming]]&amp;quot; was sold to those who might want to &amp;quot;[[timber]] and [[Rock (geology)|stone]]&amp;quot; ([[logging]] and [[mining]]) upon the land. The act was used by [[Speculation|speculators]] who were able to get great expanses declared &amp;quot;unfit for farming&amp;quot; allowing them to increase their land holdings at minimal expense.
+
+In theory the purchaser was to make an [[affidavit]] that he was entering the land exclusively for his own use and that no [[Companies law|association]] was to hold more than 160 acres (0.6 km²).  In practice however, wealthy companies seeking to access natural resources semi-fraudulently circumvented the law by hiring individuals to purchase 160 acre (0.6 km²) lots which were then [[deed]]ed to the company after a nominal compliance with the law. This was legal only in that companies complied with the letter of the law while brashly ignoring the spirit of it. Ultimately, said companies were able to obtain [[Title (property)|title]] up to twenty thousand acres (80 km²).
+
+==See also==
+*[[Desert Land Act]]
+*[[Homestead Act]]
+
+{{US-fed-statute-stub}}
+[[Category:United States federal public land legislation]]
+[[Category:1878 in law]]
+[[Category:1878 in the United States]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

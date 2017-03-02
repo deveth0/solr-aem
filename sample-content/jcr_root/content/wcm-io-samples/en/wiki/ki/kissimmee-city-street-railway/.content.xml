@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Kissimmee City Street Railway"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Kissimmee City Street Railway" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{unreferenced|date=August 2009}}
+{{Cleanup|date=June 2009}}
+[[Florida]] state law chapter 3659, approved February 12, 1885, incorporated the &amp;apos;&amp;apos;&amp;apos;Kissimmee City Street Railway Company&amp;apos;&amp;apos;&amp;apos;, owned by John M. Bryan, C. A Carson, M. C. Osborne, John M. Lee, Andrew J. Rose, L. P. Hughey, W. A. Patrick, N. C. Bryan, T. A. Bass, E. N. Fell, and W. B. M. Davidson, of the county of [[Orange County, Florida|Orange]], State of Florida, &amp;quot;beginning at such place, within the town of [[Kissimmee, Florida|Kissimmee City]], as the said company, by its President and Board of Directors, may determine, running thence through and on such streets and highways within said town, the Mayor and Board of Aldermen of said [[Kissimmee, Florida|Kissimmee City]] may determine.&amp;quot;
+
+{{DEFAULTSORT:Kissimmee City Street  Railway}}
+[[Category:Defunct Florida railroads]]
+[[Category:Florida street railroads]]
+[[Category:Defunct public transport operators in the United States]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

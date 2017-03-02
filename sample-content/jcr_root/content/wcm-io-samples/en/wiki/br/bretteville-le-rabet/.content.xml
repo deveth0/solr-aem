@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Bretteville-le-Rabet"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Bretteville-le-Rabet" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Expand French|date=December 2008|Bretteville-le-Rabet}}
+
+{{Infobox French commune
+|name                   = Bretteville-le-Rabet
+|region                 = Basse-Normandie
+|department             = Calvados
+|arrondissement         = Caen
+|canton                 = Bretteville-sur-Laize
+|INSEE                  = 14097
+|postal code            = 14190
+|mayor                  = Odile Lagrange
+|term                   = 2008&amp;amp;ndash;2014
+|intercommunality       = Cingal
+|longitude              = -0.2581
+|latitude               = 49.0258
+|elevation m            = 100
+|elevation min m        = 75
+|elevation max m        = 125
+|area km2               = 4.53
+|population             = 260
+|population date        = 2008
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Bretteville-le-Rabet&amp;apos;&amp;apos;&amp;apos; is a [[Communes of France|commune]] in the [[Calvados]] [[Departments of France|department]] in the [[Basse-Normandie]] [[Regions of France|region]] in northwestern [[France]].
+
+==Population==
+{{Historical populations
+|align=left|
+1962|115|
+1968|116|
+1975|118|
+1982|133|
+1990|175|
+1999|193|
+2008|260|
+}}
+{{clear-left}}
+
+==See also==
+*[[Communes of the Calvados department]]
+
+==References==
+*[http://www.insee.fr/en/home/home_page.asp INSEE]
+{{reflist}}
+
+{{commonscat}}
+{{Calvados communes}}
+
+{{DEFAULTSORT:Brettevillelerabet}}
+[[Category:Communes of Calvados]]
+
+{{Calvados-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="United States Ship"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="United States Ship" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{About||ships named &amp;apos;&amp;apos;United States&amp;apos;&amp;apos;|SS United States|and|USS United States}}
+&amp;apos;&amp;apos;&amp;apos;United States Ship&amp;apos;&amp;apos;&amp;apos; (abbreviated as &amp;apos;&amp;apos;&amp;apos;USS&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;U.S.S.&amp;apos;&amp;apos;&amp;apos;) is a [[ship prefix]] used to identify a [[ship commissioning|commissioned]] ship of the [[United States Navy]] and only applies to a ship while she is in commission. Before commissioning, she is referred to as &amp;quot;Pre Commissioning Unit&amp;quot; (&amp;apos;&amp;apos;&amp;apos;PCU&amp;apos;&amp;apos;&amp;apos;).&amp;lt;ref&amp;gt;{{cite web |title= Navy Christens Guided-Missile Destroyer &amp;apos;&amp;apos;Michael Murphy&amp;apos;&amp;apos;
+|last = Lasco
+|first = Dominique
+|url =http://www.navy.mil/search/display.asp?story_id=60229
+|accessdate=11 June 2011}}&amp;lt;/ref&amp;gt; After decommissioning, she is referred to by name, with no prefix.&amp;lt;ref Name=&amp;quot;USNSN&amp;quot;&amp;gt;{{cite web
+|title=USN Ship Naming|publisher=[[Naval History &amp;amp; Heritage Command]]|date=29 September 1997|url=http://www.history.navy.mil/faqs/faq63-1.htm
+|accessdate=12 March 2009}}&amp;lt;/ref&amp;gt;
+
+From the early beginnings of the U.S. Navy there had been no standard method of referring to U.S. Navy ships until 1907 when President [[Theodore Roosevelt]] issued [[Executive Order]] 549 on 8 January stating that all US Navy ships were to be referred to as &amp;quot;The name of such vessel, preceded by the words, United States Ship, or the letters U.S.S., and by no other words or letters&amp;quot;.&amp;lt;ref Name=&amp;quot;USNSN&amp;quot; /&amp;gt;
+
+Today&amp;apos;s Navy Regulations define the classification and status of naval ships and craft:
+
+#The Chief of Naval Operations shall be responsible for ... the assignment of classification for administrative purposes to water-borne craft and the designation of status for each ship and service craft. ....
+#Commissioned vessels and craft shall be called &amp;quot;United States Ship&amp;quot; or &amp;quot;U.S.S.&amp;quot;
+#Civilian manned ships, of the [[Military Sealift Command]] or other commands, designated &amp;quot;active status, in service&amp;quot; shall be called &amp;quot;United States Naval Ship&amp;quot; or &amp;quot;U.S.N.S.&amp;quot;
+#Ships and service craft designated &amp;quot;active status, in service,&amp;quot; except those described by paragraph 3 of this article, shall be referred to by name, when assigned, classification, and hull number (e.g., &amp;quot;HIGH POINT PCH-1&amp;quot; or &amp;quot;YOGN-8&amp;quot;).
+::— United States Navy Regulations, 1990, Article 0406.&amp;lt;ref Name=&amp;quot;USNSN&amp;quot; /&amp;gt;
+
+==See also==
+*[[List of United States Navy ships]]
+*[[United States Naval Ship]]
+*[[Her Majesty&amp;apos;s Ship]]
+
+==References==
+{{Reflist}}
+
+[[Category:Ships of the United States Navy]]
+[[Category:Ship prefixes]]
+
+{{navy-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

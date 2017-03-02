@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Palmer Drought Index"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Palmer Drought Index" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;Palmer Drought Index&amp;apos;&amp;apos;&amp;apos;, sometimes called the &amp;apos;&amp;apos;&amp;apos;Palmer Drought Severity Index&amp;apos;&amp;apos;&amp;apos; and often abbreviated &amp;apos;&amp;apos;&amp;apos;PDSI&amp;apos;&amp;apos;&amp;apos;, is a measurement of dryness based on recent [[precipitation (meteorology)|precipitation]] and [[temperature]]. It was developed by [[meteorologist]] Wayne Palmer, who first published his method in the 1965 paper &amp;apos;&amp;apos;Meteorological Drought&amp;apos;&amp;apos;&amp;lt;ref name=&amp;quot;Palmer1965&amp;quot;&amp;gt;Wayne Palmer, &amp;quot;Meteorological Drought&amp;quot;. Research paper no.45, U.S. Department of Commerce Weather Bureau, February 1965 (58 pgs). Available online by the [[NOAA]] National Climatic Data Center at http://www.ncdc.noaa.gov/temp-and-precip/drought/docs/palmer.pdf&amp;lt;/ref&amp;gt; for the [[Office of Climatology]] of the [[U.S. Weather Bureau]].
+
+The Palmer Drought Index is based on a [[supply-and-demand]] model of [[soil moisture]]. Supply is comparatively straightforward to calculate, but demand is more complicated as it depends on many factors - not just temperature and the amount of moisture in the soil but hard-to-calibrate factors including [[evapotranspiration]] and recharge rates. Palmer tried to overcome these difficulties by developing an algorithm that approximated them based on the most readily available data &amp;amp;mdash; precipitation and temperature.
+
+The index has proven most effective in determining long-term [[drought]] &amp;amp;mdash; a matter of several months &amp;amp;mdash; and not as good with conditions over a matter of weeks. It uses a 0 as normal, and drought is shown in terms of negative numbers; for example, negative 2 is moderate drought, negative 3 is severe drought, and negative 4 is extreme drought. Palmer&amp;apos;s algorithm also is used to describe wet spells, using corresponding positive numbers. Palmer also developed a formula for standardizing drought calculations for each individual location based on the variability of precipitation and temperature at that location. The Palmer index can therefore be applied to any site for which sufficient precipitation and temperature data is available.
+
+Critics have complained that the utility of the Palmer index is weakened by the arbitrary nature of Palmer&amp;apos;s algorithms, including the technique used for standardization. The Palmer index&amp;apos;s inability to account for snow and frozen ground also is cited as a weakness.&amp;lt;ref&amp;gt;Alley, William: The Palmer Drought Severity Index: Limitations and Assumptions, Journal of Climate and Applied Meteorology, Vol. 23, pp. 1100 - 1109, July 1984&amp;lt;/ref&amp;gt;
+
+The Palmer index is widely used operationally, with Palmer maps published weekly by the United States Government&amp;apos;s [[National Oceanic and Atmospheric Administration]]. It also has been used by climatologists to standardize global long-term drought analysis. Global Palmer data sets have been developed based on instrumental records beginning in the 19th century.&amp;lt;ref&amp;gt;Dai, Aiguo et al.: A Global Dataset of Palmer Drought Severity Index for 1870-2002: Relationship with Soil Moisture and Effects of Surface Warming, Journal of Hydrometeorology, Vol. 5, No. 6, pp. 1117–1130, December 2004&amp;lt;/ref&amp;gt; In addition, [[dendrochronology]] has been used to generate estimated Palmer index values for North America for the past 2000 years, allowing analysis of long term drought trends.&amp;lt;ref&amp;gt;Cook, E.R. et al.: Long-Term Aridity Changes in the Western United States, [[Science  (journal)|Science]], Vol. 306, No. 5698, pp. 1015-1018, 5 November 2004&amp;lt;/ref&amp;gt;  The Index has also been used as a means of explaining the late [[Bronze Age collapse]].
+
+In the US, regional Palmer maps are featured on the cable channel [[Weatherscan]].
+
+==Notes==
+
+{{reflist}}
+
+==See also==
+* [[Keetch-Byram Drought Index]]
+
+==External links==
+*[http://www.cpc.noaa.gov/products/monitoring_and_data/drought.shtml Drought Monitoring at NOAA&amp;apos;s Climate Prediction Center Using the Palmer Drought Index]
+*[http://www.cgd.ucar.edu/cas/catalog/climind/pdsi.html National Center for Climate and Atmospheric Research, Climate Analysis Section]
+*[http://drought.mssl.ucl.ac.uk/drought.html UCL Dept. of Space and Climate Physics Global Drought Monitor Using the Palmer Drought Index]
+[[Category:Droughts]]
+[[Category:Hydrology]]
+[[Category:Meteorology]]
+[[Category:Climate change and agriculture]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

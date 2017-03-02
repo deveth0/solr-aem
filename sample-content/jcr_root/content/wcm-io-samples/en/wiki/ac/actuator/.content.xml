@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Actuator"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Actuator" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;An &amp;apos;&amp;apos;&amp;apos;actuator&amp;apos;&amp;apos;&amp;apos; is a type of [[Engine|motor]] for moving or controlling a mechanism or system.  It is operated by a source of energy, typically electric current, [[hydraulic fluid]] pressure, or [[pneumatic]] pressure, and converts that energy into motion. An actuator is the mechanism by which a control system acts upon an environment. The control system can be simple (a fixed mechanical or electronic system), software-based (e.g. a printer driver, robot control system), or a human or other agent.
+
+==Types==
+A &amp;apos;&amp;apos;&amp;apos;hydraulic actuator&amp;apos;&amp;apos;&amp;apos; consist of a cylinder or fluid motor that uses hydraulic power to facilitate mechanical operation. The mechanical motion gives an output in terms of linear, rotary or oscillatory motion. Because liquid cannot be compressed, a hydraulic actuator can exert considerable force, but is limited in acceleration and speed.
+
+A &amp;apos;&amp;apos;&amp;apos;pneumatic actuator&amp;apos;&amp;apos;&amp;apos; converts energy formed by compressed air at high pressure into either linear or rotary motion. Pneumatic energy is desirable for main engine controls because it can quickly respond in starting and stopping as the power source does not need to be stored in reserve for operation.
+
+An &amp;apos;&amp;apos;&amp;apos;electric actuator&amp;apos;&amp;apos;&amp;apos; is powered by motor that converts electrical energy to mechanical torque. The electrical energy is used to actuate equipment such as multi-turn valves. It one of the cleanest and most readily available forms of actuator because it does not involve oil.
+
+A &amp;apos;&amp;apos;&amp;apos;mechanical actuator&amp;apos;&amp;apos;&amp;apos; functions by converting rotary motion into linear motion to execute movement. It involves gears, rails, pulleys, chains and other devices to operate.
+
+== Examples and applications ==
+
+In [[engineering]], actuators are frequently used as mechanisms to introduce motion, or to clamp an object so as to prevent motion. In electronic engineering, actuators are a subdivision of [[transducers]]. They are devices which transform an input signal (mainly an electrical signal) into motion. [[Electric motor|Electrical motors]], [[pneumatic actuators]], [[hydraulic pistons]], [[relays]], [[comb drives]], [[piezoelectric actuators]], [[thermal bimorphs]], [[digital micromirror device]]s and [[electroactive polymers]] are some examples of such actuators.
+
+Motors are mostly used when circular motions are needed, but can also be used for linear applications by transforming circular to linear motion with a [[bolt and screw transducer]]. On the other hand, some actuators are intrinsically linear, such as piezoelectric actuators.  Conversion between circular and linear motion is commonly made via a few simple types of mechanism including:
+* &amp;apos;&amp;apos;&amp;apos;[[Screw (simple machine)|Screw]]&amp;apos;&amp;apos;&amp;apos;: [[Screw jack]], [[ball screw]] and [[roller screw]] actuators all operate on the principle of the [[simple machine]] known as the screw. By rotating the actuator&amp;apos;s nut, the screw shaft moves in a line.  By moving the screw shaft, the nut rotates.
+* &amp;apos;&amp;apos;&amp;apos;[[Wheel and axle]]&amp;apos;&amp;apos;&amp;apos;: [[Hoist (device)|Hoist]], [[winch]], [[rack and pinion]], [[chain drive]], [[belt drive]], [[rigid chain actuator|rigid chain]] and [[rigid belt actuator|rigid belt]] actuators operate on the principle of the wheel and axle. By rotating a wheel/axle (e.g. [[Cylinder (geometry)|drum]], [[gear]], [[pulley]] or [[Drive shaft|shaft]]) a linear member (e.g. [[Wire rope|cable]], rack, [[Roller chain|chain]] or [[Belt (mechanical)|belt]]) moves.  By moving the linear member, the wheel/axle rotates.&amp;lt;ref&amp;gt;Sclater, N., &amp;apos;&amp;apos;Mechanisms and Mechanical Devices Sourcebook, 4th Edition&amp;apos;&amp;apos; (2007), 25, McGraw-Hill&amp;lt;/ref&amp;gt;
+
+In [[virtual instrumentation]], actuators and sensors are the hardware complements of virtual instruments.
+
+== Performance metrics ==
+
+Performance metrics for actuators include speed, acceleration, and force (alternatively, angular speed, angular acceleration, and torque), as well as [[Thermodynamic efficiency | energy efficiency]] and considerations such as mass, volume, operating conditions, and durability, among others.
+
+== See also ==
+* [[Robotics#Actuation|Robot actuators]]
+* [[End effector|Robotic hand end effector]]
+* [[Microactuator]]
+* [[Nanotube nanomotor]]
+* [[Linear actuator]]
+* [[Hard disk drive actuator]]
+
+== References ==
+{{Reflist}}
+{{Refimprove|date=November 2010}}
+
+==External links==
+{{Commons category|Actuators}}
+*[http://www.cvel.clemson.edu/auto/actuators/auto-actuators.html Automotive Actuators]
+
+[[Category:Actuators]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

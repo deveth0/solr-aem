@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="List of High Court Judges of Northern Ireland"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="List of High Court Judges of Northern Ireland" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;This is a &amp;apos;&amp;apos;&amp;apos;list of [[High Court judge]]s of [[Northern Ireland]]&amp;apos;&amp;apos;&amp;apos;, arranged by  order of appointment, as of 10 September 2012:
+
+#The Hon Mr Justice Gillen
+#The Hon Mr Justice Weatherup
+#The Hon Mr Justice Weir
+#[[Donnell Deeny|The Hon Mr Justice Deeny]]
+#The Hon Mr Justice Treacy
+#The Hon Mr Justice Stephens
+#The Hon Mr Justice McCloskey
+#[[Paul Maguire (politician)|The Hon Mr Justice Maguire]]
+#[[Thomas Horner (judge)|The Hon Mr Justice Horner]]
+# &amp;apos;&amp;apos;Vacant&amp;apos;&amp;apos;
+
+==References==
+*{{Cite web|url=http://www.courtsni.gov.uk/en-GB/AboutUs/OrganisationalStructure/Pages/Judiciary-of-Northern-Ireland.aspx|title=Salaried Judicial Complement|date=14 May 2012}}
+
+==See also==
+* [[Lord Chief Justice of Northern Ireland]]
+* [[List of Lords Justices of Appeal of Northern Ireland]]
+
+[[Category:Northern Ireland law-related lists|High Court Judges]]
+[[Category:High Court judges of Northern Ireland| ]]
+[[Category:Lists of people from Northern Ireland by occupation|High Court Judges]]
+[[Category:Lists of judges in the United Kingdom]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

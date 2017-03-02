@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Phon"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Phon" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{other uses}}
+{{Refimprove|date=October 2009}}
+
+The &amp;apos;&amp;apos;&amp;apos;phon&amp;apos;&amp;apos;&amp;apos; is a [[physical unit|unit]] of [[loudness]] level for pure tones. Its purpose is to compensate for the effect of frequency on the perceived loudness of tones.&amp;lt;ref&amp;gt;William M. Hartmann, &amp;apos;&amp;apos;Signals, Sound, and Sensation&amp;apos;&amp;apos;, American Institute of Physics, 2004. ISBN 1-56396-283-7.&amp;lt;/ref&amp;gt; The phon was proposed in DIN 45631 and ISO 532 B by [[Stanley Smith Stevens|S. S. Stevens]].&amp;lt;ref&amp;gt;[http://www.phys.unsw.edu.au/~jw/dB.html#log UNSW Music Acoustics&amp;lt;!-- Bot generated title --&amp;gt;]&amp;lt;/ref&amp;gt;
+
+==Definition==
+By definition, 1 phon is equal to 1 [[sound pressure level|dBSPL]] at a frequency of 1 [[kHz]].&amp;lt;ref&amp;gt;Nave, C. R. (2002-02-10). Loudness Units: Phons and Sones. HyperPhysics. Retrieved on 2008-07-10 from http://hyperphysics.phy-astr.gsu.edu/hbase/sound/phon.html.&amp;lt;/ref&amp;gt;
+The [[equal-loudness contour]]s are a way of mapping the dBSPL of a pure tone to the perceived loudness level (&amp;apos;&amp;apos;L&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;N&amp;lt;/sub&amp;gt;) in phons. These are now defined in the international standard ISO 226:2003, and the research on which this document is based concluded that earlier [[Fletcher–Munson curves]] and [[Robinson-Dadson curves]] were in error.{{Citation needed|date=October 2009}}
+
+The phon unit is not an SI unit in [[metrology]]. It has not been accepted as a standard unit by the United States [[National Institute of Standards and Technology]].{{Citation needed|date=October 2009}}
+
+The phon model can be extended with a time-varying transient model which accounts for &amp;quot;turn-on&amp;quot; (initial transient) and long-term, [[listener fatigue]] effects.  This time-varying behavior is the result of [[psychology|psychological]] and [[physiology|physiological]] audio processing. The equal-loudness contours on which the phon is based apply only to the perception of pure steady tones: tests using octave or third-octave bands of noise reveal a different set of curves, owing to the way in which the [[critical band]]s of our hearing integrate power over varying bandwidths and our brain sums the various critical bands.{{Clarify|date=October 2009}}{{Citation needed|date=October 2009}}
+
+==See also==
+*[[Sone]]
+*[[A-weighting]]
+*[[Decibel]]
+
+==References==
+{{reflist}}
+
+==External links==
+*[http://ccrma.stanford.edu/~jos/TimeFreqDisplay/Sones_Phons.html Explanation with definitions]
+*[http://www.sengpielaudio.com/calculatorSonephon.htm Conversion: loudness level &amp;apos;&amp;apos;L&amp;apos;&amp;apos; (phons) to Loudness &amp;apos;&amp;apos;N&amp;apos;&amp;apos; and vice versa]
+
+[[Category:Hearing]]
+[[Category:Human-based units of measurement]]
+[[Category:Units of sound]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

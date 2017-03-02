@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Flameless ration heater"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Flameless ration heater" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{multiple issues|
+{{refimprove|date=October 2011}}
+{{citation style|date=February 2010}}
+}}
+
+[[Image:Flameless ration heater.jpg|thumb|A flameless ration heater]]
+[[Image:FRH instruction detail.jpg|thumb|A diagram on the FRH showing how it should be oriented during heating]]
+
+A &amp;apos;&amp;apos;&amp;apos;flameless ration heater&amp;apos;&amp;apos;&amp;apos;, or &amp;apos;&amp;apos;&amp;apos;FRH&amp;apos;&amp;apos;&amp;apos;, is a water-activated [[exothermic reaction|exothermic]] chemical heater included with Meals, Ready-to-Eat ([[MRE]]s), used to heat the food. [[US military]] specifications for the heater required that it be capable of raising the [[temperature]] of an {{convert|8|oz|g|1|lk=on}} entree by {{convert|100|F-change|0}} in twelve minutes, and that it has no visible flame.
+
+The ration heater contains finely powdered iron and magnesium metals, and table salt. To activate the reaction, a small amount of water is added, and the boiling point of water is quickly reached as the reaction proceeds.&amp;lt;ref&amp;gt;[http://science.howstuffworks.com/mre4.htm Howstuffworks &amp;quot;How MREs Work&amp;quot;&amp;lt;!-- Bot generated title --&amp;gt;]&amp;lt;/ref&amp;gt;
+
+== Chemical reaction ==
+Ration heaters generate heat in an electron-transfer process called an [[redox|oxidation-reduction]] reaction.  Water oxidizes magnesium metal, according to the following chemical reaction:
+
+:Mg + 2H&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;O &amp;amp;rarr; Mg(OH)&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt; + H&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt; + heat
+
+This reaction is analogous to iron being rusted by oxygen, and proceeds at about the same slow rate. On their own, the reaction between magnesium and water is too slow to generate usable heat.
+
+To accelerate the reaction, the developers (see US Patents 4,017,414 and 4,264,362) mixed metallic iron particles and table salt (NaCl) with the magnesium particles.
+
+Iron and magnesium metals, when suspended in an [[electrolyte]] (such as salt water), form a [[galvanic cell]]—a &amp;quot;battery&amp;quot;—that can generate electricity.  (For an example of how to build such a battery, see http://www.miniscience.com/link/Airbattery.htm)
+
+When water is added to a ration heater, it dissolves the salt to form a salt-water electrolyte, thereby turning each particle of magnesium and iron into a tiny battery.  Because the magnesium and iron particles are in contact, they become thousands of tiny &amp;apos;&amp;apos;short-circuited&amp;apos;&amp;apos; batteries, which quickly burn out, producing heat in a process the patent holders call &amp;quot;Supercorroding Galvanic Cells&amp;quot;.
+
+== Confined space hazard ==
+
+The United States Department of Transportation (DOT) Federal Aviation Administration (FAA) conducted testing and released a report which in summary states &amp;quot;... the release of hydrogen gas from these flameless ration heaters is of a sufficient quantity to pose a potential hazard on board a passenger aircraft.&amp;quot;&amp;lt;ref&amp;gt;{{cite web|url=http://www.fire.tc.faa.gov/pdf/TN06-18.pdf |title=The Fire Safety Hazard of the Use of Flameless Ration Heaters Onboard Commercial Aircraft, DOT/FAA/AR-TN06/18 |accessdate=2008-03-09 |last=Summer |first=Steven M. |date=2006-06 |format=PDF |publisher=[[Federal Aviation Administration]] }}&amp;lt;/ref&amp;gt;  This testing was performed on commercial grade &amp;apos;heater meals&amp;apos; which consisted of an unenclosed flameless heat pouch, a bag of salt water, a styrofoam saucer/tray and a meal in a sealed, microwavable/boilable bowl.
+
+== See also ==
+* [[Self-heating can]]
+* [[Self-heating food packaging]]
+* [[Active packaging]]
+
+== References ==
+{{reflist}}
+
+== External links ==
+* [http://zenstoves.net/Flameless.htm Flameless stoves] from zenstoves.net - details chemical reaction
+[http://www.actionmeals.com Action Meals] from Action Meals Canada. Good FAQ
+{{USmilitaryrations}}
+
+[[Category:Military food of the United States]]
+[[Category:Heaters]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

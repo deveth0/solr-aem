@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Chemical symbol"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Chemical symbol" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Merge to|Symbol (chemical element)|discuss=Talk:Symbol (chemical element)#Merge chemical symbol to here?|date=February 2013}}
+
+A &amp;apos;&amp;apos;&amp;apos;chemical symbol&amp;apos;&amp;apos;&amp;apos; is a 1-, 2-, or 3-letter internationally agreed code for a [[chemical element]], usually derived from the name of the element, often in [[Latin]]. [[File:Atomic Symbol.jpg|thumb|This is an example of an atomic symbol. The text boxes explain where the numbers are derived from.]] Only the first letter is capitalised. For example, &amp;quot;He&amp;quot; is the symbol for [[Helium|&amp;apos;&amp;apos;&amp;apos;he&amp;apos;&amp;apos;&amp;apos;lium]] (English name, not known in [[ancient Roman]] times), &amp;quot;Pb&amp;quot; for [[lead]] (&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;p&amp;apos;&amp;apos;&amp;apos;lum&amp;apos;&amp;apos;&amp;apos;b&amp;apos;&amp;apos;&amp;apos;um&amp;apos;&amp;apos; in Latin), &amp;quot;W&amp;quot; for [[tungsten]] (&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;w&amp;apos;&amp;apos;&amp;apos;olfram&amp;apos;&amp;apos; in German, not known in Roman times). [[Systematic element name|Temporary symbols]] assigned to newly or not-yet synthesized elements use 3-letter symbols based on their atomic numbers. For example, &amp;quot;Uno&amp;quot; was the temporary symbol for [[Hassium]] which had the temporary name of &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;U&amp;apos;&amp;apos;&amp;apos;n&amp;apos;&amp;apos;&amp;apos;n&amp;apos;&amp;apos;&amp;apos;il&amp;apos;&amp;apos;&amp;apos;o&amp;apos;&amp;apos;&amp;apos;ctium&amp;apos;&amp;apos;.
+
+Chemical symbols may be modified by the use of prepended [[Subscript and superscript|superscripts or subscripts]] to specify a particular [[isotope]] of an atom. Additionally, appended superscripts may be used to indicate the [[ionization]] or [[oxidation state]] of an element.
+
+Attached subscripts or superscripts specifying a nucleotide or molecule have the following meanings and positions:
+* The [[nucleon]] number ([[mass number]]) is shown in the left superscript position (e.g., &amp;lt;sup&amp;gt;14&amp;lt;/sup&amp;gt;N)
+* The proton number ([[atomic number]]) may be indicated in the left subscript position (e.g., &amp;lt;sub&amp;gt;64&amp;lt;/sub&amp;gt;Gd)
+* If necessary, a state of [[ionization]] or an [[excited state]] may be indicated in the right superscript position (e.g., state of ionization Ca&amp;lt;sup&amp;gt;2+&amp;lt;/sup&amp;gt;). In [[astronomy]], non-ionised atomic hydrogen is often known as &amp;quot;HI&amp;quot;, and ionised hydrogen as &amp;quot;HII&amp;quot;.&amp;lt;ref&amp;gt;[http://csep10.phys.utk.edu/astr162/lect/milkyway/ism.html The interstellar medium, with definition of HI and HII regions]&amp;lt;/ref&amp;gt;
+* The number of atoms of an element in a [[molecule]] or [[chemical compound]] is shown in the right subscript position (e.g., N&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt; or Fe&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;O&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;)
+* A [[radical (chemistry)|radical]] is indicated by a dot on the right side (e.g., Cl· for a chloride radical)
+In [[Chinese language|Chinese]] each chemical element has an [[Chinese character|ideograph]], usually created for the purpose, as its symbol (see [[Chemical elements in East Asian languages]]).
+
+==See also==
+* [[Symbol (chemical element)]]
+* [[List of elements]]
+* [[Periodic table]]
+* [[Nuclear notation]]
+
+==References==
+{{reflist}}
+
+==External links==
+*[http://membership.acs.org/N/NOME/ American Chemical Society, Committee on Nomenclature, Terminology &amp;amp; Symbols]
+
+[[Category:Chemical elements|*]]
+[[Category:Symbols]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

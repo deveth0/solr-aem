@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Historical Permission Notice and Disclaimer"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Historical Permission Notice and Disclaimer" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox software license
+| author          = Bruce Dodson&amp;lt;ref&amp;gt;{{cite mailing list
+|url=http://crynwr.com/cgi-bin/ezmlm-cgi?3:mss:6305:jggiiehpeekebdbmpopm
+|title=discuss: approval request: &amp;quot;Historical Permission Notice and Disclaimer&amp;quot;
+|mailinglist=license-discuss
+|date=29 November 2002
+|first=Bruce
+|last=Dodson
+}}&amp;lt;/ref&amp;gt;
+| version         = n/a
+| copyright       = Bruce Dodson
+| date            = 29 November 2002
+| OSI approved    = Yes
+| Debian approved = ?
+| Free Software   = Yes{{Citation needed|date=September 2009}}
+| GPL compatible  = Yes{{Citation needed|date=September 2009}}
+| copyleft        = No
+| linking         = Yes
+}}
+
+The &amp;apos;&amp;apos;&amp;apos;Historical Permission Notice and Disclaimer&amp;apos;&amp;apos;&amp;apos; is an [[open source license]], approved by the [[Open Source Initiative]] (OSI). It is unique among the OSI&amp;apos;s licenses because of the choices it allows in its construction; it lets the licensor pick anywhere from 0-2 warranty disclaimers, whether they want to prohibit your publicity of the software derivatives (like in the [[BSD License]]), and other spelling and grammar options. Besides this, the license can be almost functionally identical to the new 3-clause BSD License (if the option for the no-promotion clause is exercised), or the [[MIT License]] (if the option for the no-promotion clause is not exercised).
+
+Variants of this license are in use primarily in older software, including the original [[BSD kernel]], developed by [[IBM]], [[Intel]] and others. Today, it is most popular to choose either the new 3-clause BSD License or the MIT License to meet the licensing needs of the developer.
+
+This is the only OSI-certified license (excluding the [[public domain]]) that can lack a disclaimer of warranty. The [[Free Software Foundation]] has not yet recognized this license as a [[free software license]] in the general case, but has done so for certain variations, such as that used for versions of [[Python (programming language)|Python]] before 1.6b.&amp;lt;ref&amp;gt;{{cite web
+ |url=http://www.gnu.org/licenses/license-list.html#GPLCompatibleLicenses
+ |title=GPL-Compatible Free Software Licenses
+ |publisher=[[Free Software Foundation]]
+ |first=Richard
+ |last=Stallman
+ |date=7 March 2008
+ |accessdate=2008-03-16
+}}&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;{{cite web
+ |url=http://www.python.org/download/releases/2.5/license
+ |title=Python 2.5 license
+ |publisher=Python.org
+ |accessdate=2008-03-16
+}}&amp;lt;/ref&amp;gt;
+
+==References==
+{{reflist|2}}
+
+==External links==
+*[http://www.opensource.org/licenses/historical.php Text of the license]
+
+{{DEFAULTSORT:Historical Permission Notice And Disclaimer}}
+[[Category:Free and open-source software licenses]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

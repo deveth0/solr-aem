@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Product (chemistry)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Product (chemistry)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Product&amp;apos;&amp;apos;&amp;apos;(s) are formed during [[chemical reaction]]s as [[reagents]] are consumed.  Products have lower energy than the reagents and are produced during the reaction according to the [[second law of thermodynamics]]. The released energy comes from changes in chemical bonds between atoms in reagent molecules and may be given off in the form of heat or light.  Products are formed as the chemical reaction progresses toward [[chemical equilibrium]] at a certain [[reaction rate]], which depends on the reagents and environmental conditions.
+
+Depending on the relative amounts of the reagents and the equilibrium of the reaction, the terms &amp;quot;reagent&amp;quot; and &amp;quot;product&amp;quot; may also overlap.
+
+But in the end, the product is the result of a chemical reaction.
+
+
+==See also==
+*[[Reagent]]s or [[reactant]]s
+*[[Chemical reaction]]
+*[[Chemical equilibrium]]
+*[[Second law of thermodynamics]]
+[[Category:Chemical reactions]]
+
+{{Reaction-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

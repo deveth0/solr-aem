@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:Traffic/2002 traffic data"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:Traffic/2002 traffic data" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;This is an archive of the data for [[Wikipedia:Traffic]] for the year [[2002]].
+This data was created by using GNU tools and shell scripts to analyse server logs: some log file data was not available for analysis, so there is a gap in the middle of this data.
+
+The values are the total hits (pages, graphics, page edits, etc.) for each 24-hour period according to the server time, which is set to [[UTC]].
+
+ 2002 Aug 25, 132171
+ 2002 Aug 26, 154806
+ 2002 Aug 27, 222093
+ 2002 Aug 28, 226924
+ 2002 Aug 29, 267607
+ 2002 Aug 30, 166953
+ 2002 Aug 31, 166977
+ 2002 Sep 1,  190552
+ 2002 Sep 2,  206743
+ 2002 Sep 3,  214398
+ 2002 Sep 4,  224615
+ 2002 Sep 5,  173638
+ 2002 Sep 6,  150336
+ 2002 Sep 7,  164840
+ 2002 Sep 8,  190718
+ 2002 Sep 9,  270119
+ 2002 Sep 10, 285444
+ 2002 Sep 11, 260034
+ 2002 Sep 12, 310639
+ 2002 Sep 13, 222975
+ 2002 Sep 14, 159646
+ 2002 Sep 15, 171796
+ 2002 Sep 16, 225129
+ 2002 Sep 17, 236184
+ 2002 Sep 18, 236203
+ 2002 Sep 19, 230573
+ 2002 Sep 20, 253321
+ 2002 Sep 21, 205079
+ 2002 Sep 22, 194714
+ 2002 Sep 23, 246764
+ 2002 Sep 24, 239631
+ 2002 Sep 25, 246979
+ 2002 Sep 26, 234145
+ 2002 Sep 27, 272294
+ 2002 Sep 28, 154471
+
+ 2002 Oct 23, 153431
+ 2002 Oct 24, 246595
+ 2002 Oct 25, 287936
+ 2002 Oct 26, 151098
+ 2002 Oct 27, 174213
+ 2002 Oct 28, 241510
+ 2002 Oct 29, 290663
+ 2002 Oct 30, 244739
+ 2002 Oct 31, 237261
+ 2002 Nov 01, 252646
+ 2002 Nov 02, 177848
+ 2002 Nov 03, 213332
+ 2002 Nov 04, 261953
+ 2002 Nov 05, 259868
+ 2002 Nov 06, 233607
+ 2002 Nov 07, 302956
+ 2002 Nov 08, 242550
+ 2002 Nov 09, 172080
+ 2002 Nov 10, 210393
+ 2002 Nov 11, 239625
+ 2002 Nov 12, 295723
+ 2002 Nov 13, 281656
+ 2002 Nov 14, 261408
+ 2002 Nov 15, 237670
+ 2002 Nov 16, 164747
+ 2002 Nov 17, 187352
+ 2002 Nov 18, 251086
+ 2002 Nov 19, 265288
+ 2002 Nov 20, 246336
+ 2002 Nov 21, 232333
+ 2002 Nov 22, 209357
+ 2002 Nov 23, 156762
+ 2002 Nov 24, 204843
+ 2002 Nov 25, 245987
+ 2002 Nov 26, 263838
+ 2002 Nov 27, 242330
+ 2002 Nov 28, 181801
+ 2002 Nov 29, 183693
+ 2002 Nov 30, 181270
+ 2002 Dec 01, 257642
+ 2002 Dec 02, 233253
+ 2002 Dec 03, 278224
+ 2002 Dec 04, 317513
+ 2002 Dec 05, 319265
+ 2002 Dec 06, 313785
+ 2002 Dec 07, 202223
+ 2002 Dec 08, 241853
+ 2002 Dec 09, 313553
+ 2002 Dec 10, 322631
+ 2002 Dec 11, 304015
+ 2002 Dec 12, 238493
+ 2002 Dec 13, 270600
+ 2002 Dec 14, 192532
+ 2002 Dec 15, 243627
+ 2002 Dec 16, 273836
+ 2002 Dec 17, 305319
+ 2002 Dec 18, 304498
+ 2002 Dec 19, 294913
+ 2002 Dec 20, 212429
+ 2002 Dec 21, 140055
+ 2002 Dec 22, 148617
+ 2002 Dec 23, 183585
+ 2002 Dec 24, 187106
+ 2002 Dec 25, 157897
+ 2002 Dec 26, 253943
+ 2002 Dec 27, 179261
+ 2002 Dec 28, 170704
+ 2002 Dec 29, 176450
+ 2002 Dec 30, 201314
+ 2002 Dec 31, 175804&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

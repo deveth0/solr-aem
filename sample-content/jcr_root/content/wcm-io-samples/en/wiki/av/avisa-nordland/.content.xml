@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Avisa Nordland"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Avisa Nordland" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox Newspaper |
+name                = Avisa Nordland|
+logo                = [[Image:Avisa nordland.png|175px]] |
+type                = Daily [[newspaper]] |
+format              = [[Tabloid (newspaper format)|Tabloid]] |
+foundation          = 2002 |
+owners              = [[A-Pressen ASA]](62.0%) and [[Harstad Tidende Gruppen AS]](38.0%) |
+editor              = [[Jan-Eirik Hanssen]] |
+political           = neutral |
+headquarters        = [[Bodø]], [[Norway]] |
+language            = Norwegian |
+website             = [http://www.an.no www.an.no] |
+}}
+
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Avisa Nordland&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is a [[newspaper]] published in [[Bodø]], [[Norway]]. It was established through a controversial merger of the two competing newspapers &amp;apos;&amp;apos;[[Nordlandsposten]]&amp;apos;&amp;apos; and &amp;apos;&amp;apos;[[Nordlands Framtid]]&amp;apos;&amp;apos;. In 2006, it had a circulation of about 24700 copies.&amp;lt;ref&amp;gt;[http://www.medieregisteret.no/database/dbprogs/?1=1&amp;amp;fid=20326 Norwegian Media Registry]&amp;lt;/ref&amp;gt;
+
+The paper has its headquarters in central Bodø, and occupies most of the bank [[Nordlandsbanken]]s former premises. In addition it has offices in [[Nordland]] small towns [[Fauske]], [[Oppeid]] and [[Ørnes]].
+
+Printing of Avisa Nordland takes place in a brand new building in Olav V street in Bodø, fitted with the latest technology in paper production.
+
+==References==
+{{Reflist}}
+
+== External links ==
+*[http://www.an.no/ Official site]
+
+[[Category:Newspapers published in Norway]]
+[[Category:Publications established in 2002]]
+[[Category:Nordland media]]
+[[Category:Bodø]]
+[[Category:2002 establishments in Norway]]
+[[Category:Amedia]]
+
+
+{{norway-newspaper-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

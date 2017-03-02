@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Dog watch"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Dog watch" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{for|the film|Dog Watch}}
+&amp;apos;&amp;apos;&amp;apos;Dog watch&amp;apos;&amp;apos;&amp;apos;, in [[marine corps|marine]] or [[naval]] terminology, is a [[Watch system|watch]], a period of work duty or a [[work shift]], between 16:00 and 20:00 (4 pm and 8 pm).  This period is split into two, with the &amp;apos;first&amp;apos; dog watch from 16:00 to 18:00 (4 pm to 6 pm) and the &amp;apos;last&amp;apos; dog watch from 18:00 to 20:00 (6 pm to 8 pm) (there is no &amp;apos;second&amp;apos; dog watch). Each of these watches is half the length of a standard watch.
+
+The name is said to be derived from [[Sirius]], the &amp;quot;Dog Star&amp;quot;, on the claim that Sirius was the first star to come into view on the first dog watch.&amp;lt;ref&amp;gt;{{cite web|title=Maths &amp;amp; DT|url=http://www.hms-victory.com/index.php?option=com_content&amp;amp;task=view&amp;amp;id=102&amp;amp;Itemid=143|publisher=HMS-Victory.com|accessdate=14 November 2012|archiveurl=http://web.archive.org/web/20080717011259/http://www.hms-victory.com/index.php?option=com_content&amp;amp;task=view&amp;amp;id=102&amp;amp;Itemid=143|archivedate=17 July 2008}}&amp;lt;/ref&amp;gt;  In fact, however, the time of the rising of Sirius varies with the time of year, so that for six months of the year it is below the horizon at sunset. Moreover, the first dog watch (16:00–18:00) is typically in daylight, and the stars are not visible. An alternative [[folk etymology]] is that the name arose because someone tasked with one of these &amp;apos;half&amp;apos; watches was said to be &amp;apos;dodging the watch&amp;apos;, taking or standing the &amp;apos;dodge watch&amp;apos;. This became shortened to &amp;apos;[[dog]] watch&amp;apos;.  Another variation is that those sleeping get only &amp;apos;[[dog sleep]]&amp;apos; in this watch. [[Stephen Maturin]] of [[Patrick O&amp;apos;Brian|Patrick O&amp;apos;Brian&amp;apos;s]] [[Aubrey-Maturin|Aubrey-Maturin series]] makes the pun that the dog watch is so-named because it is &amp;quot;cur-tailed&amp;quot; (&amp;quot;curtailed&amp;quot;, i.e. shortened).
+
+The reason behind this watch&amp;apos;s existence is that, in order for the crew to rotate through all the watches, it was necessary to split one of the watches in half, to create an odd number of watches in a ship&amp;apos;s day. This allowed the [[sailor]]s to stand different watches instead of one team being forced to stand the mid-watch every night. The choice of time also allows both watches, if there are only two, to eat an evening meal at about the traditional time.&amp;lt;ref&amp;gt;{{cite web|title=Workshop Hints: Ships Bells|url=http://www.bhi.co.uk/aHints/ships.html|work=The British Horological Institute|accessdate=12 June 2011|coauthors=Tony Gray|archiveurl=http://web.archive.org/web/20110612045510/http://www.bhi.co.uk/aHints/ships.html|archivedate=9 November 2012}}&amp;lt;/ref&amp;gt;
+
+==References==
+{{reflist}}
+
+==See also==
+* [[Ship&amp;apos;s bell]]
+* [[Watch system]]
+
+[[Category:Nautical terms]]
+{{naval-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

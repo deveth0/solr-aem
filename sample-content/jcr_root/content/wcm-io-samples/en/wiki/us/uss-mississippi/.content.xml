@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="USS Mississippi"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="USS Mississippi" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Italic title prefixed|3}}
+&amp;apos;&amp;apos;&amp;apos;USS &amp;apos;&amp;apos;Mississippi&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;, named either for the state of [[Mississippi]] or the [[Mississippi River]], may refer to:
+
+*{{USS|Mississippi|1841}} was a sidewheel frigate that saw action in the Mexican–American War and was lost during the American Civil War
+*{{USS|Mississippi|BB-23}} was the lead ship of the {{sclass-|Mississippi|battleship|4}} of battleships, saw action before World War I and was eventually sold to Greece
+*{{USS|Mississippi|BB-41}} was a {{sclass-|New Mexico|battleship}} and saw action during World War II
+*{{USS|Mississippi|CGN-40}} was a {{sclass-|Virginia|cruiser|0}} nuclear-powered guided missile cruiser
+*{{USS|Mississippi|SSN-782}} is a {{sclass-|Virginia|submarine}} commissioned in 2012
+
+;See also
+*{{MV|Mississippi}} refers to several United States Army Corps of Engineers towboats
+*[[CSS Mississippi|CSS &amp;apos;&amp;apos;Mississippi&amp;apos;&amp;apos;]] refers to a projected [[ironclad]] of the Confederate States Navy
+
+{{Shipindex}}
+
+{{DEFAULTSORT:Mississippi, USS}}
+[[Category:United States Navy ship names]]
+[[Category:United States Navy Mississippi-related ships]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

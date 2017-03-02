@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:Selected anniversaries/January 16"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:Selected anniversaries/January 16" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;lt;noinclude&amp;gt;{{../doc}}
+{{divhide|Staging area}}
+==Images==
+Use only ONE image at a time
+&amp;lt;gallery&amp;gt;
+File:Hw-augustus.jpg|Emperor Augustus
+File:Hw-ivan4.jpg|Ivan IV of Russia
+File:Miguel de Cervantes.jpg|Miguel de Cervantes
+File:Miguel de Cervantes2.jpg|Miguel de Cervantes
+File:Ivan the Terrible (cropped).JPG|Ivan IV of Russia (&amp;quot;Ivan the Terrible&amp;quot;)
+&amp;lt;/gallery&amp;gt;
+
+==Ineligible==
+{|class=&amp;quot;wikitable&amp;quot;
+|-
+!Blurb
+!Reason
+|-
+| &amp;apos;&amp;apos;&amp;apos;[[National Religious Freedom Day]]&amp;apos;&amp;apos;&amp;apos; in the United States
+| stub
+|-
+| [[929]] – Emir &amp;apos;&amp;apos;&amp;apos;[[Abd-ar-Rahman III]]&amp;apos;&amp;apos;&amp;apos; of [[Córdoba, Spain|Cordoba]] declared himself [[Caliphate|caliph]], thereby establishing the [[Caliphate of Córdoba]].
+| refimprove section
+|-
+|  [[1120]] – The &amp;apos;&amp;apos;&amp;apos;[[Council of Nablus]]&amp;apos;&amp;apos;&amp;apos; was held, establishing the earliest surviving written laws of the [[Crusader states|Crusader]] [[Kingdom of Jerusalem]].
+|  {{tl|Refimprove}}
+|-
+| [[1547]] – &amp;apos;&amp;apos;&amp;apos;[[Ivan the Terrible]]&amp;apos;&amp;apos;&amp;apos; was crowned the first [[Tsar]] of Russia at the age of 16.
+| tagged for expansion
+|-
+| [[1605]] – Book One of &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;[[Don Quixote]]&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;, &amp;apos;&amp;apos;El ingenioso hidalgo Don Quijote de la Mancha&amp;apos;&amp;apos; by [[Miguel de Cervantes]], was first published in [[Madrid]], Spain.
+| unreferenced section
+|-
+| [[1917]] – [[World War I]]: The [[German Empire]] sent the &amp;apos;&amp;apos;&amp;apos;[[Zimmermann Telegram]]&amp;apos;&amp;apos;&amp;apos;, a diplomatic proposal to Mexico to make war against the United States, which led in part to the U.S. entering the war.
+| refimprove section
+|-
+|   [[1986]] – The &amp;apos;&amp;apos;&amp;apos;[[Internet Engineering Task Force]]&amp;apos;&amp;apos;&amp;apos;, a [[standards organization]] that develops and promotes [[Internet standard]]s, held its first meeting, consisting of twenty-one United States-government-funded researchers.
+| {{tl|more footnotes}}
+|-
+|   [[1991]] – The &amp;apos;&amp;apos;&amp;apos;[[Gulf War]]&amp;apos;&amp;apos;&amp;apos; began as a [[United Nations]]-led coalition began an assault on Iraqi forces to free Kuwait.
+| unreferenced section, more globalization
+|-
+|   [[1992]] – The [[Chapultepec Peace Accords]]&amp;lt;!--Not bolded, stubby--&amp;gt; were signed, ending the 12-year &amp;apos;&amp;apos;&amp;apos;[[Salvadoran Civil War]]&amp;apos;&amp;apos;&amp;apos; between the military-led government of El Salvador and the [[Farabundo Martí National Liberation Front]].
+| {{tl|ibid}}
+|}
+
+==Eligible==
+{{*mp}} [[1780]] – [[American Revolutionary War]]: The British [[Royal Navy]] gained their first major naval victory over their European enemies in the war when they defeated a Spanish squadron in the &amp;apos;&amp;apos;&amp;apos;[[Battle of Cape St. Vincent (1780)|Battle of Cape St. Vincent]]&amp;apos;&amp;apos;&amp;apos;.
+{{*mp}} [[1920]] – The &amp;apos;&amp;apos;&amp;apos;[[League of Nations]]&amp;apos;&amp;apos;&amp;apos; held its first council meeting in Paris.
+{{*mp}} [[1942]] – &amp;apos;&amp;apos;&amp;apos;[[TWA Flight 3]]&amp;apos;&amp;apos;&amp;apos; crashed into [[Potosi Mountain]] in [[Nevada]], killing actress [[Carole Lombard]] and all of the other 21 people on board.
+{{*mp}} [[1969]] – Student &amp;apos;&amp;apos;&amp;apos;[[Jan Palach]]&amp;apos;&amp;apos;&amp;apos; [[self-immolation|set himself on fire]] in [[Wenceslas Square]] in [[Prague]] as a protest against the [[Soviet invasion of Czechoslovakia (1968)|Soviet invasion of Czechoslovakia]] the previous year.
+{{*mp}} [[2008]] – Five days after proposing [[lyrics]] for the wordless &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;[[Marcha Real]]&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;, the Spanish [[national anthem]], the [[Spanish Olympic Committee]] withdrew the proposal due to widespread criticism.
+&amp;lt;/ul&amp;gt;
+
+==Notes==
+{{*mp}} [[Second Battle of the Corunna Road]] appears on [[Wikipedia:Selected anniversaries/January 15|January 15]], so Battle of Corunna should not appear in the same year to avoid confusion
+{{divhide|end}}
+&amp;lt;/noinclude&amp;gt;
+&amp;apos;&amp;apos;&amp;apos;[[January 16]]&amp;apos;&amp;apos;&amp;apos;: &amp;apos;&amp;apos;&amp;apos;[[Teachers&amp;apos; Day]]&amp;apos;&amp;apos;&amp;apos; in Thailand
+&amp;lt;div style=&amp;quot;float:right;margin-left:0.5em&amp;quot;&amp;gt;
+[[File:BennyGoodmanStageDoorCanteen.jpg|Benny Goodman|100x100px]]
+&amp;lt;/div&amp;gt;
+{{*mp}} [[27 BC]] – &amp;apos;&amp;apos;&amp;apos;[[Augustus|Gaius Octavianus]]&amp;apos;&amp;apos;&amp;apos; was given the title [[Augustus (honorific)|Augustus]] by the [[Roman Senate]] when he became the first [[Roman emperor]].
+{{*mp}} [[1809]] – [[Peninsular War]]: French forces under [[Nicolas Jean de Dieu Soult]] &amp;apos;&amp;apos;&amp;apos;[[Battle of Corunna|attacked]]&amp;apos;&amp;apos;&amp;apos; the amphibious evacuation of the British under [[John Moore (British Army officer)|Sir John Moore]] in [[A Coruña|Corunna]], [[Galicia (Spain)|Galicia]], Spain.
+{{*mp}} [[1919]] – The &amp;apos;&amp;apos;&amp;apos;[[Eighteenth Amendment to the United States Constitution|Eighteenth Amendment]]&amp;apos;&amp;apos;&amp;apos; to the [[United States Constitution|U.S. Constitution]] was ratified by thirty-six of the forty-eight states, establishing the [[Prohibition in the United States|prohibition of alcoholic beverages]] in the United States.
+{{*mp}} [[1938]] – &amp;apos;&amp;apos;&amp;apos;[[Benny Goodman]]&amp;apos;&amp;apos;&amp;apos; &amp;apos;&amp;apos;(pictured)&amp;apos;&amp;apos; performed a concert at New York City&amp;apos;s [[Carnegie Hall]] which has been considered instrumental in establishing [[jazz]]&amp;lt;!--not bold, factoid not in article--&amp;gt; as a legitimate form of music.
+{{*mp}} [[1945]] – [[World War II]]: [[Adolf Hitler]] and his staff moved into the &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;[[Führerbunker]]&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;, where he would eventually [[Death of Adolf Hitler|commit suicide]].
+&amp;lt;/ul&amp;gt;
+{{SelAnnivFooter|Month=January|Day=16}}&amp;lt;noinclude&amp;gt;
+&amp;lt;/noinclude&amp;gt;&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

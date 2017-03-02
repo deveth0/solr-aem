@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Otto Eckstein"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Otto Eckstein" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{no footnotes|date=February 2013}}
+&amp;apos;&amp;apos;&amp;apos;Otto Eckstein&amp;apos;&amp;apos;&amp;apos; (August 1, 1927 &amp;amp;ndash; March 22, 1984) was a German-born [[economics|economist]] at [[Harvard University]], member of the [[President of the United States|President&amp;apos;s]] [[Council of Economic Advisers]] from 1964 to 1968), and co-founder of [[Data Resources Inc]].  He received an A.B. from Princeton University and a Ph.D. from Harvard University.
+
+He was a key developer and proponent of the idea of [[core inflation]] {{harv|Eckstein|1981}}.
+A frequent coauthor was [[Allen Sinai]].
+
+== Bibliography ==
+{{Expand section|date=December 2009}}
+
+* {{cite|last=Eckstein|first=Otto|title=Core inflation|year=1981}}
+* {{cite|last=Eckstein|first=Otto|title=The DRI Model of the U.S. Economy|year=1983}}
+* {{Citation|last=Eckstein |first=Otto |coauthors=Allen Sinai |title=The American Business Cycle: Continuity and Change|editor=Robert J. Gordon |publisher=University of Chicago Press|year=1990|chapter=1. The Mechanisms of the Business Cycle in the Postwar Period|isbn=978-0-226-30453-3|url=http://books.google.com/?id=P2f-icI-fM0C&amp;amp;pg=PA39}}
+
+== External links ==
+* [http://homepage.newschool.edu/het//profiles/eckstein.htm Otto Eckstein, 1927-1984] profile at the [[New School]]
+* [http://www.nber.org/chapters/c10018.pdf NBER tribute by Allen Sinai]
+
+{{Authority control|VIAF=30782709}}
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Eckstein, Otto
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION =
+| DATE OF BIRTH     = 1927
+| PLACE OF BIRTH    =
+| DATE OF DEATH     = 1984
+| PLACE OF DEATH    =
+}}
+
+{{DEFAULTSORT:Eckstein, Otto}}
+[[Category:1927 births]]
+[[Category:1984 deaths]]
+[[Category:American economists]]
+[[Category:United States Council of Economic Advisers]]
+[[Category:German emigrants to the United States]]
+[[Category:Harvard University faculty]]
+
+
+{{US-economist-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

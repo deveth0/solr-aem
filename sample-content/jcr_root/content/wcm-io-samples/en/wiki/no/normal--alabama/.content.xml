@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Normal, Alabama"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Normal, Alabama" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Normal, Alabama&amp;apos;&amp;apos;&amp;apos; is the site of [[Alabama A&amp;amp;M|Alabama Agricultural and Mechanical University]].
+
+AAMU is situated in the city limits and northern part of [[Huntsville, Alabama]], [[United States|USA]] in [[Madison County, Alabama|Madison County]].
+
+Normal was established in 1890, when AAMU was then known as &amp;quot;State Normal and Industrial School of Huntsville&amp;quot;. It was also designated a [[land grant college]] of [[Alabama]]. At that time student enrollment was 300 with 11 teachers. That same year, a [[United States]] [[Post Office]] was established there. Normal&amp;apos;s [[ZIP Code]] is 35762. Students were called &amp;quot;Normalites&amp;quot;.
+
+==References==
+*[http://www.aamu.edu/PR/pr.htm AAMU Public Relations Office]
+
+{{coord|34|47|20|N|86|34|19|W|type:city_region:US-AL|display=title}}
+
+[[Category:Geography of Madison County, Alabama]]
+[[Category:Geography of Huntsville, Alabama]]
+[[Category:Populated places established in 1890]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

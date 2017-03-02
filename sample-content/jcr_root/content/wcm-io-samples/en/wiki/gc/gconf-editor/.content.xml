@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Gconf-editor"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Gconf-editor" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{lowercase}}{{Infobox software
+| name=gconf-editor
+| logo=[[Image:Gconf-editor logo.png]]
+| screenshot=[[Image:Gconf-editor on Ubuntu.png|250px]]
+| caption=gconf-editor on [[Ubuntu (operating system)|Ubuntu]]
+| latest_release_version=3.0.1&amp;lt;ref&amp;gt;http://ftp.gnome.org/pub/gnome/sources/gconf-editor/3.0/&amp;lt;/ref&amp;gt;
+| latest_release_date=
+| genre=Configuration editor
+| operating_system=[[BSD]], [[Linux]], [[UNIX]]
+| license=[[GNU General Public License|GPL]]&amp;lt;ref&amp;gt;{{cite web
+|url=http://gentoo-portage.com/gnome-extra/gconf-editor
+|title=Gentoo-Portage gconf-editor page
+|}}&amp;lt;/ref&amp;gt;
+
+| website=[http://www.gnome.org/ www.gnome.org]
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Gconf-editor&amp;apos;&amp;apos;&amp;apos; is an application for the [[GNOME]] computer desktop environment. It can be considered the graphical equivalent of [[gconftool]] and is used to maintain the GNOME registry.
+
+Gconf-editor gives users the ability to access settings stored in the [[XML]]-based [[GConf]] configuration [[database]] or registry. It is used primarily by developers to [[debug]] [[application software|applications]], or by [[power user]]s to edit hidden and complex settings. It [[abstraction|abstracts]] the values from the GConf database and presents them in an interface similar to [[Microsoft Windows]]&amp;apos; [[Windows registry|registry]] editor.
+
+Traditional CLI (Command Line Interface) power users of GNOME have criticized it as an excuse to oversimplify the user interface and design for the [[lowest common denominator]]. Preferences such as turning off desktop icons or changing window button order are not available through a friendly [[graphical user interface]] (GUI), like other settings, but can only be changed using gconf-editor. GNOME core developers claim{{Who|date=October 2007}} that the majority of users find lots of options and choices confusing and difficult to learn, and that so-called power users have little difficulty finding options using an application such as Gconf-editor.{{Citation needed|date=January 2009}}
+
+Due to the controversy, other gconf tools have appeared, such as Gconfpref by [[MandrakeSoft]]. There are also [[patch (computing)|patches]] for popular applications, which add the ability to change the hidden options from within the application itself, avoiding the need for gconf-editor.
+
+==References==
+{{Reflist}}
+
+==External links==
+{{portal|Free Software}}
+* [http://www.gnome.org/projects/gconf/ GConf configuration system]
+
+[[Category:GNOME]]
+
+{{GNOME-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

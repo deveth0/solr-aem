@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Victoria and Albert"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Victoria and Albert" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Victoria and Albert&amp;apos;&amp;apos;&amp;apos; refers to Queen [[Queen Victoria|Victoria of the United Kingdom]] and her Prince Consort, [[Albert, Prince Consort|Albert of Saxe-Coburg-Gotha]]
+
+It may also refer to these things named in honour of the couple:
+
+*The [[Victoria and Albert Museum]] in London
+*[[HMY Victoria and Albert]], a Royal Yacht
+*[[HMY Victoria and Albert II]], a Royal Yacht
+*[[HMY Victoria and Albert III]], a Royal Yacht
+*[[Bhau Daji Lad Museum]], in Mumbai, formerly the Victoria and Albert Museum
+
+As well as the following television series:
+*&amp;apos;&amp;apos;[[Albert and Victoria]]&amp;apos;&amp;apos; (1970-1971)
+*&amp;apos;&amp;apos;[[Victoria &amp;amp; Albert (TV serial)]]&amp;apos;&amp;apos; (2001)
+
+==See also==
+*[[Victoria &amp;amp; Alfred Waterfront]], in Cape Town
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

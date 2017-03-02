@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Bloomfield Township, Michigan"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Bloomfield Township, Michigan" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Bloomfield Township&amp;apos;&amp;apos;&amp;apos; is the name of some places in the U.S. state of Michigan:
+*[[Bloomfield Township, Huron County, Michigan]]
+*[[Bloomfield Township, Missaukee County, Michigan]]
+*[[Bloomfield Township, Oakland County, Michigan]]
+
+==See also==
+* [[Bloomfield Hills, Michigan]]
+* [[Blumfield Township, Saginaw County, Michigan]]
+* [[Bloomfield Township (disambiguation)]]
+
+{{Geodis}}
+[[Category:Michigan township disambiguation pages]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

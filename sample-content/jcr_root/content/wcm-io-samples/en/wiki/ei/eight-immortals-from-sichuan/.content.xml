@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Eight Immortals from Sichuan"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Eight Immortals from Sichuan" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{about|the Sichuanese immortals||Eight Immortals (disambiguation)}}
+
+{{chinesetext}}
+&amp;apos;&amp;apos;&amp;apos;Eight Immortals from [[Sichuan]]&amp;apos;&amp;apos;&amp;apos; ({{zh|c=蜀中八仙|p=Shǔ zhōng bāxiān}}) are eight Sichuanese who supposedly became &amp;apos;&amp;apos;[[Xian (Daoist)| xian]]&amp;apos;&amp;apos; (&amp;quot;immortals; transcendents; fairies&amp;quot;). The term is first used by [[Qiao Xiu]] (譙秀 qiáo xiù) in &amp;apos;&amp;apos;Record of [[Shu (kingdom)|Shu]]&amp;apos;&amp;apos; (《蜀紀》 shǔ zì) written in [[Jin Dynasty (265-420)|Jin Dynasty]].
+
+They are:
+
+* [[Fan Changsheng]] (范長生 fàn cháng shēng),
+* [[Dong Zhongshu]] (董仲舒 dǒng zhòng shū),
+* [[Li Babai]] (李八百 lǐ bā baǐ),
+* [[Li Er]] (李耳 lǐ ěr),
+* [[Master Erzhu]] (爾朱先生 ěr zhū xiān shēn),
+* [[Mister Rongcheng]] (容成公 róng chéng gōng),
+* [[Zhang Daoling]] (張道陵 zhāng dào līng), and
+* [[Zhuang Junping]] (莊君平 zhuāng jūn píng).
+
+[[Category:Cultural lists|8 Eight Immortals from Sichuan]]
+[[Category:Articles about multiple people]]
+[[Category:Sichuan]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

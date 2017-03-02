@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Background (astronomy)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Background (astronomy)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+In [[astronomy]], &amp;apos;&amp;apos;&amp;apos;background&amp;apos;&amp;apos;&amp;apos; commonly refers to the incoming light from an apparently empty part of the night [[sky]].
+
+Even if no visible astronomical objects are present in given part of the sky, there always is some low luminosity present, due mostly to [[light diffusion]] from the [[Earth&amp;apos;s atmosphere|atmosphere]] (diffusion of both incoming light from nearby sources, and of man-made Earth sources like cities). In the visible band, luminosity level is around the 22nd [[apparent magnitude|magnitude]] per square-[[arcsecond]]: a very low level, but anyway well within the limits of the current generation of [[telescope]]s. The [[Hubble Space Telescope]] does not suffer from this problem.
+
+In [[infrared astronomy]], the problem can be much worse: due to the longer [[wavelength]]s involved, the sky and the telescope themselves are a source of light. To work around this problem, infrared telescopes often use a technique called &amp;apos;&amp;apos;&amp;apos;chopping&amp;apos;&amp;apos;&amp;apos;, where  a mirror rapidly oscillates between the object of interest and the nearby, empty sky. The two images can be subtracted, leaving hopefully only the incoming light from the source.
+
+There are several sources which contribute to the brightness of the (night) sky. Some of these are instrumental, or due to the presence of the atmosphere (like the [[airglow]]), in the case of ground based instruments. Even if we able to minimize the effect of instrumental and atmospherical components (e.g. using a spacecraft), there are still several [[astrophysical]] components contributing to the sky background: these could be sets of point sources like faint asteroids, Galactic stars and far away galaxies, as well as diffuse sources like dust in the Solar System, in the Milky Way, and in the intergalactic space. The actual importance of a specific component depends mostly of the wavelength of the measurement. The uncertainty (or noise) of the measurements caused by the astrophysical components of the sky background is called [[confusion noise]].
+
+In astronomical [[Charge-coupled device|CCD]] technology, &amp;apos;&amp;apos;&amp;apos;background&amp;apos;&amp;apos;&amp;apos; is usually referred to the overall optical &amp;quot;noise&amp;quot; of the system, that is, the incoming light on the CCD sensor in absence of light sources. This background can originate from electronic noise in the CCD, from not-well-masked lights nearby the telescope, and so on. An exposure on an empty patch of the sky is also called a background, and is the sum of the system background level plus the sky&amp;apos;s one.
+
+A &amp;apos;&amp;apos;&amp;apos;background frame&amp;apos;&amp;apos;&amp;apos; is often the first exposure in an astronomical observation with a CCD: the frame will then be subtracted from the actual observation result, leaving in theory only the incoming light from the astronomical object being observed.
+
+{{DEFAULTSORT:Background (Astronomy)}}
+[[Category:Observational astronomy]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

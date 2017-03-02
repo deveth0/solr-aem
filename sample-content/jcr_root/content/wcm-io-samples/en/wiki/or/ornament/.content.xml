@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ornament"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ornament" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Wiktionary}}
+An &amp;apos;&amp;apos;&amp;apos;ornament&amp;apos;&amp;apos;&amp;apos; is something used for decoration.
+
+&amp;apos;&amp;apos;&amp;apos;Ornament&amp;apos;&amp;apos;&amp;apos; may also refer to:
+*[[Ornament (art)]], purely decorative elements in architecture and the decorative arts
+*[[Christmas ornament]], a decoration used to festoon a Christmas tree
+*[[Hood ornament]], a decoration on the hood of an automobile
+*[[Garden ornament]], a decoration in a garden, landscape, or park
+*[[Lawn ornament]], a decoration in a grassy area
+*[[Peak ornament]], a decoration under the peak of the eaves of a gabled building
+*[[Ornamental plant]], decorative plants
+*[[Ornament (music)]], flourishes that are not necessary, but serve instead to decorate music
+*[[Biological ornament]], a biological structure that appears to serve only a decorative purpose
+*[[Bronze and brass ornamental work]]
+*[[Ornaments Rubric]], a prayer of the Church of England
+*[[Ornament (football)]], Hong Kong football team
+
+For ornamentation of the human body see:
+*[[Human physical appearance]]
+*[[Fashion]]
+*[[Jewelry]]
+*[[Body modification]]
+*[[Tattoo]]
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

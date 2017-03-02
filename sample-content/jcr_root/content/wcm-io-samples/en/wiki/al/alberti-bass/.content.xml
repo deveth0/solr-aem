@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Alberti bass"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Alberti bass" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Image:Mozart k545 opening.svg|thumb|300px|Mozart&amp;apos;s &amp;apos;&amp;apos;Piano Sonata, K 545&amp;apos;&amp;apos; opening. {{audio|Mozart k545 opening.mid|Play}}]]
+{{Listen
+ | filename     = Wolfgang Amadeus Mozart - sonata no. 16 in c major, k.545 &amp;apos;sonata facile&amp;apos; - i. allegro.ogg
+ | title        = 1. Allegro
+ | description  = Performed by Robin Alciatore. Courtesy of [[Musopen]]
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Alberti bass&amp;apos;&amp;apos;&amp;apos; is a particular kind of [[accompaniment]] [[figure (music)|figure]] in [[music]], often used in the [[classical music era|Classical era]], and sometimes  the [[Romantic music|Romantic era]]. It was named after [[Domenico Alberti]] (1710–1740), who used it extensively, although he was not the first to use it.&amp;lt;ref name=&amp;quot;baker&amp;quot;&amp;gt;&amp;quot;Alberti Bass.&amp;quot; Baker&amp;apos;s Student Encyclopedia of Music. Ed. Laura Kuhn. Schirmer-Thomson Gale, 1999.&amp;lt;/ref&amp;gt;
+
+Alberti bass is a kind of [[broken chord]] or [[arpeggio|arpeggiated]] accompaniment, where the notes of the [[chord (music)|chord]] are presented in the order lowest, highest, middle, highest. This pattern is then repeated.&amp;lt;ref name=&amp;quot;baker&amp;quot;/&amp;gt; The broken chord pattern helps to create a smooth, sustained, flowing sound on the piano.
+
+Alberti bass is usually found in the left hand of pieces for [[keyboard instrument]]s, especially for [[Wolfgang Amadeus Mozart|Mozart]]&amp;apos;s Piano Pieces. However, it is also found in pieces for other instruments.
+
+Well-known examples of Alberti bass include the beginning of [[Wolfgang Amadeus Mozart|Mozart&amp;apos;s]] &amp;apos;&amp;apos;[[Piano Sonata, K. 545 (Mozart)|Piano Sonata, K 545]]&amp;apos;&amp;apos;.&amp;lt;ref&amp;gt;{{cite book|last=Rink|first=John|title=Musical performance: a guide to understanding|publisher=Cambridge University Press|year=1984}}&amp;lt;/ref&amp;gt;  A famous example from 20th-century American popular music is the rhythm guitar part of the 1962 &amp;apos;surf rock&amp;apos; standard [[Pipeline (instrumental)]], by [[The Chantays]].
+
+==References==
+{{Reflist}}
+
+{{Accompaniment}}
+
+[[Category:Accompaniment]]
+[[Category:Piano]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

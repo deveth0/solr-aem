@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Stanbury"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Stanbury" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+[[Image:StanburyVillage.jpg|thumb|Entrance to Main Street, Stanbury]]
+&amp;apos;&amp;apos;&amp;apos;Stanbury&amp;apos;&amp;apos;&amp;apos; is a small [[village]] in the metropolitan borough of the [[City of Bradford]] in [[West Yorkshire]], England, west of [[Haworth]], close to the [[Pennine Way]], and on the [[River Worth]]. It is approximately 4 miles from the town of [[Keighley]].  The surrounding countryside is mainly [[moors]] and farmland, but the [[Brontë waterfall]] and [[Top Withens]] tourist attraction are within walking distance.  [[Emily Brontë]] is reputed to have used Top Withens as the model for the location of &amp;apos;&amp;apos;[[Wuthering Heights]],&amp;apos;&amp;apos; and nearby [[Ponden Hall]] (half a mile from the back end of Stanbury) has long been considered the model for &amp;apos;&amp;apos;Thrushcross Grange&amp;apos;&amp;apos; in the same book.
+
+There is a school and an [[Anglican]] church in Stanbury village.  The school caters for primary school age children.  There are also two pubs within Stanbury, the Wuthering Heights (formerly, and locally, known as &amp;apos;&amp;apos;the Cross&amp;apos;&amp;apos;) and the Friendly.  The Old Silent Inn (formerly The Eagle) is a pub and guest house located walking distance from the village.
+
+[[Lumbfoot]] is a tiny hamlet located five minutes walking distance from Stanbury.
+
+==See also==
+* [[Brontë Country]]
+* [[Brontë waterfall]]
+{{Commons|Stanbury}}
+
+{{Coord|53.830|N|1.983|W|display=title}}
+{{Bradford}}
+
+[[Category:Geography of Bradford]]
+[[Category:Villages in West Yorkshire]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

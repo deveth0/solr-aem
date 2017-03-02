@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Larry T. Justus"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Larry T. Justus" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+&amp;apos;&amp;apos;&amp;apos;Larry T. Justus&amp;apos;&amp;apos;&amp;apos; (died 20 October 2002) was a [[United States Republican Party|Republican]] member of the [[North Carolina House of Representatives]] from [[Hendersonville, North Carolina]]; he served for nine consecutive terms. Justus was seeking re-election for a tenth term in the General Assembly when he died in late October 2002. Because his name remained on the ballot and he received a majority of votes cast, his widow, [[Carolyn K. Justus]], was named by the local Republican party to fill his seat in the House of Representatives during his tenth term.
+
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Justus, Larry T.
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION = American politician
+| DATE OF BIRTH     =
+| PLACE OF BIRTH    =
+| DATE OF DEATH     = 20 October 2002
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Justus, Larry T.}}
+[[Category:2002 deaths]]
+[[Category:Members of the North Carolina House of Representatives]]
+[[Category:Year of birth missing]]
+
+{{NorthCarolina-politician-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

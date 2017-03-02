@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Substrate"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Substrate" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionarypar|substrate}}
+
+&amp;apos;&amp;apos;&amp;apos;Substrate&amp;apos;&amp;apos;&amp;apos; may refer to:
+*[[Substrate (building)]], Natural stone, masonry surface, ceramic and porcelain tiles
+*[[Substrate (aquarium)]], the material used in the bottom of an aquarium
+*[[Substrate (vivarium)]], the material used in the bottom of a vivarium or terrarium
+*[[Substrate (biochemistry)]], a molecule that is acted upon by an enzyme
+*[[Substrate (materials science)]], the material on which a process is conducted
+*[[Substrate (biology)]], the natural environment in which an organism lives, or the surface or medium on which an organism grows or is attached
+*[[Substrate (chemistry)]], the reactant which is consumed during a catalytic or enzymatic reaction
+*[[Substrate (marine biology)]], the earthy material that exists in the bottom of a marine habitat, like dirt, rocks, sand, or gravel
+*[[Substrate (printing)]], the base material that images will be printed onto
+*The [[stratum]] on which another geologic stratum lies
+
+==Electronics==
+*[[Substrate (electronics)]], in electronic wafers and thin film electronics, the physical material upon which a semiconductor device, e.g. a photovoltaic cell or an integrated circuit, is applied
+
+*An entire [[printed circuit board]] (PCB), or more specifically, the electrically insulating portion of a PCB structure, such as fiberglass bound together with epoxy cement
+
+==  Other uses ==
+*[[Substratum (linguistics)]], in linguistics, a language that influences but is supplanted by a second language
+*[[Neural substrate]], in neuroscience, the set of brain structures that underlies a specific behavior or psychological state
+
+== See also ==
+*[[Monism]], for the concept of the Universal substrate in philosophy
+*[[Reagent]]
+*[[Reactant]]
+*[[Superstrate]]
+*[[Substrata (disambiguation)]]
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

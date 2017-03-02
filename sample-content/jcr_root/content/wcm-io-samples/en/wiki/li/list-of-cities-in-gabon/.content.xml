@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="List of cities in Gabon"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="List of cities in Gabon" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Image:Carte_gabon.png|thumb|right|250px|Map of Gabon]]
+[[File:Libreville1.jpg|thumb|right|250px|[[Libreville]], Capital of [[Gabon]]]]
+[[File:POG-From The Air.jpg|thumb|right|250px|[[Port-Gentil]]]]
+This is a list of cities and towns in [[Gabon]]:
+*[[Akok]]
+*[[Bakoumba]]
+*[[Batouala]]
+*[[Belinga]]
+*[[Bifoun]]
+*[[Bitam]]
+*[[Bongoville]]
+*[[Booué]]
+*[[Cocobeach]]
+*[[Ekata]]
+*[[Eteke]]
+*[[Fougamou]]
+*[[Franceville]]
+*[[Gamba, Gabon|Gamba]]
+*[[Kango]]
+*[[Koulamoutou]]
+*[[Lalara]]
+*[[Lambaréné]]
+*[[Lastoursville]]
+*[[Leconi]]
+*[[Libreville]] (capital)
+*[[Makokou]]
+*[[Mayumba]]
+*[[Mbigou]]
+*[[Médouneu]]
+*[[Mékambo]]
+*[[Mimongo]]
+*[[Minvoul]]
+*[[Mitzic]]
+*[[Moanda]]
+*[[Momo, Gabon|Momo]]
+*[[Mouila]]
+*[[Mounana]]
+*[[Ndendé]]
+*[[Ndjolé]]
+*[[Nkan]]
+*[[Nkolabona]]
+*[[Ntoum]]
+*[[Okandja]]
+*[[Omboué]] (also known as Fernan Vaz)
+*[[Owendo]]
+*[[Oyem]]
+*[[Petit Loango]]
+*[[Point Denis]]
+*[[Port-Gentil]]
+*[[Santa Clara, Gabon|Santa Clara]]
+*[[Sette Cama]]
+*[[Ste. Marie]]
+*[[Tchibanga]]
+*[[Tsogni]]
+*[[Zoula]]
+
+{| class=&amp;quot;wikitable&amp;quot;
+|-----
+|colspan=&amp;quot;6&amp;quot; align=&amp;quot;center&amp;quot; bgcolor=&amp;quot;#FFA500&amp;quot; | &amp;apos;&amp;apos;&amp;apos;Cities of Gabon&amp;apos;&amp;apos;&amp;apos;
+|-----
+|rowspan=&amp;quot;2&amp;quot; align=&amp;quot;center&amp;quot; bgcolor=&amp;quot;#98FB98&amp;quot; | &amp;apos;&amp;apos;&amp;apos;Order&amp;apos;&amp;apos;&amp;apos; || rowspan=&amp;quot;2&amp;quot; align=&amp;quot;center&amp;quot; bgcolor=&amp;quot;#98FB98&amp;quot; | &amp;apos;&amp;apos;&amp;apos;City&amp;apos;&amp;apos;&amp;apos; || colspan=&amp;quot;2&amp;quot; align=&amp;quot;center&amp;quot; bgcolor=&amp;quot;#98FB98&amp;quot; | &amp;apos;&amp;apos;&amp;apos;Population&amp;apos;&amp;apos;&amp;apos; ||  rowspan=&amp;quot;2&amp;quot; align=&amp;quot;center&amp;quot; bgcolor=&amp;quot;#98FB98&amp;quot; | &amp;apos;&amp;apos;&amp;apos;Province&amp;apos;&amp;apos;&amp;apos;
+|-----
+|align=&amp;quot;center&amp;quot; bgcolor=&amp;quot;#98FB98&amp;quot; | &amp;apos;&amp;apos;&amp;apos;Census 1993&amp;apos;&amp;apos;&amp;apos; || align=&amp;quot;center&amp;quot; bgcolor=&amp;quot;#98FB98&amp;quot; | &amp;apos;&amp;apos;&amp;apos;2006 (calculated)&amp;apos;&amp;apos;&amp;apos;
+|-----
+|align=right | 1. || [[Libreville]] || align=right | 419,596 || align=right | 591,356 || [[Estuaire Province|Estuaire]]
+|-----
+|align=right | 2. || [[Port-Gentil]] || align=right | 79,225 || align=right | 111,655 || [[Ogooué-Maritime]]
+|-----
+|align=right | 3. || [[Franceville|Masuku (Franceville)]] || align=right | 31,183 || align=right | 43,948 || [[Haut-Ogooué]]
+|-----
+|align=right | 4. || [[Oyem]] || align=right | 22,404 || align=right | 31,575 || [[Woleu-Ntem]]
+|-----
+|align=right | 5. || [[Moanda]] || align=right | 21,882 || align=right | 30,839 || [[Haut-Ogooué]]
+|-----
+|align=right | 6. || [[Mouila]] || align=right | 16,307 || align=right | 22,982 || [[Ngounié]]
+|-----
+|align=right | 7. || [[Lambaréné]] || align=right | 15,033 || align=right | 21,187 || [[Moyen-Ogooué]]
+|-----
+|align=right | 8. || [[Tchibanga]] || align=right | 14,054 || align=right | 19,807 || [[Nyanga Province|Nyanga]]
+|-----
+|align=right | 9. || [[Koulamoutou]] || align=right | 11,773 || align=right | 16,592 || [[Ogooué-Lolo]]
+|-----
+|align=right | 10. || [[Makokou]] || align=right | 9,849 || align=right | 13,881 || [[Ogooué-Ivindo]]
+|}
+
+{{Africa in topic|List of cities in}}
+{{Gabon topics}}
+
+[[Category:Lists of cities by country|Gabon, List of cities in]]
+[[Category:Populated places in Gabon| ]]
+[[Category:Lists of cities in Africa|Gabon]]
+[[Category:Gabon-related lists|Cities]]
+
+[[it:Gabon#Città principali]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

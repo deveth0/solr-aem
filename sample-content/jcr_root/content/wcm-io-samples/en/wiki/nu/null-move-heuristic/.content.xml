@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Null-move heuristic"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Null-move heuristic" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[computer chess]] programs, the &amp;apos;&amp;apos;&amp;apos;null-move heuristic&amp;apos;&amp;apos;&amp;apos; is a [[heuristic (computer science)|heuristic]] technique used to enhance the speed of the [[alpha-beta pruning]] [[algorithm]].
+
+== Rationale ==
+
+[[Alpha-beta pruning]] speeds the [[minimax algorithm]] by identifying &amp;apos;&amp;apos;cutoffs&amp;apos;&amp;apos;, points in the [[game tree]] where the current position is so good for the side to move that best play by the other side would have avoided it.  Since such positions could not have resulted from best play, they and all branches of the game tree stemming from them can be ignored.  The faster the program produces cutoffs, the faster the search runs. The null-move heuristic is designed to guess cutoffs with less effort than would otherwise be required, whilst retaining a reasonable level of accuracy.
+
+The null-move heuristic is based on the fact that most reasonable chess moves improve the position for the side that played them.  So, if the player whose turn it is to move can forfeit the right to move (or make a &amp;apos;&amp;apos;&amp;apos;&amp;quot;null move&amp;quot;&amp;apos;&amp;apos;&amp;apos; - an illegal action in [[chess]]) and still have a position strong enough to produce a cutoff, then the current position would almost certainly produce a cutoff if the current player actually moved.
+
+== Implementation ==
+
+In employing the null-move heuristic, the computer program first forfeits the turn of the side whose turn it is to move, and then performs an alpha-beta search on the resulting position to a shallower depth than it would have searched the current position had it not used the null move heuristic.  If this shallow search produces a cutoff, it assumes the full-depth search in the absence of a forfeited turn would also have produced a cutoff.  Because a shallow search is faster than deeper search, the cutoff is found faster, accelerating the computer chess program.  If the shallow search fails to produce a cutoff, then the program must make the full-depth search.
+
+This approach makes two assumptions.  First, it assumes that the disadvantage of forfeiting one&amp;apos;s turn is greater than the disadvantage of performing a shallower search.  Provided the shallower search is not too much shallower (in practical implementation, the null-move search is usually 2 or 3 [[ply (game theory)|plies]] shallower than the full search would have been), this is usually true.  Second, it assumes that the null-move search will produce a cutoff frequently enough to justify the time spent performing null-move searches instead of full searches.  In practice, this is also usually true.
+
+== Problems with the null-move heuristic ==
+
+There are a class of chess positions where employing the null-move heuristic can result in severe tactical blunders.  In these &amp;apos;&amp;apos;[[zugzwang]]&amp;apos;&amp;apos; (German for &amp;quot;forced to move&amp;quot;) positions, the player whose turn it is to move has only bad moves as their legal choices, and so would actually be better off if allowed to forfeit the right to move.  In these positions, the null-move heuristic may produce a cutoff where a full search would not have found one, causing the program to assume the position is very good for a side it may in fact be very bad for.
+
+To avoid using the null-move heuristic in zugzwang positions, most chess-playing programs that use the null-move heuristic put restrictions on its use.  Such restrictions often include not using the null-move heuristic if
+*the side to move is in check
+*the side to move has only its king and pawns remaining
+*the side to move has a small number of pieces remaining
+*the previous move in the search was also a null move.
+
+== Verified null-move pruning ==
+
+Another heuristic for dealing with the zugzwang problem is Omid David and [[Nathan Netanyahu]]&amp;apos;s &amp;apos;&amp;apos;&amp;apos;verified null-move pruning&amp;apos;&amp;apos;&amp;apos;. In verified null-move pruning, whenever the shallow null-move search indicates a fail-high, instead of cutting off the search from the current node, the search is continued with reduced depth.
+
+== See also ==
+* [[Null move]]
+* [[Zugzwang]]
+
+==References==
+*{{citation
+ | last1 = Goetsch | first1 = G.
+ | last2 = Campbell | first2 = M. S. | author2-link = Murray Campbell
+ | editor1-last = Marsland | editor1-first = T. Anthony
+ | editor2-last = Schaeffer | editor2-first = Jonathan | editor2-link = Jonathan Schaeffer
+ | contribution = Experiments with the null-move heuristic
+ | pages = 159–168
+ | publisher = Springer-Verlag
+ | title = Computers, Chess, and Cognition
+ | year = 1990}}.
+*{{citation
+ | last1 = David | first1 = Omid
+ | last2 = Netanyahu | first2 = Nathan | author2-link = Nathan Netanyahu
+ | arxiv = 0808.1125
+ | issue = 3
+ | journal = ICGA Journal
+ | pages = 153–161
+ | title = Verified null-move pruning
+ | volume = 25
+ | year = 2002}}.
+
+[[Category:Computer chess]]
+[[Category:Search algorithms]]
+[[Category:Heuristics]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

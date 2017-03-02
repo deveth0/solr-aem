@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Quaker Meeting"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Quaker Meeting" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Quaker Meeting&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* [[Monthly meeting]] (or Area meeting in the UK), the basic organisational unit in the Religious Society of Friends (Quakers)
+* [[Preparative meeting]] (or Preparatory meeting; Local meeting in the UK), a common basic local worship group in the [[Religious Society of Friends]]
+* [[Meeting for worship]], a Quaker religious practice somewhat akin to a church service
+* [[Quaker Meeting (child&amp;apos;s game)]], a children&amp;apos;s game
+
+==See also==
+* [[Friends meeting house]], where Quaker Meetings for worship often take place
+* [[List of Quaker meeting houses]]
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="The Country Girl"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="The Country Girl" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;The Country Girl&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; may refer to:
+* [[The Country Girl (1885 play)|&amp;apos;&amp;apos;The Country Girl&amp;apos;&amp;apos; (1885 play)]], a play by [[David Garrick]]
+** [[The Country Girl (1915 film)|&amp;apos;&amp;apos;The Country Girl&amp;apos;&amp;apos; (1915 film)]], a 1915 silent film, based on the Garrick play
+* [[The Country Girl (1950 play)|&amp;apos;&amp;apos;The Country Girl&amp;apos;&amp;apos; (1950 play)]], a play by [[Clifford Odets]]
+** [[The Country Girl (1954 film)|&amp;apos;&amp;apos;The Country Girl&amp;apos;&amp;apos; (1954 film)]], a 1954 film based on the Odets play, starring Bing Crosby and Grace Kelly
+* [[The Country Girl (Hallmark)|&amp;apos;&amp;apos;The Country Girl&amp;apos;&amp;apos; (Hallmark)]], a 1974 presentation in the [[Hallmark Hall of Fame]].
+* &amp;apos;&amp;apos;[[The Country Girls]]&amp;apos;&amp;apos;, a 1960 novel
+
+==See also==
+* &amp;apos;&amp;apos;[[A Country Girl]]&amp;apos;&amp;apos;, a long-running British 1902 musical
+*[[Country Girl (disambiguation)]]
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

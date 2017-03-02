@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="File:Justice league green lantern.jpg"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="File:Justice league green lantern.jpg" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;== Fair use rationale ==
+{{Non-free use rationale| Article           = Green Lantern in other media
+| Description       = Screen capture of Green Lantern for either &amp;apos;&amp;apos;[[Justice League (TV series)|Justice League]]&amp;apos;&amp;apos; or &amp;apos;&amp;apos;[[Justice League Unlimited]]&amp;apos;&amp;apos;.
+| Source            = Apparent capture made by the original uploader [[User:Zanimum]].
+| Portion           = Single Frame.
+| Resolution        = 300px size unsuitable to use for high end reproduction.
+| Purpose           = Illustration of specific point within the article.
+| Replaceability    = {{Comics-replaceability}}
+| other_information = {{DCAni-trademark-copyright|2001-2006}}
+}}
+
+==Licensing==
+{{Non-free television screenshot|image has rationale=yes}}
+
+[[Category:DC animated universe screenshots and pictures|Green lantern (stewart, john)]]&amp;lt;!-- left in the parent as unclear which series this was taken from--&amp;gt;
+[[Category:Green Lantern images|Green lantern (stewart, john)]]
+{{comicsyrimage|2001|television|Justice league||in=y}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

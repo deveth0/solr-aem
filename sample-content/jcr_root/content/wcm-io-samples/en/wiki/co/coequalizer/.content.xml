@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Coequalizer"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Coequalizer" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[category theory]], a &amp;apos;&amp;apos;&amp;apos;coequalizer&amp;apos;&amp;apos;&amp;apos; (or &amp;apos;&amp;apos;&amp;apos;coequaliser&amp;apos;&amp;apos;&amp;apos;) is a generalization of a [[quotient set|quotient]] by an [[equivalence relation]] to objects in an arbitrary [[category (mathematics)|category]]. It is the categorical construction [[dual (category theory)|dual]] to the [[equaliser (mathematics)|equalizer]] (hence the name).
+
+== Definition ==
+
+A &amp;apos;&amp;apos;&amp;apos;coequalizer&amp;apos;&amp;apos;&amp;apos; is a [[colimit]] of the diagram consisting of two objects &amp;apos;&amp;apos;X&amp;apos;&amp;apos; and &amp;apos;&amp;apos;Y&amp;apos;&amp;apos; and two parallel [[morphism]]s &amp;apos;&amp;apos;f&amp;apos;&amp;apos;, &amp;apos;&amp;apos;g&amp;apos;&amp;apos; : &amp;apos;&amp;apos;X&amp;apos;&amp;apos; → &amp;apos;&amp;apos;Y&amp;apos;&amp;apos;.
+
+More explicitly, a coequalizer can be defined as an object &amp;apos;&amp;apos;Q&amp;apos;&amp;apos; together with a morphism &amp;apos;&amp;apos;q&amp;apos;&amp;apos; : &amp;apos;&amp;apos;Y&amp;apos;&amp;apos; → &amp;apos;&amp;apos;Q&amp;apos;&amp;apos; such that &amp;apos;&amp;apos;q&amp;apos;&amp;apos; ∘ &amp;apos;&amp;apos;f&amp;apos;&amp;apos; = &amp;apos;&amp;apos;q&amp;apos;&amp;apos; ∘ &amp;apos;&amp;apos;g&amp;apos;&amp;apos;. Moreover, the pair (&amp;apos;&amp;apos;Q&amp;apos;&amp;apos;, &amp;apos;&amp;apos;q&amp;apos;&amp;apos;) must be [[universal property|universal]] in the sense that given any other such pair (&amp;apos;&amp;apos;Q&amp;apos;&amp;apos;&amp;amp;prime;, &amp;apos;&amp;apos;q&amp;apos;&amp;apos;&amp;amp;prime;) there exists a unique morphism &amp;apos;&amp;apos;u&amp;apos;&amp;apos; : &amp;apos;&amp;apos;Q&amp;apos;&amp;apos; → &amp;apos;&amp;apos;Q&amp;apos;&amp;apos;&amp;amp;prime; for which the following diagram [[commutative diagram|commutes]]:
+
+&amp;lt;div style=&amp;quot;text-align: center;&amp;quot;&amp;gt;[[Image:Coequalizer-01.png]]&amp;lt;/div&amp;gt;
+
+As with all [[universal construction]]s, a coequalizer, if it exists, is unique [[up to]] a unique [[isomorphism]] (this is why, by abuse of language, one sometimes speaks of &amp;quot;the&amp;quot; coequalizer of two parallel arrows).
+
+It can be shown that a coequalizer &amp;apos;&amp;apos;q&amp;apos;&amp;apos; is an [[epimorphism]] in any category.
+
+== Examples ==
+
+*In the [[category of sets]], the coequalizer of two [[function (mathematics)|function]]s &amp;apos;&amp;apos;f&amp;apos;&amp;apos;, &amp;apos;&amp;apos;g&amp;apos;&amp;apos; : &amp;apos;&amp;apos;X&amp;apos;&amp;apos; → &amp;apos;&amp;apos;Y&amp;apos;&amp;apos; is the [[quotient set|quotient]] of &amp;apos;&amp;apos;Y&amp;apos;&amp;apos; by the smallest [[equivalence relation]] &amp;lt;math&amp;gt;~\sim&amp;lt;/math&amp;gt; such that for every &amp;lt;math&amp;gt;x\in X&amp;lt;/math&amp;gt;, we have &amp;lt;math&amp;gt;f(x)\sim g(x)&amp;lt;/math&amp;gt;. In particular, if &amp;apos;&amp;apos;R&amp;apos;&amp;apos; is an equivalence relation on a set &amp;apos;&amp;apos;Y&amp;apos;&amp;apos;, and &amp;apos;&amp;apos;r&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt;, &amp;apos;&amp;apos;r&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt; are the natural projections (&amp;apos;&amp;apos;R&amp;apos;&amp;apos; ⊂ &amp;apos;&amp;apos;Y&amp;apos;&amp;apos; &amp;amp;times; &amp;apos;&amp;apos;Y&amp;apos;&amp;apos;) → &amp;apos;&amp;apos;Y&amp;apos;&amp;apos; then the coequalizer of &amp;apos;&amp;apos;r&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt; and &amp;apos;&amp;apos;r&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt; is the quotient set &amp;apos;&amp;apos;Y&amp;apos;&amp;apos;/&amp;apos;&amp;apos;R&amp;apos;&amp;apos;.
+
+*The coequalizer in the [[category of groups]] is very similar. Here if &amp;apos;&amp;apos;f&amp;apos;&amp;apos;, &amp;apos;&amp;apos;g&amp;apos;&amp;apos; : &amp;apos;&amp;apos;X&amp;apos;&amp;apos; → &amp;apos;&amp;apos;Y&amp;apos;&amp;apos; are [[group homomorphism]]s, their coequalizer is the [[quotient group|quotient]] of &amp;apos;&amp;apos;Y&amp;apos;&amp;apos; by the [[Normal closure (group theory)|normal closure]] of the set
+:&amp;lt;math&amp;gt;S=\{f(x)g(x)^{-1}\ |\ x\in X\}&amp;lt;/math&amp;gt;
+
+*For [[abelian group]]s the coequalizer is particularly simple. It is just the [[factor group]] &amp;apos;&amp;apos;Y&amp;apos;&amp;apos; / im(&amp;apos;&amp;apos;f&amp;apos;&amp;apos; – &amp;apos;&amp;apos;g&amp;apos;&amp;apos;). (This is the [[cokernel]] of the morphism &amp;apos;&amp;apos;f&amp;apos;&amp;apos; – &amp;apos;&amp;apos;g&amp;apos;&amp;apos;; see the next section).
+
+*In the [[category of topological spaces]], the circle object &amp;lt;math&amp;gt;S^1&amp;lt;/math&amp;gt; can be viewed as the coequalizer of the two inclusion maps from the standard 0-simplex to the standard 1-simplex.
+
+*Coequalisers can be large: There are exactly two functors from the category &amp;apos;&amp;apos;&amp;apos;1&amp;apos;&amp;apos;&amp;apos; having one object and one identity arrow, to the category &amp;apos;&amp;apos;&amp;apos;2&amp;apos;&amp;apos;&amp;apos; with two objects and exactly one non-identity arrow going between them. The coequaliser of these two functors is the monoid of natural numbers under addition, considered as a one-object category. In particular, this shows that while every coequalising arrow is [[Epimorphism|epic]], it is not necessarily [[Surjective_function|surjective]].
+
+== Properties ==
+*In a [[topos]], every [[epimorphism]] is the coequalizer of its kernel pair.
+*Every coequalizer is an epimorphism.
+
+== Special cases ==
+
+In categories with [[zero morphism]]s, one can define a &amp;apos;&amp;apos;[[cokernel]]&amp;apos;&amp;apos; of a morphism &amp;apos;&amp;apos;f&amp;apos;&amp;apos; as the coequalizer of &amp;apos;&amp;apos;f&amp;apos;&amp;apos; and the parallel zero morphism.
+
+In [[preadditive category|preadditive categories]] it makes sense to add and subtract morphisms (the [[hom-set]]s actually form [[abelian group]]s). In such categories, one can define the coequalizer of two morphisms &amp;apos;&amp;apos;f&amp;apos;&amp;apos; and &amp;apos;&amp;apos;g&amp;apos;&amp;apos; as the cokernel of their difference:
+:coeq(&amp;apos;&amp;apos;f&amp;apos;&amp;apos;, &amp;apos;&amp;apos;g&amp;apos;&amp;apos;) = coker(&amp;apos;&amp;apos;g&amp;apos;&amp;apos; – &amp;apos;&amp;apos;f&amp;apos;&amp;apos;).
+
+A stronger notion is that of an &amp;apos;&amp;apos;&amp;apos;absolute coequalizer&amp;apos;&amp;apos;&amp;apos;, this is a coequalizer that is preserved under all [[functors]].
+Formally, an absolute coequalizer of a pair &amp;lt;math&amp;gt;f,g: X \to Y&amp;lt;/math&amp;gt; in a category C is a coequalizer as defined above but with the added property that given any functor &amp;lt;math&amp;gt;F: C \to D&amp;lt;/math&amp;gt; F(Q) together with F(q) is the coequalizer of F(f) and F(g) in the category D. [[Split coequalizers]] are examples of absolute coequalizers.
+
+== See also ==
+*[[equalizer (mathematics)]]
+*[[coproduct]]
+*[[Pushout (category theory)|pushout]]
+
+== References ==
+*[[Saunders Mac Lane]]: [[Categories for the Working Mathematician]], Second Edition, 1998.
+*Coequalizers - page 65
+*Absolute coequalizers - page 149
+
+== External links ==
+*[http://www.j-paine.org/cgi-bin/webcats/webcats.php Interactive Web page ] which generates examples of coequalizers in the category of finite sets. Written by [http://www.j-paine.org/ Jocelyn Paine].
+
+[[Category:Limits (category theory)]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

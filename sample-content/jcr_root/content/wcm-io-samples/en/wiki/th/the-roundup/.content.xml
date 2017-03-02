@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="The Roundup"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="The Roundup" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|auto=yes|date=December 2009}}
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;The Roundup&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; was a weekday afternoon program on the [[CBC Radio One|Radio One]] network of the [[Canadian Broadcasting Corporation]], hosted by [[Tetsuro Shigematsu]] and [[Bill Richardson (radio)|Bill Richardson]] at different times. It was heard Monday to Friday from 2:00 to 4:00 p.m. (2:30 to 4:30 in [[Newfoundland and Labrador|Newfoundland]]). The show mixed music with calls and letters from listeners, which were often comic in nature, and feature interviews. The show was produced by [[CBU (AM)|CBU]] in [[Vancouver, British Columbia|Vancouver]].
+
+The show was originally hosted by [[Bill Richardson (radio)|Bill Richardson]] and called &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Richardson&amp;apos;s Roundup&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;. It was created in 1997 to replace [[Vicki Gabereau]]&amp;apos;s show, when she left to do a television show with [[CTV Television Network|CTV]]. Shigematsu, an occasional guest host, became the show&amp;apos;s permanent host in 2004 when Richardson left to launch the new series &amp;apos;&amp;apos;[[Bunny Watson]]&amp;apos;&amp;apos;.
+
+The show&amp;apos;s phone number was 1-888-SAD GOAT, and the goat was the symbol for the show.  Richardson discovered that the show&amp;apos;s phone number accidentally spelled out the phrase &amp;quot;sad goat&amp;quot;, and the concept was elaborated on ever since.
+
+The phone number (723 4628) was to be 1 888 RADIO2U but when they realised how cumbersome that would be to explain, they looked for alternative spellings, and &amp;apos;sad goat&amp;apos; was born.
+
+In 2005, the show was cancelled and replaced with &amp;apos;&amp;apos;[[Freestyle (radio program)|Freestyle]]&amp;apos;&amp;apos;.
+
+{{DEFAULTSORT:Roundup, The}}
+[[Category:CBC Radio One programs]]
+
+
+{{Canada-radio-show-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

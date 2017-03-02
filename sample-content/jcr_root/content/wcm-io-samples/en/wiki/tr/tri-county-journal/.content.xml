@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Tri County Journal"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Tri County Journal" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Tri-County Journal&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is owned by [[Pulitzer, Inc.|Pulitzer]] Publications, founded in 1878, the same owner as the &amp;apos;&amp;apos;[[St. Louis Post-Dispatch]]&amp;apos;&amp;apos;.  It covers the local news in [[Pacific, Missouri|Pacific]], [[Eureka, Missouri|Eureka]], [[Robertsville, Missouri|Robertsville]], [[Villa Ridge, Missouri|Villa Ridge]], [[Labadie, Missouri|Labadie]], [[Catawissa, Missouri|Catawissa]], [[St. Clair, Missouri|St. Clair]], and [[Gray Summit, Missouri|Gray Summit]].
+
+The Tri-County Journal was formerly delivered free of charge to residents of [[Jefferson County, Missouri|Jefferson]], [[Franklin County, Missouri|Franklin]], and [[St. Louis County, Missouri|St. Louis]] counties on Tuesdays.  The paper now requires a subscription.
+
+Some recipients of the newspaper{{Who|date=March 2009}} believe that the &amp;apos;&amp;apos;Tri-County Journal&amp;apos;&amp;apos; tends to have a St. Louis County bias on local news stories and prefer to get their news from the &amp;apos;&amp;apos;[[Washington Missourian]]&amp;apos;&amp;apos; instead.{{Fact|date=March 2009}}
+
+While the paper was free, one of the more popular and controversial sections was the sound off section.  This section allowed readers of the paper to call an answering machine and leave comments to be printed in the paper.  A name was not required to have these comments printed.
+
+==External links==
+*[http://www.stltoday.com/Neighborhoods/tri-countyjournal Tri-County Journal online]
+
+[[Category:Newspapers published in Missouri]]
+[[Category:Publications established in 1878]]
+[[Category:Weekly newspapers published in the United States]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Barranyi (North Island) National Park"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Barranyi (North Island) National Park" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{unreferenced|date=March 2013}}
+{{Infobox protected area of Australia | name = Barranyi (North Island) National Park
+  | iucn_category = II
+  | image = Australia_Locator_Map.svg
+  | caption =
+  | locator_x = 162
+  | locator_y = 34
+  | nearest_town_or_city  = [[Borroloola, Northern Territory|Borroloola]]
+  | coordinates = {{coord|15|34|10|S|136|52|10|E|type:landmark_region:AU}}
+  | area = 45.21 km²
+  | established = 1991
+  | visitation_num =
+  | visitation_year =
+  | managing_authorities = Parks and Wildlife Commission of the Northern Territory&amp;lt;br&amp;gt;Aboriginal traditional land owners
+  | official_site = [http://www.nt.gov.au/nreta/parks/find/barranyi.html Barranyi (North Island) National Park]
+}}
+&amp;apos;&amp;apos;&amp;apos;Barranyi (North Island) National Park&amp;apos;&amp;apos;&amp;apos; is in the [[Gulf of Carpentaria]] in the [[Northern Territory]] of [[Australia]], 737&amp;amp;nbsp;km southeast of [[Darwin, Northern Territory|Darwin]].
+
+==See also==
+*[[Protected areas of the Northern Territory (Australia)]]
+
+{{National Parks of the Northern Territory}}
+
+[[Category:National parks of the Northern Territory]]
+[[Category:Protected areas established in 1991]]
+[[Category:1991 establishments in Australia]]
+
+
+{{NorthernTerritory-geo-stub}}
+{{Australia-protected-area-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

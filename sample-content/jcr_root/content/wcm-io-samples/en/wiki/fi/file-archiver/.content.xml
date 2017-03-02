@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="File archiver"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="File archiver" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{merge to|Archive file|date=May 2012}}
+{{unreferenced|date=January 2011}}
+A &amp;apos;&amp;apos;&amp;apos;file archiver&amp;apos;&amp;apos;&amp;apos; is a [[computer program]] that combines a number of [[computer file|files]] together into one [[archive file]], or a series of archive files, for easier transportation or storage. File archivers may employ [[lossless data compression]] in their [[archive format]]s to reduce the size of the archive.
+
+Basic archivers just take a list of files and concatenate their contents sequentially into archives. The archive files need to store [[metadata]], at least the names and lengths of the original files, if proper reconstruction is possible. More advanced archivers store additional metadata, such as the [[Timestamping (computing)|original timestamps]], [[file attribute]]s or [[access control list]]s.
+
+The process of making an archive file is called &amp;apos;&amp;apos;archiving&amp;apos;&amp;apos; or &amp;apos;&amp;apos;packing&amp;apos;&amp;apos;. Reconstructing the original files from the archive is termed &amp;apos;&amp;apos;unarchiving&amp;apos;&amp;apos;, &amp;apos;&amp;apos;unpacking&amp;apos;&amp;apos; or &amp;apos;&amp;apos;extracting&amp;apos;&amp;apos;.
+
+==Unix archivers==
+The [[Unix]] tools &amp;apos;&amp;apos;[[ar (Unix)|ar]]&amp;apos;&amp;apos;, &amp;apos;&amp;apos;[[tar (file format)|tar]]&amp;apos;&amp;apos;, &amp;apos;&amp;apos;[[cpio]]&amp;apos;&amp;apos; act as archivers but not compressors. Users of the Unix tools use additional compression tools, such as [[gzip]] or [[bzip2]], to compress the archive file after packing or remove compression before unpacking the archive file. The [[filename extension]]s are successively added at each step of this process. For example, archiving a collection of files with &amp;apos;&amp;apos;tar&amp;apos;&amp;apos; and then compressing the resulting archive file with &amp;apos;&amp;apos;gzip&amp;apos;&amp;apos; results a file with &amp;lt;code&amp;gt;.tar.gz&amp;lt;/code&amp;gt; extension.
+
+This approach has two goals:
+#It follows the [[Unix philosophy]] that each program should accomplish a single task to perfection, as opposed to attempting to accomplish everything with one tool. As compression technology progresses, users may use different compression programs without having to modify or abandon their archiver.
+#The archives use [[solid compression]]. When the files are combined, the compressor can exploit redundancy across several archived files and achieve better compression than a compressor that compresses each files individually.
+
+This approach, however, has disadvantages too:
+#Extracting or modifying one file is difficult. Extracting one file requires decompressing an entire archive, which can be time- and space-consuming. Modifying one means the file needs to be put back into archive and the archive recompressed again. This operation requires additional time and disk space.
+#The archive becomes damage-prone. If the area holding shared data for several files is damaged, all those files are lost.
+#It&amp;apos;s impossible to take advantage of redundancy between files unless the compression window is larger than the size of an individual file. For example, gzip uses [[DEFLATE]], which typically operates with a 32768 byte window, whereas bzip2 uses a [[Burrows-Wheeler transform]] roughly 30 times bigger.
+
+==Windows archives==
+The built-in archiver of [[Microsoft Windows]] as well as third-party archiving software, such as [[WinZip]], [[WinRAR]] and [[7-zip]], often use a [[graphical user interface]]. The last three also offer an optional [[command-line interface]] but Windows itself does not. Windows archivers perform both archiving and compression. [[solid compression]] may or may not be offered, depending on the product: Windows itself does not support it; WinRAR and 7-zip offer it as an option that can be turned on or off.
+
+== See also ==
+* [[Comparison of file archivers]]
+* [[Archive format]]
+* [[List of archive formats]]
+* [[Comparison of archive formats]]
+
+== External links ==
+* {{dmoz|Computers/Data_Formats/Archive/|Archive formats}}
+
+{{DEFAULTSORT:File Archiver}}
+[[Category:Storage systems]]
+[[Category:Computer file systems]]
+[[Category:Computer archives]]
+[[Category:File archivers| ]]
+[[Category:Utility software types]]
+
+
+{{storage-software-stub}}
+{{software-type-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

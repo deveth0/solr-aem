@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Abated"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Abated" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{no footnotes|date=January 2013}}
+:&amp;apos;&amp;apos;See also, [[Abatement (disambiguation)|Abatement]].&amp;apos;&amp;apos;
+&amp;apos;&amp;apos;&amp;apos;Abated&amp;apos;&amp;apos;&amp;apos;, an ancient technical term applied in [[masonry]] and [[metal]] work to those portions which are sunk beneath the surface, as in inscriptions where the ground is sunk round the letters so as to leave the letters or ornament in relief.
+{{Wikisource1911Enc|Abated}}
+&amp;apos;&amp;apos;From [[1911 Encyclopædia Britannica]]&amp;apos;&amp;apos;
+
+[[Category:Construction]]
+[[Category:Masonry]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

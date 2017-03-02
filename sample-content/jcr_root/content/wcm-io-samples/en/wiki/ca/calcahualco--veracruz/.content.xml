@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Calcahualco, Veracruz"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Calcahualco, Veracruz" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Calcahualco&amp;apos;&amp;apos;&amp;apos; is a city in the [[Mexican state]] of [[Veracruz]].
+It serves as the municipal seat for the [[Calcahualco (municipality)|surrounding municipality of the same name]].
+
+
+The [[coffee]] grown in Calcahualco is famous.
+
+{{coord missing|Veracruz}}
+
+== External links ==
+* {{es icon}} [http://www.calcahualco.gob.mx Municipal Official Site]
+* {{es icon}} [http://portal.veracruz.gob.mx/portal/page?_pageid=153,4493464&amp;amp;_dad=portal&amp;amp;_schema=PORTAL&amp;amp;municipio=calcahualco.pdf Municipal Official Information]
+
+
+
+[[Category:Populated places in Veracruz]]
+
+{{Veracruz-geo-stub}}
+{{Veracruz}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

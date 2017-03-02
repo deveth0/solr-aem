@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Xclusive Magazine"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Xclusive Magazine" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox Magazine|
+  title          = Xclusive &amp;apos;&amp;apos;Magazine&amp;apos;&amp;apos;|
+  image_file =  | image_size = 200px ||
+  editor         = Peter Anny-Nzekwue |
+  frequency      = Monthly |
+  category       = [[Lifestyle (sociology)|Lifestyle]]|
+  company        =   |
+  firstdate      = 2006 |
+  finaldate      = - |
+  finalnumber    = - |
+  country        = [[Ireland]] |
+  website        = [http://www.xclusive.ie www.xclusive.ie] |
+
+}}
+
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Xclusive Magazine&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is [[Ireland]]&amp;apos;s first and only multicultural celebrity magazine. It is published in the first week of every month.
+
+==About Xclusive Magazine==
+Xclusive Magazine...Ireland&amp;apos;s African only lifestyle monthly and the first and only African magazine to break into the mainstream Irish media market.
+
+It is a 70-page full colour monthly, glossy, entertaining, newsworthy, thought-provoking and contemporary in look and appeal, with a highly experienced editorial team.
+
+It celebrates African people and affirms Ireland&amp;apos;s multicultural life. It captures the world of entertainment and engages the readership with regular coverage, in pictures and titbits, of social, professional, fashion, religious, musical events and general lifestyle.
+
+The main readers of &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Xclusive Magazine&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; are Africans and ethnic minority people in Ireland, but it is creatively packaged to appeal to everyone.
+
+Xclusive Magazine is sold in Eason&amp;apos;s, African shops and most Newsagents all over Ireland, plus Belfast and London.
+
+== External links ==
+* [http://www.xclusive.ie/23/jokafor.html Xclusive Interview]
+* [http://www.xclusive.ie/23/jiyke.html Xclusive Interview]
+* [http://www.marketing.ie/index.jsp?p=323&amp;amp;n=357&amp;amp;a=431 origins of Xclusive]
+
+[[Category:Monthly magazines]]
+[[Category:Entertainment magazines]]
+[[Category:Irish magazines]]
+
+
+{{entertainment-mag-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

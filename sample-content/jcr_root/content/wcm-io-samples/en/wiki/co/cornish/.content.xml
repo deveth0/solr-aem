@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Cornish"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Cornish" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|Cornish}}
+&amp;apos;&amp;apos;&amp;apos;Cornish&amp;apos;&amp;apos;&amp;apos; is the adjective and demonym associated with [[Cornwall]], the most southwesterly part of the United Kingdom. It may refer to:
+{{TOC right}}
+* The [[Cornish language]]
+* The [[Cornish people]]
+** [[Cornish American]]
+** [[Cornish Australian]]
+** [[Cornish diaspora]]
+* of or relating to the [[culture of Cornwall]]
+* [[Cornish Pirates]], a rugby union team
+
+==People==
+* [[Cornish (surname)]]
+
+==Animals==
+* [[Cornish (chicken)]], a breed of chicken
+* [[Cornish Rex]], a breed of cat
+
+==Places and institutions==
+===United States===
+* [[Cornish, Maine]]
+* [[Cornish Township, Aitkin County, Minnesota]]
+* [[Cornish Township, Sibley County, Minnesota]]
+* [[Cornish, New Hampshire]]
+* [[Cornish, Oklahoma]]
+* [[Cornish, Utah]]
+* [[Cornish College of the Arts]], an institution in Seattle, Washington
+
+==Other uses==
+* &amp;apos;&amp;apos;[[The Cornish Trilogy]]&amp;apos;&amp;apos;, three related novels by Canadian novelist Robertson Davies
+* [[Cornish pilot gig]], a type of rowing boat
+
+==See also==
+* [[Kornis]], a family of [[Nobility in the Kingdom of Hungary]]
+* [[List of topics related to Cornwall]]
+
+{{disambiguation|geo}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

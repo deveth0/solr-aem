@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Bunillidh Thistle F.C."
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Bunillidh Thistle F.C." />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced stub|auto=yes|date=December 2009}}
+&amp;apos;&amp;apos;&amp;apos;Bunillidh Thistle Football Club&amp;apos;&amp;apos;&amp;apos; is a [[Scotland|Scottish]] [[association football|football]] club from [[Helmsdale]]. They compete in the [[North Caledonian Football League]] and play at Couper Park.
+
+==Honours==
+*&amp;apos;&amp;apos;&amp;apos;North Caledonian Football League&amp;apos;&amp;apos;&amp;apos;
+**Champions 1982&amp;amp;ndash;83, 1988&amp;amp;ndash;89
+*&amp;apos;&amp;apos;&amp;apos;PCT Cup&amp;apos;&amp;apos;&amp;apos;
+**Winners 1971&amp;amp;ndash;72, 1981&amp;amp;ndash;82, 2001&amp;amp;ndash;02
+*&amp;apos;&amp;apos;&amp;apos;Football Times Cup&amp;apos;&amp;apos;&amp;apos;
+**Winners 1982&amp;amp;ndash;83, 1986&amp;amp;ndash;87
+*&amp;apos;&amp;apos;&amp;apos;Ness Cup&amp;apos;&amp;apos;&amp;apos;
+**Winners 1973&amp;amp;ndash;74
+*&amp;apos;&amp;apos;&amp;apos;Chic Allan Cup&amp;apos;&amp;apos;&amp;apos;
+**Winners 1976&amp;amp;ndash;77
+
+{{North Caledonian Football League}}
+{{Football in Scotland}}
+
+[[Category:Football clubs in Scotland]]
+
+
+{{Scotland-footyclub-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

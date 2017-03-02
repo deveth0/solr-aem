@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="USS Lawrence (1813)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="USS Lawrence (1813)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{otherships|USS Lawrence}}
+{|{{Infobox Ship Begin}}
+{{Infobox Ship Image
+|Ship image=[[Image:USS Lawrence 1875 NH51253 crop.jpg|300px]]
+|Ship caption=Raised hulk of the USS &amp;apos;&amp;apos;Lawrence&amp;apos;&amp;apos;, Misery Bay, Erie, Pennsylvania, 1875
+}}
+{{Infobox Ship Career
+|Hide header=
+|Ship country=USA
+|Ship flag={{USN flag|1815}}
+|Ship name=
+|Ship namesake=[[James Lawrence]]
+|Ship awarded=18 February 1813
+|Ship builder=Adam and Noah Brown
+|Ship laid down=
+|Ship launched=24 May 1813
+|Ship acquired=
+|Ship commissioned=August 1813
+|Ship decommissioned=
+|Ship in service=
+|Ship out of service=1815
+|Ship struck=
+|Ship honors=
+|Ship fate=Sunk for preservation 1815, raised 1875, lost in 1876 fire
+|Ship status=
+|Ship notes=
+}}
+{{Infobox Ship Characteristics
+|Hide header=
+|Header caption=
+|Ship class=
+|Ship displacement=493 tons
+|Ship length={{convert|109|ft|9|in|abbr=on}}
+|Ship beam={{convert|16|ft|3|in|abbr=on}}
+|Ship draft={{convert|4|ft|8|in|abbr=on}}
+|Ship propulsion=Sail
+|Ship speed=
+|Ship complement=134
+|Ship armament=2 x long 12-pounders, 18 x short 32-pounder cannonades
+|Ship notes=
+}}
+|}
+
+&amp;apos;&amp;apos;&amp;apos;USS &amp;apos;&amp;apos;Lawrence&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; was one of two 493-ton &amp;apos;&amp;apos;Niagara&amp;apos;&amp;apos;-class [[brig]]s (more correctly: [[Snow (ship)|snows]]) built at [[Erie, Pennsylvania]], by [[Adam Brown (shipwright)|Adam]] and [[Noah Brown]] under the supervision of [[Sailing Master]] [[Daniel Dobbins]] and [[Master Commandant]] [[Oliver Hazard Perry]], for [[United States Navy]] service on the [[Great Lakes]] during the [[War of 1812]].
+
+She was commissioned in early August 1813 and quickly began operations with a voyage to [[Detroit, Michigan]] in search of the opposing British squadron. During the 10 September 1813 [[Battle of Lake Erie]], &amp;apos;&amp;apos;Lawrence&amp;apos;&amp;apos; served as [[flagship]] for Perry until she was disabled by enemy fire. Perry then transferred to her sister-ship, the [[USS Niagara (1813)|&amp;apos;&amp;apos;Niagara&amp;apos;&amp;apos;]], from which he fought the battle to a successful conclusion.
+
+In mid-1815, following the end of hostilities, &amp;apos;&amp;apos;Lawrence&amp;apos;&amp;apos; was sunk in Misery Bay on [[Presque Isle State Park|Presque Isle, PA]] in order to preserve her hull. Her submerged hulk was sold in 1825 and, except for a brief examination in 1836, remained underwater for five more decades.
+
+In September 1875, her remains were raised, cut into sections and transported by rail to [[Philadelphia, Pennsylvania]] where she was exhibited during [[Centennial Exposition|The U.S. Centennial International Exhibition of 1876]]. Her remains were destroyed by a fire during that exhibition.
+
+==References==
+*{{NHC}}
+*{{DANFS|http://www.history.navy.mil/danfs/l4/lawrence-i.htm}}
+
+==External links==
+* [http://www.history.navy.mil/photos/sh-usn/usnsh-l/lawrence.htm Photo gallery] at Naval Historical Center
+
+{{Niagara class brig}}
+
+{{DEFAULTSORT:Lawrence}}
+[[Category:Brigs of the United States Navy]]
+[[Category:War of 1812 ships of the United States]]
+[[Category:Great Lakes ships]]
+[[Category:Ships built in Pennsylvania]]
+[[Category:1813 ships]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Foca"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Foca" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The word &amp;apos;&amp;apos;&amp;apos;Foca&amp;apos;&amp;apos;&amp;apos; can refer to:
+* [[Foča]], a town in eastern Bosnia and Herzegovina
+* [[Foča massacres]], atrocities perpetrated in the town of Foča during the 1992-1995 Bosnian War
+* [[Foça]], a town in Turkey, known as Phocaea in ancient times
+* [[Foça Islands]], an island group in the Bay of Izmir, Turkey
+* [[Foca camera]], a brand of French-made rangefinder cameras
+* An alternative spelling of [[Phocas]], a Byzantine emperor between 602 and 610
+
+The acronym &amp;apos;&amp;apos;&amp;apos;FOCA&amp;apos;&amp;apos;&amp;apos; can refer to
+* [[Federal Office for Civil Aviation (disambiguation)]]
+* [[Fellowship of Confessing Anglicans]]
+* [[Fellowship of Christian Artists]]
+* [[Fellowship of Christian Assemblies]]
+* Font Object Content Architecture, part of [[MODCA]]
+* [[Formula One Constructors Association]]
+* [[Freedom of Choice Act]]
+* [[Forces Combattantes Abacunguzi]]
+
+==See also==
+* [[Focas (disambiguation)]]
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="John Patton"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="John Patton" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;John Patton&amp;apos;&amp;apos;&amp;apos; may refer to:
+*[[John Patton (1823–1897)]], U.S. Representative from the U.S. state of Pennsylvania
+*[[John Patton (Detroit mayor)]] (1822–1900), mayor of Detroit, Michigan, 1858–1859
+*[[John Patton, Jr.]] (1850–1907), U.S. Senator from the U.S. state of Michigan
+*[[John Patton (musician)]] (1935–2002), soul jazz organ player
+*[[John Patton (Colonel)]] (1745–1804), Pennsylvania officer in the American Revolutionary War
+*[[John M. Patton]] (1797–1858), U.S. Representative from the U.S. state of Virginia
+*[[John Denniston Patton]] (1829–1904), U.S. Representative from the U.S. state of Pennsylvania
+*[[John Patton (GC)]] (1915–1996), Canadian recipient of the George Cross
+*[[John Sparks Patton]] (1894–1961), Louisiana politician and educator
+
+==See also==
+*[[John Paton (disambiguation)]]
+*[[John Patten (disambiguation)]]
+
+{{hndis|Patton, John}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Interior Gateway Routing Protocol"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Interior Gateway Routing Protocol" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Interior Gateway Routing Protocol&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;&amp;apos;IGRP&amp;apos;&amp;apos;&amp;apos;) is a [[distance-vector routing protocol|distance vector]] [[Interior Gateway Protocol|interior routing protocol (IGP)]] invented by [[Cisco Systems, Inc.|Cisco]]. It is used by [[Router (computing)|router]]s to exchange [[routing]] data within an [[autonomous system (Internet)|autonomous system]].
+
+IGRP is a [[proprietary protocol]].  IGRP was created in part to overcome the limitations of [[Routing Information Protocol|RIP]] (maximum hop count of only 15, and a single routing metric) when used within large networks. IGRP supports multiple metrics for each route, including [[bandwidth (computing)|bandwidth]], [[Network delay|delay]], [[Load (computing)|load]], [[Maximum transmission unit|MTU]], and [[Reliability (computer networking)|reliability]]; to compare two routes these metrics are combined together into a single metric, using a formula which can be adjusted through the use of pre-set constants. The maximum hop count of IGRP-routed packets is 255 (default 100), and routing updates are [[Broadcasting (computing)|broadcast]] every 90 seconds (by default).&amp;lt;ref&amp;gt;[http://www.cisco.com/en/US/docs/ios/12_2/ip/configuration/guide/1cfigrp.html Cisco Systems] Configuring IGRP&amp;lt;/ref&amp;gt; IGRP uses [[port number]] 9 for communication.&amp;lt;ref&amp;gt;{{cite web
+|url=http://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml
+|title=Assigned Internet Protocol Numbers
+|publisher=[[Internet Assigned Numbers Authority]] (IANA)
+|accessdate=18 June 2013}}&amp;lt;/ref&amp;gt;
+
+IGRP is considered a [[Classful network|classful]] routing protocol. Because the protocol has no field for a [[subnet mask]], the router assumes that all subnetwork addresses within the same Class A, Class B, or Class C network have the same subnet mask as the subnet mask configured for the interfaces in question. This contrasts with classless routing protocols that can use [[Classless Inter-Domain Routing|variable length subnet masks]]. Classful protocols have become less popular as they are wasteful of [[IPv4 address exhaustion|IP address space]].
+
+{{IPstack}}
+==Advancement==
+In order to address the issues of address space and other factors, Cisco created [[EIGRP]] (Enhanced Interior Gateway Routing Protocol).  EIGRP adds support for [[VLSM]] (variable length subnet mask) and adds the [[Diffusing Update Algorithm]] (DUAL) in order to improve routing and provide a loopless environment.  EIGRP has completely replaced IGRP, making IGRP an obsolete routing protocol.  In Cisco IOS versions 12.3 and greater, IGRP is completely unsupported. In the new Cisco [[CCNA]] curriculum (version 4), IGRP is mentioned only briefly, as an &amp;quot;obsolete protocol&amp;quot;.
+
+==References==
+&amp;lt;references/&amp;gt;
+
+==External links==
+* [http://www.cisco.com/en/US/tech/tk365/technologies_white_paper09186a00800c8ae1.shtml Cisco - An Introduction to IGRP]
+
+
+[[Category:Cisco protocols]]
+[[Category:Routing protocols]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

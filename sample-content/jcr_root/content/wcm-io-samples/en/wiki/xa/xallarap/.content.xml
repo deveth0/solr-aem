@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Xallarap"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Xallarap" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Xallarap&amp;apos;&amp;apos;&amp;apos; is a variation in a gravitational lensing observation caused by the orbital motion of the source.  A more traditional and similar effect, [[parallax]], is the variation caused by motion of the earth around the sun.  Since the two effects are converses of each other, this led to the name &amp;apos;&amp;apos;xallarap&amp;apos;&amp;apos;, which is parallax spelled backwards.  A survey of microlensing&amp;lt;ref&amp;gt;
+{{cite arxiv
+ |first1=N.W. |last1=Evans
+ |title=The First Heroic Decade of Microlensing
+ |class=astro-ph |eprint=astro-ph/0304252
+ |year=2003
+}}&amp;lt;/ref&amp;gt; attributes the first use in print to Bennett&amp;lt;ref&amp;gt;
+{{cite journal
+ |first=D.P. |last=Bennett
+ |title=Magellanic Cloud Gravitational Microlensing Results: What Do They Mean?
+ |journal=[[Physics Reports]]
+ |volume=307 |page=97
+ |year=1998
+ |id=
+ |doi=10.1016/S0370-1573(98)00077-5
+|arxiv=astro-ph/9808121
+|bibcode = 1998PhR...307...97B }}&amp;lt;/ref&amp;gt; in 1998, though informal usage likely preceded this.
+
+[[Gravitational lens]]ing occurs when a distant object and a massive intermediate object form a straight line as seen from Earth.  Then the gravitational field of the intermediate object bends the light from distant object, magnifying it.  When the two objects are stars, as opposed to [[galaxy|galaxies]], it is called [[gravitational microlensing]].  The alignment must be very precise, in fact so precise that [[Albert Einstein]] concluded &amp;quot;there is no great chance of observing this phenomenon&amp;quot;.&amp;lt;ref&amp;gt;
+{{cite journal
+ | first = A. | last = Einstein
+ | title = Lens-like Action of a Star by the Deviation of Light in the Gravitational Field
+ | journal = [[Science (journal)|Science]]
+ | volume = 84 | pages = 506–507
+ | year = 1936
+ | doi = 10.1126/science.84.2188.506
+ | pmid = 17769014
+ | issue = 2188
+| jstor=1663250
+|bibcode = 1936Sci....84..506E }}&amp;lt;/ref&amp;gt;  However, modern surveys such as the [[Optical Gravitational Lensing Experiment]] (OGLE) observe millions of stars each night, and see microlensing many times each year.
+
+Since the alignment must be so precise, if the event last more than a few weeks, scientists can observe changes as the Earth moves around the sun, since this movement changes the alignment.  Traditionally in astronomy, a change in view caused by the Earth&amp;apos;s motion is called parallax, and this is the term used by researchers for this effect.  However, if the source star is part of a binary system, then it too has orbital motion, and this can modify the alignment just as the Earth&amp;apos;s movement can.  Since both effects are caused by the effect of orbital motion on alignment, they are very closely related.  And since the effect is same as parallax, just backwards (from the motion of the source rather than motion of the observer) it was called &amp;apos;&amp;apos;xallarap&amp;apos;&amp;apos;.  The name stuck, and is now commonly used in astronomical literature.
+
+== References ==
+&amp;lt;references/&amp;gt;
+
+[[Category:Gravitational lensing]]
+[[Category:Effects of gravitation]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

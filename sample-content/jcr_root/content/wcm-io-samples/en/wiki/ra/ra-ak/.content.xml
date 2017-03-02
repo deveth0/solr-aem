@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Račak"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Račak" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{about|the village in Kosovo|the village near [[Netretić]], Croatia|Račak, Croatia}}
+
+&amp;apos;&amp;apos;&amp;apos;Račak&amp;apos;&amp;apos;&amp;apos; ({{lang-sq|Reçak}}; {{lang-sr|Рачак, &amp;apos;&amp;apos;Račak&amp;apos;&amp;apos;}}) is a village in central [[Kosovo]] located at {{coord|42|25|46|N|21|00|59|E|}}. It became notorious in January 1999 after 45 people were killed in the village during the conflict between state security forces and Albanian guerrillas.
+
+Prior to the summer of 1998, Račak had a population of around 2,000 people. Most of its population was displaced by fighting between government security forces and guerrillas from the [[Kosovo Liberation Army]] in July 1998. By January 1999, about 350 people had returned to the village, according to the [[Organization for Security and Co-operation in Europe]] (OSCE). On 16 January 1999, OSCE monitors found the bodies of 45 people in and around the village in what became widely known as the [[Račak massacre]]. Following the incident, for which the international community blamed the security forces, the remaining population fled and did not return until the end of the [[Kosovo War]] in June 1999.
+
+==References and links==
+{{Reflist}}
+
+* [http://www.bernal.co.uk/Research/Racak.html Complete analysis of the incident at Račak on Jan. 15, 1999, Yugoslavia Info]
+* [http://www.osce.org/item/1813.html Kosovo/Kosova As Seen, As Told - OSCE, May 1999]
+* &amp;quot;Massacre haunts returning Kosovo villagers&amp;quot;, &amp;apos;&amp;apos;The Atlanta Constitution&amp;apos;&amp;apos;, June 15, 1999
+* &amp;quot;Kosovo village struggles in limbo a year later&amp;quot;, Associated Press, March 19, 2000
+
+----
+
+[[Category:Populated places in Kosovo|Racak]]
+{{Kosovo-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

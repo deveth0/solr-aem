@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Quillfish"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Quillfish" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Taxobox
+| name = Quillfish
+| image = Ptilichthys goodei 2.jpg
+| image_width = 240px
+| regnum = [[Animal]]ia
+| phylum = [[Chordate|Chordata]]
+| classis = [[Actinopterygii]]
+| ordo = [[Perciformes]]
+| familia = &amp;apos;&amp;apos;&amp;apos;Ptilichthyidae&amp;apos;&amp;apos;&amp;apos;
+| genus = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Ptilichthys&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+| species = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;P. goodei&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+| binomial = &amp;apos;&amp;apos;Ptilichthys goodei&amp;apos;&amp;apos;
+| binomial_authority = [[Tarleton Hoffman Bean|Bean]], 1881
+}}
+
+The &amp;apos;&amp;apos;&amp;apos;quillfish&amp;apos;&amp;apos;&amp;apos;, &amp;apos;&amp;apos;Ptilichthys goodei&amp;apos;&amp;apos;, is a species of [[perciform]] fish, the [[monotypic|only species]] in the genus &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Ptilichthys&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; and family &amp;apos;&amp;apos;&amp;apos;Ptilichthyidae&amp;apos;&amp;apos;&amp;apos;. It is an elongate [[eel]]-like fish that reaches 34&amp;amp;nbsp;cm in length. It is native to the north [[Pacific Ocean]], from the [[Bering Sea]] down to [[Oregon]].&amp;lt;ref&amp;gt;{{FishBase family | family = Ptilichthyidae | year = 2006 | month = February}}&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;{{FishBase species | genus = Ptilichthys | species = goodei | year = 2006 | month = February}}&amp;lt;/ref&amp;gt;
+
+It has been found on the surface at night, attracted by the lights of fishing boats, but little is known about its daytime habits; it is thought that it may burrow in sandy and muddy bottoms during the day, emerging at dusk to feed.
+
+Quillfishes have been found in the stomachs of juvenile [[Coho salmon]], &amp;apos;&amp;apos;Oncorhynchus kisutch&amp;apos;&amp;apos;, and [[Chinook salmon]], &amp;apos;&amp;apos;Oncorhynchus tshawytscha&amp;apos;&amp;apos;. The longest quillfish was nearly as long (82%) as its [[predator]].&amp;lt;ref&amp;gt;{{cite journal | title = Quillfish, &amp;apos;&amp;apos;Ptilichthys goodei&amp;apos;&amp;apos;, Filiform Prey for Small Coho and Chinook Salmon | author = Laurie A. Weitkamp | journal = Alaska Fishery Research Bulletin | volume = 11 | issue = 1 | year = 2005}}&amp;lt;/ref&amp;gt;
+
+==References==
+* {{ITIS |id=171553 |taxon=Ptilichthys goodei |accessdate=18 April 2006}}
+&amp;lt;references/&amp;gt;
+
+[[Category:Ptilichthyidae]]
+[[Category:Monotypic fish genera]]
+[[Category:Animals described in 1881]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

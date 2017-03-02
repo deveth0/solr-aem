@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Yamagawa, Kagoshima"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Yamagawa, Kagoshima" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{nihongo|&amp;apos;&amp;apos;&amp;apos;Yamagawa&amp;apos;&amp;apos;&amp;apos;|山川町|Yamagawa-chō}} was a [[towns of Japan|town]] located in [[Ibusuki District, Kagoshima|Ibusuki District]], [[Kagoshima Prefecture|Kagoshima]], [[Japan]].
+
+On January 1, 2006 Yamagawa, along with the town of [[Kaimon, Kagoshima|Kaimon]], also from [[Ibusuki District, Kagoshima|Ibusuki District]], was merged into the expanded city of [[Ibusuki, Kagoshima|Ibusuki]] and no longer exists as an independent [[municipalities of Japan|municipality]].
+
+As of 2003, the town had an estimated [[population]] of 10,467 and the [[population density|density]] of 281.52 persons per km². The total area was 37.18 km².
+
+==External links==
+* [http://www.city.ibusuki.kagoshima.jp/ Official website of Ibusuki] {{ja icon}}
+
+[[Category:Dissolved municipalities of Kagoshima Prefecture]]
+
+
+{{Kagoshima-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

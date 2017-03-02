@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Tsesungún dialect"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Tsesungún dialect" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Tsesungún&amp;apos;&amp;apos;&amp;apos; is a dialect of [[Huilliche]], an [[Araucanian]] language spoken in [[Chile]]. Most of its speakers speak [[Spanish language|Spanish]] as their first language. It is closely related but barely intelligible to [[Mapudungun]] speakers.
+
+It is classified as [[Araucanian]]/Huilliche/Tsesungun. It is used mostly in mountain valleys for ceremonial purposes.
+
+==External links==
+* [http://www.ethnologue.com/show_language.asp?code=huh Ethnologue.com entry for Huilliche]
+
+{{Mapuche}}
+
+{{DEFAULTSORT:Tsesungun Dialect}}
+[[Category:Languages of Chile]]
+[[Category:Mapudungun]]
+
+[[es:Chesungun]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

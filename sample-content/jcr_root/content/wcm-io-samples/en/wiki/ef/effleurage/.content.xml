@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Effleurage"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Effleurage" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{unreferenced|date=October 2007}}
+
+&amp;apos;&amp;apos;&amp;apos;Effleurage&amp;apos;&amp;apos;&amp;apos;, a French word meaning &amp;quot;to skim&amp;quot; or &amp;quot;to touch lightly on&amp;quot;, is a series of [[massage]] strokes used in Swedish massage to warm up the [[muscle]] before deep [[Biological tissue|tissue]] work using [[petrissage]].
+
+This is a soothing, stroking movement used at the beginning and the end of the facial and/or body massage. It is also used as a linking move between the different strokes and movements. Effleurage is basically a form of massage involving a circular stroking movement made with the palm of the hand.
+
+Effleurage can be firm or light without dragging the skin and is performed using either the padded parts of the finger tips or the palmar surface of the hands, and works as a mechanical pump on the body to encourage venous and lymphatic return. It consists of four sub-categories:
+
+# Ethereal or aura strokes
+# Feathering, or nerve-stroking
+# Superficial effleurage
+# Deeper effleurage
+
+== See also ==
+* [[Massage#Swedish massage|Swedish massage]]
+* [[Petrissage]]
+* [[Tapotement]]
+
+[[Category:Manipulative therapy]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

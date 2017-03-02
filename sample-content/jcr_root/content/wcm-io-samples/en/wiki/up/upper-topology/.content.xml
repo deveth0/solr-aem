@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Upper topology"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Upper topology" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[mathematics]], the &amp;apos;&amp;apos;&amp;apos;upper topology&amp;apos;&amp;apos;&amp;apos; on a [[partially ordered set]] &amp;apos;&amp;apos;X&amp;apos;&amp;apos; is the [[coarsest topology]] in which the closure of a [[singleton (mathematics)|singleton]] &amp;lt;math&amp;gt; \{a\}&amp;lt;/math&amp;gt;  is the order section &amp;lt;math&amp;gt; a]=\{x\leq a\}&amp;lt;/math&amp;gt; for each &amp;lt;math&amp;gt; a\in X &amp;lt;/math&amp;gt;. If &amp;lt;math&amp;gt; \leq &amp;lt;/math&amp;gt; is a partial order, the upper topology is the least [[order consistent]] topology in which the [[open set]]s are the [[up-set]]s.  The &amp;apos;&amp;apos;&amp;apos;lower topology&amp;apos;&amp;apos;&amp;apos; induced by the preorder is defined similarly in terms of the [[down-set]]s. The preoder inducing the upper topology is its [[specialization preorder]], but the specialization preorder of the lower topology is opposite to the inducing preorder.
+
+The real upper topology is most naturally defined on the [[upper-extended real line]] &amp;lt;math&amp;gt;]-\infty,+\infty]=\mathbb{R}\cup\{+\infty\}&amp;lt;/math&amp;gt; by the system &amp;lt;math&amp;gt;\{]a,+\infty]:a\in\mathbb{R}\cup\{\pm\infty\}\}&amp;lt;/math&amp;gt; of open sets. Similarly, the real lower topology &amp;lt;math&amp;gt;\{[-\infty,a[:a\in\mathbb{R}\cup\{\pm\infty\}\}&amp;lt;/math&amp;gt; is naturally defined on the lower real line &amp;lt;math&amp;gt;[-\infty,+\infty[=\mathbb{R}\cup\{-\infty\}&amp;lt;/math&amp;gt;. A real function on a topological space is [[upper semi-continuous]] if and only if it is lower-continuous, i.e. is [[Continuous function|continuous]] with respect to the lower topology on the lower-extended line &amp;lt;math&amp;gt;{[-\infty,+\infty[}&amp;lt;/math&amp;gt;. Similarly, a function into the upper real line is [[lower semi-continuous]] if and only if it is upper-continuous, i.e. is [[Continuous function|continuous]] with respect to the upper topology on &amp;lt;math&amp;gt;{]-\infty,+\infty]}&amp;lt;/math&amp;gt;.
+
+==References==
+* {{cite book | author=Gerhard Gierz | coauthors= K.H. Hofmann, K. Keimel, J. D. Lawson, M. Mislove, D. S. Scott | title=Continuous Lattices and Domains | publisher=Cambridge University Press | date=2003 | isbn=0-521-80338-1 | page=510 }}
+* {{cite book | last=Kelley | first=John L. | authorlink=John L. Kelley | title=General Topology | publisher=Van Nostrand Reinhold | date=1955 | page=101 }}
+* {{cite book | last=Knapp | first=Anthony W. | title=Basic Real Analysis | publisher=Birkhhauser | date=2005 | isbn=0-8176-3250-6 | page=481 }}
+
+[[Category:General topology]]
+[[Category:Order theory]]
+
+{{topology-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

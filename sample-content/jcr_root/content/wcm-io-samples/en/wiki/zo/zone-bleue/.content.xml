@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Zone Bleue"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Zone Bleue" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Orphan|date=February 2009}}
+The &amp;apos;&amp;apos;&amp;apos;Zone Bleue&amp;apos;&amp;apos;&amp;apos; (French for &amp;apos;&amp;apos;Blue Zone&amp;apos;&amp;apos;) was a special traffic zone in the inner city of [[Paris]] in the decades after [[World War II]]. It was restricted to cars and lorries occupying less than 8m² floor space on the street.
+
+But since the inner city of Paris needed quite a lot of goods to it, many French [[carrossier]]s started to offer special delivery van versions which had sunken rear lights, rolling shutters instead of outside lying sliding doors, bumpers under the body instead of before respective behind the body and other modifications which reduced the floor size. Many of these vans also had raised or canvas roofs to allow more capacity without expanding the floor size.
+
+Today Paris&amp;apos; Zone Bleue is &amp;lt;!-- also? --&amp;gt; restricted to a limited amount of time allowed for parking, usually 90 minutes.
+
+==See also==
+
+* [[Citroën H Van]]
+
+==External links==
+* [http://www.citroenet.org.uk/utilities/h-van/hvan-srw/hvan12.html Citroën HY Zone Bleue Pickup] (Infos and pictures)
+
+[[Category:Road transport]]
+
+
+{{France-road-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

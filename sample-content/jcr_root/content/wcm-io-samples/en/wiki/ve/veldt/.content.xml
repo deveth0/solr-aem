@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Veldt"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Veldt" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|veldt}}
+&amp;apos;&amp;apos;&amp;apos;Veldt&amp;apos;&amp;apos;&amp;apos; may refer to:
+* [[Veld]] (also spelt Veldt), a term used to define certain wide open rural spaces of Southern Africa
+* [[The Veldt (short story)|&amp;quot;The Veldt&amp;quot; (short story)]], a 1950 short story written by Ray Bradbury
+* [[The Veldt (song)|&amp;quot;The Veldt&amp;quot; (song)]], a 2012 song by Canadian electronic music producer deadmau5
+* [[Veldt Township, Marshall County, Minnesota|Veldt Township]], a township in Marshall County, Minnesota, United States
+* The [[Veldt (Final Fantasy)]], a large flatland in the video game &amp;apos;&amp;apos;Final Fantasy VI&amp;apos;&amp;apos; where the characters can fight most previously encountered enemies
+* [[Tim Veldt]] (born 1984), Dutch cyclist
+
+{{disambiguation|surname}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

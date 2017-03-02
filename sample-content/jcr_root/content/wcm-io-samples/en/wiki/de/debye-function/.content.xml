@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Debye function"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Debye function" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[mathematics]], the family of &amp;apos;&amp;apos;&amp;apos;Debye functions&amp;apos;&amp;apos;&amp;apos; is defined by
+
+:&amp;lt;math&amp;gt;D_n(x) = \frac{n}{x^n} \int_0^x \frac{t^n}{e^t - 1}\,dt.&amp;lt;/math&amp;gt;
+
+The functions are named in honor of [[Peter Debye]], who came across this function (with &amp;apos;&amp;apos;n&amp;apos;&amp;apos; = 3) in 1912 when he analytically computed the [[heat capacity]] of what is now called the [[Debye model]].
+
+== Mathematical properties ==
+
+=== Relation to other functions ===
+
+The Debye functions are closely related to the [[Polylogarithm]].
+
+=== Limiting values ===
+
+For &amp;lt;math&amp;gt;x \rightarrow 0&amp;lt;/math&amp;gt; :
+:&amp;lt;math&amp;gt;D_n(0)=1.&amp;lt;/math&amp;gt;
+
+For &amp;lt;math&amp;gt;x &amp;gt;&amp;gt; 1&amp;lt;/math&amp;gt; : &amp;lt;math&amp;gt;D_n&amp;lt;/math&amp;gt; is given by the [[Gamma function]] and the [[Riemann zeta function]]:
+:&amp;lt;math&amp;gt;D_n(x)\propto\int_0^\infty{\rm d}t\frac{t^{n}}{\exp(t)-1} = \Gamma(n + 1) \zeta(n + 1).    \quad [\Re \, n &amp;gt; 0]&amp;lt;/math&amp;gt; &amp;lt;ref&amp;gt;Gradshteyn, I. S., &amp;amp; Ryzhik, I. M. (1980). Table of integrals. Series, and Products (Academic, New York, 1980), (3.411).&amp;lt;/ref&amp;gt;
+
+== Applications in solid-state physics ==
+
+=== The Debye model ===
+
+The [[Debye model]] has a [[density of vibrational states]]
+:&amp;lt;math&amp;gt;g_{\rm D}(\omega)=\frac{9\omega^2}{\omega_{\rm D}^3}&amp;lt;/math&amp;gt; for &amp;lt;math&amp;gt;0\le\omega\le\omega_{\rm D}&amp;lt;/math&amp;gt;
+with the &amp;apos;&amp;apos;Debye frequency&amp;apos;&amp;apos; &amp;apos;&amp;apos;&amp;amp;omega;&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;D&amp;lt;/sub&amp;gt;.
+
+=== Internal energy and heat capacity ===
+
+Inserting &amp;apos;&amp;apos;g&amp;apos;&amp;apos; into the internal energy
+:&amp;lt;math&amp;gt;U=\int_0^\infty{\rm d}\omega\,g(\omega)\,\hbar\omega\,n(\omega)&amp;lt;/math&amp;gt;
+with the [[Bose-Einstein distribution]]
+:&amp;lt;math&amp;gt;n(\omega)=\frac{1}{\exp(\hbar\omega/k_{\rm B}T)-1}&amp;lt;/math&amp;gt;.
+one obtains
+:&amp;lt;math&amp;gt;U=3 k_{\rm B}T\, D_3(\hbar\omega_{\rm D}/k_{\rm B}T)&amp;lt;/math&amp;gt;.
+The heat capacity is the derivative thereof.
+
+=== Mean squared displacement ===
+
+The intensity of [[X-ray diffraction]] or [[neutron diffraction]] at wavenumber &amp;apos;&amp;apos;q&amp;apos;&amp;apos; is given by
+the [[Debye-Waller factor]] or the [[Lamb-Mössbauer factor]].
+For isotropic systems it takes the form
+:&amp;lt;math&amp;gt;\exp(-2W(q))=\exp(-q^2\langle u_x^2\rangle&amp;lt;/math&amp;gt;).
+In this expression, the [[mean squared displacement]] refers to just once Cartesian component
+&amp;apos;&amp;apos;u&amp;lt;sub&amp;gt;x&amp;lt;/sub&amp;gt;&amp;apos;&amp;apos; of the vector &amp;apos;&amp;apos;&amp;apos;u&amp;apos;&amp;apos;&amp;apos; that describes the displacement of atoms from their equilibrium positions.
+Assuming harmonicity and developing into normal modes,&amp;lt;ref&amp;gt;Ashcroft &amp;amp; Mermin 1976, App. L,&amp;lt;/ref&amp;gt;
+one obtains
+:&amp;lt;math&amp;gt;2W(q)=\frac{\hbar^2 q^2}{6M k_{\rm B}T}\int_0^\infty{\rm d}\omega\frac{k_{\rm B}T}{\hbar\omega}g(\omega)\coth\frac{\hbar\omega}{2k_{\rm B}T}=\frac{\hbar^2 q^2}{6M k_{\rm B}T}\int_0^\infty{\rm d}\omega\frac{k_{\rm B}T}{\hbar\omega}g(\omega)\left[\frac{2}{\exp(\hbar\omega/k_{\rm B}T)-1}+1\right].&amp;lt;/math&amp;gt;
+Inserting the density of states from the Debye model, one obtains
+:&amp;lt;math&amp;gt;2W(q)=\frac{3}{2}\frac{\hbar^2 q^2}{M\hbar\omega_{\rm D}}\left[2\left(\frac{k_{\rm B}T}{\hbar\omega_{\rm D}}\right)D_1\left(\frac{\hbar\omega_{\rm D}}{k_{\rm B}T}\right)+\frac{1}{2}\right]&amp;lt;/math&amp;gt;.
+
+==References==
+{{Reflist}}
+
+==Further reading==
+
+* {{AS ref|27|998}}
+* [http://mathworld.wolfram.com/DebyeFunctions.html &amp;quot;Debye function&amp;quot; entry in MathWorld], defines the Debye functions without prefactor &amp;apos;&amp;apos;n&amp;apos;&amp;apos;/&amp;apos;&amp;apos;x&amp;lt;sup&amp;gt;n&amp;lt;/sup&amp;gt;&amp;apos;&amp;apos;
+
+== Implementations ==
+* [http://www.netlib.org/toms/757 Fortran 77 code] by [[Allan MacLeod]] from [[Transactions on Mathematical Software]]
+* [http://www.csit.fsu.edu/~burkardt/f_src/toms757/toms757.html Fortran 90 version]
+* [http://www.gnu.org/software/gsl/manual/html_node/Debye-Functions.html C version] of the [[GNU Scientific Library]]
+
+[[Category:Special functions]]
+
+
+{{Mathanalysis-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

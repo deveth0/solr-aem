@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Global alert"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Global alert" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced stub|auto=yes|date=December 2009}}
+&amp;apos;&amp;apos;&amp;apos;Global alert&amp;apos;&amp;apos;&amp;apos; is used as the global [[radio]]-[[Telecommunication|communications]] [[telecommunications network|network]] during times of international crises or threats to international security. Global Alerts are also issued by agencies such as the [[World Health Organization]] (WHO), when there is a perceived threat of international [[pandemic]], (global [[epidemic]]), such as the threat of a [[SARS]], (Severe Acute Respiratory Syndrome), pandemic during March 2003, due to its high contagion level which was rapidly spread by travelers sharing international flights. The global alert released by the World Health Organization regarding the SARS outbreak and its rapid contagion saved many lives: The alert about the disease, precautionary measures, and preventive measures to be taken by individuals, including specific hygiene information needed to arrest the spread of SARS was communicated instantly throughout the world.
+
+{{DEFAULTSORT:Global Alert}}
+[[Category:Alert measurement systems]]
+
+
+{{Disaster-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

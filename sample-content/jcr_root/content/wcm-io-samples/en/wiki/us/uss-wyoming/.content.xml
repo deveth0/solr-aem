@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="USS Wyoming"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="USS Wyoming" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Italic title prefixed|3}}
+One ship of the [[United States Navy]] has been named &amp;apos;&amp;apos;&amp;apos;USS &amp;apos;&amp;apos;Wyoming&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; in honor of the [[Wyoming Valley]] in eastern [[Pennsylvania]] that runs along the [[Susquehanna River]].  Three others have been named in honor of state of [[Wyoming]].
+
+* {{USS|Wyoming|1859}} was a screw sloop that operated on the [[California]] coast during the [[American Civil War]] and fought the forces of a Japanese warlord in the [[Naval battle of Shimonoseki|Battle of Shimonoseki]].
+* {{USS|Wyoming|BM-10}}, an {{sclass-|Arkansas|monitor|1}}, later renamed USS &amp;apos;&amp;apos;Cheyenne&amp;apos;&amp;apos;.
+* {{USS|Wyoming|BB-32}} (1910–1947) was the [[lead ship]] of [[Wyoming-class battleship|her class]] of [[battleship]]s.
+* {{USS|Wyoming|SSBN-742}} is an {{sclass-|Ohio|submarine|1}}.
+
+;See also:
+* {{USS|Wyoming|NCC-43730}}, a starship in the fictional universe of [[Star Trek]]
+
+{{Shipindex}}
+
+{{DEFAULTSORT:Wyoming, USS}}
+[[Category:United States Navy ship names]]
+[[Category:United States Navy Wyoming-related ships]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

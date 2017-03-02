@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Algebraic extension"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Algebraic extension" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{refimprove|date=February 2013}}
+In [[abstract algebra]], a [[field extension]] &amp;apos;&amp;apos;L&amp;apos;&amp;apos;/&amp;apos;&amp;apos;K&amp;apos;&amp;apos; is called &amp;apos;&amp;apos;&amp;apos;algebraic&amp;apos;&amp;apos;&amp;apos; if every element of &amp;apos;&amp;apos;L&amp;apos;&amp;apos; is [[algebraic element|algebraic]] over &amp;apos;&amp;apos;K&amp;apos;&amp;apos;, i.e. if every element of &amp;apos;&amp;apos;L&amp;apos;&amp;apos; is a [[root of a function|root]] of some non-zero [[polynomial]] with coefficients in &amp;apos;&amp;apos;K&amp;apos;&amp;apos;. Field extensions that are not algebraic, i.e. which contain [[transcendental element]]s, are called &amp;apos;&amp;apos;&amp;apos;transcendental&amp;apos;&amp;apos;&amp;apos;.
+
+For example, the field extension &amp;apos;&amp;apos;&amp;apos;R&amp;apos;&amp;apos;&amp;apos;/&amp;apos;&amp;apos;&amp;apos;Q&amp;apos;&amp;apos;&amp;apos;, that is the field of [[real number]]s as an extension of the field of [[rational number]]s, is transcendental, while the field extensions &amp;apos;&amp;apos;&amp;apos;C&amp;apos;&amp;apos;&amp;apos;/&amp;apos;&amp;apos;&amp;apos;R&amp;apos;&amp;apos;&amp;apos; and &amp;apos;&amp;apos;&amp;apos;Q&amp;apos;&amp;apos;&amp;apos;(√2)/&amp;apos;&amp;apos;&amp;apos;Q&amp;apos;&amp;apos;&amp;apos; are algebraic, where &amp;apos;&amp;apos;&amp;apos;C&amp;apos;&amp;apos;&amp;apos; is the field of [[complex number]]s.
+
+All transcendental extensions are of [[degree of a field extension|infinite degree]]. This in turn implies that all finite extensions are algebraic.&amp;lt;ref&amp;gt;See also Hazewinkel et al. (2004), p. 3.&amp;lt;/ref&amp;gt; The converse is not true however: there are infinite extensions which are algebraic. For instance, the field of all [[algebraic number]]s is an infinite algebraic extension of the rational numbers.
+
+If &amp;apos;&amp;apos;a&amp;apos;&amp;apos; is algebraic over &amp;apos;&amp;apos;K&amp;apos;&amp;apos;, then &amp;apos;&amp;apos;K&amp;apos;&amp;apos;[&amp;apos;&amp;apos;a&amp;apos;&amp;apos;], the set of all polynomials in &amp;apos;&amp;apos;a&amp;apos;&amp;apos; with coefficients in &amp;apos;&amp;apos;K&amp;apos;&amp;apos;, is not only a ring but a field: an algebraic extension of &amp;apos;&amp;apos;K&amp;apos;&amp;apos; which has finite degree over &amp;apos;&amp;apos;K&amp;apos;&amp;apos;. In the special case where &amp;apos;&amp;apos;K&amp;apos;&amp;apos; = &amp;apos;&amp;apos;&amp;apos;Q&amp;apos;&amp;apos;&amp;apos; is the [[rational number|field of rational numbers]], &amp;apos;&amp;apos;&amp;apos;Q&amp;apos;&amp;apos;&amp;apos;[&amp;apos;&amp;apos;a&amp;apos;&amp;apos;] is an example of an [[algebraic number field]].
+
+A field with no nontrivial algebraic extensions is called [[algebraically closed field|algebraically closed]]. An example is the field of [[complex number]]s. Every field has an algebraic extension which is algebraically closed (called its [[algebraic closure]]), but proving this in general requires some form of the [[axiom of choice]].
+
+An extension &amp;apos;&amp;apos;L&amp;apos;&amp;apos;/&amp;apos;&amp;apos;K&amp;apos;&amp;apos; is algebraic [[if and only if]] every sub &amp;apos;&amp;apos;K&amp;apos;&amp;apos;-algebra of &amp;apos;&amp;apos;L&amp;apos;&amp;apos; is a [[field (mathematics)|field]].
+
+==Generalizations==
+{{Main|Substructure}}
+[[Model theory]] generalizes the notion of algebraic extension to arbitrary theories: an embedding of &amp;apos;&amp;apos;M&amp;apos;&amp;apos; into &amp;apos;&amp;apos;N&amp;apos;&amp;apos; is called an &amp;apos;&amp;apos;&amp;apos;algebraic extension&amp;apos;&amp;apos;&amp;apos; if for every &amp;apos;&amp;apos;x&amp;apos;&amp;apos; in &amp;apos;&amp;apos;N&amp;apos;&amp;apos; there is a formula &amp;apos;&amp;apos;p&amp;apos;&amp;apos; with parameters in &amp;apos;&amp;apos;M&amp;apos;&amp;apos;, such that &amp;apos;&amp;apos;p&amp;apos;&amp;apos;(&amp;apos;&amp;apos;x&amp;apos;&amp;apos;) is true and the set
+
+:{&amp;apos;&amp;apos;y&amp;apos;&amp;apos; in &amp;apos;&amp;apos;N&amp;apos;&amp;apos; | &amp;apos;&amp;apos;p&amp;apos;&amp;apos;(&amp;apos;&amp;apos;y&amp;apos;&amp;apos;)}
+
+is finite. It turns out that applying this definition to the theory of fields gives the usual definition of algebraic extension. The [[Galois group]] of &amp;apos;&amp;apos;N&amp;apos;&amp;apos; over &amp;apos;&amp;apos;M&amp;apos;&amp;apos; can again be defined as the group of automorphisms, and it turns out that most of the theory of Galois groups can be developed for the general case.
+
+==Transcendental Facts==
+
+Here are some transcendental facts:
+
+* The natural base e is transcendental over &amp;lt;math&amp;gt;\mathbb{Q}&amp;lt;/math&amp;gt;. [Hermite, 1873]
+
+* The number π is transcendental over &amp;lt;math&amp;gt;\mathbb{Q}&amp;lt;/math&amp;gt;. [Lindemann, 1882]
+
+* It is not known whether e + π is transcendental over &amp;lt;math&amp;gt;\mathbb{Q}&amp;lt;/math&amp;gt;.
+
+* &amp;quot;Almost all&amp;quot; real numbers are transcendental over &amp;lt;math&amp;gt;\mathbb{Q}&amp;lt;/math&amp;gt;.
+
+== See also ==
+* [[Integral element]]
+* [[Lüroth&amp;apos;s theorem]]
+* [[Galois extension]]
+* [[Separable extension]]
+* [[Normal extension]]
+
+== Notes ==
+&amp;lt;references/&amp;gt;
+
+==References==
+* Chap.V.1, p.&amp;amp;nbsp;223 of {{Lang Algebra|edition=3}}
+* P.J. McCarthy, &amp;apos;&amp;apos;Algebraic extensions of fields&amp;apos;&amp;apos;, [[Dover Publications]], 1991, ISBN 0-486-66651-4.
+* Michiel Hazewinkel, Nadiya Gubareni, Nadezhda Mikhaĭlovna Gubareni, Vladimir V. Kirichenko. &amp;apos;&amp;apos;Algebras, rings and modules&amp;apos;&amp;apos;. Volume 1. 2004. Springer, 2004. ISBN 1-4020-2690-0
+
+{{DEFAULTSORT:Algebraic Extension}}
+[[Category:Field extensions]]
+[[Category:Abstract algebra]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Supercompact cardinal"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Supercompact cardinal" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[set theory]], a &amp;apos;&amp;apos;&amp;apos;supercompact cardinal&amp;apos;&amp;apos;&amp;apos; is a type of [[large cardinal]].  They display a variety of reflection properties.
+
+==Formal definition==
+
+If &amp;amp;lambda; is any [[ordinal number|ordinal]], &amp;amp;kappa; is &amp;apos;&amp;apos;&amp;apos;&amp;amp;lambda;-supercompact&amp;apos;&amp;apos;&amp;apos; means that there exists an elementary embedding &amp;apos;&amp;apos;j&amp;apos;&amp;apos; from the universe &amp;apos;&amp;apos;V&amp;apos;&amp;apos; into a transitive [[inner model]] &amp;apos;&amp;apos;M&amp;apos;&amp;apos; with [[critical point (set theory)|critical point]] &amp;amp;kappa;, &amp;apos;&amp;apos;j&amp;apos;&amp;apos;(&amp;amp;kappa;)&amp;gt;&amp;amp;lambda; and
+
+:&amp;lt;math&amp;gt;{ }^\lambda M\subseteq M \,.&amp;lt;/math&amp;gt;
+
+That is, &amp;apos;&amp;apos;M&amp;apos;&amp;apos; contains all of its &amp;amp;lambda;-sequences.  Then &amp;amp;kappa; is &amp;apos;&amp;apos;&amp;apos;supercompact&amp;apos;&amp;apos;&amp;apos; means that it is &amp;amp;lambda;-supercompact for all ordinals &amp;amp;lambda;.
+
+Alternatively, an uncountable cardinal &amp;amp;kappa; is &amp;apos;&amp;apos;&amp;apos;supercompact&amp;apos;&amp;apos;&amp;apos; if for every &amp;apos;&amp;apos;A&amp;apos;&amp;apos; such that |&amp;apos;&amp;apos;A&amp;apos;&amp;apos;| ≥ &amp;amp;kappa; there exists a [[normal measure]] over [&amp;apos;&amp;apos;A&amp;apos;&amp;apos;]&amp;lt;sup&amp;gt;&amp;lt; &amp;amp;kappa;&amp;lt;/sup&amp;gt;.
+
+[&amp;apos;&amp;apos;A&amp;apos;&amp;apos;]&amp;lt;sup&amp;gt;&amp;lt; &amp;amp;kappa;&amp;lt;/sup&amp;gt; is defined as follows:
+
+:&amp;lt;math&amp;gt;[A]^{&amp;lt; \kappa} := \{X \subseteq A| |X| &amp;lt; \kappa\} \,.&amp;lt;/math&amp;gt;
+
+==Properties==
+Supercompact cardinals have reflection properties. If a cardinal with some property (say a 3-[[huge cardinal]]) that is witnessed by a structure of limited rank exists above a supercompact cardinal &amp;amp;kappa;, then a cardinal with that property exists below &amp;amp;kappa;. For example, if &amp;amp;kappa; is supercompact and the [[Generalized Continuum Hypothesis]] holds below &amp;amp;kappa; then it holds everywhere because a bijection between the powerset of &amp;amp;nu; and a cardinal at least &amp;amp;nu;&amp;lt;sup&amp;gt;++&amp;lt;/sup&amp;gt; would be a witness of limited rank for the failure of GCH at &amp;amp;nu; so it would also have to exist below &amp;amp;kappa;.
+
+Finding a canonical inner model for supercompact cardinals is one of the major problems of [[inner model theory]].
+
+==References==
+
+* {{cite book|author=Drake, F. R.|title=Set Theory: An Introduction to Large Cardinals (Studies in Logic and the Foundations of Mathematics ; V. 76)|publisher=Elsevier Science Ltd|year=1974|isbn=0-444-10535-2}}
+* {{cite book|author=Jech, Thomas|title=Set theory, third millennium edition (revised and expanded)|publisher=Springer|year=2002|isbn=3-540-44085-2|authorlink=Thomas Jech}}
+* {{cite book|last=Kanamori|first=Akihiro|year=2003|publisher=Springer|title=The Higher Infinite : Large Cardinals in Set Theory from Their Beginnings|edition=2nd ed|isbn=3-540-00384-3}}
+
+[[Category:Large cardinals]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

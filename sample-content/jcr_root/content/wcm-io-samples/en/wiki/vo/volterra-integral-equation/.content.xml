@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Volterra integral equation"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Volterra integral equation" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[mathematics]], the &amp;apos;&amp;apos;&amp;apos;Volterra integral equations&amp;apos;&amp;apos;&amp;apos; are a special type of [[integral equation]]s. They are divided into two groups referred to as the first and the second kind.
+
+A linear Volterra equation of the first kind is
+
+:&amp;lt;math&amp;gt; f(t) = \int_a^t K(t,s)\,x(s)\,ds&amp;lt;/math&amp;gt;
+
+where &amp;apos;&amp;apos;&amp;amp;fnof;&amp;apos;&amp;apos; is a given function and &amp;apos;&amp;apos;x&amp;apos;&amp;apos; is an unknown function to be solved for.  A linear Volterra equation of the second kind is
+
+:&amp;lt;math&amp;gt; x(t) = f(t) + \int_a^t K(t,s)x(s)\,ds. &amp;lt;/math&amp;gt;
+
+In [[operator theory]], and in [[Fredholm theory]], the corresponding equations are called the [[Volterra operator]].
+
+A linear Volterra integral equation is a [[convolution]] equation if
+
+:&amp;lt;math&amp;gt; x(t) = f(t) + \int_{t_0}^t K(t-s)x(s)\,ds. &amp;lt;/math&amp;gt;
+
+The function &amp;lt;math&amp;gt; K &amp;lt;/math&amp;gt; in the integral is often called the [[kernel (linear algebra)|kernel]].
+Such equations can be analysed and solved by means of [[Laplace transform]] techniques.
+
+The Volterra integral equations were introduced by [[Vito Volterra]] and then studied by [[Traian Lalescu]] in his 1908 thesis, &amp;apos;&amp;apos;Sur les équations de Volterra&amp;apos;&amp;apos;, written under the direction of [[Charles Émile Picard|Émile Picard]].   In 1911, Lalescu wrote the first book ever on integral equations.
+
+Volterra integral equations find application in demography, the study of viscoelastic materials,
+and in insurance mathematics through the renewal equation.
+
+==References==
+*Traian Lalescu, &amp;apos;&amp;apos;Introduction à la théorie des équations intégrales. Avec une préface de É. Picard&amp;apos;&amp;apos;, [[Paris]]: [[Hermann (publishing house)|A. Hermann et Fils]], 1912. VII + 152 pp.
+*{{springer|title=Volterra equation|id=p/v096840}}
+*{{MathWorld|title=Volterra Integral Equation of the First Kind
+|urlname=VolterraIntegralEquationoftheFirstKind}}
+*{{MathWorld|title=Volterra Integral Equation of the Second Kind
+|urlname=VolterraIntegralEquationoftheSecondKind}}
+*[http://eqworld.ipmnet.ru/en/solutions/ie.htm Integral Equations: Exact Solutions] at EqWorld: The World of Mathematical Equations
+*{{Cite book | last1=Press | first1=WH | last2=Teukolsky | first2=SA | last3=Vetterling | first3=WT | last4=Flannery | first4=BP | year=2007 | title=Numerical Recipes: The Art of Scientific Computing | edition=3rd | publisher=Cambridge University Press |  publication-place=New York | isbn=978-0-521-88068-8 | chapter=Section 19.2. Volterra Equations | chapter-url=http://apps.nrbook.com/empanel/index.html#pg=992}}
+
+[[Category:Integral equations]]
+[[Category:Mathematical analysis]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

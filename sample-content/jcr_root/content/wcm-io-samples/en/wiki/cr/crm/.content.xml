@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="CRM"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="CRM" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|CRM}}
+&amp;apos;&amp;apos;&amp;apos;CRM&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+{{tocright}}
+== Sales and marketing ==
+* [[Customer relationship management]], processes implemented to manage a company&amp;apos;s interactions with customers and prospects
+* [[Cause-related marketing]]
+* [[Courtesy reply mail]], a type of business mail
+
+== Companies and institutions ==
+* [[Centre de Recherches Mathématiques]], a Canadian mathematical research institute
+* Centre for Regenerative Medicine, at the [[Scottish Centre for Regenerative Medicine]]
+* [[Comas Racing Management]], a driver management firm of [[Érik Comas]]
+* [[Commander Mexicana]]&amp;apos;s [[Airline codes-C|ICAO code]]
+
+== Management ==
+=== Resource management ===
+* [[Crew resource management]] or Cockpit Resource Management, an aviation training program
+* [[Cultural resources management]]
+
+=== Other management ===
+* [[Certified resident manager]], a professional designation in property management
+* [[Certified Risk Manager]], a professional designation
+
+== Other uses ==
+* [[Cis-regulatory module]], a region of DNA
+* [[Caloric restriction mimetic]], a substance that mimics the caloric restriction anti-aging effect
+* [[Cardiac rhythm management]]
+* [[Certified reference materials]], ‘controls’ or standards used to check the quality and traceability of products
+* [[CIDOC Conceptual Reference Model]], an international standard for the exchange of cultural heritage information
+* [[Civil rights movement]], an anti-racism campaign
+* [[Chittaranjan Mitra]] (1926–2008), or C. R. Mitra, an Indian scientist
+
+== See also ==
+* [[CRM 114 (fictional device)]], a device in Stanley Kubrick&amp;apos;s film &amp;apos;&amp;apos;Dr. Strangelove&amp;apos;&amp;apos;
+* [[CRM114 (program)]], a statistical classifier and pattern matching language commonly used to filter spam
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Questionable cause"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Questionable cause" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{disputed|Questionable cause = false cause?|date=September 2011}}
+The &amp;apos;&amp;apos;&amp;apos;questionable cause&amp;apos;&amp;apos;&amp;apos; – also known as &amp;apos;&amp;apos;&amp;apos;causal fallacy&amp;apos;&amp;apos;&amp;apos;, &amp;apos;&amp;apos;&amp;apos;false cause&amp;apos;&amp;apos;&amp;apos;, or &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;non causa pro causa&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; (&amp;quot;non-cause for cause&amp;quot; in [[Latin]]) – is a category of [[informal fallacy|informal fallacies]] in which a [[causality|cause]] is incorrectly identified.
+
+Fallacies of questionable cause include:
+* [[Circular cause and consequence]]
+* [[Correlation does not imply causation|Correlation implies causation]] (&amp;apos;&amp;apos;cum hoc, ergo propter hoc&amp;apos;&amp;apos;)
+* [[Fallacy of the single cause]]
+* &amp;apos;&amp;apos;[[Post hoc ergo propter hoc]]&amp;apos;&amp;apos;
+* [[Regression fallacy]]
+* [[Spurious relationship]]
+* [[Texas sharpshooter fallacy]]
+* [[Third-cause fallacy]]
+* [[Wrong direction]]
+
+==Criticism==
+As no universal definition of [[causality]] exists, the use of the term &amp;quot;fallacy&amp;quot; might itself constitute a fallacy when applied to theories of causality.
+
+{{Informal fallacy}}
+
+==External links==
+* &amp;apos;&amp;apos;[http://www.fallacyfiles.org/noncause.html Non causa pro causa]&amp;apos;&amp;apos; in the &amp;apos;&amp;apos;Fallacy Files&amp;apos;&amp;apos; by Gary N. Curtis
+
+[[Category:Causal fallacies| ]]
+[[Category:Informal fallacies]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

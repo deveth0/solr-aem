@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Discus (disambiguation)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Discus (disambiguation)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|discus}}
+
+The &amp;apos;&amp;apos;&amp;apos;[[discus]]&amp;apos;&amp;apos;&amp;apos; throw is an athletic discipline.
+
+&amp;apos;&amp;apos;&amp;apos;Discus&amp;apos;&amp;apos;&amp;apos; may also refer to:
+* [[Discus (band)]], a progressive rock band from Indonesia
+* [[Discus (comics)]], a fictional character from the Marvel Comics Universe and enemy of Luke Cage
+* [[Discus (fish)]], a freshwater fish popular with aquarium keepers
+* [[Discus (gastropod)|&amp;apos;&amp;apos;Discus&amp;apos;&amp;apos; (gastropod)]], a genus of snails in the family Discidae
+* [[DISCUS]], a data compression algorithm
+* [[Distilled Spirits Council of the United States]], a national trade association representing producers and marketers of distilled spirits sold in the United States
+* [[Aeros Discus]], a hang glider
+* [[Discus Awards]], a U.S.-based national high school awards and recognition program
+* [[Schempp-Hirth Discus]], a competition sailplane
+
+==See also==
+* [[Sudarshana Chakra]], a weapon sometimes referred to as the discus of Vishnu
+* [[Disc (disambiguation)]]
+* [[Discuss]]
+
+{{SpeciesAbbreviation|discus}}
+
+{{disambig}}
+
+[[ro:Disc]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Yeronga railway station"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Yeronga railway station" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{no footnotes|date=June 2013}}
+{{Use dmy dates|date=November 2012}}
+{{Infobox station
+|name=&amp;lt;!-- Deleted image removed: [[File:Translinkcorner.png|16px|left|link=TransLink (South East Queensland)]]  --&amp;gt;Yeronga
+|image=Yeronga Railway Station, Queensland, July 2012.JPG
+|style = TransLink (SEQ)
+|smartcardname = [[go card]]
+ | address= Fairfield Road, [[Yeronga, Queensland|Yeronga]]
+ | coordinates={{coord|-27.5179|153.0169|format=dms|type:railwaystation_region:AU-QLD|display=inline,title}}
+ | line= {{rail color box|system=QR|line=Beenleigh}}
+ | platform= 2 [[side platform]]s
+ | tracks = 2
+ | parking= 167
+ | bicycle= No
+ | opened=
+ | rebuilt=
+ | ADA=
+ | code=600053 (platform 1)&amp;lt;br /&amp;gt; 600195 (platform 2)
+ | owned= [[Queensland Rail]]
+ | zone=2
+ | services=
+{{s-rail|title=QR}}
+{{s-line|system=QR|line=Beenleigh|previous=Fairfield|next=Yeerongpilly}}
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Yeronga&amp;apos;&amp;apos;&amp;apos; is a [[railway station]] on the [[Beenleigh railway line|Beenleigh Line]] of [[Brisbane]], [[Australia]]. It is part of the [[Queensland Rail]] City network.
+
+It is in Zone 2 of the [[TransLink (South East Queensland)|TransLink]] integrated public transport system.
+
+==Services by platform==
+{{Citytrain Platforms|
+p1name=1|
+p1linename=[[Beenleigh railway line|&amp;lt;span style=&amp;quot;color:red;&amp;quot;&amp;gt;&amp;apos;&amp;apos;&amp;apos;Beenleigh&amp;apos;&amp;apos;&amp;apos;&amp;lt;/span&amp;gt;]]&amp;lt;br&amp;gt;[[Tennyson railway line|&amp;lt;span style=&amp;quot;color:red;&amp;quot;&amp;gt;&amp;apos;&amp;apos;&amp;apos;Corinda&amp;apos;&amp;apos;&amp;apos;&amp;lt;/span&amp;gt;]]|
+p1destname=[[Beenleigh railway station|&amp;lt;span style=&amp;quot;color:red;&amp;quot;&amp;gt;&amp;apos;&amp;apos;&amp;apos;Beenleigh&amp;apos;&amp;apos;&amp;apos;&amp;lt;/span&amp;gt;]]&amp;lt;br&amp;gt;[[Corinda railway station|&amp;lt;span style=&amp;quot;color:#006400;&amp;quot;&amp;gt;&amp;apos;&amp;apos;&amp;apos;Corinda&amp;apos;&amp;apos;&amp;apos;&amp;lt;/span&amp;gt;]] &amp;amp; [[Darra railway station|&amp;lt;span style=&amp;quot;color:#006400;&amp;quot;&amp;gt;&amp;apos;&amp;apos;&amp;apos;Darra&amp;apos;&amp;apos;&amp;apos;&amp;lt;/span&amp;gt;]]|p1notes=All stations&amp;lt;br&amp;gt;All stations (Peak hour only)|
+p2name=2|
+p2linename=[[Ferny Grove railway line|&amp;lt;span style=&amp;quot;color:red;&amp;quot;&amp;gt;&amp;apos;&amp;apos;&amp;apos;Ferny Grove&amp;apos;&amp;apos;&amp;apos;&amp;lt;/span&amp;gt;]]&amp;lt;br&amp;gt;[[Tennyson railway line|&amp;lt;span style=&amp;quot;color:red;&amp;quot;&amp;gt;&amp;apos;&amp;apos;&amp;apos;Corinda&amp;apos;&amp;apos;&amp;apos;&amp;lt;/span&amp;gt;]]|
+p2destname=[[Bowen Hills railway station|&amp;lt;span style=&amp;quot;color:dodgerblue;&amp;quot;&amp;gt;&amp;apos;&amp;apos;&amp;apos;City&amp;apos;&amp;apos;&amp;apos;&amp;lt;/span&amp;gt;]] &amp;amp; [[Ferny Grove railway station|&amp;lt;span style=&amp;quot;color:red;&amp;quot;&amp;gt;&amp;apos;&amp;apos;&amp;apos;Ferny Grove&amp;apos;&amp;apos;&amp;apos;&amp;lt;/span&amp;gt;]]&amp;lt;br&amp;gt;[[Bowen Hills railway station|&amp;lt;span style=&amp;quot;color:dodgerblue;&amp;quot;&amp;gt;&amp;apos;&amp;apos;&amp;apos;City&amp;apos;&amp;apos;&amp;apos;&amp;lt;/span&amp;gt;]]|p2notes=All stations&amp;lt;br&amp;gt;All stations (Peak hour only)|
+}}
+
+==See also==
+*[[List of South East Queensland railway stations]]
+
+==External links==
+*[http://www.transinfo.com.au TransInfo]
+*[http://www.citytrain.com.au Citytrain]
+*[http://web.archive.org/web/20090109051340/http://qroti.com/placeinfo/qld/rail/yeronga/ Yeronga Station at QROTI]
+
+{{Navbox TransLink (SEQ) train network - Beenleigh line}}
+
+[[Category:Railway stations in Brisbane]]
+
+
+{{Australia-rail-transport-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

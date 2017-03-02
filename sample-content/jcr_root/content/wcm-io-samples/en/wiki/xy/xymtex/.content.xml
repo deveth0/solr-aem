@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="XyMTeX"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="XyMTeX" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;XyMTeX&amp;apos;&amp;apos;&amp;apos; is a [[Macro (computer science)|macro]] package for [[TeX]] which renders high-quality [[chemical structure]] diagrams. Using the typesetting system, the name is styled as &amp;lt;span class=&amp;quot;texhtml&amp;quot;&amp;gt;X&amp;lt;span style=&amp;quot;margin-left: -0.3em; vertical-align: 0.5ex; line-height: 0; margin-right: -0.3em&amp;quot;&amp;gt;ϒ&amp;lt;/span&amp;gt;&amp;lt;span style=&amp;quot;margin-right: -0.1em&amp;quot;&amp;gt;M&amp;lt;/span&amp;gt;T&amp;lt;span style=&amp;quot;text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em&amp;quot;&amp;gt;e&amp;lt;/span&amp;gt;X&amp;lt;/span&amp;gt;. It was originally written by {{nihongo|Shinsaku Fujita|藤田眞作|Fujita Shinsaku}}.  [[Molecule]]s are defined by [[TeX markup]].
+
+==Example==
+The following code produces the image for [[corticosterone]] below.
+
+&amp;lt;syntaxhighlight lang=&amp;quot;latex&amp;quot;&amp;gt;
+\documentclass{letter}
+\usepackage{epic,carom}
+\pagestyle{empty}
+\begin{document}
+\begin{picture}(1000,500)
+   \put(0,0){\steroid[d]{3D==O;{{10}}==\lmoiety{H$_{3}$C};{{13}}==\lmoiety{H$_{3}$C};{{11}}==HO}}
+   \put(684,606){\sixunitv{}{2D==O;1==OH}{cdef}}
+\end{picture}
+\end{document}
+&amp;lt;/syntaxhighlight&amp;gt;
+
+[[File:Corticosterone (1).png|center|frame|Corticosterone as rendered by XyMTeX]]
+
+==See also==
+* [[PPCHTeX]] (&amp;lt;span style=&amp;quot;text-transform: lowercase&amp;quot;&amp;gt;PPCH&amp;lt;/span&amp;gt;T&amp;lt;span style=&amp;quot;text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em&amp;quot;&amp;gt;e&amp;lt;/span&amp;gt;X)
+* [[Wikipedia:WikiTeX|WikiTeX]] &amp;amp;mdash; includes support for XyMTeX directly in Wiki articles
+
+==External links==
+* [http://xymtex.com/ Shonan Institute of Chemoinformatics and Mathematical Chemistry]
+** [http://xymtex.com/fujitas3/xymtex/indexe.html XyMTeX for Drawing Chemical Structures] {{en icon}} &amp;amp;mdash; Download of XyMTeX Version 5.00a (the latest version: 2010-11-22) and its manuals.
+** [http://xymtex.com/fujitas3/xymtex/ XyMTeX for Drawing Chemical Structures] {{ja icon}} &amp;amp;mdash; Download of XyMTeX Version 5.00a (the latest version: 2010-11-22) and its manuals.
+* [http://www.ctan.org/ the &amp;apos;&amp;apos;&amp;apos;C&amp;apos;&amp;apos;&amp;apos;omprehensive &amp;apos;&amp;apos;&amp;apos;T&amp;apos;&amp;apos;&amp;apos;&amp;lt;span style=&amp;quot;text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em&amp;quot;&amp;gt;e&amp;lt;/span&amp;gt;X &amp;apos;&amp;apos;&amp;apos;A&amp;apos;&amp;apos;&amp;apos;rchive &amp;apos;&amp;apos;&amp;apos;N&amp;apos;&amp;apos;&amp;apos;etwork] ([[CTAN]])
+** [http://mirror.ctan.org/help/Catalogue/entries/xymtex.html The T&amp;lt;span style=&amp;quot;text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em&amp;quot;&amp;gt;e&amp;lt;/span&amp;gt;X Catalogue OnLine, Entry for XyMTeX, Ctan Edition] (Version 4.06)
+* [http://wikisophia.org/wiki/Wikitex#Xym WikiTeX] now includes support for XyMTeX directly in Wiki articles.
+* [http://groups.google.com/group/latex-xymtex XyMTeX Google groups page].
+* [http://www.tug.org/ T&amp;lt;span style=&amp;quot;text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em&amp;quot;&amp;gt;e&amp;lt;/span&amp;gt;X Users Group (TUG)]
+** [http://www.tug.org/pracjourn/ The &amp;lt;span style=&amp;quot;margin-right: -0.07em&amp;quot;&amp;gt;Prac&amp;lt;/span&amp;gt;T&amp;lt;span style=&amp;quot;text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em&amp;quot;&amp;gt;e&amp;lt;/span&amp;gt;X Journal]
+*** [http://www.tug.org/pracjourn/2007-4/senthil/ L&amp;lt;span style=&amp;quot;text-transform: uppercase; font-size: 70%; margin-left: -0.36em; vertical-align: 0.3em; line-height: 0; margin-right: -0.15em&amp;quot;&amp;gt;a&amp;lt;/span&amp;gt;T&amp;lt;span style=&amp;quot;text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em&amp;quot;&amp;gt;e&amp;lt;/span&amp;gt;X Tools for Life Scientists (BioT&amp;lt;span style=&amp;quot;text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em&amp;quot;&amp;gt;e&amp;lt;/span&amp;gt;Xniques?)]  &amp;amp;mdash; An article that discusses XyMTeX.
+
+{{TeX navbox}}
+
+[[Category:Free TeX software]]
+[[Category:Chemistry software]]
+[[Category:Science software]]
+
+
+{{science-software-stub}}
+{{digital-typography-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

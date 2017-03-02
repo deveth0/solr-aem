@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ocuituco"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ocuituco" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Ocuituco&amp;apos;&amp;apos;&amp;apos; is a city in the [[Mexican state]] of [[Morelos]].
+It stands at {{coord|18|52|N|98|46|W|}}.
+&amp;lt;!--- 18º52´3” N. and 98º 46´ W. ---&amp;gt;
+
+The city serves as the municipal seat for the surrounding  municipality of the same name.
+The municipality reported 15,090 inhabitants in the year 2000 census.
+
+==External links==
+*http://www.e-morelos.gob.mx/e-gobierno/DirMunicipios/ocuituco.htm
+*http://e-municipios.e-morelos.gob.mx/ocuituco.htm
+
+[[Category:Populated places in Morelos]]
+
+{{Morelos-geo-stub}}
+{{Morelos}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

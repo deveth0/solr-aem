@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Growth"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Growth" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Wiktionary|growth}}
+&amp;apos;&amp;apos;&amp;apos;Growth&amp;apos;&amp;apos;&amp;apos; refers to an increase in some quantity over time. Growth is a stage in the process of growing or full growth. It is an anticipated progressive growth especially in capital value
+and income. It is a projection. It is a progression of something from a simpler form
+to more complex form.
+
+The quantity can be:
+* Physical (e.g., growth in [[height]], growth in an amount of [[money]])
+* Abstract (e.g., a system becoming more complex, an organism becoming more [[mature]])
+It can also refer to the mode of growth, i.e. numeric models for describing how much a particular quantity grows over time.
+
+;Biology
+* [[Cell growth]]
+* A [[tumor]] is sometimes referred to as a &amp;quot;growth&amp;quot;
+* [[Bacterial growth]]
+* [[Human development (biology)]]
+&amp;lt;!-- deliberately deleting this item, but if included it would go here ** [[Human development (biology)|Growth spurt]], a short period of rapid growth --&amp;gt;
+** [[Auxology]], the study of all aspects of human physical growth
+* [[Growth hormone]]
+
+;Social science
+* [[Human development (humanity)]]
+* [[Developmental psychology]]
+* [[Personal development]] (&amp;quot;Personal growth&amp;quot;)
+* [[Erikson&amp;apos;s stages of psychosocial development]], stages of individual growth
+* [[Population growth]]
+
+;Economy
+* [[Economic growth]]
+* Financial growth, due to simple or compound [[interest]]
+* [[Growth investing]]
+
+;Mathematical models
+* [[Linear function|Linear growth]]
+* [[Logistic function|Logistic growth]], characterized as an S curve
+* [[Exponential growth]], also called geometric growth
+* [[Hyperbolic growth]]
+
+; Films
+* [[Growth (film)|&amp;apos;&amp;apos;Growth&amp;apos;&amp;apos; (film)]], a 2010 American horror film
+
+==See also==
+* [[Grow (disambiguation)]]
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

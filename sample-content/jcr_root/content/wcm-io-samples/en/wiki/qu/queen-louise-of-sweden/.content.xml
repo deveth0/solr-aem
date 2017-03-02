@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Queen Louise of Sweden"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Queen Louise of Sweden" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Queen Louise of Sweden&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* [[Louisa Ulrika of Prussia]] (1720-1782), daughter of Frederick William I of Prussia and Sophia Dorothea of Hanover; wife of Adolf Frederick, King of Sweden
+* [[Louise of the Netherlands]] (1828–1871), daughter of Prince Frederick of the Netherlands and Princess Louise of Prussia (1808–1870); wife of Charles XV of Sweden
+* [[Louise of Battenberg]] (1889–1965), daughter of Prince Louis of Battenberg and Princess Victoria of Hesse and by Rhine; wife of Gustaf VI Adolf of Sweden
+
+{{hndis|Louise of Sweden}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

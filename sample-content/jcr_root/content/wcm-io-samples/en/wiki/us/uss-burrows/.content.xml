@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="USS Burrows"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="USS Burrows" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Italic title prefixed|3}}
+Three ships of the [[United States Navy]] have been named &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Burrows&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;, in honor of [[William Ward Burrows II]].
+
+* The {{USS|Burrows|1814}}, was a galley launched in 1814 and served in the [[Battle of Lake Champlain]].
+
+* The {{USS|Burrows|DD-29}}, was a modified [[Paulding class destroyer|&amp;apos;&amp;apos;Paulding&amp;apos;&amp;apos;-class]] destroyer launched in 1910 and served in World War I and then served in the [[United States Coast Guard]] from 1924 to 1930.
+
+* The {{USS|Burrows|DE-105}}, was a [[Cannon class destroyer escort|&amp;apos;&amp;apos;Cannon&amp;apos;&amp;apos;-class]] destroyer escort launched in 1943 and sold to The Netherlands in 1950.
+
+==References==
+*{{DANFS|http://www.history.navy.mil/danfs/b11-list.htm}}
+
+{{Shipindex}}
+
+{{DEFAULTSORT:Burrows}}
+[[Category:United States Navy ship names]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

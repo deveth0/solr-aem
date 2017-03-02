@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Nm (Unix)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Nm (Unix)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{lowercase|nm (Unix)}}
+The &amp;lt;tt&amp;gt;&amp;apos;&amp;apos;&amp;apos;nm&amp;apos;&amp;apos;&amp;apos;&amp;lt;/tt&amp;gt; command ships with a number of later versions of [[Unix]] and similar [[operating system]]s. &amp;lt;tt&amp;gt;nm&amp;lt;/tt&amp;gt; is used to examine [[binary file]]s (including [[Library (computing)|libraries]], compiled [[Object file|object modules]], shared-object files, and standalone [[executable]]s) and to display the contents of those files, or [[Metadata|meta information]] stored in them, specifically the [[symbol table]]. The output from &amp;lt;tt&amp;gt;nm&amp;lt;/tt&amp;gt; distinguishes between various symbol types. For example, it differentiates between a [[subroutine|function]] that is supplied by an object module and a function that is required by it. &amp;lt;tt&amp;gt;nm&amp;lt;/tt&amp;gt; is used as an aid for [[debugging]], to help resolve problems arising from name conflicts and [[C++]] [[name mangling]], and to validate other parts of the [[toolchain]].
+
+The [[GNU Project]] ships an implementation of &amp;lt;tt&amp;gt;nm&amp;lt;/tt&amp;gt; as part of the [[GNU Binutils]] package.
+
+==nm output sample==
+
+&amp;lt;source lang=&amp;quot;c&amp;quot;&amp;gt;
+/*
+ * File name: test.c
+ * For C code compile with:
+ * gcc -c test.c
+ *
+ * For C++ code compile with:
+ * g++ -c test.c
+ */
+int global_var;
+int global_var_init = 26;
+
+static int static_var;
+static int static_var_init = 25;
+
+static int static_function()
+{
+  return 0;
+}
+
+int global_function(int p)
+{
+  static int local_static_var;
+  static int local_static_var_init=5;
+
+  local_static_var = p;
+
+  return local_static_var_init + local_static_var;
+}
+
+int global_function2()
+{
+  int x;
+  int y;
+  return x+y;
+}
+
+#ifdef __cplusplus
+extern &amp;quot;C&amp;quot;
+#endif
+void non_mangled_function()
+{
+  // I do nothing
+}
+
+int main(void)
+{
+  global_var = 1;
+  static_var = 2;
+
+  return 0;
+}
+
+&amp;lt;/source&amp;gt;
+
+If the previous code is compiled with the [[GNU Compiler Collection|gcc]] C compiler, the output of the &amp;lt;tt&amp;gt;nm&amp;lt;/tt&amp;gt; command is the following:
+
+&amp;lt;pre&amp;gt;# nm test.o
+0000000a T global_function
+00000025 T global_function2
+00000004 C global_var
+00000000 D global_var_init
+00000004 b local_static_var.1255
+00000008 d local_static_var_init.1256
+0000003b T main
+00000036 T non_mangled_function
+00000000 t static_function
+00000000 b static_var
+00000004 d static_var_init
+&amp;lt;/pre&amp;gt;
+
+When the C++ compiler is used, the output differs:
+&amp;lt;pre&amp;gt;
+# nm test.o
+0000000a T _Z15global_functioni
+00000025 T _Z16global_function2v
+00000004 b _ZL10static_var
+00000000 t _ZL15static_functionv
+00000004 d _ZL15static_var_init
+00000008 b _ZZ15global_functioniE16local_static_var
+00000008 d _ZZ15global_functioniE21local_static_var_init
+         U __gxx_personality_v0
+00000000 B global_var
+00000000 D global_var_init
+0000003b T main
+00000036 T non_mangled_function
+&amp;lt;/pre&amp;gt;
+
+The differences between the outputs also show an example of solving the name mangling problem by using [[extern &amp;quot;C&amp;quot;]] in C++ code.
+
+==See also==
+*[[Objdump]]
+
+==External links==
+*{{man|cu|nm|SUS|write the name list of an object file}}
+*{{man|1|nm||List symbols from object files}}
+
+[[Category:Unix programming tools]]
+[[Category:Unix SUS2008 utilities]]
+
+{{unix-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

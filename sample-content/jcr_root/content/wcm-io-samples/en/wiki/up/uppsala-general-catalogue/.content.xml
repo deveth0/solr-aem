@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Uppsala General Catalogue"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Uppsala General Catalogue" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;Uppsala General Catalogue of Galaxies&amp;apos;&amp;apos;&amp;apos; (UGC) is a catalogue of 12921 [[galaxy|galaxies]] visible from the northern hemisphere. It was first published in 1973.&amp;lt;ref&amp;gt;{{Cite news
+ | title=The Uppsala General Catalogue of Galaxies
+ | author=Peter Nilson
+ | url=http://nedwww.ipac.caltech.edu/level5/March02/Nilson/Nilson_contents.html
+ | accessdate=2011-01-30}}&amp;lt;/ref&amp;gt;
+
+The catalogue includes essentially all galaxies north of [[declination]] -02°30&amp;apos; and to a limiting diameter of 1.0 [[arcminute]] or to a limiting [[apparent magnitude]] of 14.5. The primary source of data is the blue prints of the [[Palomar Observatory]] [[Palomar Observatory Sky Survey|Sky Survey]] (POSS). It also includes galaxies smaller than 1.0 [[arcminute]] in diameter but brighter than 14.5 magnitude from the [[Catalogue of Galaxies and of Clusters of Galaxies]] (CGCG).
+
+The catalogue contains descriptions of the galaxies and their surrounding areas, plus conventional system classifications and position angles for flattened galaxies. Galaxy diameters are included and the classifications and descriptions are given in such a way as to provide as accurate an account as possible of the appearance of the galaxies on the prints. The accuracy of coordinates is only what is necessary for identifications purposes.
+
+==Addendum==
+There is an addendum to the catalogue called &amp;apos;&amp;apos;&amp;apos;Uppsala General Catalogue Addendum&amp;apos;&amp;apos;&amp;apos; which is abbreviated as &amp;apos;&amp;apos;&amp;apos;UGCA&amp;apos;&amp;apos;&amp;apos;.
+
+==References==
+&amp;lt;references/&amp;gt;
+
+==See also==
+* [[Uppsala]]
+* [[Uppsala Astronomical Observatory]]
+* [[Royal Society of Sciences in Uppsala]]
+
+[[Category:Astronomical catalogues of galaxies]]
+[[Category:UGC objects|*]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

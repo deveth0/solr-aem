@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="John Owens (merchant)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="John Owens (merchant)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Other people|John Owens}}
+
+&amp;apos;&amp;apos;&amp;apos;John Owens&amp;apos;&amp;apos;&amp;apos; (1790&amp;amp;ndash;1846), English merchant, was born in [[Manchester]], [[England]] in 1790, the son of Owen Owens, a prosperous merchant who had come to Manchester from Flintshire, Wales. He was educated at a private school and began work for his father&amp;apos;s firm about the age of 14. By 1819  he had become a partner in his father&amp;apos;s business and was soon noted for his ability as a cotton buyer. His business prospered, and the firm traded with [[China]], [[India]], [[South America]] and the [[United States]], dealing in many other commodities. For a time he was in partnership with Samuel Faulkner whose son George was his closest friend. The business was carried on at Carpenter&amp;apos;s Lane in Manchester while Owens resided at Nelson Street, [[Chorlton on Medlock]]. It is recorded that he was a man of very retiring habits who kept no company whatever. He spent evenings quietly among his books. He was a Liberal in politics and a Congregationalist by religion though in his later life he left off worshipping in chapel and attended an Anglican church. His large fortune he suggested leaving to his friend and partner George Faulkner (1790–1860), already a rich man. But by the latter&amp;apos;s advice he bequeathed it to trustees for the foundation of a college ([[Owens College]], Manchester, opened 1851, now part of the [[University of Manchester]]), based upon his own ideas of education. His will was made in May 1845. He died in Manchester unmarried and without issue on the 29th of July 1846: his bequests to friends and charities amounted to some £52,000, while for the college he left £96,654. Among the conditions for its foundation the most important was that which discountenanced any sort of religious test for students or teachers. He was buried at St John&amp;apos;s Church, Manchester: the memorial to him there was subsequently moved into the John Owens Building of the University.
+
+==Sources==
+*Charlton, H. B. (1951) &amp;apos;&amp;apos;Portrait of a University, 1851-1951&amp;apos;&amp;apos;. Manchester: Manchester University Press; pp.&amp;amp;nbsp;22–27
+*{{1911}}
+
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Owens, John
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION =
+| DATE OF BIRTH     = 1790
+| PLACE OF BIRTH    =
+| DATE OF DEATH     = 1846
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Owens, John}}
+[[Category:1790 births]]
+[[Category:1846 deaths]]
+[[Category:People associated with the Victoria University of Manchester]]
+[[Category:People from Manchester]]
+[[Category:English merchants]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

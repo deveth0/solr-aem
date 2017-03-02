@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="CRH"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="CRH" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;CRH&amp;apos;&amp;apos;&amp;apos; can refer to:
+* [[Choate Rosemary Hall]], a private boarding school in Wallingford, Connecticut
+* [[Crimean Tatar language]], ISO 639-2 code for Crimean Tatar language
+* [[Celtic Resources Holdings plc]], an Irish mining company
+* [[CRH plc]], an Irish company that produces building materials
+* [[China Railway High-speed]], the high-speed railway service operated by China Railways
+* [[Corticotropin-releasing hormone]], a polypeptide hormone and neurotransmitter involved in the stress response
+* [[Cri Helicopters Mexico]] ([[ICAO airline designator]]: CRH)
+* [[Crouch Hill railway station]], a railway station in England (National Rail station code: CRH)
+* [[Coin roll hunting]], the hobby of searching change pulled from circulation for collectible coins
+* [[Calderdale Royal Hospital]]
+* [[List of British ordnance terms#C.R.H.|Calibre radius head]], an engineering term that describing a military shell
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

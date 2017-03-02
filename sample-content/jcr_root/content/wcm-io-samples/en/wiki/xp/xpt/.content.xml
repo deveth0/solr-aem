@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="XPT"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="XPT" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;XPT&amp;apos;&amp;apos;&amp;apos; can mean multiple things:
+* The [[XPT (Train)|XPT passenger train]], a type of train operated by [[CountryLink]], the train and coach service that operates throughout regional areas in the state of [[New South Wales]], [[Australia]].
+* The [[XPT (Extreme Power Tools)|XPT]], a Windows software toolset for programmers.
+* The [[ISO 4217]] code for tracking the value of one [[troy ounce]] of [[platinum]].
+* The filename extension .xpt is used for [[XPConnect]] typelibraries.
+* The [[XPT Framework]] a web development [[Software framework|framework]] [[PHP]] based.
+* The [[XPT Garage door]] - a garage door brand.
+
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

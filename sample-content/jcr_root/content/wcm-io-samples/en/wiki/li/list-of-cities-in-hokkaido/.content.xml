@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="List of cities in Hokkaido"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="List of cities in Hokkaido" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;This is the list of all the [[cities of Japan|cities]] located in [[Hokkaido]], Japan. All of them belong to a [[subprefectures in Hokkaido|subprefecture]] of Hokkaido.
+
+{|class=toccolours
+|-
+!City||Subprefecture
+|-
+|| [[Abashiri, Hokkaido|Abashiri]] || [[Abashiri Subprefecture|Abashiri]]
+|-
+|| [[Akabira, Hokkaido|Akabira]] || [[Sorachi Subprefecture|Sorachi]]
+|-
+|| [[Asahikawa, Hokkaido|Asahikawa]] || [[Kamikawa Subprefecture|Kamikawa]] (capital)
+|-
+|| [[Ashibetsu, Hokkaido|Ashibetsu]] || [[Sorachi Subprefecture|Sorachi]]
+|-
+|| [[Bibai, Hokkaido|Bibai]] || [[Sorachi Subprefecture|Sorachi]]
+|-
+|| [[Chitose, Hokkaido|Chitose]] || [[Ishikari Subprefecture|Ishikari]]
+|-
+|| [[Date, Hokkaido|Date]] || [[Iburi Subprefecture|Iburi]]
+|-
+|| [[Ebetsu, Hokkaido|Ebetsu]] || [[Ishikari Subprefecture|Ishikari]]
+|-
+|| [[Eniwa, Hokkaido|Eniwa]] || [[Ishikari Subprefecture|Ishikari]]
+|-
+|| [[Fukagawa, Hokkaido|Fukagawa]] || [[Sorachi Subprefecture|Sorachi]]
+|-
+|| [[Furano, Hokkaido|Furano]] || [[Kamikawa Subprefecture|Kamikawa]]
+|-
+|| [[Hakodate, Hokkaido|Hakodate]] || [[Oshima Subprefecture|Oshima]] (capital)
+|-
+|| [[Hokuto, Hokkaido|Hokuto]] || [[Oshima Subprefecture|Oshima]] (Newest city, founded on February 1, 2006)
+|-
+|| [[Ishikari, Hokkaido|Ishikari]] || [[Ishikari Subprefecture|Ishikari]]
+|-
+|| [[Iwamizawa, Hokkaido|Iwamizawa]] || [[Sorachi Subprefecture|Sorachi]] (capital)
+|-
+|| [[Kitahiroshima, Hokkaido|Kitahiroshima]] || [[Ishikari Subprefecture|Ishikari]]
+|-
+|| [[Kitami, Hokkaido|Kitami]] || [[Abashiri Subprefecture|Abashiri]]
+|-
+|| [[Kushiro, Hokkaido|Kushiro]] || [[Kushiro Subprefecture|Kushiro]] (capital)
+|-
+|| [[Mikasa, Hokkaido|Mikasa]] || [[Sorachi Subprefecture|Sorachi]]
+|-
+|| [[Monbetsu, Hokkaido|Monbetsu]] || [[Abashiri Subprefecture|Abashiri]]
+|-
+|| [[Muroran, Hokkaido|Muroran]] || [[Iburi Subprefecture|Iburi]] (capital)
+|-
+|| [[Nayoro, Hokkaido|Nayoro]] || [[Kamikawa Subprefecture|Kamikawa]]
+|-
+|| [[Nemuro, Hokkaido|Nemuro]] || [[Nemuro Subprefecture|Nemuro]] (capital)
+|-
+|| [[Noboribetsu, Hokkaido|Noboribetsu]] || [[Iburi Subprefecture|Iburi]]
+|-
+|| [[Obihiro, Hokkaido|Obihiro]] || [[Tokachi Subprefecture|Tokachi]] (capital)
+|-
+|| [[Otaru, Hokkaido|Otaru]] || [[Shiribeshi Subprefecture|Shiribeshi]]
+|-
+|| [[Rumoi, Hokkaido|Rumoi]] || [[Rumoi Subprefecture|Rumoi]] (capital)
+|-
+|| [[Sapporo, Hokkaido|Sapporo]] || [[Ishikari Subprefecture|Ishikari]] (capital, also Hokkaido&amp;apos;s capital)
+|-
+|| [[Shibetsu, Hokkaido|Shibetsu]] || [[Kamikawa Subprefecture|Kamikawa]]
+|-
+|| [[Sunagawa, Hokkaido|Sunagawa]] || [[Sorachi Subprefecture|Sorachi]]
+|-
+|| [[Takikawa, Hokkaido|Takikawa]] || [[Sorachi Subprefecture|Sorachi]]
+|-
+|| [[Tomakomai, Hokkaido|Tomakomai]] || [[Iburi Subprefecture|Iburi]]
+|-
+|| [[Utashinai, Hokkaido|Utashinai]] || [[Sorachi Subprefecture|Sorachi]]
+|-
+|| [[Wakkanai, Hokkaido|Wakkanai]] || [[Sōya Subprefecture|Sōya]] (capital)
+|-
+|| [[Yūbari, Hokkaido|Yūbari]] || [[Sorachi Subprefecture|Sorachi]]
+|}
+
+{{Hokkaido}}
+
+[[Category:Cities in Hokkaido|*]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

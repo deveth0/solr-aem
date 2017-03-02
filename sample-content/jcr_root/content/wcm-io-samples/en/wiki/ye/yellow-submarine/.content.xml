@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Yellow Submarine"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Yellow Submarine" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{tocright}}
+&amp;apos;&amp;apos;&amp;apos;Yellow Submarine&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+==The Beatles==
+*[[Yellow Submarine (song)|&amp;quot;Yellow Submarine&amp;quot; (song)]], released in 1966
+*[[Yellow Submarine (film)|&amp;apos;&amp;apos;Yellow Submarine&amp;apos;&amp;apos; (film)]], a feature-length animated film featuring The Beatles&amp;apos; music
+*[[Yellow Submarine (album)|&amp;apos;&amp;apos;Yellow Submarine&amp;apos;&amp;apos; (album)]], 1969 soundtrack to the film
+*&amp;apos;&amp;apos;[[Yellow Submarine Songtrack]]&amp;apos;&amp;apos;, 1999 expanded remix of the &amp;apos;&amp;apos;Yellow Submarine&amp;apos;&amp;apos; album
+*[[Yellow Submarine (sculpture)|&amp;apos;&amp;apos;Yellow Submarine&amp;apos;&amp;apos; (sculpture)]], large-scale work of art at Liverpool Airport, based on the song and film
+*&amp;apos;&amp;apos;[[Ringo&amp;apos;s Yellow Submarine]]&amp;apos;&amp;apos;, 1983 radio show hosted by Ringo Starr
+* &amp;apos;&amp;apos;The Yellow Submarine&amp;apos;&amp;apos;, 1968 movie comic book published by [[Gold Key Comics]].
+
+==Submarines==
+* &amp;apos;&amp;apos;Yellow Submarine&amp;apos;&amp;apos;, nickname for an unmanned acoustic test vehicle, originally the American submarine [[USS Menhaden (SS-377)|USS &amp;apos;&amp;apos;Menhaden&amp;apos;&amp;apos; (SS-377)]]
+* &amp;apos;&amp;apos;Yellow Submarine&amp;apos;&amp;apos;, nickname for &amp;apos;&amp;apos;[[Quester I]]&amp;apos;&amp;apos;, built in an attempt to salvage the wreck of the SS &amp;apos;&amp;apos;Andrea Doria&amp;apos;&amp;apos;
+
+==Sports==
+*&amp;quot;The Yellow Submarine&amp;quot;, nickname for the Spanish football team [[Cádiz CF]]
+*&amp;quot;The Yellow Submarines&amp;quot;, nickname for the Spanish football team [[Villarreal CF]]
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

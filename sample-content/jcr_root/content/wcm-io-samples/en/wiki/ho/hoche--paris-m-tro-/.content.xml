@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Hoche (Paris Métro)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Hoche (Paris Métro)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox Paris metro
+|Name=Hoche
+|Day=12 October
+|Year=1942
+|Access=3, rue Hoche&amp;lt;br&amp;gt;50, av. Jean Lolive&amp;lt;br&amp;gt;60, av. Jean Lolive
+|Municipality=Pantin
+|Zone=2
+|Next=
+{{Paris Metro/next|5|Porte de Pantin|Église de Pantin}}
+| X=211
+| Y=21
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Hoche&amp;apos;&amp;apos;&amp;apos; is a [[metro station|station]] of the [[Paris Métro]], serving [[Paris Métro Line 5|Line 5]].
+
+The name refers to the rue Hoche, named for the 18th-century general [[Lazare Hoche]].
+
+[[File:Hoche2.JPG|320px|thumb|left|Platforms]]
+
+{{Paris Metro/line 5}}
+
+{{Paris-metro-stub}}
+
+{{coord|48.891|N|2.403|E|display=title|source:nlwiki}}
+
+[[Category:Railway stations opened in 1942]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

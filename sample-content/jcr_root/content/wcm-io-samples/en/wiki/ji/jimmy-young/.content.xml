@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Jimmy Young"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Jimmy Young" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Jimmy Young&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+*[[Jimmy Young (American football)]] (born 1987), NFL wide receiver for the Pittsburgh Steelers
+*[[Jimmy Young (boxer)]] (1948&amp;amp;ndash;2005)
+*[[Jimmy Young (disc jockey)]] (born 1921), English singer and radio personality
+*[[Jimmy Young (sportscaster)]], [[List of Boston Celtics broadcasters#Radio|radio host for Boston Celtics games]]
+
+==See also==
+*[[Jim Young (disambiguation)]]
+*[[James Young (disambiguation)]]
+
+{{hndis|name=Young, Jimmy}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

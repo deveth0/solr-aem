@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ophioderma (fern)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ophioderma (fern)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{italic title}}
+{{Taxobox
+| name = &amp;apos;&amp;apos;Ophioderma&amp;apos;&amp;apos;
+|image=Starr 040713-0097 Ophioderma pendulum subsp. falcatum.jpg
+|image_caption=Ophioderma pendulum
+| regnum = [[Plantae]]
+| divisio = [[Pteridophyta]]
+| classis = [[Psilotopsida]]
+| ordo = [[Ophioglossales]]
+| familia = [[Ophioglossaceae]]
+| genus = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Ophioderma&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+| genus_authority = ([[Carl Ludwig Blume|Blume]]) [[Endl.]]
+| subdivision_ranks = Species
+| subdivision = See text.
+}}
+
+The genus &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Ophioderma&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; are distinctive ferns (or fern-allies) in the family [[Ophioglossaceae]]. The same genus name is used for a genus of brittle-stars; for those, see &amp;apos;&amp;apos;[[Ophioderma]]&amp;apos;&amp;apos;.
+
+&amp;apos;&amp;apos;Ophioderma&amp;apos;&amp;apos; is closely related to, and sometimes treated as a subgenus of, the genus &amp;apos;&amp;apos;[[Ophioglossum]]&amp;apos;&amp;apos;. It includes the genus formerly known as &amp;apos;&amp;apos;Cheiroglossa&amp;apos;&amp;apos;. Recent genetic analysis has indicated that the two genera should be treated as one, and &amp;apos;&amp;apos;Ophioderma&amp;apos;&amp;apos; has precedence by being validly published at an earlier date. The type species is &amp;apos;&amp;apos;[[Ophioderma pendulum]]&amp;apos;&amp;apos;.
+
+==Species==
+*&amp;apos;&amp;apos;[[Ophioderma falcatum]]&amp;apos;&amp;apos; ([[C.Presl]]) [[O. Deg.]]
+*&amp;apos;&amp;apos;Ophioderma intermedia&amp;apos;&amp;apos; ([[Hook.]]) [[Toji Nishida|Nishida]]
+*&amp;apos;&amp;apos;[[Ophioderma palmata]]&amp;apos;&amp;apos; [[Takenoshin Nakai|Nakai]] -- hand fern
+*&amp;apos;&amp;apos;[[Ophioderma pendulum]]&amp;apos;&amp;apos; ([[L.]]) [[C.Presl]]
+*&amp;apos;&amp;apos;Ophioderma simplex&amp;apos;&amp;apos; ([[Ridl.]] ex [[Frederick Orpen Bower|Bower]]) [[Toji Nishida|Nishida]]
+
+==References==
+*Hauk, Warren D., Clifford R. Parks and Mark W. Chasel. &amp;quot;Phylogenetic studies of Ophioglossaceae: evidence from rbcL and trnL-F plastid DNA sequences and morphology.&amp;quot; &amp;apos;&amp;apos;Molecular Phylogenetics and Evolution&amp;apos;&amp;apos;, 28(1): 131-141. 2003.
+
+[[Category:Ophioglossaceae]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

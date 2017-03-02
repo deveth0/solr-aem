@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="John Van Denburgh"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="John Van Denburgh" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced stub|auto=yes|date=December 2009}}
+[[File:Van Denburgh John 1872-1924.png|thumb|230px|right|John Van Denburgh.]]
+&amp;apos;&amp;apos;&amp;apos;John Van Denburgh&amp;apos;&amp;apos;&amp;apos; (August 23, 1872 - 1924) was a [[United States|U.S.]] [[herpetologist]] from [[California]].
+
+He was born in [[San Francisco]] and enrolled at [[Stanford University]] in 1891. As of 1895, he organized the herpetology department of the [[California Academy of Sciences]]. In 1897 he got a [[Doctor of Philosophy|Ph.D.]] from Stanford University. Additionally, he got an [[Doctor of Medicine|M.D.]] from [[Johns Hopkins University|Johns Hopkins]] in 1902 and subsequently practiced medicine in San Francisco, while again serving as curator of the herpetological collections of the California Academy of Sciences.
+
+After the [[San Francisco earthquake of 1906]] he was instrumental in rebuilding the lost herpetology collections through new expeditions and also acquisitions of other collections. In 1922, he published the two-volume &amp;apos;&amp;apos;The Reptiles of Western North America&amp;apos;&amp;apos;.
+
+He died in 1924 while on vacation in [[Hawaii]].
+
+{{Authority control|VIAF=218062268}}
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Van Denburgh, John
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION = American zoologist
+| DATE OF BIRTH     = August 23, 1872
+| PLACE OF BIRTH    =
+| DATE OF DEATH     = 1924
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Van Denburgh, John}}
+[[Category:American zoologists]]
+[[Category:American herpetologists]]
+[[Category:People from San Francisco, California]]
+[[Category:1872 births]]
+[[Category:1924 deaths]]
+[[Category:Scientists from the San Francisco Bay Area]]
+
+{{US-zoologist-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

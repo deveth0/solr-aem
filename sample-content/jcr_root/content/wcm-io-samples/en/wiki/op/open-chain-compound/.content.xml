@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Open-chain compound"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Open-chain compound" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[chemistry]], an &amp;apos;&amp;apos;&amp;apos;open-chain compound&amp;apos;&amp;apos;&amp;apos; (also spelled as open chain compound) or &amp;apos;&amp;apos;&amp;apos;acyclic compound&amp;apos;&amp;apos;&amp;apos; is a compound with a linear structure, rather than a [[Cyclic compound|cyclic]] one.
+&amp;lt;ref&amp;gt;{{GoldBookRef|file=P04724|title=polycyclic system}}&amp;lt;/ref&amp;gt;
+An open-chain compound having no [[side chain]]s is called a &amp;apos;&amp;apos;&amp;apos;straight-chain compound&amp;apos;&amp;apos;&amp;apos; (also spelled as straight chain compound).
+&amp;lt;ref&amp;gt;{{cite journal|last1=Coles|first1=Lydia|title=A chromatographic method for the separation of branched-chain and straight-chain compounds of columns containing urea|journal=Journal of Chromatography A|volume=32|pages=657|year=1968|doi=10.1016/S0021-9673(01)80544-6}}&amp;lt;/ref&amp;gt;
+&amp;lt;ref&amp;gt;{{GoldBookRef|title=silazanes|file=S05669}}&amp;lt;/ref&amp;gt;
+
+{| class=&amp;quot;wikitable&amp;quot;
+|-align=&amp;quot;center&amp;quot;
+| [[Image:Isopentane-2D-skeletal.png|110px]] || [[Image:Pentane-2D-Skeletal.svg|150px]] || [[File:Cyclopentane2d.png|50px]]
+|-
+| Open-chain compound || Straight-chain compound || cyclic compound
+|}
+
+[[File:HexosesHemiacetal.png|thumb|left|upright=2.5|Above the open-chain forms of [[glucose]] and [[mannose]]. Below the cyclic forms.]]{{clear}}
+
+==References==
+{{reflist}}
+
+{{DEFAULTSORT:Open Chain}}
+
+[[Category:Molecular geometry]]
+[[Category:Chemical bond properties]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

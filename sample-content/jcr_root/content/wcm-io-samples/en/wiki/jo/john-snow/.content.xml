@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="John Snow"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="John Snow" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;John Snow&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;Jon Snow&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+==People==
+* [[John Snow (MP)]] (16th century), English MP for Tregony 1593 and Yarmouth (Isle of Wight) 1597
+* [[Jon Snow]] (born 1947), British newscaster
+* [[John Snow (cricketer)]] (born 1941), English cricketer
+* [[John Snow (physician)]] (1813–1858), English founder of epidemiology and a major contributor to the development of anaesthesia
+* [[John J. Snow, Jr.]], American politician, member of the North Carolina State Senate
+* [[John W. Snow]] (born 1939), American politician, 73rd United States Secretary of the Treasury
+
+==Fictional characters==
+* [[Jon Snow (A Song of Ice and Fire)|Jon Snow (&amp;apos;&amp;apos;A Song of Ice and Fire&amp;apos;&amp;apos;)]], a character from the novel series &amp;apos;&amp;apos;A Song of Ice and Fire&amp;apos;&amp;apos;
+
+==Other==
+* [[John Snow, Inc]], public health research/consulting firm
+
+==See also==
+
+* [[Jack Snow (disambiguation)]]
+
+{{hndis|Snow, John}}
+
+[[nl:John Snow]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

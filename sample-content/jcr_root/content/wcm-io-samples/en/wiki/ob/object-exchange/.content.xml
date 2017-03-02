@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="OBject EXchange"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="OBject EXchange" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{About|the communications protocol|the portion of the brain|Obex}}
+{{Unreferenced|date=October 2008}}
+&amp;apos;&amp;apos;&amp;apos;OBEX&amp;apos;&amp;apos;&amp;apos; (abbreviation of &amp;apos;&amp;apos;&amp;apos;OBject EXchange&amp;apos;&amp;apos;&amp;apos;, also termed &amp;apos;&amp;apos;&amp;apos;IrOBEX&amp;apos;&amp;apos;&amp;apos;) is a communications protocol that facilitates the exchange of binary objects between devices. It is maintained by the [[Infrared Data Association]] but has also been adopted by the [[Bluetooth Special Interest Group]] and the [[SyncML]] wing of the [[Open Mobile Alliance]] (OMA). One of OBEX&amp;apos;s earliest popular applications was in the [[Palm Pilot|Palm III]] [[personal digital assistant]]. This PDA and its many successors use OBEX to exchange business cards, data, even applications.
+
+Although OBEX was initially designed for infrared, it has now been adopted by [[Bluetooth]], and is also used over [[RS232]], [[USB]], [[Wireless Application Protocol|WAP]], and in devices such as [[Livescribe]] smartpens.
+
+==Comparison to HTTP==
+OBEX is similar in design and function to [[HTTP]] in providing the client with a reliable transport for connecting to a server and may then request or provide objects. But OBEX differs in many important respects:
+
+*HTTP is normally layered above a [[TCP/IP]] link. OBEX is commonly implemented on an [[IrLAP]]/[[IrLMP]]/[[Tiny TP]] stack on an [[IrDA]] device. In [[Bluetooth]], OBEX is implemented on a [[Baseband]]/[[Bluetooth_protocols#ACL_.28Asynchronous_Connection_Less.29_link|ACL]]/[[Bluetooth_protocols#L2CAP_.28Logical_Link_Control_and_Adaptation_Protocol.29|L2CAP]]/[[Bluetooth_protocols#RFCOMM_.28Radio_Frequency_Communication.29|RFCOMM]] stack. Other such &amp;quot;bindings&amp;quot; of OBEX are possible.
+*HTTP uses human-readable text, but OBEX uses binary-formatted type-length-value triplets named &amp;quot;Headers&amp;quot; to exchange information about a request or an object. These are much easier to parse by resource-limited devices.
+*HTTP transactions are inherently stateless; generally a HTTP client opens a connection, makes a single request, receives its response, and either closes the connection or [[HTTP persistent connection|makes other unrelated requests]]. In OBEX, a single transport connection may bear many related operations. In fact, recent additions to the OBEX specification allow an abruptly closed transaction to be resumed with all state information intact.
+
+==Profiles==
+OBEX is the foundation for many higher-layer &amp;quot;profiles&amp;quot;:
+
+{| class=&amp;quot;wikitable&amp;quot;
+|+Profiles
+!Classification
+!Profile
+|-
+|rowspan=2|IrDA
+|Point and Shoot profile
+|-
+|[[IrFM|Infrared Financial Messaging (IrFM)]] profile
+|-
+|rowspan=6|Bluetooth SIG
+|[[Bluetooth_profiles#Generic_Object_Exchange_Profile_.28GOEP.29|Generic Object Exchange Profile]]
+|-
+|[[Bluetooth_profiles#Object_Push_Profile_.28OPP.29|Object Push Profile]] (phone to phone transfers)
+|-
+|[[Bluetooth_profiles#File_Transfer_Profile_.28FTP.29|File Transfer Profile]] (phone to PC transfers)
+|-
+|[[Bluetooth_profiles#Synchronisation_Profile_.28SYNCH.29|Synchronization Profile]]
+|-
+|[[Bluetooth_profiles#Basic_Imaging_Profile_.28BIP.29|Basic Imaging Profile]]
+|-
+|[[Bluetooth_profiles#Basic_Printing_Profile_.28BPP.29|Basic Printing Profile]]
+|-
+|OMA
+|[[SyncML]] binding
+|}
+
+==Supported devices==
+*All [[Palm (PDA)|Palm]]s since [[Palm III]], except the Palm Pre, Palm Pre Plus, Palm Pixi and Palm Pixi Plus.
+*Most [[Sharp Corporation|Sharp]], [[Motorola]], [[Samsung]], [[Sony Ericsson]], [[HTC Corporation|HTC]] and [[Nokia]] phones with [[infrared]] or [[Bluetooth]] port
+*LG EnV Touch (VX11000)
+*Many other PDAs since 2003
+*Many other phones with [[infrared]] or [[Bluetooth]] port
+*Android devices in version 2.1 and above
+*Windows Phone 7.8 and 8 devices (limited to the transferring of pictures, music and videos via a &amp;apos;Bluetooth Share&amp;apos; app).
+
+==See also==
+*[[Shared file access]]
+
+==External links==
+*[http://www.irda.org/ OBEX specification at IrDA.org]
+*[http://www.openobex.org/ OpenOBEX] an open source implementation of the OBEX protocol
+
+[[Category:Infrared Data Association]]
+[[Category:Bluetooth]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

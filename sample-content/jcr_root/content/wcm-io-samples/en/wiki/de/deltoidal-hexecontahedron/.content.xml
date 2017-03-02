@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Deltoidal hexecontahedron"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Deltoidal hexecontahedron" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{| border=&amp;quot;1&amp;quot; bgcolor=&amp;quot;#ffffff&amp;quot; cellpadding=&amp;quot;5&amp;quot; align=&amp;quot;right&amp;quot; style=&amp;quot;margin-left:10px&amp;quot; width=&amp;quot;250&amp;quot;
+!bgcolor=#e7dcc3 colspan=2|Deltoidal hexecontahedron
+|-
+|align=center colspan=2|[[Image:deltoidalhexecontahedron.jpg|240px|Deltoidal hexecontahedron]]&amp;lt;br&amp;gt;&amp;apos;&amp;apos;Click on picture for large version&amp;apos;&amp;apos;&amp;lt;br&amp;gt;&amp;apos;&amp;apos;[[:image:deltoidalhexecontahedron.gif|spinning version]]&amp;apos;&amp;apos;
+|-
+|bgcolor=#e7dcc3|Type||[[Catalan solid|Catalan]]
+|-
+|bgcolor=#e7dcc3|Coxeter diagram||{{CDD|node_f1|5|node|3|node_f1}}
+|-
+|bgcolor=#e7dcc3|Face polygon||[[kite (geometry)|kite]]
+|-
+|bgcolor=#e7dcc3|Faces||60
+|-
+|bgcolor=#e7dcc3|Edges||120
+|-
+|bgcolor=#e7dcc3|Vertices||62 = 12 + 20 + 30
+|-
+|bgcolor=#e7dcc3|[[Face configuration]]||V3.4.5.4
+|-
+|bgcolor=#e7dcc3|[[List_of_spherical_symmetry_groups|Symmetry group]]||[[Icosahedral symmetry|I&amp;lt;sub&amp;gt;h&amp;lt;/sub&amp;gt;]], H&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;, [5,3], (*532)
+|-
+|bgcolor=#e7dcc3|[[Point_groups_in_three_dimensions#Rotation_groups|Rotation group]]||I, [5,3]&amp;lt;sup&amp;gt;+&amp;lt;/sup&amp;gt;, (532)
+|-
+|bgcolor=#e7dcc3|[[Dihedral angle]]||154° 7&amp;apos; 17&amp;quot;
+|-
+|bgcolor=#e7dcc3|Properties||convex, [[face-transitive]]
+|-
+|valign=top align=center|[[Image:Small rhombicosidodecahedron.png|120px]]&amp;lt;BR&amp;gt;[[rhombicosidodecahedron]]&amp;lt;BR&amp;gt;([[dual polyhedron]])
+|align=center|[[Image:deltoidalhexecontahedron net.png|120px|{{PAGENAME}} net]]&amp;lt;BR&amp;gt;[[Net (polyhedron)|Net]]
+|}
+In [[geometry]], a &amp;apos;&amp;apos;&amp;apos;deltoidal hexecontahedron&amp;apos;&amp;apos;&amp;apos; (also sometimes called a &amp;apos;&amp;apos;trapezoidal hexecontahedron&amp;apos;&amp;apos;, a &amp;apos;&amp;apos;strombic hexecontahedron&amp;apos;&amp;apos;, or a &amp;apos;&amp;apos;tetragonal hexacontahedron&amp;apos;&amp;apos;) is a [[catalan solid]] which looks a bit like either an overinflated [[dodecahedron]] or [[icosahedron]].  It is sometimes also called the trapezoidal hexecontahedron or strombic hexecontahedron.  Its [[dual polyhedron]] is the [[rhombicosidodecahedron]].
+
+The 60 faces are deltoids or [[kite (geometry)|kites]] (not [[trapezoid|trapezoidal]]). The short and long edges of each kite are in the ratio 1.00:1.54.
+
+It is the only [[Archimedean solid|Archimedean]] [[dual polyhedron|dual]] which does not have a [[Hamiltonian path]] among its vertices.
+== Related polyhedra and tilings ==
+{{Icosahedral truncations}}
+
+This tiling is topologically related as a part of sequence of deltoidal polyhedra with face figure (V3.4.n.4), and continues as tilings of the [[Hyperbolic space|hyperbolic plane]]. These [[face-transitive]] figures have (*n32) reflectional [[Orbifold notation|symmetry]].
+
+{{Expanded table}}
+
+==See also==
+*[[Deltoidal icositetrahedron]]
+
+== References ==
+* {{The Geometrical Foundation of Natural Structure (book)}} (Section 3-9)
+* &amp;apos;&amp;apos;The Symmetries of Things&amp;apos;&amp;apos; 2008, John H. Conway, Heidi Burgiel, Chaim Goodman-Strass, ISBN 978-1-56881-220-5 [http://www.akpeters.com/product.asp?ProdCode=2205] (Chapter 21, Naming the Archimedean and Catalan polyhedra and tilings, page 286, tetragonal hexecontahedron)
+
+==External links==
+* {{Mathworld2 | urlname= DeltoidalHexecontahedron| title=DeltoidalHexecontahedron and Hamiltonian path | urlname2 =  CatalanSolid| title2 = Catalan solid}}
+* [http://polyhedra.org/poly/show/42/trapezoidal_hexecontahedron Deltoidal Hexecontahedron (Trapezoidal Hexecontrahedron)] -- Interactive Polyhedron Model
+
+* [http://www.ict.griffith.edu.au/anthony/kites/gallery/#Ball Example in real life] -- A ball almost 4 meters in diameter, from ripstop nylon, and inflated by the wind. It bounces around on the ground so that kids can play with it at kite festivals.
+{{Polyhedron navigator}}
+
+{{Polyhedron-stub}}
+[[Category:Catalan solids]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

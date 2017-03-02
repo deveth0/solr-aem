@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="William King (physician)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="William King (physician)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[File:Dr. William King.jpg|thumb|right|William King]]
+&amp;apos;&amp;apos;&amp;apos;Dr. William King&amp;apos;&amp;apos;&amp;apos; (17 April 1786 – 19 October 1865) was a [[United Kingdom|British]] physician and [[philanthropist]] from [[Brighton]]. He is best known as an early supporter of the [[Cooperative|Cooperative Movement]].
+
+By 1827, [[Robert Owen]] had taken his ideas of a co-operative movement to the [[United States]]. But they were picked up and amplified by Dr. King. King founded a cooperative store in Brighton. Then in 1828 he started a paper,&amp;apos;&amp;apos;&amp;apos; &amp;apos;&amp;apos;The Co-operator&amp;apos;&amp;apos; &amp;apos;&amp;apos;&amp;apos;&amp;lt;ref&amp;gt;The Co-operator URL: http://books.google.co.uk/books?id=4mATAAAAQAAJ&amp;lt;/ref&amp;gt; to promote these ideas. &amp;apos;&amp;apos;The Co-operator&amp;apos;&amp;apos; had a wide circulation and a great influence in the emerging movement. Though only published for slightly over two years, the paper served to educate and unify otherwise scattered groups. King&amp;apos;s articles in the paper gave the movement some philosophical and practical basis that it had lacked before.
+
+King&amp;apos;s overriding rationale for the movement is best illustrated by the phrases repeated on the masthead of every issue of &amp;apos;&amp;apos;The Co-operator&amp;apos;&amp;apos;:
+:&amp;apos;&amp;apos;&amp;quot;Knowledge and union are power. Power, directed by knowledge is happiness. Happiness is the end of creation.&amp;quot;&amp;apos;&amp;apos;
+
+King lived at 23 Montpelier Road in the [[Montpelier, Brighton|Montpelier]] area of Brighton.&amp;lt;ref name=&amp;quot;NEB75&amp;quot;&amp;gt;{{Cite book|last=Collis|first=Rose|others=(based on the original by Tim Carder)|title=The New Encyclopaedia of Brighton|edition=1st|year=2010|publisher=Brighton &amp;amp; Hove Libraries|location=Brighton|isbn=978-0-9564664-0-2|page=75}}&amp;lt;/ref&amp;gt;
+
+==References==
+{{reflist}}
+
+
+{{Co-operatives |topics}}
+
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = King, William
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION =
+| DATE OF BIRTH     = 17 April 1786
+| PLACE OF BIRTH    =
+| DATE OF DEATH     = 19 October 1865
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:King, William}}
+[[Category:1786 births]]
+[[Category:1865 deaths]]
+[[Category:Cooperative organisers]]
+
+
+{{UK-med-bio-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

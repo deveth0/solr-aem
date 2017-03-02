@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="USS South Dakota"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="USS South Dakota" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Italic title prefixed|3}}
+&amp;apos;&amp;apos;&amp;apos;USS &amp;apos;&amp;apos;South Dakota&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* {{USS|South Dakota|ACR-9}}, was a [[Pennsylvania-class cruiser|&amp;apos;&amp;apos;Pennsylvania&amp;apos;&amp;apos;-class armored cruiser]] that escorted troops and convoys during World War I
+* {{USS|South Dakota|BB-49}}, was planned as the lead ship of [[South Dakota-class battleship (1920)|her class]] of battleship, but canceled before launch
+* {{USS|South Dakota|BB-57}}, was the lead ship of [[South Dakota-class battleship (1939)|her class]] of battleship, and saw action during World War II
+* {{USS|South Dakota|SSN-790}} is a planned {{sclass-|Virginia|submarine}}
+
+{{Shipindex}}
+
+==See also==
+* [[South Dakota (disambiguation)]]
+* [[South Dakota class]]
+
+{{DEFAULTSORT:South Dakota}}
+[[Category:United States Navy ship names]]
+[[Category:United States Navy South Dakota-related ships]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

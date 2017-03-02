@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Reflection loss"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Reflection loss" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Orphan|date=February 2013}}
+
+In [[telecommunications]], &amp;apos;&amp;apos;&amp;apos;reflection loss&amp;apos;&amp;apos;&amp;apos; occurs on a line which results in part of the energy being reflected back to the source. This can occur:
+#At a discontinuity or [[Electrical impedance|impedance]] mismatch, &amp;apos;&amp;apos;e.g.&amp;apos;&amp;apos; in a [[transmission line]], the ratio of the incident [[Power (physics)|power]] to the reflected power. Reflection loss is usually expressed in [[decibel|dB]].
+#In an [[optical fiber]], the loss that takes place at any discontinuity of [[refractive index]], especially at an air-[[glass]] [[wiktionary:interface|interface]] such as a fiber endface, at which a fraction of the optical [[Signalling (telecommunication)|signal]] is reflected back toward the source.  This reflection phenomenon is also called &amp;quot;[[Fresnel reflection]] loss,&amp;quot; or simply &amp;quot;Fresnel loss.&amp;quot;
+
+==See also==
+*[[Federal Standard 1037C]]
+*[[MIL-STD-188]]
+
+==References==
+* [http://www.answers.com/topic/reflection-loss Reflection loss on Answers]
+
+[[Category:Telecommunication theory]]
+
+
+{{telecomm-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

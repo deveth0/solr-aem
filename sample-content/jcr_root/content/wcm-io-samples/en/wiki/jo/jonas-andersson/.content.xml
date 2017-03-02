@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Jonas Andersson"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Jonas Andersson" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Jonas Andersson&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* [[Jonas Andersson (archer)]] (born 1979), Swedish archer
+* [[Jonas Andersson (ice hockey)]] (born 1981), ice hockey player
+* [[Jonas Andersson (swimmer)]] (born 1984), Swedish swimmer
+* [[Jonas Andersson (speedway rider)]] (born 1990)
+* [[Jonas Andersson (co-driver)]]
+
+==See also==
+* [[Jonas Anderson]], Swedish singer in Thailand
+
+{{hndis|Andersson, Jonas}}
+
+{{DEFAULTSORT:Andersson, Jonas}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

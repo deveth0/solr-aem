@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Gare de Mitry – Claye"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Gare de Mitry – Claye" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Mitry - Claye&amp;apos;&amp;apos;&amp;apos; is a [[railway station]] near [[Paris]], [[France]]. It is located in the commune of [[Mitry-Mory]], and also serves nearby [[Claye-Souilly]]. It is served by regional [[Transilien]] trains and the Paris [[RER]] trains, and is thus an important transit point.
+
+&amp;lt;gallery&amp;gt;
+File:Gare de Mitry - Claye 01.jpg|Entrance
+File:Gare de Mitry - Claye 02.jpg|
+File:Gare-Mitry-Mory-CPancienne.jpg|
+&amp;lt;/gallery&amp;gt;
+
+{{s-start}}
+{{s-rail|title=SNCF}}
+{{s-line|system=Transilien|line=K|previous=Aulnay-sous-Bois|next=Compans}}
+{{s-line|system=TER Picardie|line=6|previous=Paris-Nord|next=Dammartin-Juilly-Saint-Mard}}
+{{s-line|system=RER|line=B|type=B5|type2=both|previous=|next=Villeparisis - Mitry-le-Neuf}}
+{{s-end}}
+
+==See also==
+{{commons category|Gare de Mitry - Claye}}
+* [[List of stations of the Paris RER]]
+
+{{coord|48.976|N|2.642|E|display=title|source:nlwiki}}
+
+{{DEFAULTSORT:Mitry}}
+[[Category:Paris RER stations]]
+[[Category:Buildings and structures in Seine-et-Marne]]
+
+
+{{IledeFrance-railstation-stub}}
+{{ParisRER-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

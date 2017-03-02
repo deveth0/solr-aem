@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Icing (nautical)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Icing (nautical)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Image:Iced ship1.jpg|250px|right|thumb|Ice coating a [[United States Navy]] vessel]]
+&amp;apos;&amp;apos;&amp;apos;Icing&amp;apos;&amp;apos;&amp;apos; on [[ship]]s is a serious hazard where cold [[temperature]]s (below about -10°C) combined with high [[wind speed]] (typically force 8 or above on the [[Beaufort scale]]) result in spray blown off the [[sea]] freezing immediately on contact with the ship. If not frequently knocked off, the [[ice]] can soon build up on the ship&amp;apos;s superstructure to a sufficient weight to cause the ship to [[capsize]].
+
+It is typically a problem in [[Arctic]] and [[Antarctic]] seas, but can also occur in other seas such as the [[Gulf of Saint Lawrence]], the [[Sea of Japan]], the [[Baltic Sea]], and very rarely, the [[North Sea]].
+
+==See also==
+*[[Shipping Forecast]]
+
+==External links==
+*[http://www.crrel.usace.army.mil/aviation_icing/ US Army Engineer Research]
+
+[[Category:Nautical terms]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

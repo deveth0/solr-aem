@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Plaque"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Plaque" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Distinguish|Plague (disambiguation)}}
+{{Wiktionary|plaque}}
+&amp;apos;&amp;apos;&amp;apos;Plaque&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;placque&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* [[Commemorative plaque]], a flat ornamental plate or tablet fixed to a wall, used to mark a significant event, person, etc.
+* [[Plaquette]], a small decorative plaque in metal, ceramics, or other materials
+* [[Memorial Plaque (medallion)|Memorial Plaque]], issued to next-of-kin of dead British military personnel after World War I
+* Plaque, a rectangular [[casino token]]
+
+==In biology==
+* [[Amyloid plaque]]
+* [[Atheromatous plaque]], a buildup of white blood cell (sometimes termed fatty, despite absence of adipocytes) deposits within the wall of an artery
+* [[Dental plaque]], a biofilm that builds up on teeth
+* [[Mucoid plaque]], a supposed thick coating of abnormal mucous material in the colon
+* [[Plaque (dermatology)]], a broad papule
+* [[Pleural plaque]], often caused by exposure to asbestos
+* [[Senile plaque]], an extracellular protein buildup implicated in various diseases such as Alzheimer&amp;apos;s disease and Parkinson&amp;apos;s disease
+* [[Viral plaque]], a visible structure formed by virus propagation within a cell culture
+
+== See also ==
+* {{lookfrom}}
+* {{intitle}}
+* [[Plac (disambiguation)]]
+* [[Placard]]
+* [[Plack (disambiguation)]]
+
+{{Disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

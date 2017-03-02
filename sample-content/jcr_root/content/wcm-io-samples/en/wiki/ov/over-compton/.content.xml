@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Over Compton"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Over Compton" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox UK place
+ | official_name=         Over Compton
+ | country=               England
+ | region=                South West England
+ | static_image_name=     Over compton church.jpg
+ | static_image_caption=  Over Compton Church
+ | population=            158
+ | os_grid_reference=     ST590169
+ | latitude=              50.948
+ | longitude=             -2.583
+ | post_town=
+ | postcode_area=
+ | postcode_district=
+ | dial_code=
+ | constituency_westminster=       [[West Dorset (UK Parliament constituency)|West Dorset]]
+ | shire_district=                 [[West Dorset]]
+ | shire_county=                   [[Dorset]]
+ }}
+
+&amp;apos;&amp;apos;&amp;apos;Over Compton&amp;apos;&amp;apos;&amp;apos; is a village in north west [[Dorset]], [[England]], situated in the [[River Yeo (South Somerset)|Yeo valley]] 2 miles east of [[Yeovil]]. The village has a [[population]] of 158 ({{As of|2001|lc=yes}}).
+
+Compton House, formerly the home of the Goodden family, lies outside the village. St Michael&amp;apos;s Church is on the estate. [[Cecil Goodden]] was born in Compton House.
+
+==External links==
+{{Commons category|Over Compton}}
+* [http://www1.dorsetcc.gov.uk/LIVING/FACTS/Census2001.nsf/6cadf4da179fc19500256663004afece/391a38f167e7fe7380256ec80052c27a?OpenDocument Census data]
+* Dorset OPC - [http://www.opcdorset.org/Compton/Nether_OverCompton.htm Nether and Over Compton]
+
+{{Dorset-geo-stub}}
+
+[[Category:Villages in Dorset]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

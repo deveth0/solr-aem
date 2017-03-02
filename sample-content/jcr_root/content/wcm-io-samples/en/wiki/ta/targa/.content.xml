@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Targa"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Targa" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|targa}}
+&amp;apos;&amp;apos;&amp;apos;Targa&amp;apos;&amp;apos;&amp;apos; is an old word for [[targe]], shield.  Targa or &amp;apos;&amp;apos;&amp;apos;TARGA&amp;apos;&amp;apos;&amp;apos; may also refer to:
+
+;Car rallies
+*[[Targa Florio]], Sicily, Italy
+*[[Targa Canada West]], Canada
+*[[Targa New Zealand]]
+*[[Targa Newfoundland]], Canada
+*[[Targa Tasmania]], Australia
+*[[Targa West]], Western Australia
+*[[Targa timing]] system
+
+;Places
+* [[Targa, Kasur]], village in Kasur District, Pakistan
+* [[Targa, Sialkot]], village in Sialkot District, Pakistan
+
+;Boats
+*a range of boats made by [[Fairline Boats]]
+*a range of boats made by [[Botnia Marin]], as used by the [[Metropolitan Police Marine Policing Unit]]
+
+;Others
+*the working title for the [[Super Nintendo Entertainment System|Super Famicom]] video game [[Rendering Ranger: R2]]
+*[[Targa top]], car body style
+*[[Sheaffer]] Targa, a range of pens made in the 1970s and 1980s, now collectors&amp;apos; items
+*[[Truevision TGA]], image file format
+*An enemy in the online game [[Maple Story]]
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

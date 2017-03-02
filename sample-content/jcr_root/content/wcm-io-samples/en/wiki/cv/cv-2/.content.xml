@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="CV-2"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="CV-2" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;CV-2&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+*{{USS|Lexington|CV-2}} - a U.S. Navy aircraft carrier that served after World War I and during World War II, until she was sunk in the Battle of the Coral Sea.
+*[[de Havilland Canada DHC-4 Caribou]] - a specialized cargo aircraft with short takeoff and landing (STOL) capability.
+*[[Castlevania II: Simon&amp;apos;s Quest]], a 1987 action-adventure game produced by [[Konami]]
+*[[Card Verification Value]] (CV2) - a security feature for credit or debit card transactions
+
+;See also
+* [[Citroën 2CV]]
+
+{{Letter-NumberCombDisambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Xirochori"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Xirochori" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Expand Bulgarian|date=December 2009|Коритен (дем Илиджиево)}}
+&amp;apos;&amp;apos;&amp;apos;Xirochori&amp;apos;&amp;apos;&amp;apos; ({{lang-el|Ξηροχώρι}}, before 1926: Γιόρδινον - &amp;apos;&amp;apos;Giordinon&amp;apos;&amp;apos;,&amp;lt;ref&amp;gt;[http://pandektis.ekt.gr/pandektis/handle/10442/170415 Name changes of settlements in Greece]&amp;lt;/ref&amp;gt; {{lang-bg|Коритен}}) is a community and a village in the municipal unit of [[Agios Athanasios, Greece|Agios Athanasios]] in the [[Thessaloniki (regional unit)|Thessaloniki regional unit]], [[Greece]]. The community is 25&amp;amp;nbsp;km north-northwest of downtown [[Thessaloniki]].
+
+The community consists of two villages: Xirochori and Baleika. According to the 2001 census, it has a total population of 680 with the village of Xirochori having 647 of those and Baleika 33.
+
+==References==
+{{Reflist}}
+
+{{Chalkidona div}}
+
+{{coord|40.803|22.780|display=title}}
+
+
+{{CentralMacedonia-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

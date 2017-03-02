@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="F region"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="F region" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;F region&amp;apos;&amp;apos;&amp;apos; of the [[ionosphere]] is home to the F layer of ionization, also called the &amp;apos;&amp;apos;&amp;apos;Appleton layer&amp;apos;&amp;apos;&amp;apos;, after the English physicist [[Edward Appleton]].   As with other ionospheric sectors, &amp;apos;layer&amp;apos; implies a concentration of plasma, while &amp;apos;region&amp;apos; is the area that contains the said layer. The F region contains ionized gases at a height of around 150–800&amp;amp;nbsp;km above [[sea level]], placing it in the Earth’s [[thermosphere]], a hot region in the upper [[atmosphere]], and also in the [[heterosphere]], where chemical composition varies with height.  Generally speaking, the F region has the highest concentration of free [[electrons]] and [[ions]] anywhere in the atmosphere.  It may be thought of as comprising two layers, the F1-and F2-layers.
+
+The F-region is located directly above the [[E region]] (formerly the Kennelly-Heaviside layer) and below the [[protonosphere]]. It acts as a dependable reflector of radio signals as it is not affected by atmospheric conditions, although its ionic composition varies with the sunspot cycle.  It reflects normal-incident frequencies at or below the [[critical frequency]] (approximately 10&amp;amp;nbsp;MHz) and partially absorbs waves of higher frequency.
+
+The F region is the region of the ionosphere which is very important for HF radio wave propagation. This F region is very anomalous in nature.
+
+==F1 and F2 Layers==
+The F1 layer is the lower sector of the F layer and exists from about 150 to 220&amp;amp;nbsp;km above the surface of the Earth and only during daylight hours. It is composed of a mixture of molecular [[ions]] O&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;&amp;lt;sup&amp;gt;+&amp;lt;/sup&amp;gt; and NO&amp;lt;sup&amp;gt;+&amp;lt;/sup&amp;gt;, and atomic ions O&amp;lt;sup&amp;gt;+&amp;lt;/sup&amp;gt;.  Above the F1 region, atomic oxygen becomes the dominant constituent because lighter particles tend to occupy higher altitudes above the [[turbopause]] (at ~100&amp;amp;nbsp;km).  This atomic oxygen provides the O&amp;lt;sup&amp;gt;+&amp;lt;/sup&amp;gt; atomic ions that make up the F2 layer.
+The F1 layer has approximately 5 &amp;amp;times; 10&amp;lt;sup&amp;gt;5&amp;lt;/sup&amp;gt; e/cm&amp;lt;sup&amp;gt;3&amp;lt;/sup&amp;gt; (free electrons per cubic centimeter) at noontime and minimum [[sunspot]] activity, and increases to roughly 2 &amp;amp;times; 10&amp;lt;sup&amp;gt;6&amp;lt;/sup&amp;gt; e/cm&amp;lt;sup&amp;gt;3&amp;lt;/sup&amp;gt; during maximum sunspot activity. The density falls off to below 10&amp;lt;sup&amp;gt;4&amp;lt;/sup&amp;gt; e/cm&amp;lt;sup&amp;gt;3&amp;lt;/sup&amp;gt; at night.
+
+* The F&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt; layer merges into the F&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt; layer at night.
+*Though fairly regular in its characteristics, it is not observable everywhere or on all days. The principal [[reflecting layer]] during the summer for paths of 2,000 to 3,500&amp;amp;nbsp;km is the F&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt; layer. However, this depends upon the frequency of a propagating signal. The E layer electron density and resultant MUF during high solar activity periods can refract and thus block signals of up to about 15&amp;amp;nbsp;MHz from reaching the F1 and F2 regions, with the result that distances are much shorter than possible with refractions from the F1 and F2 regions. But extremely low radiation-angle signals (&amp;lt;6 degrees or so) can reach distances of 3000&amp;amp;nbsp;km via E region refractions.&amp;lt;ref&amp;gt;Adrian Weiss, &amp;apos;&amp;apos;Ionospheric Propagation, Transmission Lines, and Antennas for the QRP DXer&amp;apos;&amp;apos;, Milliwatt QRP Books, 2011, pp. 1-16, 1-22 to 1-24.&amp;lt;/ref&amp;gt;
+
+* The F&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt; layer exists from about 220 to 800&amp;amp;nbsp;km above the surface of the Earth. The F&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt; layer is the principal reflecting layer for HF [[telecommunication|communications]] during both day and night. The horizon-limited distance for one-[[hop (telecommunications)|hop]] F&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt; [[radio propagation|propagation]] is usually around 4,000&amp;amp;nbsp;km. The F&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt; layer has about 10&amp;lt;sup&amp;gt;6&amp;lt;/sup&amp;gt; e/cm&amp;lt;sup&amp;gt;3&amp;lt;/sup&amp;gt;. However, variations are usually large, irregular, and particularly pronounced during magnetic storms. The F layer behaviour is dominated by the complex thermospheric winds.
+
+==Usage in Radio Communication==
+Critical F&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt; layer frequencies are the ones that will not go through the F&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt; layer.&amp;lt;ref&amp;gt;http://www.spacew.com/www/fof2.html&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;http://books.google.de/books?id=HYAgSzrAiYsC&amp;amp;pg=RA2-PA237-IA2&amp;amp;lpg=RA2-PA237-IA2&amp;amp;dq=define+:+F2-Layer+Critical+Frequency&amp;amp;source=bl&amp;amp;ots=HOWQgLtY2a&amp;amp;sig=e6EZFdpJ7O2UYRipvSHT7DwuL3A&amp;amp;hl=en&amp;amp;ei=qi3OSr25HdjhsAaZoIH4AQ&amp;amp;sa=X&amp;amp;oi=book_result&amp;amp;ct=result&amp;amp;resnum=9&amp;lt;/ref&amp;gt;
+
+==References==
+&amp;lt;references/&amp;gt;
+
+*{{FS1037C}}
+*{{1911}}
+
+[[Category:Ionosphere]]
+[[Category:Radio frequency propagation]]
+
+[[ru:Ионосфера#Слой F]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

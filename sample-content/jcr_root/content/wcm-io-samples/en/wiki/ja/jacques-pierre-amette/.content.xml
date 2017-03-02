@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Jacques-Pierre Amette"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Jacques-Pierre Amette" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{BLP sources|date=April 2011}}
+
+&amp;apos;&amp;apos;&amp;apos;Jacques-Pierre Amette&amp;apos;&amp;apos;&amp;apos; (born 1943 in [[Saint-Pierre-sur-Dives]], [[Calvados]]) is a [[France|French]] writer. In 2003 his novel &amp;apos;&amp;apos;[[Brecht&amp;apos;s Mistress]]&amp;apos;&amp;apos; (French: &amp;apos;&amp;apos;La Maîtresse de Brecht&amp;apos;&amp;apos;) won the [[Prix Goncourt]].&amp;lt;ref&amp;gt;{{cite news|url=http://www.nytimes.com/2003/10/22/movies/arts-briefing.html?src=pm|title=ARTS BRIEFING|last=Gelder|first=Lawrence Van|date=22 October 2003|work=The New York Times|page=2|accessdate=10 April 2011}}&amp;lt;/ref&amp;gt; He has been a correspondent for &amp;apos;&amp;apos;[[The New York Times]]&amp;apos;&amp;apos; and a journalist for several French [[newspaper]]s.
+
+== Bibliography ==
+* &amp;apos;&amp;apos;Exit&amp;apos;&amp;apos; (1981)
+* &amp;apos;&amp;apos;Les deux léopards&amp;apos;&amp;apos; (1997)
+* &amp;apos;&amp;apos;L&amp;apos;Homme du silence&amp;apos;&amp;apos; (1999)
+* &amp;apos;&amp;apos;[[Brecht&amp;apos;s Mistress]]&amp;apos;&amp;apos; (2005 UK) / &amp;apos;&amp;apos;Brecht&amp;apos;s Lover&amp;apos;&amp;apos; (2005 US) / &amp;apos;&amp;apos;La Maîtresse de Brecht&amp;apos;&amp;apos; (2003 FR)
+
+==References==
+{{Reflist}}
+
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              =Amette, Jacques-Pierre
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION = French novelist
+| DATE OF BIRTH     = 1943
+| PLACE OF BIRTH    =
+| DATE OF DEATH     =
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Amette, Jacques-Pierre}}
+[[Category:1943 births]]
+[[Category:Living people]]
+[[Category:People from Calvados]]
+[[Category:French novelists]]
+[[Category:Prix Goncourt winners]]
+
+{{France-writer-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

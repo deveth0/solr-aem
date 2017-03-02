@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Black-box testing"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Black-box testing" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{one source|date=June 2012}}
+[[File:Blackbox.svg|thumb|200px|Black box diagram]]
+&amp;apos;&amp;apos;&amp;apos;Black-box testing&amp;apos;&amp;apos;&amp;apos; is a method of [[software testing]] that examines the functionality of an application (e.g. what the software does) without peering into its internal structures or workings (see [[white-box testing]]).  This method of test can be applied to virtually every level of software testing: [[unit test|unit]], [[integration testing|integration]], [[system testing|system]] and [[acceptance test|acceptance]]. It typically comprises most if not all higher level testing, but can also dominate [[unit testing]] as well. {{citation needed|date=December 2012}}
+
+==Test procedures==
+Specific knowledge of the application&amp;apos;s code/internal structure and programming knowledge in general is not required. The tester is aware of &amp;apos;&amp;apos;what&amp;apos;&amp;apos; the software is supposed to do but is not aware of &amp;apos;&amp;apos;how&amp;apos;&amp;apos; it does it. For instance, the tester is aware that a particular input returns a certain, invariable output but is not aware of &amp;apos;&amp;apos;how&amp;apos;&amp;apos; the software produces the output in the first place.&amp;lt;ref name=&amp;quot;REF1&amp;quot;&amp;gt;{{cite book|last=Ron|first=Patton|title=Software Testing}}&amp;lt;/ref&amp;gt;
+
+===Test cases===
+Test cases are built around specifications and requirements, i.e., what the application is supposed to do.  Test cases are generally derived from external descriptions of the software, including specifications, requirements and design parameters.  Although the tests used are primarily &amp;apos;&amp;apos;functional&amp;apos;&amp;apos; in nature, &amp;apos;&amp;apos;non-functional&amp;apos;&amp;apos; tests may also be used. The test designer selects both valid and invalid inputs and determines the correct output without any knowledge of the test object&amp;apos;s internal structure.
+
+===Test design techniques===
+Typical black-box test design techniques include:
+* [[Decision table]] testing
+* [[All-pairs testing]]
+* [[State transition table]]s
+* [[Equivalence partitioning]]
+* [[Boundary value analysis]]
+
+==Hacking==
+In [[penetration test]]ing, black-box testing refers to a methodology where an [[white hat (computer security)|ethical hacker]] has no knowledge of the system being attacked. The goal of a black-box penetration test is to simulate an external hacking or cyber warfare attack.
+
+==See also==
+{{portal|Software Testing}}
+* [[Acceptance testing]]
+* [[Boundary testing]]
+* [[Fuzz testing]]
+* [[Metasploit Project]]
+* [[Sanity testing]]
+* [[Smoke testing]]
+* [[Software testing]]
+* [[Stress testing]]
+* [[Test automation]]
+* [[Web Application Security Scanner]]
+* [[White hat hacker]]
+* [[White-box testing]]
+* [[Grey box testing]]
+
+== References ==
+&amp;lt;references /&amp;gt;
+
+==External links==
+*BCS SIGIST (British Computer Society Specialist Interest Group in Software Testing): [http://www.testingstandards.co.uk/Component%20Testing.pdf &amp;apos;&amp;apos;Standard for Software Component Testing&amp;apos;&amp;apos;], Working Draft 3.4, 27. April 2001.
+
+{{DEFAULTSORT:Black-Box Testing}}
+[[Category:Software testing]]
+[[Category:Hardware testing]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

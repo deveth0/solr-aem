@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ten15"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ten15" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{nofootnotes|date=September 2012}}
+&amp;apos;&amp;apos;&amp;apos;Ten15&amp;apos;&amp;apos;&amp;apos; is an algebraically specified [[abstract machine]]. It was developed by Foster, Currie et al. at the [[Royal Signals and Radar Establishment]] at [[Malvern, Worcestershire]], during the 1980s. It arose from earlier work on the [[Flex machine]], which was a [[capability (computers)|capability computer]] implemented via [[microcode]]. Ten15 was intended to offer an intermediate language common to all implementations of the Flex architecture for portability purposes. It had the side effect of making the benefits of that work available on modern processors lacking a microcode facility.
+
+Ten15 served as an intermediate language for compilers, but with several unique features, some of which have still to see the light of day in everyday systems. Firstly, it was strongly typed, yet wide enough in application to support most languages — C being an exception, chiefly because C deliberately treats an array similar to a pointer to the first element of that array. This ultimately led to Ten15&amp;apos;s development into [[TenDRA Distribution Format|TDF]], which in turn formed the basis for [[Architecture Neutral Distribution Format|ANDF]]. Secondly, it offered a persistent, write-only filestore mechanism, allowing arbitrary data structures to be written and retrieved without conversion into an external representation.
+
+== Historical note ==
+Why &amp;apos;Ten15&amp;apos;? Nic Peeling reports that during early discussions of the concepts of Ten15, it was agreed that this was important and should have a name - but what? [[Ian Currie (computer scientist)|Ian Currie]] looked up at the clock and said &amp;apos;Why not call it 10:15?&amp;apos;{{fact|date=September 2012}}
+
+== References ==
+* {{cite conference
+ | first = Ian F.
+ | last = Currie
+ | coauthors = J. M. Foster and P. W. Core
+ | title = Ten15: An Abstract Machine for Portable Environments
+ | booktitle = ESEC &amp;apos;87: Proceedings of the 1st European Software Engineering Conference
+ | pages = 138–48
+ | publisher = Springer-Verlag
+ | date = 1987
+ | location = London, UK
+ | url = http://portal.acm.org/citation.cfm?id=651142
+ | accessdate = 2007-06-18
+ | id = ISBN 3-540-18712-X
+}}
+
+== See also ==
+* [[Virtual machine]]
+* [[TenDRA Compiler]]
+
+== External links ==
+* [http://www.mca-ltd.com/martin/Ten15/introduction.html Ten15]
+
+[[Category:Computer languages]]
+[[Category:Theory of computation]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

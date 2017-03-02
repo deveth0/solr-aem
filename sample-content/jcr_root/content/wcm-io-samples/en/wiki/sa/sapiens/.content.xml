@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Sapiens"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Sapiens" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|sapiens}}
+&amp;apos;&amp;apos;&amp;apos;Sapiens&amp;apos;&amp;apos;&amp;apos;, a Latin word meaning [[wisdom|wise]], may refer to :
+
+* [[Berengarius Sapiens]], a designation for Berengar the Wise, the count of Toulouse (814-835) and duke of Septimania (832-835)
+* [[Felis sapiens]] (also Felix sapiens), a fictional, sentient, humanoid species from the Red Dwarf television series
+* [[Gaius Laelius Sapiens]] (ca. 188 BC-?), a Roman statesman
+* [[Gildas Sapiens]], a designation for Saint Gildas (c. 500–570), a 6th-century British cleric
+* &amp;apos;&amp;apos;[[Homo sapiens]]&amp;apos;&amp;apos;, the species Latin name of the Human beings
+* [[Humus Sapiens]], an alternative name for Humus Sapien, a fictional supervillain published by Marvel Comics
+* [[Hydro Sapiens]], an art performance performed by The Lunatics from The Netherlands
+* &amp;apos;&amp;apos;Icthyo sapiens&amp;apos;&amp;apos; is a species designation given to at least two fictional characters:
+** [[Abe Sapien]], a fictional character in the comic book series Hellboy
+** The Mariner, played by Kevin Costner in the sci-fi film &amp;apos;&amp;apos;[[Waterworld]]&amp;apos;&amp;apos;
+* &amp;apos;&amp;apos;[[Robo-Sapiens]]&amp;apos;&amp;apos;, the debut album by Malibu
+* [[Sapiens International Corporation]], a computer software company
+* &amp;apos;&amp;apos;[[Vipera Sapiens]]&amp;apos;&amp;apos;, an EP by Brazilian heavy metal band Viper
+* a designation for [[Cato the Elder]] (234 BC–149 BC), a Roman statesman
+* a designation for [[Cenn Fáelad mac Aillila]] (died 679), an Irish scholar
+
+==See also==
+* [[Sapience]]
+* [[Sapienza]]
+
+{{disambiguation}}
+[[Category:Latin words and phrases]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

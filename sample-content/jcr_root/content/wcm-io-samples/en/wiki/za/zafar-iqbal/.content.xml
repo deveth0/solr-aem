@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Zafar Iqbal"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Zafar Iqbal" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Zafar Iqbal&amp;apos;&amp;apos;&amp;apos; may refer to:
+*[[Zafar Iqbal (poet)]], Urdu poet
+*[[Zafar Iqbal (Guantanamo detainee 014)]], held in extrajudicial detention in the United States Guantanamo Bay detainment camps, in Cuba
+* [[Zafar Iqbal (field hockey)]] (born 1956), Indian field hockey player
+* [[Zafar Iqbal (athlete)]] Pakistani athlete
+* [[Zafar Iqbal (actor)]] (1950–1991), Bangladesh actor
+* [[Zafar Iqbal (cricketer)]] (born 1969), former Pakistani cricketer
+* [[Muhammed Zafar Iqbal]] (born 1952), Bangladeshi writer of children&amp;apos;s books and science-fiction
+{{hndis|Iqbal, Zafar}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

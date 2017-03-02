@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Public holidays in Bosnia and Herzegovina"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Public holidays in Bosnia and Herzegovina" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Use mdy dates|date=November 2011}}
+{{Unreferenced|date=December 2009}}
+The [[Public holiday|holiday]]s of [[Bosnia and Herzegovina]] include, in [[Political divisions of Bosnia and Herzegovina|various jurisdictions]]:
+
+==Public Holidays==
+{| class=&amp;quot;wikitable&amp;quot;
+|-
+! Date !! English Name !! Local Name !! Notes
+&amp;lt;tr&amp;gt;
+&amp;lt;td colspan=&amp;quot;4&amp;quot; align=&amp;quot;center&amp;quot;&amp;gt;According to the [[Gregorian calendar|Gregorian]] and [[Julian calendar|Julian]] calendars&amp;lt;/td&amp;gt;
+&amp;lt;/tr&amp;gt;
+&amp;lt;tr&amp;gt;
+&amp;lt;td&amp;gt;January 1 and 2&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;[[New Year]]&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;Nova godina&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;&amp;lt;/td&amp;gt;
+&amp;lt;/tr&amp;gt;
+&amp;lt;tr&amp;gt;
+&amp;lt;td&amp;gt;January 6&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;[[Epiphany (feast)|Epiphany]]&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;Sveta tri kralja (Bogojavljenje)&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;[[Roman Catholicism in Bosnia and Herzegovina|Roman Catholic]] feast&amp;lt;/td&amp;gt;
+&amp;lt;/tr&amp;gt;
+&amp;lt;tr&amp;gt;
+&amp;lt;td&amp;gt;January 7&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;[[Christmas]]&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;Božić&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;Orthodox&amp;lt;/td&amp;gt;
+&amp;lt;/tr&amp;gt;
+&amp;lt;tr&amp;gt;
+&amp;lt;td&amp;gt;January 9&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;[[Republic Day]]&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;Dan Republike&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;[[Republika Srpska]]&amp;lt;/td&amp;gt;
+&amp;lt;/tr&amp;gt;
+&amp;lt;tr&amp;gt;
+&amp;lt;td&amp;gt;January 14&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;[[New Year]]&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;Nova godina&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;&amp;lt;/td&amp;gt;
+&amp;lt;/tr&amp;gt;
+&amp;lt;tr&amp;gt;
+&amp;lt;td&amp;gt;March 1&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;[[Independence day]]&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;Dan nezavisnosti&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;[[Federation of Bosnia and Herzegovina]]&amp;lt;/td&amp;gt;
+&amp;lt;/tr&amp;gt;
+&amp;lt;tr&amp;gt;Easter always falls on a Sunday from March 22 to April 25 inclusive.
+&amp;lt;td&amp;gt;[[moveable feast|...]]&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;[[Easter]]&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;Uskrs&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;[[Roman Catholicism in Bosnia and Herzegovina|Roman Catholic]] feast&amp;lt;/td&amp;gt;
+&amp;lt;/tr&amp;gt;
+&amp;lt;tr&amp;gt;
+&amp;lt;td&amp;gt;[[moveable feast|...]]&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;[[Easter]]&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;Vaskrs&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;Orthodox&amp;lt;/td&amp;gt;
+&amp;lt;/tr&amp;gt;
+&amp;lt;tr&amp;gt;
+&amp;lt;td&amp;gt;May 1 and 2&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;[[Labour Day]]&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;Međunarodni praznik rada&amp;lt;/td&amp;gt;
+&amp;lt;/tr&amp;gt;
+&amp;lt;tr&amp;gt;
+&amp;lt;td&amp;gt;&amp;apos;&amp;apos;60 days post Easter&amp;apos;&amp;apos;&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;[[Corpus Christi (feast)|Corpus Christi]]&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;Tijelovo&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;variable date&amp;lt;br /&amp;gt;[[Roman Catholicism in Bosnia and Herzegovina|Roman Catholic]] feast&amp;lt;/td&amp;gt;
+&amp;lt;/tr&amp;gt;
+&amp;lt;tr&amp;gt;
+&amp;lt;td&amp;gt;May 6&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;[[St. George]]&amp;apos;s Day&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;Đurđevdan&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;Orthodox&amp;lt;/td&amp;gt;
+&amp;lt;/tr&amp;gt;
+&amp;lt;tr&amp;gt;
+&amp;lt;td&amp;gt;May 9&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;[[Victory Day (Eastern Europe)]]&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;Dan pobjede na fašizmom&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;[[Republika Srpska]]&amp;lt;/td&amp;gt;
+&amp;lt;/tr&amp;gt;
+&amp;lt;tr&amp;gt;
+&amp;lt;td&amp;gt;June 28&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;[[St. Vitus]]&amp;apos; Day&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;Vidovdan&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;Orthodox&amp;lt;/td&amp;gt;
+&amp;lt;/tr&amp;gt;
+&amp;lt;tr&amp;gt;
+&amp;lt;td&amp;gt;July 12&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;[[St. Peter]]&amp;apos;s Day&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;Petrovdan&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;Orthodox&amp;lt;/td&amp;gt;
+&amp;lt;/tr&amp;gt;
+&amp;lt;tr&amp;gt;
+&amp;lt;td&amp;gt;August 2&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;[[St. Elijah]]&amp;apos;s Day&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;Ilindan&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;Orthodox&amp;lt;/td&amp;gt;
+&amp;lt;/tr&amp;gt;
+&amp;lt;tr&amp;gt;
+&amp;lt;td&amp;gt;August 15&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;[[Assumption of Mary]]&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;Velika Gospa&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;[[Roman Catholicism in Bosnia and Herzegovina|Roman Catholic]] feast&amp;lt;/td&amp;gt;
+&amp;lt;/tr&amp;gt;
+&amp;lt;tr&amp;gt;
+&amp;lt;td&amp;gt;August 28&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;[[Assumption of Mary]]&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;Velika Gospojina&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;Orthodox&amp;lt;/td&amp;gt;
+&amp;lt;/tr&amp;gt;
+&amp;lt;tr&amp;gt;
+&amp;lt;td&amp;gt;September 8&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;[[Nativity of the Blessed Virgin Mary|Nativity]] of [[Mary, mother of Jesus|Virgin Mary]]&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;Mala Gospa&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;[[Roman Catholicism in Bosnia and Herzegovina|Roman Catholic]] feast&amp;lt;/td&amp;gt;
+&amp;lt;/tr&amp;gt;
+&amp;lt;tr&amp;gt;
+&amp;lt;td&amp;gt;September 21&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;Nativity of Virgin Mary&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;Mala Gospojina&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;Orthodox&amp;lt;/td&amp;gt;
+&amp;lt;/tr&amp;gt;
+&amp;lt;tr&amp;gt;
+&amp;lt;td&amp;gt;November 1&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;[[All Saints Day]]&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;Svi Sveti&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;[[Roman Catholicism in Bosnia and Herzegovina|Roman Catholic]] feast&amp;lt;/td&amp;gt;
+&amp;lt;/tr&amp;gt;
+&amp;lt;tr&amp;gt;
+&amp;lt;td&amp;gt;November 2&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;[[All Souls Day]]&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;Dan mrtvih&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;[[Roman Catholicism in Bosnia and Herzegovina|Roman Catholic]] feast&amp;lt;/td&amp;gt;
+&amp;lt;/tr&amp;gt;
+&amp;lt;tr&amp;gt;
+&amp;lt;td&amp;gt;November 8&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;[[St. Demetrius]]&amp;apos; day&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;Mitrovdan&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;Orthodox&amp;lt;/td&amp;gt;
+&amp;lt;/tr&amp;gt;
+&amp;lt;tr&amp;gt;
+&amp;lt;td&amp;gt;November 21&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;[[Dayton Agreement]] Day&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;Dan uspostave Opšteg okvirnog sporazuma za mir u Bosni i Hercegovini&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;[[Republika Srpska]]&amp;lt;/td&amp;gt;
+&amp;lt;/tr&amp;gt;
+&amp;lt;tr&amp;gt;
+&amp;lt;td&amp;gt;November 25&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;[[Statehood Day]]&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;Dan državnosti&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;[[Federation of Bosnia and Herzegovina]]&amp;lt;/td&amp;gt;
+&amp;lt;/tr&amp;gt;
+&amp;lt;tr&amp;gt;
+&amp;lt;td&amp;gt;December 25&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;[[Christmas]]&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;Božić&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;[[Roman Catholicism in Bosnia and Herzegovina|Roman Catholic]] feast&amp;lt;/td&amp;gt;
+&amp;lt;/tr&amp;gt;
+&amp;lt;tr&amp;gt;
+&amp;lt;td&amp;gt;December 26&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;[[St. Stephen&amp;apos;s Day]]&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;Stipandan (Stjepandan)&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;[[Roman Catholicism in Bosnia and Herzegovina|Roman Catholic]] feast&amp;lt;/td&amp;gt;
+&amp;lt;/tr&amp;gt;
+&amp;lt;tr&amp;gt;
+&amp;lt;td colspan=&amp;quot;4&amp;quot; align=&amp;quot;center&amp;quot;&amp;gt;According to the [[Islamic calendar]]&amp;lt;/td&amp;gt;
+&amp;lt;/tr&amp;gt;
+&amp;lt;tr&amp;gt;
+&amp;lt;td&amp;gt;1&amp;lt;sup&amp;gt;st&amp;lt;/sup&amp;gt; day of [[Muharram]]&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;New Year&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;Muslimanska Nova Godina&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;Islam&amp;lt;/td&amp;gt;
+&amp;lt;/tr&amp;gt;
+&amp;lt;tr&amp;gt;
+&amp;lt;td&amp;gt;12&amp;lt;sup&amp;gt;th&amp;lt;/sup&amp;gt; day of Rabee&amp;apos;ul-Awwal&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;[[Muhammad|Prophet]]&amp;apos;s Anniversary&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;[[Mawlid|Mevlud]]&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;&amp;lt;/td&amp;gt;
+&amp;lt;/tr&amp;gt;
+&amp;lt;tr&amp;gt;
+&amp;lt;td&amp;gt;10&amp;lt;sup&amp;gt;th&amp;lt;/sup&amp;gt; day of [[Dhul Hijja]]&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;[[Eid ul-Adha]]&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;Kurban Bajram&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;Religious holiday for 4 days&amp;lt;/td&amp;gt;
+&amp;lt;/tr&amp;gt;
+&amp;lt;tr&amp;gt;
+&amp;lt;td&amp;gt;1&amp;lt;sup&amp;gt;st&amp;lt;/sup&amp;gt; day of Shawwal&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;[[Eid ul-Fitr]]&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;Ramazanski Bajram&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;Religious holiday for 3 days&amp;lt;/td&amp;gt;
+&amp;lt;/tr&amp;gt;
+|}
+
+== References ==
+{{Reflist}}
+
+{{Bosnia and Herzegovina topics}}
+{{Public holidays in Europe}}
+
+{{DEFAULTSORT:Public Holidays In Bosnia And Herzegovina}}
+[[Category:Public holidays by country|Bosnia and Herzegovina]]
+[[Category:Bosnia and Herzegovina culture]]
+[[Category:Bosnia and Herzegovina society]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

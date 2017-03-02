@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Herminie Cadolle"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Herminie Cadolle" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{unreferenced|date=March 2013}}
+&amp;apos;&amp;apos;&amp;apos;Herminie Cadolle&amp;apos;&amp;apos;&amp;apos; (1845–1926) was the inventor of the modern [[brassiere|bra]] and founder of the Cadolle [[lingerie]] house.
+
+Cadolle was a close friend of the [[France|French]] insurrectionist [[Louise Michel]], and it was this connection that led her to leave for the safety of [[Buenos Aires]]. Here, in 1887, Herminie opened a shop selling made-to-measure underwear.
+
+Returning to [[Paris]] in 1889, she opened a similar lingerie workshop on the street &amp;apos;&amp;apos;[[Chaussée d&amp;apos;Antin]]&amp;apos;&amp;apos;, where she invented a two-piece undergarment called &amp;apos;&amp;apos;le bien-être&amp;apos;&amp;apos; (the wellbeing). The lower part was a corset for the waist and the upper supported the breasts by means of shoulder straps. She exhibited at the [[Exposition Universelle (1900)|Great Exposition of 1900]] and by 1905 the upper half was being sold separately as a &amp;apos;&amp;apos;soutien-gorge&amp;apos;&amp;apos; (literally, &amp;quot;support for the throat&amp;quot;, but &amp;apos;&amp;apos;gorge&amp;apos;&amp;apos; in old French meant breast), the name by which bras are still known in France.
+
+Herminie became a fitter of bras to queens, princesses, dancers, and actresses. [[Mata Hari]] was among her customers. She was also the first to use cloth incorporating rubber (elastic) thread. Cadolle&amp;apos;s business is still running today.
+
+== External links ==
+* [http://www.cadolle.com/ Cadolle.com]
+
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Cadolle, Herminie
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION =
+| DATE OF BIRTH     = 1845
+| PLACE OF BIRTH    =
+| DATE OF DEATH     = 1926
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Cadolle, Herminie}}
+[[Category:1845 births]]
+[[Category:1926 deaths]]
+[[Category:French businesspeople]]
+[[Category:French inventors]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

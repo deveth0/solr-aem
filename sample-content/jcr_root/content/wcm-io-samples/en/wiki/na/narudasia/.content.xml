@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Narudasia"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Narudasia" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Taxobox
+| name = Narudasia
+| regnum = [[Animal]]ia
+| phylum = [[Chordate|Chordata]]
+| classis = [[Reptile|Reptilia]]
+| ordo = [[Squamata]]
+| familia = [[Gekkonidae]]
+| subfamilia = [[Gekkoninae]]
+| genus = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Narudasia&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Narudasia&amp;apos;&amp;apos;&amp;apos; is a [[monotypic]] [[genus]] of [[gecko]]s endemic to [[Namibia]] better known as &amp;apos;&amp;apos;&amp;apos;Festive Gecko&amp;apos;&amp;apos;&amp;apos;. They are related to the [[Quedenfeldtia]] (Atlas Day Geckos) of the [[Sahara]].
+
+*Festive Gecko, &amp;apos;&amp;apos;[[Narudasia festiva]]&amp;apos;&amp;apos; - is a [[Diurnal animal|diurnal]], rock-dwelling gecko, reaching 2 to 3 inches in length, that lives on small [[insect]]s. Body and head are somewhat flattened. Overall color is grey with alternating brownish bands on the back, edged with black and white towards the rear. The long [[tail]] may be yellow.
+
+== References ==
+* Branch, B. &amp;apos;&amp;apos;Field guide to the snakes and other reptiles of Southern Africa&amp;apos;&amp;apos;, New Holland Ltd., London, 1988.
+* Rösler, H. &amp;apos;&amp;apos;Geckos der Welt. Alle Gattungen&amp;apos;&amp;apos;, Urania-Verlag, Leipzig, Jena, Berlin, 1995.
+
+== External links ==
+* [http://itgmv1.fzk.de/www/itg/uetz/herp/photos/Narudasia_festiva.jpg Photograph]
+
+[[Category:Geckos]]
+[[Category:Monotypic reptile genera]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

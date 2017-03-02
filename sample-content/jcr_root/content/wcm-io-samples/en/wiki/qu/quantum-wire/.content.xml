@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Quantum wire"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Quantum wire" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[condensed matter physics]], a &amp;apos;&amp;apos;&amp;apos;quantum wire&amp;apos;&amp;apos;&amp;apos; is an [[electrical conductor|electrically conducting]] [[wire]] in which [[quantum mechanics|quantum]] effects influence the transport properties.
+
+== Quantum effects ==
+If the diameter of a wire is sufficiently small, [[electrons]] will experience [[quantum confinement]] in the transverse direction. As a result, their transverse energy will be quantized into a series of discrete values. One consequence of this [[Quantization (physics)|quantization]] is that the classical formula for calculating the [[electrical resistance]] of a wire:
+
+&amp;lt;center&amp;gt;&amp;lt;math&amp;gt;R=\rho{l \over A}&amp;lt;/math&amp;gt;&amp;lt;/center&amp;gt;
+
+is not valid for quantum wires (where &amp;lt;math&amp;gt;\rho&amp;lt;/math&amp;gt; is the [[resistivity]], &amp;lt;math&amp;gt;l&amp;lt;/math&amp;gt; is the length, and &amp;lt;math&amp;gt;A&amp;lt;/math&amp;gt; is the cross-sectional area of the wire).
+
+Instead, an exact calculation of the transverse energies of the confined electrons has to be performed to calculate a wire&amp;apos;s resistance. Following from the quantization of electron energy, the [[electrical conductance]] (the inverse of the resistance) is found to be quantized in multiples of &amp;lt;math&amp;gt;2e^2/h&amp;lt;/math&amp;gt;, where &amp;lt;math&amp;gt;e&amp;lt;/math&amp;gt; is the [[electron charge]] and &amp;lt;math&amp;gt;h&amp;lt;/math&amp;gt; is the [[Planck constant]]. The factor of two arises from [[spin (physics)|spin]] degeneracy. A single [[ballistic transport|ballistic]] quantum channel (i.e. with no internal scattering) has a conductance equal to this [[quantum of conductance]]. The conductance is lower than this value in the presence of internal scattering.&amp;lt;ref&amp;gt;S. Datta, &amp;apos;&amp;apos;Electronic Transport in Mesoscopic Systems&amp;apos;&amp;apos;, Cambridge University Press, 1995, ISBN 0-521-59943-1&amp;lt;/ref&amp;gt;
+
+The importance of the quantization is inversely proportional to the diameter of the [[nanowire]] for a given material. From material to material, it is dependent on the electronic properties, especially on the [[Effective mass (solid-state physics)|effective mass]] of the electrons. Physically, this means that it will depend on how conduction electrons interact with the atoms within a given material. In practice, [[semiconductor]]s can show clear conductance quantization for large wire transverse dimensions (~100 nm) because the electronic modes due to confinement are spatially extended. As a result, their Fermi wavelengths are large and thus they have low energy separations. This means that they can only be resolved at [[cryogenic]] temperatures (within a few degrees of [[absolute zero]]) where the thermal energy is lower than the inter-mode energy separation.
+
+For metals, [[Quantization (physics)|quantization]] corresponding to the lowest [[energy state]]s is only observed for atomic wires. Their corresponding wavelength being thus extremely small they have a very large energy separation which makes resistance quantization observable even at room temperature.
+
+==Carbon nanotubes as quantum wires==
+The [[carbon nanotube]] is an example of a quantum wire. A metallic single-walled carbon nanotube that is sufficiently short to exhibit no internal scattering ([[ballistic transport]]) has a conductance that approaches two times the [[conductance quantum]], &amp;lt;math&amp;gt;4e^2/h&amp;lt;/math&amp;gt;. The factor of two arises because carbon nanotubes have two spatial channels.&amp;lt;ref&amp;gt;M. S. Dresselhaus, G. Dresselhaus, and Phaedon Avouris, &amp;apos;&amp;apos;Carbon nanotubes: synthesis, structure, properties, and applications&amp;apos;&amp;apos;, Springer, 2001, ISBN 3-540-41086-4&amp;lt;/ref&amp;gt;
+
+==See also==
+* [[Conductance quantum]]
+* [[Quantum point contact]]
+* [[Quantum well]]
+* [[Quantum dot]]
+* [[Carbon nanotube]]
+* [[Mesoscopic physics]]
+
+==References==
+&amp;lt;references/&amp;gt;
+
+[[Category:Nanoelectronics]]
+[[Category:Quantum electronics]]
+[[Category:Semiconductor structures]]
+[[Category:Mesoscopic physics]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

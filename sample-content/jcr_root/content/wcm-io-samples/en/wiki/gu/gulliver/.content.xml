@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Gulliver"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Gulliver" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;lt;!-------------------------------------------------------------------------------&amp;gt;
+&amp;lt;!--    MoS:Disambiguation - prefer ONE LINK per entry, short descriptions.    --&amp;gt;
+&amp;lt;!-- Avoid piping, external links, and red links with little article potential --&amp;gt;
+&amp;lt;!-------------------------------------------------------------------------------&amp;gt;
+&amp;apos;&amp;apos;&amp;apos;Gulliver&amp;apos;&amp;apos;&amp;apos; can refer to:
+
+In &amp;apos;&amp;apos;&amp;apos;fiction&amp;apos;&amp;apos;&amp;apos;:
+*[[Lemuel Gulliver]], the main character of the story &amp;apos;&amp;apos;[[Gulliver&amp;apos;s Travels]]&amp;apos;&amp;apos; by Jonathan Swift
+*Gulliver &amp;quot;Gully&amp;quot; Foyle, the lead protagonist in the science fiction novel &amp;apos;&amp;apos;[[The Stars My Destination]]&amp;apos;&amp;apos;
+*In the novel &amp;apos;&amp;apos;[[A Clockwork Orange]]&amp;apos;&amp;apos;, [[Nadsat]] slang for &amp;quot;head&amp;quot;
+*Gulliver, a raven in the story &amp;apos;&amp;apos;[[Benjamin the Elephant]]&amp;apos;&amp;apos;
+* [[Gulliver&amp;apos;s Travels (2010 film)]], fantasy comedy film
+&amp;apos;&amp;apos;&amp;apos;Other&amp;apos;&amp;apos;&amp;apos;:
+*[[Gulliver, Queensland]], a suburb of Townsville in Australia
+*Gulliver, an impact crater on the Martian moon [[Phobos (moon)|Phobos]]
+*[[Dorothy Gulliver]], an actress
+*[[Isaac Gulliver]], a smuggler
+*[[Phil Gulliver]], a footballer
+*[[Trina Gulliver]], a darts player
+*[[Gulliver Preparatory School]], a preparatory school in Miami, Florida
+*Lake Gulliver, a lake in [[Michigan]], USA
+*[[Gulliver, Michigan]], a city on the shores of the above
+*Gulliver, the largest wind turbine in the U.K. at [[Ness Point]] in [[Lowestoft]]
+*[[Gullivers Cove, Nova Scotia]]
+* [[Gulliver (building)]], a 35-storey mixed-use building currently under construction in Kiev, Ukraine
+* &amp;apos;&amp;apos;The Gulliver&amp;apos;&amp;apos;, an airplane used by [[Wendell Willkie]] in worldwide travels during the 1940&amp;apos;s
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

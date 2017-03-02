@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="James Barry"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="James Barry" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;James Barry&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+*[[James Barry, 1st Baron Barry of Santry]] (1603 - 1673)
+*[[James Barry (Irish MP, 1659–1717)]]
+*[[James Barry (Irish MP, 1661–1725)]]
+*[[James Barry (Irish MP, 1689–1743)]]
+*[[James Barry (painter)]] (1741–1806)
+*[[James Barry (surgeon)]] (1795–1865), physician with disputed gender
+*[[James Alexander Barry]] (1886–1950), Canadian politician
+*[[James G. Barry]] (1800–1880), Missouri politician
+*[[James H. Barry]], American college football coach
+*[[James J. Barry Jr]], New Jersey politician
+*[[Jimmy Barry]], Irish-American boxer
+
+==See also==
+*[[J. M. Barrie]], creator of &amp;apos;&amp;apos;Peter Pan&amp;apos;&amp;apos;
+{{hndis|name=Barry, James}}
+
+{{DEFAULTSORT:Barry, James}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

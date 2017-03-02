@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Slow cutting"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Slow cutting" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{distinguish|Slow slicing}}
+{{unreferenced|date=December 2007}}
+
+&amp;apos;&amp;apos;&amp;apos;Slow cutting&amp;apos;&amp;apos;&amp;apos; is a film editing technique which uses [[shot (filming)|shot]]s of [[long take|long duration]].  Though it depends on context, it is estimated that any shot longer than about fifteen seconds will seem rather slow to viewers from Western cultures.
+
+A famous example of &amp;apos;&amp;apos;&amp;apos;slow cutting&amp;apos;&amp;apos;&amp;apos; can be found in [[Stanley Kubrick]]&amp;apos;s &amp;apos;&amp;apos;[[A Clockwork Orange (film)|A Clockwork Orange]]&amp;apos;&amp;apos; (1971). In a segment that lasts three minutes and fifteen seconds and contains only three shots, the main character (Alex de Large) is followed as he walks the length of a futuristic record store, meets two young ladies, and brings them back to his (parents&amp;apos;) house for sex.
+
+See [[Long take]] for more information.
+
+==See also==
+* [[motion picture terminology]]
+* [[fast cutting]]
+
+{{DEFAULTSORT:Slow Cutting}}
+[[Category:Film techniques]]
+
+
+{{filming-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

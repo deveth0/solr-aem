@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Network News Transfer Protocol"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Network News Transfer Protocol" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;Network News Transfer Protocol&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;&amp;apos;NNTP&amp;apos;&amp;apos;&amp;apos;) is an  application [[Protocol (computing)|protocol]] used for transporting [[Usenet]] news articles (&amp;apos;&amp;apos;netnews&amp;apos;&amp;apos;) between [[news server]]s and for reading and posting articles by end user client applications. [[Brian Kantor]] of the [[University of California, San Diego]] and [[Phil Lapsley]] of the [[University of California, Berkeley]] authored RFC 977, the specification for the Network News Transfer Protocol, in March 1986.  Other contributors included [[Stan O. Barber]] from the [[Baylor College of Medicine]] and [[Erik Fair]] of [[Apple Computer]].
+
+Usenet was originally designed based on the [[UUCP]] network, with most article transfers taking place over direct [[Point-to-point (telecommunications)|point-to-point]] telephone links between news servers, which were powerful [[time-sharing system]]s.  Readers and posters logged into these computers reading the articles directly from the local disk.
+
+As [[local area network]]s and [[Internet]] participation proliferated, it became desirable to allow [[News client|newsreader]]s to be run on personal computers connected to local networks. Because distributed file systems were not yet widely available, a new protocol was developed based on the [[client-server]] model. It resembled the [[Simple Mail Transfer Protocol]] (SMTP), but was tailored for exchanging [[newsgroup]] articles.
+
+A newsreader, also known as a news client, is a software application that reads articles on Usenet, either directly from the news server&amp;apos;s disks or via the NNTP.
+
+The [[List of TCP and UDP port numbers|well-known TCP port]] 119 is reserved for NNTP. When clients connect to a news server with [[Transport Layer Security]] (TLS), TCP port 563 is used. This is sometimes referred to as &amp;apos;&amp;apos;&amp;apos;NNTPS&amp;apos;&amp;apos;&amp;apos;.
+
+In October 2006, the IETF released RFC 3977 which updates the NNTP protocol and codifies many of the additions made over the years since RFC 977.
+
+{{IPstack}}
+==Network News Reader Protocol==
+During an abortive attempt to update the NNTP standard in the early 1990s, a specialized form of NNTP intended specifically for use by clients, NNRP, was proposed.  This protocol was never completed or fully implemented, but the name persisted in [[InterNetNews]]&amp;apos;s (INN) &amp;apos;&amp;apos;nnrpd&amp;apos;&amp;apos; program.  As a result, the subset of standard NNTP commands useful to clients is sometimes still referred to as &amp;quot;NNRP&amp;quot;.
+
+==See also==
+* [[List of Usenet newsreaders]]
+* [[News server]]
+* [[Usenet newsgroup]]
+
+==External links==
+*Kantor, Brian and Phil Lapsley. RFC 977 &amp;quot;Network News Transfer Protocol: A Proposed Standard for the Stream-Based Transmission of News.&amp;quot; 1986.
+*[[Mary Ann Horton|Horton, Mark]], and R. Adams. RFC 1036 &amp;quot;Standard for Interchange of USENET Messages.&amp;quot; 1987.
+*[http://www.academ.com/academ/nntp/ietf/1996-July/000022.html NNTP Version 2 draft] an early, abandoned attempt to revise NNTP
+*Barber, Stan, et al. RFC 2980 &amp;quot;Common NNTP Extensions.&amp;quot; 2000
+*[http://www.eyrie.org/~eagle/nntp/ietf.html IETF nntpext Working Group]
+*Feather, Clive. RFC 3977 &amp;quot;Network News Transfer Protocol (NNTP).&amp;quot; 2006
+*{{dmoz|Computers/Software/Internet/Servers/Usenet|Usenet servers}}
+*{{dmoz|Computers/Usenet/Public_News_Servers|Public News Servers}}
+
+{{URI scheme}}
+
+[[Category:Application layer protocols]]
+[[Category:Internet standards]]
+[[Category:Usenet]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

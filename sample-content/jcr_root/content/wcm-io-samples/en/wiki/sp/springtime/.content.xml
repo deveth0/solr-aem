@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Springtime"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Springtime" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|springtime}}
+&amp;apos;&amp;apos;&amp;apos;Springtime&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* [[Spring (season)]], one of the four temperate seasons
+* [[Springtime!]] an entertainment company and record label
+* [[Springtime (band)]], a band from Austria
+* [[Springtime (painting)|&amp;apos;&amp;apos;Springtime&amp;apos;&amp;apos; (painting)]], a painting by Claude Monet
+* [[Springtime (guitar)]], an experimental guitar created by Yuri Landman
+* [[Springtime (1920 film)|&amp;apos;&amp;apos;Springtime&amp;apos;&amp;apos; (1920 film)]], a film starring Oliver Hardy
+* [[Springtime (1929 film)|&amp;apos;&amp;apos;Springtime&amp;apos;&amp;apos; (1929 film)]], a &amp;apos;&amp;apos;Silly Symphonies&amp;apos;&amp;apos; animated Disney short film
+* [[Springtime (2004 film)|&amp;apos;&amp;apos;Springtime&amp;apos;&amp;apos; (2004 film)]], a South Korean film
+* &amp;apos;&amp;apos;Springtime&amp;apos;&amp;apos; (&amp;apos;&amp;apos;Cheongchun&amp;apos;&amp;apos;), a 1999 South Korean TV series starring [[Kim Hyun-Joo]]
+
+==See also==
+* [[Spring (disambiguation)]]
+* [[:Category:Spring]], for articles related to the season
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

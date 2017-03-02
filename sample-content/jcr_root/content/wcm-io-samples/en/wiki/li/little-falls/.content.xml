@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Little Falls"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Little Falls" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Little Falls&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+;Places in the United States:
+* [[Little Falls, Maine]]
+* [[Little Falls, Minnesota]]
+* [[Little Falls, New Jersey]]
+** [[Little Falls (NJT station)]]
+* [[Little Falls (city), New York]]
+* [[Little Falls (town), New York]]
+* [[Little Falls, Virginia]]
+* [[Little Falls, Wisconsin]], a town
+* [[Little Falls, Polk County, Wisconsin]], an unincorporated community
+* [[Vader, Washington]], formerly Little Falls
+* [[Little Falls Branch (Potomac River)]]
+* [[Little Falls Dam]], across the Mississippi River near Little Falls, Minnesota
+* [[Little Falls Meetinghouse]], a Friends meetinghouse in Fallston, Maryland
+
+;Places in Canada
+* [[Little Falls (Hamilton, Ontario)]], a waterfall
+* Little Falls, a community in [[Ramara, Ontario]]
+
+==See also==
+* [[Little Falls Township, Morrison County, Minnesota]]
+* [[Little Falls Mets]], a defunct minor-league baseball team in Little Falls, New York
+{{disambig|geo}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

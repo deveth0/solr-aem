@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Substructural logic"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Substructural logic" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[logic]], a &amp;apos;&amp;apos;&amp;apos;substructural logic&amp;apos;&amp;apos;&amp;apos; is a logic lacking one of the usual structural rules (e.g. of classical and intuitionistic logic), such as [[monotonicity of entailment|weakening]], [[idempotency of entailment|contraction]] or associativity.  Two of the more significant substructural logics are [[relevant logic]] and [[linear logic]].
+
+In a [[sequent calculus]], one writes each line of a proof as
+
+:&amp;lt;math&amp;gt;\Gamma\vdash\Sigma&amp;lt;/math&amp;gt;.
+
+Here the structural rules are rules for [[rewriting]] the [[Sides of an equation|LHS]] Γ of the sequent, initially conceived of as a [[string (computer science)|string]] of propositions. The standard interpretation of this string is as [[Logical conjunction|conjunction]]: we expect to read
+
+:&amp;lt;math&amp;gt;\mathcal A,\mathcal B \vdash\mathcal C&amp;lt;/math&amp;gt;
+
+as the sequent notation for
+
+:(&amp;apos;&amp;apos;A&amp;apos;&amp;apos; &amp;apos;&amp;apos;&amp;apos;and&amp;apos;&amp;apos;&amp;apos; &amp;apos;&amp;apos;B&amp;apos;&amp;apos;) &amp;apos;&amp;apos;&amp;apos;implies&amp;apos;&amp;apos;&amp;apos; &amp;apos;&amp;apos;C&amp;apos;&amp;apos;.
+
+Here we are taking the [[Sides of an equation|RHS]] Σ to be a single proposition &amp;apos;&amp;apos;C&amp;apos;&amp;apos; (which is the [[intuitionistic]] style of sequent); but everything applies equally to the general case, since all the manipulations are taking place to the left of the [[Turnstile (symbol)|turnstile symbol]].
+
+Since conjunction is a [[commutative]] and [[associative]] operation, the formal setting-up of sequent theory normally includes &amp;apos;&amp;apos;&amp;apos;structural rules&amp;apos;&amp;apos;&amp;apos; for rewriting the sequent Γ accordingly - for example for deducing
+
+:&amp;lt;math&amp;gt;\mathcal B,\mathcal A\vdash\mathcal C&amp;lt;/math&amp;gt;
+
+from
+
+:&amp;lt;math&amp;gt;\mathcal A,\mathcal B\vdash\mathcal C&amp;lt;/math&amp;gt;.
+
+There are further structural rules corresponding to the &amp;apos;&amp;apos;[[idempotent]]&amp;apos;&amp;apos; and &amp;apos;&amp;apos;[[monotonic]]&amp;apos;&amp;apos; properties of conjunction: from
+
+:&amp;lt;math&amp;gt; \Gamma,\mathcal A,\mathcal A,\Delta\vdash\mathcal C&amp;lt;/math&amp;gt;
+
+we can deduce
+
+:&amp;lt;math&amp;gt; \Gamma,\mathcal A,\Delta\vdash\mathcal C&amp;lt;/math&amp;gt;.
+
+Also from
+
+:&amp;lt;math&amp;gt; \Gamma,\mathcal A,\Delta\vdash\mathcal C&amp;lt;/math&amp;gt;
+
+one can deduce, for any &amp;apos;&amp;apos;B&amp;apos;&amp;apos;,
+
+:&amp;lt;math&amp;gt; \Gamma,\mathcal A,\mathcal B,\Delta\vdash\mathcal C&amp;lt;/math&amp;gt;.
+
+[[Linear logic]], in which duplicated hypotheses &amp;apos;count&amp;apos; differently from single occurrences, leaves out both of these rules, while [[relevant logic|relevant (or relevance) logic]]s merely leaves out the latter rule, on the ground that &amp;apos;&amp;apos;B&amp;apos;&amp;apos; is clearly irrelevant to the conclusion.
+
+These are basic examples of structural rules. It is not that these rules are contentious, when applied in conventional propositional calculus. They occur naturally in proof theory, and were first noticed there (before receiving a name).
+
+== Premise composition ==
+There are numerous ways to compose premises (and in the multiple conclusion case, conclusions as well). One way is to collect them into a set. But since e.g. {a,a} = {a} we have contraction for free if premises are sets. We also have associativity and permutation (or commutativity) for free as well, among other properties. In substructural logics, typically premises are not composed into sets, but rather they are composed into more fine-grained structures, such as trees or multisets (sets that distinguish multiple occurrences of elements) or sequences of formulae. For example, in linear logic, since contraction fails, the premises must be composed in something at least as fine-grained as multisets.
+
+== History ==
+It is a relatively young field. The first conference on the topic was held in October 1990 in Tübingen, as “Logics with Restricted Structural Rules”. During the conference Kosta Došen proposed the term “substructural logics”, which is now in use today.
+
+== See also ==
+* [[Substructural type system]]
+* [[Residuated lattice]]
+
+== References ==
+*  F. Paoli (2002), &amp;apos;&amp;apos;Substructural Logics: A Primer&amp;apos;&amp;apos;, Kluwer.
+
+== Further reading ==
+* Galatos, Nikolaos, Peter Jipsen, Tomasz Kowalski, and Hiroakira Ono (2007), &amp;apos;&amp;apos;Residuated Lattices. An Algebraic Glimpse at Substructural Logics&amp;apos;&amp;apos;, Elsevier, ISBN 978-0-444-52141-5.
+
+== External links ==
+*{{sep entry|logic-substructural|Substructural logics|Greg Restall}}
+
+{{logic}}
+
+[[Category:Substructural logic|*]]
+[[Category:Non-classical logic]]
+
+{{mathlogic-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Robert Aitken"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Robert Aitken" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Robert Aitken&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* Sir [[Robert Aitken (university administrator)]] (1901–1997), New Zealand physician and university administrator
+* [[Robert Aitken (publisher)]] (1734–1802), American publisher
+* [[Robert Aitken (composer)]] (born 1939), Canadian flutist and composer
+* [[Robert Aitken (soccer)]] (born 1904), American soccer player
+* [[Robert Baker Aitken]] (1917–2010), American teacher of Zen Buddhism
+* [[Robert Grant Aitken]] (1864–1951), American astronomer
+* [[Robert Hope Moncrieff Aitken]] (1828–1887), Scottish army officer and recipient of the Victoria Cross
+* [[Robert Ingersoll Aitken]] (1878–1949), American sculptor
+* [[Robert P. Aitken]] (1819–1873), American politician
+* [[Robert Aitken (preacher)]] (1800–1873), Scottish popular preacher
+* [[Roy Aitken]] (Robert Aitken, born 1958), Scottish footballer
+
+{{hndis|Aitken, Robert}}
+
+{{DEFAULTSORT:Aitken, Robert}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

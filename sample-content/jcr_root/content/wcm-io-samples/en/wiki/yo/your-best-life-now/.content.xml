@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Your Best Life Now"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Your Best Life Now" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox book
+|image=[[File:Your Best Life Now cover.jpg|200px|Book cover]]
+|caption=Cover for &amp;apos;&amp;apos;Your Best Life Now&amp;apos;&amp;apos;
+|name=Your Best Life Now
+|isbn=978-0-446-53275-4
+| dewey= 248.4 22
+| congress= BV4598.2 .O88 2004
+| oclc= 55149452
+|pub_date=2004-10-12
+|subject=Self-help, religion
+|publisher=[[FaithWords]]
+|author=[[Joel Osteen]]
+}}
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Your Best Life Now: 7 Steps to Living at Your Full Potential&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is the [[bestseller|bestselling]]&amp;lt;ref&amp;gt;{{cite web|title=NYTimes.com &amp;gt; Books &amp;gt; Best-Seller Lists|url=http://www.nytimes.com/2005/12/18/books/bestseller/1218besthardadvice.html|publisher=New York Times|accessdate=8 December 2011|date=18 December 2005}}&amp;lt;/ref&amp;gt;  book by pastor [[Joel Osteen]]. It was published on October 12, 2004 by FaithWords. There is also a calendar, board game,&amp;lt;ref&amp;gt;{{cite web|title=Your Best Life Now: The Game|url=http://boardgamegeek.com/boardgame/25739/your-best-life-now-the-game|publisher=BoardGameGeek.com|accessdate=8 December 2011}}&amp;lt;/ref&amp;gt; and study guide&amp;lt;ref&amp;gt;{{cite book|last=Osteen|first=Joel|title=Your best life now study guide : 7 steps to living at your full potential|year=2005|publisher=Warner Faith|location=New York|isbn=978-0-446-69636-4}}&amp;lt;/ref&amp;gt;  available based on the book.
+
+==Criticism==
+Osteen and his book &amp;apos;&amp;apos;Your Best Life Now&amp;apos;&amp;apos; have been criticized for preaching a [[Prosperity theology|prosperity gospel]], which claims that good health and prosperity are promised to Christians.&amp;lt;ref&amp;gt;{{cite web
+|url=http://www.businessweek.com/magazine/content/05_21/b3934014_mz001.htm
+|title=Meet the Prosperity Preacher
+|date=2005-05-23
+|work=BusinessWeek
+|accessdate=2007-12-04
+}}&amp;lt;/ref&amp;gt;
+
+==References==
+&amp;lt;references/&amp;gt;
+
+[[Category:2004 books]]
+[[Category:Self-help books]]
+
+
+{{Christian-book-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

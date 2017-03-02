@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Uccel"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Uccel" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;UCCEL Corp&amp;apos;&amp;apos;&amp;apos;, previously called University Computing Company (&amp;quot;UCC&amp;quot;), was a [[data processing]] [[service bureau]] on the campus of [[Southern Methodist University]] in [[Dallas, Texas]].&amp;lt;ref name=interview&amp;gt;[http://www.cbi.umn.edu/oh/pdf.phtml?id=334 An Interview with SAM WYLY]&amp;lt;/ref&amp;gt; It was founded by the Wyly brothers (Sam and Charles, Jr.) in 1963.&amp;lt;ref name=interview /&amp;gt; The name change in the mid-1980s was brought about by Gregory Liemandt, placed as [[CEO]] by the majority [[stockholder]], a Swiss citizen named [[Walter Haefner]] through Careal Holding AG of [[Zurich]].
+
+Uccel&amp;apos;s &amp;quot;big-ticket item&amp;quot; claim to fame was software called UCC-1/TMS ([[Tape Management System]]), an [[IBM mainframe]] product for managing the [[tape library]] in an [[OS/MVS]] [[operating system]] environment.  In 1980, they developed their second &amp;quot;big hitter&amp;quot; and most profitable product, UCC-7 ([[job scheduler]]).  The UCC-1, UCC-7, UCC-11 suite led the market for tape management and job scheduling.
+
+In 1986, UCCEL Corporation purchased Cambridge Systems Group, Inc., which marketed for SKK, Inc. and their [[ACF2]] mainframe security product.  In June &amp;apos;87, Uccel was unexpectedly bought out by its archrival, [[Computer Associates]], which aggressively sold directly competing products CA-Dynam/TLMS (tape management), CA-Scheduler and [[batch job]] scheduling products originally from [[Capex Corporation]] and Value Software, plus CA-Top Secret (security / mainframe [[discretionary access control]]).
+
+==References==
+{{reflist}}
+*http://www.horatioalger.com/members/member_info.cfm?memberid=wyl70
+*http://www.samandcharleswyly.com/sam-wyly-business-industry-texas.htm
+*http://www.umich.edu/~msjrnl/backmsj/011397/wyly.html
+
+[[Category:Southern Methodist University]]
+[[Category:Service companies of the United States]]
+
+
+{{business-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

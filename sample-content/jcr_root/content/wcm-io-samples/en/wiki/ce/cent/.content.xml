@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Cent"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Cent" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{selfref|On Wikipedia, CENT may refer to [[Wikipedia:CENT|Centralized discussions]].}}
+{{wiktionarypar|cent|centi-}}
+&amp;apos;&amp;apos;&amp;apos;Cent&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+==Currency==
+*[[Cent (currency)]], a one-hundredth subdivision of several units of currency
+*[[Cent (Canadian coin)]], a Canadian coin
+*[[Cent (Dutch WWII coin)]], the Dutch coin minted between 1941 and 1944
+*[[Cent (Euro coin)]], a European coin
+*[[Cent (United States coin)]], a United States coin
+
+==Measurement==
+*[[Cent (unit)]], an Indian measure of land
+*an alternative name for the &amp;apos;&amp;apos;&amp;apos;point&amp;apos;&amp;apos;&amp;apos;, a unit of mass for gemstones equal to {{frac|100}} of a [[carat (unit)|carat]]
+*[[Cent (music)]], a logarithmic measure of relative pitch or intervals
+
+==Locations==
+*[[Cents, Luxembourg]], a quarter of Luxembourg City, Luxembourg
+
+==See also==
+*[[Percent]], 1 in 100
+*[[Century]], 100 consecutive years
+
+==References==
+&amp;lt;references/&amp;gt;
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

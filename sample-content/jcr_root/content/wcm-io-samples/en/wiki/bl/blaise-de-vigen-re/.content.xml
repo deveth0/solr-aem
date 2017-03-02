@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Blaise de Vigenère"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Blaise de Vigenère" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Image:Vigenere.png|thumb|right|Blaise de Vigenère]]
+&amp;apos;&amp;apos;&amp;apos;Blaise de Vigenère&amp;apos;&amp;apos;&amp;apos; (5 April 1523 &amp;amp;ndash; 19 February 1596) ({{IPA-fr|viʒnɛːʁ}}) was a [[France|French]] [[diplomat]], [[cryptographer]], [[translator]] and [[alchemy|alchemist]].
+
+== Biography ==
+
+Vigenère was born in the village of [[Saint-Pourçain-sur-Sioule|Saint-Pourçain]]. At age 17 he entered the diplomatic service, and remained there for 30 years, retiring in 1570. Five years into his career he was sent to the [[Diet of Worms]] as a junior secretary. At age 24, he entered the service of the Duke of [[Nevers]]. In 1549 he visited Rome on a two-year diplomatic mission, and again in 1566. On both trips, he read books about cryptography and came in contact with cryptologists. When Vigenère retired aged 47, he donated his 1,000 livres a year income to the poor in [[Paris]]. He married a Marie Varé. He died of throat cancer in 1596 and is buried in the [[Saint-Étienne-du-Mont]] church.
+
+== Vigenère cipher ==
+{{Main|Vigenère cipher}}
+While the phrase &amp;quot;Vigenère cipher&amp;quot; is a misattribution, Vigenère&amp;apos;s work (1586) differs from that of [[Giovan Battista Bellaso]] (published in {{refnec|1553|date=March 2013}}):
+* Bellaso used a &amp;quot;reciprocal table&amp;quot; of five alphabets; Vigenère used 10;
+* Bellaso&amp;apos;s cipher was based on the first letter of the word; Vigenère used a letter agreed upon before communication.
+Both ciphers are [[autokey cipher]]s.
+
+== Works ==
+
+After his retirement, Vigenère wrote over twenty books including:
+
+*&amp;apos;&amp;apos;Traicté de Cometes&amp;apos;&amp;apos;
+* &amp;apos;&amp;apos;[http://mediatheques.agglo-moulins.fr/agglo-moulins.fr/recherche/viewnotice/clef/LEPSAULTIERDEDAVIDTORNEENPROSE--BLAISEDEVIGENERE--ALANGELIER-1588-100#/page/7 Le psaultier de David torne en prose mesuree, ou vers libres. Par Blaise de Vigenère, Bourbonnois]&amp;apos;&amp;apos;, Paris: Abel L&amp;apos;Angelier, 1588. (A translation of the [[Psalms]].)
+* &amp;apos;&amp;apos;[http://architectura.cesr.univ-tours.fr/Traite/Images/INHA-8R531Index.asp La Somptueuse et Magnifique Entrée du roi Henri III en la cité de Mantoue]&amp;apos;&amp;apos;. Paris: Nicolas Chesneau, 1576. (Includes a description of [[Mantua]] at that time.)
+*&amp;apos;&amp;apos;[http://gallica.bnf.fr/ark:/12148/bpt6k73371g Traicté des Chiffres ou Secrètes Manières d&amp;apos;Escrire]&amp;apos;&amp;apos; (1586) (available on [[Gallica]])
+*&amp;apos;&amp;apos;[http://gallica.bnf.fr/ark:/12148/bpt6k65622c Traicté du Feu et du Sel]&amp;apos;&amp;apos; (1608) (available on [[Gallica]]) (A book on alchemy)
+
+== References ==
+* Ernst Bouchard. &amp;apos;&amp;apos;Notice biographique sur Blaise de Vigenère […]&amp;apos;&amp;apos;, 1868, {{nobr|212 p.}}
+* Marc Fumaroli (editor). &amp;apos;&amp;apos;Blaise de Vigenère poète &amp;amp; mythographe au temps de Henri III&amp;apos;&amp;apos;, Cahiers V.L. Saulnier, no. 11, Paris: Éditions Rue d&amp;apos;Ulm, 1994
+* Métral, Denyse. &amp;apos;&amp;apos;Blaise de Vigenère archéologue et critique d&amp;apos;art&amp;apos;&amp;apos;, Paris: E. Droz, 1939
+* Maurice Sarazin. &amp;apos;&amp;apos;Blaise de Vigenère, Bourbonnais 1523-1596. Introduction à la vie et à l&amp;apos;œuvre d&amp;apos;un écrivain de la Renaissance&amp;apos;&amp;apos;, preface by [[Marc Fumaroli]], Éditions des Cahiers bourbonnais, 1997
+
+== See also ==
+* [[Vigenère cipher]]
+
+{{Authority control|VIAF=24609043}}
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Vigenere, Blaise De
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION = French cryptographer
+| DATE OF BIRTH     = April 5, 1523
+| PLACE OF BIRTH    =
+| DATE OF DEATH     = 1596
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Vigenere, Blaise De}}
+[[Category:1523 births]]
+[[Category:1596 deaths]]
+[[Category:French diplomats]]
+[[Category:Pre-19th-century cryptographers]]
+[[Category:Deaths from esophageal cancer]]
+[[Category:French cryptographers]]
+[[Category:Cancer deaths in France]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

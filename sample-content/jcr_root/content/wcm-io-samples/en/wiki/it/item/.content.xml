@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Item"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Item" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|item|items}}
+&amp;apos;&amp;apos;&amp;apos;Item&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+{{TOC right}}
+== Organizations ==
+* [[ITeM]], refers to the Uruguay-based Third World Institute (ITeM), going by its Spanish acronym Instituto del Tercer Mundo
+* [[ITEM club]], an economic forecasting group based in the United Kingdom
+
+== Newspapers ==
+* &amp;apos;&amp;apos;[[The Item]]&amp;apos;&amp;apos;, an American independent, morning newspaper published in Sumter, South Carolina
+* &amp;apos;&amp;apos;[[The Huntsville Item]]&amp;apos;&amp;apos;, an American seven-day morning daily newspaper published in Huntsville, Texas
+* &amp;apos;&amp;apos;[[Picayune Item]]&amp;apos;&amp;apos;, a American five-day daily newspaper published in Picayune, Mississippi
+
+== Other uses ==
+* [[Item (gaming)]], the objects in a video game collected by the player character to increase the score or progress through the story
+* [[Item (EP)|&amp;apos;&amp;apos;Item&amp;apos;&amp;apos; (EP)]], first release by the band Onetwo
+* [[Digital Item]], the basic unit of transaction in the MPEG-21 framework
+
+== See also ==
+* {{Intitle|Item}}
+* {{Lookfrom|Item}}
+* [[The Daily Item (disambiguation)]]
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

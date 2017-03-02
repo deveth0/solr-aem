@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Reed&#x27;s law"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Reed&#x27;s law" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{merge to|Social_network_analysis|date=January 2012}}
+
+&amp;apos;&amp;apos;&amp;apos;Reed&amp;apos;s law&amp;apos;&amp;apos;&amp;apos; is the assertion of [[David P. Reed]] that the [[utility]] of large [[wiktionary:Network|networks]], particularly [[social network]]s, can [[exponential growth|scale exponentially]] with the size of the network.
+
+The reason for this is that the number of possible sub-groups of network participants is 2&amp;lt;sup&amp;gt;&amp;apos;&amp;apos;N&amp;apos;&amp;apos;&amp;lt;/sup&amp;gt;&amp;amp;nbsp;&amp;amp;minus;&amp;amp;nbsp;&amp;apos;&amp;apos;N&amp;apos;&amp;apos;&amp;amp;nbsp;&amp;amp;minus;&amp;amp;nbsp;1, where &amp;apos;&amp;apos;N&amp;apos;&amp;apos; is the number of participants.  This grows much more rapidly than either
+* the number of participants, &amp;apos;&amp;apos;N&amp;apos;&amp;apos;, or
+* the number of possible pair connections, &amp;apos;&amp;apos;N&amp;apos;&amp;apos;(&amp;apos;&amp;apos;N&amp;apos;&amp;apos;&amp;amp;nbsp;&amp;amp;minus;&amp;amp;nbsp;1)/2 (which follows [[Metcalfe&amp;apos;s law]]).
+so that even if the utility of groups available to be joined is very small on a peer-group basis, eventually the [[network effect]] of potential group membership can dominate the overall economics of the system.
+
+==Derivation==
+Given a [[Set (mathematics)|set]] &amp;apos;&amp;apos;A&amp;apos;&amp;apos; of &amp;apos;&amp;apos;N&amp;apos;&amp;apos; people, it has 2&amp;lt;sup&amp;gt;&amp;apos;&amp;apos;N&amp;apos;&amp;apos;&amp;lt;/sup&amp;gt; possible subsets. This is not difficult to see, since we can form each possible subset by simply choosing for each element of &amp;apos;&amp;apos;A&amp;apos;&amp;apos; one of two possibilities: whether to include that element, or not.
+
+However, this includes the (one) empty set, and &amp;apos;&amp;apos;N&amp;apos;&amp;apos; [[Singleton (mathematics)|singletons]], which are not properly subgroups. So 2&amp;lt;sup&amp;gt;&amp;apos;&amp;apos;N&amp;apos;&amp;apos;&amp;lt;/sup&amp;gt;&amp;amp;nbsp;&amp;amp;minus;&amp;amp;nbsp;&amp;apos;&amp;apos;N&amp;apos;&amp;apos;&amp;amp;nbsp;&amp;amp;minus;&amp;amp;nbsp;1 subsets remain, which is exponential, like&amp;amp;nbsp;2&amp;lt;sup&amp;gt;&amp;apos;&amp;apos;N&amp;apos;&amp;apos;&amp;lt;/sup&amp;gt;.
+
+==Quote==
+From David P. Reed&amp;apos;s, &amp;quot;The Law of the Pack&amp;quot; (Harvard Business Review, February 2001, pp 23–4):&amp;lt;!--Not a proper reference citation; please use.&amp;lt;ref name&amp;quot;SomethingUniqueHere&amp;quot;&amp;gt;{{Cite book|...}}&amp;lt;/ref&amp;gt;--&amp;gt;
+
+:&amp;quot;[E]ven Metcalfe&amp;apos;s law understates the value created by a group-forming network [GFN] as it grows. Let&amp;apos;s say you have a GFN with &amp;apos;&amp;apos;n&amp;apos;&amp;apos; members. If you add up all the potential two-person groups, three-person groups, and so on that those members could form, the number of possible groups equals 2&amp;lt;sup&amp;gt;&amp;apos;&amp;apos;n&amp;apos;&amp;apos;&amp;lt;/sup&amp;gt;. So the value of a GFN increases exponentially, in proportion to&amp;amp;nbsp;2&amp;lt;sup&amp;gt;&amp;apos;&amp;apos;n&amp;apos;&amp;apos;&amp;lt;/sup&amp;gt;. I call that Reed&amp;apos;s Law. And its implications are profound.&amp;quot;
+
+==Criticism==
+
+Other analysts of network value functions, including [[Andrew Odlyzko]] and [[Eric S. Raymond]], have argued that both Reed&amp;apos;s Law and Metcalfe&amp;apos;s Law overstate network value because they fail to account for the restrictive impact of human cognitive limits on network formation. According to this argument, the research around [[Dunbar&amp;apos;s Number]] implies a limit on the  number of inbound and outbound connections a human in a group-forming network can manage, so that the actual maximum-value structure is much sparser than the set-of-subsets measured by Reed&amp;apos;s law or the complete graph measured by Metcalfe&amp;apos;s Law.
+
+== See also ==
+* [[Andrew Odlyzko]]&amp;apos;s &amp;quot;Content is Not King&amp;quot;
+* [[Beckstrom&amp;apos;s law]]
+* [[Coase&amp;apos;s penguin]]
+* [[List of eponymous laws]]
+* [[Metcalfe&amp;apos;s law]]
+* [[Sarnoff&amp;apos;s law]]
+* [[Social capital]]
+
+==References==
+{{reflist}}
+
+==External links==
+* [http://www.reed.com/dpr/locus/gfn/reedslaw.html That Sneaky Exponential&amp;amp;mdash;Beyond Metcalfe&amp;apos;s Law to the Power of Community Building]
+* [http://web.archive.org/web/20071008165706/www.contextmag.com/setFrameRedirect.asp?src=/archives/199903/digitalstrategy.asp Weapon of Math Destruction: A simple formula explains why the Internet is wreaking havoc on business models.]
+* [http://kotisivukone.fi/files/50ajatelmaa.ajatukset.fi/tiedostot/Others/kilkki_kk-law.pdf KK-law for Group Forming Services], XVth International Symposium on Services and Local Access, Edinburgh, March 2004, presents an alternative way to model the effect of social networks.
+
+{{DEFAULTSORT:Reed&amp;apos;s Law}}
+[[Category:Networks]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

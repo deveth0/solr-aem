@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Trump (disambiguation)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Trump (disambiguation)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|trump}}
+&amp;apos;&amp;apos;&amp;apos;[[Trump]]&amp;apos;&amp;apos;&amp;apos; or trumps is a subset of the cards in many trick-taking games.
+
+&amp;apos;&amp;apos;&amp;apos;Trump&amp;apos;&amp;apos;&amp;apos; may also refer to:
+
+* [[Trump (surname)]], list of persons with the name
+* [[The Trump Organization]], a business conglomerate led by Donald Trump
+* [[The Trump (horse)]], Australian thoroughbred racehorse born 1932
+* [[HMS Trump (P333)|HMS &amp;apos;&amp;apos;Trump&amp;apos;&amp;apos; (P333)]], a British submarine, 1944–1969
+* [[Trump (magazine)|&amp;apos;&amp;apos;Trump&amp;apos;&amp;apos; (magazine)]], published by Hugh Hefner in 1957
+* [[Trump (comics)]], character in the Marvel Universe from 1984
+* Warden Trump, character in the 2006 video game &amp;apos;&amp;apos;[[Dragon Quest Monsters: Joker]]&amp;apos;&amp;apos;
+* [[Jew&amp;apos;s harp]], a small musical instrument played in the mouth
+* [[Trumpet]], a brass instrument, or the sound it makes
+
+==Cards==
+* [[Trumps (Tarot cards)]], special cards in the Tarot pack
+* [[Court piece]], a variant of the game whist, originally from Iran
+* [[Top Trumps]], thematic packs of cards with numerical data used in a game with the same name
+
+==See also==
+* [[Trumped (disambiguation)]]
+* [[Trump Tower (disambiguation)]]
+* {{lookfrom|Trump}}
+* {{intitle|Trump}}
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Discontinuity"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Discontinuity" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|discontinuity}}
+
+&amp;apos;&amp;apos;&amp;apos;Discontinuity&amp;apos;&amp;apos;&amp;apos; may refer to:
+*[[Discontinuity (casting)]], An interruption in the normal physical structure or configuration of an article
+*[[Discontinuity (Geotechnical engineering)]] in geotechnics is a plane or surface marking a change in physical or chemical properties in a soil or rock mass
+*[[Discontinuity (mathematics)]], a property of a mathematical function
+*[[Discontinuity (linguistics)]], a property of tree structures in theoretical linguistics
+*[[Discontinuity (Postmodernism)]], a conception of history as espoused by the philosopher Michel Foucault.
+*A break in [[continuity (fiction)]], in literature
+*[[Fracture (geology)]], discontinuity in rocks
+*[[Discontinuity (transmission lines)]], a step in impedance causing reflections
+
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

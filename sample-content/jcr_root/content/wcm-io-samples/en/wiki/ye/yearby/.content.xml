@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Yearby"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Yearby" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced stub|date=December 2009}}
+{{Infobox UK place|
+|country = England
+|latitude= 54.58037
+|longitude= -1.07323
+|official_name= Yearby
+|population =
+|unitary_england = [[Redcar and Cleveland]]
+|region= North East England
+|lieutenancy_england = [[North Yorkshire]]
+|constituency_westminster=
+|post_town=
+|postcode_district=
+|postcode_area=
+|dial_code=
+|os_grid_reference= NZ600209
+}}
+&amp;apos;&amp;apos;&amp;apos;Yearby&amp;apos;&amp;apos;&amp;apos; is a village in the borough of [[Redcar and Cleveland]] and the [[ceremonial county]] of [[North Yorkshire]], [[England]].
+[[Image:Yearby From Yearby Wood.jpg|thumb|left|Yearby from Yearby Wood]]
+
+==External links==
+{{Commons category inline|Yearby}}
+
+{{Redcar and Cleveland}}
+
+[[Category:Redcar and Cleveland]]
+[[Category:Locations in the Tees Valley]]
+[[Category:Villages in North Yorkshire]]
+
+
+{{Redcar-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

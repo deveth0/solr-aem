@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ngonye Falls"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ngonye Falls" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Image:Ngonye Falls.jpg|thumb|270px|Ngonye Falls, western Zambia]]
+
+The &amp;apos;&amp;apos;&amp;apos;Ngonye Falls&amp;apos;&amp;apos;&amp;apos;&amp;lt;ref&amp;gt;[http://www.zambiatourism.com/travel/places/ngonye.htm NGONYE FALLS - Zambia Tourism]&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;[http://www.britannica.com/EBchecked/topic/413559/Ngonye-Falls Ngonye Falls -- Britannica Online Encyclopedia]&amp;lt;/ref&amp;gt; or &amp;apos;&amp;apos;&amp;apos;Sioma Falls&amp;apos;&amp;apos;&amp;apos; are a [[waterfall]] on the [[Zambezi]] river in Western [[Zambia]], near the town of [[Sioma]] and a few hundred kilometers upstream from the [[Victoria Falls]].  Situated in the southern part of [[Barotseland]], the falls are a difficult two or three day journey from the capital, [[Lusaka]].  Their inaccessibility makes them much less known than Victoria Falls.
+
+The falls are formed by the same geological process as Victoria Falls, with cracks in the [[basalt]] riverbed being [[erosion|eroded]] away to form the drop.  Their height is only 10-25 meters, but the width of the falls is impressive.  They form a broad crescent, interrupted by rocky outcrops.
+
+Upstream from the falls, the river is broad and shallow as it flows across [[Kalahari]] sands, but below the falls extensive [[white water rapids]] exist, as the river is hemmed in by [[gorge]]s cut into basalt rock.
+
+The surrounding area supports extensive [[wildlife]], especially in the nearby [[Sioma Ngwezi National Park]], and [[elephant]]s are frequently seen by the river in the vicinity of the falls.
+
+{{coord|16|39|15|S|23|34|20|E|region:ZM_type:waterbody|display=title}}
+
+==References==
+{{Reflist}}
+
+[[Category:Waterfalls of Zambia]]
+[[Category:Zambezi River]]
+[[Category:Barotse Floodplain]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

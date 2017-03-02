@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Zephyr (protocol)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Zephyr (protocol)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{tocright}}
+Created at [[Massachusetts Institute of Technology|MIT]], as part of [[Project Athena]], &amp;apos;&amp;apos;&amp;apos;Zephyr&amp;apos;&amp;apos;&amp;apos; was designed as an [[instant messaging]] protocol and application-suite with a heavy [[Unix]] background. Using the [[Unix philosophy|&amp;quot;do one thing, do it well&amp;quot; philosophy]] of Unix, it was made up of several separate programs working together to make a complete messaging system. Zephyr and [[Internet Relay Chat|IRC]] are the first widely used [[Internet Protocol|IP]]-based instant-messaging systems.
+
+==Creation==
+Zephyr is the invention of Ciarán Anthony DellaFera who was, at that time, an employee of [[Digital Equipment Corporation]] and a Visiting Research Scientist at [[Project Athena]]. The design originated as a solution to the &amp;quot;reverse [[Remote Procedure Call]] (RPC)&amp;quot; problem: how can service providers (servers in a [[client–server]] system) locate and communicate with service users. The initial concept emerged from conversations between Ciarán and Michael R. Gretzinger, another systems engineer at [[Project Athena]], in early 1986. By mid to late 1986 Ciarán had distilled the problem to two specific issues: the ability to locate users in a distributed computing environment (known today as &amp;quot;presence detection&amp;quot;), and the ability to deliver scalable, light-weight, and authentic messages in a distributed computing environment. The Zephyr Development Team (Mark W. Eichin, Robert S. French, David C. Jedlinsky, John T. Kohl, William E. Sommerfeld) was responsible for the creation of the initial code-base and the subsequent releases that were issued throughout the late 1980s.
+
+==Application==
+Zephyr is still in use today at a few [[university]] environments such as [[Carnegie Mellon University|Carnegie Mellon]], [[Iowa State]], [[University of Maryland, College Park]], [[Brown University]] and [[MIT]]. It has been largely replaced by modern and more popular [[instant messenger]] systems such as [[Extensible Messaging and Presence Protocol|XMPP]]. [[MIT]] currently operates both Zephyr and [[Extensible Messaging and Presence Protocol|XMPP]].&amp;lt;ref name=&amp;quot;MIT_IM&amp;quot;&amp;gt;http://web.mit.edu/ist/services/messaging/&amp;lt;/ref&amp;gt;
+
+==Points of interest==
+Zephyr uses [[User Datagram Protocol|UDP]] datagrams sent between ports 2102, 2103, and 2104. It is incompatible with most routers doing [[Network address translation|NAT]] because it reports the internal IP address and so returning datagrams are incorrectly routed. Most sites have deployed Zephyr using [[Kerberos protocol|Kerberos 4]] authentication exclusively, though in late 2007, some sites, including Iowa State, deployed Zephyr using [[Kerberos protocol|Kerberos 5]].
+
+==Client Support==
+* Multi-protocol IM client [http://barnowl.mit.edu/ BarnOwl] has always had Zephyr protocol support.
+* Multi-protocol IM client [[Pidgin (software)|Pidgin]] supports the Zephyr protocol since version 0.11.0-pre10 (April 13, 2001).&amp;lt;ref name=&amp;quot;Pidgin_changelog&amp;quot;&amp;gt;http://www.pidgin.im/ChangeLog&amp;lt;/ref&amp;gt;
+* Multi-protocol IM client [[Adium]] added support for Zephyr in Version 0.70 (October 18, 2004) and dropped support in version 1.4b6 (June 3, 2009).&amp;lt;ref name=&amp;quot;Adium_changelog&amp;quot;&amp;gt;[http://trac.adium.im/wiki/PreviousVersionHistory2 PreviousVersionHistory2 – Adium Trac&amp;lt;!-- Bot generated title --&amp;gt;]&amp;lt;/ref&amp;gt;
+
+==See also==
+* [[Comparison of instant messaging clients]]
+* [http://wiki.ofb.net/?GaleWiki Gale], the Caltech equivalent of the Zephyr protocol
+
+==References==
+{{Reflist}}
+
+==External links==
+* [http://zephyr.1ts.org/ Zephyr 3.0]
+* [http://www.rfrench.org/papers/usenix.pdf The 1988 Usenix paper on Zephyr]
+* [http://web.mit.edu/olh/Zephyr/ Zephyr on Athena]
+* [http://kb.mit.edu/confluence/display/category/Zephyr MIT Q&amp;amp;A about Zephyr]
+* [ftp://athena-dist.mit.edu/pub/ATHENA/zephyr/ Zephyr&amp;apos;s Source Code]
+
+{{Instant messaging}}
+
+{{DEFAULTSORT:Zephyr (Protocol)}}
+[[Category:Free instant messaging clients]]
+[[Category:Instant messaging protocols]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

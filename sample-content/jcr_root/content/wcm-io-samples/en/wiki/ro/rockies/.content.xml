@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Rockies"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Rockies" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Rockies&amp;apos;&amp;apos;&amp;apos; can mean the following:
+* [[Rocky Mountains]], a North American mountain range
+* [[Colorado Rockies]], a Colorado Major League baseball team
+* [[Colorado Rockies (NHL)]], a former NHL hockey team that became the New Jersey Devils
+* [[Blackrock GAA|The Rockies, Cork, Ireland]], the nickname of Blackrock National Hurling Club, an historic sports team in Cork, Ireland
+* [[Rockies Express Pipeline]], a natural gas pipeline from Rocky Mountains to Ohio
+* Little Rockies is a reference to the [[Little Rocky Mountains]] in Montana
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

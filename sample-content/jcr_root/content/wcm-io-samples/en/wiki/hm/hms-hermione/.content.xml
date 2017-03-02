@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="HMS Hermione"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="HMS Hermione" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;Four ships of the [[Royal Navy]] have been named &amp;apos;&amp;apos;&amp;apos;HMS &amp;apos;&amp;apos;Hermione&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; after [[Hermione (mythology)|Hermione]], the daughter of [[Menelaus]] and [[Helen of Troy|Helen]] in [[Greek mythology]].
+
+* {{HMS|Hermione|1782}} was a 32-gun [[fifth-rate]] launched in 1782. Her crew mutinied in 1797 and handed her to the Spanish. She was recaptured in 1799, renamed HMS &amp;apos;&amp;apos;Retaliation&amp;apos;&amp;apos;, and renamed again to HMS &amp;apos;&amp;apos;Retribution&amp;apos;&amp;apos; in 1800. She was broken up in 1805.
+* {{HMS|Hermione|1893}} was an [[Astraea class cruiser|&amp;apos;&amp;apos;Astraea&amp;apos;&amp;apos;-class]] [[protected cruiser]] launched in 1893. She served in the [[World War I|First World War]] and was sold in 1921.
+* {{HMS|Hermione|74}} was a [[Dido class cruiser|&amp;apos;&amp;apos;Dido&amp;apos;&amp;apos;-class]] [[light cruiser]], launched in 1939. She was sunk in the Mediterranean by the German submarine [[German submarine U-205|&amp;apos;&amp;apos;U-205&amp;apos;&amp;apos;]] in 1942.
+* {{HMS|Hermione|F58}} was a [[Leander class frigate|&amp;apos;&amp;apos;Leander&amp;apos;&amp;apos;-class]] [[frigate]] launched in 1967 and scrapped in 1997.
+
+==References==
+*{{Colledge}}
+
+{{Shipindex}}
+{{Italic title prefixed|3}}
+{{DEFAULTSORT:Hermione, Hms}}
+[[Category:Royal Navy ship names]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

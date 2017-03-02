@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Economic forecasting"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Economic forecasting" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{For|related topics|Forecasting}}
+{{Refimprove|date=December 2009}}
+&amp;apos;&amp;apos;&amp;apos;Economic forecasting&amp;apos;&amp;apos;&amp;apos; is the process of making predictions about the economy. Forecasts can be carried out at a high level of aggregation - for example for [[Gross domestic product|GDP]], [[inflation]], [[unemployment]] or the [[fiscal deficit]] - or at a more disaggregated level, for specific sectors of the economy or even specific firms.
+
+Many institutions engage in forecasting, including international organisations such as the [http://www.imf.org/external/index.htm IMF], [http://www.worldbank.org World Bank] and the [http://www.oecd.org OECD], national governments and central banks, and private sector entities, be they think tanks, banks or others. Some forecasts are produced annually, but many are updated more frequently.
+
+The World Bank model is available for individuals and organizations to run their own simulations and forecasts using its [http://isimulate.worldbank.org &amp;apos;&amp;apos;iSimulate platform&amp;apos;&amp;apos;].
+
+[http://www.consensuseconomics.com/ Consensus Economics Inc]., among others, compiles the macroeconomic forecasts prepared by a variety of forecasters, and publishes them every month. [http://www.economist.com &amp;apos;&amp;apos;The Economist&amp;apos;&amp;apos; magazine] regularly provides such a snapshot as well, for a broad range of countries (a recent example is provided [http://www.economist.com/node/18959289?story_id=18959289 here]).
+
+There are a lot of studies completed on the subject of forecast accuracy. Accuracy is one of the main, if not the main criteria, used to judge forecast quality. Some of the references below relate to academic studies of forecast accuracies.
+
+The financial and economic crisis that erupted in 2007 - arguably the worst since the [[Great Depression|Great Depression of the 1930s]] - was not foreseen by most of the forecasters, even if a few lone analysts had been crying wolf for some time (for example, [[Nouriel Roubini]] and [[Robert Shiller]]). The failure to forecast the &amp;quot;[[Great Recession]]&amp;quot; has caused a lot of soul searching in the profession. The [[Elizabeth II|Queen of England]] herself asked why had nobody noticed that the credit crunch was on its way, and a group of economists - experts from business, the City, its regulators, academia, and government - tried to explain in a letter.&amp;lt;ref&amp;gt;http://www.ft.com/intl/cms/3e3b6ca8-7a08-11de-b86f-00144feabdc0.pdf&amp;lt;/ref&amp;gt;
+
+Methods of forecasting include [[Econometric model]]s, [[Economic base analysis]], [[Shift-share analysis]], [[Input-output model]] and the [[Grinold and Kroner Model]].
+
+See also [[Land use forecasting]], [[Reference class forecasting]], [[Transportation planning]], [[Calculating Demand Forecast Accuracy]] and [[Consensus forecasts]]
+
+==Notes==
+{{reflist}}
+
+==References==
+* IMF forecasts can be found here: [http://www.imf.org/external/ns/cs.aspx?id=29 &amp;apos;&amp;apos;IMF World Economic Outlook&amp;apos;&amp;apos;], World Bank forecasts are here [http://www.worldbank.org/globaloutlook &amp;apos;&amp;apos;World Bank Global Economic Prospects&amp;apos;&amp;apos;], and OECD forecasts here: [http://www.oecd.org/eco/economicoutlook.htm&amp;apos;&amp;apos;OECD Economic Outlook&amp;apos;&amp;apos;]
+* Two of the leading journals in the field of economic forecasting are the [http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)1099-131X &amp;apos;&amp;apos;Journal of Forecasting&amp;apos;&amp;apos;] and the [http://www.elsevier.com/wps/find/journaldescription.cws_home/505555/description &amp;apos;&amp;apos;International Journal of Forecasting&amp;apos;&amp;apos;]
+* For a comprehensive but quite technical compendium, see [http://www.elsevier.com/wps/find/bookdescription.cws_home/672846/description#description &amp;apos;&amp;apos;Handbook of Economic Forecasting&amp;apos;&amp;apos;], North-Holland: Elsevier, 2006
+* A more compact and more accessible, but pre-crisis overview is provided in [http://www.amazon.com/Elements-Forecasting-Francis-X-Diebold/dp/0538862440 &amp;apos;&amp;apos;Elements of Forecasting&amp;apos;&amp;apos;], 4th edn, Cincinnati, OH: South-Western College Publishing, 2007
+* A recent, comprehensive and accessible guide to forecasting is [http://us.macmillan.com/economicforecastingandpolicy &amp;apos;&amp;apos;Economic Forecasting and Policy&amp;apos;&amp;apos;], 2d edn, Palgrave, 2011
+* &amp;quot;The IMF and OECD versus Consensus Forecasts&amp;quot;, August 2000. Applied Economics, 33(2), p.225-235 Roy Batchelor (City University Business School) [http://www.consensuseconomics.com/Batchelor_Study.pdf &amp;apos;&amp;apos;The IMF and OECD versus Consensus Forecasts&amp;apos;&amp;apos;]
+* &amp;quot;Assessment of Consensus Forecasts Accuracy: The Czech National Bank Perspective&amp;quot;, Working Paper Series 14, 2010, December 2010 Filip Novotný and Marie Raková (both Czech National Bank) [http://www.cnb.cz/miranda2/export/sites/www.cnb.cz/en/research/research_publications/cnb_wp/download/cnbwp_2010_14.pdf &amp;apos;&amp;apos;&amp;quot;Assessment of Consensus Forecasts Accuracy: The Czech national Bank Perspective&amp;quot;&amp;apos;&amp;apos;]
+
+==External links==
+* [http://www.forecasters.org/ International Institute of Forecasters]
+* [http://www.simonspicks.com/economics/howtopredicttheeconomy How to predict the economy?]
+
+{{DEFAULTSORT:Economic Forecasting}}
+[[Category:Economic forecasting| ]]
+
+{{Econ-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

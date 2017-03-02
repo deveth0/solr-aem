@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Province of Taiwan"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Province of Taiwan" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Province of Taiwan&amp;apos;&amp;apos;&amp;apos; is a term that currently has multiple meanings, and has multiple previous meanings. It may be rendered in Chinese as {{zh|t=臺灣省 or 台灣省|s=台湾省|p=Táiwān shěng}} (Taiwan Province)
+
+* [[Taiwan Province, Republic of China]]
+* [[Taiwan Province, People&amp;apos;s Republic of China]], an administrative province claimed by [[PRC]]
+* &amp;apos;&amp;apos;[[Taiwan, Japan]]&amp;apos;&amp;apos; &amp;amp;mdash; see [[Taiwan under Japanese rule]]
+* &amp;apos;&amp;apos;[[Taiwan under Empire of China]]&amp;apos;&amp;apos;
+** &amp;apos;&amp;apos;Taiwan Province, Qing China&amp;apos;&amp;apos; &amp;amp;mdash; see [[Taiwan under Qing Dynasty rule]]
+
+
+==See also==
+* [[Political status of Taiwan]]
+* [[Chinese Taipei]]
+* [[Taiwan (disambiguation)]]
+
+{{SIA}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

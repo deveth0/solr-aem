@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Yoga-darsana"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Yoga-darsana" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Orphan|date=October 2008}}
+
+According to the Hindu philosophy, there are six darshans (the ways of seeing the world): Purva Mimansa, Uttara Mimansa (Vedanta), Nyaya, Vaisheshika, Sankhya, and [[Yoga]].
+Yoga-darsana is based on the exposition of the [[epistemological]], metaphysical, and methodological ideas of an age-long meditative tradition codified in the work of [[Patanjali]] and widely known as [[Yoga Sutras]].
+
+Yoga-darsana is concerned primarily with acquisition and perpetuation of two states of mind referred to as &amp;quot;collocative&amp;quot; (&amp;apos;&amp;apos;sapaksa&amp;apos;&amp;apos;) with Yoga, namely, the state of the onepointed mind (&amp;apos;&amp;apos;ekāgratā&amp;apos;&amp;apos;) and the state of the inhibited mental functions (&amp;apos;&amp;apos;niruddha&amp;apos;&amp;apos;). The Yoga itself is being equated with [[samādhi]].
+
+==See also==
+*[[Darśana]]
+*[[Yoga Sutras of Patanjali]]
+
+[[Category:Yoga]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

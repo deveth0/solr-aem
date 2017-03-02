@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Amariah"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Amariah" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Amariah&amp;apos;&amp;apos;&amp;apos; {{lang-he|אֲמַרְיָה}} means &amp;quot;promised by God&amp;quot; in [[Hebrew language|Hebrew]]. &amp;lt;!--I think--&amp;gt;
+It was commonly used as a name of priests in the [[History of ancient Israel and Judah]].  It appear several times in the [[Hebrew Bible]]:
+
+#One of the descendants of [[Aaron]] by [[Eleazar]] (1 Chr. 6:7,52). He was probably the last of the high priests of [[Eleazar]]&amp;apos;s line prior to the transfer of that office to Eli, of the line of Ithamar.
+#A Levite, son of Hebron, of the lineage of [[Moses]] (1 Chr. 23:19; 24:23).
+#A &amp;quot;chief priest&amp;quot; who took an active part in the reformation under [[Jehoshaphat]] (2 Chr. 19:11); probably the same as mentioned in 1 Chr. 6:9.
+#1 Chr. 6:11; [[Ezra]] 7:3.
+#One of the high priests in the time of [[Hezekiah]] (2 Chr. 31:15).
+#Zeph. 1:1.
+#Neh. 11:4.
+#Neh. 10:3.
+#[[Ezra]] 10:42.
+
+{{eastons}}
+{{Tanakh-stub}}
+
+[[Category:Hebrew Bible people]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

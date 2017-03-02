@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="MLM"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="MLM" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionarypar|MLM|mlm}}
+&amp;apos;&amp;apos;&amp;apos;MLM&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;mlm&amp;apos;&amp;apos;&amp;apos; can be an abbreviation of:
+
+* [[Multipurpose Laboratory Module]], planned Russian module of the International Space Station
+* [[Multi-level marketing]]
+* [[General Francisco J. Mujica International Airport|Morelia International Airport]], IATA airport code MLM
+* [[Military Liaison Missions]], an American Cold War unit, in the Group of Soviet Forces, Germany
+* [[Millom railway station]], England; National Rail station code MLM
+* &amp;apos;&amp;apos;mlm&amp;apos;&amp;apos;, a unit for [[luminous flux]], corresponding to 1/1000 [[lumen (unit)|lumen]]
+* [[Medical Logic Module]], a program written in the Arden Syntax computer language
+* [[Marxism–Leninism–Maoism]], a [[political philosophy]] derived from the ideas of [[Karl Marx]], [[Vladimir Lenin]], and [[Mao Zedong]].
+
+
+In [[Roman Numerals]], &amp;apos;&amp;apos;&amp;apos;MLM&amp;apos;&amp;apos;&amp;apos; could mean [[1950]].
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

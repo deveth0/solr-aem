@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Unga"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Unga" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|unga}}
+&amp;apos;&amp;apos;&amp;apos;Unga&amp;apos;&amp;apos;&amp;apos;  may refer to:
+* [[Tēvita ʻUnga]] (c. 1824 – 1879), Tongan Crown Prince and Prime Minister
+* [[Harvey Unga]] (born 1988), American football running back
+* [[Unga, Alaska]], United States
+* [[Unga (animal)]], the largest land-living arthropod in the world
+* [[Unga (fish)]], &amp;apos;&amp;apos;Sarotherodon linnellii&amp;apos;&amp;apos; of Cameroon, black talapia
+* [[Unga (unit)]], a traditional Scottish land measurement
+* [[Unga Group]], a flour milling company
+* [[Unga L.T.D.]], Tanzania
+* [[Unga Station]], a railway station in Japan
+
+==See also==
+* [[United Nations General Assembly]]
+* [[Unga Island]]
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

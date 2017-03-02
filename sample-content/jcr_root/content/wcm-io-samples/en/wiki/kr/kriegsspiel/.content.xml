@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Kriegsspiel"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Kriegsspiel" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Kriegsspiel&amp;apos;&amp;apos;&amp;apos; (often spelled &amp;apos;&amp;apos;&amp;apos;Kriegspiel&amp;apos;&amp;apos;&amp;apos; in English) is a German word for &amp;quot;wargame&amp;quot;.  It may mean:
+*[[Kriegspiel (chess)]], a chess variant of imperfect information
+*[[Kriegsspiel (wargame)]], a 19th-century wargames training system of the Prussian army
+*&amp;apos;&amp;apos;[[Le Jeu de la Guerre]]&amp;apos;&amp;apos;, a wargame developed by Guy Debord, discussed in his 1987 book
+*&amp;quot;Kriegspiel&amp;quot;, a song by Patrick Wolf from &amp;apos;&amp;apos;[[The Bachelor (album)|The Bachelor]]&amp;apos;&amp;apos;
+&amp;lt;!--*A strategy board game for the [[Dragon 32]] computer--&amp;gt;
+
+{{Disambiguation}}
+[[Category:German words and phrases]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

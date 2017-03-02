@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Dieppe"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Dieppe" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Dieppe&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+;Places
+* [[Dieppe, Seine-Maritime]], a port in Upper Normandy, France
+* [[Dieppe Bay Town]], a seaside town on Saint Kitts, was the first French settlement in the West Indies
+* [[Dieppe, New Brunswick]], a city in Canada located near Moncton, NB
+* [[Dieppe-sous-Douaumont]], a French commune in Lorraine, France
+
+;Ships
+*{{HMS|Dieppe}}, two ships of the Royal Navy
+*{{SS|Dieppe}}, three ships of the London, Brighton and South Coast Railway
+
+;World War II Battle
+*&amp;quot;Dieppe&amp;quot;, the battle honour awarded to forces participating in the [[Dieppe Raid]], a World War II Allied attack on German forces in the French town
+
+== See also ==
+* [[Johnny Depp]], American actor of French Huguenot extraction (descendant of Pierre Dieppe)
+* [[Dieppe Commandos]], an ice hockey team in Dieppe, New Brunswick
+* [[Dieppe Gardens]], a park in Windsor, Ontario
+* [[Dieppe Centre-Lewisville]] a provincial electoral district in New Brunswick
+* [[Dieppe-Memramcook]], a former provincial electoral district in New Brunswick; since replaced by Memramcook-Lakeville-Dieppe
+* [[Dieppe maps]], series of 16th century world maps made in Dieppe, Seine-Maritime
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

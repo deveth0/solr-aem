@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Yaw"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Yaw" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Wiktionary}}
+
+The word &amp;apos;&amp;apos;&amp;apos;yaw&amp;apos;&amp;apos;&amp;apos; can refer to:
+* [[Yaw angle]], one of the [[Tait-Bryan angles]], describing the heading of a vehicle or machine, and some other related elements:
+**[[Yaw system]], component responsible for the orientation of a wind turbine towards the wind.
+**[[Yaw bearing]], one of the components to keep optimal heading in a [[wind turbine]].
+*[[Aircraft principal axes|Yaw]], rotation around the vertical axis in aircraft, an aspect of [[Flight dynamics (aircraft)|flight dynamics]] and some other related elements:
+**[[Yaw (rotation)]]
+**an [[Aerobatic maneuver]], rotation around the vertical axis
+**[[Yaw rate sensor]], angular speed of yaw rotation
+* [[Yaw (god)]], Levantine god
+* [[Yaw drive]], wind turbine component
+* [[YAW]], Halifax/Shearwater Heliport&amp;apos;s IATA code
+* [[Ellen Beach Yaw]] (1869&amp;amp;ndash;1947), concert singer
+* Yàw, Thursday, see [[Akan day names]]
+* [[Yaw-Yan]], Filipino martial art
+* [[Yaws]], tropical disease
+* [[Yaws (web server)]]
+* [[Yaw (ethnic group)]], a [[Burma|Burmese]] ethnic group
+* [[YAW (Yoonu Askaan Wi)]], a Senegalese political party
+* Yaw, a [[Ghanaian name]] for a boy born on Thursday
+
+==See also==
+* [[Yours (disambiguation)]], various meanings, most prominently as a pronoun
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

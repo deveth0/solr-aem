@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Robert Howard"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Robert Howard" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Robert Howard&amp;apos;&amp;apos;&amp;apos; is the name of:
+
+{{tocright}}
+==Sports==
+*[[Bob Holly]] (born 1963), wrestler whose real name is Bob Howard
+*[[Robert Howard (athlete)]] (1975–2004), American triple jumper
+*[[Bob Howard]] (1944–2008), American football player
+*[[Bobby Howard (wrestler)]], American professional wrestler
+*[[Robert Howard (martial artist)]] (born 1938), Irish taekwondo master
+
+==Politicians==
+*[[Rob Howard]] ( [[floruit|fl.]] 2009), Canadian politician
+*[[Robert Danvers]] aka Robert Howard (1624–1674), politician
+
+==Writers==
+*Sir [[Robert Howard (playwright)]] (1626–1698), playwright and politician
+*[[Robert E. Howard]] (1906–1936), writer of fantasy and historical adventure pulp stories and creator of Conan the Barbarian
+
+==Educators==
+*[[Robert F. Howard]] (1883–1963), educator, rancher and farmer in Texas
+*[[Bob Howard (academic)|Bob Howard]] (born 1936), educator and political historian in Sydney
+
+==Others==
+*Sir Robert Howard (1385–1436), father of [[John Howard, 1st Duke of Norfolk]]
+*Sir [[Robert Howard (royalist)]] (1585–1653), Royalist commander
+*[[Robert L. Howard]] (1939–2009), Medal of Honor recipient during the Vietnam War
+*[[Robert Lesarian Howard]], man convicted of murder
+*Robert Howard (&amp;quot;Dr. Robert&amp;quot;, born 1961), British pop star and member of [[the Blow Monkeys]]
+
+{{hndis|Howard, Robert}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

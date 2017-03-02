@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Bad Bug Book"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Bad Bug Book" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{no footnotes|date=March 2013}}
+{{italic title}}
+The &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Bad Bug Book&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is a [[public domain]] online publication about [[foodborne illness]]es. It was prepared in 1992 by the [[Center for Food Safety and Applied Nutrition]], a division of the [[U.S. Food and Drug Administration]], with a second edition released in 2012.
+
+==External links==
+* [http://www.fda.gov/Food/FoodborneIllnessContaminants/CausesOfIllnessBadBugBook/default.htm Bad Bug Book (second edition)] at the US [[Food and Drug Administration]] website.
+* [http://www.fda.gov/Food/FoodborneIllnessContaminants/CausesOfIllnessBadBugBook/ucm296005.htm Bad Bug Book (original)]
+
+[[Category:Food and Drug Administration]]
+[[Category:Foodborne illnesses]]
+[[Category:Publications of the United States government]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ulbricht Doctrine"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ulbricht Doctrine" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;Ulbricht Doctrine&amp;apos;&amp;apos;&amp;apos;, named after [[East Germany|East German]] leader [[Walter Ulbricht]], was the assertion that normal diplomatic relations between [[East Germany]] and [[West Germany]] could only occur if both states fully recognised each other&amp;apos;s sovereignty. This contrasted with the [[Hallstein Doctrine]], a West German policy which insisted that West Germany was the only legitimate German state.
+East Germany gained acceptance of its view from fellow Communist states such as [[Czechoslovakia]], [[Poland]], [[Hungary]], and [[Bulgaria]], which all agreed not to normalise relations with West Germany until it recognised East German sovereignty.
+
+West Germany eventually abandoned its Hallstein Doctrine, instead adopting the policies of [[Ostpolitik]]. In December 1972, a Basic Treaty between East and West Germany was signed, reaffirming two German states as separate entities. The treaty also allowed the exchange of diplomatic missions, and the entry of both German states to the [[United Nations]] as full members.
+
+==External links==
+*[http://www.isn.ethz.ch/php/documents/collection_3/CMFA_docs/CMFA_1967/1967_5.pdf Warsaw Pact Foreign Ministers Meeting discussing diplomatic sanctions against West Germany] (Original Scan In Czech)
+*[http://www.documentArchiv.de/brd/grundlvertr.html The text of the 1972 Basic Treaty between East and West Germany] (in German)
+
+{{Cold War}}
+[[Category:Foreign policy doctrines]]
+[[Category:Foreign relations of East Germany]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

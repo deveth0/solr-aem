@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Financial cryptography"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Financial cryptography" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Financial cryptography (FC)&amp;apos;&amp;apos;&amp;apos; is the use of [[cryptography]] in applications in which financial loss could result from subversion of the message system.
+
+Cryptographers think of the field as originating in the work of Dr [[David Chaum]] who invented the [[blind signature|blinded signature]]. This special form of a [[digital signature|cryptographic signature]] permitted a virtual coin to be signed without the signer seeing the actual coin, and permitted a form of digital [[token money]] that offered untraceability. This form is sometimes known as [[Digital currency]].
+
+A widely-used and previously-developed cryptographic mechanism is the [[Data Encryption Standard]], which was used primarily for the protection of electronic funds transfers. However, it was the work of [[David Chaum]] that excited the cryptography community about the potential of encrypted messages as actual [[financial instruments]].
+
+Financial cryptography includes the mechanisms and algorithms necessary for the protection of financial transfers, in addition to the creation of new forms of money. [[Proof of work]] and various [[auction]] protocols fall under the umbrella of Financial Cryptography. [[Hashcash]] is being used to limit spam.
+
+Financial cryptography is distinguished from traditional [[cryptography]] in that for most of recorded history, cryptography has been used almost entirely for military and diplomatic purposes.
+
+As part of a business model, FC followed the guide of cryptography and only the simplest ideas were adopted.  Account money systems protected by [[Secure Sockets  Layer |SSL]] such as [[PayPal]] and [[e-gold]] were relatively successful, but more innovative mechanisms, including blinded token money, were not.
+
+Financial cryptography is frequently seen to have a very broad scope of application. Ian Grigg sees financial cryptography in seven layers [http://iang.org/papers/fc7.html], being the combination of seven distinct disciplines: cryptography, [[software engineering]], rights, [[accounting]], [[governance]], [[Value (economics)|value]], and financial applications. Business failures can often be traced to the absence of one or more of these disciplines, or to poor application of them.  This views FC as an appropriately crossdiscipline subject. Indeed, inevitably so, given that [[finance]] and [[cryptography]] are each built upon multiple disciplines.
+
+Financial cryptography is to some extent organized around the annual meeting of the International Financial Cryptography Association [http://www.ifca.ai/ Financial Cryptography], which is held each year in a different location.
+
+==See also==
+*[[Automated teller machine]]s (ATM)
+*[[Point-of-sale]] (POS)
+*[[Hardware Security Module]]s (HSM)
+* [[Electronic money]]
+* [[Payment system]]
+* [[Smart contracts]]
+* [[Anonymous internet banking]]
+* [[Economics of security]]
+* [[Bilateral key exchange]]
+
+== External links ==
+* [http://www.ifca.ai/ International Financial Cryptography Association]
+* [http://fincrypt.blogspot.com/ Fincrypt weblog]
+* [https://www.financialcryptography.com/ Financial Cryptography weblog]
+* [http://szabo.best.vwh.net/bearer_contracts.html Contracts with bearer]
+* [http://github.com/FellowTraveler/Open-Transactions/wiki Open Transactions] Open source, untraceable digital cash software.
+
+[[Category:Financial cryptography| ]]
+[[Category:Banking technology]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

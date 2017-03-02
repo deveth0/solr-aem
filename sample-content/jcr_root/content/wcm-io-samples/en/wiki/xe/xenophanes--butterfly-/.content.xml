@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Xenophanes (butterfly)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Xenophanes (butterfly)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Taxobox
+| name = &amp;apos;&amp;apos;Xenophanes&amp;apos;&amp;apos;
+| image =
+| image_width =
+| image_caption =
+| regnum = [[Animal]]ia
+| phylum = [[Arthropod]]a
+| classis = [[Insect]]a
+| ordo = [[Lepidoptera]]
+| familia = [[Hesperiidae]]
+| subfamilia =
+| genus = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Xenophanes&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+| genus_authority = Godman &amp;amp; Salvin, [1895]
+| subdivision_ranks = [[Species]]
+| subdivision =
+}}
+
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Xenophanes&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is a genus of [[skipper (butterfly)|skippers]] in the family [[Hesperiidae]].
+
+==References==
+*[http://www.nhm.ac.uk/jdsml/research-curation/projects/butmoth/GenusList3.dsml?searchPageURL=index.dsml&amp;amp;SUPERFAMIL=&amp;amp;FAMILYqtype=starts+with&amp;amp;FAMILY=hesperiidae&amp;amp;SUBFAMILYqtype=starts+with&amp;amp;SUBFAMILY=&amp;amp;TRIBEqtype=starts+with&amp;amp;TRIBE=&amp;amp;SUBTRIBEqtype=starts+with&amp;amp;SUBTRIBE=&amp;amp;GENUSqtype=starts+with&amp;amp;GENUS=&amp;amp;AUTHORqtype=starts+with&amp;amp;AUTHOR=&amp;amp;YEARqtype=equals&amp;amp;YEAR=&amp;amp;sort=GENUS Natural History Museum Lepidoptera genus database]
+
+[[Category:Pyrgini]]
+
+{{Pyrginae-stub}}
+
+{{italictitle}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

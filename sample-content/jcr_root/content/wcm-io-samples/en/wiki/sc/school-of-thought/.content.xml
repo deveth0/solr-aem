@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="School of thought"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="School of thought" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{notability|date=October 2010}}
+{{unreferenced stub|date=October 2010}}
+A  &amp;apos;&amp;apos;&amp;apos;school of thought&amp;apos;&amp;apos;&amp;apos; is a collection or group of people who share common characteristics of [[opinion]] or outlook of a [[philosophy]], [[List of academic disciplines|discipline]], [[belief]], [[social movement]], [[economics]], [[cultural movement]], or [[art movement]].
+
+Schools are often characterized by their currency, and thus classified into &amp;quot;new&amp;quot; and &amp;quot;old&amp;quot; schools. This dichotomy is often a component of [[paradigm shift]]. However, it is rarely the case that there are only two schools in any given field.
+
+Schools are often named after their founders such as the &amp;quot;[[Rinzai school]]&amp;quot; of [[Zen]] named after [[Linji Yixuan]] and the [[Asharite]] school of [[early Muslim philosophy]] named after [[Abu l&amp;apos;Hasan al-Ashari]]. They are often also named after their places of origin, such as the [[Ionian School (philosophy)|Ionian School]] of [[philosophy]] that originated in [[Ionia]] and the [[Chicago school (architecture)|Chicago school]] of [[architecture]] that originated in [[Chicago, Illinois]] and the [[Prague School]] of linguistics, named after a linguistic circle found in Prague, or [[Tartu-Moscow Semiotic School]] whose representatives lived in [[Tartu]] and [[Moscow]].
+
+==See also==
+* [[Paradigm]]
+* [[Mindset]]
+* [[Worldview]]
+
+{{DEFAULTSORT:School Of Thought}}
+[[Category:Philosophical movements| ]]
+[[Category:Schools of thought| ]]
+
+{{Philo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

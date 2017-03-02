@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Miki, Kagawa"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Miki, Kagawa" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox city Japan
+|Name= Miki
+|JapaneseName= 三木町
+|settlement_type= Town
+|MapImage= Miki in Kagawa prefecture en.svg
+|Region= [[Shikoku]]
+|Prefecture= [[Kagawa Prefecture|Kagawa]]
+|District=[[Kita District, Kagawa|Kita]]
+|Area_km2= 75.78
+|PopDate= 2003
+|Population= 29,015
+|Density_km2= auto
+|Coords=
+|LatitudeDegrees= 34
+|LatitudeMinutes= 16
+|LatitudeSeconds=
+|LongtitudeDegrees= 134
+|LongtitudeMinutes= 8
+|LongtitudeSeconds=
+|Tree=
+|Flower=
+|Bird=
+|SymbolImage= Flag of Miki, Kagawa.JPG
+|SymbolDescription=
+|Mayor=
+|CityHallPostalCode=
+|CityHallAddress=
+|CityHallPhone=
+|CityHallLink= [http://www.town.miki.lg.jp/ Town of Miki]
+}}
+{{nihongo|&amp;apos;&amp;apos;&amp;apos;Miki&amp;apos;&amp;apos;&amp;apos;|三木町|Miki-chō}} is a [[towns of Japan|town]] located in [[Kita District, Kagawa|Kita District]], [[Kagawa Prefecture|Kagawa]], [[Japan]].
+
+As of 2003, the town has an estimated [[population]] of 29,015 and a [[population density|density]] of 382.88 persons per km². The total area is 75.78 km².
+
+==External links==
+{{Commons category-inline}}
+*[http://www.town.miki.lg.jp/ Miki official website] {{ja icon}} ([http://www.town.miki.lg.jp/en/index.html English version])
+
+[[Category:Towns in Kagawa Prefecture]]
+
+{{Kagawa-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Queso panela"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Queso panela" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{one source|date=March 2013}}
+{{italics title}}
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Queso panela&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; (panela [[cheese]]), also called &amp;apos;&amp;apos;queso canasta&amp;apos;&amp;apos; or &amp;apos;&amp;apos;queso de la canasta&amp;apos;&amp;apos; (basket cheese) because it carries the impression of the basket in which it is molded, is a white, fresh and smooth cheese of [[Pasteurization|pasteurized]] [[cow&amp;apos;s milk]], served most often as part of appetizer dishes such as &amp;apos;&amp;apos;[[nopal]]&amp;apos;&amp;apos; [[salads]] or [[quesadillas]].  It is derived from the Greek word for [[basket cheese]]. The cheese also has similarities to the [[India]]n cheese &amp;apos;&amp;apos;[[paneer]]&amp;apos;&amp;apos;.&amp;lt;ref name=&amp;quot;gs&amp;quot;&amp;gt;{{cite web|accessdate=2007-10-15|publisher=Gourmet Sleuth|title=Guide to Mexican Cheeses|url=http://www.gourmetsleuth.com/mexicancheeses.htm}}&amp;lt;/ref&amp;gt;
+
+It absorbs other flavors easily and is covered at times with a paste of [[garlic]] and [[chili pepper]]. Good, genuine, fresh panela inhabits a similar watery environment to mozzarella, and can be used in quite the same fashion.  It may also be fried, although it holds its shape and does not melt very easily.&amp;lt;ref name=&amp;quot;gs&amp;quot;/&amp;gt;  It is used in many diverse [[Mexican food]]s, such as [[enchiladas]] or [[tacos]],&amp;lt;ref name=&amp;quot;gs&amp;quot;/&amp;gt; as well as in some variant preparations of [[guacamole]].
+
+Regional differences as well as different degrees of [[cheese ripening|maturation]] yield a diverse variety of cheeses within the panela family. One remarkable regional variety is that of the evergreen mountain town Tapalpa.
+
+== See also ==
+* &amp;apos;&amp;apos;[[Queso blanco]]&amp;apos;&amp;apos;
+* [[Oaxaca cheese]]
+
+== References ==
+{{reflist}}
+
+[[Category:Mexican cuisine]]
+[[Category:Mexican cheeses]]
+[[Category:Cow&amp;apos;s-milk cheeses]]
+{{cheese-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

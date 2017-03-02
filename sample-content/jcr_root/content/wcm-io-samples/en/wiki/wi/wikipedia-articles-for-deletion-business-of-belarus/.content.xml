@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:Articles for deletion/Business of Belarus"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:Articles for deletion/Business of Belarus" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;Article [[Business of Belarus]] listed on [[WP:VFD]] Apr 26 to May 3 2004, consensus was to delete.  Discussion:
+
+Consists of links to two websites. No other content there. [[User:Andris|Andris]] 00:36, Apr 26, 2004 (UTC)
+*Delete unless improved in 5 days -- [[User:Francs2000|Graham  :)]] | [[User talk:Francs2000|Talk]] 01:05, 26 Apr 2004 (UTC)
+* [[Wikipedia:What Wikipedia is not|Wikipedia is not]] a link repository/yellow pages. Delete. -- [[User:Cyrius|Cyrius]]|[[User talk:Cyrius|&amp;amp;#9998]] 02:40, Apr 26, 2004 (UTC)
+* Delete. This is what I call &amp;apos;&amp;apos;&amp;apos;[[Wikipedia:Village_pump#Wikispam|wikispam]]&amp;apos;&amp;apos;&amp;apos; (and in case anyone else hasn&amp;apos;t caught on yet, I&amp;apos;m trying to get other wikipedians decide to adopt this term). [[User:Alcarillo|Alcarillo]] 07:59, 30 Apr 2004 (UTC)
+
+&amp;apos;&amp;apos;End discussion&amp;apos;&amp;apos;&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

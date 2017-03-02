@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Nzinga"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Nzinga" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Nzinga&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+==People==
+*[[Nzinga of Ndongo and Matamba]] (c. 1583–1663), West African warrior queen
+*[[João I of Kongo]], also known as Nzinga a Nkuwu or Nkuwu Nzinga
+*[[Afonso I of Kongo]] (c. 1456–1542 or 1543), also known as Mvemba a Nzinga or Nzinga Mbemba
+*[[Nzinga Blake]] (born 1981), American/Sierra Leonean actress
+*[[Daniel Ntongi-Nzinga]] (born 1946), peace activist and Christian leader in Angola
+
+==Places==
+*[[Nzinga, Nyanga, Gabon]], in [[Nyanga Province]]
+*[[Nzinga, Ogooué-Ivindo, Gabon]], in the province of [[Ogooué-Ivindo]]
+*[[Nzinga, Central African Republic]], a [[Transport in the Central African Republic#Ports and harbors|port in the Central African Republic]]
+*[[Nzinga Tchi]], in [[Nyanga Province]], Gabon
+
+{{Disambiguation|geo|given name|surname}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

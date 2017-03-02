@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Zalaba"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Zalaba" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Image:Okres levice.png|thumb|right|300px|Location of [[Levice District]] in the [[Nitra Region]]]]
+
+&amp;apos;&amp;apos;&amp;apos;Zalaba&amp;apos;&amp;apos;&amp;apos; ({{lang-hu|Zalaba}}) is a [[village]] and [[municipality]] in the [[Levice District]] in the [[Nitra Region]] of [[Slovakia]].
+
+==History==
+In [[history|historical records]] the village was first mentioned in 1349.
+
+==Geography==
+The [[village]] lies at an [[altitude]] of 124 metres and covers an [[area]] of 7.354 km². It has a [[population]] of about 170 people.
+
+==Ethnicity==
+The village is approximately 86% [[Hungarian people|Magyar]] and 14% [[Slovaks|Slovak]].
+
+==Facilities==
+The village has a public [[library]] and [[Association football pitch|football pitch]].
+
+==External links==
+*http://www.statistics.sk/mosmis/eng/run.html
+
+{{Levice District}}
+
+{{Levice-geo-stub}}
+
+{{coord|47|58|N|18|42|E|region:SK_type:city|display=title}}
+
+[[Category:Villages and municipalities in Levice District]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

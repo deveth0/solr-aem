@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Vicat softening point"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Vicat softening point" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Refimprove|date=December 2009}}
+[[File:Vicat.jpg|thumb|200px|Vicat needle for cement paste solidification time measurement]]
+
+&amp;apos;&amp;apos;&amp;apos;Vicat softening point&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;Vicat hardness&amp;apos;&amp;apos;&amp;apos;  is the determination of the [[softening point]] for materials that have no definite [[melting point]], such as [[plastics]]. It is taken as the temperature at which the specimen is penetrated to a depth of 1 mm by a flat-ended needle with a 1 mm&amp;lt;sup&amp;gt;2&amp;lt;/sup&amp;gt; circular or square cross-section. For the Vicat A test, a load of 10 [[Newton (unit)|N]] is used. For the Vicat B test, the load is 50 N.
+
+Standards to determine Vicat softening point include [[ASTM]] D 1525 and [[International Organization for Standardization|ISO]] 306, which are largely equivalent.&amp;lt;ref&amp;gt;[http://www.makeitfrom.com/info/?about=Vicat_Softening_Point Vicat Softening Point: Definition]&amp;lt;/ref&amp;gt;
+Property information for specific grades of resin are available in the Prospector Plastic Database.
+Property Search lets you search for plastics by more than 400 material properties.
+Vicat Softening Temperature - ISO 306
+
+The vicat softening temperature can be used to compare the heat-softening characteristics of different materials.
+
+Four different methods may be used for testing.
+{| class=&amp;quot;wikitable sortable&amp;quot;
+|-
+! Method !! Load (N) !! Heating rate (K/h)
+|-
+| A50 || 10 || 50
+|-
+| B50 || 50 || 50
+|-
+| A120 || 10 || 120
+|-
+| B120 || 50 || 120
+|}
+
+ISO 10350 Note
+
+ISO 10350 Vicat values are tested using the B50 method.
+
+Similar Standards: ASTM D1525
+
+Property information for specific grades of resin are available in the UL IDES Prospector Plastic Database.
+==References==
+{{Reflist}}
+
+{{ISO standards}}
+
+{{DEFAULTSORT:Vicat Softening Point}}
+[[Category:Cement]]
+[[Category:Polymer chemistry]]
+
+{{Polymer-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

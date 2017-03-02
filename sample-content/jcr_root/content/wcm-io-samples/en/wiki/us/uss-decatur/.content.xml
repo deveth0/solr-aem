@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="USS Decatur"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="USS Decatur" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Italic title prefixed|3}}
+Five ships of the [[United States Navy]] have been named &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Decatur&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;, in honor of Commodore [[Stephen Decatur]].
+
+* The {{USS|Decatur|1839|6}}, was a [[sloop-of-war]] built in 1839 and in service from 1840 to 1859.
+
+* {{USS|Decatur|DD-5}}, was a [[Bainbridge class destroyer|&amp;apos;&amp;apos;Bainbridge&amp;apos;&amp;apos;-class destroyer]] which served mainly in or near the [[Philippines]] from 1902 to 1919.
+
+* {{USS|Decatur|DD-341}}, was a [[Clemson class destroyer|&amp;apos;&amp;apos;Clemson&amp;apos;&amp;apos;-class destroyer]] which served from 1922 to 1945.
+
+* {{USS|Decatur|DDG-31}}, was a [[Forrest Sherman class destroyer|&amp;quot;Forrest Sherman&amp;quot;-class destroyer]] in service from 1956 to 1983, later converted to become the first [[Self Defense Test Ship]].
+
+* {{USS|Decatur|DDG-73}}, is an [[Arleigh Burke class destroyer]] commissioned in 1998 and currently in active service.
+
+{{Shipindex}}
+
+{{DEFAULTSORT:Decatur}}
+[[Category:United States Navy ship names]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

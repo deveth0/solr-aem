@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Zebra (medicine)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Zebra (medicine)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{TOCright}}
+&amp;apos;&amp;apos;&amp;apos;Zebra&amp;apos;&amp;apos;&amp;apos; is the [[medical slang]] for arriving at an exotic [[medical diagnosis]] when a more commonplace explanation is more likely.&amp;lt;ref&amp;gt;[[#Sotos|Sotos (2006) page 1.]]&amp;lt;/ref&amp;gt;  It is shorthand for the [[aphorism]] coined in the late 1940s by Dr. [[Theodore Woodward]], professor at the [[University of Maryland, Baltimore|University of Maryland]] School of Medicine, who instructed his [[internship (medicine)|medical interns]]: &amp;quot;When you hear hoofbeats, think of horses not zebras&amp;quot;.&amp;lt;ref&amp;gt;[[#Sotos|Sotos (2006) page 1.]]&amp;lt;/ref&amp;gt; Since horses are common in Maryland while zebras are relatively rare, logically one could confidently guess that an animal making hoofbeats is probably a horse. By 1960, the aphorism was widely known in medical circles.&amp;lt;ref&amp;gt;[[#Imperato|Imperato (1979) pages 13, 18.]]&amp;lt;/ref&amp;gt;
+
+As explained by Sotos,&amp;lt;ref&amp;gt;[[#Sotos|Sotos (2006) page 7.]]&amp;lt;/ref&amp;gt; medical novices are predisposed to make rare diagnoses because of (a) the [[availability heuristic]] (&amp;quot;events more easily remembered are judged more probable&amp;quot;) and (b) the phenomenon first enunciated in [[Rhetorica ad Herennium]] (circa 85 BC), &amp;quot;the striking and the novel stay longer in the mind.&amp;quot;  Thus, the aphorism is an important caution against these biases when teaching medical students to weigh medical evidence.
+
+Three master diagnosticians have noted, however, that &amp;quot;zebra&amp;quot;-type diagnoses must nonetheless be held in mind until the evidence conclusively rules them out:
+{{quote|In making the diagnosis of the cause of illness in an individual case, calculations of probability have no meaning.  The pertinent question is whether the disease is present or not.  Whether it is rare or common does not change the odds in a single patient. ... If the diagnosis can be made on the basis of specific criteria, then these criteria are either fulfilled or not fulfilled. -- [[A. McGehee Harvey]], [[James Bordley II]], [[Jeremiah Barondess]]&amp;lt;ref&amp;gt;[[#Harvey|Harvey (1979) page 15.]]&amp;lt;/ref&amp;gt;}}
+
+The term for an obscure and rare diagnosis in medicine is [[wiktionary:fascinoma|fascinoma]].
+
+==Other medical aphorisms==
+* [[Sutton&amp;apos;s law]] - perform first the diagnostic test expected to be most useful
+* [[Occam&amp;apos;s razor]] - select from among competing hypotheses the one that makes the fewest new assumptions
+* Leonard&amp;apos;s Law of Physical Findings - it&amp;apos;s obvious or it&amp;apos;s not there&amp;lt;ref&amp;gt;[[#Sotos|Sotos (2006) page 15.]]&amp;lt;/ref&amp;gt;
+* [[KISS principle]] - Keep It Simple, Stupid
+* [[Hickam&amp;apos;s dictum]] - &amp;quot;Patients can have as many diseases as they damn well please&amp;quot;
+
+==References==
+{{Reflist|colwidth=30em}}
+
+==Bibliography==
+
+{{Refbegin}}
+*&amp;lt;cite id=&amp;quot;Harvey&amp;quot;&amp;gt;{{cite book |first=A. M., et al |last=Harvey |title=Differential Diagnosis (3rd ed.) |location=Philadelphia |publisher=W.B. Saunders |year=1979}}
+*&amp;lt;cite id=&amp;quot;Imperato&amp;quot;&amp;gt;{{cite book |first=Pascal James |last=Imperato |title=Medical Detective |location=New York |publisher=Richard Marek |year=1979 |isbn=0-399-90058-6}}
+*&amp;lt;cite id=&amp;quot;Sotos&amp;quot;&amp;gt;{{cite book |first=John G. |last=Sotos |title=Zebra Cards: An Aid to Obscure Diagnoses |location=Mt. Vernon, VA |publisher=Mt. Vernon Book Systems |year=2006 |origyear=1991 |isbn=978-0-9818193-0-3}}
+{{Refend}}
+
+==External links==
+*[http://www.zebracards.com Zebra Cards]
+
+{{DEFAULTSORT:Zebra (Medicine)}}
+[[Category:Medical terminology]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="QU"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="QU" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionarypar|qu}}
+
+&amp;apos;&amp;apos;&amp;apos;QU&amp;apos;&amp;apos;&amp;apos;, &amp;apos;&amp;apos;&amp;apos;Qu&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;qu&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* [[Qu (programming language)]], a computer programming language
+* [[QU (album)]], an album by the American band Sherwood
+* [[Qu (poetry)]], a Chinese type of sung poetry
+* [[qu (digraph)]], a digraph used in several languages.
+* [[Final Fantasy IX#Setting|Qu]], a race of gourmands from the Square Enix console role-playing game &amp;apos;&amp;apos;Final Fantasy IX&amp;apos;&amp;apos;
+* [[Qu County]], county in Sichuan, China
+* qu, [[ISO 639-1]] code for [[Quechua languages|Quechua]], a Native American language of South America
+* [[East African Airlines]] IATA airline designator
+* another name for the plant &amp;apos;&amp;apos;[[Myrocarpus frondosus]]&amp;apos;&amp;apos;
+* a member of the [[History Monks]] in Terry Pratchett&amp;apos;s Discworld novels
+* [[District (PRC and ROC)|Districts]] in the People&amp;apos;s Republic of China and the Republic of China
+
+==Academies==
+* [[Qarshi University]], Lahore, Pakistan
+* [[Qassim University]], Qassim, Saudi Arabia
+* [[Qatar University]], Doha, Qatar
+* [[Queensland University]], Brisbane, Queensland, Australia
+* [[Queen&amp;apos;s University]], Kingston, Ontario, Canada
+* [[Quincy University]], Quincy, Illinois, United States
+* [[Quinnipiac University]], Hamden, Connecticut, United States
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

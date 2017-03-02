@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Quay Sailing Club"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Quay Sailing Club" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Quay Sailing Club&amp;apos;&amp;apos;&amp;apos; is a [[sailing]] club in the village of [[St Germans, Cornwall|St Germans]], [[Cornwall]]. The Club has been established since the early seventies and is one of many clubs and organisations operating in the village. The Club provides moorings and maintains the Quay and environs in a good state of repair.
+
+From a very small beginning and with many hours of voluntary work the Club enjoys a proud reputation within the community.  The various pictures, charts and other memorabilia in the clubhouse provide an ongoing interest. The [http://www.ppsa.org.uk/ PPSA] and [[RNLI]] have had the occasional use of the clubhouse for their meetings. The walls of the first floor have been adorned with wall lights and donations including ship&amp;apos;s wheels, maps, clocks, knotboards and paintings. There is also a small bar which overlooks the river.
+
+The Club organises an annual Gala which is a major event in the summer boating programme. It continues to support the RNLI and usually makes a healthy contribution to a community organisation, a different one every year. Past beneficiaries have been the project to refurbish the [[St. German&amp;apos;s Priory|St Germans]] clock, the local Guides, Brownies and Rainbows and the local school whilst the [[Harvest Festival]] supper held in the clubhouse has raised money for the [[Cornwall Air Ambulance]].
+
+The clubhouse is largely the responsibility of the club and it is maintained with considerable help from volunteers overseen by the management committee.
+
+==External links==
+* [http://www.quaysailingclub.co.uk/ The Only Sailing Club in St Germans (Quay Sailing Club)]
+
+[[Category:Sports clubs in Cornwall]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

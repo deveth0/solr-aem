@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="MINC"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="MINC" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{otheruses}}
+
+&amp;apos;&amp;apos;&amp;apos;MINC&amp;apos;&amp;apos;&amp;apos; (&amp;quot;MINC is not [[C (programming language)|C]]&amp;quot;) is a data specification language written in the mid-1980s by a [[Princeton University]] graduate student named [[Lars Graf]]. This kind of naming is known as a &amp;quot;recursive acronym&amp;quot;.
+
+It contains many (though not all) of the syntactical capabilities of the C programming language, and can be used to implement simple procedural programs that can be executed by a runtime [[parser]] (that is to say, MINC does not need to be compiled in any way).
+
+MINC continues to be used only in a handful of programs written in the 1980s (e.g. [[Real-Time Cmix]]). It has been for all intents and purposes superseded by modern scripting languages such as [[Perl]], [[Python (programming language)|Python]], and [[Tcl]].
+
+A controversial aspect of the language is whether it is pronounced &amp;quot;mink&amp;quot; or &amp;quot;min-see&amp;quot;.
+
+==External links==
+* [http://www.music.princeton.edu/winham/Minc_tutorial.html MINC tutorial at CMIX home page]
+
+[[Category:Scripting languages]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

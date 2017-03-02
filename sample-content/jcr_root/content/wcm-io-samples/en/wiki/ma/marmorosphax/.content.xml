@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Marmorosphax"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Marmorosphax" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Taxobox
+| name = &amp;apos;&amp;apos;Marmorosphax&amp;apos;&amp;apos;
+| regnum = [[Animal]]ia
+| phylum = [[Chordate|Chordata]]
+| classis = [[Reptile|Reptilia]]
+| ordo = [[Squamata]]
+| familia = [[Scincidae]]
+| genus = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Marmorosphax&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+| range_map = Marmorosphax sp. distribution.svg
+}}
+&amp;apos;&amp;apos;&amp;apos;Marmorosphax&amp;apos;&amp;apos;&amp;apos;, &amp;lt;!--commonly known as a &amp;quot;?&amp;quot;, --&amp;gt; is a genus of [[skink|skinks]] native to [[New Caledonia]].
+
+==Classification==
+
+&amp;apos;&amp;apos;&amp;apos;Genus Marmorosphax&amp;apos;&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Marmorosphax euryotis]]&amp;apos;&amp;apos; (or [[Lygosoma euryotis]]?) (Pale-hipped skink)
+*&amp;apos;&amp;apos;[[Marmorosphax montana]]&amp;apos;&amp;apos; (Montane marble-throated skink) [http://www.amonline.net.au/herpetology/research/species_accounts/m_montana.htm]
+*&amp;apos;&amp;apos;[[Marmorosphax tricolor]]&amp;apos;&amp;apos; (Marble-throated skink) [http://www.amonline.net.au/herpetology/research/species_accounts/m_tricolour.htm]
+[[Category:Skinks]]
+{{Wikispecies|Marmorosphax}}
+{{skink-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

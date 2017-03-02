@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Icehouse"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Icehouse" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Wiktionary}}
+&amp;apos;&amp;apos;&amp;apos;Icehouse&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;ice house&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* [[Ice house (building)]], a building where ice is stored
+* [[Ice shanty]], a shelter for ice fishing also known as an &amp;apos;&amp;apos;Icehouse&amp;apos;&amp;apos;
+
+;Places
+* [[ICEHOUSE (incubator)]], a business growth centre in New Zealand
+* [[London Ice House]], an arena in London, Ontario, Canada
+* [[Medibank Icehouse (Winter Olympic Institute of Australia)]], Australia&amp;apos;s only dual ice skating and ice sports venue
+* [[Vivekanandar Illam]], a palace at Chennai, India, also known as Ice House
+
+;Music
+* [[Icehouse (band)]], an Australian rock band from 1981, formerly known as Flowers (1977-1981)
+** [[Icehouse (album)|&amp;apos;&amp;apos;Icehouse&amp;apos;&amp;apos; (album)]], a 1980 Australian rock album by band Flowers (later called Icehouse)
+*** &amp;quot;[[Icehouse (song)]]&amp;quot;, the title track, released as a single in 1981 by Icehouse
+
+;Other
+* [[Icehouse (beer)]], a brand of American beer
+* [[Icehouse (game)|&amp;apos;&amp;apos;Icehouse&amp;apos;&amp;apos; (game)]], an abstract strategy game
+** [[Icehouse pieces]], with which Icehouse and many other games are played
+* Icehouse Earth (see [[Greenhouse and icehouse Earth]]), glaciated periods of Earth history
+
+==See also==
+* [[The Ice House (disambiguation)]]
+* {{lookfrom}}
+* {{lookfrom|ice house}}
+* {{intitle}}
+* {{intitle|ice house}}
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

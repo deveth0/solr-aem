@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="CRESU experiment"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="CRESU experiment" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;CRESU experiment&amp;apos;&amp;apos;&amp;apos; ({{lang-fr|Cinétique de Réaction en Ecoulement Supersonique Uniforme}}, meaning &amp;quot;Reaction Kinetics in Uniform Supersonic Flow&amp;quot;) is an [[experiment]] investigating chemical reactions taking place at very low [[temperature]]s.
+
+The technique involves the expansion of a gas or mixture of gases through a [[de Laval nozzle]] from a high pressure reservoir into a vacuum chamber. As it expands, the nozzle collimates the gas into a uniform [[supersonic]] beam that is essentially collision free and has a temperature that, in the centre of mass frame, can be significantly below that of the reservoir gas. Each nozzle produces a characteristic temperature. This way, any temperature between room temperature and about 10K can be achieved. There are relatively few CRESU apparatuses in existence for the simple reason that the gas throughput and pumping requirements are huge, which makes them expensive to run. Two of the leading centres have been the [[University of Rennes]] (France) and the [[University of Birmingham]] (UK). A more recent development has been a pulsed version of the CRESU, which requires far less gas and therefore smaller pumps. One might well ask why we should use such a complex method for producing low temperature gases when they could be produced much more easily using liquid helium. The answer is simple: most species have a negligible vapour pressure at such low temperatures and this means that they quickly condense on the sides of the apparatus. Essentially, the CRESU technique provides a &amp;quot;wall-less flow tube,&amp;quot; which allows the kinetics of gas phase reactions to be investigated at much lower temperatures than otherwise possible.
+
+[[Chemical kinetics]] experiments can then be carried out in a &amp;quot;pump-probe&amp;quot; fashion using a laser to initiate the reaction (for example by preparing one of the reagents by [[photolysis]] of a precursor), followed by observation of that same species (for example by [[laser-induced fluorescence]]) after a known time delay. The fluorescence signal is captured by a [[photomultiplier]] a known distance downstream of the de Laval nozzle. The time delay can be varied up to the maximum corresponding to the flow time over that known distance. By studying how quickly the reagent species disappears in the presence of differing concentrations of a (usually stable) co-reagent species the [[reaction rate constant]] at the low temperature of the CRESU flow can be determined.
+
+Reactions studied by the CRESU technique typically have no significant activation energy barrier. In the case of neutral-neutral reactions (i.e., not involving any charged species, [[ions]]), these type of barrier-free reactions usually involve free radical species such as [[molecular oxygen]] (O2), the cyanide radical (CN) or the hydroxyl radical (OH). The energetic driving force for these reactions is typically an attractive long range intermolecular potential.
+
+CRESU experiments have been used to show deviations from [[Arrhenius equation|Arrhenius kinetics]] at low temperatures: as the temperature is reduced, the [[rate constant]] actually increases. They can explain why chemistry is so prevalent in the [[interstellar medium]], where many different polyatomic species have been detected (by [[radio astronomy]]), but where temperatures are so low that conventional wisdom might suggest that chemical reactions do not occur.
+
+==References==
+
+* {{cite journal | last= Sims | first= Ian R. |
+    title= Gas-phase reactions and energy transfer at very low temperatures |
+    journal= Annu. Rev. Phys. Chem. | year= 1995 | volume=46 | issue= 1 | pages= 109–137 |
+    url= http://www.annualreviews.org/aronline | issn= 0066-426X | doi= 10.1146/annurev.pc.46.100195.000545 | last2= Smith | first2= I W M |bibcode = 1995ARPC...46..109S }}
+
+[[Category:Chemistry experiments]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

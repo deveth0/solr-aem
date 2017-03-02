@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="CEPA"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="CEPA" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Distinguish|CIPA (disambiguation)|SEPA (disambiguation)}}
+
+&amp;apos;&amp;apos;&amp;apos;CEPA&amp;apos;&amp;apos;&amp;apos; may refer to:
+* Economic Partnership Agreement between the [[CARIFORUM]] states and the [[EU]], concluded on 30 October 2008
+* [[Comprehensive Economic Partnership Agreement]] between India and Republic of Korea. Enforced on 1 January, 2010.
+* [[Canadian Environmental Protection Act]]
+* Center for Economic Policy Analysis at [[New School University]], New York City
+* [[Center for European Policy Analysis]]
+* [[Closer Economic Partnership Arrangement (disambiguation)]], between the Central Government of the People&amp;apos;s Republic of China and its Special administrative regions (Hong Kong, Macau)
+* [[Certified Exit Planning Advisor]]
+* [[Central Europe Private Aviation]]
+* [[CEPA (Common Educational Proficiency Assessment)]]
+
+;CEPA in foreign languages
+* [[Centro de Estudos e Pesquisas Ambientais]]
+* [[Centro Ponceño de Autismo]], Ponce, Puerto Rico
+
+{{disambig}}
+
+[[zh:CEPA]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

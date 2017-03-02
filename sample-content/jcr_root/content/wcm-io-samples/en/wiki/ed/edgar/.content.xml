@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="EDGAR"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="EDGAR" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{unreferenced|date=April 2011}}
+&amp;apos;&amp;apos;&amp;apos;EDGAR&amp;apos;&amp;apos;&amp;apos;, the &amp;apos;&amp;apos;&amp;apos;Electronic Data-Gathering, Analysis, and Retrieval&amp;apos;&amp;apos;&amp;apos; system, performs automated collection, validation, indexing, acceptance, and forwarding of submissions by companies and others who are required by law to file forms with the [[U.S. Securities and Exchange Commission]] (the &amp;quot;SEC&amp;quot;). The database is freely available to the public via the Internet (Web or FTP).
+
+== Filings ==
+Not all [[SEC filing]]s by [[public companies]] are available on EDGAR. Companies were phased in to EDGAR filing over a three-year period, ending 6 May 1996. As of that date, all public domestic companies were required to submit their filings via EDGAR, except for hardcopy paper filings, which were allowed under a [[hardship exemption]]. Third-party filings with respect to these companies, such as [[tender offer]]s and [[Schedule 13D]] filings, are also filed via EDGAR.
+
+The vast majority of documents are now filed electronically, with in excess of 3,000 filings per day.
+
+As of 4 November 2002, the SEC required all foreign companies and foreign governments to file their documents via EDGAR. Prior to that time, electronic filing by foreign companies also was voluntary.
+
+Actual [[annual report]]s to shareholders (except in the case of [[mutual fund]] companies) need not be submitted on EDGAR, although some companies do so voluntarily. However, the annual report on [[Form 10-K]] or Form 10-KSB, which contains much of the same information, is required to be filed on EDGAR.
+
+==See also==
+* [[Securities and Exchange Commission]]
+* [[Central Index Key]]
+* [[EDGAR Online]] A U.S. public company that provides access to EDGAR data
+* [[Electronic Municipal Market Access]] system (EMMA), providing disclosure information for the municipal securities market
+* [[SEDAR]], Canada&amp;apos;s equivalent to EDGAR
+
+==External links==
+*[http://www.sec.gov/edgar.shtml EDGAR website], including [http://www.sec.gov/info/edgar/regoverview.htm Outline of Rules]
+*[http://www.globalinv.com/Sep1-08abstract.htm SEC to Replace EDGAR System With New IDEA] from Global Investment Technology, Sept. 1, 2008
+*[http://onthemedia.org/transcripts/2010/07/23/03 Interview] with [[Carl Malamud]] from [[On the Media]], on the origins of EDGAR, July 23, 2010
+*[http://www.companieshouse.gov.uk/ Companies House] for less comprehensive but equivalent system in the UK
+*[http://www.kvk.nl/sectie/sectie.asp?sectieID=102 Netherlands Chamber of Commerce] The [[Netherlands|Dutch]] equivalent
+*[http://www.cro.ie/search/ Ireland] The [[Republic of Ireland|Irish]] equivalent
+*[http://www.cnmv.es/english/index_e.htm Spain] The [[Spain|Spanish]] equivalent
+*[http://mineco.fgov.be/enterprises/home_en.htm Belgium] The [[Belgian]] equivalent
+*[http://zefix.admin.ch/ Switzerland] The [[Swiss]] equivalent
+*[https://bolagsverket.se/index.html Sweden] The [[Sweden|Swedish]] equivalent
+*[http://cvr.dk/Site/Forms/CMS/DisplayPage.aspx?pageid=21 Denmark] The [[Denmark|Danish]] equivalent
+*[http://www.brreg.no/english/ Norway] The Norwegian equivalent
+
+[[Category:United States Securities and Exchange Commission]]
+[[Category:Government databases in the United States]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

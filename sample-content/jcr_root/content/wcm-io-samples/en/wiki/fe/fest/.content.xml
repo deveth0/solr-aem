@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Fest"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Fest" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Wiktionarypar|fest|-fest|FEST}}
+
+&amp;apos;&amp;apos;&amp;apos;Fest&amp;apos;&amp;apos;&amp;apos; may refer to:
+* Fest, Danish/German/Norwegian/Swedish for [[party]]
+* [[Festival#&amp;quot;Fests&amp;quot;|Fest]], a type of festival
+* [[Joachim Fest]] (1926 - 2006), German historian and journalist
+* &amp;apos;&amp;apos;[[Fest Magazine]]&amp;apos;&amp;apos;, is an Edinburgh Festival review magazine
+* [[List of Star Wars planets (E-G)#Fest|Fest]], a fictional planet within the &amp;apos;&amp;apos;Star Wars&amp;apos;&amp;apos; galaxy
+
+&amp;apos;&amp;apos;&amp;apos;FEST&amp;apos;&amp;apos;&amp;apos; may refer to:
+* [[FEST (Faculty of Moscow State Forest University)]]
+* [[Federation of Engineering and Shipbuilding Trades]]
+* [[FEST (Annual film festival in Belgrade)]], Serbia
+* [[FEST e.V.]] (Forschungsstätte der Evangelischen Studiengemeinschaft / Protestant Institute for Interdisciplinary Research)
+* [[Foreign Emergency Support Team]], a U.S. government short-notice anti-terrorism unit
+
+==See also==
+* {{lookfrom}}
+* {{intitle}}
+* [[Festschrift]], a book honoring a respected person, especially an academic, presented during his or her lifetime
+* &amp;apos;&amp;apos;[[Festuca]]&amp;apos;&amp;apos;, a genus of about 300 species of perennial tufted grasses, belonging to the grass family Poaceae (subfamily Pooideae)
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

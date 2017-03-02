@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="OGLE-TR-122"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="OGLE-TR-122" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Starbox begin
+| name    = [http://simbad.u-strasbg.fr/simbad/sim-id?Ident=OGLE-TR%20122 OGLE-TR-122]
+}}
+{{Starbox image
+| image   = [[File:1e8m comparison Saturn Jupiter OGLE-TR-122b with Uranus Neptune Sirius B Earth Venus no transparency.png|250px]]
+| caption = The [[Earth]]-[[Moon]] orbit, [[Saturn]], [[OGLE-TR-122b]], [[Jupiter]], and [[1 E7 m|other objects]], to scale.
+}}
+{{Starbox observe
+| epoch   = [[J2000.0]] ([[International Celestial Reference System|ICRS]])
+| constell= [[Carina (constellation)|Carina]]
+| ra      = {{RA|11|06|51.99}}&amp;lt;ref name=&amp;quot;aa&amp;quot;&amp;gt;[http://adsabs.harvard.edu/abs/2003AcA....53..133U The Optical Gravitational Lensing Experiment. Additional Planetary and Low-Luminosity Object Transits from the OGLE 2001 and 2002 Observational Campaigns], A. Udalski, G. Pietrzynski, M. Szymanski, M. Kubiak, K. Zebrun, I. Soszynski, O. Szewczyk, and L. Wyrzykowski, &amp;apos;&amp;apos;Acta Astronomica&amp;apos;&amp;apos; &amp;apos;&amp;apos;&amp;apos;53&amp;apos;&amp;apos;&amp;apos; (June 2003), pp. 133–149.&amp;lt;/ref&amp;gt;
+| dec    = {{DEC|-60|51|45.7}}&amp;lt;ref name=&amp;quot;aa&amp;quot; /&amp;gt;
+}}
+|-
+! style=&amp;quot;background-color: #FFFFC0;&amp;quot; colspan=&amp;quot;2&amp;quot; | Characteristics
+|-
+| &amp;apos;&amp;apos;&amp;apos;[[Stellar classification|Spectral type]]&amp;apos;&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;&amp;amp;nbsp;&amp;lt;/sup&amp;gt; &amp;lt;br /&amp;gt;
+| ? (primary)/M (b)&amp;lt;ref name=&amp;quot;xit&amp;quot; /&amp;gt;
+|- style=&amp;quot;vertical-align: top;&amp;quot;
+| &amp;apos;&amp;apos;&amp;apos;[[Apparent magnitude]]&amp;apos;&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;&amp;amp;nbsp;&amp;lt;/sup&amp;gt; &amp;lt;br /&amp;gt; &amp;apos;&amp;apos;&amp;apos;(infrared, I band)&amp;apos;&amp;apos;&amp;apos;
+| 15.61 (system)&amp;lt;ref name=&amp;quot;aa&amp;quot; /&amp;gt;
+|- style=&amp;quot;vertical-align: top;&amp;quot;
+| &amp;apos;&amp;apos;&amp;apos;[[Variable star|Variable type]]&amp;apos;&amp;apos;&amp;apos;
+| [[Eclipsing binary]]
+|-
+! style=&amp;quot;background-color: #FFFFC0;&amp;quot; colspan=&amp;quot;2&amp;quot; | [[Binary star|Binary orbit]]
+|- style=&amp;quot;vertical-align: top;&amp;quot;
+| &amp;apos;&amp;apos;&amp;apos;[[Orbital period|Period]] &amp;lt;small&amp;gt;(P)&amp;lt;/small&amp;gt;&amp;apos;&amp;apos;&amp;apos;
+| 7.269&amp;lt;ref name=&amp;quot;xit&amp;quot;&amp;gt;[http://adsabs.harvard.edu/abs/2005A&amp;amp;A...433L..21P A planet-sized transiting star around OGLE-TR-122. Accurate mass and radius near the hydrogen-burning limit], F. Pont, C. H. F. Melo, F. Bouchy, S. Udry, D. Queloz, M. Mayor, and N. C. Santos, &amp;apos;&amp;apos;Astronomy and Astrophysics&amp;apos;&amp;apos; &amp;apos;&amp;apos;&amp;apos;433&amp;apos;&amp;apos;&amp;apos;, #2 (April 11, 2005), pp. L21–L24.&amp;lt;/ref&amp;gt; [[day]]s
+|- style=&amp;quot;vertical-align: top;&amp;quot;
+| &amp;apos;&amp;apos;&amp;apos;[[Eccentricity (orbit)|Eccentricity]] &amp;lt;small&amp;gt;(e)&amp;lt;/small&amp;gt;&amp;apos;&amp;apos;&amp;apos;
+| 0.205
+|- style=&amp;quot;vertical-align: top;&amp;quot;
+| &amp;apos;&amp;apos;&amp;apos;[[Inclination]] &amp;lt;small&amp;gt;(i)&amp;lt;/small&amp;gt;&amp;apos;&amp;apos;&amp;apos;
+| 88–90°
+{{Starbox detail
+| mass        = 1.0 (primary) / 0.09 (b)
+| radius      = 1.1 (primary) / 0.12 (b)
+| temperature = 5,700 (primary)
+}}
+{{Starbox end}}
+
+&amp;apos;&amp;apos;&amp;apos;OGLE-TR-122&amp;apos;&amp;apos;&amp;apos; is a [[binary star|binary]] [[stellar system]] containing one of the smallest [[main-sequence]] [[star]]s whose [[radius]] has been measured.  It was discovered when the [[Optical Gravitational Lensing Experiment]] (OGLE) survey observed the smaller star eclipsing the larger primary.  The orbital period is approximately 7.3 days.  The system&amp;apos;s primary is thought to resemble the [[Sun]].&amp;lt;ref name=&amp;quot;xit&amp;quot; /&amp;gt;
+
+The smaller star, &amp;apos;&amp;apos;&amp;apos;OGLE-TR-122B&amp;apos;&amp;apos;&amp;apos;, is estimated to have a [[radius]] around 0.12 [[solar radii]], or around 20% larger than [[Jupiter]]&amp;apos;s, and a [[mass]] of around 0.1 [[solar mass]]es, or approximately 100 times Jupiter&amp;apos;s. This makes its average [[density]] approximately 50 times the Sun&amp;apos;s&amp;lt;ref name=&amp;quot;xit&amp;quot; /&amp;gt;&amp;lt;ref&amp;gt;[http://www.space.com/scienceastronomy/050303_star_small.html Newfound Star Smaller than Some Planets],  Robert Roy Britt, space.com, accessed on line May 16, 2007.&amp;lt;/ref&amp;gt; or over 80 times the density of [[water]]. OGLE-TR-122b&amp;apos;s mass is close to the lowest possible mass, estimated to be around 0.07 or 0.08 solar masses, for a [[hydrogen]]-fusing star.&amp;lt;ref&amp;gt;[http://adsabs.harvard.edu/abs/2000ARA&amp;amp;A..38..337C Theory of Low-Mass Stars and Substellar Objects], Gilles Chabrier and Isabelle Baraffe, &amp;apos;&amp;apos;Annual Review of Astronomy and Astrophysics&amp;apos;&amp;apos; &amp;apos;&amp;apos;&amp;apos;38&amp;apos;&amp;apos;&amp;apos; (2000), pp. 337–377.&amp;lt;/ref&amp;gt;  The observed transit provides the first direct evidence for a star with a radius comparable to Jupiter&amp;apos;s.&amp;lt;ref name=&amp;quot;xit&amp;quot; /&amp;gt;
+
+==See also==
+* [[OGLE-TR-123]]
+
+== References ==
+{{reflist}}
+
+{{DEFAULTSORT:Ogle-Tr-122}}
+[[Category:Carina (constellation)]]
+[[Category:Eclipsing binaries]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

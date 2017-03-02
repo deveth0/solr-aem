@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="USS Wright"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="USS Wright" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Italic title prefixed|3}}
+&amp;apos;&amp;apos;&amp;apos;USS &amp;apos;&amp;apos;Wright&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+*{{USS|Wright|AV-1}}, was originally launched in 1920 as airship tender AZ-1, then converted twice more during her career for various duties until 1946 when she was scrapped
+
+*&amp;apos;&amp;apos;Wright&amp;apos;&amp;apos; (CV-47), was an Essex-class carrier laid down in August 1944 and renamed {{USS|Philippine Sea|CV-47|2}} in February 1945, prior to launching
+
+*{{USS|Wright|CVL-49}} was a light aircraft carrier commissioned in 1947, converted to a [[command ship]] and recommissioned as CC-2 in 1962, and decommissioned in 1970.
+
+*{{SS|Wright|T-AVB-3}} is an active Aviation Logistics Support (Roll-on/Roll-off) container ship used by the US Navy Auxiliary.
+
+{{Shipindex}}
+
+{{DEFAULTSORT:Wright, Uss}}
+[[Category:United States Navy ship names]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="FDL"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="FDL" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary}}
+&amp;apos;&amp;apos;&amp;apos;FDL&amp;apos;&amp;apos;&amp;apos; is an abbreviation for:
+*[[Federation of Italian Liberals]], more commonly known in Italian as &amp;apos;&amp;apos;Federazione dei Liberali Italiani&amp;apos;&amp;apos;
+*[[Fiber Delay Line]]
+*[[File Definition Language]], in [[OpenVMS]]
+*[[Telecine#Line array CCD|Film Digital Line]], Model [[Spirit_DataCine#FDL_60|FDL60]] and FDL90 [[Telecine]] from [[Robert Bosch GmbH]], [[Fernseh]] Div.
+*[[Firedoglake]], a political blog
+*[[Fleur-de-lis]]
+*Flexible and Distributed Learning see [[e-learning]]
+*[[Flexor digitorum longus muscle|Flexor digitorum longus]] muscle
+*[[Flow Definition Language]]
+*[[Fond du Lac]], several places in the United States and Canada
+*[[Food, Drug, and Liquor]], as in retail channels for selling alcohol beverages.
+*[[Foresight Linux|Foresight Desktop GNU/Linux]]
+*[[Fossa dei Leoni]]
+*&amp;apos;&amp;apos;Frame Display Lists&amp;apos;&amp;apos;, an aspect of the [[Gecko (layout engine)|Gecko]] API
+*[[GNU Free Documentation License]]
+*[[US Airforce Flight Dynamics Laboratory]]
+
+&amp;apos;&amp;apos;&amp;apos;FDL&amp;apos;&amp;apos;&amp;apos; can also be in reference to:
+*The [[GE FDL]] series of diesel engines
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

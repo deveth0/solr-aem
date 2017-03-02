@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Holodactylus"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Holodactylus" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Taxobox
+| name = &amp;apos;&amp;apos;Holodactylus&amp;apos;&amp;apos;
+| image = 11-05-06 weibchen holodactylus tisch.jpg
+| image_caption = &amp;apos;&amp;apos;[[Holodactylus africanus]]&amp;apos;&amp;apos;
+| regnum = [[Animal]]ia
+| phylum = [[Chordate|Chordata]]
+| classis = [[Reptile|Reptilia]]
+| ordo = [[Squamata]]
+| infraordo = [[Gekkota]]
+| familia = [[Eublepharidae]]
+| genus = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Holodactylus&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+}}
+
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Holodactylus&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is a [[genus]] of small [[gecko]]s, collectively known as &amp;apos;&amp;apos;&amp;apos;African Clawed Geckos&amp;apos;&amp;apos;&amp;apos;.
+
+==Distribution==
+Both species in the genus live in North-eastern [[Africa]].  The range of  &amp;apos;&amp;apos;Holodactylus africanus&amp;apos;&amp;apos; stretches from the  [[Maasai Mara|Maasai]] Steppe, on the border between [[Kenya]] and [[Tanzania]] to [[Ethiopia]]. The second species &amp;apos;&amp;apos;Holodactylus cornii&amp;apos;&amp;apos; has only been found in Ethiopia and [[Somalia]].
+
+==Habitat==
+These [[Terrestrial animal|terrestrial]] geckos mainly inhabit arid [[steppe]]s and [[savanna]]s. The females usually lay two soft-shelled eggs which are subsequently buried in moist substrate.
+
+==Species==
+* [[African Clawed Gecko]], &amp;apos;&amp;apos;[[Holodactylus africanus]]&amp;apos;&amp;apos;
+* [[East African Clawed Gecko]], &amp;apos;&amp;apos;[[Holodactylus cornii]]&amp;apos;&amp;apos;
+
+==References==
+
+[[Category:Geckos]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

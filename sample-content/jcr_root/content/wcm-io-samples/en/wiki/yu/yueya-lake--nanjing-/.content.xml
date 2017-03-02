@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Yueya Lake (Nanjing)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Yueya Lake (Nanjing)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox lake
+ | lake_name = Yueya Lake
+ | image_lake =
+ | caption_lake =
+ | image_bathymetry =
+ | caption_bathymetry =
+ | location = [[Nanjing]], [[Jiangsu]]
+ | coords = {{coord|32.030|118.822|type:waterbody|display=inline,title}}
+ | type =
+ | inflow =
+ | outflow =
+ | catchment =
+ | basin_countries = China
+ | length =
+ | width =
+ | area =
+ | depth =
+ | max-depth =
+ | volume =
+ | residence_time =
+ | shore =
+ | elevation =
+ | islands =
+ | cities =
+ | frozen =
+}}
+&amp;apos;&amp;apos;&amp;apos;Yueya Lake&amp;apos;&amp;apos;&amp;apos; ([[Chinese character|Chinese]]: 月牙湖; [[Pinyin]]: Yuèyá Hú; literally meaning &amp;apos;&amp;apos;Crescent Moon Lake&amp;apos;&amp;apos;)&amp;lt;ref&amp;gt;[http://www.xjdht.com/english/ReadNews.asp?NewsID=22&amp;amp;BigClassID=2&amp;amp;SmallClassID=4 Welcome To China travel agency the tour net] at xjdht.com&amp;lt;/ref&amp;gt; is a [[lake]] near [[Nanjing]].
+
+&amp;lt;br clear=all&amp;gt;
+
+==References==
+{{reflist}}
+*[http://www.njbx.gov.cn/webpage/english/inner.jsp?funcId=18977&amp;amp;detailId=31007 Welcome to Baixia,Nanjing] at njbx.gov.cn
+{{Lakes of China}}
+[[Category:Lakes of Jiangsu]]
+
+{{Jiangsu-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

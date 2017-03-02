@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="World Trade Center Memorial finalists"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="World Trade Center Memorial finalists" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;On November 19, 2003, the [[Lower Manhattan Development Corporation]] unveiled 8 finalist designs for the [[World Trade Center Memorial]]. The memorial is intended to be the focus of [[Daniel Libeskind]]&amp;apos;s [[Memory Foundations]] master plan for the redevelopment of the [[World Trade Center]] site.
+
+The [[World Trade Center Memorial]] is to be located within the [[slurry wall]] that once framed the Twin Towers, and is also framed by a museum and cultural facilities along the periphery of the site. (Some of the finalists suggest changes to Libeskind&amp;apos;s plan, which continues to evolve as reconstruction progresses).
+
+The eight selected finalists were mostly young, unknown designers from the [[United States]], [[France]], and [[Israel]]. They are:
+
+* [[Votives in Suspension]] by Norman Lee and Michael Lewis - Houston TX
+* [[Lower Waters]] by Bradley Campbell and Matthias Neumann - Brooklyn NY
+* [[Passages of Light]] : Memorial Cloud by Gisela Baurmann, [[Sawad Brooks]] and [[Jonas Coersmeier]] - New York NY
+* [[Suspending Memory]] by Joseph Karadin with Hsin-Yi Wu - New York NY
+* [[Garden of Lights]] by Pierre David with Sean Corriel and Jessica Kmetovic - Paris, France
+* [[Reflecting Absence]] by Michael Arad - New York NY
+* [[Dual Memory]] by Brian Strawn and Karla Sierralta - Chicago IL
+* [[Inversion of Light]] by Toshio Sasaki - Brooklyn NY
+
+==See also==
+* [[World Trade Center Site Memorial Competition]]
+
+==External links==
+* [http://www.wtcsitememorial.org/finalists.html Details about these proposals, including the original submission boards, 3D renderings and models]
+[[Category:World Trade Center]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

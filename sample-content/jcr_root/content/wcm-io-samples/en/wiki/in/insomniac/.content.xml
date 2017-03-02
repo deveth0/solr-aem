@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Insomniac"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Insomniac" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Wiktionary|insomniac}}
+&amp;apos;&amp;apos;&amp;apos;Insomniac&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;The Insomniac&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* A person who has [[insomnia]]
+
+In &amp;apos;&amp;apos;&amp;apos;music&amp;apos;&amp;apos;&amp;apos;:
+* [[Insomniac (Green Day album)|&amp;apos;&amp;apos;Insomniac&amp;apos;&amp;apos; (Green Day album)]], 1995
+* [[Insomniac (Enrique Iglesias album)|&amp;apos;&amp;apos;Insomniac&amp;apos;&amp;apos; (Enrique Iglesias album)]], 2007
+* [[Insomniac (song)|&amp;quot;Insomniac&amp;quot; (song)]], a 1994 song by Echobelly
+* &amp;quot;Insomniac&amp;quot;, a song by [[Billy Pilgrim (band)|Billy Pilgrim]]
+* Insomniac, a record label founded by [[Poets of the Fall]]
+
+In &amp;apos;&amp;apos;&amp;apos;other media&amp;apos;&amp;apos;&amp;apos;:
+* &amp;apos;&amp;apos;[[The Insomniac]]&amp;apos;&amp;apos;, a 2009 Singaporean film noir
+* [[Insomniac Games]], an American video game developer
+* [[Insomniac Press]], a Canadian independent book publisher
+* &amp;apos;&amp;apos;[[Insomniac with Dave Attell]]&amp;apos;&amp;apos;, a 2001-04 television series
+
+==See also==
+* [[The Insomniax]], an American songwriting/production duo
+* [[The Insomniax (UK)]], a music production team
+* [[Insomnia (disambiguation)]]
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="List of cities in El Salvador"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="List of cities in El Salvador" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Image:El salvador map.png|thumb|250px|Map of El Salvador]]
+[[File:Atardecer de San Salvador desde Los Planes de Renderos.jpg|thumb|250px|[[San Salvador, El Salvador|San Salvador]] Metropolitan Area]]
+
+==Cities==
+Over 100,000 or a High Human Development Index, and a high urbanization.
+AMSS = San Salvador Metropolitan Area
+
+* [[Acajutla]] &amp;apos;&amp;apos;&amp;apos;Pop. 47,678&amp;apos;&amp;apos;&amp;apos;
+* [[Apopa]] &amp;apos;&amp;apos;&amp;apos;Pop. 217,733&amp;apos;&amp;apos;&amp;apos; (AMSS)
+* [[Antiguo Cuscatlán]] - Highest HDI in the country(0.896-very high) &amp;apos;&amp;apos;&amp;apos;Pop. 55,608&amp;apos;&amp;apos;&amp;apos; (AMSS)
+* [[Ciudad Delgado]] &amp;apos;&amp;apos;&amp;apos;Pop. 174,825&amp;apos;&amp;apos;&amp;apos; (AMSS)
+* [[Cuscatancingo]] &amp;apos;&amp;apos;&amp;apos;Pop. 117,013&amp;apos;&amp;apos;&amp;apos; (AMSS)
+* [[Ilopango]] &amp;apos;&amp;apos;&amp;apos;Pop. 159,232&amp;apos;&amp;apos;&amp;apos; (AMSS)
+* [[La Unión, La Unión|La Unión]] &amp;apos;&amp;apos;&amp;apos;Pop. 26,739&amp;apos;&amp;apos;&amp;apos;
+* [[Mejicanos]] &amp;apos;&amp;apos;&amp;apos;Pop. 211,878&amp;apos;&amp;apos;&amp;apos;(AMSS)
+* [[Metapán]] &amp;apos;&amp;apos;&amp;apos;Pop.59,004&amp;apos;&amp;apos;&amp;apos;
+* [[San Miguel, El Salvador|San Miguel]] &amp;apos;&amp;apos;&amp;apos;Pop. 218,410&amp;apos;&amp;apos;&amp;apos;
+* [[San Salvador, El Salvador|San Salvador]] (capital) &amp;apos;&amp;apos;&amp;apos;Pop. City 540,989 Metro 2,290,000&amp;apos;&amp;apos;&amp;apos; (AMSS)
+* [[Santa Tecla, El Salvador|Santa Tecla]] &amp;apos;&amp;apos;&amp;apos;Pop. 164,171&amp;apos;&amp;apos;&amp;apos; (AMSS)
+* [[Santa Ana, El Salvador|Santa Ana]] &amp;apos;&amp;apos;&amp;apos;Pop 280,000&amp;apos;&amp;apos;&amp;apos;
+* [[San Martín, San Salvador|San Martin]] &amp;apos;&amp;apos;&amp;apos;Pop. 144,722&amp;apos;&amp;apos;&amp;apos; (AMSS)
+* [[Sonsonate]] &amp;apos;&amp;apos;&amp;apos;Pop. 110,501.&amp;apos;&amp;apos;&amp;apos;
+* [[Soyapango]] &amp;apos;&amp;apos;&amp;apos;Pop. 262,975&amp;apos;&amp;apos;&amp;apos; (AMSS)
+
+==Towns==
+
+Over 50,000, medium to low urbanization, or departmental capital.
+
+* [[Ahuachapán]] &amp;apos;&amp;apos;&amp;apos;Pop. 110,511&amp;apos;&amp;apos;&amp;apos;
+* [[Chalatenango, Chalatenango|Chalatenango]] &amp;apos;&amp;apos;&amp;apos;Pop. 29,271&amp;apos;&amp;apos;&amp;apos;
+* [[Cojutepeque]] &amp;apos;&amp;apos;&amp;apos;Pop. 70,000&amp;apos;&amp;apos;&amp;apos;
+* [[Nejapa]] &amp;apos;&amp;apos;&amp;apos;Pop. 50,966&amp;apos;&amp;apos;&amp;apos;
+* [[San Vicente, San Vicente|San Vicente]] &amp;apos;&amp;apos;&amp;apos;Pop. 53,213&amp;apos;&amp;apos;&amp;apos;
+* [[Tacuba]] &amp;apos;&amp;apos;&amp;apos;Pop. 50,000&amp;apos;&amp;apos;&amp;apos;
+* [[Usulután]] &amp;apos;&amp;apos;&amp;apos;Pop. 71,636&amp;apos;&amp;apos;&amp;apos;
+* [[Zacatecoluca]] &amp;apos;&amp;apos;&amp;apos;Pop. 62,576&amp;apos;&amp;apos;&amp;apos;
+
+==Villages==
+
+Within the range of 1,001 to 49,999 or have a really low urbanization, and keeps the colonial look of the country.
+
+* [[Alegría, Usulután|Alegria]] &amp;apos;&amp;apos;&amp;apos;Pop. 15,000&amp;apos;&amp;apos;&amp;apos;
+* [[Arambala]] &amp;apos;&amp;apos;&amp;apos;Pop. 1,821 &amp;apos;&amp;apos;&amp;apos;
+* [[Apaneca]] &amp;apos;&amp;apos;&amp;apos;Pop. 8,597&amp;apos;&amp;apos;&amp;apos;
+* [[Berlín]] &amp;apos;&amp;apos;&amp;apos;Pop. 15,000&amp;apos;&amp;apos;&amp;apos;
+* [[Comasagua]] &amp;apos;&amp;apos;&amp;apos;Pop. 11,870 &amp;apos;&amp;apos;&amp;apos;
+* [[Conchagua]] &amp;apos;&amp;apos;&amp;apos;Pop. 37,362&amp;apos;&amp;apos;&amp;apos;
+* [[Concepción de Ataco]] &amp;apos;&amp;apos;&amp;apos;Pop. 18,101&amp;apos;&amp;apos;&amp;apos; - Tourist&amp;apos;s favorite village.
+* [[Juayúa]] &amp;apos;&amp;apos;&amp;apos;Pop. 24,465&amp;apos;&amp;apos;&amp;apos;
+* [[Jujutla]] &amp;apos;&amp;apos;&amp;apos;Pop. 39,596&amp;apos;&amp;apos;&amp;apos;
+* [[La Palma, Chalatenango]] &amp;apos;&amp;apos;&amp;apos;Pop. 24,000&amp;apos;&amp;apos;&amp;apos; - village with coolest temperature (Daily Mean. 53F/12C Lowest Record 19.6F/-6C)
+* [[Nahuizalco]] &amp;apos;&amp;apos;&amp;apos;Pop. 49,081&amp;apos;&amp;apos;&amp;apos;
+* [[Santa Rosa de Lima, La Unión|Santa Rosa de Lima]] &amp;apos;&amp;apos;&amp;apos;Pop. 27,693 &amp;apos;&amp;apos;&amp;apos;
+* [[Suchitoto]] &amp;apos;&amp;apos;&amp;apos;Pop. 24,786&amp;apos;&amp;apos;&amp;apos;
+
+==See also==
+* [[Municipalities of El Salvador]]
+* [[List of Salvadoran departmental capitals]]
+* [[Geography of El Salvador]]
+* [[List of cities by country]]
+* [[Salvadoran Departments by HDI]]
+
+{{North America topic|List of cities in}}
+
+{{DEFAULTSORT:Cities In El Salvador}}
+[[Category:Lists of cities by country|El Salvador, List of cities in]]
+[[Category:Populated places in El Salvador| ]]
+[[Category:El Salvador geography-related lists]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

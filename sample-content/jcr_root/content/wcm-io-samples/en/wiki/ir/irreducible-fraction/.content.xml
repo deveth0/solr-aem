@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Irreducible fraction"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Irreducible fraction" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+An &amp;apos;&amp;apos;&amp;apos;irreducible fraction&amp;apos;&amp;apos;&amp;apos; (or &amp;apos;&amp;apos;&amp;apos;fraction in lowest terms&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;reduced form&amp;apos;&amp;apos;&amp;apos;) is a [[vulgar fraction]] in which the [[numerator]] and [[denominator]] are smaller than those in any other vulgar fraction equal to it. A fraction &amp;lt;sup&amp;gt;a&amp;lt;/sup&amp;gt;⁄&amp;lt;sub&amp;gt;b&amp;lt;/sub&amp;gt; is irreducible if and only if &amp;apos;&amp;apos;a&amp;apos;&amp;apos; and &amp;apos;&amp;apos;b&amp;apos;&amp;apos; are [[coprime]], that is, if &amp;apos;&amp;apos;a&amp;apos;&amp;apos; and &amp;apos;&amp;apos;b&amp;apos;&amp;apos; have a [[greatest common divisor]] of 1.
+
+More formally, if &amp;apos;&amp;apos;a&amp;apos;&amp;apos;, &amp;apos;&amp;apos;b&amp;apos;&amp;apos;, &amp;apos;&amp;apos;c&amp;apos;&amp;apos;, and &amp;apos;&amp;apos;d&amp;apos;&amp;apos; are all integers, then the fraction &amp;lt;sup&amp;gt;a&amp;lt;/sup&amp;gt;⁄&amp;lt;sub&amp;gt;b&amp;lt;/sub&amp;gt; is irreducible if and only if there is no other equal fraction &amp;lt;sup&amp;gt;c&amp;lt;/sup&amp;gt;⁄&amp;lt;sub&amp;gt;d&amp;lt;/sub&amp;gt; such that |&amp;apos;&amp;apos;c&amp;apos;&amp;apos;| &amp;lt; |&amp;apos;&amp;apos;a&amp;apos;&amp;apos;| or |&amp;apos;&amp;apos;d&amp;apos;&amp;apos;| &amp;lt; |&amp;apos;&amp;apos;b&amp;apos;&amp;apos;|, where |&amp;apos;&amp;apos;a&amp;apos;&amp;apos;| means the [[absolute value]] of &amp;apos;&amp;apos;a&amp;apos;&amp;apos;. This definition is more rigorous and expandable than a simpler one involving common divisors,{{Citation needed|date=July 2011}} and it is often necessary to use it to determine the [[rational number|rationality]] or reducibility of numbers that are expressed in terms of variables.
+
+For example, &amp;lt;sup&amp;gt;1&amp;lt;/sup&amp;gt;⁄&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt;, &amp;lt;sup&amp;gt;5&amp;lt;/sup&amp;gt;⁄&amp;lt;sub&amp;gt;6&amp;lt;/sub&amp;gt;, and &amp;lt;sup&amp;gt;−101&amp;lt;/sup&amp;gt;⁄&amp;lt;sub&amp;gt;100&amp;lt;/sub&amp;gt; are all irreducible fractions.  On the other hand, &amp;lt;sup&amp;gt;2&amp;lt;/sup&amp;gt;⁄&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt; is not irreducible since it is equal in value to &amp;lt;sup&amp;gt;1&amp;lt;/sup&amp;gt;⁄&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;, and the numerator of the latter (1) is less than the numerator of the former (2).
+
+A fraction that is reducible can be reduced by dividing both the numerator and denominator by a common factor. It can be fully reduced to lowest terms if both are divided by their [[greatest common divisor]]. In order to find the greatest common divisor, the [[Euclidean algorithm]] may be used. Using the Euclidean algorithm is a simple method that can even be performed without a calculator.
+
+==Examples==
+:&amp;lt;math&amp;gt; \frac{120}{90}=\frac{12}{9}=\frac{4}{3} \,.&amp;lt;/math&amp;gt;
+
+In the first step both numbers were divided by 10, which is a factor common to both 120 and 90. In the second step, they were divided by 3. The final result, &amp;lt;sup&amp;gt;4&amp;lt;/sup&amp;gt;/&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;, is an irreducible fraction because 4 and 3 have no common factors other than 1.
+
+The original fraction could have also been reduced in a single step by using the greatest common divisor of 90 and 120, which would be gcd(90,120)=30.
+
+:&amp;lt;math&amp;gt; \frac{120}{90}=\frac{4}{3} \,.&amp;lt;/math&amp;gt;
+
+Which method is faster &amp;quot;by hand&amp;quot; depends on the fraction and the ease with which common factors are spotted. In case a denominator and numerator remain that are too large to ensure they are coprime by inspection, a greatest common divisor computation is needed anyway to ensure the fraction is actually irreducible.
+
+==Uniqueness==
+
+Every rational number has a &amp;apos;&amp;apos;unique&amp;apos;&amp;apos; representation as an irreducible fraction. Uniqueness is a consequence of the [[Fundamental theorem of arithmetic|unique prime factorization]] of integers, since &amp;lt;math&amp;gt;\tfrac{a}{b} = \tfrac{c}{d}&amp;lt;/math&amp;gt; implies &amp;apos;&amp;apos;ad&amp;apos;&amp;apos; = &amp;apos;&amp;apos;bc&amp;apos;&amp;apos; and so both sides of the latter must share the same prime factorization.
+
+==Generalization==
+
+The notion of irreducible fraction generalizes to the [[field of fractions]] of any [[unique factorization domain]]: any element of such a field can be written as a fraction in which denominator and numerator are coprime, by dividing both by their greatest common divisor. This applies notably to [[rational expression]]s over a field. The irreducible fraction for a given element is unique up to multiplication of denominator and numerator by the same invertible element. In the case of the rational numbers this means that any number has two irreducible fractions, related by a change of sign of both numerator and denominator; this ambiguity can be removed by requiring the denominator to be positive. In the case of rational functions the denominator could similarly be required to be a [[monic polynomial]].
+
+==See also==
+*[[Anomalous cancellation]]
+
+{{DEFAULTSORT:Irreducible Fraction}}
+[[Category:Fractions]]
+[[Category:Elementary arithmetic]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

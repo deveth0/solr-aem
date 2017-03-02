@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Balking pattern"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Balking pattern" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Refimprove|date=December 2010}}
+{{No footnotes|date=December 2010}}
+The &amp;apos;&amp;apos;&amp;apos;balking pattern&amp;apos;&amp;apos;&amp;apos; is a [[design pattern (computer science)|software design pattern]] that only executes an action on an [[object (computer science)|object]] when the object is in a particular state. For example, if an object reads [[ZIP file format|ZIP]] files and a calling method invokes a get method on the object when the ZIP file is not open, the object would &amp;quot;balk&amp;quot; at the request.  In the [[Java (programming language)|Java]] programming language, for example, an IllegalStateException might be thrown under these circumstances.
+
+There are some specialists{{who|date=November 2010}} in this field who think this is more of an [[anti-pattern]], than a design pattern.  If an object cannot support its API, it should either limit the API so that the offending call is not available or so that the call can be made without limitation, it should:
+* Be created in a sane state
+* Not make itself available until it is in a sane state
+* Become a [[Facade pattern|facade]] and answer back an object that is in a sane state
+
+==Usage==
+
+Objects that use this pattern are generally only in a state that is prone to balking temporarily but for an unknown amount of time.{{Citation needed|date=May 2009}}  If objects are to remain in a state which is prone to balking for a known, finite period of time, then the [[guarded suspension pattern]] may be preferred.
+
+==Implementation==
+
+Below is a general, simple example for an implementation of the balking pattern as originally seen in {{harvtxt|Grand|2002}}. As demonstrated by the definition above, notice how the &amp;quot;synchronized&amp;quot; line is utilized. If there are multiple calls to the job method, only one will proceed while the other calls will return with nothing. Another thing to note is the &amp;lt;code&amp;gt;jobCompleted()&amp;lt;/code&amp;gt; method. The reason it is synchronized is because the only way to guarantee another thread will see a change to a field is to synchronize access all access to it or declare it as volatile.
+
+&amp;lt;source lang=&amp;quot;java&amp;quot;&amp;gt;
+public class Example {
+    private boolean jobInProgress = false;
+
+    public void job() {
+        synchronized(this) {
+           if (jobInProgress) {
+               return;
+           }
+           jobInProgress = true;
+        }
+        // Code to execute job goes here
+        // ...
+    }
+
+    void jobCompleted() {
+        synchronized(this) {
+            jobInProgress = false;
+        }
+    }
+}
+&amp;lt;/source&amp;gt;
+
+==References==
+
+*{{citation
+ | last = Grand | first = Mark
+ | title = Patterns in Java, Volume 1: A Catalog of Reusable Design Patterns Illustrated with UML, Second Edition
+ | year = 2002
+ | publisher = John Wiley &amp;amp; Sons
+ | location = Indianapolis, Ind}}.
+
+==See also==
+*[[Read and write lock pattern]]
+*[[Guarded suspension|Guarded suspension pattern]]
+
+{{DEFAULTSORT:Balking Pattern}}
+[[Category:Software design patterns]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

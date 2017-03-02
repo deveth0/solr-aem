@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Manu Herbstein"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Manu Herbstein" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{refimprove|date=October 2010}}
+&amp;apos;&amp;apos;&amp;apos;Manu Herbstein&amp;apos;&amp;apos;&amp;apos; (born 1936) is the [[South Africa]]n author of &amp;apos;&amp;apos;[[Ama: A Story of the Atlantic Slave Trade]]&amp;apos;&amp;apos; (2001), which won the 2002 [[Commonwealth Writers Prize]] for Best First Book, the first time the award had been given to an electronic book.&amp;lt;ref&amp;gt;
+{{cite news
+|title=Richard Flanagan wins Commonwealth prize
+|first=Emma
+|last=Yates
+|newspaper=The Guardian
+|date=2002-04-25
+|url=http://www.guardian.co.uk/books/2002/apr/25/news.awardsandprizes
+}}&amp;lt;/ref&amp;gt; The companion web site to his novel is at http://www.ama.africatoday.com where the first chapter may be read on-line.
+
+== References ==
+{{reflist}}
+
+{{Use dmy dates|date=October 2010}}
+
+{{Authority control|VIAF=29466730}}
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Herbstein, Manu
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION =
+| DATE OF BIRTH     = 1936
+| PLACE OF BIRTH    =
+| DATE OF DEATH     =
+| PLACE OF DEATH    =
+}}
+
+{{DEFAULTSORT:Herbstein, Manu}}
+[[Category:South African Jews]]
+[[Category:1936 births]]
+[[Category:South African writers]]
+[[Category:Living people]]
+
+
+{{SouthAfrica-writer-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

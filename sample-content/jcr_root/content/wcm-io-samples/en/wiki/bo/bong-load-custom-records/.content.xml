@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Bong Load Custom Records"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Bong Load Custom Records" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{unreferenced|date=March 2013}}
+&amp;apos;&amp;apos;&amp;apos;Bong Load Custom Records&amp;apos;&amp;apos;&amp;apos; is an [[independent record label]] based in [[Los Angeles, California|Los Angeles]] which was founded by producers [[Tom Rothrock]], [[Rob Schnapf]] and partner Bradshaw Lambert. One of their biggest signings was [[Beck]] in 1991. Other notable bands from the original Bong Load Custom Records include [[Fu Manchu (band)|Fu Manchu]], [[Wool (band)|Wool]], [[Kyuss]], [[Dog Society]], [[The Obsessed]], [[Fatso Jetson]] and Los Angeles Bands [[Lutefisk]] and [[Project K]]. In 2007, Rothrock relaunched the label with a series of his own solo recordings of instrumental releases.
+
+In 1998, Beck released the album &amp;apos;&amp;apos;[[Mutations (Beck album)|Mutations]]&amp;apos;&amp;apos; on the [[Geffen Records|Geffen]] label, which led to a series of lawsuits between Beck, Bong Load and Geffen which were settled in 1999.
+
+Much of the Bong Load Record catalog was released in small quantities. Several bands have very rare releases that are much sought after and command high prices at auctions.
+
+==See also==
+* [[List of record labels]]
+
+[[Category:American independent record labels]]
+[[Category:Indie music record labels]]
+[[Category:Alternative rock record labels]]
+
+
+{{US-independent-record-label-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

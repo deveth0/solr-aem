@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Qingdao TV Tower"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Qingdao TV Tower" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Image:Fernsehturm_Qingdao.jpg|thumb|Qingdao TV tower]]
+&amp;apos;&amp;apos;&amp;apos;Qingdao TV Tower&amp;apos;&amp;apos;&amp;apos; is a {{convert|232|m}} tall lattice [[television]] [[tower]] with an observation deck situated on the top of 116 metres high Taiping Hill in Julin Hill Park in [[Qingdao]], China.
+
+The tower, which was built in 1994, has a restaurant in a ball-shaped cabinet 130 metres above the ground; under this ball, there is a cylindric cabinet containing a 230 square metres sightseeing platform. In the basement of the tower, there is an Olympic museum, as the [[2008 Summer Olympics]] [[Sailing at the 2008 Summer Olympics|sailing events]] took place at Qingdao.
+
+==See also==
+* [[List of towers]]
+
+{{coord|36|04|07.81|N|120|21|01.87|E|region:CN-37_type:landmark_source:dewiki|display=title}}
+
+[[Category:Towers completed in 1994]]
+[[Category:Observation towers]]
+[[Category:Communication towers in China]]
+
+
+{{PRChina-struct-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

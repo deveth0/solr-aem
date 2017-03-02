@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Net protein utilization"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Net protein utilization" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;net protein utilization&amp;apos;&amp;apos;&amp;apos;, or NPU, is the ratio of [[amino acid]] converted to [[protein]]s to the ratio of amino acids supplied. This figure is somewhat affected by the salvage of [[essential amino acid]]s within the body, but is profoundly affected by the level of [[essential amino acid|limiting amino acids]] within a foodstuff.
+
+Experimentally, this value can be determined by determining [[diet (nutrition)|diet]]ary protein intake and then measuring [[nitrogen]] [[excretion]]. One formula for NPU is:
+
+:NPU = ((0.16 &amp;amp;times; (24 hour protein intake in grams)) - ((24 hour urinary [[urea]] nitrogen) + 2) - (0.1 &amp;amp;times; ([[ideal body weight]] in kilograms))) / (0.16 &amp;amp;times; (24 hour protein intake in grams))
+
+As a value, NPU can range from 1 to 0, with a value of 1 indicating 100% utilization of dietary nitrogen as protein and a value of 0 an indication that none of the nitrogen supplied was converted to protein.
+
+Certain foodstuffs, such as [[Egg (food)|egg]]s or [[milk]], rate as 1 on an NPU chart.
+
+The [[PDCAAS|Protein Digestibility Corrected Amino Acid Score]] is a more modern rating for determining protein quality.
+
+==See also==
+* [[Biological value]]
+* [[Protein efficiency ratio]]
+* [[Nitrogen balance]]
+* [[Protein Digestibility Corrected Amino Acid Score]]
+
+==References==
+*Suzanne Nelson et al. Ad Libitum. H20 NaC{{full}}
+
+[[Category:Amino acids]]
+[[Category:Proteins]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

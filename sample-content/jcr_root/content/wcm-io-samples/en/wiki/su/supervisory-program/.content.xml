@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Supervisory program"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Supervisory program" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{too technical|date=November 2012}}
+A &amp;apos;&amp;apos;&amp;apos;supervisory program&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;supervisor&amp;apos;&amp;apos;&amp;apos; is a [[computer program]], usually part of an [[operating system]], that controls the execution of other [[Subroutine|routines]] and regulates [[Scheduling (computing)|work scheduling]], [[input/output]] operations, [[Exception handling|error actions]], and similar functions and regulates the flow of work in a [[data processing]] system.
+
+It can also refer to a program that allocates computer component space and schedules computer events by [[Priority queue|task queuing]] and system [[interrupt]]s. Control of the system is returned to the supervisory program frequently enough to ensure that demands on the system are met.
+
+Historically, this term was essentially associated with [[IBM]]&amp;apos;s line of [[Mainframe computer|mainframe]] operating systems starting with [[OS/360]]. In other operating systems, the supervisor is generally called the [[Kernel (computer science)|kernel]].
+
+In the 1970s, IBM further abstracted the supervisor [[State (computer science)|state]] from the hardware, resulting in a [[hypervisor]] that enabled [[full virtualization]], i.e. the capacity to run multiple operating systems on the same machine totally independently from each other. Hence the first such system was called &amp;apos;&amp;apos;Virtual Machine&amp;apos;&amp;apos; or &amp;apos;&amp;apos;[[VM (operating system)|VM]]&amp;apos;&amp;apos;.
+
+==References==
+*{{FS1037C MS188}}
+
+[[Category:Operating system technology]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

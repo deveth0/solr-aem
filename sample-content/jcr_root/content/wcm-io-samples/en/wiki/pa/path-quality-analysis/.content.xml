@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Path quality analysis"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Path quality analysis" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Path quality analysis&amp;apos;&amp;apos;&amp;apos;:  In a [[telecommunication|communications]] path, an analysis that (a) includes the overall evaluation of the [[electronic component|component]] quality measures, the individual [[data link|link]] quality measures, and the aggregate path quality measures, and (b) is performed by evaluating communications parameters, such as [[bit error ratio]], [[Signalling (telecommunication)|signal]]-plus-[[noise]]-plus-[[distortion]] to noise-plus-distortion ratio, and spectral distortion.&amp;lt;ref name=&amp;quot;weik-2000&amp;quot;/&amp;gt;
+
+{{FS1037C}}
+
+== References ==
+{{reflist|refs=
+&amp;lt;ref name=&amp;quot;weik-2000&amp;quot;&amp;gt;
+ {{cite book
+  |last=Weik
+  |first=Martin
+  |url=http://books.google.co.uk/books?id=0JILayOfSA4C&amp;amp;pg=PA1239&amp;amp;dq=%22path+quality+analysis%22&amp;amp;hl=en&amp;amp;sa=X&amp;amp;ei=VqcnUeXpCof68gSJqIG4Bw&amp;amp;ved=0CDcQ6AEwAA#v=onepage&amp;amp;q=%22path%20quality%20analysis%22&amp;amp;f=false
+  |title=Computer Science and Communications Dictionary
+  |publisher=[[Springer Publishing]]
+  |location=[[New York City]], USA
+  |year=2000
+  |isbn=9780792384250
+  |page=1239
+ }}
+&amp;lt;/ref&amp;gt;
+}}
+
+{{radio-comm-stub}}
+
+[[Category:Radio frequency propagation]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Kyle"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Kyle" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionarypar|Kyle|kyle}}
+&amp;apos;&amp;apos;&amp;apos;Kyle&amp;apos;&amp;apos;&amp;apos;  may refer to:
+
+* a Scottish term for a [[strait]]
+* [[Kyle (given name)]], a Scottish masculine given name (sometimes also given to females)
+* [[Kyle (surname)]], a surname of Scottish origin
+* [[KYLE-TV]], a Fox network affiliate
+
+==Places==
+===Canada===
+* [[Kyle, Saskatchewan]], Canada
+===Scotland===
+* [[Kyle, Ayrshire]], Scotland (which stretched across parts of modern day [[East Ayrshire]] and [[South Ayrshire]])
+* [[Kyle of Lochalsh]], [[Ross and Cromarty]] (Lieutenancy area), [[Highland (council area)]], Scotland
+** [[Kyle of Lochalsh Line]], a primarily single track railway line
+* [[Kyle of Sutherland]], a river [[estuary]]
+
+===United States===
+* [[Kyle, Indiana]], United States
+* [[Kyle, South Dakota]], United States
+* [[Kyle, Texas]], United States
+==See also==
+* [[Kile (disambiguation)]]
+* [[Kyll]]
+* [[Tropical Storm Kyle (disambiguation)]]
+
+{{Disambiguation|callsign}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

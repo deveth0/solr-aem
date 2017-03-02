@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wash"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wash" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Wiktionary|wash}}
+&amp;apos;&amp;apos;&amp;apos;Wash&amp;apos;&amp;apos;&amp;apos; may refer to:
+* [[Arroyo (creek)]], also called a wash, a dry creek bed or gulch that temporarily fills with water after a heavy rain
+* [[WASH]], a water, sanitation and hygiene advocacy campaign initiated by the [[Water Supply and Sanitation Collaborative Council]]
+* [[WASH-FM]], a Clear Channel Communications radio station
+* [[Wash (distilling)]], the liquid produced by the fermentation step in the production of distilled beverages
+* [[Wash (painting)]], a light covering of diluted paint on a painting
+* [[Lime wash]] or whitewash, a low-cost industrial paint
+* [[Wash (Prison Break episode)|&amp;quot;Wash&amp;quot; (&amp;apos;&amp;apos;Prison Break&amp;apos;&amp;apos; episode)]]
+* Wash, California, former name of [[Clio, California]]
+* [[The Wash]], the square-mouthed estuary on the northwest margin of East Anglia in England
+* [[The Wash (film)|&amp;apos;&amp;apos;The Wash&amp;apos;&amp;apos; (film)]], a hip-hop styled film
+* [[The Wash (1985 film)|&amp;apos;&amp;apos;The Wash&amp;apos;&amp;apos; (1985 film)]], by Philip Kan Gotanda, based on his play &amp;apos;&amp;apos;The Wash&amp;apos;&amp;apos;
+* [[Wash (song)|&amp;quot;Wash&amp;quot; (song)]], a song by Pearl Jam
+* &amp;quot;Wash.&amp;quot;, A song by [[Bon Iver]] from the album [[Bon Iver, Bon Iver]]
+* [[Wash (Firefly)|Wash (&amp;apos;&amp;apos;Firefly&amp;apos;&amp;apos;)]], a character on &amp;apos;&amp;apos;Firefly&amp;apos;&amp;apos;
+
+==See also==
+* [[Car wash (disambiguation)]]
+* [[Washer (disambiguation)]]
+* [[Washing]]
+* [[Washington (disambiguation)]], various uses commonly abbreviated as &amp;quot;Wash.&amp;quot;
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

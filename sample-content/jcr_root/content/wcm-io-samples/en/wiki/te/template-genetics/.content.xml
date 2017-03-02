@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Template:Genetics"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Template:Genetics" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Navbox
+| name  = Genetics
+| title = [[Genetics]]
+| bodyclass = hlist
+
+| above =
+* [[Introduction to genetics|Introduction]]
+* [[History of genetics|History]]
+* [[Index of genetics articles|Related topics]]
+* [[List of genetics research organizations|List of organizations]]
+
+| group1 = Key components
+| list1 =
+* [[Chromosome]]
+* [[DNA]]
+* [[Nucleotide]]
+* [[RNA]]
+* [[Genome]]
+
+| group2 = Fields of genetics
+| list2 =
+* [[Classical genetics|Classical]]
+* [[Conservation genetics|Conservation]]
+* [[Ecological genetics|Ecological]]
+* [[Immunogenetics|Immuno-]]
+* [[Molecular genetics|Molecular]]
+* [[Population genetics|Population]]
+* [[Quantitative genetics|Quantitative]]
+
+| group3 = [[Archaeogenetics]] of...
+| list3 =
+* [[Genetic history of indigenous peoples of the Americas|Americas]]
+* [[Genetic history of the British Isles|British Isles]]
+* [[Genetic history of Europe|Europe]]
+* [[Genetic history of Italy|Italy]]
+* [[Archaeogenetics of the Near East|Near East]]
+* [[Genetics and archaeogenetics of South Asia|South Asia]]
+
+| group4 = Related topics
+| list4 =
+* [[Epigenetics]]
+* [[Geneticist]]
+* [[Genomics]]
+* [[Genetic code]]
+* [[Medical genetics]]
+* [[Molecular evolution]]
+* [[Reverse genetics]]
+* [[Genetic engineering]]
+* [[Genetic diversity]]
+* [[Heredity]]
+* [[Genetic monitoring]]
+
+}}&amp;lt;noinclude&amp;gt;
+
+{{documentation}}
+
+&amp;lt;/noinclude&amp;gt;&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

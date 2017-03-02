@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Roger Baldwin"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Roger Baldwin" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Roger Baldwin&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* [[Roger Nash Baldwin]], (1884–1981), founder of ACLU
+* [[Roger Sherman Baldwin]], (1793–1863), US lawyer and politician
+* [[Roger Baldwin (blackjack author)]], blackjack strategy pioneer, see [[Blackjack Hall of Fame]]
+* [[Roger Baldwin (racing driver)]], former NASCAR Cup Series driver
+* [[Roger A. Baldwin]] (born 1925), former Governor of New California
+{{hndis|name = Baldwin, Roger}}
+
+{{DEFAULTSORT:Baldwin, Roger}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

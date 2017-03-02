@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="David Korn (computer scientist)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="David Korn (computer scientist)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{notability|date=May 2011}}
+
+&amp;apos;&amp;apos;&amp;apos;David Korn&amp;apos;&amp;apos;&amp;apos; is an [[United States|American]] UNIX [[computer programmer|programmer]], who is probably best known for creating the [[Korn shell]] (&amp;apos;&amp;apos;ksh&amp;apos;&amp;apos;), a [[command line interface]]/[[programming language]].
+The Korn shell is a de facto standard for [[Unix|UNIX]]-like systems and many other environments.
+
+David Korn received his undergraduate degree in [[mathematics]] from [[Rensselaer Polytechnic Institute]] in 1965 and his Ph.D. in applied mathematics from [[New York University|NYU]]&amp;apos;s [[Courant Institute of Mathematical Sciences]] in 1969. After working on computer simulations of transsonic airfoils, he switched fields to computer science and became a [[member of technical staff]] at [[Bell Laboratories]] in 1976. He developed Korn shell in response to problems he and his colleagues had with the most commonly used shells at the time, [[Bourne shell]] and [[C shell]]. Korn shell is [[backward-compatible]] with Bourne shell, but takes a lot of ideas from C shell, such as history viewing and [[vi]]-like command line editing.
+
+==Korn shell and Microsoft==
+[[Microsoft]] once included a version of the Korn shell produced by [[Mortice Kern Systems]] (MKS) in a UNIX integration package for [[Windows NT]]. This version was not compatible with ksh88 (a Korn shell specification), and Korn mentioned this during a question and answer period of a Microsoft presentation during a [[USENIX]] NT conference in [[Seattle]] in 1998. Greg Sullivan, a Microsoft product manager who was participating in the presentation, not knowing who the commenter was, insisted that Microsoft had indeed chosen a &amp;quot;real&amp;quot; Korn shell. A polite debate ensued, with Sullivan continuing to insist that the man giving the criticisms was mistaken about the compatibility issues. Sullivan only backed down when an audience member stood up and mentioned that the man making the comments was none other than the eponymous David Korn.&amp;lt;ref&amp;gt;[http://slashdot.org/article.pl?sid=01/02/06/2030205 &amp;quot;David Korn Tells All&amp;quot;]: Interview with David Korn on Slashdot, February 7, 2001&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;[http://gopher.quux.org:70/Humor%20and%20Fun/Microsoft_KSH.txt|/MBOX-MESSAGE/1 A person&amp;apos;s take on the David Korn encounter]&amp;lt;/ref&amp;gt;
+
+== Other software projects ==
+Along with Korn shell, he is also known as the creator of [[UWIN]], an [[X/Open]] library for [[Win32]] systems, similar to [[Cygwin]]. Korn and Kiem-Phong Vo also co-developed [[sfio]], a library for managing I/O streams.
+
+Korn became a [[Bell Labs]] fellow in 1984. He currently lives in [[New York City]] and works for [[AT&amp;amp;T Labs Research]] in [[Florham Park]], [[New Jersey]].
+
+== References==
+{{reflist}}
+
+== External links ==
+*[http://www.kornshell.com/~dgk/ David Korn homepage] on [http://www.kornshell.com/ Kornshell.com]
+
+{{Authority control |VIAF=46814274 |LCCN=n/88/247844 }}
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Korn, David
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION =
+| DATE OF BIRTH     =
+| PLACE OF BIRTH    =
+| DATE OF DEATH     =
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Korn, David}}
+[[Category:Year of birth missing (living people)]]
+[[Category:Living people]]
+[[Category:Rensselaer Polytechnic Institute alumni]]
+[[Category:American computer programmers]]
+[[Category:Unix people]]
+[[Category:Scientists at Bell Labs]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

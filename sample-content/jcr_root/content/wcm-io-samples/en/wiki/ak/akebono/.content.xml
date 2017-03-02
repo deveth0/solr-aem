@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Akebono"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Akebono" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{nihongo|&amp;apos;&amp;apos;&amp;apos;Akebono&amp;apos;&amp;apos;&amp;apos;|曙}} is a [[Japanese language|Japanese]] noun that means &amp;quot;[[dawn]]&amp;quot; or &amp;quot;daybreak&amp;quot;.
+
+It may also refer to:
+
+* [[Akebono (genus)|&amp;apos;&amp;apos;Akebono&amp;apos;&amp;apos; (genus)]], a fly genus in the family [[Sciomyzidae]] or Phaeomyiidae
+* [[Akebono (satellite)]], a geomagnetosphere observation satellite
+* [[Akebono scale]], a common scale used in Japanese music.
+* [[Akebono (train)|&amp;apos;&amp;apos;Akebono&amp;apos;&amp;apos; (train)]], a sleeping-car train in Japan
+* [[Akebono Tarō]], a retired sumo wrestler
+
+==Ships==
+* &amp;apos;&amp;apos;[[Akebono Maru]]&amp;apos;&amp;apos;, a Japanese oil tanker and fishing trawler that capsized in 1982
+* [[Japanese destroyer Akebono (1930)|Japanese destroyer &amp;apos;&amp;apos;Akebono&amp;apos;&amp;apos; (1930)]], a Fubuki-class destroyer of the Imperial Japanese Navy in World War II
+* [[JDS Akebono (DE201)|JDS &amp;apos;&amp;apos;Akebono&amp;apos;&amp;apos; (DE201)]], a Japanese frigate that entered into service of the Japanese Maritime Self-Defense Force in 1956
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

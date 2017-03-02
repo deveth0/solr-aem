@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="FCC registration program"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="FCC registration program" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[telecommunication]], &amp;apos;&amp;apos;&amp;apos;FCC registration program&amp;apos;&amp;apos;&amp;apos; is the [[Federal Communications Commission]] (FCC) program and associated directives intended to assure that all connected [[terminal equipment]] and protective circuitry will not harm the [[public switched telephone network]] or certain [[private line]] services.
+
+&amp;apos;&amp;apos;Note 1:&amp;apos;&amp;apos;  The FCC registration program requires the registering of terminal equipment and protective circuitry in accordance with Subpart C of [[part 68]], Title 47 of the &amp;apos;&amp;apos;Code of Federal Regulations.&amp;apos;&amp;apos; This includes the assignment of identification numbers to the equipment and the testing of the equipment.
+
+&amp;apos;&amp;apos;Note 2:&amp;apos;&amp;apos;  The FCC registration program contains no requirement that accepted terminal equipment be compatible with, or function with, the network.
+
+==External links==
+
+* [https://gullfoss2.fcc.gov/prod/oet/cf/eas/reports/GenericSearch.cfm FCC Equipment Authorization Database Search Facility]
+
+
+{{FS1037C MS188}}
+
+[[Category:Federal Communications Commission|Registration program]]
+
+
+{{telecomm-stub}}
+{{US-poli-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

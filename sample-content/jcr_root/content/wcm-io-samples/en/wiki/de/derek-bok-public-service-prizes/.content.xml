@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Derek Bok Public Service Prizes"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Derek Bok Public Service Prizes" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;Derek Bok Public Service Prizes&amp;apos;&amp;apos;&amp;apos; recognize creative initiatives in community service or long-standing records of civic achievement among degree and certificate graduates at [[Harvard University]]. &amp;lt;ref&amp;gt;[http://216.239.33.104/search?q=cache:diGlNyfds18J:www.extension.harvard.edu/2002-03/programs/undergrad/handbook/ext02ucf.pdf+Derek+Bok+Public+Service+Prize&amp;amp;hl=en&amp;amp;ie=UTF-8]&amp;lt;/ref&amp;gt;
+
+==References==
+{{reflist}}
+
+[[Category:Awards by Harvard University|Bok Derek Public Service Prizes]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Etolin Strait"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Etolin Strait" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+[[File:Etolin Strait.PNG|thumb|240px|alt=Etolin Strait chart detail|Etolin Strait and Surroundings. Office of Coast Survey chart detail 2000]]
+&amp;apos;&amp;apos;&amp;apos;Etolin Strait&amp;apos;&amp;apos;&amp;apos; is a [[strait]] in the western region of the [[U.S. state]] of [[Alaska]], at about {{Coord|60|20|N|165|25|W|scale:2000000|display=inline,title}}. It is between [[Nunivak Island]] to its west and [[Nelson Island (Alaska)|Nelson Island]] and the Alaska mainland to its east.  It is demarcated by Cape Etolin to the northwest and [[Cape Corwin]] to the southwest (both on Nunivak Island), by Cape Vancouver on Nelson Island to the northeast, and by Cape Avinol on the Alaskan mainland to the southeast.
+
+The strait connects [[Kuskokwim Bay]] and the [[Bering Sea]].  It is {{convert|96|km|mi|abbr=on}} long and 48–80&amp;amp;nbsp;km (30-50) miles wide. It is known for strong tidal currents.
+
+Etolin Strait is named after [[Adolf Etolin]], who discovered it and named it Cook Strait. (Etolin was subsequently [[List of Governors of Alaska|governor]] of [[Russian colonization of the Americas|Russian America]] from 1840 to 1845.)
+
+[[Category:Bering Sea]]
+[[Category:Straits of Alaska]]
+[[Category:Landforms of Bethel Census Area, Alaska]]
+
+
+{{BethelAK-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

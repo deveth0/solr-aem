@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Underpainting"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Underpainting" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=August 2012}}
+
+In art, an &amp;apos;&amp;apos;&amp;apos;underpainting&amp;apos;&amp;apos;&amp;apos; is an initial layer of paint applied to a ground, which serves as a base for subsequent layers of paint. Underpaintings are often monochromatic and help to define [[colour value]]s for later painting. There are several different types of underpainting, such as [[verdaccio]] and [[grisaille]].
+
+&amp;apos;&amp;apos;&amp;apos;Underpainting&amp;apos;&amp;apos;&amp;apos; gets its name because it is painting that is intended to be painted over (see [[overpainting]]) in a system of [[working in layers]]. There is a popular misconception that underpainting should be monochromatic, perhaps in gray-scales. A multi-color underpainting was thought to be more useful by artists such as [[Giotto]] (whose technique is described in detail by [[Cennino Cennini]]), as well as by [[Jan van Eyck]] and [[Roger van der Weyden]] (whose technique has been studied with modern scientific analysis). This technique was pioneered by [[Titian]] in the High Renaissance.  The colors of the underpainting can be optically mingled with the subsequent overpainting, without the danger of the colors physically blending and becoming muddy. If underpainting is done properly, it facilitates overpainting. If it seems that if one has to fight to obscure the underpainting, it is a sign that it was not done properly.
+
+==See also==
+*[[Imprimatura]]
+*[[Underdrawing]]
+*[[Grisaille]]
+*[[Verdaccio]]
+
+== External links ==
+*[http://brianowensart.com/drawing.html Underpainting Oil Drawings used in Contemporary Portraiture]
+*[http://www.artandperception.com/2006/12/colorful-underpainting.html Contemporary use of colorful underpainting in the tradition of Jan van Eyck]
+*[http://karlzipser.com/2009/03/how-to-a-paint-still-life.html Example of underpainting in still life]
+
+[[Category:Painting techniques]]
+
+{{painting-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

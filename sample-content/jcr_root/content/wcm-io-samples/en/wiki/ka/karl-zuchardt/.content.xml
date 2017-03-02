@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Karl Zuchardt"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Karl Zuchardt" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Karl Zuchardt&amp;apos;&amp;apos;&amp;apos; (10 February 1887 &amp;amp;ndash; 12 November 1968) was a [[Germany|German]] [[writer]] of [[historical novel]]s.
+
+Zuchardt was born in [[Leipzig]], [[Kingdom of Saxony]]. In 1961 he received the [[Martin Andersen Nexø]]-Arts-Award from the city of [[Dresden]], where he later died.
+
+Books by Zuchardt include &amp;apos;&amp;apos;Der Spiessrutenlauf&amp;apos;&amp;apos;, &amp;apos;&amp;apos;[[Stirb Du Narr!]]&amp;apos;&amp;apos; (an account of [[Sir Thomas More]]&amp;apos;s political life), and &amp;apos;&amp;apos;Wie lange noch [[Napoleon I of France|Bonaparte]]?&amp;apos;&amp;apos;
+
+{{Authority control|VIAF=66829782}}
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Zuchardt, Karl
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION = German writer
+| DATE OF BIRTH     = 10 February 1887
+| PLACE OF BIRTH    =
+| DATE OF DEATH     = 12 November 1968
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Zuchardt, Karl}}
+[[Category:1887 births]]
+[[Category:1968 deaths]]
+[[Category:People from Leipzig]]
+[[Category:German historical novelists]]
+
+
+{{Germany-writer-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="List of films based on operas"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="List of films based on operas" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{unreferenced|date=June 2012}}
+Following is a &amp;apos;&amp;apos;&amp;apos;list of films based on operas&amp;apos;&amp;apos;&amp;apos;.
+* &amp;apos;&amp;apos;[[Carmen: A Hip Hopera]]&amp;apos;&amp;apos; (based on &amp;apos;&amp;apos;[[Carmen]]&amp;apos;&amp;apos; by [[Georges Bizet]])
+* &amp;apos;&amp;apos;[[Carmen Jones]]&amp;apos;&amp;apos; (based on &amp;apos;&amp;apos;[[Carmen]]&amp;apos;&amp;apos; by [[Georges Bizet]])
+* &amp;apos;&amp;apos;[[M. Butterfly (film)|M. Butterfly]]&amp;apos;&amp;apos; (based on &amp;apos;&amp;apos;[[Madama Butterfly]]&amp;apos;&amp;apos; by Giacomo Puccini)
+* &amp;apos;&amp;apos;[[Prénom Carmen]]&amp;apos;&amp;apos; (based on &amp;apos;&amp;apos;[[Carmen]]&amp;apos;&amp;apos; by [[Georges Bizet]])
+* &amp;apos;&amp;apos;[[Rent (film)|Rent]]&amp;apos;&amp;apos; (based on &amp;apos;&amp;apos;[[La bohème]]&amp;apos;&amp;apos; by [[Giacomo Puccini]])
+* &amp;apos;&amp;apos;[[The Toll of the Sea]]&amp;apos;&amp;apos; (based on &amp;apos;&amp;apos;[[Madama Butterfly]]&amp;apos;&amp;apos; by Giacomo Puccini)
+* &amp;apos;&amp;apos;[[U-Carmen e-Khayelitsha]]&amp;apos;&amp;apos; (based on &amp;apos;&amp;apos;[[Carmen]]&amp;apos;&amp;apos; by [[Georges Bizet]])
+* &amp;apos;&amp;apos;[[Camille (1936 film)]]&amp;apos;&amp;apos; (based on &amp;apos;&amp;apos;[[La Traviata]]&amp;apos;&amp;apos; by [[Verdi]])
+This is a &amp;apos;&amp;apos;&amp;apos;list of opera films&amp;apos;&amp;apos;&amp;apos;.
+* &amp;apos;&amp;apos;[[Don Giovanni (1979 film)|Don Giovanni]]&amp;apos;&amp;apos;, 1979 (&amp;apos;&amp;apos;[[Don Giovanni]]&amp;apos;&amp;apos; by [[Wolfgang Amadeus Mozart]]&amp;apos;&amp;apos;)
+* &amp;apos;&amp;apos;[[The Magic Flute (1975 film)|The Magic Flute]]&amp;apos;&amp;apos;, 1975 (&amp;apos;&amp;apos;[[The Magic Flute]]&amp;apos;&amp;apos; by [[Wolfgang Amadeus Mozart]]&amp;apos;&amp;apos;), directed by [[Ingmar Bergman]]
+* &amp;apos;&amp;apos;[[La traviata (1983 film)|La traviata]]&amp;apos;&amp;apos;, 1983 (&amp;apos;&amp;apos;[[La traviata]]&amp;apos;&amp;apos; by [[Giuseppe Verdi]])
+* &amp;apos;&amp;apos;[[Rigoletto (1993 film)|Rigoletto]]&amp;apos;&amp;apos;, 1993, (&amp;apos;&amp;apos;[[Rigoletto]]&amp;apos;&amp;apos; by [[Giuseppe Verdi]]), directed by [[Barry Purves]] [from the [[Operavox]] animated series]
+* &amp;apos;&amp;apos;[[Giuseppe Verdi&amp;apos;s Rigoletto Story]]&amp;apos;&amp;apos; (&amp;apos;&amp;apos;[[Rigoletto]]&amp;apos;&amp;apos; by [[Giuseppe Verdi]])
+* &amp;apos;&amp;apos;[[The Magic Flute (2006 film)|The Magic Flute]]&amp;apos;&amp;apos;, 2006 (&amp;apos;&amp;apos;[[The Magic Flute]]&amp;apos;&amp;apos; by [[Wolfgang Amadeus Mozart]]&amp;apos;&amp;apos;), directed by [[Kenneth Branagh]]
+* &amp;apos;&amp;apos;[[Parsifal (1983 film)|Parsifal]]&amp;apos;&amp;apos;
+* &amp;apos;&amp;apos;[[Prince Igor (film)|Prince Igor]]&amp;apos;&amp;apos;, 1970, directed by [[:ru:Тихомиров, Роман Иринархович|Roman Tikhomirov]]
+* &amp;apos;&amp;apos;[[:ru:Борис Годунов (фильм, 1954)|Boris Godunov]]&amp;apos;&amp;apos;, 1954, directed by [[Vera Stroyeva]]
+* &amp;apos;&amp;apos;[[Moses und Aron (film)|Moses und Aron]]&amp;apos;&amp;apos;
+* &amp;apos;&amp;apos;[[The Tales of Hoffmann (film)|The Tales of Hoffmann]]&amp;apos;&amp;apos;
+* &amp;apos;&amp;apos;[[Carmen (1984 film)|Carmen]]&amp;apos;&amp;apos;, 1984
+* &amp;apos;&amp;apos;[[Aria (film)|Aria]]&amp;apos;&amp;apos;
+* &amp;apos;&amp;apos;[[Il barbiere di Siviglia (1946 film)|Il barbiere di Siviglia]]&amp;apos;&amp;apos;, 1946, directed by [[Mario Costa (director)|Mario Costa]], with [[Tito Gobbi]]
+* &amp;apos;&amp;apos;[[The Dumb Girl of Portici (film)|The Dumb Girl of Portici]]&amp;apos;&amp;apos;, 1916, directed by [[Lois Weber]] and [[Phillips Smalley]]
+* &amp;apos;&amp;apos;[[Das Rheingold (film)|Das Rheingold]]&amp;apos;&amp;apos;, 199? [from the [[Operavox]] animated series]
+* &amp;apos;&amp;apos;[[Porgy and Bess (film)|Porgy and Bess]]&amp;apos;&amp;apos;
+* &amp;apos;&amp;apos;[[La Bohème (1988 film)|La Bohème]]&amp;apos;&amp;apos;, 1988, directed by [[Luigi Comencini]], with [[Barbara Hendricks]]
+* &amp;apos;&amp;apos;[[Otello (1986 film)|Otello]]&amp;apos;&amp;apos;, 1986
+* &amp;apos;&amp;apos;[[Cavalleria rusticana (1953 film)|Cavalleria rusticana]]&amp;apos;&amp;apos;, 1953
+* &amp;apos;&amp;apos;[[The Death of Klinghoffer]]&amp;apos;&amp;apos;, 2003, directed by [[Penny Woolcock]]
+* &amp;apos;&amp;apos;[[The Bohemian Girl (1927 film)|The Bohemian Girl]]&amp;apos;&amp;apos;, 1927
+* &amp;apos;&amp;apos;[[Katerina Izmailova]]&amp;apos;&amp;apos;, 1966, directed by [[Mikhail Shapiro]], with [[Galina Vishnevskaya]]
+* &amp;apos;&amp;apos;[[Louise (opera)#Film]]&amp;apos;&amp;apos;, 1938, directed by [[Abel Gance]], with [[Grace Moore]]
+* &amp;apos;&amp;apos;[[Topsy-Turvy]]&amp;apos;&amp;apos;
+* &amp;apos;&amp;apos;[[Bánk bán (film)|Bánk bán]]&amp;apos;&amp;apos;, 2001
+
+{{inc-film}}
+
+{{DEFAULTSORT:Films based on classical operas}}
+[[Category:Opera-related lists]]
+[[Category:Lists of films based on works|Operas]]
+[[Category:Films based on plays|*]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="HOL"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="HOL" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Wiktionary|Hol|hol|hól}}
+&amp;apos;&amp;apos;&amp;apos;Hol&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;HOL&amp;apos;&amp;apos;&amp;apos; may refer to:
+{{TOC right}}
+* [[Hol (surname)]]
+* [[Hol IL]], a sports club in Hol municipality, Buskerud county
+* [[Hol (role-playing game)|&amp;apos;&amp;apos;Hol&amp;apos;&amp;apos; (role-playing game)]]
+* [[HOL (proof assistant)]], a family of interactive theorem proving systems
+* [[Hands On Learning]], a student re-engagement program implemented by Hands On Learning Australia
+* [[Head-of-line blocking]], a performance-limiting phenomenon in computer networking
+* [[Hellas On-Line]], a Greek Internet service provider
+* [[Higher-order logic]], a branch of symbolic logic
+* [[House of Lords]], the upper house of the UK parliament
+* &amp;apos;&amp;apos;[[House of Leaves]]&amp;apos;&amp;apos;, a novel by Mark Z. Danielewski
+* &amp;apos;&amp;apos;[[Hounds of Love]]&amp;apos;&amp;apos;, an album by Kate Bush
+* [[tlhIngan Hol]], the Klingon language
+* High Order Language, another term for [[High-level programming language]]
+
+==Places==
+*[[Hol]], a municipality in Buskerud county, Norway
+**[[Old Hol Church]], a 13th-century church in Hol, Buskerud county
+*[[Hol, Tjeldsund]], the administrative centre of Tjeldsund municipality, Nordland county
+*[[Hol, Nordland]], a former municipality in Lofoten, Nordland county
+*[[Hol Church (Nordland)]], a church in Vestvågøy municipality, Nordland county
+* [[Netherlands]], from their former International Olympic Committee country code
+
+{{Disambiguation|geo}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

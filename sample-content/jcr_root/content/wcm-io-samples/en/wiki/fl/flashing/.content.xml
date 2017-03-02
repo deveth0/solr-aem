@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Flashing"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Flashing" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|flashing}}
+&amp;apos;&amp;apos;&amp;apos;Flashing&amp;apos;&amp;apos;&amp;apos; may refer to:
+{{TOC right}}
+==Technology==
+*[[Flashing (technology)]], overwriting a ROM module in a device
+**[[BIOS flashing]], overwriting a BIOS image
+*[[Flashing (cinematography)]], a technique that desaturates the color so that one sees more in shadowed areas
+*[[Flash evaporation]], causing evaporation by lowering a fluid&amp;apos;s pressure below its vapour pressure
+*[[Flashing light]], such as a light bulb or computer&amp;apos;s cursor
+*[[Flash (manufacturing)]], excess material attached to a moulded product which must usually be removed
+
+==Other==
+*[[Exhibitionism]], briefly exposing one&amp;apos;s body in a usually sexual way, acceptable or not depending on context
+*[[Flashing (weatherproofing)]], construction material used to prevent the passage of water around objects
+*[[Facing (retail)]], getting rid of gaps on shelves to create the appearance of a fuller shelf
+*[[Headlight flashing]], briefly switching on main-beam headlights in a prompt action to warn oncoming drivers of dangers ahead
+
+==See also==
+*[[Flash (disambiguation)]]
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:WikiProject Countries/Proposal 1"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:WikiProject Countries/Proposal 1" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;This format fails to distinguish main articles, subtopics, and related topics. Those with a different level of hierarchy (ie, &amp;quot;main articles&amp;quot;) need to be more prominent. --[[User:Jiang|Jiang]] 05:38, 22 Sep 2003 (UTC)
+
+:Well, the problem with that is that if we use &amp;quot;government&amp;quot; instead of &amp;quot;politics&amp;quot; and &amp;quot;society and infrastructure&amp;quot; instead of the various things we had before, then we won&amp;apos;t have main articles for those topics. If you have a specific idea, could you please edit the page? -- [[User:Tim Starling|Tim Starling]] 05:46, Sep 22, 2003 (UTC)
+
+What if we still listed those articles (be careful to restrict them to &amp;quot;of Australia&amp;quot; ones) as &amp;apos;&amp;apos;main articles&amp;apos;&amp;apos;? They need to be set apart somehow. --[[User:Jiang|Jiang]] 05:54, 22 Sep 2003 (UTC)&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

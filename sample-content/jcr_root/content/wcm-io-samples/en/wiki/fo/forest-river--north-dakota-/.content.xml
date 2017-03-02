@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Forest River (North Dakota)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Forest River (North Dakota)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;Forest River&amp;apos;&amp;apos;&amp;apos; is an {{convert|81.0|mi|km|adj=mid|-long}}&amp;lt;ref name=NHD&amp;gt;U.S. Geological Survey. National Hydrography Dataset high-resolution flowline data. [http://viewer.nationalmap.gov/viewer/ The National Map], accessed June 8, 2011&amp;lt;/ref&amp;gt; tributary of the [[Red River of the North]] in eastern [[North Dakota]] in the [[United States]]. It rises in [[Walsh County, North Dakota|Walsh County]] and flows southeast and east, past the towns of [[Fordville, North Dakota|Fordville]] and [[Minto, North Dakota|Minto]], and forms a confluence with the Red approximately {{convert|40|mi}} north of [[Grand Forks, North Dakota|Grand Forks]].
+
+==See also==
+*[[List of North Dakota rivers]]
+
+==References==
+{{Reflist}}
+
+==External links==
+*{{GNIS|1029003|Forest River}}
+*[http://viewer.nationalmap.gov/viewer/?p=default&amp;amp;b=base1&amp;amp;q=48.3580397%20-97.1459042&amp;amp;l=13 Forest River on the USGS National Map]
+*{{cite web
+ |url        =http://cfpub.epa.gov/surf/huc.cfm?huc_code=09020308
+ |title      =Forest Watershed
+ |publisher  =U.S. Environmental Protection Agency (EPA)
+ |accessdate =2012-09-20}}
+
+{{coord|48|21|28|N|97|08|45|W|format=dms|display=title|type:river_region:US-ND_source:GNIS}}
+
+[[Category:Rivers of North Dakota]]
+
+
+{{NorthDakota-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

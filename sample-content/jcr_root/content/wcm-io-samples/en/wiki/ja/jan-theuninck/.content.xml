@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Jan Theuninck"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Jan Theuninck" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox person
+| name        = Jan Theuninck
+| image       = Jan Theuninck.JPG
+| image_size  =
+| alt         = Jan Theuninck
+| caption     = Jan Theuninck
+| birth_name  =
+| birth_date  = {{birth date and age|df=yes|1954|6|7}}
+| birth_place = [[Zonnebeke]], [[Belgium]]
+| death_date  = &amp;lt;!-- {{death date and age|df=yes|YYYY|MM|DD|YYYY|MM|DD}} --&amp;gt;
+| death_place =
+| nationality = {{BEL}}
+| other_names =
+| known_for   =
+| occupation  = painter, poet
+}}{{Use dmy dates|date=September 2010}}
+&amp;apos;&amp;apos;&amp;apos;Jan Theuninck&amp;apos;&amp;apos;&amp;apos; (born 7 June 1954), is a Belgian [[Painting|painter]] and [[poet]]. Although born in [[Zonnebeke]], [[Belgium]], and a native speaker of [[Dutch language|Dutch]], he writes in [[French language|French]] and occasionally [[English language|English]]. His painting is abstract, falling somewhere between [[minimalism]] and monochrome [[expressionism]].
+
+As a painter, he has been influenced by [[Ellsworth Kelly]] and [[Joan Miró]]. His work in both media is guided by his social and political convictions, dealing with topics such as [[colonialism]] old and new, mass and society, and [[pacifism]].
+
+==External links==
+* [http://www.boekgrrls.nl/BgDiversen/Onderwerpen/gedichten_over_schilderijen.htm  &amp;apos;&amp;apos;Holocaust&amp;apos;&amp;apos; by Jan Theuninck on Boekgrrls]
+*[http://www.exposweb.net/Visual_Art/Jan_Theuninck/JTImageGallery/album0.html Theuninck&amp;apos;s work  extensively on the Expose&amp;apos;d website]
+*[http://www.trinity.wa.edu.au/plduffyrc/subjects/english/poetry/jan.htm Great War poetry]
+
+{{Wikiquote}}
+
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Theuninck, Jan
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION = painter, poet
+| DATE OF BIRTH     = 7 June 1954
+| PLACE OF BIRTH    = [[Zonnebeke]], [[Belgium]]
+| DATE OF DEATH     =
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Theuninck, Jan}}
+[[Category:Belgian painters]]
+[[Category:Belgian poets in French]]
+[[Category:Flemish writers]]
+[[Category:1954 births]]
+[[Category:Living people]]
+
+{{Belgium-painter-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

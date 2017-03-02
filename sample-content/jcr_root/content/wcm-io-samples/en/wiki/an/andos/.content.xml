@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="ANDOS"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="ANDOS" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{no footnotes|date=March 2013}}
+{{Infobox OS
+| name = ANDOS
+| logo =
+| screenshot =
+| caption = ANDOS&amp;apos; dynamic splash screen after system bootup
+| developer = Alexey Nadezhin and Sergey Kamnev (ANCO company)
+| family =
+| programmed_in = [[Assembly language]]
+| source_model = [[Closed source]]
+| supported_platforms = Elektronika BK ([[PDP-11]] architecture)
+| working_state = Abandoned
+| latest_release_version = 3.30
+| latest_release_date = December, 1997
+| kernel_type =
+| license = [[Proprietary software|Proprietary]], commercial and freeware versions existed, latest version is free for download from the official site.
+| ui = Disk Master or BK Shell graphical non-windowing file managers
+| website = http://www.df.ru/~andos/
+}}
+&amp;apos;&amp;apos;&amp;apos;ANDOS&amp;apos;&amp;apos;&amp;apos; is a [[Russia]]n [[operating system]] for [[Electronika BK-0010]], Electronika BK-0011 and [[Electronika BK-0011M]] series computers. It was created in 1990 and first released in 1992. Initially it was developed by Alexey Nadezhin (by whose name the system is named) and later also by Sergey Kamnev, who joined the project. It was the only widespread system on BK series computers that used [[MS-DOS]]-compatible [[file system]] format. ANDOS used the [[FAT12]] filesystem on 800&amp;amp;nbsp;Kb floppy disks. For Electronika BK-0011M and Electronika BK-0011 ANDOS provided Electronika BK-0010 emulation by loading BK-0010 ROM image into BK-0011(M) RAM. In minimal configuration the system was able to occupy less than 4&amp;amp;nbsp;Kb of RAM.
+
+The system was able to support up to 64 disk drives (or hard drive partitions) as well as [[RAM disk]]s in the computer&amp;apos;s memory and tape recording. It also was able to have read-only access to MicroDOS file system format disks, although in the last version this function was transferred from system core to the file manager and became optional.
+
+==External links==
+* [http://web.archive.org/web/20090828233805/http://www.df.ru/~andos/ ANDOS Official homepage] at [[Internet Archive]]
+* {{ru_icon}} [http://bk0010.narod.ru/docs/BK_Magazine/199301/006.htm A.M.Nadezhin. Disk operation system ANDOS (Article with description of ANDOS v2.30$ by its creator, published in a magazine &amp;quot;Personal computer BK-0010 - BK-0011M&amp;quot;)]
+* {{ru_icon}} [http://bk0010.narod.ru/docs/BK_Magazine/199301/005.htm V.P.Yurov. BK-0010(.01) with disk drive (Comparison of operating systems for BK-0010). Magazine &amp;quot;Personal computer BK-0010 - BK-0011M&amp;quot;, 1993]
+* {{ru_icon}} [http://bk0010.narod.ru/docs/BK_Magazine/199301/011.htm D.Yu.Usenkov. BK-0010: Experience of work with a disk (from user&amp;apos;s point of view). Magazine &amp;quot;Personal computer BK-0010 - BK-0011M&amp;quot;, 1993 - Comparison between NORD and ANDOS]
+* {{ru_icon}} [http://bk0010.narod.ru/docs/BK_Magazine/PKBK-1994-3.djvu V.P.Yurov. Disk operating systems for BK-0011(M). Magazine &amp;quot;Personal computer BK-0010 - BK-0011M&amp;quot;, 1994 (djvu)]
+
+{{Operating systems for Elektronika BK}}
+
+[[Category:Elektronika BK operating systems]]
+[[Category:Software written in assembly language]]
+
+{{operating-system-stub}}
+{{Russia-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

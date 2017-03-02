@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Unitarian"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Unitarian" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|Unitarian|unitarian}}
+&amp;apos;&amp;apos;&amp;apos;Unitarian&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+==Religion==
+* A believer in the strictly [[monotheistic]] and [[anti-trinitarian]] [[Christian theology]] known as [[Unitarianism]]
+* The religious movement whose congregations in Britain belong to the umbrella organisation of the [[General Assembly of Unitarian and Free Christian Churches]]
+* A member of a Unitarian congregation in North America from 1782 or of the [[History_of_Unitarianism#United_States|American Unitarian Association]] up to 1961 which promoted [[liberal Christianity]], [[Transcendentalism]] and [[Religious Humanism]]
+* A follower of [[Unitarian Universalism]]; or a member of a Unitarian Universalist Church in North America who adhered to, or identifies with, the [[Unitarianism|Unitarian]] part of that church prior to consolidation in 1961.
+* [[Biblical Unitarianism]], a nontrinitarian movement within traditional conservative Christianity
+* The English translation of the Arabic term موحد &amp;apos;&amp;apos;Muwaḥḥid&amp;apos;&amp;apos; (plural موحدون &amp;apos;&amp;apos;Muwaḥḥidūn&amp;apos;&amp;apos;), alternately meaning &amp;quot;monotheist&amp;quot;, which may refer to:
+** The [[Almohad Caliphate]], a dynasty and movement in the Maghreb and Al-Andalus
+** The [[endonym]] of the [[Druze]] people
+** The self-description of many [[Salafi]] and [[Wahhabi]] groups
+
+==Politics==
+*[[Unitary state]], a political system where a country is governed as one single unit
+* A member of the [[Unitarian Party]] of Argentine history
+
+==Classics==
+* A scholar who holds that the works of Homer were composed by a single individual (see [[Homeric scholarship]])
+
+==See also==
+* [[Unitarianism (disambiguation)]]
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

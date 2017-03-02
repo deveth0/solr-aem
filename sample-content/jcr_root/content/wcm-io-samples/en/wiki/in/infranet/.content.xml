@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Infranet"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Infranet" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Orphan|date=February 2009}}
+The &amp;apos;&amp;apos;&amp;apos;Infranet&amp;apos;&amp;apos;&amp;apos; is a prospective architecture for the [[Internet]] and future [[Packet (information technology)|packet]]-based [[telecommunications network]]s. The Internet&amp;apos;s architecture is largely the result of the [[emergent behavior]] of the interacting [[Internet protocol suite|protocols]] on the Internet and the business practices of [[telecommunications]] providers.  The Infranet can be thought of as the result of reforming existing networking practices by starting with the question &amp;quot;What services are required?&amp;quot; rather than &amp;quot;What do the protocols and equipment provide?&amp;quot;.
+
+This [[Top-down and bottom-up design|top-down]] approach to network design is substantially different from the bottom-up practices used by most of the successful Internet standards distributed by the [[IETF]].
+
+The term Infranet is also used to refer to a proposed system of transferring sensitive data masquerading as anodyne data (an example of [[steganography]]) over the Internet. Its purpose is to enable people in territories whose regimes exercise strict control over information to have uncensored access to the web without risking censure. The system is under development by [[Hari Balakrishnan]], [[David Karger]] and others.
+
+== Critics ==
+Some competitors of Juniper Networks, such as [[Cisco Systems]], initially claimed that the Infranet was nothing more than [[vaporware]] and marketing fluff. However under strong pressure from the service provider community, Cisco Systems and Alcatel joined the Infranet Initiative Council in June 2005, and the body was rechristened the [[IPsphere Forum]].
+
+==References==
+*{{cite news | last=Schultz | first=Beth | title=What the heck&amp;apos;s an inFRAnet? | date=September 27, 2004 | publisher=Network World | url=http://www.nwfusion.com/buzz/2004/092704infranet.html}}
+*{{cite news | last=Lim | first=Jeffrey | title=Juniper Carves Infranet Dream | date=December 2, 2004 | publisher=Network Computing Asia | url=http://www.ncasia.com/ViewArt.cfm?Magid=3&amp;amp;Artid=25647&amp;amp;Catid=2&amp;amp;subcat=39}}
+*[http://www.infranet.org/ The Infranet Initiative Council websites]
+*[http://nms.csail.mit.edu/projects/infranet/ Infranet (censorship-circumventing data transfer system)]
+
+
+[[Category:Network architecture]]
+[[Category:Telecommunications organizations]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

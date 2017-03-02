@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Kielanodon"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Kielanodon" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;lt;!-- Here is a table of data; skip past it to edit the text. --&amp;gt;
+{{Taxobox
+| name = &amp;apos;&amp;apos;Kielanodon&amp;apos;&amp;apos;
+| fossil_range = [[Late Jurassic]]
+| regnum = [[Animal]]ia
+| phylum = [[Chordata]]
+| classis = [[Mammal]]ia
+| ordo = [[Multituberculata]]
+| familia = [[Paulchoffatiidae]]
+| genus = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Kielanodon&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+| genus_authority = G. Hahn, 1987
+| subdivision_ranks = [[Species]]
+| subdivision =
+&amp;amp;nbsp;&amp;amp;nbsp;&amp;apos;&amp;apos;K. hopsoni&amp;apos;&amp;apos;&amp;lt;br&amp;gt;
+others
+}}
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Kielanodon&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is an [[extinct]] [[mammal]] of the [[Portugal|Portuguese]] Upper [[Jurassic]]. It was a relatively early member of the also extinct [[order (biology)|order]] of [[Multituberculata]]. It eked out a living during the [[Mesozoic]] era, also known as the &amp;quot;Age of the [[Dinosaur]]s.&amp;quot; It is in the [[suborder]] [[Plagiaulacida]], family [[Paulchoffatiidae]].
+
+The genus &amp;apos;&amp;apos;Kielanodon&amp;apos;&amp;apos;, meaning &amp;quot;Kielan’s tooth&amp;quot; after Zofia Kielan-Jaworowska, was named by Hahn G. in 1987. The main species, &amp;apos;&amp;apos;Kielanodon hopsoni&amp;apos;&amp;apos;, also named by Hahn, is known from fossils found in the Kimmeridgian (Upper Jurassic)-age strata of Guimarota, [[Portugal]]. The identification is based on three upper jaws.
+
+== References ==
+* Hahn (1987), &amp;apos;&amp;apos;Neue Beobachtungen zum Schädel- und Gebiss-Bau der Paulchoffatiidae (Multituberculata, Ober-Jura)&amp;apos;&amp;apos;. &amp;lt;u&amp;gt;Paleovertebrata&amp;lt;/u&amp;gt; 17 p.155-196, 5 plates.
+&amp;apos;&amp;apos;(New observations on the skull and jaw constructions in Paulchoffatiidae ([[Multituberculata]], Upper Jurassic)).&amp;apos;&amp;apos;
+* Hahn G &amp;amp; Hahn R (2000), Multituberculates from the Guimarota mine, p.97-107 in Martin T &amp;amp; Krebs B (eds), Guimarota - A Jurassic Ecosystem, Verlag Dr Friedrich Pfeil, München.
+* Kielan-Jaworowska Z &amp;amp; Hurum JH (2001), &amp;apos;&amp;apos;Phylogeny and Systematics of multituberculate mammals&amp;apos;&amp;apos;. &amp;lt;u&amp;gt;Paleontology&amp;lt;/u&amp;gt; 44, p.389-429.
+* Much of this information has been derived from [http://home.arcor.de/ktdykes/multis.htm] Multituberculata Cope, 1884.
+
+[[Category:Multituberculates]]
+[[Category:Jurassic mammals]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

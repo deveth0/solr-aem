@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="NGC 5078"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="NGC 5078" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox Galaxy
+| image = [[Image:NGC5078.jpg|250px|]]
+| name = [[New General Catalogue|NGC]] 5078
+| epoch = [[J2000]]
+| type = SA(s)a&amp;lt;ref name=&amp;quot;ned&amp;quot;&amp;gt;{{cite web
+  | title=NASA/IPAC Extragalactic Database
+  | work=Results for NGC 5078
+  | url=http://nedwww.ipac.caltech.edu/
+  | accessdate=2006-11-18 }}&amp;lt;/ref&amp;gt;
+| ra = {{RA|13|19|50.0}}&amp;lt;ref name=&amp;quot;ned&amp;quot; /&amp;gt;
+| dec = {{DEC|-27|24|36}}&amp;lt;ref name=&amp;quot;ned&amp;quot; /&amp;gt;
+| dist_ly =  94 [[light-year|Mly]]{{Fact|date=February 2007}}
+| z = 2168 ± 6 km/[[second|s]]&amp;lt;ref name=&amp;quot;ned&amp;quot; /&amp;gt;
+| appmag_v = +11.8&amp;lt;ref name=&amp;quot;ned&amp;quot; /&amp;gt;
+| size_v = 4&amp;amp;prime;.0 &amp;amp;times; 1&amp;amp;prime;.9&amp;lt;ref name=&amp;quot;ned&amp;quot; /&amp;gt;
+| constellation name = [[Hydra (constellation)|Hydra]]
+| notes =
+| names = [[Principal Galaxies Catalogue|PGC]] 46490&amp;lt;ref name=&amp;quot;ned&amp;quot; /&amp;gt;
+}}
+
+&amp;apos;&amp;apos;&amp;apos;NGC 5078&amp;apos;&amp;apos;&amp;apos; is a [[spiral galaxy]] in the [[Hydra (constellation)|Hydra]] [[constellation]]. It is similar in structure to [[NGC 5746]]. NGC 5078 is at an estimated 94 million [[light-year]]s away from [[Earth]].
+
+==References==
+
+{{reflist}}
+{{Ngc55}}
+[[Category:Spiral galaxies]]
+[[Category:Hydra (constellation)]]
+[[Category:NGC objects|5078]]
+[[Category:PGC objects|46490]]
+
+{{galaxy-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

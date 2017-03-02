@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Font (disambiguation)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Font (disambiguation)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{selfref|For Wikipedia&amp;apos;s style manual for text formatting, see [[Wikipedia:Font]]. For instructions on how to apply text formatting in Wikipedia, see [[Help:Wiki markup#Character formatting]].}}
+{{Wiktionary|font}}
+
+&amp;apos;&amp;apos;&amp;apos;Font&amp;apos;&amp;apos;&amp;apos; may mean:
+
+* [[Font]] in typography, a complete character set in a particular point size, in a particular typeface
+* [[Computer font]]
+* [[Holy water font]], a vessel for holy water, often seen at the entrance of a church
+* [[Baptismal font]], a container for holy water used in the Christian ceremonial of baptism
+* [[Fountain]] (archaic usage, also spelled fount)
+* [[Kerosene lamp]] font, the container at the base of an oil or kerosene lamp that holds the oil, also spelled fount
+
+;Other meanings
+* [[Font, Switzerland]], a municipality of the canton of Fribourg
+* [[River Font]], a river in Northumberland, England
+* [[Héctor Font]], Spanish footballer
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

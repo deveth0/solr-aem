@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Dipolar bond"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Dipolar bond" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;A &amp;apos;&amp;apos;&amp;apos;dipolar bond&amp;apos;&amp;apos;&amp;apos;,&amp;lt;ref&amp;gt;{{GoldBookRef | file = D01752 | title = dipolar bond}}&amp;lt;/ref&amp;gt; also known as a &amp;apos;&amp;apos;&amp;apos;dative covalent bond&amp;apos;&amp;apos;&amp;apos;&amp;lt;ref&amp;gt;{{GoldBookRef | file = D01523 | title = dative bond}}&amp;lt;/ref&amp;gt; or &amp;apos;&amp;apos;&amp;apos;coordinate bond&amp;apos;&amp;apos;&amp;apos;&amp;lt;ref&amp;gt;{{GoldBookRef | file = C01329 | title = coordinate bond}}&amp;lt;/ref&amp;gt; is a kind of 2-center, 2-electron [[covalent bond]] in which the two electrons derive from the same atom.
+
+== Examples ==
+[[File:NH3-BF3-adduct-bond-lengthening-2D.png|thumb|Adduct of ammonia and boron trifluoride]]
+The term dipolar bond is used in [[organic chemistry]] for compounds such as [[amine oxide]]s for which the electronic structure can be described in terms of the basic amine donating two electrons to an oxygen atom.
+:R&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;N&amp;amp;rarr;O
+The arrow → indicates that both electrons in the bond originate from the amine moiety. In a standard covalent bond each atom contributes one electron. Therefore, an alternative description is that the amine gives away one electron to the oxygen atom, which is then used, with the remaining unpaired electron on the nitrogen atom, to form a standard covalent bond. The process of transferring the electron from nitrogen to oxygen creates [[formal charge]]s, so the electronic structure may also be depicted as
+:R&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;N&amp;lt;sup&amp;gt;+&amp;lt;/sup&amp;gt;O&amp;lt;sup&amp;gt;-&amp;lt;/sup&amp;gt;
+[[File:CoA6Cl3.png|thumb|220px|Hexamminecobalt(III) chloride]]
+This electronic structure has an [[electric dipole]], hence the name dipolar bond. In reality the atoms carry [[fractional charge]]s; the more [[electronegative]] atom of the two involved in the bond will carry a fractional negative charge.
+
+An example of a dative covalent bond is provided by the interaction between a molecule of [[ammonia]], a Lewis base with a lone pair of electrons on the nitrogen atom, and [[boron trifluoride]], a Lewis acid by virtue of the boron atom having an incomplete [[octet rule|octet]] of electrons. In forming the adduct, the boron atom attains an octet configuration.
+
+The electronic structure of a [[coordination complex]] can be described in terms of the set of [[ligand]]s each donating a pair of electrons to a metal centre.  For example, in [[Hexamminecobalt(III) chloride]], each [[ammonia]] ligand donates its lone pair of electrons to the cobalt(III) ion. In this case, the bonds formed are described as coordinate bonds.
+
+In all cases the bond is a covalent bond. The prefix dipolar, dative or coordinate merely serves to indicate the origin of the electrons used in creating the bond.
+
+== References ==
+{{reflist}}
+
+{{Chemical bonds}}
+
+{{DEFAULTSORT:Dipolar Bond}}
+[[Category:Chemical bonding]]
+[[Category:Acid-base chemistry]]
+[[Category:Coordination chemistry]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

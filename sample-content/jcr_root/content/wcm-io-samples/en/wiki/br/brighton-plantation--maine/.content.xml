@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Brighton Plantation, Maine"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Brighton Plantation, Maine" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{notability|date=August 2010}}
+&amp;apos;&amp;apos;&amp;apos;Brighton Plantation&amp;apos;&amp;apos;&amp;apos; is a [[Plantation (Maine)|plantation]] in [[Somerset County, Maine|Somerset County]], [[Maine]], [[United States]]. The population was 86 at the [[2000 United States Census|2000 census]].
+
+==Geography==
+According to the [[United States Census Bureau]], the plantation has a total area of {{convert|40.0|sqmi|km2}}, of which {{convert|39.3|sqmi|km2}} is land and {{convert|0.7|sqmi|km2}} (1.68%) is water.
+
+==Demographics==
+As of the [[census]]&amp;lt;ref&amp;gt;[http://factfinder.census.gov/servlet/SAFFFacts?_event=Search&amp;amp;geo_id=06000US2302902970&amp;amp;_geoContext=01000US%7C04000US23%7C05000US23029%7C06000US2302902970&amp;amp;_street=&amp;amp;_county=Brighton+Plantation&amp;amp;_cityTown=Brighton+Plantation&amp;amp;_state=04000US23&amp;amp;_zip=&amp;amp;_lang=en&amp;amp;_sse=on&amp;amp;ActiveGeoDiv=geoSelect&amp;amp;_useEV=&amp;amp;pctxt=fph&amp;amp;pgsl=060&amp;amp;_submenuId=factsheet_1&amp;amp;ds_name=DEC_2000_SAFF&amp;amp;_ci_nbr=null&amp;amp;qr_name=null&amp;amp;reg=null%3Anull&amp;amp;_keyword=&amp;amp;_industry= Brighton Plantation Census Bureau Fact Sheet], [[United States Census Bureau]], 2000.  Accessed 2008-07-02.&amp;lt;/ref&amp;gt; of 2000, there were 86 people, 33 households, and 23 families residing in the plantation. The [[population density]] was 2.2 people per square mile (0.8/km²). There were 76 housing units at an average density of 1.9 per square mile (0.7/km²). The racial makeup of the plantation was 94.19% [[White (U.S. Census)|White]], 1.16% [[Asian (U.S. Census)|Asian]], and 4.65% from two or more races.
+
+There were 33 households out of which 36.4% had children under the age of 18 living with them, 66.7% were [[Marriage|married couples]] living together, 3.0% had a female householder with no husband present, and 27.3% were non-families. 18.2% of all households were made up of individuals and 3.0% had someone living alone who was 65 years of age or older. The average household size was 2.61 and the average family size was 3.04.
+
+In the plantation the population was spread out with 29.1% under the age of 18, 4.7% from 18 to 24, 26.7% from 25 to 44, 31.4% from 45 to 64, and 8.1% who were 65 years of age or older. The median age was 35 years. For every 100 females there were 109.8 males. For every 100 females age 18 and over, there were 110.3 males.
+
+The median income for a household in the plantation was $27,083, and the median income for a family was $28,438. Males had a median income of $28,750 versus $16,875 for females. The [[per capita income]] for the plantation was $14,281. There were 6.9% of families and 14.6% of the population living below the [[poverty line]], including no under eighteens and 25.0% of those over 64.
+
+==References==
+{{Reflist}}
+
+{{Somerset County, Maine}}
+
+{{coord|45|02|43|N|69|41|41|W|type:city_region:US-ME|display=title}}
+
+[[Category:Plantations in Somerset County, Maine]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

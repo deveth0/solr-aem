@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Bus stop (disambiguation)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Bus stop (disambiguation)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|bus stop}}
+A &amp;apos;&amp;apos;&amp;apos;[[bus stop]]&amp;apos;&amp;apos;&amp;apos; is a place, other than a terminal, established for buses to pick up and drop off passengers
+
+&amp;apos;&amp;apos;&amp;apos;Bus Stop&amp;apos;&amp;apos;&amp;apos; may also refer to:
+
+*[[Bus Stop (play)|&amp;apos;&amp;apos;Bus Stop&amp;apos;&amp;apos; (play)]], a 1955 play by William Inge
+*[[Bus Stop (film)|&amp;apos;&amp;apos;Bus Stop&amp;apos;&amp;apos; (film)]], a 1956 film, loosely based on the play, with Marilyn Monroe and Don Murray
+*[[Bus Stop (2012 film)|&amp;apos;&amp;apos;Bus Stop&amp;apos;&amp;apos; (2012 film)]], a Telugu film directed by Maruthi
+
+*[[Bus Stop (TV series)|&amp;apos;&amp;apos;Bus Stop&amp;apos;&amp;apos; (TV series)]], a 1961-62 television series
+*[[Bus Stop (1982 film)|&amp;apos;&amp;apos;Bus Stop&amp;apos;&amp;apos; (1982 film)]], the 1982 retelling of the original 1955 play starring [[Tim Matheson]]
+
+=== Music ===
+*[[Bus Stop (band)]], a 1998 band known for a version of &amp;quot;Kung Fu Fighting&amp;quot;
+*[[Bus Stop (song)|&amp;quot;Bus Stop&amp;quot; (song)]], a 1966 single by The Hollies
+*&amp;quot;[[The Bus Stop Song]]&amp;quot;, a 1956 single by The Four Lads, used as the intro song for the 1956 film &amp;apos;&amp;apos;Bus Stop&amp;apos;&amp;apos;
+*&amp;quot;(Are You Ready) Do The Bus Stop&amp;quot;, a 1975 single by [[Fatback Band]]
+*[[Bus Stop (album)|&amp;apos;&amp;apos;Bus Stop&amp;apos;&amp;apos; (album)]], a 1966 album by The Hollies
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

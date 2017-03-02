@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Aotus"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Aotus" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Aotus&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; may refer to:
+* [[Aotus (plant)|&amp;apos;&amp;apos;Aotus&amp;apos;&amp;apos; (plant)]], one of the plant genera commonly known as golden peas in the family Fabaceae (bean family).
+* [[Aotus (monkey)|&amp;apos;&amp;apos;Aotus&amp;apos;&amp;apos; (monkey)]], the genus of night monkeys in the family Aotidae.
+
+The name is derived from the [[Ancient Greek]] words for &amp;quot;earless&amp;quot; in both cases: the monkey is missing external [[ear]]s, and the pea is missing earlike bracteoles.
+
+* AOTUS is also the acronym for the [[Archivist of the United States]]
+
+{{Genus disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

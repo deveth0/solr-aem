@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Upper Catesby"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Upper Catesby" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{infobox UK place
+|country =                 England
+|official_name=       Upper Catesby
+|latitude=                  52.2302
+|longitude=              -1.2299
+|population=
+|civil_parish=             [[Catesby, Northamptonshire|Catesby]]
+|shire_district=           [[Daventry (district)|Daventry]]
+|shire_county =            [[Northamptonshire]]
+|region=                   East Midlands
+|constituency_westminster= [[Daventry (UK Parliament constituency)|Daventry]]
+|post_town=                Daventry
+|postcode_district =       NN11
+|postcode_area=           NN
+|dial_code=                01327
+|os_grid_reference=        SP526593
+|london_distance=
+|static_image=
+|static_image_caption=
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Upper Catesby&amp;apos;&amp;apos;&amp;apos; is a [[village]] in the [[Daventry (district)|Daventry district]] of the county of [[Northamptonshire]] in [[England]]. Together with [[Lower Catesby]] it forms the [[civil parishes in England|civil parish]] of [[Catesby, Northamptonshire|Catesby]].
+
+
+
+==External links==
+{{Commons category inline|Catesby, Northamptonshire}}
+*{{oscoor gbx|SP527594}}
+
+{{Daventry District}}
+
+[[Category:Villages in Northamptonshire]]
+
+
+{{Northamptonshire-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Thecadactylus"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Thecadactylus" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Taxobox
+| image = Thecadactylus oskrobapreinorum - ZooKeys-118-097-g004-d.jpg
+| image_caption = &amp;apos;&amp;apos;[[Thecadactylus oskrobapreinorum]]&amp;apos;&amp;apos;
+| regnum = [[Animal]]ia
+| phylum = [[Chordate|Chordata]]
+| classis = [[Reptile|Reptilia]]
+| ordo = [[Squamata]]
+| familia = [[Phyllodactylidae]]
+| genus = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Thecadactylus&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+|genus_authority = Oken, 1817
+|subdivision_ranks = Species
+|subdivision = 3, see text
+}}
+
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Thecadactylus&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is a [[gekko]] [[genus]] from the [[tropical]] [[Americas]]. They are known as the &amp;apos;&amp;apos;&amp;apos;turnip-tailed geckos&amp;apos;&amp;apos;&amp;apos;.&amp;lt;ref name=koh&amp;gt;Köhler, G. and M. Vesely. (2011). [http://www.pensoft.net/J_FILES/1/articles/1476/1476-G-3-layout.pdf A new species of &amp;apos;&amp;apos;Thecadactylus&amp;apos;&amp;apos; from Sint Maarten, Lesser Antilles (Reptilia, Squamata, Gekkonidae).] &amp;apos;&amp;apos;ZooKeys&amp;apos;&amp;apos; 118: 97–107.&amp;lt;/ref&amp;gt; The genus belongs to the gecko [[family]] [[Phyllodactylidae]]. Until 2007, it was believed to be [[monotypic]], with &amp;apos;&amp;apos;T. rapicauda&amp;apos;&amp;apos; the sole species. Then however, the population from upstream southern [[Amazonia]] was discovered to be very distinct and was named a new [[species]], &amp;apos;&amp;apos;T. solimoensis&amp;apos;&amp;apos;. A third species was described in 2011.
+
+* &amp;apos;&amp;apos;[[Thecadactylus rapicauda]]&amp;apos;&amp;apos; &amp;lt;small&amp;gt;Houttuyn, 1782&amp;lt;/small&amp;gt; &amp;amp;ndash; Northern Turniptail Gecko
+* &amp;apos;&amp;apos;[[Thecadactylus solimoensis]]&amp;apos;&amp;apos; &amp;lt;small&amp;gt;Bergmann &amp;amp; Russell, 2007&amp;lt;/small&amp;gt; &amp;amp;ndash; Southern Turniptail Gecko&amp;lt;!-- ZoolJLinnSoc149:339. --&amp;gt;
+* &amp;apos;&amp;apos;[[Thecadactylus oskrobapreinorum]]&amp;apos;&amp;apos; &amp;lt;small&amp;gt;Köhler &amp;amp; Vesely, 2011&amp;lt;/small&amp;gt;&amp;lt;ref name=koh/&amp;gt;
+==References==
+{{reflist}}
+
+{{gecko-stub}}
+[[Category:Geckos]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

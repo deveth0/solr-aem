@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:Chinese interlanguage links"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:Chinese interlanguage links" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{nutshell|Just use &amp;lt;nowiki&amp;gt;[[zh:]]&amp;lt;/nowiki&amp;gt;. The old tags &amp;lt;nowiki&amp;gt;[[zh-cn:]]&amp;lt;/nowiki&amp;gt; and/or &amp;lt;nowiki&amp;gt;[[zh-tw:]]&amp;lt;/nowiki&amp;gt; are defunct.}}
+
+The Chinese within the &amp;lt;nowiki&amp;gt;[[zh:]]&amp;lt;/nowiki&amp;gt; tag could be either Traditional or Simplified. It doesn&amp;apos;t matter. Whether the user sees Traditional or Simplified is theoretically determined by his choice of user interface in his own Preferences.
+
+==Interlanguage Interwiki links==
+{{See|Help:Interwiki linking#Technical|Help:Interlanguage links]]}}
+In Interwiki linking, in the case of linking to another Wiki project, but involving another language, such as linking from en.wikipedia to a Chinese language source on Wikisource, this may be done by first putting the project link target, then a colon followed by the target language as a prefix to the article page name, in the form:
+
+:&amp;lt;tt&amp;gt;&amp;lt;nowiki&amp;gt;[[projectname:languagecode:articlename]]&amp;lt;/nowiki&amp;gt;&amp;lt;/tt&amp;gt;.
+
+For example, to link from en.Wikipedia to a Chinese language text at Wikisource (zh.wikisource):
+
+
+:Type:    &amp;lt;tt&amp;gt;&amp;lt;nowiki&amp;gt;[[wikisource:zh:天問]]&amp;lt;/nowiki&amp;gt;&amp;lt;/tt&amp;gt;
+
+:To get: [[wikisource:zh:天問]]
+
+
+:Type: &amp;lt;tt&amp;gt;&amp;lt;nowiki&amp;gt;[[wikisource:zh:天問|天問]]&amp;lt;/nowiki&amp;gt;&amp;lt;/tt&amp;gt;
+
+:To get: [[wikisource:zh:天問|天問]]
+
+
+:Type: &amp;lt;tt&amp;gt;&amp;lt;nowiki&amp;gt;[[wikisource:zh:天問|Heavenly Questions]]&amp;lt;/nowiki&amp;gt;&amp;lt;/tt&amp;gt;
+
+:To get: [[wikisource:zh:天問|Heavenly Questions]]
+
+
+These 3 examples all resolve to the zh.wikisource page [http://zh.wikisource.org/wiki/%E5%A4%A9%E5%95%8F 天問], but without the misleading and distracting appearance of being an external link.
+
+[[Category:Wikipedia multilingual coordination|Chinese]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

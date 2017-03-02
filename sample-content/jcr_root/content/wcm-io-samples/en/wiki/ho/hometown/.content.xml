@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Hometown"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Hometown" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary}}
+{{wikiquote}}
+&amp;apos;&amp;apos;&amp;apos;Hometown&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;home town&amp;apos;&amp;apos;&amp;apos; is the city or town where one grew up, or the place of one&amp;apos;s principal residence. It is not to be confused with birthplace, although the two can be the same place.
+
+&amp;apos;&amp;apos;&amp;apos;Hometown&amp;apos;&amp;apos;&amp;apos; may also refer to:
+
+==Places==
+*[[Hometown, Illinois]]
+*[[Hometown, Pennsylvania]]
+*[[Hometown, West Virginia]]
+
+==Other uses==
+* [[Ancestral home (Chinese)]], the place of origin of one&amp;apos;s extended family
+* [[Hometown Band]], a band active in the 1970s
+* HomeTown Buffet, a restaurant chain of [[Buffets, Inc.]]
+* &amp;apos;&amp;apos;[[Hometown High-Q]]&amp;apos;&amp;apos;, a high school quiz bowl game show on television
+* &amp;quot;Hometown&amp;quot;, a song by French duo [[Miss Kittin]] &amp;amp; The Hacker
+* &amp;quot;Hometown&amp;quot;, a song by British singer [[Andy Burrows]], featured in his 2012 album &amp;quot;Company&amp;quot;
+* &amp;quot;[[My Hometown]]&amp;quot;, a song by Bruce Springsteen
+* [[Hometown (TV Series)|&amp;apos;&amp;apos;Hometown&amp;apos;&amp;apos; (TV Series)]], a short-lived 1985 dramedy on CBS, adapted from the hit movie &amp;apos;&amp;apos;The Big Chill&amp;apos;&amp;apos;
+* [[Hometown (album)|&amp;apos;&amp;apos;Hometown&amp;apos;&amp;apos; (album)]], the third studio album by Canadian Rock band Ten Second Epic
+* [[Hometown (film)|&amp;apos;&amp;apos;Hometown&amp;apos;&amp;apos; (film)]], a 1983 Japanese film
+* &amp;apos;&amp;apos;Home Town&amp;apos;&amp;apos;, a nonfiction 1999 account of life in [[Northampton, Massachusetts]] by [[Tracy Kidder]]
+
+{{Disambig}}
+{{Use dmy dates|date=December 2010}}
+[[Category:Place name disambiguation pages]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

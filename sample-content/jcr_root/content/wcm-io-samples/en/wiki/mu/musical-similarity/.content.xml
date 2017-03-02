@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Musical similarity"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Musical similarity" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The notion of &amp;apos;&amp;apos;&amp;apos;musical similarity&amp;apos;&amp;apos;&amp;apos; is particularly complex because there are numerous dimensions of similarity. If similarity takes place between different fragments from one musical piece, a musical similarity implies a [[repetition (music)|repetition]] of the first occurring fragment. As well, eventually, the similarity does not occur by direct repetition, but by presenting in two (or more) set of relations, some common values or patterns. Objective musical similarity can be based on musical features such as:
+
+Pitched parameters
+* [[Pitch (music)|Pitch]] interval similarity
+* [[Melody|Melodic]] similarity&amp;lt;ref&amp;gt;Greg Aloupis, Thomas Fevens, Stefan Langerman, Tomomi Matsui, Antonio Mesa, Yurai Nunez, and David Rappaport, and Godfried T. Toussaint, &amp;quot;Algorithms for computing geometric measures of melodic similarity,&amp;quot; &amp;apos;&amp;apos;Computer Music Journal&amp;apos;&amp;apos;, Vol. 30, No. 3, Fall 2006, pp. 67–76.&amp;lt;/ref&amp;gt;
+* [[Modulation (music)|Modulation]] pattern similarity
+* [[Timbre|Timbral]] similarity
+
+Non-pitched parameters
+* [[Meter (music)|Metrical]] structure similarity
+* [[Rhythm]]ic pattern similarity&amp;lt;ref&amp;gt;Godfried T. Toussaint, &amp;quot;A comparison of rhythmic dissimilarity measures,&amp;quot; &amp;apos;&amp;apos;FORMA&amp;apos;&amp;apos;, Vol. 21, No. 2, 2006, pp. 129–149.&amp;lt;/ref&amp;gt;
+* [[Section (music)|Section]] structure similarity
+
+Semiotic parameters
+* [[Modality (semiotics)|Modality]] structure similarity
+* [[Extension (semantics)|Extension]]al similarity
+* [[Intension]]al similarity
+
+Nevertheless, similarity can be based also on less objective features such as musical genre, personal history, social context (e.g. music from the 1960s), and a priori knowledge.
+
+==Applications==
+Automatic methods of musical similarity detection based on [[data mining]] and [[co-occurrence]] analysis has been developed in order to classify music titles for electronic music distribution.&amp;lt;ref&amp;gt;François Pachet, Geert Westermann, Damien Laigre, [http://www.csl.sony.fr/downloads/papers/2001/pachet01c.pdf Musical Data Mining for Electronic Music Distribution]. Proceedings of the 1st WedelMusic Conference, pp. 101-106, Firenze, Italy, 2001.&amp;lt;/ref&amp;gt;
+
+==References==
+&amp;lt;references/&amp;gt;
+
+{{DEFAULTSORT:Musical Similarity}}
+[[Category:Music theory]]
+
+
+{{Music-theory-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

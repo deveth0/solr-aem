@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Mick Jones"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Mick Jones" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Mick Jones&amp;apos;&amp;apos;&amp;apos; may refer to:
+*[[Mick Jones (Foreigner)]] (born 1944), guitarist, songwriter and record producer in the rock band Foreigner and earlier Spooky Tooth
+**[[Mick Jones (album)|&amp;apos;&amp;apos;Mick Jones&amp;apos;&amp;apos; (album)]], a 1989 album by Foreigner musician Mick Jones
+*[[Mick Jones (The Clash)]] (born 1955), British guitarist and a vocalist of The Clash
+*[[Mick Jones (footballer born 1945)]], of the Leeds United football team
+*[[Mick Jones (footballer born 1947)]], English football player and football manager
+*[[Mick Jones (athlete)]] (born 1963), United Kingdom athlete, hammer thrower
+*[[Mickey Jones]] (born 1941), musician
+
+== See also ==
+*[[Michael Jones (disambiguation)]]
+
+{{dab}}
+[[Category:Human name disambiguation pages]]
+{{DEFAULTSORT:Jones, Mick}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Inverse system"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Inverse system" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[mathematics]], an &amp;apos;&amp;apos;&amp;apos;inverse system&amp;apos;&amp;apos;&amp;apos; in a [[category (mathematics)|category]] &amp;apos;&amp;apos;C&amp;apos;&amp;apos; is a [[functor]] from a small [[filtered category|cofiltered category]] &amp;apos;&amp;apos;I&amp;apos;&amp;apos; to &amp;apos;&amp;apos;C&amp;apos;&amp;apos;.  An inverse system is sometimes called a &amp;apos;&amp;apos;pro-object&amp;apos;&amp;apos; in &amp;apos;&amp;apos;C&amp;apos;&amp;apos;. The dual concept is a [[Direct_system_(mathematics)|direct system]].
+
+==The category of inverse systems==
+Pro-objects in &amp;apos;&amp;apos;C&amp;apos;&amp;apos; form a category &amp;apos;&amp;apos;pro-C&amp;apos;&amp;apos;.  Two inverse systems
+
+:&amp;apos;&amp;apos;F&amp;apos;&amp;apos;:I&amp;lt;math&amp;gt;\to&amp;lt;/math&amp;gt; C&amp;apos;&amp;apos;
+
+and
+
+&amp;apos;&amp;apos;G&amp;apos;&amp;apos;:J&amp;lt;math&amp;gt;\to&amp;lt;/math&amp;gt; C&amp;apos;&amp;apos;
+determine a functor
+
+:&amp;apos;&amp;apos;I&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;op&amp;lt;/sup&amp;gt; x &amp;apos;&amp;apos;J&amp;apos;&amp;apos; &amp;lt;math&amp;gt;\to&amp;lt;/math&amp;gt; &amp;apos;&amp;apos;Sets&amp;apos;&amp;apos;,
+
+namely the functor
+
+:&amp;lt;math&amp;gt;\mathrm{Hom}_C(F(i),G(j))&amp;lt;/math&amp;gt;.
+
+The set of homomorphisms between &amp;apos;&amp;apos;F&amp;apos;&amp;apos; and &amp;apos;&amp;apos;G&amp;apos;&amp;apos; in &amp;apos;&amp;apos;pro-C&amp;apos;&amp;apos; is defined to be the colimit of this functor in the first variable, followed by the limit in the second variable.
+
+If &amp;apos;&amp;apos;C&amp;apos;&amp;apos; has all [[inverse limit]]s, then the limit defines a functor &amp;apos;&amp;apos;pro-C&amp;apos;&amp;apos;&amp;lt;math&amp;gt;\to&amp;lt;/math&amp;gt;&amp;apos;&amp;apos;C&amp;apos;&amp;apos;.  In practice, e.g. if &amp;apos;&amp;apos;C&amp;apos;&amp;apos; is a category of algebraic or topological objects, this functor is not an equivalence of categories.
+
+==Direct systems/Ind-objects==
+An ind-object in &amp;apos;&amp;apos;C&amp;apos;&amp;apos; is a pro-object in &amp;apos;&amp;apos;C&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;op&amp;lt;/sub&amp;gt;.  The category of ind-objects is written &amp;apos;&amp;apos;ind-C&amp;apos;&amp;apos;.
+
+==Examples==
+* If &amp;apos;&amp;apos;C&amp;apos;&amp;apos; is the category of finite groups, then &amp;apos;&amp;apos;pro-C&amp;apos;&amp;apos; is equivalent to the category of [[profinite group]]s and continuous homomorphisms between them.
+
+* If &amp;apos;&amp;apos;C&amp;apos;&amp;apos; is the category of finitely generated groups, then &amp;apos;&amp;apos;ind-C&amp;apos;&amp;apos; is equivalent to the category of all groups.
+
+==References==
+* {{Citation | last1=Bourbaki | first1=Nicolas | author1-link=Nicolas Bourbaki | title=Elements of mathematics. Theory of sets | publisher=Hermann | location=Paris | series=Translated from the French | id={{MathSciNet | id = 0237342}} | year=1968}}.
+*{{Springer|id=S/s091930|System (in a category)}}
+* {{Citation | last1=Segal | first1=Jack | last2=Mardešic | first2=Sibe | title=Shape theory | publisher=North-Holland | location=Amsterdam | series=North-Holland Mathematical Library | isbn=978-0-444-86286-0 | year=1982 | volume=26}}
+
+{{DEFAULTSORT:Inverse System}}
+[[Category:Functors]]
+[[Category:Limits (category theory)]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

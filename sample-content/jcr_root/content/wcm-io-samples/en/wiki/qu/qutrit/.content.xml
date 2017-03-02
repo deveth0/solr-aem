@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Qutrit"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Qutrit" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;A &amp;apos;&amp;apos;&amp;apos;qutrit&amp;apos;&amp;apos;&amp;apos; is a unit of [[quantum information]] that can exist in three possible states.
+
+The qutrit is analogous to the classical [[Ternary numeral system|trit]], just as the [[qubit]], a quantum particle of two possible states, is analogous to the classical [[bit]].
+
+==Representation==
+A qutrit has three orthogonal [[Basis (linear algebra)|basis]] states, or [[vector space|vector]]s, often denoted &amp;lt;math&amp;gt;|0\rangle&amp;lt;/math&amp;gt;, &amp;lt;math&amp;gt;|1\rangle&amp;lt;/math&amp;gt;, and &amp;lt;math&amp;gt;|2\rangle&amp;lt;/math&amp;gt; in Dirac or [[bra-ket notation]].
+These are used to describe the qutrit as a [[Superposition principle|superposition]] in the form of a linear combination of the three states:
+:&amp;lt;math&amp;gt;|\psi\rangle = \alpha |0\rangle + \beta |1\rangle + \gamma |2\rangle&amp;lt;/math&amp;gt;,
+where the coefficients are [[probability amplitude]]s, such that the sum of their squares is unity:
+: &amp;lt;math&amp;gt;| \alpha |^2 + | \beta |^2 + | \gamma |^2 = 1 \,&amp;lt;/math&amp;gt;
+
+The qutrit&amp;apos;s basis states are orthogonal. Qubits achieve this by utilizing [[Hilbert space]] &amp;lt;math&amp;gt;H_2&amp;lt;/math&amp;gt;, corresponding to spin-up and spin-down. Qutrits require a Hilbert space of higher dimension, namely &amp;lt;math&amp;gt;H_3&amp;lt;/math&amp;gt;.
+
+A string of &amp;apos;&amp;apos;n&amp;apos;&amp;apos; qutrits represents 3&amp;lt;sup&amp;gt;&amp;apos;&amp;apos;n&amp;apos;&amp;apos;&amp;lt;/sup&amp;gt; different states simultaneously.
+
+Qutrits have several peculiar features when used for storing quantum information. For example, they are more robust to [[decoherence]] under certain environmental interactions.&amp;lt;ref&amp;gt;A. Melikidze, V. V. Dobrovitski, H. A. De Raedt, M. I. Katsnelson, and B. N. Harmon, &amp;apos;&amp;apos;Parity effects in spin decoherence&amp;apos;&amp;apos;, Phys. Rev. B &amp;apos;&amp;apos;&amp;apos;70&amp;apos;&amp;apos;&amp;apos;, 014435 (2004) ([http://link.aps.org/doi/10.1103/PhysRevB.70.014435 link])&amp;lt;/ref&amp;gt; In reality, manipulating qutrits directly might be tricky, and one way to do that is by using an [[quantum entanglement|entanglement]] with a [[qubit]].&amp;lt;ref&amp;gt;B. P. Lanyon,1 T. J. Weinhold, N. K. Langford, J. L. O&amp;apos;Brien, K. J. Resch, A. Gilchrist, and A. G. White,  &amp;apos;&amp;apos;Manipulating Biphotonic Qutrits&amp;apos;&amp;apos;, Phys. Rev. Lett. &amp;apos;&amp;apos;&amp;apos;100&amp;apos;&amp;apos;&amp;apos;, 060504 (2008) ([http://link.aps.org/abstract/PRL/v100/e060504 link])&amp;lt;/ref&amp;gt;
+
+==See also==
+*[[Mutually unbiased bases]]
+*[[Quantum computing]]
+
+==References==
+{{reflist}}
+
+==External links==
+*[http://www.physorg.com/news123244300.html Physicists Demonstrate Qubit-Qutrit Entanglement] by Lisa Zyga at [[Physorg.com]], February 26, 2008 . Accessed March 2008
+
+{{quantum computing}}
+
+[[Category:Units of information]]
+[[Category:Quantum information science]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

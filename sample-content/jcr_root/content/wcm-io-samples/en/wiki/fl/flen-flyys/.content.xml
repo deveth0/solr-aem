@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Flen flyys"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Flen flyys" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{unreferenced|date=December 2011}}
+{{wikisource}}
+&amp;apos;&amp;apos;&amp;apos;Flen flyys&amp;apos;&amp;apos;&amp;apos; is an anonymous poem, written about 1475 or earlier, famous for containing the first known written usage in [[English language|English]] of the vulgar verb &amp;quot;[[fuck]]&amp;quot;. In fact the usage was &amp;quot;fuccant&amp;quot;, a hybrid of an English [[root (linguistics)|root]] with a [[Latin]] [[grammatical conjugation|conjugation]], and was disguised in the text by a [[Caesar cipher|simple code]], in which each letter was replaced with the next letter in the alphabet (so that &amp;apos;&amp;apos;fuccant&amp;apos;&amp;apos; is written as &amp;apos;&amp;apos;gxddbov&amp;apos;&amp;apos;). &amp;lt;ref&amp;gt;[http://www.johnlefucker.com/?page_id=106]&amp;lt;/ref&amp;gt;
+
+Written half in English and half in [[Latin]], the poem [[satire|satirised]] [[Carmelite]] [[monk]]s in the [[Historic counties of England|English county]] of [[Cambridgeshire]]. The poem takes its name from the opening line &amp;apos;&amp;apos;Flen, flyys and freris&amp;apos;&amp;apos; meaning &amp;quot;fleas, flies and friars&amp;quot;.
+
+The famous line reads &amp;quot;Non sunt in coeli, quia gxddbov xxkxzt pg ifmk.&amp;quot; meaning &amp;quot;They [the friars] are not in heaven, since ...&amp;quot; followed by words that when decoded, taking in account the alphabet of the time (where u and v were interchangeable, as were i and j, and uu represented w), read &amp;quot;fvccant vvivys of heli&amp;quot;, a Latin/English mix that means &amp;quot;...they fuck the wives of [[Ely, Cambridgeshire|Ely]]&amp;quot; (a city near Cambridge).
+
+The poem also contains the lines &amp;quot;Fratres cum knyvys goth about and txxkxzv nfookt xxzxkt.&amp;quot; With the last three words decoded in the same way as &amp;quot;svvivyt mennis vvyvis&amp;quot;, it may be translated as &amp;quot;Friars with knives go about and swive (or to have sex with) men&amp;apos;s wives.&amp;quot;
+
+The poem is found in British Library, Harley MS 3362, and was first edited in T. Wright &amp;amp; J. O. Halliwell, &amp;apos;&amp;apos;Reliquiæ Antiquæ&amp;apos;&amp;apos; (1841) 1.91. The &amp;apos;&amp;apos;Oxford English Dictionary&amp;apos;&amp;apos; (online edition) cites &amp;apos;&amp;apos;Flen flyys&amp;apos;&amp;apos; in square brackets, since the form &amp;apos;&amp;apos;fuccant&amp;apos;&amp;apos; is Anglo-Latin and not strictly speaking English.
+{{reflist}}
+[[Category:Middle English poems]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Conner"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Conner" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|Conner}}
+&amp;apos;&amp;apos;&amp;apos;Conner&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+&amp;apos;&amp;apos;&amp;apos;People&amp;apos;&amp;apos;&amp;apos;:
+* [[Conner (surname)]]
+* [[Conner (given name)]]
+
+&amp;apos;&amp;apos;&amp;apos;Places&amp;apos;&amp;apos;&amp;apos;:
+* [[Mount Conner]], Northern Territory, Australia
+* [[Conner, Apayao]], a municipality in the Philippines
+* [[Conner, California]], a community
+* [[Conner, Montana]], a community
+* [[Conner Preserve]], a park in Florida
+
+&amp;apos;&amp;apos;&amp;apos;Other uses&amp;apos;&amp;apos;&amp;apos;:
+* [[USS Conner|USS &amp;apos;&amp;apos;Conner&amp;apos;&amp;apos;]], two US Navy ships
+* [[Conner High School]], a public high school in Hebron, Kentucky, United States
+* [[Conner (song)|&amp;quot;Conner&amp;quot; (song)]], by The Feeling
+* [[Conner Peripherals]], a defunct American computer hardware company
+* [[Bergall]], also known as &amp;apos;&amp;apos;conner&amp;apos;&amp;apos;, a type of fish found in North Atlantic waters
+
+==See also==
+* [[O&amp;apos;Conner]]
+* [[Connor (disambiguation)]]
+* [[La Conner]], a town in the state of Washington, United States
+* [[Ratonhnhaké:ton]], known by the Westernised name of Conner, the protagonist of &amp;apos;&amp;apos;[[Assassin&amp;apos;s Creed III]]&amp;apos;&amp;apos;
+{{disambig|geo}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

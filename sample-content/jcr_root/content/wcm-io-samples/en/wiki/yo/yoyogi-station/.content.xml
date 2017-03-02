@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Yoyogi Station"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Yoyogi Station" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{coord|35.683828|N|139.702320|E|display=title}}
+
+{{infobox japan station
+|namerom        = Yoyogi
+|name           = 代々木
+|image          = YoyogiSta200505.jpg
+|imagesize      = 300px
+|caption        = Yoyogi Station viewed from Shinjuku
+|pref           = Tokyo
+|ward           = Shibuya
+|address        = 1 Yoyogi
+|jaloc          = 東京都渋谷区代々木1丁目
+|postal         =
+|open           = 1906
+|close          =
+|oldname        =
+|presentname    =
+|station_number = E-26 (Toei)
+|operator       = [[JR East]], [[Toei Subway]]
+|line           = [[Chūō-Sōbu Line]], [[Yamanote Line]] [[Toei Ōedo Line]]
+|stats          =
+|statsnote      =
+|bus            =
+}}
+
+{{nihongo|&amp;apos;&amp;apos;&amp;apos;Yoyogi Station&amp;apos;&amp;apos;&amp;apos;|代々木駅|Yoyogi-eki}} is a railway station in [[Shibuya, Tokyo]], Japan, operated by the [[East Japan Railway Company]] (JR East) and [[Tokyo Metropolitan Bureau of Transportation]] (Toei). It is station E-26 under Toei&amp;apos;s numbering system.
+
+==Station layout ==
+===JR East===
+The JR East station consists of two ground-level [[side platform]]s on either side of an [[island platform]], serving four tracks in total.
+
+# [[Yamanote Line]] (for [[Shinjuku Station|Shinjuku]], [[Ikebukuro Station|Ikebukuro]])
+# Yamanote Line (for [[Shibuya Station|Shibuya]], [[Shinagawa Station|Shinagawa]])
+# [[Chūō-Sōbu Line]] (for [[Nakano Station|Nakano]], [[Mitaka Station|Mitaka]])
+# Chūō-Sōbu Line (for [[Ochanomizu Station|Ochanomizu]], [[Chiba Station|Chiba]])
+
+There are three exits: East exit, West exit, and North exit. The latter two provide easy access to the Ōedo line.
+
+===Toei===
+The Toei Ōedo Line station has one underground island platform serving two tracks.
+
+==Adjacent stations==
+{{j-railservice start}}
+{{j-route|route=Yamanote Line|col=YellowGreen}}
+{{j-rserv|service=-|previous=[[Harajuku Station|Harajuku]]|next=[[Shinjuku Station|Shinjuku]]}}
+{{j-route|route=Chūō-Sōbu Line|col=Yellow}}
+{{j-rserv|service=-|previous=[[Sendagaya Station|Sendagaya]]|next=Shinjuku}}
+{{j-route|route=Toei Oedo Line (E-26)|col=DarkMagenta|f=w}}
+{{j-rserv|service=-|previous=[[Kokuritsu-Kyōgijō Station|Kokuritsu-Kyōgijō]] (E-25)|next=Shinjuku (E-27)}}
+{{end box}}
+
+==History==
+The station was first opened on 23 October 1906 by a private company as a station on the [[Chūō Main Line]], but was nationalized only a week later when the [[Japanese National Railways]] took over the company and all of its assessments. The underground [[Toei Ōedo Line]] station opened on 20 April 2000.&amp;lt;ref name=&amp;quot;terada2002&amp;quot;&amp;gt;{{cite book | last = Terada | first = Hirokazu |title = データブック日本の私鉄 (Databook: Japan&amp;apos;s Private Railways) | publisher = Neko Publishing | date = July 2002 | location = Japan | pages = | isbn = 4-87366-874-3}}&amp;lt;/ref&amp;gt;
+
+==References==
+{{reflist}}
+
+==External links==
+{{commons category}}
+* [http://www.jreast.co.jp/estation/station/info.aspx?StationCd=1654 JR East station information] {{ja icon}}
+* [http://www.kotsu.metro.tokyo.jp/subway/stations/yoyogi/e26.html Toei station information] {{ja icon}}
+
+{{Yamanote Line}}
+{{Chuo-Sobu Line}}
+{{Toei Oedo Line}}
+
+[[Category:Yamanote Line]]
+[[Category:Chūō-Sōbu Line]]
+[[Category:Toei Oedo Line]]
+[[Category:Stations of East Japan Railway Company]]
+[[Category:Stations of Tokyo Metropolitan Bureau of Transportation]]
+[[Category:Railway stations in Tokyo]]
+[[Category:Shibuya, Tokyo]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

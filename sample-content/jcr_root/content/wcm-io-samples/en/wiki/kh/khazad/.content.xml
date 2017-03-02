@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="KHAZAD"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="KHAZAD" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox block cipher
+| name          = Khazad
+| designers     = Vincent Rijmen and Paulo S. L. M. Barreto
+| publish date  = 2000
+| derived from  = [[SHARK (cipher)|SHARK]]
+| key size      = 128 bits
+| block size    = 64 bits
+| structure     = [[substitution-permutation network]]
+| rounds        = 8
+| cryptanalysis = No attack better than on the first five rounds is known.
+}}
+
+In [[cryptography]], &amp;apos;&amp;apos;&amp;apos;KHAZAD&amp;apos;&amp;apos;&amp;apos; {{IPAc-en|x|ɑː|ˈ|z|ɑː|d}} is a [[block cipher]] designed by [[Paulo S. L. M. Barreto]] together with [[Vincent Rijmen]], one of the designers of the [[Advanced Encryption Standard]] ([[Rijndael]]). KHAZAD is named after [[Moria (Middle-earth)|Khazad-dûm]], the fictional [[Dwarf (Middle-earth)|dwarven]] realm in the writings of [[J. R. R. Tolkien]] (see also [[Khazad]]). KHAZAD was presented at the first [[NESSIE]] workshop in 2000, and, after some small changes, was selected as a finalist in the project.
+
+KHAZAD has an eight-round [[substitution-permutation network]] structure similar to that of [[SHARK (cipher)|SHARK]], a forerunner to Rijndael. The design is classed as a &amp;quot;&amp;apos;&amp;apos;legacy-level&amp;apos;&amp;apos;&amp;quot; algorithm, with a 64-bit [[block size (cryptography)|block size]] (in common with older [[cipher]]s such as [[Data Encryption Standard|DES]] and [[IDEA (cipher)|IDEA]]) and a 128-bit [[key (cryptography)|key]]. KHAZAD makes heavy use of [[Involution (mathematics)|involution]]s as subcomponents; this minimises the difference between the algorithms for [[encryption]] and [[decryption]].
+
+The authors have stated that, &amp;apos;&amp;apos;&amp;quot;KHAZAD is not (and will never be) [[patent]]ed. It may be used free of charge for any purpose.&amp;quot;&amp;apos;&amp;apos;
+
+Frédéric Muller has discovered an attack which can break five of KHAZAD&amp;apos;s eight rounds. No attacks better than this are known as of August 2009.
+
+==References==
+* {{cite conference
+     | author = P. Barreto, V. Rijmen
+     | title = The Khazad legacy-level block cipher
+     | booktitle = First open NESSIE Workshop
+     | location = [[Leuven]]
+     | date=13–14 November 2000
+     | pages = 15
+     | url = https://www.cosic.esat.kuleuven.be/nessie/workshop/submissions.html
+     | accessdate = 2013-01-14}}
+
+* {{cite conference
+     | author = [[Alex Biryukov]]
+     | title = Analysis of Involutional Ciphers: Khazad And Anubis
+     | booktitle = 10th International Workshop on [[Fast Software Encryption]] (FSE &amp;apos;03)
+     | pages = 45&amp;amp;ndash;53
+     | publisher = [[Springer-Verlag]]
+     | month = February | year = 2003
+     | location = [[Lund]]
+     | url = http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.90.5426
+     | format = [[PDF]]/[[PostScript]]
+     | accessdate = 2013-01-14}}
+
+* {{cite conference
+     | author = Frédéric Muller
+     | title = A New Attack against Khazad
+     | booktitle = Advances in Cryptology - [[ASIACRYPT]] 2003
+     | pages = 347&amp;amp;ndash;358
+     | publisher = Springer-Verlag
+     | month = December | year = 2003
+     | location = [[Taipei]]
+     | url = http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.108.7998
+     | accessdate = 2013-01-14}}
+
+==External links==
+* {{cite web
+| url = http://www.larc.usp.br/~pbarreto/KhazadPage.html
+| title = The KHAZAD Block Cipher
+| author = Paulo S. L. M. Barreto
+| date = 2008-11-19}}
+
+{{Cryptography navbox | block}}
+
+[[Category:Block ciphers]]
+[[Category:Free ciphers]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

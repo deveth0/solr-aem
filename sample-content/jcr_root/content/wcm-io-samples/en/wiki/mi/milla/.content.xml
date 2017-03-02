@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Milla"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Milla" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Refimprove|type =plant|auto=yes|date=December 2009}}
+:&amp;apos;&amp;apos;This article is about the plant genus. For the performer, see [[Milla Jovovich]]; for the [[Cameroon]]ian [[Football (soccer)|footballer]], see [[Roger Milla]]; for the place in Burkina Faso, see [[Milla, Burkina Faso]]. Milla is also the name of a character in &amp;quot;The Seventh Tower&amp;quot; By Garth Nix.&amp;apos;&amp;apos;
+{{Automatic taxobox
+|taxon = Milla
+|authority = [[Antonio José Cavanilles|Cav.]]
+|subdivision_ranks = Species
+|subdivision = See text.
+}}
+
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Milla&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is a genus of plant belonging to the family [[Asparagaceae]], subfamily [[Brodiaeoideae]],&amp;lt;ref&amp;gt;{{citation |last=Stevens |first=P.F. |year=2001 onwards |title=Angiosperm Phylogeny Website: Asparagales: Brodiaeoideae |url=http://www.mobot.org/mobot/research/apweb/orders/asparagalesweb.htm#Themidaceae }}&amp;lt;/ref&amp;gt; and contains the following species of plants.
+
+* &amp;apos;&amp;apos;[[Milla biflora]]&amp;apos;&amp;apos;, Mexican star
+
+==References==
+{{Reflist}}
+
+[[Category:Brodiaeoideae]]
+[[Category:Asparagaceae genera]]
+
+
+{{Asparagales-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

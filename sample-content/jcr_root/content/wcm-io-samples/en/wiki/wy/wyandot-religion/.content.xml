@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wyandot religion"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wyandot religion" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=July 2008}}
+The &amp;apos;&amp;apos;&amp;apos;[[Wyandot people|Wyandot]]&amp;apos;&amp;apos;&amp;apos; (sometimes formerly referred to as the Huron) are a [[First Nations]]/[[Native Americans in the United States|Native American]] people originally from [[Ontario]], [[Canada]], and surrounding areas.
+
+The [[shaman]]s of a Wyandot tribe were called &amp;apos;&amp;apos;&amp;apos;Arendiwane&amp;apos;&amp;apos;&amp;apos; (or &amp;apos;&amp;apos;&amp;apos;Arendi wane&amp;apos;&amp;apos;&amp;apos;, &amp;apos;&amp;apos;&amp;apos;Orendi wane&amp;apos;&amp;apos;&amp;apos;).
+
+According to Wyandot mythology, &amp;apos;&amp;apos;Iosheka&amp;apos;&amp;apos; created the first [[man]] and [[woman]] and taught them many skills, including all their religious ceremonies and rituals, the ability to fight evil spirits, healing, and the use of the [[sacrament]] of [[tobacco]].
+
+&amp;apos;&amp;apos;(See also [[Iroquois mythology]])&amp;apos;&amp;apos;
+
+[[Category:Native American religion]]
+[[Category:First Nations culture]]
+[[Category:Wyandot|Religion]]
+
+{{NorthAm-myth-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Fremont Cut"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Fremont Cut" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Image:Fremont bridge.jpg|right|250px|thumb|The [[Fremont Bridge (Seattle)|Fremont Bridge]] at the opening of the [[Lake Washington Ship Canal]], July 4, 1917]]
+[[Image:Fremont Bridge-4.jpg|thumb|The Fremont Cut and the Fremont Bridge, looking west from the [[George Washington Memorial Bridge]], 2004]]
+The &amp;apos;&amp;apos;&amp;apos;Fremont Cut&amp;apos;&amp;apos;&amp;apos; is a part of the [[Lake Washington Ship Canal]]—which passes through the [[United States|U.S.]] city of [[Seattle]], [[Washington (U.S. state)|Washington]], linking [[Lake Washington]] to [[Puget Sound]]—that connects [[Lake Union]] to the east with [[Salmon Bay]] to the west. It is {{convert|5800|ft|m}} long and {{convert|270|ft|m}} wide. The center channel is {{convert|100|ft|m}} wide and {{convert|30|ft|m}} deep. It is spanned by the [[Fremont Bridge (Seattle)|Fremont Bridge]], a [[bascule bridge|bascule]] [[drawbridge]]--which connects the neighborhoods of [[Fremont, Seattle, Washington|Fremont]] and [[Queen Anne, Seattle|Queen Anne]] via Fremont Avenue North. A campus of [[Adobe Systems]] and the headquarters for [[Tableau Software]] are located at the north-eastern quadrant of this intersection of [[bridge]] and [[canal]], and an office of [[Google]] is located on the north-western quadrant.
+
+{{KingWA-geo-stub}}
+
+{{coord|47.65088|N|122.35697|W|source:placeopedia|display=title}}
+
+[[Category:Buildings and structures in Seattle, Washington]]
+[[Category:Transportation in Seattle, Washington]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

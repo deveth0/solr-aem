@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Dropout"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Dropout" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|dropout}}
+&amp;apos;&amp;apos;&amp;apos;Dropout&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+*[[Dropping out]] of society or school.
+
+==In science==
+*[[Dropout (astronomy)]].
+*[[Dropout (bicycle part)]].
+*[[Dropout (electronics)]].
+*Dropout as a [[Biased_sample#Types_of_sampling_bias|type of sampling bias]] in scientific studies
+
+==Popular culture==
+*[[Dropout (1970 film)]], an Italian film by [[Tinto Brass]] starring [[Vanessa Redgrave]].
+*&amp;quot;Drop Out,&amp;quot; a song from the album &amp;apos;&amp;apos;[[Scream, Dracula, Scream!]]&amp;apos;&amp;apos; by Rocket from the Crypt.
+*&amp;quot;Drop Out&amp;quot;, a song from the album &amp;apos;&amp;apos;[[You Fail Me]]&amp;apos;&amp;apos; by [[Converge (band)|Converge]].
+*&amp;quot;Drop Out&amp;quot;, a song by NW260 released for the video game &amp;apos;&amp;apos;[[Dance Dance Revolution Extreme (North America)|Dance Dance Revolution Extreme]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[The College Dropout]]&amp;apos;&amp;apos;, the debut album released by rapper Kanye West in 2004.
+*&amp;apos;&amp;apos;[[Drop Out with The Barracudas]]&amp;apos;&amp;apos;, the debut album by The Barracudas.
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

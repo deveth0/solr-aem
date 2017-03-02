@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Hollis"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Hollis" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Hollis&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+==Places==
+In the United States:
+* [[Hollis, Alaska]]
+* [[Hollis, California]]
+* [[Hollis Street, Emeryville, California]]
+* [[Hollis, Kansas]]
+* [[Hollis, Maine]]
+* [[Hollis, New Hampshire]]
+* [[Hollis, Queens]], New York City, New York
+**[[Hollis (LIRR station)]], the Long Island Railroad station
+* [[Hollis, Oklahoma]]
+
+==Other uses==
+*[[Hollis (name)]]
+*HOLLIS, acronym for [[Harvard University Library]]&amp;apos;s online catalog
+*Hollis, an American manufacturer of [[Scuba set|SCUBA]] diving equipment
+
+{{disambiguation|geo}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

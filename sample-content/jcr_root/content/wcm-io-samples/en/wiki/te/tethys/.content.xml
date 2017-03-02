@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Tethys"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Tethys" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Tethys&amp;apos;&amp;apos;&amp;apos; can refer to:
+
+* [[Tethys (mythology)]], a Titaness in Greek mythology
+* [[Tethys (moon)]], a natural satellite of Saturn
+* [[Tethys Ocean]], a Mesozoic-era ocean between the continents of Gondwana and Laurasia
+** [[Prototethys]] Ocean (c. 550–330&amp;amp;nbsp;[[Megaannum|Ma]])
+** [[Paleotethys]] Ocean (c. 445–75&amp;amp;nbsp;Ma)
+** [[Neotethys]] Ocean (c. 300–100&amp;amp;nbsp;Ma)
+** Alpine Tethys Sea (c. 175–30&amp;amp;nbsp;Ma) or [[Paratethys]] Sea (isolated after 34&amp;amp;nbsp;Ma); today&amp;apos;s [[Black Sea]], [[Caspian Sea]], and [[Aral Sea]] are remnants of the Paratethys Sea
+* [[Tethys (gastropod)|&amp;apos;&amp;apos;Tethys&amp;apos;&amp;apos; (gastropod)]], genus of gastropods in the family [[Tethydidae]]
+
+==See also==
+*[[Thetis (disambiguation)|Thetis]]
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

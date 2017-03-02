@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Rem"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Rem" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|rem|REM}}
+
+&amp;apos;&amp;apos;&amp;apos;Rem&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;REM&amp;apos;&amp;apos;&amp;apos; may refer to:
+*[[Rem (unit)]] or Roentgen equivalent man, a unit of radiation dose equivalent
+*[[Rém]], a village in Hungary
+*[[Rem (mythology)]], an Egyptian fish god
+*[[R.E.M.]], an American rock band
+*[[R.E.M. (EP)|&amp;apos;&amp;apos;R.E.M.&amp;apos;&amp;apos; (EP)]], an EP by Green
+*&amp;apos;&amp;apos;[[REM (Real Estate Magazine)]]&amp;apos;&amp;apos;, a Canadian real estate trade journal
+*[[REM (BASIC)]], an inline comment (REMark) in BASIC and some other computer languages
+*[[Priscilla Hamby]] or Rem, illustrator and comic book artist
+*[[Rapid eye movement sleep]]
+*[[Rare earth metal]]
+*[[Reflection electron microscope]]
+*[[Reichserziehungsministerium]] or Reich Ministry of Education in Nazi Germany
+*[[Resource Extraction Monitoring]]
+*[[Reticular erythematous mucinosis]], a skin disease
+*[[Rosicrucian Egyptian Museum]]
+*Rem, a [[Shinigami (Death Note)#Rem|Shinigami character in &amp;apos;&amp;apos;Death Note&amp;apos;&amp;apos;]]
+*Rem, an android character in &amp;apos;&amp;apos;[[Logan&amp;apos;s Run (TV series)|Logan&amp;apos;s Run]]&amp;apos;&amp;apos;
+
+==People with the name==
+*[[Rem Koolhaas]], a Dutch architect
+*[[Rem Saverem]], a character in &amp;apos;&amp;apos;Trigun&amp;apos;&amp;apos;
+
+==See also==
+*[[REM Island]], home of 1964 pirate stations Radio and TV Noordzee
+*&amp;apos;&amp;apos;[[REM World]]&amp;apos;&amp;apos;, a fantasy/science fiction novel by Rodman Philbrick
+
+{{disambiguation}}
+
+[[nl:REM]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

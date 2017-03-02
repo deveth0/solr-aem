@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Quebec High School"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Quebec High School" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox education in Canada
+|name=          Quebec High School
+|image=         Logo-qhs.jpg
+|motto=         Animo et Fide
+|motto_translation=Prosper and Integrity
+|streetaddress= 945, Belvédère Avenue
+|postalcode=    G1S 3G2
+|city=          [[Quebec City]]
+|province=      [[Quebec]]
+|url=           http://www.quebechighschool.net
+|schoolboard=   [[Central Quebec School Board]]
+|principal =     Warren Thomson
+|viceprincipal=  Gina Farnell
+|schooltype =    [[Public school (government funded)|Public school]]
+|staff = 73
+|grades = Secondary I-V (12-17)
+|language       English
+|founded=
+|enrollment=    350
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Quebec High School&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;&amp;apos;QHS&amp;apos;&amp;apos;&amp;apos;) is a [[high school]] belonging to the [[Central Quebec School Board]]. The School is located in [[Quebec City]], [[Quebec, Canada]], and is one of three English-language high schools that serve the Quebec region (the others being Saint-Patrick&amp;apos;s High School and Dollard-des-Ormeaux located on CFB Valcartier). The school is composed of three main floors. While the school once had a separate girls wing and boys wing, it is now is a mixed school integrating both sexes.
+
+In 2006, QHS began a three year process to implement an initiative called the Community Learning Centre Project. This initiative was made possible through the Canada Entente agreement with the federal government and the Quebec Ministry of Education.
+
+==External links==
+* [http://www.quebechighschool.net http://www.quebechighschool.net]
+
+{{coord missing|Quebec}}
+
+[[Category:High schools in Quebec]]
+[[Category:English-language schools in Quebec]]
+[[Category:Schools in Quebec City]]
+
+{{QuebecCity-stub}}
+{{Quebec-school-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

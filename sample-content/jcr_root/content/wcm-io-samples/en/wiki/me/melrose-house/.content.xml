@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Melrose House"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Melrose House" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Image:Melrose house SA.jpg|thumb|right|250px|Melrose House in 2005.]]
+
+&amp;apos;&amp;apos;&amp;apos;Melrose House&amp;apos;&amp;apos;&amp;apos; is a stately [[mansion]] located in [[Pretoria]], [[South Africa]]. Built in 1886 by the prosperous Pretoria businessman George Jesse Heys. it was named after the famous [[Melrose Abbey]] in [[Scotland]]. Melrose House gained fame during the [[Second Boer War]] (1899&amp;amp;ndash;1902) when [[Frederick Roberts, 1st Earl Roberts|Lord Roberts]] requisitioned it as the headquarters for the [[United Kingdom|British]] forces after Pretoria was invaded in June 1900. For more than 18 months instructions for the British forces in the field were issued from here. This use of the house as a military headquarters ended when the [[Treaty of Vereeniging]], which ended the war, was signed there on 31 May 1902.
+
+Today the elegant mansion is a [[historic house museum]]. It is an example of the transition from [[Victorian architecture|Victorian]] to [[Edwardian architecture|Edwardian]] [[architectural style]]s and interiors.  The interior is characterised by colourful [[stained glass]] windows, paintings by English artists, carpets in rich colours, ornate ceilings and fireplaces, as well as valuable [[porcelain]] ornaments. The majority of these items belonged to the Heys family itself.
+
+== External links ==
+* [http://www.melrosehouse.co.za Official website]
+* [http://visitpretoria.co.za/History/melrose-house Melrose House] 360 degree Virtual Tour on Visit Pretoria
+{{coord|25.7555|S|28.1925|E|source:kolossus-dewiki|display=title}}
+[[Category:Museums in Pretoria]]
+[[Category:Houses in South Africa]]
+[[Category:Houses completed in 1886]]
+[[Category:Historic house museums in South Africa]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

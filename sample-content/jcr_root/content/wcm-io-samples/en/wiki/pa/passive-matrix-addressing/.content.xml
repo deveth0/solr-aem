@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Passive matrix addressing"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Passive matrix addressing" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+&amp;apos;&amp;apos;&amp;apos;Passive matrix addressing&amp;apos;&amp;apos;&amp;apos; is an [[addressing scheme]] used in early [[LCD]] displays. This is a matrix addressing scheme meaning that only &amp;apos;&amp;apos;m&amp;apos;&amp;apos;&amp;amp;nbsp;+&amp;amp;nbsp;&amp;apos;&amp;apos;n&amp;apos;&amp;apos; control signals are required to address a &amp;apos;&amp;apos;m&amp;apos;&amp;apos;&amp;amp;nbsp;&amp;amp;times;&amp;amp;nbsp;&amp;apos;&amp;apos;n&amp;apos;&amp;apos; display.  A [[pixel]] in a passive matrix must maintain its state without active driving circuitry until it can be refreshed again.
+
+The [[Wiktionary:signal|signal]] is divided into a row or &amp;apos;&amp;apos;select signal&amp;apos;&amp;apos; and a column or &amp;apos;&amp;apos;video signal&amp;apos;&amp;apos;.  The select [[voltage]] determines the row that is being addressed and all &amp;apos;&amp;apos;n&amp;apos;&amp;apos; pixels on a row are addressed simultaneously. When [[pixels]] on a row are being addressed, a &amp;apos;&amp;apos;V&amp;lt;SUB&amp;gt;sel&amp;lt;/SUB&amp;gt;&amp;apos;&amp;apos; potential is applied, and all other rows are unselected with a &amp;apos;&amp;apos;V&amp;lt;SUB&amp;gt;unsel&amp;lt;/SUB&amp;gt;&amp;apos;&amp;apos; potential. The video signal or column potential is then applied with a potential for each &amp;apos;&amp;apos;m&amp;apos;&amp;apos; columns individually. An on-lighted [[pixel]] corresponds to a &amp;apos;&amp;apos;V&amp;lt;SUB&amp;gt;on&amp;lt;/SUB&amp;gt;&amp;apos;&amp;apos;, an off-switched corresponds to a &amp;apos;&amp;apos;V&amp;lt;SUB&amp;gt;off&amp;lt;/SUB&amp;gt;&amp;apos;&amp;apos; potential.
+
+The potential across [[pixel]] at selected row &amp;apos;&amp;apos;i&amp;apos;&amp;apos; and column &amp;apos;&amp;apos;j&amp;apos;&amp;apos; is
+:&amp;lt;math&amp;gt;V_{ij} = V_{sel} - V_{on|off}&amp;lt;/math&amp;gt;
+and
+:&amp;lt;math&amp;gt;V_{ij} = V_{unsel} - V_{on|off}&amp;lt;/math&amp;gt;
+for the unselected rows.
+
+Passive matrix addressed displays such as [[ferroelectric]] [[liquid crystal display]]s do not need the switch component of an active matrix display because they have built-in [[bistable|bistability]]. Technology for [[electronic paper]] also has a form of bistability. Displays with bistable pixel elements are addressed with a passive matrix addressing scheme, whereas TFT LCD displays are addressed using [[active matrix addressing|active addressing]].
+
+==See also==
+* [[Active matrix addressing]]
+* [[Pixel geometry]]
+* [[Liquid crystal display]]
+
+{{DEFAULTSORT:Passive Matrix Addressing}}
+[[Category:Digital imaging]]
+[[Category:Liquid crystal displays]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

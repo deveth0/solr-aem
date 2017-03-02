@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Amikeca Reto"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Amikeca Reto" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{unsourced|date=November 2012}}
+{{notability|date=November 2012}}
+
+{{Esperanto sidebar |expanded=Services}}
+
+&amp;apos;&amp;apos;&amp;apos;Amikeca Reto&amp;apos;&amp;apos;&amp;apos; (&amp;apos;Friendship Network&amp;apos;) is a directory of [[Esperanto]]-interested people around the world who wish to work together and exchange ideas. The network emphasizes the cultural and educational value of travel, with hosts willing to discuss issues and arrange visits to workplaces, clubs, associations etc., and to generally introduce visitors to their way of life. However, unlike the [[Pasporta Servo]] and similar services, members do not necessarily offer to host visitors in their homes.
+
+It was created in 1987 during the annual congress of [[Sennacieca Asocio Tutmonda]] (SAT) in [[Boulogne-sur-Mer|Boulogne]]. It is a non-profit organization under the general control of SAT.
+
+It publishes a bi-annual handbook which continues to grow and develop. The latest edition 2002-3 contains more than 400 addresses in 40 countries. The handbook can also be used to find pen pals or pen-friends and collaborators for projects and to find partners for exchanges.
+
+==External links==
+* [http://www.creaweb.fr/a.reto/ La Amikeca Reto] {{deadlink|date=November 2012}}
+
+{{Hospitality_service}}
+
+[[Category:Esperanto organizations]]
+[[Category:Hospitality services]]
+
+{{Esperanto-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

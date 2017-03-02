@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="John Caspar Wild"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="John Caspar Wild" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;John Caspar Wild&amp;apos;&amp;apos;&amp;apos; (1804-August 12, 1846) was an American [[Painting|painter]] and [[lithographer]].
+
+Wild was born in [[Switzerland]] and arrived in the U.S. in the 1830s.
+
+He created early city views and landscapes of [[Philadelphia]], [[Cincinnati]], [[St. Louis, Missouri|St. Louis]], and [[Iowa]].  He specialized in hand-colored lithographs.  These views, particularly the &amp;apos;&amp;apos;[[Valley of the Mississippi Illustrated]]&amp;apos;&amp;apos; were some of the first depictions of the American West.
+
+==Further reading==
+* Reps, John William, and J. C. Wild. 2006. John Caspar Wild: painter and printmaker of nineteenth-century urban America. St. Louis: Missouri Historical Society Press. ISBN 1-883982-55-3 Designed by Steve Hartman of  Creativille, Inc. [http://www.creativille.net]
+* Wild, J. C., and Lewis Foulk Thomas. 1948. The valley of the Mississippi: illustrated in a series of views, accompanied with historical descriptions. St. Louis, Mo: Joseph Garnier. (this is a reprint; original edition published 1841-2)
+
+{{Authority control|VIAF=70080654}}
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Wild, John Caspar
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION = American artist
+| DATE OF BIRTH     = 1804
+| PLACE OF BIRTH    = Switzerland
+| DATE OF DEATH     = 1846
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Wild, John Caspar}}
+[[Category:1804 births]]
+[[Category:1846 deaths]]
+[[Category:19th-century American painters]]
+[[Category:American printmakers]]
+[[Category:American landscape painters]]
+[[Category:American lithographers]]
+
+
+{{US-painter-1800s-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

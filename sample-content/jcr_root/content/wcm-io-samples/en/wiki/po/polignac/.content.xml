@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Polignac"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Polignac" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Polignac&amp;apos;&amp;apos;&amp;apos; is the name of several communes in [[France]]:
+
+* [[Polignac, Charente-Maritime]]
+* [[Polignac, Haute-Loire]], in the Haute-Loire &amp;apos;&amp;apos;département&amp;apos;&amp;apos;, dominated by the fortress Château de Polignac with its square &amp;apos;&amp;apos;donjon&amp;apos;&amp;apos; tower, 32 m tall
+
+&amp;apos;&amp;apos;&amp;apos;Polignac&amp;apos;&amp;apos;&amp;apos; is the name of the famous noble French family that take their name from the château of Polignac, of which they have been &amp;apos;&amp;apos;sieurs&amp;apos;&amp;apos; since [[Charlemaine|Carolingian]] times.
+* [[Duke of Polignac]]
+* [[Gabrielle de Polastron, duchesse de Polignac]]
+* [[Jules, prince de Polignac]], 1780 &amp;amp;ndash; 1847, promulgator of the July Ordinances
+* [[Melchior de Polignac]], 1661-1742, French diplomat, Roman Catholic cardinal and neo-Latin poet
+* [[Alphonse de Polignac]], 1817 &amp;amp;ndash; 1890, French mathematician and number theorist.
+* [[Pierre de Polignac]], 1895 &amp;amp;ndash; 1964
+* [[Camille Armand Jules Marie, Prince de Polignac]], Confederate general at the Battle of Sabine Crossroads, 1832-1913
+*[[Winnaretta Singer]], princess Edmond de Polignac, 1865 &amp;amp;ndash; 1943
+*[[Prince Edmond de Polignac]], 1834 &amp;amp;ndash; 1901
+
+*[[Polignac (card game)]] is also a French card game for four players
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

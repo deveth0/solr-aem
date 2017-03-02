@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Northolt tube station"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Northolt tube station" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Use dmy dates|date=August 2012}}
+{{Use British English|date=August 2012}}
+{{Infobox London station
+| name             = Northolt
+| symbol           = underground
+| manager          = [[London Underground]]
+| locale           = [[Northolt]]
+| borough          = [[London Borough of Ealing]]
+| platforms        = 2
+| fare_zone        = 5
+
+| image_name       = Northolt station building.JPG
+| caption          = Entrance on Mandeville Road
+| latitude         = 51.5480
+| longitude        = -0.3688
+
+| original         = [[London Transport Executive]]
+
+| years1           = 21 November 1948
+| events1          = Station opened
+&amp;lt;!--
+| tubeexits06      = 2.942
+| tubeexits07      = {{increase}} 3.413--&amp;gt;
+| tubeexits08      = {{increase}} 3.520
+| tubeexits09      = {{increase}} 3.737
+| tubeexits10      = {{increase}} 4.050
+}}
+&amp;apos;&amp;apos;&amp;apos;Northolt tube station&amp;apos;&amp;apos;&amp;apos; is a station on the [[London Underground]] [[Central line]] in [[Northolt]] in the [[London Borough of Ealing]]. It is in [[Travelcard Zone 5]] and between [[Greenford station|Greenford]] and [[South Ruislip station|South Ruislip]] stations.
+
+==History==
+The [[Great Western Railway]] constructed a halt at this location named Northolt Halt in 1907, which was on what was the [[New North Main Line]] to [[Birmingham]]. It was renamed Northolt (for West End) Halt, before gaining station status under its original shorter name. It was closed in 1948 when the Central line was extended on a new pair of tracks from [[North Acton]], the current Northolt tube station opening on 21 November 1948.&amp;lt;ref name=CULG&amp;gt;{{cite web |url=http://www.davros.org/rail/culg/central.html#dates |title=Central Line, Dates |work=Clive&amp;apos;s Underground Line Guides |accessdate=11 October 2009 }}&amp;lt;/ref&amp;gt; The opening had been planned to be in [[New Works Programme|the 1930s]] but was delayed by the [[Second World War]].
+
+==The station today==
+The station has an island platform with passenger access down from the booking hall. Trains terminating at the station may use either a turnback siding west of the platforms to leave the running lines and run eastwards later or a crossover east of the station for more immediate return to central London.
+
+North of the Central line tracks there is the singled track of the former GWR [[New North Main Line]] from Paddington which now is used by freight trains and a single daily passenger service (operated by [[Chiltern Railways]]) between Paddington and [[Gerrards Cross railway station|Gerrards Cross]].&amp;lt;ref name=&amp;quot;chilterntimetable&amp;quot;&amp;gt;{{cite web|title=Timetable 11 December 2011 to 13 May 2012|url=http://www.chilternrailways.co.uk/sites/default/files/December%202011%20Timetable%20booklet.pdf|accessdate=7 February 2012|publisher=Chiltern Railways}}&amp;lt;/ref&amp;gt; There are no longer any platforms on this line.
+
+==Gallery==
+{{commons category|Northolt tube station}}
+&amp;lt;gallery&amp;gt;
+Image:Northolt station westbound.JPG|Looking west, with ex-GWR route on the right, and reversing siding visible ahead
+Image:Northolt station eastbound.JPG|Looking eastward along the island platform
+Image:Northolt station roundel.JPG|Roundel on eastbound platform face
+&amp;lt;/gallery&amp;gt;
+
+==Transport links==
+London bus routes 90, 120, 140, 282, 395, E10 and night route N7.
+
+==References==
+{{reflist}}
+
+{{clear}}
+{{s-start}}
+{{s-rail|title=LUL}}
+{{s-line|system=LUL|line=Central|previous=South Ruislip|next=Greenford|type=West Ruislip}}
+{{s-end}}
+
+{{Central line navbox}}
+
+{{DEFAULTSORT:Northolt Tube Station}}
+[[Category:Central Line stations]]
+[[Category:Tube stations in Ealing]]
+[[Category:Railway stations opened in 1948]]
+
+{{London-tube-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

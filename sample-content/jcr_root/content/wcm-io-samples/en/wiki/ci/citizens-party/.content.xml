@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Citizens Party"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Citizens Party" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;Citizens Party&amp;apos;&amp;apos;&amp;apos; is the name of:
+*The [[Citizens Party (Hong Kong)]]
+*The [[Citizens&amp;apos; Party (Iceland)]]
+*The [[Citizen&amp;apos;s Party (Singapore)]]
+*The [[Citizen&amp;apos;s Party (Thailand)]]
+*The [[Citizens&amp;apos; Party (Catalonia)]]
+*&amp;apos;&amp;apos;&amp;apos;Citizens Party&amp;apos;&amp;apos;&amp;apos;, a short-lived party label used in 1888 by Milwaukee Republicans and Democrats to prevent the election of Union Labor candidate Herman Kroeger as Mayor of Milwaukee by uniting behind former Mayor [[Thomas H. Brown]]&amp;lt;ref&amp;gt;Wells, Robert W. &amp;apos;&amp;apos;This Is Milwaukee&amp;apos;&amp;apos; New York: Doubleday, 1970; p. 169&amp;lt;/ref&amp;gt;
+*The [[Citizens Party (United States)]], a short lived political party organized by Barry Commoner in 1980.
+*The [[Citizens Party of the United States]], founded in 2010.
+*The [[Nationalist Citizens&amp;apos; Party]] of the Philippines
+*The [[White Citizens Parties]], local Jim Crow era parties in the Southern United States
+
+== References ==
+{{reflist}}
+
+{{disambiguation|political}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

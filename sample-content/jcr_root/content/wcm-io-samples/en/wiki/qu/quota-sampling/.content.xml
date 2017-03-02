@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Quota sampling"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Quota sampling" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Quota sampling&amp;apos;&amp;apos;&amp;apos; is a method for selecting survey participants. In quota sampling, a population is first segmented into [[mutually exclusive]] sub-groups, just as in [[stratified sampling]]. Then judgment is used to select the subjects or units from each segment based on a specified proportion. For example, an interviewer may be told to sample 200 females and 300 males between the age of 45 and 60. This means that individuals can put a demand on who they want to sample (targeting)
+
+This second step makes the technique non-probability sampling. In quota sampling, there is  non-[[random sample]] selection and this can be [[Reliability (statistics)|unreliable]]. For example, interviewers might be tempted to interview those people in the street who look most helpful, or may choose to use [[accidental sampling]] to question those closest to them, for time-keeping sake. The problem is that these samples may be [[bias (statistics)|biased]] because not everyone gets a chance of selection. This non-random element is a source of uncertainty about the nature of the actual sample and quota versus probability has been a matter of controversy for many years.&amp;lt;ref&amp;gt;[http://www.fao.org/docrep/W3241E/w3241e08.htm#quota%20sampling Marketing Research and Information Systems. (Marketing and Agribusiness Texts – 4)]&amp;lt;/ref&amp;gt;
+
+Quota sampling is useful when time is limited, a [[sampling frame]] is not available, the research budget is very tight or when detailed accuracy is not important. Subsets are chosen and then either convenience or judgment sampling is used to choose people from each subset. The researcher decides how many of each category is selected.
+
+Quota sampling is the non probability version of stratified sampling. In stratified sampling, subsets of the population are created so that each subset has a common characteristic, such as gender. Random sampling chooses a number of subjects from each subset with, unlike a quota sample, each potential subject having a known probability of being selected.
+
+{{More footnotes|date=July 2010}}
+
+==See also==
+
+* [[Coefficient of variation]]
+* [[Standard deviation]]
+
+==References==
+*Dodge, Y. (2003) &amp;apos;&amp;apos;The Oxford Dictionary of Statistical Terms&amp;apos;&amp;apos;, OUP. ISBN 0-19-920613-9
+{{reflist}}
+
+[[Category:Sampling techniques]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

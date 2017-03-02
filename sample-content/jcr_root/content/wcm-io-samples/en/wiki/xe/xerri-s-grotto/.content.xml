@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Xerri&#x27;s Grotto"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Xerri&#x27;s Grotto" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Xerri&amp;apos;s Grotto&amp;apos;&amp;apos;&amp;apos; (pronounced &amp;apos;&amp;apos;sherry&amp;apos;&amp;apos;) is an underground [[cave]] in the village of [[Xagħra]], [[Gozo]], [[Malta]].  It was discovered in 1924 underneath a house during digging for a well. Tours are given by the owners of the house. Xerri&amp;apos;s Grotto is not far from another underground feature, [[Ninu&amp;apos;s Cave]].
+
+==External links==
+* [http://www.gozo.gov.mt/pages.aspx?page=169 gozo.gov.mt]
+* [http://www.mccullagh.org/image/d30-31/xerri-grotto.html a picture from xerri&amp;apos;s grotto]
+* [http://www.showcaves.com/english/mt/showcaves/Xerri.html showcaves.com]
+* [http://www.webcitation.org/query?url=http://www.geocities.com/SouthBeach/Sands/2321/Xerri.htm&amp;amp;date=2009-10-25+10:07:31 Gozo&amp;apos;s Cool Stuff]
+
+{{Malta-geo-stub}}
+
+{{coord missing|Malta}}
+
+[[Category:Caves of Malta]]
+[[Category:Gozo]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Moko"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Moko" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{other uses}}
+
+In the [[Polynesian mythology|mythology]] of [[Mangaia]] in the Cook Islands, &amp;apos;&amp;apos;&amp;apos;Moko&amp;apos;&amp;apos;&amp;apos; is a wily character and grandfather of the heroic [[Ngaru]].&amp;lt;ref name =&amp;quot;Gill&amp;quot;&amp;gt;*W.W. Gill, &amp;apos;&amp;apos;Myths and Songs from the South Pacific&amp;apos;&amp;apos; (H.S. King: London, 1876)&amp;lt;/ref&amp;gt;
+
+Moko is a ruler or king of the [[lizard]]s, and he orders his lizard subjects to climb into the basket of the sky demon [[Amai-te-rangi]] to spy on him. When Amai-te-rangi pulls up his basket, he is disappointed to find it full of miserable little reptiles, which escape and overrun his home in the sky.&amp;lt;ref name =&amp;quot;Gill&amp;quot;/&amp;gt;
+
+==References==
+{{reflist}}
+
+[[Category:Mangaia mythology]]
+
+[[de:Moko]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

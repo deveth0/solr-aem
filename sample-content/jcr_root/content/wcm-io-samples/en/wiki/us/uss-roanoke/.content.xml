@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="USS Roanoke"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="USS Roanoke" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Italic title prefixed|3}}
+&amp;apos;&amp;apos;&amp;apos;USS &amp;apos;&amp;apos;Roanoke&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* A 7-gun schooner named &amp;apos;&amp;apos;Roanoke&amp;apos;&amp;apos; was transferred from the State Department to the Navy in 1814, and sold in 1816, but there is no known records of her operations.
+*{{USS|Roanoke|1855}} was a [[screw frigate]] commissioned in 1857, converted to carry three revolving turrets in 1863, and in periodic use until 1882
+*{{USS|Roanoke|ID-1695}} was the civilian vessel &amp;apos;&amp;apos;El Dia&amp;apos;&amp;apos; converted to a minelayer in 1917 and returned in 1919
+*{{USS|Roanoke|PF-93}} was a {{sclass-|Tacoma|frigate|0}} patrol gunboat, reclassified as a patrol frigate, then renamed &amp;apos;&amp;apos;Lorain&amp;apos;&amp;apos; in 1944 while under construction
+* {{USS|Roanoke|CL-114}}, a {{sclass-|Fargo|cruiser|0}} light cruiser, was canceled on 5 October 1944, prior to the start of construction
+* {{USS|Roanoke|CL-145}} was a {{sclass-|Worcester|cruiser|0}} light cruiser in service from 1949 to 1958
+* {{USNS|Roanoke|T-AOR-155}} was a fleet replenishment oiler from 1956 to 1957
+* {{USS|Roanoke|AOR-7}} was a {{sclass-|Wichita|replenishment oiler|0}} replenishment oiler in service from 1976 to 1995
+
+{{Shipindex}}
+
+{{DEFAULTSORT:Roanoke, USS}}
+[[Category:United States Navy ship names]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

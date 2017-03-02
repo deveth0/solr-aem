@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="X-PLOR"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="X-PLOR" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;X-PLOR&amp;apos;&amp;apos;&amp;apos; is a software package for computational structural biology originally developed by [[Axel_T._Brunger|Axel Brunger]] at [[Yale_university|Yale University]]. It was first published in 1987 as an off-shoot of [[CHARMM]] - a similar program that ran on [[Cray supercomputer]]s. It is used in the fields of [[X-ray crystallography]] and [[protein nuclear magnetic resonance spectroscopy|NMR]] analysis.&amp;lt;ref&amp;gt;{{cite book|first=Peter |last=Güntert |chapter=Automated protein structure determination from NMR data |editor-last=Dingley|editor-first=Andrew J.|editor2-first=Steven M. |editor2-first=Pascal |title=Biomolecular NMR spectroscopy|year=2011|publisher=IOS Press|location=Amsterdam|isbn=9781607506942|doi=10.3233/978-1-60750-695-9-338|page=341}}&amp;lt;/ref&amp;gt;
+
+X-PLOR is a highly sophisticated computer program that provides an interface between theoretical foundations and experimental data in structural biology, with specific emphasis on X-ray crystallography and nuclear magnetic resonance spectroscopy in solution of biological macro-molecules. It is intended primarily for researchers and students in the fields of [[computational chemistry]], [[structural biology]], and computational molecular biology.
+
+==See also==
+*[[List of software for molecular mechanics modeling]]
+*[[Molecular mechanics]]
+
+==References==
+{{Reflist}}
+
+==External links==
+*[http://www.ocms.ox.ac.uk/mirrored/xplor/manual/htmlman/htmlman.html The program&amp;apos;s reference manual hosted at Oxford University]
+
+{{bioinformatics-stub}}
+
+[[Category:Molecular dynamics software]]
+[[Category:Computer libraries]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

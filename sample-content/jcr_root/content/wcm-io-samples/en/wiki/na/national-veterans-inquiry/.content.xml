@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="National Veterans Inquiry"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="National Veterans Inquiry" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+The &amp;apos;&amp;apos;&amp;apos;National Veterans Inquiry&amp;apos;&amp;apos;&amp;apos; was a national-level inquiry into American war crimes in Vietnam.  They were held December 1–3, 1970 in Washington, DC.
+
+==Origin==
+In November 1969, after the [[My Lai]] massacre became known, the [[Bertrand Russell]] Foundation, with antiwar activists [[Jeremy Rifkin]] and lawyer [[Tod Ensign]], organized the [[Citizens Commission of Inquiry]] (CCI) in the United States to document American war crimes in Vietnam.  The CCI, held their first inquiry in February 1970 in Annapolis, Maryland.
+
+Further inquiries were held in [[Springfield, Massachusetts|Springfield]], [[Massachusetts]]; [[Richmond, Virginia]]; [[New York City]]; [[Buffalo, New York|Buffalo]]; [[Boston, Massachusetts|Boston]]; [[Minneapolis, Minnesota|Minneapolis]]; [[Los Angeles, California|Los Angeles]]; and, [[Portland, Oregon]]. In some cities, the commissions were co-sponsored by antiwar coalitions, in others they were organized independently.
+
+Men who had taken part in the [[CIA]]&amp;apos;s [[Phoenix Program]] described it as a program based on terror, torture, and assassination.
+
+[[Category:Opposition to the Vietnam War]]
+[[Category:War crimes in Vietnam]]
+
+
+{{US-mil-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

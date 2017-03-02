@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Quotient rule"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Quotient rule" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Calculus |Differential}}
+
+In [[calculus]], the &amp;apos;&amp;apos;&amp;apos;quotient rule&amp;apos;&amp;apos;&amp;apos; is a method of finding the [[derivative]] of a [[function (mathematics)|function]] that is the [[quotient]] of two other functions for which derivatives exist.&amp;lt;ref&amp;gt;{{cite book | last=Stewart | first=James | authorlink=James Stewart (mathematician) | title=Calculus: Early Transcendentals |publisher=[[Brooks/Cole]] | edition=6th | year=2008 | isbn=0-495-01166-5}}&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;{{cite book | last1=Larson | first1=Ron | authorlink=Ron Larson (mathematician)| last2=Edwards | first2=Bruce H. | title=Calculus | publisher=[[Brooks/Cole]] | edition=9th | year=2009 | isbn=0-547-16702-4}}&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;{{cite book | last1 = Thomas | first1 = George B. | last2=Weir | first2= Maurice D. | last3=Hass | first3=Joel | author3-link = Joel Hass | authorlink=George B. Thomas | title=Thomas&amp;apos; Calculus: Early Transcendentals | publisher=[[Addison-Wesley]] | year=2010 | edition=12th | isbn=0-321-58876-2}}&amp;lt;/ref&amp;gt;
+
+If the function one wishes to differentiate, &amp;lt;math&amp;gt;f(x)&amp;lt;/math&amp;gt;, can be written as
+
+:&amp;lt;math&amp;gt;f(x) = \frac{g(x)}{h(x)}&amp;lt;/math&amp;gt;
+
+and &amp;lt;math&amp;gt;h(x)\not=0&amp;lt;/math&amp;gt;, then the rule states that the derivative of &amp;lt;math&amp;gt;g(x)/h(x)&amp;lt;/math&amp;gt; is
+
+:&amp;lt;math&amp;gt;f&amp;apos;(x) = \frac{g&amp;apos;(x)h(x) - g(x)h&amp;apos;(x)}{[h(x)]^2}.&amp;lt;/math&amp;gt;
+
+More precisely, if all &amp;apos;&amp;apos;x&amp;apos;&amp;apos; in some [[open set]] containing the number &amp;apos;&amp;apos;a&amp;apos;&amp;apos; satisfy &amp;lt;math&amp;gt;h(x)\not=0&amp;lt;/math&amp;gt;, and &amp;lt;math&amp;gt;g&amp;apos;(a)&amp;lt;/math&amp;gt; and &amp;lt;math&amp;gt;h&amp;apos;(a)&amp;lt;/math&amp;gt; both exist, then &amp;lt;math&amp;gt;f&amp;apos;(a)&amp;lt;/math&amp;gt; exists as well and
+
+:&amp;lt;math&amp;gt;f&amp;apos;(a)=\frac{h(a)g&amp;apos;(a) - h&amp;apos;(a)g(a)}{[h(a)]^2}.&amp;lt;/math&amp;gt;
+
+And this can be extended to calculate the second derivative as well (you can prove this by taking the derivative of &amp;lt;math&amp;gt;f(x)=g(x)(h(x))^{-1}&amp;lt;/math&amp;gt; twice).  The result of this is:
+
+:&amp;lt;math&amp;gt;f&amp;apos;&amp;apos;(x)=\frac{g&amp;apos;&amp;apos;(x)[h(x)]^2-2g&amp;apos;(x)h(x)h&amp;apos;(x)+g(x)[2[h&amp;apos;(x)]^2-h(x)h&amp;apos;&amp;apos;(x)]}{[h(x)]^3}.&amp;lt;/math&amp;gt;
+
+The quotient rule formula can be derived from the [[product rule]] and [[chain rule]].
+
+== Examples ==
+The derivative of &amp;lt;math&amp;gt;(4x - 2)/(x^2 + 1)&amp;lt;/math&amp;gt; is:
+
+:&amp;lt;math&amp;gt;\begin{align}\frac{d}{dx}\left[\frac{(4x - 2)}{x^2 + 1}\right] &amp;amp;= \frac{(x^2 + 1)(4) - (4x - 2)(2x)}{(x^2 + 1)^2}\\
+&amp;amp; = \frac{(4x^2 + 4) - (8x^2 - 4x)}{(x^2 + 1)^2} = \frac{-4x^2 + 4x + 4}{(x^2 + 1)^2}\end{align}&amp;lt;/math&amp;gt;
+
+In the example above, the choices
+
+:&amp;lt;math&amp;gt;g(x) = 4x - 2&amp;lt;/math&amp;gt;
+:&amp;lt;math&amp;gt;h(x) = x^2 + 1&amp;lt;/math&amp;gt;
+
+were made. Analogously, the derivative of sin(&amp;apos;&amp;apos;x&amp;apos;&amp;apos;)/&amp;apos;&amp;apos;x&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;2&amp;lt;/sup&amp;gt; (when &amp;apos;&amp;apos;x&amp;apos;&amp;apos;&amp;amp;nbsp;≠&amp;amp;nbsp;0) is:
+
+:&amp;lt;math&amp;gt;\frac{\cos(x) x^2 - \sin(x)2x}{x^4}&amp;lt;/math&amp;gt;
+
+== Derivation ==
+
+:Let some function &amp;lt;math&amp;gt;f(x)=\frac{g(x)}{h(x)}&amp;lt;/math&amp;gt;.
+:We wish to find &amp;lt;math&amp;gt;\frac{d}{dx}f(x)&amp;lt;/math&amp;gt;, and this is equivalent to &amp;lt;math&amp;gt;\frac{d}{dx}\frac{g(x)}{h(x)}&amp;lt;/math&amp;gt;.
+:We also know that &amp;lt;math&amp;gt;g(x)=f(x)\cdot h(x)&amp;lt;/math&amp;gt;.
+:By the product rule, we can say that &amp;lt;math&amp;gt;\frac{d}{dx}g(x)=h(x)\cdot\frac{df(x)}{dx}+\frac{dh(x)}{dx}\cdot f(x)&amp;lt;/math&amp;gt;.
+:From the equation above, &amp;lt;math&amp;gt;\frac{d}{dx}f(x)=\frac{\frac{dg(x)}{dx}-\frac{dh(x)}{dx}\cdot f(x)}{h(x)}&amp;lt;/math&amp;gt;
+:Because &amp;lt;math&amp;gt;f(x)=\frac{g(x)}{h(x)}&amp;lt;/math&amp;gt;, the right side simplifies to &amp;lt;math&amp;gt;\frac{\frac{dg(x)}{dx}-\frac{dh(x)}{dx}\cdot\frac{g(x)}{h(x)}}{h(x)}&amp;lt;/math&amp;gt;, which simplifies to &amp;lt;math&amp;gt;\frac{d}{dx}f(x)=\frac{\frac{dg(x)}{dx}\cdot h(x)-\frac{dh(x)}{dx}\cdot g(x)}{h^2(x)}&amp;lt;/math&amp;gt;, completing the derivation. &amp;lt;ref&amp;gt;{{cite book | last=Berresford | first=Geoffrey | last2=Rockett| first2=Andrew| title=Brief Applied Calculus | edition=5th | year=2008 | isbn=0-547-16977-9}}&amp;lt;/ref&amp;gt;
+
+==References==
+{{reflist}}
+
+{{DEFAULTSORT:Quotient Rule}}
+[[Category:Differentiation rules]]
+[[Category:Articles containing proofs]]
+
+{{math-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

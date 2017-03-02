@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Politics of the Marshall Islands"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Politics of the Marshall Islands" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+{{Politics of Marshall Islands}}
+
+The territorial claim by the Republic of the Marshall Islands on [[Wake Atoll]] leaves a certain amount of ambiguity regarding the actual or hypothetical role of the US military, responsible under agreement for the defense of Marshallese territory, in the event of any strategic crisis or hostilities involving Wake. The Atoll was formally annexed by the US in the 19th century and is still administered by the US Department of the Interior.
+
+==See also==
+*[[Government of the Marshall Islands]]
+*[[Elections in the Marshall Islands]]
+*[[LGBT rights in the Marshall Islands]]
+
+{{Oceania in topic|Politics of}}
+
+{{Use dmy dates|date=June 2011}}
+
+{{DEFAULTSORT:Politics Of The Marshall Islands}}
+
+
+[[Category:Politics of the Marshall Islands| ]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

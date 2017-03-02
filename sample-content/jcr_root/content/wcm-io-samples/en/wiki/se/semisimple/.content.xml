@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Semisimple"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Semisimple" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Otheruses4|mathematical use|the philosophical reduction thinking|Reduction (philosophy)}}
+
+In mathematics, the term &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;semisimple&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; (sometimes &amp;apos;&amp;apos;&amp;apos;completely reducible&amp;apos;&amp;apos;&amp;apos;) is used in a number of related ways, within different subjects. The common theme is the idea of a decomposition into &amp;apos;simple&amp;apos; (&amp;apos;irreducible&amp;apos;) parts, that fit together in the cleanest way (by direct sum). Briefly, &amp;quot;semisimple = direct sum of simple&amp;quot;, or equivalently &amp;quot;completely reducible = direct sum of irreducible&amp;quot;.
+
+*A [[semisimple module]] is one in which each submodule is a direct summand.
+*A [[semisimple algebra]] (or ring) is one that is semisimple as a module over itself.
+*A [[semisimple operator]] (or matrix) is one for which every invariant subspace has an invariant complement.  This is equivalent to the minimal polynomial being square-free. Over an algebraically closed field it is equivalent to diagonalizable.
+*A [[semisimple Lie algebra]] is a Lie algebra that is a direct sum of simple Lie algebras.
+*A [[semisimple algebraic group]] is a linear algebraic group whose radical of the identity component is trivial.
+
+== See also ==
+* [[Simple (algebra)]]
+
+{{mathdab}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

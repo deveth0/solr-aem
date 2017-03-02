@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Comm"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Comm" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{no footnotes|date=January 2013}}
+{{lowercase}}
+The &amp;apos;&amp;apos;&amp;apos;&amp;lt;tt&amp;gt;comm&amp;lt;/tt&amp;gt;&amp;apos;&amp;apos;&amp;apos; command in the [[Unix]] family of computer operating systems is a utility that is used to compare two [[computer file|files]] for common and distinct lines.  &amp;lt;tt&amp;gt;comm&amp;lt;/tt&amp;gt; is specified in the [[POSIX]] standard.  It has been widely available on [[Unix-like]] operating systems since the mid to late 1980s.&amp;lt;!-- Case Larsen BSD 1989 (as found in OpenBSD), Richard Stallman and David MacKenzie Gnu 1986 --&amp;gt;
+
+==Usage==
+&amp;lt;tt&amp;gt;comm&amp;lt;/tt&amp;gt; reads two files as input, regarded as lines of text.  &amp;lt;tt&amp;gt;comm&amp;lt;/tt&amp;gt; outputs one file, which contains three columns.  The first two columns contain lines unique to the first and second file, respectively. The last column contains lines common to both. This functionally is similar to &amp;lt;tt&amp;gt;[[diff]]&amp;lt;/tt&amp;gt;.
+
+Columns are typically distinguished with the &amp;lt;tt&amp;gt;&amp;apos;&amp;apos;&amp;lt;nowiki&amp;gt;&amp;lt;tab&amp;gt;&amp;lt;/nowiki&amp;gt;&amp;apos;&amp;apos;&amp;lt;/tt&amp;gt; character.  If the input files contain lines beginning with the separator character, the output columns can become ambiguous.
+
+For efficiency, standard implementations of &amp;lt;tt&amp;gt;comm&amp;lt;/tt&amp;gt; expect both input files to be sequenced in the same line [[collation]] order, sorted lexically.  The [[sort (Unix)]] command can be used for this purpose.
+
+The &amp;lt;tt&amp;gt;comm&amp;lt;/tt&amp;gt; algorithm makes use of the collating sequence of the current [[locale]].  If the lines in the files are not both collated in accordance with the current locale, the result is undefined.
+
+==Return code==
+Unlike &amp;lt;tt&amp;gt;diff&amp;lt;/tt&amp;gt;, the return code from &amp;lt;tt&amp;gt;comm&amp;lt;/tt&amp;gt; has no logical significance concerning the relationship of the two files.  A return code of 0 indicates success, a return code &amp;gt;0 indicates an error occurred during processing.
+
+==Example==
+
+File &amp;apos;&amp;apos;&amp;apos;foo&amp;apos;&amp;apos;&amp;apos;
+ apple
+ banana
+ eggplant
+
+File &amp;apos;&amp;apos;&amp;apos;bar&amp;apos;&amp;apos;&amp;apos;
+ apple
+ banana
+ banana
+ zucchini
+
+ &amp;apos;&amp;apos;&amp;apos;comm foo bar&amp;apos;&amp;apos;&amp;apos;
+                   apple
+                   banana
+           banana
+ eggplant
+           zucchini
+
+This shows that both files have one banana, but only &amp;apos;&amp;apos;&amp;apos;bar&amp;apos;&amp;apos;&amp;apos; has a second banana.
+
+In more detail, the output file has the appearance that follows.  Note that the column is interpreted by the number of leading tab characters.  \t represents a tab character and \n represents a newline ([[C (programming language)|C language]] notation).  The spaces shown are not part of the output file.
+
+ \t \t  a  p  p  l  e \n
+ \t \t  b  a  n  a  n  a \n
+ \t  b  a  n  a  n  a \n
+  e  g  g  p  l  a  n  t \n
+ \t  z  u  c  c  h  i  n  i \n
+
+==Comparison to diff==
+In general terms, &amp;lt;tt&amp;gt;diff&amp;lt;/tt&amp;gt; is a more powerful utility than &amp;lt;tt&amp;gt;comm&amp;lt;/tt&amp;gt;.  The simpler &amp;lt;tt&amp;gt;comm&amp;lt;/tt&amp;gt; is best suited for use in scripts.
+
+The primary distinction between &amp;lt;tt&amp;gt;comm&amp;lt;/tt&amp;gt; and &amp;lt;tt&amp;gt;diff&amp;lt;/tt&amp;gt; is that &amp;lt;tt&amp;gt;comm&amp;lt;/tt&amp;gt; discards information about the order of the lines prior to sorting.
+
+A minor difference between &amp;lt;tt&amp;gt;comm&amp;lt;/tt&amp;gt; and &amp;lt;tt&amp;gt;diff&amp;lt;/tt&amp;gt; is that &amp;lt;tt&amp;gt;comm&amp;lt;/tt&amp;gt; will not try to indicate that a line has &amp;quot;changed&amp;quot; between the two files; lines are either shown in the &amp;quot;from file #1&amp;quot;, &amp;quot;from file #2&amp;quot;, or &amp;quot;in both&amp;quot; columns.  This can be useful if one wishes two lines to be considered different even if they only have subtle differences.
+
+==Other options==
+&amp;apos;&amp;apos;&amp;apos;&amp;lt;tt&amp;gt;comm&amp;lt;/tt&amp;gt;&amp;apos;&amp;apos;&amp;apos; has [[command-line option]]s to suppress any of the three columns.  This is useful for scripting.
+
+There is also an option to read one file (but not both) from standard input.
+
+==Limits==
+Up to a full line must be buffered from each input file during line comparison, before the next output line is written.
+
+Some implementations read lines with the function &amp;lt;tt&amp;gt;readlinebuffer()&amp;lt;/tt&amp;gt; which does not impose any line length limits if system memory suffices.
+
+Other implementations read lines with the function &amp;lt;tt&amp;gt;[[fgets|fgets()]]&amp;lt;/tt&amp;gt;.  This function requires a fixed buffer.  For these implementations, the buffer is often sized according to the [[POSIX]] macro &amp;lt;tt&amp;gt;LINE_MAX&amp;lt;/tt&amp;gt;.
+
+==See also==
+*[[Comparison of file comparison tools]]
+*[[List of Unix programs]]
+*[[cmp (Unix)]] -- character oriented file comparison
+*[[cut (Unix)]] -- splitting column oriented files
+
+==References==
+*{{man|cu|comm|SUS|select or reject lines common to two files}}
+*{{man|1|comm||compare two sorted files line by line}}
+
+{{Unix commands}}
+
+[[Category:Free file comparison tools]]
+[[Category:Standard Unix programs|Comm]]
+[[Category:Unix SUS2008 utilities]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

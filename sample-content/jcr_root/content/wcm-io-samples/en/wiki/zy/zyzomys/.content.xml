@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Zyzomys"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Zyzomys" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{italictitle}}
+{{Taxobox
+| name = &amp;apos;&amp;apos;Zyzomys&amp;apos;&amp;apos;
+| image = Zyzomys_pedunculatus.jpg
+| image_caption = The [[Central Rock Rat]] (&amp;apos;&amp;apos;Zyzomys pedunculatus&amp;apos;&amp;apos;)
+| fossil_range = [[Pleistocene]]? - Recent
+| regnum = [[Animal]]ia
+| phylum = [[Chordate|Chordata]]
+| classis = [[Mammal]]ia
+| ordo = [[Rodent]]ia
+| superfamilia = [[Muroidea]]
+| familia = [[Muridae]]
+| subfamilia = [[Murinae]]
+| genus = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Zyzomys&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+| genus_authority = [[Oldfield Thomas|Thomas]], 1909
+| subdivision_ranks = Species
+| subdivision =
+&amp;apos;&amp;apos;[[Zyzomys argurus]]&amp;apos;&amp;apos;&amp;lt;br&amp;gt;
+&amp;apos;&amp;apos;[[Zyzomys maini]]&amp;apos;&amp;apos;&amp;lt;br&amp;gt;
+&amp;apos;&amp;apos;[[Zyzomys palatilis]]&amp;apos;&amp;apos;&amp;lt;br&amp;gt;
+&amp;apos;&amp;apos;[[Zyzomys pedunculatus]]&amp;apos;&amp;apos;&amp;lt;br&amp;gt;
+&amp;apos;&amp;apos;[[Zyzomys woodwardi]]&amp;apos;&amp;apos;
+}}
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Zyzomys&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is a [[genus]] of [[rodent]]s with unusually thick, long [[tail]]s. Five [[species]] of the [[genus]] are known in [[Australia]], where they are called rock rats or &amp;apos;&amp;apos;&amp;apos;thick-tailed rats&amp;apos;&amp;apos;&amp;apos;. They were discovered by [[Oldfield Thomas|Michael Rogers Oldfield Thomas]] in 1909.
+
+==Taxonomy==
+There are five known species of rock-rat. The Central Rock Rat (&amp;apos;&amp;apos;Zyzomys pedunculatus&amp;apos;&amp;apos;) was once believed to be extinct until rediscovered in 1996.
+
+*[[Silver-Tailed Rock Rat]], &amp;apos;&amp;apos;Zyzomys argurus&amp;apos;&amp;apos;
+*[[Arnhem Land Rock Rat]], &amp;apos;&amp;apos;Zyzomys maini&amp;apos;&amp;apos;
+*[[Carpentarian Rock Rat]], &amp;apos;&amp;apos;Zyzomys palatilis&amp;apos;&amp;apos;
+*[[Central Rock Rat]], &amp;apos;&amp;apos;Zyzomys pedunculatus&amp;apos;&amp;apos;
+*[[Kimberley Rock Rat]], &amp;apos;&amp;apos;Zyzomys woodwardi&amp;apos;&amp;apos;
+
+==References==
+*Musser, G. G. and M. D. Carleton. 2005. Superfamily Muroidea. Pp. 894-1531 &amp;apos;&amp;apos;in&amp;apos;&amp;apos; Mammal Species of the World a Taxonomic and Geographic Reference. D. E. Wilson and D. M. Reeder eds. Johns Hopkins University Press, Baltimore.
+{{Murinae|P.}}
+[[Category:Old World rats and mice]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Sosigenes"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Sosigenes" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;There were several historical figures called &amp;apos;&amp;apos;&amp;apos;Sosigenes&amp;apos;&amp;apos;&amp;apos;:
+
+*&amp;apos;&amp;apos;&amp;apos;[[Sosigenes of Alexandria]]&amp;apos;&amp;apos;&amp;apos;, an  [[astronomer]] consulted by [[Julius Caesar]] for the design of the [[Julian calendar]].
+*&amp;apos;&amp;apos;&amp;apos;[[Sosigenes the Peripatetic]]&amp;apos;&amp;apos;&amp;apos;, who was a [[Peripatetic school|peripatetic]] philosopher living at the end of the 2nd century and the tutor of [[Alexander of Aphrodisias]].
+
+&amp;apos;&amp;apos;See also:&amp;apos;&amp;apos; [[Sosigenes (crater)]]
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

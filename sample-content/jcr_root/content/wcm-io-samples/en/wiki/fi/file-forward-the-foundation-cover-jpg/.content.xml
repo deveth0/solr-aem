@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="File:Forward the Foundation cover.jpg"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="File:Forward the Foundation cover.jpg" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;== Summary ==
+{{Non-free use rationale book cover
+| Article           = Forward the Foundation
+| Use               = Infobox
+&amp;lt;!-- OPTIONAL FIELDS --&amp;gt;
+| Title             = Forward the Foundation
+| Author            =
+| Publisher         =
+| Cover_artist      =
+| Website           = http://www.abebooks.co.uk/servlet/BookDetailsPL?bi=1194335919
+| Owner             =
+| Commentary        =
+| Year              =
+&amp;lt;!--OVERRIDE FIELDS --&amp;gt;
+| Description       =
+| Source            =
+| Portion           =
+| Low_resolution    =
+| Purpose           =
+| Replaceability    =
+| Other_information =
+}}
+
+== Licensing ==
+{{Non-free book cover|image has rationale=yes}}
+[[category:science fiction images]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

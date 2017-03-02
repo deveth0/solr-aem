@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ronald Walker"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ronald Walker" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Ronald Walker&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+*[[Ronald J. Walker]] (born 1939), Australian businessman and former Lord Mayor of Melbourne
+*[[Ronald Walker (UK politician)]] (1880–1971), Liberal politician in England
+*[[Ronald Walker (Australian politician)]] (1897&amp;amp;ndash;1981), New South Wales politician
+*[[Ronald H. Walker]] (born 1937), first Director of the White House Office of Presidential Advance and American executive
+*[[R. Tracy Walker]], Republican politician in North Carolina
+*[[Ronald W. Walker]] (born 1939), Mormon historian
+
+
+{{hndis|Walker, Ronald}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

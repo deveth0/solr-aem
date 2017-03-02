@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Eidolon"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Eidolon" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionarypar|eidolon}}
+
+&amp;apos;&amp;apos;&amp;apos;Eidolon&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* [[Eidolon (apparition)]], a spirit-image of a living or dead person in ancient Greek thought
+
+&amp;apos;&amp;apos;&amp;apos;In Business&amp;apos;&amp;apos;&amp;apos;:
+* [[Eidolon Publications]], a small press publisher based in North Perth, Western Australia
+** [[Eidolon (magazine)|&amp;apos;&amp;apos;Eidolon&amp;apos;&amp;apos; (magazine)]], a speculative fiction magazine published by Eidolon Publications
+** [[Eidolon Books]], the book publishing arm of Eidolon Publications
+* [[Eidolon Software]], a software company that caters to NextStep and Mac OS X clients
+
+&amp;apos;&amp;apos;&amp;apos;In music&amp;apos;&amp;apos;&amp;apos;:
+* [[Eidolons (band)]], an alternative band based in Portland, OR
+* [[Eidolon (band)]], a heavy metal band
+* [[Eidolon (album)]], an album by black metal band Dark Fortress
+
+&amp;apos;&amp;apos;&amp;apos;In video games&amp;apos;&amp;apos;&amp;apos;:
+* &amp;apos;&amp;apos;[[The Eidolon]]&amp;apos;&amp;apos;, a computer game from the 1980s by Lucasfilm Games
+* [[Final_Fantasy_character_jobs#Summoner | Summoned monsters]] in [[Final Fantasy IX]], [[Final Fantasy XIII]], [[Final Fantasy Type-0]] and the DS version of [[Final Fantasy IV]] are called Eidolons.
+* [[Dota 2]], the hero Enigma can summon small creatures to his aid which are called Eidolons
+
+&amp;apos;&amp;apos;&amp;apos;In film and television&amp;apos;&amp;apos;&amp;apos;:
+*[[Eidolon (Farscape)]], an alien race in the TV miniseries [[Farscape: The Peacekeeper Wars]]
+
+&amp;apos;&amp;apos;&amp;apos;Other&amp;apos;&amp;apos;&amp;apos;:
+* [[Eidolon (genus)]], a genus of bat
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

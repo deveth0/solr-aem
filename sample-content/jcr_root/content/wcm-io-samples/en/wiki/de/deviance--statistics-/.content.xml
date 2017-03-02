@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Deviance (statistics)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Deviance (statistics)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{distinguish|Deviation (statistics)}}
+
+In [[statistics]], &amp;apos;&amp;apos;&amp;apos;deviance&amp;apos;&amp;apos;&amp;apos; is a quality of fit statistic for a model that is often used for [[statistical hypothesis testing]]. It is a generalization, to cases where model-fitting is achieved by [[maximum likelihood]], of the idea of using the sum of squared residuals in [[ordinary least squares]].
+
+==Definition==
+The deviance for a model &amp;apos;&amp;apos;M&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;0&amp;lt;/sub&amp;gt;, based on a dataset &amp;apos;&amp;apos;y&amp;apos;&amp;apos;, is defined as:&amp;lt;ref&amp;gt;{{cite journal | last= Nelder | first = J.A. |authorlink = John Nelder | first2 = R.W.M. |last2 = Wedderburn |authorlink2 = Robert Wedderburn (statistician) | title = Generalized Linear Models | year=1972 | journal = [[Journal of the Royal Statistical Society]]. Series A (General) | volume= 135 |issue=3 | pages=370–384 | doi= 10.2307/2344614 | jstor= 2344614 }}&amp;lt;/ref&amp;gt;&amp;lt;ref name=McN&amp;gt;McCullagh and Nelder (1989){{Page needed|date=November 2011}}&amp;lt;/ref&amp;gt;
+
+:&amp;lt;math&amp;gt;D(y) = -2 \Big( \log \big( p(y|\hat \theta_0)\big)-\log \big(p(y|\hat \theta_s)\big)\Big).\,&amp;lt;/math&amp;gt;
+
+Here &amp;lt;math&amp;gt;\hat \theta_0&amp;lt;/math&amp;gt; denotes the fitted values of the parameters in the model &amp;apos;&amp;apos;M&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;0&amp;lt;/sub&amp;gt;, while &amp;lt;math&amp;gt;\hat \theta_s&amp;lt;/math&amp;gt; denotes the fitted parameters for the &amp;quot;full model&amp;quot; (or &amp;quot;saturated model&amp;quot;): both sets of fitted values are implicitly functions of the observations &amp;apos;&amp;apos;y&amp;apos;&amp;apos;. Here the &amp;apos;&amp;apos;&amp;apos;full model&amp;apos;&amp;apos;&amp;apos; is a model with a parameter for every observation so that the data are fitted exactly. This expression is simply  &amp;amp;minus;2 times the [[likelihood function|log-likelihood ratio]] of the reduced model compared to the full model. The deviance is used to compare two models &amp;amp;ndash; in particular in the case of [[generalized linear model]]s where it has a similar role to residual variance from [[ANOVA]] in linear models ([[Residual sum of squares|RSS]]).
+
+Suppose in the framework of the GLM, we have two nested models, &amp;apos;&amp;apos;M&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt;&amp;apos;&amp;apos; and &amp;apos;&amp;apos;M&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;&amp;apos;&amp;apos;. In particular, suppose that &amp;apos;&amp;apos;M&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt;&amp;apos;&amp;apos; contains the parameters in &amp;apos;&amp;apos;M&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;&amp;apos;&amp;apos;, and &amp;apos;&amp;apos;k&amp;apos;&amp;apos; additional parameters. Then, under the null hypothesis that &amp;apos;&amp;apos;M&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;&amp;apos;&amp;apos; is the true model, the difference between the deviances for the two models follows an approximate [[chi-squared distribution]] with &amp;apos;&amp;apos;k&amp;apos;&amp;apos;-degrees of freedom.&amp;lt;ref name=McN/&amp;gt;
+
+Some usage of the term &amp;quot;deviance&amp;quot; can be confusing.  According to Collett:&amp;lt;ref&amp;gt;Collett (2003){{Page needed|date=November 2011}}&amp;lt;/ref&amp;gt;
+: &amp;quot;the quantity &amp;lt;math&amp;gt;-2 \log \big( p(y|\hat \theta_0)\big) &amp;lt;/math&amp;gt; is sometimes referred to as a &amp;apos;&amp;apos;deviance&amp;apos;&amp;apos;.  This is [...] inappropriate, since unlike the deviance used in the context of generalized linear modelling, &amp;lt;math&amp;gt;-2 \log \big( p(y|\hat \theta_0)\big)&amp;lt;/math&amp;gt; does not measure deviation from a model that is a perfect fit to the data.&amp;quot; However, since the principal use is in the form of the difference of the deviances of two models, this confusion in definition is unimportant.
+
+==See also==
+
+*[[Pearson&amp;apos;s chi-squared test]], an alternative quality of fit statistic for [[generalized linear models]] for count data.
+*[[Hosmer-Lemeshow test]], a quality of fit statistic that can be used for binary data.
+*[[Akaike information criterion]]
+*[[Deviance information criterion]]
+*[[Peirce&amp;apos;s criterion]]
+*[[Discrepancy function]]
+
+==Notes==
+
+{{reflist}}
+
+==References==
+*{{cite book|last1=McCullagh|first1=Peter|last2=Nelder|first2=John|authorlink1 = Peter McCullagh|authorlink2 = John Nelder|title = Generalized Linear Models, Second Edition|publisher = Chapman &amp;amp; Hall/CRC|year = 1989|isbn=0-412-31760-5
+}}
+
+*{{cite book|last1=Collett|first1=David|authorlink1 =|title = Modelling Survival Data in Medical Research, Second Edition|publisher = Chapman &amp;amp; Hall/CRC|year = 2003|isbn=1-58488-325-1
+}}
+
+==External links==
+*[http://userwww.sfsu.edu/~efc/classes/biol710/Glz/Generalized%20Linear%20Models.htm Generalized Linear Models] - Edward F. Connor
+*[http://www.unc.edu/courses/2006spring/ecol/145/001/docs/lectures/lecture22.htm Lectures notes on Deviance]
+
+{{Statistics|correlation}}
+{{Least squares and regression analysis}}
+
+[[Category:Hypothesis testing]]
+[[Category:Statistical deviation and dispersion]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

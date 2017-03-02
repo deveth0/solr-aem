@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="George Ernest Foulkes"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="George Ernest Foulkes" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Use mdy dates|date=June 2013}}
+{{for|the British politician|George Foulkes, Baron Foulkes of Cumnock}}
+&amp;apos;&amp;apos;&amp;apos;George Ernest Foulkes&amp;apos;&amp;apos;&amp;apos; (December 25, 1878 – December 13, 1960) was a [[United States Representative]] from [[Michigan]].
+
+Foulkes was born in [[Chicago, Illinois]] and attended the public schools of Chicago. He graduated from the law department of [[Lake Forest University]], Chicago, in 1900. He was admitted to the [[bar (law)|bar]] the same year and commenced practice in the [[United States Department of the Treasury|United States Treasury Department]]. He was [[special agent]] of the U.S. Treasury Department in charge of field service at New York City, [[El Paso, Texas]], [[St. Paul, Minnesota]], and [[Minneapolis, Minnesota]], 1900–19. He moved to [[Hartford, Michigan]], in 1920 and engaged in agricultural pursuits. He was a delegate to the Democratic state conventions in 1924, 1926, and 1928.
+
+In 1932, Foulkes defeated incumbent [[Republican (United States)|Republican]] [[John C. Ketcham]] to be elected as a [[Democratic Party (United States)|Democrat]] from [[Michigan&amp;apos;s 4th congressional district]] to the [[United States House of Representatives]] for the [[73rd United States Congress|73rd Congress]], serving from March 4, 1933 to January 3, 1935. He was nominated for [[Governor of Michigan]] by the [[Farmer-Labor Party]] in 1934, but declined. He was an unsuccessful candidate for reelection in 1934 to the [[74th United States Congress|74th Congress]] and resumed agricultural pursuits. He also engaged as an author and in farm-organization work. He died in Hartford and is interred in Hartford Cemetery.
+
+==References==
+{{CongBio|F000317}}
+* [http://politicalgraveyard.com/bio/fouch-fowle.html#R9M0IX90Y The Political Graveyard]
+
+{{s-start}}
+{{s-par|us-hs}}
+{{succession box | before=[[John C. Ketcham]] | title=[[United States Congressional Delegations from Michigan|United States Representative for the 4th Congressional District of Michigan]]| years=1933–1935 | after= [[Clare E. Hoffman]] }}
+{{s-end}}
+
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Foulkes, George E.
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION = American politician
+| DATE OF BIRTH     = December 25, 1878
+| PLACE OF BIRTH    =
+| DATE OF DEATH     = December 13, 1960
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Foulkes, George E.}}
+[[Category:1878 births]]
+[[Category:1960 deaths]]
+[[Category:Members of the United States House of Representatives from Michigan]]
+[[Category:Michigan Democrats]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

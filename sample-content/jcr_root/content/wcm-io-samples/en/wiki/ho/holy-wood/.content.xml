@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Holy Wood"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Holy Wood" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Holy Wood&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;Holywood&amp;apos;&amp;apos;&amp;apos; may refer to:
+{{TOC right}}
+==Arts==
+* [[Holy Wood (novel)|&amp;apos;&amp;apos;Holy Wood&amp;apos;&amp;apos; (novel)]], an unpublished novel by Marilyn Manson
+* [[Holy Wood (In the Shadow of the Valley of Death)|&amp;apos;&amp;apos;Holy Wood&amp;apos;&amp;apos; (In the Shadow of the Valley of Death)]], a 2000 album by Marilyn Manson
+* Holy Wood, a fictional location in &amp;apos;&amp;apos;[[Moving Pictures (novel)|Moving Pictures]]&amp;apos;&amp;apos;
+
+==Other==
+* [[Holywood]], a town in County Down, Northern Ireland
+* [[Christopher Holywood]] (1559–1626), 17th-century Jesuit
+* &amp;apos;&amp;apos;[[Guaiacum sanctum]]&amp;apos;&amp;apos;, commonly known as Holywood or Holywood Lignum-vitae
+
+==See also==
+* [[Hollywood (disambiguation)]]
+* [[Palo santo (disambiguation)]], (Spanish: &amp;apos;&amp;apos;holy wood&amp;apos;&amp;apos;)
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

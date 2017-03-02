@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="File:Nichols2.jpg"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="File:Nichols2.jpg" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;==Summary==
+Law enforcement photograph of [[Oklahoma City bombing|Oklahoma City bombing conspirator]] [[Terry Nichols]].
+
+==Source==
+Image found at www.terry-nichols-news.newslib.com/
+&amp;lt;!-- I did not upload the image, but after searching through Google images, this is one site that had the image --&amp;gt;
+==Fair use rationale for [[Terry Nichols]]==
+The image depicts Nichols in a police mug shot related to the investigation of the Oklahoma City bombing and is a non-reproducible image. The use is for educational purposes is essential to showing readers what Nichols looked like after he was arrested. The image was reprinted worldwide and the possible commercial value of the photograph is not significantly reduced by its use on the article. The mug shot is in use on various websites, and its use on Wikipedia does not make it significantly more accessible than it already is.
+
+==Licensing==
+{{ir-Mugshot}}
+{{Non-free fair use in|Terry Nichols|image has rationale=yes}}
+[[Category:Mug shots|Nichols, Terry]]
+[[Category:Oklahoma City bombing]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Coefficients of potential"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Coefficients of potential" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[electrostatics]], the &amp;apos;&amp;apos;&amp;apos;[[coefficients]] of potential&amp;apos;&amp;apos;&amp;apos; determine the relationship between the [[electric charge|charge]] and [[electrostatic potential]] ([[electrical potential]]), which is purely geometric:
+:&amp;lt;math&amp;gt;
+\begin{matrix}
+\phi_1 = p_{11}Q_1 + \cdots + p_{1n}Q_n \\
+\phi_2 = p_{21}Q_1 + \cdots + p_{2n}Q_n \\
+\vdots \\
+\phi_n = p_{n1}Q_1 + \cdots + p_{nn}Q_n
+\end{matrix}.&amp;lt;/math&amp;gt;
+
+where &amp;apos;&amp;apos;Q&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;i&amp;lt;/sub&amp;gt; is the surface charge on conductor &amp;apos;&amp;apos;i&amp;apos;&amp;apos;. The coefficients of potential are the coefficients &amp;apos;&amp;apos;p&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;ij&amp;lt;/sub&amp;gt;. &amp;amp;phi;&amp;lt;sub&amp;gt;i&amp;lt;/sub&amp;gt; should be correctly read as the potential due to charge 1, and hence &amp;quot;&amp;lt;math&amp;gt;p_{21}&amp;lt;/math&amp;gt;&amp;quot; is the p due to charge 2 on charge 1.
+:&amp;lt;math&amp;gt;p_{ij} = {\part \phi_i \over \part Q_j} = \left({\part \phi_i \over \part Q_j} \right)_{Q_1,...,Q_{j-1}, Q_{j+1},...,Q_n},&amp;lt;/math&amp;gt;
+or more formally
+:&amp;lt;math&amp;gt;p_{ij} = \frac{1}{4\pi\epsilon_0 S_j}\int_{S_j}\frac{f_j da_j}{R_{ji}}.&amp;lt;/math&amp;gt;
+
+Note that:
+# &amp;apos;&amp;apos;p&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;ij&amp;lt;/sub&amp;gt; = &amp;apos;&amp;apos;p&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;ji&amp;lt;/sub&amp;gt;, by symmetry, and
+# &amp;apos;&amp;apos;p&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;ij&amp;lt;/sub&amp;gt; is not dependent on the charge,
+
+The physical content of the symmetry is as follows:
+: if a charge &amp;apos;&amp;apos;Q&amp;apos;&amp;apos; on conductor j brings conductor i to a potential &amp;amp;phi;, then the same charge placed on i would bring j to the same potential &amp;amp;phi;.
+:
+In general, the coefficients is used when describing system of conductors, such as in the [[capacitor]].
+
+==Theory==
+&amp;lt;div style=&amp;quot;float:right; text-align:center;&amp;quot;&amp;gt;
+[[Image:System of conductors.png]]
+&amp;lt;br&amp;gt;&amp;apos;&amp;apos;System of conductors. The electrostatic potential at point P is &amp;lt;math&amp;gt;\phi_P = \sum_{j = 1}^{n}\frac{1}{4\pi\epsilon_0}\int_{S_j}\frac{\sigma_j da_j}{R_{j}}&amp;lt;/math&amp;gt;.&amp;apos;&amp;apos;
+&amp;lt;/div&amp;gt;
+
+Given the electrical potential on a conductor surface &amp;apos;&amp;apos;S&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;i&amp;lt;/sub&amp;gt; (the [[equipotential surface]] or the point &amp;apos;&amp;apos;P&amp;apos;&amp;apos; chosen on surface i) contained in a system of conductors j = 1, 2, ..., &amp;apos;&amp;apos;n&amp;apos;&amp;apos;:
+:&amp;lt;math&amp;gt;\phi_i = \sum_{j = 1}^{n}\frac{1}{4\pi\epsilon_0}\int_{S_j}\frac{\sigma_j da_j}{R_{ji}} \mbox{ (i=1, 2..., n)},&amp;lt;/math&amp;gt;
+
+where &amp;apos;&amp;apos;R&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;ji&amp;lt;/sub&amp;gt; = |&amp;apos;&amp;apos;&amp;apos;r&amp;apos;&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;i&amp;lt;/sub&amp;gt; - &amp;apos;&amp;apos;&amp;apos;r&amp;apos;&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;j&amp;lt;/sub&amp;gt;|, i.e. the distance from the area-element &amp;apos;&amp;apos;da&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;j&amp;lt;/sub&amp;gt; to a particular point &amp;apos;&amp;apos;&amp;apos;r&amp;apos;&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;i&amp;lt;/sub&amp;gt; on conductor i. &amp;amp;sigma;&amp;lt;sub&amp;gt;j&amp;lt;/sub&amp;gt; is not, in general, uniformly distributed across the surface. Let us introduce the factor &amp;apos;&amp;apos;f&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;j&amp;lt;/sub&amp;gt; that describes how the actual charge density differs from the average and itself on a position on the surface of  the &amp;apos;&amp;apos;j&amp;apos;&amp;apos;-th conductor:
+:&amp;lt;math&amp;gt;\frac{\sigma_j}{\langle\sigma_j\rangle} = f_j,&amp;lt;/math&amp;gt;
+or
+: &amp;lt;math&amp;gt;\sigma_j = \langle\sigma_j\rangle f_j = \frac{Q_j}{S_j}f_j.&amp;lt;/math&amp;gt;
+Then,
+:&amp;lt;math&amp;gt;\phi_i = \sum_{j = 1}^n\frac{Q_j}{4\pi\epsilon_0S_j}\int_{S_j}\frac{f_j da_j}{R_{ji}}&amp;lt;/math&amp;gt;
+can be written in the form
+:&amp;lt;math&amp;gt;\phi_i=\sum_{j = 1}^n p_{ij}Q_j \mbox{ (i = 1, 2, ..., n)}, &amp;lt;/math&amp;gt;
+i.e.
+:&amp;lt;math&amp;gt;p_{ij} = \frac{1}{4\pi\epsilon_0 S_j}\int_{S_j}\frac{f_j da_j}{R_{ji}}.&amp;lt;/math&amp;gt;
+
+==Example==
+In this example, we employ the method of coefficients of potential to determine the capacitance on a two-conductor system.
+
+For a two-conductor system, the system of linear equations is
+:&amp;lt;math&amp;gt;
+\begin{matrix}
+\phi_1 = p_{11}Q_1 + p_{12}Q_2 \\
+\phi_2 = p_{21}Q_1 + p_{22}Q_2
+\end{matrix}.&amp;lt;/math&amp;gt;
+
+On a [[capacitor]], the charge on the two conductors is equal and opposite: &amp;apos;&amp;apos;Q&amp;apos;&amp;apos; = &amp;apos;&amp;apos;Q&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt; = -&amp;apos;&amp;apos;Q&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;. Therefore,
+:&amp;lt;math&amp;gt;
+\begin{matrix}
+\phi_1 = (p_{11} - p_{12})Q \\
+\phi_2 = (p_{21} - p_{22})Q
+\end{matrix},&amp;lt;/math&amp;gt;
+and
+:&amp;lt;math&amp;gt;\Delta\phi = \phi_1 - \phi_2 = (p_{11} + p_{22} - p_{12} - p_{21})Q.&amp;lt;/math&amp;gt;
+Hence,
+: &amp;lt;math&amp;gt; C = \frac{1}{p_{11} + p_{22} - 2p_{12}}.&amp;lt;/math&amp;gt;
+
+==Related coefficients==
+Note that the array of linear equations
+:&amp;lt;math&amp;gt;\phi_i = \sum_{j = 1}^n p_{ij}Q_j \mbox{    (i = 1,2,...n)}&amp;lt;/math&amp;gt;
+can be inverted to
+:&amp;lt;math&amp;gt;Q_i = \sum_{j = 1}^n c_{ij}\phi_j \mbox{    (i = 1,2,...n)}&amp;lt;/math&amp;gt;
+where &amp;apos;&amp;apos;c&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;ii&amp;lt;/sub&amp;gt; is called the &amp;apos;&amp;apos;[[coefficients of capacitance]]&amp;apos;&amp;apos; and the &amp;apos;&amp;apos;c&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;ij&amp;lt;/sub&amp;gt; with i &amp;amp;ne; j is called the &amp;apos;&amp;apos;[[coefficients of induction]]&amp;apos;&amp;apos;.
+
+The [[capacitance]] of this system can be expressed as
+:&amp;lt;math&amp;gt;C = \frac{c_{11}c_{22} - c_{12}^2}{c_{11} + c_{22} + 2c_{12}}&amp;lt;/math&amp;gt;
+(the system of conductors can be shown to have similar symmetry &amp;apos;&amp;apos;c&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;ij&amp;lt;/sub&amp;gt; = &amp;apos;&amp;apos;c&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;ji&amp;lt;/sub&amp;gt;.)
+
+[[Category:Electrostatics]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

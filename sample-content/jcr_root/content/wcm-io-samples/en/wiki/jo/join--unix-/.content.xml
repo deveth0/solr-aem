@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Join (Unix)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Join (Unix)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{lowercase}}
+&amp;apos;&amp;apos;&amp;apos;&amp;lt;code&amp;gt;join&amp;lt;/code&amp;gt;&amp;apos;&amp;apos;&amp;apos; is a command in [[Unix-like]] operating systems that merges the lines of two sorted [[text file]]s based on the presence of a common [[Field (computer science)|field]]. It is similar to the join operator used in [[relational database]]s but operating on text files.
+
+The &amp;lt;code&amp;gt;join&amp;lt;/code&amp;gt; command takes as input two text files and a number of options. If no [[command-line argument]] is given, this command looks for a pair of lines from the two files having the same first field (a sequence of characters that are different from space), and outputs a line composed of the first field followed by the rest of the two lines.
+
+The program arguments specify which [[character (computing)|character]] to be used in place of space to separate the fields of the line, which field to use when looking for matching lines, and whether to output lines that do not match. The output can be stored to another file rather than printing using [[Redirection (computing)|redirection]].
+
+As an example, the two following files list the known fathers and the mothers of some people. Note that both files have been sorted on the join field — this is a requirement of the program.
+
+ george jim
+ mary john
+
+ albert martha
+ george sophie
+
+The join of these two files (with no argument) would produce:
+
+ george jim sophie
+
+Indeed, only &amp;quot;george&amp;quot; is common as a first word of both files.
+
+==See also==
+* [[Textutils]]
+* [[Join (SQL)]]
+* [[Relational algebra]]
+* [[List of Unix programs]]
+
+==External links==
+* [http://www.die.net/doc/linux/man/man1/join.1.html man page]
+* [http://www.albany.edu/~ig4895/join.htm join examples]
+
+{{unix commands}}
+
+[[Category:Unix text processing utilities]]
+[[Category:Unix SUS2008 utilities]]
+
+{{unix-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

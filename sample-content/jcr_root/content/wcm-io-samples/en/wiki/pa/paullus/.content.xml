@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Paullus"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Paullus" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Paullus&amp;apos;&amp;apos;&amp;apos; is a cognomen of ancient Rome, also appearing as an apparent  [[praenomen]] of several Romans.
+
+* Marcus Aemilius L.f. Paullus, consul 302 BC
+* Marcus Aemilius M.f. Paullus, consul 255 BC
+* [[Lucius Aemilius Paullus (consul 219 BC)]], killed at Battle of Cannae
+* [[Lucius Aemilius Paullus Macedonicus]], consul and victor in Battle of Pydna
+* [[Lucius Aemilius Lepidus Paullus]], consul 50 BC
+* [[Lucius Aemilius Lepidus Paullus (consul 34 BC)]], suffect consul 34 BC
+* [[Paullus Fabius Maximus]], consul 11 BC
+* [[Lucius Aemilius Paullus (consul 1)]], consul 1 AD
+* [[Paullus Fabius Persicus]], consul 34 AD
+* [[Sergius Paulus]], consul 168
+
+==See also==
+* [[Scipio-Paullus-Gracchus family tree]]
+
+{{hndis}}
+[[Category:Ancient Roman families]]
+[[Category:Prosopography of Ancient Rome]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

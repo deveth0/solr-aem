@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Xedit (X11)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Xedit (X11)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{About|the X Window System editor|the VM/CMS editor|XEDIT}}
+
+{{notability|date=September 2011}}
+{{primary sources|date=September 2011}}
+&amp;apos;&amp;apos;&amp;apos;xedit&amp;apos;&amp;apos;&amp;apos; is a [[text editor]] for the [[X Window System]]. It uses the [[Athena Project|Athena]] ([[Xaw]]) [[widget toolkit]].
+
+Originally written during the days of the [[MIT X Consortium]] (late in 1987) by [[Chris D. Peterson]], it was relatively untouched until the late 1990s.&amp;lt;ref&amp;gt;{{cite web
+   |url=http://cvsweb.xfree86.org/cvsweb/contrib/programs/xedit/Attic/
+   |title=contrib/programs/xedit/Attic
+   |date=October 1998}}&amp;lt;/ref&amp;gt; The current version of xedit was modified by Paulo César Pereira de Andrade beginning in 2001 for [[XFree86]] to include a [[Lisp (programming language)|Lisp]] interpreter used as a calculator.  At the same time, he also made supporting changes to Xaw.  This version of xedit also provides simple formatting, indenting and spell-checking (through an interface to [[ispell]]).
+
+==References==
+{{Reflist}}
+
+==External links==
+* [http://www.x.org/archive/X11R6.8.2/doc/xedit.1.html xedit manual page]
+* [http://cgit.freedesktop.org/xorg/app/xedit/ xedit online source code browser]
+* [http://xorg.freedesktop.org/releases/individual/app/ xedit source code releases]
+* [https://bugs.freedesktop.org/buglist.cgi?component=app/xedit&amp;amp;order=bugs.resolution,bugs.bug_severity,bugs.priority xedit bug tracker area]
+
+{{XWinSys}}
+
+[[Category:Free text editors]]
+
+
+{{Free-software-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

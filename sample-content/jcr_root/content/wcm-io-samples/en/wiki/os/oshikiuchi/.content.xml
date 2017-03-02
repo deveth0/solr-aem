@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Oshikiuchi"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Oshikiuchi" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox martial art term
+| kanji = 御式内
+| hiragana = おしきうち
+| revhep = oshikiuchi
+| kunrei = osikiuti
+}}{{Nihongo|&amp;apos;&amp;apos;&amp;apos;Oshikiuchi&amp;apos;&amp;apos;&amp;apos;|御式内|o-shikiuchi}} is a term referring to some sort of techniques for use in formal circumstances. The term itself translates literally to something like &amp;quot;honorable manner for indoors&amp;quot;. Scholars dispute whether oshikiuchi is literally a set of manners or etiquette for use on formal occasions, or a set of martial arts techniques specialized for use in formal situations where the wearing of weapons is restricted, such as the palace of one&amp;apos;s lord. [[Takeda Sōkaku]], the modern founder of [[Daitō-ryū Aiki-jūjutsu]], claimed that it was a secret martial art passed down through members of his family in the [[Aizu]] domain, and that he combined in some way with his family&amp;apos;s martial arts, which he eventually taught publicly as Daitō-ryū.&amp;lt;ref&amp;gt;{{cite encyclopedia
+| last = Pranin
+| first = Stanley
+| title = Oshikiuchi
+| encyclopedia = Encyclopedia of Aikido
+| publisher = Aikido Journal
+| date = 2007
+| url = http://www.aikidojournal.com/encyclopedia?entryID=534
+| accessdate = 2007-11-01
+}}&amp;lt;/ref&amp;gt; Such a claim is supported by his descendants, but unverified.
+
+==See also==
+*[[Daitō-ryū Aiki-jūjutsu]]
+
+==References==
+&amp;lt;references/&amp;gt;
+
+{{martialart-term-stub}}
+[[Category:Japanese martial arts terms]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="XCOPY"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="XCOPY" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{original research|date=November 2012}}
+{{manual|date=November 2012}}
+
+In [[computing]], &amp;apos;&amp;apos;&amp;apos;XCOPY&amp;apos;&amp;apos;&amp;apos; is a [[command (computing)|command]] used on [[PC DOS]], [[MS-DOS]], [[OS/2]], [[Microsoft Windows]], and related operating systems for copying multiple [[computer file|files]] or entire directory trees from one [[directory (file systems)|directory]] to another and for copying files across a [[computer network|network]]. XCOPY stands for &amp;apos;&amp;apos;extended copy&amp;apos;&amp;apos;,&amp;lt;ref&amp;gt;{{cite web |url=http://support.microsoft.com/?scid=kb;en-us;100012 |title=Windows NT File System Files |date=2006-11-01 |work=Microsoft Help and Support |publisher=Microsoft}}&amp;lt;/ref&amp;gt; and was created as a more functional file copying utility than the [[copy (command)|copy]] command found in these operating systems. XCOPY first appeared in DOS 3.2.
+
+==Example==
+Create a new directory by copying all contents of the existing directory, including any files or subdirectories having the &amp;quot;hidden&amp;quot; or &amp;quot;system&amp;quot; attributes and empty directories.
+
+&amp;lt;source lang=&amp;quot;dos&amp;quot;&amp;gt;
+xcopy e:\existing e:\newcopy /s /e /i /h
+&amp;lt;/source&amp;gt;
+
+If the directory names include blank signs(spaces), the names can be put in quotation marks.
+
+&amp;lt;source lang=&amp;quot;dos&amp;quot;&amp;gt;
+xcopy &amp;quot;D:\Documents and Settings\MY.USERNAME\My Documents\*&amp;quot; &amp;quot;E:\MYBACKUP\My Documents\&amp;quot; /D/E/C/Y
+&amp;lt;/source&amp;gt;
+
+Copy entire drive in to a mapped network drive while ignoring any errors in network restartable mode.
+
+&amp;lt;source lang=&amp;quot;dos&amp;quot;&amp;gt;
+xcopy *.* z:\Netmirror /E /V /C /F /H /Y /Z  1&amp;gt;out.txt 2&amp;gt;err.txt
+&amp;lt;/source&amp;gt;
+
+Copy a single file without prompt if it is a file or a directory
+
+&amp;lt;source lang=&amp;quot;dos&amp;quot;&amp;gt;
+cmd /c echo F | xcopy &amp;quot;c:\directory 1\myfile&amp;quot; &amp;quot;c:\directory 2\myfile&amp;quot;
+&amp;lt;/source&amp;gt;
+
+==Deprecation==
+While still included in [[Windows Vista]], Xcopy has been [[deprecated]] in favor of [[Robocopy]], a more powerful copy tool, which is now built into the operating system.&amp;lt;ref&amp;gt;{{cite web |url=http://blogs.msdn.com/matt_pietrek/archive/2007/01/16/robocopy-built-into-vista.aspx |title=Robocopy built into Vista |last=Pietrek |first=Matt |authorlink=Matt Pietrek |date=2007-01-16 |work=Under The Hood (an MSDN blog)}}&amp;lt;/ref&amp;gt; [[Windows 7]] &amp;lt;code&amp;gt;xcopy /?&amp;lt;/code&amp;gt; does &amp;apos;&amp;apos;&amp;apos;not&amp;apos;&amp;apos;&amp;apos; claim that it is deprecated.
+
+==Limitation==
+Experience has shown that Xcopy fails with an &amp;quot;insufficient memory&amp;quot; error when the path plus filename is longer than 254 characters.&amp;lt;ref&amp;gt;{{cite web |url=http://www.terminally-incoherent.com/blog/2007/02/05/xcopy-insufficient-memory |title=Xcopy: Insufficient Memory|last=Maciak |first=Luke |authorlink=Luke Maciak |date=2007-02-05}}&amp;lt;/ref&amp;gt;
+
+==See also==
+*[[XCOPY deployment]]
+*[[List of MS-DOS commands]]
+* [[List of file copying software]]
+
+==References==
+{{reflist}}
+
+http://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/xcopy.mspx?mfr=true
+
+==External links==
+*[http://technet.microsoft.com/en-us/library/bb491035.aspx Microsoft TechNet Xcopy article]
+*[http://variableghz.com/2008/12/dos-bypassing-the-cyclic-redundancy-check-and-other-errors/ VariableGHz article depicting CRC errors and XCOPY as a solution]
+*[http://connect.microsoft.com/VisualStudio/feedback/ViewFeedback.aspx?FeedbackID=92736 XCOPY Command in a post build event does not execute]
+*[http://support.microsoft.com/default.aspx?scid=kb;en-us;152134 XP_CMDSHELL Does Not Work with XCOPY]
+
+{{Windows commands}}
+
+[[Category:External DOS commands]]
+[[Category:File copy utility]]
+[[Category:Microcomputer software]]
+[[Category:Microsoft Windows file system technology]]
+[[Category:Windows disk file systems]]
+[[Category:Windows administration]]
+
+{{compsci-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

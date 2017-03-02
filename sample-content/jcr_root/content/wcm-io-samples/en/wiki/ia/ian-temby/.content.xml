@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ian Temby"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ian Temby" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Ian Temby&amp;apos;&amp;apos;&amp;apos; [[Order of Australia|AO]] [[Queen&amp;apos;s Counsel|QC]] (born 1942). First Commissioner of the [[Independent Commission Against Corruption of New South Wales|New South Wales Independent Commission Against Corruption]] (ICAC). More recently commissioner in the Temby Royal Commission into the Finance Broking Industry (report tabled in 2002). Has lived in [[Summer Hill, New South Wales]].
+
+==External links==
+* [http://nla.gov.au/nla.ms-ms9105 Papers of Ian Temby and very brief bio].
+* [http://www.aija.org.au/ctr/TEMBY.HTM Paper by Ian Temby on &amp;quot;Reform Of Criminal Trial Procedure&amp;quot;].
+* [http://www.artbank.gov.au/pdfs/artbank_8_newsletter.pdf Article on Temby on page 8 of this PDF format newsletter]
+
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Temby, Ian
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION = Australian commissioner
+| DATE OF BIRTH     = 1942
+| PLACE OF BIRTH    =
+| DATE OF DEATH     =
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Temby, Ian}}
+[[Category:1942 births]]
+[[Category:Living people]]
+[[Category:Officers of the Order of Australia]]
+
+
+{{Australia-bio-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

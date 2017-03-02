@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Reflective array antenna"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Reflective array antenna" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Image:SCR-270-set-up.jpg|thumb|Reflective array &amp;apos;billboard&amp;apos; antenna of the AN-270 radar, an early radar system used in 1941 at Pearl Harbor.  It consists of 32 horizontal [[half wave dipole]]s mounted in front of a 55 ft. high screen reflector.  With an operating frequency of 106 MHz and a wavelength of 3 meters this large antenna was required to generate a sufficiently narrow beamwidth to locate enemy aircraft.]]
+
+In [[telecommunication]] and [[radar]], a &amp;apos;&amp;apos;&amp;apos;reflective array antenna&amp;apos;&amp;apos;&amp;apos; is a class of [[directional antenna|directive]] [[antenna (electronics)|antenna]]s  in which multiple [[driven element]]s are mounted in front of a flat surface designed to reflect the [[radio waves]] in a desired direction.  They are often used in the [[Very high frequency|VHF]] frequency band, and these versions often resemble a highway [[billboard]], so they are sometimes called &amp;quot;billboard antennas&amp;quot;.  The [[curtain array]] is a larger version used by [[shortwave]] radio stations.
+
+Reflective array antennas usually have a number of identical driven elements, fed in phase, in front of a flat, electrically large [[reflector (antenna)|reflecting surface]] to produce a [[directional antenna|unidirectional]] [[Light beam|beam]],  increasing [[antenna gain]] and  reducing  [[radiation]] in unwanted directions.   The individual elements are most commonly [[half wave dipole]]s, although they sometimes contain [[parasitic element]]s as well as driven elements.  The reflector may be a metal sheet or more commonly a wire screen.   A metal screen reflects radio waves as well as a solid metal sheet as long as the holes in the screen are smaller than about one-tenth of a wavelength, so screens are often used to reduce weight and wind loads on the antenna.  They usually consist of a grill of parallel wires or rods, oriented parallel to the axis of the dipole elements.
+
+Since the 1980s, versions for use at [[microwave]] frequencies have been made with [[patch antenna]] elements mounted in front of a metal surface.&amp;lt;ref&amp;gt;{{cite book|last=Huang|first=john|title=Reflectarray antennas}}&amp;lt;/ref&amp;gt;
+
+==References==
+
+&amp;lt;references /&amp;gt;
+{{FS1037C MS188}}
+
+{{multiple image
+| align = left
+| direction = horizontal
+| image1   = 2007.11.03 035.jpg
+| caption1 = A modern form of reflective array is the &amp;quot;bow tie&amp;quot; [[Ultrahigh frequency|UHF]] [[television antenna]].  This example has two dipole driven elements in front of a grill reflector oriented for [[vertical polarization]].  The &amp;quot;bow-tie&amp;quot; dipoles, consisting of two V-shaped elements, have a larger bandwidth, allowing the antenna to cover the wide UHF television band.
+| width1   = 245
+| image2   = Woodpecker array.jpg
+| caption2 = Enormous reflective array antenna of the [[Russian Woodpecker|Duga-3]] or &amp;quot;Steel Yard&amp;quot;  [[Over the horizon radar|over-the-horizon]] (OTH) radar system, Chernobyl, Ukraine, part of the Soviet early-warning network.  It transmits at frequencies between 7 and 19 MHz.  The pairs of cylindrical cages at right are the [[half wave dipole]] driven elements, fed at their center by vertical feed lines.  Behind them is a reflector screen of horizontal wires, just visible in center.
+| width2   = 230
+| image3   = 06issoudun alliss Gange.JPG
+| caption3 = An [[ALLISS]] antenna, a modular type of [[curtain array]] used by international [[shortwave]] stations for broadcasting to distant areas by [[skywave]].
+| width3   = 279
+}}
+
+
+
+
+
+{{Antenna Types}}
+
+[[Category:Radio frequency antenna types]]
+
+{{radio-comm-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

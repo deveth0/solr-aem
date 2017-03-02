@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Hexagonal crystal system"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Hexagonal crystal system" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{| class=wikitable align=right
+|colspan=2 align=center|[[Image:Berillo.jpg|240px]]&amp;lt;BR&amp;gt;An example of the hexagonal crystals, [[beryl]]
+|-
+|[[Image:Hanksite.JPG|180px]]&amp;lt;BR&amp;gt;Hexagonal [[Hanksite]] crystal
+|[[image:Hexagonal lattice.svg|120px]]&amp;lt;BR&amp;gt;Hexagonal lattice cell
+|}
+In [[crystallography]], the &amp;apos;&amp;apos;&amp;apos;hexagonal crystal system&amp;apos;&amp;apos;&amp;apos; is one of the 7 [[Crystal_system#Crystal_classes|crystal system]]s, the &amp;apos;&amp;apos;&amp;apos;hexagonal lattice system&amp;apos;&amp;apos;&amp;apos; is one of the 7 [[Crystal_system#Lattice_systems|lattice systems]], and the &amp;apos;&amp;apos;&amp;apos;hexagonal crystal family&amp;apos;&amp;apos;&amp;apos; is one of the 6 [[Crystal_system#Crystal_classes|crystal families]]. They are closely related and often confused with each other, but they are not the same.
+The hexagonal lattice system consists of just one [[Bravais lattice]] type: the hexagonal one. The hexagonal crystal system consists of the 7 point groups such that all their space groups have the hexagonal lattice as underlying lattice. The hexagonal crystal family consists of the 12 point groups such that at least one of  their space groups has the hexagonal lattice as underlying lattice, and is the union of the hexagonal crystal system and the [[trigonal crystal system]].&amp;lt;ref name=Hurlbut&amp;gt;Hurlbut, Cornelius S.; Klein, Cornelis, 1985, &amp;apos;&amp;apos;Manual of Mineralogy,&amp;apos;&amp;apos; 20th ed., pp. 78 - 89, ISBN 0-471-80580-7&amp;lt;/ref&amp;gt;
+
+In some cases, it is useful or instructive to redraw a hexagonal structure with [[orthohexagonal]] axes, wherein the b axis is redrawn at 90° to the a and c axes.
+
+[[Graphite]] is an example of a [[crystal]] that crystallizes in the hexagonal crystal system.
+
+==Hexagonal lattice system==
+The &amp;apos;&amp;apos;&amp;apos;hexagonal lattice system&amp;apos;&amp;apos;&amp;apos; is one of the seven [[lattice system]]s, consisting of the hexagonal Bravais lattice. It is associated with 45 [[space group]]s
+whose underlying lattice has [[point group]] of order 24. It is often confused with the smaller hexagonal crystal system, which consists of the 27 space groups such that all space groups with the same point group are in the hexagonal lattice system, or with the larger [[hexagonal crystal family]], consisting of the 52 space groups in either the hexagonal or [[rhombohedral lattice system]]s.
+
+==Hexagonal crystal system==
+The [[crystallographic point group|point groups]] (&amp;apos;&amp;apos;crystal classes&amp;apos;&amp;apos;) in this crystal system are listed below, followed by their representations in [[Hermann-Mauguin notation|Hermann-Mauguin]] or international notation and [[Schoenflies notation]], and [[mineral]] examples, if they exist.&amp;lt;ref name=Hurlbut/&amp;gt;&amp;lt;ref&amp;gt;http://webmineral.com/crystall.shtml Crystallography and Minerals Arranged by Crystal Form, Webmineral&amp;lt;/ref&amp;gt;
+
+{| class=&amp;quot;wikitable&amp;quot; cellpadding=8
+!rowspan=2|#
+!colspan=5|Point group
+!rowspan=2|Example
+!rowspan=2|Space groups
+|-
+!Class
+![[Hermann-Mauguin notation|Intl]]
+![[Schoenflies notation|Schoenflies]]
+![[Orbifold notation|Orbifold]]
+![[Coxeter notation|Coxeter]]
+|-
+!168-173
+|Hexagonal pyramidal
+|6
+|&amp;apos;&amp;apos;C&amp;lt;sub&amp;gt;6&amp;lt;/sub&amp;gt;&amp;apos;&amp;apos;||66||[6]&amp;lt;sup&amp;gt;+&amp;lt;/sup&amp;gt;
+|[[nepheline]], [[cancrinite]]
+| P6, P6&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt;, P6&amp;lt;sub&amp;gt;5&amp;lt;/sub&amp;gt;, P6&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;, P6&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt;, P6&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;
+|-
+!174
+|Trigonal dipyramidal
+|{{overline|6}}
+|&amp;apos;&amp;apos;C&amp;lt;sub&amp;gt;3h&amp;lt;/sub&amp;gt;&amp;apos;&amp;apos;||3*||[2,3&amp;lt;sup&amp;gt;+&amp;lt;/sup&amp;gt;]
+|[[Laurelite]]
+| P{{overline|6}}
+|-
+!175-176
+|Hexagonal dipyramidal
+|6/m
+|&amp;apos;&amp;apos;C&amp;lt;sub&amp;gt;6h&amp;lt;/sub&amp;gt;&amp;apos;&amp;apos;||6*||[2,6&amp;lt;sup&amp;gt;+&amp;lt;/sup&amp;gt;]
+|[[apatite]], [[vanadinite]]
+| P6/m, P6&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;/m
+|-
+!177-182
+|Hexagonal trapezohedral
+|622
+|&amp;apos;&amp;apos;D&amp;lt;sub&amp;gt;6&amp;lt;/sub&amp;gt;&amp;apos;&amp;apos;||226||[2,6]&amp;lt;sup&amp;gt;+&amp;lt;/sup&amp;gt;
+|[[kalsilite]] and high [[quartz]]
+| P622, P6&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt;22, P6&amp;lt;sub&amp;gt;5&amp;lt;/sub&amp;gt;22, P6&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;22, P6&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt;22, P6&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;22
+|-
+!183-186
+|Dihexagonal pyramidal
+|6mm
+| &amp;apos;&amp;apos;C&amp;lt;sub&amp;gt;6v&amp;lt;/sub&amp;gt;&amp;apos;&amp;apos;||*66||[6]
+|[[greenockite]], [[wurtzite]] &amp;lt;ref&amp;gt;http://www.mindat.org/system_search.php?g=18&amp;lt;/ref&amp;gt;
+| P6mm, P6cc, P6&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;cm, P6&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;mc
+|-
+!187-190
+|Ditrigonal dipyramidal
+|{{overline|6}}m2
+|&amp;apos;&amp;apos;D&amp;lt;sub&amp;gt;3h&amp;lt;/sub&amp;gt;&amp;apos;&amp;apos;||*223||[2,3]
+|[[benitoite]]
+| P{{overline|6}}m2, P{{overline|6}}c2, P{{overline|6}}2m, P{{overline|6}}2c
+|-
+!191-194
+|Dihexagonal dipyramidal
+|6/mmm
+|&amp;apos;&amp;apos;D&amp;lt;sub&amp;gt;6h&amp;lt;/sub&amp;gt;&amp;apos;&amp;apos;||*226||[2,6]
+|[[beryl]]
+| P6/mmm, P6/mcc, P6&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;/mcm, P6&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;/mmc
+|}
+
+==Hexagonal crystal family==
+The hexagonal crystal family consists of the 12 point groups such that at least one of their space groups has the hexagonal lattice as underlying lattice, and is the union of the hexagonal crystal system and the trigonal crystal system. There are 50 space groups associated with it, which are exactly those whose Bravais lattice is either hexagonal or rhombohedral.
+
+==See also==
+*[[Crystal structure]]
+*[[Close-packing]] (hcp)
+*[[Wurtzite (crystal structure)]]
+
+==References==
+{{Reflist}}
+
+{{Crystal systems}}
+
+{{DEFAULTSORT:Hexagonal Crystal System}}
+[[Category:Crystallography]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

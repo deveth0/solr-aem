@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="XPT (Extreme Power Tools)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="XPT (Extreme Power Tools)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{orphan|date=May 2010}}
+
+{{Advert|date=October 2008}}
+The &amp;apos;&amp;apos;&amp;apos;XPT&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;&amp;apos;Extreme Power Tools&amp;apos;&amp;apos;&amp;apos;) is a commercial [[Win32]] [[Windows]] [[software]] toolset specifically designed for programmers and system administrators. The XPT comprises some 150 applications notable for their &amp;quot;bare metal&amp;quot; design, a &amp;quot;software tools&amp;quot; philosophy, and ten years with no significant bugs. The average XPT executable is 7.19 KB, which allows it to be extremely [[portable software]], as it is also &amp;quot;no intrusion&amp;quot; software, meaning it doesn&amp;apos;t place files or leave footprints on the host computer.
+
+The name comes from an interview where the authors were asked if the XPT was for &amp;quot;power users only&amp;quot;. The answer was &amp;quot;if they&amp;apos;re power users they need to be extreme power users&amp;quot;.
+
+==Programming Approach==
+The &amp;quot;software tools&amp;quot; philosophy centers on making programs which do one thing only, and do it very well - in contrast to the &amp;apos;bells and whistles&amp;apos; philosophy found in many commercial products. The XPT&amp;apos;s authors say the &amp;apos;software tools&amp;apos; approach is what leads to XPT&amp;apos;s bug-free reputation.
+
+==Bare Metal==
+The XPT applications are [[Win32]] [[GUI]] applications and with an average a footprint of 7.19KB. The toolset includes several fully featured text editors under or around 10KB and a fully functional Windows Explorer replacement at 14.5KB. The largest application executables are the screen savers.
+
+The XPT toolset (sans documentation) fits but doesn&amp;apos;t fill a 1.44MB diskette.
+
+==No Intrusion==
+The XPT is not [[shareware]]. The authors eschew inserting anything in program code not part of the software&amp;apos;s express purpose and functionality (see &amp;apos;software tools&amp;apos; philosophy). Certain titles in the XPT have been available as [[freeware]] from time to time.
+
+The XPT has no &amp;apos;installation&amp;apos;: all applications run completely &amp;quot;as is&amp;quot; (usually by double-clicking).
+
+The XPT is entirely self-contained and leaves essentially no remnants on user hard drives. All XPT tools share a single common Registry key and no application saves anything to the Registry without the user&amp;apos;s express consent. Removing the XPT from a hard drive means removing the original setup directory and at most a single Registry key.
+
+==Bloatware Debate==
+Radsoft&amp;apos;s XPT was in the news in 1999 when the [[Bloatware|bloatware debate]] exploded at &amp;apos;&amp;apos;[[RISKS Digest]]&amp;apos;&amp;apos; and other places. &amp;apos;&amp;apos;[[Slate (magazine)|Slate]]&amp;apos;&amp;apos; and the &amp;apos;&amp;apos;[[London Daily Telegraph]]&amp;apos;&amp;apos; had a heated exchange and Radsoft, who were consulted during this period, wrote a number of well-received articles on the subject, in particular attacking Microsoft for a cavalier attitude towards quality control. In 1999 Radsoft announced a [[feature-rich]] replacement for Microsoft&amp;apos;s Windows Explorer under 28 KB. The application, known as [[X-file (software)|X-file]], was released to readers of the &amp;apos;&amp;apos;RISKS Digest&amp;apos;&amp;apos; forum as [[freeware]] and later was integrated into the XPT as a whole.
+
+==Ethics in Programming==
+The authors of the XPT have often come out on the side of the consumer against cynical corporate interests. For example, the XPT also contains an &amp;quot;antidote&amp;quot; for [[Evidence Eliminator]], also available in a limited [[freeware]] edition.
+
+Fans of the XPT began the [[Bloatbusters]] in 2000 as a way to react to what was perceived as the deteriorating quality of Windows software. The [[Bloatbusters]] have been hosted by Radsoft but are otherwise not connected to the parent site.
+
+The XPT also garnered attention when it was discovered Microsoft&amp;apos;s Windows XP search tools refused to show files under certain circumstances; as the XPT file management utilities do not use the same APIs they are able to see &amp;quot;everything&amp;quot;.
+
+==External links==
+*[http://radsoft.net Radsoft.net website]
+*[http://catless.ncl.ac.uk/Risks/20.37.html#subj4.1 RISKS Digest 2 May 1999 Re: Bloatware Debate]
+*[http://www.theatlantic.com/unbound/digicult/dc2000-03-15.htm Atlantic Monthly Digital Culture 15 March 2000], a discussion of bloatware
+*[http://news.bbc.co.uk/2/hi/science/nature/828584.stm BBC News Small is Beautiful 11 July 2000]
+
+[[Category:Portable software]]
+[[Category:Windows software]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

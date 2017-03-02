@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Bernard O&#x27;Higgins"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Bernard O&#x27;Higgins" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Portal|Catholicism}}
+{{distinguish|Bernardo O&amp;apos;Higgins}}
+&amp;apos;&amp;apos;&amp;apos;Bernard O&amp;apos;Higgins&amp;apos;&amp;apos;&amp;apos; (?&amp;amp;ndash;1564) was an [[Irish people|Irish]] [[Roman Catholic Church|Roman Catholic]] bishop.  He served as the [[Bishop of Elphin]] from 1542 to 1564.&amp;lt;ref&amp;gt;[http://www.catholic-hierarchy.org/bishop/bohig.html Bishop Bernard O&amp;apos;Higgins], Catholic Hierarchy website, Retrieved 30 August 2011.&amp;lt;/ref&amp;gt;
+
+==References==
+{{Reflist}}
+
+{{S-start}}
+{{S-rel|ca}}
+{{Succession box
+| before =
+| title = [[Bishop of Elphin]]
+| years = 1542&amp;amp;ndash;1564
+| after = [[Dominic Burke (bishop)]]
+}}
+{{End}}
+
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = OHiggins, Bernard
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION =Bishop of Elphin
+| DATE OF BIRTH     =
+| PLACE OF BIRTH    =
+| DATE OF DEATH     = 1564
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:OHiggins, Bernard}}
+[[Category:1564 deaths]]
+[[Category:Roman Catholic bishops of Elphin]]
+[[Category:Year of birth unknown]]
+
+
+{{Ireland-RC-archbishop-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

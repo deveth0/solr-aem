@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Rodolphe Rubattel"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Rodolphe Rubattel" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{no footnotes|date=February 2013}}
+&amp;apos;&amp;apos;&amp;apos;Rodolphe Rubattel&amp;apos;&amp;apos;&amp;apos; (September 4, 1896 - October 18, 1961), was a [[Switzerland|Swiss]] politician.
+
+[[Image:Rodolphe Rubattel.gif|thumb|Rodolphe Rubattel]]
+
+He was elected to the [[Swiss Federal Council]] on December 11, 1947, and handed over office on December 31, 1954.
+He was affiliated to the [[Free Democratic Party of Switzerland|Free Democratic Party]]. During his time in office he held the [[Federal Department of Economic Affairs]].
+
+He was [[President of the Confederation (Switzerland)|President of the Confederation]] in 1954.
+
+{{start box}}
+{{succession box | before = [[Walther Stampfli]] | title = [[Member of the Swiss Federal Council]] | years = 1947&amp;amp;ndash;1954 | after = [[Paul Chaudet]]}}
+{{end box}}
+
+==External links==
+*{{Swiss Federal Councillor|68}}
+*[http://www.dodis.ch/ Swiss Diplomatic Documents (DDS)]
+
+{{Swiss Presidents}}
+
+{{Authority control|VIAF=195039507}}
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Rubattel, Rodolphe
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION = Swiss politician
+| DATE OF BIRTH     = September 4, 1896
+| PLACE OF BIRTH    =
+| DATE OF DEATH     = October 18, 1961
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Rubattel, Rodolphe}}
+[[Category:1896 births]]
+[[Category:1961 deaths]]
+[[Category:People from Broye-Vully District]]
+[[Category:Members of the Swiss Federal Council]]
+
+{{Switzerland-politician-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

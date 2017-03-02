@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Metric map"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Metric map" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In the [[mathematics|mathematical]] theory of [[metric space]]s, a &amp;apos;&amp;apos;&amp;apos;metric map&amp;apos;&amp;apos;&amp;apos; is a [[Function (mathematics)|function]] between metric spaces that does not increase any distance (such functions are always  [[continuous function|continuous]]).
+These maps are the [[morphism]]s in the [[category of metric spaces]], &amp;apos;&amp;apos;&amp;apos;Met&amp;apos;&amp;apos;&amp;apos; (Isbell 1964).
+They are also called [[Lipschitz continuity|Lipschitz functions]] with [[Lipschitz constant]] 1, &amp;apos;&amp;apos;&amp;apos;nonexpansive maps&amp;apos;&amp;apos;&amp;apos;, &amp;apos;&amp;apos;&amp;apos;nonexpanding maps&amp;apos;&amp;apos;&amp;apos;, &amp;apos;&amp;apos;&amp;apos;weak contractions&amp;apos;&amp;apos;&amp;apos;, or &amp;apos;&amp;apos;&amp;apos;short maps&amp;apos;&amp;apos;&amp;apos;.
+
+Specifically, suppose that &amp;apos;&amp;apos;X&amp;apos;&amp;apos; and &amp;apos;&amp;apos;Y&amp;apos;&amp;apos; are metric spaces and ƒ is a [[function (mathematics)|function]] from &amp;apos;&amp;apos;X&amp;apos;&amp;apos; to &amp;apos;&amp;apos;Y&amp;apos;&amp;apos;. Thus we have a metric map when, [[for any]] points &amp;apos;&amp;apos;x&amp;apos;&amp;apos; and &amp;apos;&amp;apos;y&amp;apos;&amp;apos; in &amp;apos;&amp;apos;X&amp;apos;&amp;apos;,
+: &amp;lt;math&amp;gt; d_{Y}(f(x),f(y)) \leq d_{X}(x,y) . \! &amp;lt;/math&amp;gt;
+Here &amp;apos;&amp;apos;d&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;&amp;apos;&amp;apos;X&amp;apos;&amp;apos;&amp;lt;/sub&amp;gt; and &amp;apos;&amp;apos;d&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;&amp;apos;&amp;apos;Y&amp;apos;&amp;apos;&amp;lt;/sub&amp;gt; denote the metrics on &amp;apos;&amp;apos;X&amp;apos;&amp;apos; and &amp;apos;&amp;apos;Y&amp;apos;&amp;apos; respectively.
+
+A map ƒ between metric spaces is an [[isometry]] if and only if 1) it is metric, 2) it is a [[bijection]], and 3) its [[inverse (functions)|inverse]] is also metric. The [[composite function|composite]] of metric maps is also metric. Thus metric spaces and metric maps form a [[category theory|category]] &amp;apos;&amp;apos;&amp;apos;[[Category of metric spaces|Met]]&amp;apos;&amp;apos;&amp;apos;; &amp;apos;&amp;apos;&amp;apos;Met&amp;apos;&amp;apos;&amp;apos; is a [[subcategory]] of the category of metric spaces and Lipschitz functions, and the [[isomorphism]]s in &amp;apos;&amp;apos;&amp;apos;Met&amp;apos;&amp;apos;&amp;apos; are the isometries.
+
+One can say that ƒ is &amp;apos;&amp;apos;&amp;apos;strictly metric&amp;apos;&amp;apos;&amp;apos; if the [[inequality (mathematics)|inequality]] is strict for every two different points. Thus a [[contraction mapping]] is strictly metric, but not necessarily the other way around. Note that an isometry is &amp;apos;&amp;apos;never&amp;apos;&amp;apos; strictly metric, except in the [[degeneracy (mathematics)|degenerate]] case of the [[empty set|empty space]] or a single-point space.
+
+== References ==
+*{{cite journal
+ | author = Isbell, J. R. | authorlink = John R. Isbell
+ | title = Six theorems about injective metric spaces
+ | journal = Comment. Math. Helv.
+ | volume = 39
+ | year = 1964
+ | pages = 65–76
+ | url = http://www.digizeitschriften.de/resolveppn/GDZPPN002058340 | doi = 10.1007/BF02566944
+}}
+
+[[Category:Metric geometry]]
+[[Category:Lipschitz maps]]
+
+{{Geometry-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

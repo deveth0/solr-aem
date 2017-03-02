@@ -1,0 +1,46 @@
+[feature name=wcm-io-samplesaem-cms-config]
+
+
+[configurations]
+ 
+
+## SOLR configuration
+ # Enable Logging into query.log
+  org.apache.sling.commons.log.LogManager.factory.config-solr-index
+    org.apache.sling.commons.log.file="logs/query.log"
+    org.apache.sling.commons.log.level="debug"
+    org.apache.sling.commons.log.names=["de.dev.eth0.aem.solr","org.apache.solr.client","org.apache.jackrabbit.oak.plugins.index.solr"]
+    org.apache.sling.commons.log.pattern="{0,date,dd.MM.yyyy\ HH:mm:ss.SSS}\ *{4}*\ [{2}]\ {3}\ {5}"
+
+  # Configure Solr Server
+  org.apache.jackrabbit.oak.plugins.index.solr.osgi.RemoteSolrServerConfigurationProvider
+    solr.http.url="{{solr.server}}"
+    solr.zk.host=""
+    solr.shards.no=I"0"
+    solr.replication.factor=I"0"
+
+  # Configure Search Server
+  de.dev.eth0.aem.solr.search.service.SolrSearchServerConfiguration
+    solr.http.url="{{solr.server}}"
+
+  # Enable remote server
+  org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrServerProviderService
+    server.type="remote"
+
+  # Setup the used fields and jcr:content collapse
+  org.apache.jackrabbit.oak.plugins.index.solr.osgi.OakSolrConfigurationProviderService
+    catch.all.field="catch_all"
+    collapse.jcrcontent.nodes=B"true"
+    collapsed.path.field="path_collapsed"
+    commit.policy="AUTO"
+    ignored.properties=["rep:members","rep:authorizableId","jcr:uuid","rep:principalName","rep:password"]
+    path.child.field="path_child"
+    path.depth.field="path_depth"
+    path.desc.field="path_des"
+    path.exact.field="path_exact"
+    path.parent.field="path_anc"
+    path.restrictions=B"false"
+    primarytypes.restrictions=B"false"
+    property.mappings=[""]
+    property.restrictions=B"false"
+    rows=I"2147483647"

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Kra Isthmus"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Kra Isthmus" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;lt;!-- I&amp;apos;d prefer if {{Location map}} took a |display=title parameter and obviated the apparent need to put two templates with the same data parameters onto this page. --&amp;gt;
+{{Coord|10|11|N|98|53|E|display=title}}
+{{Location map
+|Thailand
+|label      = Kra Isthmus
+|lon_dir=E
+|lat_dir=N
+|lat_deg    = 10
+|lat_min    = 11
+|lon_deg    = 98
+|lon_min    = 53
+|caption    = Location of Kra Isthmus
+}}
+[[Image:Kra Isthmus 1.jpg|thumb|right|230px|Kra Isthmus landscape]]
+The &amp;apos;&amp;apos;&amp;apos;Kra [[Isthmus]]&amp;apos;&amp;apos;&amp;apos; ([[ Malay language|Malay]]: Segenting Kra, {{lang-th|คอคอดกระ}}) is the narrowest part of the [[Malay Peninsula]], located in southern [[Thailand]].&amp;lt;ref&amp;gt;{{cite web|url=http://oxforddictionaries.com/definition/english/Kra,%2BIsthmus%2Bof|title=Kra, Isthmus of|work=Oxford Dictionaries|publisher=Oxford University Press|accessdate=14 April 2013}}&amp;lt;/ref&amp;gt;
+
+Geography
+
+The east part of the landbridge belongs to [[Thailand]], while the west part belongs to the [[Tanintharyi]] division of [[Myanmar]]. To the west of the Isthmus is the [[Andaman Sea]], and to the east is the [[Gulf of Thailand]].
+
+The narrowest part between the [[estuary]] of the [[Kra River]] and the bay of Sawi near the city [[Chumphon]] has a width of {{convert|44|km|abbr=on}}, and has a maximum altitude of {{convert|75|m|abbr=on}} above sea level. The Isthmus is named after the town [[Amphoe Kra Buri|Kra Buri]], in the [[Ranong province]] of [[Thailand]], which is located at the west side of the narrowest part.
+
+The Isthmus of Kra marks the boundary between two sections of the central cordillera, the mountain chain which runs from Tibet through all of the Malay peninsula. The southern part is called the [[Phuket mountain range|Phuket chain]], which is a continuation of the greater [[Tenasserim Hills|Tenasserim range]], extending further northwards for over {{convert|400|km|abbr=on}} beyond the [[Three Pagodas Pass]].&amp;lt;ref&amp;gt;&amp;apos;&amp;apos;The Physical Geography of Southeast Asia&amp;apos;&amp;apos;, Avijit Gupta&amp;lt;/ref&amp;gt; The [[Titiwangsa Mountains]] are located southwards, {{convert|45|km|abbr=on}} from [[Songkhla]].
+
+==History and Culture==
+On December 8, 1941 local time, just before the December 7 (Hawaii time) [[Attack on Pearl Harbor]], the [[Imperial Japanese army]] landed here, near [[Songkhla]], Thailand, and [[Kota Bharu]], Malaya, thus beginning the [[Pacific War]], and launching both the [[Japanese Invasion of Thailand|invasion of Thailand]] and the [[Battle of Malaya|Malayan campaign]], the latter which culminated in the [[Battle of Singapore|capture of Singapore]].&amp;lt;ref&amp;gt;{{cite web|last=Parfitt|first=Allen|url=http://www.militaryhistoryonline.com/wwii/articles/singapore.aspx|title=Bicycle Blitzkreig The Japanese Conquest of Malaya and Singapore 1941-1942|publisher=MilitaryHistoryOnline.com|accessdate=9 August 2012}}&amp;lt;/ref&amp;gt;
+
+==Thai Canal==
+{{further|Thai Canal}}
+The Thai Canal is a proposed canal in southern Thailand, that was originally due to be constructed across the isthmus, but whose location is now being talked about as some distance from the Kra isthmus.&amp;lt;ref&amp;gt;{{cite web|url=http://asiancorrespondent.com/30158/thai-canal-project-over-300-years-of-conceptualising-and-still-counting/|title=Thai Canal Project: Over 300 years of conceptualising and still counting|last=Griffith University|date=23 March 2010|work=Asian Correspondent|publisher=Hybrid News|accessdate=14 April 2013}}&amp;lt;/ref&amp;gt;
+
+==References==
+{{Reflist}}
+
+[[Category:Kra Isthmus| ]]
+[[Category:Isthmuses]]
+[[Category:Landforms of Thailand]]
+[[Category:Andaman Sea]]
+[[Category:Gulf of Thailand]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

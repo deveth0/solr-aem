@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Anaximenes (crater)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Anaximenes (crater)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{lunar crater data |
+image=[[Image:Lunar crater Anaximenes.png|200px]]|
+caption=Location of the lunar crater Anaximenes.|
+ latitude=72.5|
+ N_or_S=N|
+ longitude=44.5|
+ E_or_W=W|
+ diameter=80 km|
+ depth=2.5 km|
+ colong=45|
+ eponym=Anaximenes}}
+&amp;apos;&amp;apos;&amp;apos;Anaximenes&amp;apos;&amp;apos;&amp;apos; is a low-rimmed [[Moon|lunar]] [[Impact crater|crater]] that is located near the north-northwest limb of the [[Moon]]. It lies to the west of the crater [[Philolaus (crater)|Philolaus]], and northeast of [[Carpenter (crater)|Carpenter]]. To the northwest is [[Poncelet (crater)|Poncelet]], close to the visible edge of the Moon.
+
+The outer rim of Anaximenes has been eroded and worn into a roughly circular ring of ridges. The rim is lowest along the northeast side where Anaximenes partly overlaps the equally worn satellite crater Anaximenes G. There are also low cuts through the rim along the southeast, where the crater is attached to an unnamed plain in the surface.
+
+The interior floor of Anaximenes is relatively level, compared to the typical lunar terrain. The inner surface is pock-marked by a multitude of tiny craterlets of various dimensions, the most notable having a diameter of 2-3 kilometers.
+
+==Satellite craters==
+By convention these features are identified on lunar maps by placing the letter on the side of the crater midpoint that is closest to Anaximenes.
+
+{| class=&amp;quot;wikitable&amp;quot;
+|-
+!  style=&amp;quot;width:25%; background:#eee;&amp;quot;|Anaximenes
+!  style=&amp;quot;width:25%; background:#eee;&amp;quot;|Latitude
+!  style=&amp;quot;width:25%; background:#eee;&amp;quot;|Longitude
+!  style=&amp;quot;width:25%; background:#eee;&amp;quot;|Diameter
+|- style=&amp;quot;text-align:center;&amp;quot;
+||B
+||68.8° N
+||37.9° W
+||9 km
+|- style=&amp;quot;text-align:center;&amp;quot;
+||E
+||66.5° N
+||31.4° W
+||10 km
+|- style=&amp;quot;text-align:center;&amp;quot;
+||G
+||73.8° N
+||40.4° W
+||56 km
+|- style=&amp;quot;text-align:center;&amp;quot;
+||H
+||74.6° N
+||45.3° W
+||43 km
+|}
+
+==References==
+{{Lunar crater references}}
+{{Commons|Image:Lunar_crater_Anaximenes.png}}
+
+==External links==
+* {{lpi-moonatlas|Anaximenes}}
+
+[[Category:Impact craters on the Moon]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

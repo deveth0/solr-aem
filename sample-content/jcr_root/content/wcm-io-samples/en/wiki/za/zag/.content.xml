@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Zag"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Zag" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Wiktionary|zag}}
+&amp;apos;&amp;apos;&amp;apos;Zag&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;ZAG&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+== Places ==
+*[[Zag, Kentucky]]
+* [[Zag, Mongolia]], a district in Mongolia
+* [[Zag, Morocco]]: a town in Morocco
+* [[Zagreb Airport]], Croatia IATA airport code
+
+== Other uses ==
+* [[AZGP1]] (Zinc-alpha-2-glycoprotein), chemical symbol
+* [[Zaghawa language]], ISO 639-3 code
+* [[Zag number]]s, a type of alternating permutation
+* Z.A.G. Industries Ltd. an Israeli manufacturer of toolboxes, workbenches and portable storage kits owned by [[Stanley Black &amp;amp; Decker]]
+* Ian Faichne, stage name of English musician and former frontman of [[Zag and the Coloured Beads]]
+* One of the [[Zig and Zag (puppets)|Zig and Zag]] puppet duo performed by Mick O&amp;apos;Hara and Ciaran Morrison
+* [[Gonzaga Bulldogs]], alternately known as the Zags
+
+== See also ==
+* [[Zig zag (disambiguation)]]
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

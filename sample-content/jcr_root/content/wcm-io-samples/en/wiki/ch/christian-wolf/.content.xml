@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Christian Wolf"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Christian Wolf" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{For|those of a similar name|Christian Wolff (disambiguation)}}
+{{BLP sources|date=January 2011}}
+{{Notability|date=November 2008}}
+&amp;apos;&amp;apos;&amp;apos;Christian Wolf&amp;apos;&amp;apos;&amp;apos; is a designer of [[board games]]. He has won the [[As d&amp;apos;Or]] for [[Tutankhamen (board game)|&amp;apos;&amp;apos;Tutankhamen&amp;apos;&amp;apos;]] and the [[Kinderspiel des Jahres]] for [[Klondike (board game)|&amp;apos;&amp;apos;Klondike&amp;apos;&amp;apos;]] in 2001;&amp;lt;ref&amp;gt;{{cite web|title=Ausgezeichnete Spiele 2001|language=German|url=http://www.spiel-des-jahres.com/cms/front_content.php?idcatart=156&amp;amp;lang=1&amp;amp;client=1|publisher=[[Spiel des Jahres]]|accessdate=18 January 2011}}&amp;lt;/ref&amp;gt; both were collaborations with [[Stefanie Rohner]].
+
+==References==
+{{Reflist}}
+
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              =Wolf, Christian
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION = Board game designer
+| DATE OF BIRTH     =
+| PLACE OF BIRTH    =
+| DATE OF DEATH     =
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Wolf, Christian}}
+[[Category:Board game designers]]
+[[Category:Living people]]
+
+
+{{Board-game-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

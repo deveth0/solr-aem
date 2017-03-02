@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Rock River"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Rock River" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Rock River&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+==Streams==
+;United States
+* [[Rock River (Mississippi River)]], a tributary of the Mississippi River in Wisconsin and Illinois
+* [[Rock River (Iowa)]], a tributary of the Big Sioux River in Minnesota and Iowa
+* [[Rock River (Lake Michigan)]], a tributary of Lake Michigan in Michigan
+* [[Rock River (Lake Superior)]], a tributary of Lake Superior in Michigan
+* [[Rock River (Sturgeon River)]], a tributary of the Sturgeon River in Michigan
+* [[Rock River (Lake Champlain)]], a tributary of Lake Champlain in northern Vermont
+* [[Rock River (West River)]], a tributary of the West River in southern Vermont
+* [[Little Rock River]], in Minnesota and Iowa in the United States
+
+;Canada
+* [[Rock River (Yukon)]], a tributary of the Bell River; see [[List of rivers of Yukon]]
+
+==Communities==
+* [[Rock River, Michigan]], in Onota Township, Michigan, USA
+* [[Rock River Township, Michigan]], USA
+* [[Rock River, Wyoming]], USA
+
+==Other uses==
+* [[Rock River Arms]], an American firearms company
+* [[Rock River Generating Station]], Wisconsin, USA
+* [[Rock River Hotel]], Illinois, USA
+* [[Rock River Music]], music branding agency in San Francisco, CA and Putney, VT
+* [[Rock River Raptors]], professional indoor football team in Rockford, Illinois, USA
+* Rock River Seminary, original name of [[Mount Morris College]] in Mount Morris, Illinois, USA
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

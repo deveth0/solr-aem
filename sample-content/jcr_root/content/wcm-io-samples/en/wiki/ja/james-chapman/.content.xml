@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="James Chapman"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="James Chapman" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;James Chapman&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+*[[James Chapman (explorer)]] (1831–1872), South African explorer, hunter, trader and photographer
+*[[James Chapman (author)]] (born 1955), American novelist
+*[[James Chapman (media historian)]] (born 1968), British media historian
+*[[James Chapman (bishop)]] (died 1879), Anglican Bishop of Colombo
+*[[James Chapman (cricketer)]] (born 1986), English cricketer
+*[[James Chapman (rower)]] (born 1979), Australian rower
+*[[James A. Chapman]] (1881–1966), Oklahoma oil magnate and philanthropist
+*[[J. A. Chapman]] (1821–1885), three-term mayor of Portland, Oregon
+*[[Ben Chapman (politician)]] (James Keith Chapman, born 1940), British Labour Party Member of Parliament 1997–2010
+
+== See also ==
+*[[Jim Chapman (disambiguation)]]
+
+{{hndis|Chapman, James}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

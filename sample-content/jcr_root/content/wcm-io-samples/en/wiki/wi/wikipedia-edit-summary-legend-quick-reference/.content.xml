@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:Edit summary legend/Quick reference"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:Edit summary legend/Quick reference" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;:&amp;apos;&amp;apos;This is a concise quick-reference of the most commonly used edit summary abbreviations. For a detailed explanation of these legends, see: Wikipedia&amp;apos;s [[Wikipedia:Edit summary legend|Edit summary legend]]&amp;apos;&amp;apos;.
+
+{| class=&amp;quot;wikitable&amp;quot; width=&amp;quot;80%&amp;quot; border=&amp;quot;1&amp;quot; cellspacing=&amp;quot;0&amp;quot; cellpadding=&amp;quot;5&amp;quot;&amp;quot;
+! width=&amp;quot;22%&amp;quot; | Term
+! width=&amp;quot;24%&amp;quot; | Abbreviated
+! width=&amp;quot;54%&amp;quot; | Description
+|- valign=&amp;quot;top&amp;quot;
+| add
+| &amp;apos;&amp;apos;+, add, addition&amp;apos;&amp;apos;
+| Addition of something
+|- valign=&amp;quot;top&amp;quot;
+| alphabetization
+| &amp;apos;&amp;apos;alpha, abc&amp;apos;&amp;apos;
+| Alphabetization of a list
+|- valign=&amp;quot;top&amp;quot;
+| capitalization
+| &amp;apos;&amp;apos;cap, capital, cpt, lc, lcase, uc, ucase&amp;apos;&amp;apos;
+| Fixing of capitalization
+|- valign=&amp;quot;top&amp;quot;
+| category
+| &amp;apos;&amp;apos;+cat, -cat, cat, recat, re-cat&amp;apos;&amp;apos;
+| Addition, subtraction or fixing of a category
+|- valign=&amp;quot;top&amp;quot;
+| cleanup
+| &amp;apos;&amp;apos;cl, clean, tidy&amp;apos;&amp;apos;
+| Many different kinds of small changes in a single edit.
+|- valign=&amp;quot;top&amp;quot;
+| comment
+| &amp;apos;&amp;apos;cm, cmt, re&amp;apos;&amp;apos;
+| Addition of comment or reply
+|- valign=&amp;quot;top&amp;quot;
+| copyedit
+| &amp;apos;&amp;apos;cpyed, ced, c/e, ce&amp;apos;&amp;apos;
+| Copy edit
+|- valign=&amp;quot;top&amp;quot;
+| creation
+| &amp;apos;&amp;apos;creation, new&amp;apos;&amp;apos;
+| Creation of a new article
+|- valign=&amp;quot;top&amp;quot;
+| disambiguation
+| &amp;apos;&amp;apos;disambig, disamb, disam, dab, byp disambig&amp;apos;&amp;apos;
+| Addition of [[Wikipedia:disambiguation|disambiguation]] or removal of ambiguity
+|- valign=&amp;quot;top&amp;quot;
+| duplication
+| &amp;apos;&amp;apos;dup, dupe&amp;apos;&amp;apos;
+| Removal of duplication
+|- valign=&amp;quot;top&amp;quot;
+| external link
+| &amp;apos;&amp;apos;EL, xl, ext lk, ext lks, ext lnk, ext lnks, ext link, ext links, URL, http&amp;apos;&amp;apos;
+| Addition of external links
+|- valign=&amp;quot;top&amp;quot;
+| formatting
+| &amp;apos;&amp;apos;fm, fmt, frmt, MoS, mos, MOS&amp;apos;&amp;apos;
+| Formatting, per [[Wikipedia:Manual of Style|Manual of Style]]
+|- valign=&amp;quot;top&amp;quot;
+| short new text (full text)
+| &amp;apos;&amp;apos;ft&amp;apos;&amp;apos;
+| Addition of short new text, which is fully given in this edit summary
+|- valign=&amp;quot;top&amp;quot;
+| grammar
+| &amp;apos;&amp;apos;gr, gm, grmr&amp;apos;&amp;apos;
+| Fixing grammar
+|- valign=&amp;quot;top&amp;quot;
+| headers
+| &amp;apos;&amp;apos;head, h2, h3, h4, h5, h6&amp;apos;&amp;apos;
+| Fixing header markup or changing header wording
+|- valign=&amp;quot;top&amp;quot;
+| interwiki
+| &amp;apos;&amp;apos;iwk, iw&amp;apos;&amp;apos;
+| Addition of interwiki links (between Wikimedia projects)
+|- valign=&amp;quot;top&amp;quot;
+| links
+| &amp;apos;&amp;apos;lk&amp;apos;&amp;apos;, &amp;apos;&amp;apos;lks&amp;apos;&amp;apos;, &amp;apos;&amp;apos;lnk&amp;apos;&amp;apos;, &amp;apos;&amp;apos;ln&amp;apos;&amp;apos;, &amp;apos;&amp;apos;wikilink&amp;apos;&amp;apos;, &amp;apos;&amp;apos;wl&amp;apos;&amp;apos;
+| Addition of internal (Wikipedia) links
+|- valign=&amp;quot;top&amp;quot;
+| merge
+| &amp;apos;&amp;apos;mrg, mrgd, merged in&amp;apos;&amp;apos;
+| Article merge
+|- valign=&amp;quot;top&amp;quot;
+| miscellaneous
+| &amp;apos;&amp;apos;misc&amp;apos;&amp;apos;
+| Use only when a more specific and more useful edit summary is not practical.
+|- valign=&amp;quot;top&amp;quot;
+| move
+| &amp;apos;&amp;apos;mv, mov&amp;apos;&amp;apos;
+| Article move
+|- valign=&amp;quot;top&amp;quot;
+| null edit
+| &amp;apos;&amp;apos;null, nx, ø&amp;apos;&amp;apos;
+| Saving the page without changing anything, see [[Help:Dummy edit#Null edit|Null edit]].
+|- valign=&amp;quot;top&amp;quot;
+| punctuation
+| &amp;apos;&amp;apos;punc, punct, pct&amp;apos;&amp;apos;
+| Fixing punctuation
+|- valign=&amp;quot;top&amp;quot;
+| redirect
+| &amp;apos;&amp;apos;rd, rdr, redir&amp;apos;&amp;apos;
+| Article redirect. Specify what article it redirects to.
+|- valign=&amp;quot;top&amp;quot;
+| redirect fix
+| &amp;apos;&amp;apos;snap dbl rdr, fix redir&amp;apos;&amp;apos;
+| &amp;quot;Snapping&amp;quot; a double redirect: turning a double redirect into a single redirect.
+|- valign=&amp;quot;top&amp;quot;
+| references
+| &amp;apos;&amp;apos;ref, refs&amp;apos;&amp;apos;
+| Adding or fixing source citation.
+|- valign=&amp;quot;top&amp;quot;
+| remove/delete
+| &amp;apos;&amp;apos;-, rm, rmv, del&amp;apos;&amp;apos;
+| Removal of something
+|- valign=&amp;quot;top&amp;quot;
+| revert
+| &amp;apos;&amp;apos;rv, rvt, rvrt&amp;apos;&amp;apos;
+| Revert to a previous edit
+|- valign=&amp;quot;top&amp;quot;
+| talk
+| &amp;apos;&amp;apos;see talk&amp;apos;&amp;apos;
+|  Explanation of edit on the article&amp;apos;s [[Wikipedia:Talk page|Talk page]]
+|- valign=&amp;quot;top&amp;quot;
+| spelling
+| &amp;apos;&amp;apos;sp, typo, typos&amp;apos;&amp;apos;
+| Fixing of [[typo]]s or incorrect spelling.
+|- valign=&amp;quot;top&amp;quot;
+| wikify
+| &amp;apos;&amp;apos;wfy, wky, wkfy&amp;apos;&amp;apos;
+| Formatting using [[wiki markup]] (as opposed to plain text or [[HTML]]) and add [[Wikipedia:internal link|internal link]]s to material, incorporating it into the whole of Wikipedia
+|}
+
+&amp;lt;noinclude&amp;gt;
+[[Category:Wikipedia features|Edit summary legend:Quick reference]]
+[[Category:Wikipedia page history help]]
+[[Category:Wikipedia basic information]]
+&amp;lt;/noinclude&amp;gt;&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

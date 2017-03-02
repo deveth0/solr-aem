@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Lincoln Records"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Lincoln Records" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Image:LincolnLabel.jpg|thumb|Lincoln Record by [[Jack Pepper|Salt &amp;amp; Pepper]]]]
+&amp;apos;&amp;apos;&amp;apos;Lincoln Records&amp;apos;&amp;apos;&amp;apos; was a [[United States]] [[record label]] in the 1920s.
+
+The bulk of material on Lincoln were [[dance music|dance]] tunes recorded by bands of no particular note. Lincoln Records filled a market niche for people who wanted inexpensive, danceable records of popular tunes and did not particularly care who recorded them. Lincoln records retailed for 50 [[United States dollar|cents]] each. The label had a drawing of [[Abraham Lincoln]] on the top. Although the labels said that they were made by the &amp;apos;&amp;apos;Lincoln Record Corporation, New York&amp;apos;&amp;apos;, Lincoln was actually owned by [[Cameo Records]].  Some Lincoln issues were pressed from Cameo masters, although the name of the band which recorded for Cameo was usually changed to a pseudonym so that the Lincolns would not compete with those on Cameo.
+
+The Lincoln Records label debuted in 1924 and was discontinued in 1930. It reappeared in 1949, probably revived by the [[American Record Corporation]] which had acquired Cameo years earlier. Through the mid-1950s some children&amp;apos;s records and music by less well known artists was released on 45[[Revolutions per minute|rpm]] discs with the Lincoln name.
+
+Over the years, of those records issued on Cameo and Lincoln, the Cameo records are much more commonly found, making Lincoln a rather scarce label.
+
+==References==
+* &amp;quot;The American Record Label Book&amp;quot; by Brian Rust (Arlington House Publishers, 1978
+
+==See also==
+* [[List of record labels]]
+
+[[Category:American record labels]]
+[[Category:Record labels established in 1924]]
+[[Category:Record labels disestablished in 1930]]
+[[Category:Record labels established in 1949]]
+[[Category:Re-established companies]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

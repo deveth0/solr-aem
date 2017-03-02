@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Zerewitinoff determination"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Zerewitinoff determination" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=March 2009}}
+The &amp;apos;&amp;apos;&amp;apos;Zerewitinoff determination&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;Zerevitinov determination&amp;apos;&amp;apos;&amp;apos; is a quantitative [[chemical test]] for the determination of [[active hydrogen]]s in a [[chemical substance]]. A sample is treated with the [[Grignard reaction|Grignard reagent]], [[methylmagnesium iodide]], which reacts with any acidic hydrogen atom to form [[methane]]. This gas can be determined quantitatively. For example:
+
+:[[Image:Zerewitinow reaction.png|500px]]
+
+== External links ==
+* [http://www.patentstorm.us/patents/5554686.html example from polyurethane chemistry]
+
+[[Category:Chemical tests]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

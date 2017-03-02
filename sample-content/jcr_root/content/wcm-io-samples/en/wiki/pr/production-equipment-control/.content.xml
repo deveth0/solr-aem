@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Production equipment control"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Production equipment control" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+&amp;apos;&amp;apos;&amp;apos;Production equipment control&amp;apos;&amp;apos;&amp;apos; involves production equipment that resides in the [[shop floor]] of a manufacturing company and its purpose is to produce goods of a wanted [[Quality (business)|quality]] when provided with [[production resource]]s of a required quality. In modern [[production line]]s the production equipment is fully automated using [[industrial control method]]s and involves limited [[unskilled labour]] participation. Modern production equipment consists of [[mechatronic]] modules that are integrated according to a [[control architecture]]. The most widely known architectures involve [[hierarchy]], [[polyarchy]], [[hetaerarchy]] and hybrid. The methods for achieving a [[technical effect]] are described by [[control algorithm]]s, which may or may not utilize [[formal method]]s in their design.
+
+{{DEFAULTSORT:Production Equipment Control}}
+[[Category:Production and manufacturing]]
+[[Category:Formal methods]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

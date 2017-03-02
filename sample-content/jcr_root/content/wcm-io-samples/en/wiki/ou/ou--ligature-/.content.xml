@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ou (ligature)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ou (ligature)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Image:ou ligature.svg|150px|right]]
+
+&amp;apos;&amp;apos;&amp;apos;Ou&amp;apos;&amp;apos;&amp;apos; (Majuscule: {{lang|gr|&amp;apos;&amp;apos;&amp;apos;Ȣ&amp;apos;&amp;apos;&amp;apos;}}, Minuscule: {{lang|gr|&amp;apos;&amp;apos;&amp;apos;ȣ&amp;apos;&amp;apos;&amp;apos;}}) is a [[Ligature (typography)|ligature]] of the [[Greek alphabet#Ligatures|Greek letters]] [[omicron|ο]] and [[upsilon|υ]] which was frequently used in [[Byzantine Greek|Byzantine]] manuscripts.  This ligature is still seen today on [[icon]] artwork in Greek Orthodox churches, and sometimes in [[graffiti]] or other forms of informal or decorative writing.
+
+The ligature is now mostly used in the context of the [[Latin alphabet]], interpreted as a ligature of Latin [[o]] and [[u]]: for example, in the orthography of the [[Wyandot language]] and of [[Algonquian languages]] of [[Western Abnaki language|Western Abenaki]] to represent {{IPA|/ɔ̃/}}, and in [[Algonquin language|Algonquin]] to represent {{IPA|/ɯ/}}.  Today, in Western Abenaki, &amp;quot;ô&amp;quot; is preferred, and in Algonquin, &amp;quot;w&amp;quot; is preferred.
+
+The ligature, in both majuscule and minuscule forms, is occasionally used to represent minuscule оf &amp;quot;У&amp;quot; in the [[Romanian Cyrillic alphabet|Romanian Transitional Alphabet]], as the glyph for monograph Uk (ꙋ) is rarely available in font sets.
+
+The same ligature was also used in the context of [[Cyrillic script|Cyrillic]]; see [[Uk (Cyrillic)]].
+
+[[Image:Wabikoni.png|thumb|This 1871 Algonquin calendar has &amp;quot;{{Unicode|ȣabikoni kisis}}&amp;quot; for what is today written &amp;apos;&amp;apos;wàbigonì-gìzis&amp;apos;&amp;apos; (&amp;quot;May&amp;quot;).]]
+
+== Computer encoding ==
+In [[Unicode]], it is encoded for use in Latin as &amp;quot;Latin Capital Script OU&amp;quot; (U+0222 {{unicode|Ȣ}}) and &amp;quot;Latin Small Letter OU&amp;quot; (U+0223, {{unicode|ȣ}}) in the &amp;apos;&amp;apos;Latin Extended-B&amp;apos;&amp;apos; range,&amp;lt;ref&amp;gt;[http://www.fileformat.info/info/unicode/char/0222/index.htm Unicode Character &amp;apos;LATIN CAPITAL LETTER OU&amp;apos;], [http://www.fileformat.info/info/unicode/char/0223/index.htm Unicode Character &amp;apos;LATIN SMALL LETTER OU&amp;apos;]&amp;lt;/ref&amp;gt; and for use in Cyrillic as [[Uk (Cyrillic)|Cyrillic letter monograph Uk]] (uppercase U+A64A, {{Unicode|Ꙋ}}, lowercase U+A64B, {{Unicode|ꙋ}}), in addition to now deprecated &amp;quot;Cyrillic letter Uk&amp;quot; (uppercase U+0478, {{Unicode|Ѹ}}, lowercase U+0479, {{Unicode|ѹ}}), which may be realized with the &amp;quot;о&amp;quot; and &amp;quot;у&amp;quot; either side by side or combined vertically.
+
+Despite the ligature&amp;apos;s origin in Greek, there is no separate provision for its encoding in the Greek script, because it was deemed to be a mere ligature on the font level but not a separate underlying character. A proposal for encoding it as &amp;quot;Greek letter ou&amp;quot; was made in 1998,&amp;lt;ref&amp;gt;Michael Everson, &amp;apos;&amp;apos;[http://anubis.dkuug.dk/jtc1/sc2/wg2/docs/n1743.pdf Additional Greek characters for the UCS]&amp;apos;&amp;apos;&amp;lt;/ref&amp;gt; but was rejected.&amp;lt;ref&amp;gt;Nick Nicholas &amp;apos;&amp;apos;[http://www.tlg.uci.edu/~opoudjis/unicode/other_ligatures.html Other ligatures]&amp;apos;&amp;apos;.&amp;lt;/ref&amp;gt;
+
+In older [[character encoding]]s (such as [[ISO 8859]]) and locales where Unicode is not available, it is usually represented by the &amp;apos;&amp;apos;[[8 (number)|8]]&amp;apos;&amp;apos; glyph.{{Citation needed|date=February 2007}}
+
+==References==
+{{reflist}}
+
+{{Latin alphabet}}
+
+[[Category:Latin alphabet ligatures|Ou]]
+[[Category:Cyrillic ligatures|Ou]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

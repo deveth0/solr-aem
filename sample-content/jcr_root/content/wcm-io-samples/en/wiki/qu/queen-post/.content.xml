@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Queen post"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Queen post" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{BridgeTypePix
+|image=Queens P2100020 Day Bridge off Prosperity Pike (SR 18) PA.jpg
+|image_title=Interior structure of a [[covered bridge]] utilizing a queen-post structure
+|type_name=Queen Post Bridge
+|sibling_names=None
+|descendent_names=None
+|ancestor_names=[[Truss bridge]]|carries=[[Pedestrian]]s, [[livestock]], [[vehicles]]|span_range=short to medium|material=[[Wood|wood plank]]s
+|movable=No
+|design=medium|falsework=Sometimes}}
+
+A &amp;apos;&amp;apos;&amp;apos;queen post&amp;apos;&amp;apos;&amp;apos; is a [[Tension (physics)|tension]] member in a [[truss]] designed to span longer openings than a [[king post]] truss. A king post uses one central supporting post, whereas the queen post truss uses two.&amp;lt;ref&amp;gt;Gopi, Satheesh. Basic civil engineering. New Delhi: Dorling Kindersley (India) Pvt. Ltd., 2010. 155. Print. ISBN 8131729885&amp;lt;/ref&amp;gt; Even though it is a tension member, rather than a compression member, they are commonly still called a [[Post (structural)|post]]. A queen post is often confused with a queen strut, one of two [[Compression (physical)|compression]] members in roof [[Framing (construction)|framing]] which do not form a truss in the engineering sense.&amp;lt;ref&amp;gt;&amp;quot;Timber Framing for Beginners: VI. Glossary of Terms&amp;quot; &amp;apos;&amp;apos;Timber Framing&amp;apos;&amp;apos; Vol. 68 June 2003. 12. http://tfguild.businesscatalyst.com/downloads/publications/Glossary-of-Timber-Framing-Terms.pdf&amp;lt;/ref&amp;gt;
+[[File:Queens Post P2100014 Day Bridge off Prosperity Pike (SR 18) PA.jpg|thumb|right|280 px|Day Bridge in Southwestern Pennsylvania (Morgan Township, Green County)]]
+
+==Architecture==
+A queen-post bridge has two uprights placed about one-third of the way from each bank. They are connected across the top by a [[Beam (structure)|beam]] and use a diagonal brace between the outer edge. The central square between the two verticals was either unbraced on shorter spans, or had diagonal braces from the bottom of each queen post to the center of the upper cord. The deck is supported by a king post, which is held up by a triangular [[truss]].&amp;lt;ref&amp;gt;American Barns and Covered Bridges, Eric Sloane, Wilfred Funk, Inc. New York, New York; 1954, pg 96-97&amp;lt;/ref&amp;gt;
+
+An alternative truss construction used a pair of cross beams between the queen posts, forming an &amp;quot;X&amp;quot;. This is then considered a [[Truss bridge|Warren truss]].
+
+==See also==
+* [[Timber roof trusses]]
+* [[Timber framing]]
+
+==References==
+{{reflist}}
+
+==External links==
+* [http://pghbridges.com/basics.htm Bridge Basics]
+* [http://www4.bfn.org/bah/a/DCTNRY/q/queen.html Queen post]
+
+[[Category:Architectural elements]]
+[[Category:Structural engineering]]
+
+{{element-arch-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

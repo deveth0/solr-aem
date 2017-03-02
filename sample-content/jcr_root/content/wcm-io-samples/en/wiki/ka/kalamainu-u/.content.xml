@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Kalamainu&#x27;u"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Kalamainu&#x27;u" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[Hawaiian mythology]], &amp;apos;&amp;apos;&amp;apos;Kalamainu&amp;apos;u&amp;apos;&amp;apos;&amp;apos; (alternate spelling &amp;apos;&amp;apos;&amp;apos;Kalanimainu&amp;apos;u&amp;apos;&amp;apos;&amp;apos;) was a [[lizard]] goddess.
+==Myths==
+She is said to have lured her lover Puna-ai-koa&amp;apos;e to her cave where she kept him prisoner. When he longed to go surfing again, Kalamainu&amp;apos;u gave him her surf board, but warned him not to speak with anyone. He, however, spoke with friends who told him his lover&amp;apos;s true nature. He returned to her cave, saw her in her true form, but showed no fear. Kalamainu&amp;apos;u killed the informants (Craig 1989:95, 218, Beckwith 1940:193, 200).
+
+==References==
+*R.D. Craig, &amp;apos;&amp;apos;Dictionary of Polynesian Mythology&amp;apos;&amp;apos; (Greenwood Press: New York, 1989).
+*M. Beckwith, &amp;apos;&amp;apos;Hawaiian Mythology&amp;apos;&amp;apos; (Yale University Press: New Haven, 1940).
+
+[[Category:Hawaiian mythology]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

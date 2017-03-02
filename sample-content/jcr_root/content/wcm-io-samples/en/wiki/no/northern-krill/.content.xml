@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Northern krill"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Northern krill" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Taxobox
+| name = Northern krill
+| image = Meganyctiphanes norvegica.jpg
+| regnum = [[Animal]]ia
+| phylum = [[Arthropod]]a
+| subphylum = [[Crustacean|Crustacea]]
+| classis = [[Malacostraca]]
+| ordo = [[Krill|Euphausiacea]]
+| familia = [[Euphausiidae]]
+| genus = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Meganyctiphanes&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+| genus_authority = [[Ernest William Lyons Holt|Holt]] &amp;amp; [[Walter Medley Tattersall|Tattersall]], 1905
+| species = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;M. norvegica&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+| binomial = &amp;apos;&amp;apos;Meganyctiphanes norvegica&amp;apos;&amp;apos;
+| binomial_authority = ([[Michael Sars|M. Sars]], 1857)
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Northern krill&amp;apos;&amp;apos;&amp;apos;, &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Meganyctiphanes norvegica&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;, is a [[species]] of [[krill]] that lives in the [[North Atlantic Ocean]]. It is an important component of the [[zooplankton]], providing food for [[whale]]s, [[fish]] and [[bird]]s. (In the [[Southern Ocean]], [[Antarctic krill]] &amp;apos;&amp;apos;[[Euphausia superba]]&amp;apos;&amp;apos; fills a similar role.) &amp;apos;&amp;apos;M. norvegica&amp;apos;&amp;apos; is the only species recognised in the genus &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Meganyctiphanes&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;,&amp;lt;ref name=&amp;quot;WoRMS&amp;quot;&amp;gt;{{cite web |author=Volker Siegel |year=2011 |title=&amp;apos;&amp;apos;Meganyctiphanes&amp;apos;&amp;apos; Holt &amp;amp; Tattersall, 1905 |editor=Volker Siegel |work=World Euphausiacea database |publisher=[[World Register of Marine Species]] |url=http://www.marinespecies.org/aphia.php?p=taxdetails&amp;amp;id=110674 |accessdate=February 26, 2011}}&amp;lt;/ref&amp;gt; although it has been known by several [[synonym (taxonomy)|synonyms]]:
+*&amp;apos;&amp;apos;Euphausia intermedia&amp;apos;&amp;apos; &amp;lt;small&amp;gt;&amp;lt;/small&amp;gt;
+*&amp;apos;&amp;apos;Euphausia lanei&amp;apos;&amp;apos; &amp;lt;small&amp;gt;Holt &amp;amp; Tattersall, 1905&amp;lt;/small&amp;gt;
+*&amp;apos;&amp;apos;Meganyctiphanes calmani&amp;apos;&amp;apos; &amp;lt;small&amp;gt;&amp;lt;/small&amp;gt;
+*&amp;apos;&amp;apos;Nyctiphanes norvegicus&amp;apos;&amp;apos; &amp;lt;small&amp;gt;G. O. Sars, 1883&amp;lt;/small&amp;gt;
+*&amp;apos;&amp;apos;Thysanopoda norvegica&amp;apos;&amp;apos; &amp;lt;small&amp;gt;&amp;lt;/small&amp;gt;
+
+==References==
+{{reflist}}
+
+== External links ==
+{{TaxonIds |itis=95533 |eol=509431 |ncbi=48144 |worms=110690}}
+*{{cite web |url=http://nlbif.eti.uva.nl/bis/crustacea.php?menuentry=soorten&amp;amp;id=8 |title=&amp;apos;&amp;apos;Meganyctiphanes norvegica&amp;apos;&amp;apos; (M. Sars, 1857) |work=Macrobenthos of the North Sea: Crustacea |publisher=[[University of Amsterdam|Universiteit van Amsterdam]]}}
+*{{cite web |url=http://species-identification.org/species.php?species_group=euphausiids&amp;amp;id=47 |title=&amp;apos;&amp;apos;Meganyctiphanes norvegica&amp;apos;&amp;apos; (M. Sars, 1857) |work=Euphausiids of the World |publisher=Marine Species Identification Portal}}
+*{{cite web |url=http://www.arcodiv.org/watercolumn/euphausiid/Meganyctiphanes_norvegica.html |title=&amp;apos;&amp;apos;Meganyctiphanes norvegica&amp;apos;&amp;apos; (M. Sars, 1857) |work=Arctic Ocean Diversity |author=Alexei Pinchuk &amp;amp; Russ Hopcroft |date=September 3, 2010}}
+*{{Commons category-inline|Meganyctiphanes norvegica|&amp;apos;&amp;apos;Meganyctiphanes norvegica&amp;apos;&amp;apos;}}
+
+{{DEFAULTSORT:Northern Krill}}
+[[Category:Krill]]
+[[Category:Crustaceans of the Atlantic Ocean]]
+[[Category:Animals described in 1856]]
+
+{{Malacostraca-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Indo-European (disambiguation)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Indo-European (disambiguation)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|Appendix:Proto-Indo-European roots}}
+{{wiktionary|Appendix:List of Proto-Indo-European roots}}
+&amp;apos;&amp;apos;&amp;apos;Indo-European&amp;apos;&amp;apos;&amp;apos; may refer to:
+* [[Indo-European languages]]
+** [[Aryan race]], a 19th-century and early 20th century term for those peoples who are the native speakers of Indo-European languages
+* [[Proto-Indo-European language]], the reconstructed common ancestor of all Indo-European languages
+* [[Proto-Indo-Europeans]], an ancient ethnic group speaking the Proto-Indo-European language
+* An older name for [[Indo people]], mixed-race people of Indonesian and European descent
+
+==See also==
+* [[Indo-European studies]], an academic field
+* [[Proto-Indo-European religion]], the hypothetical religion of the Proto-Indo-Europeans
+* [[Pre-Indo-European (disambiguation)]]
+
+{{disambiguation}}
+{{DEFAULTSORT:Indo-European (Disambiguation)}}
+&amp;lt;!--Categories--&amp;gt;
+[[Category:Indo-European]]
+
+[[es:Indoeuropeo]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

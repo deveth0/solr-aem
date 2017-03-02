@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="List of Japanese board games"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="List of Japanese board games" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{incomplete list|date=February 2012}}
+This is a list of [[board games]] invented, developed and/or published in [[Japan]].
+{| class=&amp;quot;wikitable&amp;quot;
+|-
+! Game name !! Year !! Publisher/Designer (Japan) !! Players !! Gameplay style !! Similar Games
+|-
+|{{nihongo|[[Go (game)|Go]]|囲碁|igo}}||?||Traditional||2||Strategic territory and surrounding game||&amp;apos;&amp;apos;weiqi&amp;apos;&amp;apos; in Chinese, &amp;apos;&amp;apos;baduk&amp;apos;&amp;apos; in Korean
+|-
+|{{nihongo|[[Gomoku]]|五目並べ|gomokunarabe}}||?||Traditional||2|||Strategic abstract game played with Go pieces on a Renju board (15x15), goal to reach five in a row|| [[Renju]], [[Four in a row]], Irensei
+|-
+| {{nihongo|[[Irensei]]|囲連星}} || ? ||Traditional || 2 ||Strategic abstract game played with Go pieces on a Go board (19x19); unites elements of the game of Go with those of Gomoku ||Go, Gomoku
+|-
+|{{nihongo|[[Jinsei Game]]|人生ゲーム|jin-sei gēmu}}|| 1967 || [[Takara]] || ? || Japanese adaption of [[The Game of Life]] || The Game of Life
+|-
+| {{nihongo|[[Renju]]|連珠}}|| ? ||Traditional || 2 || Strategic five-in-a-row game with equal chances for both players ||[[Pente]], [[Gomoku]]
+|-
+|{{nihongo|[[Shadow Hunters]]|シャドウハンターズ|shadō hantāzu}}||2005 ||[[Game Republic]] ||4-8 ||Supernatural themed, strategic, secret team play ||[[Bang!]], [[Mafia (party game)|Mafia]]
+|-
+|{{nihongo|[[Riichi Mahjong]]|リーチ麻雀|Riichi Maajan}}||?||Traditional||4||Chinese Mahjong with Japanese rules  ||Mahjong
+|-
+|{{Nihongo|[[Shogi]] and [[Shogi variant|variants]]|将棋|shōgi|generals&amp;apos; chess| Japanese chess}}  || ? ||Traditional ||2 || Played on a 9x9 board; can use captured pieces against opponent ||[[Chess]]
+|-
+|{{nihongo|[[Sugoroku]]|双六}}|| ?|| Traditional || ? || Race game, two variants || [[Backgammon]] (variant), [[Snakes and Ladders]] (variant)
+|}
+
+[[Category:Board games|Japanese board games]]
+[[Category:Japanese games|*board games]]
+[[Category:Lists of games|Japanese board games]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

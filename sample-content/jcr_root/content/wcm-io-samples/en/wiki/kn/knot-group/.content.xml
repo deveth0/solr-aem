@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Knot group"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Knot group" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[mathematics]], a [[knot (mathematics)|knot]] is an [[embedding]] of a [[circle]] into 3-dimensional [[Euclidean space]]. The &amp;apos;&amp;apos;&amp;apos;knot group&amp;apos;&amp;apos;&amp;apos; of a knot &amp;apos;&amp;apos;K&amp;apos;&amp;apos; is defined as the [[fundamental group]] of the [[knot complement]] of &amp;apos;&amp;apos;K&amp;apos;&amp;apos; in &amp;apos;&amp;apos;&amp;apos;R&amp;apos;&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;3&amp;lt;/sup&amp;gt;,
+:&amp;lt;math&amp;gt;\pi_1(\mathbb{R}^3 \backslash K).&amp;lt;/math&amp;gt;
+
+Other conventions consider knots to be embedded in the 3-sphere, in which case the knot group is the fundamental group of its complement in &amp;lt;math&amp;gt; S^3&amp;lt;/math&amp;gt;.
+
+== Properties ==
+Two equivalent knots have [[isomorphic]] knot groups, so the knot group is a [[knot invariant]] and can be used to distinguish between certain pairs of inequivalent knots. This is because an equivalence between two knots is a self-homeomorphism of &amp;lt;math&amp;gt;\mathbb{R}^3&amp;lt;/math&amp;gt; that is isotopic to the identity and sends the first knot onto the second. Such a homeomorphism restricts onto a homeomorphism of the complements of the knots, and this restricted homeomorphism induces an isomorphism of fundamental groups. However, it is possible for two inequivalent knots to have isomorphic knot groups (see below for an example).
+
+The [[abelianization]] of a knot group is always isomorphic to the infinite [[cyclic group]] &amp;apos;&amp;apos;&amp;apos;Z&amp;apos;&amp;apos;&amp;apos;; this follows because the abelianization agrees with the first [[homology group]], which can be easily computed.
+
+The knot group (or fundamental group of an oriented link in general) can be computed in the [[Wirtinger presentation]] by a relatively simple algorithm.
+
+==Examples==
+
+*The [[unknot]] has knot group isomorphic to &amp;apos;&amp;apos;&amp;apos;Z&amp;apos;&amp;apos;&amp;apos;.
+*The [[trefoil knot]] has knot group isomorphic to the [[braid group]] &amp;apos;&amp;apos;B&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;. This group has the [[presentation of a group|presentation]]
+::&amp;lt;math&amp;gt;\langle x,y \mid x^2 = y^3 \rangle&amp;lt;/math&amp;gt; or &amp;lt;math&amp;gt;\langle a, b \mid aba = bab \rangle&amp;lt;/math&amp;gt;.
+*A (&amp;apos;&amp;apos;p&amp;apos;&amp;apos;,&amp;apos;&amp;apos;q&amp;apos;&amp;apos;)-[[torus knot]] has knot group with presentation
+::&amp;lt;math&amp;gt;\langle x,y \mid x^p = y^q \rangle&amp;lt;/math&amp;gt;.
+*The [[Figure-eight knot (mathematics)|figure eight knot]] has knot group with presentation
+::&amp;lt;math&amp;gt;\langle x,y \mid yxy^{-1}xy=xyx^{-1}yx\rangle&amp;lt;/math&amp;gt;
+* The [[square knot (mathematics)|square knot]] and the [[granny knot (mathematics)|granny knot]] have isomorphic knot groups, yet these two knots are inequivalent.
+
+== See also ==
+* [[Link group]]
+
+==Further reading==
+*Hazewinkel, Michiel, ed. (2001), &amp;quot;[http://www.encyclopediaofmath.org/index.php/Knot_and_link_groups Knot and Link Groups]&amp;quot;, [[Encyclopedia of Mathematics]], Springer, ISBN 978-1556080104
+
+{{Knot theory|state=collapsed}}
+
+[[Category:Knot invariants]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

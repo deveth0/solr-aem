@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="John Walker (grocer)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="John Walker (grocer)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Other people2|John Walker (disambiguation)}}
+[[Image:Kilmarnock cross.jpg|thumb|right|Kilmarnock, Scotland, ca. 1890-1900]]
+&amp;apos;&amp;apos;&amp;apos;John (Johnnie) Walker&amp;apos;&amp;apos;&amp;apos; (1805 – 1857) was a [[Scotland|Scottish]] grocer, who originated what would become one of the world’s most famous [[whisky]] brand names, [[Johnnie Walker]].
+
+==Biography==
+Walker was born near [[Kilmarnock]] in [[Ayrshire]], [[Scotland]]. When his father Alexander died in 1820 he was left £417 in trust. In 1820 the trustees invested in an Italian warehouse, grocery, and wine and spirits shop on the High Street in Kilmarnock.
+
+In 1833 John married Elizabeth Purves.  He was a respected businessman, leader of the local trade association, and a [[Freemason]].  His store’s stock was almost entirely destroyed in an 1852 flood, but the business recovered within a couple of years. His own whisky brand, then known as &amp;apos;&amp;apos;Walker’s Kilmarnock Whisky&amp;apos;&amp;apos; was popular locally. Interestingly, John Walker was a teetotaller.
+
+John’s son [[Alexander Walker (1837–1889)|Alexander Walker]] (named after John’s father) had apprenticed with a [[tea]] merchant in [[Glasgow]], and there learned the art of [[blending tea]]. When he returned to take over the business from his ailing father, he used those skills to create &amp;apos;&amp;apos;Old Highland Whisky&amp;apos;&amp;apos;, (eventually renamed &amp;apos;&amp;apos;Johnnie Walker Black Label&amp;apos;&amp;apos;) the blend that made [[Johnnie Walker]] whisky famous.
+
+: &amp;apos;&amp;apos;Although he gave his name to the whisky, John Walker was a far less important figure to the brand than his son, Alexander. A disastrous flood in Kilmarnock in 1852 had destroyed all of Walker’s stock, and when Alexander joined the business in 1856, he persuaded his father to abandon the narrow realm of the grocery trade and to go into wholesale trading.&amp;apos;&amp;apos;
+: &amp;apos;&amp;apos;At the beginning, the firm offered a range of spirits: Campbeltown whisky from the Kintyre Peninsula; whisky from the Inner Hebridean Island of Islay, with its pungent smoky flavor; patent still, or grain, whisky; and “Glenlivat” (sic), Speyside whisky. Even so, whisky sales under John Walker represented just 8 percent of the firm’s income; by the time Alexander was ready to pass on the company to his own sons, that figure had increased to between 90 and 95 percent.&amp;apos;&amp;apos; —Giles MacDonogh
+
+== Sources ==
+* &amp;apos;&amp;apos;Scotch Whisky: A Liquid History&amp;apos;&amp;apos; by Charles MacLean. ©2003 Charles MacLean &amp;amp; Cassell Illustrated. ISBN 1-84403-078-4
+* [http://www.cigaraficionado.com/Cigar/CA_Archives/CA_Show_Article/0,2322,602,00.html “Walking Tall: From Grocer to Whisky Powerhouse, Johnnie Walker’s Been Going Strong for 186 Years”] by Giles MacDonogh, writing for &amp;apos;&amp;apos;[http://www.cigaraficionado.com Cigar Aficionado]&amp;apos;&amp;apos;.
+
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Walker, John
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION = Scottish businessman
+| DATE OF BIRTH     = 1805
+| PLACE OF BIRTH    =
+| DATE OF DEATH     = 1857
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Walker, John}}
+[[Category:1805 births]]
+[[Category:1857 deaths]]
+[[Category:People from East Ayrshire]]
+[[Category:Scottish businesspeople]]
+[[Category:Beverage distillers]]
+[[Category:People from Kilmarnock]]
+
+
+{{Scotland-bio-stub}}
+{{UK-business-bio-1800s-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="ISO 3166-2:BI"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="ISO 3166-2:BI" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{main|ISO 3166-2}}
+
+&amp;apos;&amp;apos;&amp;apos;ISO 3166-2:BI&amp;apos;&amp;apos;&amp;apos; is the entry for [[Burundi]] in [[ISO 3166-2]], part of the [[ISO 3166]] [[standardization|standard]] published by the [[International Organization for Standardization]] (ISO), which defines [[code]]s for the names of the principal [[country subdivision|subdivision]]s (e.g., [[province]]s or [[state (administrative division)|state]]s) of all [[country|countries]] coded in [[ISO 3166-1]].
+
+Currently for Burundi, ISO 3166-2 codes are defined for [[provinces of Burundi|17 provinces]].
+
+Each code consists of two parts, separated by a hyphen. The first part is &amp;lt;tt&amp;gt;BI&amp;lt;/tt&amp;gt;, the [[ISO 3166-1 alpha-2]] code of Burundi. The second part is two letters.
+
+==Current codes==
+Subdivision names are listed as in the ISO 3166-2 standard published by the ISO 3166 Maintenance Agency (ISO 3166/MA).
+
+&amp;apos;&amp;apos;Click on the button in the header to sort each column.&amp;apos;&amp;apos;
+
+{| class=&amp;quot;wikitable sortable&amp;quot;
+|-
+! Code
+! Subdivision name
+|-
+| &amp;lt;tt&amp;gt;BI-BB&amp;lt;/tt&amp;gt;
+| [[Bubanza Province|Bubanza]]
+|-
+| &amp;lt;tt&amp;gt;BI-BM&amp;lt;/tt&amp;gt;
+| [[Bujumbura Mairie Province|Bujumbura Mairie]]
+|-
+| &amp;lt;tt&amp;gt;BI-BL&amp;lt;/tt&amp;gt;
+| [[Bujumbura Rural Province|Bujumbura Rural]]
+|-
+| &amp;lt;tt&amp;gt;BI-BR&amp;lt;/tt&amp;gt;
+| [[Bururi Province|Bururi]]
+|-
+| &amp;lt;tt&amp;gt;BI-CA&amp;lt;/tt&amp;gt;
+| [[Cankuzo Province|Cankuzo]]
+|-
+| &amp;lt;tt&amp;gt;BI-CI&amp;lt;/tt&amp;gt;
+| [[Cibitoke Province|Cibitoke]]
+|-
+| &amp;lt;tt&amp;gt;BI-GI&amp;lt;/tt&amp;gt;
+| [[Gitega Province|Gitega]]
+|-
+| &amp;lt;tt&amp;gt;BI-KR&amp;lt;/tt&amp;gt;
+| [[Karuzi Province|Karuzi]]
+|-
+| &amp;lt;tt&amp;gt;BI-KY&amp;lt;/tt&amp;gt;
+| [[Kayanza Province|Kayanza]]
+|-
+| &amp;lt;tt&amp;gt;BI-KI&amp;lt;/tt&amp;gt;
+| [[Kirundo Province|Kirundo]]
+|-
+| &amp;lt;tt&amp;gt;BI-MA&amp;lt;/tt&amp;gt;
+| [[Makamba Province|Makamba]]
+|-
+| &amp;lt;tt&amp;gt;BI-MU&amp;lt;/tt&amp;gt;
+| [[Muramvya Province|Muramvya]]
+|-
+| &amp;lt;tt&amp;gt;BI-MY&amp;lt;/tt&amp;gt;
+| [[Muyinga Province|Muyinga]]
+|-
+| &amp;lt;tt&amp;gt;BI-MW&amp;lt;/tt&amp;gt;
+| [[Mwaro Province|Mwaro]]
+|-
+| &amp;lt;tt&amp;gt;BI-NG&amp;lt;/tt&amp;gt;
+| [[Ngozi Province|Ngozi]]
+|-
+| &amp;lt;tt&amp;gt;BI-RT&amp;lt;/tt&amp;gt;
+| [[Rutana Province|Rutana]]
+|-
+| &amp;lt;tt&amp;gt;BI-RY&amp;lt;/tt&amp;gt;
+| [[Ruyigi Province|Ruyigi]]
+|}
+
+==Changes==
+The following changes to the entry have been announced in newsletters by the ISO 3166/MA since the first publication of ISO 3166-2 in 1998:
+
+{| class=&amp;quot;wikitable&amp;quot;
+|-
+! Newsletter
+! Date issued
+! Description of change in newsletter
+! Code/Subdivision change
+|-
+| id=&amp;quot;I-4&amp;quot; | [http://www.iso.org/iso/iso_3166-2_newsletter_i-4_en.pdf {{nowrap|Newsletter I-4}}]
+| {{nowrap|2002-12-10}}
+| Addition of one province
+| style=white-space:nowrap | &amp;apos;&amp;apos;&amp;apos;Subdivisions added:&amp;apos;&amp;apos;&amp;apos;&amp;lt;br /&amp;gt; &amp;lt;tt&amp;gt;BI-MW&amp;lt;/tt&amp;gt; [[Mwaro Province|Mwaro]]
+|-
+| id=&amp;quot;II-2&amp;quot; | [http://www.iso.org/iso/iso_3166-2_newsletter_ii-2_2010-06-30.pdf {{nowrap|Newsletter II-2}}]
+| {{nowrap|2010-06-30}}
+| Update of the administrative structure and of the list source
+| style=white-space:nowrap | &amp;apos;&amp;apos;&amp;apos;Subdivisions added:&amp;apos;&amp;apos;&amp;apos;&amp;lt;br /&amp;gt; &amp;lt;tt&amp;gt;BI-BM&amp;lt;/tt&amp;gt; [[Bujumbura Mairie Province|Bujumbura Mairie]]&amp;lt;br /&amp;gt; &amp;lt;tt&amp;gt;BI-BL&amp;lt;/tt&amp;gt; [[Bujumbura Rural Province|Bujumbura Rural]]&amp;lt;br /&amp;gt; &amp;apos;&amp;apos;&amp;apos;Subdivisions deleted:&amp;apos;&amp;apos;&amp;apos;&amp;lt;br /&amp;gt; &amp;lt;tt&amp;gt;BI-BJ&amp;lt;/tt&amp;gt; [[Bujumbura Province|Bujumbura]]
+|}
+
+==See also==
+* [[Subdivisions of Burundi]]
+* [[List of FIPS region codes (A-C)#BY: Burundi|FIPS region codes of Burundi]]
+
+==External links==
+* [http://www.statoids.com/ubi.html Provinces of Burundi], Statoids.com
+
+{{ISO 3166}}
+
+{{DEFAULTSORT:Iso 3166-2:Bi}}
+[[Category:ISO 3166|2:BI]]
+[[Category:Provinces of Burundi|*ISO 3166-2]]
+[[Category:Burundi-related lists]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ultraparallel theorem"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ultraparallel theorem" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[hyperbolic geometry]], the &amp;apos;&amp;apos;&amp;apos;ultraparallel theorem&amp;apos;&amp;apos;&amp;apos; states that every pair of [[ultraparallel line]]s in the [[hyperbolic geometry#Models_of_the_hyperbolic_plane|hyperbolic plane]] has a unique common [[perpendicular]] hyperbolic line.
+
+==Proof in the Poincaré half-plane model==
+
+[[Image:Ultraparallel theorem.svg|400px|right]]
+
+Let
+
+:&amp;lt;math&amp;gt;a &amp;lt; b &amp;lt; c &amp;lt; d&amp;lt;/math&amp;gt;
+
+be four distinct points on the [[abscissa]] of the [[Cartesian plane]]. Let &amp;lt;math&amp;gt;p&amp;lt;/math&amp;gt; and &amp;lt;math&amp;gt;q&amp;lt;/math&amp;gt; be [[semicircle]]s above the abscissa with diameters &amp;lt;math&amp;gt;ab&amp;lt;/math&amp;gt; and &amp;lt;math&amp;gt;cd&amp;lt;/math&amp;gt; respectively. Then in the [[Poincaré half-plane model]] HP, &amp;lt;math&amp;gt;p&amp;lt;/math&amp;gt; and &amp;lt;math&amp;gt;q&amp;lt;/math&amp;gt; represent ultraparallel lines.
+
+Compose the following two [[hyperbolic motion]]s:
+
+:&amp;lt;math&amp;gt;x \to x-a\,&amp;lt;/math&amp;gt;
+:&amp;lt;math&amp;gt;\mbox{inversion in the unit semicircle.}\,&amp;lt;/math&amp;gt;
+
+Then &amp;lt;math&amp;gt;a \to \infty&amp;lt;/math&amp;gt;, &amp;lt;math&amp;gt;b \to (b-a)^{-1},\quad c \to (c-a)^{-1},\quad d \to (d-a)^{-1}.&amp;lt;/math&amp;gt;
+
+Now continue with these two hyperbolic motions:
+:&amp;lt;math&amp;gt;x \to x-(b-a)^{-1}\,&amp;lt;/math&amp;gt;
+:&amp;lt;math&amp;gt;x \to \left [ (c-a)^{-1} - (b-a)^{-1} \right ]^{-1} x\,&amp;lt;/math&amp;gt;
+
+Then &amp;lt;math&amp;gt;a&amp;lt;/math&amp;gt; stays at &amp;lt;math&amp;gt;\infty&amp;lt;/math&amp;gt;, &amp;lt;math&amp;gt;b \to 0&amp;lt;/math&amp;gt;, &amp;lt;math&amp;gt;c \to 1&amp;lt;/math&amp;gt;, &amp;lt;math&amp;gt;d \to z&amp;lt;/math&amp;gt; (say). The unique semicircle, with center at the origin, perpendicular to the one on &amp;lt;math&amp;gt;1z&amp;lt;/math&amp;gt; must have a radius tangent to the radius of the other. The right triangle formed by the abscissa and the perpendicular radii has hypotenuse of length &amp;lt;math&amp;gt;\begin{matrix} \frac{1}{2} \end{matrix} (z+1)&amp;lt;/math&amp;gt;. Since &amp;lt;math&amp;gt;\begin{matrix} \frac{1}{2} \end{matrix} (z-1)&amp;lt;/math&amp;gt;  is the radius of the semicircle on &amp;lt;math&amp;gt;1z&amp;lt;/math&amp;gt;, the common perpendicular sought has radius-square
+
+:&amp;lt;math&amp;gt;\frac{1}{4} \left [ (z+1)^2 - (z-1)^2 \right ] = z.\,&amp;lt;/math&amp;gt;
+
+The four hyperbolic motions that produced &amp;lt;math&amp;gt;z&amp;lt;/math&amp;gt; above can each be inverted and applied in reverse order to the semicircle centered at the origin and of radius &amp;lt;math&amp;gt;\sqrt{z}&amp;lt;/math&amp;gt; to yield the unique hyperbolic line perpendicular to both ultraparallels &amp;lt;math&amp;gt;p&amp;lt;/math&amp;gt; and &amp;lt;math&amp;gt;q&amp;lt;/math&amp;gt;.
+
+==Proof in the Klein model==
+In the [[Klein model]] of the hyperbolic plane, two ultraparallel lines correspond to two non-intersecting [[chord (geometry)|chord]]s. The [[Pole and polar|poles]] of these two lines are the respective intersections of the [[tangent line]]s to the [[unit circle]] at the endpoints of the chords. Lines &amp;apos;&amp;apos;perpendicular&amp;apos;&amp;apos; to line A are modeled by chords whose extension passes through the pole of A. Hence we draw the unique line between the poles of the two given lines, and intersect it with the unit disk; the chord of intersection will be the desired common perpendicular of the ultraparallel lines. If one of the chords happens to be a diameter, we do not have a pole, but in this case any chord perpendicular to the diameter is perpendicular as well in the hyperbolic plane, and so we draw a line through the pole of the other line intersecting the diameter at right angles to get the common perpendicular.
+
+The proof is completed by showing this construction is always possible. If both chords are diameters, they intersect. If only one of the chords is a diameter, the other chord projects orthogonally down to a section of the first chord contained in its interior, and a line from the pole orthogonal to the diameter intersects both the diameter and the chord. If both lines are not diameters, the we may extend the tangents drawn from each pole to produce a [[quadrilateral]] with the unit circle inscribed within it. The poles are opposite vertices of this quadrilateral, and the chords are lines drawn between adjacent sides of the vertex, across opposite corners. Since the quadrilateral is convex, the line between the poles intersects both of the chords drawn across the corners, and the segment of the line between the chords defines the required chord perpendicular to the two other chords.
+
+==References==
+* [[Karol Borsuk]] &amp;amp; Wanda Szmielew (1960) &amp;apos;&amp;apos;Foundations of Geometry&amp;apos;&amp;apos;, page 291.
+
+[[Category:Articles containing proofs]]
+[[Category:Hyperbolic geometry]]
+[[Category:Theorems in geometry]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

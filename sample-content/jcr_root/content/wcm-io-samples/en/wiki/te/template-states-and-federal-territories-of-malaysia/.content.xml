@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Template:States and Federal Territories of Malaysia"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Template:States and Federal Territories of Malaysia" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Navbox
+| name  = States and Federal Territories of Malaysia
+| title = [[States and federal territories of Malaysia|States and federal territories]] of [[Malaysia]]
+| state    = {{{state|autocollapse}}}
+|listclass = hlist
+| image = [[File:Flag map of Malaysia.svg|140px|alt=Flag Map of Malaysia]]
+
+| group1 = States
+| list1  =
+* [[Johor]]
+* [[Kedah]]
+* [[Kelantan]]
+* [[Malacca]]
+* [[Negeri Sembilan]]
+* [[Pahang]]
+* [[Perak]]
+* [[Perlis]]
+* [[Penang]]
+* [[Sabah]]
+* [[Sarawak]]
+* [[Selangor]]
+* [[Terengganu]]
+
+| group2 = [[Federal Territories (Malaysia)|Federal Territories]]
+| list2  =
+* [[Kuala Lumpur]]
+* [[Labuan]]
+* [[Putrajaya]]
+
+}}&amp;lt;noinclude&amp;gt;
+{{collapsible option}}
+[[Category:Malaysia subdivision templates]]
+
+&amp;lt;/noinclude&amp;gt;&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

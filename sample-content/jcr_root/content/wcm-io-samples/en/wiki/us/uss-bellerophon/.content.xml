@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="USS Bellerophon"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="USS Bellerophon" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Italic title prefixed|3}}
+&amp;apos;&amp;apos;&amp;apos;USS &amp;apos;&amp;apos;Bellerophon&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* {{USS|Bellerophon|ARL-31}}, one of 39 &amp;apos;&amp;apos;Achelous&amp;apos;&amp;apos;-class landing craft repair ships built for the United States Navy
+* USS &amp;apos;&amp;apos;Bellerephon&amp;apos;&amp;apos; (NCC-62048)&amp;lt;!--sic, typo appears in Trek source--&amp;gt;, a fictional &amp;apos;&amp;apos;Nebula&amp;apos;&amp;apos;-class starship that appears in 1993&amp;apos;s &amp;quot;[[Emissary (Star Trek: Deep Space Nine)|Emissary]]&amp;quot; (&amp;apos;&amp;apos;Star Trek: Deep Space Nine&amp;apos;&amp;apos;)
+* USS &amp;apos;&amp;apos;Bellerophon&amp;apos;&amp;apos; (NCC-74705), a fictional &amp;apos;&amp;apos;Intrepid&amp;apos;&amp;apos;-class starship that appears in 1999&amp;apos;s &amp;quot;[[Inter Arma Enim Silent Leges (Star Trek: Deep Space Nine)|Inter Arma Enim Silent Leges]]&amp;quot; (&amp;apos;&amp;apos;Star Trek: Deep Space Nine&amp;apos;&amp;apos;)
+
+==See also==
+*{{HMS|Bellerophon}}
+
+{{Shipindex}}
+
+{{DEFAULTSORT:Bellerophon}}
+[[Category:United States Navy ship names]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

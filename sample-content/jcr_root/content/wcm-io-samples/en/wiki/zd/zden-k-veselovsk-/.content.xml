@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Zdeněk Veselovský"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Zdeněk Veselovský" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=October 2009}}
+[[Image:Zdenek veselovsky.jpg|thumb|250px|Zdeněk Veselovský in 2006.]]
+[[Prof.]] &amp;apos;&amp;apos;&amp;apos;Zdeněk Veselovský&amp;apos;&amp;apos;&amp;apos; (August 26, 1928 &amp;amp;ndash; November 24, 2006) was one of the most important [[Czech republic|Czech]] [[zoologist]]s of the 20th century, founder of Czech [[ethology]], very successful director of the [[Prague Zoo]] (1959-1988) and the president of the International Union of Directors of Zoological Gardens (1971-1975) (renamed in 2000 to [[World Association of Zoos and Aquariums]]). Under his leadership, the Prague zoo reached some successes{{Citation needed|date=February 2007}} in the area of breeding and scientific research.
+
+{{Authority control|VIAF=64123143}}
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Veselovsky, Zdenek
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION = Czech zoologist
+| DATE OF BIRTH     = August 26, 1928
+| PLACE OF BIRTH    =
+| DATE OF DEATH     = November 24, 2006
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Veselovsky, Zdenek}}
+[[Category:1928 births]]
+[[Category:2006 deaths]]
+[[Category:Deaths from myocardial infarction]]
+[[Category:Czech zoologists]]
+[[Category:Ethologists]]
+[[Category:Members of the European Academy of Sciences and Arts]]
+
+{{CzechRepublic-scientist-stub}}
+{{Zoologist-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

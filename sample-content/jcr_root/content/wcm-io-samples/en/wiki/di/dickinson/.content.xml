@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Dickinson"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Dickinson" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Dickinson&amp;apos;&amp;apos;&amp;apos; may refer to:
+{{TOCright}}
+== People ==
+*  [[Dickinson (name)]]
+
+== Place names ==
+;United States
+* [[Dickinson, California (disambiguation)]]
+** Dickinson, California, alternate name of [[Dickenson, California]]
+** Dickinson, California, alternate name of [[Chester, Merced County, California]]
+* [[Dickinson, Minnesota]]
+* [[Dickinson, Broome County, New York]]
+* [[Dickinson, Franklin County, New York]]
+* [[Dickinson, North Dakota]]
+* [[Dickinson, Texas]]
+* [[Dickinson township, Cumberland County, Pennsylvania]]
+* [[Dickinson County, Iowa]]
+* [[Dickinson County, Kansas]]
+* [[Dickinson County, Michigan]]
+* [[Jonathan Dickinson State Park]], southeast [[Florida]]
+* [[Port Dickinson, New York]]
+
+;Canada
+* [[Dickinson&amp;apos;s Landing, Ontario]], ghost town
+
+==Education==
+;United States
+* [[Dickinson College]], liberal arts college in Carlisle, Pennsylvania
+* [[Dickinson High School (Dickinson, North Dakota)]]
+* [[John Dickinson High School]], Wilmington, Delaware
+* [[Dickinson School of Law]], Carlisle, Pennsylvania
+* [[Dickinson State University]], public university in Dickinson, North Dakota
+* [[Fairleigh Dickinson University]], university in New Jersey
+
+== Other uses ==
+* [[Becton Dickinson]], American medical equipment manufacturer
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

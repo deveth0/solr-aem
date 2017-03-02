@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="List of Jordanians"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="List of Jordanians" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{cleanup-rewrite|date=May 2010}}
+{{Jordan Series}}
+The following is a list of notable people from [[Jordan]]:
+
+==Political leaders==
+*[[Sherif Hussein ibn Ali]]
+*King [[Abdullah I of Jordan]]
+*King [[Talal of Jordan]]
+*King [[Hussein of Jordan|Hussein I]]
+*King [[Abdullah II of Jordan]]
+*HE [[Wasfi Al-Tal]]
+*Queen [[Noor of Jordan]]
+*Queen [[Rania of Jordan]]
+
+==Politicians==
+* HE Sheikh Ali Abu-Rubeiha  (Senator)
+* Sheikh [[Attallah Suheimat]]
+*[[Ali Suheimat]]
+*[[Salah Suheimat]] MP
+* Dr. [[Tareq Suheimat]]
+*[[Abdelsalam Al-Majali]]
+*[[:ar:علي الشرايري|Ali Khulqi Al-Sharyri]]
+*[[Fayez Tarawneh]]
+*[[Nayef Al Qadi]]
+*[[Faisal al-Fayez]]
+*[[Ali Abu al-Ragheb]]
+*[[Bahjat Talhouni]] Former Prime Minister
+
+==Novelists, Poets, Researchers and Writers==
+*[[Mustafa Wahbi]] Mustafa Wahbi Al Tal (poet)
+*[[Suleiman Mousa]] (historian/writer)
+*[[Haider Mahmoud]] (poet/writer)
+*[[Abdel-Rahman Munif]] (novelist/writer)
+*[[Samer Raimouny]] (Poet/Activist)
+*[[Nasr Abdel Aziz Eleyan]]
+*[[Samer Libdeh]] (Researcher/writer)
+
+{{See also|List of people by nationality}}
+
+==Military Men==
+* [[Habis Al-Majali]]
+*  General [[General Muhammad Suheimat|Muhammad Suheimat]] - Died 1968
+* [[Abdelsalam al-Majali]]
+* [[Abdullah Ayasrah]]
+
+==Doctors==
+*[[Tareq Suheimat]]
+*[[Abdelsalam al-Majali]]
+*[[Sami Salem]]
+*[[Daoud Hanania]]
+
+==Athletes==
+*[[Dima and Lama Hattab]] (ultramarathon runners)
+*[[Amer Deeb]]
+==Former Ambassadors==
+* [[Nabil Talhouni]]. [http://www.mfa.gov.jo Ministry of Foreign Affairs (Jordan)]
+
+[[Category:Lists of people by nationality|Jordan]]
+[[Category:Lists of Jordanian people|*]]
+[[Category:Jordanian people|*]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

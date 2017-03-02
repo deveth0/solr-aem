@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Valhalla (video game)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Valhalla (video game)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox VG
+|title= Valhalla
+|image= [[Image:valhalla.png|256px|Valhalla]]
+|caption= In-game screenshot
+|developer= [[Legend (game publisher)|Legend]]
+|publisher= Legend
+|designer=
+|released= 1983
+|genre= [[Adventure game|Adventure]] / [[Interactive fiction]]
+|modes= [[Single player]]
+|platforms= [[ZX Spectrum]] &amp;lt;br&amp;gt; [[Commodore 64]]
+|media= [[Compact audio cassette|cassette]]
+|requirements=
+}}
+
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Valhalla&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; was a [[ZX Spectrum]] and [[Commodore 64]] [[adventure game]] published in 1983 by [[Legend (game publisher)|Legend]].
+
+==History==
+The publishing house Legend had earlier published titles under the Microl label. Legend&amp;apos;s chairman and founder was John Peel. The developers were Richard Edwards, Graham Asher, Charles Goodwin, James Learmont and Andrew Owen. The original game was released in English for the Sinclair Spectrum 48K. The Movisoft graphics engine occupied 4K of the game footprint and used machine code, the rest of the game engine and parser was written in Sinclair BASIC. After its successful launch in the UK, it was then ported to the Commodore 64, with pirate editions appearing in Spanish.
+
+==Gameplay==
+&amp;apos;&amp;apos;Valhalla&amp;apos;&amp;apos; is mostly text-based with some graphics showing the location and the characters there.  It was set mainly in [[Asgard]] and [[Midgard]], though when your character died you would reappear in [[Hell]] ([[Niflheim]] under another name) and be able to walk out.
+
+Within its limits, the text [[parser]] would understand multi-part sentences, so long as they were written using the words it understood, which (unlike in many other games) were helpfully listed in the manual.
+
+The aim was to collect six mythical objects, for which you needed the help of other characters, who were taken from [[Norse mythology]] and would wander around randomly.  To help with this, your character had an alignment (between &amp;apos;&amp;apos;good&amp;apos;&amp;apos; and &amp;apos;&amp;apos;evil&amp;apos;&amp;apos;) that would change depending on which other characters you helped.  Thus, the more you helped good characters, the more other good characters would help you.
+
+Within the game world, characters would move about and interact independently without any action required from you. If you do nothing, the game will &amp;apos;play&amp;apos; itself, with the characters moving about whilst you decide what to do.
+
+Typing in a swear word would generate the message &amp;quot;Mary is not amused...&amp;quot; and a dwarf&amp;lt;ref&amp;gt;ftp://ftp.worldofspectrum.org/pub/sinclair/games-info/v/Valhalla.txt — the list of characters and their types is quite a long way down&amp;lt;/ref&amp;gt; would dash onto the screen to punch the player. Mary could be found in El Vinos but killing her achieved little as she would return within a minute.
+
+The game engine had a limit of eight objects that could be left in any one location, whether on the ground, in a chest, or in a cupboard. If the player dropped an object when the limit had been reached, a character called Klepto appeared to &amp;quot;Steal&amp;quot; the item, removing it from the game.
+
+==Cultural references==
+The cover of the game as well as the [[loading screen]] featured a drawing of a ceremonial [[helmet]] from the 7th century found in an [[Anglo-Saxons|Anglo-Saxon]] burial site at [[Sutton Hoo]], [[Suffolk]], [[United Kingdom|UK]].
+
+The second quest object (a ring) was called &amp;apos;Drapnir&amp;apos;,  a reference to [[Odin]]&amp;apos;s ring [[Draupnir]].
+
+==External links==
+*[http://www.sincuser.f9.co.uk/023/mindgms.htm Review from &amp;apos;&amp;apos;Sinclair User&amp;apos;&amp;apos; issue 23], February 1984; at Sinclair User Magazine Online
+*{{WoS game|id=0007152|name=Valhalla}}
+
+==Notes==
+{{reflist}}
+
+[[Category:Adventure games]]
+[[Category:Interactive fiction]]
+[[Category:Commodore 64 games]]
+[[Category:ZX Spectrum games]]
+[[Category:1983 video games]]
+[[Category:Norse mythology in popular culture]]
+[[Category:Mythology-based video games]]
+[[Category:Legend games]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

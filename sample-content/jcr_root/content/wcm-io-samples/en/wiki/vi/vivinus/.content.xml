@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Vivinus"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Vivinus" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+[[Image:Vivinus.JPG|thumb|Vivinus 1900]]
+&amp;apos;&amp;apos;&amp;apos;Vivinus&amp;apos;&amp;apos;&amp;apos; [[Automobile|car]]s were made by Ateliers Vivinus S.A. of [[Schaerbeek]], [[Brussels]] (1899 - 1912).
+
+The owner, Alexis Vivinus (1860-1929), had made bicycles in the 1890s and become an importer of [[Benz &amp;amp; Cie.|Benz]]. From 1895 he started to make his own range of cars. These were belt-driven [[voiturette]] models with a 785 cc single-cylinder engine and 2-speed transmission by belt drive. Licences to make his designs were sold to firms such as [[New Orleans (automobile)|New Orleans]] of [[England]], [[Georges Richard]] of France and [[De Dietrich]] in [[Germany]].
+
+From 1907 a range of more conventional 4-cylinder cars were made with shaft drive along with motorcycles and aero engines.
+
+The company went into liquidation in 1912. The workshop was taken over by [[Fabrique Automobile Belge]]. Vivinus himself later joined [[Minerva (automobile)|Minerva]].
+
+[[Category:Defunct motor vehicle manufacturers of Belgium]]
+[[Category:Car manufacturers of Belgium]]
+[[Category:Vintage vehicles]]
+[[Category:Belgian brands]]
+[[Category:Companies established in 1899]]
+[[Category:Schaerbeek]]
+
+{{Veteran-auto-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

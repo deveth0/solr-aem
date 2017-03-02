@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Chewco"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Chewco" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Chewco Investments L. P.,&amp;apos;&amp;apos;&amp;apos; was a [[limited partnership]]  associated with the [[Enron scandal]], which resulted in the bankruptcy of [[Enron]]. It was named after the [[Star Wars]] character [[Chewbacca]], because it was created to hide losses from the Joint Energy Development Investment Limited, known by its acronym &amp;quot;JEDI&amp;quot;. Like Chewbacca, the [[Jedi|Jedi Knights]] were prominent characters in Star Wars.
+
+Enron created Chewco as a limited partnership which would help keep the JEDI project off its books. It wanted to buy out the [[CalPERS|California Public Employees’ Retirement System]]’s interest in JEDI, but it did not want to be forced, by accepted accounting principles, to [[Consolidation (business)|consolidate]] JEDI in the Enron financial statements and thus reflect debt and/or financial losses. Enron wanted to keep JEDI afloat, but it needed a partner to take at least a 3% stake, or the partnership&amp;apos;s results would have to be included in Enron&amp;apos;s financial statements. Chewco was created to be that partner.
+
+The Chewco structure did not meet the [[Special purpose entity|SPE]] consolidation rules. The three basic rules for [[nonconsolidation]] of an SPE require that the independent equity investor—
+
+* continuously invest at least 3% of the SPE’s assets;
+* exercise control of and assume risks of the SPE; and
+* like all other transactions, provide real (potential) economic benefits to Enron.
+
+Chewco appeared to meet these tests, because it was financed by an unsecured loan from [[Barclay&amp;apos;s Bank]]; in reality, however, the loan had been guaranteed by Enron stock held by Enron itself. Additionally, as investors became more wary of Chewco, Michael Kopper, an Enron employee who reported to CFO [[Andrew Fastow]], took over the titular management role and was used to hide actual ownership. With Enron thus assuming practical control over Chewco, the structure did not meet an additional requirement for a non-consolidated SPE. More prosaically, this was one of many ways in which Enron &amp;quot;cooked the books&amp;quot;, failing to disclose corporate debt that SEC regulations require to be disclosed.
+
+Over the course of three years, Kopper received between $1.5 and $2 million in management fees from Chewco, some of which was kicked back to Fastow in the form of checks written to members of his family. According to the Powers Report (the report of the investigative committee chaired by William Powers, Jr) Kopper did little actual work, aside from time spent manipulating the books. Chewco itself did little actual work other than moving funds from one account to another, and that was done with minor expenditure of labor by lower-level employees.
+
+After all was said and done, Enron used Chewco to report roughly $400 million in profits which did not exist, while concealing $600 million in debt. Enron&amp;apos;s requirement to restate its earnings to remove this fake $400 million profit was a primary catalyst of Enron&amp;apos;s downfall.
+
+==External links==
+*http://www.pbs.org/newshour/bb/business/enron/player9.html
+
+[[Category:Enron]]
+
+{{US-energy-company-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

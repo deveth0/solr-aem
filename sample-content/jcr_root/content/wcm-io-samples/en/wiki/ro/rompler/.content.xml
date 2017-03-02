@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Rompler"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Rompler" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2008}}
+
+A &amp;apos;&amp;apos;&amp;apos;rompler&amp;apos;&amp;apos;&amp;apos; is an [[electronic musical instruments|electronic music instrument]] that plays [[Sampling (music)|audio sample]]s stored in [[Read-only memory|ROM]] chips to generate sound. In contrast to [[sampler (musical instrument)|samplers]], romplers do not record audio and have limited or no capability for generating original [[waveforms]]. The term &amp;apos;&amp;apos;rompler&amp;apos;&amp;apos; is a [[portmanteau]] of the terms &amp;apos;&amp;apos;ROM&amp;apos;&amp;apos; and &amp;apos;&amp;apos;sampler&amp;apos;&amp;apos;. Both may have additional sound editing features, such as layering several waveforms and modulation with [[ADSR envelope]]s and [[Low frequency oscillation|LFO]]s.
+
+Romplers are often packaged as [[music hardware]] [[sound module]]s, such as the [[E-mu Proteus]] line of products and the [[Roland U-20]]. Almost all [[digital piano]]s and many [[electronic keyboard]]s (such as [[Yamaha Corporation|Yamaha]] PSR-290) are romplers. The term &amp;apos;&amp;apos;rompler&amp;apos;&amp;apos; may also describe [[music software|software instrument]]s such as [[Virtual Studio Technology|VSTi]]s). These do not have the ability to record new samples; instead, samples are replayed from computer [[Random-access memory|RAM]] after they are loaded from [[hard disk|disk]]. Popular &amp;lt;ref&amp;gt;http://www.musicradar.com/tuition/tech/the-20-best-vst-plug-in-synths-in-the-world-today-262145/1&amp;lt;/ref&amp;gt; examples of software romplers are [[reFX]] Nexus and [[Spectrasonics]] Omnisphere. In this context, a software instrument can only be considered a rompler if it restricts the user to certain bundled sounds, without allowing them to load their own samples.
+
+==References==
+&amp;lt;references /&amp;gt;
+
+
+[[Category:Electronic musical instruments]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

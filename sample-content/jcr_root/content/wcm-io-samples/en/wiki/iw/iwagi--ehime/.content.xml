@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Iwagi, Ehime"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Iwagi, Ehime" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{nihongo|&amp;apos;&amp;apos;&amp;apos;Iwagi&amp;apos;&amp;apos;&amp;apos;|岩城村|Iwagi-mura}} was a [[villages of Japan|village]] located in [[Ochi District, Ehime|Ochi District]], [[Ehime Prefecture|Ehime]], [[Japan]].
+
+On October 1, 2004 Iwagi was merged with the town of [[Yuge, Ehime|Yuge]], and the villages of [[Ikina, Ehime|Ikina]] and [[Uoshima, Ehime|Uoshima]], all from [[Ochi District, Ehime|Ochi District]], to form the new town of [[Kamijima, Ehime|Kamijima]] and no longer exists as an independent [[municipality of Japan|municipality]], although it remains the unofficial name for the island proper, as the rest of the merged municipalities are on other islands.
+
+As of 2003, the village had an estimated [[population]] of 2,214 and a [[population density|density]] of 192.35 persons per km². The total area was 11.51 km².
+
+==External links==
+*[http://www.town.kamijima.ehime.jp/ Official website of Kamijima] in Japanese
+
+[[Category:Dissolved municipalities of Ehime Prefecture]]
+
+
+{{Ehime-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

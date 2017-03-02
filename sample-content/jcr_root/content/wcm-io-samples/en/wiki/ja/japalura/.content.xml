@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Japalura"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Japalura" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Taxobox
+| image = Japalura polygonata.jpg
+| image_caption = &amp;apos;&amp;apos;[[Japalura polygonata]]&amp;apos;&amp;apos;
+| regnum = [[Animal]]ia
+| phylum = [[Chordate|Chordata]]
+| classis = [[Reptile|Reptilia]]
+| ordo = [[Squamata]]
+| familia = [[Agamidae]]
+| subfamilia = [[Agaminae]]
+| genus = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Japalura&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+| genus_authority = Gray, 1853
+}}
+[[File:A lizard in Taiwan 2.JPG|thumb|&amp;apos;&amp;apos;[[Japalura swinhonis]]&amp;apos;&amp;apos;]]
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Japalura&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is a genus of [[lizard]]s in the family [[Agamidae]]. They are native to [[Pakistan]], [[India]], [[Myanmar]], [[China]], [[Vietnam]], [[Taiwan]], and [[Japan]]. China has the most species,&amp;lt;ref name=kunte&amp;gt;Kunte, K. and U. Manthey. (2009). [http://biodiversitylab.org/index/images/website/KunteMantheyJapalura09.pdf Rediscovery of &amp;apos;&amp;apos;Japalura sagittifera&amp;apos;&amp;apos; (Sauria:Agamidae) from the eastern Himalayas, Arunachal Pradesh: An addition to the Indian herpetofauna.] &amp;apos;&amp;apos;Sauria&amp;apos;&amp;apos; 31(2) 49-55.&amp;lt;/ref&amp;gt; including many [[endemism|endemics]].&amp;lt;ref name=mah&amp;gt;Mahony, S. (2009). [http://www.mapress.com/zootaxa/2009/f/z02212p061f.pdf A new species of &amp;apos;&amp;apos;Japalura&amp;apos;&amp;apos; (Reptilia:Agamidae) from northeast India with a discussion of the similar species &amp;apos;&amp;apos;Japalura sagittifera&amp;apos;&amp;apos; Smith, 1940 and &amp;apos;&amp;apos;Japalura planidorsata&amp;apos;&amp;apos; Jerdon, 1870.] &amp;apos;&amp;apos;Zootaxa&amp;apos;&amp;apos; 2212 41-61.&amp;lt;/ref&amp;gt;
+
+There are about 26 species.&amp;lt;ref name=kunte/&amp;gt;&amp;lt;ref name=mah/&amp;gt;
+
+Species include:
+*&amp;apos;&amp;apos;[[Japalura andersoniana]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Japalura brevicauda]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Japalura brevipes]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Japalura chapaensis]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Japalura dymondi]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Japalura fasciata]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Japalura flaviceps]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Japalura grahami]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Japalura hamptoni]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Japalura kaulbacki]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Japalura kumaonensis]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Japalura luei]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Japalura major]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Japalura makii]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Japalura micangshanensis]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Japalura otai]]&amp;apos;&amp;apos;&amp;lt;ref name=mah/&amp;gt;
+*&amp;apos;&amp;apos;[[Japalura planidorsata]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Japalura polygonata]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Japalura sagittifera]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Japalura splendida]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Japalura swinhonis]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Japalura tricarinata]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Japalura varcoae]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Japalura variegata]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Japalura yulongensis]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Japalura yunnanensis]]&amp;apos;&amp;apos;
+==References==
+{{reflist}}
+[[Category:Agamidae]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

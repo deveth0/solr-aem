@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Kanada, Fukuoka"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Kanada, Fukuoka" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{nihongo|&amp;apos;&amp;apos;&amp;apos;Kanada&amp;apos;&amp;apos;&amp;apos;|金田町|Kanada-machi}} was a [[towns of Japan|town]] located in [[Tagawa District, Fukuoka|Tagawa District]], [[Fukuoka Prefecture|Fukuoka]], [[Japan]].
+
+On March 6, 2006 Kanada was merged with the towns of [[Akaike, Fukuoka|Akaike]] and [[Hōjō, Fukuoka|Hōjō]], both from [[Tagawa District, Fukuoka|Tagawa District]], to form the new town of [[Fukuchi, Fukuoka|Fukuchi]].
+
+As of 2003, the town had an estimated [[population]] of 8,285 and a [[population density|density]] of 1,110.59 persons per km². The total area was 7.46 km².
+
+==External links==
+* [http://www.town.fukuchi.lg.jp/index.php/ Fukuchi official website] {{ja icon}}
+
+[[Category:Dissolved municipalities of Fukuoka Prefecture]]
+[[Category:Populated places disestablished in 2006]]
+
+{{Fukuoka-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Dirichlet boundary condition"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Dirichlet boundary condition" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[mathematics]], the &amp;apos;&amp;apos;&amp;apos;Dirichlet&amp;apos;&amp;apos;&amp;apos; (or &amp;apos;&amp;apos;&amp;apos;first-type&amp;apos;&amp;apos;&amp;apos;) &amp;apos;&amp;apos;&amp;apos;boundary condition&amp;apos;&amp;apos;&amp;apos; is a type of [[boundary condition]], named after [[Peter Gustav Lejeune Dirichlet]] (1805–1859).&amp;lt;ref&amp;gt;Cheng, A. and D. T. Cheng (2005). Heritage and early history of the boundary element method, &amp;apos;&amp;apos;Engineering Analysis with Boundary Elements&amp;apos;&amp;apos;, &amp;apos;&amp;apos;&amp;apos;29&amp;apos;&amp;apos;&amp;apos;, 268–302.&amp;lt;/ref&amp;gt; When imposed on an [[ordinary differential equation|ordinary]] or a [[partial differential equation]], it specifies the values a solution needs to take on the [[boundary (topology)|boundary]] of the domain. The question of finding solutions to such equations is known as the [[Dirichlet problem]]. In engineering applications, a Dirichlet boundary condition may also be referred to as a &amp;apos;&amp;apos;&amp;apos;fixed boundary condition&amp;apos;&amp;apos;&amp;apos;; for example, the following would be considered Dirichlet boundary conditions:
+* In [[Euler–Bernoulli beam theory#Boundary considerations|held fixed in space]], where an end of a beam is held at a fixed position in space.
+* In [[thermodynamics]], where a surface is held at a fixed temperature.
+* In [[electrostatics]], where a node of a circuit is held at a fixed voltage.
+* In [[fluid dynamics]], the [[no-slip condition]] for viscous fluids states that at a solid boundary, the fluid will have zero velocity relative to the boundary.
+
+For an ordinary differential equation, for instance:
+
+:&amp;lt;math&amp;gt;y&amp;apos;&amp;apos; + y = 0~&amp;lt;/math&amp;gt;
+
+the Dirichlet boundary conditions on the interval &amp;lt;math&amp;gt;[a, \, b]&amp;lt;/math&amp;gt; take the form:
+
+:&amp;lt;math&amp;gt;y(a)= \alpha \ \text{and} \ y(b) = \beta&amp;lt;/math&amp;gt;
+
+where &amp;lt;math&amp;gt;\alpha&amp;lt;/math&amp;gt; and &amp;lt;math&amp;gt;\beta&amp;lt;/math&amp;gt; are given numbers.
+
+* For a partial differential equation, for instance:
+
+:&amp;lt;math&amp;gt;\nabla^2 y + y = 0&amp;lt;/math&amp;gt;
+
+where &amp;lt;math&amp;gt;\nabla^2&amp;lt;/math&amp;gt; denotes the [[Laplace operator|Laplacian]], the Dirichlet boundary conditions on a domain &amp;lt;math&amp;gt;\Omega \subset \mathbb{R}^n&amp;lt;/math&amp;gt; take the form:
+
+:&amp;lt;math&amp;gt;y(x) = f(x) \quad \forall x \in \partial\Omega&amp;lt;/math&amp;gt;
+
+where &amp;apos;&amp;apos;f&amp;apos;&amp;apos; is a known [[function (mathematics)|function]] defined on the boundary &amp;lt;math&amp;gt;\partial\Omega&amp;lt;/math&amp;gt;.
+
+Many other boundary conditions are possible. For example, there is the [[Cauchy boundary condition]], or the [[mixed boundary condition]] which is a combination of the Dirichlet and [[Neumann boundary condition|Neumann]] conditions.
+
+==See also==
+*[[Neumann boundary condition]]
+*[[Mixed boundary condition]]
+*[[Robin boundary condition]]
+*[[Cauchy boundary condition]]
+
+==References==
+&amp;lt;references /&amp;gt;
+
+{{DEFAULTSORT:Dirichlet Boundary Condition}}
+[[Category:Boundary conditions]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

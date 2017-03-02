@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ed McTaggart"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ed McTaggart" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{BLP sources|date=May 2010}}
+&amp;apos;&amp;apos;&amp;apos;Ed McTaggart&amp;apos;&amp;apos;&amp;apos; (born July 10, 1951) is an American [[drummer]] and [[artist]]. He is best known as the drummer of the rock band [[Daniel Amos]].&amp;lt;ref&amp;gt;{{cite web|url={{Allmusic|class=artist|id=p51672/biography|pure_url=yes}}|title=Biography: Daniel Amos (DA)|last=Allender|first=Mark W. B.|publisher=[[All Media Guide|AMG]]|accessdate=8 May 2010}}&amp;lt;/ref&amp;gt;
+
+McTaggart joined DA in 1976, after years of playing with [[Bill Sprouse Jr.]]&amp;apos;s band The Road Home.&amp;lt;ref name=&amp;quot;EofCCM&amp;quot;&amp;gt;{{cite book |last=Powell  |first= Mark Allan |title=Encyclopedia of Contemporary Christian Music |publisher=Hendrickson Publishers |year=2002 |location=Peabody, Massachusetts |page=769 |isbn=1-56563-679-1}}&amp;lt;/ref&amp;gt;
+
+In the 1980s, McTaggart became the V.P. of Creative Services for [[Frontline Records (1980s)|Frontline Records]].&amp;lt;ref name=&amp;quot;EofCCM&amp;quot;&amp;gt;{{cite book |last=Powell  |first= Mark Allan |title=Encyclopedia of Contemporary Christian Music |publisher=Hendrickson Publishers |year=2002 |location=Peabody, Massachusetts |page=232 |isbn=1-56563-679-1}}&amp;lt;/ref&amp;gt;
+
+==References==
+{{Reflist}}
+{{Daniel Amos}}
+
+{{Persondata
+| NAME              = McTaggart, Ed
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION =
+| DATE OF BIRTH     = July 10, 1951
+| PLACE OF BIRTH    =
+| DATE OF DEATH     =
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:McTaggart, Ed}}
+[[Category:1951 births]]
+[[Category:Living people]]
+[[Category:American rock drummers]]
+[[Category:American musicians]]
+[[Category:American photographers]]
+[[Category:American artists]]
+
+
+{{US-rock-drummer-stub}}
+{{US-photographer-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

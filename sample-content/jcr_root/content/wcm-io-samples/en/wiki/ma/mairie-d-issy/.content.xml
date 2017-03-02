@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Mairie d&#x27;Issy"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Mairie d&#x27;Issy" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{unreferenced|date=July 2008}}
+{{Infobox Paris metro
+|Name=Mairie d&amp;apos;Issy
+|Pic=[[File:Paris metro - Mairie d&amp;apos;Issy - 1.JPG|275px]]
+|Day=24 March
+|Year=1934
+|Access=
+|Municipality=Issy-les-Moulineaux
+|Zone=2
+|Next=
+{{Paris Metro/next special|12|Terminus|[[Corentin Celton (Paris Metro)|Corentin Celton]]
+}}
+| X=57
+| Y=139
+}}
+&amp;apos;&amp;apos;&amp;apos;Mairie d&amp;apos;Issy&amp;apos;&amp;apos;&amp;apos; is a [[metro station|station]] on [[Paris Métro Line 12|line 12]] of the [[Paris Métro]] in the [[French communes|commune]] of [[Issy-les-Moulineaux]]. It is near Issy-les-Moulineaux town hall and the shops located in &amp;apos;&amp;apos;Avenue Victor Cresson&amp;apos;&amp;apos; and &amp;apos;&amp;apos;Avenue de la République&amp;apos;&amp;apos;.
+
+The station opened on 24 March 1934 as part of extension of the line from [[Porte de Versailles (Paris Métro)|Porte de Versailles]].
+
+==Gallery==
+&amp;lt;gallery widths=&amp;quot;200px&amp;quot; heights=&amp;quot;125px&amp;quot; perrow=&amp;quot;2&amp;quot;&amp;gt;
+File:Metro - Paris - Ligne 12 - Mairie d Issy.jpg|[[Paris Métro Line 12|Line 12]] platforms at Mairie d&amp;apos;Issy
+File:Paris metro - Mairie d&amp;apos;Issy - 2.JPG|[[MF 67]] rolling stock on Line 12 at Mairie d&amp;apos;Issy
+&amp;lt;/gallery&amp;gt;
+
+{{commons category|Mairie d&amp;apos;Issy (Paris Metro)}}
+
+==References==
+*Roland, Gérard (2003). &amp;apos;&amp;apos;Stations de métro. D’Abbesses à Wagram.&amp;apos;&amp;apos; Éditions Bonneton.
+
+{{Paris Metro/line 12}}
+
+{{coord|48.824152|N|2.273434|E|region:FR_type:landmark_scale:2000_source:frwiki|display=title|format=dms}}
+
+[[Category:Railway stations opened in 1934]]
+
+{{Paris-metro-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

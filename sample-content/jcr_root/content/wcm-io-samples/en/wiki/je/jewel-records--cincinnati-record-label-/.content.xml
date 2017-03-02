@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Jewel Records (Cincinnati record label)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Jewel Records (Cincinnati record label)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Jewel Records&amp;apos;&amp;apos;&amp;apos; was a [[record label]] which discs were pressed by the [[Scranton Button Company]]{{Citation needed|date=March 2009}}. Jewel is one of the big three record companies out of [[Cincinnati, Ohio]]. The two most famous, [[King Records (USA)|King Records]] and [[Fraternity Records]], were responsible for several hits over the years from a wide range of genres. Two prominent figures who recorded for Jewel were [[Lonnie Mack]], who did two singles for the label in [[1970 in music|1970]], and [[Albert Washington]].
+
+== See also ==
+* [http://forbiddeneye.com/labels/jewel.html Jewel Records Discography]
+* [[List of record labels]]
+
+[[Category:Defunct record labels of the United States]]
+[[Category:Pop record labels]]
+
+
+{{US-record-label-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

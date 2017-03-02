@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ilha das Flores"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ilha das Flores" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{About|the Brazilian county|the 1989 short film|Isle of Flowers}}
+{{Coord|10|26|09|S|36|32|24|W|scale:30000|display=title}}
+&amp;apos;&amp;apos;&amp;apos;Ilha das Flores&amp;apos;&amp;apos;&amp;apos; is a municipality/county in the state of [[Sergipe]](SE) in [[Brazil]]. Its population was 9,005 (2005) and its area is 53&amp;amp;nbsp;km².&amp;lt;ref&amp;gt;[[Brazilian Institute of Geography and Statistics|IBGE]] - [http://www.ibge.gov.br/cidadesat/default.php]&amp;lt;/ref&amp;gt; The elevation is 3 m.&amp;apos;&amp;apos;&amp;apos;Ilha das Flores&amp;apos;&amp;apos;&amp;apos; is also a Brazilian movie from December  1988, by Jorge Furtado.
+
+==References==
+{{Reflist}}
+
+[[Category:Populated places in Sergipe]]
+
+
+{{Sergipe-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

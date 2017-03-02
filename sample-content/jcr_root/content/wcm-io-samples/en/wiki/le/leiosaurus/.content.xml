@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Leiosaurus"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Leiosaurus" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+{{Italictitle}}{{Taxobox
+| name = Leiosaurus
+| regnum = [[Animal]]ia
+| phylum = [[Chordate|Chordata]]
+| classis = [[reptile|Sauropsida]]
+| ordo = [[Squamata]]
+| familia = [[Leiosauridae]]
+| genus = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Leiosaurus&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+| genus_authority = [[André Marie Constant Duméril|Duméril]] and [[Bibron]], 1837
+}}
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Leiosaurus&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is a genus of lizards. It cantains the following species:
+*&amp;apos;&amp;apos;[[Leiosaurus bellii]]      &amp;lt;small&amp;gt;[[André Marie Constant Duméril|Duméril]] and [[Bibron]], 1837&amp;lt;/small&amp;gt;
+*&amp;apos;&amp;apos;[[Leiosaurus catamarcensis]]    &amp;lt;small&amp;gt;[[Koslowsky]], 1898&amp;lt;/small&amp;gt;
+*&amp;apos;&amp;apos;[[Leiosaurus jaguaris]]   &amp;lt;small&amp;gt;[[Laspiur]], [[Acosta (genus authority)|Acosta]], and [[Abdala]], 2007&amp;lt;/small&amp;gt;
+*&amp;apos;&amp;apos;[[Leiosaurus paronae]] &amp;lt;small&amp;gt;[[Peracca]], 1897&amp;lt;/small&amp;gt;
+
+[[Category:Leiosaurids]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

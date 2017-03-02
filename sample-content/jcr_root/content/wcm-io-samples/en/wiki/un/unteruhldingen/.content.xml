@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Unteruhldingen"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Unteruhldingen" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Image:Pfahlbauten Unteruhldingen 2005 05.jpg|250px|thumb|Reconstructed pile dwellings in Unteruhldingen.]]
+&amp;apos;&amp;apos;&amp;apos;Unteruhldingen&amp;apos;&amp;apos;&amp;apos; is a small village, part of the town of [[Uhldingen-Mühlhofen]], on the northwestern shore of [[Lake Constance]], [[Germany]].
+It is home to the [[Pfahlbau Museum Unteruhldingen|Pfahlbauten]], an [[open air museum]] displaying reconstructions of [[Neolithic]] and [[Bronze Age]] [[pile dwellings]]. The buildings are idealized reconstructions from between the 1922 and 1941, which were designed based on archeological digs of the [[Wasserburg Buchau]] at [[Federsee]]. After 1945 the museum was led by the controversial but knowledgeable archeologist [[Hans Reinerth]], one of the leading [[Nazi archaeologist]]s of [[Amt Rosenberg]]. This museum has been expanded since to incorporate modern research.
+
+==External links==
+*[http://www.pfahlbauten.com/ The reconstructed pile dwellings and museum at Unteruhldingen]
+
+{{coord|47|43|N|9|14|E|region:DE_type:city|display=title}}
+
+[[Category:Populated places on Lake Constance]]
+[[Category:Towns in Baden-Württemberg]]
+
+
+{{Bodensee-geo-stub}}
+
+[[fr:Unteruhldingen]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

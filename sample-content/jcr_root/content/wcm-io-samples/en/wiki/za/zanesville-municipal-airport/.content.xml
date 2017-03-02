@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Zanesville Municipal Airport"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Zanesville Municipal Airport" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox airport
+| name         = Zanesville Municipal Airport
+| image        =
+| IATA         = ZZV
+| ICAO         = KZZV
+| FAA          = ZZV
+| type         = Public
+| owner        = City of Zanesville
+| operator     =
+| city-served  = [[Zanesville, Ohio]]
+| location     = &amp;lt;!--if different than above--&amp;gt;
+| elevation-f  = 900
+| website      =
+| latd  =  39 | latm  = 56 | lats  = 40 | latNS  = N
+| longd = 081 | longm = 53 | longs = 32 | longEW = W
+| coordinates_region     = US-OH
+| pushpin_map            = USA Ohio
+| pushpin_map_caption    = Location of airport in Ohio
+| pushpin_label          = &amp;apos;&amp;apos;&amp;apos;ZZV&amp;apos;&amp;apos;&amp;apos;
+| r1-number    = 4/22
+| r1-length-f  = 5,000
+| r1-surface   = Asphalt/Concrete
+| r2-number    = 16/34
+| r2-length-f  = 4,999
+| r2-surface   = Asphalt/Concrete
+| stat-year    = 2011
+| stat1-header = Aircraft operations
+| stat1-data   = 33,312
+| stat2-header = Based aircraft
+| stat2-data   = 18
+| footnotes    = Source: [[Federal Aviation Administration]]&amp;lt;ref name=&amp;quot;FAA&amp;quot;&amp;gt;{{FAA-airport|ID=ZZV|use=PU|own=PU|site=18761.*A}}. Federal Aviation Administration. Effective November 15, 2012.&amp;lt;/ref&amp;gt;
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Zanesville Municipal Airport&amp;apos;&amp;apos;&amp;apos; {{airport codes|ZZV&amp;lt;ref&amp;gt;{{cite web | url = http://www.iata.org/publications/Pages/code-search.aspx | title = IATA Airport Code Search (ZZV: Zanesville) | publisher = [[International Air Transport Association]] | accessdate = December 17, 2012}}&amp;lt;/ref&amp;gt;|KZZV|ZZV}} is a city owned, public use [[airport]] located five&amp;amp;nbsp;[[nautical mile]]s (6&amp;amp;nbsp;[[mile|mi]], 9&amp;amp;nbsp;[[kilometre|km]]) east of the [[central business district]] of [[Zanesville, Ohio|Zanesville]], a city in [[Muskingum County, Ohio]], United States.&amp;lt;ref name=&amp;quot;FAA&amp;quot; /&amp;gt; It is included in the [[National Plan of Integrated Airport Systems]] for 2011–2015, which [[FAA airport categories|categorized]] it as a &amp;apos;&amp;apos;[[general aviation]]&amp;apos;&amp;apos; facility.&amp;lt;ref&amp;gt;
+ {{cite web
+ | url = http://www.faa.gov/airports/planning_capacity/npias/reports/media/2011/npias_2011_appA.pdf
+ | title = 2011–2015 NPIAS Report, Appendix A | format = [[PDF]], 2.03 MB
+ | work = [http://www.faa.gov/airports/planning_capacity/npias/reports/index.cfm?sect=2011 National Plan of Integrated Airport Systems]
+ | publisher = Federal Aviation Administration | date = October 4, 2010
+ }}
+&amp;lt;/ref&amp;gt;
+
+== Facilities and aircraft ==
+Zanesville Municipal Airport covers an area of 534 [[acre]]s (216 [[hectare|ha]]) at an [[elevation]] of 900 feet (274 m) above [[mean sea level]]. It has two [[runway]]s with [[asphalt]] and [[concrete]] surfaces: 4/22 is 5,000 by 150 feet (1,524 x 46 m) and 16/34 is 4,999 by 150 feet (1,524 x 46 m).&amp;lt;ref name=&amp;quot;FAA&amp;quot; /&amp;gt;
+
+For the 12-month period ending May 24, 2011, the airport had 33,312 aircraft operations, an average of 91 per day: 96% [[general aviation]], 3% [[air taxi]], and 1% [[military aviation|military]]. At that time there were 18 aircraft based at this airport: 56% single-[[aircraft engine|engine]], 33% multi-engine, and 11.1% [[jet aircraft|jet]].&amp;lt;ref name=&amp;quot;FAA&amp;quot; /&amp;gt;
+
+== References ==
+&amp;lt;references /&amp;gt;
+
+== External links ==
+* [http://www.zanesvilleaviation.com/fbo.html Aanesville Aviation], the [[fixed base operator]] (FBO)
+* [http://msrmaps.com/map.aspx?t=1&amp;amp;s=11&amp;amp;lat=39.9449&amp;amp;lon=-81.8921&amp;amp;w=700&amp;amp;h=850&amp;amp;lp=---+None+--- Aerial image as of April 1994] from [[USGS]] &amp;apos;&amp;apos;[[The National Map]]&amp;apos;&amp;apos;
+* {{FAA-procedures|ZZV}}
+* {{US-airport-ga|ZZV}}
+
+[[Category:Airports in Ohio]]
+[[Category:Buildings and structures in Zanesville, Ohio]]
+[[Category:Transportation in Muskingum County, Ohio]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

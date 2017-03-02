@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Zachariah (son of Talhah)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Zachariah (son of Talhah)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{notability|bio|date=March 2012}}
+{{Islam}}
+&amp;apos;&amp;apos;&amp;apos;Zachariah, son of Talhah&amp;apos;&amp;apos;&amp;apos; ({{lang-ar|&amp;apos;&amp;apos;&amp;apos;زكريا بن طلحة&amp;apos;&amp;apos;&amp;apos;, &amp;apos;&amp;apos;Zakariya ibn Talhah&amp;apos;&amp;apos;}}) was, according to a Sunni source, the son of the prominent Muslim general [[Talha ibn Ubayd-Allah]] and [[Umm Kulthum bint Abi Bakr]]. Umm Kulthum was the daughter of the first Sunni Caliph, [[Abu Bakr]]&amp;lt;ref name=&amp;quot;islam4theworld&amp;quot;&amp;gt;[http://www.islam4theworld.com/Sahabah/talhah_bn_ubaydullah_R.htm www.islam4theworld.com&amp;lt;!-- Bot generated title --&amp;gt;]&amp;lt;/ref&amp;gt;
+
+==References==
+&amp;lt;References/&amp;gt;
+
+[[Category:Tabi‘un]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

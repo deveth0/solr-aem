@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="The History of Middle-earth"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="The History of Middle-earth" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Use British (Oxford) English|date=December 2010}}
+{{Use dmy dates|date=December 2010}}
+{{HoME navbox}}
+
+&amp;apos;&amp;apos;&amp;apos;The History of Middle-earth&amp;apos;&amp;apos;&amp;apos; is a 12-volume series of books published between 1983 and 1996 that collect and analyse material relating to the fiction of [[J. R. R. Tolkien]], compiled and edited by his son, [[Christopher Tolkien]]. The series shows the development over time of Tolkien&amp;apos;s conception of [[Middle-Earth]] as a fictional place with its own peoples, languages, and history, from his earliest notions of a &amp;quot;mythology for England&amp;quot; through to the development of the stories that make up &amp;apos;&amp;apos;[[The Silmarillion]]&amp;apos;&amp;apos; and &amp;apos;&amp;apos;[[The Lord of the Rings]]&amp;apos;&amp;apos;. It is not a &amp;quot;history of Middle-Earth&amp;quot; in the sense of being a chronicle of events in Middle-Earth written from an in-universe perspective. In 2000–01, the twelve volumes were republished in three limited edition omnibus volumes. Non-deluxe editions of the three volumes were published in 2002.&amp;lt;ref&amp;gt;http://www.tolkienbooks.net/php/gallery.php?subsection=81&amp;lt;/ref&amp;gt;
+
+==Contents==
+Some of the content consists of earlier versions of already published works, while other portions are new material. These books are extremely detailed, often analysing a scrap of paper to provide the full evolution of two or even three different versions of a passage that were rewritten over each other. Despite the great amount of material in the twelve volumes, numerous unpublished texts are still known to exist&amp;lt;ref&amp;gt;{{Citation|title=My father&amp;apos;s &amp;quot;eviscerated&amp;quot; work -- son of Hobbit scribe J.R.R. Tolkien finally speaks out|last=Rérolle|first=Raphaëlle|publisher=Le Monde|url=http://www.worldcrunch.com/culture-society/my-father-039-s-quot-eviscerated-quot-work-son-of-hobbit-scribe-j.r.r.-tolkien-finally-speaks-out/hobbit-silmarillion-lord-of-rings/c3s10299/#.UOqfDHIrnqW}}&amp;lt;/ref&amp;gt; in the [[Bodleian Library|Bodleian]] and [[Marquette University]] libraries and in other papers held by individuals or organizations, such as the [[Elvish Linguistic Fellowship]].
+
+The first five books track the early history of &amp;apos;&amp;apos;[[The Silmarillion]]&amp;apos;&amp;apos; and related texts.  Books six to nine discuss the development of &amp;apos;&amp;apos;[[The Lord of the Rings]]&amp;apos;&amp;apos;; book nine also discusses the [[Númenor]] story in the form of [[The Notion Club Papers]]. Books ten and eleven return to &amp;apos;&amp;apos;The Silmarillion&amp;apos;&amp;apos; material, including the &amp;apos;&amp;apos;Annals of [[Beleriand]]&amp;apos;&amp;apos; and &amp;apos;&amp;apos;[[Annals of Aman]]&amp;apos;&amp;apos;. Book twelve discusses the development of the Appendices to &amp;apos;&amp;apos;[[The Lord of the Rings]]&amp;apos;&amp;apos; and assorted writings from the last years of Tolkien&amp;apos;s life.
+
+==Volumes==
+# &amp;apos;&amp;apos;[[The Book of Lost Tales 1]]&amp;apos;&amp;apos; (1983)
+# &amp;apos;&amp;apos;[[The Book of Lost Tales 2]]&amp;apos;&amp;apos; (1984)
+# &amp;apos;&amp;apos;[[The Lays of Beleriand]]&amp;apos;&amp;apos; (1985)
+# &amp;apos;&amp;apos;[[The Shaping of Middle-earth]]&amp;apos;&amp;apos; (1986)
+# &amp;apos;&amp;apos;[[The Lost Road and Other Writings]]&amp;apos;&amp;apos; (1987)
+# &amp;apos;&amp;apos;[[The Return of the Shadow]]&amp;apos;&amp;apos; ([[The History of The Lord of the Rings]] v.1) (1988)
+# &amp;apos;&amp;apos;[[The Treason of Isengard]]&amp;apos;&amp;apos; (The History of The Lord of the Rings v.2) (1989)
+# &amp;apos;&amp;apos;[[The War of the Ring]]&amp;apos;&amp;apos; (The History of The Lord of the Rings v.3) (1990)
+# &amp;apos;&amp;apos;[[Sauron Defeated]]&amp;apos;&amp;apos; (includes The History of The Lord of the Rings v.4) (1992)
+# &amp;apos;&amp;apos;[[Morgoth&amp;apos;s Ring]]&amp;apos;&amp;apos; (The Later [[The Silmarillion|Silmarillion]] v.1) (1993)
+# &amp;apos;&amp;apos;[[The War of the Jewels]]&amp;apos;&amp;apos; (The Later Silmarillion v.2) (1994)
+# &amp;apos;&amp;apos;[[The Peoples of Middle-earth]]&amp;apos;&amp;apos; (1996)
+
+A combined index was published six years after the series was completed as &amp;apos;&amp;apos;[[The History of Middle-earth: Index]]&amp;apos;&amp;apos; (2002).
+
+A shorter version of volume 9 omitting material not related to The Lord of the Rings was published as &amp;apos;&amp;apos;The End of the Third Age&amp;apos;&amp;apos;.
+
+==References==
+{{Reflist}}
+
+==External links==
+{{Portal|Middle-earth}}
+* [http://www.tolkien-online.com/history-of-middle-earth.html A history and introduction to the twelve-volume &amp;quot;History of Middle-earth&amp;quot; series]
+* [http://www.forodrim.org/daeron/md_hm.html A detailed list of content in &amp;apos;&amp;apos;History of Middle-earth&amp;apos;&amp;apos; volumes and &amp;apos;&amp;apos;Unfinished Tales&amp;apos;&amp;apos;]
+
+{{J. R. R. Tolkien}}
+{{Lotr}}
+{{Middle-earth}}
+
+{{DEFAULTSORT:History Of Middle-earth, The}}
+[[Category:Middle-earth books]]
+[[Category:The History of Middle-earth| 1]]
+[[Category:Collections of works by J. R. R. Tolkien]]
+[[Category:Books about Middle-earth]]
+[[Category:Series of books]]
+[[Category:Books published posthumously]]
+[[Category:Fictional history]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Boi"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Boi" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Wiktionary}}
+&amp;apos;&amp;apos;&amp;apos;Boi&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;BOI&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+==People==
+* [[Paolo Boi]] (1528–1598), Italian chess player who beat the Pope
+* [[Big Boi]], a rapper
+* [[Boi-1da]], a Canadian hip hop producer
+* Boi-Abbottabad, a union council in [[Circle Bakote]], [[Abbottabad]], [[Pakistan]]
+
+==Places==
+* [[Sant Boi de Llobregat]], a town near Barcelona, Spain
+* [[Boise Airport]], an airport in the US state of Idaho
+
+==Organizations==
+* [[Board of Investment of Mauritius]], the investment promotion agency of Mauritius
+* [[Pakistan Board of Investment]], the investment promotion agency of Pakistan
+* [[Bureau of Investigation]], a bureau of the U.S. Dept. of Justice, became the Federal Bureau of Investigation in 1935
+* [[Bank of Ireland]], one of Ireland&amp;apos;s largest commercial banks
+* [[Bank of India]], one of India&amp;apos;s largest commercial banks
+* [[Thailand Board of Investment]], an agency of the Government of Thailand to promote investment in Thailand
+
+==Music==
+* &amp;quot;[[Sk8er Boi]]&amp;quot;, a song by Avril Lavigne
+* [[Boi (music)]], a style of Central Amazon folk music
+
+==Other==
+* BOI, the ICAO code for [[2GO (Air)|2GO]]
+* The IATA code for [[Boise Airport]]
+* [[Boi (lesbian slang)]], as a spelling that is deliberately altered for reasons of gender identification, sexuality, or group affinity
+
+{{Disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

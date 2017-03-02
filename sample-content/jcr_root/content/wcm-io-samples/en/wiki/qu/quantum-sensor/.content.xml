@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Quantum sensor"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Quantum sensor" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Context|date=October 2009}}
+A &amp;apos;&amp;apos;&amp;apos;quantum sensor&amp;apos;&amp;apos;&amp;apos; is a device that exploits quantum correlations, such as [[quantum entanglement]], to achieve a sensitivity or resolution that is better than can achieved using only classical systems.&amp;lt;ref&amp;gt;[http://merlin.fic.uni.lodz.pl/concepts/2005_3_4/2005_3_4_225.pdf K.T.Kapale, et al., Concepts of Physics 2 (2005) 225].&amp;lt;/ref&amp;gt;
+
+A quantum sensor can measure the effect of the quantum state of another system on itself. The mere act of measurement influences the quantum state and alters the probability and uncertainty associated with its state during measurement.
+
+The [[Defense Advanced Research Projects Agency]] has recently{{When|date=August 2011}} launched a research program in optical quantum sensors that seeks to exploit ideas from [[quantum metrology]] and [[quantum imaging]], such as  [[quantum lithography]] and the [[NOON state]], in order to achieve these goals with optical sensor systems such as [[lidar]].&amp;lt;ref&amp;gt;[http://www.darpa.mil/sto/space/qsp.html DARPA Quantum Sensor Program].&amp;lt;/ref&amp;gt; &amp;lt;ref&amp;gt;[https://www.fbo.gov/index?id=9bafd20629bf798e1b084fb2582a4b34  BROAD AGENCY ANNOUNCEMENT (BAA) 07-22 Quantum Sensors]&amp;lt;/ref&amp;gt;
+
+Quantum sensor is also a term used in other settings where entangled quantum systems are exploited to make better [[atomic clocks]]&amp;lt;ref&amp;gt;[http://link.aps.org/abstract/PRA/v54/pR4649 J.J.Bollinger, et al., Phys. Rev. A 54 (1996) R4649].&amp;lt;/ref&amp;gt; or more sensitive [[magnetometers]].&amp;lt;ref&amp;gt;[http://link.aps.org/abstract/PRL/v93/e173002 M.Auzinsh et al., Phys. Rev. Lett. 93 (2004) 173002].&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;[http://link.aps.org/abstract/PRA/v73/e040304 A.Guillaume &amp;amp; J.P.Dowling, Phys. Rev. A 73 (2006) 040304(R)].&amp;lt;/ref&amp;gt;
+
+==References==
+{{Reflist}}
+
+[[Category:Quantum information science]]
+[[Category:Quantum mechanics]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

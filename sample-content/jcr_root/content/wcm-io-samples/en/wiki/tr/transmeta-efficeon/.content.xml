@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Transmeta Efficeon"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Transmeta Efficeon" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{unreferenced|date=October 2009}}
+The &amp;apos;&amp;apos;&amp;apos;Efficeon&amp;apos;&amp;apos;&amp;apos; processor is [[Transmeta]]&amp;apos;s second-generation [[256-bit]] [[Very long instruction word|VLIW]] design which employs a software engine to convert code written for [[x86]] processors to the native [[instruction set]] of the chip (Code Morphing Software, aka CMS). Like its predecessor, the [[Transmeta Crusoe]] (a [[128-bit]] VLIW architecture), Efficeon stresses computational efficiency, low power consumption, and a low thermal footprint.
+
+Efficeon most closely mirrors the feature set of [[Intel]] [[Pentium 4]] processors, although, like [[AMD]] [[Opteron]] processors, it supports a fully integrated [[memory controller]], a [[HyperTransport]] IO bus, and the [[NX bit]], or no-execute [[x86]] extension to [[Physical Address Extension|PAE mode]].  [[NX bit]] support is available starting with CMS version 6.0.4.
+
+Efficeon&amp;apos;s computational performance relative to mobile CPUs like the [[Intel]] [[Pentium M]] is thought to be lower, although little appears to be published about the relative performance of these competing processors.
+
+Efficeon comes in two [[Chip carrier|package]] types: a 783- and a 592-contact [[ball grid array]]. Its power consumption is moderate (with some consuming as little as 3 watts at 1 GHz and 7 watts at 1.5 GHz), so it can be passively cooled.
+
+Two generations of this chip were produced. The first generation (TM8600) was manufactured using a [[TSMC]] 0.13 micrometre process and produced at speeds up to 1.2 [[GHz]]. The second generation (TM8800 and TM8820) was manufactured using a [[Fujitsu]] 90&amp;amp;nbsp;nm process and produced at speeds ranging from 1 GHz to 1.7 GHz.
+
+Internally, the Efficeon has two [[arithmetic logic unit]]s, two load/store/add units, two execute units, two [[floating-point]]/[[MMX (instruction set)|MMX]]/[[Streaming SIMD Extensions|SSE]]/[[SSE2]] units, one [[branch prediction]] unit, one alias unit, and one control unit. The VLIW core can execute a 256-bit VLIW instruction per cycle, which is called a molecule and has room to store eight 32-bit instructions (called atoms) per cycle.
+
+The Efficeon has a 128 KB L1 instruction cache, a 64 KB L1 data cache and a 1 MB L2 cache. All caches are on die.
+
+Additionally the Efficeon CMS (code morphing software) reserves a small portion of main memory (typically 32 MB) for its translation cache of dynamically translated x86 instructions.
+
+==Products==
+[[image:Sharp PC-MM2 frontal view.jpg|thumb|250px|1GHz Efficeon TM8600
+used on Sharp Mebius MURAMASA / PC-MM2]]
+
+* [[Sharp Corporation|Sharp]] [[Actius MM20]]
+* [[Sharp Corporation|Sharp]] [[Actius MP30]]
+* [[Sharp Corporation|Sharp]] [[Mebius Muramasa PC-MM2]]
+* [[Sharp Corporation|Sharp]] [[Mebius Muramasa PC-CV50F]]
+* [[Sharp Corporation|Sharp]] [[MP70G]]
+* Orion Multisystem [[Cluster Workstation]]
+* [[Microsoft]] [[Microsoft FlexGo|FlexGo Computer]]
+* [[Elitegroup]] [[A532]]
+
+==External links==
+*[http://web.archive.org/web/20090216221141/http://www.transmeta.com/tech/microip.html Transmeta Microprocessor Technology]
+*[http://datasheets.chipdb.org/Transmeta/pdfs/brochures/efficeon_tm8600_processor.pdf Efficeon TM8600 Product Sheet]
+*[http://datasheets.chipdb.org/Transmeta/TM8600/efficeon_tm8600_prod_brief.pdf Efficeon TM8300/8600 Product Brief]
+
+[[Category:X86 microprocessors]]
+[[Category:Embedded microprocessors]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

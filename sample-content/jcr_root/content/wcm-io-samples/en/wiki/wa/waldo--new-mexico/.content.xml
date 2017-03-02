@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Waldo, New Mexico"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Waldo, New Mexico" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Image:Waldo sign along the BNSF Railroad Tracks, Waldo NM.jpg|thumb|right|&amp;lt;center&amp;gt;Waldo sign along the [[BNSF]] tracks&amp;lt;/center&amp;gt;]]
+&amp;apos;&amp;apos;&amp;apos;Waldo&amp;apos;&amp;apos;&amp;apos; is an [[unincorporated area]] in [[Santa Fe County, New Mexico|Santa Fe County]], [[New Mexico]], [[United States]].  It was created along the [[Atchison, Topeka and Santa Fe Railway]] just west of [[Cerrillos, New Mexico|Cerrillos]]. Today little remains, although the name appears on a freeway exit on Interstate 25 some distance to the west. Today, Waldo is a siding along the line of the [[BNSF Railway]], which bought out the Atchison, Topeka and Santa Fe Railway.
+
+Waldo was at the junction of the AT&amp;amp;SF main east-west line and the [[Madrid, New Mexico|Madrid]] spur. There were [[coke (fuel)|coke]] ovens in Waldo, supplied by [[coal]] from Madrid. The spur itself no longer exists. The ovens were on the south side of the mail line, and the town on the north. The rail line parallels the [[Galisteo River]].
+{{-}}
+
+==External links==
+*[http://www.flickr.com/photos/silviaorta/tags/waldo/show Flickr slideshow of Waldo]
+
+{{Santa Fe County, New Mexico}}
+{{NewMexico-geo-stub}}
+
+•{{coord|35|26|57|N|106|8|58|W|region:US|display=title}}
+
+[[Category:Populated places in Santa Fe County, New Mexico]]
+[[Category:Unincorporated communities in New Mexico]]
+[[Category:Unincorporated communities in Santa Fe County, New Mexico]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

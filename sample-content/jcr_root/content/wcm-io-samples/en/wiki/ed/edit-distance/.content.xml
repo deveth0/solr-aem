@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Edit distance"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Edit distance" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Main| String metric}}
+In [[information theory]] and [[computer science]], the &amp;apos;&amp;apos;&amp;apos;edit distance&amp;apos;&amp;apos;&amp;apos; between two [[String (computer science)|strings of characters]] generally refers to the [[Levenshtein distance]].&amp;lt;ref&amp;gt;Algorithms and Theory of Computation Handbook, CRC Press LLC, 1999, [http://www.nist.gov/dads/HTML/Levenshtein.html &amp;quot;Levenshtein distance&amp;quot;], in [http://xlinux.nist.gov/dads/ Dictionary of Algorithms and Data Structures], Paul E. Black, ed., U.S. [[National Institute of Standards and Technology]], 14 August 2008 (accessed 31 October 2011).&amp;lt;/ref&amp;gt; However, according to Nico Jacobs, &amp;apos;&amp;apos;“The term ‘edit distance’ is sometimes used to refer to the distance in which insertions and deletions have equal cost and replacements have twice the cost of an insertion”&amp;apos;&amp;apos;.&amp;lt;ref&amp;gt;See p. 190 in Jacobs, Nico [https://lirias.kuleuven.be/bitstream/123456789/245905/1/Jacobs.pdf “Relational Sequence Learning and User Modelling”]. Katholieke Universiteit Leuven, Faculteit Wetenschappen, Faculteit Toegepaste Wetenschappen; Departement Computerwetenschappen, Leuven, Oct. 2004, xvi + 235 pp.&amp;lt;/ref&amp;gt;
+
+It may also refer to the whole class of [[string metric]]s that measure distance as the (weighted or unweighted) number of operations required to transform a string into another.  There are several different ways to define an edit distance, depending on which edit operations are allowed: replace, delete, insert, transpose, and so on. There are algorithms to calculate its value under various definitions:
+
+*[[Hamming distance]]
+*[[Levenshtein distance]] (the most common definition, calculated by [[Hirschberg&amp;apos;s algorithm]] or [[Wagner–Fischer edit distance|the Wagner–Fischer algorithm]])
+*[[Damerau–Levenshtein distance]]
+*[[Jaro–Winkler distance]]
+
+==Notes==
+&amp;lt;references/&amp;gt;
+
+==See also==
+* [[Approximate string matching]]
+* [[Levenshtein distance]]
+* [[Longest common subsequence problem]]
+* [[String-to-string correction problem]]
+* [[String metric]]
+
+==External links==
+* [http://search.cpan.org/dist/Text-WagnerFischer Text::WagnerFischer], a Perl implementation of the Wagner-Fischer edit distance
+
+[[Category:String similarity measures]]
+
+
+{{comp-sci-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

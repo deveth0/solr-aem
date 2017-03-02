@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Viana"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Viana" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Viana&amp;apos;&amp;apos;&amp;apos; is the name of some &amp;apos;&amp;apos;&amp;apos;places&amp;apos;&amp;apos;&amp;apos;:
+*[[Viana do Bolo]], Galicia, Spain
+*[[Viana do Castelo, Portugal]]
+*[[Viana, Spain|Viana, Navarre, Spain]]
+*[[Viana, Maranhão]], Brazil
+*[[Viana, Espírito Santo]], Brazil
+*[[Viana, Luanda|Viana]], [[Luanda]], [[Angola]]
+;organization
+*[[Esporte Clube Viana]], Brazilian football club based in Maranhão state
+&amp;apos;&amp;apos;&amp;apos;People&amp;apos;&amp;apos;&amp;apos;:
+*[[Gaspar Viana]] &amp;apos;&amp;apos;or&amp;apos;&amp;apos; Vianna (1885–1914), Brazilian parasitologist
+*[[Hugo Viana]] (born 1983),  Portuguese footballer
+
+{{disambiguation|geo|surname}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

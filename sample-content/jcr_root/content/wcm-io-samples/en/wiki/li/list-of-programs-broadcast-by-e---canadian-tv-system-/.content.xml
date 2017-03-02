@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="List of programs broadcast by E! (Canadian TV system)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="List of programs broadcast by E! (Canadian TV system)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;This is a list of programs broadcast by &amp;apos;&amp;apos;&amp;apos;[[E! (Canadian TV system)|CH / E!]]&amp;apos;&amp;apos;&amp;apos;, a television system in Canada that operated from 2001-2009.
+
+==Fall 2008 schedule==
+In prime time, they will continue to carry some programming purchased from the American conventional broadcast networks, but will otherwise air a very similar program schedule to the American [[E!]] network.
+
+{| class=&amp;quot;wikitable&amp;quot;
+!bgcolor=&amp;quot;#C0C0C0&amp;quot;|&amp;amp;nbsp;
+!width=&amp;quot;12%&amp;quot; bgcolor=&amp;quot;#C0C0C0&amp;quot;|7:00 PM
+!width=&amp;quot;13%&amp;quot; bgcolor=&amp;quot;#C0C0C0&amp;quot;|7:30 PM
+!width=&amp;quot;12%&amp;quot; bgcolor=&amp;quot;#C0C0C0&amp;quot;|8:00 PM
+!width=&amp;quot;13%&amp;quot; bgcolor=&amp;quot;#C0C0C0&amp;quot;|8:30 PM
+!width=&amp;quot;12%&amp;quot; bgcolor=&amp;quot;#C0C0C0&amp;quot;|9:00 PM
+!width=&amp;quot;13%&amp;quot; bgcolor=&amp;quot;#C0C0C0&amp;quot;|9:30 PM
+!width=&amp;quot;12%&amp;quot; bgcolor=&amp;quot;#C0C0C0&amp;quot;|10:00 PM
+!width=&amp;quot;13%&amp;quot; bgcolor=&amp;quot;#C0C0C0&amp;quot;|10:30 PM
+|-
+!bgcolor=&amp;quot;#C0C0C0&amp;quot;|Sunday
+|bgcolor=&amp;quot;#F0F0F0&amp;quot; colspan=&amp;quot;2&amp;quot;|&amp;apos;&amp;apos;[[Instant Beauty Pageant]]&amp;apos;&amp;apos;
+|bgcolor=&amp;quot;#F0F0F0&amp;quot; colspan=&amp;quot;2&amp;quot;|&amp;apos;&amp;apos;[[Extreme Makeover: Home Edition]]&amp;apos;&amp;apos;
+|bgcolor=&amp;quot;#F0F0F0&amp;quot; colspan=&amp;quot;2&amp;quot;|&amp;apos;&amp;apos;[[E! Special]]&amp;apos;&amp;apos;
+|bgcolor=&amp;quot;#F0F0F0&amp;quot; colspan=&amp;quot;2&amp;quot;|&amp;apos;&amp;apos;[[The Real Housewives of Orange County]]&amp;apos;&amp;apos;
+|-
+!bgcolor=&amp;quot;#C0C0C0&amp;quot;|Monday
+|bgcolor=&amp;quot;#F0F0F0&amp;quot; rowspan=&amp;quot;5&amp;quot;|&amp;apos;&amp;apos;[[The Insider (TV series)|The Insider]]&amp;apos;&amp;apos;
+|bgcolor=&amp;quot;#F0F0F0&amp;quot; rowspan=&amp;quot;5&amp;quot;|&amp;apos;&amp;apos;[[E! News]]&amp;apos;&amp;apos;
+|bgcolor=&amp;quot;#F0F0F0&amp;quot; |&amp;apos;&amp;apos;[[&amp;apos;Til Death]]&amp;apos;&amp;apos;
+|bgcolor=&amp;quot;#F0F0F0&amp;quot; |&amp;apos;&amp;apos;[[How I Met Your Mother]]&amp;apos;&amp;apos;
+|bgcolor=&amp;quot;#F0F0F0&amp;quot; |&amp;apos;&amp;apos;[[Do Not Disturb]]&amp;apos;&amp;apos;
+|bgcolor=&amp;quot;#F0F0F0&amp;quot; |&amp;apos;&amp;apos;[[Worst Week]]&amp;apos;&amp;apos;
+|bgcolor=&amp;quot;#F0F0F0&amp;quot; colspan=&amp;quot;2&amp;quot;|&amp;apos;&amp;apos;[[Momma&amp;apos;s Boys]]&amp;apos;&amp;apos;
+|-
+
+!bgcolor=&amp;quot;#C0C0C0&amp;quot;|Tuesday
+|bgcolor=&amp;quot;#F0F0F0&amp;quot; colspan=&amp;quot;4&amp;quot;|&amp;apos;&amp;apos;[[The Biggest Loser]]&amp;apos;&amp;apos;
+|bgcolor=&amp;quot;#F0F0F0&amp;quot; colspan=&amp;quot;2&amp;quot;|&amp;apos;&amp;apos;[[The Best Years]]&amp;apos;&amp;apos;
+|-
+!bgcolor=&amp;quot;#C0C0C0&amp;quot;|Wednesday
+|bgcolor=&amp;quot;#F0F0F0&amp;quot; colspan=&amp;quot;2&amp;quot;|&amp;apos;&amp;apos;[[Knight Rider (2008 TV series)|Knight Rider]]&amp;apos;&amp;apos;
+|bgcolor=&amp;quot;#F0F0F0&amp;quot; colspan=&amp;quot;2&amp;quot;|&amp;apos;&amp;apos;[[Deal or No Deal]]&amp;apos;&amp;apos;
+|bgcolor=&amp;quot;#F0F0F0&amp;quot; colspan=&amp;quot;2&amp;quot;|&amp;apos;&amp;apos;[[E! True Hollywood Story]]&amp;apos;&amp;apos;
+|-
+!bgcolor=&amp;quot;#C0C0C0&amp;quot;|Thursday
+|bgcolor=&amp;quot;#F0F0F0&amp;quot; |&amp;apos;&amp;apos;[[My Name is Earl]]&amp;apos;&amp;apos;
+|bgcolor=&amp;quot;#F0F0F0&amp;quot; |&amp;apos;&amp;apos;[[My Name is Earl]]&amp;apos;&amp;apos;
+|bgcolor=&amp;quot;#F0F0F0&amp;quot; colspan=&amp;quot;4&amp;quot;|&amp;apos;&amp;apos;[[E! Movies We Love]]&amp;apos;&amp;apos;
+|-
+!bgcolor=&amp;quot;#C0C0C0&amp;quot;|Friday
+|bgcolor=&amp;quot;#F0F0F0&amp;quot; colspan=&amp;quot;2&amp;quot;|&amp;apos;&amp;apos;[[Are You Smarter Than a 5th Grader?]]&amp;apos;&amp;apos;
+|bgcolor=&amp;quot;#F0F0F0&amp;quot; colspan=&amp;quot;2&amp;quot;|&amp;apos;&amp;apos;[[Deal or No Deal]]&amp;apos;&amp;apos;
+|bgcolor=&amp;quot;#F0F0F0&amp;quot; colspan=&amp;quot;2&amp;quot;|&amp;apos;&amp;apos;[[20/20 (US television show)|20/20]]&amp;apos;&amp;apos;
+|-
+!bgcolor=&amp;quot;#C0C0C0&amp;quot;|Saturday
+|bgcolor=&amp;quot;#F0F0F0&amp;quot; |&amp;apos;&amp;apos;E! News Weekend&amp;apos;&amp;apos;
+|bgcolor=&amp;quot;#F0F0F0&amp;quot; |&amp;apos;&amp;apos;[[The Soup]]&amp;apos;&amp;apos;
+|bgcolor=&amp;quot;#F0F0F0&amp;quot; |&amp;apos;&amp;apos;[[Snoop Dogg&amp;apos;s Father Hood]]&amp;apos;&amp;apos;
+|bgcolor=&amp;quot;#F0F0F0&amp;quot; |&amp;apos;&amp;apos;[[Kimora]]&amp;apos;&amp;apos;
+|bgcolor=&amp;quot;#F0F0F0&amp;quot; colspan=&amp;quot;2&amp;quot;|&amp;apos;&amp;apos;[[Dr. 90210]]&amp;apos;&amp;apos;
+|bgcolor=&amp;quot;#F0F0F0&amp;quot; colspan=&amp;quot;2&amp;quot;|&amp;apos;&amp;apos;[[Forbes Celebrity]]
+|}
+
+==The Last Shows broadcast by [[E! (Canadian TV system)|E!]]==
+*&amp;apos;&amp;apos;[[20/20 (US television show)|20/20]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Dateline NBC]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Deal or No Deal (US game show)|Deal or No Deal]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Diva on a Dime]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Doc (TV series)|Doc]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[The Best Years]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Extreme Makeover: Home Edition]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Guiding Light]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[How I Met Your Mother]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[The Loop (TV series)|The Loop]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Monday Night Football]]&amp;apos;&amp;apos; (Broadcast time unknown)
+*&amp;apos;&amp;apos;[[My Boys]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Psych]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Running In Heels]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Stargate SG-1]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Talkshow with Spike Feresten]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[The Insider (TV series)|The Insider]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[The Harley Show]]
+*&amp;apos;&amp;apos;[[WWE Friday Night SmackDown]] (Montreal Only)
+
+==Formerly broadcast==
+===by CH===
+*&amp;apos;&amp;apos;[[10 Items or Less (TV series)|10 Items or Less]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Creature Comforts]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Crossing Jordan]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Help Me Help You]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[The King of Queens]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Las Vegas (TV series)|Las Vegas]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[NCIS (TV series)|NCIS]]&amp;apos;&amp;apos; (Moved to [[Global Television Network|Global]])
+*&amp;apos;&amp;apos;[[One Tree Hill (TV series)|One Tree Hill]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Raines]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Stacked]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Surface (TV series)|Surface]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Two and a Half Men]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Technical Knockout (TV series)|Technical Knockout]]&amp;apos;&amp;apos;
+
+===by E!===
+* &amp;apos;&amp;apos;[[Viva Laughlin]]&amp;apos;&amp;apos;    Cancelled
+
+==Came Into 2008-2009 Season==
+
+*[[24 (TV series)|24]]
+*[[Boston Legal]]
+*[[My Name is Earl]]
+*[[Worst Week]]
+*[[Knight Rider (2008 TV series)|Knight Rider]]
+*[[Secret Millionaire (TV series)|Secret Millionaire]]
+*[[Do Not Disturb (TV series)|Do Not Disturb]]
+
+==See also==
+*[[List of Canadian television series]]
+
+{{Canadian television series}}
+
+[[Category:E! Canada]]
+[[Category:Lists of television series by network|E]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

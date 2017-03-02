@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="UDMA"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="UDMA" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{nosources|date=August 2012}}
+{{For|the main article about the controller|Parallel ATA}}
+
+The &amp;apos;&amp;apos;&amp;apos;Ultra DMA&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;&amp;apos;UDMA&amp;apos;&amp;apos;&amp;apos;) interface was the fastest method used to transfer data between the  computer (through the [[Advanced Technology Attachment|ATA]] [[controller (computing)|controller]]) and an [[Advanced Technology Attachment|ATA]] device until [[Serial ATA]].
+UDMA took over from [[Single word DMA|Single]]/[[Multiword DMA]] as the choice of interface between ATA devices and the computer.
+There are 8 different UDMA modes ranging from 0 to 6 for ATA, 0 to 7 for CompactFlash), each with its own timing.
+
+{| class=&amp;quot;wikitable&amp;quot; style=&amp;quot;text-align:center&amp;quot;
+|+Transfer Modes
+! Mode || Number ||Also called||Maximum transfer&amp;lt;br/&amp;gt;rate (MB/s)|| Defining standard
+|-
+| rowspan=8 | Ultra DMA
+|   0   || || 16.7||[[ATA-4]]
+|-
+| 1 || || 25.0||[[ATA-4]]
+|-
+| 2 ||Ultra ATA/33|| 33.3||[[ATA-4]]
+|-
+| 3 || || 44.4||[[ATA-5]]
+|-
+| 4 ||Ultra ATA/66|| 66.7||[[ATA-5]]
+|-
+| 5 ||Ultra ATA/100|| 100||[[ATA-6]]
+|-
+| 6 ||Ultra ATA/133|| 133||[[ATA-7]]
+|-
+| 7 || Ultra ATA/167 || 167 || [[CompactFlash]] 6.0&amp;lt;ref&amp;gt;[http://compactflash.org/2010/cf-6-0-introduces-industry-leading-performance-and-feature-enhancements/ CompactFlash 6.0 Introduction]&amp;lt;/ref&amp;gt;
+|}
+
+== See also ==
+* [[Programmed input/output|PIO]] - The first interface type used between devices (mainly hard disks) and the computer.
+* [[Advanced Technology Attachment|ATA]]
+* [[Parallel ATA]]
+* [[Serial ATA]]
+==References==
+&amp;lt;references /&amp;gt;
+[[Category:AT Attachment]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

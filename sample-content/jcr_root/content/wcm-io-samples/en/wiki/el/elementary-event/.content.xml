@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Elementary event"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Elementary event" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{redirect|Atomic event|the term in computer science|linearizability}}
+
+{{Probability fundamentals}}
+In [[probability theory]], an &amp;apos;&amp;apos;&amp;apos;elementary event&amp;apos;&amp;apos;&amp;apos; (also called an &amp;apos;&amp;apos;&amp;apos;atomic event&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;simple event&amp;apos;&amp;apos;&amp;apos;) is an [[event (probability theory)|event]] which contains only a single outcome in the [[sample space]].&amp;lt;ref&amp;gt;{{cite book
+  | last = Wackerly
+  | first = Denniss
+  | coauthors = William Mendenhall, Richard Scheaffer
+  | title = Mathematical Statistics with Applications
+  | publisher = Duxbury
+  | isbn = 0-534-37741-6
+  }}&amp;lt;/ref&amp;gt; Using [[set theory]] terminology, an elementary event is a [[Singleton (mathematics)|singleton]]. Elementary events and the corresponding outcome are often written interchangeably for simplicity, as such an event corresponds to precisely one outcome.
+
+The following are examples of elementary events:
+* All sets {&amp;apos;&amp;apos;k&amp;apos;&amp;apos;}, where &amp;apos;&amp;apos;k&amp;apos;&amp;apos;&amp;amp;nbsp;∈&amp;amp;nbsp;&amp;apos;&amp;apos;&amp;apos;N&amp;apos;&amp;apos;&amp;apos; if objects are being counted and the sample space is &amp;apos;&amp;apos;S&amp;apos;&amp;apos; = {0, 1, 2, 3, ...} (the [[natural numbers]]).
+* {HH}, {HT}, {TH} and {TT} if a coin is tossed twice. &amp;apos;&amp;apos;S&amp;apos;&amp;apos; = {HH, HT, TH, TT}. H stands for heads and T for tails.
+* All sets {&amp;apos;&amp;apos;x&amp;apos;&amp;apos;}, where &amp;apos;&amp;apos;x&amp;apos;&amp;apos; is a  [[real number]]. Here &amp;apos;&amp;apos;X&amp;apos;&amp;apos; is a [[random variable]] with a [[normal distribution]] and &amp;apos;&amp;apos;S&amp;apos;&amp;apos;&amp;amp;nbsp;=&amp;amp;nbsp;(&amp;amp;minus;∞,&amp;amp;nbsp;+∞).  This example shows that, because the probability of each elementary event is zero, the probabilities assigned to elementary events do not determine a continuous [[probability distribution]].
+
+Elementary events may have probabilities that are strictly positive, zero, undefined, or any combination thereof.  For instance, any [[discrete random variable|discrete]] probability distribution whose sample space is finite is determined by the [[Probability|probabilities]] it assigns to elementary events.  In contrast, all elementary events have probability zero under any [[continuous random variable|continuous]] distribution.  Mixed distributions, being neither entirely continuous nor entirely discrete, may contain &amp;apos;&amp;apos;atoms&amp;apos;&amp;apos;. Atoms can be thought of as elementary (that is, &amp;apos;&amp;apos;atomic&amp;apos;&amp;apos;) events with non-zero probabilities.&amp;lt;ref&amp;gt;{{cite book
+  | last = Kallenberg
+  | first = Olav
+  | title = Foundations of Modern Probability
+  | edition = 2nd
+  | year = 2002
+  | publisher = Springer
+  | location = New York
+  | isbn = 0-387-94957-7
+ }}&amp;lt;/ref&amp;gt;  Under the [[measure theory|measure-theoretic]] definition of a [[probability space]], the probability of an elementary event need not even be defined. In particular the set of events on which probability is defined may be some [[sigma-algebra|σ-algebra]] on &amp;apos;&amp;apos;S&amp;apos;&amp;apos; and not necessarily the full [[power set]].
+
+==See also==
+*[[Atom (measure theory)]]
+
+==References==
+{{Reflist}}
+*Pfeiffer, Paul E. (1978) &amp;apos;&amp;apos;Concepts of probability theory&amp;apos;&amp;apos;. Dover Publications. ISBN 978-0-486-63677-1 ({{Google books|_mayRBczVRwC|online copy|page=18|}})
+
+[[Category:Probability theory]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

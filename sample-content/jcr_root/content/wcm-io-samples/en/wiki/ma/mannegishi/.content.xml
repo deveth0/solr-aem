@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Mannegishi"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Mannegishi" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{unreferenced|date=February 2008}}
+The &amp;apos;&amp;apos;&amp;apos;Mannegishi&amp;apos;&amp;apos;&amp;apos; (singular the same) are a race of [[trickster]] people in [[Cree]] [[folklore]], similar in nature to the [[Memegwesi]] of the [[Ojibwa]]. They are described as semi-humanoid, being [[sexdactylous]] humans with very thin and lanky arms and legs and big heads minus a nose. According to one Cree schema of the mythology, there are two humanoid races, one being the familiar [[human]] species and the other being the &amp;quot;little people&amp;quot;, i.e. Mannegishi. These people are said to live between rocks in the rapids. One of their biggest delights -- a completely non-heroic form of trickster behavior -- is to crawl out of the rocks and capsize the canoes of people canoeing through the rapids, spinning them to their death.
+
+The Mannegishi has attracted interest in recent years due to its possible [[cryptozoology|cryptozoological]] connections. It is believed by some that the [[Dover Demon]] represents a modern sighting of the Mannegishi.
+
+
+[[Category:Legendary creatures of the indigenous peoples of North America]]
+
+{{NorthAm-myth-stub}}
+{{cryptozoology-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="F-space"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="F-space" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{for|F-spaces in general topology|sub-Stonean space}}
+In [[functional analysis]], an &amp;apos;&amp;apos;&amp;apos;F-space&amp;apos;&amp;apos;&amp;apos; is a [[vector space]] &amp;apos;&amp;apos;V&amp;apos;&amp;apos; over the [[real number|real]] or [[complex number|complex]] numbers together with a [[metric (mathematics)|metric]] &amp;apos;&amp;apos;d&amp;apos;&amp;apos; : &amp;apos;&amp;apos;V&amp;apos;&amp;apos; × &amp;apos;&amp;apos;V&amp;apos;&amp;apos; → &amp;apos;&amp;apos;&amp;apos;R&amp;apos;&amp;apos;&amp;apos; so that
+# Scalar multiplication in &amp;apos;&amp;apos;V&amp;apos;&amp;apos; is [[continuous function#Continuous functions between metric spaces|continuous]] with respect to &amp;apos;&amp;apos;d&amp;apos;&amp;apos; and the standard metric on &amp;apos;&amp;apos;&amp;apos;R&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;C&amp;apos;&amp;apos;&amp;apos;.
+# Addition in &amp;apos;&amp;apos;V&amp;apos;&amp;apos; is continuous  with respect to &amp;apos;&amp;apos;d&amp;apos;&amp;apos;.
+# The metric is [[translation-invariant metric|translation-invariant]]; i.e., &amp;apos;&amp;apos;d&amp;apos;&amp;apos;(&amp;apos;&amp;apos;x&amp;apos;&amp;apos; + &amp;apos;&amp;apos;a&amp;apos;&amp;apos;, &amp;apos;&amp;apos;y&amp;apos;&amp;apos; + &amp;apos;&amp;apos;a&amp;apos;&amp;apos;) = &amp;apos;&amp;apos;d&amp;apos;&amp;apos;(&amp;apos;&amp;apos;x&amp;apos;&amp;apos;, &amp;apos;&amp;apos;y&amp;apos;&amp;apos;) for all &amp;apos;&amp;apos;x&amp;apos;&amp;apos;, &amp;apos;&amp;apos;y&amp;apos;&amp;apos; and &amp;apos;&amp;apos;a&amp;apos;&amp;apos; in &amp;apos;&amp;apos;V&amp;apos;&amp;apos;
+# The metric space (&amp;apos;&amp;apos;V&amp;apos;&amp;apos;, &amp;apos;&amp;apos;d&amp;apos;&amp;apos;) is [[completeness (topology)|complete]]
+
+Some authors call these spaces &amp;apos;&amp;apos;[[Fréchet space]]s&amp;apos;&amp;apos;, but usually the term is reserved for [[locally convex]] F-spaces.  The metric may or may not necessarily be part of the structure on an F-space; many authors only require that such a space be [[metrizable]] in a manner that satisfies the above properties.
+
+== Examples ==
+
+Clearly, all [[Banach space]]s and [[Fréchet space]]s are F-spaces. In particular, a Banach space is an F-space with an additional requirement that {{nowrap|&amp;apos;&amp;apos;d&amp;apos;&amp;apos;(&amp;apos;&amp;apos;αx&amp;apos;&amp;apos;, 0) {{=}} {{!}}α{{!}}⋅&amp;apos;&amp;apos;d&amp;apos;&amp;apos;(&amp;apos;&amp;apos;x&amp;apos;&amp;apos;, 0)}}.&amp;lt;ref&amp;gt;Dunford N., Schwartz J.T. (1958). Linear operators. Part I: general theory. Interscience publishers, inc., New York. p. 59&amp;lt;/ref&amp;gt;
+
+The [[Lp space|L&amp;lt;sup&amp;gt;p&amp;lt;/sup&amp;gt; spaces]] are F-spaces for all {{nowrap|p &amp;gt; 0}} and for {{nowrap|p ≥ 1}} they are locally convex and thus Fréchet spaces and even Banach spaces.
+
+=== Example 1 ===
+&amp;lt;math&amp;gt;\scriptstyle L^\frac{1}{2}[0,\, 1]&amp;lt;/math&amp;gt; is a F-space.  It admits no continuous seminorms and no continuous linear functionals — it has trivial [[dual space]].
+
+=== Example 2 ===
+Let &amp;lt;math&amp;gt;\scriptstyle W_p(\mathbb{D})&amp;lt;/math&amp;gt; be the space of all complex valued [[Taylor series]]
+
+:&amp;lt;math&amp;gt;f(z)=\sum_{n \geq 0}a_n z^n&amp;lt;/math&amp;gt;
+
+on the unit disc &amp;lt;math&amp;gt;\scriptstyle \mathbb{D}&amp;lt;/math&amp;gt; such that
+
+:&amp;lt;math&amp;gt;\sum_{n}|a_n|^p &amp;lt; \infty&amp;lt;/math&amp;gt;
+
+then (for {{nowrap|0 &amp;lt; p &amp;lt; 1}}) &amp;lt;math&amp;gt;\scriptstyle W_p(\mathbb{D})&amp;lt;/math&amp;gt; are F-spaces under the [[p-norm]]:
+
+:&amp;lt;math&amp;gt;\|f\|_p= \sum_{n}|a_n|^p \qquad (0 &amp;lt; p &amp;lt; 1)&amp;lt;/math&amp;gt;
+
+In fact, &amp;lt;math&amp;gt;\scriptstyle W_p&amp;lt;/math&amp;gt; is a [[quasi-Banach algebra]]. Moreover, for any &amp;lt;math&amp;gt;\scriptstyle \zeta&amp;lt;/math&amp;gt; with &amp;lt;math&amp;gt;\scriptstyle |\zeta| \;\leq\; 1&amp;lt;/math&amp;gt; the map &amp;lt;math&amp;gt;\scriptstyle f \,\mapsto\, f(\zeta)&amp;lt;/math&amp;gt; is a bounded linear (multiplicative functional) on &amp;lt;math&amp;gt;\scriptstyle W_p(\mathbb{D})&amp;lt;/math&amp;gt;.
+
+== References ==
+{{reflist}}
+
+* {{citation|first=Walter|last=Rudin|authorlink=Walter Rudin|title=Real &amp;amp; Complex Analysis|publisher=McGraw-Hill|year=1966|isbn=0-07-054234-1}}
+
+[[Category:Functional analysis]]
+[[Category:Topological vector spaces]]
+[[Category:F-spaces]]
+
+[[pl:Przestrzeń Frécheta (analiza funkcjonalna)]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

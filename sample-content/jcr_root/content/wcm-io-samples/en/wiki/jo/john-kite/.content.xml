@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="John Kite"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="John Kite" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{for|the [[Widnes Vikings]] player|John Kite (rugby league)}}
+&amp;apos;&amp;apos;&amp;apos;John Kite&amp;apos;&amp;apos;&amp;apos; (died 1537) was successively [[Archbishop of Armagh (Roman Catholic)|Archbishop of Armagh]], 1513&amp;amp;ndash;1521, and [[Bishop of Carlisle]], 1521&amp;amp;ndash;1537.
+
+John Kite was educated at [[Eton College]] and then at [[King&amp;apos;s College, Cambridge]],&amp;lt;ref&amp;gt;{{Venn|id=KT480J|name=Kite, John}}&amp;lt;/ref&amp;gt; where he was graduated Bachelor of [[Canon Law]]. He was appointed a [[prebendary]] of [[Exeter Cathedral]] and [[dean (religion)|Sub-Dean]] of the [[Westminster Abbey|King&amp;apos;s Chapel, Westminster]] in 1510. From 1510-1518 he was [[prebendary]] of Stratton in the [[diocese of Salisbury]].
+
+In 1518, as [[archbishop]], he accompanied [[John Bourchier, 2nd Baron Berners]] on an embassy to [[Charles V, Holy Roman Emperor|Charles I]] of [[Spain]] and was present at the [[Field of the Cloth of Gold]] in 1520. In 1522 he was living at [[Rose Castle]], [[Cumberland, England|Cumberland]] when he was visited by Dr [[William Burbank]], [[Archdeacon]] of [[Carlisle Cathedral]], of whom he wrote to [[Thomas Wolsey|Cardinal Wolsey]]. His alliance with Wolsey may explain his quick promotion. He took the [[Oath of Supremacy]] in 1534.
+
+==Bibliography==
+{{Reflist}}
+*Joyce M. Horn, Fasti Ecclesiae Anglicanae 1300-1541: Volume 3 Salisbury Diocese, (London: Institute of Historical Research, 1962) citing Register of [[Edmund Audley]], Bishop of Salisbury
+*James Wilson, &amp;apos;The Seal of William Burbank&amp;apos;, Transactions of the Cumberland and Westmoreland Antiquarian Society, Vol. XV
+
+{{s-start}}
+{{s-rel|ca}}
+{{succession box | title=[[Archbishop of Armagh (Roman Catholic)|Archbishop of Armagh]] | before=[[Octavian De Spinellis]] | after=[[George Cromer]] | years=1513&amp;amp;ndash;1521}}
+{{succession box | title=[[Bishop of Carlisle]] | before=[[John Penny]] | after=[[Robert Aldridge]] | years=1521&amp;amp;ndash;1537}}
+{{s-end}}
+
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Kite, John
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION = Irish bishop
+| DATE OF BIRTH     =
+| PLACE OF BIRTH    =
+| DATE OF DEATH     = 1537
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Kite, John}}
+[[Category:1537 deaths]]
+[[Category:Alumni of King&amp;apos;s College, Cambridge]]
+[[Category:People educated at Eton College]]
+[[Category:Bishops of Carlisle]]
+[[Category:Roman Catholic archbishops of Armagh]]
+[[Category:Tudor bishops]]
+[[Category:16th-century Roman Catholic bishops]]
+[[Category:Year of birth missing]]
+[[Category:16th-century English people]]
+[[Category:People of the Tudor period]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

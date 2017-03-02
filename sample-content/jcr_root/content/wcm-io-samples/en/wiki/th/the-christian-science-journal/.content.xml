@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="The Christian Science Journal"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="The Christian Science Journal" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unsourced|date=March 2013}}
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;The Christian Science Journal&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is an official monthly publication of the [[Church of Christ, Scientist]] through the [[Christian Science Publishing Society]], founded in 1883 by [[Mary Baker Eddy]].    It is designed to demonstrate the practical applications of Christian Science healing practice.
+
+The first edition appeared on April 14, 1883, bearing the subtitle, “An Independent Family Paper to Promote Health and Morals.”  Instructive articles and verified reports of Christian healing give the reader a working understanding of the Principle and practice of Christian Science.  Each issue also contains questions and answers about Christian Science, book reviews, artwork, interviews, poems, and a worldwide directory of Christian Science practitioners, teachers, churches, Reading Rooms, organizations at universities and colleges, nurses and Committees on Publication.  Eddy described the publication in its early years as &amp;quot;...designed to bear aloft the standard of genuine Christian Science&amp;quot;.
+
+==External links==
+*[http://journal.christianscience.com Official web site]
+
+{{Christian Science}}
+{{Christian Science Publishing Society}}
+
+{{DEFAULTSORT:Christian Science Journal}}
+[[Category:Christian Science magazines]]
+[[Category:Publications established in 1883]]
+
+
+{{Christian-mag-stub}}
+{{italic title}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

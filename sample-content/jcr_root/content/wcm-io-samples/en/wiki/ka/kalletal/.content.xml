@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Kalletal"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Kalletal" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox German Location
+|Wappen            = Wappen von Kalletal.svg
+|lat_deg           = 52 |lat_min = 07 |lat_sec = 00
+|lon_deg           = 08 |lon_min = 56 |lon_sec = 59
+|Lageplan          = Kalletal in LIP.svg
+|Bundesland        = Nordrhein-Westfalen
+|Regierungsbezirk  = Detmold
+|Kreis             = Lippe
+|Höhe              = 214
+|Fläche            = 112.43
+|Einwohner         = 14723
+|Stand             = 2009-06-30
+|Gemeindeschlüssel = 05766036
+|PLZ               = 32689
+|Vorwahl           = 05264
+|Kfz               = LIP
+|Website           = [http://www.kalletal.de/ www.kalletal.de]
+|Bürgermeister     = Andreas Karger
+|Partei            = CDU
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Kalletal&amp;apos;&amp;apos;&amp;apos; is a municipality in the [[Lippe]] district of [[North Rhine-Westphalia]], [[Germany]], with c. 15,300 inhabitants.
+
+==Comprising villages (Ortschaften)==
+* Asendorf
+* Bavenhausen
+* Bentorf
+* Brosen
+* Erder
+* Heidelbeck
+* Henstorf
+* Hohenhausen
+* Kalldorf
+* Langenholzhausen
+* Lüdenhausen
+* Osterhagen
+* Stemmen
+* Talle
+* Varenholz
+* Westorf
+
+== References ==
+{{reflist}}
+
+==External links==
+*[http://www.kalletal.de/ Official website] {{de icon}}
+
+{{Cities and towns in Lippe (district)}}
+
+[[Category:Towns in North Rhine-Westphalia]]
+
+{{Lippe-geo-stub}}
+
+{{Link GA|de}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

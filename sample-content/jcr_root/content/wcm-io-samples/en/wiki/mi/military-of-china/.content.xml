@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Military of China"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Military of China" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Military of China&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+*[[People&amp;apos;s Liberation Army]] (PRC)
+**[[People&amp;apos;s Liberation Army Hong Kong Garrison]]
+**[[People&amp;apos;s Liberation Army Macau Garrison]]
+*[[Republic of China Armed Forces]] (ROC, on Taiwan since 1949)
+
+For Chinese military before 1912, see:
+*[[Military history of China (pre-1911)]]
+
+{{disambig}}
+[[Category:Military of China| ]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

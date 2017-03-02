@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="HMS Victorious"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="HMS Victorious" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;Five ships of the [[Royal Navy]] have been named &amp;apos;&amp;apos;&amp;apos;HMS &amp;apos;&amp;apos;Victorious&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;.
+
+* {{HMS|Victorious|1785}}, launched at [[Blackwall Yard]], [[London]], was a 74-gun [[third-rate]] [[ship of the line]]
+* {{HMS|Victorious|1808}}, launched at [[Bucklers Hard]], was a 74-gun third-rate
+* {{HMS|Victorious|1895}} was a {{sclass-|Majestic|battleship}}. She had a quiet career, spending [[World War I]] as a dockyard repair ship before being broken up in 1923.
+* {{HMS|Victorious|R38}}, an {{sclass-|Illustrious|aircraft carrier}}, launched in 1939. She saw much action in [[World War II]]. She was scrapped in 1969.
+* {{HMS|Victorious|S29}}, launched in 1993, is a {{sclass-|Vanguard|submarine|4}} [[ballistic missile submarine]]
+
+;Other Ships
+*The Royal Navy predreadnought battleship {{HMS|Prince George|1895}} was briefly named HMS &amp;apos;&amp;apos;Victorious II&amp;apos;&amp;apos; in 1918-1919 before reverting to her original name.
+
+==See also==
+* [[Victorious (disambiguation)]]
+* {{HMS|Victor}}
+* {{HMS|Victoria}}
+* {{HMS|Victory}}
+
+{{Shipindex}}
+{{Italic title prefixed|3}}
+{{DEFAULTSORT:Victorious, Hms}}
+[[Category:Royal Navy ship names]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

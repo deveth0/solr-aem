@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Walter Staunton Mack Jr."
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Walter Staunton Mack Jr." />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{unreferenced|date=August 2009}}
+{{Infobox Person
+| name   = Walter Staunton Mack Jr.
+| birth_date  = {{Birth-date|1895}}
+| death_date = {{death-date|1990}}
+| occupation     = [[Businessman]], [[Financier]]
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Walter Staunton Mack Jr&amp;apos;&amp;apos;&amp;apos; (1895 – March 18, 1990) was a [[United States of America|U.S.]] drink [[businessman]] and [[financier]].  He was president of [[Pepsi-Cola]] [[Company (law)|Company]] from 1938 until 1951 after taking over from [[Charles Guth]]
+
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Mack, Walter Staunton, Jr.
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION =
+| DATE OF BIRTH     = 1895
+| PLACE OF BIRTH    =
+| DATE OF DEATH     = March 18, 1990
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Mack, Walter Staunton, Jr.}}
+[[Category:1895 births]]
+[[Category:1990 deaths]]
+[[Category:American businesspeople]]
+[[Category:PepsiCo people]]
+
+
+{{US-business-bio-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

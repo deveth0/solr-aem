@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Quality spread differential"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Quality spread differential" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2006}}
+&amp;apos;&amp;apos;&amp;apos;Quality Spread Differential&amp;apos;&amp;apos;&amp;apos; (QSD) arises during an [[interest rate swap]] in which two parties of different levels of [[creditworthiness]] experience different levels of interest rates of debt obligations. A positive QSD means that a [[swap (finance)|swap]] is in the interest of both parties.
+
+==Example==
+If Company A can borrow at a fixed rate of 12% or at [[LIBOR]]+2%, while Company B can borrow at a fixed rate of 10% or at LIBOR+1%, then there is a difference of 2% in fixed rate borrowings, but of only 1% in floating rate borrowings. A difference of 1% therefore exists as the QSD, and a swap would benefit both parties. The benefits are experienced as, although Company B has an absolute advantage over Company A, Company A has a comparative advantage at floating borrowing.
+
+Assuming Company A and Company B are willing to split the arbitrage profits equally, Company A would borrow $1,000,000 at a rate of LIBOR + 2% from the debt markets, while Company B would borrow $1,000,000 at a rate of 10% from the debt markets. Company A would further agree to enter a swap where it pays Company B 9.5% on $1,000,000 in exchange for Company B paying Company A the LIBOR rate on $1,000,000.
+
+Company A would owe the debt markets LIBOR + 2%, and owe Company B 9.5%, but would receive LIBOR from Company B. On net, Company A would now owe a total of 11.5%, which is lower than the 12% fixed rate at which it could have originally borrowed.
+
+Company B would owe the debt markets 10%, and owe Company A LIBOR, but would receive 9.5% from Company A. On net, Company B would owe LIBOR + 0.5%, which is lower than LIBOR + 1% floating rate at which it could have originally borrowed.
+
+Therefore, both parties are able to benefit from entering into a swap with the other.
+
+[[Category:Derivatives (finance)]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

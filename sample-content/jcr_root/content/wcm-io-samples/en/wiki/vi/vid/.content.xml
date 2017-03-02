@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Vid"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Vid" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|vid}}
+
+&amp;apos;&amp;apos;&amp;apos;Vid&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;VID&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+==In linguistics==
+
+* VID, the [[Sanskrit]] root of [[Vidya]], meaning &amp;quot;to know&amp;quot; and related to &amp;quot;[[veda]]&amp;quot;.
+* [[Vid (given name)]], Slavic given name
+
+==In mythology==
+
+* Vid or [[Svetovid]] (Svantovid), a Slavic god that is the origin of various Slavic toponyms
+* Víd, one of the [[Élivágar]] rivers in Norse mythology
+
+==In geography==
+
+* [[Vit]], a river in Bulgaria
+* [[Vid, Croatia]], a small settlement and archeological site near Metković
+* [[Vid, Hungary]], a village near Veszprém
+
+==In technology==
+
+* [[Voltage Identification Digital]], a digital specification for output voltages
+* Video Identifier, a little text that pops up with recognized product name
+* Logitech Vid, a VoIP service based on [[SightSpeed]]
+* VLAN Identifier, a data field in [[IEEE 802.1Q]] VLAN tagging
+* slang for [[video]] or [[videotape]]
+
+==In business==
+
+* [[Grupo Editorial Vid]], a publishing group from Mexico
+* [[VID (company)]], a television company in Russia
+* [[VID]], &amp;quot;Virtual Instrument Desktop&amp;quot;, data acquisition and control SCADA software from Codemachine Ltd.
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

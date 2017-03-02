@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Outpost (chess)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Outpost (chess)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Chess diagram|=
+| tright
+|
+|=
+|  |__|  |rl|nd|__|  |__|=
+|rl|  |__|  |  |  |  |  |=
+|pd|__|  |  |rd|pd|kd|pd|=
+|pl|rd|pd|__|pd|__|pd|__|=
+|__|pd|nl|__|  |__|__|__|=
+|__|pl|  |__|  |pl|__|pl|=
+|  |  |pl|  |__|kl|pl|__|=
+|__|__|  |  |__|  |__|  |=
+ a b c d e f g h
+| The white knight on c4 occupies a powerful outpost, defending the pawn on a5 and attacking the d6 square of the [[open file]]
+}}
+An &amp;apos;&amp;apos;&amp;apos;outpost&amp;apos;&amp;apos;&amp;apos; is a square which is protected by a [[Pawn (chess)|pawn]] and which cannot be attacked by an opponent&amp;apos;s pawn.  In the figure to the right,&amp;lt;ref&amp;gt;[http://www.chessgames.com/perl/chessgame?gid=1214005 [[Viswanathan Anand|Anand]] vs. [[Vassily Ivanchuk|Ivanchuk]], [[Melody Amber chess tournament|Amber]], 2001]&amp;lt;/ref&amp;gt; c4 is an outpost, occupied by White&amp;apos;s knight.  It can&amp;apos;t be attacked by Black&amp;apos;s pawns because there is no pawn on the d-file, and Black&amp;apos;s pawn on the b-file is too far advanced.
+
+Outposts are a favourable position from which to launch an attack, particularly using a [[Knight (chess)|knight]]. The reason an outpost is so strong is that it is immune to attack from major pieces ([[Rook (chess)|rooks]] and [[Queen (chess)|queens]]) because of the pawn, whilst if the enemy wishes to attack it with a pawn it generally weakens its own [[pawn structure]].
+
+Knights are most efficient when they are close to the enemy&amp;apos;s stronghold. This is because of their short reach, something not true of [[Bishop (chess)|bishops]], rooks and queens. They are also more effective in the centre of the board than on the edges. Therefore the ideal to be aimed at is an outpost in one of the central (c,d,e or f) files in an advanced position (i.e. the sixth rank) with a knight. Knowledge of outposts and their effectiveness is crucial in exploiting situations where you have an [[Isolated pawn|isolated queen&amp;apos;s pawn]].
+
+On the other hand, [[Nimzovich]] argued when the outpost is in one of the flank (a,b,g and h) files the ideal piece to make use of the outpost is a rook. This is because the rook can put pressure on all the squares along the rank.
+
+For further information see [[Nimzovich]]&amp;apos;s &amp;apos;&amp;apos;[[Mein System|My System]]&amp;apos;&amp;apos;.
+
+==Notes==
+{{reflist}}
+
+{{chess}}
+
+[[Category:Chess terminology]]
+[[Category:Chess strategy]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Vrisa"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Vrisa" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+[[Image:Vrissa - 1998-11-08 - 07.jpg|thumb|Aerial view of Vrisa village in summer 1998]]
+&amp;apos;&amp;apos;&amp;apos;Vrisa&amp;apos;&amp;apos;&amp;apos; ({{Lang-el|Βρίσα}}) is a village in the southern part of [[Lesbos Island|Lesbos]] island approximately 50&amp;amp;nbsp;km from [[Mytilene]]. The village is named after one of the two girls [[Agamemnon]] took from Lesbos during the ten-year [[Trojan War]]. Five kilometers south is the famous [[Vatera]] beach.
+
+==See also==
+*[[List of settlements in Lesbos]]
+
+{{Lesbos div}}
+
+{{coord|39|02|N|26|12|E|display=title|region:GR_type:city_source:GNS-enwiki}}
+
+[[Category:Populated places in Lesbos]]
+
+
+{{NorthAegean-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

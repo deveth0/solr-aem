@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="List of NATO reporting names for air-to-air missiles"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="List of NATO reporting names for air-to-air missiles" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[NATO reporting name]] for &amp;apos;&amp;apos;&amp;apos;AA&amp;apos;&amp;apos;&amp;apos; series [[air-to-air missile]]s, with [[Soviet Union|Soviet]] designations:
+
+* [[Kaliningrad K-5|AA-1]] &amp;quot;Alkali&amp;quot; (Kaliningrad K-5)
+* [[Vympel K-13|AA-2]] &amp;quot;Atoll&amp;quot; (Vympel K-13)
+* [[Kaliningrad K-8|AA-3]] &amp;quot;Anab&amp;quot; (Kaliningrad K-8)
+* [[Raduga K-9|AA-4]] &amp;quot;Awl&amp;quot; (Raduga K-9)
+* [[Bisnovat R-4|AA-5]] &amp;quot;Ash&amp;quot; (Bisnovat R-4)
+* [[Bisnovat R-40|AA-6]] &amp;quot;Acrid&amp;quot; (Bisnovat R-40)
+* [[Vympel R-23|AA-7]] &amp;quot;Apex&amp;quot; (Vympel R-23)
+* [[Molniya R-60|AA-8]] &amp;quot;Aphid&amp;quot; (Molniya R-60)
+* [[Vympel R-33|AA-9]] &amp;quot;Amos&amp;quot; (Vympel R-33)
+* [[Vympel R-27|AA-10]] &amp;quot;Alamo&amp;quot; (Vympel R-27)
+* [[Vympel R-73|AA-11]] &amp;quot;Archer&amp;quot; (Vympel R-73)
+* [[Vympel R-77|AA-12]] &amp;quot;Adder&amp;quot; (Vympel R-77)
+* [[Vympel R-37|AA-X-13]] &amp;quot;Arrow&amp;quot; (Vympel R-37)
+* - none - [[Novator K-100]] (was KS-172, R-172 etc.)
+
+&amp;apos;&amp;apos;See also&amp;apos;&amp;apos;: [[NATO reporting name]]
+
+{{Russian and Soviet missiles|AAM}}
+
+[[Category:Lists of NATO reporting names|air-to-air missiles]]
+[[Category:Cold War air-to-air missiles of the Soviet Union]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

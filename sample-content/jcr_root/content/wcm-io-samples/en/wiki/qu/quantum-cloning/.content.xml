@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Quantum cloning"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Quantum cloning" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Quantum cloning&amp;apos;&amp;apos;&amp;apos; is the process that takes an arbitrary, unknown [[quantum state]] and makes an exact copy without altering the original state in any way.  In [[Dirac notation]], the process of quantum cloning is described by:
+:&amp;lt;math&amp;gt;U |\psi\rangle_A |e\rangle_B = |\psi\rangle_A |\psi\rangle_B&amp;lt;/math&amp;gt;,
+where &amp;lt;math&amp;gt;U&amp;lt;/math&amp;gt; is the actual cloning operation, &amp;lt;math&amp;gt;|\psi\rangle_A&amp;lt;/math&amp;gt; is the state to be cloned, and &amp;lt;math&amp;gt;|e\rangle_B&amp;lt;/math&amp;gt; is the initial state of the copy.
+
+Quantum cloning is forbidden by the laws of [[quantum mechanics]] as shown by the [[no cloning theorem]], which proves that there is no &amp;lt;math&amp;gt;U&amp;lt;/math&amp;gt; that can perform the cloning operation for any arbitrary state &amp;lt;math&amp;gt;|\psi\rangle_A&amp;lt;/math&amp;gt;.  Though perfect quantum cloning is not possible, it is possible to perform imperfect cloning, where the copies have a non-unit [[Fidelity of quantum states|fidelity]] with the state being cloned.
+
+The quantum cloning operation is the best way to make copies of quantum information therefore cloning is  an important task in [[Quantum information science|quantum information processing]], especially in the context of [[quantum cryptography]].  Researchers are seeking ways to build quantum cloning machines, which work at the so-called [[quantum limit]].  The first cloning machine relied on [[stimulated emission]] to copy quantum information encoded into single photons. Teleportation, [[nuclear magnetic resonance]], quantum amplification and superior phase conjugation have been some other methods utilized to realize a quantum cloning machine.
+
+==References==
+* V. Buzek and M. Hillery, &amp;apos;&amp;apos;[http://xstructure.inr.ac.ru/x-bin/theme3.py?level=1&amp;amp;index1=373537 Quantum cloning]&amp;apos;&amp;apos;, Physics World 14 (11) (2001), pp.&amp;amp;nbsp;25–29.
+* Antía Lamas-Linares, Christoph Simon, John C. Howell, Dik Bouwmeester, &amp;apos;&amp;apos;[http://arxiv.org/abs/quant-ph/0205149 Experimental Quantum Cloning of Single Photons]&amp;apos;&amp;apos;, [[Science]] &amp;apos;&amp;apos;&amp;apos;296&amp;apos;&amp;apos;&amp;apos; 5568 (2002)
+* Zhao Zhi,   Zhang An-Ning,  Zhou Xiao-Qi,  Chen Yu-Ao, Lu  Chao-Yang,  Karlsson Anders,  Pan Jian-Wei, &amp;apos;&amp;apos;[http://arxiv.org/abs/quant-ph/0412017 Experimental Realization of Optimal Asymmetric Cloning and Telecloning via Partial Teleportation]&amp;apos;&amp;apos;, [[Phys. Rev. Lett]] &amp;apos;&amp;apos;&amp;apos;95&amp;apos;&amp;apos;&amp;apos; 030502 (2005)
+* Cummins  Holly K., Jones Claire, Furze Alistair, Soffe Nicholas F., Mosca Michele,  Peach Josephine M., Jones Jonathan A., &amp;apos;&amp;apos;[http://arxiv.org/abs/quant-ph/011198 Approximate Quantum Cloning with Nuclear Magnetic Resonance]&amp;apos;&amp;apos;, [[Phys. Rev. Lett]] &amp;apos;&amp;apos;&amp;apos;88&amp;apos;&amp;apos;&amp;apos; 187901 (2002)
+* [[Samuel L. Braunstein]], Nicolas J. Cerf, Sofyan Iblisdir, Peter van Loock, and Serge Massar &amp;apos;&amp;apos;[http://arxiv.org/abs/quant-ph/0012046 Optimal Cloning of Coherent States with a Linear Amplifier and Beam Splitters]&amp;apos;&amp;apos;, [[Phys. Rev. Lett]] &amp;apos;&amp;apos;&amp;apos;86&amp;apos;&amp;apos;&amp;apos; 4938 (2001)
+* Metin Sabuncu, Ulrik L. Andersen, and Gerd Leuchs  &amp;apos;&amp;apos;[http://arxiv.org/abs/quant-ph/0612197 Experimental Demonstration of Continuous Variable Cloning with Phase-Conjugate Inputs]&amp;apos;&amp;apos;, [[Phys. Rev. Lett]] &amp;apos;&amp;apos;&amp;apos;98&amp;apos;&amp;apos;&amp;apos; 170503 (2007)
+
+==See also==
+* [[No-cloning theorem]]
+* [[No-broadcast theorem]]
+* [[Quantum no-deleting theorem]]
+
+[[Category:Quantum mechanics]]
+[[Category:Quantum information science]]
+
+{{quantum-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

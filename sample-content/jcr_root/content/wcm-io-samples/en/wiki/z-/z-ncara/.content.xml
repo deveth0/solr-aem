@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Záncara"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Záncara" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox_River
+  | river_name      = Záncara
+  | image_name      = Rio zancara con agua pm.JPG
+  | image_size      =
+  | caption         = The Záncara near [[Pedro Muñoz]]
+  | origin          = [[Abia de la Obispalía]], [[Province of Cuenca (Spain)|Cuenca Province]]&amp;lt;br&amp;gt;({{flag|Castile-La Mancha}})
+  | mouth           = [[Cigüela]]
+  | basin_countries = Spain
+  | length          = 168 km
+  | elevation       = 1020 m
+  | mouth_elevation = 630 m
+  | discharge       = 1.93 m³/s
+  | watershed       = 5726 km²
+}}
+The &amp;apos;&amp;apos;&amp;apos;Záncara&amp;apos;&amp;apos;&amp;apos; is a 168&amp;amp;nbsp;km long river in [[Castile-La Mancha]], Spain. It is a tributary to the [[Cigüela]], a tributary of the [[Guadiana]]. Its source is near the village [[Abia de la Obispalía]], west of [[Cuenca, Spain|Cuenca]], in the  [[Sistema Ibérico|Iberian System]]. The Záncara flows southwest, along the town of [[Socuéllamos]]. Its main tributaries are the [[Rus River|Rus]], [[Saona River|Saona]] and [[Río Córcoles|Córcoles]].
+
+It flows into the Cigüela from the left near the [[Ojos del Guadiana]], [[Villarrubia de los Ojos]] municipal term. There are authors though that claim that it is the Cigüela that flows into the Záncara.&amp;lt;ref&amp;gt;ALMAGRO COSTA, Juan, 2006. &amp;apos;&amp;apos;Las huellas del Guadiana&amp;apos;&amp;apos; Org. Auton. Parques Nacionales. MMA. ISBN 84-8014-643-5&amp;lt;/ref&amp;gt;
+== See also ==
+* [[List of rivers of Spain]]
+== References==
+{{reflist}}
+
+== External links ==
+* [http://www.chguadiana.es/ Confederación hidrográfica del Guadiana]
+
+{{coord|39|24|N|2|57|W|source:cawiki_region:ES_type:river|display=title}}
+{{DEFAULTSORT:Zancara}}
+[[Category:Rivers of Spain]]
+
+{{CastileLaMancha-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

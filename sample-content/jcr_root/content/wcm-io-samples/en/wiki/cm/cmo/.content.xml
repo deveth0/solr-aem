@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="CMO"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="CMO" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary}}
+&amp;apos;&amp;apos;&amp;apos;CMO&amp;apos;&amp;apos;&amp;apos; is a [[three-letter abbreviation]] that may stand for:
+
+==Business==
+* [[Chief marketing officer]]
+* [[Chief Medical Officer (disambiguation)]], the senior government official designated head of medical services
+
+==People and groups==
+* [[Canadian Mathematical Olympiad]]
+* [[Chicago, St. Paul, Minneapolis and Omaha Railway]]
+* [[Chi Mei]] Optoelectronics, producer of TFT LCD panels
+* [[Commodore&amp;apos;s Messenger Organization]], a high-ranking group with the Scientology Sea Organisation
+* [[Congressional caucus]], or a congressional member organization
+* [[Contract manufacturing organization]], a pharmaceutical manufacturing outsourcing organization
+* [[Cyprus Mathematical Olympiad]]
+
+==Science and engineering==
+*[[Central massive object]] at the center of a galaxy, either a supermassive black hole, or a nuclear star cluster
+*[[Cetyl myristoleate]], a health supplement
+*[[Corticosterone 18-monooxygenase]], an enzyme involved in steroid hormone metabolism
+*[[Cubic Mile of Oil]], a global-scale measure of energy, roughly equal to the amount of oil consumed worldwide each year
+
+==Other uses==
+* &amp;apos;&amp;apos;[[CAMPUS Magazine Online]]&amp;apos;&amp;apos;
+* Charter Management Organization, in American education refers to the operator of a [[charter school]]
+* [[Check Mii Out]], channel for the Wii
+* [[Civil-military operations]], activities of a military force
+* [[Collateralized mortgage obligation]]
+* [[Collective rights management|Collective Management Organization]], typically represent groups of copyright and related rights owners
+* [[Cripple Mr Onion]], a fictional card game in the Discworld universe
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

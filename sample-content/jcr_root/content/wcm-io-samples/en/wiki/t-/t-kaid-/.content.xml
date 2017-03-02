@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Tōkaidō"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Tōkaidō" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In Japanese, &amp;apos;&amp;apos;&amp;apos;Tōkaidō&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+Spelled 東海道 (literally, East Sea Route):
+*[[Tōkaidō (region)]], an ancient country subdivision of Japan
+*[[Tōkaidō (road)]], one of the Five Routes of Japan during the Edo period
+**[[Route 1 (Japan)]], a major national highway in Japan that traces old Tōkaidō except Tōkyō-Yokohama section
+**[[Route 15 (Japan)]], a major national highway in Japan that traces old Tōkaidō between Tōkyō and Yokohama
+*[[Tōkaidō Main Line]], a trunk line of Japan Railways that traces old Tōkaidō
+*[[Tōkaidō Shinkansen]], a high-speed railway line of Central Japan Railway Company
+Other spellings:
+*[[Tokaido (company)]] (東海堂) (literally, Eastern Sea Shop), a manufacturer of karate uniforms and related products
+
+==See also==
+* [[Tokai (disambiguation)]] including Tōkai (東海)
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

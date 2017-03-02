@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Oral"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Oral" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|Oral|oral|orally}}
+The word &amp;apos;&amp;apos;&amp;apos;oral&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+As an &amp;apos;&amp;apos;&amp;apos;adjective:&amp;apos;&amp;apos;&amp;apos;
+* the [[mouth]], the first portion of the alimentary canal that receives food and saliva
+* [[speech communication]] as opposed to writing
+* [[oral administration]] of medicines
+* oral schools, schools that use [[oralism]] to teach the deaf
+* [[oral stage]], Sigmund Freud&amp;apos;s name for a child&amp;apos;s development during the first 0 to 18 months of life, in which an infant&amp;apos;s pleasure centers are in the mouth
+* [[oral sex]], sexual activity involving the stimulation of the genitalia of a sex partner by the use of the mouth, tongue, teeth or throat
+
+== Other ==
+* [[Oral, Kazakhstan]], a city
+* [[Oral, South Dakota]]
+* Royaume d, &amp;apos;Oral, 18th Century French name for the Principality of [[Bethio]] on the Senegal River in West Africa
+* [[Oral Roberts]] (1918–2009), American televangelist
+* [[Oral Roberts University]], named after the televangelist
+* [[Oral submucous fibrosis]], a chronic debilitating disease of the oral cavity characterized by inflammation and progressive fibrosis of the submucosal tissues
+* [[Oral rehydration therapy]], a simple treatment for dehydration associated with diarrhea, particularly gastroenteritis or gastroenteropathy
+* [[Oral-B]], a brand of oral hygiene products
+
+==See also==
+* [[Ural (disambiguation)]]
+* [[Orel (disambiguation)]]
+* [[Aural]]
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

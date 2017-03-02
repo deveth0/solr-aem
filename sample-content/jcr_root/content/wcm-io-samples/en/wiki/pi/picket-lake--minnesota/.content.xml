@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Picket Lake, Minnesota"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Picket Lake, Minnesota" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+&amp;apos;&amp;apos;&amp;apos;Picket Lake&amp;apos;&amp;apos;&amp;apos; is an [[unorganized territory]] located in [[St. Louis County, Minnesota|St. Louis County]], [[Minnesota]], [[United States]]. As of the [[United States Census, 2000|2000 census]], its population was zero.
+
+==Geography==
+According to the [[United States Census Bureau]], the unorganized territory has a total area of 37.0&amp;amp;nbsp;square miles (95.8&amp;amp;nbsp;km²); 35.2&amp;amp;nbsp;square miles (91.1&amp;amp;nbsp;km²) of it is land and 1.8&amp;amp;nbsp;square miles (4.7&amp;amp;nbsp;km²) of it is [[water]]. The total area is 4.87% water.
+
+{{St. Louis County, Minnesota}}
+
+{{coord|48|06|22|N|92|23|06|W|display=title}}
+
+[[Category:Populated places in St. Louis County, Minnesota]]
+[[Category:Unorganized territories in Minnesota]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

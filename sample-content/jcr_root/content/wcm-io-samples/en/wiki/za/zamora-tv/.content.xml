@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Zamora TV"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Zamora TV" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{unreferenced|date=November 2009}}
+{{Infobox Network |
+network_name = Zamora TV |
+network_logo =  |
+network_type = [[Terrestrial television|Broadcast]] [[television network]] |
+branding     =  |
+country      = [[Venezuela]] |
+available    = [[Villa de Cura]], [[Zamora Municipality, Aragua|Zamora Municipality]], [[Aragua (state)|Aragua]] ([[Ultra high frequency|UHF]] channel 61) |
+founder = |
+slogan       = |
+owner        = Zamora TV (a community foundation) |
+key_people   = Miguel Ortiz, legal representative |
+launch_date  = August 2004 |
+website      =  |
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Zamora TV&amp;apos;&amp;apos;&amp;apos; is a [[Venezuela]]n community television channel.  It was created in August 2004 and can be seen in the community of [[Villa de Cura]] in the [[Zamora Municipality, Aragua|Zamora Municipality]] of the [[Aragua (state)|Aragua State]] of [[Venezuela]] on [[Ultra high frequency|UHF]] channel 61.  Miguel Ortiz is the legal representative of the foundation that owns this channel.
+
+Zamora TV does not have a website.
+
+==See also==
+*[[List of Venezuelan television channels]]
+
+{{DEFAULTSORT:Zamora Tv}}
+[[Category:Venezuelan television networks]]
+[[Category:Television stations in Venezuela]]
+
+
+{{Venezuela-tv-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

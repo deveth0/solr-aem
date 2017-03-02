@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Interlink Electronics"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Interlink Electronics" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{multiple issues|
+{{notability|date=September 2011}}
+{{primary sources|date=September 2011}}
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Interlink Electronics&amp;apos;&amp;apos;&amp;apos; is a technology company that specializes in manufacturing sensors that are used in electronic portable devices, such as smartphones, GPS systems, and in industrial computers and systems controls.
+
+==History==
+Founded in 1984. Released the first [[force-sensing resistor]] for use in music electronic drum pads.
+
+In 2001, Interlink joined Microsoft in designing the [[game controller|controller]] for the [[Xbox (console)|Xbox]] console.&amp;lt;ref&amp;gt;{{cite web|url=http://www.gamasutra.com/php-bin/news_index.php?story=96|title=Microsoft Teams with Interlink Electronics for Xbox Controllers|author=Matthew Barker|publisher=Gamasutra|date=2001-01-16|accessdate=2006-12-27}}&amp;lt;/ref&amp;gt;
+
+==Products==
+Interlink manufactures Force-Sensing Resistor sensors for evaluation, industrial computing and systems control products.
+
+==History==
+Interlink previously had two major product divisions: Specialty Sensors and eTransactions. The eTransactions division manufactured and sold the ePad family and IntegriSign signature software.
+
+==References==
+{{reflist}}
+
+== External links ==
+*[http://www.interlinkelectronics.com/ Interlink Electronics website]
+*[http://www.interlinkelectronics.com/force_sensors/products/forcesensingresistors/index.html FSR(tm)]
+
+[[Category:Computer companies]]
+
+
+{{compu-company-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

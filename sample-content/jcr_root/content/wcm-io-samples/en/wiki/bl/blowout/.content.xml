@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Blowout"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Blowout" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;lt;!-------------------------------------------------------------------------------&amp;gt;
+&amp;lt;!--    MoS:Disambiguation - prefer ONE LINK per entry, short descriptions.    --&amp;gt;
+&amp;lt;!-- Avoid piping, external links, and red links with little article potential --&amp;gt;
+&amp;lt;!-------------------------------------------------------------------------------&amp;gt;
+{{wiktionarypar|blowout|blow out}}
+&amp;apos;&amp;apos;&amp;apos;Blowout&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;Blow out&amp;apos;&amp;apos;&amp;apos; can refer to:
+
+==Science and technology==
+*[[Blowout (well drilling)]], a sudden release of oil and gas from a well
+*[[Blowout (geology)]], a sandy depression caused by the removal of sediment by wind
+*[[Blowout grass]], a grass found on sand dunes
+*[[Blowout fracture]], a type of skull fracture
+*[[Blowout (tire)]], a sudden loss of tire pressure
+
+==Media==
+*&amp;apos;&amp;apos;[[Blow Out]]&amp;apos;&amp;apos;, a 1981 film directed by Brian De Palma
+*[[Blow Out (TV series)|&amp;apos;&amp;apos;Blow Out&amp;apos;&amp;apos; (TV series)]], on Bravo network
+*&amp;quot;Blow Out&amp;quot;, a song from Radiohead&amp;apos;s &amp;apos;&amp;apos;[[Pablo Honey]]&amp;apos;&amp;apos;
+*&amp;quot;Blowout&amp;quot;, a 2001 song from The Crystal Method&amp;apos;s &amp;apos;&amp;apos;[[Tweekend]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[BlowOut]]&amp;apos;&amp;apos;, a 2004 video game
+* &amp;quot;Blowout&amp;quot;, an episode of the TV series &amp;apos;&amp;apos;[[Mayday (TV series)|Mayday]]&amp;apos;&amp;apos; about British Airways Flight 5390
+* &amp;apos;&amp;apos;Blowout&amp;apos;&amp;apos;, a novel by [[Byron Dorgan]] and [[David Hagberg]]
+
+==Other==
+*[[Blowout (hairstyle)]]
+*[[Blowout (sports)]], an easy or one-sided victory
+* Blown out highlights in a photograph, also called [[clipping (photography)|clipping]]
+* Blowout, an ink blur in a [[tattoo]]
+* Blow-out, another name for a [[party horn]]
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

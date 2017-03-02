@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Queen&#x27;s High School, Dunedin"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Queen&#x27;s High School, Dunedin" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox school
+| name        = Queen&amp;apos;s High School
+| seal_image  =
+| motto       = &amp;quot;Through Love of Learning, We Learn to Live.&amp;quot;
+| type        = Girls&amp;apos; Secondary
+| established = 1955
+| address     = 195 Surrey Street,&amp;lt;br&amp;gt;St Clair,&amp;lt;br&amp;gt;Dunedin
+| coordinates = {{coord|45.903551|S|170.492071|E|type:edu_region:NZ-OTA|display=inline,title}}
+| principal   = Julie Anderson
+| roll        = 603
+| decile      = 5&amp;lt;ref&amp;gt;[http://www.minedu.govt.nz/web/downloadable/dl7698_v1/decile-changes-2007-2008-web-state-s-integ.xls Decile change 2007 to 2008 for state &amp;amp; state integrated schools]&amp;lt;/ref&amp;gt;
+| MOE         = 384
+| homepage    = [http://www.queens.school.nz/ queens.school.nz]
+}}
+&amp;apos;&amp;apos;&amp;apos;Queen&amp;apos;s High School&amp;apos;&amp;apos;&amp;apos; is a state single-sex girls&amp;apos; secondary school in [[Dunedin, New Zealand|Dunedin]]. It is located at the southern end of the city close to the boundary between the suburbs of [[Saint Clair, New Zealand|St. Clair and Forbury]], next to the parallel single-sex boys&amp;apos; school, [[King&amp;apos;s High School, Dunedin|King&amp;apos;s]], with which it shares some facilities.
+
+==Notes==
+{{reflist}}
+
+[[Category:Secondary schools in Dunedin]]
+[[Category:Girls&amp;apos; schools in New Zealand]]
+
+
+{{NZ-school-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

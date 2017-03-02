@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Neo-Cartesian"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Neo-Cartesian" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{unreferenced|date=June 2008}}
+
+Philosophers and psychologists are described as being &amp;apos;&amp;apos;&amp;apos;neo-[[Cartesianism|Cartesian]]&amp;apos;&amp;apos;&amp;apos; if they posit &amp;apos;mind stuff&amp;apos; as being different from &amp;apos;brain stuff&amp;apos; and if they posit &amp;apos;internal cognitive states&amp;apos; as having causal powers. Some philosophers (e.g. [[Hubert Dreyfus]]) have argued that [[artificial intelligence]] theories (and [[Cognitivism (psychology)|cognitivist]] theories generally), for all their alleged &amp;apos;materialism&amp;apos;, are actually neo-Cartesian.
+
+{{philosophy-stub}}
+[[Category:Philosophical schools and traditions]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

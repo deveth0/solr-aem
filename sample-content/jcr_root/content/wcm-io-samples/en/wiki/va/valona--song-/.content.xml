@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Valona (song)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Valona (song)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+{{For|the [[Albania]]n city|Vlorë}}
+{{Orphan|date=February 2009}}
+
+The &amp;apos;&amp;apos;&amp;apos;valona&amp;apos;&amp;apos;&amp;apos; is a popular narrative song- and poetry-form of the Mexican state of [[Michoacán]]. Its main characteristics are: a bitter sense of humor, mainly with reference to [[erotism]] (being even sexually explicit at times) and social concerns; its lyrics are composed as groupings of ten-line strophes, each line made up of eight syllables; musically, all valonas are sung (in fact, almost recited) to just a single tune, with an instrumental refrain after each strophe, which can vary.
+
+As a narrative popular genre, the valona is literarily and musically related to the Mexican [[corrido]], and because of its stylistic, it is akin with other Mexican genres composed in ten minor-verse strophes (&amp;apos;&amp;apos;décimas&amp;apos;&amp;apos; or &amp;apos;&amp;apos;[[espinela]]s&amp;apos;&amp;apos;), such as some [[huapango]]s and the [[son arribeño]], along with certain other Latin American genres, such as the Chilean [[run-run]] and the rhapsodes of the Argentine [[payador]]es.
+
+{{DEFAULTSORT:Valona (Song)}}
+[[Category:Mexican music]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

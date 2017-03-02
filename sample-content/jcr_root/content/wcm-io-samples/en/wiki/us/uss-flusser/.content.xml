@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="USS Flusser"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="USS Flusser" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Italic title prefixed|3}}
+Several [[ship]]s of [[United States Navy]] were named &amp;apos;&amp;apos;&amp;apos;USS &amp;apos;&amp;apos;Flusser&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; for [[Charles W. Flusser|Charles Williamson Flusser]]:
+* The first [[USS Flusser (1864)|&amp;apos;&amp;apos;Flusser&amp;apos;&amp;apos;]] was captured in 1864 and sold in 1865.
+* The second [[USS Flusser (DD-20)|&amp;apos;&amp;apos;Flusser&amp;apos;&amp;apos; (DD-20)]] was a [[Smith class destroyer|&amp;apos;&amp;apos;Smith&amp;apos;&amp;apos;-class]] [[destroyer]], commissioned in 1909 and sold in 1919.
+* The third [[USS Flusser (DD-289)|&amp;apos;&amp;apos;Flusser&amp;apos;&amp;apos; (DD-289)]] was a [[Clemson class destroyer|&amp;apos;&amp;apos;Clemson&amp;apos;&amp;apos;-class]] destroyer, commissioned in 1920 and scrapped in 1930.
+* The fourth [[USS Flusser (DD-368)|&amp;apos;&amp;apos;Flusser&amp;apos;&amp;apos; (DD-368)]] was a [[Mahan class destroyer|&amp;apos;&amp;apos;Mahan&amp;apos;&amp;apos;-class]] destroyer, commissioned in 1936 and decommissioned in 1946.
+
+{{Shipindex}}
+
+{{DEFAULTSORT:Flusser}}
+[[Category:United States Navy ship names]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

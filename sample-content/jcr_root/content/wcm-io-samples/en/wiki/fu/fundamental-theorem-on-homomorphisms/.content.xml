@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Fundamental theorem on homomorphisms"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Fundamental theorem on homomorphisms" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[abstract algebra]], the &amp;apos;&amp;apos;&amp;apos;[[fundamental theorem]] on homomorphisms&amp;apos;&amp;apos;&amp;apos;, also known as the &amp;apos;&amp;apos;&amp;apos;fundamental homomorphism theorem&amp;apos;&amp;apos;&amp;apos;, relates the structure of two objects between which a [[homomorphism]] is given, and of the [[Kernel (algebra)|kernel]] and image of the homomorphism.
+
+The homomorphism theorem is used to prove the [[isomorphism theorem]]s.
+
+== Group theoretic version ==
+
+Given two [[group (mathematics)|group]]s &amp;apos;&amp;apos;G&amp;apos;&amp;apos; and &amp;apos;&amp;apos;H&amp;apos;&amp;apos; and a [[group homomorphism]] &amp;apos;&amp;apos;f&amp;apos;&amp;apos; : &amp;apos;&amp;apos;G&amp;apos;&amp;apos;→&amp;apos;&amp;apos;H&amp;apos;&amp;apos;,  let &amp;apos;&amp;apos;K&amp;apos;&amp;apos; be a [[normal subgroup]] in &amp;apos;&amp;apos;G&amp;apos;&amp;apos; and φ the natural [[surjective]] homomorphism &amp;apos;&amp;apos;G&amp;apos;&amp;apos;→&amp;apos;&amp;apos;G&amp;apos;&amp;apos;/&amp;apos;&amp;apos;K&amp;apos;&amp;apos; (where &amp;apos;&amp;apos;G&amp;apos;&amp;apos;/&amp;apos;&amp;apos;K&amp;apos;&amp;apos; is a [[quotient group]]). If &amp;apos;&amp;apos;K&amp;apos;&amp;apos; is a subset of [[kernel (algebra)|ker]](&amp;apos;&amp;apos;f&amp;apos;&amp;apos;) then there exists a unique homomorphism &amp;apos;&amp;apos;h&amp;apos;&amp;apos;:&amp;apos;&amp;apos;G&amp;apos;&amp;apos;/&amp;apos;&amp;apos;K&amp;apos;&amp;apos;→&amp;apos;&amp;apos;H&amp;apos;&amp;apos; such that &amp;apos;&amp;apos;f&amp;apos;&amp;apos; = &amp;apos;&amp;apos;h&amp;apos;&amp;apos; φ.
+
+The situation is described by the following [[commutative diagram]]:
+
+[[File:FundHomDiag.png]]
+
+By setting &amp;apos;&amp;apos;K&amp;apos;&amp;apos; = ker(&amp;apos;&amp;apos;f&amp;apos;&amp;apos;) we immediately get the [[first isomorphism theorem]].
+
+== Other versions ==
+Similar theorems are valid for [[monoid]]s, [[vector space]]s, [[module (mathematics)|modules]], and [[ring (mathematics)|rings]].
+
+==See also==
+* [[Quotient category]]
+
+==External links==
+*[http://planetmath.org/encyclopedia/FundamentalHomomorphismTheorem.html A proof at planetmath]
+
+{{Fundamental theorems}}
+
+[[Category:Theorems in abstract algebra]]
+[[Category:Fundamental theorems|Homomorphisms]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="XENKA-AM"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="XENKA-AM" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox Radio station
+ | name = XENKA-AM
+ | image = [[Image:Xenka color.jpg|150px]]
+ | city =  [[Felipe Carrillo Puerto, Quintana Roo]], [[Mexico]]
+ | area = [[Quintana Roo]]
+ | branding = La Voz del Gran Pueblo
+ | slogan =
+ | airdate = 15 June 1999
+ | frequency = 1030 KHz
+ | format = Indigenous community radio
+ | power = 5000 W
+ | erp =
+ | class =
+ | callsign_meaning = &amp;apos;&amp;apos;Noj Kaaj&amp;apos;&amp;apos; (&amp;quot;gran pueblo&amp;quot;)
+ | former_callsigns =
+ | owner = [[Comisión Nacional para el Desarrollo de los Pueblos Indígenas|CDI]] &amp;amp;ndash; [[Sistema de Radiodifusoras Culturales Indigenistas|SRCI]]
+ | webcast =
+ | website = [http://www.cdi.gob.mx/index.php?id_seccion=1037 XENKA]
+ | affiliations =
+}}
+
+&amp;apos;&amp;apos;&amp;apos;XENKA-AM&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;La Voz del Gran Pueblo&amp;apos;&amp;apos; – &amp;quot;The Voice of the Great People&amp;quot;)
+is an [[Indigenous peoples of Mexico|indigenous]] [[community radio]] [[radio station|station]]
+that broadcasts in [[Spanish (language)|Spanish]] and [[Yucatec Maya]] from [[Felipe Carrillo Puerto]], in the [[Mexican state]] of [[Quintana Roo]].
+It is run by the [[Cultural Indigenist Broadcasting System]] (SRCI) of the [[National Commission for the Development of Indigenous Peoples]] (CDI).
+
+{{Location map
+ |Mexico
+ |label=XENKA | marksize=7
+ |mark=Locator_Dot.png
+ |lat_deg=19|lat_min=34
+ |lon_deg=88|lon_min=02|lon_dir=W
+ |position=left
+ |width=300
+ |float=none
+ |background=yellow
+ |caption= Transmitter: {{coord|19|34|N|88|02|W}}
+}}
+==References==
+*[http://www.cdi.gob.mx/index.php?id_seccion=1037 XENKA] (CDI-SRCI)
+{{Quintana Roo Radio}}
+{{Mexico-radio-station-stub}}
+
+[[Category:Community radio stations in Mexico]][[Category:Radio stations in Quintana Roo]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Combined distribution frame"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Combined distribution frame" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{no footnotes|date=January 2013}}
+In [[telecommunication]], a &amp;apos;&amp;apos;&amp;apos;combined distribution frame&amp;apos;&amp;apos;&amp;apos; (CDF) is a [[distribution frame]] that combines the functions of [[Main distribution frame|main]] and [[intermediate distribution frame]]s and contains both vertical and horizontal terminating blocks.
+
+The vertical blocks are used to terminate the permanent outside lines entering the station. Horizontal blocks are used to terminate [[inside plant]] equipment. This arrangement permits the association of any outside [[telephone line|line]] with any desired [[terminal equipment]]. These connections are made either with twisted pair wire, normally referred to as jumper wire, or with [[optical fiber]] cables, normally referred to as jumper cables.
+
+In technical control facilities, the vertical side may be used to terminate equipment as well as outside lines. The horizontal side is then used for jackfields and battery terminations.
+
+==References==
+{{FS1037C MS188}}
+
+[[Category:Broadcast engineering]]
+[[Category:Telephony equipment]]
+
+
+{{telecomm-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Hokkaido Shimbun"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Hokkaido Shimbun" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox Newspaper |
+name = The Hokkaido Shimbun |
+type = Daily [[newspaper]] |
+format = Blanket (54.6 cm x 40.65 cm) |
+foundation = January 20, 1887 |
+price = Morning edition: 130 [[Japanese yen|Yen]]/copy&amp;lt;br /&amp;gt; Evening edition: 50 Yen/copy&amp;lt;br /&amp;gt; Subscription: 3,925 Yen/month (Morning and evening edition)|
+owners = The Hokkaido Shimbun Press |
+publisher = Ikuo Kikuchi |
+language = [[Japanese language|Japanese]] |
+circulation = Morning edition: 1,223,184 &amp;lt;br /&amp;gt; Evening edition: 673,410&amp;lt;br /&amp;gt; (Japan [[Audit Bureau of Circulations (Japan)|ABC]], average for January–June 2005)|
+headquarters = [[Sapporo, Hokkaido|Sapporo]] |
+website = [http://www.hokkaido-np.co.jp/ www.hokkaido-np.co.jp]|
+}}
+[[Image:Doshin Building Sapporo 20070603-001.jpg|thumb|Headquarters of the Hokkaido Shimbun Press in Sapporo.]]
+The {{nihongo|&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Hokkaido Shimbun&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;|北海道新聞|Hokkaidō Shinbun}}, which is often abbreviated as {{nihongo|&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Doshin&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;|道新|Dōshin}}, is a [[Japanese language]] daily [[newspaper]] published mainly in [[Hokkaidō]], [[Japan]] by {{nihongo|&amp;apos;&amp;apos;&amp;apos;The Hokkaido Shimbun Press&amp;apos;&amp;apos;&amp;apos;|株式会社北海道新聞社|Kabushiki-gaisha Hokkaidō Shinbunsha}}. As of November 2006, its morning edition has a circulation of 1,208,175.&amp;lt;ref&amp;gt;According to the circulation report to Japan Audit Bureau of Circulations, on {{ja icon}} [http://www5.hokkaido-np.co.jp/information/kai/ Hokkaido Shimbun&amp;apos;s corporate profile].&amp;lt;/ref&amp;gt; It was first published in [[Sapporo]] in 1887.
+
+== References ==
+{{reflist}}
+
+== External links ==
+*[http://www.hokkaido-np.co.jp/ Hokkaido Shimbun] (Japanese)
+
+{{Japanese Newspapers}}
+
+[[Category:Newspapers published in Japan]]
+[[Category:1887 establishments in Japan]]
+[[Category:Publications established in 1887]]
+[[Category:Newspaper companies of Japan]]
+[[Category:Companies based in Hokkaido]]
+[[Category:Media in Sapporo]]
+
+{{Asia-newspaper-stub}}
+{{Japan-company-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

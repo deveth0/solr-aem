@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Valentinian"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Valentinian" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Valentinian&amp;apos;&amp;apos;&amp;apos; was the name of several [[Roman emperor]]s:
+
+* [[Valentinian I]] (321–375), Roman emperor from 364 to 375, son of [[Gratian the Elder]], commonly known as Valentinian the Great
+* [[Valentinian II]] (371–392), Roman Emperor from 375 to 392
+* [[Valentinian III]] (419–455), Western Roman Emperor from 425 to 455
+
+==Other==
+* [[Valentinian (play)]], a Jacobean era stage play
+*[[Valentinus (Gnostic)|Valentinius]], gnostic theologian and founder of Valentinianism, sometimes known as Valentinian
+*[[Valentinian dynasty]], Imperial Roman dynasty founded by Valentinian I
+
+==See also==
+*[[Valentine]], an Anglicization of &amp;apos;&amp;apos;Valentinian&amp;apos;&amp;apos;, &amp;apos;&amp;apos;Valentinus&amp;apos;&amp;apos;, and &amp;apos;&amp;apos;Valentinius&amp;apos;&amp;apos;
+*[[Valentinus]]
+{{hndis}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

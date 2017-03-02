@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Oshkosh"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Oshkosh" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Oshkosh&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+;Places in the United States
+* [[Oshkosh, Wisconsin]], a city and the largest place with the name
+* [[Oshkosh (town), Wisconsin]]
+* [[Oshkosh Township, Yellow Medicine County, Minnesota]]
+* [[Oshkosh, Nebraska]]
+* [[Oshkosh Township, Wells County, North Dakota]]
+
+;Other
+* [[Chief Oshkosh]] (1795–1858), chief of the Menominee American Indian tribe
+* [[OshKosh B&amp;apos;Gosh]], Inc., a children&amp;apos;s apparel company headquartered in Oshkosh, Wisconsin
+* [[Oshkosh Corporation]], a truck maker
+* [[EAA AirVenture Oshkosh]] airshow held each year at the end of July in [[Oshkosh, Wisconsin]]
+* [[University of Wisconsin–Oshkosh]]
+* [[Glacial Lake Oshkosh]], a glacial lake in the Oshkosh, Wisconsin area, ancestral to [[Lake Winnebago]]
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

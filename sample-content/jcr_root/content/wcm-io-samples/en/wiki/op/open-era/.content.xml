@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Open era"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Open era" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Open era&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;Open Era&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* [[Open Era]] (tennis), the period since 1968 where professionals can compete in Grand Slams
+* [[Glasnost]] era, the increased openness in the Soviet Union from the mid-1980s
+
+&amp;apos;&amp;apos;&amp;apos;Open era&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;wide-open era&amp;apos;&amp;apos;&amp;apos;, may also refer to:
+* [[Open range]] era of the [[American Old West]] when cattle were allowed to roam freely in many states
+* Early 20th century in many U.S. communities when gambling, prostitution, and/or other vices were tolerated by local governments. Among these communities were:
+** [[Open Era of Galveston|Galveston, Texas]]
+** [[Hot Springs, Arkansas#Gangsters and illegal gambling|Hot Springs, Arkansas]]
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

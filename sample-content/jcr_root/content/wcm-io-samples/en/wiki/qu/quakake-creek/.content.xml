@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Quakake Creek"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Quakake Creek" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Quakake Creek&amp;apos;&amp;apos;&amp;apos; is a {{convert|12.0|mi|km|adj=mid|-long}}&amp;lt;ref name=NHD&amp;gt;U.S. Geological Survey. National Hydrography Dataset high-resolution flowline data. [http://viewer.nationalmap.gov/viewer/ The National Map], accessed April 1, 2011&amp;lt;/ref&amp;gt; [[tributary]] of [[Black Creek (Lehigh River)|Black Creek]] in [[Carbon County, Pennsylvania|Carbon County]], [[Pennsylvania]].
+
+Quakake Creek ([[Native Americans in the United States|Native American]] for &amp;quot;pine woods&amp;quot;) joins Black Creek near the borough of [[Weatherly, Pennsylvania|Weatherly]], approximately {{convert|4.3|mi}} upstream of the [[Lehigh River]].
+
+==See also==
+*[[List of rivers of Pennsylvania]]
+
+==References==
+{{Reflist}}
+*Gertler, Edward. &amp;apos;&amp;apos;Keystone Canoeing&amp;apos;&amp;apos;, Seneca Press, 2004. ISBN 0-9749692-0-6
+
+{{coord missing|Pennsylvania}}
+
+[[Category:Tributaries of the Lehigh River]]
+[[Category:Rivers of Pennsylvania]]
+[[Category:Geography of Carbon County, Pennsylvania]]
+
+
+{{CarbonPA-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

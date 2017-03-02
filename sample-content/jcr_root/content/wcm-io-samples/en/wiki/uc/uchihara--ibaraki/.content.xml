@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Uchihara, Ibaraki"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Uchihara, Ibaraki" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[File:Map.Uchihara-Town.Ibaraki.PNG|thumb|Map of Uchihara, Ibaraki]]
+{{nihongo|&amp;apos;&amp;apos;&amp;apos;Uchihara&amp;apos;&amp;apos;&amp;apos;|内原町|Uchihara-machi}} was a [[towns of Japan|town]] located in [[Higashiibaraki District, Ibaraki|Higashiibaraki District]], [[Ibaraki Prefecture|Ibaraki]], [[Japan]].
+
+On February 1, 2005 Uchihara was merged into the expanded city of [[Mito, Ibaraki|Mito]] and no longer exists as an independent [[municipalities of Japan|municipality]].
+
+As of 2003, the town had an estimated [[population]] of 14,848 and a [[population density|density]] of 357.35 persons per km². The total area was 41.55 km².
+
+Near Uchihara, there is perhaps the only electricity pylon in the world under whose legs a road with two lanes runs through. It is part of the powerline from Watari Substation {{coord|36|24|23|N|140|24|39|E|type:landmark_region:JP|display=inline|name=Watari Substation}} to Kashiwabara Substation  {{coord|36|13|9|N|140|15|15|E|type:landmark_region:JP|display=inline|name=Kashiwabara Substation}} and situated at {{coord|36.354488|N|140.371627|E|type:landmark_region:JP|display=inline|name=Pylon 24 at Uchihara}} and 45 metres tall.
+
+==External links==
+* [http://www.city.mito.lg.jp/ Official website of Mito] {{ja icon}} (some English content)
+* [http://www.asahi-net.or.jp/~js4m-isgi/tettou/tettou113.htm The pylon under whose legs you can drive through]
+
+[[Category:Dissolved municipalities of Ibaraki Prefecture]]
+{{Ibaraki-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

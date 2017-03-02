@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Lah number"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Lah number" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[mathematics]], &amp;apos;&amp;apos;&amp;apos;Lah numbers&amp;apos;&amp;apos;&amp;apos;, discovered by [[Ivo Lah]] in 1955,&amp;lt;ref&amp;gt;[http://books.google.com/books?id=zWgIPlds29UC &amp;apos;&amp;apos;Introduction to Combinatorial Analysis&amp;apos;&amp;apos;] Princeton University Press (1958, reissue 1980) ISBN 978-0-691-02365-6 (reprinted again in 2002, by Courier Dover Publications).&amp;lt;/ref&amp;gt; are [[coefficient]]s expressing [[rising factorial]]s in terms of [[falling factorial]]s.
+
+&amp;apos;&amp;apos;&amp;apos;Unsigned Lah numbers&amp;apos;&amp;apos;&amp;apos; have an interesting meaning in [[combinatorics]]: they count the number of ways a [[Set (mathematics)|set]] of &amp;apos;&amp;apos;n&amp;apos;&amp;apos; elements can be [[Partition of a set|partition]]ed into &amp;apos;&amp;apos;k&amp;apos;&amp;apos; nonempty linearly ordered [[subset]]s. Lah numbers are related to [[Stirling number]]s.
+
+Unsigned Lah numbers:
+
+:&amp;lt;math&amp;gt; L(n,k) = {n-1 \choose k-1} \frac{n!}{k!}.&amp;lt;/math&amp;gt;
+
+Signed Lah numbers:
+
+:&amp;lt;math&amp;gt; L&amp;apos;(n,k) = (-1)^n {n-1 \choose k-1} \frac{n!}{k!}.&amp;lt;/math&amp;gt;
+
+&amp;apos;&amp;apos;L&amp;apos;&amp;apos;(&amp;apos;&amp;apos;n&amp;apos;&amp;apos;, 1) is always &amp;apos;&amp;apos;n&amp;apos;&amp;apos;!; using the interpretation above, the only partition of {1, 2, 3} into 1 set can have its set ordered in 6 ways:
+
+:{(1, 2, 3)}, {(1, 3, 2)}, {(2, 1, 3)}, {(2, 3, 1)}, {(3, 1, 2)} or {(3, 2, 1)}
+
+&amp;apos;&amp;apos;L&amp;apos;&amp;apos;(3, 2) corresponds to the 6 partitions with two ordered parts:
+
+:{(1), (2, 3)}, {(1), (3, 2)}, {(2), (1, 3)}, {(2), (3, 1)}, {(3), (1, 2)} or {(3), (2, 1)}
+
+&amp;apos;&amp;apos;L&amp;apos;&amp;apos;(&amp;apos;&amp;apos;n&amp;apos;&amp;apos;, &amp;apos;&amp;apos;n&amp;apos;&amp;apos;) is always 1; e.g., partitioning {1, 2, 3} into 3 non-empty subsets results in subsets of length 1.
+
+:{(1), (2), (3)}
+
+Paraphrasing Karamata-Knuth notation for [[Stirling numbers]], it was
+proposed to use the following alternative notation for Lah numbers:
+
+:&amp;lt;math&amp;gt;L(n,k)=\left\lfloor\begin{matrix} n \\ k \end{matrix}\right\rfloor.&amp;lt;/math&amp;gt;
+
+==Rising and falling factorials==
+
+Let &amp;lt;math&amp;gt;x^{(n)}&amp;lt;/math&amp;gt; represent the rising factorial &amp;lt;math&amp;gt;x(x+1)(x+2) \cdots (x+n-1)&amp;lt;/math&amp;gt; and let &amp;lt;math&amp;gt;(x)_n&amp;lt;/math&amp;gt; represent the falling factorial &amp;lt;math&amp;gt;x(x-1)(x-2) \cdots (x-n+1)&amp;lt;/math&amp;gt;.
+
+Then &amp;lt;math&amp;gt;x^{(n)} = \sum_{k=1}^n L(n,k) (x)_k&amp;lt;/math&amp;gt; and &amp;lt;math&amp;gt;(x)_n = \sum_{k=1}^n (-1)^{n-k} L(n,k)x^{(k)}.&amp;lt;/math&amp;gt;
+
+For example, &amp;lt;math&amp;gt;x(x+1)(x+2) = {\color{Red}6}x + {\color{Red}6}x(x-1) + {\color{Red}1}x(x-1)(x-2).&amp;lt;/math&amp;gt;
+
+Compare the third row of the table of values.
+
+==Identities and relations==
+
+:&amp;lt;math&amp;gt; L(n,k) = {n-1 \choose k-1} \frac{n!}{k!} = {n \choose k} \frac{(n-1)!}{(k-1)!}&amp;lt;/math&amp;gt;
+:&amp;lt;math&amp;gt; L(n,k) = \frac{n!(n-1)!}{k!(k-1)!}\cdot\frac{1}{(n-k)!} = \left (\frac{n!}{k!} \right )^2\frac{k}{n(n-k)!}&amp;lt;/math&amp;gt;
+:&amp;lt;math&amp;gt; L(n,k+1) = \frac{n-k}{k(k+1)} L(n,k).&amp;lt;/math&amp;gt;
+:&amp;lt;math&amp;gt; L(n,k) = \sum_{j} \left[{n\atop j}\right] \left\{{j\atop k}\right\},&amp;lt;/math&amp;gt; with &amp;lt;math&amp;gt;\left[{n\atop j}\right]&amp;lt;/math&amp;gt; the Stirling numbers of the first kind, &amp;lt;math&amp;gt;\left\{{j\atop k}\right\}&amp;lt;/math&amp;gt; the Stirling numbers of the second kind and with the conventions &amp;lt;math&amp;gt;L(0,0)=1&amp;lt;/math&amp;gt; and &amp;lt;math&amp;gt;L(n , k )=0&amp;lt;/math&amp;gt; if &amp;lt;math&amp;gt;k&amp;gt;n&amp;lt;/math&amp;gt;.
+
+:&amp;lt;math&amp;gt; L(n,1) = n!&amp;lt;/math&amp;gt;
+:&amp;lt;math&amp;gt; L(n,2) = (n-1)n!/2&amp;lt;/math&amp;gt;
+:&amp;lt;math&amp;gt; L(n,3) = (n-2)(n-1)n!/12&amp;lt;/math&amp;gt;
+:&amp;lt;math&amp;gt; L(n,n-1) = n(n-1)&amp;lt;/math&amp;gt;
+:&amp;lt;math&amp;gt; L(n,n) = 1&amp;lt;/math&amp;gt;
+
+==Table of values==
+Below is a table of values for the Lah numbers:
+{| class=&amp;quot;wikitable&amp;quot; style=&amp;quot;text-align:right;&amp;quot;
+|-
+! &amp;lt;math&amp;gt;_n\!\!\diagdown\!\!^k&amp;lt;/math&amp;gt; !! 1 !! 2 !! 3 !! 4 !! 5 !! 6 !! 7 !! 8 !! 9 !! 10 !! 11 !! 12
+|-
+! 1
+| 1
+|-
+! 2
+| 2
+| 1
+|-
+! 3
+| 6
+| 6
+| 1
+|-
+! 4
+| 24
+| 36
+| 12
+| 1
+|-
+! 5
+| 120
+| 240
+| 120
+| 20
+| 1
+|-
+! 6
+| 720
+| 1800
+| 1200
+| 300
+| 30
+| 1
+|-
+! 7
+| 5040
+| 15120
+| 12600
+| 4200
+| 630
+| 42
+| 1
+|-
+! 8
+| 40320
+| 141120
+| 141120
+| 58800
+| 11760
+| 1176
+| 56
+| 1
+|-
+! 9
+| 362880
+| 1451520
+| 1693440
+| 846720
+| 211680
+| 28224
+| 2016
+| 72
+| 1
+|-
+! 10
+|3628800
+|16329600
+|21772800
+|12700800
+|3810240
+|635040
+|60480
+|3240
+|90
+|1
+|-
+! 11
+|39916800
+|199584000
+|299376000
+|199584000
+|69854400
+|13970880
+|1663200
+|11880
+|4950
+|110
+|1
+|-
+! 12
+|479001600
+|2634508800
+|4390848000
+|3293136000
+|1317254400
+|307359360
+|43908480
+|3920400
+|217800
+|7260
+|132
+|1
+|}
+
+== See also ==
+* [[Stirling number]]s
+* [[Pascal matrix]]
+
+==References==
+&amp;lt;references /&amp;gt;
+
+{{DEFAULTSORT:Lah Number}}
+[[Category:Factorial and binomial topics]]
+[[Category:Integer sequences]]
+[[Category:Triangles of numbers]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

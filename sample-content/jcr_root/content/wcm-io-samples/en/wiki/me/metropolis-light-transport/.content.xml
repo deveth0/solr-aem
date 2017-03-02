@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Metropolis light transport"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Metropolis light transport" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{No footnotes|date=August 2009}}
+
+The &amp;apos;&amp;apos;&amp;apos;Metropolis light transport&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;&amp;apos;MLT&amp;apos;&amp;apos;&amp;apos;) is a [[SIGGRAPH]] 1997 paper by [[Eric Veach]] and [[Leonidas J. Guibas]], describing an application of a variant of the [[Monte Carlo method]] called the [[Metropolis-Hastings algorithm]] to the [[rendering equation]] for generating images from detailed physical descriptions of [[3D computer graphics|three dimensional]] scenes.
+
+The procedure constructs paths from the eye to a light source using [[path tracing#Bidirectional path tracing|bidirectional path tracing]], then constructs slight modifications to the path.  Some careful statistical calculation (the Metropolis algorithm) is used to compute the appropriate distribution of brightness over the image.  This procedure has the advantage, relative to bidirectional path tracing, that once a path has been found from light to eye, the algorithm can then explore nearby paths; thus difficult-to-find light paths can be explored more thoroughly with the same number of simulated photons.  In short, the algorithm generates a path and stores the path&amp;apos;s &amp;apos;nodes&amp;apos; in a list. It can then modify the path by adding extra nodes and creating a new light path. While creating this new path, the algorithm decides how many new &amp;apos;nodes&amp;apos; to add and whether or not these new nodes will actually create a new path.
+
+Metropolis Light Transport is an unbiased method that, in some cases (but not always), converges to a solution of the rendering equation faster than other unbiased algorithms such as path tracing or bidirectional path tracing.{{Citation needed|date=July 2010}}
+
+==See also==
+* [[Indigo Renderer]] &amp;amp;ndash; A commercial unbiased 3D renderer that uses MLT
+* [[Kerkythea]] &amp;amp;ndash; A free unbiased 3D renderer that uses MLT
+* [[Maxwell Render]] &amp;amp;ndash; A commercial unbiased renderer based on MLT{{Citation needed|date=December 2012}}
+* [[LuxRender]] &amp;amp;ndash; An open source unbiased renderer that uses MLT
+* [[Nicholas Metropolis]]  &amp;amp;ndash; The physicist after whom the algorithm is named
+
+==References==
+{{Reflist}}
+
+==External links==
+* [http://graphics.stanford.edu/papers/metro/ Metropolis project at Stanford]
+* [http://www.luxrender.net/ LuxRender - an open source render engine that supports MLT]
+* [http://www.kerkythea.net/ Kerkythea 2008 - a freeware rendering system that uses MLT]
+* [http://rivit.cs.byu.edu/a3dg/publications/metropolisTutorial.pdf A Practical Introduction to Metropolis Light Transport]
+* [http://repository.tudelft.nl/view/ir/uuid%3A4a5be464-dc52-4bd0-9ede-faefdaff8be6/ Unbiased physically based rendering on the GPU]
+
+[[Category:Monte Carlo methods]]
+[[Category:Global illumination algorithms]]
+
+
+{{compu-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

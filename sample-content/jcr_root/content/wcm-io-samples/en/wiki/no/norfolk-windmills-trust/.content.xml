@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Norfolk Windmills Trust"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Norfolk Windmills Trust" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Image:berney.jpg|thumb|right|Berney Arms Mill]]
+The &amp;apos;&amp;apos;&amp;apos;Norfolk Windmills Trust&amp;apos;&amp;apos;&amp;apos; is a [[charitable organization|charity]] based in [[Norfolk, England|Norfolk]], England, which restores and cares for [[windmill]]s in that county.
+
+Mills in its care (but not necessarily owned) include those at:
+*[[Ashtree Farm Mill]]
+*[[Berney Arms Windmill|Berney Arms]] ([[English Heritage]] - pictured)
+*[[Billingford Windmill|Billingford]]
+*[[Clayrack Drainage Mill|Clayrack]]
+*[[Cley Windmill|Cley next the Sea]]
+*[[Denver Windmill]]
+*[[Dereham]]
+*[[Garboldisham]]
+*[[Great Bircham Windmill|Great Bircham]]
+*[[Gunton, Norfolk|Gunton]] Park
+*[[Horsey Windpump|Horsey]] (NT)
+*[[Letheringsett]] Watermill
+*[[Little Cressingham]]
+*[[Old Buckenham]]
+*[[Paston, Norfolk|Paston]] (privately owned)
+*[[Starston Windpump|Starston]]
+*[[Stracey Arms]]
+*[[Sutton, Norfolk|Sutton]]
+*[[Wicklewood]]
+
+== See also ==
+*[[List of windmills]]
+*[[Windmills in the United Kingdom]]
+
+==External links==
+*[http://www.norfolkwindmills.co.uk/ Norfolk Windmills Trust website]
+
+[[Category:Windmills in Norfolk| ]]
+[[Category:Charities based in Norfolk]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

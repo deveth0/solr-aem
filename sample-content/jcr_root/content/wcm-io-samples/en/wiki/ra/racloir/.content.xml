@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Racloir"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Racloir" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[File:RacloirLa Quina MHNT PRE.2009.0.206.1 (2).jpg|right|thumb|200px|Type of [[Mousterian]] Racloir]]
+A  &amp;apos;&amp;apos;&amp;apos;racloir&amp;apos;&amp;apos;&amp;apos; (French for scraper) is a name given by [[archaeologist]]s to a certain type of [[flint]] tool made by prehistoric peoples.
+[[File:Raedera Atapuerca (TG11).jpg|left|thumb|&amp;apos;&amp;apos;&amp;apos;Racloir&amp;apos;&amp;apos;&amp;apos; from [[Archaeological Site of Atapuerca|Galería]] (TG11)]]
+It is created from a flint [[lithic flake|flake]] and looks like a large [[Scraper (archaeology)|scraper]]. As well as being used for scraping hides and bark, it may also have been used as a knife. Racloirs are most associated with the [[Neanderthal]] [[Mousterian]] [[archaeological industry|industry]].
+
+==References==
+*{{cite book|last=Lewin|first=Roger|title=Human Evolution: An Illustrated Introduction |year=2005|publisher=Wiley-Blackwell|accessdate=28 June 2010|page=225}}
+
+[[Category:Archaeological artefact types]]
+[[Category:Lithics]]
+
+
+{{Europe-archaeology-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

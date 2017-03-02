@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Quassin"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Quassin" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{chembox
+| Verifiedfields = changed
+| verifiedrevid = 464378137
+| Name = Quassin
+| ImageFile = Quassin.png
+| ImageSize = 200px
+| ImageName = (+)-Quassin
+| IUPACName = 2,12-dimethoxypicrasa-2,12-diene-1,11,16-trione
+| OtherNames=(3a&amp;apos;&amp;apos;S&amp;apos;&amp;apos;,6a&amp;apos;&amp;apos;R&amp;apos;&amp;apos;,7a&amp;apos;&amp;apos;S&amp;apos;&amp;apos;,8&amp;apos;&amp;apos;S&amp;apos;&amp;apos;,11a&amp;apos;&amp;apos;S&amp;apos;&amp;apos;,11b&amp;apos;&amp;apos;S&amp;apos;&amp;apos;,11c&amp;apos;&amp;apos;S&amp;apos;&amp;apos;) -1,3a,4,5,6a,7,7a,8,11,11a,11b,11c-dodecahydro-2,10-dimethoxy-3,8,11a,11c- tetramethyldibenzo[&amp;apos;&amp;apos;de,g&amp;apos;&amp;apos;]chromene-1,5,11-trione
+| Section1 = {{Chembox Identifiers
+|   EINECS = 200-985-9
+|   ChemSpiderID_Ref = {{chemspidercite|correct|chemspider}}
+| ChemSpiderID = 59014
+| InChI1 = 1/C22H28O6/c1-10-7-14(26-5)20(25)22(4)12(10)8-15-21(3)13(9-16(23)28-15)11(2)18(27-6)17(24)19(21)22/h7,10,12-13,15,19H,8-9H2,1-6H3/t10-,12+,13+,15-,19+,21-,22+/m1/s1
+| InChIKey1 = IOSXSVZRTUWBHC-LBTVDEKVBB
+| StdInChI_Ref = {{stdinchicite|correct|chemspider}}= {{stdinchicite|correct|chemspider}}
+| StdInChI = 1S/C22H28O6/c1-10-7-14(26-5)20(25)22(4)12(10)8-15-21(3)13(9-16(23)28-15)11(2)18(27-6)17(24)19(21)22/h7,10,12-13,15,19H,8-9H2,1-6H3/t10-,12+,13+,15-,19+,21-,22+/m1/s1
+| StdInChIKey_Ref = {{stdinchicite|correct|chemspider}}= {{stdinchicite|correct|chemspider}}
+| StdInChIKey = IOSXSVZRTUWBHC-LBTVDEKVSA-N
+| CASNo_Ref = {{cascite|changed|??}}
+| CASNo = 76-78-8
+|   PubChem = 65571
+| ChEMBL_Ref = {{ebicite|correct|EBI}}
+| ChEMBL = 517016
+|   SMILES = O=C1C(\OC)=C/[C@@H](C)[C@H]4[C@]1([C@H]3C(=O)C(\OC)=C(/[C@@H]2CC(=O)O[C@@H]([C@@]23C)C4)C)C
+|   InChIKey = IOSXSVZRTUWBHC-LBTVDEKVBB
+  }}
+| Section2 = {{Chembox Properties
+|   C=22 |H=28|O=6
+|   Appearance = White crystalline substance
+|   MeltingPt = 200-222 °C
+|   BoilingPt = 586 °C
+|   Solubility = Insoluble
+|   VaporPressure = 13 mmHg  (@25 °C)
+  }}
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Quassin&amp;apos;&amp;apos;&amp;apos; is a white bitter, crystalline substance extracted from the [[quassia]] tree. It is one of the most bitter substances found in nature with a bitter threshold of 0.08 ppm and it is 50 times more bitter than [[quinine]].&amp;lt;ref name=ooscf-2002&amp;gt;Scientific Committee on Food [http://ec.europa.eu/food/fs/sc/scf/out134_en.pdf Opinion of the Scientific Committee on Food on quassin (expressed on 2 July 2002).] SCF/CS/FLAV/FLAVOUR/29 Final &amp;lt;/ref&amp;gt;
+
+Quassin is used as a [[medicine]] in [[traditional Chinese medicine]].
+
+Extracts of the Bitter tree (or bitter wood) (&amp;apos;&amp;apos;[[Quassia amara]]&amp;apos;&amp;apos; L. or &amp;apos;&amp;apos;[[Picrasma excelsa]]&amp;apos;&amp;apos;) are also used as additives in [[soft drink]]s.&amp;lt;ref name=ooscf-2002/&amp;gt;
+
+Although its skeleton possesses 20 carbon atoms, quassin is not a [[diterpene]] but rather a [[triterpene]] [[lactone]], which derives from [[euphol]] by loss of 10 carbon atoms including C4.
+
+== References ==
+{{reflist}}
+
+&amp;lt;!-- Metadata: see [[Wikipedia:InChI]]
+{{InChI|
+InChI=1/C22H28O6/c1-10-7-14(26-5)20(25)22(4)12(10)8-15-21(3)13(9-16(23)28-15)11(2)18(27-6)17(24)19(21)22/h7,10,12-13,15,19H,8-9H2,1-6H3/t10-,12+,13+,15-,19+,21-,22+/m1/s1
+}}
+---&amp;gt;
+
+[[Category:Lactones]]
+[[Category:Bitter compounds]]
+[[Category:Diterpenes]]
+[[Category:Ketones]]
+[[Category:Ethers]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Zetatron"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Zetatron" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{notability|Products|date=March 2010}}
+[[File:Zetatron.jpg|right]]
+A &amp;apos;&amp;apos;&amp;apos;Zetatron&amp;apos;&amp;apos;&amp;apos; is a high-voltage [[vacuum tube]] device that generates a stream of [[neutrons]]. The stream can be continuous, or rapidly pulsed on and off.It was invented by [[Sandia National Laboratories]], and is manufactured and marketed by the [[Thermo Electron Corporation]]. Applications include research, explosives detection, well logging and body fat analysis.
+
+==Cultural references==
+
+* Often seen as a user or server name on computer systems.
+* The name of a line of toys.
+* The name of a fictional corporation in &amp;apos;&amp;apos;[[Stargate SG-1]]&amp;apos;&amp;apos;
+
+==See also==
+* [[Medical technology]]
+* [[Neutron radiation]]
+* [[Particle physics]]
+
+==References==
+* &amp;apos;&amp;apos;Sandia Science News&amp;apos;&amp;apos;, October 1991
+* http://www.thermoscientific.com/ecomm/servlet/productsdetail?productId=11962778&amp;amp;groupType=PRODUCT&amp;amp;searchType=0&amp;amp;storeId=11152&amp;amp;from=search
+* http://www.answers.com/topic/adrian-conrad
+* http://www.robotsdirect.co.uk/proddetail.asp?prod=ATM
+* http://www.sciencedirect.com/science/article/pii/0168583X9395412X
+* http://ieeexplore.ieee.org/Xplore/login.jsp?url=http%3A%2F%2Fieeexplore.ieee.org%2Fiel5%2F23%2F4331324%2F04331501.pdf%3Farnumber%3D4331501&amp;amp;authDecision=-203
+
+[[Category:Vacuum tubes]]
+[[Category:Electrical engineering]]
+[[Category:Electrical components]]
+[[Category:Particle physics]]
+[[Category:Medical technology]]
+
+
+{{tech-stub}}
+{{physics-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

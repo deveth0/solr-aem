@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="X-ray welding"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="X-ray welding" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;X-ray Welding&amp;apos;&amp;apos;&amp;apos; is an experimental welding process that uses a high powered [[X-ray]] source to provide thermal energy required to [[welding|weld]] materials.&amp;lt;ref&amp;gt;http://link.aip.org/link/?RSINAK/68/2550/1 X-ray welding of metal-matrix composites,
+Richard A. Rosenberg, Qing Ma, William Farrell, Mark Keefe, and Derrick C. Mancini
+Advanced Photon Source, Argonne National Laboratory, Argonne, IL 60439 USA&amp;lt;/ref&amp;gt;
+
+== Introduction ==
+
+Many advances in welding technology have resulted from the introduction of new sources of the thermal energy required for localised melting. These advances include the introduction of modern techniques such as [[gas tungsten arc welding|gas tungsten arc]], [[gas metal arc welding| gas-metal arc]], [[submerged arc welding|submerged-arc]], [[electron beam welding|electron beam]],
+and [[laser beam welding|laser beam]] welding processes. However, whilst these processes were able to improve stability, reproducibility, and accuracy of welding, they share a common limitation - the energy does not fully penetrate the material to be welded, resulting in the formation of a melt pool on the surface of the material.
+
+To achieve welds which penetrate the full depth of the material, it is necessary to either specially design and prepare the geometry of the joint or cause vaporization of the material to such a degree that a &amp;quot;keyhole&amp;quot; is formed, allowing the heat to penetrate the joint. This is not a significant disadvantage in many types of material, as good joint strengths can be achieved, however for certain material classes such as ceramics or [[metal matrix composites|metal ceramic composites]], such processing can significantly limit joint strength. They have great potential for use in the aerospace industry, provided a joining process that maintains the strength of the material can be found.
+
+Until recently, sources of x-rays of sufficient intensity to cause enough volumetric heating for welding were not available. However, with the advent of third-generation [[synchrotron radiation]] sources, it is possible to achieve the power required for localized melting and even vaporization in a number of materials.
+
+X-ray beams have been shown to have potential as welding sources for classes of materials which cannot be welded conventionally.
+
+==References==
+{{reflist}}
+
+[[Category:Welding]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="UNIVAC 490"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="UNIVAC 490" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Image:Univac 1232 Computer interface at NASM.jpg|thumb|right|300px|The Univac 1232 was a military version of the UNIVAC 490.]]
+The &amp;apos;&amp;apos;&amp;apos;UNIVAC 490&amp;apos;&amp;apos;&amp;apos; was a 30-bit word core memory machine with 16K or 32K words; 4.8 [[microsecond]] cycle time made by [[UNIVAC]]. It was a commercial derivative of a computer Univac Federal Systems developed for the United States Navy. That system was the heart of the Naval Tactical Data System which pioneered the use of shipboard computers for air defense. The military version went by a variety of names: [[AN/USQ-20]], MIL-1206 and CP642. [[Seymour Cray]] designed this system before he left UNIVAC to found [[Control Data Corporation]].
+
+[[Image:Univac 1232 Computer at NASM.jpg|thumb|left|300px|A Univac 1232 at the [[Smithsonian Institute|Smithsonian]] [[National Air and Space Museum]].]]
+
+The instruction word format:
+*f - Function code designator (6 bits)
+*j - Branch condition designator (3 bits)
+*k - Operand-interpretation designator (3 bits)
+*b - Operand address modification designator (3 bits)
+*y - Operand designator (15 bits)
+
+Numbers were represented in [[ones&amp;apos; complement]].
+
+The machine provided the programmer with the following [[processor register|register]]s:
+*Seven B-registers (Address modifying [[index register]]s) 15 bits each
+*One A-register or accumulator 30 bits
+*One Q-register and auxiliary arithmetic register 30 bits
+
+Apparently at least 47 of these machines were made (serial numbers run from 101 to 147). Four were installed at NASA and played important roles in Gemini and the early Apollo missions. The USAF had two installed, as did Lockheed. Airlines using the 490 Real-Time system included Eastern and Northwest Orient - principally [[airline]] reservations systems at [[Eastern Air Lines]] (1963) and [[British European Airways]] (BEACON - 1964). Other commercial installations of the 490 Real-Time included two at Westinghouse, and one each at Alcoa, US Steel, Bethlehem Steel and General Motors.&amp;lt;ref&amp;gt;Univac 490 Failure Finding bu L. D. Boss and J. G. Wilen, August 10, 1964.&amp;lt;/ref&amp;gt;
+
+The standard Operating System was REX (RealTime Exec), except at Eastern and B.E.A. where a custom operating system was developed for airline reservations (CONTORTS - CONTrol Of Real Time System).  CONTORTS was the origin of Univac&amp;apos;s subsequent RT operating systems for 494 (STARS) and later converted to the [[UNIVAC 1100/2200 series|1100 Series]] (RTOS).
+
+==See also==
+*[[List of UNIVAC products]]
+*[[History of computing hardware]]
+
+==External links==
+*[http://ed-thelen.org/comp-hist/BRL61-u.html#UNIVAC-490 UNIVAC 490 Real-Time System]
+*[http://www.bitsavers.org/pdf/univac/490/ UNIVAC 490 manuals]
+
+==References==
+&amp;lt;references /&amp;gt;
+
+[[Category:UNIVAC mainframe computers|490]]
+
+
+{{mainframe-compu-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

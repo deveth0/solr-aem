@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Saran"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Saran" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|saran}}
+&amp;apos;&amp;apos;&amp;apos;Saran&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+In &amp;apos;&amp;apos;&amp;apos;Places&amp;apos;&amp;apos;&amp;apos;:
+* [[Saran, Kazakhstan]], a city in Kazakhstan
+* [[Saransk]], Russia
+* [[Saran, Loiret]], a commune of the Loiret Department, France
+* [[Saran district]], Bihar, India
+* [[Saran division]], Bihar, India
+* &amp;apos;&amp;apos;Sárán&amp;apos;&amp;apos;, the Hungarian name for Şerani village, [[Borod, Bihor|Borod]] Commune, Bihor County, Romania
+* [[Saran, Afghanistan]], a locality in Afghanistan
+* [[Saran, Iran]], a locality near Tehran, Iran
+* [[Saran, Hormozgan]], a village in Hormozgan Province, Iran
+* [[Saran, Kerman]], a village in Kerman Province, Iran
+* [[Saran-e Bala]], a village in Lorestan Province, Iran
+* [[Saran-e Pain]], a village in Lorestan Province, Iran
+* Saran, alternate name of [[Sari Kuchakeh]], a village in Lorestan Province, Iran
+* Saran, alternate name of [[Sagharan-e Olya]], a village in Qazvin Province, Iran
+
+In &amp;apos;&amp;apos;&amp;apos;People&amp;apos;&amp;apos;&amp;apos;:
+* [[Saharan (gotra)]], clan of Jats in India
+* [[Saran (director)]] (born 1975), Tamil film director
+* [[Shyam Saran]] (born 1946), Indian politician
+* [[Shriya Saran]] (born 1982), actress
+* Saran, a legendary [[King of Ulster]]
+
+In &amp;apos;&amp;apos;&amp;apos;Others&amp;apos;&amp;apos;&amp;apos;:
+* [[Saran (plastic)]], a plastic once used to make Saran brand food wrap and other products
+
+==See also==
+*{{intitle|Saran}}
+* [[Sarin]], a poisonous nerve agent
+
+{{Disambig|geo}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

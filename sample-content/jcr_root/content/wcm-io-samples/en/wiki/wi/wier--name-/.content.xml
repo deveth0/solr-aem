@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wier (name)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wier (name)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Wier&amp;apos;&amp;apos;&amp;apos; is a fairly uncommon [[surname]] in the [[United States]].  It traces ancestry from the [[Wier (clan)|&amp;apos;&amp;apos;Weir&amp;apos;&amp;apos; clan]] in [[Scotland]].  There are several variants of the name, but all supposedly go back to [[Aubrey de Vere II|de Vere]], a British noble family originally of Norman ancestry, from the eponymous town of [[Ver sur Mer|Ver]].
+
+Notable persons with the surname Wier include:
+* [[Allen Wier]] (born 1946), American writer and professor
+* [[Benjamin Wier]], Canadian businessman and politician
+* [[Daniel Wier]] (1772–1842), Canadian farmer and political figure
+* [[Dara Wier]] (born 1949), American poet
+* [[Ester Wier]] (born 1910), American writer
+* [[John Wier (disambiguation)]], several persons
+* [[Murray Wier]] (born 1926), American basketball player
+* [[Roy Wier]] (1888–1963), American politician
+* [[Rusty Wier]] (1944–2009), American singer-songwriter
+* [[Todd Wier]], American basketball team owner
+
+==See also==
+* [[Weyer (disambiguation)]]
+
+{{surname|Wier}}&amp;lt;!-- It does not help to add disambig or hndis tags where the page only contains people who share a surname --&amp;gt;&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

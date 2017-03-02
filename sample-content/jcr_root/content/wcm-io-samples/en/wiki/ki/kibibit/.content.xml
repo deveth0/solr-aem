@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Kibibit"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Kibibit" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Quantities of bits}}
+The &amp;apos;&amp;apos;&amp;apos;kibibit&amp;apos;&amp;apos;&amp;apos; is a multiple of the [[bit]], a unit of [[Computer data storage|digital information storage]], prefixed by the standards-based multiplier [[kibi-|kibi]] (symbol &amp;apos;&amp;apos;Ki&amp;apos;&amp;apos;), a [[binary prefix]] meaning 2&amp;lt;sup&amp;gt;10&amp;lt;/sup&amp;gt;.&amp;lt;ref&amp;gt;International Electrotechnical Commission, IEC 60027-2 (2000-11) Ed. 2.0&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;{{Cite journal
+|title=Prefixes for binary multiples
+|author=A.J. Thor
+|journal=Metrologica
+|year=2000
+|volume=37
+|issue=81
+|url=http://ej.iop.org/links/rDo33k,Nb/lrUHtuYE3BGiff6cav5vpA/me0112.pdf
+|url=http://iopscience.iop.org/0026-1394/37/1/12/pdf/0026-1394_37_1_12.pdf
+|format=PDF
+|doi=10.1088/0026-1394/37/1/12
+|page=81
+}}&amp;lt;/ref&amp;gt; The unit symbol of the kibibit is &amp;apos;&amp;apos;&amp;apos;Kibit&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;Kib&amp;apos;&amp;apos;&amp;apos;.
+
+: 1 kibibit = 2&amp;lt;sup&amp;gt;10&amp;lt;/sup&amp;gt; [[bit]]s = 1024 bits&amp;lt;ref&amp;gt;[http://physics.nist.gov/cuu/Units/binary.html Definitions of the SI units: The binary prefixes]&amp;lt;/ref&amp;gt;
+
+The kibibit has existed since 1998 and is closely related to the [[kilobit]], which stands for 10&amp;lt;sup&amp;gt;3&amp;lt;/sup&amp;gt; bits = 1000 bits.
+
+The binary prefixes are not part of the [[International System of Units]] (SI).
+
+==See also==
+* [[Kibibyte]]
+
+==References==
+{{reflist}}
+
+[[Category:Units of information]]
+
+[[sv:Kibibit]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

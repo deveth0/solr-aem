@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Quasi-Frobenius Lie algebra"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Quasi-Frobenius Lie algebra" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[mathematics]], a &amp;apos;&amp;apos;&amp;apos;quasi-Frobenius Lie algebra&amp;apos;&amp;apos;&amp;apos;
+
+:&amp;lt;math&amp;gt;(\mathfrak{g},[\,\,\,,\,\,\,],\beta )&amp;lt;/math&amp;gt;
+
+over a field &amp;lt;math&amp;gt;k&amp;lt;/math&amp;gt; is a [[Lie algebra]]
+:&amp;lt;math&amp;gt;(\mathfrak{g},[\,\,\,,\,\,\,] )&amp;lt;/math&amp;gt;
+
+equipped with a [[nondegenerate]] [[skew-symmetric]] [[bilinear form]]
+
+:&amp;lt;math&amp;gt;\beta : \mathfrak{g}\times\mathfrak{g}\to k&amp;lt;/math&amp;gt;, which is a Lie algebra 2-[[cocycle]] of &amp;lt;math&amp;gt;\mathfrak{g}&amp;lt;/math&amp;gt; with values in &amp;lt;math&amp;gt;k&amp;lt;/math&amp;gt;. In other words,
+
+::&amp;lt;math&amp;gt; \beta \left(\left[X,Y\right],Z\right)+\beta \left(\left[Z,X\right],Y\right)+\beta \left(\left[Y,Z\right],X\right)=0 &amp;lt;/math&amp;gt;
+
+for all &amp;lt;math&amp;gt;X&amp;lt;/math&amp;gt;, &amp;lt;math&amp;gt;Y&amp;lt;/math&amp;gt;, &amp;lt;math&amp;gt;Z&amp;lt;/math&amp;gt; in &amp;lt;math&amp;gt;\mathfrak{g}&amp;lt;/math&amp;gt;.
+
+If &amp;lt;math&amp;gt;\beta&amp;lt;/math&amp;gt; is a coboundary, which means that there exists a linear form &amp;lt;math&amp;gt;f : \mathfrak{g}\to k&amp;lt;/math&amp;gt; such that
+:&amp;lt;math&amp;gt;\beta(X,Y)=f(\left[X,Y\right]),&amp;lt;/math&amp;gt;
+then
+:&amp;lt;math&amp;gt;(\mathfrak{g},[\,\,\,,\,\,\,],\beta )&amp;lt;/math&amp;gt;
+is called a &amp;apos;&amp;apos;&amp;apos;Frobenius Lie algebra&amp;apos;&amp;apos;&amp;apos;.
+
+== Equivalence with pre-Lie algebras with nondegenerate invariant skew-symmetric bilinear form ==
+If &amp;lt;math&amp;gt;(\mathfrak{g},[\,\,\,,\,\,\,],\beta )&amp;lt;/math&amp;gt; is a quasi-Frobenius Lie algebra, one can define on &amp;lt;math&amp;gt;\mathfrak{g}&amp;lt;/math&amp;gt; another bilinear product &amp;lt;math&amp;gt;\triangleleft&amp;lt;/math&amp;gt; by the formula
+::&amp;lt;math&amp;gt; \beta \left(\left[X,Y\right],Z\right)=\beta \left(Z \triangleleft Y,X \right) &amp;lt;/math&amp;gt;.
+
+Then one has
+&amp;lt;math&amp;gt;\left[X,Y\right]=X \triangleleft Y-Y \triangleleft X&amp;lt;/math&amp;gt; and
+:&amp;lt;math&amp;gt;(\mathfrak{g}, \triangleleft)&amp;lt;/math&amp;gt;
+is a [[pre-Lie algebra]].
+
+==See also==
+*[[Lie coalgebra]]
+*[[Lie bialgebra]]
+*[[Lie algebra cohomology]]
+*[[Frobenius algebra]]
+*[[Quasi-Frobenius ring]]
+
+==References==
+* Jacobson, Nathan, &amp;apos;&amp;apos;Lie algebras&amp;apos;&amp;apos;, Republication of the 1962 original. Dover Publications, Inc., New York, 1979.  ISBN 0-486-63832-4
+* Vyjayanthi Chari and Andrew Pressley, &amp;apos;&amp;apos;A Guide to Quantum Groups&amp;apos;&amp;apos;, (1994), Cambridge University Press, Cambridge ISBN 0-521-55884-0.
+
+[[Category:Lie algebras]]
+[[Category:Coalgebras]]
+[[Category:Symplectic topology]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Vicalloy"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Vicalloy" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced stub|auto=yes|date=December 2009}}
+&amp;apos;&amp;apos;&amp;apos;Vicalloy&amp;apos;&amp;apos;&amp;apos; is a family of cobalt-iron-vanadium wrought [[Permanent magnet|permanently magnetic]] alloys.  Vicalloy is [[precipitation hardening|precipitation hardened]] and can be formed by a number of [[cold working]] techniques. It is commonly used in [[Electromechanics|electromechanical device]] applications, such as [[Wiegand wire]]s because it shows a large [[Wiegand effect]].
+
+It consists of 0.03% [[carbon]], 0.4% [[manganese]], 0.2% [[silicon]], 52% [[cobalt]], 10% [[vanadium]]; the balance (37.37%) is [[iron]].
+
+[[Category:Alloys]]
+[[Category:Magnetism]]
+
+
+{{Alloy-stub}}
+
+&amp;apos;Vicalloy&amp;apos; was used in hysteresis motors both in solid and laminated form (for higher frequency applications) by Vactric Ltd,and Walter Jones Ltd,- neither company still exist- using material produced and processed by Telcon Ltd, Crawley, UK, - now owned by Carpenter from about 2008.&amp;apos;Electrical Times&amp;apos;, UK, published an article &amp;apos;Magnetic Alloys for Hysteresis Motors&amp;apos; by D.R. Driver on 10th August 1967 which includes some magnetic charicteristics of Vically and P6 alloy. Work on applications in hysteresis motors was done at Aston University, UK, (the late Nick Capoldi who joined Smiths Industries) and The Electrical Research Association, UK, (Tasker and Bradford), amongst others.&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

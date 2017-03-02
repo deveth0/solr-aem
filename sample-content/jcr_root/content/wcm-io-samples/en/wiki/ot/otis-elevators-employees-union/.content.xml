@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Otis Elevators Employees Union"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Otis Elevators Employees Union" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|auto=yes|date=December 2009}}
+&amp;apos;&amp;apos;&amp;apos;Otis Elevators Employees Union&amp;apos;&amp;apos;&amp;apos;, a [[trade union]] of [[elevator]] installers and repairers at the [[Otis]] company, [[Maharashtra]], [[India]]. OEEU is affiliated to the [[Centre of Indian Trade Unions]]. In 1998 OEEU organized 490 out of 700 field employees.
+
+{{Portal|Organized labour}}
+
+[[Category:Centre of Indian Trade Unions]]
+
+
+{{India-trade-union-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

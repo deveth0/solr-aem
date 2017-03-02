@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Annan"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Annan" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{TOCright}}
+&amp;apos;&amp;apos;&amp;apos;Annan&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+==People==
+*[[Annan (surname)]]
+* Annan, sometimes referred to as [[Chintō]], taught the [[kata]] (martial arts) to [[Matsumura Sōkon]]
+
+==Places==
+;Australia
+* Annan River, Queensland, a river just south of Cooktown
+
+;Scotland
+* [[Annan, Dumfries and Galloway]]
+** [[Annan Academy]], a secondary school
+** [[Annan Athletic F.C.]], a football club
+* [[River Annan]], Dumfries and Galloway
+
+;Taiwan
+* [[Annan District]], a district located in the north of Tainan City
+
+==Politics==
+* [[Annan Plan for Cyprus]], United Nations proposal to reunify Cyprus
+
+==See also==
+*[[Annam (disambiguation)]]
+*[[Annandale]]
+*[[Anann]], a goddess in Irish mythology
+
+{{disambiguation|geo}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

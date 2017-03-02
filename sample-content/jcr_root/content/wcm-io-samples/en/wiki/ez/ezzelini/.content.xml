@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ezzelini"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ezzelini" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;Ezzelini&amp;apos;&amp;apos;&amp;apos; were a noble family in medieval Italy.
+*The family was founded by &amp;apos;&amp;apos;&amp;apos;Ecelo&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;&amp;apos;Ezzelo&amp;apos;&amp;apos;&amp;apos;), who received the fiefs of [[Romano d&amp;apos;Ezzelino]] and [[Onara (Italy)|Onara]]
+*[[Ezzelino I da Romano]] (d. c. 1080), called &amp;apos;&amp;apos;il Balbo&amp;apos;&amp;apos;
+*[[Ezzelino II da Romano]] (d. 1235), called &amp;apos;&amp;apos;il Monaco&amp;apos;&amp;apos;, son of Ezzelino I
+*[[Ezzelino III da Romano]] (d. 1259), called &amp;apos;&amp;apos;il Tiranno&amp;apos;&amp;apos;, son of Ezzelino II
+*[[Alberico da Romano]] (d. 1260), son of Ezzelino II
+*[[Cunizza da Romano]] (b. c. 1198), daughter of Ezzelino II
+
+
+[[Category:Ezzelini|*]]
+[[Category:Italian noble families]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

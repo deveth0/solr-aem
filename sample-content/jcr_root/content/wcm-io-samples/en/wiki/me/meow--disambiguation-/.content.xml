@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Meow (disambiguation)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Meow (disambiguation)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|chudder|meowing|mewed|mewing|miaowing}}
+&amp;apos;&amp;apos;&amp;apos;Meow&amp;apos;&amp;apos;&amp;apos; is an imitative word for a sound made in [[cat communication]]. It may also refer to:
+
+== Music ==
+* [[Miou Miou]], a Czech pop band
+&amp;lt;!--* [[Miaou (band)]], a Japanese post-rock band--&amp;gt;
+* [[Miaow (band)]], an English band
+* [[Miaow (album)|&amp;apos;&amp;apos;Miaow&amp;apos;&amp;apos; (album)]], a 1994 album by The Beautiful South
+* [[Mew (band)]], a shoegazing band from Denmark
+* Meow, a song from the [[Anamanaguchi]] album [[Endless Fantasy]]
+* [[Meow Meow (song)]], a song from the Tamil film &amp;apos;&amp;apos;Kanthaswamy&amp;apos;&amp;apos;
+
+== Other ==
+* [[Meow 104.8 FM]], an FM Radio Channel in India
+* [[Meow (cat) | Meow]], once the world&amp;apos;s heaviest cat
+* Miaow, or miaow miaow, a supposed slang name for the stimulant drug [[mephedrone]]
+* [[Meow (Pillow Pal)]], a Pillow Pal cat made by Ty
+* [[Meow (perfume) | Meow]] a fragance of the singer [[Katy Perry]]
+
+== See also ==
+* [[Miao (disambiguation)]]
+* The [[Hmong people]] (Miao) of Southeast Asia
+
+{{Disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

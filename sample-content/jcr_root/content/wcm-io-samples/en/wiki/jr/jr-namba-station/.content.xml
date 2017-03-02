@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="JR Namba Station"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="JR Namba Station" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox japan station
+|namerom        = JR Namba
+|name           = JR難波
+|image          = JR-Nanba.jpg
+|imagesize      =
+|caption        = Underground platform
+|pref           = Osaka|city = Osaka|ward = Naniwa|address = 4-1, Minatomachi Itchome
+|jaloc          = 大阪市浪速区湊町一丁目4-1
+|postal         =
+|coordinates    = {{Coord|34|39|59.1|N|135|29|43.2|E|region:JP_type:railwaystation|display=inline,title}}
+|open           = 1889
+|oldname        = Minatomachi
+|presentname    = 1994
+|operator       = [[JR West]]
+|line           = [[Kansai Main Line]]&amp;lt;br /&amp;gt;([[Yamatoji Line]])
+|stats          =
+|statsnote      =
+|bus            = t4
+}}
+[[Image:JR Namba.jpg|thumb|OCAT building above the station]]
+[[Image:JR-Nanba2.jpg|thumb|Ticket gate]]
+{{Nihongo|&amp;apos;&amp;apos;&amp;apos;JR Namba Station&amp;apos;&amp;apos;&amp;apos;|JR難波駅|Jeiāru-Nanba-eki}} is a [[railway station]] in [[Namba]], [[Naniwa Ward]], [[Osaka]], [[Japan]], adjacent to [[Namba Station]] ([[Nankai Railway]], [[Osaka Subway]]) and [[Osaka Namba Station]] ([[Kintetsu]], [[Hanshin Railway]]) operated by the [[West Japan Railway Company]].
+
+JR Namba is the western terminus of the [[Kansai Main Line]] ([[Yamatoji Line]]).
+
+== History ==
+The [[Osaka Railway]] opened {{nihongo|Minatomachi Station|湊町駅}} as its terminal in Osaka on March 1, 1899. The railway was succeeded by the [[Kansai Railway]] in 1900 and was [[Railway Nationalization Act|nationalized]] in 1907.
+The station was renamed JR Namba on September 4, 1994, the day [[Kansai International Airport]] opened. New underground facilities opened on March 22, 1996 and replaced the former above-ground station.&amp;lt;ref&amp;gt;{{Teishajo|II|p. 344}}&amp;lt;/ref&amp;gt;
+
+== Layout ==
+There are 2 [[island platform]]s with four tracks underground.
+{{Ja-rail-line|pwidth=80px|pfn=1, 2, 3, 4|first=4|linename=Yamatoji Line|dir=for {{Ja-stalink|Tennoji}}, {{Ja-stalink|Oji||Nara}}, {{Ja-stalink|Nara}}, {{Ja-stalink|Kamo||Kyoto}} and {{Ja-stalink|Takada||Nara}}|col=#093}}
+
+== Surroundings ==
+* [[Osaka City Air Terminal]] (OCAT)
+* Minatomachi River Place
+** [[FM Osaka]]
+* [[Sankei Shimbun]] Osaka Head Office
+
+=== Bus stops ===
+;Osaka City Air Terminal (OCAT)
+{{See|Osaka City Air Terminal#Bus terminal}}
+;JR Namba ekimae ([[Osaka Municipal Transportation Bureau]])
+* Sennichimae-dori (westbound)
+** Route 29 for {{Ja-stalink|Suminoekoen|Subway Suminoekoen}} via {{Ja-stalink|Ashiharabashi|Ashiharabashi-ekimae}}
+** Route 52 for {{Ja-stalink|Osaka Abenobashi|Abenobashi}} via Nagahashi Nichome
+** Route 60 for Tempozan via {{Ja-stalink|Sakuragawa|Subway Sakuragawa|Osaka}}
+** Route 71 for Tsurumachi Yonchome via Taishobashi and Taisho-kuyakusho-mae
+** Route 75 for {{Ja-stalink|Ōsaka|Ōsaka ekimae (Ōsaka Station)}} via Naniwa-suji
+** Route 108 for Tsurumachi Yonchome via Taishobashi and Chitosebashi
+* Sennichimae-dori (eastbound)
+** Routes 29, 52, 75, 71 and 108 for {{Ja-stalink|Namba}}
+** Route 60 for Namba ([[Takashimaya]])
+* Yotsubashi-suji (northbound)
+** Route 84 for {{Ja-stalink|Bentencho|Bentencho Bus Terminal}}
+** Route 85 for {{Ja-stalink|Tōbu-shijō-mae|Kumata}} via {{Ja-stalink|Tamatsukuri}}
+** Routes 103 for Ōsaka ekimae (Ōsaka Station) via Yotsubashi-suji
+
+== Adjacent stations ==
+{{J-railservice start}}
+{{J-route|route=Yamatoji Line|col=#093|f=w}}
+{{J-rserv|service=Local|col=gray|previous={{Ja-stalink|Imamiya}}|b=d}}
+{{J-rserv|service=Rapid Service|col=#093|previous={{ja-stalink|Shin-Imamiya}}}}
+{{S-end}}
+
+== References ==
+{{Reflist}}
+
+{{Yamatoji Line}}
+
+{{DEFAULTSORT:Jr Namba Station}}
+[[Category:Railway stations in Osaka Prefecture]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

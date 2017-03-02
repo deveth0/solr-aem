@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ateuchosaurus"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ateuchosaurus" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Taxobox
+| name = &amp;apos;&amp;apos;Ateuchosaurus&amp;apos;&amp;apos;
+| image = Ateuchosaurus chinensis.jpg
+| image_caption = &amp;apos;&amp;apos;[[Ateuchosaurus chinensis]]&amp;apos;&amp;apos;
+| regnum = [[Animal]]ia
+| phylum = [[Chordata]]
+| classis = [[Reptilia]] &amp;lt;small&amp;gt;([[paraphyletic]])&amp;lt;/small&amp;gt;
+| unranked_ordo = [[Sauria]]
+| ordo = [[Squamata]] &amp;lt;small&amp;gt;([[paraphyletic]])&amp;lt;/small&amp;gt;
+| infraordo = [[Scincomorpha]]
+| familia = [[Scincidae]]
+| subfamilia = see text
+| genus = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Ateuchosaurus&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+| genus_authority =
+| subdivision_ranks = [[Species]]
+| subdivision =
+2, see text.
+}}
+
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Ateuchosaurus&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is a [[genus]] of [[skink]]s ([[family (biology)|family]] Scincidae) containing only 2 [[species]]. It is usually placed in the [[subfamily]] [[Scincinae]]. This group seems to be paraphyletic however, and the present genus is apparently not closely related to most or all of them. Rather, it seems to be slightly closer to &amp;apos;&amp;apos;[[Acontias]]&amp;apos;&amp;apos;; it might either belong into the Acontinae or, as it seems to be quite distinct from &amp;apos;&amp;apos;Acontias&amp;apos;&amp;apos; too, into a not yet established novel and perhaps [[monotypic]] subfamily; more research is clearly required.(Austin &amp;amp; Arnold 2006)
+
+&amp;apos;&amp;apos;&amp;apos;Species&amp;apos;&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Ateuchosaurus chinensis]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Ateuchosaurus pellopleurus]]&amp;apos;&amp;apos;
+
+==References==
+* {{aut|Austin, J.J. &amp;amp; Arnold, E.N.}} (2006): Using ancient and recent DNA to explore relationships of extinct and endangered &amp;apos;&amp;apos;Leiolopisma&amp;apos;&amp;apos; skinks (Reptilia: Scincidae) in the Mascarene islands. &amp;apos;&amp;apos;Molecular Phylogenetics and Evolution&amp;apos;&amp;apos; &amp;apos;&amp;apos;&amp;apos;39&amp;apos;&amp;apos;&amp;apos;(2): 503–511. &amp;lt;small&amp;gt;{{doi|10.1016/j.ympev.2005.12.011}}&amp;lt;/small&amp;gt; (HTML abstract)
+
+{{skink-stub}}
+
+[[Category:Skinks]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

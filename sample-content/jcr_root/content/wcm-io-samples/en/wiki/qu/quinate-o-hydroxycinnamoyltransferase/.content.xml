@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Quinate O-hydroxycinnamoyltransferase"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Quinate O-hydroxycinnamoyltransferase" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{enzyme
+| Name = quinate O-hydroxycinnamoyltransferase
+| EC_number = 2.3.1.99
+| CAS_number = 60321-02-0
+| IUBMB_EC_number = 2/3/1/99
+| GO_code = 0047205
+| image =
+| width =
+| caption =
+}}
+In [[enzymology]], a &amp;apos;&amp;apos;&amp;apos;quinate O-hydroxycinnamoyltransferase&amp;apos;&amp;apos;&amp;apos; ({{EC number|2.3.1.99}}) is an [[enzyme]] that [[catalysis|catalyzes]] the [[chemical reaction]]
+
+:feruloyl-CoA + quinate &amp;lt;math&amp;gt;\rightleftharpoons&amp;lt;/math&amp;gt; CoA + O-feruloylquinate
+
+Thus, the two [[substrate (biochemistry)|substrates]] of this enzyme are [[feruloyl-CoA]] and [[quinate]], whereas its two [[product (chemistry)|products]] are [[coenzyme A|CoA]] and [[O-feruloylquinate]].
+
+This enzyme belongs to the family of [[transferase]]s, specifically those [[acyltransferase]]s transferring groups other than aminoacyl groups.  The systematic name of this enzyme class is &amp;apos;&amp;apos;&amp;apos;feruloyl-CoA:quinate O-(hydroxycinnamoyl)transferase&amp;apos;&amp;apos;&amp;apos;. This enzyme is also called &amp;apos;&amp;apos;&amp;apos;hydroxycinnamoyl coenzyme A-quinate transferase&amp;apos;&amp;apos;&amp;apos;.  This enzyme participates in [[phenylpropanoid biosynthesis]].
+
+== References ==
+{{reflist|1}}
+* {{cite journal | author = Strack D, Gross W, Wray V, Grotjahn L | date = 1987 | title = Enzymic Synthesis of Caffeoylglucaric Acid from Chlorogenic Acid and Glucaric Acid by a Protein Preparation from Tomato Cotyledons | journal = Plant. Physiol.  | volume = 83 | pages = 475&amp;amp;ndash;478  | pmid = 16665274 | doi = 10.1104/pp.83.3.475 | issue = 3 | pmc = 1056389 }}
+* {{cite journal | author = Strack D, Keller H and Weissenbock G | date = 1987 | title = Enzymatic-synthesis of hydroxycinnamic acid-esters of sugar acids and hydroaromatic acids by protein preparations from rye (Secale cereale) primary leaves | journal = J. Plant Physiol.  | volume = 131 | pages = 61&amp;amp;ndash;73 }}
+* {{cite journal | author = Villegas RJ, Kojima M | date = 1986 | title = Purification and characterization of hydroxycinnamoyl D-glucose Quinate hydroxycinnamoyl transferase in the root of sweet potato, Ipomoea batatas Lam | journal = J. Biol. Chem.  | volume = 261 | pages = 8729&amp;amp;ndash;33  | pmid = 3722170 | issue = 19 }}
+
+[[Category:EC 2.3.1]]
+[[Category:Enzymes of unknown structure]]
+[[Category:Hydroxycinnamic acids metabolism]]
+
+{{transferase-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

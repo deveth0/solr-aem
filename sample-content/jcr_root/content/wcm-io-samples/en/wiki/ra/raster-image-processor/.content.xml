@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Raster image processor"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Raster image processor" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=April 2008}}
+
+[[File:RIP Data Flow.svg|thumb|300px|Generating the raster image data]]
+
+A &amp;apos;&amp;apos;&amp;apos;raster image processor (RIP)&amp;apos;&amp;apos;&amp;apos; is a component used in a [[printing]] system which produces a [[raster graphics|raster]] image also known as a [[bitmap]]. The bitmap is then sent to a printing device for output. The input may be a page description in a high-level [[page description language]] such as [[PostScript]], [[Portable Document Format]], [[XML Paper Specification|XPS]] or another bitmap of higher or lower resolution than the output device. In the latter case, the RIP applies either smoothing or interpolation algorithms to the input bitmap to generate the output bitmap.
+
+Raster image processing is the process and the means of turning [[vector (geometry)|vector]] [[Digital data|digital]] information such as a [[PostScript]] file into a high-resolution [[raster image]].
+
+Originally RIPs were a rack of electronic hardware which received the page description via some interface (e.g. [[RS232]]) and generated a &amp;quot;hardware bitmap output&amp;quot; which was used to enable or disable each [[pixel]] on a real-time output device such as an optical film recorder.
+
+A RIP can be implemented either as a software component of an operating system or as a firmware program executed on a [[microprocessor]] inside a printer, though for high-end typesetting, standalone hardware RIPs are sometimes used.  [[Ghostscript]] and [[GhostPCL]] are examples of software RIPs.  Every PostScript printer contains a RIP in its [[firmware]].
+
+Earlier RIPs retained backward compatibility with photosetters so they supported the older languages. So, for example Linotype RIPs supported CORA (RIP30).
+
+==Stages of RIP==
+
+# &amp;apos;&amp;apos;&amp;apos;Interpretation&amp;apos;&amp;apos;&amp;apos;: This is the stage where the supported PDLs (Page description languages) are translated into a private internal representation of each page. Most RIPs process pages serially so the current machine state is only for the current page; i.e. one page at once. Once a page has been output the page state is discarded to ready it for the next page.
+# &amp;apos;&amp;apos;&amp;apos;Rendering&amp;apos;&amp;apos;&amp;apos;: A process through which the private internal representation is turned into a continuous tone bitmap. Note that in practical RIPs, interpretation and rendering are frequently done together. Simple languages were designed to work on minimal hardware so tend to &amp;quot;directly drive&amp;quot; the renderer.
+# &amp;apos;&amp;apos;&amp;apos;Screening&amp;apos;&amp;apos;&amp;apos;: In order to print, a continuous-tone bitmap is converted into a [[halftone]] (pattern of dots).  Two screening methods or types are &amp;apos;&amp;apos;Amplitude Modulation&amp;apos;&amp;apos; (AM) screening and &amp;apos;&amp;apos;stochastic or Frequency Modulation&amp;apos;&amp;apos; (FM) screening. In AM screening, dot size varies depending on object density—tonal values; dots are placed in a fixed grid. In FM screening, dot size remains constant and dots are placed in random order to create darker or lighter areas of the image; dot placement is precisely controlled by sophisticated mathematical algorithms.
+
+A RIP [[Microprocessor|chip]] is used in [[laser printers]] to communicate [[raster images]] to a [[laser]].
+
+==RIP Providers==
+*[http://www.efi.com EFI, Inc.] EFI Fiery Controllers.
+* [http://www.embeddedgeneral.com EG-DocRIP](printer drivers not available) can interpret several printer languages or document formats - HP PCL5, XL, Adobe PostScript Level3, Microsoft [[XML Paper Specification|XPS]], W3C XHTML-MP, and render to raster image.
+* [http://www.bluecubit.com ImageNest RIP] (Non windows OS)can layout multiple raster and PostScript files onto a single page.  File support includes EPS, PDF, PS (Postscript) Camera RAW, DNG, TIF, JPG, GIF, PNG, HDR (High Dynamic Range), and other formats
+* [[Harlequin RIP]] renders from [[PostScript]], [[PDF]], [[XPS]], [[Printer Command Language|PCL]] etc. for use in desktop printers, digital production presses and [[prepress]].
+* [http://www.ipasystems.co.uk/index.php/products/rips.html RipExpress] and [http://www.ipasystems.co.uk/index.php/products/prepressworkflow.html PrintExpress] Adobe CPSI based RIPs from [http://www.ipasystems.co.uk/index.php IPA Systems Ltd.]
+* [http://www.colorbytesoftware.com ImagePrint]  Windows / Macintosh  RIP specializing in Fine Art and Photographic reproduction on Inkjet printers.
+
+==See also==
+
+* [[Laser printer]]
+* [[Raster graphics]]
+* [[Raster to vector]]
+* [[Vector graphics]]
+
+==External links==
+* [http://desktoppub.about.com/cs/rip/a/rip.htm Let &amp;apos;er RIP - What you need to know about raster image processing], from About.com
+
+[[Category:Printing]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Z Carinae"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Z Carinae" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{lowercase|z Carinae}}
+
+;z Carinae
+The [[Bayer designation]] &amp;apos;&amp;apos;&amp;apos;z Carinae&amp;apos;&amp;apos;&amp;apos; (z Car) is shared by two stars in the constellation Carina:
+* [[HD 96566]] (z&amp;lt;sup&amp;gt;1&amp;lt;/sup&amp;gt; Carinae), the brighter of the pair, often referred to as simply &amp;apos;&amp;apos;z Carinae&amp;apos;&amp;apos;
+* [[V371 Carinae]] (z&amp;lt;sup&amp;gt;2&amp;lt;/sup&amp;gt; Carinae)
+They are separated by 0.53° on the sky.
+
+;Z Carinae
+The [[variable star designation]] &amp;apos;&amp;apos;&amp;apos;Z Carinae&amp;apos;&amp;apos;&amp;apos;
+* is used by [[HD 88946]], a 10.20&amp;lt;sub&amp;gt;m&amp;lt;/sub&amp;gt; [[Mira variable]].
+
+{{SIA|astronomical objects}}
+
+[[Category:Carina (constellation)]]
+[[Category:Bayer objects|Carinae, z]]
+[[Category:Objects named with variable star designations|Carinae, Z]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

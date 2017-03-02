@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Diuresis"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Diuresis" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{confuse|diaeresis (disambiguation)}}
+
+&amp;apos;&amp;apos;&amp;apos;Diuresis&amp;apos;&amp;apos;&amp;apos; may refer to:
+* Urine production, as an aspect of [[fluid balance]]
+* Excessive urine production - see [[polyuria]]
+* [[Forced diuresis]], increased urine formation by diuretics and fluid
+* [[Immersion diuresis]], a type of diuresis caused by immersion of the body in water
+* [[Osmotic diuresis]], increased urination caused by the presence of substances in the kidneys
+* [[Rebound diuresis]], sudden resurgence of urine flow that occurs during convalescence from acute renal failure
+
+{{disambig}}
+
+[[ca:Diüresi]]
+[[cs:Diuréza]]
+[[da:Diurese]]
+[[de:Diurese]]
+[[fr:Diurèse]]
+[[it:Diuresi]]
+[[pl:Diureza]]
+[[pt:Diurese]]
+[[ru:Диурез]]
+[[uk:Діурез]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

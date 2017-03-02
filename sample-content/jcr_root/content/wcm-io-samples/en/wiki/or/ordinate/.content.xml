@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ordinate"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ordinate" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{See also|Ordination_(statistics)}}
+[[File:Cartesian-coordinate-system.svg|thumb|right|Illustration of a Cartesian coordinate plane. Four points are marked and labeled with their coordinates: (2, 3) in green, (−3, 1) in red, (−1.5, −2.5) in blue, and the origin (0, 0) in purple.]]
+
+In [[mathematics]], &amp;apos;&amp;apos;&amp;apos;ordinate&amp;apos;&amp;apos;&amp;apos; refers to that element of an [[ordered pair]] which is plotted on the vertical axis of a two-dimensional [[Cartesian coordinate system]], as opposed to the [[abscissa]].  The ordinate is the second of the two terms (often labeled &amp;apos;&amp;apos;x&amp;apos;&amp;apos; and &amp;apos;&amp;apos;y&amp;apos;&amp;apos;) which define the location of a point in such a coordinate system.
+
+:&amp;lt;math&amp;gt;(\overbrace{x}^\text{abscissa}, \overbrace{y}^\text{ordinate})&amp;lt;/math&amp;gt;
+
+==Examples==
+* For the point (-7, 3), -7  is called the [[abscissa]] and 3, the ordinate.
+
+==See also==
+{{Portal|Geometry}}
+* [[Cartesian_coordinate_system#Notations_and_conventions|Cartesian coordinate conventions]]
+* [[Wiktionary:ordinate|ordinate]] on Wiktionary
+* [[Ordered pair]]
+* [[Abscissa]]
+* [[Function (mathematics)]]
+* [[Relation (mathematics)]]
+* [[Line chart]]
+
+==External links==
+*[http://jeff560.tripod.com/o.html Earliest Known Uses of Some of the Words of Mathematics (O)]
+
+==References==
+{{FOLDOC}}
+
+[[Category:Elementary mathematics]]
+[[Category:Coordinate systems]]
+[[Category:Dimension]]
+
+{{geometry-stub}}
+
+[[de:Kartesisches Koordinatensystem#Das Koordinatensystem im zweidimensionalen Raum]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

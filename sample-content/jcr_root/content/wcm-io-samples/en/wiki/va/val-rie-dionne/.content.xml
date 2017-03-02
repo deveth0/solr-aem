@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Valérie Dionne"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Valérie Dionne" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{MedalTableTop}}
+{{MedalSport | Women&amp;apos;s [[Water Polo]]}}
+{{MedalCountry | {{CAN}} }}
+{{MedalCompetition|[[World Aquatics Championships|World Championships]]}}
+{{MedalBronze| [[2001 World Aquatics Championships|2001 Fukuoka]] | Team}}
+{{MedalBronze|[[2005 World Aquatics Championships|2005 Montréal]]|[[Water Polo at the 2005 World Aquatics Championships|Team]]}}
+{{MedalCompetition|[[Pan American Games]]}}
+{{MedalSilver|[[2003 Pan American Games|2003 Santo Domingo]]|[[Water polo at the 2003 Pan American Games|Team]]}}
+{{MedalBottom}}
+
+&amp;apos;&amp;apos;&amp;apos;Valérie Dionne&amp;apos;&amp;apos;&amp;apos; (born July 29, 1980 in [[Sainte-Foy, Quebec]]) is a [[Canada|Canadian]] [[water polo]] player.  She is a member of the national women&amp;apos;s water polo team and has competed in five juvenile, 15 provincial, and 11 national championships.
+
+In 1999, the [[International Swimming Federation|FINA Cup]] team on which she played qualified for the [[2000 Summer Olympics]], where the team placed fifth in the final results.  She was also part of the bronze medal-winning women&amp;apos;s water polo team at the 2001 world championships in [[Fukuoka, Fukuoka|Fukuoka]], [[Japan]].
+
+==References==
+* [http://72.232.38.190/EN/athletes/query/details2.php?id=38478 Canadian Olympic Committee]
+
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Dionne, Valerie
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION = Canadian water polo player
+| DATE OF BIRTH     = July 29, 1980
+| PLACE OF BIRTH    =
+| DATE OF DEATH     =
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Dionne, Valerie}}
+[[Category:1980 births]]
+[[Category:Water polo players at the 2000 Summer Olympics]]
+[[Category:Water polo players at the 2004 Summer Olympics]]
+[[Category:Olympic water polo players of Canada]]
+[[Category:Canadian water polo players]]
+[[Category:French Quebecers]]
+[[Category:Living people]]
+[[Category:People from Sainte-Foy, Quebec]]
+[[Category:Sportspeople from Quebec]]
+[[Category:Canadian sportswomen]]
+
+
+{{Canada-waterpolo-bio-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="HMAS Perth"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="HMAS Perth" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Italic title prefixed|4}}
+Three ships of the [[Royal Australian Navy]] (RAN) have been named &amp;apos;&amp;apos;&amp;apos;HMAS &amp;apos;&amp;apos;Perth&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; after [[Perth, Western Australia|Perth]], the capital city of [[Western Australia]].
+
+* {{HMAS|Perth|D29}}, a modified [[Leander class cruiser (1931)|&amp;apos;&amp;apos;Leander&amp;apos;&amp;apos;-class]] light cruiser. Commissioned into the Royal Navy as HMS &amp;apos;&amp;apos;Amphion&amp;apos;&amp;apos; in 1936, she was sold to the RAN three years later. The ship served until 1 March 1942, when she was sunk during the [[Battle of Sunda Strait]].
+* {{HMAS|Perth|D 38}}, the lead ship of the [[Perth class destroyer|&amp;apos;&amp;apos;Perth&amp;apos;&amp;apos;-class]] guided missile destroyers. Built as a {{sclass|Charles F. Adams|destroyer|2}} derivative for the RAN and commissioned in 1965, the ship served until decommissioning in 1999. She was sunk as a dive wreck off the coast of [[Albany, Western Australia]], in 2001.
+* {{HMAS|Perth|FFH 157}}, an [[Anzac class frigate|&amp;apos;&amp;apos;Anzac&amp;apos;&amp;apos;-class]] frigate commissioned in 2006 and active as of 2012
+
+==Battle honours==
+Nine [[battle honours]] have been awarded to ships named HMAS &amp;apos;&amp;apos;Perth&amp;apos;&amp;apos;.&amp;lt;ref&amp;gt;{{cite news |url=http://www.navy.gov.au/Navy_Marks_109th_Birthday_With_Historic_Changes_To_Battle_Honours |title=Navy Marks 109th Birthday With Historic Changes To Battle Honours |date=1 March 2010 |publisher=Royal Australian Navy |accessdate=4 March 2010}}&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;{{cite web |url=http://www.navy.gov.au/w/images/Units_entitlement_list.pdf |title=Royal Australian Navy Ship/Unit Battle Honours |date=1 March 2010 |publisher=Royal Australian Navy |accessdate=4 March 2010}}&amp;lt;/ref&amp;gt;
+
+* [[Battle of the Atlantic (1939–1945)|Atlantic]] 1939
+* [[Malta Convoys]] 1941
+* [[Battle of Cape Matapan|Matapan]] 1941
+* [[Battle of Greece|Greece]] 1941
+* [[Battle of Crete|Crete]] 1941
+* [[Battle of the Mediterranean|Mediterranean]] 1941
+* [[South West Pacific theatre of World War II|Pacific]] 1941–42
+* [[Battle of Sunda Strait|Sunda Strait]] 1942
+* [[Vietnam War|Vietnam]] 1967–71
+
+==References==
+{{reflist}}
+
+{{Shipindex}}
+
+{{DEFAULTSORT:Perth, Hmas}}
+[[Category:Royal Australian Navy ship names]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

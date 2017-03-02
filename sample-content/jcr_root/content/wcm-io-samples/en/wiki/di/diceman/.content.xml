@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Diceman"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Diceman" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Diceman&amp;apos;&amp;apos;&amp;apos; may refer to:
+* The Diceman, the nickname of Dublin street performer, [[Thom McGinty]].
+* [[The Diceman (TV series)]], a series of TV programmes produced between 1997 and 2001.
+* &amp;apos;&amp;apos;[[The Dice Man]]&amp;apos;&amp;apos;, a 1971 book by George Cockcroft written under the pen name Luke Rhinehart.
+* [[Dice Man (comic)]], a series of five game comics from the creators of 2000AD (and also a character in that series).
+*  [[Andrew Dice Clay]] (nickname)
+* [[Daisuke Matsuzaka]], Boston Red Sox pitcher
+* One of [[Aphex Twin|Richard D. James]]&amp;apos;s aliases.
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Kamikoshiki, Kagoshima"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Kamikoshiki, Kagoshima" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+{{Nihongo|&amp;apos;&amp;apos;&amp;apos;Kamikoshiki&amp;apos;&amp;apos;&amp;apos;|上甑村|Kamikoshiki-mura}} was a [[villages of Japan|village]] located in [[Satsuma District, Kagoshima|Satsuma District]], [[Kagoshima Prefecture|Kagoshima]], [[Japan]].
+
+On October 12, 2004 Kamikoshiki was merged with the towns of [[Hiwaki, Kagoshima|Hiwaki]], [[Iriki, Kagoshima|Iriki]], [[Kedōin, Kagoshima|Kedōin]] and [[Tōgō, Kagoshima|Tōgō]], and the villages of [[Kashima, Kagoshima|Kashima]], [[Sato, Kagoshima|Sato]] and [[Shimokoshiki, Kagoshima|Shimokoshiki]], all from [[Satsuma District, Kagoshima|Satsuma District]], and the old city of [[Sendai, Kagoshima|Sendai]], to form the new city of [[Satsumasendai, Kagoshima|Satsumasendai]].
+
+As of 2003, the village had an estimated [[population]] of 1,900 and the [[population density|density]] of 54.10 persons per km². The total area was 35.12&amp;amp;nbsp;km².
+
+[[Category:Dissolved municipalities of Kagoshima Prefecture]]
+
+
+{{Kagoshima-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

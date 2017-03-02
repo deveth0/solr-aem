@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Malum in se"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Malum in se" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{ref improve|date=March 2013}}
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Malum in se&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; (plural &amp;apos;&amp;apos;mala in se&amp;apos;&amp;apos;) is a [[list of Latin phrases|Latin phrase]] meaning &amp;apos;&amp;apos;wrong&amp;apos;&amp;apos; or &amp;apos;&amp;apos;evil in itself&amp;apos;&amp;apos;.  The phrase is used to refer to conduct assessed as sinful or inherently wrong by nature, independent of regulations governing the conduct.  It is distinguished from &amp;apos;&amp;apos;[[malum prohibitum]]&amp;apos;&amp;apos;, which is wrong only because it is prohibited.
+
+For example, most human beings believe that murder, rape, and theft are wrong, regardless of whether a law governs such conduct or where the conduct occurs, and is thus recognizably &amp;apos;&amp;apos;malum in se&amp;apos;&amp;apos;. In contrast, &amp;apos;&amp;apos;malum prohibitum&amp;apos;&amp;apos; crimes are criminal not because they are inherently bad, but because the act is prohibited by the law of the state.
+
+This concept was used to develop the various [[common law offences]].&amp;lt;ref&amp;gt;Canadian Law Dictionary, John A. Yogis, Q.C., Barrons: 2003&amp;lt;/ref&amp;gt;
+
+Another way to describe the underlying conceptual difference between &amp;quot;malum in se&amp;quot; and &amp;quot;malum prohibitum&amp;quot; is &amp;quot;iussum quia iustum&amp;quot; and &amp;quot;iustum quia iussum,&amp;quot; namely something that is commanded (iussum) because it is just (iustum) and something that is just (iustum) because it is commanded (iussum).
+
+==References==
+{{Reflist}}
+
+{{DEFAULTSORT:Malum In Se}}
+[[Category:Latin legal terms]]
+[[Category:Criminal law]]
+
+
+{{Latin-legal-phrase-stub}}
+{{criminal-law-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

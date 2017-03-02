@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="VGM (file format)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="VGM (file format)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;VGM&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;&amp;apos;V&amp;apos;&amp;apos;&amp;apos;ideo &amp;apos;&amp;apos;&amp;apos;G&amp;apos;&amp;apos;&amp;apos;ame &amp;apos;&amp;apos;&amp;apos;M&amp;apos;&amp;apos;&amp;apos;usic) is an [[Timeline of audio formats|audio format]] for multiple [[video game]] platforms, such as [[Sega]]&amp;apos;s [[Master System]], [[Sega Game Gear|Game Gear]], [[Sega Genesis|Mega Drive/Genesis]], [[MSX]], [[Neo Geo]] and many others.
+
+The normal [[filename extension]] is &amp;apos;&amp;apos;.vgm&amp;apos;&amp;apos;, but files can also be [[Gzip]] compressed into &amp;apos;&amp;apos;.vgz&amp;apos;&amp;apos; files.
+Technically, &amp;apos;&amp;apos;.vgz&amp;apos;&amp;apos; files should be named &amp;apos;&amp;apos;.vgm.gz&amp;apos;&amp;apos;, but because some popular [[operating system]]s&amp;apos; [[file manager]]s cannot handle file name suffixes that themselves contain a dot, &amp;apos;&amp;apos;.vgz&amp;apos;&amp;apos; is used in order to launch a VGM player (e.g. [[Winamp]] with the proper [[Plug-in (computing)|plugin]]) and not a [[data compression]] program such as [[WinZip]] or [[WinRAR]].
+
+On November 20, 2005, VGM 1.50 was officially announced, and a new version of the input plugin released. The new version of the format now supports [[pulse-code modulation|PCM]] [[Program optimization|optimization]] for the [[Yamaha YM2612]] [[sound chip]], which makes sound files using the chip a lot smaller — sometimes with over 75% of size reduction. The first YM2612 VGM archive,  Project 2612, optimized all of its packages soon after.
+
+As of May 6, 2011, the official VGM specification was updated from version 1.50 to 1.60; the following non-exhaustive list details each new change:
+
+Version 1.51 changes (unofficial update)
+
+The 1.51 spec sheet documents that this version is compatible with the 1.50 specification (with exception of the dual-chip support), but Maxim&amp;apos;s in_vgm Winamp plugin still exhibits issues when utilized.
+* Support for audio playback and manipulation of many new chips and formats, notably:
+** The YM Series ([[Yamaha YM2203|YM2203]], [[Yamaha YM2608|YM2608]], [[Yamaha YM2610|YM2610]], [[Yamaha YM3812|YM3812]], [[Yamaha YM3526|YM3526]], [[Yamaha Y8950|Y8950]], [[Yamaha YMF262|YMF262]], [[YMF271]], [[Yamaha YMF278|YMF278B]], and [[YMZ280B]])
+** [[Ricoh RF5c68|RF5c68]] and RF5c164 (Sega CD PCM)
+** Sega PCM and Sega 32x PWM
+** [[General Instrument AY-3-8910|AY-3-8910]]
+* Data block type information has been added for all new chips that need additional data.
+* SN76489 Flags have been added.
+* Dual-chip support has been added for nearly every chip.
+
+Version 1.60 changes
+
+Several new optimization methods have been created (optvgmrf and optvgm32).
+* RF5cxx and PWM stream data blocks and a command for optimizing RF5cxx data streams have been added.
+* Ability to control DAC Streams more easily has been added to support better optimizations.
+
+As of the 1.60 update, compatibility with 1.50 format players has been broken.
+
+Version 1.61
+
+* [[Game Boy]] audio
+* [[Nintendo Entertainment System|NES/Famicom]] 2A03 audio
+* [[POKEY]]
+*Q-Sound
+*(various others)
+
+==See also==
+*[[Chiptune]]
+
+==References==
+{{reflist}}
+
+==External links==
+*[http://www.smspower.org/Music/VGMFileFormat VGM File Format] Official specifications
+*[http://www.smspower.org/forums/viewtopic.php?t=11965] Maxim&amp;apos;s in_vgm Winamp plugin, and Valley Bell&amp;apos;s updates
+*[http://www.chipamp.org/ Chipamp] - Winamp plug-in bundle compiled by [[OverClocked ReMix]] allowing playback of over 40 chiptune and tracker formats
+*[http://audacious-media-player.org Audacious Media Player] - [[Audacious (software)|Audacious Media Player]] is capable of playing VGM files out of the box on Linux/Unix systems. A patch from [http://www.slack.net/~ant/libs/audio.html#Game_Music_Emu this webpage] is required to enable playback of VGM files that utilize the YM2413 synthesizer, and PSG Master System and Mega Drive/Genesis VGMs are known to work with or without the patch.
+*[http://www.bannister.org/software/ao.htm Audio Overload] - Another program for playing VGMs. Available on Mac OS X, Windows, and x86/x86-64 Linux.
+*[http://shauninman.com/noisees/ Noise Entertainment System] - a NSF/e, GBS, VGM and SPC player for the iPhone and iPod touch.
+
+{{VG music sound formats}}
+
+[[Category:Digital audio]]
+[[Category:Video game music file formats]]
+
+{{videogame-software-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

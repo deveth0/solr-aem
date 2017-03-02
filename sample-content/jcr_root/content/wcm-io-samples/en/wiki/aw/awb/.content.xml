@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="AWB"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="AWB" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Selfref|In Wikipedia, AWB may refer to [[Wikipedia:AutoWikiBrowser|AutoWikiBrowser]].}}
+
+&amp;apos;&amp;apos;&amp;apos;AWB&amp;apos;&amp;apos;&amp;apos; may refer to:
+* [[Afrikaner Weerstandsbeweging]], an Afrikaner political group
+* [[Air waybill]], a receipt issued by an international courier company
+* [[Average White Band]], a Scottish funk and R&amp;amp;B band
+** [[AWB (album)|&amp;apos;&amp;apos;AWB&amp;apos;&amp;apos; (album)]], a 1974 album by Average White Band
+* [[Aviation without Borders]], an humanitarian aeronautical [[non-governmental organization]]
+* [[AWB Limited]], the former Australian Wheat Board, an Australian company that oversees the exports of grain
+* [[Federal Assault Weapons Ban]], a provision of a United States federal law
+* .awb, the common file extension for the [[AMR-WB]] speech coding standard
+* Auto white balance, a [[color balance]] feature of digital cameras and video cameras
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

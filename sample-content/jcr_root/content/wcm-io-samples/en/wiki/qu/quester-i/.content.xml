@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Quester I"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Quester I" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Quester I&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is the name of a 45-foot [[submarine]] built in 1967 by Jerry Bianco, a shipyard worker in [[Brooklyn, NY]]. Made of salvaged metal, Bianco built the submarine in order to raise the wreck of the passenger ship {{SS|Andrea Doria}}. The submarine was launched unsuccessfully in 1970 when it tipped sideways and became stuck in the muddy banks.&amp;lt;ref&amp;gt;Moynihan, C: [http://www.nytimes.com/2007/11/09/nyregion/09submarine.html?ex=1352350800&amp;amp;en=b2a455f912d2cf2c&amp;amp;ei=5124&amp;amp;partner=permalink&amp;amp;exprod=permalink &amp;amp;ldquo;In Coney Island Creek, Hulk of a Yellow Submarine Sticks Out,&amp;amp;rdquo;] The New York Times, November 9, 2007.&amp;lt;/ref&amp;gt; The submarine remains in [[Coney Island]] Creek.
+
+== References ==
+{{reflist}}
+
+==External links==
+* [http://web.archive.org/web/20110604153445/http://www.forgotten-ny.com/YOU&amp;apos;D%20NEVER%20BELIEVE/yellowsub/yellowsub.html &amp;quot;The Yellow Submarine of Coney Island Creek&amp;quot;], Forgotten New York. Archived from [http://www.forgotten-ny.com/YOU&amp;apos;D%20NEVER%20BELIEVE/yellowsub/yellowsub.html the original] on June 4, 2011.
+
+[[Category:Submarines]]
+[[Category:1970 ships]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

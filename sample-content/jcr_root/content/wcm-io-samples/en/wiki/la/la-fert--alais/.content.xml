@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="La Ferté-Alais"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="La Ferté-Alais" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox French commune
+|name               = La Ferté-Alais
+|image              = Laferte005.jpg
+|caption            = View from the east, looking over the town towards the airfield
+|longitude          = 2.348
+|latitude           = 48.4816
+|INSEE              = 91232
+|postal code        = 91590
+|region             = Île-de-France
+|department         = Essonne
+|arrondissement     = Étampes
+|canton             = La Ferté-Alais
+|mayor              = Christian Karrer
+|term               = 2008&amp;amp;ndash;2014
+|elevation min m    = 53
+|elevation max m    = 142
+|area km2           = 4.55
+|population         = 4064
+|population date    = 2006
+}}
+
+&amp;apos;&amp;apos;&amp;apos;La Ferté-Alais&amp;apos;&amp;apos;&amp;apos; is a [[commune in France|commune]] in the [[Essonne]] [[Departments of France|department]] in [[Île-de-France (region)|Île-de-France]] in northern [[France]]. It is {{convert|52|km|mi|abbr=on}} south of [[Paris]].
+
+Its airfield (in Cerny really), hosts [[La Ferté-Alais air show|a world-famous air show]] for vintage [[World War I]] and [[World War II|WWII]] aircraft and a museum of such aircraft.
+
+It even has the aircraft (still airworthy) that [[Louis Blériot]] used to cross the English Channel in 1909.
+
+Inhabitants of La Ferté-Alais are known as &amp;apos;&amp;apos;Fertois&amp;apos;&amp;apos;.
+
+==See also==
+*[[Communes of the Essonne department]]
+
+==References==
+*[http://www.insee.fr/en/home/home_page.asp INSEE]
+*[http://www.ume.asso.fr Mayors of Essonne Association] {{Fr icon}}
+{{reflist}}
+
+==External links==
+{{Commonscat-inline|La Ferté-Alais}}
+*[http://www.lafertealais.fr Official website] {{Fr icon}}
+*[http://www.lafertealais.com/ Non-official website] {{fr icon}}
+*[http://www.culture.gouv.fr/public/mistral/merimee_fr?ACTION=CHERCHER&amp;amp;FIELD_98=INSEE&amp;amp;VALUE_98=91232 Mérimée database - Cultural heritage] {{Fr icon}}
+*[http://www.iaurif.org/en/gis/fichescom/mos99/ficmos/mos91232.html Land use (IAURIF)] {{en icon}}
+
+{{Essonne communes}}
+
+{{DEFAULTSORT:Fertealais}}
+[[Category:Communes of Essonne]]
+
+{{Essonne-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,13 @@
+{
+  "jcr:primaryType": "cq:Template",
+  "jcr:title": "Solr Search Page",
+  "ranking": 1,
+  
+  "allowedPaths": "^/content/wcm-io-samples/.+$",
+  "allowedChildren": "^/apps/wcm-io-samples/sample-app/.*$",
+  
+  "jcr:content": {
+    "jcr:primaryType": "cq:PageContent",
+    "sling:resourceType": "/apps/deveth0_solr/components/page/solrSearch"
+  }
+}

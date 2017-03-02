@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Java APIs for Integrated Networks"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Java APIs for Integrated Networks" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{about|a Java Community Process|other uses of the JAIN [[acronym]]|JAIN (disambiguation)}}
+{{inline|date=March 2012}}
+&amp;apos;&amp;apos;&amp;apos;Java APIs for Integrated Networks&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;&amp;apos;JAIN&amp;apos;&amp;apos;&amp;apos;) is an activity within the [[Java Community Process]], developing APIs for the creation of [[telephony]] (voice and data) services. Originally, JAIN stood for &amp;apos;&amp;apos;[[Java (programming language)|Java]] [[Application Programming Interface|API]]s for [[Intelligent Network]]&amp;apos;&amp;apos;. The name was later changed to &amp;apos;&amp;apos;Java APIs for Integrated Networks&amp;apos;&amp;apos; to reflect the widening scope of the project. The JAIN activity consists of a number of &amp;quot;Expert Groups&amp;quot;, each developing a single API specification.
+
+==Trend==
+JAIN is part of a general trend to open up service creation in the telephony network so that, by analogy with the [[Internet]], openness should result in a growing number of participants creating services, in turn creating more demand and better, more targeted services.
+
+==Major goal==
+A major goal of the JAIN APIs is to abstract the underlying network, so that services can be developed independent of [[computer network|network]] technology, be it traditional [[PSTN]] or [[Next Generation Network]].
+
+==API==
+The JAIN effort has produced around 20 APIs, in various stages of standardization, ranging from Java APIs for specific [[network protocol]]s, such as [[Session Initiation Protocol|SIP]] and [[Transaction Capabilities Application Part|TCAP]], to more abstract APIs such as for [[call control]] and [[Charging Data Function|charging]], and even including a non-Java effort for describing telephony services in [[XML]].
+
+==Parlay X==
+There is overlap between JAIN and [[Parlay X|Parlay]]/[[Open Services Architecture|OSA]] because both address similar problem spaces. However, as originally conceived, JAIN focused on APIs that would make it easier for network operators to develop their own services within the framework of [[Intelligent Network]] (IN) protocols. As a consequence, the first JAIN APIs focused on methods for building and interpreting [[Signaling System 7|SS7]] messages and it was only later that JAIN turned its attention to higher-level methods for call control. Meanwhile, at about the same time JAIN was getting off the ground, work on Parlay began with a focus on APIs to enable development of network services by non-operator third parties.
+
+==Standardized APIs==
+From around 2001 to 2003, there was an effort to harmonize the not yet standardized JAIN APIs for call control with the comparable and by then standardized Parlay APIs. A number of difficulties were encountered, but perhaps the most serious was not technical but procedural. The Java Community Process requires that a reference implementation be built for every standardized Java API. Parlay does not have this requirement. Not surprisingly, given the effort that would have been needed to build a reference implementation of JAIN call control, the standards community decided, implicitly if not explicitly, that the Parlay call control APIs were adequate and work on JAIN call control faded off. Nonetheless, the work on JAIN call control did have an important impact on Parlay since it helped to drive the definition of an agreed-upon mapping of Parlay to the Java language.
+
+==See also==
+* [[NGIN]]
+* [[Parlay Group]]
+
+==External links==
+* [http://java.sun.com/products/jain/ The JAIN APIs].
+* [http://jain-sip.dev.java.net/ JAIN-SIP].
+* [http://jsip.java.net/ JAIN-SIP (new site)].
+
+== Books ==
+* {{cite book|last=Jain|first=Ravi|title=Programming converged networks : call control in Java, XML, and Parlay.|year=2005|publisher=Wiley-Interscience|location=Hoboken, N.J.|isbn=0-471-26801-1|coauthors=Anjum, Farooq, Bakker, John-Luc}}
+* {{cite book|last=Jepsen|first=Thomas C.|title=Java in telecommunications : solutions for next generation networks|year=2001|publisher=Wiley|location=Chichester [u.a.]|isbn=0-471-49826-2|editor=Anjum, Farooq}}
+* {{cite book|last=Mueller|first=Stephen M.|title=APIs and protocols for convergent network services : [JTAPI, JAIN, and PARLAY; SIP and PINT, XML, LDAP, CORBA, and SOAP]|year=2002|publisher=McGraw-Hill|location=New York [u.a.]|isbn=0-07-138880-X}}
+
+[[Category:Java platform|Integrated Networks]]
+[[Category:Java device platform|Integrated Networks]]
+[[Category:Telecommunications standards]]
+[[Category:Computer standards]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

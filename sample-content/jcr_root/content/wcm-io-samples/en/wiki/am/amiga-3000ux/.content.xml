@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Amiga 3000UX"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Amiga 3000UX" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox computer
+|Photo = [[Image:Amiga3000UX.jpg|300px|Amiga 3000UX]]
+|Name = Commodore Amiga 3000UX
+|Type = [[Personal computer]]
+|Released = 1990
+|Discontinued = 1992
+|Processor = Motorola 68030 @ 25&amp;amp;nbsp;MHz
+|Memory = 2 [[megabyte|MB]]
+|OS = Amiga UNIX System V Release 4
+}}
+
+The &amp;apos;&amp;apos;&amp;apos;Commodore Amiga 3000UX&amp;apos;&amp;apos;&amp;apos; is a model of the [[Commodore Amiga|Amiga]] computer family that was released with [[Amiga Unix]], a full port of AT&amp;amp;T [[Unix]] System V Release 4 (SVR4), installed along with AmigaOS. The system was otherwise equivalent to the standard [[Amiga 3000|A3000]], once the Right-Mouse-Button initiated a boot to [[Kickstart (Amiga)|Kickstart]] (Amiga&amp;apos;s BIOS).
+
+At one point, [[Sun Microsystems]] approached Commodore-Amiga Inc. with the offer to produce the A3000UX under license as a low- to mid-range alternative to their high-end Sun [[workstations]].&amp;lt;ref&amp;gt;http://www.amiga-hardware.com/showhardware.cgi?HARDID=29&amp;lt;/ref&amp;gt;  That this offer was declined was one of the many management decisions that led to the popular belief that [[Amiga]] would have been a real success story but for the [[Commodore International|Commodore]] management.
+
+It is possible that Commodore (or a third party) repurposed A3000UX machines for standard AmigaOS, as some standard A3000 models have been found with labeling suggesting they were originally to be sold as A3000UX machines.
+
+==See also==
+* [[Amiga models and variants]]
+
+==References==
+&amp;lt;references/&amp;gt;
+
+{{CBM_computers}}
+{{Amiga hardware}}
+{{AmigaOS}}
+{{AmigaOS 4}}
+
+{{DEFAULTSORT:Amiga 3000ux}}
+[[Category:Amiga]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

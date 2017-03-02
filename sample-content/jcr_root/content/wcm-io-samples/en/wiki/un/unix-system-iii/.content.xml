@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="UNIX System III"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="UNIX System III" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox OS
+| name = UNIX System III
+| logo =
+| screenshot =
+| caption =
+| developer = [[American Telephone &amp;amp; Telegraph|AT&amp;amp;T]]
+| family = [[Unix]]
+| source_model = closed
+| working_state = Historic
+| latest_release_version =
+| latest_release_date =
+| kernel_type =
+| license =
+| website =
+}}
+{{Bell Unix}}
+&amp;apos;&amp;apos;&amp;apos;UNIX System III&amp;apos;&amp;apos;&amp;apos; (sometimes called &amp;apos;&amp;apos;&amp;apos;System 3&amp;apos;&amp;apos;&amp;apos;) was a version of the [[Unix]] operating system released by [[American Telephone &amp;amp; Telegraph|AT&amp;amp;T]]&amp;apos;s Unix Support Group (USG). It was first released outside of [[Bell Labs]] in 1982. UNIX System III was a mix of various AT&amp;amp;T Unixes: [[PWB/UNIX]] 2.0, [[CB UNIX]] 3.0, [[UNIX/TS]] 3.0.1 and [[UNIX/32V]]. System III supported the [[Digital Equipment Corporation|DEC]] [[PDP-11]] and [[VAX]] computers.
+
+The system was apparently called System III because it was considered the outside release of UNIX/TS 3.0.1 and CB UNIX 3 which were internally supported Bell Labs Unices. Its documentation calls it &amp;apos;&amp;apos;&amp;apos;UNIX Edition 3.0&amp;apos;&amp;apos;&amp;apos; and there were no Unix versions called System I or System II. There was no official release of UNIX/TS 4.0 (which would have been &amp;apos;&amp;apos;System IV&amp;apos;&amp;apos;) either,&amp;lt;ref&amp;gt;{{cite newsgroup
+  | title = UNIX History
+  | author = Dale Dejager
+  | date = 1984-01-16
+  | newsgroup = net.unix
+  | url = http://groups.google.com/group/net.unix/msg/b80689d4b3bff13f?dmode=source
+}}&amp;lt;/ref&amp;gt; so System III was succeeded by [[UNIX System V|System V]], based on UNIX/TS 5.0.
+
+System III introduced new features such as [[named pipes]], the [[uname]] system call and command, and the [[run queue]]. It also combined various improvements to [[Version 7]] by outside organizations. However, it did not include notable improvements made in [[Berkeley Software Distribution|BSD]] such as the [[C shell]] (csh) and screen editing.
+
+Third-party variants of System III include (early versions of) [[HP-UX]], [[IRIX]], [[Interactive Systems Corporation|IS/3]], [[PC-UX]], [[PERQ|PNX]], [[SINIX]], [[Venix]] and [[Xenix]].
+
+==External links==
+*[http://www.usenix.org/publications/login/2000-4/20yearsago.html 20 Years Ago in UNIX] by [[Peter Salus]]
+*[ftp://pdp11.org.ru/pub/unix-archive/PDP-11/Distributions/usdl/SysIII/ System III source code]
+
+==References==
+&amp;lt;references/&amp;gt;
+
+{{unix-like}}
+
+[[Category:Bell Labs Unices]]
+[[Category:Discontinued operating systems]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

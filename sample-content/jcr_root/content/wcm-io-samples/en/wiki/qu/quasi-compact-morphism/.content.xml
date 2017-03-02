@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Quasi-compact morphism"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Quasi-compact morphism" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[algebraic geometry]], a morphism &amp;lt;math&amp;gt;f: X \to Y&amp;lt;/math&amp;gt; between schemes is said to be &amp;apos;&amp;apos;&amp;apos;quasi-compact&amp;apos;&amp;apos;&amp;apos; if &amp;apos;&amp;apos;Y&amp;apos;&amp;apos; can be covered by open affine subschemes &amp;lt;math&amp;gt;V_i&amp;lt;/math&amp;gt; such that the pre-images &amp;lt;math&amp;gt;f^{-1}(V_i)&amp;lt;/math&amp;gt; are quasi-compact (as topological space).&amp;lt;ref&amp;gt;This is the definition in Hartshorne.&amp;lt;/ref&amp;gt; If &amp;apos;&amp;apos;f&amp;apos;&amp;apos; is quasi-compact, then the pre-image of a quasi-compact open subscheme (e.g., open affine subscheme) under &amp;apos;&amp;apos;f&amp;apos;&amp;apos; is quasi-compact.
+
+It is not enough that &amp;apos;&amp;apos;Y&amp;apos;&amp;apos; admits a covering by quasi-compact open subschemes whose pre-images are quasi-compact. To give an example,&amp;lt;ref&amp;gt;Remark 1.5 in Vistoli&amp;lt;/ref&amp;gt;  let &amp;apos;&amp;apos;A&amp;apos;&amp;apos; be a ring that does not satisfy the ascending chain conditions on radical ideals, and put &amp;lt;math&amp;gt;X = \operatorname{Spec} A&amp;lt;/math&amp;gt;. &amp;apos;&amp;apos;X&amp;apos;&amp;apos; contains an open subset &amp;apos;&amp;apos;U&amp;apos;&amp;apos; that is not quasi-compact. Let &amp;apos;&amp;apos;Y&amp;apos;&amp;apos; be the scheme obtained by gluing two &amp;apos;&amp;apos;X&amp;apos;&amp;apos;&amp;apos;s along &amp;apos;&amp;apos;U&amp;apos;&amp;apos;. &amp;apos;&amp;apos;X&amp;apos;&amp;apos;, &amp;apos;&amp;apos;Y&amp;apos;&amp;apos; are both quasi-compact. If &amp;lt;math&amp;gt;f: X \to Y&amp;lt;/math&amp;gt; is the inclusion of one of the copies of &amp;apos;&amp;apos;X&amp;apos;&amp;apos;, then the pre-image of the other &amp;apos;&amp;apos;X&amp;apos;&amp;apos;, open affine in &amp;apos;&amp;apos;Y&amp;apos;&amp;apos;, is &amp;apos;&amp;apos;U&amp;apos;&amp;apos;, not quasi-compact. Hence, &amp;apos;&amp;apos;f&amp;apos;&amp;apos; is not quasi-compact.
+
+A morphism from a quasi-compact scheme to an affine scheme is quasi-compact.
+
+Let &amp;lt;math&amp;gt;f: X \to Y&amp;lt;/math&amp;gt; be a quasi-compact morphism between schemes. Then &amp;lt;math&amp;gt;f(X)&amp;lt;/math&amp;gt; is closed if and only if it is stable under specialization.
+
+The composition of quasi-compact morphisms is quasi-compact. The base change of a quasi-compact morphism is quasi-compact.
+
+An affine scheme is quasi-compact. In fact, a scheme is quasi-compact if and only if it is a finite union of open affine subschemes. [[Serre’s criterion]] gives a necessary and sufficient condition for a quasi-compact scheme to be affine.
+
+A quasi-compact scheme has at least one closed point.{{fact|date=August 2012}}
+
+== See also ==
+*[[fpqc morphism]]
+
+== External links ==
+*http://mathoverflow.net/questions/34620/when-is-an-irreducible-scheme-quasi-compact
+
+== References ==
+{{reflist}}
+*Hartshorne, &amp;apos;&amp;apos;Algebraic Geometry&amp;apos;&amp;apos;.
+*Angelo Vistoli, &amp;quot;Notes on Grothendieck topologies, fibered categories and descent theory.&amp;quot; {{arxiv|id=0412512v4|archive=math.AG}}
+
+{{math-stub}}
+[[Category:Morphisms of schemes]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

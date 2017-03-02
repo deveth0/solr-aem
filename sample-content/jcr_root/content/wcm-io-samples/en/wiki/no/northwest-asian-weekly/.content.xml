@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Northwest Asian Weekly"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Northwest Asian Weekly" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{italic title}}
+[[File:Seattle Chinese Post &amp;amp; NW Asian Weekly.jpg|thumb|Headquarters of the &amp;apos;&amp;apos;Seattle Chinese Post&amp;apos;&amp;apos; and &amp;apos;&amp;apos;Northwest Asian Weekly&amp;apos;&amp;apos; (2007)]]
+The &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Northwest Asian Weekly&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is a weekly [[Asian American]] [[newspaper]] based in [[Seattle, Washington]]&amp;apos;s [[International District, Seattle, Washington|International District]]. Distributed free, it was founded in 1982 by [[Assunta Ng]], founder of the &amp;apos;&amp;apos;[[Seattle Chinese Post]]&amp;apos;&amp;apos;. It has a circulation of 16,000.
+
+==External links==
+{{Portal|Seattle|Journalism|Asian Americans}}
+*[http://www.nwasianweekly.com/ Official website]
+
+[[Category:Asian-American culture in Washington (state)]]
+[[Category:Asian-American press]]
+[[Category:Companies based in Seattle, Washington]]
+[[Category:Newspapers published in Seattle, Washington]]
+
+{{Washington-newspaper-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

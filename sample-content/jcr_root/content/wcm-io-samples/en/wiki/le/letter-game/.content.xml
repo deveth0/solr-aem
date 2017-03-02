@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Letter game"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Letter game" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+A &amp;apos;&amp;apos;&amp;apos;letter game&amp;apos;&amp;apos;&amp;apos; involves the exchange of written [[Letter (message)|letter]]s, or [[e-mail]]s, between two or more participants. The first player writes a letter in the voice of a newly created character; in this first letter, the writer should establish their own identity and that of their correspondent, should set the scene, and should explain why they and their correspondent must communicate in written fashion. In subsequent letters, plot and character can be developed, but the writers should not talk about plot outside of the letters and the characters should never meet. Letter games can be a writing exercise or a form of [[collaborative fiction]].
+
+Novels written using or inspired by this type of letter game include &amp;apos;&amp;apos;Sorcery and Cecelia or The Enchanted Chocolate Pot&amp;apos;&amp;apos;, &amp;apos;&amp;apos;The Grand Tour or The Purloined Coronation Regalia&amp;apos;&amp;apos;, and &amp;apos;&amp;apos;The Mislaid Magician or Ten Years After&amp;apos;&amp;apos;, all three by [[Patricia Wrede]] and [[Caroline Stevermer]]; &amp;apos;&amp;apos;Freedom and Necessity&amp;apos;&amp;apos;, by [[Steven Brust]] and [[Emma Bull]]; and the children&amp;apos;s books &amp;apos;&amp;apos;[[P.S. Longer Letter Later]]&amp;apos;&amp;apos; and &amp;apos;&amp;apos;[[Snail Mail No More]]&amp;apos;&amp;apos; by [[Paula Danziger]] and [[Ann M. Martin]].
+
+==See also==
+* [[constrained writing]]
+* [[epistolary novel]]
+* [[Play-by-mail game]]
+* [[Talecraft]], story-telling card game
+
+{{DEFAULTSORT:Letter Game}}
+[[Category:Literary genres]]
+[[Category:Collaborative fiction]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

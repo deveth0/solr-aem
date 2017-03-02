@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Impressions chronology"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Impressions chronology" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{update|date=July 2009}}
+This is a listing of all of the various versions of the [[soul music]] group [[The Impressions]].
+
+==Jerry Butler &amp;amp; the Impressions==
+===1958-1960===
+* [[Jerry Butler (singer)]]
+* [[Curtis Mayfield]]
+* [[Arthur Brooks (singer)]]
+* [[Richard Brooks (singer)]]
+* [[Sam Gooden]]
+
+==The Impressions==
+===1960-1962===
+* Curtis Mayfield
+* Arthur Brooks
+* Richard Brooks
+* Sam Gooden
+* &amp;apos;&amp;apos;&amp;apos;[[Fred Cash]]&amp;apos;&amp;apos;&amp;apos; (a returning original member of the Impressions precursor group, &amp;apos;&amp;apos;The Roosters&amp;apos;&amp;apos;)
+
+===1962-1970===
+* Curtis Mayfield
+* Sam Gooden
+* Fred Cash
+
+===1970-1973===
+* [[Leroy Hutson]] (Curtis Mayfield departs for a solo career)
+* Sam Gooden
+* Fred Cash
+
+===1973-1976===
+* &amp;apos;&amp;apos;&amp;apos;Ralph Johnson&amp;apos;&amp;apos;&amp;apos; (Leroy Hutson goes solo, replaced by Johnson and Torian)
+* &amp;apos;&amp;apos;&amp;apos;[[Reggie Torian]]&amp;apos;&amp;apos;&amp;apos;
+* Sam Gooden
+* Fred Cash
+
+===1976-1980===
+* &amp;apos;&amp;apos;&amp;apos;[[Nate Evans]]&amp;apos;&amp;apos;&amp;apos;
+* Reggie Torian
+* Sam Gooden
+* Fred Cash
+
+===1980-present===
+* Reggie Torian
+* Sam Gooden
+* Fred Cash
+
+[[Category:Soul musical groups]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

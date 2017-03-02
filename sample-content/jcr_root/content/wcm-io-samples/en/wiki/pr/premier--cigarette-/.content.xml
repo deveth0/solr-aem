@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Premier (cigarette)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Premier (cigarette)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{More footnotes|date=April 2009}}
+[[Image:Premier.jpg|thumb|250px|right|A man holds a pack of Premier cigarettes.]]
+&amp;apos;&amp;apos;&amp;apos;Premier&amp;apos;&amp;apos;&amp;apos; was a smokeless [[cigarette]] released in the United States in 1988 by the [[R.J. Reynolds Tobacco Company]]. It worked by heating and aerosolizing tobacco flavour and was intended to reduce or eliminate the unhealthy side effects associated with smoking, both to the smoker and to [[Passive smoking|the people around the smoker]].{{cn|date=July 2012}}
+
+The project took several years to develop at a cost of more than $1 billion.{{cn|date=July 2012}}
+
+While RJR itself questioned whether the device functioned adequately as a [[nicotine]] delivery device, activists derided it for its potential for use in delivery of other drugs.{{cn|date=July 2012}} It never achieved popularity, as smokers complained about a [[charcoal]]-like aftertaste, and although it looked like a conventional cigarette, special instructions were required to teach smokers how to light it. RJR estimated that it would take two or three packs for a smoker to acquire a taste for Premier, but in practice many smokers only smoked one cigarette and shared the rest of the pack. It was withdrawn from the market in 1989, less than a year after its introduction.
+
+R.J. Reynolds reintroduced the concept behind the Premier cigarette as the [[Eclipse (cigarette)|Eclipse]] brand in the 1990s.
+
+== References ==
+{{reflist}}
+
+==External links==
+*[http://tobaccodocuments.org/landman/138214.html RJR&amp;apos;s Secret Project Spa] - initial development concept of a safer cigarette
+*[http://www.pbs.org/wgbh/nova/cigarette/ &amp;apos;&amp;apos;Search For a Safe Cigarette&amp;apos;&amp;apos;: A History]
+
+{{Reynolds American}}
+{{Cigarettes}}
+
+[[Category:R. J. Reynolds Tobacco Company brands]]
+[[Category:1988 introductions]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

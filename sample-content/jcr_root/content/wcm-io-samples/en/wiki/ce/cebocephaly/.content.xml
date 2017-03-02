@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Cebocephaly"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Cebocephaly" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{unreferenced|date=March 2013}}
+&amp;apos;&amp;apos;&amp;apos;Cebocephaly&amp;apos;&amp;apos;&amp;apos; [Greek &amp;apos;&amp;apos;kebos&amp;apos;&amp;apos;, monkey + &amp;apos;&amp;apos;kephale&amp;apos;&amp;apos;, head]  is a developmental anomaly of the head characterized by a monkey-like head, with a defective small, flattened nose with a single nostril or absent nose and closely set eyes. Cebocephaly is part of a group of defects called [[holoprosencephaly]]. The incidence of cebocephaly is 1 in 16,000 births.
+
+== See also ==
+*[[Cephalic disorder]]
+
+[[Category:Congenital disorders of nervous system]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

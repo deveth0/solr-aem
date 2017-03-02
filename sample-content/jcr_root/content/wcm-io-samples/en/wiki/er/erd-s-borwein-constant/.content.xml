@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Erdős–Borwein constant"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Erdős–Borwein constant" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;Erdős–Borwein [[Mathematical constant|constant]]&amp;apos;&amp;apos;&amp;apos; is the sum of the [[Reciprocal (mathematics)|reciprocals]] of the [[Mersenne prime|Mersenne number]]s. It is named after [[Paul Erdős]] and [[Peter Borwein]].
+
+By definition it is:
+
+:&amp;lt;math&amp;gt;E=\sum_{n=1}^{\infty}\frac{1}{2^n-1}&amp;lt;/math&amp;gt;
+which is approximately 1.60669 51524 15291 763… {{OEIS|A065442}}.
+
+==Equivalent forms==
+It can be proven that the following forms all sum to the same constant:
+
+:&amp;lt;math&amp;gt;
+E=\sum_{n=1}^{\infty}\frac{1}{2^{n^2}}\frac{2^n+1}{2^n-1}
+&amp;lt;/math&amp;gt;
+
+:&amp;lt;math&amp;gt;
+E=\sum_{m=1}^{\infty}\sum_{n=1}^{\infty} \frac{1}{2^{mn}}
+&amp;lt;/math&amp;gt;
+
+:&amp;lt;math&amp;gt;
+E=1+\sum_{n=1}^{\infty} \frac{1}{2^n(2^n-1)}
+&amp;lt;/math&amp;gt;
+
+:&amp;lt;math&amp;gt;
+E=\sum_{n=1}^{\infty}\frac{\sigma_0(n)}{2^n}
+&amp;lt;/math&amp;gt;
+
+where σ&amp;lt;sub&amp;gt;0&amp;lt;/sub&amp;gt;(&amp;apos;&amp;apos;n&amp;apos;&amp;apos;) = &amp;apos;&amp;apos;d&amp;apos;&amp;apos;(&amp;apos;&amp;apos;n&amp;apos;&amp;apos;) is the [[divisor function]], a [[multiplicative function]] that equals the number of positive [[divisor]]s of the number &amp;apos;&amp;apos;n&amp;apos;&amp;apos;. To prove the equivalence of these sums, note that they all take the form of [[Lambert series]] and can thus be resummed as such.&amp;lt;ref&amp;gt;The first of these forms is given by {{harvtxt|Knuth|1998}}, ex. 27, p. 157; Knuth attributes the transformation to this form to an 1828 work of [[Thomas Clausen (mathematician)|Clausen]].&amp;lt;/ref&amp;gt;
+
+==Irrationality==
+Erdős in 1948 showed that the [[mathematical constant|constant]] &amp;apos;&amp;apos;E&amp;apos;&amp;apos; is an [[irrational number]].&amp;lt;ref&amp;gt;{{citation
+ | last = Erdős | first = P. | author-link = Paul Erdős
+ | journal = J. Indian Math. Soc. (N.S.)
+ | mr = 0029405
+ | pages = 63–66
+ | title = On arithmetical properties of Lambert series
+ | url = http://www.renyi.hu/~p_erdos/1948-04.pdf
+ | volume = 12
+ | year = 1948}}.&amp;lt;/ref&amp;gt; Later, Borwein provided an alternative proof.&amp;lt;ref&amp;gt;{{citation
+ | last = Borwein | first = Peter B. | authorlink = Peter Borwein
+ | doi = 10.1017/S030500410007081X
+ | issue = 1
+ | journal = Mathematical Proceedings of the Cambridge Philosophical Society
+ | mr = 1162938
+ | pages = 141–146
+ | title = On the irrationality of certain series
+ | volume = 112
+ | year = 1992}}.&amp;lt;/ref&amp;gt;
+
+Despite its irrationality, the [[Binary numeral system|binary representation]] of the Erdős–Borwein constant may be calculated efficiently.&amp;lt;ref&amp;gt;{{harvtxt|Knuth|1998}} observes that calculations of the constant may be performed using Clausen&amp;apos;s series, which converges very rapidly, and credits this idea to [[John Wrench]].&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;{{citation
+ | last = Crandall | first = Richard | author-link = Richard Crandall
+ | doi = 10.1515/integers-2012-0007
+ | journal = Integers
+ | page = A23
+ | title = The googol-th bit of the Erdős–Borwein constant
+ | volume = 12
+ | year = 2012}}.&amp;lt;/ref&amp;gt;
+
+==Applications==
+The Erdős–Borwein constant comes up in the [[average case analysis]] of the [[heapsort]] algorithm, where it controls the constant factor in the running time for converting an unsorted array of items into a heap.&amp;lt;ref&amp;gt;{{citation
+ | last = Knuth | first = D. E. | author-link = Donald Knuth
+ | edition = 2nd
+ | location = Reading, MA
+ | pages = 153–155
+ | publisher = Addison-Wesley
+ | title = [[The Art of Computer Programming]], Vol. 3: Sorting and Searching
+ | year = 1998}}.&amp;lt;/ref&amp;gt;
+
+==References==
+{{reflist}}
+
+==External links==
+* {{MathWorld|urlname=Erdos-BorweinConstant|title=Erdos-Borwein Constant}}
+
+{{DEFAULTSORT:Erdos-Borwein Constant}}
+[[Category:Mathematical constants]]
+[[Category:Irrational numbers]]
+[[Category:Paul Erdős|Borwein constant]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

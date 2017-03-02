@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Image response"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Image response" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Redirect|IMRR|the railroad|Illinois and Midland Railroad}}
+&amp;apos;&amp;apos;&amp;apos;Image response&amp;apos;&amp;apos;&amp;apos; (or more correctly, &amp;apos;&amp;apos;&amp;apos;image response rejection ratio&amp;apos;&amp;apos;&amp;apos;, or &amp;apos;&amp;apos;&amp;apos;IMRR&amp;apos;&amp;apos;&amp;apos;) is a measure of performance of a [[radio receiver]] that operates on the [[Superheterodyne receiver|super-heterodyne]] principle. &amp;lt;ref&amp;gt; &amp;apos;&amp;apos;C-W and A-M Radio Transmitters and Receivers&amp;apos;&amp;apos;, United States Department of the Army, 1952  page 229 &amp;lt;/ref&amp;gt;
+
+In such a radio receiver, a [[local oscillator]] (LO) is used to [[heterodyne]] or &amp;quot;beat&amp;quot; against the incoming [[radio frequency]] (RF), generating sum and difference [[frequency|frequencies]]. One of these will be at the [[intermediate frequency]] (IF), and will be selected and amplified. The radio receiver is responsive to any signal at its designed IF frequency, including unwanted signals. For example, with a LO tuned to 110.7 MHz, there are two incoming signal frequencies that can generate a 10.7 MHz IF frequency.  A signal broadcast at 100 MHz (the wanted signal), and mixed with the 110.7 MHz LO will create the sum frequency of 210.7 MHz (ignored by the receiver), and the difference frequency at the desired 10.7 MHz.  However, a signal broadcast at 121.4 MHz (the unwanted signal), and mixed with the 110.7 MHz LO will create a sum frequency of 232.1 MHz (ignored by the receiver), and the difference frequency also at 10.7 MHz.  The signal at 121.4 MHz is called the &amp;apos;&amp;apos;image&amp;apos;&amp;apos; of the wanted signal at 100.0 MHz. The ability of the receiver to reject this image gives the image rejection ratio (IMRR) of the system.
+
+
+==Image rejection ratio==
+The &amp;apos;&amp;apos;image rejection ratio&amp;apos;&amp;apos;, or   &amp;apos;&amp;apos;image frequency rejection ratio&amp;apos;&amp;apos;, is the [[ratio]] of the intermediate-[[frequency]] (IF) [[signal level]] produced by the desired input frequency to that produced by the [[image frequency]]. The image rejection ratio is usually expressed in [[decibel|dB]].  When the image rejection ratio is measured, the input signal levels of the desired and image frequencies must be equal for the measurement to be meaningful.
+
+IMRR is measured in [[decibel|dB]], giving the ratio of the wanted to the unwanted signal to yield the same output from the receiver. In a good design, ratios of &amp;gt;60 dB are achieveable. Note that IMRR is not a measurement of the performance of the IF stages or IF filtering ([[selectivity (electronic)|selectivity]]); the signal yields a perfectly valid IF frequency. Rather, it is the measure of the bandpass characteristics of the stages preceding the IF amplifier, which will consist of RF bandpass filters and usually an RF amplifier stage or two.
+
+==See also==
+* [[Image frequency]]
+
+==References==
+&amp;lt;references/&amp;gt;
+
+{{DEFAULTSORT:Image Response}}
+[[Category:Radio electronics]]
+
+{{FS1037C MS188}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

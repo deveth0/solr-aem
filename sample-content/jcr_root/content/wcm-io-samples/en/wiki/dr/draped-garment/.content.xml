@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Draped garment"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Draped garment" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;A &amp;apos;&amp;apos;&amp;apos;draped garment&amp;apos;&amp;apos;&amp;apos; is a [[clothing|garment]] that is made of unstitched [[cloth]] that is held to the body by means of [[pin]]s, [[Fibulae and ancient brooches|fibulae]], or clasps, [[sash]]es or [[belt (clothing)|belt]]s, tying, or [[friction]] and gravity alone. Many draped garments are one-piece garments.
+
+== Examples ==
+Examples of draped garments include:
+* traditional [[kilt]]s and [[belted plaid]]s
+* [[Chiton (costume)|chitons]]
+* [[loincloth]]s
+* [[toga]]s
+* [[stola]]s
+* [[sari]]s
+* [[sarong]]s
+* [[pareo]]s
+* [[dhoti]]s
+* [[poncho]]s
+* [[cloak]]s
+* [[shawl]]s
+
+== See also ==
+* [[Drapery]]
+
+== External links ==
+* [http://www.idcw.org.uk/ Institute of Draped Clothes]
+
+[[Category:Clothing by material]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

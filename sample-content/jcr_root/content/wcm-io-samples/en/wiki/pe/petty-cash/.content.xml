@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Petty cash"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Petty cash" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Petty cash&amp;apos;&amp;apos;&amp;apos; is a small amount of discretionary funds in the form of [[cash]] used for expenditures where it is not sensible to make any disbursement by [[cheque]], because of the inconvenience and costs of writing, signing and then cashing the cheque.
+
+The most common way of accounting for petty cash expenditures is to use the [[imprest system]]. The initial fund would be created by issuing a cheque for the desired amount. An amount of $100 would typically be sufficient for most small business needs as the expenses to be covered are for small amounts. The bookkeeping entry for this initial fund would be to debit Petty Cash and credit bank account.
+
+As expenditures are made, the custodian of the fund will reimburse employees and receive a petty cash [[voucher]] with a receipt/invoice attached in return. At any given time the total of cash on hand plus reimbursed vouchers must equal the original fund.
+
+When the fund gets low, e.g. $20 remaining, the custodian (a [[bookkeeper]] or a member of the administration staff) requests a top up and submits the vouchers for reimbursement. Assuming the vouchers add up to $80, an $80 top up cheque is issued and an $80 debit towards office expenses is recorded. Once the cheque is cashed, the custodian again has cash at the original amount $100.
+
+==Audit Controls==
+Oversight of petty cash is important because of the potential for abuse. Examples of petty cash controls include a limit (such as 10% of the total fund) on disbursements and monthly [[audit]]s by someone other than the custodian. Use of petty cash is sufficiently widespread that vouchers for use in reimbursement are available at any office supply store.
+
+The Petty Cash Daybook is one of the [[Bookkeeping#Daybooks|Daybooks]] used in bookkeeping and the [[Double-entry bookkeeping system]].
+
+==In Popular Culture==
+Petty cash plays a central role in the film &amp;apos;&amp;apos;[[Don&amp;apos;t Tell Mom the Babysitter&amp;apos;s Dead]]&amp;apos;&amp;apos;. The character of Sue Ellen ([[Christina Applegate]]) is forced to take all of the funds from the petty cash box at her place of work to tide her over until payday. When her paycheck doesn&amp;apos;t cover what she stole, she writes fake receipts to cover the missing funds.
+
+[[Category:Generally Accepted Accounting Principles]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

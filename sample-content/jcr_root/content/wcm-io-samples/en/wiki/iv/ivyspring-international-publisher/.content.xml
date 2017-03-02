@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ivyspring International Publisher"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ivyspring International Publisher" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Ivyspring International Publisher&amp;apos;&amp;apos;&amp;apos; is a [[publisher]] of [[scientific literature]] including [[open-access]] [[scientific journals]], such as the &amp;apos;&amp;apos;[[International Journal of Medical Sciences]]&amp;apos;&amp;apos; and &amp;apos;&amp;apos;[[International Journal of Biological Sciences]]&amp;apos;&amp;apos;.
+
+==External links==
+* {{Official website|http://ivyspring.com}}
+
+
+{{publisher-stub}}
+[[Category:Book publishing companies of Australia]]
+[[Category:Academic publishing companies]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

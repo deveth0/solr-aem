@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Template:Politics of Sweden"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Template:Politics of Sweden" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{sidebar with collapsible lists
+| name = Politics of Sweden
+| wraplinks = true
+| bodyclass = vcard
+
+| title = {{politics sidebar title
+|country=Sweden
+|image=Coat of Arms of Sweden Lesser.svg
+|size=75px
+|title=Sweden
+}}
+| liststyle = text-align: left
+
+| list1title = [[Constitution of Sweden|Fundamental Laws]]
+| list1 =
+* [[Instrument of Government (1974)|Instrument of Government]]
+* [[Swedish Act of Succession|Act of Succession]]
+* [[Freedom of the Press Act (1949)|Freedom of the Press Act]]
+* [[Fundamental Law on Freedom of Expression (1991)|Fundamental Law on Freedom of Expression]]
+
+| list2title = [[Riksdag|Legislature]]
+| list2 =
+* [[Riksdag]]
+** [[Speaker of the Riksdag|Speaker]]
+*** [[Per Westerberg]]
+** [[List of members of the parliament of Sweden, 2010–2014|Members]]
+** [[National apportionment of MP seats in the Swedish Parliament|National apportionment]]
+** [[Committee on the Constitution (Parliament of Sweden)|Committee on the Constitution]]
+** [[War Delegation]]
+
+| list3title = [[Monarchy of Sweden|Monarchy]]
+| list3 =
+* [[Monarchy of Sweden|King]] ([[List of Swedish monarchs|list]])
+** [[Carl XVI Gustaf of Sweden|Carl XVI Gustaf]]
+* [[List of heirs to the Swedish throne|Crown Princess]] &amp;lt;small&amp;gt;([[List of heirs to the Swedish throne|list]])&amp;lt;/small&amp;gt;
+** [[Victoria, Crown Princess of Sweden|Victoria]]
+* [[Swedish Royal Family|Royal Family]]
+* [[Royal Court of Sweden|Royal Court]]
+
+| list4title = [[Politics of Sweden#Executive branch|Executive]]
+| list4 =
+* [[Prime Minister of Sweden|Prime Minister]] &amp;lt;small&amp;gt;([[List of Prime Ministers of Sweden|list]])&amp;lt;/small&amp;gt;
+** [[Fredrik Reinfeldt]]
+* [[Government of Sweden|Government]]
+** [[Cabinet of Fredrik Reinfeldt|Reinfeldt cabinet]]
+* [[List of Swedish ministries|Ministries]]
+* [[Government agencies in Sweden|Government agencies]]
+
+| list5title = [[Judicial system of Sweden|Judiciary]]
+| list5 =
+* [[Supreme Court of Sweden|Supreme Court]]
+* [[Supreme Administrative Court of Sweden|Supreme Administrative Court]]
+*  [[Council on Legislation (Sweden)|Council on Legislation]]
+
+| list6title = Divisions
+| list6 =
+* [[Counties of Sweden|Counties]]
+** [[List of County Governors of Sweden|Governors]]
+** [[County Administrative Boards of Sweden|Administrative Boards]]
+** [[County Councils of Sweden|County Councils]]
+* [[Municipalities of Sweden|Municipalities]]
+
+| list7title = [[Elections in Sweden|Elections]]
+| list7 =
+* [[European Parliament election, 2009 (Sweden)|2009 European Parliament election]]
+* [[Swedish general election, 2010|2010 General election]]
+* [[Referendums in Sweden|Referendums]]
+* [[List of political parties in Sweden|Political parties]]
+
+| list8title = Foreign policy
+| list8 =
+* [[Foreign relations of Sweden|Foreign relations]]
+* [[Politics of the European Union]]
+
+| list9title = Related articles
+| list9 =
+* [[Sami Parliament of Sweden|Sami Parliament]]
+* [[Swedish Armed Forces|Armed Forces]]
+* [[Swedish Police Service|Police Service]]
+
+| below = {{politics sidebar below|Sweden}}
+}}&amp;lt;noinclude&amp;gt;
+{{clear}}
+
+==See also==
+{{Politics of Europe templates}}
+
+[[Category:Sweden politics and government templates| ]]
+[[Category:Politics by country sidebar templates|Sweden]]
+[[Category:Exclude in print]]
+&amp;lt;/noinclude&amp;gt;&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

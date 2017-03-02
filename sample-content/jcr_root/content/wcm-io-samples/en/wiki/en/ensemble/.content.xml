@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ensemble"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ensemble" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Wiktionarypar|ensemble}}
+&amp;apos;&amp;apos;&amp;apos;Ensemble&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* [[Musical ensemble]]
+* [[Ensemble cast]] (drama, comedy)
+* [[Dance ensemble]]
+* [[Statistical ensemble (mathematical physics)]]
+** [[Quantum statistical mechanics]], the study of statistical ensembles of quantum mechanical systems
+** [[Ensemble (fluid mechanics)]]
+** [[Climate ensemble]]
+** [[Ensemble forecasting]] (meteorology)
+** [[Ensemble average]] (statistical mechanics)
+* [[Distribution ensemble]] or probability ensemble (cryptography)
+* [[Ensemble learning]] (statistics and machine learning)
+* [[Neural ensemble]], a population of nervous system cells (or cultured neurons) involved in a particular neural computation
+* [[DAB ensemble]], a group of Digital Audio Broadcasting broadcasters transmitting multiple digital radio channels on a single radio transmission
+* InterSystems Ensemble for integrating different applications
+
+&amp;apos;&amp;apos;&amp;apos;Ensemble&amp;apos;&amp;apos;&amp;apos; may also refer to:
+
+* [[Mérida, Spain|Archaeological Roman Ensemble of Mérida]], Spain
+* [[Ensemble Studios]], a Microsoft-owned company in the computer and video game industry
+* The [[Ensemble Theatre]], a theatre company in Australia
+* [[The Ensemble Theatre]], a theatre company in Houston, Texas
+* [[Geoworks Ensemble]], a computer operating system.
+* &amp;quot;Ensemble&amp;quot;, the annual festival held at [[Watumull Institute of Electronic Engineering and Computer Technology]]
+* &amp;quot;Ensemble&amp;quot;, the annual conference held at [[XLRI School of Business and Human Resources]], India
+* [[Ensemble (band)]], a project of Olivier Alary
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

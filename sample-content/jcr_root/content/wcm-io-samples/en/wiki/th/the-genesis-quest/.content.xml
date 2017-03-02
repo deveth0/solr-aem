@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="The Genesis Quest"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="The Genesis Quest" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;The Genesis Quest&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is a [[science fiction]] novel written by [[Donald Moffitt]] first published in 1986, part of a two-part series, the conclusion of the story being offered in &amp;apos;&amp;apos;[[Second Genesis (novel)|Second Genesis]]&amp;apos;&amp;apos;.
+
+==Plot summary==
+&amp;apos;&amp;apos;The Genesis Quest&amp;apos;&amp;apos; gets around the problems involved with [[intergalactic travel]], namely the distance, by avoiding the traditional staple of science fiction, [[Faster than light|faster than light travel]].  Instead Moffitt opts for a different tactic, that of having an alien race (The Nar) assemble humans from a stream of genetic information transmitted by radio from the [[Milky Way Galaxy]].  The resulting colony of humans spend some time integrated into the Nar society before growing randy, discovering the secret of human [[longevity]], and embarking on the seemingly impossible millennia-long mission of a physical journey back to earth.  This epic journey is made in a gigantic space-grown semi-sentient [[Dyson tree]] known as [[Yggdrasil]].
+
+{{DEFAULTSORT:Genesis Quest}}
+[[Category:1986 novels]]
+[[Category:1980s science fiction novels]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

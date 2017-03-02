@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Bairoa Gym"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Bairoa Gym" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=February 2012}}
+
+&amp;apos;&amp;apos;&amp;apos;Bairoa Gym&amp;apos;&amp;apos;&amp;apos; is a boxing gym located in Caguas, Puerto Rico. &amp;apos;&amp;apos;El gimnasio Bairoa&amp;apos;&amp;apos;, as it is known in Spanish, is the most famous boxing gym in Puerto Rico because of the list of world champions and top contenders who have trained there. World champions who have used this facility include Alfredo Escalera, Héctor Camacho, Julian Solís, Henry Bruseles, Juan Cruz, Alberto Mercado, Jesus Rojas, Javier Garcia, Jose Cotto, Juan Carazo, Miguel Cotto, Daniel Rosario, and many more.{{Citation needed|date=October 2012}}
+The gym was managed since the 1970s by Cuban trainer Julian Delgado, until Evangelista Cotto replaced him during the late 90s.
+
+Miguel Cotto became the gym&amp;apos;s first &amp;quot;homegrown&amp;quot; world champion when he conquered the [[WBO]]&amp;apos;s world Jr. Welterweight title by knocking out [[Kelson Pinto]] of Brazil in six rounds in 2004. From there Miguel fought them all, from Pac Man to Money May.{{Citation needed|date=October 2012}}
+
+{{coord missing|Puerto Rico}}
+{{Portal|Puerto Rico}}
+
+[[Category:Caguas, Puerto Rico]]
+[[Category:Sports venues in Puerto Rico]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

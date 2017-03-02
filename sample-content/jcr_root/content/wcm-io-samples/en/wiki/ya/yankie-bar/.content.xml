@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Yankie Bar"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Yankie Bar" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;Yankie Bar&amp;apos;&amp;apos;&amp;apos; is a popular [[chocolate bar]] in [[Denmark]].  This caramel, nougat, and milk chocolate bar is a product of the [[Toms candy company]].
+
+==History==
+Just after the [[Second World War]], the Danish candy producer, Toms, were contacted by the [[United States]] high command in Germany, which commissioned Toms to produce a candy bar for the American troops in Germany to avoid transporting such products across the Atlantic. In return, the U.S. would supply Toms with the required amount of [[cocoa bean]]s.
+
+The Yankie Bar is very similar to the European version of the [[Mars Bar]], and both the American troops and the Danish youth found it very tasty. Ten years later, in 1956, Toms launched the Holly bar, similar to the Yankie bar, but with hazelnuts.
+
+==External links==
+* The Toms Group: [http://www.toms.dk/Default.aspx?ID=1273 Toms Chocolate Bars]
+
+[[Category:Candy bars]]
+[[Category:Danish cuisine]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

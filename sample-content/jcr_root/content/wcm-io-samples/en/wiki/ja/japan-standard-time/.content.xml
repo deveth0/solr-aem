@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Japan Standard Time"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Japan Standard Time" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[File:Daylight saving time004006.png|thumb|upright|Imperial Ordinance 167 issued on December 27, Meiji 28 (1895).]]
+{{Wikisourcelang|ja|本初子午線經度計算方及標準時ノ件|明治十九年勅令第五十一号}}
+{{merge-from|Daylight saving time in Japan|date=December 2012}}
+&amp;apos;&amp;apos;&amp;apos;Japan Standard Time&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;JST&amp;apos;&amp;apos;&amp;apos; ({{lang-ja|日本標準時}} &amp;apos;&amp;apos;Nihon Hyōjunji&amp;apos;&amp;apos; or {{lang|ja|中央標準時}} &amp;apos;&amp;apos;Chūō Hyōjunji&amp;apos;&amp;apos;) is the standard [[timezone]] in [[Japan]], and is 9 hours ahead of [[Coordinated Universal Time|UTC]], i.e. it is [[UTC+09:00]]. There is no [[daylight saving time]], though its introduction has been debated several times. During [[World War II]], it was often called &amp;apos;&amp;apos;&amp;apos;Tokyo Standard Time&amp;apos;&amp;apos;&amp;apos;.
+
+Japan Standard Time is the same as [[Korean Standard Time]], [[Time in Indonesia|Indonesian Eastern Standard Time]] and [[Irkutsk Time]].
+
+==History==
+Before the [[Meiji period|Meiji era]] (1868–1912), each local region had its own timezone in which noon was set to when the sun is exactly at its [[zenith]]. As modern transportation like trains were adopted, this practice started to cause confusion. For example, there is a difference of about 5 degrees in terms of longitude between [[Tokyo]] and [[Osaka]] and because of this, a train that departed from Tokyo would arrive at Osaka 20 minutes ahead of the time in Tokyo. In 1886, Ordinance 51 was issued in response to this problem, which stated:
+
+{{Quote|
+Ordinance 51 (on the precise calculation of time using the Prime Meridian) - July 13, 1886
+* The [[prime meridian]] passes through England&amp;apos;s [[Greenwich Observatory]].
+* Longitudes are calculated using the prime meridian, counting 180 degrees either east or west. Positive degrees are east, negative degrees are west.
+* On January 1, 1888, 135 degrees east longitude will be set as the standard meridian for all of Japan, allowing precise times to be fixed.&amp;lt;ref&amp;gt;
+明治十九年勅令第五十一号（本初子午線経度計算方及標準時ノ件）&amp;lt;br/&amp;gt;
+（明治十九年七月十三日勅令第五十一号）
+* 英国グリニツチ天文台子午儀ノ中心ヲ経過スル子午線ヲ以テ経度ノ本初子午線トス
+* 経度ハ本初子午線ヨリ起算シ東西各百八十度ニ至リ東経ヲ正トシ西経ヲ負トス
+* 明治二十一年一月一日ヨリ東経百三十五度ノ子午線ノ時ヲ以テ本邦一般ノ標準時ト定ム
+&amp;lt;/ref&amp;gt;
+}}
+
+According to this, the {{nihongo|standard time|標準時|Hyōjunji}} was set 9 hours ahead of [[Greenwich Mean Time|GMT]] (UTC had not been established yet). In the ordinance, the first clause mentions GMT, the second defines east longitude and west longitude and the third says the standard timezone would be in effect from 1888. Coincidentally, the city of [[Akashi, Hyōgo|Akashi]] in [[Hyōgo Prefecture]] is located exactly on 135 degrees east longitude and subsequently became known as &amp;apos;&amp;apos;Toki no machi&amp;apos;&amp;apos; (Town of Time).
+
+With the annexation of Taiwan in 1895, Ordinance 167 (pictured on the right) was issued to rename the previous Standard Time to {{nihongo|&amp;apos;&amp;apos;Central Standard Time&amp;apos;&amp;apos;|中央標準時|Chūō Hyōjunji}} and establish new {{nihongo|&amp;apos;&amp;apos;Western Standard Time&amp;apos;&amp;apos;|西部標準時|Seibu Hyōjunji}} at 120° longitude. Western Standard Time, which was used in Taiwan and some parts of [[Okinawa]], was abolished by ordinance 529 in 1937. Territories occupied by Japan during World War II, including [[Singapore Standard Time|Singapore]] and [[Malaysian Standard Time|Malaya]], adopted Japan Standard Time for the duration of their occupation, but reverted after [[Japan&amp;apos;s surrender]].
+
+In 1948–1951 [[occupied Japan]] observed [[daylight saving time]] (DST) from the first Sunday in May at 02:00 to the second Saturday in September at 02:00, except that the 1949 spring-forward transition was the first Sunday in April.&amp;lt;ref&amp;gt;{{cite web |author=Paul Eggert |coauthors=Arthur David Olson |url=http://www.twinsun.com/tz/tz-link.htm |title=Sources for time zone and daylight saving time data |date=2007-03-13 |accessdate=2007-03-23}}&amp;lt;/ref&amp;gt; More recently there have been efforts to bring back DST in Japan, but so far this has not happened.&amp;lt;ref&amp;gt;{{cite web |url=http://www.eccj.or.jp/SummerTime/conf/index_e.html |title=Outline of the report on the National Conference on the Global Environment and Summer Time |publisher=The Energy Conservation Center, Japan |date=1998-09 |accessdate=2007-04-14 |archiveurl = http://web.archive.org/web/20070409115501/http://www.eccj.or.jp/SummerTime/conf/index_e.html &amp;lt;!-- Bot retrieved archive --&amp;gt; |archivedate = 2007-04-09}}&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;Hongo, Jun, &amp;quot;[http://search.japantimes.co.jp/cgi-bin/nn20110628i1.html Daylight saving: Is it finally time to convert?]&amp;quot;, &amp;apos;&amp;apos;[[Japan Times]]&amp;apos;&amp;apos;, 28 June 2011, p. 3.&amp;lt;/ref&amp;gt;
+
+== Time zones of the Japanese Empire ==
+These are not in use today,
+* Western Standard Time [[UTC+08:00]] - used for Taiwan (see [[Time in Taiwan]])
+* Central Standard Time [[UTC+09:00]] - used for Japan mainland, later also for Taiwan
+
+==IANA time zone database==
+The [[IANA time zone database]] contains one zone for Japan in the file [[zone.tab]], named [[Asia/Tokyo]].
+
+==See also ==
+*[[Japanese calendar]]
+*[[UTC+09:00]]
+*[[Japanese clock]]
+*[[Daylight saving time in Japan]]
+
+==References==
+{{reflist}}
+
+[[Category:Time in Japan]]
+[[Category:Time zones]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Luxor AB"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Luxor AB" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+&amp;apos;&amp;apos;&amp;apos;Luxor&amp;apos;&amp;apos;&amp;apos; was a [[Sweden|Swedish]] home electronics and computer manufacturer located in [[Motala]], acquired by [[Nokia]] in 1985.
+
+Originally a manufacturer of [[tape recorder]]s, radios, [[television]] sets, [[stereo]] systems, and other home electronics, it launched its first [[home computer]], the [[ABC 80]] in 1978. The succeeding [[ABC 800]] series was introduced in 1981 with new releases in 1983 being produced until the ABC line was terminated in 1986.
+
+==See also==
+*[[List of Swedish companies]]
+
+{{DEFAULTSORT:Luxor Ab}}
+[[Category:Defunct companies of Sweden]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

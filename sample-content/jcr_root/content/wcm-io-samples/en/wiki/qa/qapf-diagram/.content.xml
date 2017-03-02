@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="QAPF diagram"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="QAPF diagram" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;A &amp;apos;&amp;apos;&amp;apos;QAPF diagram&amp;apos;&amp;apos;&amp;apos; is a double triangle [[diagram]] which is used to classify [[igneous rock]]s based on [[mineralogy|mineralogic]] composition. The [[acronym]], QAPF, stands for &amp;quot;[[Quartz]], [[feldspar|Alkali feldspar]], [[Plagioclase]], [[Feldspathoid]] (Foid)&amp;quot;. These are the [[mineral]] groups used for classification in QAPF diagram. Q, A, P and F percentages are normalized (recalculated so that their sum is 100%).
+
+==Origin==
+QAPF diagrams were created by the [[International Union of Geological Sciences]] (IUGS): &amp;apos;&amp;apos;Subcommission on the Systematics of Igneous Rocks&amp;apos;&amp;apos;&amp;lt;ref&amp;gt;
+See for example the diagram as it appears in {{cite journal
+ | last1 = Streckeisen
+ | first1 = Albert
+ | authorlink1 = Albert Streckeisen
+ | year = 1974
+ | month = July
+ | title = Classification and nomenclature of plutonic rocks recommendations of the IUGS subcommission on the systematics of Igneous Rocks
+ | journal = Geologische Rundschau
+ | volume = 63
+ | issue = 2
+ | pages = 773-786
+}}
+&amp;lt;/ref&amp;gt;
+fostered by [[Albert Streckeisen]] (whence their alternative name: Streckeisen diagrams).
+Geologists worldwide accept the diagrams as a classification of igneous, especially plutonic rocks.{{cn|date=February 2013}}
+
+==Usage==
+QAPF diagrams are mostly used to classify [[Intrusion|plutonic rocks]] ([[phaneritic]] rocks) (Figure 1), but are also used to classify [[volcanic rock]]s (Figure 2) if modal mineralogical compositions have been determined. QAPF diagrams are not used to classify [[pyroclastic rock]]s or volcanic rocks if modal mineralogical composition is not determined, instead the [[TAS classification]] (Total-Alkali-Silica) is used. TAS is also used if volcanic rock contains volcanic glass (such as [[obsidian]]). QAPF diagrams are also not used if [[mafic]] [[mineral]]s make up more than 90% of the rock composition (for example: [[peridotite]]s and [[pyroxenite]]s).
+
+An exact name can be given only if the mineralogical composition is known, which cannot be determined in the field. Therefore, provisional or field classifications (Figures 3 and 4) are used, which are simplified versions of Figures 1 and 2.
+
+&amp;lt;gallery caption=&amp;quot;QAPF diagram gallery&amp;quot; widths=&amp;quot;220px&amp;quot; heights=&amp;quot;250px&amp;quot; perrow=&amp;quot;2&amp;quot;&amp;gt;
+Image:QAPF diagram plutonic.gif|Figure 1. This classification is used if rock sample has phaneritic texture (plutonic rocks).
+Image:QAPF diagram volcanic.gif|Figure 2. This classification is used if rock sample has fine-grained texture (volcanic rocks) but modal mineralogical composition can be determined.
+Image:QAPF diagram plutonic field.gif|Figure 3. This is provisional classification for phaneritic igneous rocks (field classification).
+Image:QAPF diagram volcanic field.gif|Figure 4. This is provisional classification for fine-grained igneous rocks (field classification).
+&amp;lt;/gallery&amp;gt;
+
+{{Clear}}
+
+==References==
+*Streckeisen, A. L., 1974. Classification and Nomenclature of Plutonic Rocks. Recommendations of the IUGS Subcommission on the Systematics of Igneous Rocks. Geologische Rundschau. Internationale Zeitschrift für Geologie. Stuttgart. Vol.63, p.&amp;amp;nbsp;773-785.
+*Streckeisen, A. L., 1978. IUGS Subcommission on the Systematics of Igneous Rocks. Classification and Nomenclature of Volcanic Rocks, Lamprophyres, Carbonatites and Melilite Rocks. Recommendations and Suggestions. Neues Jahrbuch für Mineralogie, Abhandlungen, Vol. 141, 1-14.
+*Le Maitre,R.W. 2002. Igneous Rocks: A Classification and Glossary of Terms : Recommendations of International Union of Geological Sciences Subcommission on the Systematics of Igneous Rocks. Cambridge University Press, 236pp.
+
+==External links==
+*[http://geology.csupomona.edu/alert/igneous/igclass.htm IUGS classification]
+
+== Footnotes ==
+{{reflist}}
+
+{{Commons|QAPF diagram}}
+
+{{DEFAULTSORT:Qapf Diagram}}
+[[Category:Igneous petrology]]
+[[Category:Igneous rocks]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Power center (geometry)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Power center (geometry)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[File:Radical center.svg|thumb|right|250px|The radical center (orange point) is the center of the unique circle (also orange) that intersects three given circles at right angles.]]
+
+In [[geometry]], the &amp;apos;&amp;apos;&amp;apos;power center&amp;apos;&amp;apos;&amp;apos; of three [[circle]]s, also called the &amp;apos;&amp;apos;&amp;apos;radical center&amp;apos;&amp;apos;&amp;apos;,  is the intersection point of the three [[radical axis|radical axes]] of the pairs of circles.  If the radical center lies outside of all three circles, then it is the center of the unique circle (the &amp;apos;&amp;apos;&amp;apos;radical circle&amp;apos;&amp;apos;&amp;apos;) that intersects the three given circles orthogonally; the construction of this orthogonal circle corresponds to &amp;apos;&amp;apos;&amp;apos;Monge&amp;apos;s problem&amp;apos;&amp;apos;&amp;apos;.  This is a special case of the [[three conics theorem]].
+
+The three radical axes meet in a single point, the radical center, for the following reason.  The radical axis of a pair of circles is defined as the set of points that have equal [[power of a point|power]] &amp;apos;&amp;apos;h&amp;apos;&amp;apos; with respect to both circles.  For example, for every point &amp;apos;&amp;apos;&amp;apos;P&amp;apos;&amp;apos;&amp;apos; on the radical axis of circles 1 and 2, the powers to each circle are equal, &amp;apos;&amp;apos;h&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt;&amp;amp;nbsp;=&amp;amp;nbsp;&amp;apos;&amp;apos;h&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;.  Similarly, for every point on the radical axis of circles 2 and 3, the powers must be equal, &amp;apos;&amp;apos;h&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;&amp;amp;nbsp;=&amp;amp;nbsp;&amp;apos;&amp;apos;h&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;.  Therefore, at the intersection point of these two lines, all three powers must be equal, &amp;apos;&amp;apos;h&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt;&amp;amp;nbsp;=&amp;amp;nbsp;&amp;apos;&amp;apos;h&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;&amp;amp;nbsp;=&amp;amp;nbsp;&amp;apos;&amp;apos;h&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;.  Since this implies that &amp;apos;&amp;apos;h&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt;&amp;amp;nbsp;=&amp;amp;nbsp;&amp;apos;&amp;apos;h&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;, this point must also lie on the radical axis of circles 1 and 3.  Hence, all three radical axes pass through the same point, the radical center.
+
+The radical center has several applications in geometry. It has an important role in a solution to [[problem of Apollonius|Apollonius&amp;apos; problem]] published by [[Joseph Diaz Gergonne]] in 1814.  Several types of radical circles have been defined as well, such as the radical circle of the [[Lucas circle]]s.
+
+==See also==
+
+* [[Power of a point]]
+* [[Radical axis]]
+
+==Further reading==
+* {{Cite book | author = Ogilvy CS |authorlink=C. Stanley Ogilvy| year = 1990 | title = Excursions in Geometry | publisher = Dover | isbn = 0-486-26530-7 | pages = 23 | postscript = &amp;lt;!--None--&amp;gt;}}
+
+* {{cite book | title = Geometry Revisited | author = [[Harold Scott MacDonald Coxeter|Coxeter HSM]], [[S. L. Greitzer|Greitzer SL]]| year = 1967 | publisher = [[Mathematical Association of America|MAA]] | location = [[Washington, D.C.|Washington]] | isbn = 978-0-88385-619-2 | pages = 35, 38}}
+
+* {{cite book | author = Johnson RA | year = 1960 | title = Advanced Euclidean Geometry: An elementary treatise on the geometry of the triangle and the circle | edition = reprint of 1929 edition by Houghton Miflin | publisher = Dover Publications | location = New York | isbn = 978-0-486-46237-0 | pages = 32&amp;amp;ndash;34 }}
+
+* {{cite book | author = Wells D | year = 1991 | title = The Penguin Dictionary of Curious and Interesting Geometry | publisher = Penguin Books | location = New York | isbn = 0-14-011813-6 | pages = 35}}
+
+* {{cite book | author = Dörrie H | year = 1965 | chapter = Monge&amp;apos;s Problem | title = 100 Great Problems of Elementary Mathematics: Their History and Solutions | publisher = Dover | location = New York | pages = 151–154 (§31)}}
+
+* {{cite book | author = Lachlan R | year = 1893 | title = An elementary treatise on modern pure geometry | publisher = Macmillan | location = London | pages = 185 | asin = B0008CQ720}}
+
+== External links ==
+
+{{commons category|Radical axes|Radical centers and axes}}
+
+*{{mathworld|urlname=RadicalCenter|title=Radical center}}
+*{{mathworld|urlname=RadicalCircle|title=Radical circle}}
+*{{mathworld|urlname=MongesProblem|title=Monge&amp;apos;s problem}}
+* [http://www.cut-the-knot.org/Curriculum/Geometry/RadicalCenter.shtml Radical Center] at [[Cut-the-Knot]]
+* [http://www.cut-the-knot.org/Curriculum/Geometry/RadicalAxis.shtml Radical Axis and Center] at [[Cut-the-Knot]]
+
+[[Category:Elementary geometry]]
+[[Category:Geometric centers]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

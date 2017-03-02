@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Quantum coupling"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Quantum coupling" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{unreferenced|date=June 2011}}
+{{Coupling in molecules}}
+&amp;apos;&amp;apos;&amp;apos;Quantum Coupling&amp;apos;&amp;apos;&amp;apos; is an effect in [[quantum mechanics]] in which two or more quantum systems are bound such that a change in one of the [[quantum states]] in one of the systems will cause an instantaneous change in all of the bound systems. It is a state similar to [[quantum entanglement]] but whereas quantum entanglement can take place over long distances quantum coupling is restricted to quantum scales.
+
+==Quantum coupling in action==
+[[Trapped ion quantum computers]] utilize the quantum coupling effect by suspending particles representing [[qubits]] in an array of ion traps.  These particles are then induced into a state of quantum coupling by using [[optical pumping]] by a laser. Information can be stored in this state by coupling two or more qubits. While the individual particles may fluctuate their values, the quantum states of the two qubits remain locked in relation to each other, via [[Coulomb force]]. Any action by one of the coupled ions instantaneously alters the other to maintain the relative value. This allows the computer to hold information despite the instability of the individual particles.
+
+
+[[Category:Quantum mechanics]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

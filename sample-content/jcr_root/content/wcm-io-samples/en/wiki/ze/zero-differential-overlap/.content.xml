@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Zero differential overlap"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Zero differential overlap" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Zero differential overlap&amp;apos;&amp;apos;&amp;apos; is an approximation that is used to ignore certain integrals, usually two-electron repulsion integrals, in [[semi-empirical quantum chemistry methods]] [[quantum chemistry]] [[molecular orbital]] methods.
+
+If the molecular orbitals &amp;lt;math&amp;gt;\mathbf{\Phi}_i \ &amp;lt;/math&amp;gt; are expanded in terms of &amp;apos;&amp;apos;N&amp;apos;&amp;apos; basis functions, &amp;lt;math&amp;gt;\mathbf{\chi}_\mu^A \ &amp;lt;/math&amp;gt; as:-
+
+:&amp;lt;math&amp;gt;\mathbf{\Phi}_i \ = \sum_{\mu=1}^N \mathbf{C}_{i\mu} \ \mathbf{\chi}_\mu^A \, &amp;lt;/math&amp;gt;
+
+where &amp;apos;&amp;apos;A&amp;apos;&amp;apos; is the atom the basis function is centred on, and &amp;lt;math&amp;gt;\mathbf{C}_{i\mu} \ &amp;lt;/math&amp;gt; are coefficients, the two-electron repulsion integrals are then defined as:-
+
+:&amp;lt;math&amp;gt; \langle\mu\nu|\lambda\sigma\rangle  = \iint \mathbf{\chi}_\mu^A (1) \mathbf{\chi}_\nu^B (1) \frac{1}{r_{12}} \mathbf{\chi}_\lambda^C (2) \mathbf{\chi}_\sigma^D (2) d\tau_1\,d\tau_2 \ &amp;lt;/math&amp;gt;
+
+The zero differential overlap approximation ignores integrals that contain the product &amp;lt;math&amp;gt;  \mathbf{\chi}_\mu^A (1) \mathbf{\chi}_\nu^B (1) &amp;lt;/math&amp;gt; where &amp;apos;&amp;apos;&amp;amp;mu;&amp;apos;&amp;apos; is not equal to &amp;apos;&amp;apos;&amp;amp;nu;&amp;apos;&amp;apos;. This leads to:-
+
+:&amp;lt;math&amp;gt; \langle\mu\nu|\lambda\sigma\rangle  = \delta_{\mu\nu} \delta_{\lambda\sigma} \langle\mu\mu|\lambda\lambda\rangle &amp;lt;/math&amp;gt;
+
+where &amp;lt;math&amp;gt; \delta_{\mu\nu} = \begin{cases}0 &amp;amp;  \mu  \ne  \nu \\  1 &amp;amp; \mu  =  \nu \ \end{cases} &amp;lt;/math&amp;gt;
+
+The total number of such integrals is reduced to &amp;apos;&amp;apos;N&amp;apos;&amp;apos;(&amp;apos;&amp;apos;N&amp;apos;&amp;apos;&amp;amp;nbsp;+&amp;amp;nbsp;1)&amp;amp;nbsp;/&amp;amp;nbsp;2 (approximately &amp;apos;&amp;apos;N&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;2&amp;lt;/sup&amp;gt;&amp;amp;nbsp;/&amp;amp;nbsp;2) from [&amp;apos;&amp;apos;N&amp;apos;&amp;apos;(&amp;apos;&amp;apos;N&amp;apos;&amp;apos;&amp;amp;nbsp;+&amp;amp;nbsp;1)&amp;amp;nbsp;/&amp;amp;nbsp;2][&amp;apos;&amp;apos;N&amp;apos;&amp;apos;(&amp;apos;&amp;apos;N&amp;apos;&amp;apos;&amp;amp;nbsp;+&amp;amp;nbsp;1)&amp;amp;nbsp;/&amp;amp;nbsp;2&amp;amp;nbsp;+&amp;amp;nbsp;1]&amp;amp;nbsp;/&amp;amp;nbsp;2 (approximately &amp;apos;&amp;apos;N&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;4&amp;lt;/sup&amp;gt;&amp;amp;nbsp;/&amp;amp;nbsp;8), all of which are included in [[Ab initio quantum chemistry methods|ab initio]] [[Hartree&amp;amp;ndash;Fock]] and [[post-Hartree&amp;amp;ndash;Fock]] calculations.
+
+Methods such as the [[Pariser&amp;amp;ndash;Parr&amp;amp;ndash;Pople method]] (PPP) and [[CNDO/2]] use the zero differential overlap approximation completely. Methods based on the intermediate neglect of differential overlap, such as [[INDO]], [[MINDO]], [[ZINDO]] and [[SINDO]] do not apply it when &amp;apos;&amp;apos;A&amp;apos;&amp;apos;&amp;amp;nbsp;=&amp;amp;nbsp;&amp;apos;&amp;apos;B&amp;apos;&amp;apos;&amp;amp;nbsp;=&amp;amp;nbsp;&amp;apos;&amp;apos;C&amp;apos;&amp;apos;&amp;amp;nbsp;=&amp;amp;nbsp;&amp;apos;&amp;apos;D&amp;apos;&amp;apos;, i.e. when all four basis functions are on the same atom. Methods that use the neglect of diatomic differential overlap, such as [[MNDO]], [[PM3 (chemistry)|PM3]] and [[Austin Model 1|AM1]], also do not apply it when &amp;apos;&amp;apos;A&amp;apos;&amp;apos;&amp;amp;nbsp;=&amp;amp;nbsp;&amp;apos;&amp;apos;B&amp;apos;&amp;apos; and &amp;apos;&amp;apos;C&amp;apos;&amp;apos;&amp;amp;nbsp;=&amp;amp;nbsp;&amp;apos;&amp;apos;D&amp;apos;&amp;apos;, i.e. when the basis functions for the first electron are on the same atom and the basis functions for the second electron are the same atom.
+
+It is possible to partly justify this approximation, but generally it is used because it works reasonably well when the integrals that remain&amp;amp;nbsp;&amp;amp;ndash; &amp;lt;math&amp;gt;\langle\mu\mu|\lambda\lambda\rangle&amp;lt;/math&amp;gt;&amp;amp;nbsp;&amp;amp;ndash; are parameterised.
+
+==References==
+*{{cite book
+  | last = Jensen
+  | first = Frank
+  | authorlink =
+  | coauthors =
+  | title = Introduction to Computational Chemistry
+  | publisher = John Wiley and Sons
+  | year = 1999
+  | location = Chichester
+  | pages = 81–82
+  | url = http://hdl.handle.net/2027/uc1.31822026137414 &amp;lt;!-- HathiTrust --&amp;gt;
+  | isbn = 978-0-471-98085-8
+  | oclc = 466189317 }}
+
+[[Category:Computational chemistry]]
+
+
+{{chem-stub}}
+{{quantum-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

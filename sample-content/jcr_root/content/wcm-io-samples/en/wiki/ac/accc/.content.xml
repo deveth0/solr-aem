@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="ACCC"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="ACCC" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;ACCC&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+In &amp;apos;&amp;apos;&amp;apos;Education&amp;apos;&amp;apos;&amp;apos;:
+* [[Association of Canadian Community Colleges]], a national association formed in 1972
+* [[Atlantic Cape Community College]], an accredited, co-educational, two-year, public, community college
+
+In &amp;apos;&amp;apos;&amp;apos;Australian Organisations&amp;apos;&amp;apos;&amp;apos;:
+* [[Australian Competition and Consumer Commission]], an independent Australian commonwealth government authority established in 1995
+* The [[Australian Centre for Christianity and Culture]], a Christian ecumenical centre
+* The [[Australian Confraternity of Catholic Clergy]], a fraternal association of Catholic bishops, priests and deacons in Australia and New Zealand.
+
+In &amp;apos;&amp;apos;&amp;apos;Religion&amp;apos;&amp;apos;&amp;apos;:
+* [[American Council of Christian Churches]], a national council of churches
+* [[Anglican Catholic Church of Canada]], an Anglican church that was founded in the 1970s by conservative Anglicans
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

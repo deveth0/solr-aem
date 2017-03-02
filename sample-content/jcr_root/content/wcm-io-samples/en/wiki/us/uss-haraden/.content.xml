@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="USS Haraden"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="USS Haraden" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Italic title prefixed|3}}
+&amp;apos;&amp;apos;&amp;apos;USS &amp;apos;&amp;apos;Haraden&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* {{USS|Haraden|DD-183}}, a [[Wickes class destroyer|&amp;apos;&amp;apos;Wickes&amp;apos;&amp;apos;-class]] [[destroyer]], launched in 1918, transferred to the United Kingdom in 1940 and struck from the US Navy list in 1941. The ship was assigned to Canada and renamed HMCS &amp;apos;&amp;apos;Columbia&amp;apos;&amp;apos;. She was sold for scrap in 1945.
+
+*{{USS|Haraden|DD-585}}, a [[Fletcher class destroyer|&amp;apos;&amp;apos;Fletcher&amp;apos;&amp;apos;-class]] destroyer, launched in 1943, decommissioned in 1946, and struck in 1972.
+
+{{Shipindex}}
+
+{{DEFAULTSORT:Haraden}}
+[[Category:United States Navy ship names]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

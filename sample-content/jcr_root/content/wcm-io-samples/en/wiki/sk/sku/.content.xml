@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="SKU"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="SKU" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|SKU}}
+&amp;apos;&amp;apos;&amp;apos;SKU&amp;apos;&amp;apos;&amp;apos; refers to a [[stock-keeping unit]], a unique identifier for each distinct product and service that can be purchased in business.
+
+It may also stand for:
+
+&amp;apos;&amp;apos;&amp;apos;Universities&amp;apos;&amp;apos;&amp;apos;:
+* [[Sri Krishnadevaraya University]], a public university in Anantapur, Andhra Pradesh, India
+* [[Sidhhu Kanhu University]], situated in the indigenous peoples dominated area of Santhal Parganas region of Jharkhand, India
+* [[Syiah Kuala University]], a university in Banda Aceh, Aceh, Indonesia
+* [[Senri Kinran University]], a private university in Suita, Osaka, Japan, established in 2003
+* [[Sangguniang Kabataan University]], an open university in the Philippines
+
+&amp;apos;&amp;apos;&amp;apos;Other&amp;apos;&amp;apos;&amp;apos;:
+* &amp;apos;&amp;apos;Shoujo Kakumei Utena&amp;apos;&amp;apos; or &amp;apos;&amp;apos;[[Revolutionary Girl Utena]]&amp;apos;&amp;apos;, a 1996 Japanese manga and 1997 anime
+* [[Young Communist League of Sweden (disambiguation)|Sveriges Kommunistiska Ungdomsförbund]], Young Communist League of Sweden
+* [[Safe Kids USA]], the United States&amp;apos; arm of the global network of Safe Kids Worldwide organizations based in Washington, D.C.
+* [[Sadhu Kochoonju Upadesi]] (1883–1945), famous Malayali Christian preacher, poet and composer
+* [[SWAT Kats Unplugged]], an animated television series
+* [[Simon Kurt Unsworth]] (born 1972), British writer of supernatural fiction
+* [[SKU Amstetten]], an Austrian association football club founded in 1997
+* [[Skiu-Kaya]], two adjoining villages in Ladakh, India
+* [[Skyros Island National Airport]] in Skyros, Greece
+
+{{disambig}}
+
+[[fr:SKU]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

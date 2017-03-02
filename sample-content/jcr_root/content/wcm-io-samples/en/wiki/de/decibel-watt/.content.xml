@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Decibel watt"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Decibel watt" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;decibel watt&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;dBW&amp;apos;&amp;apos;&amp;apos; is a unit for the measurement of the strength of a signal expressed in [[decibel]]s relative to one [[watt]]. It is used because of its capability to express both very large and very small values of power in a short range of number; e.g., 1 milliwatt = −30&amp;amp;nbsp;dBW, 1 watt = 0&amp;amp;nbsp;dBW, 10 watts = 10&amp;amp;nbsp;dBW, 100 watts = 20&amp;amp;nbsp;dBW, and 1,000,000&amp;amp;nbsp;W = 60&amp;amp;nbsp;dBW.
+
+:&amp;lt;math&amp;gt;\mbox{Power in dBW} = 10 \log_{10}(\mbox{Power in W}) &amp;lt;/math&amp;gt;
+
+Compare to [[dBm]], which is referenced to one milliwatt (0.001&amp;amp;nbsp;W). Certain dBW value in dBm is always 30 more because 1 watt is 1,000 milliwatts, and ratio of 1,000 (in power) is 30&amp;amp;nbsp;dB; e.g., 10&amp;amp;nbsp;dBm (10&amp;amp;nbsp;mW) is equal to −20&amp;amp;nbsp;dBW (0.01&amp;amp;nbsp;W).
+
+Although the [[decibel]] (dB) is permitted for use alongside [[SI]] units, the dBW is not.
+
+==See also==
+*[[dBm]]
+
+{{decibel}}
+
+[[Category:Sound]]
+
+{{Electronics-stub}}
+{{sound-tech-stub}}
+{{measurement-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

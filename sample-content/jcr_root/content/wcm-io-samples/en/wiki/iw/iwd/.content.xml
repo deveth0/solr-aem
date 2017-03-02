@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="IWD"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="IWD" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;IWD&amp;apos;&amp;apos;&amp;apos; may refer to:
+*[[Individual-Wheel Drive]]
+*[[Iberworld]], ICAO airline code IWD
+*[[International Women&amp;apos;s Day]]
+*[[International Workers&amp;apos; Day]]
+*Ivor Watkins Dow, now known as [[Dow Agrosciences]]
+*[[IShares Russell 1000|iShares Russell 1000 Value Index]], an exchange-traded fund with ticker symbol IWD
+*[[IWD (file extension)]], used by the Call of Duty video game series
+*Interactive [[Web design|Web Designer]] or Interactive [[Web developer]], [[job position]]s in area of the [[web application]] [[web development|development]]
+
+==See also==
+*&amp;apos;&amp;apos;[[Icewind Dale]]&amp;apos;&amp;apos;, a computer role-playing game
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

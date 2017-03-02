@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="File:Quake3Title.jpg"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="File:Quake3Title.jpg" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;Quake III Arena&amp;apos;&amp;apos; cover art. Source: [http://www.amazon.com/dp/B0000296ZF/]
+
+==Licensing==
+{{Non-free game cover|Windows|Macintosh|image has rationale=yes}}
+
+==Fair use rationale for [[Quake III Arena]]==
+It is believed that the use of this image qualifies as fair use in the article &amp;apos;&amp;apos;Quake III Arena&amp;apos;&amp;apos; because:
+
+* [[id Software]] has released no such images into the public domain, and a replacement image could not be created that would adequately provide the same information
+* The image is being used for no purpose other than to identify the subject of the article
+* The image resolution has been significantly decreased from the original, so copies made from it would be of inferior quality
+* The use of this image neither detracts from the game nor inhibits its salability in any way&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

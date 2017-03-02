@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Yojimbo (software)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Yojimbo (software)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=January 2013}}
+{{Infobox Software
+| name = Yojimbo
+| logo = [[Image:Yojimbo Logo.png|64px]]
+| screenshot = [[Image:Yojimbo default library.png|300px|The example library.]]&amp;lt;br /&amp;gt;&amp;lt;!-- Deleted image removed: [[Image:Yojimbo tab.png|The quick access tab.]] --&amp;gt;
+| caption = Yojimbo&amp;apos;s example library and quick reference tab.
+| developer = [[Bare Bones Software]]
+| latest release version = 3.0.2
+| latest release date = 2011-03-05
+| latest preview version =
+| latest preview date =
+| operating system = [[Mac OS X]]
+| platform =
+| genre = [[personal information manager]]
+| license =
+| website = [http://www.barebones.com/products/yojimbo/ BareBones.com/…/yojimbo/]
+}}
+&amp;apos;&amp;apos;&amp;apos;Yojimbo&amp;apos;&amp;apos;&amp;apos; is a [[personal information manager]] for [[Mac OS X]] by [[Bare Bones Software]]. It can store notes, images/media, [[Uniform Resource Locator|URL]]s, [[web page]]s. Yojimbo can also encrypt any of its contents and store the password in the [[Apple Keychain|Keychain]]. It is Bare Bones&amp;apos; second [[Cocoa (API)|Cocoa]] application.
+
+==External links==
+* [http://www.barebones.com/products/yojimbo/ Yojimbo homepage]
+
+[[Category:OS X-only software]]
+[[Category:Personal information managers]]
+
+
+{{mac-software-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

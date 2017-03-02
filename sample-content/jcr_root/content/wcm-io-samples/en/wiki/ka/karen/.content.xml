@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Karen"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Karen" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionarypar|Karen}}
+
+&amp;apos;&amp;apos;&amp;apos;Karen&amp;apos;&amp;apos;&amp;apos; may refer to:
+==In names==
+* [[Karen (name)]], a given name (and list of people with the name)
+
+==In people==
+* [[Karen people]], an ethnic group in Burma and Thailand
+** [[Karen languages]], spoken by the Karen people
+* [[House of Karen]], an historical feudal family of Tabaristan, Iran
+
+==In places==
+* [[Karen, Kenya]], a suburb of Nairobi
+* [[Hualien, Taiwan]], or Karen
+
+==In entertainment and media==
+* [[Karen (1964 TV series)|&amp;apos;&amp;apos;Karen&amp;apos;&amp;apos; (1964 TV series)]], an NBC sitcom starring Debbie Watson
+* [[Karen (1975 TV series)|&amp;apos;&amp;apos;Karen&amp;apos;&amp;apos; (1975 TV series)]], an ABC sitcom starring Karen Valentine
+* [[Plankton (SpongeBob SquarePants)#Karen|Karen]], Plankton&amp;apos;s &amp;quot;computer&amp;quot; W.I.F.E. on the animated TV series, &amp;apos;&amp;apos;SpongeBob SquarePants&amp;apos;&amp;apos;
+* Karen, a character in &amp;apos;&amp;apos;[[Mermaid Melody Pichi Pichi Pitch]]&amp;apos;&amp;apos; media
+
+==In other uses==
+* [[KAREN]] or Kiwi Advanced Research and Education Network
+
+==See also==
+* [[Karren (name)]]
+* [[Garen (disambiguation)]]
+* [[Tropical Storm Karen (disambiguation)]]
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

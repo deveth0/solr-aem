@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="IBM 1410"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="IBM 1410" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;lt;!-- Image with disputed fair-use status removed:  [[Image:IBM_logo.svg|thumb|128px|IBM logo]] --&amp;gt;
+The &amp;apos;&amp;apos;&amp;apos;IBM 1410&amp;apos;&amp;apos;&amp;apos;, a member of the [[IBM 1400 series]], was a variable [[wordlength]] [[decimal computer]] that was announced by IBM on September 12, 1960 and marketed as a midrange &amp;quot;Business Computer&amp;quot;. It was withdrawn on March 30, 1970. The 1410 was similar in design to the very popular [[IBM 1401]], but it had one major difference. Addresses were five characters long and allowed a maximum memory of 80,000 characters, much larger than the 16,000 characters permitted by the 1401&amp;apos;s three character addresses.  However, the 1410 could also be run in what was termed 1401 compatibility mode.  On the 1410, this was accomplished in wired hardware - the machine literally turned into a 1401 with the flip of a switch.  Later IBM used programs with microcode assist to emulate the 1401, a very early example of [[Virtual machine|virtualization]].
+
+IBM also created the IBM 7010.  The 7010 used the same architecture and the 1410, but was implemented in 7000 series technology (see [[IBM 700/7000 series]]), and supported up to 100,000 characters of storage.
+
+==External links==
+*[http://www-1.ibm.com/ibm/history/exhibits/mainframe/mainframe_PP1410.html IBM Archives - 1410]
+*[http://www.bitsavers.org/pdf/ibm/1410 Al Kossow&amp;apos;s IBM 1410 Documents]
+*[http://webpages.charter.net/thecomputercollection/ibm1410/ibm1410.htm Jay Jaeger&amp;apos;s IBM 1410 page]
+*[http://www.bitsavers.org/1401/kossow-docs.html Al Kossow&amp;apos;s IBM 1400 Series Documents - old]
+
+[[Category:IBM transistorized computers|1410]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

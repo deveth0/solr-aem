@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Looping"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Looping" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Wiktionary|loop}}
+
+&amp;apos;&amp;apos;&amp;apos;Looping&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+; Media and entertainment
+*[[Loop (music)]], a repeating section of sound material
+*[[Audio induction loop]], an aid for the hard of hearing.  They are a loop of cable around a designated area, usually a room or a building, which generates a magnetic field picked up by a hearing aid.
+*Looping, film production term for [[Dubbing (filmmaking)]]
+*Looping, repeating drawings in an [[animated cartoon]]
+*[[Looping (video game)]], a 1982 video game produced by [[ColecoVision]]
+
+; Other uses
+* [[Looping (education)]], the practice of moving groups of children up from one grade to the next with the same teacher
+*[[Control_flow#Loops|Control loops]] in computing, a sequence of statements which is specified once but which may be carried out several times in succession.
+* Looping, an [[aerobatic maneuver]]
+* Looping, sociology term in [[Total institution]] in which an individual&amp;apos;s protective response to one assault on the self is made the basis of another
+* Looping, also known as knotless netting, a primitive method of textile construction as used to create a [[bilum]]
+
+{{Disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Nicholson (lunar crater)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Nicholson (lunar crater)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;:&amp;apos;&amp;apos;This article is about the crater on the [[Moon]]. See also [[Nicholson crater|Nicholson (crater)]].&amp;apos;&amp;apos;
+{{lunar crater data|
+ latitude=26.0|
+ N_or_S=S|
+ longitude=85.1|
+ E_or_W=W|
+ diameter=38 km|
+ depth=&amp;apos;&amp;apos;Unknown&amp;apos;&amp;apos;|
+ colong=85|
+ eponym=[[Seth Barnes Nicholson|Seth B. Nicholson]]}}
+&amp;apos;&amp;apos;&amp;apos;Nicholson&amp;apos;&amp;apos;&amp;apos; is a [[moon|lunar]] [[impact crater]] located at the western limb. In this position it is subject to [[libration]], which can limit observation. The crater is also viewed at a very oblique angle, so it is seen from the side when observed from the [[Earth]]. It is an irregular, somewhat pear-shaped formation that has an uneven rim due to its location amidst rugged ground. The rim is sharp-edged and the inner wall varies in thickness, being narrower along the northern side and wider at the southern end. The interior floor is rough, small and uneven, with no impacts of significance. There is a small central ridge.
+
+Nicholson is located in the [[Montes Rook]], a ring-shaped mountain formation that encircles the immense [[Mare Orientale]] feature. It lies to the northwest of [[Pettit (lunar crater)|Pettit]].
+
+==References==
+{{Lunar crater references}}
+{{Moon-crater-stub}}
+[[Category:Impact craters on the Moon]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

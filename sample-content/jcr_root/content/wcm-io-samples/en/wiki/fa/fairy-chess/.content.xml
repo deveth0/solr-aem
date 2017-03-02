@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Fairy chess"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Fairy chess" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Fairy chess&amp;apos;&amp;apos;&amp;apos; comprises [[chess problem]]s that differ from classical (also called &amp;apos;&amp;apos;orthodox&amp;apos;&amp;apos;) chess problems in that they are not [[direct mate]]s. The term was introduced by [[Henry Tate (poet)|Henry Tate]] in 1914 and has resisted change since then. While [[selfmate]] dates from the Middle Age, [[helpmate]] was invented by [[Max Lange]] in the late 19th century. [[Thomas Rayner Dawson|Thomas Dawson]] (1889–1951), pioneer of fairy chess, invented many fairy pieces and new conditions. He was also problem editor of &amp;apos;&amp;apos;[[Fairy Chess Review]]&amp;apos;&amp;apos; (1930–51).
+
+In &amp;apos;&amp;apos;The Encyclopedia of Chess Variants&amp;apos;&amp;apos;, [[David Pritchard (chess player)|Pritchard]] acknowledges that the term is sometimes used for games, although it is more usually applied to problems where the board, pieces or rules are changed to express an idea or theme impossible in orthochess.
+
+== Types of fairy chess problems ==
+Types of fairy chess problems include:
+* &amp;apos;&amp;apos;&amp;apos;New stipulations&amp;apos;&amp;apos;&amp;apos;: Probably the most used alternations are new stipulations instead of a direct mate stipulation. A lot of them were invented and some became established. [[Selfmate]]s and [[helpmate]]s are nowadays often considered to be orthodox stipulations. Among others are: [[reflexmate]]s, various types of [[seriesmover]]s or recently very popular [[helpselfmate]]s. Part of new stipulations are also [[Retrograde analysis|retroanalytical problems]] including [[shortest proof game]]s and [[retractor (chess)|retractors]]. Finally, various [[construction tasks]] on chess and mathematical problems using chess objects are considered to be chess problems as well.
+* &amp;apos;&amp;apos;&amp;apos;New chess pieces&amp;apos;&amp;apos;&amp;apos;: Conventional [[chess piece]]s are generalized in many ways ([[Grasshopper (chess piece)|grasshopper]], [[Nightrider_(chess)|nightrider]], [[Xiangqi#Cannon|cannon]], etc.). See main article [[Fairy chess piece]]s.
+* &amp;apos;&amp;apos;&amp;apos;New conditions&amp;apos;&amp;apos;&amp;apos;: Encompassing all changes of rules including rules for captures, checks, checkmates, general movement abilities, etc. Many were invented; some became established: [[circe chess]], [[Madrasi chess]], [[Andernach chess]], [[monochromatic chess]], [[patrol chess]], [[Einstein chess]] and numerous others.
+* &amp;apos;&amp;apos;&amp;apos;Different boards&amp;apos;&amp;apos;&amp;apos;: One can vary board size from 8×8 to other sizes (10×10, 8×10, unusual board shapes, etc.) or use different geometries: [[Cylinder chess|cylinder]] (vertical and horizontal), anchor ring or [[torus]] and others.
+
+All problems in the [[FIDE Album]]s are divided into eight sections: [[Glossary of chess problems#Directmate|directmates]] ([[Glossary of chess problems#Two-mover|2-movers]], [[Glossary of chess problems#Three-mover|3-movers]] and [[Glossary of chess problems#More-mover|moremovers]]), [[Endgame study|endgame studies]], selfmates, helpmates, fairy chess and retro and [[Mathematical chess problem|mathematical problems]].
+
+== See also ==
+* [[Chess variant]]s
+* [[Fairy chess piece]]
+
+== References ==
+*{{citation
+ |last=Pritchard
+ |first=D. B.
+ |authorlink=David Pritchard (chess player)
+ |title=The Encyclopedia of Chess Variants
+ |publisher=Games &amp;amp; Puzzles Publications
+ |year=1994
+ |isbn=0-9524142-0-1}}
+
+== External links ==
+* [http://www.bcps.knightsfield.co.uk/fairies.html Fairy chess] by Michael McDowell
+* [http://www.janko.at/Retros/Glossary/index.htm Fairy chess glossary] by Otto Janko.
+* [http://github.com/jankeromnes/MetaChess MetaChess, an open source fairy chess engine]
+
+[[Category:Fairy chess| ]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

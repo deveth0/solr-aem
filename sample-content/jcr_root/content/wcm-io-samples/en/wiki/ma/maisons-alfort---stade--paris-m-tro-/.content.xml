@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Maisons-Alfort – Stade (Paris Métro)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Maisons-Alfort – Stade (Paris Métro)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox Paris metro
+|Name=Maisons-Alfort - Stade
+|Pic=
+|Day=19 September
+|Year=1970
+|Access=
+|Municipality=Maisons-Alfort
+|Zone=1
+|Next=
+{{Paris Metro/next|8|École Vétérinaire de Maisons-Alfort|Maisons-Alfort - Les Juilliottes }}
+| X=300
+| Y=200
+}}
+&amp;apos;&amp;apos;&amp;apos;Maisons-Alfort - Stade&amp;apos;&amp;apos;&amp;apos; is a [[metro station|station]] on [[Paris Métro Line 8|line 8]] of the [[Paris Métro]] in the [[French commune|commune]] of [[Maisons-Alfort]].
+
+The station opened on 19 September 1970 with the extension of the line from [[Charenton - Écoles (Paris Métro)|Porte de Charenton - Écoles]]. It was the eastern terminus of the line until its extension to [[Maisons-Alfort - Les Juilliottes (Paris Métro)|Maisons-Alfort - Les Juilliottes]] on 27 April 1972.
+
+{{Paris Metro/line 8}}
+
+{{coord|48.808681|N|2.436073|E|region:FR_type:landmark_scale:2000_source:frwiki|display=title|format=dms}}
+
+{{DEFAULTSORT:Maisons-Alfort - Stade (Paris Metro)}}
+[[Category:Railway stations opened in 1970]]
+
+
+{{Paris-metro-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

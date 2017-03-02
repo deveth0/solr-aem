@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="HUD"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="HUD" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;HUD&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* [[Head-up display]], a visual display technology for airplanes, cars and others
+** [[HUD (video gaming)]], a method of visually representing information in video games
+** [[HUD (computing)]], the same method of visually representing information in computing
+* [[United States Department of Housing and Urban Development]], a division of the U.S. federal government
+* [[Hong Kong United Dockyard]], a dockyard in Hong Kong
+* [[Hollywood Undead]], a rapcore band from the United States
+
+&amp;apos;&amp;apos;&amp;apos;Hud&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* [[Hud (prophet)]], an Islamic prophet, which is thought by some to be Eber
+* [[Hud (sura)]], the eleventh sura of the Qur&amp;apos;an, which contains an account of the prophet Hud
+* [[Hud (film)|&amp;apos;&amp;apos;Hud&amp;apos;&amp;apos; (film)]], a 1963 film starring Paul Newman
+* [[Hud (1986 film)|&amp;apos;&amp;apos;Hud&amp;apos;&amp;apos; (1986 film)]], a 1986 Norwegian film
+* [[Huddersfield]], a town in West Yorkshire, England
+
+&amp;apos;&amp;apos;&amp;apos;HuD&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* The HuD/[[ELAVL4]] protein, a human gene, an RNA-binding protein
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

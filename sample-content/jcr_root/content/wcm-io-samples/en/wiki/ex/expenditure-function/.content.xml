@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Expenditure function"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Expenditure function" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[microeconomics]], the &amp;apos;&amp;apos;&amp;apos;expenditure function&amp;apos;&amp;apos;&amp;apos; describes the minimum amount of money an individual needs to achieve some level of utility, given a utility function and prices.
+
+Formally, if there is a [[utility function]] &amp;lt;math&amp;gt;u&amp;lt;/math&amp;gt; that describes preferences over L commodities, the expenditure function
+:&amp;lt;math&amp;gt;e(p, u^*) : \textbf R^L_+ \times \textbf R
+ \rightarrow \textbf R&amp;lt;/math&amp;gt;
+
+says what amount of money is needed to achieve a utility &amp;lt;math&amp;gt;u^*&amp;lt;/math&amp;gt; if prices are set by &amp;lt;math&amp;gt;p&amp;lt;/math&amp;gt;.
+This function is defined by
+
+:&amp;lt;math&amp;gt;e(p, u^*) = \min_{x \in \geq(u^*)} p \cdot x&amp;lt;/math&amp;gt;
+
+where
+
+:&amp;lt;math&amp;gt;\geq(u^*) = \{x \in \textbf R^L_+ : u(x) \geq u^*\}&amp;lt;/math&amp;gt;
+
+is the set of all bundles that give utility at least as good as &amp;lt;math&amp;gt;u^*&amp;lt;/math&amp;gt;.
+
+==See also==
+* [[Expenditure minimization problem]]
+* [[Hicksian demand function]]
+* [[Utility maximization problem]]
+
+== References ==
+* Andreu Mas-Colell, Michael D. Whinston and Jerry R. Green &amp;apos;&amp;apos;Microeconomic Theory&amp;apos;&amp;apos;, 2007, ISBN 0-19-510268-1, pp. 59-60, &amp;apos;&amp;apos;The Expenditure Function&amp;apos;&amp;apos;
+
+{{DEFAULTSORT:Expenditure Function}}
+[[Category:Consumer theory]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

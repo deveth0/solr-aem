@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Woodbine"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Woodbine" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|Woodbine|Woodbines|woodbine|woodbines}}
+&amp;lt;!-- **** THIS IS A DISAMBIGUATION PAGE. With some minor exceptions, only items that are being disambiguated (i.e. items called &amp;quot;Woodbine&amp;quot;) should be linked. See Wikipedia:Disambiguation for more details *** --&amp;gt;
+
+&amp;apos;&amp;apos;&amp;apos;Woodbine&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* [[Woodbine (plant)]], a plant
+* [[Woodbine (cigarette)]], a cigarette
+* {{ship|USCGC|Woodbine|WLB-289}} - a [[buoy tender]] of the United States Coast Guard
+
+{{tocright}}
+== Places ==
+=== Australia ===
+* [[Woodbine, New South Wales]], a suburb of Sydney
+
+=== Canada ===
+==== Calgary, Alberta ====
+* [[Woodbine, Calgary]], a residential neighbourhood in the city&amp;apos;s southwest quadrant
+==== Toronto, Ontario ====
+* [[Woodbine Avenue (Ontario)]], an arterial road
+* [[Woodbine (TTC)]] subway station
+* The former Woodbine Race Course, later called [[Greenwood Raceway]], a defunct horse racing facility near Woodbine Avenue
+* [[Woodbine Racetrack]], a current horse racing facility, named after the earlier one but not near Woodbine Avenue
+* The former [[Woodbine (electoral district)|Woodbine]] provincial electoral district
+* The former [[Beaches&amp;amp;mdash;Woodbine (provincial electoral district)|Beaches&amp;amp;mdash;Woodbine]] provincial electoral district
+
+=== United States ===
+* [[Woodbine Formation]], a geological formation in east Texas whose strata date back to the Late Cretaceous
+* [[Woodbine, Georgia]]
+* [[Woodbine, Iowa]]
+* [[Woodbine, Kansas]]
+* [[Woodbine, Kentucky]]
+* [[Woodbine, Maryland]]
+* [[Woodbine, New Jersey]]
+* [[Woodbine, West Virginia]]
+* [[Woodbine (New Albany, Indiana)]], a historic estate
+* [[Woodbine, Delaware]]
+* [[Woodbine, Illinois]]
+* [[Woodbine, Pennsylvania]]
+* [[Woodbine-Palmetto-Gates Historic District]] in New York City
+
+== See also ==
+* {{Intitle}}
+
+{{disambiguation|geo}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

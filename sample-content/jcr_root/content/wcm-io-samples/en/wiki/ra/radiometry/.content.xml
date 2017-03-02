@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Radiometry"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Radiometry" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[optics]], &amp;apos;&amp;apos;&amp;apos;radiometry&amp;apos;&amp;apos;&amp;apos; is a set of techniques for [[measurement|measuring]] [[electromagnetic radiation]], including [[visible light]]. Radiometric techniques characterize the distribution of the radiation&amp;apos;s [[power (physics)|power]] in space, as opposed to [[photometry (optics)|photometric]] techniques, which characterize the light&amp;apos;s interaction with the human eye. Radiometry is distinct from [[quantum optics|quantum]] techniques such as [[photon]] counting.
+
+Radiometry is important in [[astronomy]], especially [[radio astronomy]], and plays a significant role in [[Earth remote sensing]]. The measurement techniques categorized as &amp;apos;&amp;apos;radiometry&amp;apos;&amp;apos; in optics are called [[Photometry (astronomy)|&amp;apos;&amp;apos;photometry&amp;apos;&amp;apos;]] in some astronomical applications, contrary to the optics usage of the term.
+
+&amp;apos;&amp;apos;&amp;apos;Spectroradiometry&amp;apos;&amp;apos;&amp;apos; is the measurement of absolute radiometric quantities in narrow bands of wavelength.&amp;lt;ref&amp;gt;{{cite book|title=Focal Encyclopedia of Photography|publisher=[[Focal Press]] | author=Leslie D. Stroebel and Richard D. Zakia | year=1993 | edition=3rd ed.|page=115 |isbn=0-240-51417-3 | url = http://books.google.com/books?id=CU7-2ZLGFpYC&amp;amp;pg=PA115&amp;amp;dq=spectroradiometry+intitle:%22Focal+Encyclopedia+of+Photography%22#PPA115,M1 }}&amp;lt;/ref&amp;gt;
+
+{{SI radiometry units}}
+
+== See also ==
+* [[Reflectivity]]
+* [[Microwave radiometer]]
+
+==References==
+{{Reflist}}
+
+==External links==
+*[http://fp.optics.arizona.edu/Palmer/rpfaq/rpfaq.htm Radiometry and photometry FAQ] Professor Jim Palmer&amp;apos;s Radiometry FAQ page (The University of Arizona College of Optical Sciences).
+
+[[Category:Radiometry| ]]
+[[Category:Measurement]]
+[[Category:Optical metrology]]
+[[Category:Telecommunications engineering]]
+[[Category:Observational astronomy]]
+[[Category:Electromagnetic radiation]]
+
+{{optics-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

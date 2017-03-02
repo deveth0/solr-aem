@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ivan M. Niven"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ivan M. Niven" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Image:Ivan Niven.jpg|thumb|Ivan Niven]]
+&amp;apos;&amp;apos;&amp;apos;Ivan Morton Niven&amp;apos;&amp;apos;&amp;apos; (October 25, 1915 &amp;amp;ndash; May 9, 1999) was a [[Canada|Canadian]]-[[USA|American]] [[mathematician]], specializing in [[number theory]]. He was born in [[Vancouver]]. He did his undergraduate studies at the [[University of British Columbia]] and was awarded his doctorate in 1938 from the [[University of Chicago]].&amp;lt;ref&amp;gt;{{MathGenealogy|id=6349}}&amp;lt;/ref&amp;gt; He was a member of the [[University of Oregon]] faculty from 1947 to his retirement in 1981. He received the University of Oregon&amp;apos;s Charles E. Johnson Award in 1981.
+
+Niven completed the solution of most of [[Waring&amp;apos;s problem]] in 1944. This problem, based on a 1770 conjecture by [[Edward Waring]], consists of finding the smallest number &amp;apos;&amp;apos;g&amp;apos;&amp;apos;(&amp;apos;&amp;apos;n&amp;apos;&amp;apos;) such that every positive integer is the sum of at most &amp;apos;&amp;apos;g&amp;apos;&amp;apos;(&amp;apos;&amp;apos;n&amp;apos;&amp;apos;) &amp;apos;&amp;apos;n&amp;apos;&amp;apos;th powers of positive integers. [[David Hilbert]] had proved the existence of such a &amp;apos;&amp;apos;g&amp;apos;&amp;apos;(&amp;apos;&amp;apos;n&amp;apos;&amp;apos;) in 1909; Niven&amp;apos;s work established the value of &amp;apos;&amp;apos;g&amp;apos;&amp;apos;(&amp;apos;&amp;apos;n&amp;apos;&amp;apos;) for all but finitely many values of &amp;apos;&amp;apos;n&amp;apos;&amp;apos;.
+
+He was president of the [[Mathematical Association of America]] (MAA) from 1983 to 1984.&amp;lt;ref&amp;gt;[http://www.maa.org/history/presidents/niven.html MAA presidents: Ivan Niven]&amp;lt;/ref&amp;gt; He received the MAA Distinguished Service Award in 1989.
+
+He died in 1999 in [[Eugene, Oregon]].
+
+He was honored by being selected to write the [[Carus Mathematical Monograph|Carus Monograph]] Number 11, entitled &amp;apos;&amp;apos;Irrational Numbers&amp;apos;&amp;apos;.&amp;lt;ref&amp;gt;{{cite journal|author=Rosenbaum, R. A.|title=Review: &amp;apos;&amp;apos;Irrational Numbers&amp;apos;&amp;apos; by Ivan Niven. Carus Monograph, no. 11: New York, Wiley, 1956|journal=Bull. Amer. math. Soc.|year=1959|volume=64|issue=2|pages=68–69|url=http://www.ams.org/journals/bull/1958-64-02/S0002-9904-1958-10170-6/S0002-9904-1958-10170-6.pdf}}&amp;lt;/ref&amp;gt; [[Niven number]]s, [[Niven&amp;apos;s constant]], and [[Niven&amp;apos;s theorem]] are named in his honor; also, in 2000, the asteroid [[12513 Niven]], discovered in 1998, was named after him. He has an [[Erdős number]] of&amp;amp;nbsp;1.
+
+==Popular works by Niven==
+*(1959) &amp;apos;&amp;apos;Mathematics: A house built on sand?&amp;apos;&amp;apos;
+*(1960) (with Herbert S. Zuckerman) &amp;apos;&amp;apos;An Introduction to the Theory of Numbers&amp;apos;&amp;apos;, Wiley&amp;lt;ref&amp;gt;{{cite journal|author=Whiteman, Albert Leon|title=Review: &amp;apos;&amp;apos;An introduction to the theory of numbers&amp;apos;&amp;apos;, by Ivan Niven and Herbert S. Zuckerman|journal=Bull. Amer. Math. Soc.|year=1961|volume=67|issue=4|pages=339–340|url=http://www.ams.org/journals/bull/1961-67-04/S0002-9904-1961-10603-4/}}&amp;lt;/ref&amp;gt;
+*(1961) &amp;apos;&amp;apos;Numbers Rational and Irrational&amp;apos;&amp;apos;, Random House
+*(1963) &amp;apos;&amp;apos;Diophantine Approximations&amp;apos;&amp;apos;, Interscience
+*(1965) &amp;apos;&amp;apos;Mathematics of Choice&amp;apos;&amp;apos;, MAA
+
+==See also==
+*[[Proof that π is irrational]]
+
+==References==
+&amp;lt;references/&amp;gt;
+* [http://www.rasc.ca/journal/pdfs/2000-Apr.pdf] Journal of the [[Royal Astronomical Society of Canada]], April 2000 issue
+* [http://hamilton.dm.unipi.it/cgi-bin/astdys/astibo?objects:Niven;main] Entry on (12513) Niven in [[AstDyS]]
+* {{cite journal|author = Niven, Ivan M.|title = An unsolved case of the Waring problem|journal = [[American Journal of Mathematics]]|volume = 66|pages = 137–143|year = 1944|issue = 1|doi = 10.2307/2371901|jstor=2371901}}
+
+{{Authority control|VIAF=107031239}}
+
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Niven, Ivan Morton
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION = CanadianAmerican mathematician
+| DATE OF BIRTH     = October 25, 1915
+| PLACE OF BIRTH    =
+| DATE OF DEATH     = May 9, 1999
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Niven, Ivan Morton}}
+[[Category:1915 births|Niven, Ivan M.]]
+[[Category:1999 deaths|Niven, Ivan M.]]
+[[Category:Canadian mathematicians]]
+[[Category:American mathematicians]]
+[[Category:University of Oregon faculty]]
+[[Category:Canadian expatriate academics in the United States]]
+[[Category:20th-century mathematicians]]
+[[Category:Number theorists]]
+[[Category:University of British Columbia alumni]]
+[[Category:University of Chicago alumni]]
+[[Category:Presidents of the Mathematical Association of America]]
+[[Category:Place of birth missing]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

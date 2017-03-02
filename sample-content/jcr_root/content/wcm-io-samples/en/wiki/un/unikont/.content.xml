@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Unikont"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Unikont" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Taxobox
+ | color             = {{taxobox colour|[[incertae sedis]]}}
+|image=Elephant-ear-sponge.jpg
+|image_caption=Orange elephant ear sponge, &amp;apos;&amp;apos;[[Agelas clathrodes]]&amp;apos;&amp;apos;, in foreground. Two corals in the background: a [[sea fan]], &amp;apos;&amp;apos;[[Iciligorgia schrammi]]&amp;apos;&amp;apos;, and a sea rod, &amp;apos;&amp;apos;[[Plexaurella nutans]]&amp;apos;&amp;apos;.
+ | name              = Unikonts
+ | domain            = [[Eukaryote|Eukaryota]]
+{{Taxobox_norank_entry | taxon = &amp;apos;&amp;apos;&amp;apos;Unikonta&amp;apos;&amp;apos;&amp;apos;}}
+ | subdivision_ranks = Supergroups
+ | subdivision =
+[[Opisthokonta]]&amp;lt;br&amp;gt;
+[[Amoebozoa]]
+}}
+&amp;apos;&amp;apos;&amp;apos;Unikonts&amp;apos;&amp;apos;&amp;apos; are members of the Unikonta, a taxonomic group proposed by [[Thomas Cavalier-Smith]].&amp;lt;ref name=&amp;quot;pmid11931142&amp;quot;&amp;gt;{{cite journal |author=Cavalier-Smith T |title=The phagotrophic origin of eukaryotes and phylogenetic classification of Protozoa |journal=Int. J. Syst. Evol. Microbiol. |volume=52 |issue=Pt 2 |pages=297–354 |year=2002 |month=March |pmid=11931142 |doi= |url=http://ijs.sgmjournals.org/cgi/pmidlookup?view=long&amp;amp;pmid=11931142}}&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;{{cite journal
+ | authorlink = Thomas Cavalier-Smith
+ | first = Thomas
+ | last = Cavalier-Smith
+ | title = Protist phylogeny and the high-level classification of Protozoa
+ | journal = European Journal of Protistology
+ | year = 2003 | volume = 39 | issue = 4 | pages = 338–348
+ | doi = 10.1078/0932-4739-00002
+}}&amp;lt;/ref&amp;gt;
+
+It includes [[amoebozoa]], [[opisthokont]]s,&amp;lt;ref name=&amp;quot;pmid19004754&amp;quot;&amp;gt;{{cite journal |author=A Minge M, Silberman JD, Orr RJ, &amp;apos;&amp;apos;et al.&amp;apos;&amp;apos; |title=Evolutionary position of breviate amoebae and the primary eukaryote divergence |journal=Proc. Biol. Sci. |volume= 276|issue= 1657|pages= 597–604|year=2008 |month=November |pmid=19004754 |doi=10.1098/rspb.2008.1358 |url= |pmc=2660946}}&amp;lt;/ref&amp;gt;&amp;lt;ref name=&amp;quot;pmid16829542&amp;quot;&amp;gt;{{cite journal |author=Burki F, Pawlowski J |title=Monophyly of Rhizaria and multigene phylogeny of unicellular bikonts |journal=Mol. Biol. Evol. |volume=23 |issue=10 |pages=1922–30 |year=2006 |month=October |pmid=16829542 |doi=10.1093/molbev/msl055 |url=http://mbe.oxfordjournals.org/cgi/pmidlookup?view=long&amp;amp;pmid=16829542}}&amp;lt;/ref&amp;gt; and possibly [[Apusozoa]].&amp;lt;ref name=&amp;quot;pmid20884290&amp;quot;&amp;gt;{{cite journal |author=Glücksman E, Snell EA, Berney C, Chao EE, Bass D, Cavalier-Smith T |title=The Novel Marine Gliding Zooflagellate Genus Mantamonas (Mantamonadida ord. n.: Apusozoa) |journal=Protist |volume= 162|issue= 2|pages= 207–221|year=2010 |month=September |pmid=20884290 |doi=10.1016/j.protis.2010.06.004 |url=http://linkinghub.elsevier.com/retrieve/pii/S1434-4610(10)00057-X}}&amp;lt;/ref&amp;gt;
+
+==Clade==
+The group includes [[eukaryote|eukaryotic]] cells that, for the most part, have a single emergent [[flagellum]], or are amoebae with no flagella.  The unikonts include [[opisthokonts]] ([[animal]]s, [[fungus|fungi]], and related forms) and [[Amoebozoa]].  By contrast other well-known eukaryotic groups, which more often have two emergent flagella (although there are many exceptions) are often referred to as [[bikonts]].  Bikonts include [[Archaeplastida]] (plants and relatives), [[Excavata]], [[Rhizaria]], and [[Chromalveolata]].
+
+==Characteristics==
+The unikonts have a triple-gene fusion that is lacking in the bikonts.  The three genes that are [[Fusion gene|fused together]] in the unikonts but not bacteria or bikonts encode enzymes for synthesis of the [[pyrimidine]] [[nucleotide]]s: [[carbamoyl phosphate synthase]], [[dihydroorotase]], [[aspartate carbamoyltransferase]]. This must have involved a double fusion, a rare pair of  events, supporting the shared ancestry of Opisthokonta and Amoebozoa.
+
+Cavalier-Smith &amp;lt;ref name=&amp;quot;pmid11931142&amp;quot;/&amp;gt; originally proposed that unikonts ancestrally had a single flagellum and single [[basal body]].  This is unlikely, however, as flagellated opisthokonts, as well as some flagellated Amoebozoa, including &amp;apos;&amp;apos;[[Breviata]]&amp;apos;&amp;apos;, actually have two basal bodies, as in typical &amp;apos;bikonts&amp;apos; (even though only one is flagellated in most unikonts).  This paired arrangement can also be seen in the organization of [[centrioles]] in typical animal cells.  In spite of the name of the group, the common ancestor of all &amp;apos;unikonts&amp;apos; was probably a cell with two basal bodies.
+
+==References==
+{{reflist|2}}
+
+==External links==
+* [http://tolweb.org/Eukaryotes/3 Tree of Life Eukaryotes]
+
+{{Eukaryota classification}}
+
+[[Category:Eukaryotes]]
+[[Category:Protista]]
+
+{{protist-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

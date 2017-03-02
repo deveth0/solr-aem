@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Stroke volume"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Stroke volume" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[cardiovascular physiology]], &amp;apos;&amp;apos;&amp;apos;stroke volume&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;&amp;apos;SV&amp;apos;&amp;apos;&amp;apos;) is the volume of [[blood]] pumped from one [[ventricles of the heart|ventricle]] of the [[heart]] with each beat.  SV is calculated using measurements of ventricle volumes from an [[Echocardiography|echocardiogram]] and  subtracting the volume of the blood in the ventricle at the end of a beat (called [[end-systolic volume]]) from the volume of blood just prior to the beat (called [[end-diastolic volume]]). The term &amp;apos;&amp;apos;stroke volume&amp;apos;&amp;apos; can apply to each of the two ventricles of the heart, although it usually refers to the left ventricle. The  stroke volumes for each ventricle are generally equal, both being approximately 70 ml in a healthy 70-kg man
+
+Stroke volume is an important determinant of [[cardiac output]], which is the product of stroke volume and [[heart rate]], and is also used to calculate [[ejection fraction]], which is stroke volume divided by end-diastolic volume. Because stroke volume decreases in certain conditions and disease states, stroke volume itself correlates with cardiac function.
+
+==Calculation==
+&amp;lt;div style=&amp;quot;float:right&amp;quot;&amp;gt;{{Cardiovascular worksheet|Example values in healthy 70-kg man}}&amp;lt;/div&amp;gt;
+
+Its value is obtained by subtracting [[end-systolic volume]] (ESV) from [[end-diastolic volume]] (EDV) for a given ventricle.
+:&amp;lt;math&amp;gt;SV = EDV - ESV&amp;lt;/math&amp;gt;
+
+In a healthy 70-kg man, EDV is approximately 120 mL and ESV is approximately 50 mL, giving a difference of 70 mL for the stroke volume.
+
+&amp;quot;Stroke work&amp;quot; refers to the [[Work (physics)|work]], or pressure of the blood (&amp;quot;P&amp;quot;) multiplied by the stroke volume.&amp;lt;ref name=&amp;quot;isbn0-7817-5501-8&amp;quot;&amp;gt;{{cite book |author=Katz, Arnold M. |title=Physiology of the heart |publisher=Lippincott Williams &amp;amp; Wilkins |location=Hagerstwon, MD |year=2006 |pages=337 |isbn=0-7817-5501-8 |oclc= |doi= |accessdate=}}&amp;lt;/ref&amp;gt;
+
+==Determinants==
+Men, on average, have higher stroke volumes than women due to the larger size of their hearts. However, stroke volume depends on several factors such as heart size, [[contractility]], duration of contraction, [[Preload (cardiology)|preload]] ([[end-diastolic volume]]), and [[afterload]].
+
+===Exercise===
+Prolonged [[aerobic exercise]] training may also increase stroke volume, which frequently results in a lower (resting) heart rate. Reduced heart rate prolongs ventricular [[diastole]] (filling), increasing end-diastolic volume, and ultimately allowing more blood to be ejected.
+
+===Preload===
+Stroke volume is intrinsically controlled by preload (the degree to which the ventricles are stretched prior to contracting). An increase in the volume or speed of venous return will increase preload and, through the [[Frank–Starling law of the heart]], will increase stroke volume. Decreased venous return has the opposite effect, causing a reduction in stroke volume.
+
+===Afterload===
+Elevated [[afterload]] (commonly measured as the aortic pressure during systole) reduces stroke volume. Though not usually affecting stroke volume in healthy individuals, increased afterload will hinder the ventricles in ejecting blood, causing reduced stroke volume. Increased afterload may be found in [[aortic stenosis]] and [[arterial hypertension]].
+
+===Stroke Volume Index===
+Similar to [[cardiac index]], is a method of relating the stroke volume to the size of the person.
+
+&amp;lt;math&amp;gt;SVI = {SV\over BSA} = {(CO / HR) \over BSA} = {CO \over {HR \times BSA}}&amp;lt;/math&amp;gt;
+
+==References==
+&amp;lt;references/&amp;gt;
+* {{cite book | author=Berne, Robert M., Levy, Matthew N. | year=2001 | title=Cardiovascular Physiology | publisher=Mosby | location=Philadelphia, PA | isbn=0-323-01127-6}}
+* {{cite book | author=Boron, Walter F., Boulpaep, Emile L. | year=2005 | title=Medical Physiology: A Cellular and Molecular Approach | publisher=Elsevier/Saunders | location=Philadelphia, PA | isbn=1-4160-2328-3}}
+
+==External links==
+*[http://cardiac-output.info The Gross Physiology of the Cardiovascular System]
+*[http://cardiac-output.info/the-determinants-of-cardiac/the-determinants-of-cardiac/ The Determinants of Cardiac Output (online video)]
+
+{{Cardiovascular physiology}}
+[[Category:Cardiovascular physiology]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

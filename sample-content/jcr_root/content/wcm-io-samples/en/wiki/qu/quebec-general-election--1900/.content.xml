@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Quebec general election, 1900"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Quebec general election, 1900" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=July 2009}}
+The &amp;apos;&amp;apos;&amp;apos;Quebec general election of 1900&amp;apos;&amp;apos;&amp;apos; was held on December 7, 1900 to elect members of the [[National Assembly of Quebec|Legislative Assembly]] of the Province of [[Quebec]], [[Canada]].  The incumbent [[Quebec Liberal Party]], led by [[Simon-Napoléon Parent]], was re-elected, defeating the [[Conservative Party of Quebec (historical)|Quebec Conservative Party]], led by [[Edmund James Flynn]].
+
+==Results==
+
+{| border=&amp;quot;1&amp;quot; cellpadding=&amp;quot;4&amp;quot; cellspacing=&amp;quot;0&amp;quot; style=&amp;quot;border-collapse: collapse border-color: #444444&amp;quot;
+|- bgcolor=&amp;quot;darkgray&amp;quot;
+!rowspan=&amp;quot;2&amp;quot; colspan=&amp;quot;2&amp;quot;|Party
+!rowspan=&amp;quot;2&amp;quot;|Party leader
+!rowspan=&amp;quot;2&amp;quot;|# of&amp;lt;br&amp;gt;candidates
+!colspan=&amp;quot;3&amp;quot;|Seats
+!colspan=&amp;quot;3&amp;quot;|Popular Vote
+|- bgcolor=&amp;quot;darkgray&amp;quot;
+|align=&amp;quot;center&amp;quot;|[[Quebec general election, 1897|1897]]
+|align=&amp;quot;center&amp;quot;|&amp;apos;&amp;apos;&amp;apos;Elected&amp;apos;&amp;apos;&amp;apos;
+|align=&amp;quot;center&amp;quot;|% Change
+|align=&amp;quot;center&amp;quot;|#
+|align=&amp;quot;center&amp;quot;|%
+|align=&amp;quot;center&amp;quot;|% Change
+{{Canadian party colour|QC|Liberal|row-name}}
+| [[Simon-Napoléon Parent]] &amp;lt;!--leader--&amp;gt;
+|align=&amp;quot;right&amp;quot;|&amp;amp;nbsp;  &amp;lt;!--cand--&amp;gt;
+|align=&amp;quot;right&amp;quot;|51   &amp;lt;!--prev--&amp;gt;
+!align=&amp;quot;right&amp;quot;|67    &amp;lt;!--elected--&amp;gt;
+|align=&amp;quot;right&amp;quot;|+31.4%  &amp;lt;!--%ch.seats--&amp;gt;
+|align=&amp;quot;right&amp;quot;|  54,957  &amp;lt;!--vote--&amp;gt;
+|align=&amp;quot;right&amp;quot;| 53.15%   &amp;lt;!--%vote--&amp;gt;
+|align=&amp;quot;right&amp;quot;|-0.1%   &amp;lt;!--%ch.votes--&amp;gt;
+{{Canadian_politics/party_colours/Progressive_Conservatives/row}}
+|[[Conservative Party of Quebec (historical)|Conservative]]
+| [[Edmund James Flynn]]  &amp;lt;!--leader--&amp;gt;
+|align=&amp;quot;right&amp;quot;|&amp;amp;nbsp;   &amp;lt;!--cand--&amp;gt;
+|align=&amp;quot;right&amp;quot;| 23  &amp;lt;!--prev--&amp;gt;
+!align=&amp;quot;right&amp;quot;| 7  &amp;lt;!--elected--&amp;gt;
+|align=&amp;quot;right&amp;quot;| -69.6%   &amp;lt;!--%ch.seats--&amp;gt;
+|align=&amp;quot;right&amp;quot;| 43,277    &amp;lt;!--vote--&amp;gt;
+|align=&amp;quot;right&amp;quot;| 41.85%   &amp;lt;!--%vote--&amp;gt;
+|align=&amp;quot;right&amp;quot;| -2.0%   &amp;lt;!--%ch.votes--&amp;gt;
+{{Canadian_politics/party_colours/Independents/row}}
+|colspan=2|Other
+|align=&amp;quot;right&amp;quot;|&amp;amp;nbsp;  &amp;lt;!--cand--&amp;gt;
+|align=&amp;quot;right&amp;quot;|-   &amp;lt;!--prev--&amp;gt;
+!align=&amp;quot;right&amp;quot;|-  &amp;lt;!--elected--&amp;gt;
+|align=&amp;quot;right&amp;quot;|-   &amp;lt;!--%ch.seats--&amp;gt;
+|align=&amp;quot;right&amp;quot;| 5,168      &amp;lt;!--vote--&amp;gt;
+|align=&amp;quot;right&amp;quot;| 5.00%    &amp;lt;!--%vote--&amp;gt;
+|align=&amp;quot;right&amp;quot;|+2.1%   &amp;lt;!--%ch.votes--&amp;gt;
+|-
+|colspan=&amp;quot;3&amp;quot;|&amp;apos;&amp;apos;&amp;apos;Total&amp;apos;&amp;apos;&amp;apos;
+!align=&amp;quot;right&amp;quot;|&amp;amp;nbsp;  &amp;lt;!--cand--&amp;gt;
+|align=&amp;quot;right&amp;quot;|74   &amp;lt;!--prev--&amp;gt;
+!align=&amp;quot;right&amp;quot;|74  &amp;lt;!--elected--&amp;gt;
+!align=&amp;quot;right&amp;quot;|-%  &amp;lt;!--%ch.seats--&amp;gt;
+!align=&amp;quot;right&amp;quot;|103,402   &amp;lt;!--vote--&amp;gt;
+!align=&amp;quot;right&amp;quot;|100%   &amp;lt;!--%vote--&amp;gt;
+|align=&amp;quot;right&amp;quot;|&amp;amp;nbsp;  &amp;lt;!--%ch.votes--&amp;gt;
+|-
+|}
+
+==See also==
+* [[List of Quebec premiers]]
+* [[Politics of Quebec]]
+* [[Timeline of Quebec history]]
+* [[List of political parties in Canada#Quebec|List of Quebec political parties]]
+* [[10th Legislative Assembly of Quebec]]
+
+{{Quebec elections}}
+
+[[Category:1900 elections in Canada]]
+[[Category:Elections in Quebec]]
+
+
+{{Quebec-hist-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

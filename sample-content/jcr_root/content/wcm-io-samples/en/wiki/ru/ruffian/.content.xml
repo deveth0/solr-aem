@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ruffian"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ruffian" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary}}
+A &amp;apos;&amp;apos;&amp;apos;ruffian&amp;apos;&amp;apos;&amp;apos; is a [[wikt:scoundrel|scoundrel]], [[wikt:rascal|rascal]] or unprincipled, deceitful, and unreliable person.
+
+As a proper noun, &amp;apos;&amp;apos;&amp;apos;Ruffian&amp;apos;&amp;apos;&amp;apos; may refer to:
+*[[Ruffian (horse)]] (1972-1975), a famous thoroughbred racehorse
+*[[Ruffian (film)]], 2007 television movie about the racehorse
+*[[Ruffian Games]], a Scottish games developer
+*Ruffian, a [[chess engine]]
+*[[Border Ruffian]]s, pro-Slavery activists from Missouri in the American Civil War
+*[[The Ruffian on the Stair]], a British play
+*[[HMS Bellerophon (1786)]], also known as &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Billy Ruffian&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+*The Ruffians, the major antagonists of the [[Nintendo]] game [[Sin and Punishment]]
+*British codename of the German [[X-Geraet]] radar system.
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

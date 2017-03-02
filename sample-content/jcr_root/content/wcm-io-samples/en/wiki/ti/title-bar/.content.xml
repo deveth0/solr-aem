@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Title bar"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Title bar" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=January 2011}}In [[computing]], the &amp;apos;&amp;apos;&amp;apos;title bar&amp;apos;&amp;apos;&amp;apos; (or &amp;apos;&amp;apos;&amp;apos;titlebar&amp;apos;&amp;apos;&amp;apos;) consists of that part of a [[Window (computing)|window]] where the title of the window appears. Most graphical [[operating system]]s and [[window manager]]s position the title bar at the top of the [[application software|application]] window as a horizontal bar.
+
+Default title-bar text often incorporates the name of the application and/or of its developer. The name of the [[hostname|host]] running the application also appears frequently. Various methods ([[menu (computing)|menu]]-selections, [[escape sequences]], setup parameters, [[Command-line interface|command-line]] options — depending on the computing environment) may exist to give the [[end-user]] some control of title-bar text. Document-oriented applications like a [[text editor]] may display the [[filename]] or [[path (computing)|path]] of the document being edited. Most [[web browser]]s will [[Rendering (computer graphics)|render]] the contents of the [[HTML element]] &amp;lt;code&amp;gt;title&amp;lt;/code&amp;gt; in their title bar, often pre- or postfixed by the application name. [[Google Chrome]] places its [[tabbed browsing|tabs]] in the title bar, so it is not necessary to use the main window for the tabs.
+
+The title bar often contains [[icon (computing)|icon]]s for system commands relating to the window, such as a &amp;apos;&amp;apos;maximize&amp;apos;&amp;apos;, &amp;apos;&amp;apos;minimize&amp;apos;&amp;apos;, &amp;apos;&amp;apos;rollup&amp;apos;&amp;apos; and &amp;apos;&amp;apos;close&amp;apos;&amp;apos; buttons; and may include other content such as an application icon, a [[clock]], etc.
+
+In many [[graphical user interface]]s, including the [[Mac OS]] and [[Microsoft Windows]] interfaces, the user may move a window by [[Point-and-click|grab]]bing the title bar and [[dragging]].
+
+[[Image:Titlebar.png|frame|center|Title bar from Calculator in [[GNOME]] on [[Ubuntu (operating system)|Ubuntu]].]]
+
+== Types of titlebar ==
+Typically titlebars can be used to provide window motion enabling the window to be moved around the screen by using a [[Drag-and-drop|drag]] action.
+
+=== Titlebar buttons ===
+Some [[window manager]]s provide titlebar buttons which provide the facility to minimize, maximize, roll-up or close application windows. Some window managers may display the titlebar buttons in the taskbar or taskpanel, rather than in the titlebars.
+
+The following buttons may appear in the titlebar:
+
+* close
+* maximize
+* minimize
+* resize
+* roll-up
+
+Note that a [[context menu]] may be available from some titlebar buttons or by right-clicking.
+
+=== Titlebar icon ===
+Some [[window manager]]s display a small icon in the titlebar that may vary according to the application on which it appears. The titlebar icon may behave like a menu button, or may provide a [[context menu]] facility. Mac OS X applications commonly have a [[proxy icon]] next to the window title that functions the same as the document&amp;apos;s icon in the file manager.
+
+=== Document status icon ===
+Some window managers display an icon or symbol to indicate that the contents of the window have not been saved or confirmed in some way: [[Mac OS X]] displays a dot in the center of its close button; [[RISC OS]] appends an [[asterisk]] to the title.
+
+=== Tiling window managers ===
+Some [[tiling window manager]]s provide title bars which are purely for informative purposes and offer no controls or menus. These [[window manager]]s do not allow windows to be moved around the screen by using a [[Drag-and-drop|drag]] action on the titlebar.
+
+== List of OS specific window managers and the types of titlebar they use ==
+{| style=&amp;quot;font-size: 85%; text-align: center;&amp;quot; class=&amp;quot;wikitable&amp;quot;
+! OS
+! icon
+! [[Back (Window control)|back]]
+! [[Close (Window control)|close]]
+! [[Maximize (Window control)|maximize]]
+! [[Menu (Computing)|menu]]
+! [[Meta key|meta]]
+! [[Minimize (Window control)|minimize]]
+! [[Resize (Window control)|resize]]
+! [[Roll-up (Window control)|roll-up]]
+! status
+! [[context menu]]
+! Notes
+|-
+! [[Mac OS X]]
+| {{yes}}
+|
+| {{yes}}
+| {{yes}}
+|
+|
+| {{yes}}
+|
+|
+| {{yes}}
+|
+|
+|-
+! [[RISC OS]]
+|
+| {{yes}}
+| {{yes}}
+| {{yes}}
+|
+|
+| {{yes}}
+|
+|
+| {{yes}}
+|
+|
+|-
+! [[Windows]]
+| {{yes}}
+|
+| {{yes}}
+| {{yes}}
+| {{yes}}
+|
+| {{yes}}
+|
+|
+|
+| {{yes}}
+| Icon is context menu
+|}
+
+Many X window managers for Linux/Unix allow customization of the buttons shown in the titlebar, some with much greater flexibility than others.
+
+== See also ==
+* [[Window manager]]
+* [[Desktop environment]]
+
+==References==
+{{Reflist}}
+
+==External links==
+* [http://www.lkwdpl.org/classes/MSPaint/titlebar.html Example and discussion] using Microsoft Paint&amp;apos;s title bar
+
+{{Window managers}}
+
+[[Category:Graphical user interface elements]]
+[[Category:GUI widgets]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

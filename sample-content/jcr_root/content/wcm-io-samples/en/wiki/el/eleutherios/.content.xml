@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Eleutherios"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Eleutherios" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Eleutherios&amp;apos;&amp;apos;&amp;apos; ({{lang-el|Ελευθέριος}}, &amp;quot;the liberator&amp;quot;) is an [[epithet]] of:
+
+*[[Dionysus]]
+*[[Eros (god)|Eros]]
+
+== First name ==
+It is also used as a first name in modern Greek (alternatively transliterated as &amp;apos;&amp;apos;&amp;apos;Eleftherios&amp;apos;&amp;apos;&amp;apos;, in the short form &amp;apos;&amp;apos;&amp;apos;Lefteris&amp;apos;&amp;apos;&amp;apos;):
+
+*[[Eleftherios Eleftheriou]] (born 1974), Cypriot football midfielder
+*[[Eleftherios Foulidis]], (born 1948), Greek iconographer, born in Drepano, Kozani
+*[[Eleftherios Mertakas]] (born 1985), Cypriot football midfielder
+*[[Eleftherios Papasymeon]], Greek athlete who competed at the 1896 Summer Olympics in Athens
+*[[Eleftherios Poupakis]] (born 1946), retired Greek footballer
+*[[Eleftherios Sakellariou]] (born 1987), Greek footballer
+*[[Eleftherios Venizelos]] (1864&amp;amp;ndash;1936), Greek revolutionary, statesman and charismatic leader in the early 20th century
+*[[Lefteris Pantazis]]
+*[[Lefteris Papadopoulos]]
+*[[Lefteris Papadimitriou]]
+
+==See also==
+*[[Agios Eleftherios (disambiguation)]] may refer to two villages and one church
+*[[Eleutherius (disambiguation)]]
+*[[Soter]]
+*[[Savior (disambiguation)|Saviour]]
+
+{{disambig}}
+[[Category:Epithets of Dionysus]]
+[[Category:Greek masculine given names]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

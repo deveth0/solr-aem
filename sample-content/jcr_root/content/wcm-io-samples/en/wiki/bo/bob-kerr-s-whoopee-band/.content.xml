@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Bob Kerr&#x27;s Whoopee Band"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Bob Kerr&#x27;s Whoopee Band" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{no footnotes|date=March 2013}}
+&amp;apos;&amp;apos;&amp;apos;Bob Kerr&amp;apos;s Whoopee Band&amp;apos;&amp;apos;&amp;apos;, also billed as &amp;apos;&amp;apos;&amp;apos;Bob Kerr and His Whoopee Band&amp;apos;&amp;apos;&amp;apos;, is a [[jazz band]] which started in 1967 and continues to perform today. It was an offshoot of the eclectic [[Bonzo Dog Doo-Dah Band]], and shared many similarities with other outfits of the time such as [[The New Vaudeville Band]] and [[The Temperance Seven]]. Kerr was a member of both the Bonzos and the New Vaudeville Band.
+
+The band&amp;apos;s publicity manager was originally [[Laurie Bamford]] the well-known [[Numismatist]] who died in 2005. Several former members formed [[Bill Posters Will Be Band]] in 1983. Current{{When|date=September 2011}} members of Bob Kerr&amp;apos;s Whoopee Band are [[Bob Kerr (musician)|Bob Kerr]], John &amp;quot;The Professor&amp;quot; Percival, Malcolm Sked, Bert Lamb and Henri Harrison.
+
+==Former members==
+
+Former members of the band have included:
+*Vernon Dudley Bowhay-Nowell
+*Ian Howarth
+*Frankie Tomes
+*Sam Spoons
+*Hugh Crozier
+*Evil John Gieves Watson
+*Biff Harrison
+*Jim &amp;quot;Golden Boots&amp;quot; Chambers
+*David &amp;quot;Mr Piano&amp;quot; Glasson
+*[[Sean Moyses]]
+*Dangerous Dave Keech
+*Spike Botterill
+*Henry Davis
+*Clive Fenton
+*Tim Phillips
+*Fred Ward
+*Sir Alan Buckley
+*Phil Buckley
+*Richard White
+*Dave Turner
+*Roscoe (The Binman) Birchmore
+*Graham Collicott
+
+==External links==
+* [http://www.whoopeeband.de/ Official site]
+* [http://www.doodahdiaries.com David Christie&amp;apos;s Doo Dah Diaries]
+
+[[Category:British jazz ensembles]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Qahtaniyah, Iraq"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Qahtaniyah, Iraq" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{About|the town in Iraq|other towns with the same name|Al-Qahtaniyah (disambiguation){{!}}Al-Qahtaniyah}}
+{{Location map|Iraq
+| lat_deg = 36 | lat_min = 13 | lat_sec = 52 | lat_dir = N
+| lon_deg = 41 | lon_min = 47 | lon_sec = 52 | lon_dir = E
+| caption = Location of Kahtaniya in Iraq
+}}
+&amp;apos;&amp;apos;&amp;apos;Qahtaniyah&amp;apos;&amp;apos;&amp;apos;  ([[Arabic]] &amp;apos;&amp;apos;&amp;apos;القحطانية&amp;apos;&amp;apos;&amp;apos;, also spelled Giruzer, Kar Izir) is [[Iraq|Iraqi]] town about {{convert|100|km|mi|abbr=on}} from  [[Mosul]]. It was one of two villages targeted in the [[2007 Qahtaniya bombings]] against the local [[Yazidi]] community.&amp;lt;ref&amp;gt;[http://www.kurdistantv.net Kurdistan TV]&amp;lt;/ref&amp;gt;
+
+==References==
+{{Reflist}}
+
+{{coord|36|13|52|N|41|47|52|E|type:city|display=title}}
+
+[[Category:Kurdistan]]
+[[Category:Yazidi]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

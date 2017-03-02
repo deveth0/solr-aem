@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Youcan"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Youcan" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Orphan|date=February 2009}}
+&amp;apos;&amp;apos;&amp;apos;Youcan&amp;apos;&amp;apos;&amp;apos; is a musician and singer song writer in [[Kyoto]], [[Japan]]. His voice is very thin, melting into air, but it includes strong inner message. Usually he plays in solo style with his [[guitar]]. At the same time, he has some units with which he can show anothor his musical side.
+
+==Discography==
+
+*Hikari (1st album)
+
+*Waikiki March (Compilation album)
+*Synjuku meeting &amp;apos;03 (Compilation album)
+*WORDS+WORTH (Compilation album)
+
+==External links==
+*[http://akaruiheya.moonlit.to/ Youcan official site] in Japanese
+*[http://www.waikikirecord.com/ waikikirecord] record label to which Youcan belongs
+
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Youcan
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION = Japanese singer-songwriter
+| DATE OF BIRTH     =
+| PLACE OF BIRTH    =
+| DATE OF DEATH     =
+| PLACE OF DEATH    =
+}}
+[[Category:Japanese musicians]]
+[[Category:Living people]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

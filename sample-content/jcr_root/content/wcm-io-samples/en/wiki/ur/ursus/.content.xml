@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ursus"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ursus" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Ursus&amp;apos;&amp;apos;&amp;apos; is [[Latin language|Latin]] for &amp;quot;[[bear]]&amp;quot;. In this form it refers to a male bear or the species regardless of gender; the specifically female form is [[Ursa (disambiguation)|Ursa]]. The word may also refer to:
+
+* [[Ursus (praefectus urbi)]], &amp;apos;&amp;apos;praefectus urbi&amp;apos;&amp;apos; of Constantinople in 415-416
+* [[Ursus (genus)]], a genus of bears
+* [[Ursus (beer)]], a Romanian beer
+* [[Ursus (vodka)]], an Icelandic vodka
+* [[Ursus, Warsaw]], a borough of Warsaw, Poland
+* [[Ursus Tractor Factory]], Poland
+* [[Saint Ursus (disambiguation)]], the name of several Christian saints
+* [[Reimarus Ursus]] (16th-century), an astronomer and imperial mathematician to Rudolf II
+* [[Ursus (film character)]], a fictional character in Italian adventure films
+* [[General Ursus (Planet of the Apes)]], a gorilla character in &amp;apos;&amp;apos;Beneath the Planet of the Apes&amp;apos;&amp;apos;
+* Ursus, the bodyguard of Ligia, a minor character in [[Quo Vadis (novel)|&amp;apos;&amp;apos;Quo Vadis&amp;apos;&amp;apos; (novel)]]
+* Ursus, a character in Victor Hugo&amp;apos;s novel &amp;apos;&amp;apos;[[The Man Who Laughs]]&amp;apos;&amp;apos;
+* [[Ursus (film)|&amp;apos;&amp;apos;Ursus&amp;apos;&amp;apos; (film)]], 1961 Italian film
+
+==See also==
+* [[Ursa (disambiguation)]]
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Angora"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Angora" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|Angora}}
+
+&amp;apos;&amp;apos;&amp;apos;Angora&amp;apos;&amp;apos;&amp;apos; is the historic name of [[Ankara]], Turkey.
+
+&amp;apos;&amp;apos;&amp;apos;Angora&amp;apos;&amp;apos;&amp;apos; may also refer to:
+
+;Places
+* [[Angora, Philadelphia, Pennsylvania]]
+** [[Angora (SEPTA station)]], a commuter rail station
+* [[Angora Township, Minnesota]]
+* [[Angora, Nebraska]]
+* [[Angora Lakes]], a set of freshwater lakes in the Sierra Nevada
+** [[Angora Fire]], a 2007 forest fire near the lakes
+
+;Fauna
+* [[Angora wool]], from the Angora rabbit
+* [[Angora rabbit]], a breed of rabbit
+* [[Angora goat]], a breed of goat
+* Angora [[ferret]], a long-haired breed of ferret
+* [[Turkish Angora]], a breed of cat originally known as just Angora.
+* [[Oriental Longhair]], a breed of cat formerly known as the British Angora.
+
+;Media
+* &amp;apos;&amp;apos;[[Tygodnik Angora]]&amp;apos;&amp;apos;, a Polish language publication
+* [[Angora (band)]], a musical group
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

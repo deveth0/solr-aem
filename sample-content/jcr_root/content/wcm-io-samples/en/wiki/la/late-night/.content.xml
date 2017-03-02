@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Late Night"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Late Night" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Late Night&amp;apos;&amp;apos;&amp;apos; is shorthand for several different things:
+
+*[[Late night television]] - generally United States programming airing after 11:30pm EST
+**[[Late-night talk show]], the most common type of late night television in the United States
+*&amp;apos;&amp;apos;[[Late Night (NBC)]]&amp;apos;&amp;apos;, a long running American late night television franchise
+**&amp;apos;&amp;apos;[[Late Night with David Letterman]]&amp;apos;&amp;apos; (1982–1993)
+**&amp;apos;&amp;apos;[[Late Night with Conan O&amp;apos;Brien]]&amp;apos;&amp;apos; (1993–2009)
+**&amp;apos;&amp;apos;[[Late Night with Jimmy Fallon]]&amp;apos;&amp;apos; (2009–2014)
+**&amp;apos;&amp;apos;[[Late Night with Seth Meyers]]&amp;apos;&amp;apos; (2014— )
+*&amp;apos;&amp;apos;[[Late Nite]]&amp;apos;&amp;apos; is the name of a 1989 solo album by American guitarist Neal Schon
+*&amp;quot;Late Night&amp;quot; is a song by Syd Barrett, the final track on his album &amp;apos;&amp;apos;[[The Madcap Laughs]]&amp;apos;&amp;apos;
+*[[The Sims 3: Late Night]] is an expansion pack for &amp;apos;&amp;apos;The Sims 3&amp;apos;&amp;apos;
+*[[Late night anime]]
+
+==See also==
+* [[The Late Show (disambiguation)]]
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

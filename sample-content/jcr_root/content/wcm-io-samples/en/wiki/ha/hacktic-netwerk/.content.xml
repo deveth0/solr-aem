@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Hacktic Netwerk"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Hacktic Netwerk" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Hacktic Netwerk&amp;apos;&amp;apos;&amp;apos; was originally a [[UUCP]] mail and news forwarding network set up by people surrounding [[Hack-Tic]], a [[Netherlands|Dutch]] hacker publication. It was established in Amsterdam in 1992 by [[Felipe Rodriquez]], [[Rop Gonggrijp]], [[Paul Jongsma]] and [[Cor Bosman]]. [[Rop Gonggrijp]] edited and published [[Hack-Tic]] and [[Felipe Rodriquez]] operated &amp;quot;Utopia&amp;quot;, a hacker BBS that was one of the largest nodes on the network. Later a system called [[XS4ALL]] was set up to connect paying users to the online Internet (as opposed to access to the offline [[UUCP]] service, which was offered for free). Since many more users used [[XS4ALL]] than any other service, the organization subsequently renamed itself to [[XS4ALL]] and later transformed itself from a non-profit into a for-profit enterprise.
+
+== External links ==
+*[http://www.xs4all.nl/uk/overxs4all/geschiedenis/ The history of XS4ALL]
+
+[[Category:Internet service providers of the Netherlands]]
+
+[[nl:XS4ALL]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

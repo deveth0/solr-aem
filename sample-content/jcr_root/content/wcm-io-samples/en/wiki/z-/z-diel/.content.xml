@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Zádiel"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Zádiel" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Image:Okres kosice-okolie.png|thumb|right|300px|[[Košice-okolie District]] in the [[Kosice Region]]]]
+
+&amp;apos;&amp;apos;&amp;apos;Zádiel&amp;apos;&amp;apos;&amp;apos; is a [[village]] and [[municipality]] in [[Košice-okolie District]] in the [[Kosice Region]] of eastern Slovakia.
+
+==History==
+In [[history|historical records]] the [[village]] was first mentioned in 1317.
+
+==Geography==
+The [[village]] lies at an [[elevation]] of 245 metres and covers an [[area]] of 3.516 km². It has a [[population]] of about 200 people.
+
+==External links==
+* [http://www.zadiel.sk Zádiel]
+*[http://www.zadielskadolina.sk Zádielska dolina]
+
+{{Kosice-okolie District}}
+
+{{Košice-okolie-geo-stub}}
+
+{{coord|48|37|N|20|50|E|region:SK_type:city|display=title}}
+
+{{DEFAULTSORT:Zadiel}}
+[[Category:Villages and municipalities in Košice-okolie District]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Icis"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Icis" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;ICIS&amp;apos;&amp;apos;&amp;apos; can refer to:
+
+*[[Integrated Cadastral Information Society]], a non-profit organization
+*[[International Conference on Information Systems]], an annual academic conference in [[Information Systems]]
+*[[Idaho National Laboratory|Instrumentation, Control and Intelligent Systems]], a distinctive signature organization in the Idaho National Laboratory
+*[[Institute for Security and Cooperation in Space]], a non-profit organization
+*[[Internal Counter-Intelligence Service]], a fictional organization in the [[Whoniverse|Doctor Who universe]]
+
+{{Disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

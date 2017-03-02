@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Airy (Martian crater)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Airy (Martian crater)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Other uses|Airy (disambiguation)}}
+{{MarsGeo-Crater
+|name=Airy
+|image=[[File:MOLA airy.jpg|275px]]
+|latitude = 5.1
+|N_or_S = S
+|longitude = 0.1
+|E_or_W = E
+|diameter={{convert|40|km}}
+|depth=
+|discoverer=
+|eponym=Sir [[George Biddell Airy]]
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Airy&amp;apos;&amp;apos;&amp;apos; is an [[impact crater]] on [[Mars]], named in honor of the British Astronomer, Royal Sir [[George Biddell Airy]] (1801–1892). The crater is approximately {{convert|40|km}} in diameter and is located at 0.1°E 5.1°S in the [[Meridiani Planum]] region. The much smaller crater [[Airy-0]], which defines the location of Mars&amp;apos; [[prime meridian]], lies within it.&amp;lt;ref&amp;gt;[http://photojournal.jpl.nasa.gov/catalog/PIA03207 PIA03207: The Martian Prime Meridian -- Longitude &amp;quot;Zero&amp;quot;]&amp;lt;/ref&amp;gt;
+
+== References ==
+{{Reflist}}
+{{Mars}}
+{{portal bar|Mars}}
+{{Mars-stub}}
+{{crater-stub}}
+
+[[Category:Impact craters on Mars]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

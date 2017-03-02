@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Green onion"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Green onion" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|green onion}}
+&amp;apos;&amp;apos;&amp;apos;Green onion&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+*[[Scallion]], various members of the genus &amp;apos;&amp;apos;Allium&amp;apos;&amp;apos; that lack a fully developed bulb
+*[[Green Onions (album)|&amp;apos;&amp;apos;Green Onions&amp;apos;&amp;apos; (album)]], a 1962 album by Booker T. &amp;amp; the M.G.s
+**&amp;quot;[[Green Onions]]&amp;quot;, a hit 1962 soul instrumental by Booker T. &amp;amp; the M.G.s on the album listed above
+*[[Green Onion (band)]] (בצל ירוק, &amp;apos;&amp;apos;Batzal Yarok&amp;apos;&amp;apos;), an Israeli band
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

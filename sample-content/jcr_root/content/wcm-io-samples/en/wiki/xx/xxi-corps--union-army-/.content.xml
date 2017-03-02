@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="XXI Corps (Union Army)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="XXI Corps (Union Army)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{for|the XXI Corps of the [[United States Army]] during the 20th &amp;amp;ndash; 21st Centuries|XXI Corps (United States)}}
+
+&amp;apos;&amp;apos;&amp;apos;XXI Corps&amp;apos;&amp;apos;&amp;apos; was a [[corps]] of the [[Union Army]] during the [[American Civil War]].  It served as part of [[William Rosecrans|William S. Rosecrans]]&amp;apos;s [[Army of the Cumberland]] and was in existence from January 9th to October 1863.
+
+After the [[Battle of Stone&amp;apos;s River]], General Rosecrans reorganized the &amp;quot;wings&amp;quot; of his army into three corps.  The left wing, under [[Thomas L. Crittenden]], became the XXI Corps.
+
+Taking part in the [[Tullahoma Campaign]], the XXI Corps was heavily engaged at [[Battle of Chickamauga|Chickamauga]] on September 19&amp;amp;ndash;20, 1863, where it was nearly destroyed.  It was Rosecrans&amp;apos; mistaken decision to pull [[Thomas J. Wood|Thomas Wood]]&amp;apos;s division of this corps to support [[George Henry Thomas|George Thomas]]&amp;apos;s [[XIV Corps (Union Army)|XIV Corps]] that resulted in General [[James Longstreet]]&amp;apos;s breakthrough against the Union center.  It should be added, though, that elements of XXI Corps, most notably [[William J. Palmer]]&amp;apos;s division, aided Thomas in his successful rearguard action on Snodgrass Hill.  Along with the remnants of [[XX Corps (Union Army)|XX Corps]], the corps reorganized into [[IV Corps (Union Army)|IV Corps]] shortly after the battle.
+
+[[Image:XXIcorpsbadgehq.png|thumb|Union Army Headquarters Badge, XXI Corps]]
+== External links ==
+*[http://www.civilwararchive.com/CORPS/21stcorp.htm XXI Corps history]
+
+{{Union Army Formations}}
+{{AmericanCivilWar-unit-stub}}
+[[Category:Union Army corps]]
+[[Category:Military units and formations established in 1863]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

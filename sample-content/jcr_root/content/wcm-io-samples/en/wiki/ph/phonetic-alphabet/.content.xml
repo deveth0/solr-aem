@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Phonetic alphabet"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Phonetic alphabet" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Wiktionarypar|phonetic alphabet}}
+&amp;apos;&amp;apos;&amp;apos;Phonetic alphabet&amp;apos;&amp;apos;&amp;apos; can mean:
+
+* [[phonetic transcription]] system: a system for transcribing the precise sounds of human speech into writing.
+** [[International Phonetic Alphabet]] (IPA): the most widespread such system
+** [[:Category:Phonetic alphabets]]: lists other phonetic transcription systems
+*[[phonemic orthography]]: for representing the sounds of a particular language with a one-symbol-per-sound correspondence
+* [[spelling alphabet]]: a set of words used instead of alphabetic letters in radio communication; each word stands for its initial letter
+** [[NATO phonetic alphabet]]: the most widespread such set (Alfa, Bravo, Charlie,...)
+** [[:Category:Spelling alphabets]]: lists other spelling alphabets
+
+{{Disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

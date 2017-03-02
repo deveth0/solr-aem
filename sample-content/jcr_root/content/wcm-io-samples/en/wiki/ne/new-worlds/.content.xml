@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="New Worlds"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="New Worlds" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{for|things named New World|New World (disambiguation)}}
+&amp;apos;&amp;apos;&amp;apos;New Worlds&amp;apos;&amp;apos;&amp;apos; can refer to:
+
+== In publishing ==
+
+* [[New Worlds (magazine)]], a British science fiction magazine
+* [[New Worlds (Marvel Comics)]], a X-Men storyline written by Grant Morrison.
+* New Worlds, an imprint of [[Caliber Comics]].
+
+== In music, film and television ==
+
+* &amp;apos;&amp;apos;New Worlds&amp;apos;&amp;apos;, a song on the [[BBC Radiophonic Music]] compilation.
+* &amp;apos;&amp;apos;The New Worlds Fair&amp;apos;&amp;apos;, an album by &amp;quot;[[Michael Moorcock]] and the Deep Fix&amp;quot;.
+* [[New Worlds (album)]], the third solo album by ex-[[Ash (band)|Ash]] guitarist, [[Charlotte Hatherley]].
+
+== Other ==
+
+* [[Star Trek: New Worlds]], a Star Trek strategy game.
+* [[New Worlds Mission]], a NASA funded project.
+* [[New Worlds Project]], a non-profit corporation and a web-based creative writing project.
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

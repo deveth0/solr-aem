@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="List of places in Lower Saxony"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="List of places in Lower Saxony" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;This is a list of geographical features in the state of [[Lower Saxony]], [[Germany]].
+
+== Mountains ==
+* [[Harz]]
+* [[Teutoburg Forest]]
+* [[Weserbergland]]
+
+== Rivers ==
+* [[Aller]]
+* [[Bode (river)|Bode]]
+* [[Elbe]]
+* [[Ems (river)|Ems]]
+* [[Fulda River|Fulda]]
+* [[Hunte]]
+* [[Leine]]
+* [[Neetze]]
+* [[Oker]]
+* [[Oste]]
+* [[Werra]]
+* [[Weser]]
+
+== Lakes ==
+* [[Dümmer]]
+* [[Steinhuder Meer]]
+* [[Zwischenahner Meer]]
+
+== Islands ==
+* [[Borkum]]
+* [[East Frisian Islands]]
+
+== Miscellaneous ==
+* [[East Frisia]]
+* [[Emsland]]
+* [[Frisia]]
+* [[Harz National Park]]
+* [[Wadden Sea National Parks|Lower Saxony Wadden Sea National Park]]
+* [[Lüneburg Heath]]
+* [[Wadden Sea]]
+* [[Lüchow-Dannenberg|Wendland]]
+
+== Cities ==
+{{seealso|Category:Geography of Lower Saxony}}
+
+[[Category:Geography of Lower Saxony|*]]
+[[Category:Lower Saxony-related lists]]
+[[Category:Lists of places in Germany|Low]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Zodiac Man"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Zodiac Man" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{unreferenced|date=July 2012}}
+[[Image:Zodiac man 1702.png|right|thumb|alt=Man surrounded by signs of the zodiac, lines pointing to different body parts and organs|Zodiacal man from a woodcut in a 1702 almanac.]]
+
+The &amp;apos;&amp;apos;&amp;apos;Zodiac Man&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;homo signorum&amp;apos;&amp;apos; was used in [[anatomical]] diagrams dating from ancient times to the later medieval period.
+
+The human body was believed to be linked to the heavens during this period. This was often illustrated with the Zodiac Man, who had every part of his body linked with an [[astrological sign]]. The astrological sign was linked to [[humourism]] alongside the [[weather]]. As well as the Zodiac man being intimately linked with heaven it was also the common drawing of the human body at the time.
+
+== See also ==
+* [[Medical astrology]]
+* [[Vesalius]]
+
+==External links==
+{{commons category|Homo signorum}}
+* Zodiac Man Example [http://www.kcl.ac.uk/depsta/iss/library/speccoll/bomarch/astroman.jpg]
+
+[[Category:History of anatomy]]
+[[Category:Astrology]]
+
+{{anatomy-stub}}
+{{astrology-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

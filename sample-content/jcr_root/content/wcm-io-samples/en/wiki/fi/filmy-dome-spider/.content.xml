@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Filmy dome spider"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Filmy dome spider" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Taxobox
+| name = Filmy dome spider
+| regnum = [[Animal]]ia
+| phylum = [[Arthropoda]]
+| classis = [[Arachnida]]
+| ordo = [[Araneae]]
+| subordo = [[Araneomorphae]]
+| familia = [[Linyphiidae]]
+| genus = &amp;apos;&amp;apos;[[Neriene]]&amp;apos;&amp;apos;
+| species = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;N. radiata&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+| binomial = &amp;apos;&amp;apos;Neriene radiata&amp;apos;&amp;apos;
+| binomial_authority = ([[Charles Athanase Walckenaer|Walckenaer]], 1842)
+}}
+
+The &amp;apos;&amp;apos;&amp;apos;filmy dome spider&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;Neriene radiata&amp;apos;&amp;apos; AKA &amp;apos;&amp;apos; Prolinyphia marginata&amp;apos;&amp;apos; and others in this genus) is a [[sheet weaver]]: a [[spider]] in the family [[Linyphiidae]]. These [[spiders]] construct a dome of fine [[silk]] and hang upside-down under it, waiting for their prey.
+
+Members of this genus include:
+&amp;lt;gallery&amp;gt;
+Image:Neriene.clathrata.jpg|Neriene clathrata
+Image:Neriene.emphana.female.jpg|Neriene emphana, female
+Image:Neriene.emphana.web.jpg|Neriene emphana web
+Image:Neriene.peltata.female.with.prey.jpg|Neriene peltata, female with prey
+Image:Neriene.peltata.male.jpg|Neriene peltata, male
+Image:Neriene.peltata.web.jpg|Neriene peltata web
+&amp;lt;/gallery&amp;gt;
+
+{{DEFAULTSORT:Filmy Dome Spider}}
+[[Category:Linyphiidae]]
+
+{{spider-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

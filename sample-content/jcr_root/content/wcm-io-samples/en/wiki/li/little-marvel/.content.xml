@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Little Marvel"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Little Marvel" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Multiple issues|
+{{unreferenced|date=December 2009}}
+{{notability|date=January 2011}}
+}}
+
+&amp;lt;!-- Deleted image removed: [[Image:LittleMarvelRecord.jpg|right|thumb|200px|Little Marvel label]] --&amp;gt;
+&amp;apos;&amp;apos;&amp;apos;Little Marvel&amp;apos;&amp;apos;&amp;apos; was a [[United Kingdom]] [[record label]] which issued small (5½ - 6&amp;amp;nbsp;inch) [[gramophone record]]s during the 1920s. The label was owned by the [[Vocalion Records|Vocalion]] record company.
+
+As with many records of this type, the [[recording artist]]s are not credited. The labels on the records mention only the song title, the style of music (e.g. [[Foxtrot (dance)|foxtrot]], [[waltz]]), and in some cases the name of the [[songwriter]] or [[composer]].
+
+Little Marvel records were sold exclusively at UK [[Woolworths Group plc|Woolworth&amp;apos;s]] chain stores from [[1921 in music|1921]] to [[1928 in music|1928]], at a retail price of 6d (sixpence).
+
+==See also==
+* [[List of record labels]]
+
+[[Category:British record labels]]
+[[Category:Record labels established in 1921]]
+[[Category:Record labels disestablished in 1928]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

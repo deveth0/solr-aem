@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Combinational logic"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Combinational logic" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Distinguish2|[[combinatory logic]], a topic in mathematical logic}}
+
+In [[digital circuit]] theory, &amp;apos;&amp;apos;&amp;apos;combinational logic&amp;apos;&amp;apos;&amp;apos; (sometimes also referred to as &amp;apos;&amp;apos;&amp;apos;time-independent logic&amp;apos;&amp;apos;&amp;apos;&amp;lt;ref&amp;gt;
+C.J. Savant, Jr.; Martin Roden; Gordon Carpenter.
+&amp;quot;Electronic Design: Circuits and Systems&amp;quot;.
+1991.
+ISBN 0-8053-0285-9
+p. 682
+&amp;lt;/ref&amp;gt;
+) is a type of [[digital logic]] which is implemented by [[Boolean circuit]]s, where the output is a [[pure function]] of the present input only. This is in contrast to [[sequential logic]], in which the output depends not only on the present input but also on the history of the input. In other words, sequential logic has &amp;apos;&amp;apos;[[computer storage|memory]]&amp;apos;&amp;apos; while combinational logic does not.
+
+Combinational logic is used in [[computer]] circuits to perform [[Boolean algebra (logic)|Boolean algebra]] on input signals and on stored data. Practical computer circuits normally contain a mixture of combinational and sequential logic. For example, the part of an [[arithmetic logic unit]], or ALU, that does mathematical calculations is constructed using combinational logic. Other circuits used in computers, such as [[half adder]]s, [[full adder]]s, [[half subtractor]]s, [[Half subtractor|full subtractor]]s, [[multiplexer]]s, [[Multiplexer|demultiplexer]]s, [[encoder]]s and [[decoder]]s are also made by using combinational logic.
+
+==Representation==
+Combinational logic is used to build circuits that produce specified outputs from certain inputs. The construction of combinational logic is generally done using one of two methods: a sum of products, or a product of sums. A sum of products can be visualized in a truth table, as in this example:
+
+{| class=&amp;quot;wikitable&amp;quot; style=&amp;quot;margin: 1em auto 1em auto; text-align:center;&amp;quot;
+|-
+! &amp;lt;math&amp;gt;A&amp;lt;/math&amp;gt; || &amp;lt;math&amp;gt;B&amp;lt;/math&amp;gt; || &amp;lt;math&amp;gt;C&amp;lt;/math&amp;gt; || Result || [[logical equivalence|Logical equivalent]]
+|-
+| F || F || F || F || &amp;lt;math&amp;gt;\neg A \cdot \neg B \cdot \neg C&amp;lt;/math&amp;gt;
+|-
+| F || F || T || F || &amp;lt;math&amp;gt;\neg A \cdot \neg B \cdot C&amp;lt;/math&amp;gt;
+|-
+| F || T || F || F || &amp;lt;math&amp;gt;\neg A \cdot B \cdot \neg C&amp;lt;/math&amp;gt;
+|-
+| F || T || T || F || &amp;lt;math&amp;gt;\neg A \cdot B \cdot C&amp;lt;/math&amp;gt;
+|-
+| T || F || F || T || &amp;lt;math&amp;gt;A \cdot \neg B \cdot \neg C&amp;lt;/math&amp;gt;
+|-
+| T || F || T || F || &amp;lt;math&amp;gt;A \cdot \neg B \cdot C&amp;lt;/math&amp;gt;
+|-
+| T || T || F || F || &amp;lt;math&amp;gt;A \cdot B \cdot \neg C&amp;lt;/math&amp;gt;
+|-
+| T || T || T || T || &amp;lt;math&amp;gt;A \cdot B \cdot C&amp;lt;/math&amp;gt;
+|}
+
+Using sum of products, all logical statements which yield true results are summed, giving the result:
+
+: &amp;lt;math&amp;gt;A \cdot \neg B \cdot \neg C + A \cdot B \cdot C \,&amp;lt;/math&amp;gt;
+
+Using [[Boolean algebra (logic)|Boolean algebra]], the result simplifies to the following equivalent of the truth table:
+
+: &amp;lt;math&amp;gt;A \cdot (\neg B \cdot \neg C + B \cdot C) \,&amp;lt;/math&amp;gt;
+
+==Logic formula minimization==
+Minimization (simplification) of combinational logic formulas is done using the following rules:
+
+: &amp;lt;math&amp;gt;(A + B) \cdot (A + C) = A + (B \cdot C)&amp;lt;/math&amp;gt;
+: &amp;lt;math&amp;gt;\quad (A \cdot B) + (A \cdot C) = A \cdot (B + C)&amp;lt;/math&amp;gt;
+
+: &amp;lt;math&amp;gt;A + (A \cdot B) = A&amp;lt;/math&amp;gt;
+: &amp;lt;math&amp;gt;\quad A \cdot (A + B) = A&amp;lt;/math&amp;gt;
+
+: &amp;lt;math&amp;gt;A + (\lnot A \cdot B) = A + B&amp;lt;/math&amp;gt;
+: &amp;lt;math&amp;gt;\quad A \cdot(\lnot A + B) = A \cdot B&amp;lt;/math&amp;gt;
+
+: &amp;lt;math&amp;gt;(A + B)\cdot(\lnot A + B)=B&amp;lt;/math&amp;gt;
+: &amp;lt;math&amp;gt;\quad (A \cdot B) + (\lnot A \cdot B)=B&amp;lt;/math&amp;gt;
+
+: &amp;lt;math&amp;gt;(A \cdot B) + (\lnot A \cdot B) + (B \cdot C) = (A \cdot B) + (\lnot A \cdot B)&amp;lt;/math&amp;gt;
+
+With the use of minimization (sometimes called [[logic optimization]]), a simplified logical function or circuit may be arrived upon, and the logic [[combinational circuit]] becomes smaller, and easier to analyse, use, or build.
+
+== Terminology ==
+
+Some people claim that the term &amp;quot;combinatorial logic&amp;quot; is preferred over &amp;quot;combinational logic&amp;quot;,
+although others make the opposite recommendation.
+&amp;lt;ref&amp;gt;
+Clive Maxfield.
+[http://books.google.com/books?id=kQuOKBSOz5QC&amp;amp;pg=PA70&amp;amp;dq=%22combinatorial+logic%22&amp;amp;hl=en&amp;amp;sa=X&amp;amp;ei=vBSdULe_LMPHqQGploDoCg&amp;amp;ved=0CEQQ6AEwBw#v=onepage&amp;amp;q=%22combinatorial%20logic%22&amp;amp;f=false &amp;quot;FPGAs: World Class Designs&amp;quot;].
+p. 70.
+2009.
+ISBN 1856176215
+&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;
+Cliff Cummings.
+[http://www.sunburst-design.com/papers/Technical_Text_Mistakes.pdf &amp;quot;Common Mistakes In Technical Texts&amp;quot;].
+2009.
+&amp;lt;/ref&amp;gt;
+
+==See also==
+* [[Sequential logic]]
+* [[Asynchronous logic]]
+* [[FPGA]]
+* [[Formal verification]]
+
+==References==
+{{reflist}}
+* Michael Predko and Myke Predko, &amp;apos;&amp;apos;Digital electronics demystified&amp;apos;&amp;apos;, McGraw-Hill, 2004. ISBN 0-07-144141-7
+
+== External links ==
+* [http://www.ee.surrey.ac.uk/Projects/Labview/combindex.html Combinational Logic &amp;amp; Systems Tutorial Guide] by D. Belton, R. Bigwood.
+
+{{DEFAULTSORT:Combinational Logic}}
+[[Category:Logic in computer science]]
+[[Category:Digital electronics]]
+
+[[zh:組合邏輯電路]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

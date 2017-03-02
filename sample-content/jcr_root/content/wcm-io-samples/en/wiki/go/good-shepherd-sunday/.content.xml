@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Good Shepherd Sunday"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Good Shepherd Sunday" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2007}}
+
+[[Image:Bernhard_Plockhorst_-_Good_Shephard.jpg|thumb|right|The painting &amp;quot;The Good Shepherd&amp;quot; by [[Bernhard Plockhorst]].]]
+&amp;apos;&amp;apos;&amp;apos;Good Shepherd Sunday&amp;apos;&amp;apos;&amp;apos; is the Fourth Sunday of [[Easter]] in the Catholic [[liturgical calendar]]; that is, the Sunday three weeks after [[Easter Sunday]]. The name derives from the [[gospel]] readings on this day which are taken from the [[Gospel of John|10th chapter]] of [[John the Apostle|John]]. In this reading [[Christ]] is described as the Good [[Shepherd]] who, by dying on the Cross, lays down his life for his sheep.  In the Traditional (pre-1970) Latin Liturgy (see [[Tridentine Mass]]), this Mass is said on the Second Sunday after Easter, i.e., the Sunday after &amp;quot;Low Week&amp;quot; (the week beginning with &amp;apos;&amp;apos;Quasimodo&amp;apos;&amp;apos; or &amp;quot;Low&amp;quot; Sunday).
+
+In recent times the feast day has also become known as &amp;apos;&amp;apos;&amp;apos;Vocations Sunday&amp;apos;&amp;apos;&amp;apos;, a day on which prayers should be said for vocations to the [[priesthood]] and religious life.
+
+Those [[Protestants]] that follow the [[Revised Common Lectionary]], such as Lutherans, [[United Methodists]], Anglicans, and others also read the &amp;quot;Good Shepherd&amp;quot; passage from John chapter 10 on the Fourth Sunday of Easter and some also call this day &amp;quot;Good Shepherd Sunday.&amp;quot;
+
+{{Christianity-stub}}
+[[Category:Christian festivals and holy days]]
+[[Category:Sunday]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

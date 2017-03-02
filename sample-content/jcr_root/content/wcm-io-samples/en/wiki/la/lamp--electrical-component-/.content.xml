@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Lamp (electrical component)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Lamp (electrical component)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{redirect|Electric lamp|the item of furniture|light fixture}}
+{{Unreferenced|date=December 2009}}
+[[File:Lelightbulbs.jpg|160px|thumb|Various compact fluorescent (CFL) lightbulbs.]]
+[[File:Gluehlampe 01 KMJ.jpg|160px|thumb|A clear glass 60W Neolux light bulb.]]
+A &amp;apos;&amp;apos;&amp;apos;lamp&amp;apos;&amp;apos;&amp;apos; is a replaceable component such as an [[incandescent light bulb]], which is designed to produce [[light]] from [[electricity]]. These components usually have a base of ceramic, metal, glass or plastic, which makes an electrical connection in the socket of a [[light fixture]]. This connection may be made with a screw-thread base, two metal pins, two metal caps or a bayonet cap. &amp;apos;&amp;apos;&amp;apos;Re-lamping&amp;apos;&amp;apos;&amp;apos; is the replacement of only the removable lamp in a light fixture.
+
+==Lamp circuit symbols==
+In [[circuit diagram]]s lamps usually are shown as symbols. There are two main types of symbols, these are:
+
+{{Gallery
+|lines=4
+|File:Lamp symbol.svg|The cross in a circle, which usually represents a lamp as an indicator.
+|File:Lamp symbol, old.svg|The semicircular dent in a circle, which usually represents a lamp as a source of light or illumination.
+}}
+
+{{Artificial light sources}}
+
+[[Category:Lighting]]
+[[Category:Lamps| ]]
+[[Category:Electrical components]]
+[[Category:Glass applications]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Maasbracht"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Maasbracht" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Image:LocatieMaasbracht.png|thumb|Former municipality of Maasbracht in Limburg.]]
+
+&amp;apos;&amp;apos;&amp;apos;Maasbracht&amp;apos;&amp;apos;&amp;apos; ({{Pronunciation|143 Maasbracht.ogg}}) is a [[town]] in the southeastern [[Netherlands]]. It was a separate municipality until January 1, 2007, when it became a part of the new municipality of [[Maasgouw]].  Footballer [[Mark van Bommel]] was born in Maasbracht.
+
+&amp;lt;gallery&amp;gt;
+Image:Maasbracht, stadszicht bij Julianakanaal 2007-09-22 17.10.JPG|Maasbracht, the village near Julianakanaal
+Image:Maasbracht, kerk 2007-09-22 17.19 .JPG|Maasbracht, church
+&amp;lt;/gallery&amp;gt;
+
+==External links==
+*[http://www.gemeentemaasgouw.nl Official website]
+
+{{coord|51|09|N|5|53|E|region:NL_type:city|display=title}}
+
+[[Category:Former municipalities of Limburg (Netherlands)]]
+[[Category:Populated places in Limburg (Netherlands)]]
+
+{{LimburgNL-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

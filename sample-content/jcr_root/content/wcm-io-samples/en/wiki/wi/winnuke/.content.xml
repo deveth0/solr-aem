@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="WinNuke"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="WinNuke" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The term &amp;apos;&amp;apos;&amp;apos;WinNuke&amp;apos;&amp;apos;&amp;apos; refers to a remote [[denial-of-service attack]] (DoS) that affected the [[Microsoft]] [[Windows 95]], [[Microsoft]] [[Windows NT]] and [[Microsoft]] [[Windows 3.1x]] [[computer]] [[operating system]]s. The [[Exploit (computer security)|exploit]] sent a string of [[Out-of-band|OOB]] (out of band) data to the target computer on [[TCP/IP|TCP]] port 139 ([[NetBIOS]]),&amp;lt;ref&amp;gt;{{cite web|url=http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-1999-0153 |title=National Vulnerability Database (NVD) National Vulnerability Database (CVE-1999-0153) |publisher=Web.nvd.nist.gov |date= |accessdate=2010-09-23}}&amp;lt;/ref&amp;gt; causing it to lock up and display a [[Blue Screen of Death]]. This did not damage or change the data on the computer&amp;apos;s hard disk, but any unsaved data would be lost.
+
+The so-called OOB simply means that the malicious TCP packet contained an [[TCP header|Urgent Pointer]] (URG). The Urgent Pointer is a rarely used field in the TCP header, used to indicate that some of the data in the TCP stream should be processed quickly by the recipient. Affected operating systems didn&amp;apos;t handle the Urgent Pointer field correctly.
+
+A person under the screen-name &amp;quot;_eci&amp;quot; published his [[C (programming language)|C]] [[source code]] for the exploit on June 7, 1997.&amp;lt;ref&amp;gt;{{cite web|url=http://insecure.org/sploits/windows.OOB.DOS.html |title=Windows NT/95/3.11 Out Of Band (OOB) data barf |publisher=Insecure.org |date= |accessdate=2010-09-23}}&amp;lt;/ref&amp;gt; With the source code being widely used and distributed, [[Microsoft]] was forced to create security patches, which were released a few weeks later.  For a time, numerous flavors of this exploit appeared going by such names as fedup, gimp, killme, killwin, knewkem, liquidnuke, mnuke, netnuke, muerte, nuke, nukeattack, nuker102, pnewq, project1, pstlince, simportnuke, sprite, sprite32, [[VConnect|vconnect]], vzmnuker, wingenocide, winnukeit, winnuker02, winnukev95, wnuke3269, wnuke4, and wnuke95.
+
+A company called SemiSoft Solutions from New Zealand created a small program, called AntiNuke, that blocks WinNuke without having to install the official patch.&amp;lt;ref&amp;gt;[http://robert.grefstad.com/win/error_winnuke.html Windows OOB Bug, also known as WinNuke]. Grefstad.com.&amp;lt;/ref&amp;gt;
+
+Years later, a second incarnation of WinNuke that uses another, similar exploit was found.&amp;lt;ref&amp;gt;{{cite web|last=Michael |first=James |url=http://articles.techrepublic.com.com/5100-10878_11-1054537.html |title=WinNuke lives on, and it&amp;apos;s coming to a system near you |publisher=Articles.techrepublic.com.com |date=2002-10-02 |accessdate=2010-09-23}}&amp;lt;/ref&amp;gt;
+
+==See also==
+* [[Nuke (computer)]]
+
+==References==
+{{reflist}}
+
+==External links==
+* [http://www.users.nac.net/splat/winnuke/ WinNuke Relief Page]
+
+{{DEFAULTSORT:Winnuke}}
+[[Category:Denial-of-service attacks]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

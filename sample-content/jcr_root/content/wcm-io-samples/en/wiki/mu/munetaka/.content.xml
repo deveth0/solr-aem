@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Munetaka"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Munetaka" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox given name
+| name          = Munetaka
+| image         =
+| image_size    =
+| caption       =
+| pronunciation =
+| gender        = Male
+| meaning       = Different meanings depending on the [[kanji]] used
+| region        =
+| language      =
+| origin        = Japanese
+| alternative spelling =
+| nickname      =
+| variant forms =
+| related names =
+| name day      =
+| derived       =
+| popularity    =
+| footnotes     =
+| wikt          =
+}}
+&amp;apos;&amp;apos;&amp;apos;Munetaka&amp;apos;&amp;apos;&amp;apos; (written: 宗尊, 宗堯, 宗孝, or 宗貴) is a masculine Japanese given name. Notable people with the name include:
+
+*{{Nihongo|[[Prince Munetaka]]|宗尊親王}} (1242–1274), Japanese shogun
+*{{Nihongo|[[Munetaka Higuchi]]|樋口 宗孝}} (1958–2008), Japanese musician and record producer
+*{{Nihongo|[[Tokugawa Munetaka]]|徳川 宗堯}} (1705–1730), Japanese &amp;apos;&amp;apos;daimyō&amp;apos;&amp;apos;
+
+{{given name}}
+
+[[Category:Japanese masculine given names]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

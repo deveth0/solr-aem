@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Drop zone"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Drop zone" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{about|the parachuting dropzone}}
+
+[[Image:Empuriabrava DZ.jpeg|thumb|right|200px|Drop zone in Empuriabrava, Catalonia]]
+[[Image:PepFromAir.jpg|thumb|right|200px|Drop zone in Pepperell, MA (USA) seen from the air]]
+
+A &amp;apos;&amp;apos;&amp;apos;drop zone&amp;apos;&amp;apos;&amp;apos; (DZ) is a place where [[parachuting|parachutists]] or [[parachute]]d supplies [[Parachute landing fall|land]]. It can be an area targeted for landing by [[paratrooper]]s, or a base from which recreational parachutists and skydivers take off in aircraft and land under [[parachute]]s. In the latter case, it is often beside a small airport, frequently sharing the facility with other [[general aviation]].
+
+At recreational drop zones, an area is generally set side for [[Parachute landing fall|parachute landings]]. Personnel at the site may include a drop zone operator or owner (DZO), manifestors (who maintain the flight manifest documents defining who flies and when), pilots, instructors or coaches, camera operators, parachute packers and riggers, and other general staff.
+
+== External links ==
+*{{dmoz|/Recreation/Aviation/Skydiving/Dropzones/|Drop Zones}}
+*[http://skydivingdropzones.com/ Skydiving Drop Zones]
+
+* The Parachute School - Skydive Euroa, Euroa Victoria, Australia - {{cite web|url=http://www.skydivingassoc.com.au |title=The Parachute School Official Site |publisher=skydivingassoc.com.au |date= |accessdate=2012-01-09}}
+
+{{mil-aviation-stub}}
+{{air-sports-stub}}
+
+[[Category:Parachuting]]
+
+[[it:Omicidio nel vuoto]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

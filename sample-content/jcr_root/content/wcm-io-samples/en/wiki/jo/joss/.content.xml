@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="JOSS"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="JOSS" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox programming language
+ | name                   = JOSS
+ | paradigm               =
+ | released               = {{Start date|1966}}
+ | developer              = Cliff Shaw, [[RAND]]
+ | influenced by          = [[ALGOL 58]]
+ | influenced             = [[BASIC]], [[TELCOMP]], [[CAL (Joss family)]], [[FOCAL (programming language)|FOCAL]] and [[MUMPS]]
+ | website                = }}
+&amp;apos;&amp;apos;&amp;apos;JOSS&amp;apos;&amp;apos;&amp;apos; (an acronym for &amp;apos;&amp;apos;[[JOHNNIAC]] Open Shop System&amp;apos;&amp;apos;) was one of the very first interactive, [[time sharing]] programming languages.
+
+JOSS I, developed by [[Cliff Shaw|J. Clifford Shaw]] at [[RAND]] was first implemented, in beta form, on the [[JOHNNIAC]] computer in May 1963.  The full implementation was deployed in January 1964, supporting 5 terminals and the final version, supporting 10 terminals, was deployed in January 1965.&amp;lt;ref name=&amp;quot;hopl&amp;quot;&amp;gt;{{cite book| editor1-first = Richard L |editor1-last=Wexelblat| |year=1981|title=History of Programming Languages|location=New York|publisher = Academic Press|isbn=0-12-745040-8}}&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;{{cite journal
+ | url=http://www.rand.org/pubs/research_memoranda/RM5270.html
+ | title=JOSS: Central Processing Routines | publisher = RAND
+ | first =JW | last = Smith
+ | id=RM 5270 PR
+ | date=August 1967
+ | accessdate=2012-04-16 | type = reference user guide}}&amp;lt;/ref&amp;gt;
+
+JOSS was written in a symbolic assembly language called EasyFox (E and F in the US military&amp;apos;s phonetic alphabet of that time).  EasyFox was also developed by Cliff Shaw.
+
+JOSS was dubbed &amp;quot;The Helpful Assistant&amp;quot; and is renowned for its conversational user interface.  Originally green/black typewriter ribbons were used in its terminals with green being used for user input and black for the computer&amp;apos;s response.  Any command that was not understood elicited the response &amp;quot;Eh?&amp;quot;.
+
+JOSS II, was developed by Charles L. Baker, Joseph W. Smith, Irwin D. Greenwald, and G. Edward Bryan for the [[PDP-6]] computer between 1964 and February 1966.
+
+Many variants of JOSS were developed and implemented on a variety of platforms. &amp;lt;!-- not worth mentioning if we can&amp;apos;t identify it more specifically:
+including one for the [[IBM]] [[System/360]] which was still in use up to the mid [[1970]]s --&amp;gt;
+Some of these variants remained very similar to the original: [[TELCOMP]], [[FOCAL]], [[CAL programming language|CAL]], [[CITRAN]], ISIS, PIL/I, [[JEAN]] ([[ICT 1900 series]]), [[Algebraic Interpretive Dialogue|AID]] ([[PDP-10]]); while others, such as [[MUMPS]], developed in distinctive directions.
+
+==Sample program==
+ 1.1 Demand p,q.
+ 1.2 Stop if q&amp;lt;0 or r(q,2)=0.
+ 1.3 Set a=1.
+ 1.4 Do part 2 while q&amp;gt;1 and a~=0.
+ 1.5 Type a in form 3.
+ 1.6 Stop.
+
+ 2.1  Do part 20.
+ 2.1  Do part 11 if p&amp;lt;0.
+ 2.2  Do part 12 if p&amp;gt;=q.
+ 2.3  Do part 13 if p=0.
+ 2.4  Done if a=0.
+ 2.5  Set p=p/4 while r(p,4)=0.
+ 2.6  Do part 14 if r(p,2)=0.
+ 2.7  Do part 20.
+ 2.8  Set a=-a if r(p,4)=r(q,4)=3.
+ 2.9  Set s=p, p=q, q=s.
+ 2.95 Do part 20.
+
+ 11.1 Set a=-a if r(q,4)=3.
+ 11.2 Set p=|p|.
+ 11.3 Do part 20.
+
+ 12.1 Set p=r(p,q).
+ 12.2 Do part 20.
+
+ 13.1 Set a=0, p=1, q=1.
+
+ 14.1 Set a=-a if r(q,8)=3 or r(q,8)=5.
+ 14.2 Set p=p/2.
+
+ 20.1 Type p, q in form 1 if a=1.
+ 20.2 Type p, q in form 2 if a=-1.
+
+ Form 1: &amp;quot;  L(%.0f,%.0f)  =&amp;quot;
+ Form 2: &amp;quot;  -L(%.0f,%.0f)  =&amp;quot;
+ Form 3: &amp;quot;  %.0f\n&amp;quot;
+
+Note that this is not an original sample, but rather one from a modern simulator. There are some syntactic differences from the original JOSS language.
+
+==References==
+&amp;lt;references/&amp;gt;
+* {{cite book
+  | last = Sammet
+  | first = Jean
+  | authorlink = Jean Sammet
+  | title = Programming languages : history and fundamentals
+  | publisher = [[Prentice-Hall]]
+  | year = 1969
+  | isbn = ISBN 0-13-729988-5
+}} pp. 217–226
+* {{cite conference
+ | first = G. E.
+ | last = Bryan
+ | title = JOSS: Introduction to the System Implementation
+ | pages = 19
+ | publisher = DECUS
+ | date = 1966-11-04
+ | location = Lawrence Radiation Laboratory, Berkeley California
+ | url = http://archive.org/details/bitsavers_randjossP3ToTheSystemImplementationNov66_1568010
+ | accessdate = 2013-06-19 }}
+* &amp;quot;JOSS Users&amp;apos; Reference Manual&amp;quot;, R.L. Clark, Report R-1555/9, RAND Corp (Jan 1975)
+* [http://purl.umn.edu/107692 Oral history interview with Keith W. Uncapher], [[Charles Babbage Institute]], University of Minnesota.  Review of projects at [[RAND]] when [[Keith Uncapher]] was hired in 1950 through the early 1970s, such as [[JOHNNIAC]], JOSS, a survivable national network, and some work related to the [[ARPANET]].
+
+{{compu-lang-stub}}
+
+{{DEFAULTSORT:Joss}}
+[[Category:JOSS programming language family| ]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

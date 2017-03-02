@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Adroa"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Adroa" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Adroa&amp;apos;&amp;apos;&amp;apos; is a god of the [[Lugbara]] people of central [[Africa]].
+Adroa has two aspects: one good and one evil. He is the creator of Heaven and Earth, and he appears to those about to die. His good and bad aspects are depicted as two half bodies: the evil one is short and coal black while his good aspect is tall and white.&amp;lt;ref name=&amp;quot;ODWM&amp;quot;&amp;gt;{{Citation | last = | first = | author-link = | contribution = Adroa | editor-last = Cotterell | editor-first = Arthur | title = Oxford Dictionary of World Mythology | volume = | pages = | publisher = [[Oxford University Press]] | place = Oxford | year = 1997 | contribution-url = http://www.enotes.com/wm-encyclopedia/adroa | isbn = 0-19-217747-8}}&amp;lt;/ref&amp;gt;
+
+==See also==
+[[Lugbara mythology]]
+
+==References==
+{{reflist}}
+
+[[Category:African gods]]
+[[Category:Creator gods]]
+[[Category:African mythology]]
+
+
+{{Africa-myth-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

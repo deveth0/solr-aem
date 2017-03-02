@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Van Rensselaer"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Van Rensselaer" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Van Rensselaer&amp;apos;&amp;apos;&amp;apos; may refer to:
+*[[Van Rensselaer (surname)]], a surname (including a list of people with the name)
+*[[Van Rensselaer Island]], an island in the Hudson River opposite the city of Albany, New York, United States
+*[[Van Rensselaer Lower Manor House]], Claverack, New York, United States
+*Van Rensselaer Hall, a dormitory for women at [[Drexel University#Housing|Drexel University]]
+*Martha Van Rensselaer Hall, a building of [[Cornell University College of  Human Ecology#History|Cornell University College of  Human Ecology]]
+
+==See also==
+*[[Van Rensselaer Richmond]] (1812–1883), New York civil engineer and politician
+*[[Rensselaer (disambiguation)]]
+*[[Rensselaerswyck]]
+*[[Van Rensselaer&amp;apos;s Regiment]]
+*Edgar Van Ranseleer, a character in [[Archie Bunker&amp;apos;s Place#Characters|&amp;apos;&amp;apos;Archie Bunker&amp;apos;s Place&amp;apos;&amp;apos;]]
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

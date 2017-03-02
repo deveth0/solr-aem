@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="RIPEMD"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="RIPEMD" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;RIPEMD&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;&amp;apos;[[RACE (Europe)|RACE]] Integrity Primitives Evaluation Message Digest&amp;apos;&amp;apos;&amp;apos;) is a family of [[message]] [[digest]] ([[cryptographic hash functions]]) developed in [[Leuven|Leuven, Belgium]], by [[Hans Dobbertin]], [[Antoon Bosselaers]] and [[Bart Preneel]] at the [[COSIC]] research group at the [[Katholieke Universiteit Leuven]], and first published in 1996. RIPEMD was based upon the design principles used in [[MD4]], and is similar in performance to the more popular [[SHA-1]].
+
+RIPEMD-160 is an improved, 160-bit version of the original RIPEMD, and the most common version in the family. RIPEMD-160 was designed in the open academic community, in contrast to the [[NSA]] designed [[SHA-1]] and [[SHA-2]] algorithms. On the other hand, RIPEMD-160 appears to be used somewhat less frequently than SHA-1, which may have caused it to be less scrutinized than SHA. RIPEMD-160 is not known to be constrained by any patents.
+
+As well as 160-bit, there also exist 128, 256 and 320-bit versions of this algorithm, called RIPEMD-128, RIPEMD-256, and RIPEMD-320, respectively.  The 128-bit version was intended only as a drop-in replacement for the original RIPEMD, which was also 128-bit, and which had been found to have questionable security.  The 256 and 320-bit versions diminish only the chance of accidental [[hash collision|collision]], and don&amp;apos;t have higher levels of security (against [[preimage attacks]]) as compared to, respectively, RIPEMD-128 and RIPEMD-160.
+
+In August 2004, a collision was reported for the original RIPEMD.&amp;lt;ref&amp;gt;
+{{cite web
+ |url=http://eprint.iacr.org/2004/199.pdf
+ |title=Collisions for Hash Functions MD4, MD5, HAVAL-128 and RIPEMD
+ |author=Xiaoyun Wang
+ |author2=Dengguo Feng
+ |author3=Xuejia Lai
+ |author4=Hongbo Yu
+ |date=2004-08-17
+ |accessdate=2011-06-03
+}}&amp;lt;/ref&amp;gt; This does not apply to RIPEMD-160.
+
+==RIPEMD-160 hashes==
+The 160-bit RIPEMD-160 hashes (also termed RIPE &amp;apos;&amp;apos;message digests&amp;apos;&amp;apos;) are typically represented as 40-digit [[hexadecimal]] numbers.  The following demonstrates a 43-byte [[ASCII]] input and the corresponding RIPEMD-160 hash:
+
+  RIPEMD-160(&amp;quot;The quick brown fox jumps over the lazy dog&amp;quot;) =
+  37f332f68db77bd9d7edd4969571ad671cf9dd3b&amp;lt;/tt&amp;gt;
+
+Even a small change in the message will (with overwhelming probability) result in a completely different hash, e.g. changing &amp;lt;tt&amp;gt;d&amp;lt;/tt&amp;gt; to &amp;lt;tt&amp;gt;c&amp;lt;/tt&amp;gt;:
+
+  RIPEMD-160(&amp;quot;The quick brown fox jumps over the lazy &amp;apos;&amp;apos;&amp;apos;c&amp;apos;&amp;apos;&amp;apos;og&amp;quot;) =
+  132072df690933835eb8b6ad0b77e7b6f14acad7
+
+The hash of a zero-length string is:
+
+  RIPEMD-160(&amp;quot;&amp;quot;) =
+  9c1185a5c5e9fc54612808977ee8f548b2258d31
+
+==See also==
+* [[Comparison of cryptographic hash functions]]
+* [[Topics in cryptography]]
+
+==References==
+&amp;lt;references /&amp;gt;
+
+==External links==
+* [http://www.esat.kuleuven.ac.be/~bosselae/ripemd160.html RIPEMD-160: A Strengthened Version of RIPEMD] (RIPEMD-160 specification and reference implementation)
+* [http://ehash.iaik.tugraz.at/wiki/RIPEMD-160 RIPEMD-160 Ecrypt page]
+
+{{Cryptography navbox | hash}}
+
+[[Category:Cryptographic hash functions]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

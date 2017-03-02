@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Kiest (DART station)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Kiest (DART station)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox Station
+ | name= Kiest
+ | type= [[Dallas Area Rapid Transit|DART]] [[light rail]] station
+ | image=Kiest (DART station).JPG
+ | image_size=
+ | image_caption=
+ | address= 3500 East Lancaster Road&amp;lt;br&amp;gt;Dallas, Texas  75203
+ | coordinates={{coord|32|42|26|N|96|48|4|W|type:railwaystation_region:US-TX|display=inline,title}}
+ | line={{rail color box|system=DART|line=Blue}}
+ | other=DART Routes {{DART LB|405}}, {{DART LB|444}}, {{DART RFB|522}} (M-Sat), and {{DART RFB|541}}
+ | platform=[[Island platform]]
+ | parking=465 free spaces, no overnight
+ | bicycle=One rack
+ | passengers=
+ | pass_year=
+ | pass_percent=
+ | opened=May 31, 1997&amp;lt;ref name=&amp;quot;June 1, 1997&amp;quot;&amp;gt;{{cite news |first=Linda Stewart |last=Ball |work=The Dallas Morning News |title=DART opens 3 new miles of rail in Oak Cliff: New tracks serving line between Illinois Avenue, Ledbetter Drive |date=June 1, 1997}}&amp;lt;/ref&amp;gt;
+ | rebuilt=
+ | ADA=Yes
+ | code=
+ | owned= [[Dallas Area Rapid Transit]]
+ | zone=
+ | services=
+{{s-rail|title=DART}}
+{{s-line|system=DART|line=Blue|previous=VA Medical Center|next=Illinois}}
+}}
+&amp;apos;&amp;apos;&amp;apos;Kiest Station&amp;apos;&amp;apos;&amp;apos; is a [[DART Light Rail]] station located in the [[Oak Cliff]] neighborhood of [[Dallas, Texas|Dallas]], [[Texas]] ([[United States|USA]]) on Kiest Boulevard and Lancaster Road ([[Texas State Highway 342|SH 342]]). It opened on May 31, 1997, and is a station on the {{DART B}}, serving nearby residences and businesses.
+
+== References ==
+{{reflist}}
+
+== External links ==
+* [http://www.dart.org/riding/stations/kieststation.asp DART - Kiest Station]
+
+{{Dallas Area Rapid Transit}}
+[[Category:Dallas Area Rapid Transit light rail stations]]
+[[Category:Railway stations opened in 1997]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

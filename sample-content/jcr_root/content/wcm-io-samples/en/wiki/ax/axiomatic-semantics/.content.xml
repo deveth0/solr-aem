@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Axiomatic semantics"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Axiomatic semantics" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced stub|auto=yes|date=December 2009}}
+&amp;apos;&amp;apos;&amp;apos;Axiomatic semantics&amp;apos;&amp;apos;&amp;apos; is an approach based on [[mathematical logic]] to proving the [[correctness of computer programs]]. It is closely related to [[Hoare logic]].
+
+Axiomatic semantics define the meaning of a command in a program by describing its effect on assertions about the program state. The assertions are logical statements - predicates with variables, where the variables define the state of the program.
+
+==See also==
+* [[Algebraic semantics (computer science)]] — in terms of algebras
+* [[Denotational semantics]]  — by translation of the program into another language
+* [[Operational semantics]] — in terms of the state of the computation
+* [[Formal semantics of programming languages]] — overview
+* [[Predicate transformer semantics]] — describes the meaning of a program fragment as the function transforming a [[postcondition]] to the [[precondition]] needed to establish it.
+* [[Assertion (computing)]]
+
+{{DEFAULTSORT:Axiomatic Semantics}}
+[[Category:Formal specification languages]]
+[[Category:Logic in computer science]]
+[[Category:Programming language semantics]]
+
+{{Formalmethods-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

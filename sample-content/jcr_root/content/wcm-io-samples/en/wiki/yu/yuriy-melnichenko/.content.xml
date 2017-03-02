@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Yuriy Melnichenko"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Yuriy Melnichenko" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox sportsperson
+|birth_date={{Birth date and age|1972|06|05}}
+|medaltemplates={{MedalSport | Men&amp;apos;s [[Wrestling at the Summer Olympics|Greco-Roman wrestling]]}}
+{{MedalGold| [[1996 Summer Olympics|1996 Atlanta]] | [[Wrestling at the 1996 Summer Olympics|Bantamweight]]}}
+}}
+&amp;apos;&amp;apos;&amp;apos;Yuriy Melnichenko&amp;apos;&amp;apos;&amp;apos; (born June 5, 1972) is a [[Kazakhs|Kazakh]] [[sport wrestling|wrestler]]. At the [[1996 Summer Olympics]] he won the gold medal in the men&amp;apos;s Greco-Roman Bantamweight (52–57&amp;amp;nbsp;kg) category.&amp;lt;ref&amp;gt;{{cite news|url=http://sportsillustrated.cnn.com/events/1996/olympics/daily/july22/wrest.html|title=Thrown For a Loss|date=July 26, 2006|publisher=[[Sports Illustrated]]|accessdate=23 November 2009}}&amp;lt;/ref&amp;gt;
+
+==References==
+&amp;lt;references/&amp;gt;
+
+==External links==
+*[http://www.nbcolympics.com/athletes/athlete=77880/bio/ NBC Olympic Profile - Yuriy Melnichenko]
+
+{{Footer Asian Games Champions Wrestling Greco-Roman Bantamweight Men}}
+
+{{Persondata
+| NAME              = Melnichenko, Yuriy
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION =Olympic wrestler
+| DATE OF BIRTH     = June 5, 1972
+| PLACE OF BIRTH    =
+| DATE OF DEATH     =
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Melnichenko, Yuriy}}
+[[Category:Kazakhstani sport wrestlers]]
+[[Category:1972 births]]
+[[Category:Living people]]
+[[Category:Wrestlers at the 1996 Summer Olympics]]
+[[Category:Olympic wrestlers of Kazakhstan]]
+[[Category:Olympic gold medalists for Kazakhstan]]
+[[Category:Olympic medalists in wrestling]]
+[[Category:Asian Games medalists in wrestling]]
+
+{{Kazakhstan-Olympic-medalist-stub}}
+{{Kazakhstan-wrestling-bio-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

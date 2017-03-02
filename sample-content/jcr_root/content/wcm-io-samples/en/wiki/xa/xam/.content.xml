@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="XAM"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="XAM" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;XAM&amp;apos;&amp;apos;&amp;apos;, or the &amp;apos;&amp;apos;&amp;apos;eXtensible Access Method&amp;apos;&amp;apos;&amp;apos;, is a [[Computer storage|storage]] [[Standardization|standard]] developed and maintained by the [[Storage Networking Industry Association]] (SNIA). It is in the process of being ratified as an [[ANSI]] standard. XAM is an API for fixed content aware storage devices. XAM replaces the various proprietary interfaces that have been used for this purpose in the past. Content generating applications now have a standard means of saving and finding their content across a broad array of storage devices.
+
+XAM is similar in function to a file system API such as the [[POSIX]] file and directory operations, in that it allows applications to store and retrieve their data. XAM stores application data in XSet objects that also contain [[metadata]].
+
+==Basic concepts==
+The standard XAM API consists of all of the three primary objects and two secondary objects that an application can manipulate to store and retrieve data.
+
+The first primary object that applications deal with to store and retrieve data is called an Xset. It is the object that is the container for both the data and the associated metadata. XSet metadata goes beyond the typical system metadata, and adds fields for retention and other data management policies. Applications can also add their own user metadata as well. This is a key requirement in the fixed content storage market. Any of the metadata in the XSet can be queried for later, in order to find the XSet.
+
+XAM also has the notion of a system that will contain the XSets. This abstracted storage system is called an XSystem. The XSystem object is also the factory for XSet objects (via create and open methods). Any given application may have access to any number of XSystem storage devices, so there is a need to create XSystem objects for each system we need to access. This is done through an object called the XAMLibrary. The XAM Library manages all the connections to the storage devices and acts as a factory for XSystem objects.
+
+The XSystem object that is returned from the connect() operation can be used to talk to the storage device. All of these objects have properties which are accessed in the same way. These properties can be of several different types and can be created at runtime. XAM provides a way to do this in a type safe manner with the XIterator (secondary) object. The XIterator can contain all properties, or just a subset (those having a name starting with a &amp;quot;prefix&amp;quot;). Finally, an XStream is a (secondary) object that can contain the actual content associated with an XSet. XStreams have operations to read and write the content using various means, both synchronously and asynchronously. The type of data an XStream holds can be any valid Mime type.
+
+==XAM Specification==
+The XAM standard is composed of an Architecture specification and language bindings for both the C and Java language. The latest version of the specifications can be found at the [http://snia.org/forums/xam/technology/specs SNIA site]. The standard is being updated and revised by the SNIA Fixed Content Aware Storage (FCAS) Technical Work Group (TWG), Hagen Blankenstein and   Philipp Niechziol (co-chairman).
+
+==XAM SDK==
+The SNIA has also produced open source reference implementations of C and Java XAM Libraries as well as a Vendor Interface Module (VIM) that can work on top of any file system. The SNIA Software is being updated and revised by the XAM SDK Technical Work Group (TWG),Maik Schönherr(engineer) and Torsten Heuer (co-chairman).
+
+==See also==
+*[[Storage Networking Industry Association|SNIA]] — Storage Networking Industry Association
+*[[Content-addressable storage]]
+
+==References==
+&amp;lt;references /&amp;gt;
+
+==External links==
+*[http://snia.org/forums/xam XAM Initiative] provides good material both at the overview and detail level.
+*[http://snia.org/forums/xam/technology/software XAM SDK download] is an open source reference implementation of the API.
+*[http://groups.google.com/group/xam-developers-group XAM Developers Group] Provides information to assist developers working with XAM.
+
+[[Category:Computer standards]]
+[[Category:Computer storage technologies]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

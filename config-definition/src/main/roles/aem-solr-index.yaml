@@ -1,0 +1,71 @@
+# Adobe Experience Manager (AEM) Instance.
+# AEM quickstart runs directly from command line with embedded Jetty Servlet Container.
+
+variants:
+- variant: aem-author
+
+templateDir: aem-solr-samples
+
+files:
+
+# AEM OSGi System Configuration
+- file:  aem-solr-samples-aem-cms-config.provisioning
+  dir: packages
+  template:  aem-solr-samples-aem-cms-config.provisioning.hbs
+  variants:
+  - aem-author
+  postProcessors:
+  - aem-contentpackage-osgiconfig
+  postProcessorOptions:
+    contentPackage:
+      name: aem-solr-index-cms-author-config
+      rootPath: /apps/aem-solr-index-cms-config/config
+      filters:
+      - filter: /apps/aem-solr-index-cms-config
+
+# Oak Index
+#- file: aem-solr-samples-aem-cms-author-oak-index.json
+#  dir: packages
+#  template: aem-solr-samples-aem-cms-author-oak-index.json.hbs
+#  variants:
+#  - aem-author
+#  postProcessors:
+#  - aem-contentpackage
+#  postProcessorOptions:
+#    contentPackage:
+#      name: aem-solr-index
+#      acHandling: merge
+#      rootPath: /
+#      filters:
+#      - filter: /oak:index/solrIndex
+
+# wcm.io Sample Application package
+- url: mvn:io.wcm.samples/io.wcm.samples.complete//zip
+  dir: packages
+
+# wcm.io Sample Application sample content package
+- url: mvn:io.wcm.samples/io.wcm.samples.sample-content//zip
+  dir: packages
+  condition: ${app.sampleContent}
+
+# Solr Sample-Content and application
+- url: mvn:de.dev.eth0.aem/aem-solr.complete//zip
+  dir: packages
+
+- url: mvn:de.dev.eth0.aem/aem-solr.sample-content//zip
+  dir: packages
+  condition: ${app.sampleContent}
+  
+# Defines configuration parameters and default values
+config:
+  solr:
+    server: http://192.168.50.10:8983/solr/oak
+ 
+
+
+  # Example for config override configuration
+  #configOverrides:
+  #  "/path/to/config/scope":
+  #    siteUrl:
+  #    siteUrlSecure:
+  #    siteUrlAuthor:

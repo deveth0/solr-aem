@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Zhongdu"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Zhongdu" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Zhongdu&amp;apos;&amp;apos;&amp;apos; is the [[pinyin]] [[romanization of Chinese|romanization]] of the [[Chinese character]]s {{lang-zh|中都}}, meaning &amp;quot;Central Capital&amp;quot;. It may refer to:
+
+* Zhongdu, the capital of the [[Jin_Dynasty_(1115-1234)|Jurchen Jin Dynasty]] during the 12th century. It was located in present-day [[History of Beijing#Liao and Jin Dynasties|Beijing]].
+* Zhongdu, the proposed future capital of the [[Ming Dynasty]] mooted during the 14th century. It was located at the former site of Zhongli ({{lang|zh|鍾離}}), a destroyed village whose ruins are located in modern [[Fengyang]] in [[Anhui]].
+
+&amp;apos;&amp;apos;&amp;apos;Zhongdu&amp;apos;&amp;apos;&amp;apos;, written with other Chinese characters, is also used for other place names:
+* [[Zhongdu, Luzhai County]] ({{lang|zh|中渡镇}}), a town in [[Luzhai County]], [[Guangxi]]
+* [[Zhongdu, Shanghang County]], town in Fujian
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

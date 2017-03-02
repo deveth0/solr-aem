@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Binaural"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Binaural" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|binaural|diotic}}
+&amp;apos;&amp;apos;&amp;apos;Binaural&amp;apos;&amp;apos;&amp;apos; literally means &amp;quot;having or relating to two ears.&amp;quot; Binaural hearing, along with frequency cues, lets humans and other animals determine direction of origin of sounds. Similar to diotic which is used in psychophysics to describe an auditory stimulus presented to both ears.
+
+&amp;apos;&amp;apos;&amp;apos;Binaural&amp;apos;&amp;apos;&amp;apos; may also refer to:
+* [[Binaural (album)|&amp;apos;&amp;apos;Binaural&amp;apos;&amp;apos; (album)]], by Pearl Jam
+* [[Binaural beats]], auditory processing artifacts
+* [[Binaural recording]], a method of recording audio which uses a special microphone arrangement
+
+== See also ==
+* [[Sound localization]], refers to a listener&amp;apos;s ability to identify the location or origin of a detected sound in direction and distance
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

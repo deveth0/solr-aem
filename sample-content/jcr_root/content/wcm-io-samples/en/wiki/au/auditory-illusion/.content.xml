@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Auditory illusion"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Auditory illusion" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{listen|filename=DescenteInfinie.ogg|title=A Shepard&amp;amp;ndash;Risset glissando|description=|format=[[Ogg]]}}
+An &amp;apos;&amp;apos;&amp;apos;auditory illusion&amp;apos;&amp;apos;&amp;apos; is an [[illusion]] of [[hearing (sense)|hearing]], the aural equivalent of an [[optical illusion]]: the listener [[hearing (sense)|hears]] either sounds which are not present in the [[Stimulus (physiology)|stimulus]], or &amp;quot;impossible&amp;quot; sounds.&amp;lt;ref name=&amp;quot;deutsch&amp;quot;&amp;gt;[http://deutsch.ucsd.edu/pdf/ben_carson_review_AJP.pdf Massaro, Dominic W., editor University of California, Santa Cruz. (Spring  2007) &amp;apos;&amp;apos;Book Reviews. What Are Musical Paradox and Illusion?&amp;apos;&amp;apos; AMERICAN JOURNAL OF PSYCHOLOGY Vol. 120, No. 1, pp. 123–170, 124, 132.]&amp;lt;/ref&amp;gt;  In short, auditory illusions highlight areas where the [[human ear]] and [[human brain|brain]], as organic, makeshift tools, differ from perfect [[audio recording|audio receptors]] (for better or for worse).
+
+Examples of auditory illusions:
+*hearing a [[missing fundamental]] frequency, given other parts of the [[Harmonic series (music)|harmonic series]]
+*Various psychoacoustic tricks of [[lossy audio compression]]
+*[[Binaural beats]]
+*[[Deutsch&amp;apos;s scale illusion]]
+*[[Glissando illusion]]
+*[[Illusory continuity of tones]]
+*[[McGurk effect]]
+*[[Octave illusion]]/Deutsch&amp;apos;s High-Low Illusion
+*the [[Shepard-Risset tone]] or scale, and the [[Deutsch tritone paradox]]
+*the [[constant spectrum melody]]
+* {{File:Risset_accelerando_beat1_MCLD.ogg|title:Risset&amp;apos;s rhythmic effect}}: Forever accelerating beat.
+
+==See also==
+*[[Musical acoustics]]
+*[[Psychoacoustics]]
+*[[Jean-Claude Risset]]
+*[[Auditory system]]
+*[[Barber pole]] – auditory illusions compared to visual illusions
+*[[Doppler effect]] – not an illusion, but real physical phenomenon
+*[[Holophonics]]
+*[[Phantom rings]]
+*[[Pitch circularity]]
+*[[Tinnitus]]
+
+==Notes==
+{{reflist}}
+
+== External links ==
+*[http://deutsch.ucsd.edu/ Diana Deutsch&amp;apos;s Web Page]
+*[http://www.virtualbarber.org/page.php?13/ The Virtual Barber - Selection of Auditory Illusions]
+
+{{Portal|psychology|physics|music}}
+[[Category:Auditory illusions]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

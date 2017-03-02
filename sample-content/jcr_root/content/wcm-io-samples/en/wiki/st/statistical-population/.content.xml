@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Statistical population"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Statistical population" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=March 2010}}
+
+A &amp;apos;&amp;apos;&amp;apos;statistical population&amp;apos;&amp;apos;&amp;apos; is a set of entities concerning which [[statistical inference]]s are to be drawn, often based on a [[random sample]] taken from the population. For example, if we are interested in making generalizations about all crows, then the statistical population is the set of all crows that exist now, ever existed, or will exist in the future. Since in this case and many others it is impossible to observe the entire statistical population, due to time constraints, constraints of [[Geography|geographical]] accessibility, and constraints on the researcher&amp;apos;s resources, a researcher would instead observe a [[statistical sample]] from the population in order to attempt to learn something about the population as a whole.
+
+== Subpopulation ==
+{{Expand section|date=March 2009}}
+A [[subset]] of a population is called a &amp;apos;&amp;apos;&amp;apos;subpopulation.&amp;apos;&amp;apos;&amp;apos; If different subpopulations have different properties, so the overall population is  [[heterogeneous]], the properties and response of the overall population can often be better understood if it is first separated into distinct subpopulations. For instance, a particular medicine may have different effects on different subpopulations, and these effects may be obscured or dismissed if such special subpopulations are not identified and examined in isolation.
+
+Similarly, one can often estimate parameters more accurately if one separates out subpopulations: the distribution of heights among people is better modeled by considering men and women as separate subpopulations, for instance.
+
+Populations consisting of subpopulations can be modeled by [[mixture model]]s, which combine the distributions within subpopulations into an overall population distribution. Even if subpopulations are well-modeled by given simple models, the overall population may be poorly fit by a given simple model – poor fit may be evidence for existence of subpopulations. For example, given two equal subpopulations, both normally distributed, if they have the same standard deviation and different means, the overall distribution will exhibit low [[kurtosis]] relative to a single normal distribution – the means of the subpopulations fall on the shoulders of the overall distribution. If sufficiently separated, these form a [[bimodal distribution]], otherwise it simply has a wide peak. Further, it will exhibit [[overdispersion]] relative to a single normal distribution with the given variation. Alternatively, given two subpopulations with the same mean and different standard deviations, the overall population will exhibit high kurtosis, with a sharper peak and heavier tails (and correspondingly shallower shoulders) than a single distribution.
+
+==See also==
+
+*[[Sample (statistics)]]
+*[[Sampling (statistics)]]
+
+==External links==
+*[http://www.socialresearchmethods.net/kb/sampstat.htm Statistical Terms Made Simple]
+
+{{statistics}}
+
+[[Category:Statistical theory]]
+[[Category:Statistical terminology]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

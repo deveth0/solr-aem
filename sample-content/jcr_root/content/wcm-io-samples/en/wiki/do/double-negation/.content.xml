@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Double negation"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Double negation" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Merge from|Double negative elimination|date=March 2012}}
+{{otheruses4|the logical concept|the linguistic concept|double negative|the rule of inference of propositional logic based on the same concept|double negative elimination}}
+In [[propositional calculus|propositional logic]], &amp;apos;&amp;apos;&amp;apos;double negation&amp;apos;&amp;apos;&amp;apos; is the [[theorem]] that states that &amp;quot;If a statement is true, then it is not the case that the statement is not true.&amp;quot; This is expressed by saying that a proposition &amp;apos;&amp;apos;A&amp;apos;&amp;apos; is [[logical equivalence|logically equivalent]] to &amp;apos;&amp;apos;not (not-A&amp;apos;&amp;apos;), or by the formula A ≡ ~(~A) where the sign ≡ expresses logical equivalence and the sign ~ expresses [[negation]].&amp;lt;ref&amp;gt; Or alternate symbolism such as A ↔ ¬(¬A) or Kleene&amp;apos;s *49&amp;lt;sup&amp;gt;o&amp;lt;/sup&amp;gt;: A ∾ ¬¬A (Kleene 1952:119; in the original Kleene uses an elongated tilde ∾ for logical equivalence, approximaed here with a &amp;quot;lazy S&amp;quot;.)&amp;lt;/ref&amp;gt;
+
+Like the [[law of the excluded middle]], this principle is considered to be a [[law of thought]] in [[classical logic]],&amp;lt;ref&amp;gt; Hamilton is discussing [[Hegel]] in the following: &amp;quot;In the more recent systems of philosophy, the universality and necessity of the axiom of Reason has, with other logical laws, been controverted and rejected by speculators on the absolute.[&amp;apos;&amp;apos;On principle of Double Negation as another law of Thought&amp;apos;&amp;apos;, see Fries, &amp;apos;&amp;apos;Logik&amp;apos;&amp;apos;, §41, p. 190; Calker, &amp;apos;&amp;apos;Denkiehre odor Logic und Dialecktik&amp;apos;&amp;apos;, §165, p. 453; Beneke, &amp;apos;&amp;apos;Lehrbuch der Logic&amp;apos;&amp;apos;, §64, p. 41.]&amp;quot; (Hamilton 1860:68)&amp;lt;/ref&amp;gt; but it is disallowed by [[intuitionistic logic]].&amp;lt;ref&amp;gt;The &amp;lt;sup&amp;gt;o&amp;lt;/sup&amp;gt; of Kleene&amp;apos;s formula *49&amp;lt;sup&amp;gt;o&amp;lt;/sup&amp;gt; indicates &amp;quot;the demonstration is not valid for both systems [classical system and intuitionistic system]&amp;quot;, Kleene 1952:101.&amp;lt;/ref&amp;gt;  The principle was stated as a theorem of [[propositional calculus|propositional logic]] by [[Bertrand Russell|Russell]] and [[Alfred Whitehead|Whitehead]] in  &amp;apos;&amp;apos;[[Principia Mathematica]]&amp;apos;&amp;apos; as:
+
+:: &amp;lt;math&amp;gt;\mathbf{*4\cdot13}. \ \ \vdash.\ p \ \equiv \ \thicksim(\thicksim p)&amp;lt;/math&amp;gt;&amp;lt;ref&amp;gt;PM 1952 reprint of 2nd edition 1927 pages 101-102, page 117.&amp;lt;/ref&amp;gt;
+::&amp;quot;This is the principle of double negation, &amp;apos;&amp;apos;i.e.&amp;apos;&amp;apos; a proposition is equivalent of the falsehood of its negation.&amp;quot;
+
+The &amp;apos;&amp;apos;principium contradictiones&amp;apos;&amp;apos; of modern logicians (particularly Leibnitz and Kant) in the formula &amp;apos;&amp;apos;A&amp;apos;&amp;apos; is not not-&amp;apos;&amp;apos;A&amp;apos;&amp;apos;, differs entirely in meaning and application from the Aristotelian proposition [ i.e. [[Law of Contradiction]]: not (&amp;apos;&amp;apos;A&amp;apos;&amp;apos; and not-&amp;apos;&amp;apos;A&amp;apos;&amp;apos;) i.e. ~(&amp;apos;&amp;apos;A&amp;apos;&amp;apos; &amp;amp; ~&amp;apos;&amp;apos;A&amp;apos;&amp;apos;), or not (( &amp;apos;&amp;apos;B&amp;apos;&amp;apos; is &amp;apos;&amp;apos;A&amp;apos;&amp;apos;) and (&amp;apos;&amp;apos;B&amp;apos;&amp;apos; is not-&amp;apos;&amp;apos;A&amp;apos;&amp;apos;))]. This latter refers to the relation between an affirmative and a negative judgment. According to Aristotle, one judgment [&amp;apos;&amp;apos;B&amp;apos;&amp;apos; is judged to be an &amp;apos;&amp;apos;A&amp;apos;&amp;apos;] contradicts another [&amp;apos;&amp;apos;B&amp;apos;&amp;apos; is judged to be a not-&amp;apos;&amp;apos;A&amp;apos;&amp;apos;]. The later proposition [ &amp;apos;&amp;apos;A&amp;apos;&amp;apos; is not not-&amp;apos;&amp;apos;A&amp;apos;&amp;apos; ] refers to the relation between subject and predicate in a single judgment; the predicate contradicts the subject. Aristotle states that one judgment is false when another is true; the later writers [Leibniz and Kant] state that a judgment is in itself and absolutely false, because the predicate contradicts the subject. What the later writers desire is a principle from which it can be known whether certain propositions are in themselves true. From the Aristotelian proposition we cannot immediately infer the truth or falsehood of any particular proposition, but only the impossibility of believing both affirmation and negation at the same time.&amp;lt;ref&amp;gt;Sigwart &amp;apos;&amp;apos;1895:142-143&amp;lt;/ref&amp;gt;
+
+==Footnotes==
+{{reflist}}
+
+==References==
+*[[Sir William Hamilton, 9th Baronet|William Hamilton]], 1860, &amp;apos;&amp;apos;Lectures on Metaphysics and Logic, Vol. II. Logic; Edited by Henry Mansel and John Veitch&amp;apos;&amp;apos;, Boston, Gould and Lincoln. Available online from googlebooks.
+*[[Christoph Sigwart]], 1895, &amp;apos;&amp;apos;Logic: The Judgment, Concept, and Inference; Second Edition, Translated by Helen Dendy&amp;apos;&amp;apos;, Macmillan &amp;amp; Co. New York. Available online from googlebooks.
+*[[Stephen C. Kleene]], 1952, &amp;apos;&amp;apos;Introduction to Metamathematics&amp;apos;&amp;apos;, 6th reprinting with corrections 1971,  North-Holland Publishing Company, Amsterdam NY, ISBN 0 7204 2103 9.
+*[[Stephen C. Kleene]], 1967, &amp;apos;&amp;apos;Mathematical Logic&amp;apos;&amp;apos;, Dover edition 2002, Dover Publicastions, Inc, Mineola N.Y. ISBN 0-486-42533-9 (pbk.)
+*[[Alfred North Whitehead]] and [[Bertrand Russell]], &amp;apos;&amp;apos;Principia Mathematica to *56&amp;apos;&amp;apos;, 2nd edition 1927, reprint 1962, Cambridge at the University Press, London UK, no ISBN or LCCCN.
+
+{{logic-stub}}
+
+[[Category:Theorems in propositional logic]]
+[[Category:Classical logic]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

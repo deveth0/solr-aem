@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Generic function"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Generic function" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Distinguish|generalized function}}
+In certain systems for [[object-oriented programming]] such as the [[CLOS|Common Lisp Object System]]&amp;lt;ref&amp;gt;[http://www.dreamsongs.com/Files/ECOOP.pdf The Common Lisp Object System: An Overview]&amp;lt;/ref&amp;gt; and [[Dylan programming language|Dylan]], a &amp;apos;&amp;apos;&amp;apos;generic function&amp;apos;&amp;apos;&amp;apos; is an entity made up of all methods having the same name. Typically a &amp;apos;&amp;apos;generic function&amp;apos;&amp;apos; itself is an instance of a class that inherits both from &amp;apos;&amp;apos;function&amp;apos;&amp;apos; and &amp;apos;&amp;apos;standard-object&amp;apos;&amp;apos;. Thus generic functions are both functions (that can be called with and applied to arguments) and ordinary objects. The book &amp;apos;&amp;apos;[[The Art of the Metaobject Protocol]]&amp;apos;&amp;apos; explains the implementation and usage of CLOS generic functions in detail.
+
+[[Flavors (programming language)|Flavors]] is one of the early object-oriented extensions to Lisp. It used the usual message sending paradigm influenced by [[Smalltalk]]. The syntax for sending a message in Flavors is:
+
+&amp;lt;source lang=&amp;quot;lisp&amp;quot;&amp;gt;
+ (send object :message)
+&amp;lt;/source&amp;gt;
+
+With New Flavors it was decided the  message should be a real function and the usual function calling syntax should be used:
+
+&amp;lt;source lang=&amp;quot;lisp&amp;quot;&amp;gt;
+ (message object)
+&amp;lt;/source&amp;gt;
+
+&amp;apos;&amp;apos;message&amp;apos;&amp;apos; now is a &amp;apos;&amp;apos;generic function&amp;apos;&amp;apos;, an object and function in its own right. Individual implementations of the &amp;apos;&amp;apos;message&amp;apos;&amp;apos; are called &amp;apos;&amp;apos;methods&amp;apos;&amp;apos;.
+
+The same idea was implemented in [[CommonLoops]].&amp;lt;ref&amp;gt;[http://www2.parc.com/istl/groups/gir/papers/stefik-commonloops-oopsla66.pdf CommonLoops, Merging Lisp and Object-Oriented Programming]&amp;lt;/ref&amp;gt; New Flavors and CommonLoops were the main influence for the Common Lisp Object System.
+
+== Example ==
+=== Common Lisp ===
+Define a generic function with two parameters object-1 and object-2. The name of the generic function is &amp;apos;&amp;apos;collide&amp;apos;&amp;apos;.
+&amp;lt;source lang=&amp;quot;lisp&amp;quot;&amp;gt;
+ (defgeneric collide (object-1 object-2))
+&amp;lt;/source&amp;gt;
+
+Methods belonging to the generic function are defined outside of classes.
+Here we define a method for the generic function &amp;apos;&amp;apos;collide&amp;apos;&amp;apos; which is specialized for the classes asteroid (first parameter object-1) and spaceship (second parameter object-2). The parameters are used as normal variables inside the method body. There is no special namespace that has access to class slots.
+&amp;lt;source lang=&amp;quot;lisp&amp;quot;&amp;gt;
+ (defmethod collide ((object-1 asteroid) (object-2 spaceship))
+   (format t &amp;quot;asteroid ~a collides with spaceship ~a&amp;quot; object-1 object-2))
+&amp;lt;/source&amp;gt;
+
+Calling the generic function:
+&amp;lt;source lang=&amp;quot;lisp&amp;quot;&amp;gt;
+? (collide (make-instance &amp;apos;asteroid) (make-instance &amp;apos;spaceship))
+asteroid #&amp;lt;ASTEROID 4020003FD3&amp;gt; collides with spaceship #&amp;lt;SPACESHIP 40200048CB&amp;gt;
+&amp;lt;/source&amp;gt;
+
+Common Lisp can also retrieve individual methods from the generic function. FIND-METHOD finds the method from the generic function &amp;apos;&amp;apos;collide&amp;apos;&amp;apos; specialized for the classes &amp;apos;&amp;apos;asteroid&amp;apos;&amp;apos; and &amp;apos;&amp;apos;spaceship&amp;apos;&amp;apos;.
+&amp;lt;source lang=&amp;quot;lisp&amp;quot;&amp;gt;
+? (find-method #&amp;apos;collide nil (list (find-class &amp;apos;asteroid) (find-class &amp;apos;spaceship)))
+#&amp;lt;STANDARD-METHOD COLLIDE NIL (ASTEROID SPACESHIP) 4150015E43&amp;gt;
+&amp;lt;/source&amp;gt;
+
+== Comparison to other languages ==
+
+Generic functions correspond roughly to what [[Smalltalk]] calls [[Method (computer science)|methods]], with the notable exception that, in Smalltalk,  the receiver&amp;apos;s class is the sole determinant of which body of code is actually called: the types or values of the arguments are irrelevant ([[single dispatch]]). In a programming language with [[multiple dispatch]] when a generic function is called, method dispatch occurs on the basis of all arguments, not just a single privileged one. [[Flavors (programming language)|New Flavors]] also provided generic functions, but only single dispatch.
+
+Another, completely separate definition of &amp;apos;&amp;apos;&amp;apos;generic function&amp;apos;&amp;apos;&amp;apos; is a function that uses [[Type_polymorphism#Parametric_polymorphism|parametric polymorphism]]. This is the definition used when working with a language like [[OCaml]]. An example of a generic function is
+&amp;lt;source lang=&amp;quot;ocaml&amp;quot;&amp;gt;
+let id : &amp;apos;a -&amp;gt; &amp;apos;a = fun x -&amp;gt; x
+&amp;lt;/source&amp;gt;
+which takes an argument of any type and returns something of that same type.
+
+== References ==
+&amp;lt;references/&amp;gt;
+
+{{DEFAULTSORT:Generic Function}}
+[[Category:Method (computer programming)]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

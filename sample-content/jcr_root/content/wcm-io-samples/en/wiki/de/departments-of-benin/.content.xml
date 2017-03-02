@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Departments of Benin"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Departments of Benin" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Politics of Benin}}
+{{stack|[[File:Benin departements.png|thumb|Departments of Benin]]}}
+[[Benin]] is divided into 12 [[Department (subnational entity)|departments]] (French: &amp;apos;&amp;apos;départements&amp;apos;&amp;apos;), and subdivided into 77 [[commune (subnational entity)|communes]] (see [[Communes of Benin]]). In 1999, the previous six departments were each split into two halves, forming the current 12. The new six departments have been assigned a capital in 2008.
+#[[Alibori Department|Alibori]]*
+#[[Atakora Department|Atakora]]
+#[[Atlantique Department|Atlantique]]
+#[[Borgou Department|Borgou]]
+#[[Collines Department|Collines]]*
+#[[Kouffo Department|Kouffo]]*
+#[[Donga Department|Donga]]*
+#[[Littoral Department|Littoral]]*
+#[[Mono Department|Mono]]
+#[[Ouémé Department|Ouémé]]
+#[[Plateau Department|Plateau]]*
+#[[Zou Department|Zou]]
+&amp;lt;small&amp;gt;&amp;lt;nowiki&amp;gt;*&amp;lt;/nowiki&amp;gt;Formed in 1999&amp;lt;/small&amp;gt;
+
+== See also ==
+* [[Communes of Benin]]
+* [[ISO 3166-2:BJ]], the  [[International Organization for Standardization|ISO]] codes for the departments of Benin.
+
+== References ==
+* {{statoids|id=ubj|title=Departments of Benin}}
+* {{fr icon}} http://www.ambassade-benin.org/article20.html
+* {{fr icon}} [http://www.insae-bj.org/doc/Publications/Projection_Population_Benin_par_Departement_2002_A_2030.pdf Projections De La Population Du Benin Par Departement]
+
+{{Departments of Benin}}
+{{Articles on first-level administrative divisions of African countries}}
+
+&amp;lt;!--Categories--&amp;gt;
+[[Category:Departments of Benin| ]]
+[[Category:Subdivisions of Benin]]
+[[Category:Lists of country subdivisions|Benin, Departments]]
+[[Category:Country subdivisions of Africa|Benin 1]]
+[[Category:First-level administrative country subdivisions|Departments, Benin]]
+[[Category:Benin geography-related lists]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

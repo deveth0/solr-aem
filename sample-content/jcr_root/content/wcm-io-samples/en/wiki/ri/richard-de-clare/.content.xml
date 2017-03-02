@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Richard de Clare"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Richard de Clare" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Richard de Clare&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+*[[Richard fitz Gilbert]] (died 1090), lord of Clare and of Tonbridge, ancestor of the Clare family.
+*[[Richard fitz Gilbert de Clare]] (d. 15 April 1136), Anglo-Norman lord
+*[[Richard de Clare, 1st Earl of Hertford]] (1094–1136), Anglo-Norman lord
+*[[Richard de Clare, 2nd Earl of Pembroke]] (1130–1176), Cambro-Norman lord known as &amp;quot;Strongbow&amp;quot;
+*[[Richard de Clare, 3rd Earl of Hertford]] (1162–1218), known as Earl of Clare, led in negotiations for the Magna Carta
+*[[Richard de Clare, 5th Earl of Hertford]] (1222–1262), also 2nd Earl of Gloucester
+*[[Richard de Clare, Steward of Forest of Essex]] (1278–1318), killed at the Battle of Dysert O&amp;apos;Dea in Ireland
+
+==See also==
+* [[de Clare]]
+
+{{hndis|De Clare, Richard}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

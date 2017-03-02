@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Qinghe Railway Station"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Qinghe Railway Station" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{coord|40|02|19|N|116|18|36|E|type:railwaystation|display=title}}
+[[Image:20060416104005 - 清河站.gif|right|240px|thumbnail|Qinghe railway station (click for bigger version)]]
+&amp;apos;&amp;apos;&amp;apos;Qinghe railway station&amp;apos;&amp;apos;&amp;apos; ({{zh|c=清河站|p=Qīnghé Zhàn}}) is a railway station in [[Beijing]].
+
+== Schedules ==
+There are 5 passenger trains stop at the station everyday:
+{| class=&amp;quot;wikitable&amp;quot;
+! Train No. !! Arrive !! Depart !! Stops !!
+|-
+| Y575 || 13:28 || 13:29 || 1&amp;amp;nbsp;min || [[Beijing North Railway Station|Beijing north]] – [[Yanqing railway station|Yanqing]]
+|-
+| 4449 || 17:15 || 17:23 || 8&amp;amp;nbsp;min || [[Beijing North Railway Station|Beijing north]] – [[Longhua railway station|Longhua]]
+|-
+| 4450 || 14:38 || 14:39|| 1&amp;amp;nbsp;min || [[Longhua railway station|Longhua]] – [[Beijing North Railway Station|Beijing north]]
+|-
+| 6453 || 06:31 || 06:38 || 7&amp;amp;nbsp;min || [[Beijing North Railway Station|Beijing north]] – [[Luanping railway station|Luanping]]
+|-
+| 6454 || 20:58 || 21:16 || 18&amp;amp;nbsp;min || [[Luanping railway station|Luanping]] – [[Beijing North Railway Station|Beijing north]]
+|}
+&amp;apos;&amp;apos;&amp;apos;Note: &amp;apos;&amp;apos;&amp;apos; Updated in Sep. 2010.
+
+== See also ==
+* [[Qinghe]]
+
+{{s-rail-start}}
+{{s-rail|title=CR}}
+{{s-line|system=CR|line=Jingbao|branch=[[Jingzhang Railway]]|previous=Qinghuayuan|next=Shahe|}}
+{{s-rail-next|title=BJS}}
+{{s-line|system=BJS|line=S2|previous=Qinghuayuan|next=Shahe}}
+{{end}}
+{{Beijing Subway Station|lineS2=yes}}
+
+[[Category:Railway stations in Beijing]]
+
+
+
+{{Beijing-railstation-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

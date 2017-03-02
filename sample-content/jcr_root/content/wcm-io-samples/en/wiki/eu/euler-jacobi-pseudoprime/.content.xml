@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Euler–Jacobi pseudoprime"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Euler–Jacobi pseudoprime" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[number theory]], an [[odd number|odd]] [[integer]] &amp;apos;&amp;apos;n&amp;apos;&amp;apos; is called an &amp;apos;&amp;apos;&amp;apos;Euler–Jacobi probable prime&amp;apos;&amp;apos;&amp;apos; (or, more commonly, an &amp;apos;&amp;apos;&amp;apos;Euler probable prime&amp;apos;&amp;apos;&amp;apos;) to base &amp;apos;&amp;apos;a&amp;apos;&amp;apos;, if &amp;apos;&amp;apos;a&amp;apos;&amp;apos; and &amp;apos;&amp;apos;n&amp;apos;&amp;apos; are [[coprime]], and
+
+: &amp;apos;&amp;apos;a&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;(&amp;apos;&amp;apos;n&amp;apos;&amp;apos; &amp;amp;minus; 1)/2&amp;lt;/sup&amp;gt; ≡ (&amp;apos;&amp;apos;a&amp;apos;&amp;apos;/&amp;apos;&amp;apos;n&amp;apos;&amp;apos;)   ([[modular arithmetic|mod]] &amp;apos;&amp;apos;n&amp;apos;&amp;apos;),
+
+where (&amp;apos;&amp;apos;a&amp;apos;&amp;apos;/&amp;apos;&amp;apos;n&amp;apos;&amp;apos;) is the [[Jacobi symbol]].
+
+If &amp;apos;&amp;apos;n&amp;apos;&amp;apos; is a [[composite number|composite]] integer that satisfies the above congruence, then &amp;apos;&amp;apos;n&amp;apos;&amp;apos; is called an &amp;apos;&amp;apos;&amp;apos;Euler–Jacobi pseudoprime&amp;apos;&amp;apos;&amp;apos; (or, more commonly, an &amp;apos;&amp;apos;&amp;apos;Euler pseudoprime&amp;apos;&amp;apos;&amp;apos;).
+
+== Properties ==
+
+The motivation for this definition is the fact that all [[prime number]]s &amp;apos;&amp;apos;n&amp;apos;&amp;apos; satisfy the above equation, as explained in the [[Legendre symbol]] article. The equation can be tested rather quickly, which can be used for probabilistic [[prime testing|primality testing]]. These tests are over twice as strong as tests based on [[Fermat&amp;apos;s little theorem]].
+
+Every Euler–Jacobi pseudoprime is also a Fermat [[pseudoprime]] and an [[Euler pseudoprime]]. There are no numbers which are Euler–Jacobi pseudoprimes to all bases as [[Carmichael number]]s are. Solovay and Strassen showed that for every composite &amp;apos;&amp;apos;n&amp;apos;&amp;apos;, for at least &amp;apos;&amp;apos;n&amp;apos;&amp;apos;/2 bases less than &amp;apos;&amp;apos;n&amp;apos;&amp;apos;, &amp;apos;&amp;apos;n&amp;apos;&amp;apos; is not an Euler–Jacobi pseudoprime.
+
+The smallest Euler–Jacobi pseudoprime base 2 is 561. There are 11347 Euler–Jacobi pseudoprimes base 2 that are less than 25·10&amp;lt;sup&amp;gt;9&amp;lt;/sup&amp;gt; (page 1005 of &amp;lt;ref name=&amp;quot;PSW&amp;quot;&amp;gt;{{cite journal|coauthors = [[John L. Selfridge]], [[Samuel S. Wagstaff, Jr.]]|title=The pseudoprimes to 25·10&amp;lt;sup&amp;gt;9&amp;lt;/sup&amp;gt;|journal=Mathematics of Computation|year=1980|month=July|volume=35|issue=151|pages=1003–1026|url=http://www.math.dartmouth.edu/~carlp/PDF/paper25.pdf|author = [[Carl Pomerance]]| doi=10.1090/S0025-5718-1980-0572872-7 }}&amp;lt;/ref&amp;gt;).
+
+In the literature (for example,&amp;lt;ref name=&amp;quot;PSW&amp;quot;/&amp;gt;), an Euler–Jacobi pseudoprime as defined above is often called simply an Euler pseudoprime.
+
+== Examples ==
+
+The table below gives all Euler–Jacobi pseudoprimes less than 10000 for some prime bases &amp;apos;&amp;apos;a&amp;apos;&amp;apos;.
+{| class=&amp;quot;wikitable&amp;quot;
+|-
+| &amp;apos;&amp;apos;a&amp;apos;&amp;apos;
+| &amp;amp;nbsp;
+|-
+| 2
+| 561, 1105, 1729, 1905, 2047, 2465, 3277, 4033, 4681, 6601, 8321, 8481
+|-
+| 3
+| 121, 703, 1729, 1891, 2821, 3281, 7381, 8401, 8911
+|-
+| 5
+| 781, 1541, 1729, 5461, 5611, 6601, 7449, 7813
+|-
+| 7
+| 25, 325, 703, 2101, 2353, 2465, 3277, 4525
+|-
+| 11
+| 133, 793, 2047, 2465, 4577, 4921, 5041, 5185
+|-
+| 13
+| 85, 105, 1099, 1785, 5149, 7107, 8841, 8911, 9577, 9637
+|-
+| 17
+| 9, 91, 145, 781, 1111, 1305, 2821, 4033, 4187, 5365, 5833, 6697, 7171
+|-
+| 19
+| 9, 45, 49, 169, 343, 1849, 2353, 2701, 3201, 4033, 4681, 6541, 6697, 7957, 8281, 9997
+|-
+| 23
+| 169, 265, 553, 1271, 1729, 2465, 2701, 4033, 4371, 4681, 6533, 6541, 7189, 7957, 8321, 8651, 8911, 9805
+|-
+| 29
+| 15, 91, 341, 469, 871, 2257, 4371, 4411, 5149, 5185, 6097, 8401, 8841
+|-
+| 31
+| 15, 49, 133, 481, 931, 2465, 6241, 7449, 8911, 9131
+|-
+| 37
+| 9, 451, 469, 589, 685, 817, 1233, 1333, 1729, 3781, 3913, 4521, 5073, 8905, 9271
+|-
+| 41
+| 21, 105, 231, 671, 703, 841, 1065, 1281, 1387, 1417, 2465, 2701, 3829, 8321, 8911
+|-
+| 43
+| 21, 25, 185, 385, 925, 1541, 1729, 1807, 2465, 2553, 2849, 3281, 3439, 3781, 4417, 6545, 7081, 8857
+|-
+| 47
+| 65, 85, 221, 341, 345, 703, 721, 897, 1105, 1649, 1729, 1891, 2257, 2465, 5461, 5865, 6305, 9361, 9881
+|-
+| 53
+| 9, 27, 91, 117, 1405, 1441, 1541, 2209, 2529, 2863, 3367, 3481, 5317, 6031, 9409
+|-
+| 59
+| 15, 145, 451, 1141, 1247, 1541, 1661, 1991, 2413, 2465, 3097, 4681, 5611, 6191, 7421, 8149, 9637
+|-
+| 61
+| 15, 217, 341, 1261, 2465, 2701, 2821, 3565, 3661, 6541, 6601, 6697, 7613, 7905
+|-
+| 67
+| 33, 49, 217, 561, 703, 1105, 1309, 1519, 1729, 2209, 2245, 5797, 6119, 7633, 8029, 8371
+|-
+| 71
+| 9, 35, 45, 1387, 1729, 1921, 2071, 2209, 2321, 2701, 4033, 6541, 7957, 8365, 8695, 9809
+|-
+| 73
+| 9, 65, 205, 259, 333, 369, 533, 585, 1441, 1729, 1921, 2553, 2665, 3439, 5257, 6697
+|-
+| 79
+| 39, 49, 65, 91, 301, 559, 637, 1649, 2107, 2465, 2701, 3913, 6305, 6533, 7051, 8321, 9881
+|-
+| 83
+| 21, 65, 231, 265, 561, 689, 703, 861, 1105, 1241, 1729, 2665, 3277, 3445, 4411, 5713, 6601, 6973, 7665, 8421
+|-
+| 89
+| 9, 15, 45, 153, 169, 1035, 1441, 2097, 2611, 2977, 3961, 4187, 5461, 6697, 7107, 7601, 7711
+|-
+| 97
+| 49, 105, 341, 469, 481, 949, 973, 1065, 2701, 3283, 3577, 4187, 4371, 4705, 6811, 8023, 8119, 8911, 9313
+|}
+
+==See also==
+* [[Probable prime]]
+
+== References ==
+{{reflist}}
+
+{{Classes of natural numbers}}
+{{DEFAULTSORT:Euler-Jacobi Pseudoprime}}
+[[Category:Pseudoprimes]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

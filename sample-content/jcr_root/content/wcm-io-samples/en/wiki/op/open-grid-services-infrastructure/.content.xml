@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Open Grid Services Infrastructure"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Open Grid Services Infrastructure" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;Open Grid Services Infrastructure&amp;apos;&amp;apos;&amp;apos; (OGSI) was published by the [[Global Grid Forum|Global Grid Forum (GGF)]] as a proposed recommendation in June 2003.&amp;lt;ref name=&amp;quot;proposal&amp;quot;&amp;gt;{{cite web|url=http://www.ggf.org/documents/GFD.15.pdf|title=Open Grid Services Infrastructure, version 1.0, Proposed Recommendation|publisher=[[Global Grid Forum]]|date=2003-06-23|format=pdf}}&amp;lt;/ref&amp;gt; It was intended to provide an infrastructure layer for the [[Open Grid Services Architecture|Open Grid Services Architecture (OGSA)]]. OGSI takes the statelessness issues (along with others) into account by essentially extending [[Web services]] to accommodate [[grid computing]] resources that are both transient and stateful.
+
+==Obsolescence==
+Web services groups started to integrate their own approaches to capturing state into the [[Web Services Resource Framework]] (WSRF). With the release of [[Globus Toolkit|GT4]], the open source tool kit is migrating back to a pure Web services implementation (rather than OGSI), via integration of the WSRF. &amp;lt;ref name=&amp;quot;gridties&amp;quot;&amp;gt;{{cite web|url=http://www-128.ibm.com/developerworks/grid/library/gr-gridstack1/index.html#N100AE|title=Grid Stack: Security debrief: Grid&amp;apos;s ties to Web services|date=2005-05-17|publisher=IBM}}&amp;lt;/ref&amp;gt;
+
+&amp;quot;OGSI, which was the former set of extensions to Web services to provide stateful interactions -- I would say at this point is obsolete,&amp;quot; Jay Unger said. &amp;quot;That was the model that was used in the Globus Toolkit 3.0, but it&amp;apos;s been replaced by WSRF, WS-Security, and the broader set of Web services standards. But OGSA, which focuses on specific service definition in the areas of execution components, execution modeling, grid data components, and information virtualization, still has an important role to play in the evolution of standards and open source tool kits like Globus.&amp;quot;&amp;lt;ref name=&amp;quot;gridties&amp;quot;/&amp;gt;
+
+==Implementations==
+* [[Globus Toolkit]] version 3 contains an implementation of OGSI.
+
+==References==
+{{reflist}}
+
+[[Category:Grid computing]]
+
+{{compu-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

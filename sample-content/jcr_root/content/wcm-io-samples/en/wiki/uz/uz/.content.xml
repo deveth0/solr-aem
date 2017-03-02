@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Uz"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Uz" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|uz|UZ|.uz}}
+&amp;apos;&amp;apos;&amp;apos;UZ&amp;apos;&amp;apos;&amp;apos;, &amp;apos;&amp;apos;&amp;apos;Uz&amp;apos;&amp;apos;&amp;apos;, or &amp;apos;&amp;apos;&amp;apos;uz&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+==Names==
+* Uz or [[Oghuz Turks]], a group of loosely linked nomadic Turkic peoples
+* [[Uz (son of Aram)]], one of the sons of Aram, son of Shem, according to the Hebrew Bible
+* [[Johann Uz]] (1720-1796), German anacreontic poet
+
+==Places==
+*[[Uz, Kentucky]]
+* The [[Land of Uz]], was [[Job (Bible)|Job&amp;apos;s]] homeland, according to [[Old Testament|The Old Testament]] [[Book of Job]].
+* [[Uyts]], Armenia, also called &amp;apos;&amp;apos;Uz&amp;apos;&amp;apos;
+* [[Uz River]], a river and a valley in Romania
+* [[Uzbekistan]], a country in Central Asia, formerly part of the Soviet Union
+** [[.uz]], reserved top-level domain for Uzbekistan
+* [[Ukrzaliznytsia]], the national railway company of Ukraine
+* [[University of Zaragoza]], a public university in Aragón, Spain
+* [[University of Zimbabwe]]
+* [[Universidad de Zamboanga]], in Zamboanga City, Philippines
+
+==Other==
+* [[Uzbek language]], ISO 639-1
+* [[Uzès]], a commune of the Gard {{lang|fr|&amp;apos;&amp;apos;département&amp;apos;&amp;apos;}} in southern France
+* [[Urban Zone]], a lifestyle program focusing on house design, architecture and interior
+* The IATA Code for [[Buraq Air]]
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

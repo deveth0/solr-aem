@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Administrative region"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Administrative region" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{for|the generic meaning |Political division}}
+{{unreferenced|date=February 2013}}
+&amp;apos;&amp;apos;&amp;apos;Administrative region&amp;apos;&amp;apos;&amp;apos; is a [[term of art]] used for a type [[territorial entity]] in Brazil.
+
+The official name is &amp;apos;&amp;apos;região administrativa&amp;apos;&amp;apos; abbreviated, RA.
+
+For specific entities see: [[List of administrative regions of the Federal District (Brazil)]].
+
+{{Types of administrative country subdivision|state=expand}}
+[[Category:Types of country subdivisions]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

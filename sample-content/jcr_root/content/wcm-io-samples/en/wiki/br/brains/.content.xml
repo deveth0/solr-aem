@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Brains"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Brains" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Brains&amp;apos;&amp;apos;&amp;apos; is predominantly the plural of &amp;apos;&amp;apos;[[brain]]&amp;apos;&amp;apos;.
+
+&amp;apos;&amp;apos;&amp;apos;Brains&amp;apos;&amp;apos;&amp;apos; may also refer to:
+
+* [[Brains, Loire-Atlantique]], commune of the Loire-Atlantique &amp;apos;&amp;apos;département&amp;apos;&amp;apos;, in France
+* [[Brains (Thunderbirds)]], scientist marionette character from the &amp;apos;&amp;apos;Thunderbirds&amp;apos;&amp;apos; television series
+* [[Brains (Transformers)]], a robot character in the &amp;apos;&amp;apos;Transformers&amp;apos;&amp;apos; franchise
+* &amp;quot;[[BRAINS!]]&amp;quot;, song by the musician Voltaire, from the television show &amp;apos;&amp;apos;The Grim Adventures of Billy and Mandy&amp;apos;&amp;apos;
+* &amp;quot;Brains&amp;quot;, song by the band Lower Dens from their album &amp;apos;&amp;apos;[[Nootropics (album)|Nootropics]]&amp;apos;&amp;apos;
+* [[Brains Brewery]], brewery in Cardiff, Wales, sponsor of the Welsh rugby team
+* [[The Brains]], Atlanta band who did the original version of the song &amp;quot;Money Changes Everything&amp;quot;
+* The brain of an animal, when described as [[Brain (food)|food]]
+
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

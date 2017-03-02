@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Twist (poker)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Twist (poker)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Twist&amp;apos;&amp;apos;&amp;apos; is [[poker]] [[Poker jargon|jargon]] for a round with specific rules which is sometimes used in the [[List of poker variants|poker variant]] [[stud poker]].
+
+One can replace any round of (or add a round to) a [[stud poker]] game with a twist round, in which each player is offered the option to replace exactly one card in his hand with a new one from the remaining deck stub.
+This is similar to the draw phase of [[draw poker]], differing in the following way: if the player chooses to replace a downcard, he discards it and is dealt a replacement card also face down; if he wishes to replace an upcard, he discards it and receives the replacement face up.
+On a twist round, players make the decision of which card to replace in turn starting with the player who bet first on the preceding round (usually the player whose upcards make the best hand), discarding the card they choose to replace, if any.
+After everyone has made their decision, the replacement cards are dealt starting at the dealer&amp;apos;s left as usual.
+
+Sometimes replacement cards are &amp;quot;bought&amp;quot; by requiring a player to add a fixed amount to the pot to be able to get a replacement.
+{{Unreferenced|date=January 2007}}
+
+{{DEFAULTSORT:Twist (Poker)}}
+[[Category:Poker gameplay and terminology]]
+[[Category:Stud poker]]
+
+
+{{Poker-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

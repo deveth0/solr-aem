@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="LIX"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="LIX" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;LIX&amp;apos;&amp;apos;&amp;apos; is a [[readability test|readability measure]] indicating the difficulty of reading a text&amp;lt;ref&amp;gt;http://reap.cs.cmu.edu/Papers/IASTED-HCI-05-jonbrown.pdf&amp;lt;/ref&amp;gt; developed by [[Swedes|Swedish]] scholar [[Carl-Hugo Björnsson]]. It is computed as follows:
+
+&amp;lt;math&amp;gt;\text{LIX} = \frac{A}{B} + \frac{C \cdot 100}{A}&amp;lt;/math&amp;gt;, where
+
+&amp;lt;math&amp;gt;A&amp;lt;/math&amp;gt; is the number of words,
+
+&amp;lt;math&amp;gt;B&amp;lt;/math&amp;gt; is the number of periods (defined by period, colon or capital first letter), and
+
+&amp;lt;math&amp;gt;C&amp;lt;/math&amp;gt; is the number of long words (more than 6 letters).&amp;lt;ref&amp;gt;[http://www.iva.dk/bh/core%20concepts%20in%20lis/articles%20a-z/readability.htm ]&amp;lt;/ref&amp;gt;
+
+==References==
+&amp;lt;references/&amp;gt;
+
+==Further reading==
+* Björnsson, C. H. (1968). Läsbarhet. Stockholm: Liber.
+* Björnsson, C. H. (1971). Læsbarhed. København: Gad.
+
+==External links==
+* {{Official website|http://www.lix.se/ }}
+* [http://www.standards-schmandards.com/exhibits/rix/ Calculator for LIX and other readability indices]
+
+[[Category:Readability tests]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

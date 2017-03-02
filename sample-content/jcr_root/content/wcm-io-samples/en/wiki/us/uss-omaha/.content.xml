@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="USS Omaha"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="USS Omaha" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Italic title prefixed|3}}
+Three ships of the [[United States Navy]] have been named &amp;apos;&amp;apos;&amp;apos;USS &amp;apos;&amp;apos;Omaha&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; after the city of [[Omaha, Nebraska|Omaha]], [[Nebraska]]. A fourth has been announced.
+
+* {{USS|Omaha|1869}} was an {{sclass-|Algoma|screw sloop}} commissioned in 1872 that served in the Atlantic and Asiatic Squadrons, scrapped in 1914.
+* {{USS|Omaha|CL-4}} was the lead ship of the {{sclass-|Omaha|cruiser|0}} light cruiser commissioned in 1923, served during World War II, scrapped in 1946.
+* {{USS|Omaha|SSN-692}} was a {{sclass-|Los Angeles|submarine}} commissioned in 1978 that served during the last years of the Cold War, and which has been decommissioned and laid up at the [[Puget Sound Naval Shipyard and Intermediate Maintenance Facility]] since 1995.
+* {{USS|Omaha|LCS-12}} will be an {{sclass-|Independence|littoral combat ship}}.
+
+{{Shipindex|name=Omaha, USS}}
+
+{{DEFAULTSORT:Omaha}}
+[[Category:United States Navy ship names]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

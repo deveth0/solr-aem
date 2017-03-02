@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Diary of a Madman"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Diary of a Madman" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Diary of a Madman&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* [[Diary of a Madman (film)|&amp;apos;&amp;apos;Diary of a Madman&amp;apos;&amp;apos; (film)]], starring Vincent Price
+* [[Diary of a Madman (album)|&amp;apos;&amp;apos;Diary of a Madman&amp;apos;&amp;apos; (album)]], by Ozzy Osbourne
+** [[Diary of a Madman (song)|&amp;quot;Diary of a Madman&amp;quot; (song)]], the album&amp;apos;s title track
+* [[Diary of a Madman (short story)|&amp;quot;Diary of a Madman&amp;quot; (short story)]], short story by Nikolai Gogol
+* &amp;quot;[[A Madman&amp;apos;s Diary]]&amp;quot;, a short story by Lu Xun
+* [[Diary of a Madman (Gravediggaz song)|&amp;quot;Diary of a Madman&amp;quot; (Gravediggaz song)]]
+* &amp;apos;&amp;apos;Diary of a Mad Old Man&amp;apos;&amp;apos;, novel by [[Jun&amp;apos;ichirō Tanizaki]]
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

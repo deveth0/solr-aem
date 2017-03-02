@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Microwave plasma"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Microwave plasma" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{unreferenced|date=July 2008}}
+&amp;apos;&amp;apos;&amp;apos;Microwave plasma&amp;apos;&amp;apos;&amp;apos; is a type of [[Plasma (physics)|plasma]], that has high frequency [[electromagnetic radiation]] in the [[GHz]] range. It is capable of exciting [[electrode]]less [[gas discharge]]s.
+
+==Properties of microwave-excited plasma==
+If applied in [[surface-wave-sustained mode]], they are especially well suited to generate large-area plasmas of high [[plasma density]]. If they are both in [[surface-wave-sustained mode|surface-wave]] and [[resonator mode]], they can exhibit a high degree of spatial localisation. This allows to spatially separate the location of plasma generations from the location of surface processing. Such a separation (together with an appropriate gas-flow scheme) may help reduce the negative effect, that particles released from a processed substrate may have on the [[plasma chemistry]] of the [[gas phase]].
+
+==See also==
+* [[Afterglow plasma]]
+* [[Gas discharge]]
+* [[List of plasma (physics) articles]]
+* [[Sulfur lamp]]
+
+==External links==
+* [http://jlnlabs.online.fr/plasma/gmrtst/  Generating plasmoid in household microwave oven.]
+* [http://www.fbh-berlin.com/business-areas/microwave-components-systems/microwave-plasma/  Atmospheric microwave microplasma sources at Ferdinand-Braun-Institut (FBH).]
+
+{{Mass spectrometry}}
+
+{{DEFAULTSORT:Microwave Plasma}}
+[[Category:Plasma physics]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Scincus"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Scincus" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{italictitle}}
+{{Taxobox
+| name = &amp;apos;&amp;apos;Scincus&amp;apos;&amp;apos;
+| image = Apothekerskink01.jpg
+| image_width = 240px
+| image_caption = [[Scincus scincus|Sandfish]], &amp;apos;&amp;apos;Scincus scincus&amp;apos;&amp;apos;
+| regnum = [[Animal]]ia
+| phylum = [[Chordata]]
+| classis = [[Reptilia]] &amp;lt;small&amp;gt;([[paraphyletic]])&amp;lt;/small&amp;gt;
+| unranked_ordo = [[Sauria]]
+| ordo = [[Squamata]] &amp;lt;small&amp;gt;([[paraphyletic]])&amp;lt;/small&amp;gt;
+| infraordo = [[Scincomorpha]]
+| familia = [[Scincidae]]
+| subfamilia = [[Scincinae]]
+| genus = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Scincus&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+| genus_authority = [[Josephus Nicolaus Laurenti|Laurenti]], 1768
+| subdivision_ranks = Species
+| subdivision =
+3, see text
+}}
+
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Scincus&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is a [[genus]] of [[skink]]s ([[family (biology)|family]] Scincidae). All three species are typical desert inhabitants, living in sandy and dune-like areas with a hot and dry climate. They can be found from [[Arabia]] to the [[Sahara desert]].
+
+Thius is the [[type (biology)|type]] genus of the [[subfamily]] [[Scincinae]]. As that group appears to be [[paraphyletic]] and is in need of revision, it is as yet undetermined which skink genera are closely enough related to &amp;apos;&amp;apos;Scincus&amp;apos;&amp;apos; to be retained in the Scincinae.(Austin &amp;amp; Arnold 2006).
+
+&amp;apos;&amp;apos;&amp;apos;Species&amp;apos;&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Scincus hemprichii]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;Scincus mitranus&amp;apos;&amp;apos;, [[Eastern skink]]
+*&amp;apos;&amp;apos;Scincus scincus&amp;apos;&amp;apos;, [[Scincus scincus|Sandfish]]
+
+==References==
+* {{aut|Austin, J.J. &amp;amp; Arnold, E.N.}} (2006): Using ancient and recent DNA to explore relationships of extinct and endangered &amp;apos;&amp;apos;Leiolopisma&amp;apos;&amp;apos; skinks (Reptilia: Scincidae) in the Mascarene islands. &amp;apos;&amp;apos;Molecular Phylogenetics and Evolution&amp;apos;&amp;apos; &amp;apos;&amp;apos;&amp;apos;39&amp;apos;&amp;apos;&amp;apos;(2): 503–511. &amp;lt;small&amp;gt;{{doi|10.1016/j.ympev.2005.12.011}}&amp;lt;/small&amp;gt; (HTML abstract)
+
+{{skink-stub}}
+
+[[Category:Skinks]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Template:WikiProject Primates"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Template:WikiProject Primates" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{WPBannerMeta
+|PROJECT             = Primates
+ |substcheck=&amp;lt;includeonly&amp;gt;{{subst:&amp;lt;/includeonly&amp;gt;&amp;lt;includeonly&amp;gt;substcheck}}&amp;lt;/includeonly&amp;gt;
+ |small  = {{{small|}}}
+ |category={{{category|¬}}}
+ |listas = {{{listas|}}}
+|IMAGE_LEFT          = Olive baboon1.jpg
+|IMAGE_LEFT_LARGE    = 75px
+|IMAGE_LEFT_SMALL    = 40px
+|PORTAL = Primates
+|QUALITY_SCALE       = subpage
+ |class={{{class|}}}
+ |importance = {{{importance|}}}
+|MAIN_CAT            = WikiProject Primates articles
+|ASSESSMENT_CAT      = Primate articles
+|ASSESSMENT_LINK     = Wikipedia:WikiProject Primates/Assessment
+|attention={{{attention|}}}
+ |ATTENTION_CAT      = Primates articles needing attention
+|note 1={{{needs-audio|}}}
+ |NOTE_1_TEXT        = It is requested that an &amp;apos;&amp;apos;&amp;apos;audio&amp;apos;&amp;apos;&amp;apos; file(s) be [[Wikipedia:Uploading images|included]] in this article to [[Wikipedia:Guide to improving articles|improve its quality]].
+ |NOTE_1_IMAGE       = Gnome-speakernotes.png
+ |NOTE_1_SIZE        = 20px
+ |NOTE_1_CAT         = Wikipedia requested audio of animals
+|note 2={{{needs-photo|}}}
+ |NOTE_2_TEXT        = It is requested that a &amp;apos;&amp;apos;&amp;apos;picture&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;pictures&amp;apos;&amp;apos;&amp;apos; be [[Wikipedia:Uploading images|included]] in this article to [[Wikipedia:Guide to improving articles|improve its quality]].
+ |NOTE_2_IMAGE       = Camera-photo.svg
+ |NOTE_2_SIZE        = 20px
+ |NOTE_2_CAT         = Wikipedia requested photographs of primates
+|HOOK_NOTE           = &amp;lt;!--
+--&amp;gt;{{WPBannerMeta/hooks/collaboration
+ |BANNER_NAME = Template:WikiProject Primates
+ |category={{{category|¬}}}
+ |candidate          = {{{collaboration-candidate|}}}
+ |past               = {{{past-collaboration|}}}
+ |LINK               = Wikipedia:WikiProject Primates/Collaboration
+ |CANDIDATE_CAT      = Primates collaboration canditates
+ |PAST_CAT           = Past Primates collaborations
+}}{{WPBannerMeta/hooks/peerreview
+ |BANNER_NAME = Template:WikiProject Primates
+ |category={{{category|¬}}}
+ |peer review={{{peer-review|}}}
+ |old peer review={{{old-peer-review|}}}
+ |LINK               = Wikipedia:WikiProject Primates/Peer review
+ |CAT                = Requests for Primates peer review
+ |OLD_CAT            = Old requests for Primates peer review
+}}
+|HOOK_COLLAPSED      = {{WPBannerMeta/hooks/notecounter
+ |category={{{category|¬}}}
+ |BANNER_NAME        = Template:WikiProject Primates
+ |note 2={{{peer-review|}}}
+ |note 3={{{old-peer-review|}}}
+ |note 4={{{collaboration-candidate|}}}
+ |note 6={{{past-collaboration|}}}
+}}}}&amp;lt;noinclude&amp;gt;
+{{Documentation}}
+&amp;lt;/noinclude&amp;gt;&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

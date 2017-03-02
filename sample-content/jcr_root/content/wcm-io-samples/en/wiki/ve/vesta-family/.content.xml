@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Vesta family"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Vesta family" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;Vesta&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;Vestian&amp;apos;&amp;apos;&amp;apos; [[asteroid family|&amp;apos;&amp;apos;&amp;apos;family&amp;apos;&amp;apos;&amp;apos; of asteroids]] is a large and prominent grouping of mostly [[V-type asteroid]]s (&amp;quot;vestoids&amp;quot;) in the inner [[asteroid belt]] in the vicinity of [[4 Vesta]].
+
+==Characteristics==
+[[Image:Vesta family.png|left|thumb|350px|Location and structure of the Vesta family.]]
+The Vestian asteroids consist of [[4 Vesta]], the second-most-massive &amp;lt;!--dwarf planet Ceres is also an asteroid--&amp;gt;of all asteroids (mean diameter of 530&amp;amp;nbsp;km), and many small asteroids below 10 km diameter. The brightest of these, [[1929 Kollaa]] and [[2045 Peking]], have an [[absolute magnitude]] of 12.2, which would give them a radius of about 7.5&amp;amp;nbsp;km assuming the same high albedo as [[4 Vesta]].
+
+The family originated from an impact on asteroid [[4 Vesta]], with the giant south-polar crater the likely impact site. The family are thought to be the source of the [[HED meteorite]]s.
+
+The Vesta family also includes a few [[J-type asteroid]]s (related to the [[v-type asteroid|V-type]]), which are thought to have come from the deeper layers of Vesta&amp;apos;s crust, and are similar to the [[diogenite]] meteorites
+
+A HCM numerical analysis by (Zappala 1995) determined a large group of &amp;apos;core&amp;apos; family members, whose [[proper orbital elements]] lie in the approximate ranges
+{| align=&amp;quot;center&amp;quot; style=&amp;quot;border:1px solid #CCC; margin-left:15px;&amp;quot; cellpadding=&amp;quot;5&amp;quot;
+ ! !! &amp;apos;&amp;apos;[[semi-major axis|a&amp;lt;sub&amp;gt;p&amp;lt;/sub&amp;gt;]]&amp;apos;&amp;apos; !! [[Orbital eccentricity|e&amp;lt;sub&amp;gt;p&amp;lt;/sub&amp;gt;]]&amp;apos;&amp;apos; !! &amp;apos;&amp;apos;[[inclination|i&amp;lt;sub&amp;gt;p&amp;lt;/sub&amp;gt;]]&amp;apos;&amp;apos;
+|-
+|min || 2.26 [[Astronomical unit|AU]] || 0.075 || 5.6°
+|-
+|max || 2.48 AU || 0.122 || 7.9°
+|}
+This gives the approximate boundaries of the family. At the present [[epoch (astronomy)|epoch]], the range of  [[osculating orbit|osculating]] [[orbital elements]] of these core members is
+{| align=&amp;quot;center&amp;quot; style=&amp;quot;border:1px solid #CCC; margin-left:15px;&amp;quot; cellpadding=&amp;quot;5&amp;quot;
+! !! &amp;apos;&amp;apos;[[semi-major axis|a]]&amp;apos;&amp;apos; !! [[eccentricity (orbit)|e]]&amp;apos;&amp;apos; !! &amp;apos;&amp;apos;[[inclination|i]]&amp;apos;&amp;apos;
+|-
+| min || 2.26 [[Astronomical unit|AU]] || 0.035 || 5.0°
+|-
+| max || 2.48 AU || 0.162 || 8.3°
+|}
+
+The Zappala 1995 analysis found 235 core members. A search of a recent proper-element database ([http://hamilton.dm.unipi.it/cgi-bin/astdys/astibo?proper_elements:0;main AstDys]) for 96944 [[minor planet]]s in 2005 yielded 6051 objects (about 6% of the total) lying within the Vesta-family region as per the first table above.
+
+==Interlopers==
+Spectroscopic analyses have shown that some of the largest Vestians are in fact interlopers. They are not of the [[V-type asteroid|V]] or [[J-type asteroid|J]] spectral class, but have similar orbital elements by coincidence. These include [[306 Unitas]], [[442 Eichsfeldia]], [[1697 Koskenniemi]], [[1781 Van Biesbroeck]], [[2024 McLaughlin]], [[2029 Binomi]], [[2086 Newell]], [[2346 Lilio]], and others. (Identified by inspection of the [http://www.psi.edu/pds/archive/tax.html PDS asteroid taxonomy data set]).
+
+==References==
+* [[Vincenzo Zappalà|V. Zappalà]], [[Philippe Bendjoya|Ph. Bendjoya]], [[Alberto Cellino|A. Cellino]], [[Paolo Farinella|P. Farinella]] and [[Claude Froeschlé|C. Froeschlé]], &amp;apos;&amp;apos;[http://www.sciencedirect.com/science?_ob=ArticleURL&amp;amp;_udi=B6WGF-45NJHPF-3C&amp;amp;_coverDate=08%2F31%2F1995&amp;amp;_alid=267428521&amp;amp;_rdoc=1&amp;amp;_fmt=&amp;amp;_orig=search&amp;amp;_qd=1&amp;amp;_cdi=6821&amp;amp;_sort=d&amp;amp;view=c&amp;amp;_acct=C000056973&amp;amp;_version=1&amp;amp;_urlVersion=0&amp;amp;_userid=2337731&amp;amp;md5=6a0ee5be29f8c0489e922cb06868ae45 Asteroid Families: Search of a 12,487-Asteroid Sample Using Two Different Clustering Techniques]&amp;apos;&amp;apos;, Icarus, Volume 116, Issue 2 (August 1995), pages 291-314
+* S.J. Bus and R.P. Binzel, &amp;apos;&amp;apos;Phase II of the Small Main-Belt Asteroid Spectroscopic Survey&amp;apos;&amp;apos;, Icarus Vo.. 158, p.&amp;amp;nbsp;106 (2002). [http://smass.mit.edu/Bus.Taxonomy Data set online here].
+*[http://hamilton.dm.unipi.it/cgi-bin/astdys/astibo?proper_elements:0;main AstDys site]. Proper elements for 96944 numbered minor planets.
+
+{{Small Solar System bodies}}
+
+{{DEFAULTSORT:Vesta Family}}
+[[Category:Vestian asteroids|*]]
+[[Category:Asteroid groups and families]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

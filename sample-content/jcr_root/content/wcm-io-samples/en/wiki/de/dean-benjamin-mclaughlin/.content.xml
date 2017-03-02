@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Dean Benjamin McLaughlin"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Dean Benjamin McLaughlin" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Use mdy dates|date=June 2013}}
+&amp;apos;&amp;apos;&amp;apos;Dean Benjamin McLaughlin&amp;apos;&amp;apos;&amp;apos; (born October 25, 1901, [[Brooklyn]], Queens, New York CIty; died December 8, 1965, [[Ann Arbor, Michigan|Ann Arbor]], Michigan, US) was an American [[astronomer]]. He was a professor of astronomy at the University of Michigan. He was the father of the science fiction author [[Dean McLaughlin|Dean B. McLaughlin, Jr.]]
+
+In 1954 he proposed the theory that there are [[volcano]]es on [[Mars]] and that their eruptions change the [[albedo feature]]s called &amp;quot;mare&amp;quot; (The martian equivalent of [[Lunar mare]]). His proposal was partially confirmed in 1971 with the arrival of [[Mariner 9]], which showed that strong winds could move dust around the planet, creating the changes of appearance formerly attributed to some kind of vegetation [http://arxiv.org/abs/0811.2700].
+
+A [[Impact crater|crater]] on Mars [[McLaughlin (Martian crater)|was named]] in his honor, as is the crater [[McLaughlin (lunar crater)|McLaughlin]] on the far side of the Moon and the asteroid [[2024 McLaughlin]].
+
+{{Authority control|VIAF=62935383}}
+
+{{Persondata
+| NAME              =McLaughlin, Dean Benjamin
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION = American astronomer
+| DATE OF BIRTH     = October 25, 1901
+| PLACE OF BIRTH    =
+| DATE OF DEATH     = December 8, 1965
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:McLaughlin, Dean Benjamin}}
+[[Category:1901 births]]
+[[Category:1965 deaths]]
+[[Category:American astronomers]]
+[[Category:University of Michigan faculty]]
+[[Category:People from Brooklyn]]
+
+
+{{US-astronomer-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="World Building"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="World Building" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;World Building can refer to:
+
+* The &amp;apos;&amp;apos;&amp;apos;[[New York World Building]]&amp;apos;&amp;apos;&amp;apos;, the tallest building in the world from 1890 to 1894.
+* The &amp;apos;&amp;apos;&amp;apos;[[Sun Tower]]&amp;apos;&amp;apos;&amp;apos; in [[Vancouver]], [[British Columbia]] was known as the &amp;apos;&amp;apos;&amp;apos;World Building&amp;apos;&amp;apos;&amp;apos; until 1924.
+* [[Worldbuilding]], the process of constructing an imaginary world or milieux.
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

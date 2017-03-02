@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ivan Allen"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ivan Allen" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{about|the ballet dancer|the mayor of Atlanta|Ivan Allen, Jr.}}
+
+&amp;apos;&amp;apos;&amp;apos;Ivan Allen&amp;apos;&amp;apos;&amp;apos; (June 29, 1930 &amp;amp;ndash; May 7, 2012)&amp;lt;ref&amp;gt;[http://obits.dignitymemorial.com/dignity-memorial/obituary.aspx?n=Ivan-Allen&amp;amp;lc=7092&amp;amp;pid=157514731&amp;amp;mid=5096843&amp;amp;locale=es-US In Memory of Ivan Allen] Dignity Memorial.  Retrieved May 27, 2012.&amp;lt;/ref&amp;gt; was an American [[ballet]] dancer who was active as a principal dancer with the [[American Ballet Theatre]] during the 1950s and early 1960s.  He became a principal [[soloist]] with the [[Metropolitan Opera]] in 1964, making his debut with the company in [[Jules Massenet]]&amp;apos;s &amp;apos;&amp;apos;[[Manon]]&amp;apos;&amp;apos; on November 18, 1964.  He appeared with the company 288 times over the next 14 years, making his last appearance on January 12, 1978 in [[Richard Strauss]]&amp;apos;s &amp;apos;&amp;apos;[[Der Rosenkavalier]]&amp;apos;&amp;apos;.&amp;lt;ref&amp;gt;[http://archives.metoperafamily.org/archives/frame.htm Metropolitan Opera Archives] {{WebCite|url=http://www.webcitation.org/5hgjE85PB|date =2009-06-21}}&amp;lt;/ref&amp;gt;
+
+Ivan Allen died on May 7, 2012.&amp;lt;ref&amp;gt;[http://www.legacy.com/obituaries/nytimes/obituary.aspx?n=ivan-g-allen&amp;amp;pid=157593885&amp;amp;fhid=8781 Ivan G. Allen Obituary] New York Times.  May 13, 2012.  Retrieved May 27, 2012.&amp;lt;/ref&amp;gt;
+
+==References==
+{{reflist}}
+
+{{Ballet}}
+
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Allen, Ivan
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION = Ballet dancer
+| DATE OF BIRTH     = June 29, 1930
+| PLACE OF BIRTH    = [[United States]]
+| DATE OF DEATH     = May 7, 2012
+| PLACE OF DEATH    = [[United States]]
+}}
+
+{{DEFAULTSORT:Allen, Ivan}}
+[[Category:American male ballet dancers]]
+[[Category:American Ballet Theatre dancers]]
+[[Category:1930 births]]
+[[Category:2012 deaths]]
+
+
+{{Ballet-bio-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

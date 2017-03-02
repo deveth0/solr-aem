@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Kasimir Graff"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Kasimir Graff" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+&amp;apos;&amp;apos;&amp;apos;Kasimir Romuald Graff&amp;apos;&amp;apos;&amp;apos; (February 7, 1878 &amp;amp;ndash; February 15, 1950) was a [[Germany|German]] [[astronomer]]. He worked as an assistant at the [[Hamburg Observatory]] and became a professor at [[Hamburg]] in 1916. In 1928 he became director of the [[Vienna Observatory]], [[Austria]]. When the [[Nazism|Nazi]] government took over in Austria in 1938, he was forced to retire. It is likely that his family background and his rejection of the Nazi-supported philosophy of &amp;quot;[[Welteislehre]]&amp;quot; was the reason, although he officially was removed because of unproven charges of [[embezzlement]]. He was reinstated in 1945, and he retired in 1949.
+
+Using a 60&amp;amp;nbsp;cm telescope, he was very adept in creating planetary maps from visual observations.
+
+He also worked on measuring radiation emitted from stars, and invented and built new instrumentation for this purpose. This included new types of [[calorimeter]] and [[photometer]] detectors.
+
+==Honors==
+* The crater [[Graff (lunar crater)|Graff]] on the [[Moon]] is named after him.
+* A [[Impact crater|crater]] on [[Mars]] was named in his honor.
+
+{{Authority control|VIAF=72155140}}
+
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Graff, Kasimir
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION = German astronomer
+| DATE OF BIRTH     = February 7, 1878
+| PLACE OF BIRTH    =
+| DATE OF DEATH     = February 15, 1950
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Graff, Kasimir}}
+[[Category:1878 births]]
+[[Category:1950 deaths]]
+[[Category:German astronomers]]
+
+
+{{Germany-astronomer-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Newell"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Newell" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Newell&amp;apos;&amp;apos;&amp;apos; may refer to:
+{{TOCright}}
+==Places==
+;United States
+* [[Newell, Alabama]]
+* [[Newell, California]]
+* [[Newell, Iowa]]
+* [[Newell, Pennsylvania]]
+* [[Newell, South Dakota]]
+* [[Newell, West Virginia]]
+* [[Newell Township (disambiguation)]]
+;Australia
+* [[Newell Highway]], New South Wales
+;Canada
+* [[Newell County, Alberta]]
+
+==People with the surname Newell==
+*[[Newell (surname)]]
+
+==Other uses==
+* [[Alton Newell]], inventor of the Newell Shredder
+* [[Newell Recycling, LLC]], a Georgia-based recycling company
+* [[Newell Rubbermaid]], an American consumer products company
+* [http://www.newellcoach.com Newell Coach], an American luxury RV motor coach manufacturer
+* [[Newell&amp;apos;s Old Boys]], an Argentine soccer team
+
+==See also==
+* [[Newall]]
+* [[Newel (disambiguation)]]
+
+{{disambig}}
+[[Category:Place name disambiguation pages]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

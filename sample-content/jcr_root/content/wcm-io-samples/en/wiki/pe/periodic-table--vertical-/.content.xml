@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Periodic table (vertical)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Periodic table (vertical)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=July 2009}}
+
+The &amp;apos;&amp;apos;&amp;apos;vertical periodic table&amp;apos;&amp;apos;&amp;apos; is a standard [[periodic table]] rotated counter-clockwise and then mirrored across the vertical axis, so that the lower groups are to the left and the number increases to the right. Due to the rotation and the incorporation of the [[lanthanide]]s and [[actinide]]s into the main table, the vertical table is significantly longer vertically than the standard table. Its restricted width allows it to be read on-line without needing to scroll horizontally. It also allows more information in each cell such as the full name of an element.
+{{periodic table (vertical)}}
+{{Periodic tables footer}}
+{{DEFAULTSORT:Periodic Table (Vertical)}}
+[[Category:Periodic table]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

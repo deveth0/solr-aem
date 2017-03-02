@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Independence Party"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Independence Party" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{distinguish2|[[Independent Party (disambiguation)]]}}
+&amp;apos;&amp;apos;&amp;apos;Independence Party&amp;apos;&amp;apos;&amp;apos; can refer to various political parties past and present throughout the world, such as:
+
+*[[Independence Party (Catalonia)]]
+*[[Independence Party (Finland)]]
+*[[Independence Party (Iceland)]] (Sjálfstæðisflokkurinn)
+*[[Independence Party (India)]]
+*[[Independence Party (Morocco)]]
+*[[Independence Party (Palestine)]]
+*[[Estonian Independence Party]]
+*[[Irish Independence Party]]
+*[[Independence (Israeli political party)]]
+*[[Puerto Rican Independence Party]]
+*[[Scottish Independence Party]], United Kingdom
+*[[Taiwan Independence Party]]
+*[[United Kingdom Independence Party]]
+
+In the United States:
+*[[United States Independence Party]] (or &amp;quot;Independence League&amp;quot;), formed by William Randolph Hearst in the early 1900s, now defunct
+*[[Alaskan Independence Party]]
+*[[Independence Party of America]]
+*[[Independence Party of Minnesota]]
+*[[Independence Party of New York]]
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

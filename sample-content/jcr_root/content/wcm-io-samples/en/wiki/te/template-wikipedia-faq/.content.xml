@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Template:Wikipedia FAQ"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Template:Wikipedia FAQ" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;lt;div class=&amp;quot;hlist&amp;quot; style=&amp;quot;text-align: center; padding: 4px 1em; word-spacing: 2px; border: 1px solid #A3B1BF; background:#E6F2FF&amp;quot;&amp;gt;
+* [[Wikipedia:FAQ index|Index of FAQs]]
+* [[Wikipedia:FAQ|Main FAQ]]
+* [[Wikipedia:FAQ/Overview|Overview]]
+* [[Wikipedia:FAQ/Readers|Readers]]
+* [[Wikipedia:FAQ/Schools|Schools]]
+* [[Wikipedia:FAQ/Organizations|Organizations]]
+* [[Wikipedia:FAQ/Contributing|Contributing]]
+* [[Wikipedia:FAQ/Editing|Editing]]
+* [[Wikipedia:FAQ/Administration|Administration]]
+* [[Wikipedia:FAQ/Blocks|Blocks]]
+* [[Wikipedia:FAQ/Technical|Technical]]
+* [[Wikipedia:FAQ/Problems|Problems]]
+* [[Wikipedia:FAQ/Article subjects|Article&amp;amp;nbsp;subjects]]
+* [[Wikipedia:FAQ/Categories|Categories]]
+* [[Wikipedia:FAQ/Categorization|Categorization]]
+* [[Wikipedia:FAQ/Copyright|Copyright]]
+* [[Wikipedia:FAQ/Forking|Forking]]
+* [[Wikipedia:FAQ/Template|Templates]]
+* [[Wikipedia:FAQ/Miscellaneous|Miscellaneous]] &amp;lt;!--
+--&amp;gt; &amp;lt;inputbox&amp;gt;
+     type=fulltext
+     prefix=Wikipedia:FAQ
+     width=22
+     searchbuttonlabel=Search the FAQs
+     break=no
+    &amp;lt;/inputbox&amp;gt; &amp;lt;!--
+--&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;noinclude&amp;gt;
+[[Category:Wikipedia help templates|FAQ]]
+[[zh:Template:WikipediaFAQ]]
+&amp;lt;/noinclude&amp;gt;&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

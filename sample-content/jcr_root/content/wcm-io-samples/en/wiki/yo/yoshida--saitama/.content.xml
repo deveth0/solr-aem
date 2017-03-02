@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Yoshida, Saitama"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Yoshida, Saitama" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[File:Chichibu_ryusei_Fes_1.jpg|thumb|Ryusei Festival in Yoshida]]
+{{Nihongo|&amp;apos;&amp;apos;&amp;apos;Yoshida&amp;apos;&amp;apos;&amp;apos;|吉田町|Yoshida-machi}} was a [[towns of Japan|town]] in [[Chichibu District, Saitama]], Japan.
+
+In 2003, the town had an estimated [[population]] of 5,728 and a [[population density]] of 86.66 persons per km². The total area was 66.10 km².
+
+On April 1, 2005 Yoshida, along with the villages of [[Arakawa, Saitama|Arakawa]] and [[Ōtaki, Saitama|Ōtaki]], all from [[Chichibu District, Saitama|Chichibu District]], was merged into the expanded city of [[Chichibu, Saitama|Chichibu]] and no longer exists as an independent [[municipality of Japan|municipality]].
+
+==External links==
+* [http://www.city.chichibu.saitama.jp/ Chichibu official website] {{ja icon}}
+
+{{Saitama-geo-stub}}
+
+{{coord|36.033|N|139.033|E|region:JP_type:city_source:GNS-enwiki|display=title}}
+
+[[Category:Dissolved municipalities of Saitama Prefecture]]
+[[Category:Chichibu District, Saitama]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

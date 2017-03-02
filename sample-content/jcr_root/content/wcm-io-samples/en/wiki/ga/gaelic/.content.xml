@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Gaelic"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Gaelic" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Wiktionary|Gaelic}}
+{{TOC right}}
+&amp;apos;&amp;apos;&amp;apos;Gaelic&amp;apos;&amp;apos;&amp;apos; is an adjective that means &amp;quot;pertaining to the [[Gaels]]&amp;quot;, including language and culture.  As a noun, it may refer to the group of languages spoken by the Gaels, or to any one of the languages individually.
+
+==History==
+* [[Gaelic Ireland]], the history of the Gaelic people of Ireland
+* [[Gaelic revival]], a movement in the late 19th century to encourage both the use of Irish Gaelic in Ireland and the revival of older Irish cultural practices
+* [[Gaelic type]], a typeface used in Ireland
+
+==Languages==
+* [[Goidelic languages]] or Gaelic languages, a linguistic group that is one of the two branches of the [[Celtic languages]]; they include:
+** [[Irish language]] ({{lang|ga|&amp;apos;&amp;apos;Gaeilge&amp;apos;&amp;apos;}})
+** [[Manx language]] ({{lang|gv|&amp;apos;&amp;apos;Gaelg&amp;apos;&amp;apos;}} or {{lang|gv|&amp;apos;&amp;apos;Gailck&amp;apos;&amp;apos;}})
+** [[Scottish Gaelic]] ({{lang|gd|&amp;apos;&amp;apos;Gàidhlig&amp;apos;&amp;apos;}}).
+
+When referring to Irish Gaelic or Manx Gaelic, it is usually pronounced {{IPAc-en|ˈ|ɡ|eɪ|l|ɪ|k}}. In Scotland, &amp;quot;Gaelic&amp;quot; is usually pronounced {{IPAc-en|ˈ|ɡ|ɑː|l|ɪ|k}} or {{IPAc-en|ˈ|ɡ|æ|l|ɪ|k}}; {{IPA-sco|ˈɡalɪk|}} in Scots and Scottish English.
+
+==People==
+* [[Gaels]], the Gaelic peoples; the ethno-linguistic group traditionally predominant in [[Ireland]], the [[Scottish Highlands]], and the [[Isle of Man]]
+* [[Gaelic-Norse]], a people of combined Gaelic-Scandinavian culture influential in the Middle Ages
+
+==Sport==
+* [[Gaelic games]], traditional sports played in Ireland &amp;amp;mdash; particularly football, handball, hurling, camogie, and rounders
+** [[Gaelic football]], an Irish version of football
+** [[Gaelic handball]], an Irish version of handball
+
+==Other uses==
+* [[Gaelic Athletic Association]], governing body of Gaelic games such as hurling and Gaelic football
+* [[RMS Gaelic|RMS &amp;apos;&amp;apos;Gaelic&amp;apos;&amp;apos;]], two ships of the White Star Line
+
+==See also==
+{{Selfref|For more related articles, see [[:Category:Goidelic languages]] and its subcategories.}}
+*[[Differences between Scottish Gaelic and Irish]]
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

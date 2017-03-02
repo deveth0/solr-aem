@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Achaeus"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Achaeus" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Wiktionary|Achaeus}}
+&amp;apos;&amp;apos;&amp;apos;Achaeus&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+==People==
+* [[Achaeus (son of Xuthus)]], mythical founder of Achaean race
+* [[Achaeus of Eretria]] (born 484 BC), tragic poet who wrote forty-five tragedies, some of whose titles are preserved
+* [[Achaeus of Syracuse]], another tragic poet who wrote ten or fourteen tragedies
+* [[Achaeus (son of Seleucus I Nicator)]], son of Seleucus I Nicator and brother of Antiochus I Soter
+* [[Achaeus (general)]] (died 213 BC), grandson to the above and a relative of Antiochus III the Great who was appointed governor of all the king&amp;apos;s provinces beyond Taurus Mountains
+
+==Other==
+* [[Achaeus (genus)|&amp;apos;&amp;apos;Achaeus&amp;apos;&amp;apos; (genus)]], a genus of crabs
+
+==See also==
+* [[Achaius (disambiguation)]]
+
+{{disambiguation|hndis}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

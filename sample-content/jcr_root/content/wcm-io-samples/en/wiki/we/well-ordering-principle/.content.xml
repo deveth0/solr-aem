@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Well-ordering principle"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Well-ordering principle" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{refimprove|date=July 2008}}
+In [[mathematics]], the &amp;apos;&amp;apos;&amp;apos;well-ordering principle&amp;apos;&amp;apos;&amp;apos; states that every non-empty set of positive integers contains a [[least element]].&amp;lt;ref&amp;gt;{{cite book |title=Introduction to Analytic Number Theory |last=Apostol |first=Tom |authorlink=Tom M. Apostol |year=1976 |publisher=Springer-Verlag |location=New York |isbn=0-387-90163-9 |pages=13 }}&amp;lt;/ref&amp;gt;
+
+The phrase &amp;quot;well-ordering principle&amp;quot; is sometimes taken to be synonymous with the &amp;quot;[[well-ordering theorem]]&amp;quot;. On other occasions it is understood to be the proposition that the set of [[integers]] {…, −2, −1, 0, 1, 2, 3, …} contains a [[well-order|well-ordered]] subset, called the [[natural numbers]], in which every nonempty subset contains a least element.
+
+Depending on the framework in which the natural numbers are introduced, this (second order) property of the set of natural numbers is either an [[axiom]] or a provable theorem. For example:
+* In [[Peano Arithmetic]], [[second-order arithmetic]] and related systems, and indeed in most (not necessarily formal) mathematical treatments of the well-ordering principle, the principle is derived from the principle of [[mathematical induction]], which is itself taken as basic.
+* Considering the natural numbers as a subset of the real numbers, and assuming that we know already that the real numbers are complete (again, either as an axiom or a theorem about the real number system), i.e., every bounded (from below) set has an infimum, then also every set &amp;apos;&amp;apos;A&amp;apos;&amp;apos; of natural numbers has an infimum, say &amp;apos;&amp;apos;a&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;*&amp;lt;/sup&amp;gt;. We can now find an integer &amp;apos;&amp;apos;n&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;*&amp;lt;/sup&amp;gt; such that &amp;apos;&amp;apos;a&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;*&amp;lt;/sup&amp;gt; lies in the half-open interval (&amp;apos;&amp;apos;n&amp;lt;sup&amp;gt;*&amp;lt;/sup&amp;gt;&amp;apos;&amp;apos;−1,&amp;amp;nbsp;&amp;apos;&amp;apos;n&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;*&amp;lt;/sup&amp;gt;], and can then show that we must have &amp;apos;&amp;apos;a&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;*&amp;lt;/sup&amp;gt;&amp;amp;nbsp;=&amp;amp;nbsp;&amp;apos;&amp;apos;n&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;*&amp;lt;/sup&amp;gt;, and &amp;apos;&amp;apos;n&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;*&amp;lt;/sup&amp;gt; in &amp;apos;&amp;apos;A&amp;apos;&amp;apos;.
+* In [[axiomatic set theory]], the natural numbers are defined as the smallest [[Inductive set (axiom of infinity)|inductive set]] (i.e., set containing 0 and closed under the successor operation).   One can (even without invoking the [[axiom of regularity|regularity axiom]]) show that the set of all natural numbers &amp;apos;&amp;apos;n&amp;apos;&amp;apos; such that &amp;quot;{0,&amp;amp;nbsp;…,&amp;amp;nbsp;&amp;apos;&amp;apos;n&amp;apos;&amp;apos;} is well-ordered&amp;quot; is inductive, and must therefore contain all natural numbers; from this property one can conclude that the set of all natural numbers is also well-ordered.
+
+In the second sense, the phrase is used when that proposition is relied on for the purpose of justifying proofs that take the following form: to prove that every natural number belongs to a specified set S, assume the contrary and infer the existence of a (non-zero) smallest counterexample.  Then show either that there must be a still smaller counterexample or that the smallest counterexample is not a counter example, producing a contradiction.  This mode of argument bears the same relation to proof by [[mathematical induction]] that &amp;quot;If not B then not A&amp;quot; (the style of &amp;apos;&amp;apos;[[modus tollens]]&amp;apos;&amp;apos;) bears to &amp;quot;If A then B&amp;quot; (the style of &amp;apos;&amp;apos;[[modus ponens]]&amp;apos;&amp;apos;). It is known light-heartedly as the &amp;quot;[[minimal criminal]]&amp;quot; method and is similar in its nature to [[Fermat|Fermat&amp;apos;s]] method of &amp;quot;[[infinite descent]]&amp;quot;.
+
+[[Garrett Birkhoff]] and [[Saunders Mac Lane]] wrote in &amp;apos;&amp;apos;A Survey of Modern Algebra&amp;apos;&amp;apos; that this property, like the [[least upper bound axiom]] for real numbers, is non-algebraic; i.e., it cannot be deduced from the algebraic properties of the integers (which form an ordered [[integral domain]]).
+
+==References==
+{{reflist}}
+
+[[Category:Wellfoundedness]]
+[[Category:Mathematical principles]]
+
+[[cs:Princip dobrého uspořádání]]
+[[he:עקרון הסדר הטוב]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

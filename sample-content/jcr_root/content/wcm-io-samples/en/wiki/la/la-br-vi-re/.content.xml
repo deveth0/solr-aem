@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="La Brévière"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="La Brévière" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Expand French|date=December 2008|La Brévière}}
+
+{{Infobox French commune
+|name                   = La Brévière
+|region                 = Basse-Normandie
+|department             = Calvados
+|arrondissement         = Lisieux
+|canton                 = Livarot
+|INSEE                  = 14105
+|postal code            = 14140
+|mayor                  = Jean-Louis Blin
+|term                   = 2008&amp;amp;ndash;2014
+|intercommunality       = Pays de Livarot
+|longitude              = 0.1644
+|latitude               = 48.9733
+|elevation m            = 90
+|elevation min m        = 69
+|elevation max m        = 182
+|area km2               = 3.53
+|population             = 118
+|population date        = 2008
+}}
+
+&amp;apos;&amp;apos;&amp;apos;La Brévière&amp;apos;&amp;apos;&amp;apos; is a [[Communes of France|commune]] in the [[Calvados]] [[Departments of France|department]] in the [[Basse-Normandie]] [[Regions of France|region]] in northwestern [[France]].
+
+==Population==
+{{Historical populations
+|align=left|
+1962|112|
+1968|100|
+1975|77|
+1982|103|
+1990|120|
+1999|128|
+2008|118
+}}
+{{clear-left}}
+
+==See also==
+*[[Communes of the Calvados department]]
+
+==References==
+*[http://www.insee.fr/en/home/home_page.asp INSEE]
+{{reflist}}
+
+{{commonscat}}
+{{Calvados communes}}
+
+{{DEFAULTSORT:Breviere}}
+[[Category:Communes of Calvados]]
+
+{{Calvados-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

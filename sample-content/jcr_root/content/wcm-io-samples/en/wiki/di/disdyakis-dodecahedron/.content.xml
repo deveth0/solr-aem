@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Disdyakis dodecahedron"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Disdyakis dodecahedron" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{| class=wikitable align=right width=&amp;quot;250&amp;quot;
+!bgcolor=#e7dcc3 colspan=2|Disdyakis dodecahedron
+|-
+|align=center colspan=2|[[Image:disdyakisdodecahedron.jpg|240px|Disdyakis dodecahedron]]&amp;lt;br&amp;gt;&amp;apos;&amp;apos;Click on picture for large version&amp;apos;&amp;apos;&amp;lt;br&amp;gt;
+&amp;apos;&amp;apos;[[:image:disdyakisdodecahedron.gif|Spinning version]]&amp;apos;&amp;apos;
+|-
+|bgcolor=#e7dcc3|Type||[[Catalan solid|Catalan]]
+|-
+|bgcolor=#e7dcc3|Coxeter diagram||{{CDD|node_f1|4|node_f1|3|node_f1}}
+|-
+|bgcolor=#e7dcc3|Face polygon||[[scalene triangle]]
+|-
+|bgcolor=#e7dcc3|Faces||48
+|-
+|bgcolor=#e7dcc3|Edges||72
+|-
+|bgcolor=#e7dcc3|Vertices||26 = 6 + 8 + 12
+|-
+|bgcolor=#e7dcc3|[[Face configuration]]||V4.6.8
+|-
+|bgcolor=#e7dcc3|[[List of spherical symmetry groups|Symmetry group]]||&amp;apos;&amp;apos;O&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;&amp;apos;&amp;apos;h&amp;apos;&amp;apos;&amp;lt;/sub&amp;gt;, BC&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;, [4,3], *432
+|-
+|bgcolor=#e7dcc3|[[Dihedral angle]]||155° 4&amp;apos; 56&amp;quot;&amp;lt;br&amp;gt;&amp;lt;math&amp;gt;\arccos(-\frac{71 + 12\sqrt{2}}{97})&amp;lt;/math&amp;gt;
+|-
+|bgcolor=#e7dcc3|[[Dual polyhedron]]||[[truncated cuboctahedron]]
+|-
+|bgcolor=#e7dcc3|Properties||convex, [[face-transitive]]
+|-
+|align=center colspan=2|[[Image:Disdyakisdodecahedron net.png|240px|Disdyakis dodecahedron]]&amp;lt;br&amp;gt;[[Net (polyhedron)|Net]]
+|}
+In [[geometry]], a &amp;apos;&amp;apos;&amp;apos;disdyakis dodecahedron&amp;apos;&amp;apos;&amp;apos;, or &amp;apos;&amp;apos;&amp;apos;hexakis octahedron&amp;apos;&amp;apos;&amp;apos;, is a [[Catalan solid]] and the dual to the [[Archimedean solid|Archimedean]] [[truncated cuboctahedron]]. As such it is [[face-transitive]] but with irregular face polygons. It looks a bit like an inflated [[rhombic dodecahedron]]—if one replaces each face of the rhombic dodecahedron with a single vertex and four triangles in a regular fashion one ends up with a disdyakis dodecahedron. More formally, the disdyakis dodecahedron is the [[Kleetope]] of the rhombic dodecahedron.
+
+==Symmetry==
+It has O&amp;lt;sub&amp;gt;h&amp;lt;/sub&amp;gt; [[octahedral symmetry]]. Its collective edges represent the reflection planes of the symmetry.
+{|class=wikitable width=360
+|[[File:Octahedral reflection domains.png|180px]]
+|[[File:Disdyakis dodecahedron.png|180px]]
+|}
+
+==Dimensions==
+If its smallest edges have length 1, its surface area is &amp;lt;math&amp;gt;\tfrac{6}{7}\scriptstyle{\sqrt{783+436\sqrt{2}}}&amp;lt;/math&amp;gt; and its volume is &amp;lt;math&amp;gt;\tfrac{1}{7}\scriptstyle{\sqrt{3(2194+1513\sqrt{2})}}&amp;lt;/math&amp;gt;.
+
+== Related polyhedra and tilings ==
+The disdyakis dodecahedron is one of a family of duals to the uniform polyhedra related to the cube and regular octahedron.
+
+{{Octahedral truncations}}
+
+It is a polyhedra in a sequence defined by the [[face configuration]] &amp;apos;&amp;apos;V4.6.2n&amp;apos;&amp;apos;. This group is special for having all even number of edges per vertex and form bisecting planes through the polyhedra and infinite lines in the plane, and continuing into the hyperbolic plane for any &amp;lt;math&amp;gt;n \ge 7.&amp;lt;/math&amp;gt;
+
+With an even number of faces at every vertex, these polyhedra and tilings can be shown by alternating two colors so all adjacent faces have different colors.
+
+Each face on these domains also corresponds to the fundamental domain of a [[symmetry group]] with order 2,3,n mirrors at each triangle face vertex.
+{{Omnitruncated table}}
+
+{{Omnitruncated4 table}}
+
+==See also==
+*[[Disdyakis triacontahedron]]
+*[[Bisected hexagonal tiling]]
+*[[Great rhombihexacron]]—A uniform dual polyhedron with the same surface topology
+
+==References==
+*{{The Geometrical Foundation of Natural Structure (book)}} (Section 3-9)
+*&amp;apos;&amp;apos;The Symmetries of Things&amp;apos;&amp;apos; 2008, John H. Conway, Heidi Burgiel, Chaim Goodman-Strass, ISBN 978-1-56881-220-5 [http://www.akpeters.com/product.asp?ProdCode=2205] (Chapter 21, Naming the Archimedean and Catalan polyhedra and tilings, page 285, kisRhombic dodecahedron)
+
+==External links==
+*{{Mathworld2 |urlname=DisdyakisDodecahedron |title=Disdyakis dodecahedron |urlname2=CatalanSolid |title2=Catalan solid}}
+*[http://polyhedra.org/poly/show/37/hexakis_octahedron Disdyakis Dodecahedron (Hexakis Octahedron)] Interactive Polyhedron Model
+
+{{Polyhedron navigator}}
+
+[[Category:Catalan solids]]
+
+{{Polyhedron-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

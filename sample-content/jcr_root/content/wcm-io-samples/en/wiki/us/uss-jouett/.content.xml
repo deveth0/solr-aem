@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="USS Jouett"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="USS Jouett" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Italic title prefixed|3}}
+Three ships in the [[United States Navy]] have been named &amp;apos;&amp;apos;&amp;apos;USS &amp;apos;&amp;apos;Jouett&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; for [[James Edward Jouett]].
+
+*{{USS|Jouett|DD-41}} was a [[Paulding class destroyer|&amp;apos;&amp;apos;Paulding&amp;apos;&amp;apos;-class]] [[destroyer]] launched in 1912, served in World War I, served in the United States Coast Guard from 1924 to 1930 and sold in 1934
+
+*{{USS|Jouett|DD-396}} was a [[Somers class destroyer|&amp;apos;&amp;apos;Somers&amp;apos;&amp;apos;-class]] destroyer launched in 1938, served in World War II and decommissioned in 1945
+
+*{{USS|Jouett|DLG-29}} was a [[Belknap class cruiser|&amp;apos;&amp;apos;Belknap&amp;apos;&amp;apos;-class]] guided missile [[cruiser]] launched in 1964 and decommissioned in 1994
+
+{{Shipindex}}
+
+{{DEFAULTSORT:Jouett, Uss}}
+[[Category:United States Navy ship names]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

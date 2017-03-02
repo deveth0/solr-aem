@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Template:Counties of Sweden"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Template:Counties of Sweden" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Navbox
+| name = Counties of Sweden
+| title = [[Counties of Sweden|Counties &amp;apos;&amp;apos;(län)&amp;apos;&amp;apos; of]] [[Sweden]]
+| state = {{{state|autocollapse}}}
+| image = {{flagicon|Sweden|size=46px}}
+| listclass = hlist
+
+| list1 =
+* [[Blekinge County|Blekinge]]
+* [[Dalarna County|Dalarna]]
+* [[Gävleborg County|Gävleborg]]
+* [[Gotland County|Gotland]]
+* [[Halland County|Halland]]
+* [[Jämtland County|Jämtland]]
+* [[Jönköping County|Jönköping]]
+* [[Kalmar County|Kalmar]]
+* [[Kronoberg County|Kronoberg]]
+* [[Norrbotten County|Norrbotten]]
+* [[Örebro County|Örebro]]
+* [[Östergötland County|Östergötland]]
+* [[Scania County|Scania]]&amp;amp;nbsp;(Skåne)
+* [[Södermanland County|Södermanland]]
+* [[Stockholm County|Stockholm]]
+* [[Uppsala County|Uppsala]]
+* [[Värmland County|Värmland]]
+* [[Västerbotten County|Västerbotten]]
+* [[Västernorrland County|Västernorrland]]
+* [[Västmanland County|Västmanland]]
+* [[Västra Götaland County|Västra Götaland]]
+}}&amp;lt;noinclude&amp;gt;
+{{collapsible option}}
+
+[[Category:Sweden subdivision templates|Counties of Sweden]]
+[[Category:County templates|Sweden]]
+
+&amp;lt;/noinclude&amp;gt;&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

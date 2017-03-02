@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Space-division multiple access"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Space-division multiple access" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+&amp;apos;&amp;apos;&amp;apos;Space-division multiple access&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;&amp;apos;SDMA&amp;apos;&amp;apos;&amp;apos;) is a channel access method based on creating parallel spatial pipes next to higher capacity pipes through spatial multiplexing and/or diversity, by which it is able to offer superior performance in radio multiple access communication systems. In traditional mobile [[cellular network]] systems, the [[base station]] has no information on the position of the mobile units within the cell and radiates the signal in all directions within the cell in order to provide radio coverage. This results in wasting power on transmissions when there are no mobile units to reach, in addition to causing [[co-channel interference|interference]] for adjacent cells using the same frequency, so called [[co-channel]] cells. Likewise, in reception, the [[Antenna (radio)|antenna]] receives signals coming from all directions including noise and interference signals. By using [[smart antenna]] technology and differing spatial locations of mobile units within the cell, space-division multiple access techniques offer attractive performance enhancements. The [[radiation pattern]] of the base station, both in transmission and reception, is adapted to each user to obtain highest gain in the direction of that user. This is often done using [[phased array]] techniques.
+
+In [[GSM]] cellular networks, the base station is aware of the distance (but not direction) of a mobile phone by use of a technique called &amp;quot;[[timing advance]]&amp;quot; (TA). The base transceiver station (BTS) can determine how distant the mobile station (MS) is by interpreting the reported TA. This information, along with other parameters, can then be used to power down the BTS or MS, if a power control feature is implemented in the network. The power control in either BTS or MS is implemented in most modern networks, especially on the MS, as this ensures a better battery life for the MS. This is also why having a [[Base_transceiver_station|BTS]] close to the user results in less exposure to electromagnetic radiation.
+
+This is why one may actually be safer to have a [[Base_transceiver_station|BTS]] close to them as their MS will be powered down as much as possible. For example, there is more power being transmitted from the MS than what one would receive from the BTS even if they were 6 meters away from a BTS mast. However, this estimation might not consider all the Mobile stations that a particular BTS is supporting with EM radiation at any given time.
+
+In the same manner, [[5G|5th generation mobile networks]] will be focused in utilizing the given position of the MS in relation to BTS in order to focus all MS Radio frequency power to the BTS direction and vice versa, thus enabling power savings for the [[Mobile_phone_operator|Mobile Operator]], reducing MS [[Specific_absorption_rate|SAR]] index, reducing the [[Electromagnetic_field|EM field]] around base stations since beamforming will concentrate rf power when it will be actually used rather than spread uniformly around the BTS, reducing health and safety concerns, enhancing [[spectral efficiency]], and decreased MS battery consumption.&amp;lt;ref&amp;gt;http://www.telecompaper.com/news/samsung-develops-core-5g-technology--942840&amp;lt;/ref&amp;gt;
+
+==See also==
+*[[Co-channel interference]]
+
+{{Channel access methods}}
+
+{{DEFAULTSORT:Space-Division Multiple Access}}
+
+
+
+==References==
+&amp;lt;references /&amp;gt;&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

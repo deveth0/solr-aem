@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="All Creatures Great and Small"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="All Creatures Great and Small" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;All Creatures Great and Small&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* &amp;apos;&amp;apos;All Creatures Great and Small&amp;apos;&amp;apos;, a book by [[James Herriot]], comprising his first two novels
+** [[All Creatures Great and Small (film)|&amp;apos;&amp;apos;All Creatures Great and Small&amp;apos;&amp;apos; (film)]], a 1975 adaptation of the book in the &amp;apos;&amp;apos;Hallmark Hall of Fame&amp;apos;&amp;apos;
+** [[All Creatures Great and Small (TV series)|&amp;apos;&amp;apos;All Creatures Great and Small&amp;apos;&amp;apos; (TV series)]], a BBC television adaptation of the same book
+* &amp;quot;All creatures great and small&amp;quot;, a line from the hymn &amp;quot;[[All Things Bright and Beautiful]]&amp;quot;
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

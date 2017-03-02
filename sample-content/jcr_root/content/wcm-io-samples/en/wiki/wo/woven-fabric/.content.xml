@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Woven fabric"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Woven fabric" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+[[Image:Stoffballen1 fcm.jpg|thumb|200px|[[Tulle netting]] woven cloth]]
+&amp;apos;&amp;apos;&amp;apos;Woven fabric&amp;apos;&amp;apos;&amp;apos; is a [[cloth]] formed by [[weaving]].  It only stretches diagonally on the [[bias (textile)|bias]] directions (between the [[Warp (weaving)|warp]] and [[weft]] directions), unless the threads are elastic.  Woven cloth usually frays at the edges, unless measures are taken to counter this, such as the use of [[pinking shears]] or [[hem]]ming.
+
+Woven fabrics are worked on a big loom and made of many threads woven on a warp and a weft.
+{{fabric}}
+
+{{DEFAULTSORT:Woven Fabric}}
+[[Category:Textiles]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

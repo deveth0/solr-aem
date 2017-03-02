@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:Manual of Style/Legal"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:Manual of Style/Legal" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{style-guideline|WP:MOSLAW|WP:MOSLEGAL|sortkey=Legal}}
+{{Style}}
+
+==Templates==
+;Citation templates
+* To cite a simple court case the first time, use template {{tl|Cite court}}
+
+;WikiProject templates
+* Use the [[Wikipedia:WikiProject Law|WikiProject Law]] template
+
+;Stub templates
+* Use the {{tl|law-stub}} template for law related stubs
+
+;Navigation templates
+*&amp;lt;nowiki&amp;gt;{{Template:ContractLaw}}&amp;lt;/nowiki&amp;gt;
+*&amp;lt;nowiki&amp;gt;{{Template:TortLaw}}&amp;lt;/nowiki&amp;gt;
+*&amp;lt;nowiki&amp;gt;{{Template:PropertyLaw}}&amp;lt;/nowiki&amp;gt;
+*&amp;lt;nowiki&amp;gt;{{Template:CrimLaw}}&amp;lt;/nowiki&amp;gt;
+*&amp;lt;nowiki&amp;gt;{{Template:EvidenceLaw}}&amp;lt;/nowiki&amp;gt;
+
+==General considerations==
+* In articles that cover multiple jurisdictions, aim to provide an international overview.  Keep in mind that there are several types of legal system (e.g., [[Civil law (legal system)|civil law]], [[sharia law]], [[common law]], [[customary law]]).  Within a given legal system, the law may have evolved in divergent ways.  Because the law differs between jurisdictions, make clear what jurisdiction you are writing about. Try to incorporate a comparative perspective, if possible and appropriate.
+* Use plain language, appropriate for a lay audience.  Consider [[b:Main Page|Wikibooks]] if you want to write a [[textbook]].
+* Provide some depth and detail worthy of an encyclopedia
+* For Latin words and phrases, consider one of the following:
+**Use {{tl|lang}}: &amp;lt;nowiki&amp;gt;{{lang|la|Nolo contendere}}&amp;lt;/nowiki&amp;gt;.  This results in {{lang|la|Nolo contendere}}.
+**Include a wiki-link: [[Nolo contendere]].
+
+==Article content==
+===Broad areas of law===
+* Articles about broad areas of law, such as [[Tort]], should contain an overview of the law as it stands, and its development.
+* Avoid becoming overly technical.
+
+===Writing about particular cases===
+* Start with a summary why the case is encyclopedic. What is its impact on society, what makes it stand out from all the other cases heard this year?
+* Summary in fairly plain language, for a lay audience, possibly followed by a more detailed introduction. For those who do not read the whole decision, this is sufficient for a start.
+* The legal details, for those who need to better understand the legal issues involved and how the court arrived at its decision.
+
+===Writing about particular concepts===
+* Provide a framework for the concept. E.g.&amp;amp;nbsp;– Contextualise [[Trespass]] as an intentional [[tort]] against [[property]].
+* Link to landmark cases which define the concept
+
+==Formatting==
+*Legal case names are always italicized (&amp;apos;&amp;apos;[[Plessy v. Ferguson]]&amp;apos;&amp;apos;).
+*In article text (for citations, see below), the first mention of a case should normally be formatted as &amp;apos;&amp;apos;A v. B&amp;apos;&amp;apos;. Cases from some jurisdictions, particularly those within the United Kingdom, use &amp;apos;&amp;apos;A v B&amp;apos;&amp;apos;.  When referred to a second or third time within a section, cases may be referred to as &amp;apos;&amp;apos;A&amp;apos;&amp;apos;, or, if &amp;apos;&amp;apos;A&amp;apos;&amp;apos; does not disambiguate (e.g. &amp;apos;&amp;apos;Rex&amp;apos;&amp;apos;), &amp;apos;&amp;apos;B&amp;apos;&amp;apos;.
+
+==Citations and referencing==
+Cite to legal materials (constitutions, statutes, legislative history, administrative regulations, and cases) according to the generally accepted citation style for the relevant jurisdictions.  If multiple citation styles are acceptable in a given jurisdiction, any may be used, but be consistent, and consider using the most common.  Also consider using the citation style used in secondary sources rather than the citation style used by legal briefs or decisions.
+
+The following guidelines will be generally useful in many jurisdictions:
+;In general
+* Where both primary and secondary sources are available, one should cite both. While primary sources are more &amp;quot;accurate&amp;quot;, secondary sources provide more context and are easier on the layperson. Where primary and secondary sources conflict factually, the primary source should be given priority.
+;[[Case citation]]s
+* Case names are italicised, as in the &amp;apos;&amp;apos;[[Kelly v. Arriba Soft Corporation]]&amp;apos;&amp;apos; article. ([[Law report|Case citation]] or [[law report]] information is presented in normal font.)
+
+==External links==
+* Try to link to cases on [[WorldLII]], [[BAILII]], [[AustLII]] [http://www.austlii.edu.au], or similar free resource (instead of a pay-to-use resource, or internet news articles).
+{{Style wide}}
+[[Category:Wikipedia Manual of Style (legal)]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

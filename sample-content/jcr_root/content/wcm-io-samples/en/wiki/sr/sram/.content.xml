@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="SRAM"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="SRAM" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|SRAM|sram}}
+&amp;apos;&amp;apos;&amp;apos;SRAM&amp;apos;&amp;apos;&amp;apos; may stand for:
+* [[Short-Range Attack Missile]]
+* [[Static random-access memory]], a type of semiconductor memory that uses bistable latching circuitry to store each bit
+* [[Shadow Random Access Memory]]
+* [[Service régional d&amp;apos;admission du Montréal métropolitain]], a network of Quebec CEGEPs
+* [[SRAM Corporation]] a manufacturer of bicycle components
+* Squash Racquets Association of Maharashtra, an official body of [[Squash (sport)|Squash]] in [[Maharashtra|Maharashtra, India]]
+* Safety Report Assessment Manual, a report by the UK&amp;apos;s [[Health and Safety Executive]]
+* &amp;apos;&amp;apos;[[Scientific Review of Alternative Medicine]]&amp;apos;&amp;apos;, a peer-reviewed journal devoted exclusively to analyzing the claims of alternative medicine
+* [[Screened Reflective Area Microphone]], Commercial term, SAM (Soundboard Area Microphone)
+* [[SRAM (video game)|&amp;apos;&amp;apos;SRAM&amp;apos;&amp;apos; (video game)]], a textual adventure with graphics for the Amstrad CPC
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

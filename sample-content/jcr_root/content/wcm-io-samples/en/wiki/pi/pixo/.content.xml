@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Pixo"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Pixo" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{for|the Nissan automobile|Nissan Pixo}}
+
+{{Infobox company
+| name             = Pixo
+| logo             =
+| caption          =
+| type             =
+| genre            =
+| fate             = Acquired
+| predecessor      =
+| successor        = [[Sun Microsystems]]
+| foundation       = {{Start date|1994}}
+| founder          = Paul Mercer
+| defunct          = {{End date|2003}}
+| location_city    =
+| location_country =
+| location         =
+| locations        =
+| area_served      =
+| key_people       =
+| industry         = [[Mobile software]]
+| products         = Pixo OS
+| services         =
+| revenue          =
+| operating_income =
+| net_income       =
+| aum              =
+| assets           =
+| equity           =
+| owner            =
+| num_employees    =
+| parent           =
+| divisions        =
+| subsid           =
+| homepage         = &amp;lt;!-- {{URL|example.com}} --&amp;gt;
+| footnotes        =
+| intl             =
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Pixo&amp;apos;&amp;apos;&amp;apos; was a company that developed infrastructure for hand-held devices. It was founded in 1994 when Paul Mercer, a software developer at [[Apple Inc.|Apple]], left to form his own company.&amp;lt;ref name=&amp;quot;nyt&amp;quot;&amp;gt;{{Citation
+| last = Markoff
+| first = John
+| title = He Helped Build the iPod; Now He Has Built a Rival
+| newspaper = [[The New York Times]]
+| url = http://www.nytimes.com/2006/02/27/technology/27mercer.html?ei=5088&amp;amp;en=7ca4508916893a7f&amp;amp;ex=1298696400&amp;amp;pagewanted=all
+| accessdate = 4 January 2011
+| date=27 February 2006}}&amp;lt;/ref&amp;gt; The company developed a system software toolkit in [[C++]]&amp;lt;ref&amp;gt;{{Citation
+| last = Stroustrup
+| first = Bjarne
+| author-link = Bjarne Stroustrup
+| title = C++ Applications
+| url = http://www.stroustrup.com/applications.html
+| accessdate = 26 August 2012 }}&amp;lt;/ref&amp;gt; for use on cell phones and other hand-held devices.  They were acquired by [[Sun Microsystems]] in 2003.&amp;lt;ref name=&amp;quot;nyt&amp;quot;/&amp;gt;
+
+==Pixo OS and use in Apple&amp;apos;s iPod==
+In 2001, Pixo was hired by Apple to adapt their system software for use in the [[iPod]].&amp;lt;ref&amp;gt;{{Citation
+| last = Yi
+| first = Matthew
+| title = Little-known startup was behind iPod&amp;apos;s easy-to-use interface
+| newspaper = [[San Francisco Chronicle]]
+| url = http://www.sfgate.com/default/article/Little-known-startup-was-behind-iPod-s-2733248.php
+| accessdate = 2012 November 10}}&amp;lt;/ref&amp;gt; The use of the Pixo OS in the iPod was never formally announced, although the first-generation iPod&amp;apos;s &amp;quot;About iPod&amp;quot; display includes a mention of Pixo, and a [[Connectix]] biography of their VP of engineering [[Mike Neil]] mentions his role as &amp;quot;lead architect on the Pixo OS that is used in ... the Apple iPod&amp;quot;.&amp;lt;ref&amp;gt;{{Wayback|url=http://www.connectix.com/about/bios.html|title=About Connectix|date=20030806065941}}&amp;lt;/ref&amp;gt; Apple acquired the Pixo OS shortly after shipping the iPod{{Citation needed|date=January 2011}} and removed mention of Pixo from the &amp;quot;About iPod&amp;quot; display with a firmware update to the first-generation iPod.
+
+On April 9, 2007, Apple [[Chief executive officer|CEO]] [[Steve Jobs]] announced the shipment of its 100 millionth iPod,&amp;lt;ref&amp;gt;
+{{Citation
+| title = 100 Million iPods Sold
+| url = http://www.apple.com/pr/library/2007/04/09ipod.html
+| accessdate = 4 January 2011 }}&amp;lt;/ref&amp;gt; making the Pixo OS one of the most widely used [[embedded operating system]]s.
+
+As of 2011, Pixo OS continued to be used on the [[iPod Classic]] and [[iPod Nano]], which do not run [[iOS]].&amp;lt;ref&amp;gt; {{cite web |publisher= Ars Technica |url= http://arstechnica.com/apple/2011/01/6g-ipod-nano-hack-just-beginning-of-long-road-to-nano-apps/ |title= 6G iPod nano hack just beginning of long road to nano apps |date= 3 January 2011 |accessdate= 2012-09-13 }} &amp;lt;/ref&amp;gt;
+
+==References==
+{{reflist}}
+
+==External links==
+*{{Wayback|url=http://www.pixo.com|title=Pixo.com website}}
+*{{Wayback|url=http://pixo.com/products/products001.htm|date=20010815050140|title=Capabilities and features of the Pixo OS Platform 2.1}}
+*{{Wayback|url=http://www.sun.com/smi/Press/sunflash/2003-07/sunflash.20030717.1.xml|title=Sun Press Release announcing completion of acquisition|date=20070117072326}}
+*[http://www.designinginteractions.com/interviews/PaulMercer Bill Mogridge video interview of Paul Mercers involvement in the design of the iPod]
+
+[[Category:Companies established in 1996]]
+[[Category:IPod software]]
+[[Category:Sun Microsystems acquisitions]]
+[[Category:Companies disestablished in 2003]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

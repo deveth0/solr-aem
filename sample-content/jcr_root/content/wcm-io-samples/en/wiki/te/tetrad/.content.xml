@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Tetrad"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Tetrad" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|tetrad}}
+&amp;apos;&amp;apos;&amp;apos;Tetrad&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* [[Meiosis#Meiosis I|Tetrad (chromosomal pairing)]], Bivalents or Tetrad of homologous chromosomes consisting of four synapsed chromatids that become visible during the Pachytene stage of meiotic prophase
+* [[Sporogenesis#Formation of reproductive spores|Tetrad (pollen formation)]], group of four haploid and immature pollen grains in tetrahedral fashion produced by meiotic microsporogenesis
+* [[Tetrad (genetics)]], the four spores of a yeast
+* [[Tetrad (general relativity)]], a mathematical frame of reference in general relativity
+* [[Tetractys]] (or Tetrad), (Greek philosophy)
+* [[Tetrad (index notation)]], a concept in differential geometry
+* [[Tetrad (music)]], a set of four notes
+* [[Tetrad (unit of area)]], an area 2km x 2km square
+* [[Tetromino]], a shape composed of four squares
+* [[Tetrad of media effects]], a pedagogical tool
+* Tetrad (astrology), four total lunar eclipses occurring in a row with intervals of 6 lunations
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

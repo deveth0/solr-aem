@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Xiong County"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Xiong County" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Xiong County&amp;apos;&amp;apos;&amp;apos; ({{zh|s=雄县|t=雄縣|p=Xióng Xiàn}}) is a county under the jurisdiction of [[Baoding]] [[prefecture-level city]], [[Hebei]], China.&amp;lt;ref name = &amp;quot;Admin Div&amp;quot;&amp;gt;[http://www.xzqh.org/html/list/42.html 保定市-行政区划网] &amp;lt;/ref&amp;gt;
+
+==Administrative Divisions&amp;lt;ref name = &amp;quot;Admin Div&amp;quot;/&amp;gt;==
+Towns:
+*[[Xiongzhou]] (雄州镇), [[Zangang]] (昝岗镇), [[Daying, Xiong County|Daying]] (大营镇)
+
+Townships:
+*[[Longwan Township]] (龙湾乡), [[Zhugezhuang Township]] (朱各庄乡), [[Mijiawu Township]] (米家务乡), [[Shuangtang Township]] (双堂乡), [[Zhanggang Township]] (张岗乡), [[Beishakou Township]] (北沙口乡)
+
+==External links==
+{{reflist}}
+
+{{Baoding-geo-stub}}
+
+{{coord|38|59|N|116|06|E|region:CN-13_type:adm2nd_source:kolossus-dewiki|display=title}}
+
+[[Category:Baoding]]
+[[Category:County-level divisions of Hebei]]
+{{County-level divisions of Hebei}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Overlay multicast"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Overlay multicast" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Merge to |overlay network |date= May 2013}}
+
+Also known as &amp;apos;&amp;apos;&amp;apos;End System&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;Peer-to-Peer Multicast&amp;apos;&amp;apos;&amp;apos;.
+
+High bandwidth multi-source multicast among widely distributed nodes is a critical capability for a wide range of applications including audio and video conferencing, multi-party games and content distribution. Throughout the last decade, a number of research projects have explored the use of [[multicast]] as an efficient and scalable mechanism to support such group communication applications. Multicast decouples the size of the receiver set from the amount of state kept at any single node and potentially avoids redundant communication in the network.
+
+The limited deployment of IP Multicast, a best effort network layer multicast protocol, has led to considerable interest in alternate approaches that are implemented at the application layer, using only [[End System|end-systems]]. In an overlay or end-system multicast approach participating peers organize themselves into an overlay topology for data delivery. Each edge in this topology corresponds to a unicast path between two end-systems or peers in the underlying [[Internet]]. All multicast-related functionality is implemented at the peers instead of at routers, and the goal of the multicast protocol is to construct and maintain an efficient overlay for data transmission.
+
+== Disadvantages ==
+
+Slow in spreading the data. Long latency.&amp;lt;!-- please use sentences with verbs --&amp;gt;
+
+Duplicate packets at certain points.
+
+==See also==
+
+* [[Peercasting]]
+
+== External links ==
+
+*  RFC 3170
+*  [http://www.tldp.org/HOWTO/Multicast-HOWTO.html Multicast over TCP/IP HOWTO]
+*  [http://www.aqualab.cs.northwestern.edu/projects.html Nemo - Resilient Overlay Multicast]
+*  [http://www.aqualab.cs.northwestern.edu/projects.html FatNemo - Emulating FatTrees for Overlay Multisource/Multicast]
+*  [http://esm.cs.cmu.edu End System Multicast]
+*  [http://www.samrg.org/bib Bibliography ] on overlay multicast and application layer multicast for the [http://www.samrg.org IRTF Scalable Adaptive Multicast Research Group]
+
+[[Category:Internet architecture]]
+[[Category:Network protocols]]
+
+[[de:Multicast]]
+[[fr:Multicast]]
+[[it:Multicast]]
+[[nl:Multicast]]
+[[ja:マルチキャスト]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

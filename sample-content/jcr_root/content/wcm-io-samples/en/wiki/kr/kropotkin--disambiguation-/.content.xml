@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Kropotkin (disambiguation)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Kropotkin (disambiguation)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;[[Peter Kropotkin]]&amp;apos;&amp;apos;&amp;apos; (1842–1921) was a Russian prince and anarchist.
+
+&amp;apos;&amp;apos;&amp;apos;Kropotkin&amp;apos;&amp;apos;&amp;apos; may also refer to:
+
+*[[Mount Kropotkin]], a peak in Antarctica
+*[[Kropotkin (urban locality)]], name of several urban localities in Russia
+
+==People with the surname==
+*[[Pyotr Nikolayevich Kropotkin]] (1910–1996), Soviet/Russian geologist, tectonician, and geophysicist
+
+{{Disambig|geo|surname}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

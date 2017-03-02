@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Brainiac"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Brainiac" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|brainiac|brainiacs}}
+&amp;apos;&amp;apos;&amp;apos;Brainiac&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* In [[DC Comics]]:
+** [[Brainiac (comics)]], a fictional supervillain in DC Comics, and an enemy of Superman
+*** &amp;apos;&amp;apos;[[Brainiac (story arc)]]&amp;apos;&amp;apos;, 2008 storyline in &amp;apos;&amp;apos;Action Comics&amp;apos;&amp;apos;
+*** [[Brainiac (Smallville)]], version of the villain in the TV series Smallville
+** [[Brainiac 5]], a member of the Legion of Super-Heroes
+* [[Brainiac (band)]], an American indie rock band
+* &amp;apos;&amp;apos;[[Brainiac: Science Abuse]]&amp;apos;&amp;apos;, a British television programme
+** &amp;apos;&amp;apos;[[Brainiac: History Abuse]]&amp;apos;&amp;apos;, a spin-off of the above
+* &amp;apos;&amp;apos;[[The Brainiac]]&amp;apos;&amp;apos;, a 1962 Mexican horror film directed by Chano Urueta
+* [[Brainiac (Dark Angel)|&amp;quot;Brainiac&amp;quot; (&amp;apos;&amp;apos;Dark Angel&amp;apos;&amp;apos;)]], an episode of the television series &amp;apos;&amp;apos;Dark Angel&amp;apos;&amp;apos;
+* [[Function BRAINIAC]], an energy drink
+* &amp;apos;&amp;apos;Brainiac: Adventures in the Curious, Competitive, Compulsive World of Trivia Buffs&amp;apos;&amp;apos; &amp;lt;!--(2006, ISBN 1-4000–6445-7, trade paperback ISBN 0-8129–7499-9)--&amp;gt;, a book written by [[Ken Jennings]]
+* [[Computer performance#brainiac | brainiac techniques]] for improving computer performance
+
+== See also ==
+*[[Geniac]], an educational toy billed as a computer
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

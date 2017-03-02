@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="XML Information Set"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="XML Information Set" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;XML Information Set&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;&amp;apos;XML Infoset&amp;apos;&amp;apos;&amp;apos;) is a [[W3C recommendation|W3C specification]] describing an abstract data model of an [[XML]] document in terms of a set of &amp;apos;&amp;apos;information items&amp;apos;&amp;apos;.&amp;lt;ref&amp;gt;[[#W3C XML Infoset|W3C XML Infoset]]&amp;lt;/ref&amp;gt; The definitions in the XML Information Set specification are meant to be used in &amp;apos;&amp;apos;other&amp;apos;&amp;apos; specifications that need to refer to the information in a [[well-formed XML document]].
+
+An XML document has an information set if it is [[Well-formed XML document|well-formed]] and satisfies the [[XML namespace|namespace]] constraints. There is no requirement for an XML document to be [[valid XML document|valid]] in order to have an information set.
+
+An information set can contain up to eleven different types of information items:
+#The Document Information Item (always present)
+#Element Information Items
+#Attribute Information Items
+#Processing Instruction Information Items
+#Unexpanded Entity Reference Information Items
+#Character Information Items
+#Comment Information Items
+#The Document Type Declaration Information Item
+#Unparsed Entity Information Items
+#Notation Information Items
+#Namespace Information Items
+
+Infoset recommendation Second Edition was adopted on February 4, 2004.
+
+==Infoset Augmentation==
+
+Infoset augmentation or infoset modification refers to the process of modifying the infoset during [[XML schema|schema]] validation, for example by adding default attributes.  The augmented infoset is called the post-schema-validation infoset, or [[PSVI]].
+&amp;lt;ref&amp;gt;[http://www.w3.org/TR/xmlschema11-1/ XML Schema 1.1 Part 1: Structures]&amp;lt;/ref&amp;gt;
+
+Infoset augmentation is somewhat controversial, with claims that it is a violation of modularity and tends to cause interoperability problems, since applications get different information depending on whether or not validation has been performed.
+&amp;lt;ref&amp;gt;[http://www.imc.org/ietf-xml-use/mail-archive/msg00217.html &amp;apos;&amp;apos;RELAX NG and W3C XML Schema&amp;apos;&amp;apos;], [[James Clark (XML expert)|James Clark]], 4 Jun 2002&amp;lt;/ref&amp;gt;
+
+Infoset augmentation is supported by [[XML Schema (W3C)|XML Schema]] but not [[RELAX NG]].
+
+==Serialization==
+Typically, XML Information Set is serialized as XML. Currently, there are also readers for CSV-based XML-Infosets&amp;lt;ref&amp;gt;[http://msdn.microsoft.com/en-us/library/aa302293.aspx XmlCsvReader Implementation]&amp;lt;/ref&amp;gt; or JSON.&amp;lt;ref&amp;gt;[http://cxf.apache.org/docs/json-support.html Apache CXF JSON Support]&amp;lt;/ref&amp;gt;
+
+==See also==
+XML Information Set instances:
+* [[Document Object Model]]
+* [[Xpath data model]]
+* [[SXML]]
+
+==References==
+{{reflist}}
+
+==External links==
+* {{cite web | url=http://www.w3.org/TR/xml-infoset/ | publisher=W3C | title=XML Information set recommendation (Second Edition) | date=4 February 2004 | ref=W3C XML Infoset }}
+* [http://www.oracle.com/technetwork/articles/javase/fastinfoset-139262.html Fast Infoset] (for binary encoding of the Infoset)
+
+{{W3C Standards}}
+
+{{DEFAULTSORT:Xml Information Set}}
+[[Category:World Wide Web Consortium standards]]
+[[Category:XML-based standards]]
+
+
+{{compu-network-stub}}
+
+[[ja:Extensible Markup Language#XMLインフォメーションセット]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

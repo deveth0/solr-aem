@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Inverse multiplexer"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Inverse multiplexer" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{refimprove|date=September 2009}}
+
+An &amp;apos;&amp;apos;&amp;apos;inverse multiplexer&amp;apos;&amp;apos;&amp;apos; (often abbreviated to &amp;apos;&amp;apos;&amp;apos;inverse mux.&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;imux.&amp;apos;&amp;apos;&amp;apos;) allows a [[data stream]] to be broken into multiple lower data rate [[communication link]]s.  An inverse multiplexer differs from a [[demultiplexer]] because the multiple output streams from the former stay inter-related, whereas those from the latter are unrelated.  An inverse multiplexer is the opposite of a [[multiplexer]] which divides one high speed link into multiple low speed links.
+
+                                      | low rate link #1 |
+ Tx — high rate data — inverse mux. — | low rate link #2 | — inverse demux. — rx
+                                      | low rate link #3 |
+
+This example provides an end to end connection of 3 times the data rate available on each of the low rate data links.  Note that, as with multiplexers, links are almost always bi-directional and, at either end of the link, an inverse mux will be combined with its reverse (an inverse demux) and still be called an &amp;apos;&amp;apos;inverse mux&amp;apos;&amp;apos;.
+
+Inverse multiplexers are used, for example, to combine a number of [[Integrated Services Digital Network|ISDN]] channels together into one high rate circuit, where a higher rate connection than is available from a single [[Integrated Services Digital Network|ISDN]] connection is needed.   This is typically useful in areas where higher rate circuits are not available.
+
+An alternative to an inverse mux. is to use three separate links and load sharing of data between them.  In the case of IP, network packets could be sent in [[round-robin scheduling#Data packet scheduling|round-robin]] mode between each separate link.  Advantages of using inverse multiplexing over separate links include:
+
+* Lower link [[lag|latency]] (one single packet can be spread across all links)
+* Fairer [[load balancing (computing)|load balancing]]
+* Network simplicity (no [[Router (computing)|router]] needed between boxes with high speed [[network interface|interface]]s)
+
+A simple analogy to transport can help explain the distinction between multiplexing and inverse multiplexing.  When small cargoes such as [[pencil]]s are shipped overseas, they are generally not carried one at a time.  Rather, they are assembled into small boxes, which are grouped into larger cartons, which go into [[intermodal container]]s, which join multiple containers aboard a [[container ship]].  Each step is a multiplexing.  Conversely a large cargo, for example in [[structure relocation]], may be disassembled for carriage on multiple vehicles and then reassembled in the correct order at the destination.  This is inverse multiplexing.
+
+==See also==
+*[[Bonding protocol]]
+*[[Inverse Multiplexing for ATM]]
+*[[Link aggregation]]
+*[[Multiplexer-demultiplexer]]
+*[[Point-to-Point Protocol#Multilink PPP|Multilink PPP]]
+*[[Virtual concatenation]]
+
+[[Category:Multiplexing]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="JavaCC"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="JavaCC" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox software
+| name                   = JavaCC
+| logo                   =
+| screenshot             =
+| caption                =
+| developer              =
+| latest release version = 5.0
+| latest release date    = August 31, 2009
+| latest preview version =
+| latest preview date    =
+| operating system       =
+| platform               = [[Java Virtual Machine]]
+| genre                  = parser/scanner generator
+| license                = [[BSD license|BSD]]
+| website                = {{url|http://java.net/projects/javacc}}&amp;lt;br&amp;gt;{{url|http://javacc.java.net/}}
+}}
+&amp;apos;&amp;apos;&amp;apos;JavaCC&amp;apos;&amp;apos;&amp;apos; (Java Compiler Compiler) is an [[open source]] [[parser generator]] and [[Lexical_analysis|lexical analyzer]] generator for the [[Java (programming language)|Java programming language]]. JavaCC is similar to [[yacc]] in that it generates a [[parser]] from a [[formal grammar]] written in [[Extended Backus-Naur form|EBNF]] notation, except the output is Java source code.  Unlike yacc, however, JavaCC generates top-down parsers, which limits it to the [[LL parser|LL(k)]] class of grammars (in particular, [[left recursion]] cannot be used).  JavaCC also generates lexical analyzers in a fashion similar to [[Lex_(software)|lex]].  The tree builder that accompanies it, JJTree, constructs its trees from the bottom up.
+
+JavaCC is licensed under a [[BSD license]].
+
+==History==
+In 1996, [[Sun Microsystems]] released a parser generator called &amp;apos;&amp;apos;Jack&amp;apos;&amp;apos;. The developers responsible for &amp;apos;&amp;apos;Jack&amp;apos;&amp;apos; created their own company called Metamata and changed the &amp;apos;&amp;apos;Jack&amp;apos;&amp;apos; name to JavaCC. Metamata eventually became part of [[WebGain]]. After WebGain shut down its operations, JavaCC was moved to its current home.
+
+== Where is it used? ==
+Here is a non-comprehensive list of software built using JavaCC:
+
+* [[Apache Derby]]
+* [[BeanShell]]
+* [[FreeMarker]]
+* [[PMD_(software)|PMD]]
+* [[Vaadin]]
+
+==See also==
+{{Portal|Free software}}
+{{Portal|Java}}
+*[[ANTLR]]
+*[[SableCC]]
+*[[Coco/R]]
+*[[Parboiled (Java)|parboiled]]
+
+==External links==
+*{{Official|http://java.net/projects/javacc}}
+*[http://javacc.java.net/ Java Compiler Compiler (JavaCC) - The Java Parser Generator]
+&amp;lt;!-- *[http://replay.waybackmachine.org/20080924103934/https://javacc.dev.java.net/ A working snapshot of the old official website] - Snapshot archived in 2008 by Internet Archives. Includes more useful content than the current state of the new site. --&amp;gt;
+*[http://www.engr.mun.ca/~theo/JavaCC-Tutorial/ JavaCC Tutorial]
+*[http://www.engr.mun.ca/~theo/JavaCC-FAQ/ JavaCC FAQ]
+*[http://generatingparserswithjavacc.com/ A JavaCC book   - Generating Parsers with JavaCC]
+
+{{DEFAULTSORT:Javacc}}
+[[Category:Parser generators]]
+[[Category:Java development tools]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

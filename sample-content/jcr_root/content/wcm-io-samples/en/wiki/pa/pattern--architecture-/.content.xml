@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Pattern (architecture)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Pattern (architecture)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{for|the use of the same term in software design|Architectural pattern}}
+&amp;apos;&amp;apos;&amp;apos;Pattern&amp;apos;&amp;apos;&amp;apos; in architecture is the idea of capturing [[design|architectural design]] ideas as archetypal and reusable descriptions.  The term &amp;quot;pattern&amp;quot; in this context is usually attributed to [[Christopher Alexander]],&amp;lt;ref&amp;gt;{{Cite book
+| publisher = Oxford University Press, USA
+| isbn = 0-19-501919-9
+| last = Alexander
+| first = Christopher
+| title = A Pattern Language: Towns, Buildings, Construction
+| year = 1977
+| page = 1216
+}}&amp;lt;/ref&amp;gt; an Austrian born [[United States|American]] [[architect]]. The patterns serve as an aid to design [[city|cities]] and [[building]]s. The concept of having collections of &amp;quot;patterns&amp;quot;, or typical samples as such, is much older. One can think of these collections as forming a [[pattern language]], whereas the elements of this language may be combined, governed by certain rules.
+
+== Alexander&amp;apos;s idea of patterns ==
+
+Alexander&amp;apos;s patterns seek to provide a source of proven [[idea]]s for individuals and communities to use in constructing their living and [[built environment|working environment]]. As such their aim is both [[aesthetic]] and [[political]]: to show how beautiful, comfortable and flexible built environments can be constructed, and to enable those people who will inhabit those environments to challenge any [[solution]] forced upon them.
+
+A pattern records the design decisions taken by many builders in many places over many years in order to resolve a particular problem. Alexander describes a problem in terms of the so-called &amp;apos;&amp;apos;forces&amp;apos;&amp;apos; that act in it, and the &amp;apos;&amp;apos;solution&amp;apos;&amp;apos; is said to resolve those forces.
+
+== Pattern language ==
+
+Patterns may be collected together into a [[pattern language]] that addresses a particular domain. A large body of patterns was published by Alexander and his collaborators as &amp;apos;&amp;apos;[[A Pattern Language]]&amp;apos;&amp;apos;. The patterns in that book were intended to enable communities to construct and modify their own [[home]]s, [[wiktionary:Workplace|workplace]]s, [[town]]s and [[city|cities]].
+
+Other than Alexander&amp;apos;s own projects, few building projects have tried to use Alexander&amp;apos;s patterns. Those that have, have met a mixed responses from other architects and builders, architectural critics and users. Alexander has come to believe that patterns themselves are not enough, and that one needs a [[morphogenesis|&amp;quot;morphogenetic&amp;quot;]] understanding of the formation of the built environment; he has published his ideas in the four-volume work &amp;apos;&amp;apos;[[The Nature of Order]]&amp;apos;&amp;apos;.
+
+While the pattern language idea has so far had limited impact in the building industry, it has had a profound influence on many workers in the [[information technology industry]].
+
+==See also==
+* [[Pattern language]]
+* [[Design pattern]]
+* [[Design pattern (computer science)]]
+* [[Architectural pattern (computer science)]]
+
+== References ==
+{{Reflist}}
+
+{{DEFAULTSORT:Pattern}}
+[[Category:Architectural theory]]
+[[Category:Design]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

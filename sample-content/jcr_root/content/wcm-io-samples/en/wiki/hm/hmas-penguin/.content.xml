@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="HMAS Penguin"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="HMAS Penguin" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Italic title prefixed|4}}
+Three ships and two shore installations of the Royal Australian Navy have been named &amp;apos;&amp;apos;&amp;apos;HMAS &amp;apos;&amp;apos;Penguin&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; after the aquatic, flightless bird:
+
+* {{HMAS|Penguin|1913}}, a composite sloop originally commissioned by the [[Royal Navy]], before being transferred to the RAN in 1913 as a depot ship
+* HMAS &amp;apos;&amp;apos;Penguin&amp;apos;&amp;apos;, a second-class protected cruiser, {{HMAS|Encounter|1902|6}}, that was renamed &amp;apos;&amp;apos;Penguin&amp;apos;&amp;apos; in 1923 when it was converted to accommodations
+* HMAS &amp;apos;&amp;apos;Penguin&amp;apos;&amp;apos;, a submarine depot ship HMS &amp;apos;&amp;apos;Platypus&amp;apos;&amp;apos; built for the Royal Navy before transferring to the RAN as {{HMAS|Platypus|1917|6}} in 1919 and renamed &amp;apos;&amp;apos;Penguin&amp;apos;&amp;apos; in 1929. The ship was renamed &amp;apos;&amp;apos;Platypus&amp;apos;&amp;apos; in 1941.
+* HMAS &amp;apos;&amp;apos;Penguin&amp;apos;&amp;apos;, the Royal Australian Navy&amp;apos;s primary naval base on the east coast of Australia, located on Garden Island in Sydney, was known as HMAS &amp;apos;&amp;apos;Penguin&amp;apos;&amp;apos; until it was renamed {{HMAS|Kuttabul|naval base|6}} in January 1943.
+* {{HMAS|Penguin|naval base}}, one of the RAN&amp;apos;s major training establishments, located in Balmoral, New South Wales.
+
+Three other bases were established as subordinate to the Garden Island base. These were also given the name HMAS &amp;apos;&amp;apos;Penguin&amp;apos;&amp;apos;, but with a Roman numeral suffix added:
+
+* HMAS &amp;apos;&amp;apos;Penguin II&amp;apos;&amp;apos;, naval base at Balmoral, New South Wales, until renamed {{HMAS|Penguin|naval base|6}} in January 1943
+* HMAS &amp;apos;&amp;apos;Penguin III&amp;apos;&amp;apos;, a Naval depot in Newcastle, which was subsequently commissioned as {{HMAS|Maitland|naval base|6}} on 1 August 1940
+* HMAS &amp;apos;&amp;apos;Penguin IV&amp;apos;&amp;apos;, a Naval depot in Darwin which was commissioned in September 1939, and subsequently commissioned as {{HMAS|Melville|naval base|6}} on 1 August 1940
+
+==See also==
+*{{HMS|Penguin}}
+
+{{Shipindex}}
+
+{{DEFAULTSORT:Penguin, Hmas}}
+[[Category:Royal Australian Navy ship names]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

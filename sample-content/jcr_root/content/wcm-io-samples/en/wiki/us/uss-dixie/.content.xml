@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="USS Dixie"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="USS Dixie" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Italic title prefixed|3}}
+&amp;apos;&amp;apos;&amp;apos;USS &amp;apos;&amp;apos;Dixie&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; has been the name of more than one United States Navy ship, and may refer to:
+
+* {{USS|Dixie|1893}}, a ship in commission as an auxiliary cruiser from 1898 to 1899, as a training ship from 1899 to 1902, as a transport from 1903 to 1905 and from 1906 to 1907, and as a destroyer tender from 1909 to 1922
+* {{USS|Dixie|AD-14}}, a destroyer tender in commission from 1940 to 1982
+
+It may also refer to:
+
+*{{USS|Dixie III|SP-701}}, later USS &amp;apos;&amp;apos;SP-701&amp;apos;&amp;apos;, a patrol boat in commission from 1917 to 1919
+
+{{Shipindex}}
+
+{{DEFAULTSORT:Dixie}}
+[[Category:United States Navy ship names]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

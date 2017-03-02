@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Global Greens Charter"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Global Greens Charter" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Green politics sidebar |expanded=all}}
+
+The &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Global Greens Charter&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is a document that 800 delegates from the [[Green party|Green parties]] of 72 countries decided upon a first gathering of the [[Global Greens]] in [[Canberra]], [[Australia]] in April 2001 [http://www.global.greens.org.au/].
+
+The signatory parties and [[political movement]]s of the &amp;apos;&amp;apos;Global Greens Charter&amp;apos;&amp;apos; commit themselves to [[global partnership]] and to six guiding principles. These principles are:
+* [[ecological wisdom]]
+* [[social justice]]
+* [[participatory democracy]]
+* [[nonviolence]]
+* [[sustainability]]
+* [[respect for diversity]]
+
+The Charter builds on earlier Greens statements including in 1992 at the Rio Earth Summit [http://www.globalgreens.org/statements/rio_planetary_meeting], the Millennium Declaration made at Oaxaca in 1999 and the Accord between the Green Parties of the Americas and the Ecologist Parties of Africa.
+
+The draft Charter was prepared by Louise Crossley (Australian Greens), based upon the following documents.
+
+* [[Ten_Key_Values_of_the_Green_Party#Ten_Key_Values_of_the_Green_Party|Ten Key Values]] of the Green Committees of Correspondence (US)
+* Taiwanese interpretation of the ten key  values
+* Ten Key Values of the Canadian Greens
+* The Earth Charter - Benchmark Draft II,  April 1999
+* Declaracion de principios (Mexico)
+* Declaracion de principios (Mexico) - English translation
+* Valores fundamentais (Brazil)
+* Guiding principles, including the [[Four Pillars of the Green Party|Four Pillars]] of the European Greens
+* Protocol between the African and American  Green Party Federations
+* Charter of The Green Party of Aotearoa New Zealand
+* Charter of The Australian Greens
+* United Tasmania Group - The new ethic (1972)
+* Beyond tomorrow - 1975 Values Party manifesto
+
+==See also==
+*[[Direct democracy]]
+*[[Grassroots democracy]]
+*[[Participatory democracy]]
+
+==External links==
+* [http://www.globalgreens.org/globalcharter The text of the charter in English, German, Spanish, Esperanto, French, Portuguese and Swedish]
+
+[[Category:Green political parties]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

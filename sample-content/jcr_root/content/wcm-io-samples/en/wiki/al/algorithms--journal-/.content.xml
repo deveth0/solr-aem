@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Algorithms (journal)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Algorithms (journal)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Use dmy dates|date=June 2013}}
+{{Orphan|date=December 2012}}
+
+{{Infobox journal
+| title = Algorithms
+| discipline = [[computer science]]
+| abbreviation = Entropy
+| publisher = [[MDPI]]
+| country =
+| frequency = Quarterly issues,
+| history = 2008-present
+| openaccess = Yes
+| website = http://www.mdpi.com/journal/algorithms
+| ISSN = 1999-4893
+}}
+&amp;apos;&amp;apos;&amp;apos;&amp;quot;Algorithms&amp;quot;&amp;apos;&amp;apos;&amp;apos; (plural of [[algorithm]]) is a [[Peer review|peer-reviewed]] [[open access]] [[scientific journal]] &amp;quot;of [[computer science]], theory, methods and interdisciplinary applications, data and information systems, [[software engineering]], [[artificial intelligence]], [[automation]] and [[control systems]].&amp;quot;.&amp;lt;ref&amp;gt;http://www.mdpi.com/journal/algorithms&amp;lt;/ref&amp;gt; It was established in 2008 and is published by [[MDPI]].
+
+== References ==
+{{Reflist}}
+
+== External links ==
+* {{Official website|http://www.mdpi.com/journal/algorithms}}
+
+[[Category:Computer science journals]]
+[[Category:Open access journals]]
+[[Category:Multidisciplinary Digital Publishing Institute academic journals]]
+[[Category:Quarterly journals]]
+[[Category:English-language journals]]
+[[Category:Publications established in 2008]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

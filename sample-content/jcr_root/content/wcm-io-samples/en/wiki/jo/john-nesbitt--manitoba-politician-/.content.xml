@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="John Nesbitt (Manitoba politician)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="John Nesbitt (Manitoba politician)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+&amp;apos;&amp;apos;&amp;apos;John Nesbitt&amp;apos;&amp;apos;&amp;apos; (1925-1998) was a [[Manitoba]] [[agrology|agrologist]].  He worked as a [[university]] professor, and in 1970 challenged [[Israel Asper]] for the leadership of the [[Manitoba Liberal Party]].
+
+Born in [[Shoal Lake, Manitoba|Shoal Lake]], [[Manitoba]], Nesbitt saw service in [[World War II]] and subsequently obtained a [[Doctor of Philosophy|Ph.D.]] from [[Penn State University]] in 1952.  He was head of the department of Dairy Science at the [[University of Manitoba]] from 1953 to 1966, and was a respected public speaker.  He was also a member of Manitoba&amp;apos;s Milk Control Board from 1959 to 1970.
+
+Despite having the support of House Leader [[Gordon Johnston (Canadian politician)|Gordon Johnston]], Nesbitt received only 329 votes at the provincial Liberal convention of 1970, as against 720 for Asper.
+
+Nesbitt returned to the [[University of Manitoba]] in 1977, serving as Associate Director (and later Director) of the School of Agriculture.  In 1984, he helped to found [[Keystone Agricultural Producers Inc.]]  He never actually ran for office at the provincial or federal level.
+
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Nesbitt, John
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION =
+| DATE OF BIRTH     = 1925
+| PLACE OF BIRTH    =
+| DATE OF DEATH     = 1988
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Nesbitt, John}}
+[[Category:1925 births]]
+[[Category:1988 deaths]]
+[[Category:Politicians in Manitoba]]
+[[Category:Pennsylvania State University alumni]]
+[[Category:University of Manitoba faculty]]
+[[Category:Dairy educators]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

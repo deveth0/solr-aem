@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Dallas Zoo (DART station)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Dallas Zoo (DART station)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox Station
+ | name= Dallas Zoo
+ | type= [[Dallas Area Rapid Transit|DART]] [[light rail]] station
+ | image=DallasZooStn2.jpg|thumb|
+ | image_size=
+ | image_caption=
+ | address=614 South Ewing Avenue&amp;lt;br /&amp;gt;Dallas, Texas  75204
+ | coordinates={{Coord|32|44|26|N|96|48|47|W|type:railwaystation_region:US-OH|display=inline,title}}
+ | line={{rail color box|system=DART|line=Red}}
+ | other= DART Routes {{DART LB|19}}, {{DART RFB|515}} (M-Sat), and {{DART RFB|522}} (M-Sat)
+ | platform=Two [[side platforms]]
+ | parking=Two lockers, one rack
+ | bicycle=
+ | passengers=
+ | pass_year=
+ | pass_percent=
+ | opened= June 14, 1996&amp;lt;ref name=&amp;quot;June 15, 1996&amp;quot;&amp;gt;{{cite news |first=Curtis|last=Howell |coauthors=Mark Wrolstad |work=The Dallas Morning News |title=Now Boarding: Rail debut has crowds lining up |date=June 15, 1996}}&amp;lt;/ref&amp;gt;
+ | rebuilt=
+ | ADA=Yes
+ | code=
+ | owned= [[Dallas Area Rapid Transit]]
+ | zone=
+ | services=
+{{S-rail|title=DART}}
+{{S-line|system=DART|line=Red|previous=Tyler/Vernon|next=8th &amp;amp; Corinth}}
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Dallas Zoo&amp;apos;&amp;apos;&amp;apos; is a [[DART Light Rail]] station located in the [[Oak Cliff]] neighborhood of [[Dallas, Texas|Dallas]], [[Texas]] ([[United States|USA]]) at Ewing Avenue and Clarendon Drive.  It opened on June 14, 1996 and is a station on the {{DART R}}, serving the [[Dallas Zoo]] and Methodist Hospital.
+
+== References ==
+{{reflist}}
+
+==External links==
+* [http://www.dart.org/riding/stations/dallaszoostation.asp DART - Dallas Zoo Station]
+
+{{Portal|Dallas-Fort Worth}}
+
+{{Dallas Area Rapid Transit}}
+{{DEFAULTSORT:Dallas Zoo (Dart Station)}}
+[[Category:Dallas Area Rapid Transit light rail stations]]
+[[Category:Railway stations opened in 1996]]
+{{Tram-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

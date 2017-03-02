@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="X-ray pulsar-based navigation"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="X-ray pulsar-based navigation" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;X-ray pulsar-based navigation and timing (XNAV)&amp;apos;&amp;apos;&amp;apos; is a navigation technique whereby the periodic [[X-ray]] signals emitted from [[X-ray pulsar|pulsars]] are used to determine the location of a spacecraft in deep space.  A spacecraft using XNAV compares received X-ray signals with a database of known pulsar frequencies and locations.  Similar to [[GPS]], this comparison allows the spacecraft to triangulate its position accurately (accurate to 5km) .
+
+==References==
+*[http://arxiv.org/abs/1305.4842v1.pdf Autonomous Spacecraft Navigation With Pulsars, W.Becker, M.G. Bernhardt &amp;amp; A.Jessner, in Acta Futura 2013]
+*[http://physicsworld.com/cws/article/news/2013/jun/04/pulsars-map-the-way-for-space-missions Pulsars map the way for space missions]
+*[http://www.technologyreview.com/view/515321/an-interplanetary-gps-using-pulsar-signals An Interplanetary GPS Using Pulsar Signals]
+*[http://www.jhuapl.edu/newscenter/pressreleases/2005/051024.asp Johns Hopkins APL to Develop Deep Space Navigation Network]
+*[http://www.sbir.nasa.gov/SBIR/abstracts/05/sbir/phase2/SBIR-05-2-O1.02-9013.html US Government Contract Proposal for X-Ray Pulsar Based Navigation and Time Determination]
+
+[[Category:Satellite navigation systems]]
+
+
+{{space-stub}}
+http://arxiv.org/pdf/1305.4842v1.pdf&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

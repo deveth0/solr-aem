@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="New Zealand and South Seas Exhibition"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="New Zealand and South Seas Exhibition" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;Several &amp;apos;&amp;apos;&amp;apos;[[New Zealand]] and South Seas Exhibitions&amp;apos;&amp;apos;&amp;apos; were held in the latter part of the 19th century and early 20th century in New Zealand:
+
+*[[New Zealand Exhibition (1865)]] in [[Dunedin]]
+*[[New Zealand Industrial Exhibition]] in [[Wellington]]
+*[[New Zealand and South Seas Exhibition (1889)]], in Dunedin
+*[[International Exhibition (1906)|New Zealand International Exhibition (1906)]], in Christchurch
+*[[New Zealand and South Seas International Exhibition (1925)]], in Dunedin
+*[[New Zealand Centennial Exhibition]] (1939-1940), in Wellington
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

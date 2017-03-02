@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Net worth"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Net worth" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{about||the 1995 hockey film|Net Worth (TV film)|the 2000 film|Net Worth (film)}}
+{{Unreferenced|date=January 2008}}
+
+In business, &amp;apos;&amp;apos;&amp;apos;net worth&amp;apos;&amp;apos;&amp;apos; (sometimes called &amp;apos;&amp;apos;&amp;apos;[[net assets]]&amp;apos;&amp;apos;&amp;apos;) is the total [[assets]] minus total outside [[Liability (financial accounting)|liabilities]] of an individual or a [[company (law)|company]]. For a company, this is called shareholders&amp;apos; preference and may be referred to as [[book value]]. Net worth is stated as at a particular year in time. In the case of an individual, the term [[Estate (law)|estate]] is used in relation to deceased individuals in [[probate]]. For businesses, the term is used in the context of [[fraudulent]] law and on the dissolution of the company.
+
+In [[personal finance]], net worth (or &amp;apos;&amp;apos;&amp;apos;[[Wealth (economics)|wealth]]&amp;apos;&amp;apos;&amp;apos;) refers to an individual&amp;apos;s net economic position; similarly, it uses the value of all assets (long term assets) minus the value of all liabilities.
+
+Net worth in business is generally based on the value of all assets and liabilities at the [[market value|carrying value]] which is the value as expressed on the [[financial statements]]. To the extent items on the balance sheet do not express their true (market) value, the net worth will also be inaccurate.
+
+Net worth in this formulation is &amp;apos;&amp;apos;not&amp;apos;&amp;apos; an expression of the [[market value]] of the firm: the firm may be worth more (or less) if sold as a [[going concern]].
+
+On reading the balance sheet, if the accumulated losses exceed the shareholder&amp;apos;s equity, it is a negative value for net worth.
+
+==See also==
+* [[Financial position of the United States]]
+* [[High-net-worth individual]]
+
+[[Category:Wealth]]
+[[Category:Financial accounting]]
+
+
+{{econ-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

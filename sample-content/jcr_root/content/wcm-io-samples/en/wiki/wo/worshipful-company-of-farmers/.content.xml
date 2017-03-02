@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Worshipful Company of Farmers"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Worshipful Company of Farmers" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;Worshipful Company of Farmers&amp;apos;&amp;apos;&amp;apos; is one of the [[Livery Company|Livery Companies]] of the [[City of London]]. The Company became a Livery Company in 1952, and was granted a [[Royal Charter]] three years later. The Farmers&amp;apos; Company supports farming students, and otherwise promotes education in [[agriculture]].
+
+The Farmers&amp;apos; Company ranks eightieth in the [[order of precedence]] for Livery Companies. Its motto is &amp;apos;&amp;apos;Give Us Our Daily Bread&amp;apos;&amp;apos;.
+
+==External links==
+* [http://www.farmerslivery.org.uk/ The Worshipful Company of Farmers]
+
+{{Livery Companies in the City of London}}
+[[Category:Livery companies|Farmers]]
+[[Category:1952 establishments in England]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

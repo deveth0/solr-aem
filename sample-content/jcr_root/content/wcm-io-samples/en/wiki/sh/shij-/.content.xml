@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Shijō"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Shijō" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Redirect|Shijo|Korean poetry, also spelt &amp;apos;&amp;apos;shijo&amp;apos;&amp;apos;|Sijo}}
+
+{{Nihongo|&amp;apos;&amp;apos;&amp;apos;Shijō&amp;apos;&amp;apos;&amp;apos;|四条 or 四條}} literally means &amp;apos;&amp;apos;fourth street&amp;apos;&amp;apos; in Japanese. It may refer to:
+
+== Names ==
+* [[Emperor Shijō]], the 87th [[Emperor of Japan]]
+* a Japanese surname
+** {{Nihongo|[[Shijō family]]|[[:ja:四条家|四条家]]|Shijōke}}—a Japanese [[kuge]] family descended from the {{Nihongo|[[Fujiwara clan|Fujiwara]] Hokke|[[:ja:藤原北家|藤原北家]]}}
+
+== Places ==
+* [[Shijō Street]], one of east-west streets in the ancient capital of [[Heian-kyō]], present-day [[Kyoto]]
+* Train stations
+** [[Shijō Station]], a train station on the [[Kyoto Municipal Subway]] [[Karasuma Line]] in [[Shimogyō-ku, Kyoto]]
+** [[Gion-Shijō Station]], a train station on the [[Keihan Main Line]] in [[Higashiyama-ku, Kyoto]], formerly known as Shijō Station
+
+{{Numbered jō}}
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

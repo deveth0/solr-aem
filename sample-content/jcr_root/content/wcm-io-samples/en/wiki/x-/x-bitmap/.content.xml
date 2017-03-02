@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="X BitMap"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="X BitMap" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{refimprove|date=July 2009}}
+{{Infobox file format
+| name = X BitMap
+| extension = .xbm
+| screenshot = [[Image:Blarg.xbm.png|240px]]
+| caption    = A sample XBM file
+| mime = image/x-xbitmap,&amp;lt;br /&amp;gt;image/x-xbm&amp;lt;/code&amp;gt;&amp;amp;nbsp;(both unofficial)
+| owner =
+| creatorcode = &amp;lt;tt&amp;gt;XBM &amp;lt;/tt&amp;gt;
+| genre = [[Image file formats]]
+| containerfor =
+| containedby =
+| extendedfrom =
+| extendedto = [[XPM (image format)|XPM]]
+}}
+In [[computer graphics]], the [[X Window System]] uses &amp;apos;&amp;apos;&amp;apos;X BitMap&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;&amp;apos;XBM&amp;apos;&amp;apos;&amp;apos;), a [[plain text]] [[binary image|binary]] [[image file format|image format]], for storing [[cursor (computers)|cursor]] and [[computer icon|icon]] [[bitmap]]s used in the X [[graphical user interface|GUI]].
+
+XBM files differ markedly from most image files in that they take the form of [[C (programming language)|C]] source files. This means that they can be compiled directly into an application without any preprocessing steps, but it also makes them far larger than their raw pixel data. The image data is encoded as a comma-separated list of byte values, each written in the C hexadecimal notation, &amp;apos;0x13&amp;apos; for example, so that multiple bytes are used to express a single byte of image information.
+
+==Format==
+XBM data typically appears in [[Header (computing)|header]]s (.h files) and consist of a series of static unsigned char [[Array data structure|arrays]] containing the monochrome [[pixel]] data. They feature one array per image stored in the header.
+
+The following piece of C code exemplifies an XBM file:
+
+&amp;lt;source lang=&amp;quot;C&amp;quot;&amp;gt;
+#define test_width 16
+#define test_height 7
+static char test_bits[] = {
+0x13, 0x00, 0x15, 0x00, 0x93, 0xcd, 0x55, 0xa5, 0x93, 0xc5, 0x00, 0x80,
+0x00, 0x60 };
+&amp;lt;/source&amp;gt;
+
+In place of the usual image-file-format header, XBM files have two or four #define statements. The first two #defines specify the height and width of the bitmap in pixels. The second two, if they exist, specify the position of any hotspot within the bitmap. (Programmers use a hotspot within the image for bitmapped cursors to define where to position the &amp;quot;pointer&amp;quot; of the cursor, generally at 0,0.)
+
+The image data consists of a line of pixel values stored in a static array. Because a single [[bit]] represents each pixel (black or white), each byte in the array contains the information for eight pixels, with the upper left pixel in the bitmap represented by the low bit of the first byte in the array. If the image width does not match a multiple of 8, the display mechanism ignores and discards the extra bits in the last byte of each row.
+
+==Support==
+A number of [[web browser]]s still offer support for displaying XBM images. This is a holdover from the early days of the [[world wide web]], when XBM was the minimal non-proprietary image file format. XBM support was removed from [[Internet Explorer 6]] and [[Mozilla Firefox 3.6]], although it is still supported in some other browsers, including [[Safari (web browser)|Safari]] and [[Opera (web browser)|Opera]].
+The [[Arena (web browser)|Arena]] web browser has full support since version 0.3.34 (25 July 1997)&amp;lt;ref&amp;gt;{{cite web|last=QingLong|first=Lu|title=Arena change history|url=http://www.yggdrasil.com/Products/Arena/release/CHANGES.html|publisher=[[Yggdrasil Computing]]|accessdate=3 June 2010|archiveurl=http://web.archive.org/web/20030228182751/http://www.yggdrasil.com/Products/Arena/release/CHANGES.html|archivedate=28 February 2003|date=24 March 1998}}&amp;lt;/ref&amp;gt;
+
+==See also==
+* [[Netpbm format]]
+* [[X PixMap]]
+
+==References==
+{{Reflist}}
+
+{{Graphics file formats}}
+{{Use dmy dates|date=July 2011}}
+
+[[Category:Graphics file formats]]
+[[Category:X Window System]]
+
+{{graphics-software-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

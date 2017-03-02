@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="John Schneider"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="John Schneider" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;John Schneider&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+*[[John Schneider (American football)]] (born 1894), American football player
+*[[John Schneider (American football executive)]], Seattle Seahawks executive
+*[[John Schneider (screen actor)]] (born 1960), actor (&amp;apos;&amp;apos;The Dukes of Hazzard&amp;apos;&amp;apos; and &amp;apos;&amp;apos;Smallville&amp;apos;&amp;apos;) and country music artist
+*[[John Schneider (producer)]] (born 1962), American film producer
+*[[John Schneider (guitarist)]] (born 1950), American classical music guitarist
+*[[John Schneider (racing driver)]], American racing driver
+*[[John Schneider (stage actor)]], Milwaukee-based theatre artist
+*[[John A. Schneider]] (born 1926), president of the CBS Television Network
+*[[John R. Schneider]] (born 1937), former American politician
+*[[John Schneider, Jr.]] (1918–1985), American politician
+
+{{hndis|Schneider, John}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

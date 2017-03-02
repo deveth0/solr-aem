@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ecological Democratic Party"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ecological Democratic Party" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox political party
+|country = Germany
+|party_name = Ecological Democratic Party
+|native_name = Ökologisch-Demokratische Partei
+|party_logo = [[File:ÖDP-Logo.svg]]
+|colorcode = #ff8000
+|leader = [[Sebastian Frankenberger]]
+|foundation = 1982
+|ideology = [[Ecologism]],&amp;lt;br&amp;gt;[[Centrism]]
+|position = [[Centrism|Centre]]
+|international = [[World Ecological Parties]]
+|european = &amp;apos;&amp;apos;None&amp;apos;&amp;apos;
+|europarl = &amp;apos;&amp;apos;None&amp;apos;&amp;apos;
+|colours = [[orange (colour)|Orange]]
+|headquarters = Pommergasse 1, 97070 [[Würzburg]]&amp;lt;ref&amp;gt;https://www.oedp.de/partei/organisation/geschaeftsstellen/&amp;lt;/ref&amp;gt;
+|youth_wing = [[Young Ecologists]]
+|website = [http://www.oedp.de/ http://www.oedp.de/]
+}}
+{{Politics of Germany}}
+The &amp;apos;&amp;apos;&amp;apos;Ecological Democratic Party&amp;apos;&amp;apos;&amp;apos; ({{lang-de|Ökologisch-Demokratische Partei}}, ÖDP) is an environmentalist [[political party]] in [[Germany]]. It was founded in 1982 by former members of the [[German Green Party]]. The ÖDP combines issues which are not often found together: a focus on state financial support for families and childrearing, and a belief in the [[right to life]] (that is, opposition to [[abortion]], [[euthanasia]] and the [[death penalty]]). The latter positions  and the differences listed below – have led some, including political scientist Joachim Raschke, to characterize the party as &amp;quot;conservative,&amp;quot; but the party feels that all these positions are a consistent response to injustice. In most of those issues which it emphasizes, such as the environment and trade, it is similar to the Green party.  It differs from the Green party by being less supportive of immigration and restrictions on state powers in criminal justice issues, not focusing on gay and lesbian rights, and having a differing view of feminism.
+
+Its main base is in the south of Germany, in the states of [[Bavaria]] and (to a lesser degree) [[Baden-Württemberg]], though it has fielded candidates in many parts of the country.
+
+It was one of the earliest supporters (since 1989) of a [[Green tax shift]], an idea which later gained broader support and has been partially implemented in Germany since the [[Social Democratic Party of Germany|SPD]] and [[German Green Party|Greens]] were elected to form the government in 1998.
+
+Though a very small party – it has not gained seats in a state parliament or in the [[Bundestag|national parliament]] – the ÖDP became notable for its involvement in the opposition to a [[Czech Republic|Czech]] nuclear reactor in [[Temelin]], across the border from Bavaria. It led an initiative for a popular referendum to abolish the Bavarian Senate (that state&amp;apos;s upper house) which was successful. It brought suit against a law in [[North Rhine-Westphalia]] which requires parties to receive 5% of the vote in order to take their seats, as well as a national law which reserves state financing only for parties that got more than one percent of the vote in at least three state elections; both laws were overturned.
+
+The party has a youth organization called [[Junge Ökologen]] (&amp;quot;Young Ecologists&amp;quot;).
+
+==Leaders==
+&amp;lt;timeline&amp;gt;
+ImageSize  = width:570 height:70
+PlotArea   = width:530 height:50 left:10 bottom:20
+
+DateFormat = yyyy
+Period     = from:1982 till:2005
+TimeAxis   = orientation:horizontal
+ScaleMajor = unit:year increment:2 start:1982
+
+Define $dx = 25 # shift text to right side of bar
+
+PlotData=
+  bar:Leaders color:green width:15 mark:(line,white) align:left fontsize:S
+
+  from:start till:1989 shift:(-30,15)    text:[[Herbert Gruhl]]
+  from:1989  till:1993 shift:(-30,25)text:[[Hans-Joachim Ritter]]
+  from:1993  till:1995 shift:(-40,15)    text:[[Bernd Richter]]
+  from:1995  till:1997 shift:(-30,25)    text:[[Hans Mangold]]
+  from:1997  till:2000 shift:(-40,15)    text:[[Susanne Bachmaier]]
+  from:2000  till:2002 shift:(-30,25)    text:[[Uwe Dolata]]
+  from:2002  till:end shift: (-40,15) text:[[Klaus Buchner]]
+&amp;lt;/timeline&amp;gt;
+
+===Election results===
+&amp;apos;&amp;apos;&amp;apos;State elections&amp;apos;&amp;apos;&amp;apos;:
+* [[Bavaria]] (2003) 2.0%
+* [[Baden-Württemberg]] (2006) 0.6%
+* [[Rhineland-Palatinate]] (2006) 0.2%
+* [[Berlin]] (2006) 0.1%
+* [[Thuringia]] (2004) 0.2%
+* [[Hamburg]] (2004) 0.1%
+* [[Hesse]] (1999) 0.1%
+* [[Saxony-Anhalt]] (2006) 0.8%
+* [[Lower Saxony]] (2003) 0.1%
+* [[North Rhine-Westphalia]] (2005) 0.2%
+
+&amp;apos;&amp;apos;&amp;apos;[[European Parliament]]&amp;apos;&amp;apos;&amp;apos;:
+* 1984: 0.3%
+* 1989: 0.7%
+* 1994: 0.8%
+* 1999: 0.4%
+* 2004: 0.6%
+
+&amp;apos;&amp;apos;&amp;apos;German Parliament ([[Bundestag]])&amp;apos;&amp;apos;&amp;apos;:
+* 1983: 0.0%
+* 1987: 0.3%
+* 1990: 0.4%
+* 1994: 0.4%
+* 1998: 0.2%
+* 2002: 0.1%
+
+{{See also|List of political parties in Germany}}
+
+==External links==
+{{commons|Ökologisch-Demokratische Partei}}
+*[https://www.oedp.de Ödp - Federal Association]
+*[http://www.oedp-bayern.de Ödp - Bavaria]
+*[https://www.oedp.de/fileadmin/user_upload/bundesverband/programm/programme/gp_e.pdf Basic Program of the Ecological Democratic Party (in English)]
+
+==References==
+&amp;lt;references /&amp;gt;
+
+{{Parties of Germany}}
+
+[[Category:Political parties in Germany]]
+[[Category:Green political parties]]
+[[Category:Political parties established in 1982]]
+
+{{Link GA|de}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Dalton (program)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Dalton (program)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Dalton&amp;apos;&amp;apos;&amp;apos; (named after [[John Dalton]]) is an [[Ab initio quantum chemistry methods|ab initio]] [[quantum chemistry]] computer program. It is capable of calculating various molecular properties using the [[Hartree&amp;amp;ndash;Fock]], [[Møller&amp;amp;ndash;Plesset perturbation theory|MP2]], [[MCSCF]] and [[coupled cluster]] theories. Version 2.0 of DALTON added support for [[density functional theory]] calculations. There are many authors, including [[Trygve Helgaker]] and [[Kenneth Ruud]].
+
+== See also ==
+* [[List of quantum chemistry and solid state physics software|Quantum chemistry software]]
+* [[Centre for Theoretical and Computational Chemistry]]
+
+==External links==
+* [http://www.kjemi.uio.no/software/dalton/dalton.html Dalton Homepage]
+
+[[Category:Computational chemistry software]]
+
+{{theoretical-chem-stub}}
+{{science-software-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

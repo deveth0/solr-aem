@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="OpenGL User Interface Library"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="OpenGL User Interface Library" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox software
+| name                   = GLUI
+| screenshot             = [[Image:Glui.png|300px]]
+| caption                = Demonstration of the GLUI program
+| collapsible            = yes
+| developer              = [http://www.cs.unc.edu/~rademach Paul Rademacher]
+| latest release version = 2.36
+| latest release date    = {{Start date and age|2007|11|04}}
+| operating system       = [[Cross-platform]]
+| genre                  = [[Widget toolkit]]
+| license                = [[LGPL]]
+| website                = http://glui.sourceforge.net/
+}}
+&amp;apos;&amp;apos;&amp;apos;OpenGL User Interface Library&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;&amp;apos;GLUI&amp;apos;&amp;apos;&amp;apos;) is a [[C++]] [[user interface]] library based on the [[OpenGL Utility Toolkit]] (GLUT) which provides controls such as buttons, checkboxes, radio buttons, and spinners to OpenGL applications. It is window- and operating system independent, relying on GLUT to handle all system-dependent issues, such as window and mouse management.
+
+It lacks the features of a more full-fledged GUI toolkit such as [[Qt (toolkit)|Qt]], [[wxWidgets]], or [[FLTK]], but it has a very small footprint and is extremely easy to use.  A research or demonstration program that originally only uses GLUT can be given a useful control panel using GLUI in a short time, even by someone new to the toolkit.
+
+It was first written by [[Paul Rademacher]] to help him with his academic work. It is now maintained by [[Nigel Stewart]].
+
+Weaknesses include the lack of a properly functioning file chooser (perhaps the most frustrating omission) and mediocre responsiveness.
+
+== See also ==
+*[[OpenGL Utility Library]] (GLU)
+*[[OpenGL Utility Toolkit]] (GLUT)
+*[[freeglut]]
+
+== External links ==
+* [http://sourceforge.net/projects/glui/ GLUI SourceForge Project]
+
+[[Category:OpenGL]]
+
+{{compu-graphics-stub}}
+{{Widget toolkits}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

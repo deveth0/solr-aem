@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="DID"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="DID" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary}}
+&amp;apos;&amp;apos;&amp;apos;DID&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;did&amp;apos;&amp;apos;&amp;apos; may mean: &amp;lt;!-- alpha order --&amp;gt;
+* [[Damsel in distress]], a classic theme in world literature, art and film
+* [[Data Item Descriptions]], describing the content of sections in a file or document
+* [[Defeat in detail]], a military term in which a large force decisively defeats a smaller force with minimal losses
+* Defense in depth, either
+** [[Defense in depth]], a military strategy for defense
+** [[Defense in depth (computing)]], an information assurance strategy
+* Développement International Desjardins, a subsidiary of the Quebec-based [[Desjardins Group]] active in developing countries
+* [[Didcot Parkway railway station]], a railway station in England (National Rail station code DID)
+* [[Difference in differences]], an approach for statistical estimation of treatment effects
+* [[Digital Image Design]], a video game developer
+&amp;lt;!--* [[Digital Information Display]], screens for indoor or outdoor display--&amp;gt;
+* [[Direct Inward Dialing]], in telephony
+* [[Dissociative identity disorder]], a psychiatric diagnosis sometimes known as &amp;quot;multiple personality disorder&amp;quot;
+*[[Ouchterlony double immunodiffusion]]
+* &amp;apos;&amp;apos;[[Dance India Dance]]&amp;apos;&amp;apos;, a reality dance show on Zee TV, first aired in 2009
+* &amp;apos;&amp;apos;[[Desert Island Discs]]&amp;apos;&amp;apos;, a long-running BBC Radio 4 programme, presented since 2006 by Kirsty Young
+* [[Dialogue in the Dark]] (DiD), an awareness-raising exhibition
+* &amp;apos;&amp;apos;did&amp;apos;&amp;apos;, past tense of the English verb &amp;apos;&amp;apos;[[do (verb)|do]]&amp;apos;&amp;apos;
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

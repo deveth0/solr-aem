@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Qatar Financial Centre"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Qatar Financial Centre" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{primarysources|date=August 2009}}
+The &amp;apos;&amp;apos;&amp;apos;Qatar Financial Centre&amp;apos;&amp;apos;&amp;apos; (QFC) is a business and financial centre located in [[Doha]], providing legal and business infrastructure for financial services. It was established in March 2005.
+
+The Qatar Financial Centre provides financial institutions with a world class financial services platform situated in an economy founded on the development of its hydrocarbons resources. It has been created with a long-term perspective to support the [[Economic development|development]] of Qatar and the [[Arabian Peninsula|wider region]], develop local and regional markets, and strengthen the links between the [[Petroleum industry|energy]] based economies and global [[financial market]]s.
+
+== Background ==
+
+While [[Petroleum|oil]] and [[Natural gas|gas]] will probably remain the backbone of Qatar&amp;apos;s economy for some time to come, the country seeks to stimulate the private sector and develop a [[knowledge economy]]. In 2004, it established the [[Qatar Science &amp;amp; Technology Park]] to attract and serve [[technology]]-based companies and entrepreneurs, from overseas and within Qatar. Qatar also established &amp;quot;education city&amp;quot; which consists of international colleges. For the 15th Asian Games in Doha in December 2006 it established a &amp;quot;sports city&amp;quot; consisting of Khalifa stadium, the [[ASPIRE Academy for Sports Excellence|Aspire Sports Academy]], aquatic centres, exhibition centres and many other sports related buildings and centres. Qatar also plans to build an &amp;quot;entertainment city&amp;quot; in the future.
+
+Apart from Qatar itself, which needs to raise the capacity of its [[financial services]] to support more than $140 billion worth of projects, the QFC also provides a conduit for [[financial services]] providers to access nearly $1 trillion of investment across the [[Cooperation Council for the Arab States of the Gulf|GCC]] as a whole over the next decade.
+
+==See also==
+*[[Economy of Qatar]]
+
+==References==
+{{reflist}}
+
+==External links==
+*[http://www.qfc.com.qa/ Qatar Financial Centre Authority]
+*[http://www.qfcra.com/ Qatar Financial Centre Regulatory Authority]
+*[http://www.qfba.edu.qa/ Qatar Finance and Business Academy]
+*[http://www.qatarlyst.com/ Qatarlyst]
+
+[[Category:Economy of Qatar]]
+[[Category:Business organizations]]
+[[Category:Financial services companies of Qatar]]
+[[Category:2005 establishments in Qatar]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

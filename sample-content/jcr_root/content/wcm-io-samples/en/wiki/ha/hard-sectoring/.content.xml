@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Hard sectoring"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Hard sectoring" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Image:Dvd-ram-closeup.jpg|thumb|These rectangles constitute the hard (factory originated) sectoring of a DVD-RAM disc]]
+&amp;apos;&amp;apos;&amp;apos;Hard sectoring&amp;apos;&amp;apos;&amp;apos; in a [[magnetic storage|magnetic]] or [[optical disk|optical]] [[data storage device]] is a form of [[Disk sector|sector]]ing which uses a physical mark or hole in the recording medium to reference sector locations.
+
+In older 8- and 5{{1/4}}-inch [[floppy disk]]s, hard sectoring was implemented by punching &amp;quot;sector holes&amp;quot; in the disk to mark the start
+of each sector. These were equally spaced holes, at a common radius. This was in addition to the &amp;quot;index hole&amp;quot;, situated between two sector holes, to mark the start of the entire &amp;quot;track&amp;quot; of sectors. When the index or sector hole was recognized by an [[optical sensor]], a sector signal was generated. Timing electronics or software would use the faster timing of the index hole between sector holes, to generate an index signal. Data read and write is faster in this technique than soft sectoring as no operations are to be performed regarding the starting and ending points  of tracks.
+
+==Storage formats using hard sectoring==
+{{Expand list|date=February 2011}}
+*32 sector 8-inch floppy disks
+*10 sector and 16 sector 5{{1/4}}-inch floppy disks
+*Numerous [[magneto-optical]] formats
+*[[DVD-RAM]]
+
+==References==
+*{{FS1037C}}
+
+
+[[Category:Rotating disc computer storage media]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

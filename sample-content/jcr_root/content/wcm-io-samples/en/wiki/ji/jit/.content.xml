@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="JIT"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="JIT" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;JIT&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* Various meanings of [[Just in Time (disambiguation)]]:
+** [[Just-in-time compilation]] - a technique for improving the performance of [[virtual machine]]s in [[computing]].
+** [[Just-in-time (business)]] - a [[business]] [[inventory]] strategy.
+* [[Extensible Messaging and Presence Protocol|Jabber]] ICQ Transport.
+* [[Jhulelal Institute of Technology]]
+
+&amp;apos;&amp;apos;&amp;apos;Jit&amp;apos;&amp;apos;&amp;apos; may refer to:
+&amp;apos;&amp;apos;&amp;apos;J.I.T.&amp;apos;&amp;apos;&amp;apos;  &amp;apos;&amp;apos; Juvenile Delinquent in Training&amp;apos;&amp;apos;:
+Southern slang used to describe the &amp;quot;Thug&amp;quot; youth element. This term has origins in the &amp;quot;Youth Correctional System&amp;quot;.
+
+* [[Jit]], a style of [[Zimbabwe]]an dance music.
+* [[Jit (movie)]]
+* [[Jit (town)]], a Palestinian town in the [[West Bank]].
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

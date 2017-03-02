@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="False (logic)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="False (logic)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Refimprove|date=March 2012}}
+In [[logic]], &amp;apos;&amp;apos;&amp;apos;false&amp;apos;&amp;apos;&amp;apos; is a [[truth value]] or a [[nullary]] [[logical connective]]. In a [[truth function|truth-functional]] [[propositional calculus|system of propositional logic]] it is one of two postulated [[truth value]]s, along with its [[negation]], [[logical truth|truth]].&amp;lt;ref&amp;gt;Jennifer Fisher, &amp;apos;&amp;apos;On the Philosophy of Logic&amp;apos;&amp;apos;, Thomson Wadsworth, 2007, ISBN 0-495-00888-5, [http://books.google.com/books?id=k8L_YW-lEEQC&amp;amp;pg=PT27 p. 17.]&amp;lt;/ref&amp;gt;  Usual notations of the false are [[0 (number)|0]] (especially  in Boolean logic and [[computer science]]) and the [[up tack]] symbol&amp;amp;nbsp;{{unicode|⊥}}.&amp;lt;ref&amp;gt;[[Willard Van Orman Quine]], &amp;apos;&amp;apos;Methods of Logic&amp;apos;&amp;apos;, 4th ed, Harvard University Press, 1982, ISBN 0-674-57176-2, [http://books.google.com/books?id=liHivlUYWcUC&amp;amp;pg=PA34 p. 34.]&amp;lt;/ref&amp;gt;
+
+Another approach is used for several [[theory (mathematical logic)|formal theories]] (for example, [[intuitionistic propositional calculus]]) where the false is a propositional constant (i.e. a nullary connective)&amp;amp;nbsp;{{unicode|⊥}}, the truth value of this constant being always false in the sense above.&amp;lt;ref&amp;gt;[[George Edward Hughes]] and D.E. Londey, &amp;apos;&amp;apos;The Elements of Formal Logic&amp;apos;&amp;apos;, Methuen, 1965, [http://books.google.com/books?id=JbwOAAAAQAAJ&amp;amp;pg=PA151 p. 151.]&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;Leon Horsten and Richard Pettigrew, &amp;apos;&amp;apos;Continuum Companion to Philosophical Logic&amp;apos;&amp;apos;, Continuum International Publishing Group, 2011, ISBN 1-4411-5423-X, [http://books.google.com/books?id=w_abLTXIFkcC&amp;amp;pg=PA199 p. 199.]&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;[[Graham Priest]], &amp;apos;&amp;apos;An Introduction to Non-Classical Logic: From If to Is&amp;apos;&amp;apos;, 2nd ed, Cambridge University Press, 2008, ISBN 0-521-85433-4, [http://books.google.com/books?id=rMXVbmAw3YwC&amp;amp;pg=PA105 p. 105.]&amp;lt;/ref&amp;gt;
+
+== In classical logic and Boolean logic ==&amp;lt;!-- linked from #Consistency --&amp;gt;
+[[Boolean logic]] defines the false in both senses mentioned above: &amp;quot;0&amp;quot; is a propositional constant, whose value by definition is 0. In a [[classical logic|classical]] [[propositional calculus]], depending on the chosen set of fundamental connectives, the false may or may not have a dedicated symbol. Such formulas as {{math|{{mvar|p}} ∧ ¬{{mvar|p}}}} and {{math|¬({{mvar|p}} → {{mvar|p}})}} may be used instead.
+
+In both systems the [[negation]] of the truth gives false. The negation of false is equivalent to the truth not only in classical logic and Boolean logic, but also in most other logical systems, as explained below.
+
+{{expand section|date=February 2012}}
+
+== False, negation and contradiction ==
+In most logical systems, [[negation]], [[material conditional]] and false are related as:
+: {{math|¬{{mvar|p}} ⇔ ({{mvar|p}} → ⊥)}}
+This is the definition of negation in some systems,&amp;lt;ref&amp;gt;Dov M. Gabbay and Franz Guenthner (eds), &amp;apos;&amp;apos;Handbook of Philosophical Logic, Volume 6&amp;apos;&amp;apos;, 2nd ed, Springer, 2002, ISBN 1-4020-0583-0, [http://books.google.com.au/books?id=JyewdfGhNAsC&amp;amp;pg=PA12 p. 12.]&amp;lt;/ref&amp;gt; such as [[intuitionistic logic]], and can be proven in propositional calculi where negation is a fundamental connective.  Because {{math|{{mvar|p}} → {{mvar|p}}}} is usually a theorem or axiom, a consequence is that the negation of false ({{math|¬ ⊥}}) is true.
+
+The [[contradiction]] is a [[statement (logic)|statement]] which [[entailment|entails]] the false, i.e. {{math|φ ⊢ ⊥}}. Using the equivalence above, the fact that φ is a contradiction may be derived, for example, from {{math|⊢ ¬φ}}.  Contradiction and the false are sometimes not distinguished, especially due to [[Latin]] term &amp;apos;&amp;apos;[[wikt:falsum|falsum]]&amp;apos;&amp;apos; denoting both. Contradiction means a statement is [[mathematical proof|proven]] to be false, but the false itself is a [[proposition]] which is defined to be opposite to the truth.
+
+Logical systems may or may not contain the [[principle of explosion]] (in [[Latin]], &amp;apos;&amp;apos;ex falso quodlibet&amp;apos;&amp;apos;), {{math|⊥ ⊢ φ}}.
+
+== Consistency ==
+{{main|Consistency}}
+A [[formal theory]] using &amp;quot;⊥&amp;quot; connective is defined to be consistent if and only if the false is not its [[theorem]]. In the absence of propositional constants, some substitutes such as [[#In classical logic and Boolean logic|mentioned above]] may be used instead to define consistency.
+
+== References ==
+{{reflist}}
+
+{{Logical connectives}}
+{{Logical truth}}
+[[Category:Logical connectives]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

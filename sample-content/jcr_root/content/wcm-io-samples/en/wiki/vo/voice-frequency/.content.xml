@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Voice frequency"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Voice frequency" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;A &amp;apos;&amp;apos;&amp;apos;voice frequency&amp;apos;&amp;apos;&amp;apos; (VF) or &amp;apos;&amp;apos;&amp;apos;voice band&amp;apos;&amp;apos;&amp;apos; is one of the frequencies, within part of the [[Sound|audio]] range, that is used for the [[transmission (telecommunications)|transmission]] of [[Speech communication|speech]].
+
+In [[telephony]], the usable [[human voice|voice]] frequency band ranges from approximately 300&amp;amp;nbsp;[[Hertz|Hz]] to 3400&amp;amp;nbsp;Hz. It is for this reason that the [[ultra low frequency]] band of the [[electromagnetic spectrum]] between 300 and 3000&amp;amp;nbsp;Hz is also referred to as &amp;apos;&amp;apos;voice frequency&amp;apos;&amp;apos;, being the electromagnetic energy that represents acoustic energy at [[baseband]]. The [[Bandwidth (signal processing)|bandwidth]] allocated for a single voice-frequency transmission [[channel (communications)|channel]] is usually 4&amp;amp;nbsp;kHz, including [[guard band]]s, allowing a [[sampling rate]] of 8&amp;amp;nbsp;kHz to be used as the basis of the [[pulse code modulation]] system used for the digital [[PSTN]]. Per the [[Nyquist–Shannon sampling theorem]], the sampling frequency (8kHz) must be at least twice the voice frequency (4kHz) for effective reconstruction of the voice signal.
+
+== Fundamental frequency ==
+The [[Human voice|voiced speech]] of a typical adult male will have a [[fundamental frequency]] from 85 to 180&amp;amp;nbsp;Hz, and that of a typical adult female from 165 to 255&amp;amp;nbsp;Hz.&amp;lt;ref&amp;gt;Titze, I.R. (1994). Principles of Voice Production, Prentice Hall (currently published by NCVS.org) (pp. 188), ISBN 978-0-13-717893-3.&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;Baken, R. J. (1987). Clinical Measurement of Speech and Voice. London: Taylor and Francis Ltd. (pp. 177), ISBN 1-5659-3869-0.&amp;lt;/ref&amp;gt; Thus, the fundamental frequency of most speech falls below the bottom of the &amp;quot;voice frequency&amp;quot; band as defined above. However, enough of the [[harmonic series (music)|harmonic series]] will be present for the [[missing fundamental]] to create the impression of hearing the fundamental tone.
+
+== See also ==
+* [[Formant]]
+* [[Human Voice]]
+* [[Vocal range]]
+* [[Hearing (sense)]]
+
+
+== References ==
+{{reflist}}
+{{FS1037C MS188}}
+
+{{DEFAULTSORT:Voice Frequency}}
+[[Category:Human voice]]
+[[Category:Telephony]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

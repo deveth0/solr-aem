@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Russian copulation"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Russian copulation" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[cryptography]], &amp;apos;&amp;apos;&amp;apos;Russian copulation&amp;apos;&amp;apos;&amp;apos; is a method of rearranging [[plaintext]] before [[encryption]] so as to conceal [[stereotype (cryptography)|stereotyped]] headers, salutations, introductions, endings, signatures, etc. This obscures clues for a [[cryptanalyst]], and can be used to increase cryptanalytic difficulty in naive cryptographic schemes (however, most modern schemes contain more rigorous defences; see [[Ciphertext indistinguishability]]). This is of course desirable for those sending messages and wishing them to remain confidential. [[Padding (cryptography)|Padding]] is another technique for obscuring such clues.
+
+The technique is to break the starting plaintext message into two parts and then to invert the order of the parts. This puts all endings and beginnings (presumably the location of most [[boilerplate (text)|boilerplate]] phrases) &amp;apos;somewhere in the middle&amp;apos; of the version of the plaintext which is actually encrypted. For some messages, mostly those not in a human language (e.g., images or tabular data), the decrypted version of the plaintext will present problems when reversing the inversion. For messages in ordinary language, there is sufficient [[redundancy (linguistics)|redundancy]] that the inversion can almost always be reversed by a human immediately on inspection.
+
+The English phrase suggests that it originally came from an observation about Russian cryptographic practice. However, the technique is generally useful and neither was, nor is, limited to use by Russians.
+
+==References==
+* Friedrich Ludwig Bauer, Decrypted Secrets, 2002. ISBN 3-540-42674-4.
+
+[[Category:Classical cryptography]]
+
+
+{{crypto-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

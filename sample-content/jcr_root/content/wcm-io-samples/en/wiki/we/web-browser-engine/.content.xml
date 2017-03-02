@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Web browser engine"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Web browser engine" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[File:Web browser usage on Wikimedia.png|thumb|right|[[Usage share of web browsers#Wikimedia (As of 2012)|Web browser usage]] on [[Wikimedia]] servers]]
+{{Multiple issues | original research = May 2010 | unreferenced = May 2010}}
+
+A &amp;apos;&amp;apos;&amp;apos;web browser engine&amp;apos;&amp;apos;&amp;apos;, (sometimes called &amp;apos;&amp;apos;&amp;apos;layout engine&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;rendering engine&amp;apos;&amp;apos;&amp;apos;), is a software [[Component-based software engineering|component]] that takes [[Markup language|marked up]] content (such as [[HTML]], [[XML]], [[digital image|image]] files, etc.) and formatting information (such as [[Cascading Style Sheets|CSS]], [[Extensible Stylesheet Language|XSL]], etc.) and displays the formatted content on the screen. It draws on the content area of a window, which is displayed on a [[Computer monitor|monitor]] or a [[computer printer|printer]]. A layout engine is typically embedded in [[web browser]]s, [[e-mail client]]s, [[e-book readers]], on-line help systems or other applications that require the displaying (and editing) of web content. Engines may wait for all data to be received before rendering a page, or may begin rendering before all data is received. This can result in pages changing as more data is received, such as images being filled in or a [[flash of unstyled content]] if rendering begins before formatting information is received.
+
+== Examples ==
+[[KDE]]&amp;apos;s open-source [[KHTML]] engine is used in KDE&amp;apos;s [[Konqueror]] web browser and was the basis for [[WebKit]], the rendering engine in [[Apple Inc.|Apple]]&amp;apos;s [[Safari (web browser)|Safari]] and [[Google]]&amp;apos;s [[Google Chrome|Chrome]] web browsers, which is now the most widely used browser engine according to [[StatCounter]]. Future versions of Chromium/Chrome and [[Opera (web browser)|Opera]] will be based on [[Blink (layout engine)|Blink]], a fork of Webkit.
+
+[[Gecko (layout engine)|Gecko]], the [[Mozilla]] project&amp;apos;s [[open-source]] web browser engine, is used by a variety of products derived from the Mozilla code base, including the [[Mozilla Firefox|Firefox]] web browser, the [[Mozilla Thunderbird|Thunderbird]] [[Email client|e-mail client]], and [[SeaMonkey]] [[internet suite]].
+
+[[Trident (layout engine)|Trident]], the web browser engine from [[Internet Explorer]], is used by many applications on the [[Microsoft Windows]] platform, such as [[netSmart]], [[Outlook Express]], some versions of [[Microsoft Outlook]], and the mini-browsers in [[Winamp]] and [[RealPlayer]].
+
+[[Opera Software]]&amp;apos;s proprietary [[Presto (layout engine)|Presto]] engine is licensed to a number of other software vendors, and is used in [[Opera (web browser)|Opera&amp;apos;s own web browser]]. As of February 2013 Opera has announced they will be using the same engine as [[Chromium (web browser)|Chromium]], which at the time of the announcement was [[WebKit]].
+
+==Technical operation==
+The first web browsers were monolithic. They used various techniques inherited from [[text processing]], such as [[regular expressions]] to [[parse]] HTML into a visual representation. Later they adopted a more modular approach and were split into a host application and an engine.
+
+* The &amp;apos;&amp;apos;&amp;apos;engine&amp;apos;&amp;apos;&amp;apos; does most of the work. It essentially takes a [[Uniform Resource Locator|URL]] and a set of window [[content-area]] rectangle coordinates as arguments. It then retrieves the document corresponding to the URL and paints a graphical representation of it in the given rectangle. It also handles links, forms, [[HTTP cookie|cookies]], client-side [[script (computing)|scripting]], [[Plug-in (computing)|plug-in]] loading and other matters.
+* The &amp;apos;&amp;apos;&amp;apos;host application&amp;apos;&amp;apos;&amp;apos; provides the menu bar, address bar, status bar, bookmark manager, history and preferences functionality (among other things). It [[embeds]] the engine and serves as an interface between the user, the engine, and the underlying operating system. Since it provides the graphical elements surrounding the area in which the engine paints documents, programmers sometimes use the term &amp;apos;&amp;apos;chrome&amp;apos;&amp;apos; to refer to its user interface (like the chrome surrounding a car).
+
+This modular approach has the advantage that it then becomes easy to embed web-browser engines in a variety of applications. For example, the same engine used by a web browser can be used by an email client to display [[HTML email]]. On-line help systems integrated in applications have largely moved from using custom formats to using standard [[HTML]] displayed with a web-browser engine. The [[EPUB#Version_3.0_.28current_version.29|EPUB 3]] e-book standard uses a layout engine to render XHTML and CSS.
+
+==See also==
+* [[Comparison of web browser engines]]
+* [[List of layout engines]]
+* [[Layout (computing)]]
+* [[Code refactoring]]
+* [[Rasterisation]]
+* [[Page description language]]
+* [[User agent]]
+
+==References==
+{{Reflist}}
+
+{{Web browser engines}}
+
+{{DEFAULTSORT:Web Browser Engine}}
+[[Category:Layout engines]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

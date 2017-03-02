@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Praetorian"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Praetorian" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|Praetorian|praetorian}}
+
+&amp;apos;&amp;apos;&amp;apos;Praetorian&amp;apos;&amp;apos;&amp;apos; is an adjective derived from the ancient Roman office of [[praetor]]. It may refer to:
+
+*[[Praetorian Guard]], a special force of skilled and celebrated troops serving as the personal guard of Roman Emperors
+*[[Praetorian prefect]], the title of a high office in the Roman Empire
+*[[Praetorian prefecture]], the largest administrative division of the late Roman Empire, above the mid-level dioceses and the low-level provinces
+**[[Praetorian prefecture of Africa]], division of the Eastern Roman Empire established after the reconquest of northwestern Africa from the Vandals
+**[[Praetorian prefecture of Gaul]], included Gaul, Upper and Lower Germany, Roman Britain, Spain and Mauretania Tingitana in Africa
+**[[Praetorian prefecture of Illyricum]], included, in its greatest expanse, Pannonia, Noricum, Crete and most of the Balkan peninsula except Thrace
+**[[Praetorian prefecture of Italy]], included the Italian peninsula, the Western Balkans, the Danubian provinces and parts of North Africa
+**[[Praetorian prefecture of the East]], included the larger part of the Eastern Roman Empire
+*[[Praetorian Palace]], a 14th-century Venetian palace in the city of Koper, Slovenia
+*[[Praetorian Building]], one of the first high-rise buildings to be constructed in Dallas, Texas
+*[[Praetorians Roma]], an Italian rugby union team scheduled to begin play in the Magners League in 2010
+*[[Praetorians (video game)|&amp;apos;&amp;apos;Praetorians&amp;apos;&amp;apos; (video game)]], a 2003 real-time strategy computer game
+*[[Praetorians (album)|&amp;apos;&amp;apos;Praetorians&amp;apos;&amp;apos; (album)]], a 2008 black metal album by Naer Mataron
+*[[Praetorian (novel)|&amp;apos;&amp;apos;Praetorian&amp;apos;&amp;apos; (novel)]], book by Simon Scarrow
+*[[Pax Praetoriana]], refers to the relative stability of modern South Africa and its encouragement of democratic governments in other African states
+*&amp;apos;&amp;apos;[[The Praetorian]]&amp;apos;&amp;apos;, a conservative newspaper at the University of California, Riverside
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

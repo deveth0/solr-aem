@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Boole&#x27;s syllogistic"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Boole&#x27;s syllogistic" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+[[File:Square of opposition, set diagrams.svg|thumb|Square of opposition&amp;lt;br&amp;gt;In the [[Venn diagram]]s black areas are [[empty set|empty]] and red areas are nonempty.&amp;lt;br&amp;gt;The faded arrows and faded red areas apply in traditional logic.]]
+&amp;apos;&amp;apos;&amp;apos;[[Boolean logic]]&amp;apos;&amp;apos;&amp;apos; is a system of [[syllogism|syllogistic]] [[logic]] invented by 19th-century British mathematician [[George Boole]], which attempts to incorporate the &amp;quot;empty set&amp;quot;, that is, a class of non-existent entities, such as round squares, without resorting to uncertain [[truth value]]s.
+
+In Boolean logic, the universal statements &amp;quot;all S is P&amp;quot; and &amp;quot;no S is P&amp;quot; (contraries in the traditional Aristotelian schema) are compossible provided that the set of &amp;quot;S&amp;quot; is the empty set.  &amp;quot;All S is P&amp;quot; is construed to mean that &amp;quot;there is nothing that is both S and not-P&amp;quot;; &amp;quot;no S is P&amp;quot;, that &amp;quot;there is nothing that is both S and P&amp;quot;.  For example, since there is nothing that is a round square, it is true both that nothing is a round square and purple, and that nothing is a round square and &amp;apos;&amp;apos;not&amp;apos;&amp;apos;-purple.  Therefore, both universal statements, that &amp;quot;all round squares are purple&amp;quot; and &amp;quot;no round squares are purple&amp;quot; are true.
+
+Similarly, the [[subcontrary]] relationship is dissolved between the existential statements &amp;quot;some S is P&amp;quot; and &amp;quot;some S is not P&amp;quot;.  The former is interpreted as &amp;quot;there is some S such that S is P&amp;quot; and the latter, &amp;quot;there is some S such that S is not P&amp;quot;, both of which are clearly false where S is nonexistent.
+
+Thus, the subaltern relationship between universal and existential also does not hold, since for a nonexistent S, &amp;quot;All S is P&amp;quot; is true but does not entail &amp;quot;Some S is P&amp;quot;, which is false.  Of the Aristotelian [[square of opposition]], only the contradictory relationships remain intact.
+
+==See also==
+* [[Boolean logic]]
+* [[Propositional logic]]
+* [[list of Boolean algebra topics]]
+
+{{DEFAULTSORT:Boole&amp;apos;s Syllogistic}}
+[[Category:History of logic]]
+[[Category:Term logic]]
+[[Category:Syllogism]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

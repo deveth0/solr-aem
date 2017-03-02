@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Jack Ryan"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Jack Ryan" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Jack Ryan&amp;apos;&amp;apos;&amp;apos; may refer to:
+*[[Jack Ryan (character)]], a fictional character in a series of novels by Tom Clancy
+**[[Jack Ryan (film)|&amp;apos;&amp;apos;Jack Ryan&amp;apos;&amp;apos; (film)]], an upcoming film based on the character
+*[[Jack Ryan (politician)]] (born 1959), former candidate for United States Senator from Illinois and ex-husband of actress Jeri Ryan
+*[[Jack Ryan (designer)]] (1926–1991), designer and Zsa Zsa Gabor&amp;apos;s sixth husband
+*[[Jack Ryan (pitcher)]] (1884–1949), Major League Baseball pitcher
+*[[Jack Ryan (outfielder)]] (1905–1967), MLB outfielder
+*[[Jack Ryan (catcher)]] (1868–1952), MLB catcher and University of Virginia baseball coach
+*[[Jack Ryan (streetball player)]]
+*[[Jack Ryan (FBI agent)]], former FBI agent
+*[[Jack L. Ryan]] (born 1907), Hawthorn VFL footballer
+*[[Jack F. T. Ryan]] (born 1916), Footscray and North Melbourne VFL footballer
+*[[John J. Ryan]], known as Jack, head football coach at Marquette University and the University of Wisconsin
+
+==See also==
+*[[John Ryan (disambiguation)]]
+{{hndis|name=Ryan, Jack}}
+
+{{DEFAULTSORT:Ryan, Jack}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

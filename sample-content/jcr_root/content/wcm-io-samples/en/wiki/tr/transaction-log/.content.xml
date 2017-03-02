@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Transaction log"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Transaction log" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+In the field of [[database]]s in [[computer science]], a &amp;apos;&amp;apos;&amp;apos;transaction log&amp;apos;&amp;apos;&amp;apos; (also &amp;apos;&amp;apos;&amp;apos;transaction journal&amp;apos;&amp;apos;&amp;apos;, &amp;apos;&amp;apos;&amp;apos;database log&amp;apos;&amp;apos;&amp;apos;, &amp;apos;&amp;apos;&amp;apos;binary log&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;audit trail&amp;apos;&amp;apos;&amp;apos;) is a history of actions executed by a [[database management system]] to guarantee [[ACID]] properties over [[crash (computing)|crash]]es or hardware failures.  Physically, a log is a [[computer file|file]] of updates done to the database, stored in stable storage.
+
+If, after a start, the database is found in an [[database consistency|inconsistent]] state or not been shut down properly, the database management system reviews the database logs for [[commit (data management)|uncommitted]] transactions and [[rollback (data management)|rolls back]] the changes made by these [[Database transaction|transaction]]s.  Additionally, all transactions that are already committed but whose changes were not yet materialized in the database are re-applied.  Both are done to ensure [[atomicity]] and [[durability (computer science)|durability]] of transactions.
+
+This term is not to be confused with other, human-readable [[data logging#Computer data logging|logs]] that a database management system usually provides.
+
+==Anatomy of a general database log==
+
+A database log record is made up of: &amp;lt;!-- (FIXME: resource managers, xid not universal)  --&amp;gt;
+
+*&amp;apos;&amp;apos;Log Sequence Number&amp;apos;&amp;apos;: A unique id for a log record. With LSNs, logs can be recovered in constant time. Most logs&amp;apos; LSNs are assigned in monotonically increasing order, which is useful in recovery [[algorithm]]s, like [[Algorithms for Recovery and Isolation Exploiting Semantics|ARIES]].
+*&amp;apos;&amp;apos;Prev LSN&amp;apos;&amp;apos;: A link to the last log record. This implies database logs are constructed in [[linked list]] form.
+*&amp;apos;&amp;apos;Transaction ID number&amp;apos;&amp;apos;: A reference to the database transaction generating the log record.
+*&amp;apos;&amp;apos;Type&amp;apos;&amp;apos;: Describes the type of database log record.
+*Information about the actual changes that triggered the log record to be written.
+
+==Types of database log records==
+All log records include the general log attributes above, and also other attributes depending on their type (which is recorded in the &amp;apos;&amp;apos;Type&amp;apos;&amp;apos; attribute, as above).
+
+*&amp;apos;&amp;apos;&amp;apos;Update Log Record&amp;apos;&amp;apos;&amp;apos; notes an update (change) to the database.  It includes this extra information:
+**&amp;apos;&amp;apos;PageID&amp;apos;&amp;apos;: A reference to the Page ID of the modified page.
+**&amp;apos;&amp;apos;Length and Offset&amp;apos;&amp;apos;: Length in bytes and offset of the page are usually included.
+**&amp;apos;&amp;apos;Before and After Images&amp;apos;&amp;apos;: Includes the value of the bytes of page before and after the page change.  Some databases may have logs which include one or both images.
+
+*&amp;apos;&amp;apos;&amp;apos;Compensation Log Record&amp;apos;&amp;apos;&amp;apos; notes the rollback of a particular change to the database.  Each correspond with exactly one other Update Log Record (although the corresponding update log record is not typically stored in the Compensation Log Record).  It includes this extra information:
+**&amp;apos;&amp;apos;undoNextLSN&amp;apos;&amp;apos;: This field contains the LSN of the next log record that is to be undone for transaction that wrote the last Update Log.
+
+*&amp;apos;&amp;apos;&amp;apos;Commit Record&amp;apos;&amp;apos;&amp;apos; notes a decision to commit a transaction.
+
+*&amp;apos;&amp;apos;&amp;apos;Abort Record&amp;apos;&amp;apos;&amp;apos; notes a decision to abort and hence roll back a transaction.
+
+*&amp;apos;&amp;apos;&amp;apos;Checkpoint Record&amp;apos;&amp;apos;&amp;apos; notes that a checkpoint has been made.  These are used to speed up recovery.  They record information that eliminates the need to read a long way into the log&amp;apos;s past.  This varies according to checkpoint algorithm.  If all dirty pages are flushed while creating the checkpoint (as in [[PostgreSQL]]), it might contain:
+**&amp;apos;&amp;apos;redoLSN&amp;apos;&amp;apos;: This is a reference to the first log record that corresponds to a dirty page.  i.e. the first update that wasn&amp;apos;t flushed at checkpoint time.  This is where redo must begin on recovery.
+**&amp;apos;&amp;apos;undoLSN&amp;apos;&amp;apos;: This is a reference to the oldest log record of the oldest in-progress transaction.  This is the oldest log record needed to undo all in-progress transactions.
+
+*&amp;apos;&amp;apos;&amp;apos;Completion Record&amp;apos;&amp;apos;&amp;apos; notes that all work has been done for this particular transaction.  (It has been fully committed or aborted)
+
+==Tables==
+These tables are maintained in memory, and can be efficiently reconstructed (if not exactly, to an equivalent state) from the log and the database:
+
+*&amp;apos;&amp;apos;&amp;apos;Transaction Table&amp;apos;&amp;apos;&amp;apos;: The table contains one entry for each active transaction.  This includes Transaction ID and lastLSN, where lastLSN describes the LSN of the most recent log record for the transaction.
+
+*&amp;apos;&amp;apos;&amp;apos;Dirty Page Table&amp;apos;&amp;apos;&amp;apos;: The table contains one entry for each dirty page that hasn&amp;apos;t been written to disk.  The entry contains recLSN, where recLSN is the LSN of the first log record that caused the page to be dirty.
+
+*&amp;apos;&amp;apos;&amp;apos;Transaction Log&amp;apos;&amp;apos;&amp;apos;: A DBMS uses a transaction log to keep track of all transactions that updates the database. The information stored in this log is used by DBMS for a recovery requirement triggered by &amp;apos;Roll Back&amp;apos; statement.
+
+{{Databases}}
+
+{{DEFAULTSORT:Transaction Log}}
+[[Category:Database management systems]]
+[[Category:Transaction processing]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Westmob"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Westmob" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Refimprove|date=November 2009}}
+
+&amp;apos;&amp;apos;&amp;apos;Westmob&amp;apos;&amp;apos;&amp;apos;, a [[gang]] in [[San Francisco, California]], has fought a brutal gang war since 1999 against [[Big Block (gang)|Big Block]] and its various factions. Westmob is sometimes known to associate with Kumi 415 prison gang. and [[Norteños]] members. Its rivalry with Big Block was the subject of the 2002 [[Documentary film|documentary]] &amp;apos;&amp;apos;[[Straight Outta Hunter&amp;apos;s Point]]&amp;apos;&amp;apos;&amp;lt;ref&amp;gt;http://www.streetgangs.com/movies/hunterspoint.html&amp;lt;/ref&amp;gt; and is linked to [[Hip hop music|rap]] and drugs. They claim territory from West Point to middle Point in San Francisco&amp;apos;s notoriously dangerous [[Hunters Point, San Francisco, California|Hunters Point]] Projects.&amp;lt;ref&amp;gt;http://www.sfgate.com/cgi-bin/article.cgi?file=/c/a/2001/12/16/MN232399.DTL&amp;lt;/ref&amp;gt;
+
+The gang made headlines around the nation when one of its members was arrested for murdering a police officer in April 2004.&amp;lt;ref&amp;gt;http://www.sfgate.com/cgi-bin/article.cgi?f=/c/a/2006/11/21/BAGHLMGSDN1.DTL&amp;lt;/ref&amp;gt;
+
+==References==
+{{reflist}}
+[http://www.kron.com/Global/story.asp?S=1899361 KRON 4 news- &amp;apos;&amp;apos;Many SF Homicides Linked to Gang Wars&amp;apos;&amp;apos;- Map of SF gang areas]
+
+[[Category:Modern street gangs]]
+[[Category:Gangs in San Francisco, California]]
+
+{{Crime-org-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

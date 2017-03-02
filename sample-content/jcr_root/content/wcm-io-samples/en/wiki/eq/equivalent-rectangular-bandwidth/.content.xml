@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Equivalent rectangular bandwidth"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Equivalent rectangular bandwidth" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;equivalent rectangular bandwidth&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;ERB&amp;apos;&amp;apos;&amp;apos; is a measure used in [[psychoacoustics]], which gives an approximation to the bandwidths of the filters in [[human hearing]], using the unrealistic but convenient simplification of modeling the filters as rectangular [[band-pass filter]]s.
+
+== Approximations ==
+
+For moderate sound levels and young listeners, the bandwidth of human auditory filters can be approximated by the [[polynomial]] equation:
+
+{{NumBlk|:|&amp;lt;math&amp;gt;
+\mathrm{ERB}(f) = 6.23 \cdot f^2 + 93.39 \cdot f + 28.52
+&amp;lt;/math&amp;gt; &amp;lt;ref name=mooreglasberg/&amp;gt;|{{EquationRef|1|Eq.1}}}}
+
+where &amp;apos;&amp;apos;f&amp;apos;&amp;apos; is the center frequency of the filter in kHz and ERB(&amp;apos;&amp;apos;f&amp;apos;&amp;apos;) is the bandwidth of the filter in Hz. The approximation is based on the results of a number of published [[simultaneous masking]] experiments and is valid from 0.1 to 6.5&amp;amp;nbsp;kHz.&amp;lt;ref name=mooreglasberg&amp;gt;B.C.J. Moore and B.R. Glasberg, &amp;quot;Suggested formulae for calculating auditory-filter bandwidths and excitation patterns&amp;quot; Journal of the Acoustical Society of America 74: 750-753, 1983.&amp;lt;/ref&amp;gt;
+
+The above approximation was given in 1983 by Moore and Glasberg,&amp;lt;ref name=mooreglasberg/&amp;gt; who in 1990 published another approximation:&amp;lt;ref&amp;gt;B.R. Glasberg and B.C.J. Moore, &amp;quot;Derivation of auditory filter shapes from notched-noise data&amp;quot;, Hearing Research, Vol. 47, Issues 1-2, p. 103-138, 1990.&amp;lt;/ref&amp;gt;
+
+{{NumBlk|:|&amp;lt;math&amp;gt;
+\mathrm{ERB}(f) = 108 \cdot f + 24.7
+&amp;lt;/math&amp;gt; &amp;lt;ref name=josabel99/&amp;gt;|{{EquationRef|2|Eq.2}}}}
+
+where &amp;apos;&amp;apos;f&amp;apos;&amp;apos; is in kHz and ERB(&amp;apos;&amp;apos;f&amp;apos;&amp;apos;) is in Hz. The approximation is applicable at moderate sound levels and for values of &amp;apos;&amp;apos;f&amp;apos;&amp;apos; between 0.1 and 10&amp;amp;nbsp;kHz.&amp;lt;ref name=josabel99/&amp;gt;
+
+== ERB-rate scale==
+The &amp;apos;&amp;apos;&amp;apos;ERB-rate scale&amp;apos;&amp;apos;&amp;apos;, or simply &amp;apos;&amp;apos;&amp;apos;ERB scale&amp;apos;&amp;apos;&amp;apos;, can be defined as a function ERBS(&amp;apos;&amp;apos;f&amp;apos;&amp;apos;) which returns the number of equivalent rectangular bandwidths below the given frequency &amp;apos;&amp;apos;f&amp;apos;&amp;apos;. It can be constructed by solving the following [[differential equation|differential]] system of equations:
+
+:&amp;lt;math&amp;gt;
+\begin{cases}
+\mathrm{ERBS}(0) = 0\\
+\frac{df}{d\mathrm{ERBS}(f)} = \mathrm{ERB}(f)\\
+\end{cases}
+&amp;lt;/math&amp;gt;
+
+The solution for ERBS(&amp;apos;&amp;apos;f&amp;apos;&amp;apos;) is the integral of the reciprocal of ERB(&amp;apos;&amp;apos;f&amp;apos;&amp;apos;) with the [[constant of integration]] set in such a way that ERBS(0) = 0.&amp;lt;ref name=mooreglasberg/&amp;gt;
+
+Using the second order polynomial approximation ({{EquationNote|Eq.1}}) for ERB(&amp;apos;&amp;apos;f&amp;apos;&amp;apos;) yields:
+
+:&amp;lt;math&amp;gt;
+\mathrm{ERBS}(f) = 11.17 \cdot \ln\left(\frac{f+0.312}{f+14.675}\right) + 43.0
+&amp;lt;/math&amp;gt; &amp;lt;ref name=mooreglasberg/&amp;gt;
+
+where &amp;apos;&amp;apos;f&amp;apos;&amp;apos; is in kHz. The VOICEBOX speech processing toolbox for [[MATLAB]] implements the conversion and its [[Inverse function|inverse]] as:
+
+:&amp;lt;math&amp;gt;
+\mathrm{ERBS}(f) = 11.17268 \cdot \ln\left(1 + \frac{46.06538 \cdot f}{f + 14678.49}\right)
+&amp;lt;/math&amp;gt; &amp;lt;ref&amp;gt;{{cite web |url=http://www.ee.ic.ac.uk/hp/staff/dmb/voicebox/doc/voicebox/frq2erb.html |title=frq2erb |last1=Brookes |first1=Mike |date=22 December 2012  |work=VOICEBOX: Speech Processing Toolbox for MATLAB |publisher=Department of Electrical &amp;amp; Electronic Engineering, Imperial College, UK |accessdate=20 January 2013}}&amp;lt;/ref&amp;gt;
+:&amp;lt;math&amp;gt;
+f = \frac{676170.4}{47.06538 - e^{0.08950404 \cdot \mathrm{ERBS}(f)}} - 14678.49
+&amp;lt;/math&amp;gt; &amp;lt;ref&amp;gt;{{cite web |url=http://www.ee.ic.ac.uk/hp/staff/dmb/voicebox/doc/voicebox/erb2frq.html |title=erb2frq |last1=Brookes |first1=Mike |date=22 December 2012  |work=VOICEBOX: Speech Processing Toolbox for MATLAB |publisher=Department of Electrical &amp;amp; Electronic Engineering, Imperial College, UK |accessdate=20 January 2013}}&amp;lt;/ref&amp;gt;
+
+where &amp;apos;&amp;apos;f&amp;apos;&amp;apos; is in Hz.
+
+Using the linear approximation ({{EquationNote|Eq.2}}) for ERB(&amp;apos;&amp;apos;f&amp;apos;&amp;apos;) yields:
+
+:&amp;lt;math&amp;gt;
+\mathrm{ERBS}(f) = 21.4 \cdot log_{10}(1 + 0.00437 \cdot f)
+&amp;lt;/math&amp;gt; &amp;lt;ref name=josabel99&amp;gt;{{cite web |url=https://ccrma.stanford.edu/~jos/bbt/Equivalent_Rectangular_Bandwidth.html |title=Equivalent Rectangular Bandwidth |last1=Smith |first1=Julius O. |last2=Abel |first2=Jonathan S. |date=10 May 2007 |work=Bark and ERB Bilinear Transforms |publisher=Center for Computer Research in Music and Acoustics (CCRMA), Stanford University, USA |accessdate=20 January 2013}}&amp;lt;/ref&amp;gt;
+
+where &amp;apos;&amp;apos;f&amp;apos;&amp;apos; is in Hz.
+
+==See also==
+
+* [[Critical bands]]
+* [[Bark scale]]
+
+==References==
+
+{{Reflist}}
+
+== External links ==
+* http://www2.ling.su.se/staff/hartmut/bark.htm
+
+[[Category:Acoustics]]
+[[Category:Hearing]]
+[[Category:Signal processing]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

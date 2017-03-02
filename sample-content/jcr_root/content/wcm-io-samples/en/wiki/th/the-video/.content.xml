@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="The Video"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="The Video" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{For|the primary use of the term video|video}}
+{{Unreferenced|date=December 2009}}
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;The Video&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is a [[music video]] compilation released in [[VHS]] format by the [[Iceland]]ic band [[The Sugarcubes]], whose most famous member is the renowned singer [[Björk]]. This video came into market in 1990 and contains nine songs from the 1987 album &amp;apos;&amp;apos;[[Life&amp;apos;s Too Good]]&amp;apos;&amp;apos; and the 1989 album &amp;apos;&amp;apos;[[Here Today, Tomorrow, Next Week!]]&amp;apos;&amp;apos;.
+
+==List of tracks==
+:#Birthday (Icelandic)
+:#Coldsweat
+:#Deus
+:#Motorcrash
+:#Luftgitar
+:#Regina
+:#Planet
+:#Eat the menu
+:#Birthday (English)
+
+{{DEFAULTSORT:Video, The}}
+[[Category:The Sugarcubes video albums]]
+[[Category:1990 compilation albums]]
+[[Category:1990 video albums]]
+[[Category:Music video compilation albums]]
+
+
+{{1990s-album-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

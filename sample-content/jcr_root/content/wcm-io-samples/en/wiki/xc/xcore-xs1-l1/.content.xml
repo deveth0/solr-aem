@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="XCore XS1-L1"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="XCore XS1-L1" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox CPU
+| name        = XS1-L
+| image       = XCore XS1-L1 48QFP.png
+| caption     = An [[XMOS]] Xcore-L processor, 48 [[QFP|TQFP]] package, 7x7 mm.
+| produced-start = 2009
+| produced-end =
+| slowest     = | slow-unit     = MHz
+| fastest     =  500 | fast-unit     = MHz
+| manuf1      =
+| arch        = [[XCore XS1]]
+| pack1       = 48 [[QFP|TQFP-EP]]
+| pack2       = 64 [[QFP|LQFP-EP]]
+| pack3       = 128 [[QFP|TQFP-EP]]
+| pack4       = 124 dual row [[QFN]]
+| numcores = 1 or 2
+}}
+The &amp;apos;&amp;apos;&amp;apos;XS1-L1&amp;apos;&amp;apos;&amp;apos;
+&amp;lt;ref name=&amp;quot;l1&amp;quot;&amp;gt;{{cite web
+|url=https://www.xmos.com/published/xs1-l01a-tq128-datasheet?version=latest
+|title=XCore XS1-L1 datasheet
+|accessdate=2012-03-26
+|work = [[XMOS]] web site
+}}&amp;lt;/ref&amp;gt;
+is a [[Microprocessor|processor]] designed by [[XMOS]]. It is a 32-bit processor, that runs up to 8 concurrent threads. It was available as of June 2009 running at 400&amp;amp;nbsp;MHz. As of April 2010 500&amp;amp;nbsp;MHz versions are available.  Each thread can run at up to 125&amp;amp;nbsp;MHz; four threads follow each other through the [[Instruction pipeline|pipeline]], resulting in a top speed of 500 MIPS if at least four threads are active. The 500 MIPS of each core is equally distributed over all active threads. This allows the use of extra threads in order to hide latency.
+
+== Description ==
+
+An XS1-L node comprises a single core processor and a switch. The execution core has a data path, a memory, and register banks for eight threads. The switches of two or more XS1-L nodes can be connected using a link, whereupon threads on all of the cores can communicate with each other by exchanging messages through the switches. The switching mechanism is abstracted by means of a [[channel (programming)|channel]], a virtual connection between two threads.
+The switch has eight external links, permitting a maximum throughput of 3.2 GBits/s to other cores.
+
+An XS1-L1 device comprises a single XS1-L node; an XS1-L2 device comprises two XS1-L nodes connected by means of 4 links.&amp;lt;ref name=&amp;quot;l1&amp;quot;/&amp;gt;&amp;lt;ref&amp;gt;{{cite web
+|url=https://www.xmos.com/published/xs1-l02a-qf124-datasheet?version=latest
+|title=XCore XS1-L2 datasheet
+|accessdate=2012-03-26
+|work = [[XMOS]] web site
+}}&amp;lt;/ref&amp;gt;
+
+==Instruction Set Architecture==
+
+{{main|XCore XS1}}
+
+Each thread has access to 12 general purpose registers, and a standard [[Instruction_set#Number_of_operands|3-operand instruction set]] is used for programming the thread.&amp;lt;ref&amp;gt;{{cite web
+|url=https://www.xmos.com/download/public/XM-000324-RF-1.pdf
+|title=XMOS XS1 Instruction Set Architecture
+|accessdate=2009-01-19
+|work = [[XMOS]] web site
+}}&amp;lt;/ref&amp;gt; The instruction set is encoded densely, encoding most instructions in 16 bits, where 11 bits are used for specifying 3 operands, and 5 bits are used to encode the opcode. Less frequently used instructions are encoded in 32 bits.
+The instruction set is a [[Load-store architecture|load-store]] instruction set.
+All instructions execute in a single cycle. If an instruction does not need data from memory (for example, arithmetic operations), the instruction will prefetch a word of instructions. This acts like a very small [[instruction cache]], but its behaviour can be predicted at [[compile time]], making timing behaviour as predictable as functional behaviour.
+
+The XS1 is an [[Event (computing)|event driven processor]] which enables the processor to stop a thread and restart it when an event is ready. In addition, a thread may be [[interrupts|interrupted]] in order to deal with some external events.
+
+==Concurrency==
+
+The core runs eight threads concurrently. These threads can communicate and synchronise using memory, registers, channels, locks, or synchronisers.
+
+* Each thread has single-cycle access to memory; and as such the single core can be viewed as an 8-processor [[Symmetric multiprocessing|SMP]].
+
+* Threads can use [[Semaphore (programming)|locks]] in order to guarantee mutual access. Access to locks is via single instructions.
+
+* Threads can also use [[Channel (programming)|Channels]] to communicate and synchronise allowing a [[Communicating sequential processes|CSP]] style of programming. Channels can be operated on using single cycle instructions.
+
+* Finally a [[Barrier (computer science)|Barrier]] can be used; a barrier is entered using a single instruction, and when all threads that want to synchronise have reached the barrier they are all released within a single thread-cycle.
+
+==Switch==
+
+The XS1-L has a [[XSwitch]] that enables the core to communicate with other cores. The switch has four internal links into the core, and eight external links, four of whom are available on I/O pins.
+
+== References ==
+{{reflist|2}}
+
+== External links ==
+* [https://www.xmos.com/download/public/XM-000324-RF-1.pdf XMOS XCore Architecture]
+
+{{DEFAULTSORT:Xcore Xs1-L1}}
+[[Category:Digital signal processors]]
+[[Category:Parallel computing]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

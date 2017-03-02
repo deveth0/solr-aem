@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="F-type asteroid"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="F-type asteroid" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=January 2009}}
+&amp;apos;&amp;apos;&amp;apos;F-type asteroids&amp;apos;&amp;apos;&amp;apos; are a relatively uncommon type of [[carbon]]aceous [[asteroid]], falling into the wider [[C-type asteroid#C-group asteroids|C-group]].
+
+==Characteristics==
+F-type asteroids have spectra generally similar to those of the [[B-type asteroid|B-type]] asteroids, but
+lack the &amp;quot;water&amp;quot; absorption feature around 3 μm indicative of hydrated minerals, and differ in the low wavelength part of the [[ultraviolet]] spectrum below 0.4 μm.
+
+The &amp;apos;&amp;apos;&amp;apos;F-type&amp;apos;&amp;apos;&amp;apos; and [[B-type asteroid]]s are not distinguishable with the criteria used in the [[asteroid spectral types#SMASS classification|SMASS classification]], so in that scheme are grouped together under the [[B-type asteroid|B-type]].
+
+==See also==
+*[[Asteroid spectral types]]
+
+{{Asteroids}}
+{{Small Solar System bodies}}
+
+{{DEFAULTSORT:F-Type Asteroid}}
+[[Category:Asteroid spectral classes]]
+[[Category:F-type asteroids|*]]
+
+{{asteroid-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

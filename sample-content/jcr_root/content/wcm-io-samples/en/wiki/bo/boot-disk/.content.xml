@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Boot disk"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Boot disk" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{incomplete|date=April 2013}}
+A &amp;apos;&amp;apos;&amp;apos;boot disk&amp;apos;&amp;apos;&amp;apos; is a removable digital data storage medium from which a  [[computer]] can load and run ([[booting|boot]]) an [[operating system]] or utility program. The computer must have a built-in program which will load and execute a program from a boot disk meeting certain standards.
+
+Boot disks are used for:
+* Operating system installation
+* [[Data recovery]]
+* [[Data_remanence#Purging|Data purging]]
+* Hardware or software troubleshooting
+* [[BIOS flashing]]
+* Customizing an operating environment
+* Software demonstration
+* Administrative access in case of lost password is possible with an appropriate boot disk with some operating systems
+* Games (e.g. for [[Amiga games|Amiga]] home computers)
+
+While almost all modern computers can boot from a hard drive containing the operating system and other software, they would not normally be called boot disks. [[CD-ROM]]s are the most common forms of media used, but other media, such as magnetic or paper tape drives, [[zip drive]]s, and more recently [[USB flash drive]]s can be used. The computer&amp;apos;s [[BIOS]] must support booting from the device in question.
+
+==The process of booting==
+The term &amp;apos;&amp;apos;boot&amp;apos;&amp;apos; comes from the idea of lifting oneself by one&amp;apos;s own [[bootstrap]]s: the computer contains a tiny program (bootstrap loader) which will load and run a program found on a boot device. This program may itself be a small program designed to load a larger and more capable program, i.e., the full operating system. To enable booting without the requirement either for a [[mass storage]] device or to write to the boot medium, it is usual for the boot program to use some system [[RAM]] as a [[RAM disk]] for temporary [[computer file|file]] storage.
+
+As an example, any computer compatible with the [[IBM PC]] is able with built-in software to load the contents of the first 512 bytes of a floppy  and to execute it if it is a viable program; boot floppies have a very simple loader program in these bytes. The process is vulnerable to abuse; data floppies could have a virus written to their first sector which silently infects the host computer if switched on with the disk in the drive.
+
+==Boot floppies==
+
+Bootable floppies for PCs usually contain [[MS-DOS]] or miniature versions of [[Linux]]. The most commonly available floppy disk can hold only 1.4 [[Megabyte|MB]] of data in its standard format, making it impractical for loading large [[operating system]]s. The use of boot floppies is in decline, due to the availability of other higher-capacity options, such as [[CD-ROM]]s or [[USB flash drives]].
+
+==Booting from a disk==
+A modern PC is configured to attempt to boot from various devices in a certain order.  If your computer is not booting from the device you desire, such as the floppy drive, you may have to enter the BIOS setup function by pressing a special key when the computer is first turned on (such as Delete, F1, F2, F10 or F12), and then changing the boot order.  More recent BIOSes permit the interruption of the final stage of the boot process by pressing a function key (usually F11).  This results in a list of bootable devices being presented, from which a selection may be made.
+
+Modern Apple computers will boot from an appropriate disk if the user presses the C key while the machine is starting.
+
+== Required files ==
+Different operating systems use different boot disk contents. All boot discs must be compatible with the computer they are designed for.
+
+===MS-DOS/PC-DOS===
+*A valid [[boot sector]] on the floppy disk, not in the format of a normal disk [[Computer file|file]].
+*[[IO.SYS]] or [[IBMBIO.COM]]
+*[[MSDOS.SYS]] or [[IBMDOS.COM]]
+*[[COMMAND.COM]]
+All files must be for the same version; although MS-DOS 5 and 6 use a file called COMMAND.COM, they are not interchangeable. Complete boot disks can be prepared in one operation by an installed operating system; details vary.
+
+===FreeDOS===
+*A valid boot sector on the disk
+*COMMAND.COM
+*KERNEL.SYS
+
+===Linux===
+*A bootloader such as [[SYSLINUX]] or [[GRUB]]
+*[[Linux kernel]]
+*Initial ram disk (initrd)
+
+===Windows To Go===
+[[Windows 8]] has a feature called [[Windows To Go]], the [[Live USB]] system requiring the extraction of files into the USB drive and the installation of a bootloader.
+
+==See also==
+*[[Booting]]
+*[[Boot sector]]
+*[[Darik&amp;apos;s Boot and Nuke]]
+*[[Data recovery]]
+*[[El Torito (CD-ROM standard)]]
+*[[Protected Area Run Time Interface Extension Services]] (PARTIES)
+*[[Live CD]]
+*[[Windows To Go]]
+
+==External links==
+*[http://reboot.pro/ reboot.pro - Community forum dedicated to Boot Disks]
+*[http://bootdisk.com/ Boot Disk information, sources, and tools]
+*{{HowStuffWorks|harvard-extension-schools-computer-science-e-1-understand/2740-creating-a-boot-disk-video|Creating a Boot Disk}}
+
+[[Category:Booting]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

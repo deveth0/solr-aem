@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Prolepsis"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Prolepsis" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary}}
+&amp;apos;&amp;apos;&amp;apos;Prolepsis&amp;apos;&amp;apos;&amp;apos;  may refer to:
+
+* [[Flashforward]], in storytelling, an interjected scene that takes the narrative forward
+* [[Prolepsis (album)|&amp;apos;&amp;apos;Prolepsis&amp;apos;&amp;apos; (album)]], 1975 work by Arrogance
+* [[Procatalepsis]], or  prebuttal, a figure of speech in which the speaker raises an objection to their own argument and then immediately answers it.
+* [[Cataphora]], linguistics term to describe an expression that co-refers with a later expression in the discourse
+* [[Déjà vu]], the experience of feeling sure that one has already witnessed or experienced a current situation
+* [[Foreshadowing]], literary technique to give clues to allow a reader to predict what will happen
+* Prolepsis, or preconceptions, one of the three criteria of truth in [[Epicureanism]]
+
+== See also ==
+* [[Proslepsis]], figures of speech
+* [[Proleptic (disambiguation)]]
+
+{{Disambig}}
+[[Category:Rhetoric]]
+[[Category:Figures of speech]]
+
+
+[[de:Prolepse]]
+[[pt:Prolepse]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Gelfond–Schneider constant"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Gelfond–Schneider constant" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;Gelfond–Schneider constant&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;Hilbert number&amp;apos;&amp;apos;&amp;apos;&amp;lt;ref&amp;gt;{{citation|authorlink=Richard Courant|authorlink2=Herbert Robbins|first1=R.|last1=Courant|first2=H.|last2=Robbins|title=What Is Mathematics?: An Elementary Approach to Ideas and Methods|publisher=Oxford University Press|year=1996|page=107}}&amp;lt;/ref&amp;gt; is
+:&amp;lt;math&amp;gt;2^{\sqrt{2}}=2.6651441426902251886502972498731\ldots&amp;lt;/math&amp;gt;
+which was proved to be a [[transcendental number]] by [[Rodion Kuzmin]] in 1930.&amp;lt;ref name=Kuzmin&amp;gt;{{cite journal |author=R. O. Kuzmin |title=On a new class of transcendental numbers |journal=Izvestiya Akademii Nauk SSSR, Ser. matem. |volume=7 |year=1930 |pages=585–597 |url=http://mi.mathnet.ru/eng/izv5316}}&amp;lt;/ref&amp;gt;
+In 1934, [[Aleksandr Gelfond]] proved the more general &amp;apos;&amp;apos;[[Gelfond–Schneider theorem]]&amp;apos;&amp;apos;,&amp;lt;ref&amp;gt;{{cite journal |author=Aleksandr Gelfond |title=Sur le septième Problème de Hilbert |journal=Bull. Acad. Sci. URSS Leningrade |volume=7 |pages=623–634 |year=1934}}&amp;lt;/ref&amp;gt; which solved the part of [[Hilbert&amp;apos;s seventh problem]] described below.
+
+==Properties==
+
+The [[square root]] of the Gelfond–Schneider constant is the transcendental number
+:&amp;lt;math&amp;gt;\sqrt{2}^{\sqrt{2}}=1.6325269\ldots&amp;lt;/math&amp;gt;
+
+This same constant can be used to prove that &amp;quot;an irrational to an irrational power may be rational&amp;quot;, even without first proving its transcendence. The proof proceeds as follows: either &amp;lt;math&amp;gt;\sqrt{2}^{\sqrt{2}}&amp;lt;/math&amp;gt; is rational, which proves the theorem, or it is irrational (as it turns out to be), and then &amp;lt;math&amp;gt;\left(\sqrt{2}^{\sqrt{2}}\right)^{\sqrt{2}}=2&amp;lt;/math&amp;gt; is an irrational to an irrational power that is rational, which proves the theorem.  The proof is not [[constructive proof|constructive]], as it does not say which of the two cases is true, but it is much simpler than [[Rodion Kuzmin|Kuzmin&amp;apos;s]] proof.
+
+==Hilbert&amp;apos;s seventh problem==
+
+{{main|Hilbert&amp;apos;s seventh problem}}
+
+Part of the seventh of [[Hilbert&amp;apos;s problems|Hilbert&amp;apos;s twenty three problems]] posed in 1900 was to prove (or find a counterexample to the claim) that &amp;apos;&amp;apos;a&amp;lt;sup&amp;gt;b&amp;lt;/sup&amp;gt;&amp;apos;&amp;apos; is always transcendental for algebraic &amp;apos;&amp;apos;a&amp;apos;&amp;apos;&amp;amp;nbsp;&amp;amp;ne;&amp;amp;nbsp;0,&amp;amp;nbsp;1 and irrational algebraic &amp;apos;&amp;apos;b&amp;apos;&amp;apos;.  In the address he gave two explicit examples, one of them being the Gelfond–Schneider constant 2&amp;lt;sup&amp;gt;√2&amp;lt;/sup&amp;gt;.
+
+In 1919, he gave a lecture on [[number theory]] and spoke of three conjectures: the [[Riemann hypothesis]], [[Fermat&amp;apos;s Last Theorem]], and the transcendence of 2&amp;lt;sup&amp;gt;√2&amp;lt;/sup&amp;gt;.  He mentioned to the audience that he didn&amp;apos;t expect anyone in the hall to live long enough to see a proof of this final result.&amp;lt;ref&amp;gt;David Hilbert, &amp;apos;&amp;apos;Natur und mathematisches Erkennen: Vorlesungen, gehalten 1919–1920&amp;apos;&amp;apos;.&amp;lt;/ref&amp;gt;  But the proof of this number&amp;apos;s transcendence was published by Kuzmin in 1930,&amp;lt;ref name=Kuzmin/&amp;gt; well within [[David Hilbert|Hilbert]]&amp;apos;s own lifetime. Namely, Kuzmin proved the case where the exponent &amp;apos;&amp;apos;b&amp;apos;&amp;apos; is a real [[quadratic irrational]], which was later extended to an arbitrary algebraic irrational &amp;apos;&amp;apos;b&amp;apos;&amp;apos; by Gelfond.
+
+==See also==
+* [[Gelfond&amp;apos;s constant]]
+
+==References==
+{{reflist}}
+
+==Further reading==
+* {{cite book | last=Ribenboim | first=Paulo | authorlink=Paulo Ribenboim | title=My Numbers, My Friends: Popular Lectures on Number Theory | series=Universitext | publisher=[[Springer-Verlag]] | year=2000 | isbn=0-387-98911-0 | zbl=0947.11001 }}
+* {{cite book | editor=Felix E. Browder | editor-link=Felix Browder | title=Mathematical Developments Arising from Hilbert Problems | series=[[Proceedings of Symposia in Pure Mathematics]] | volume=XXVIII.1 | year=1976 | publisher=[[American Mathematical Society]] | isbn=0-8218-1428-1 | first=Robert | last=Tijdeman | authorlink=Robert Tijdeman | chapter=On the Gel&amp;apos;fond–Baker method and its applications | pages=241–268 | zbl=0341.10026 }}
+
+{{DEFAULTSORT:Gelfond-Schneider Constant}}
+[[Category:Transcendental numbers]]
+[[Category:Mathematical constants]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

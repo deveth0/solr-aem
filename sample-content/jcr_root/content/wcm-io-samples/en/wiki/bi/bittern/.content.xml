@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Bittern"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Bittern" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Other uses}}
+
+{{Taxobox
+| name = Bitterns
+| image = LeastBittern23.jpg
+| image_caption = [[Least Bittern]]
+| regnum = [[Animal]]ia
+| phylum = [[Chordate|Chordata]]
+| classis = [[bird|Aves]]
+| ordo = [[Pelecaniformes]]
+| familia = [[Ardeidae]]
+| subfamilia = &amp;apos;&amp;apos;&amp;apos;Botaurinae&amp;apos;&amp;apos;&amp;apos;
+| subdivision_ranks = Genera
+| subdivision =
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Ixobrychus&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+&amp;lt;small&amp;gt;[[Gustaf Johan Billberg|Billberg]], 1828&amp;lt;/small&amp;gt;&amp;lt;br&amp;gt;
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Botaurus&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+&amp;lt;small&amp;gt;[[James Francis Stephens|Stephens]], 1819&amp;lt;/small&amp;gt;
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Bitterns&amp;apos;&amp;apos;&amp;apos; are a classification of birds in the [[heron]] family, Ardeidae, a family of wading birds. Species named bitterns tend to be the shorter-necked, often more secretive members of this family.  They were called &amp;apos;&amp;apos;hæferblæte&amp;apos;&amp;apos; in [[Old English language|Old English]]; the word &amp;quot;bittern&amp;quot; came to [[English language|English]] from [[Old French language|Old French]] &amp;apos;&amp;apos;butor&amp;apos;&amp;apos;, itself from Gallo-roman &amp;apos;&amp;apos;butitaurus&amp;apos;&amp;apos;, a [[portmanteau]] of [[Latin]] &amp;apos;&amp;apos;būtiō&amp;apos;&amp;apos; and &amp;apos;&amp;apos;taurus&amp;apos;&amp;apos;.&amp;lt;ref&amp;gt;{{cite encyclopedia | editor = Joseph P. Pickett et al. | encyclopedia =The American Heritage Dictionary of the English Language | title = Bittern | url = http://www.bartleby.com/61/77/B0287700.html | accessdate = 2006-07-04 | edition = 4th ed. | year = 2000 | publisher = Houghton Mifflin | location = Boston}}&amp;lt;/ref&amp;gt; Bitterns form a [[monophyletic]] subfamily in the heron family, the &amp;apos;&amp;apos;&amp;apos;Botaurinae&amp;apos;&amp;apos;&amp;apos;.
+
+Bitterns usually frequent reedbeds and similar marshy areas, and feed on [[amphibia]]ns, [[reptile]]s, [[insect]]s, and [[fish]].
+
+Unlike the  similar [[stork]]s, [[ibis]]es and [[spoonbill]]s, herons and bitterns fly with their necks retracted, not outstretched.
+
+The genus &amp;apos;&amp;apos;[[Ixobrychus]]&amp;apos;&amp;apos; contains mainly small species:
+*[[Little Bittern]], &amp;apos;&amp;apos;Ixobrychus minutus&amp;apos;&amp;apos;
+*[[Australian Little Bittern]], &amp;apos;&amp;apos;Ixobrychus dubius&amp;apos;&amp;apos;
+*[[New Zealand Little Bittern]], &amp;apos;&amp;apos;Ixobrychus novaezelandiae&amp;apos;&amp;apos; ([[extinct]])
+*[[Cinnamon Bittern]], &amp;apos;&amp;apos;Ixobrychus cinnamomeus&amp;apos;&amp;apos;
+*[[Stripe-backed Bittern]], &amp;apos;&amp;apos;Ixobrychus involucris&amp;apos;&amp;apos;
+*[[Least Bittern]], &amp;apos;&amp;apos;Ixobrychus exilis &amp;apos;&amp;apos;
+*[[Yellow Bittern]], &amp;apos;&amp;apos; Ixobrychus sinensis&amp;apos;&amp;apos;
+*[[Schrenck&amp;apos;s Bittern]], &amp;apos;&amp;apos;Ixobrychus eurhythmus &amp;apos;&amp;apos;
+*[[Dwarf Bittern]], &amp;apos;&amp;apos;Ixobrychus sturmii&amp;apos;&amp;apos;
+*[[Black Bittern]], &amp;apos;&amp;apos;Ixobrychus flavicollis&amp;apos;&amp;apos;
+
+The genus &amp;apos;&amp;apos;[[Botaurus]]&amp;apos;&amp;apos; is the larger bitterns:
+*[[American Bittern]], &amp;apos;&amp;apos;Botaurus lentiginosa&amp;apos;&amp;apos;.
+*[[Eurasian Bittern]] or &amp;apos;&amp;apos;&amp;apos;Great Bittern&amp;apos;&amp;apos;&amp;apos;, &amp;apos;&amp;apos;Botaurus stellaris&amp;apos;&amp;apos;
+*[[South American Bittern]], &amp;apos;&amp;apos;Botaurus pinnatus&amp;apos;&amp;apos;
+*[[Australasian Bittern]], &amp;apos;&amp;apos;Botaurus poiciloptilus&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;Botaurus hibbardi&amp;apos;&amp;apos; ([[fossil]])
+
+The genus &amp;apos;&amp;apos;Zebrilus&amp;apos;&amp;apos; includes only one species:
+*Zigzag Heron (or properly &amp;apos;&amp;apos;&amp;apos;Zigzag Bittern&amp;apos;&amp;apos;&amp;apos;), &amp;apos;&amp;apos;[[Zebrilus undulatus]]&amp;apos;&amp;apos;
+
+==Notes==
+&amp;lt;references/&amp;gt;
+
+[[Category:Bitterns| ]]
+[[Category:Ardeidae|*]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

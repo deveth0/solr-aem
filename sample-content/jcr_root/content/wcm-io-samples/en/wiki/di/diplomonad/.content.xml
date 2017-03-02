@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Diplomonad"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Diplomonad" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Taxobox
+| name = Diplomonads
+| image = Giardia lamblia.jpg
+| image_caption = &amp;apos;&amp;apos;[[Giardia lamblia]]&amp;apos;&amp;apos;
+| image_width = 250px
+| domain = [[Eukaryote|Eukaryota]]
+| unranked_phylum = [[Excavata]]
+| phylum = [[Metamonad]]a
+| ordo = &amp;apos;&amp;apos;&amp;apos;Diplomonadida&amp;apos;&amp;apos;&amp;apos;
+}}
+The &amp;apos;&amp;apos;&amp;apos;diplomonads&amp;apos;&amp;apos;&amp;apos; are a group of [[flagellate]]s, most of which are parasitic.  They include most notably &amp;apos;&amp;apos;[[Giardia lamblia]]&amp;apos;&amp;apos;, which causes [[giardiasis]] in humans.  They are placed among the [[metamonad]]s, and appear to be particularly close relatives of the [[retortamonad]]s.
+
+Most diplomonads are double cells: they have two [[cell nucleus|nuclei]], each with four associated flagella, arranged symmetrically about the body&amp;apos;s main axis.  Like the retortamonads, they lack both [[mitochondrion|mitochondria]] and a [[Golgi apparatus]].  However they are now known to possess mitochondrial relics, called [[mitosome]]s.  These are not used in [[Adenosine triphosphate|ATP]] synthesis the way mitochondria are, but are involved in the maturation of [[iron-sulfur protein]]s.&amp;lt;ref&amp;gt;{{cite journal |author=Tovar J |title=Mitochondrial remnant organelles of &amp;apos;&amp;apos;Giardia&amp;apos;&amp;apos; function in iron-sulphur protein maturation |journal=Nature |volume=426 |issue=6963 |pages=172–6 |year=2003 |pmid=14614504 |doi=10.1038/nature01945 |author-separator=, |author2=León-Avila G |author3=Sánchez LB |display-authors=3 |last4=Sutak |first4=Robert |last5=Tachezy |first5=Jan |last6=Van Der Giezen |first6=Mark |last7=Hernández |first7=Manuel |last8=Müller |first8=Miklós |last9=Lucocq |first9=John M.}}&amp;lt;/ref&amp;gt;
+
+== References ==
+&amp;lt;references/&amp;gt;
+Most diplomonads are double cells: they have two nuclei, each with multiple associated flagella
+
+==External links==
+[http://microbewiki.kenyon.edu/index.php/Diplomonada Microbe Wiki]
+
+{{Excavata}}
+
+[[Category:Flagellates]]
+[[Category:Metamonads]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

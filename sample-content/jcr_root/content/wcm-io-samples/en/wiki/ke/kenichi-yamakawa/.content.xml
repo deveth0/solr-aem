@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Kenichi Yamakawa"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Kenichi Yamakawa" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Use dmy dates|date=June 2013}}
+{{nihongo|&amp;apos;&amp;apos;&amp;apos;Kenichi Yamakawa&amp;apos;&amp;apos;&amp;apos;|山川 健一|Yamakawa Ken&amp;apos;ichi|born 19 July 1953}} is a Japanese author&amp;lt;ref&amp;gt;{{cite web|title=Be Happy!|url=http://www.yamaken.com/|work=yamaken.com|accessdate=11 January 2011}}&amp;lt;/ref&amp;gt; and [[Rock and roll|rock]] musician.
+
+== Books (written in Japanese) ==
+*&amp;apos;&amp;apos;Kagami no Naka no Glass no Fune&amp;apos;&amp;apos; (A Glass Ship in the Mirror)
+*&amp;apos;&amp;apos;Suishoh no Yoru&amp;apos;&amp;apos; (Christal Nacht)
+*&amp;apos;&amp;apos;Rolling Kids&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;Rockn&amp;apos;roll Games&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;Macintosh High&amp;apos;&amp;apos;
+
+== Albums ==
+*&amp;apos;&amp;apos;Backstreet&amp;apos;&amp;apos;
+
+==References==
+{{Reflist}}
+
+{{Authority control|VIAF=93789802}}
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              =Yamakawa, Kenichi
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION = Japanese writer
+| DATE OF BIRTH     = 1953
+| PLACE OF BIRTH    =
+| DATE OF DEATH     =
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Yamakawa, Kenichi}}
+[[Category:Japanese writers]]
+[[Category:Japanese musicians]]
+[[Category:1953 births]]
+[[Category:Living people]]
+[[Category:People from Chiba, Chiba]]
+
+
+{{Japan-writer-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Polytrope"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Polytrope" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Distinguish|polytope}}
+
+In [[astrophysics]], a &amp;apos;&amp;apos;&amp;apos;polytrope&amp;apos;&amp;apos;&amp;apos; refers to a solution of the [[Lane-Emden equation]] in which the [[pressure]] depends upon the [[density]] in the form &amp;lt;math&amp;gt;P = K \rho^{((n+1)/n)}&amp;lt;/math&amp;gt;, where &amp;lt;math&amp;gt;P&amp;lt;/math&amp;gt; is pressure, &amp;lt;math&amp;gt;\rho&amp;lt;/math&amp;gt; is density and &amp;lt;math&amp;gt;K&amp;lt;/math&amp;gt; is a [[Constant (mathematics)|constant]]. The constant &amp;lt;math&amp;gt;n&amp;lt;/math&amp;gt; is known as the polytropic index. This relation need not be interpreted as an [[equation of state]], although a [[gas]] following such an equation of state does indeed produce a polytropic solution to the Lane-Emden equation. Rather, this is simply a relation that expresses an assumption about the change of &amp;lt;math&amp;gt;P&amp;lt;/math&amp;gt; with [[radius]] in terms of the change of &amp;lt;math&amp;gt;\rho&amp;lt;/math&amp;gt; with radius, yielding a solution to the Lane-Emden equation.
+
+Sometimes the word &amp;apos;&amp;apos;polytrope&amp;apos;&amp;apos; may be used to refer to an equation of state that looks similar to the [[thermodynamics|thermodynamic]] relation above, although this is potentially confusing and is to be avoided. It is preferable to refer to the [[fluid]] itself (as opposed to the solution of the Lane-Emden equation) as a [[Polytropic process|polytropic fluid]]. The equation of state of a polytropic fluid is general enough that such idealized fluids find wide use outside of the limited problem of polytropes.
+
+==Example models by polytropic index==
+[[Image:Polytrope3n.svg|thumb|left|Density (normalized to average density) versus radius (normalized to external radius) for a polytrope with index n=3.]]
+
+*[[Neutron star]]s are well [[model (abstract)|modeled]] by polytropes with index about in the range between &amp;lt;math&amp;gt;n=0.5&amp;lt;/math&amp;gt; and &amp;lt;math&amp;gt;n=1&amp;lt;/math&amp;gt;.
+
+*A polytrope with index &amp;lt;math&amp;gt;n=1.5&amp;lt;/math&amp;gt; is a good model for fully convective star cores (like those of [[red giant]]s), [[brown dwarf]]s, [[gas giant|giant gaseous planets]] (like [[Jupiter]]), or even for [[terrestrial planet|rocky planet]]s.
+
+*Main sequence [[star]]s like our [[Sun]] and relativistic [[degenerate matter|degenerate]] cores like those of [[white dwarf]]s are usually modeled by a polytrope with index &amp;lt;math&amp;gt;n=3&amp;lt;/math&amp;gt;, corresponding to the [[Eddington standard model]] of [[stellar structure]].
+
+*A polytrope with index &amp;lt;math&amp;gt;n=5&amp;lt;/math&amp;gt; has an infinite radius. It corresponds to the simplest plausible model of a self-consistent stellar system, first studied by [[Arthur Schuster|A. Schuster]] in 1883.
+
+*A polytrope with index &amp;lt;math&amp;gt;n=\infty&amp;lt;/math&amp;gt; corresponds to what is called &amp;apos;&amp;apos;isothermal sphere&amp;apos;&amp;apos;, that is an isothermal self-gravitating sphere of gas, whose structure is identical with the structure of a collisionless system of stars like a [[globular cluster]].
+
+Note that the higher the polytropic index, the more condensed at the centre is the density distribution.
+
+==References==
+
+* Chandrasekhar, S. [ 1939 ] ( 1958 ). &amp;apos;&amp;apos;An Introduction to the Study of Stellar Structure&amp;apos;&amp;apos;, New York : Dover. ISBN 0-486-60413-6
+* Hansen, C.J., Kawaler S.D. &amp;amp; Trimble V. ( 2004 ). &amp;apos;&amp;apos;Stellar Interiors - Physical Principles, Structure, and Evolution&amp;apos;&amp;apos;, New York : Springer. ISBN 0-387-20089-4
+* Horedt, G.P. ( 2004 ). &amp;apos;&amp;apos;Polytropes. Applications in Astrophysics and Related Fields&amp;apos;&amp;apos;, Dordrecht : Kluwer. ISBN 1-4020-2350-2
+
+[[Category:Astrophysics]]
+
+{{astronomy-stub}}
+
+[[de:Polytrop]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

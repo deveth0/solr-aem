@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Public holidays in the Democratic Republic of the Congo"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Public holidays in the Democratic Republic of the Congo" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;:This is a list of &amp;apos;&amp;apos;&amp;apos;[[holidays]] in the [[Democratic Republic of the Congo]]&amp;apos;&amp;apos;&amp;apos;
+
+{| cellpadding=4 cellspacing=0 border=1 style=&amp;quot;font-family: verdana, sans-serif; margin: 0 0 1em 1em; font-size:90%; background-color: #f7f8ff;&amp;quot;
+|&amp;apos;&amp;apos;&amp;apos;Date&amp;apos;&amp;apos;&amp;apos;
+|&amp;apos;&amp;apos;&amp;apos;English Name&amp;apos;&amp;apos;&amp;apos;
+|----
+|January 1
+|[[New Year&amp;apos;s Day]]
+|----
+|January 4
+|Day of the Martyrs
+|----
+|May 1
+|[[Labor Day]]
+|----
+|May 17
+|[[Liberation Day]]
+|----
+|June 30
+|[[Independence Day]]
+|----
+|August 1
+|Parents&amp;apos; Day
+|----
+|November 17
+|[[Army Day]]
+|----
+|}
+
+{{Africa_in_topic|Public holidays in}}
+{{DRC topics}}
+
+{{DRCongo-stub}}
+[[Category:Public holidays by country|Congo (Dem)]]
+[[Category:Democratic Republic of the Congo society]]
+[[Category:Democratic Republic of the Congo culture]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

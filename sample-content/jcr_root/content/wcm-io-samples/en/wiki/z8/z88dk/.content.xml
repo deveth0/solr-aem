@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Z88DK"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Z88DK" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{unreferenced|date=January 2013}}
+
+&amp;apos;&amp;apos;&amp;apos;Z88DK&amp;apos;&amp;apos;&amp;apos; is a [[Small-C]]-derived [[cross compiler]] for a long list of [[Zilog Z80|Z80]] based computers. The name derives from the fact that it was originally developed to target the [[Cambridge Z88]]. Z88DK is much developed from Small-C and it accepts many features of [[ANSI C]] with the notable exception of [[Array data structure|multi-dimensional arrays]] and prototyped [[function pointer]]s.
+
+It has been used for many software and hardware projects, notably the REX DK (targeted to the REX 6000 platform) and the S1 SDK (targeted to the [[S1 MP3 Player]]) teams.
+
+The compiler is highly portable, and is known to be run on [[AmigaOS]], [[BeOS]], [[HP-UX]] 9, [[Linux]], [[BSD]], [[Mac OS X]], [[Solaris (operating system)|Solaris]], [[Win32]], [[Win16]] and [[MS-DOS]].
+
+== Supported target platforms ==
+As of the {{As of|2009|alt=time of writing}} Z88DK supports the following target platforms:
+
+* [[ABC 80|Luxor ABC 80]]
+* [[ABC 800|Luxor ABC 800]]
+* [[Amstrad CPC]]
+* [[Amstrad NC100]]
+* [[Amstrad NC200]]
+* [[Cambridge Z88]]
+* [[Commodore 128]] (in Z80 mode)
+* [[CP/M]] based machines
+* [[Galaksija]]
+* [[Grundy NewBrain]]
+* [[Jupiter Ace]]
+* [[Mattel Aquarius]]
+* [[MSX]]
+* [[Nascom]]
+* [[Rabbit Semiconductor|Rabbit]] [[Rabbit 2000|2000/3000/4000 platform]]
+* [[SAM Coupé]]
+* [[Sega Master System]]
+* [[Sharp MZ]] series
+* [[Sharp Wizard|Sharp OZ/QZ 700 family]] palmtop organizers
+* [[Sinclair ZX81]]
+* Sinclair [[ZX Spectrum]]
+* [[Sord M5]]
+* [[Spectravideo]]
+* [[Sprinter (computer)|Peters Plus Sprinter]]
+* TI calculators ([[TI-82]], [[TI-83 series]], [[TI-84 Plus series]], [[TI-85]], [[TI-86]])
+* [[Timex Sinclair 2068]]
+* [[TRS 80|TRS-80 (Tandy Radio Shack and clones)]]
+* [[VTech]] VZ200/300 (also known as [[Laser 200]])
+* Xircom [[REX 6000]] (also known as DataSlim)
+
+== See also ==
+* [[Retargetable compiler]]
+* [[Microcontroller]]
+* [[Small_Device_C_Compiler|SDCC]]
+
+== External links ==
+* [http://www.z88dk.org Z88DK Main website]
+* [http://www.z88dk.org/wiki/ Z88DK Documentation]
+
+[[Category:C compilers]]
+[[Category:Cross-compilers]]
+[[Category:Retrocomputing]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

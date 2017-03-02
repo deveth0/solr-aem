@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Fukuchi Genichiro"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Fukuchi Genichiro" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=February 2008}}
+
+{{japanese name|Fukuchi}}
+[[Image:Genichiro Fukuchi 3.jpg|thumb|Journalist days]]
+{{nihongo|&amp;apos;&amp;apos;&amp;apos;Fukuchi Gen&amp;apos;ichirō&amp;apos;&amp;apos;&amp;apos;|福地 源一郎||May 13, 1841 - January 4, 1906}} was a [[Japanese people|Japanese]] critic and author, also known under the pseudonym {{nihongo|&amp;apos;&amp;apos;&amp;apos;Fukuchi Ōchi&amp;apos;&amp;apos;&amp;apos;|福地 桜痴||}}.
+
+==Biography==
+Fukuchi was born in [[Nagasaki]], [[Japan]]. He traveled [[Europe]] as a [[translation|translator]], and in 1874, became a main writer for the [[Tokyo Nichi Nichi Shimbun]] newspaper. In 1882, he formed the [[Rikken Teiseitō|Constitutional Imperial Rule Party]].
+
+{{Commons|Fukuchi Genichiro}}
+
+{{Persondata
+| NAME              = Fukuchi Genichiro
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION =
+| DATE OF BIRTH     = 1841
+| PLACE OF BIRTH    =
+| DATE OF DEATH     = 1906
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Fukuchi, Genichiro}}
+[[Category:Japanese writers]]
+[[Category:1841 births]]
+[[Category:1906 deaths]]
+
+
+{{Japan-writer-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

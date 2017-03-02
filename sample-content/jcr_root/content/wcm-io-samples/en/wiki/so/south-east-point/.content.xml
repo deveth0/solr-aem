@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="South East Point"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="South East Point" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{For|the Kiribati cape|South East Point, Kiribati}}
+{{Unreferenced|date=December 2009}}
+&amp;lt;div style=&amp;quot;float:right; width:320px; border:1px; border-style:solid; padding:2px; text-align:center&amp;quot;&amp;gt; [[Image:SouthEastPoint.jpg]]&amp;lt;br&amp;gt;
+&amp;apos;&amp;apos;South East Point&amp;apos;&amp;apos; &amp;lt;!-- [[Media:SouthEastPoint750.jpg|(larger)]] --&amp;gt;&amp;lt;/div&amp;gt;
+&amp;apos;&amp;apos;&amp;apos;South East Point&amp;apos;&amp;apos;&amp;apos; lies on the southerly tip of [[Wilsons Promontory]], [[Victoria (Australia)|Victoria]], [[Australia]]. South East Point is located at {{Coord|39|07|S|146|25|E|}}. It commands sensational views of [[Bass Strait, Australia|Bass Strait]] and is a major landmark for all ships travelling between the southern Australian ports ([[Melbourne]], [[Adelaide]], [[Perth, Western Australia|Perth]]) and the Pacific Ocean. South East Point is the site of the [[Wilsons Promontory Lighthouse]]. The only access for visitors is a full day hike from the [[Tidal River, Wilsons Promontory|Tidal River]] camping ground.
+
+South East Point on [[Wilsons Promontory]] is one of the southerly points of the Australian mainland, but another point on Wilsons Promontory, [[South Point (Wilsons Promontory)|South Point]], is located still further in the south.
+
+[[Category:Bass Strait]]
+[[Category:Wilsons Promontory]]
+[[Category:Headlands of Victoria (Australia)]]
+
+
+{{Gippsland-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

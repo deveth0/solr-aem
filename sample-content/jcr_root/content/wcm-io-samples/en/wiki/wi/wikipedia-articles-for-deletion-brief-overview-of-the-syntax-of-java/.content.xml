@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:Articles for deletion/Brief overview of the syntax of Java"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:Articles for deletion/Brief overview of the syntax of Java" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;This discussion has expired.&amp;apos;&amp;apos;&amp;apos;
+:I assume... [[User:Gracefool|··gracefool]] |[[User talk:gracefool|&amp;amp;#9786;]] 04:25, 17 Jun 2005 (UTC)
+
+The language syntax is too detailed to discuss in wikipedia. -- [[User:TakuyaMurata|Taku]] 15:19, Mar 28, 2004 (UTC)
+*Move to [[Java syntax]]. [[User:Anthony DiPierro|anthony (this comment is a work in progress and may change without prior notice)]] 15:26, 28 Mar 2004 (UTC)
+*Taku - Please explain your reasoning in a &amp;apos;&amp;apos;&amp;apos;lot&amp;apos;&amp;apos;&amp;apos; more detail.  It looks like you created this article just so you could immediately list it on VfD rather than work out a disagreement over content on [[Talk:Java programming language]].  Keep until the reasons are better explained. [[User:Rossami|Rossami]] 17:20, 28 Mar 2004 (UTC)
+**Keep - same reason -- [[User:Cyrius|Cyrius]] | [[User talk:Cyrius|Talk]] 19:52, Mar 28, 2004 (UTC)
+*Delete. It&amp;apos;s nothing more than an unformatted chunk of useless code who nobody except computer scientists can understand.[[User:Vfd|Vfd]] 19:37, 28 Mar 2004 (UTC)
+**No vote, but I don&amp;apos;t think that&amp;apos;s a good reason. There are plenty of articles that require expertise to understand; just look at some of the articles on mathematics topics. I&amp;apos;m not familiar with how we&amp;apos;ve organized info on programming languages, so I&amp;apos;ll abstain. -- [[User:Friedo|Friedo]] 00:59, 29 Mar 2004 (UTC)
+*Merge with [[curly brace family]]. These syntactical features are not in any way unique to Java; it&amp;apos;s better to cover them in the more general article and point there. [[User:Fredrik|Fredrik]] 22:40, 28 Mar 2004 (UTC)
+*Move to [[java syntax]]. Keywords used in a programming language are of encyclopedic value. If the language constructs set it apart from other languages, then thats encyclopedic too. [[User:Jay|Jay]] 17:10, 29 Mar 2004 (UTC)
+**However, like I said, most of Java&amp;apos;s syntax (and everything covered in that article) is the same as in C, C++, etc, so it&amp;apos;s better to move it to the general article. [[User:Fredrik|Fredrik]] 22:44, 29 Mar 2004 (UTC)
+***Sorry, I hadn&amp;apos;t looked at the article you mentioned before. [[curly brace family]] would be an article that talks about the curly brace syntax and which all languages use it. But how will it take care of differences in syntax between different languages. And also there is more to syntax than curly braces. In other words I don&amp;apos;t see it as a superset of programming languages. And even if it is a superset, supersets are eventually broken up into sub-sections and made  into independent pages, and Java syntax page is one of them. [[User:Jay|Jay]] 07:52, 30 Mar 2004 (UTC)
+****What does &amp;quot;eventually broken up&amp;quot; mean here? I don&amp;apos;t see why [[curly brace family]] wouldn&amp;apos;t be able to cover the differences between the various curly brace languages. If the article grows to such a size that breaking it up is necessary, that&amp;apos;s an issue &amp;apos;&amp;apos;then&amp;apos;&amp;apos;. And additional differences may be handled in the main Java article once the basics are covered in the appropriate place. [[User:Fredrik|Fredrik]] 10:23, 30 Mar 2004 (UTC)
+*****Right, move entire content into [[curly braces]] for now. [[User:Jay|Jay]] 14:00, 30 Mar 2004 (UTC)
+******Agreed [[User:D8uv|&amp;lt;nowiki&amp;gt;&amp;lt;/nowiki&amp;gt;]]&amp;amp;#151;[[user:d8uv|d8uv]] [[user_talk:d8uv|&amp;lt;small&amp;gt;(t)&amp;lt;/small&amp;gt;]] 12:20, Apr 4, 2004 (UTC)
+*Merge with Java, from which it came. This is just another Taku use of VfD and spawning articles as part of article content debates, with Taku deleting things others want, from the Java article in this case. I expect the agenda here is make this article, get it deleted, then argue that VfD said the language summary shouldn&amp;apos;t be in the Wikipedia. Once the discussion about the Java article resolves the matter, we can revisit this article, if necessary. It probably does need to be deleted... but not in the middle of a discussion of the article it came from. [[User:Jamesday|Jamesday]] 15:31, 6 Apr 2004 (UTC)
+*Keep, and expand.  I think it&amp;apos;s silly to spawn an article out of an old one and then request to delete the material.  Java has several unique keywords that are worth discussing somewhere, even if the syntax structure is similar to C++. [[User:Kevin Saff|Kevin Saff]] 16:51, 6 Apr 2004 (UTC)&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

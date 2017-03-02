@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Uppaal Model Checker"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Uppaal Model Checker" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox software
+| name                   = UPPAAL
+| logo                   =
+| screenshot             =
+| caption                =
+| developer              = [[Uppsala University]]&amp;lt;br/&amp;gt;[[Aalborg University]]
+| released               = {{Start date|1995}}
+| latest release version =  4.0.13
+| latest release date    = {{release date and age|2010|09|27}}
+| latest preview version =  4.1.13
+| latest preview date    = {{release date and age|2010|10|07}}
+| programming_language   = [[C++]] and [[GUI]] in [[Java (programming language)|Java]]
+| operating system       = [[Linux]]&amp;lt;br/&amp;gt;[[Mac OS X]]&amp;lt;br/&amp;gt;[[Microsoft Windows]]
+| platform               =
+| genre                  = [[Model checking]]
+| language               = [[English language|English]] [[Danish language|Danish]] [[Japanese language|Japanese]] [[Chinese language|Chinese]] [[Lithuanian language|Lithuanian]]
+| license                = [[Commercial Licenses]]&amp;lt;br/&amp;gt;[[Academic Licenses]]
+| website                = http://www.uppaal.org/ http://www.uppaal.com/
+}}
+&amp;apos;&amp;apos;&amp;apos;UPPAAL&amp;apos;&amp;apos;&amp;apos; is an integrated [[tool]] [[software platform|environment]] for [[model checking|modeling]], validation and verification of [[real-time computing|real-time]] systems modeled as networks of [[timed automaton|timed automata]], extended with [[data type]]s (bounded integers, arrays etc.).
+
+The tool has been developed in collaboration between the Design and Analysis of Real-Time Systems group at [[Uppsala University]], [[Sweden]] and Basic Research in Computer Science at [[Aalborg University]], [[Denmark]].
+
+There are the following extensions available:
+*&amp;apos;&amp;apos;&amp;apos;Cora&amp;apos;&amp;apos;&amp;apos; for Cost Optimal Reachability Analysis.
+*&amp;apos;&amp;apos;&amp;apos;Tron&amp;apos;&amp;apos;&amp;apos; for Testing Real-time systems ON-line (black-box conformance testing).
+*&amp;apos;&amp;apos;&amp;apos;Cover&amp;apos;&amp;apos;&amp;apos; for COVERerage-optimal off-line test generation.
+*&amp;apos;&amp;apos;&amp;apos;Tiga&amp;apos;&amp;apos;&amp;apos; for TImed GAmes based controller synthesis.
+*&amp;apos;&amp;apos;&amp;apos;Port&amp;apos;&amp;apos;&amp;apos; for component based timed systems, exploiting Partial Order Reduction Techniques.
+*&amp;apos;&amp;apos;&amp;apos;Pro&amp;apos;&amp;apos;&amp;apos; for PRObabilistic reachability analysis.
+
+==External links==
+*[http://www.uppaal.org/ UPPAAL academic website]
+*[http://www.uppaal.com/ UPPAAL commercial website]
+
+*[http://www.it.uu.se/research/group/darts/ Design and Analysis of Real-Time Systems group]
+*[http://www.cs.aau.dk/en/research/des/ DES unit, Dept. Computer Science at AAU]
+
+{{formalmethods-stub}}
+
+[[Category:Model checkers]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

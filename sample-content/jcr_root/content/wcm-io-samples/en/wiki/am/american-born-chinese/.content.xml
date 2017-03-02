@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="American-born Chinese"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="American-born Chinese" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Other uses}}
+{{Multiple issues| unreferenced=May 2009 | original research=May 2009}}
+
+&amp;apos;&amp;apos;&amp;apos;American-born Chinese&amp;apos;&amp;apos;&amp;apos; or &amp;quot;&amp;apos;&amp;apos;&amp;apos;ABC&amp;apos;&amp;apos;&amp;apos;&amp;quot; describes a person born in the [[United States]] of [[China|Chinese]] ethnic descent, a category of [[Chinese American]]. Many are second-generation (meaning that they have parents who are naturalized U.S. citizens), born after the [[U.S. Immigration Act of 1965]] were free from limits on immigration from [[East Asia]].
+
+Note that in Australia, this acronym may also be used to refer to Australian-born Chinese.
+
+==See also==
+{{Portal|Asian Americans|China}}
+* [[Demographics of the United States]]
+* [[List of Chinese Americans]]
+
+==External links==
+
+{{Chinese American|state=collapsed}}
+{{Overseas Chinese2}}
+{{Asian Americans}}
+{{Ethnic slurs}}
+
+{{DEFAULTSORT:American-Born Chinese}}
+[[Category:Asian-American issues]]
+[[Category:Chinese people|*]]
+[[Category:Chinese American]]
+[[Category:Chinese diaspora by country]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

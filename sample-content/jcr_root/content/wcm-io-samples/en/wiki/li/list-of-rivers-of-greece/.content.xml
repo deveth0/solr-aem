@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="List of rivers of Greece"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="List of rivers of Greece" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;This is a list of [[river]]s that are at least partially in [[Greece]]. The rivers flowing into the sea are sorted along the coast. Rivers flowing into other rivers are listed by the rivers they flow into. &amp;lt;!-- Some rivers (e.g. X) do not flow through Greece themselves, but they are mentioned for having Greek tributaries. commented out: not sure whether this applies to any river near Greece They are given in &amp;apos;&amp;apos;italics&amp;apos;&amp;apos;. --&amp;gt; The confluence is given in parentheses.
+
+For an alphabetical overview of rivers of Greece see [[:Category:Rivers of Greece]].
+
+==Tributaries==
+===[[Adriatic Sea]]===
+* [[Vjosë|Aoos/Vjosë]] (near [[Novoselë]], Albania)
+** [[Drino]] (in [[Tepelenë]], Albania)
+** [[Sarantaporos (Epirus)|Sarantaporos]] (near [[Çarshovë]], Albania)
+
+===[[Ionian Sea]]===
+Rivers in this section are sorted north (Albanian border) to south (Cape Malea).
+
+*[[Thyamis]] (near [[Igoumenitsa]])
+**[[Tyria (river)|Tyria]] (near [[Molossoi|Vrosina]])
+*[[Acheron]] (near [[Parga]])
+*[[Louros (river)|Louros]] (near [[Preveza]])
+*[[Arachthos (river)|Arachthos]] (in [[Kommeno]])
+*[[Achelous River|Acheloos]] (near [[Astakos]])
+**[[Megdovas]] (near [[Fragkista]])
+**[[Agrafiotis]] (near Fragkista)
+**[[Granitsiotis]] (near [[Granitsa, Evrytania|Granitsa]])
+*[[Evinos]] (near [[Missolonghi]])
+*[[Mornos]] (near [[Nafpaktos]])
+*[[Elissonas (Corinthia)|Elissonas]] (in [[Dimini, Corinthia|Dimini]])
+*[[Fonissa]] (near [[Xylokastro]])
+*[[Zacholitikos]] (in [[Derveni, Corinthia|Derveni]])
+*[[Krios (stream)|Krios]] (in [[Aigeira]])
+*[[Krathis]] (near [[Akrata]])
+*[[Vouraikos]] (near [[Diakopto]])
+*[[Selinountas (river)|Selinountas]] (near [[Aigio]])
+*[[Volinaios]] (in [[Psathopyrgos]])
+*[[Charadros]] (in [[Patras]])
+*[[Glafkos (river)|Glafkos]] (in Patras)
+*[[Peiros]] (in [[Dymi, Achaea|Dymi]])
+**[[Tytheus]] (in [[Olenia]])
+*[[Larissos (river)|Larissos]] (near [[Araxos]])
+*[[Pineios (Peloponnese)|Pineios]] (near [[Gastouni]])
+*[[Alfeios]] (near [[Pyrgos, Elis|Pyrgos]])
+**[[Erymanthos (river)|Erymanthos]] (near [[Tripotamia]])
+**[[Ladon (river)|Ladon]] (near Tripotamia)
+***[[Aroanios]] (near [[Filia, Achaea|Filia]])
+**[[Lousios]] (near [[Gortyna, Arcadia|Gortyna]])
+**[[Elissonas (Alfeios)|Elissonas]] (near [[Megalopolis, Greece|Megalopoli]])
+*[[Neda (river)|Neda]] (near [[Giannitsochori]])
+*[[Peristeri (stream)|Peristeri]] (in [[Kalo Nero]])
+*[[Pamisos (river)|Pamisos]] (near [[Messene]])
+*[[Nedonas]] (in [[Kalamata]])
+*[[Eurotas (river)|Eurotas]] (in [[Elos]])
+**[[Oenus (river)|Oenus]] (in [[Sparti (municipality)|Sparti]])
+
+===[[Aegean Sea]]===
+Rivers in this section are sorted south (Cape Malea) to northeast (Turkish border).
+
+*[[Inachos (river)|Inachos]] (in [[Nea Kios]])
+*[[Cephissus (Athenian plain)|Cephissus]] (in [[Athens]])
+*[[Spercheios]] (near [[Lamia (city)|Lamia]])
+**[[Gorgopotamos (river)|Gorgopotamos]] (near Lamia)
+*[[Pineios (Thessaly)|Pineios]] (in [[Stomio, Larissa|Stomio]])
+**[[Titarisios]] (in [[Ampelonas]])
+***[[Sarantaporos (Thessaly)|Sarantaporos]] (in [[Milea, Larissa|Milea]])
+**[[Enipeas (Thessaly)|Enipeas]] (in [[Farkadona]])
+*[[Haliacmon]] (in [[Methoni, Pieria|Methoni]])
+*[[Vardar|Axios/Vardar]] (near [[Thessaloniki]])
+*[[Gallikos (river)|Gallikos]] (near Thessaloniki)
+*[[Struma (river)|Strymonas/Struma]] (in [[Amphipolis]])
+**[[Angitis]] (near [[Tragilos]])
+*[[Mesta River|Nestos/Mesta]] (near [[Keramoti]])
+**[[Dospat (river)|Despatis/Dospat]] (near [[Sidironero]])
+*[[Maritsa|Evros/Maritsa]] (near [[Alexandroupoli]])
+**[[Erythropotamos|Erythropotamos/Luda reka]] (near [[Didymoteicho]])
+**[[Arda (Maritsa)|Ardas/Arda]] (near [[Edirne]], Turkey)
+
+==No outflow into sea==
+*[[Cephissus (Boeotia)|Cephissus]] into lake Yliki, Boeotia
+**[[Kanianitis]] (in [[Parnassos (municipality)|Lilaia]])
+
+*[[Olvios]] into the [[Feneos]] plains, Corinthia
+
+==Ancient rivers and streams==
+
+*[[Ammites]]  (stream; emptied into [[Lake Bolbe]])
+*[[Bisaltes]]
+*[[Elpeus]]
+*[[Erasinos]] (emptied into the modern [[Petalies Gulf]])
+*[[Erechios]]  (stream; emptied into the [[Strymonian Gulf|Strymonic Gulf]])
+*[[Olynthiakos]] (stream; emptied into Lake Bolbe)
+*[[Rhoedias]] (emptied into the Thermaic Gulf)
+
+{{List of rivers of Europe}}
+
+[[Category:Rivers of Greece|*]]
+[[Category:Lists of rivers by country|Greece]]
+[[Category:Lists of landforms of Greece|Rivers]]
+[[Category:Greek toponyms| Rivers]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

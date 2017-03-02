@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Value date"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Value date" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+&amp;apos;&amp;apos;&amp;apos;Value date&amp;apos;&amp;apos;&amp;apos; in [[finance]] is the date when the [[List of finance topics#Valuation|value of an asset]] that fluctuates in price is determined. The value date is used when there is a possibility for discrepancies due to differences in the timing of asset valuation. It usually applies to [[Forward contract|forward currency contracts]], [[option (finance)|option]]s and other [[derivative (finance)|derivatives]], [[interest rate|interest]] payable or receivable.
+
+In [[accounting]], &amp;apos;&amp;apos;&amp;apos;value date&amp;apos;&amp;apos;&amp;apos; is the date when the entry to an account is considered effective.
+
+In [[banking]], &amp;apos;&amp;apos;&amp;apos;value date&amp;apos;&amp;apos;&amp;apos; is the delivery date of funds traded. For [[spot contract|spot]] transactions it is the future date on which the trade is [[Settlement (finance)|settled]]. In the case of a [[Foreign exchange spot|spot foreign exchange trade]] it is normally two days after a transaction is agreed upon.
+
+==See also==
+*[[Settlement date]]
+*[[Spot date]]
+*[[Trade date]]
+*[[Spot contract]]
+
+{{DEFAULTSORT:Value Date}}
+[[Category:Valuation (finance)]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

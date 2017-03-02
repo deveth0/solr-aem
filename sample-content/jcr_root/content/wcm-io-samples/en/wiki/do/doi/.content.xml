@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="DOI"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="DOI" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|DOI|doi}}
+{{wiktionary|dõi|đói|đợi}}
+&amp;lt;!----------------------------------------------------------------------&amp;gt;
+&amp;lt;!--   From MoS:DAB: use ONE LINK per entry and SHORT descriptions.   --&amp;gt;
+&amp;lt;!--  AVOID piping, external links, red-links with little potential.  --&amp;gt;
+&amp;lt;!----------------------------------------------------------------------&amp;gt;
+&amp;apos;&amp;apos;&amp;apos;DOI&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;Doi&amp;apos;&amp;apos;&amp;apos; may refer to:
+* [[Digital object identifier]], an international standard for document identification
+* [[Doi (surname)]], a Japanese surname
+* [[Doi (retailer)]], or Camera no Doi, a Japanese company
+* [[New York City Department of Investigation]]
+* [[United States Department of the Interior]]
+* [[2,5-Dimethoxy-4-iodoamphetamine]], a hallucinogenic drug
+* [[Distinctness of image]]
+* Division of Investigation, a precursor to the U.S. [[Federal Bureau of Investigation]]
+* [[Dogri language]]&amp;apos;s ISO 639 code
+* [[Yogurt]] or {{lang|bn|&amp;apos;&amp;apos;doi&amp;apos;&amp;apos;}}
+* &amp;apos;&amp;apos;Doi&amp;apos;&amp;apos; ({{lang-th|ยอด}}), the term for [[mountain]] in Northern Thailand
+*&amp;apos;&amp;apos;[[Dancing on Ice]]&amp;apos;&amp;apos; British game show
+
+==See also==
+* {{look from|Doi}}
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

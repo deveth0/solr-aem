@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Quissac, Lot"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Quissac, Lot" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox French commune
+|name                   = Quissac
+|region                 = [[Midi-Pyrénées]]
+|department             = [[Lot (département)|Lot]]
+|arrondissement         = [[Arrondissement of Figeac]]
+|canton                 = [[Canton of Livernon]]
+|INSEE                  = 46233
+|postal code            = 46320
+|mayor                  = &amp;apos;&amp;apos;&amp;apos;Alain Fogarizzu&amp;apos;&amp;apos;&amp;apos;
+|term                   = 2001&amp;amp;ndash;2008
+|intercommunality       = [[Communauté de communes de la Vallée et du Causse]]
+|longitude              = 1.7311
+|latitude               = 44.6458
+|elevation m            = 117
+|elevation min m        = 269
+|elevation max m        = 455
+|area km2               = 25.17
+|population             = 106
+|population date        = 1 999
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Quissac&amp;apos;&amp;apos;&amp;apos; is a [[Communes of France|commune]] in the [[Lot (department)|Lot]] [[Departments of France|department]] in south-western France.
+
+==See also==
+*[[Communes of the Lot department]]
+
+{{Lot communes}}
+
+[[Category:Communes of Lot (department)]]
+
+{{Lot-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

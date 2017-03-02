@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Herbert Brown"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Herbert Brown" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Herbert Brown&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* [[Herbert C. Brown]] (1912–2004), chemist and Nobel Prize laureate
+* [[Herbert R. Brown]] (born 1931), lawyer and author from the U.S. state of Ohio
+*Herbert Brown, character in &amp;apos;&amp;apos;[[Buck Privates Come Home]]&amp;apos;&amp;apos;
+*[[Herb Brown]], basketball coach
+
+==See also==
+*[[Bert Brown (disambiguation)]]
+*[[Herbert Browne (disambiguation)]]
+{{hndis|Brown, Herbert}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="List of military corps by name"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="List of military corps by name" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;This is a &amp;apos;&amp;apos;&amp;apos;list of military [[corps]]&amp;apos;&amp;apos;&amp;apos; arranged by name.
+
+* [[Afrika Korps]]
+* [[Australian Corps]]
+* [[Australian and New Zealand Army Corps]]
+* [[British Cavalry Corps]]
+* [[Canadian Corps]]
+* [[Cavalry Corps Schmettow (German Empire)]], a unit of the Imperial German Army during [[World War I]]
+* [[Desert Mounted Corps]] (formerly &amp;apos;&amp;apos;Desert Column&amp;apos;&amp;apos;)
+* [[Ersatz Corps]], a unit of the Imperial German Army during World War I
+* [[Gebirgskorps Norwegen]]
+* [[Guards Corps (German Empire)]], a unit of the Imperial German Army prior to and during World War I
+* [[Guards Reserve Corps]], a unit of the Imperial German Army during World War I
+* [[Headquarters Allied Rapid Reaction Corps]]
+* [[Landwehr Corps]], a unit of the Imperial German Army during World War I
+* [[2nd Division (New Zealand)|New Zealand Corps]]
+
+{{seealso|List of military corps by number}}
+
+[[Category:Lists of military units and formations|Military corps by name]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

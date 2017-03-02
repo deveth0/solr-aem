@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Voting paradox"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Voting paradox" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Otheruses4|the arguably irrational results that can arise in a collective choice among three or more alternatives|the contention that an individual&amp;apos;s vote will probably not affect the outcome|Paradox of voting}}
+{{unref|date=July 2012}}
+The &amp;apos;&amp;apos;&amp;apos;voting paradox&amp;apos;&amp;apos;&amp;apos; (also known as &amp;apos;&amp;apos;&amp;apos;Condorcet&amp;apos;s paradox&amp;apos;&amp;apos;&amp;apos; or the &amp;apos;&amp;apos;&amp;apos;paradox of voting&amp;apos;&amp;apos;&amp;apos;) is a situation noted by the [[Marquis de Condorcet]] in the late 18th century, in which collective preferences can be cyclic (i.e. not [[transitive relation|transitive]]), even if the preferences of individual voters are not. This is [[paradox]]ical, because it means that majority wishes can be in conflict with each other. When this occurs, it is because the conflicting majorities are each made up of different groups of individuals.
+
+For example, suppose we have three candidates, A, B, and C, and that there are three voters with preferences as follows (candidates being listed in decreasing order of preference):
+
+{| class=&amp;quot;wikitable&amp;quot;
+! Voter !! First preference !! Second preference !! Third preference
+|- align=&amp;quot;center&amp;quot;
+| Voter 1 || A || B || C
+|- align=&amp;quot;center&amp;quot;
+| Voter 2 || B || C || A
+|- align=&amp;quot;center&amp;quot;
+| Voter 3 || C || A || B
+|}
+
+If C is chosen as the winner, it can be argued that B should win instead, since two voters (1 and 2) prefer B to C and only one voter (3) prefers C to B.  However, by the same argument A is preferred to B, and C is preferred to A, by a margin of two to one on each occasion.  The requirement of [[majority rule]] then provides no clear winner.
+
+Also, if an election were held with the above three voters as the only participants, nobody would win under majority rule, as it would result in a three way tie with each candidate getting one vote.  However, Condorcet&amp;apos;s paradox illustrates that the person who can reduce alternatives can essentially guide the election.  For example, if Voter 1 and Voter 2 choose their preferred candidates (A and B respectively), and if Voter 3 was willing to drop his vote for C, then Voter 3 can choose between either A or B - and become the [[Kingmaker scenario|agenda-setter]].
+
+When a [[Condorcet method]] is used to determine an election, a voting paradox among the ballots can mean that the election has no [[Condorcet winner]].  The several variants of the Condorcet method differ on how they [[Condorcet method#Circular ambiguities|resolve such ambiguities]] when they arise to determine a winner. Note that there is no fair and deterministic resolution to this trivial example because each candidate is in an exactly symmetrical situation.
+
+==See also==
+* [[Arrow&amp;apos;s impossibility theorem]]
+* [[Discursive dilemma]]
+* [[Gibbard–Satterthwaite theorem]]
+* [[Independence of irrelevant alternatives]]
+* [[Instant-runoff voting]]
+* [[Kenneth Arrow]], Section 1 with an example of a distributional difficulty of intransitivity + majority rule
+* [[Nakamura number]]
+* [[Smith set]]
+
+&amp;lt;!-- Commented out as long as there are no references
+==References==
+&amp;lt;References/&amp;gt;
+--&amp;gt;
+
+{{DEFAULTSORT:Voting Paradox}}
+[[Category:Paradoxes]]
+[[Category:Voting theory|Paradox]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

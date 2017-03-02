@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Standard Delay Format"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Standard Delay Format" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Standard Delay Format&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;&amp;apos;SDF&amp;apos;&amp;apos;&amp;apos;) is an [[IEEE]] standard for the representation and interpretation of timing data for use at any stage of an electronic design process. It finds wide applicability in design flows, and forms an efficient bridge between [[Dynamic Timing Simulations]] and [[Static timing analysis]]
+
+It was originally developed as an [[Accellera|OVI]] standard, and later modified into the [[IEEE]] format. Technically only the SDF version 4.0 onwards are [[IEEE]] formats.
+
+It is an [[ASCII]] format that is represented in a tool and language independent way and includes path delays, [[timing constraint]] values, [[interconnect delay]]s and high level technology parameters.
+
+It has usually two sections: one for interconnect delays and the other for cell delays.
+
+SDF format can be used for back-annotation as well as forward-annotation.
+
+See also: [[VITAL]], [[EDIF]]
+
+==References==
+*{{cite doi|10.1109/IEEESTD.2001.93359}}
+**IEC 61523-3:2004 {{cite doi|10.1109/IEEESTD.2004.95750}}
+
+==External links==
+*http://www.eda.org/sdf/
+*[http://www.eda.org/sdf/sdf_3.0.pdf Standard Delay Format Specification in PDF format, version 3.0 (1995)]
+
+{{IEEE standards}}
+
+[[Category:EDA file formats]]
+[[Category:IEEE DASC standards]]
+[[Category:IEC standards|#61523-3]]
+
+{{standard-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

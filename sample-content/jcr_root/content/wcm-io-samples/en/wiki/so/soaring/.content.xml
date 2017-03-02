@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Soaring"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Soaring" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionarypar|soar|soaring}}
+&amp;apos;&amp;apos;&amp;apos;Soaring&amp;apos;&amp;apos;&amp;apos; may refer to:
+* [[Gliding]], in which pilots fly unpowered aircraft known as gliders or sailplanes
+* [[Lift (soaring)]], a meteorological phenomenon used as an energy source by some aircraft and birds
+* An increased speed of growth in a mountains height
+* [[Soaring (magazine)|&amp;apos;&amp;apos;Soaring&amp;apos;&amp;apos; (magazine)]], a magazine produced by the Soaring Society of America
+* &amp;apos;&amp;apos;[[SOARING]]&amp;apos;&amp;apos;, a public artwork at [[Alverno College]]
+* [[List of soaring birds]]
+* [[Soarin&amp;apos; Over California]], a ride at [[Disney California Adventure Park]] in Anaheim, California
+* [[Soarin&amp;apos;]], a ride in Walt Disney World&amp;apos;s [[Epcot]] which is the same as Soarin&amp;apos; Over California
+
+==See also==
+*[[Bird flight]]
+*[[Flying and gliding animals]]
+*[[Dynamic soaring]]
+*[[Ridge soaring]]
+* [[Controllable slope soaring]]
+* [[Orographic lift]]
+* [[Thermal]]s
+* [[Lee waves]]
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

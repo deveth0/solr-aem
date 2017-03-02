@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Randomization"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Randomization" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Randomization&amp;apos;&amp;apos;&amp;apos; is the process of making something [[random]]; this means:
+* Generating a [[random permutation]] of a sequence (such as when [[shuffle|shuffling cards]]).
+* Selecting a [[random sample]] of a population (important in [[sampling (statistics)|statistical sampling]]).
+* Allocating experimental units via [[random assignment]] to a treatment or control condition.
+* Generating [[random number]]s: see [[Random number generation]].
+* Transforming a [[data stream]] (such as when using a [[scrambler (randomizer)|scrambler]] in [[telecommunications]]).
+
+Randomization is &amp;apos;&amp;apos;not&amp;apos;&amp;apos; haphazard. Instead, a [[stochastic process|random process]] is a sequence of random variables describing a process whose outcomes do not follow a deterministic pattern, but follow an evolution described by probability distributions. For example, a random sample of individuals from a population refers to a sample where every individual has a known probability of being sampled. This would be contrasted with [[nonprobability sampling]] where [[Arbitrariness|arbitrary]] individuals are selected.
+
+==Applications==
+
+Randomization is used in statistics and in gambling.
+
+===Statistics===
+Randomization is a core principle in [[statistical theory]], whose importance was emphasized by [[Charles Sanders Peirce|Charles S. Peirce]] in &amp;quot;[[Charles Sanders Peirce bibliography#illus|Illustrations of the Logic of Science]]&amp;quot; (1877–1878) and &amp;quot;[[Charles Sanders Peirce bibliography#SIL|A Theory of Probable Inference]]&amp;quot; (1883). Randomization-based inference is especially important in [[experimental design]] and in [[survey sampling]]. The first use of &amp;quot;randomization&amp;quot; listed in the &amp;apos;&amp;apos;[[Oxford English Dictionary]]&amp;apos;&amp;apos; is its use by [[Ronald Fisher]] in 1926.&amp;lt;ref&amp;gt;Fisher RA. [http://digital.library.adelaide.edu.au/dspace/handle/2440/15191 The arrangement of field experiments]. J Min Agri GB 1926; 33: 700-725.&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;[[Oxford English Dictionary]] &amp;quot;randomization&amp;quot;&amp;lt;/ref&amp;gt;
+
+====Randomized experiments====
+{{Main|Randomized experiment}}
+{{Main|Randomized controlled trial}}
+In the statistical theory of [[design of experiments]], randomization involves [[random assignment|randomly allocating]] the experimental units across the [[treatment groups]]. For example, if an experiment compares a new drug against a standard drug, then the patients should be allocated to either the new drug or to the standard drug control using randomization. Randomization reduces confounding by equalising so-called factors ([[dependent and independent variables| independent variables]]) that have not been accounted for in the experimental design.
+
+====Survey sampling====
+[[Survey sampling]] uses randomization, following the criticisms of previous &amp;quot;representative methods&amp;quot; by [[Jerzy Neyman]] in his 1922 report to the [[International Statistical Institute]].
+
+====Resampling====
+{{Main|Resampling (statistics)}}
+Some important methods of statistical inference use [[Resampling (statistics)|resampling]] from the observed data. Multiple alternative versions of the data-set that &amp;quot;might have been observed&amp;quot; are created by randomization of the original data-set, the only one observed. The variation of statistics calculated for these alternative data-sets is a guide to the uncertainty of statistics estimated from the original data.
+
+===Gambling===
+Randomization is used extensively in the field of [[gambling]] (or generally being random{{Clarify|date=March 2010}}). Because poor randomization may allow a skilled gambler to take advantage, much research has been devoted to effective randomization. A classic example of randomizing is [[shuffle|shuffling playing cards]].
+
+:&amp;apos;&amp;apos;See also: [[Applications of randomness]]&amp;apos;&amp;apos;
+
+==Techniques==
+Although historically &amp;quot;manual&amp;quot; randomization techniques (such as shuffling cards, drawing pieces of paper from a bag, spinning a [[roulette]] wheel) were common, nowadays automated techniques are mostly used. As both selecting [[random sample]]s and [[random permutation]]s can be reduced to simply selecting random numbers, [[random number generation]] methods are now most commonly used, both [[hardware random number generator]]s and [[pseudo-random number generator]]s.
+
+Non-algorithmic randomization methods include:
+* Casting [[yarrow]] stalks (for the [[I Ching]])
+* Throwing [[dice]]
+* Drawing straws
+* [[shuffle|Shuffling cards]]
+* [[Roulette]] wheels
+* Drawing pieces of paper or balls from a bag
+* &amp;quot;[[Lottery]] machines&amp;quot;
+* Observing [[atomic decay]] using a radiation counter
+
+==See also==
+* [[Randomized algorithm]]
+
+==References==
+&amp;lt;references/&amp;gt;
+
+==External links==
+*[http://jan.seifseit.de/programme/qube/qube.php RQube] - Generate quasi-random stimulus sequences for experimental designs
+*[http://www.randomisation.eu RandList] - Randomization List Generator
+
+{{Experimental design}}
+{{Statistics|collection|state=collapsed}}
+
+[[Category:Randomness]]
+[[Category:Design of experiments]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

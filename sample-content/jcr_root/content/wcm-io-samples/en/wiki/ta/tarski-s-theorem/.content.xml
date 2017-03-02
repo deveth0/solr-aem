@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Tarski&#x27;s theorem"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Tarski&#x27;s theorem" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[mathematics]], the &amp;apos;&amp;apos;&amp;apos;Tarski&amp;apos;s theorem&amp;apos;&amp;apos;&amp;apos;, proved by [[Alfred Tarski]], states that in [[Zermelo–Fraenkel set theory|ZF]] the theorem &amp;quot;For every infinite set &amp;lt;math&amp;gt;A&amp;lt;/math&amp;gt;, there is a [[bijective map]] between the sets  &amp;lt;math&amp;gt;A&amp;lt;/math&amp;gt; and &amp;lt;math&amp;gt;A\times A&amp;lt;/math&amp;gt;&amp;quot; implies the [[axiom of choice]]. The opposite direction was already known, thus the theorem and axiom of choice are equivalent.
+
+When Tarski tried to publish the theorem in Comptes Rendus Acad. Sci. Paris, [[Maurice René Fréchet|Fréchet]] and [[Henri Lebesgue|Lebesgue]] refused to present it. Fréchet wrote that an implication between two well known propositions is not a new result. Lebesgue wrote that an implication between two false propositions is of no interest.
+&amp;lt;ref&amp;gt;{{cite journal|title=A System of Axioms of Set Theory for the Rationalists|journal=Notices of the American Mathematical Society|volume=53|issue=2|pages=209|year=2006|author=Jan Mycielski|url=http://www.ams.org/notices/200602/fea-mycielski.pdf}}&amp;lt;/ref&amp;gt;
+== Proof ==
+Our goal is to prove that the axiom of choice is implied by the statement &amp;quot;For every infinite set &amp;lt;math&amp;gt;A&amp;lt;/math&amp;gt;: &amp;lt;math&amp;gt;|A|=|A\times A|&amp;lt;/math&amp;gt;&amp;quot;.
+It is known that the [[well-ordering theorem]] is equivalent to the axiom of choice, thus it is enough to show that the statement implies that for every set &amp;lt;math&amp;gt;B&amp;lt;/math&amp;gt; there exist a [[well-order]].
+
+For finite sets it is trivial, thus we will assume that &amp;lt;math&amp;gt;B&amp;lt;/math&amp;gt; is infinite.
+
+Since the collection of all [[Ordinal number|ordinals]] such that there exist a [[surjective function]] from &amp;lt;math&amp;gt;B&amp;lt;/math&amp;gt; to the ordinal is a set, there exist a minimal ordinal, &amp;lt;math&amp;gt;\beta&amp;lt;/math&amp;gt;, such that there is no [[surjective function]] from &amp;lt;math&amp;gt;B&amp;lt;/math&amp;gt; to &amp;lt;math&amp;gt;\beta&amp;lt;/math&amp;gt;.
+We assume [[without loss of generality]] that the sets &amp;lt;math&amp;gt;B&amp;lt;/math&amp;gt; and &amp;lt;math&amp;gt;\beta&amp;lt;/math&amp;gt; are [[Disjoint sets|disjoint]].
+By our initial assumption, &amp;lt;math&amp;gt;|B \cup \beta|=|(B \cup \beta) \times (B \cup \beta)|&amp;lt;/math&amp;gt;, thus there exists a [[bijection]] &amp;lt;math&amp;gt;f: B \cup \beta \to (B \cup \beta) \times (B \cup \beta)&amp;lt;/math&amp;gt;.
+
+For every &amp;lt;math&amp;gt; x \in B&amp;lt;/math&amp;gt;, it is impossible that &amp;lt;math&amp;gt; \beta \times \{x\} \subseteq f[B]&amp;lt;/math&amp;gt;, because otherwise we could define a surjective function from &amp;lt;math&amp;gt;B&amp;lt;/math&amp;gt; to &amp;lt;math&amp;gt;\beta&amp;lt;/math&amp;gt;.
+Therefore, there exists at least one ordinal &amp;lt;math&amp;gt;\gamma \in \beta&amp;lt;/math&amp;gt;, such that &amp;lt;math&amp;gt; f(\gamma) \in \beta \times \{x\}&amp;lt;/math&amp;gt;, thus the set &amp;lt;math&amp;gt; S_x=\{\gamma | f(\gamma) \in \beta \times \{x\}\}&amp;lt;/math&amp;gt; is not empty.
+
+With this fact in our mind we can define a new function: &amp;lt;math&amp;gt; g(x)=\min S_x&amp;lt;/math&amp;gt;.
+This function is well defined since &amp;lt;math&amp;gt;S_x&amp;lt;/math&amp;gt; is a non-empty set of ordinals, hence it has a minimum.
+Recall that for every &amp;lt;math&amp;gt;x,y \in B, x \neq y&amp;lt;/math&amp;gt; the sets &amp;lt;math&amp;gt;S_x&amp;lt;/math&amp;gt; and &amp;lt;math&amp;gt; S_y&amp;lt;/math&amp;gt; are disjoint.
+Therefore, we can define a well order on &amp;lt;math&amp;gt;B&amp;lt;/math&amp;gt;, for every &amp;lt;math&amp;gt;x, y \in B&amp;lt;/math&amp;gt; we shall define &amp;lt;math&amp;gt;x \leq y \iff g(x) \leq g(y)&amp;lt;/math&amp;gt;, since the image of &amp;lt;math&amp;gt;g&amp;lt;/math&amp;gt;, i.e. &amp;lt;math&amp;gt;g[B]&amp;lt;/math&amp;gt;, is a set of ordinals and therefore well ordered.
+
+==References==
+{{Reflist}}
+
+[[Category:Set theory]]
+[[Category:Theorems in the foundations of mathematics]]
+[[Category:Cardinal numbers]]
+
+[[fr:Ordinal de Hartogs#Produit cardinal]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

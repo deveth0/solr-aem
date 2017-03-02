@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Quincy-sous-Sénart"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Quincy-sous-Sénart" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox French commune
+|name                   = Quincy-sous-Sénart
+|image                  =
+|latitude               = 48.6714
+|longitude              = 2.5407
+|INSEE                  = 91514
+|postal code            = 91480
+|region                 = Île-de-France
+|department             = Essonne
+|arrondissement         = Évry
+|canton                 = Épinay-sous-Sénart
+|intercommunality       = Val d&amp;apos;Yerres
+|mayor                  = Daniel Besse
+|term                   = 2008&amp;amp;ndash;2014
+|elevation min m        = 42
+|elevation max m        = 89
+|area km2               = 5.20
+|population             = 7888
+|population date        = 2009
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Quincy-sous-Sénart&amp;apos;&amp;apos;&amp;apos; is a [[Communes of France|commune]] in the [[Essonne]] [[Departments of France|department]] in [[Île-de-France (region)|Île-de-France]] in northern [[France]].
+
+Inhabitants of Quincy-sous-Sénart are known as &amp;apos;&amp;apos;Quincéens&amp;apos;&amp;apos;.
+
+==See also==
+*[[Communes of the Essonne department]]
+
+==References==
+*[http://www.insee.fr/en/home/home_page.asp INSEE]
+*[http://www.ume.asso.fr Mayors of Essonne Association] {{Fr icon}}
+{{reflist}}
+
+==External links==
+*[http://www.mairie-quincy-sous-senart.fr Official website] {{Fr icon}}
+*[http://www.iaurif.org/en/gis/fichescom/mos99/ficmos/mos91514.html Land use (IAURIF)] {{en icon}}
+
+{{Essonne communes}}
+
+{{DEFAULTSORT:Quincysoussenart}}
+[[Category:Communes of Essonne]]
+
+
+{{Essonne-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

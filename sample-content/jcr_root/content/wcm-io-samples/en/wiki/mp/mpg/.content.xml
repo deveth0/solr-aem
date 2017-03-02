@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="MPG"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="MPG" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;MPG&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;mpg&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+*[[.mpg]], one of a number of file extensions for MPEG-1 or MPEG-2 audio and video compression
+*[[General Motors]] Milford Proving Ground
+*[[Havas Media]], formerly known as Media Planning Group, a media division of Havas
+*[[MPG (gene)|MPG]], a gene
+*&amp;apos;&amp;apos;[[M.P.G.]]&amp;apos;&amp;apos;, an album by Marvin Gaye
+*[[Manual pulse generator]], a device normally associated with numerically controlled machinery
+*[[Mark-Paul Gosselaar]] (born 1974), an American actor
+*[[Max Planck Society]] (Max-Planck-Gesellschaft), a German non-profit research organization
+*Miles per gallon, a measurement of [[fuel economy in automobiles]]
+*Minutes Per Game in [[basketball]]
+*[[Motor Press Guild]], a non-profit association for professionals within the motoring press
+*[[Multiplayer game]]
+*[[Multi-touch, physics and gestures]], a type of computer touch screen
+*[[The Music Producers Guild]] (UK)
+
+{{Disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

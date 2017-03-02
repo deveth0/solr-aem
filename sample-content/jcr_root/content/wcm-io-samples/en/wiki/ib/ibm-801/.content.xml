@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="IBM 801"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="IBM 801" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;801&amp;apos;&amp;apos;&amp;apos; was an experimental minicomputer designed by [[International Business Machines|IBM]]. The resulting architecture was used in various roles in IBM until the 1980s. The 801 was started as a pure research project led by [[John Cocke]] in October 1975 at the [[Thomas J. Watson Research Center]]. The name 801 comes from the building the project was housed in, number 801. IBM was looking for ways to improve performance of its existing machines, with project team members studying traces of programs running on [[System/370]] mainframes and looking at the compiler code. From this project came the idea that it was possible to make a very small and very fast core, which could then be used to implement the [[microcode]] for any machine.
+
+The project subsequently developed the &amp;apos;fast core&amp;apos; design as a CPU, also called the 801. The resulting CPU was operational by the summer of 1980 and was implemented using Motorola MECL-10K technology on large wire wrapped custom boards. The CPU was clocked at 66&amp;amp;nbsp;ns cycles (approximately 15.15 MHz) and could compute at the then-fast speed of approximately 15 [[million instructions per second|MIPS]]. This prototype design was a 24-bit implementation without [[virtual memory]]. The 801 architecture was used in a variety of IBM devices including [[channel controller]]s for their S/370 mainframes, various networking devices, and eventually the [[IBM 9370]] mainframe core itself.
+
+In the early 1980s the lessons learned on the 801 were put back into the new &amp;apos;&amp;apos;America Project&amp;apos;&amp;apos;, which led to the [[IBM POWER Instruction Set Architecture|IBM POWER architecture]] and the [[RS/6000]] deskside scientific microcomputer.
+
+[[John Cocke]] later won both the [[Turing award]] and the [[Presidential Medal of Science]] for his work on the 801.
+
+==References==
+* Radin, George (March 1982). &amp;quot;The 801 minicomputer&amp;quot;. &amp;apos;&amp;apos;ACM SIGARCH Computer Architecture News&amp;apos;&amp;apos;, vol. 10, no. 2. pp. 39&amp;amp;ndash;47.
+
+==External links==
+*[http://domino.watson.ibm.com/tchjr/journalindex.nsf/0/22d06c5aa961e78085256bfa0067fa93?OpenDocument The evolution of RISC technology at IBM by John Cocke] &amp;amp;ndash; IBM Journal of R&amp;amp;D, Volume 44, Numbers 1/2, p.48 (2000)
+*[http://bitsavers.org/pdf/ibm/system801/The_801_Minicomputer_an_Overview_Sep76.pdf The 801 Minicomputer - An Overview]
+*[http://bitsavers.org/pdf/ibm/system801/System_801_Principles_of_Operation_Jan76.pdf IBM System 801 Principles of Operation, Version 2]
+*[http://bitsavers.org/pdf/ibm/system801/801_IO_Subsystem_Definition_Jan76.pdf 801 I/O Subsystem Definition]
+*IBM Archives: [http://www-03.ibm.com/ibm/history/documents/pdf/rs6000.pdf A Brief History of RISC, the IBM RS/6000 and the IBM eServer pSeries]
+
+[[Category:IBM computers|801]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

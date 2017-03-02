@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Removable singularity"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Removable singularity" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[File:Graph x squared undefined at x equals two.png|thumb|right|200px|A graph of a [[parabola]] with a &amp;apos;&amp;apos;&amp;apos;removable singularity&amp;apos;&amp;apos;&amp;apos; at&amp;amp;nbsp;&amp;apos;&amp;apos;x&amp;apos;&amp;apos;&amp;amp;nbsp;=&amp;amp;nbsp;2]]
+In [[complex analysis]], a &amp;apos;&amp;apos;&amp;apos;removable singularity&amp;apos;&amp;apos;&amp;apos; (sometimes called a &amp;apos;&amp;apos;&amp;apos;cosmetic singularity&amp;apos;&amp;apos;&amp;apos;) of a [[holomorphic function]] is a point at which the function is undefined, but it is possible to define the function at that point in such a way that the function is regular in a neighbourhood of that point.
+
+For instance, the function
+
+:&amp;lt;math&amp;gt; f(z) = \frac{\sin z}{z} &amp;lt;/math&amp;gt;
+
+has a singularity at &amp;apos;&amp;apos;z&amp;apos;&amp;apos; = 0. This singularity can be removed by defining &amp;apos;&amp;apos;f&amp;apos;&amp;apos;(0) := 1, which is the [[Limit of a function|limit]] of &amp;apos;&amp;apos;f&amp;apos;&amp;apos; as &amp;apos;&amp;apos;z&amp;apos;&amp;apos; tends to 0. The resulting function is holomorphic. In this case the problem was caused by &amp;apos;&amp;apos;f&amp;apos;&amp;apos; being given an [[indeterminate form]]. Taking a power series expansion for &amp;lt;math&amp;gt;\frac{\sin(z)}{z}&amp;lt;/math&amp;gt; shows that
+:&amp;lt;math&amp;gt; f(z) = \frac{1}{z}\left(\sum_{k=0}^{\infty} \frac{(-1)^kz^{2k+1}}{(2k+1)!} \right) = \sum_{k=0}^{\infty} \frac{(-1)^kz^{2k}}{(2k+1)!} = 1 - \frac{z^2}{3!} + \frac{z^4}{5!} - \frac{z^6}{7!} + \cdots. &amp;lt;/math&amp;gt;
+
+Formally, if &amp;lt;math&amp;gt;U \subset \mathbb C&amp;lt;/math&amp;gt; is an [[open subset]] of the [[complex plane]] &amp;lt;math&amp;gt;\mathbb C&amp;lt;/math&amp;gt;, &amp;lt;math&amp;gt;a \in U&amp;lt;/math&amp;gt; a point of &amp;lt;math&amp;gt;U&amp;lt;/math&amp;gt;, and &amp;lt;math&amp;gt;f: U\setminus \{a\} \rightarrow \mathbb C&amp;lt;/math&amp;gt; is a [[holomorphic function]], then &amp;lt;math&amp;gt;a&amp;lt;/math&amp;gt; is called a &amp;apos;&amp;apos;&amp;apos;removable singularity&amp;apos;&amp;apos;&amp;apos; for &amp;lt;math&amp;gt;f&amp;lt;/math&amp;gt; if there exists a holomorphic function &amp;lt;math&amp;gt;g: U \rightarrow \mathbb C&amp;lt;/math&amp;gt; which coincides with &amp;lt;math&amp;gt;f&amp;lt;/math&amp;gt; on &amp;lt;math&amp;gt;U\setminus \{a\}&amp;lt;/math&amp;gt;. We say &amp;lt;math&amp;gt;f&amp;lt;/math&amp;gt; is holomorphically extendable over &amp;lt;math&amp;gt;U&amp;lt;/math&amp;gt; if such a &amp;lt;math&amp;gt;g&amp;lt;/math&amp;gt; exists.
+
+== Riemann&amp;apos;s theorem ==
+
+[[Bernhard Riemann|Riemann&amp;apos;s]] theorem on removable singularities states when a singularity is removable:
+
+&amp;apos;&amp;apos;&amp;apos; Theorem.&amp;apos;&amp;apos;&amp;apos; Let &amp;lt;math&amp;gt;D \subset C&amp;lt;/math&amp;gt; be an open subset of the complex plane, &amp;lt;math&amp;gt;a \in D&amp;lt;/math&amp;gt; a point of &amp;lt;math&amp;gt;D&amp;lt;/math&amp;gt; and &amp;lt;math&amp;gt;f&amp;lt;/math&amp;gt; a holomorphic function defined on the set &amp;lt;math&amp;gt;D \setminus \{a\}&amp;lt;/math&amp;gt;.  The following are equivalent:
+
+# &amp;lt;math&amp;gt;f&amp;lt;/math&amp;gt; is holomorphically extendable over &amp;lt;math&amp;gt;a&amp;lt;/math&amp;gt;.
+# &amp;lt;math&amp;gt;f&amp;lt;/math&amp;gt; is continuously extendable over &amp;lt;math&amp;gt;a&amp;lt;/math&amp;gt;.
+# There exists a [[neighborhood (topology)|neighborhood]] of &amp;lt;math&amp;gt;a&amp;lt;/math&amp;gt; on which &amp;lt;math&amp;gt;f&amp;lt;/math&amp;gt; is [[bounded function|bounded]].
+# &amp;lt;math&amp;gt;\lim_{z\to a}(z - a) f(z) = 0&amp;lt;/math&amp;gt;.
+
+The implications 1 ⇒ 2  ⇒ 3  ⇒ 4 are trivial. To prove 4 ⇒ 1, we first recall that the holomorphy of a function at &amp;lt;math&amp;gt;a&amp;lt;/math&amp;gt; is equivalent to it being analytic at &amp;lt;math&amp;gt;a&amp;lt;/math&amp;gt; ([[Proof that holomorphic functions are analytic|proof]]), i.e. having a power series representation. Define
+
+:&amp;lt;math&amp;gt;
+h(z) =
+\begin{cases}
+(z - a)^2 f(z) &amp;amp;  z \ne a ,\\
+0              &amp;amp;  z = a .
+\end{cases}
+&amp;lt;/math&amp;gt;
+
+Clearly, &amp;apos;&amp;apos;h&amp;apos;&amp;apos; is holomorphic on &amp;apos;&amp;apos;D&amp;apos;&amp;apos;&amp;amp;nbsp;\&amp;amp;nbsp;{&amp;apos;&amp;apos;a&amp;apos;&amp;apos;}, and there exists
+:&amp;lt;math&amp;gt;h&amp;apos;(a)=\lim_{z\to a}\frac{(z - a)^2f(z)-0}{z-a}=\lim_{z\to a}(z - a) f(z)=0&amp;lt;/math&amp;gt;
+by 4, hence &amp;apos;&amp;apos;h&amp;apos;&amp;apos; is holomorphic on &amp;apos;&amp;apos;D&amp;apos;&amp;apos; and has a Taylor series about &amp;apos;&amp;apos;a&amp;apos;&amp;apos;:
+
+:&amp;lt;math&amp;gt;h(z) = c_0 + c_1(z-a) + c_2 (z - a)^2 + c_3 (z - a)^3 + \cdots \, .&amp;lt;/math&amp;gt;
+
+We have &amp;apos;&amp;apos;c&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;0&amp;lt;/sub&amp;gt; = &amp;apos;&amp;apos;h&amp;apos;&amp;apos;(&amp;apos;&amp;apos;a&amp;apos;&amp;apos;) = 0 and &amp;apos;&amp;apos;c&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt; = &amp;apos;&amp;apos;h{{&amp;apos;}}&amp;apos;&amp;apos;(&amp;apos;&amp;apos;a&amp;apos;&amp;apos;) = 0; therefore
+
+:&amp;lt;math&amp;gt;g(z) = c_2 + c_3 (z - a) + c_4 (z - a)^2 + \cdots &amp;lt;/math&amp;gt;
+
+is a holomorphic extension of &amp;apos;&amp;apos;f&amp;apos;&amp;apos; over &amp;apos;&amp;apos;a&amp;apos;&amp;apos;, which proves the claim.
+
+== Other kinds of singularities ==
+
+Unlike functions of a real variable, holomorphic functions are sufficiently rigid that their isolated singularities can be completely classified. A holomorphic function&amp;apos;s singularity is either not really a singularity at all, i.e. a removable singularity, or one of the following two types:
+
+#In light of Riemann&amp;apos;s theorem, given a non-removable singularity, one might ask whether there exists a natural number &amp;lt;math&amp;gt;m&amp;lt;/math&amp;gt; such that &amp;lt;math&amp;gt;\lim_{z \rightarrow a}(z-a)^{m+1}f(z)=0&amp;lt;/math&amp;gt;. If so, &amp;lt;math&amp;gt;a&amp;lt;/math&amp;gt; is called a &amp;apos;&amp;apos;&amp;apos;[[pole (complex analysis)|pole]]&amp;apos;&amp;apos;&amp;apos; of &amp;lt;math&amp;gt;f&amp;lt;/math&amp;gt; and the smallest such &amp;lt;math&amp;gt;m&amp;lt;/math&amp;gt; is the &amp;apos;&amp;apos;&amp;apos;order&amp;apos;&amp;apos;&amp;apos; of &amp;lt;math&amp;gt;a&amp;lt;/math&amp;gt;. So removable singularities are precisely the [[pole (complex analysis)|pole]]s of order 0. A holomorphic function blows up uniformly near its poles.
+#If an isolated singularity &amp;lt;math&amp;gt;a&amp;lt;/math&amp;gt; of &amp;lt;math&amp;gt;f&amp;lt;/math&amp;gt; is neither removable nor a pole, it is called an &amp;apos;&amp;apos;&amp;apos;[[essential singularity]]&amp;apos;&amp;apos;&amp;apos;. It can be shown that such an &amp;lt;math&amp;gt;f&amp;lt;/math&amp;gt; maps every punctured open neighborhood &amp;lt;math&amp;gt;U \setminus \{a\}&amp;lt;/math&amp;gt; to the entire complex plane, with the possible exception of at most one point.
+
+==See also==
+* [[Analytic capacity]]
+* [[Removable discontinuity]]
+
+== External links ==
+{{Expand section|date=December 2009}}
+
+[[Category:Analytic functions]]
+[[Category:Meromorphic functions]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

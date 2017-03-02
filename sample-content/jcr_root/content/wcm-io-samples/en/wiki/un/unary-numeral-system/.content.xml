@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Unary numeral system"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Unary numeral system" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{refimprove|date=January 2013}}
+{{Numeral systems}}
+
+The &amp;apos;&amp;apos;&amp;apos;unary numeral system&amp;apos;&amp;apos;&amp;apos; is the [[Bijective numeration|bijective]] [[base (exponentiation)|base]]-[[1 (number)|1]] [[numeral system]].  It is the simplest [[numeral system]] to represent [[natural number]]s: in order to represent a number &amp;apos;&amp;apos;N&amp;apos;&amp;apos;, an arbitrarily chosen symbol representing 1 is repeated &amp;apos;&amp;apos;N&amp;apos;&amp;apos; times. This system is used in [[tally mark|tallying]]. For example, using the tally mark &amp;apos;&amp;apos;&amp;apos;&amp;amp;#124;&amp;apos;&amp;apos;&amp;apos;, the number 6 is represented as &amp;apos;&amp;apos;&amp;apos;&amp;amp;#124;&amp;amp;#124;&amp;amp;#124;&amp;amp;#124;&amp;amp;#124;&amp;amp;#124;&amp;apos;&amp;apos;&amp;apos;.
+
+== Operations ==
+
+[[Addition]] and [[subtraction]] are particularly simple in the unary system, as they involve little more than [[string concatenation]]. [[Multiplication]] and [[division (mathematics)|division]] are more cumbersome, however.
+
+== Comparison with other systems ==
+
+There is no explicit symbol representing [[0 (number)|zero]] in unary as there is in other traditional bases, so unary is a [[bijective numeration]] system with a single digit.  If there were a &amp;apos;zero&amp;apos; symbol, unary would effectively be a binary system.  In a true unary system there is no way to explicitly represent none of something, though simply making no marks represents it implicitly.  Even in advanced tallying systems like [[Roman numerals]] there is no zero character; instead the Latin word for &amp;quot;nothing,&amp;quot; &amp;apos;&amp;apos;nullae&amp;apos;&amp;apos;, is used.
+
+== Uses ==
+
+For a real example of the unary system in ancient mathematics, see the [[Moscow Mathematical Papyrus]], dating from circa 1800 BC.
+
+In some cultures it is traditional to decorate a [[birthday cake]] using the unary system with candles to represent age. This exploits the unique property of the system that there is no requirement for any ordering of the symbols (that is, the age can be read from the candles regardless of how they are arranged on the cake).
+
+Unary is used as part of some data compression algorithms such as [[Golomb coding]]. Compared to standard [[Positional notation|positional numeral systems]], the unary system is inconvenient and is not used in practice for large calculations. It occurs in some [[decision problem]] descriptions in [[theory of computation|theoretical computer science]] (e.g. some [[P-complete]] problems), where it is used to &amp;quot;artificially&amp;quot; decrease the run-time or space requirements of a problem. For instance, the problem of [[integer factorization]] is suspected to require more than a polynomial function of the length of the input as run-time if the input is given in [[binary numeral system|binary]], but it only needs linear runtime if the input is presented in unary.  But this is potentially misleading: using a unary input is slower for any given number, not faster; the distinction is that a binary (or larger base) input is proportional to the base 2 (or larger base) logarithm of the number while unary input is proportional to the number itself; so while the run-time and space requirement in unary looks better as function of the input size, it is a worse function of the number that the input represents.
+
+== See also ==
+* [[Tally marks]]
+* [[Church numeral]]
+
+== References ==
+
+{{reflist}}
+
+== External links ==
+{{commons|Unary numeral|Unary numeral system}}
+
+* {{SloanesRef |sequencenumber=A000042|name=Unary representation of natural numbers}}
+
+[[Category:Numeral systems]]
+[[Category:One]]
+[[Category:Elementary mathematics]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

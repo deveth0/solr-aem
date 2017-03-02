@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="KBBL"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="KBBL" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;KBBL&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* [[KBBL (The Simpsons)]], fictional radio and television stations featured in &amp;apos;&amp;apos;The Simpsons&amp;apos;&amp;apos;
+* [[KBBL-LP]], a television station (channel 56) licensed to serve Springfield, Missouri, United States, translator of KWBM
+* [[KXNW]], a television station (channel 34) licensed to serve Eureka Springs, Arkansas, United States, which used the call sign KBBL-TV from July 2006 to September 2006
+* [[KWNL-CD]], a television station (channel 9) licensed to serve Winslow, Arkansas, which used the call sign KBBL-CA from September 2003 to July 2006
+* a former radio station in Little Rock, Arkansas, hometown of [[Equity Broadcasting]]; that station, rather than &amp;apos;&amp;apos;The Simpsons&amp;apos;&amp;apos;, was probably the inspiration for the KBBL-CA call letters{{fact|date=May 2011}}
+
+{{Disambiguation|callsign}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

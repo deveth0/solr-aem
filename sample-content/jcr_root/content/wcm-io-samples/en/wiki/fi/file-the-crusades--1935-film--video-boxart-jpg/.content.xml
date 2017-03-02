@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="File:The Crusades (1935 film) video boxart.jpg"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="File:The Crusades (1935 film) video boxart.jpg" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;== Summary ==
+{{Non-free use rationale video cover|Article=The Crusades (film)|Use=Infobox|Source=Derived from a digital capture (photo/scan) of the Film Poster/ VHS or DVD Cover  (creator of this digital version is irrelevant as the copyright in all equivalent images is still held by the same party). Copyright held by the film company or the artist. Claimed as fair use regardless.}}
+
+==Licensing==
+{{Non-free video cover|image has rationale=yes}}
+{{reviewedfairuse|date=19:16, 10 February 2008 (UTC)|user=[[User:Moe Epsilon|Moe Epsilon]]|pages=The Crusades (film)}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

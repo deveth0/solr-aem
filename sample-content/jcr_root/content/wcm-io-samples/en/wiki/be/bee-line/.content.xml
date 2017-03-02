@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Bee line"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Bee line" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|beeline}}
+A &amp;apos;&amp;apos;&amp;apos;bee line&amp;apos;&amp;apos;&amp;apos; means taking the shortest route or a straight line between two points (&amp;quot;[[As the crow flies]]&amp;quot;):
+
+In transportation:
+
+* [[Bee-Line Bus System]] of Westchester County, New York, United States
+* [[Bee Line Buzz Company]], a former bus operator in Greater Manchester, United Kingdom
+* [[Bee Line Expressway]], an earlier name of Florida State Road 528 east of Orlando in the United States
+* [[Beeline Highway]], Arizona State Route 87 in the United States
+* Beeline, or Okmulgee Beeline, the section of [[U.S. Route 75#Oklahoma 2|U.S. Route 75]] from Tulsa to Okmulgee, Oklahoma, United States
+* [[Bee Line Railroad]], a railway in western Indiana, United States; serving Warren County and Benton County
+* [[Butte Regional Transit]], a public transit system in Butte County, California, United States
+* {{lang|de|&amp;apos;&amp;apos;[[Vogelfluglinie]]&amp;apos;&amp;apos;}}, the road, rail and ferry route between Hamburg (Germany) and Copenhagen (Denmark)
+* BEE-LINE, [[Brussels Airlines]] callsign
+
+and other meanings:
+
+* [[Beeline (beekeeping)]], a method for locating a feral bee hive
+* [[Beeline (telecommunications)]], a Russian telecommunications company
+* [[Vermilion snapper]], a species of fish
+* [[Beeline (album)|&amp;apos;&amp;apos;Beeline&amp;apos;&amp;apos; (album)]], a 2002 album by Peter Case
+
+== See also ==
+* [[B Line (disambiguation)]]
+
+{{disambiguation}}
+
+[[cs:B (linka)]]
+[[nl:Lijn B]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Webb"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Webb" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|Webb}}
+
+&amp;apos;&amp;apos;&amp;apos;Webb&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+==Names==
+*[[Webb (given name)]]
+*[[Webb (surname)]]
+
+==Places==
+;Antarctica
+*[[Webb Neve]], the neve at the head of Seafarer Glacier
+*[[Webb Nunataks]], a group of nunataks in the Neptune Range
+*[[Webb Peak]], a peak at the west end of Crescent Scarp
+
+;Australia
+*[[Mount Webb National Park]], Queensland
+
+;Canada
+*[[Webb, Saskatchewan]]
+*[[Webb No. 138, Saskatchewan]], a rural municipality
+
+;United States
+*[[Webb Air Force Base]] near Big Spring, Texas
+*[[Webb, Alabama]]
+*[[Webb, Iowa]]
+*[[Webb, Mississippi]]
+*[[Webb, New York]]
+*[[Webb, West Virginia]]
+*[[Webb City, Missouri]]
+*[[Webb City, Oklahoma]]
+*[[Webb County, Texas]]
+*[[Webb Lake, Wisconsin]], a town
+*[[Webb Lake (community), Wisconsin]], an unincorporated community
+*[[Webb House (disambiguation)]], in numerous US states
+*[[Webb River]], in Maine
+
+;The Moon
+*[[Webb (crater)]]
+
+==Education==
+*[[Webb Institute]], US college
+*[[Gardner-Webb University]], a private 4 year college located in Boiling Springs, North Carolina
+*[[The Webb School (disambiguation)]]
+
+==Other uses==
+*[[Webb and Knapp]], development company
+* A house of [[Adams&amp;apos; Grammar School]], Newport, Shropshire
+
+==See also==
+*[[web (disambiguation)]]
+*[[Webbe]]
+*[[Weber (disambiguation)]]
+*[[Webber (disambiguation)]]
+
+{{disambiguation|geo}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

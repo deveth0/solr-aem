@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="WD"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="WD" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary}}
+&amp;apos;&amp;apos;&amp;apos;WD&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* the code for [[County Waterford]], Ireland
+* [[DAS Air Cargo]] (IATA code)
+* [[Wardair]] (defunct IATA code)
+* [[WD postcode area]], England
+* [[Band 3]], a protein
+* [[Royal Canadian Air Force Women&amp;apos;s Division]]
+* [[Walt Disney]]
+* [[War Department (United Kingdom)|War Department]], a department of the United Kingdom, who stamped equipment, provisions, etc. with the letters &amp;quot;W.D.&amp;quot;
+* [[WD-40]], a penetrating oil spray
+* [[Web Dynpro]]
+* [[Week|Weekday]]
+* [[internet slang|&amp;quot;Well done&amp;quot; (internet slang)]]
+* [[Western Digital]], a computer storage manufacturer
+* [[Western Economic Diversification Canada]], a Canadian government agency
+* [[White dwarf]], a compact star in astronomy
+* [[White Dwarf (magazine)]]
+* [[Wilts &amp;amp; Dorset]], a southern England bus operator
+* [[Winn Dixie]]
+* [[Withdrawal]]
+* [[Wikidot]], a social networking service and wiki hosting service
+* [[Working directory]]
+* Working Draft, a stage in standardization process used by [[International Organization for Standardization]]
+* [[Whipple&amp;apos;s disease]], a rare, systemic infectious disease caused by the bacterium Tropheryma whipplei
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

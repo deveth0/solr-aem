@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="International Resources Group"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="International Resources Group" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=January 2007}}
+The &amp;apos;&amp;apos;&amp;apos;International Resources Group&amp;apos;&amp;apos;&amp;apos; is an international [[professional services]] firm that is a contractor to governments and international organizations, primarily in the [[Third World]] and crisis zones.
+
+Since its inception in 1978, IRG has completed over 600 contracts in more than 120 countries.
+
+IRG was one of the first firms given contracts for the reconstruction of [[Iraq]], winning a $7 million contract from the U.S. government through [[USAID]].[http://www.dawn.com/2003/04/16/int15.htm] IRG has also provided development assistance in [[Liberia]].[http://www.washingtonpost.com/wp-dyn/content/article/2007/01/16/AR2007011600996_pf.html] Other contracts have been in places such as [[Aceh]][http://www.iht.com/articles/2005/01/14/news/indonesia.php] and [[Afghanistan]].[http://www.usatoday.com/news/world/2002/05/29/afghan-laws-usat.htm]
+
+== External links ==
+* [http://www.irgltd.com/ Company website]
+
+[[Category:Consulting firms]]
+
+
+{{service-company-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="You Walk Alone"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="You Walk Alone" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox album &amp;lt;!-- See Wikipedia:WikiProject_Albums --&amp;gt;
+| Name        = You Walk Alone
+| Type        = [[Album]]
+| Artist      = [[Jandek]]
+| Cover       =
+| Released    = 1987
+| Recorded    = unknown
+| Genre       = [[Blues Rock]]
+| Length      = 42:48
+| Label       = [[Corwood Industries]]
+| Producer    = Corwood Industries
+| Last album  = &amp;apos;&amp;apos;[[Blue Corpse]]&amp;apos;&amp;apos;&amp;lt;br /&amp;gt;(1987)
+| This album  = &amp;apos;&amp;apos;You Walk Alone&amp;apos;&amp;apos;&amp;lt;br /&amp;gt;(1988)
+| Next album  = &amp;apos;&amp;apos;[[On the Way (Jandek album)|On the Way]]&amp;apos;&amp;apos;&amp;lt;br /&amp;gt;(1988)
+}}
+{{Album ratings
+| rev1      = &amp;apos;&amp;apos;[[Forced Exposure]]&amp;apos;&amp;apos;
+| rev1Score = (very favorable) &amp;lt;ref&amp;gt;[http://tisue.net/jandek/discog.html#0754 &amp;apos;&amp;apos;Forced Exposure&amp;apos;&amp;apos; review]&amp;lt;/ref&amp;gt;
+| rev2      =
+| rev2Score =
+}}
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;You Walk Alone&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is the sixteenth album by [[Jandek]], and the first of two released in 1988. It is [[Corwood Industries]] (#0754), and is the first album by the &amp;quot;blues rock&amp;quot; band that followed the apparent meltdown of the original &amp;quot;garage rock&amp;quot; band.
+
+==Track listing==
+#Lavender – 3:49
+#Time and Space – 7:28
+#The Cat That Walked From Shelbyville – 6:23
+#Quinn Boys II – 3:56
+#The Way That You Act – 4:26
+#I Know The Times – 3:17
+#When The Telephone Melts – 9:06
+#War Dance – 3:58
+
+==References==
+{{Reflist}}
+
+==External links==
+*[http://tisue.net/jandek/discog.html#0754 Seth Tisue&amp;apos;s &amp;apos;&amp;apos;You Walk Alone&amp;apos;&amp;apos; review]
+
+[[Category:1988 albums]]
+[[Category:Corwood Industries albums]]
+[[Category:Jandek albums]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

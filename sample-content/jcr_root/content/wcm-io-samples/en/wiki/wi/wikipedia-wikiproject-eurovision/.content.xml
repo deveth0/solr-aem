@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:WikiProject Eurovision"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:WikiProject Eurovision" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{| width=100% style=&amp;quot;background:none;&amp;quot;
+|- align=&amp;quot;center&amp;quot;
+|colspan=&amp;quot;2&amp;quot; style=&amp;quot;border:1px solid #bfd7ff; background-color:#f5f9ff; padding:10px;&amp;quot;| {{/countdown}}
+|-
+|valign=&amp;quot;top&amp;quot; width=&amp;quot;50%&amp;quot; style=&amp;quot;border:1px solid #bfd7ff; background-color:#f5f9ff;&amp;quot;| {{/leftpanel}}
+|valign=&amp;quot;top&amp;quot; style=&amp;quot;border:1px solid #bfd7ff; background-color:#f5f9ff;&amp;quot;| {{/rightpanel}}
+|- align=&amp;quot;center&amp;quot;
+|colspan=&amp;quot;2&amp;quot; valign=&amp;quot;top&amp;quot; style=&amp;quot;border:1px solid #bfd7ff; background-color:#f5f9ff;&amp;quot;|
+{| width=&amp;quot;100%&amp;quot; cellspacing=&amp;quot;10&amp;quot; style=&amp;quot;background-color:#f5f9ff;&amp;quot;
+|-
+&amp;lt;!-- Article alerts --&amp;gt;
+! style=&amp;quot;border:1px solid #a3bfb1; background-color:#D4DAFF; padding:0.2em 0.4em; font-size:120%; font-weight:bold; text-align:left;&amp;quot;|Article alerts
+|-
+| Click [[Wikipedia:WikiProject Eurovision/Article alerts|here]] to view this list in full.
+{{/Article alerts}}
+|-
+&amp;lt;!-- Article requests --&amp;gt;
+! style=&amp;quot;border:1px solid #a3bfb1; background-color:#D4DAFF; padding:0.2em 0.4em; font-size:120%; font-weight:bold; text-align:left;&amp;quot;|Article requests
+|-
+|
+*Click [[Wikipedia:WikiProject Eurovision/Article requests|here]] to make a request for a Eurovision related article to be created.
+|-
+|}
+|-
+|colspan=&amp;quot;2&amp;quot; style=&amp;quot;border:1px solid #bfd7ff; background-color:#f5f9ff;&amp;quot;|
+&amp;lt;!-- MEMBERS PANEL --&amp;gt;
+{| width=&amp;quot;100%&amp;quot; cellspacing=&amp;quot;10&amp;quot; style=&amp;quot;background-color:#f5f9ff;&amp;quot;
+|-
+! style=&amp;quot;border:1px solid #bfd7ff; background-color:#e1edff; padding:0.2em 0.4em; font-size:120%; font-weight:bold; text-align:left;&amp;quot;| Members
+|-
+|This is a [[Wikipedia:WikiProject Eurovision/Members|list of Wikipedians]] who are committed to this WikiProject. If you&amp;apos;re interested in helping, feel free to join by editing the table below and placing your username, in &amp;apos;&amp;apos;alphabetical order&amp;apos;&amp;apos;, using the {{tl|user}} template (e.g. &amp;lt;code&amp;gt;&amp;lt;nowiki&amp;gt;{{user|USERNAME}}&amp;lt;/nowiki&amp;gt;&amp;lt;/code&amp;gt;). If you wish, leave a comment about your special interests on this project.
+
+{| width=&amp;quot;100%&amp;quot; cellpadding=&amp;quot;5&amp;quot; style=&amp;quot;border:1px solid #bfd7ff; border-collapse:collapse; margin-top:10px;&amp;quot;
+! style=&amp;quot;border:1px solid #bfd7ff; background-color:#e1edff;&amp;quot; width=&amp;quot;30%&amp;quot;| User
+! style=&amp;quot;border:1px solid #bfd7ff; background-color:#e1edff; border-right:0px;&amp;quot;| Comments
+! style=&amp;quot;border:1px solid #bfd7ff; background-color:#e1edff; border-left:0px;&amp;quot;| {{ed right2|Wikipedia:WikiProject Eurovision/Members}}
+|-
+|colspan=&amp;quot;3&amp;quot;|
+&amp;lt;div style=&amp;quot;height:300px; overflow:auto; padding:3px;&amp;quot;&amp;gt;{{Wikipedia:WikiProject Eurovision/Members}}&amp;lt;/div&amp;gt;
+|}
+|}
+&amp;lt;!-- END OF MEMBERS PANEL --&amp;gt;
+|}
+__NOTOC__
+
+==Related projects==
+{{WikiProject Music/Related WikiProjects}}
+{{Wikipedia policies and guidelines|state=collapsed}}
+{{WikiProject Footer}}
+
+[[Category:WikiProject Eurovision| ]]
+
+[[pt:Wikipedia:Projetos/Eurovisão]]
+[[ru:Википедия:Проект:Конкурс песни «Евровидение»]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

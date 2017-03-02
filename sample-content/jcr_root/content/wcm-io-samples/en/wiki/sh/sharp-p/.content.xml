@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Sharp-P"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Sharp-P" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Correct title|title=#P|reason=hash}}
+
+In [[computational complexity theory]], the complexity class &amp;apos;&amp;apos;&amp;apos;#P&amp;apos;&amp;apos;&amp;apos; (pronounced &amp;quot;number P&amp;quot; or, sometimes &amp;quot;sharp P&amp;quot; or &amp;quot;hash P&amp;quot;) is the set of the counting problems associated with the [[decision problem]]s in the set &amp;apos;&amp;apos;&amp;apos;[[NP (complexity)|NP]]&amp;apos;&amp;apos;&amp;apos;. More formally, &amp;apos;&amp;apos;&amp;apos;#P&amp;apos;&amp;apos;&amp;apos; is the class of function problems of the form &amp;quot;compute &amp;apos;&amp;apos;&amp;amp;fnof;&amp;apos;&amp;apos;(&amp;apos;&amp;apos;x&amp;apos;&amp;apos;),&amp;quot; where &amp;apos;&amp;apos;&amp;amp;fnof;&amp;apos;&amp;apos; is the number of accepting paths of a [[nondeterministic Turing machine]] running in polynomial time.  Unlike most well-known complexity classes, it is not a class of [[decision problem]]s but a class of [[function problem]]s.
+
+An &amp;apos;&amp;apos;&amp;apos;NP&amp;apos;&amp;apos;&amp;apos; problem is often of the form, &amp;quot;Are there any solutions that satisfy certain constraints?&amp;quot; For example:
+* Are there any subsets of a list of integers that add up to zero? ([[subset sum problem]])
+* Are there any [[Hamiltonian cycle]]s in a given [[graph theory|graph]] with cost less than 100? ([[traveling salesman problem]])
+* Are there any variable assignments that satisfy a given [[conjunctive normal form|CNF]] formula? ([[Boolean satisfiability problem]])
+The corresponding &amp;apos;&amp;apos;&amp;apos;#P&amp;apos;&amp;apos;&amp;apos; problems ask &amp;quot;how many&amp;quot; rather than &amp;quot;are there any&amp;quot;.  For example:
+* How many subsets of a list of integers add up to zero?
+* How many Hamiltonian cycles in a given graph have cost less than 100?
+* How many variable assignments satisfy a given CNF formula?
+
+Clearly, a &amp;apos;&amp;apos;&amp;apos;#P&amp;apos;&amp;apos;&amp;apos; problem must be at least as hard as the corresponding &amp;apos;&amp;apos;&amp;apos;NP&amp;apos;&amp;apos;&amp;apos; problem.  If it&amp;apos;s easy to count answers, then it must be easy to tell whether there are any answers.  Just count them, and see if the count is greater than zero.
+
+One consequence of [[Toda&amp;apos;s theorem]] is that a polynomial-time machine with a &amp;apos;&amp;apos;&amp;apos;#P&amp;apos;&amp;apos;&amp;apos; [[oracle machine|oracle]] (&amp;apos;&amp;apos;&amp;apos;P&amp;apos;&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;&amp;apos;&amp;apos;&amp;apos;#P&amp;apos;&amp;apos;&amp;apos;&amp;lt;/sup&amp;gt;) can solve all problems in &amp;apos;&amp;apos;&amp;apos;[[PH (complexity)|PH]]&amp;apos;&amp;apos;&amp;apos;, the entire [[polynomial hierarchy]]. In fact, the polynomial-time machine only needs to make one &amp;apos;&amp;apos;&amp;apos;#P&amp;apos;&amp;apos;&amp;apos; query to solve any problem in &amp;apos;&amp;apos;&amp;apos;PH&amp;apos;&amp;apos;&amp;apos;. This is an indication of the extreme difficulty of solving &amp;apos;&amp;apos;&amp;apos;#P&amp;apos;&amp;apos;&amp;apos;-complete problems exactly.
+
+Surprisingly, some &amp;apos;&amp;apos;&amp;apos;#P&amp;apos;&amp;apos;&amp;apos; problems that are believed to be difficult correspond to easy &amp;apos;&amp;apos;&amp;apos;[[P (complexity)|P]]&amp;apos;&amp;apos;&amp;apos; problems.  For more information on this, see [[sharp-P-complete|#P-complete]].
+
+The closest decision problem class to &amp;apos;&amp;apos;&amp;apos;#P&amp;apos;&amp;apos;&amp;apos; is &amp;apos;&amp;apos;&amp;apos;[[PP (complexity)|PP]]&amp;apos;&amp;apos;&amp;apos;, which asks if a majority (more than half) of the computation paths accept. This finds the most significant bit in the &amp;apos;&amp;apos;&amp;apos;#P&amp;apos;&amp;apos;&amp;apos; problem answer. The decision problem class &amp;apos;&amp;apos;&amp;apos;[[Parity P|&amp;amp;oplus;P]]&amp;apos;&amp;apos;&amp;apos; instead asks for the least significant bit of the &amp;apos;&amp;apos;&amp;apos;#P&amp;apos;&amp;apos;&amp;apos; answer.
+
+The complexity class &amp;apos;&amp;apos;&amp;apos;#P&amp;apos;&amp;apos;&amp;apos; was first defined by [[Leslie Valiant]] in a 1979 paper on the computation of the [[permanent]], in which he proved that [[permanent is sharp-P-complete|permanent is #P-complete]].&amp;lt;ref&amp;gt;{{cite journal
+  | author = Leslie G. Valiant
+  | title = The Complexity of Computing the Permanent
+  | journal = Theoretical Computer Science
+  | volume = 8
+  | pages = 189–201
+  | publisher = [[Elsevier]]
+  | location =
+  | date = 1979
+  | doi = 10.1016/0304-3975(79)90044-6
+  | issue = 2}}&amp;lt;/ref&amp;gt;
+
+[[Larry Stockmeyer]] has proved that for every #P problem &amp;apos;&amp;apos;P&amp;apos;&amp;apos; there exists a randomized algorithm using oracle for SAT, which given an instance &amp;apos;&amp;apos;a&amp;apos;&amp;apos; of &amp;apos;&amp;apos;P&amp;apos;&amp;apos; and &amp;apos;&amp;apos;ε&amp;apos;&amp;apos;&amp;gt;0 returns with high probability a number &amp;apos;&amp;apos;x&amp;apos;&amp;apos; such that &amp;lt;math&amp;gt;(1-\epsilon) P(a) \leq x \leq (1+\epsilon) P(a)&amp;lt;/math&amp;gt;. The runtime of the algorithm is polynomial in &amp;apos;&amp;apos;a&amp;apos;&amp;apos; and 1/&amp;apos;&amp;apos;ε&amp;apos;&amp;apos;. The algorithm is based on [[leftover hash lemma]].
+
+== References ==
+
+&amp;lt;references/&amp;gt;
+
+== External links ==
+
+* {{CZoo|Class #P|Symbols#sharpp}}
+
+{{ComplexityClasses}}
+[[Category:Complexity classes]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

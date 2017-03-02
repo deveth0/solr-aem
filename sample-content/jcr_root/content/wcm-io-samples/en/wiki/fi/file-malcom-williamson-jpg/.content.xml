@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="File:Malcom Williamson.jpg"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="File:Malcom Williamson.jpg" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;== Fair use rationale for [[Malcolm Williamson]] ==
+{{Non-free use rationale
+|Article=Malcolm Williamson
+|Description=[[Malcolm Williamson]]
+|Source=http://www.musicweb.uk.net/Williamson/ &amp;quot;Photo credit John Carewe courtesy of Boosey&amp;amp;Hawkes&amp;quot;
+|Portion=Entire photo
+|Low_resolution=Yes
+|Purpose=To identify and illustrate Malcolm Williamson in the article [[Malcolm Williamson]]
+|Replaceability=No; subject is dead.
+|other_information=
+}}
+
+== Licensing ==
+{{Non-free biog-pic|Malcolm Williamson|image_has_rationale=yes}}
+{{Non-free reviewed|date=00:02, 12 May 2011 (UTC)|user=[[User:Moe Epsilon|Moe Epsilon]]|pages=[[Malcolm Williamson]]}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

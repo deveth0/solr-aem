@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Spoof"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Spoof" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary}}
+&amp;apos;&amp;apos;&amp;apos;Spoof&amp;apos;&amp;apos;&amp;apos;, &amp;apos;&amp;apos;&amp;apos;spoofs&amp;apos;&amp;apos;&amp;apos;, &amp;apos;&amp;apos;&amp;apos;spoofer&amp;apos;&amp;apos;&amp;apos;, or &amp;apos;&amp;apos;&amp;apos;spoofing&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+==General uses==
+* [[Forgery]] of goods or documents
+* [[Parody]] by imitation
+* [[Spoof film]], a cinematographic genre
+* [[Satire]], a literary technique of writing or art which principally ridicules its subject
+* [[Semen]], in British slang
+* [[Spoof (game)]], a guessing game
+
+==Computing and telecommunications==
+* [[Caller ID spoofing]]
+* [[E-mail spoofing]]
+* [[IP address spoofing]]
+* [[Protocol spoofing]], a technique to increase performance in data communications
+* [[Referrer spoofing]], a type of spoofing attack
+* [[SMS spoofing]]
+* [[Spoofing attack]], falsifying data on a telecommunications network
+* [[Spoofing (anti-piracy measure)]], a technique to curb unlawful online downloading
+* [[Website spoofing]]
+
+==See also==
+* {{lookfrom}}
+* {{intitle}}
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

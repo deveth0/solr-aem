@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Accelerated-X"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Accelerated-X" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{no references|date= June 2013}}
+{{Infobox Software
+| name                   = Accelerated-X
+| logo                   =
+| screenshot             =
+| caption                =
+| developer              = Xi Graphics
+| status                 = Discontinued
+| released               =
+| frequently_updated     = no
+| latest release version     = Accelerated-X Summit v2.4
+| latest release date        =
+| programming language   =
+| operating system       = GNU/Linux&amp;lt;br /&amp;gt; Solaris&amp;lt;br /&amp;gt; AIX
+| language               =
+| genre                  = [[Windowing system]]
+| license                = Commercial
+| website                =
+}}
+&amp;apos;&amp;apos;&amp;apos;Accelerated-X&amp;apos;&amp;apos;&amp;apos; was a proprietary port of the [[X Window System]] to Intel x86 machines.  As of 2013, its website&amp;apos;s domain name has expired and the product appears to be abandoned.
+
+==History==
+The Accelerated-X server was built on top of the [[X386]] X server that was created by Thomas Roell for X11 Release 5. He founded a company in [[Colorado]] named Xi Graphics which provided support for the software.
+
+The [[XFree86]] project was created as a free alternative to what became the Accelerated-X server.
+
+==Features==
+Accelerated-X server provided an &amp;quot;overlay mode&amp;quot; on several [[graphics card]]s which allowed running ancient, 256 color mode-only Unix alongside more modern applications on [[True Color|truecolor]] 24-bit displays.
+
+It provided much better driver support (hardware acceleration, 3D and compatibility, especially on integrated graphics) than XFree86, at a time when the major graphics chipset vendors were not supporting [[GNU/Linux]] officially.
+
+[[Category:Windowing systems]]
+[[Category:WikiProject Abandoned Articles]]
+[[Category:1994 introductions]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

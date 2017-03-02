@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="XView"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="XView" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Distinguish2|&amp;apos;&amp;apos;xview&amp;apos;&amp;apos;, an alias for the &amp;apos;&amp;apos;xloadimage&amp;apos;&amp;apos; [[image viewer]]}}
+[[Image:xview-calctool.png|thumb|right|200px|SunOS XView calctool]]
+
+&amp;apos;&amp;apos;&amp;apos;XView&amp;apos;&amp;apos;&amp;apos; is a [[widget toolkit]] from [[Sun Microsystems]] introduced in 1988. It provides an [[OPEN LOOK]] user interface for [[X Window System]] applications, with an object-oriented [[application programming interface]] (API) for the [[C (programming language)|C programming language]].  Its interface, controls, and layouts are very close to that of the earlier [[SunView]] window system, making it easy to convert existing applications from SunView to X. Sun also produced the [[User Interface Toolkit]] (UIT), a [[C++]] API to XView.
+
+The XView source code has been freely available since the early 1990s, making it the &amp;quot;first [[open-source]] professional-quality X Window System toolkit&amp;quot;.&amp;lt;ref name=&amp;quot;darwin&amp;quot;&amp;gt;{{cite web
+  |url = http://www.darwinsys.com/history/
+  |title = Ian Darwin: Computing History, Myths and Legends
+  |accessdate = 2008-06-15
+  |author = Ian Darwin
+  |date =
+}}&amp;lt;/ref&amp;gt;  XView was later abandoned by Sun in favor of [[Motif (widget toolkit)|Motif]] (the basis of [[Common Desktop Environment|CDE]]), and more recently [[GTK+]] (the basis of [[GNOME]]).
+
+XView was reputedly the first system to use right-button [[context menu]]s,&amp;lt;ref name=&amp;quot;darwin&amp;quot;/&amp;gt; which are now ubiquitous among computer user interfaces.
+
+== See also ==
+* [[OLIT]]
+* [[MoOLIT]]
+* [[OpenWindows]]
+
+== References ==
+{{Reflist}}
+{{FOLDOC}}
+
+== Further reading ==
+* Dan Heller, &amp;apos;&amp;apos;XView Programming Manual&amp;apos;&amp;apos; (O&amp;apos;Reilly &amp;amp; Associates, 1991) ISBN 0-937175-87-0 [ftp://ftp.ora.com/pub/openlook/vol7a.pdf Volume 7]
+* Thomas Van Raalte, ed. &amp;apos;&amp;apos;XView Reference Manual&amp;apos;&amp;apos; (O&amp;apos;Reilly &amp;amp; Associates, 1991) ISBN 0-937175-88-9 [ftp://ftp.ora.com/pub/openlook/vol7b.pdf Volume 7b]
+
+[[Category:Widget toolkits]]
+[[Category:Sun Microsystems software]]
+[[Category:X-based libraries]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

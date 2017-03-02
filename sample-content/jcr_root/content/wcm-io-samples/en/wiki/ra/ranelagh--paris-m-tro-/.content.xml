@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ranelagh (Paris Métro)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ranelagh (Paris Métro)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox Paris metro
+|pic=
+|Name=Ranelagh
+|Day=8 November
+|Year=1922
+|Access=
+|Municipality=the 16th arrondissement of Paris
+|Zone=1
+|Next=
+{{Paris Metro/next|9|Jasmin|La Muette}}
+| X=51
+| Y=84
+}}
+&amp;apos;&amp;apos;&amp;apos;Ranelagh&amp;apos;&amp;apos;&amp;apos; is a [[metro station|station]] of the [[Paris Métro]] on the &amp;apos;&amp;apos;Rue de Ranelagh&amp;apos;&amp;apos;. The station opened on 8 November 1922 with the opening of the first section of the line from [[Trocadéro (Paris Métro)|Trocadéro]] to [[Exelmans (Paris Métro)|Exelmans]].
+
+The street of &amp;apos;&amp;apos;Rue de Ranelagh&amp;apos;&amp;apos; was named after [[Baron Ranelagh|Lord Ranelagh]], an Irish peer and amateur at music, who built a rotunda for concerts in the park of his property in [[Chelsea, London|Chelsea]] in 1750. A similar establishment was established on the grounds of the [[Château de la Muette]] in 1774. The place was fashionable under [[Marie Antoinette]], under the [[French Directory|Directory]] and then again under the [[Bourbon Restoration|Restoration]]. It disappeared in 1858 with the creation of the [[Bois de Boulogne]].
+
+{{Paris Metro/line 9}}
+
+{{coord|48.85502|N|2.269634|E|region:FR_type:landmark_scale:2000_source:frwiki|display=title|format=dms}}
+
+[[Category:Railway stations opened in 1922]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

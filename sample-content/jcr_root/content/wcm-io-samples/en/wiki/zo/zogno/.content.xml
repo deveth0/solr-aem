@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Zogno"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Zogno" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox Italian comune
+| name                = Zogno
+| official_name       = Comune di Zogno
+| native_name         =
+| image_skyline       = Zogno panorama.JPG
+| image_caption       = Zogno
+| image_shield        =
+| shield_alt          =
+| image_map           =
+| map_alt             =
+| map_caption         =
+| pushpin_label_position =
+| pushpin_map_alt     =
+| latd  = 45 |latm  = 48 |lats  =  |latNS  = N
+| longd = 9 |longm = 40 |longs =   |longEW = E
+| coordinates_type    = type:city(9,034)_region:IT
+| coordinates_display = title
+| coordinates_footnotes =
+| region              = [[Lombardy]]
+| province            = [[Province of Bergamo]] (BG)
+| frazioni            = Endenna, Somendenna, Grumello de&amp;apos; Zanchi, Poscante, Stabello, Miragolo San Marco , Miragolo San Salvatore
+| mayor_party         =
+| mayor               =
+| area_footnotes      =
+| area_total_km2      = 34.9
+| population_footnotes =
+| population_total    = 9097
+| population_as_of    = Dec. 2010
+| pop_density_footnotes =
+| population_demonym  = Zognesi
+| elevation_footnotes =
+| elevation_m         = 334
+| twin1               =
+| twin1_country       =
+| saint               =
+| day                 =
+| postal_code         = 24019
+| area_code           = 0345
+| website             = {{official website|http://www.zogno.com}}
+| footnotes           =
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Zogno&amp;apos;&amp;apos;&amp;apos; is a &amp;apos;&amp;apos;[[comune]]&amp;apos;&amp;apos; (municipality) in the [[Province of Bergamo]] in the [[Italy|Italian]] region of [[Lombardy]], located about 50&amp;amp;nbsp;km northeast of [[Milan]] and about 11&amp;amp;nbsp;km north of [[Bergamo]]. As of 31 December 2010, it had a population of 9,097 and an area of 34.9&amp;amp;nbsp;km².&amp;lt;ref name=&amp;quot;istat&amp;quot;&amp;gt;All demographics and other statistics: Italian statistical institute [[National Institute of Statistics (Italy)|Istat]].{{Full|date=November 2012}}&amp;lt;/ref&amp;gt;
+
+The municipality of Zogno contains the &amp;apos;&amp;apos;[[frazione|frazioni]]&amp;apos;&amp;apos; (subdivisions, mainly villages and hamlets) Endenna, Somendenna, Grumello de&amp;apos; Zanchi, Poscante, Stabello, Miragolo San Marco, and Miragolo San Salvatore.
+
+Zogno borders the following municipalities: [[Algua]], [[Alzano Lombardo]], [[Bracca]], [[Brembilla]], [[Costa di Serina]], [[Nembro]], [[Ponteranica]], [[San Pellegrino Terme]], [[Sedrina]], [[Sorisole]].
+
+== Demographic evolution ==
+&amp;lt;timeline&amp;gt;
+Colors=
+  id:lightgrey value:gray(0.9)
+  id:darkgrey  value:gray(0.8)
+  id:sfondo value:rgb(1,1,1)
+  id:barra value:rgb(0.6,0.7,0.8)
+
+ImageSize  = width:455 height:303
+PlotArea   = left:50 bottom:50 top:30 right:30
+DateFormat = x.y
+Period     = from:0 till:10000
+TimeAxis   = orientation:vertical
+AlignBars  = justify
+ScaleMajor = gridcolor:darkgrey increment:1000 start:0
+ScaleMinor = gridcolor:lightgrey increment:200 start:0
+BackgroundColors = canvas:sfondo
+
+BarData=
+  bar:1861 text:1861
+  bar:1871 text:1871
+  bar:1881 text:1881
+  bar:1901 text:1901
+  bar:1911 text:1911
+  bar:1921 text:1921
+  bar:1931 text:1931
+  bar:1936 text:1936
+  bar:1951 text:1951
+  bar:1961 text:1961
+  bar:1971 text:1971
+  bar:1981 text:1981
+  bar:1991 text:1991
+  bar:2001 text:2001
+
+PlotData=
+  color:barra width:20 align:left
+
+  bar:1861 from: 0 till:4171
+  bar:1871 from: 0 till:4513
+  bar:1881 from: 0 till:4995
+  bar:1901 from: 0 till:5802
+  bar:1911 from: 0 till:6790
+  bar:1921 from: 0 till:6854
+  bar:1931 from: 0 till:6811
+  bar:1936 from: 0 till:6260
+  bar:1951 from: 0 till:7401
+  bar:1961 from: 0 till:8211
+  bar:1971 from: 0 till:8674
+  bar:1981 from: 0 till:8531
+  bar:1991 from: 0 till:8724
+  bar:2001 from: 0 till:9015
+
+PlotData=
+
+  bar:1861 at:4171 fontsize:XS text: 4171 shift:(-8,5)
+  bar:1871 at:4513 fontsize:XS text: 4513 shift:(-8,5)
+  bar:1881 at:4995 fontsize:XS text: 4995 shift:(-8,5)
+  bar:1901 at:5802 fontsize:XS text: 5802 shift:(-8,5)
+  bar:1911 at:6790 fontsize:XS text: 6790 shift:(-8,5)
+  bar:1921 at:6854 fontsize:XS text: 6854 shift:(-8,5)
+  bar:1931 at:6811 fontsize:XS text: 6811 shift:(-8,5)
+  bar:1936 at:6260 fontsize:XS text: 6260 shift:(-8,5)
+  bar:1951 at:7401 fontsize:XS text: 7401 shift:(-8,5)
+  bar:1961 at:8211 fontsize:XS text: 8211 shift:(-8,5)
+  bar:1971 at:8674 fontsize:XS text: 8674 shift:(-8,5)
+  bar:1981 at:8531 fontsize:XS text: 8531 shift:(-8,5)
+  bar:1991 at:8724 fontsize:XS text: 8724 shift:(-8,5)
+  bar:2001 at:9015 fontsize:XS text: 9015 shift:(-8,5)
+
+TextData=
+  fontsize:S pos:(20,20)
+  text:Data from ISTAT
+
+&amp;lt;/timeline&amp;gt;
+
+==References==
+&amp;lt;references/&amp;gt;
+
+==External links==
+* [http://www.zogno.com www.zogno.com]
+
+&amp;lt;br clear=all&amp;gt;
+{{Province of Bergamo}}
+
+{{Bergamo-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Zentrum"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Zentrum" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|Zentrum}}
+&amp;apos;&amp;apos;&amp;apos;Zentrum&amp;apos;&amp;apos;&amp;apos; is [[German language|German]] for &amp;apos;&amp;apos;&amp;apos;centre&amp;apos;&amp;apos;&amp;apos;.  It may refer to:
+
+* [[Centre Party (Germany)|Zentrumspartei]] or Centre Party, a political party in Germany.
+* ETH Zentrum, a central campus of [[ETH Zurich]]
+* [[BMW Manufacturing Co. Spartanburg|BMW Zentrum]], a BMW museum in [[Spartanburg, South Carolina]]
+* [[Arginine|Zentrum]], a brand name for the amino acid Arginine 1200 mg.
+* [[Center (group theory)|Centre of a group]], denoted &amp;lt;math&amp;gt;Z(G)&amp;lt;/math&amp;gt; from the German name
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

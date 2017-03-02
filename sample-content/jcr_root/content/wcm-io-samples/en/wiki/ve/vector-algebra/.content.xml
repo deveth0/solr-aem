@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Vector algebra"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Vector algebra" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In mathematics, &amp;apos;&amp;apos;&amp;apos;vector algebra&amp;apos;&amp;apos;&amp;apos; may mean:
+* [[Linear algebra]], specifically the basic algebraic operations of vector addition and scalar multiplication; see [[vector space]].
+* The algebraic operations in [[vector calculus]], namely the specific additional structure of vectors in 3-dimensional [[Euclidean space]] &amp;lt;math&amp;gt;\mathbf{R}^3&amp;lt;/math&amp;gt; of [[dot product]] and especially [[cross product]]. In this sense, &amp;apos;&amp;apos;&amp;apos;vector algebra&amp;apos;&amp;apos;&amp;apos; is contrasted with [[geometric algebra]], which provides an alternative generalization to higher dimensions.
+* Original vector algebras of the nineteenth century like [[quaternion]]s, [[tessarine]]s, or [[coquaternion]]s, each of which has its own [[product (mathematics)|product]]. The vector algebras [[biquaternion]]s and [[hyperbolic quaternion]]s enabled the revolution in physics called [[special relativity]] by providing mathematical models.
+
+
+
+[[Category:Algebra]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

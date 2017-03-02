@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Epicenter"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Epicenter" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Other uses}}
+{{stack begin}}
+{{Earthquakes}}
+{{Wiktionary}}
+{{stack end}}
+The &amp;apos;&amp;apos;&amp;apos;epicenter&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;epicentre&amp;apos;&amp;apos;&amp;apos; {{IPAc-en|ˈ|ɛ|p|ɪ|s|ɛ|n|t|ər}} is the point on the [[Earth]]&amp;apos;s surface that is directly above the [[hypocenter]] or focus, the point where an [[earthquake]] or underground explosion originates. The word derives from the [[New Latin]] noun &amp;apos;&amp;apos;epicentrum&amp;apos;&amp;apos;,&amp;lt;ref&amp;gt;{{Cite book | title = Merriam-Webster Online Dictionary | chapter = epicenter | year = 2009 | url = http://www.merriam-webster.com/dictionary/epicenter | accessdate = 2009-10-19}}&amp;lt;/ref&amp;gt; the [[Latinisation (literature)|latinisation]] of the [[ancient Greek]] adjective ἐπίκεντρος (&amp;apos;&amp;apos;epikentros&amp;apos;&amp;apos;), &amp;quot;occupying a cardinal point, situated on a centre&amp;quot;,&amp;lt;ref&amp;gt;[http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0057%3Aentry%3De%29pi%2Fkentros ἐπίκεντρος], Henry George Liddell, Robert Scott, &amp;apos;&amp;apos;A Greek-English Lexicon&amp;apos;&amp;apos;, on Perseus&amp;lt;/ref&amp;gt; from ἐπί (&amp;apos;&amp;apos;epi&amp;apos;&amp;apos;) &amp;quot;on, upon, at&amp;quot;&amp;lt;ref&amp;gt;[http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0057%3Aentry%3De%29pi%2F2 ἐπί], Henry George Liddell, Robert Scott, &amp;apos;&amp;apos;A Greek-English Lexicon&amp;apos;&amp;apos;, on Perseus&amp;lt;/ref&amp;gt; and κέντρον (&amp;apos;&amp;apos;kentron&amp;apos;&amp;apos;) &amp;quot;[[wikt:center|centre]]&amp;quot;.&amp;lt;ref&amp;gt;[http://oxforddictionaries.com/view/entry/m_en_gb0269590#m_en_gb0269590 epicentre], on Oxford Dictionaries&amp;lt;/ref&amp;gt;
+
+[[Image:epicenter.png|240px|thumb|left|The epicenter is directly above the [[earthquake]]&amp;apos;s focus ([[hypocenter]]).]]
+In the case of earthquakes, the epicenter is directly above the point where the [[fault (geology)|fault]] begins to rupture, and in most cases, it is the area of greatest damage. However, in larger events, the length of the fault rupture is much longer, and damage can be spread across the rupture zone.  For example, in the magnitude 7.9, [[2002 Denali earthquake]] in [[Alaska]], the epicenter was at the western end of the rupture, but the greatest damage occurred about 330&amp;amp;nbsp;km away at the eastern end of the rupture zone.&amp;lt;ref&amp;gt;{{cite web|url=http://pubs.usgs.gov/fs/2003/fs014-03/|title=Rupture in South-Central Alaska—The Denali Fault Earthquake of 2002|publisher=USGS|first=Gary|last=Fuis|coauthors=Wald, Lisa|accessdate=2008-04-20}}&amp;lt;/ref&amp;gt;
+
+== Epicentral distance==
+During an earthquake [[seismic wave]]s propagate spherically out from the hypocenter.  [[Seismic shadowing]] occurs on the opposite side of the Earth from the earthquake epicenter because the liquid outer core [[refraction|refracts]] the [[longitudinal waves|longitudinal]] or compressional ([[P-wave]]s) while it absorbs the [[transverse wave|transverse]] or shear waves ([[S-wave]]s).  Outside of the seismic shadow zone both types of wave can be detected but, due to their different velocities and paths through the Earth, they arrive at different times.  By measuring the time difference on any [[Seismometer|seismograph]] as well as the distance on a travel-time graph at which the P-wave and S-wave have the same separation, geologists can calculate the distance to the earthquake&amp;apos;s epicenter.  This distance is called the &amp;apos;&amp;apos;epicentral distance&amp;apos;&amp;apos;, commonly measured in [[Degree (angle)|&amp;amp;deg;]] (degrees) and denoted as Δ (delta) in seismology.
+
+Once epicentral distances have been calculated from at least three seismographic measuring stations, it is a simple matter to find out where the epicenter was located using [[trilateration]].
+
+Epicentral  distance is also used in calculating [[Seismic scale#Local magnitude scale and related scales|seismic magnitudes developed by Richter and Gutenberg]].&amp;lt;ref name=&amp;quot;Local magnitude&amp;quot;&amp;gt;{{cite paper | publisher=USGS | author=Tyler M. Schau | url=http://www.johnmartin.com/earthquakes/eqsafs/safs_693.htm | title=The Richter Scale (ML) | year=1991 | accessdate=2008-09-14}}
+&amp;lt;/ref&amp;gt;&amp;lt;ref name=&amp;quot;Related magnitudes&amp;quot;&amp;gt;{{cite paper | publisher=USGS | author=William L. Ellsworth | url=http://www.johnmartin.com/earthquakes/eqsafs/safs_694.htm | title=SURFACE-WAVE MAGNITUDE (M&amp;lt;sub&amp;gt;s&amp;lt;/sub&amp;gt;) AND BODY-WAVE MAGNITUDE (mb) | year=1991 | accessdate=2008-09-14}}&amp;lt;/ref&amp;gt;
+
+== References ==
+{{reflist}}
+
+[[Category:Seismology and earthquake terminology]]
+[[Category:Geometric centers]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

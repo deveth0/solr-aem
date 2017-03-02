@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Queen Mab (disambiguation)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Queen Mab (disambiguation)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Queen Mab&amp;apos;&amp;apos;&amp;apos; usually refers to:
+
+*[[Queen Mab]], a fairy in Shakespeare&amp;apos;s Romeo and Juliet and later works of English literature
+
+==Other uses of the name==
+* [[Queen Mab (horse)]], one of the first Thoroughbred racehorses imported to the New World
+* Scottish singer Donovan released a song titled &amp;quot;Queen Mab&amp;quot; on his [[HMS Donovan (album)|HMS Donovan]] album
+* &amp;apos;&amp;apos;[[Queen Mab (poem)|Queen Mab; A Philosophical Poem; With Notes]],&amp;apos;&amp;apos; was the first large poetic work written by Percy Bysshe Shelley the English romantic poet.
+* In the video game [[Shin Megami Tensei: Nocturne]], Queen Mab is a demon of the Night clan. She is transformed from a High Pixie
+* In [[The Dresden Files]], Mab is the queen of Winter, the court of Unseelie faeries.
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

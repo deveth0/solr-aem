@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Unicum"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Unicum" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{primary sources|date=November 2011}}
+{{ref improve|date=November 2011}}
+[[Image:Unicum bottle.JPG|thumb|A frosty bottle of Unicum]]
+
+&amp;apos;&amp;apos;&amp;apos;Unicum&amp;apos;&amp;apos;&amp;apos; is a [[Hungary|Hungarian]] herbal [[bitters]], drunk as a [[digestif]] and [[apéritif]].
+
+Unicum is an herbal digestif liqueur.&amp;lt;ref name=&amp;quot;zwack_website&amp;quot;&amp;gt;[http://www.zwack.hu Zwack website]&amp;lt;/ref&amp;gt; The liqueur is today produced by [[Zwack]] according to a secret formula of more than forty herbs, and the drink is aged in oak casks. During the [[Socialist]] regime in Hungary, the Zwack family lived in exile in [[New York]] and [[Chicago]], and during this time, Unicum in Hungary was produced using a different formula. Before moving to the US Janos Zwack had entrusted a family friend in [[Milan]] with the production of Unicum based on the original recipe.&amp;lt;ref name=&amp;quot;unicome_website&amp;quot;&amp;gt;[http://unicum.hu/index.html Unicum website]&amp;lt;/ref&amp;gt; After the fall of communism, Péter Zwack returned to Hungary and resumed production of the original Unicum.
+
+Unicum is regarded as one of the national drinks of Hungary. The production facility offers tours which include a tasting session of the three different varieties (Unicum, Unicum Next, and Millenicum). Though Millenicum was a special edition, it can still be found at a few retailers. It is somewhat stronger than the original, with a slightly sweeter aftertaste. Zwack Frissitők is a pineapple-based version of the drink.  According to the manufacturer, the original Unicum is no longer distributed in the US, having been replaced by Unicum Next (a sweeter, thinner-bodied drink with a more prominent citrus flavour), re-branded as &amp;quot;[[Zwack liqueur|Zwack]]&amp;quot;.
+
+== References ==
+{{Reflist}}
+
+== See also ==
+*[[Zwack liqueur]] made from the same recipe (but not bitters)
+*[[National symbols of Hungary]]
+
+[[Category:Hungarian alcoholic beverages]]
+[[Category:Bitters]]
+[[Category:Herbal liqueurs]]
+
+{{Hungary-stub}}
+{{distilled-drink-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Zhang Lin (Anhui)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Zhang Lin (Anhui)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Chinese name|[[Zhang (surname)|Zhang]]}}
+&amp;apos;&amp;apos;&amp;apos;Zhang Lin&amp;apos;&amp;apos;&amp;apos; (born 1963 in [[Bengbu]], [[Anhui]]) is a [[cyber-dissident]] from the [[People&amp;apos;s Republic of China]]. He led student&amp;apos;s hunger strikes in Bengbu in  1989. He was imprisoned on January 29 of 2005. He now is imprisoned in Bengbu’s No. 1 Detention Center.
+
+==External links==
+*[http://www.hrichina.org/public/contents/press?revision_id=22932&amp;amp;item_id=22931 Human rights in China on him]
+*[http://www.rsf.org/article.php3?id_article=14586 Reporters sans frontières on him]
+
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              =Zhang, Lin
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION = Chinese dissident
+| DATE OF BIRTH     = 1963
+| PLACE OF BIRTH    =
+| DATE OF DEATH     =
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Zhang, Lin}}
+[[Category:1963 births]]
+[[Category:Living people]]
+[[Category:People from Bengbu]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

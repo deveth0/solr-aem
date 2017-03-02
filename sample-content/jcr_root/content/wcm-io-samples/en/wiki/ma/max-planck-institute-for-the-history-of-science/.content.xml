@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Max Planck Institute for the History of Science"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Max Planck Institute for the History of Science" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{ref improve|date=February 2013}}
+[[Image:MPIWG Logo.png|right|frame]]
+The &amp;apos;&amp;apos;&amp;apos;Max Planck Institute for the History of Science&amp;apos;&amp;apos;&amp;apos; in [[Berlin]] was established in March 1994. Its research is primarily devoted to a theoretically oriented [[history of science]], principally of the [[natural science]]s, but with methodological perspectives drawn from the [[cognitive science]]s and from [[cultural history]]. All three departments of the Institute aim at the construction of a &amp;apos;historical epistemology&amp;apos; of the sciences.&amp;lt;ref&amp;gt; Thomas Sturm and Uljana Feest (eds.), &amp;apos;&amp;apos;What (Good) Is Historical Epistemology?&amp;apos;&amp;apos; (=Special issue of &amp;quot;Erkenntnis&amp;quot;, 75 (3), 2011). &amp;lt;/ref&amp;gt;
+
+Historical epistemology deals with the historical development of knowledge and the technical, social, intellectual, and cultural processes surrounding the acquisition of knowledge in context. Building upon detailed studies from the history of particular sciences, historical epistemology investigates the emergence and evolution of key concepts such as &amp;apos;number&amp;apos;, &amp;apos;force&amp;apos;, &amp;apos;motion&amp;apos;, &amp;apos;gene&amp;apos;, &amp;apos;organism&amp;apos;, and &amp;apos;field&amp;apos;, as well as central categories and practices like &amp;apos;representation&amp;apos;, &amp;apos;probability&amp;apos;, &amp;apos;causality&amp;apos;, &amp;apos;experiment&amp;apos;, &amp;apos;deduction&amp;apos;, &amp;apos;determinism&amp;apos;, and &amp;apos;objectivity&amp;apos;. The combination of highly specific historical inquiries within this more global framework of inquiry permits comparisons and generalizations spanning numerous disciplines.
+
+The institute is affiliated with the [[Max Planck Society]] and is located in the [[Berlin]] neighborhood of [[Dahlem (Berlin)|Dahlem]].
+
+==External links==
+*[http://www.mpiwg-berlin.mpg.de/de/ Official website] {{de icon}}
+*[http://www.mpiwg-berlin.mpg.de/en/ Official website] {{en icon}}]
+
+==Notes==
+&amp;lt;references/&amp;gt;
+
+[[Category:Educational institutions established in 1994]]
+[[Category:Organisations based in Berlin]]
+[[Category:Max Planck Society|History of Science]]
+[[Category:Research institutes in Germany]]
+[[Category:Education in Berlin]]
+[[Category:History institutes]]
+[[Category:History of science organizations]]
+
+{{sci-org-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

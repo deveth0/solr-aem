@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Fullback"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Fullback" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Fullback&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;Full back&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+In &amp;apos;&amp;apos;&amp;apos;sports&amp;apos;&amp;apos;&amp;apos;:
+* A position in various kinds of [[football]], including:
+** [[Full back (association football)]], in association football (soccer), a defender playing in a wide position
+** [[Fullback (American football)]], in American football (gridiron), a position in the offensive backfield
+** [[Fullback (Australian rules football)]], in Australian rules football, a defensive position
+** [[Fullback (rugby league)]], a position behind the main line of backs
+** Fullback, one of the [[rugby union positions]]
+* A similar defence [[Field hockey#Positions|position in (field) hockey]]
+
+In &amp;apos;&amp;apos;&amp;apos;other uses&amp;apos;&amp;apos;&amp;apos;:
+* [[Sukhoi Su-34]], a Russian fighter aircraft, from its NATO reporting name
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

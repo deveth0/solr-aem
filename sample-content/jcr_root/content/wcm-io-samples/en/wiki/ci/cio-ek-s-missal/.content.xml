@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ciołek&#x27;s Missal"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ciołek&#x27;s Missal" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Image:Ciołek&amp;apos;s Missal.jpg|thumb|Ciołek&amp;apos;s Missal]]
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Ciołek&amp;apos;s Missal&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is one of the oldest relics of [[Polish literature]]. Made in 1515, in [[Kraków]], for [[Erazm Ciołek (bishop of Płock)|Erazm Ciołek]], the Archbishop of [[Płock]] it was decorated with figural [[initial]]s, rich borders with motives of crests of the owner ([[Sulima Coat of Arms]]).
+
+==External links==
+* [http://www.wsp.krakow.pl/whk/zabytki/ciolek.html Mszał Erazma Ciołka] {{pl_icon}}
+
+[[Category:1515 works]]
+[[Category:1515 in Europe]]
+[[Category:Missals]]
+[[Category:Christian illuminated manuscripts]]
+[[Category:Medieval Polish literature]]
+[[Category:History of Poland (1385–1569)]]
+[[Category:16th-century Christian texts]]
+
+
+{{christian-book-stub}}
+{{Poland-hist-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

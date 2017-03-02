@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="International Society of Electrochemistry"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="International Society of Electrochemistry" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;International Society of Electrochemistry&amp;apos;&amp;apos;&amp;apos; (ISE) is a global scientific society founded in 1949. The Head Office of ISE is located now in [[Lausanne]], [[Switzerland]]. ISE is a Member Organization of [[IUPAC]]. The Society has now more than 1900 Individual Members, 15 Corporate Members (Universities and non-profit research organizations from [[Belgium]], [[Croatia]], [[Finland]], [[Germany]], [[India]], [[Italy]], [[New Zealand]], [[Poland]], [[Spain]], [[Switzerland]] and [[Serbia]]) and 16 Corporate Sustaining Members. ISE has also 8 Divisions and Regional Representatives.
+
+ISE&amp;apos;s objectives are:
+* to advance electrochemical science and technology
+* to disseminate scientific and technological knowledge
+* to promote international cooperation in electrochemistry
+* to maintain a high professional standard among its members.
+
+==See also==
+* [[Electrochemistry]]
+* [[Quantum electrochemistry]]
+* [[Revaz Dogonadze]]
+* [[Rudolph A. Marcus]]
+
+==External links==
+*[http://www.ise-online.org International Society of Electrochemistry (ISE)]
+*[http://www.iupac.org IUPAC]
+
+[[Category:Electrochemistry]]
+[[Category:Scientific societies]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

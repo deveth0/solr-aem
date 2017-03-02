@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="HRR"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="HRR" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;HRR&amp;apos;&amp;apos;&amp;apos; may stand for:
+
+* [[The History of Rock and Roll]], a radio documentary produced by [[Bill Drake]]
+* [[Henley Royal Regatta]], a rowing event held in [[Henley-on-Thames]] annually
+* &amp;apos;&amp;apos;Heiliges Römisches Reich&amp;apos;&amp;apos;, German name of the [[Holy Roman Empire]]
+* [[Heart rate#Heart rate reserve|Heart Rate Reserve]]
+* [[Historicorum Romanorum reliquiae]], a collection of ancient fragmentary Latin history-works
+* [[HRR 98.5FM]]
+* [[High Resolution Radar]]
+* [[Haploid-relative-risk]], a method for determining gene allele association to a disease
+* [[Hockey Related Revenue]], a term used in negotiations between the National Hockey League and the NHL Players Association
+* [[Hospital Referral Region]], a regional market area for tertiary medical care
+* [[Hirzebruch–Riemann–Roch theorem]]
+* [[Heat Release Rate]], the rate of heat released (e.g. in a combustion engine)
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

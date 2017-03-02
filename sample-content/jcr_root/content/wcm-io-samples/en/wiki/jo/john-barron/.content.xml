@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="John Barron"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="John Barron" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;John Barron&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* [[John Barron (actor)]] (1920–2004), English actor, best known for &amp;apos;&amp;apos;The Fall and Rise of Reginald Perrin&amp;apos;&amp;apos;
+* [[John Barron (journalist)]] (1930–2005), American journalist who exposed Communist activities
+* [[John Barron (hurler)]] (1934–2008), Irish sportsman
+* [[John Augustus Barron]] (1850–1936), Canadian politician and lawyer
+* John Barron, publisher and former editor of the &amp;apos;&amp;apos;[[Chicago Sun-Times]]&amp;apos;&amp;apos;
+* John Barron, plaintiff in the Supreme Court case &amp;apos;&amp;apos;[[Barron v. Baltimore]]&amp;apos;&amp;apos;
+
+==See also==
+*[[John Baron (disambiguation)]]
+*[[John Barran (disambiguation)]]
+
+{{hndis|Barron, John}}
+
+{{DEFAULTSORT:Barron, John}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

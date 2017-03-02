@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Zaffre"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Zaffre" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Use dmy dates|date=April 2012}}
+{{infobox color|
+ title= Zaffre|
+ textcolor=white|
+ hex= 0014A8|
+ r=0|g=20|b=168|
+ c=  1|m=  .88|y=  0|k=  .34|
+ h= 233|s= 1|v=  .66|
+ source=[[Web colors#X11 color names|X11]]
+}}
+&amp;apos;&amp;apos;&amp;apos;Zaffre&amp;apos;&amp;apos;&amp;apos;, a pre-scientific substance (see [[List of alchemical substances]]), is a deep blue [[pigment]] obtained by roasting [[cobalt]] [[ore]], and is made of either an impure form of cobalt oxide&amp;lt;ref name=ClayArt&amp;gt;[http://www.potters.org/subject74249.htm ClayArt]&amp;lt;/ref&amp;gt; or impure cobalt arseniate.  During the [[Victorian Era]], zaffre was used to prepare [[smalt]] and stain glass blue.
+
+The first recorded use of &amp;apos;&amp;apos;zaffre&amp;apos;&amp;apos; as a color name in English was sometime in the 1550s (exact year uncertain).&amp;lt;ref&amp;gt; Maerz and Paul &amp;apos;&amp;apos;A Dictionary of Color&amp;apos;&amp;apos; New York:1930 McGraw-Hill Page 207; Color Sample of Zaffre: Page 109 Plate 43 Color Sample D11 &amp;lt;/ref&amp;gt;
+
+==See also==
+* [[List of colors]]
+
+==References==
+{{reflist|colwidth=30em}}
+
+{{Color-stub}}
+{{Inorganic-compound-stub}}
+{{Shades of blue}}
+
+[[Category:Inorganic pigments]]
+[[Category:Shades of blue]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

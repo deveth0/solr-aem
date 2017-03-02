@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Off-the-air"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Off-the-air" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{For|the [[Adult Swim]] television series|Off the Air (TV series)}}
+{{nofootnotes|date=January 2010}}
+In [[telecommunication]], the term &amp;apos;&amp;apos;&amp;apos;off-air&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;off-the-air&amp;apos;&amp;apos;&amp;apos; has the following meanings:
+
+# In [[radio]] [[telecommunication|communications]] systems, pertaining to a [[radio station]] or [[television station]] that is completely shut down, &amp;apos;&amp;apos;i.e.&amp;apos;&amp;apos; that is not transmitting any [[Signalling (telecommunication)|signal]], not even an un-[[modulation|modulated]] [[carrier wave]]. Other terms in this context include [[Dark (broadcasting)|&amp;quot;dark&amp;quot; or &amp;quot;silent&amp;quot;]], though those terms were typically used for a station that has left the air for an extended period of time, or permanently; while &amp;quot;off-the-air&amp;quot; is generally used for a brief period of time, or for a station that has recently stopped broadcasting.
+# In a radio station, pertaining to a particular source of modulation, such as a specific [[microphone]], that is disconnected, &amp;apos;&amp;apos;i.e.&amp;apos;&amp;apos; is no longer capable of modulating the carrier.
+
+&amp;apos;&amp;apos;Note&amp;apos;&amp;apos;:  The [[carrier wave]] may continue unmodulated or it may be modulated by another signal source, such as a [[subcarrier]].
+
+Also, off-the-air may be [[synonym]]ous with [[Wireless|over-the-air]] or from-the-air, as in picking up a [[terrestrial television|terrestrial]] broadcast [[TV station]] off-the-air instead of from [[cable TV]].  As this usage may be confusing due to the term&amp;apos;s other meanings, the terms &amp;quot;over the air&amp;quot; or &amp;quot;on the air&amp;quot; are more standard in the broadcasting industry.
+
+
+==See also==
+* [[Sign-off]]
+* [[Sign-on]]
+
+==References==
+*[[Federal Standard 1037C]]
+
+[[Category:Broadcasting]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

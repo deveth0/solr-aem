@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ring (diacritic)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ring (diacritic)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Other uses|Ring (disambiguation){{!}}Ring}}
+A &amp;apos;&amp;apos;&amp;apos;ring&amp;apos;&amp;apos;&amp;apos; [[diacritic]] may appear above or below letters. It may be combined with some [[Letter (alphabet)|letters]] of the extended [[Latin alphabet]]s in various contexts.
+{{Diacritical marks|{{unicode|˚}}|caption=Ring}}
+{{Letters with ring}}
+==Ring above==
+In Unicode, the above encoding is: {{unichar|030A|COMBINING RING ABOVE|html=|cwith=&amp;amp;#x25cc;}}.
+
+Though the [[Danish language|Danish]], [[Norwegian language|Norwegian]], [[Swedish language|Swedish]] and [[Walloon language|Walloon]] character [[Å]] (å) is derived from an [[A]] with a ring, it is considered a distinct [[letter (alphabet)|letter]] in those languages. The letter Å is the symbol of the unit [[ångström]], named after the Swedish physicist [[Anders Jonas Ångström]].
+
+The character Ů (ů; a Latin [[U]] with ring above, or [[wiktionary:kroužek|kroužek]] in Czech) is a [[grapheme]] in the [[Czech language]] preserved for historic reasons, which identifies a [[vowel shift]]. For example, the word for &amp;quot;horse&amp;quot; used to be written &amp;apos;&amp;apos;kóň&amp;apos;&amp;apos;, which evolved, along with pronunciation, into &amp;apos;&amp;apos;kuoň&amp;apos;&amp;apos;. Ultimately, the vowel [o] disappeared completely, and the &amp;apos;&amp;apos;uo&amp;apos;&amp;apos; evolved into &amp;apos;&amp;apos;ů&amp;apos;&amp;apos;, modern form &amp;apos;&amp;apos;kůň&amp;apos;&amp;apos;. The letter &amp;apos;&amp;apos;ů&amp;apos;&amp;apos; now has the same pronunciation as the letter &amp;apos;&amp;apos;[[ú]]&amp;apos;&amp;apos; (long {{IPA|[uː]}}), but changes to a short &amp;apos;&amp;apos;o&amp;apos;&amp;apos; when a word is morphed (e.g. nom. &amp;apos;&amp;apos;[[:wikt:kůň|kůň]]&amp;apos;&amp;apos; → gen. &amp;apos;&amp;apos;koně&amp;apos;&amp;apos;, nom. &amp;apos;&amp;apos;dům&amp;apos;&amp;apos; → gen. &amp;apos;&amp;apos;domu&amp;apos;&amp;apos;), thus showing the historical evolution of the language. &amp;apos;&amp;apos;Ů&amp;apos;&amp;apos; cannot occur in initial position, however, &amp;apos;&amp;apos;ú&amp;apos;&amp;apos; occurs almost exclusively in initial position or at the beginning of a word [[Root (linguistics)|root]] in a compound. These characters are used also in [[Silesian language|Steuer&amp;apos;s Silesian alphabet]]. The [uo] pronunciation has prevailed in some [[Moravian language|Moravian]] dialects, as well as in the [[Slovak language]], which uses the letter [[ô]] instead of ů.
+
+The ring is also used in [[Bolognese dialect|Bolognese]] (a dialect of [[Emiliano-Romagnolo language]]) to distinguish the sound {{IPA|/ɑ/}} (å) from {{IPA|/a/}} (a).
+
+The ring has been used in the [[Lithuanian language|Lithuanian]] [[Cyrillic]] alphabet promoted by Russian authorities in the last quarter of 19th century with the letter {{Unicode|У̊}} / {{Unicode|у̊}} used to represent the {{IPA|/wɔ/}} diphthong (now written &amp;apos;&amp;apos;uo&amp;apos;&amp;apos; in Lithuanian orthography).
+
+Ring upon e (e̊) is used by certain [[dialectologist]]s of [[Walloon language]] (especially [[:wa:Jean-Jacques Gaziaux|Jean-Jacques Gaziaux]]) to note the /ə/ vowel typically replacing /i/ and /y/ in the [[Walloon Brabant|Brabant province]] central Walloon dialects. The difficulty of type-writing it has led some writers to prefer &amp;apos;&amp;apos;ë&amp;apos;&amp;apos; for the same sound.
+
+Many more characters can be created in [[Unicode]] using the &amp;quot;combining ring above&amp;quot; U+030A, including the above mentioned {{Unicode|у̊}} (Cyrillic у with ring above) or even {{Unicode|ń̊}} (n with acute and ring above). The [[Modifier letter ring above|standalone ring above]] symbol has the codepoint U+02DA.
+
+==Ring below==
+[[Unicode]] encodes the ring below at {{unichar|0325|COMBINING RING BELOW|cwith=&amp;amp;#x25cc;}}
+
+The diacritic is used in [[International Phonetic Alphabet|IPA]] to indicate [[Voice (phonetics)|voicelessness]], and in [[Indo-European studies]] or in [[Sanskrit]] transliteration ([[IAST]]) to indicate [[syllabic consonant|syllabicity]] of r, l, m, n etc. (e.g. {{PIE|r̥}} corresponding to IPA {{IPA|[ɹ̩]}}).
+
+Examples:
+* {{unichar|1E00|LATIN CAPITAL LETTER A WITH RING BELOW}}
+* {{unichar|1E01|LATIN SMALL LETTER A WITH RING BELOW}}
+
+==Half rings==
+Half rings also exist as diacritic marks, these are characters {{unichar|0351|combining left half ring above|cwith=&amp;amp;#x25cc;}} and {{unichar|0357|combining left half ring below|cwith=&amp;amp;#x25cc;}}. These characters may be used in the [[International Phonetic Alphabet]], denoting [[roundedness]]. They are here given with the lowercase a: {{Unicode|a͑}} and {{Unicode|a͗}}.
+
+Other, similar signs are in use in [[Armenian language|Armenian]]: the {{unichar|0559|left half ring above|cwith=&amp;amp;#x25cc;}}, and the [[comma (punctuation)|Armenian comma]] or {{unichar|055A|right half ring above|cwith=&amp;amp;#x25cc;}}.
+
+The ring as a diacritic mark should not be confused with the [[Dot (diacritic)|dot above]] or [[comma (punctuation)|comma above]] diacritic marks, with the combining &amp;apos;&amp;apos;o&amp;apos;&amp;apos; above {{unichar|0366|COMBINING LATIN SMALL LETTER O|cwith=&amp;amp;#x25cc;}}, or with the degree sign °.
+
+==External links==
+*[http://diacritics.typo.cz Diacritics Project — All you need to design a font with correct accents]
+
+{{Latin alphabet||ring}}
+
+{{DEFAULTSORT:Ring (Diacritic)}}
+[[Category:Alphabetic diacritics]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

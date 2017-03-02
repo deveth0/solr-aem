@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Abstract syntax"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Abstract syntax" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{unreferenced|date=October 2011}}
+The &amp;apos;&amp;apos;&amp;apos;abstract syntax&amp;apos;&amp;apos;&amp;apos; of data is its structure described as a [[data type]] (possibly, but not necessarily, an [[abstract data type]]), independent of any particular representation or encoding.
+
+To be implemented either for computation or communications, a mapping from the abstract syntax to specific machine representations and encodings must be defined; these may be called the &amp;quot;[[concrete syntax]]&amp;quot; (in language implementation) or the &amp;quot;transfer syntax&amp;quot; (in communications).
+
+A [[compiler]]&amp;apos;s internal representation of a program will typically be specified by an abstract syntax in terms of categories such as &amp;quot;statement&amp;quot;, &amp;quot;expression&amp;quot; and &amp;quot;identifier&amp;quot;. This is independent of the source syntax (&amp;apos;&amp;apos;&amp;apos;concrete syntax&amp;apos;&amp;apos;&amp;apos;) of the language being compiled (though it will often be very similar). A [[parse tree]] is similar to an [[abstract syntax tree]] but it will typically also contain features such as parentheses which are syntactically significant but which are implicit in the structure of the abstract syntax tree.
+
+[[Algebraic data type]]s are particularly well-suited to the implementation of abstract syntax.
+
+==See also==
+* [[Higher-order abstract syntax]]
+* [[Abstract Syntax Notation One]]
+
+==References==
+{{FOLDOC}}
+
+{{prog-lang-stub}}
+
+[[Category:Programming language design]]
+[[Category:Compiler construction]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

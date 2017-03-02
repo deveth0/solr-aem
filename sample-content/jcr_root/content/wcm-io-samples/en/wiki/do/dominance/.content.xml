@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Dominance"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Dominance" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary}}
+
+&amp;apos;&amp;apos;&amp;apos;Dominance&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* [[Dominance (C++)]], an aspect of virtual inheritance in the C++ programming language
+* [[Dominance (economics)]], in economics, the degree of inequality in market share distribution
+* [[Strategic dominance]], in game theory, when one strategy is better for one opponent regardless of the other opponent&amp;apos;s strategy
+* [[Dominance hierarchy]] or social hierarchy, an organizational form by which individuals within a community control the distribution of resources within the community
+* [[Dominance and submission]], set of behaviors, customs, and rituals in an erotic or lifestyle context
+
+==Biology==
+* [[Dominance (ethology)]], in animal behaviour and anthropology, the level of social status relative to other individuals
+* [[Dominance (ecology)]], the degree of predominance of one or a few species in an ecological community
+* [[Dominance (genetics)]], a relationship between the effects of different versions of a gene
+
+== Mathematics ==
+* [[Strategic dominance]], a method of simplification for games.
+* [[Stochastic dominance]], a situation in which one lottery (a probability distribution of outcomes) can be ranked as superior to another, with only limited knowledge of preferences
+* [[Dominance order]], a partial order on partitions.
+==See also==
+* [[Dominate]]
+* [[Domination (disambiguation)]]
+* [[Dominator (disambiguation)]]
+* [[World domination (disambiguation)]]
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

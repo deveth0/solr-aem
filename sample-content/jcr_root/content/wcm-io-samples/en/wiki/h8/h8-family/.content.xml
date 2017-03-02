@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="H8 Family"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="H8 Family" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[File:Ic-photo-Hitachi--HD6473238F10--(H8-323-MCU).JPG|thumb|Hitachi H8/323]]
+&amp;apos;&amp;apos;&amp;apos;H8&amp;apos;&amp;apos;&amp;apos; is the name of a large family of [[8-bit]], [[16-bit]] and [[32-bit]] [[microcontroller]]s made by [[Renesas Technology]], originating in the early 1990s within [[Hitachi, Ltd.|Hitachi Semiconductor]] and still actively evolving as of 2006.  The family also evolved into the higher performance [[SuperH]] family of 32-bit microcontrollers.
+
+==Variants==
+Subfamilies include the 8/16-bit H8/300 and H8/500, the 16/32-bit H8/300H and H8S and the 32-bit H8SX series, each with dozens of different variants, varying by speed, selection of built in [[peripheral]]s such as timers and [[serial port]]s, and amounts of [[Read-only memory|ROM]] and [[Flash Memory|Flash-Memory]] and [[Random Access Memory|RAM]].  Built in ROM and Flash-Memory tends to range from 16 [[kilobyte|kB]] to 1024 kB, and RAM from 512 [[byte|B]] to 512 kB.
+
+The basic architecture of the H8 is patterned after the [[Digital Equipment Corporation|DEC]] [[PDP-11]], with eight 16-bit [[processor register|registers]] (the H8/300H and H8S have an additional bank of eight 16-bit registers), and a variety of [[addressing mode]]s.
+
+Both H8/300H and H8S have eight [[32-bit]] registers, each of which can be treated as one 32-bit register, two 16-bit registers, or two 8-bit registers, with the H8S having an internal 32-bit configuration.&amp;lt;ref&amp;gt;[http://www.renesas.com/products/mpumcu/h8s/h8s2100/h8s2116/index.jsp Renesas H8S/2116]&amp;lt;/ref&amp;gt; Several companies provide [[compiler]]s for the H8 family, and there is a complete [[GNU Compiler Collection|GCC]] port, including a [[Instruction Set Simulator|simulator]].  There are also various hardware [[In-circuit emulator|emulator]]s available.
+
+The family is continued with the H8SX 32-bit controllers.
+
+==Applications==
+H8S may be found in [[digital camera]]s, some [[Thinkpad]] notebooks, [[computer printer|printer]] controllers, [[smart card]]s, [[chess computer]]s, and in various [[automobile|automotive]] subsystems. The [[Lego Mindstorms|LEGO Mindstorms]] advanced robot toy/educational tool uses the H8/300. [[Namco]] employed an H8/3002 as a sound processor for various games it made in the late 1990s: notably those using its [[Namco System 12|System 12]] architecture.
+
+==In popular culture==
+H8 is referenced in the [[Muse (band)|Muse]] song &amp;apos;&amp;apos;Space Dementia&amp;apos;&amp;apos;.&amp;lt;ref&amp;gt;[http://www.musewiki.org/Space_Dementia_(song)#cite_ref-uaclub_2-0 Muse Wiki]&amp;lt;/ref&amp;gt;
+
+==References==
+{{Reflist|2}}
+
+==External links==
+* [http://eu.renesas.com/fmwk.jsp?cnt=mpumcu_category_landing.jsp&amp;amp;fp=/products/mpumcu#H8S_Family&amp;amp;bit16&amp;amp;family  Renesas Technology Website]
+* [http://www.RenesasInteractive.com/ Online training for Renesas products]
+* [http://www.RenesasRulz.com/ A community support forum]
+
+{{Hitachi}}
+{{Renesas Electronics}}
+{{8bitMCUs}}
+
+[[Category:Microcontrollers]]
+[[Category:Electronics companies of Japan]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

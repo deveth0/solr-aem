@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Quantum neural network"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Quantum neural network" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Quantum neural networks&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;&amp;apos;QNN&amp;apos;&amp;apos;&amp;apos;) refers to the class of [[neural network]] models, artificial or biological, which rely on principles inspired in some way from [[quantum mechanics]].
+
+Two different classes may be generally distinguished:
+
+#The class of quantum neural networks which explicitly use concepts from [[quantum computing]], such as [[quantum superposition|superposition]], [[Interference (wave propagation)|interference]], [[Quantum entanglement|entanglement]] or [[qubits]] and qubit registers. Several authors have published papers on this type of QNN, however most have remained at the purely theoretical level, especially since most proposals require a functional quantum computer to be implemented. Some proposed models are networks where the [[neuron]] is modeled like a [[qubit]], and quantum associative memory (a quantum equivalent of a [[Hopfield network]]).
+#Models of biological neural networks (e.g. animal and human brains) which use concepts from quantum computing and quantum mechanics to explain the exceptional performance of biological brains as opposed to conventional computing devices, or to explain why humans (and eventually other animals) exhibit consciousness, while current computers do not. See ideas about the [[quantum mind]].
+
+== External links==
+* [http://www.cic.unb.br/~weigang/qc/aci.html Review of quantum neural networks by Wei]
+* [http://arxiv.org/abs/quant-ph/0401127 Article by P. Gralewicz on the plausibility of quantum computing in biological neural networks]
+
+[[Category:Neural networks]]
+[[Category:Quantum information science]]
+
+
+{{compu-AI-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

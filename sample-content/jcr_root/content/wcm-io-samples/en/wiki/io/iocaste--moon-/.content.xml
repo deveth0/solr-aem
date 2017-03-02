@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Iocaste (moon)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Iocaste (moon)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{ distinguish2|the minor planet named [[899 Jokaste]]}}
+{{Infobox Planet
+| name = Iocaste
+| alt_names = Jupiter XXIV
+| adjectives = Ionian
+| bgcolour = #a0ffa0
+| discovery = yes
+| discoverer = Scott S. Sheppard | David C. Jewitt | Yanga R. Fernandez | and Eugene Magnier
+| discovered = 23 November 2000 &amp;lt;ref name=&amp;quot;NASA Solar System&amp;quot;/&amp;gt;
+| mean_orbit_radius = 21,272,000&amp;amp;nbsp;km (0.002&amp;amp;nbsp;819 [[astronomical unit|AU]])
+| eccentricity = 0.0041
+| periapsis = 16,696,393&amp;amp;nbsp;km (0.002&amp;amp;nbsp;807 AU)
+| apoapsis = 25,847,607&amp;amp;nbsp;km (0.002&amp;amp;nbsp;830 AU)
+| avgerage orbital velocity = 8,714.4&amp;amp;nbsp;km/h
+| satellite_of = [[Jupiter]]
+| physical_characteristics = yes
+| mean_radius = 2.6 km
+| surface_area = 84.95&amp;amp;nbsp;km&amp;lt;sup&amp;gt;2&amp;lt;/sup&amp;gt; (0.082 Earths)
+| volume = 74{{e|10}}&amp;amp;nbsp;km&amp;lt;sup&amp;gt;3&amp;lt;/sup&amp;gt; (0.023 Earths)
+| mass = 1.9483{{e|14}}&amp;amp;nbsp;[[kilogram|kg]] (0.015 Earths)
+| density = 2.6&amp;amp;nbsp;[[gram|g]]/cm&amp;lt;sup&amp;gt;3&amp;lt;/sup&amp;gt;
+| surface_grav = .002&amp;amp;nbsp;[[acceleration|m/s&amp;lt;sup&amp;gt;2&amp;lt;/sup&amp;gt;]] (0.183 &amp;apos;&amp;apos;[[g-force|&amp;apos;&amp;apos;g&amp;apos;&amp;apos;]]&amp;apos;&amp;apos;)
+| escape_velocity = 11 &amp;amp;nbsp;km/h&amp;lt;ref name=&amp;quot;NASA Solar System&amp;quot;&amp;gt;https://sse.jpl.nasa.gov/planets/profile.cfm?Object=Jup_Iocaste&amp;amp;Display=Facts&amp;amp;System=Metric&amp;lt;/ref&amp;gt;
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Iocaste&amp;apos;&amp;apos;&amp;apos; ({{IPAc-en|ˌ|aɪ|.|ɵ|ˈ|k|æ|s|t|iː}} {{respell|EYE|o|KAS|tee}}; Greek: &amp;apos;&amp;apos;Ιοκάστη&amp;apos;&amp;apos;), also known as &amp;apos;&amp;apos;&amp;apos;{{nowrap|Jupiter XXIV}}&amp;apos;&amp;apos;&amp;apos;, is a [[Prograde and retrograde motion|retrograde]] [[irregular satellite|irregular]] [[natural satellite|satellite]] of [[Jupiter]]. It was discovered by a team of astronomers from the [[University of Hawaii]] led by [[Scott S. Sheppard]] in 2000, and given the temporary designation &amp;apos;&amp;apos;&amp;apos;{{nowrap|S/2000 J 3}}&amp;apos;&amp;apos;&amp;apos;.&amp;lt;ref&amp;gt;[http://www.cbat.eps.harvard.edu/iauc/07500/07555.html IAUC 7555: &amp;apos;&amp;apos;Satellites of Jupiter&amp;apos;&amp;apos;] January 5, 2001 (discovery)&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;[http://www.minorplanetcenter.org/mpec/K01/K01A28.html MPEC 2001-A28: &amp;apos;&amp;apos;S/2000 J 2, S/2000 J 3, S/2000 J 4, S/2000 J 5, S/2000 J 6&amp;apos;&amp;apos;] January 5, 2001 (discovery and ephemeris)&amp;lt;/ref&amp;gt;
+
+Iocaste orbits Jupiter at an average distance of 20,723 Mm in 609.427 days, at an [[inclination]] of 147° to the [[ecliptic]] (146° to Jupiter&amp;apos;s equator) with an [[eccentricity (orbit)|eccentricity]] of 0.2874.
+
+It was named in October 2002 after [[Jocasta]],&amp;lt;ref&amp;gt;[http://www.cbat.eps.harvard.edu/iauc/07900/07998.html IAUC 7998: &amp;apos;&amp;apos;Satellites of Jupiter&amp;apos;&amp;apos;] 2002 October 22 (naming the moon)&amp;lt;/ref&amp;gt; the mother/wife of [[Oedipus]] in [[Greek mythology]].
+
+Iocaste belongs to the [[Ananke group]], believed to be the remnants of a break-up of a captured heliocentric asteroid.&amp;lt;ref name=&amp;quot;SheppardJewitt2003&amp;quot;&amp;gt;Sheppard, S. S.; [[David C. Jewitt|Jewitt, D. C.]]; [http://www.ifa.hawaii.edu/~jewitt/papers/JSATS/SJ2003.pdf &amp;apos;&amp;apos;An Abundant Population of Small Irregular Satellites Around Jupiter&amp;apos;&amp;apos;], Nature, Vol. 423 (May 2003), pp. 261-263&amp;lt;/ref&amp;gt;&amp;lt;ref name=&amp;quot;Nesvorny2003&amp;quot;&amp;gt;[[David Nesvorný|Nesvorný, D.]]; [[Jose L. A. Alvarellos|Alvarellos, J. L. A.]]; [[Luke Dones|Dones, L.]]; and [[Harold F. Levison|Levison, H. F.]]; [http://www.journals.uchicago.edu/AJ/journal/issues/v126n1/202528/202528.web.pdf &amp;apos;&amp;apos;Orbital and Collisional Evolution of the Irregular Satellites&amp;apos;&amp;apos;], The Astronomical Journal, Vol. 126 (2003), pp. 398–429&amp;lt;/ref&amp;gt;
+
+The satellite is about 5 kilometres in diameter&amp;lt;ref name=&amp;quot;SheppardJewittPorco2004&amp;quot;&amp;gt;Sheppard, S. S.; Jewitt, D. C.; [[Carolyn C. Porco|Porco, C. C.]]; [http://www.ifa.hawaii.edu/~jewitt/papers/JUPITER/JSP.2003.pdf &amp;apos;&amp;apos;Jupiter&amp;apos;s Outer Satellites and Trojans&amp;apos;&amp;apos;], in &amp;apos;&amp;apos;Jupiter: The Planet, Satellites and Magnetosphere,&amp;apos;&amp;apos; edited by Fran Bagenal, Timothy E. Dowling, and William B. McKinnon, Cambridge Planetary Science, Vol. 1, Cambridge, UK: Cambridge University Press, ISBN 0-521-81808-7, 2004, pp. 263-280&amp;lt;/ref&amp;gt; and appears grey ([[color index|colour indices]] B-V=0.63, R-V=0.36), similar to [[C-type asteroid]]s.&amp;lt;ref name=&amp;quot;Grav2003&amp;quot;&amp;gt;[[Tommy Grav|Grav, T.]]; [[Matthew J. Holman|Holman, M. J.]]; [[Brett J. Gladman|Gladman, B. J.]]; and [[Kaare Aksnes|Aksnes, K.]]; [http://arxiv.org/abs/astro-ph/0301016 &amp;apos;&amp;apos;Photometric survey of the irregular satellites&amp;apos;&amp;apos;], Icarus, Vol. 166 (2003), pp. 33-45&amp;lt;/ref&amp;gt;
+
+==References==
+{{reflist}}
+#&amp;lt;li value=&amp;quot;8&amp;quot;&amp;gt;Ephemeris [http://www.minorplanetcenter.org/iau/NatSats/NaturalSatellites.html IAU-MPC NSES]
+#Mean orbital parameters [http://ssd.jpl.nasa.gov/?sat_elem NASA JPL]
+
+{{Moons of Jupiter}}
+
+{{DEFAULTSORT:Iocaste (Moon)}}
+[[Category:Moons of Jupiter]]
+[[Category:Irregular satellites]]
+[[Category:Astronomical objects discovered in 2000]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Delay"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Delay" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{tocright}}
+{{wiktionary|delay|delayed|delaying}}
+&amp;apos;&amp;apos;&amp;apos;Delay&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+== Generally ==
+*[[Latency (disambiguation)]]
+*[[Response time (disambiguation)]]
+
+== Law ==
+*[[Theft Act 1978#Delaying payment of a debt|To delay payment of a debt]], a crime in the United Kingdom
+
+== Telecommunications and broadcasting==
+*[[Broadcast delay]], a practice of time-shifting transmissions
+*[[Delay encoding]], a radio transmission technique
+*[[Network delay]], the delay of an IP packet within an IP network
+*[[Lag]], a term used when a real-time application fails to respond in a timely fashion
+
+== Physics and electronics ==
+*[[Propagation delay]], a measurement of the time for a signal to reach its destination
+*[[Delay line (disambiguation)]] (multiple meanings), one of any technologies for shifting a signal in time
+
+== Audio ==
+*[[Delay (audio effect)]], a technology for producing delayed playback of an audio signal
+
+==Computer science==
+*[[Delay (programming)]], a programming language construct for delaying evaluation of an expression
+
+==Sports==
+* [[Delay (game)]], official ruling to abnormally stop a sporting event once it has begun due to circumstances that prevent fairness of play, such as inclement weather.
+
+== See also ==
+*[[Tom DeLay]], politician
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

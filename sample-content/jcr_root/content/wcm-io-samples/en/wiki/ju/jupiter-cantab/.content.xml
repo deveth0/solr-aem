@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Jupiter Cantab"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Jupiter Cantab" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Jupiter Cantab Limited&amp;apos;&amp;apos;&amp;apos; was a [[Cambridge]] based [[home computer]] company. Its main product was the 1983 [[Forth (programming language)|Forth]] based [[Jupiter Ace]].
+
+The company was founded in 1982 by two ex-[[Sinclair Research]] staffers, [[Richard Altwasser]] and [[Steve Vickers (academia)|Steven Vickers]]. Their machine was, externally, remarkably similar to the [[ZX Spectrum]], with a copycat rubber keyboard. It also used the same [[Zilog Z80|Z80]] processor. However, the Ace&amp;apos;s video output was limited to  monochrome, unlike the Spectrum&amp;apos;s 8 colour capability.
+
+The £90 Ace was a flop in both the UK and US markets: the Forth language, although considered powerful, was not as popular or accessible as the already well-established BASIC language featured in competing microcomputers. In the US it was sold as the &amp;apos;&amp;apos;Ace 4000&amp;apos;&amp;apos;.
+
+The company went bankrupt in November 1983 and its assets were sold to [[Boldfield Computing|Boldfield Computing Ltd]] in 1984. The remaining hardware was sold-off into 1985.
+
+== External links ==
+
+* [http://www.boldfield.com/ Boldfield Computing Ltd]
+
+{{tech-corp-stub}}
+
+[[Category:Companies established in 1982]]
+
+[[Category:Home computer hardware companies]]
+[[Category:Companies disestablished in 1983]]
+[[Category:Companies based in Cambridge]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

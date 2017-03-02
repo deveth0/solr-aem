@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Jaz drive"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Jaz drive" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=July 2009}}
+[[Image:1gbjaz.jpg|right|300px|thumbnail|Internal and external 1GB Iomega Jaz drives with media.]]
+The &amp;apos;&amp;apos;&amp;apos;Jaz drive&amp;apos;&amp;apos;&amp;apos; was a removable [[disk storage]] system, introduced by the [[Iomega]] company in 1995. The system has since been discontinued.
+The Jaz disks were originally released with a 1 GB capacity (there was also 540 MB, but it was unreleased) in a 3½-inch form factor, which was a significant increase over Iomega&amp;apos;s most popular product at the time, the [[Zip drive]] with its 100 MB capacity.  The Jaz drive used only the [[SCSI]] interface (the [[AT Attachment|IDE]] internal version is rare), but an adapter known as &amp;apos;&amp;apos;&amp;apos;Jaz Traveller&amp;apos;&amp;apos;&amp;apos; was available to connect it to a standard [[Parallel Port]]. The capacity was later increased to 2 GB through a drive and disk revision in 1998, before the Jaz line was ultimately discontinued in 2002.
+
+==Reception==
+
+The Jaz never attained as much success or market penetration as the Zip, and explanations for this vary. Some{{Who|date=September 2010}} attribute it to poor marketing on Iomega&amp;apos;s part or that it was largely unnecessary to transport a gigabyte worth of information at a time when hard drives were still only a few gigabytes.  Others attribute slow sales to its cost per megabyte being too high.  While the Zip drive was marketed as a high-capacity [[floppy disk]], originally the Jaz drive was directed to a higher-end market and saw little in the [[Small office/home office|SOHO]] or consumer markets. Compared to the SCSI Zip drive, which used [[DB25]] connectors, the Jaz used the [[Parallel SCSI#External connectors|HD50]] connectors and supported ID 0-6. While SCSI was standard on the Macintosh platform where the Jaz drive saw use to transfer large [[prepress]] files, the SCSI interface card required to use the drives on PCs was highly priced and was too costly for most home users. The rising popularity and decreasing price of [[CD-R]]/[[CD-RW]] and [[DVD+-R]]/[[DVD+-RW]] drives greatly hurt the success of the drive since their price per megabyte was much lower and because these discs could be read in almost any standard CD-ROM drive.
+
+==Problems==
+
+The Jaz drive by design is much less prone to failure than was the Zip drive. Even so, earlier Jaz drives were prone to overheating and in some cases, loading mechanism jams left a cartridge stuck in the drive. Forcibly ejecting the cartridge in this case usually ends in the destruction of both drive and cartridge. Since they were based on hard disk technology, one big problem that plagues all removable RRD drives is the risk of contaminants ending up in the drive. The Jaz cartridge outside its case is prone to getting dust/grit into it through the hole where the motor drives the platters, and any dust built up on the external case could end up in the drive with the next insertion. Even if this is not the case, the &amp;apos;&amp;apos;metal&amp;apos;&amp;apos; sliding door is capable of wearing the plastic, which results in debris. As a result, [[head crash]]es have occurred with some Jaz drives.
+
+Furthermore, the mechanism used to attach the platters to the spindle motor is complex and prone to vibration (as many complained of noisy drives). Iomega implemented an anti-gyro device (much like an optical CD/DVD drive) within the cartridge to prevent this at spin-up, but it loses effectiveness with age. As a result, the two platters could lose alignment, rendering the cartridge unusable. Also in certain scenarios the plastic gears attached to the bottom of a Jaz cartridge were prone to stripping and breaking which rendered the inserted disk physically damaged and unable to be spun up to operating speed.
+
+==Legacy==
+
+The later [[Iomega REV|REV drive]] was a new attempt to take on the market that the Jaz drive could not, using similar technology.
+
+{{Iomega storage devices}}
+
+{{DEFAULTSORT:Iomega Jaz Drive}}
+[[Category:Iomega storage devices]]
+[[Category:Hard disk drives]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

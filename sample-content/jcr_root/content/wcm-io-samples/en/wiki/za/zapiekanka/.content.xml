@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Zapiekanka"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Zapiekanka" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{more footnotes|date=February 2013}}
+{{Infobox prepared food
+| name             = zapiekanka
+| image            = [[File:Zapiekanka 2..jpg|Zapiekanka|200px]]
+| caption          = &amp;quot;Student&amp;apos;s Zapiekanka&amp;quot;
+| alternate_name   =
+| country          = [[Poland]]
+| region           =
+| creator          =
+| course           =
+| type             =
+| served           =
+| main_ingredient  = [[bread]], [[mushrooms]], [[cheese]], [[ham]], [[meat]], [[vegetable]]
+| variations       =
+| calories         =
+| other            =
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Zapiekanka&amp;apos;&amp;apos;&amp;apos; (derived from &amp;apos;&amp;apos;zapiekać&amp;apos;&amp;apos; – &amp;quot;to scorch&amp;quot;, &amp;quot;to roast&amp;quot;) is a [[Poland|Polish]] halved [[baguette]] or bread topped mainly with [[mushrooms]] and [[cheese]], also [[ham]] or other types of meat, and vegetables. Beside some basic versions there are several recipes like: &amp;quot;zapiekanka na ostro&amp;quot; (spicy Zapiekanka) and &amp;quot;zapiekanka z mięsem&amp;quot; (Zapiekanka with meat). They are usually placed in an oven until the cheese melts and the [[baguette]] or bread is crispy. It is served scalloped and usually topped with dressings like [[ketchup]] and chives. It’s a very popular fast food in Poland. Sidewalk sale prices range between 3 and 7 [[Polish złoty|zł]] for an approx. 25–50&amp;amp;nbsp;cm long Zapiekanka.
+
+A very popular type of Zapiekanka is a &amp;quot;student&amp;apos;s Zapiekanka&amp;quot;, sometimes also called &amp;quot;whatever Zapiekanka&amp;quot;. It is made of whatever is at home at the moment, and the only compulsory ingredients are bread and cheese. It&amp;apos;s very commonly served (as an alternative to sandwiches) to unexpected guests if the host has nothing else to serve. It&amp;apos;s also a quick dish for students, sometimes taking even less time to make than an instant soup. As it can be stored in the fridge before baking, many students prepare a full plate of them at the weekend so that they have something quick and nutritious to eat for the whole week.
+
+&amp;lt;gallery align=&amp;quot;center&amp;quot; widths=&amp;quot;200px&amp;quot; heights=&amp;quot;200px&amp;quot; perrow=4&amp;gt;
+File:Zapiekanki.jpg|
+File:Zapiekanka 3..jpg|
+&amp;lt;/gallery&amp;gt;
+
+== See also ==
+* [[Street food]]
+* [[List of sandwiches]]
+
+==References==
+&amp;lt;references/&amp;gt;
+
+== Further reading ==
+* {{cite book |last = Chwalba | first = Andrzej | author2 = and others | title = Obyczaje w Polsce | publisher = Wydawnictwo Naukowe PWN | place = Warszawa | year = 2006 | pages = 380 | isbn = 83-01-14253-7 }}
+
+{{clear}}
+
+
+{{Commons category}}
+
+[[Category:Polish cuisine]]
+[[Category:Sandwiches]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

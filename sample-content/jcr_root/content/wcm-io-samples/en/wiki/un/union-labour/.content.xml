@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Union Labour"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Union Labour" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{distinguish|Labour union}}
+{{Unreferenced|date=October 2007}}
+In 1922, the largest labour-oriented party in [[Manitoba]], [[Canada]], was the [[Independent Labour Party (in Manitoba) (II)|Independent Labour Party]].  In the provincial election of 1922, the ILP had to compete with other labour candidates from both the left and the right.
+
+The more conservative train unionists nominated two candidates to stand for Winnipeg: [[James Winning]] and [[F.W. McGill]].  These candidates ran under the &amp;apos;&amp;apos;&amp;apos;Union Labour&amp;apos;&amp;apos;&amp;apos; banner, and were associated with remnants of the old [[Dominion Labour Party (in Manitoba)|Dominion Labour Party]]. They also appear to have been affiliated with the [[Canadian Labour Party]].  Neither candidate was successful, and no further candidates were offered under this label in later years.
+
+==See also==
+* [[List of political parties in Canada#Manitoba|List of Manitoba political parties]]
+
+[[Category:Provincial political parties in Manitoba]]
+
+
+{{Manitoba-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

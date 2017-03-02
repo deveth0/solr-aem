@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Operation Sweeny"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Operation Sweeny" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Use dmy dates|date=November 2012}}
+{{Unreferenced|date=November 2009}}
+During the [[Iraq War]], &amp;apos;&amp;apos;&amp;apos;Operation Sweeny&amp;apos;&amp;apos;&amp;apos; was a counter-smuggling sweep of the [[Al Faw Peninsula]] and nearby waters conducted beginning on 15 October 2003. Elements of the [[13th Marine Expeditionary Unit]], operating from the [[USS Peleliu]], used small boats and landed units to capture a number of persons, boats and trucks smuggling fuel out of Iraq.
+
+Followed [[Operation Chamberlain]], followed by [[Operation OK Corral]]
+
+{{Portal box|Iraq}}
+
+{{2003 Operations}}
+{{Iraq War}}
+
+{{DEFAULTSORT:Sweeny}}
+[[Category:Military operations of the Iraq War involving the United States]]
+[[Category:Military operations of the Iraq War in 2003]]
+[[Category:Smuggling]]
+[[Category:United States Marine Corps in the Iraq War]]
+
+
+{{USMC-stub}}
+{{Iraq-hist-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

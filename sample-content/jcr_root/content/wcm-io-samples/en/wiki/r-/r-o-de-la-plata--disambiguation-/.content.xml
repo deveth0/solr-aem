@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Río de la Plata (disambiguation)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Río de la Plata (disambiguation)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;[[Río de la Plata]]&amp;apos;&amp;apos;&amp;apos; (River Plate) is a river estuary in Argentina and Uruguay.
+
+&amp;apos;&amp;apos;&amp;apos;Río de la Plata&amp;apos;&amp;apos;&amp;apos; may also refer to:
+*[[Río de la Plata Basin]], the hydrographical area that covers parts of Argentina, Brazil, Bolivia, Paraguay and Uruguay
+*[[Río de la Plata craton]], one of the five cratons (ancient nuclei) of the South American continent
+*[[Viceroyalty of the Río de la Plata]], an administrative district within the Spanish empire
+*[[Governorate of the Río de la Plata]], an administrative district preceding the viceroyalty
+*[[Río de la Plata Bank]], a building in Madrid by Antonio Palacios
+*[[Rio de la Plata (Puerto Rico)]], a river in Puerto Rico
+
+{{disambig|geo}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

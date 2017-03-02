@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Keith number"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Keith number" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{for|information about Keith Olbermann&amp;apos;s use of the term &amp;quot;Keith number&amp;quot;|Countdown with Keith Olbermann#The &amp;quot;Keith number&amp;quot;}}
+In [[recreational mathematics]], a &amp;apos;&amp;apos;&amp;apos;Keith number&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;repfigit number&amp;apos;&amp;apos;&amp;apos; (short for &amp;apos;&amp;apos;&amp;apos;rep&amp;apos;&amp;apos;&amp;apos;etitive &amp;apos;&amp;apos;&amp;apos;F&amp;apos;&amp;apos;&amp;apos;ibonacci-like d&amp;apos;&amp;apos;&amp;apos;igit&amp;apos;&amp;apos;&amp;apos;) is a number in the following [[integer sequence]]:
+:14, 19, 28, 47, 61, 75, 197, 742, 1104, 1537, 2208, 2580, ....&amp;lt;ref name=OEIS&amp;gt;{{SloanesRef|sequencenumber=A007629|name=Repfigit (REPetitive FIbonacci-like diGIT) numbers (or Keith numbers) }}&amp;lt;/ref&amp;gt;
+Keith numbers were introduced by [[Mike Keith (mathematician)|Mike Keith]] in 1987.&amp;lt;ref&amp;gt;{{cite journal | authorlink = Mike Keith (mathematician) | first = Mike | last = Keith | title = Repfigit Numbers | journal = [[Journal of Recreational Mathematics]] | volume = 19 | year = 1987 }}&amp;lt;/ref&amp;gt;
+They are computationally very challenging to find, with only about 100 known.
+
+==Introduction==
+To determine whether an &amp;apos;&amp;apos;n&amp;apos;&amp;apos;-digit number &amp;apos;&amp;apos;N&amp;apos;&amp;apos; is a Keith number, create a [[Fibonacci number|Fibonacci-like]] sequence that starts with the &amp;apos;&amp;apos;n&amp;apos;&amp;apos; decimal digits of &amp;apos;&amp;apos;N&amp;apos;&amp;apos;, putting the most significant digit first. Then continue the sequence, where each subsequent term is the sum of the previous &amp;apos;&amp;apos;n&amp;apos;&amp;apos; terms. By definition, &amp;apos;&amp;apos;N&amp;apos;&amp;apos; is a Keith number if &amp;apos;&amp;apos;N&amp;apos;&amp;apos; appears in the sequence thus constructed.
+
+As an example, consider the 3-digit number &amp;apos;&amp;apos;N&amp;apos;&amp;apos;&amp;amp;nbsp;=&amp;amp;nbsp;197. The sequence goes like this:
+:&amp;apos;&amp;apos;&amp;apos;1&amp;apos;&amp;apos;&amp;apos;, &amp;apos;&amp;apos;&amp;apos;9&amp;apos;&amp;apos;&amp;apos;, &amp;apos;&amp;apos;&amp;apos;7&amp;apos;&amp;apos;&amp;apos;, 17, 33, 57, 107, 197, 361, ...
+Because 197 appears in the sequence, 197 is seen to be indeed a Keith number.
+
+==Definition==
+A Keith number is a positive integer &amp;apos;&amp;apos;N&amp;apos;&amp;apos; that appears as a term in a linear [[recurrence relation]] with initial terms based on its own decimal digits. Given an &amp;apos;&amp;apos;n&amp;apos;&amp;apos;-digit number
+:&amp;lt;math&amp;gt;N=\sum_{i=0}^{n-1} 10^i  {d_i},&amp;lt;/math&amp;gt;
+a sequence &amp;lt;math&amp;gt;S_N&amp;lt;/math&amp;gt; is formed with initial terms &amp;lt;math&amp;gt;d_{n-1}, d_{n-2},\ldots, d_1, d_0&amp;lt;/math&amp;gt; and with a general term produced as the sum of the previous &amp;apos;&amp;apos;n&amp;apos;&amp;apos; terms. If the number &amp;apos;&amp;apos;N&amp;apos;&amp;apos; appears in the sequence &amp;lt;math&amp;gt;S_N&amp;lt;/math&amp;gt;, then &amp;apos;&amp;apos;N&amp;apos;&amp;apos; is said to be a Keith number. One-digit numbers possess the Keith property trivially, and are usually excluded.
+
+==Finding Keith numbers==
+Whether or not there are infinitely many Keith numbers is currently a matter of speculation. Keith numbers are rare and hard to find. They can be found by exhaustive search and, unfortunately, no more efficient algorithm is known.&amp;lt;ref&amp;gt;{{cite web | last1 = Earls | first1 = Jason | last2 = Lichtblau | first2 = Daniel | last3 = Weisstein | first3 = Eric W. | authorlink = Eric W. Weisstein| title = Keith Number | publisher = [[MathWorld]] | url = http://mathworld.wolfram.com/KeithNumber.html }}&amp;lt;/ref&amp;gt;
+According to Keith, on average &amp;lt;math&amp;gt;\textstyle\frac{9}{10}\log_2{10}\approx 2.99&amp;lt;/math&amp;gt; Keith numbers are expected between successive powers of 10.&amp;lt;ref&amp;gt;{{cite web | authorlink = Mike Keith (mathematician) | first = Mike | last = Keith | title = Keith Numbers | url = http://www.cadaeic.net/keithnum.htm }}&amp;lt;/ref&amp;gt; Known results seem to support this.
+
+==Examples==
+[[14 (number)|14]], [[19 (number)|19]], [[28 (number)|28]], [[47 (number)|47]], [[61 (number)|61]], [[75 (number)|75]], 197, 742, 1104, 1537, 2208, 2580, 3684, 4788, 7385, 7647, 7909, 31331, 34285, 34348, 55604, 62662, 86935, 93993, 120284, 129106, 147640, 156146, 174680, 183186, 298320, 355419, 694280, 925993, 1084051, 7913837, 11436171, 33445755, 44121607, 129572008,&amp;lt;ref name=OEIS/&amp;gt; 251133297.
+
+==Keith clusters==
+A Keith cluster is a related set of Keith numbers such that one is a multiple of another. For example,
+(14, 28), (1104, 2208), and (31331, 62662, 93993). These are possibly the only three examples of a Keith cluster.&amp;lt;ref&amp;gt;{{cite web|last=Copeland|first=Ed|title=14 197 and other Keith Numbers|url=http://www.numberphile.com/videos/197_keith.html|work=Numberphile|publisher=[[Brady Haran]]}}&amp;lt;/ref&amp;gt;
+
+==References==
+{{Reflist}}
+
+==External links==
+{{Classes of natural numbers}}
+[[Category:Base-dependent integer sequences]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

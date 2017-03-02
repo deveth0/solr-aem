@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Gillett"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Gillett" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Gillett&amp;apos;&amp;apos;&amp;apos; is the name of several places in the United States:
+*[[Gillett, Arkansas]]
+*[[Gillett, Wisconsin]]
+*[[Gillett (town), Wisconsin]]
+*[[Gillett, Texas]]
+*[[Gillett Grove, Iowa]]
+
+&amp;apos;&amp;apos;&amp;apos;Gillett&amp;apos;&amp;apos;&amp;apos; as a surname may refer to:
+* [[Fred Gillett]], an astronomer who identified a planetary nebula in Messier 22 in 1986
+* [[Frederick H. Gillett]], former US Speaker of the House, US Representative and US Senator from Massachusetts
+* [[James Gillett]], a Republican politician and 22nd Governor of California from 1907 to 1911
+* [[George N. Gillett Jr.]], an American businessman, owner of various sports teams
+
+== See also ==
+* [[Gillette (disambiguation)]]
+* [[Jillette]]
+
+{{disambig}}
+[[Category:Place name disambiguation pages]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

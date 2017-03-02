@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="File:BritishCrown.jpeg"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="File:BritishCrown.jpeg" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;==Rationale==
+{{Non-free use rationale| Description       = British Crown
+| Source            = Scan of coin
+| Article           = Crown (British coin)
+| Portion           = All
+| Resolution        = Less than 300px in width
+| Purpose           = Fair use in [[Crown (British coin)|British crown coin]] to illustrate a commemorative variation of the obsolete crown coin. Fair use because it doesn&amp;apos;t prevent the UK govt from making money, is of inconsequential use on Wikipedia, and is necessary to describe the various national coats of arms and emblems.
+| Replaceability    = No
+| other_information =
+}}
+{{Non-free use rationale| Description       = British Crown
+| Source            = Scan of coin
+| Article           = Coins of the pound sterling
+| Portion           = All
+| Resolution        = Less than 300px in width
+| Purpose           = Fair use in [[Coins of the pound sterling]] to illustrate a commemorative variation of the obsolete crown coin. Fair use because it doesn&amp;apos;t prevent the UK govt from making money, is of inconsequential use on Wikipedia, and is necessary to describe the various national coats of arms and emblems.
+| Replaceability    = No
+| other_information =
+}}
+==Licensing==
+{{Non-free currency-UK|image has rationale=yes|circulating=no}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

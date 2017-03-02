@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Kinpō, Kagoshima"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Kinpō, Kagoshima" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{nihongo|&amp;apos;&amp;apos;&amp;apos;Kinpō&amp;apos;&amp;apos;&amp;apos;|金峰町|Kinpō-chō}} was a [[towns of Japan|town]] located in [[Hioki District, Kagoshima|Hioki District]], [[Kagoshima Prefecture|Kagoshima]], [[Japan]].
+
+On November 7, 2005 Kinpō was merged with the towns of [[Bonotsu, Kagoshima|Bonotsu]], [[Kasasa, Kagoshima|Kasasa]] and [[Ōura, Kagoshima|Ōura]], all from [[Kawanabe District, Kagoshima|Kawanabe District]], and the old city of [[Kaseda, Kagoshima|Kaseda]], to form the new city of [[Minamisatsuma, Kagoshima|Minamisatsuma]] and no longer exists as an independent [[municipalities of Japan|municipality]].
+
+As of 2003, the town had an estimated [[population]] of 8,099 and the [[population density|density]] of 112.10 persons per km². The total area was 72.25&amp;amp;nbsp;km².
+
+==External links==
+* [http://www.city.minamisatsuma.lg.jp/ Official website of Minamisatsuma] {{ja icon}}
+
+{{DEFAULTSORT:Kinpo, Kagoshima}}
+[[Category:Dissolved municipalities of Kagoshima Prefecture]]
+
+
+{{Kagoshima-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

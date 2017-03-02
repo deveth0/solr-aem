@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Margin"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Margin" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Wiktionarypar|margin}}
+&amp;apos;&amp;apos;&amp;apos;Margin&amp;apos;&amp;apos;&amp;apos;  may refer to:
+
+*[[Margin (economics)]]
+*[[Margin (finance)]], a type of financial collateral used to cover credit risk
+*[[Margin (typography)]], the white space that surrounds the content of a page
+*[[Margin (machine learning)]], the distance between a decision boundary and a data  point
+*[[Margin, Iran]], a village in Qazvin Province
+*[[Continental margin]], the zone of the ocean floor that separates the thin oceanic crust from thick continental crust
+*[[Frequency_distribution#Joint_frequency_distributions|Marginal frequency distribution]] in statistics
+*[[Leaf margin]], the edge of a leaf blade
+*{{USS|Margin|SP-2119}}, also ID-2119, a United States Navy patrol boat in commission from 1918 to 1919
+
+==See also==
+*[[Gross margin]]
+*[[Profit margin]]
+*[[Contribution margin]]
+*[[Surgical margin]]
+*[[Margin of safety (disambiguation)]]
+*[[Marginal (disambiguation)]]
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

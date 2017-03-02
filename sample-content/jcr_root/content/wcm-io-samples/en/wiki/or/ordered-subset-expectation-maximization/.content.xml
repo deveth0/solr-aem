@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ordered subset expectation maximization"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ordered subset expectation maximization" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{about|an algorithm|Israeli food corporation|Osem (company)}}
+In [[mathematical optimization]], the &amp;apos;&amp;apos;&amp;apos;ordered subset expectation maximization&amp;apos;&amp;apos;&amp;apos; (OSEM) method &amp;lt;!-- NOT algorithm --&amp;gt;  is an [[iterative method]] that is used in [[computed tomography]].
+
+In applications in [[medical imaging]], the OSEM method is used  for [[positron emission tomography]], for [[single photon emission computed tomography]], and for [[Computed tomography|X-ray computed tomography]].
+
+The OSEM method is related to the [[expectation maximization]] (EM) method of statistics. The OSEM method is also related to methods of [[filtered back projection]].
+
+==References==
+*Hudson, H.M., Larkin, R.S. (1994) &amp;quot;Accelerated image reconstruction using ordered subsets of projection data&amp;quot;, &amp;apos;&amp;apos;IEEE Trans. Medical Imaging&amp;apos;&amp;apos;, 13 (4), 601&amp;amp;ndash;609 {{doi|10.1109/42.363108}}
+
+*Hutton, Brian F., Hudson, H. Malcolm, Beekman, Freek J. (1997) &amp;quot;A clinical perspective of accelerated statistical reconstruction&amp;quot;, &amp;apos;&amp;apos;European Journal of Nuclear Medicine and Molecular Imaging&amp;apos;&amp;apos;, 24 (7), 797&amp;amp;ndash;808 {{doi|10.1007/BF00879671}}
+
+* Xuan Liu; Comtat, C. ;  Michel, C. ;  Kinahan, P. ;  Defrise, M. ;  Townsend, D. (2001) &amp;quot;Comparison of 3-D reconstruction with 3D-OSEM and with FORE+OSEM for PET&amp;quot;, &amp;apos;&amp;apos;IEEE Transactions on Medical Imaging&amp;apos;&amp;apos;, 20 (8), 804&amp;amp;ndash;814 {{doi|10.1109/42.938248}}
+
+==External links==
+*[http://osem.s-pla.net Home page with IEEE paper and more information]
+*[http://osem.s-pla.net Software]
+
+[[Category:Optimization algorithms and methods]]
+[[Category:Medical statistics]]
+[[Category:Medical imaging]]
+
+{{statistics-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

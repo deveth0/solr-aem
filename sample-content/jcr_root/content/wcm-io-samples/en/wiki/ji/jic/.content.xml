@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="JIC"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="JIC" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;JIC&amp;apos;&amp;apos;&amp;apos; is a [[three-letter abbreviation]] with multiple meanings, as described below:
+* [[John Innes Centre]]
+* [[Joint Intelligence Center]]
+* [[Joint Industrial Council]]
+* [[Incident Command System#Facilities|Joint Information Center]]
+* [[Jordan Insurance Company]]
+* [[Jubail_Industrial_College|Jubail Industrial College, Saudi Arabia]]
+* [[Jubilee International Church]]
+* [[Just_in_Case|Just in Case (Novel)]]
+* [[Just_in_case|Just in case (Manufacturing)]]
+* &amp;quot;just in case&amp;quot; in [[internet slang]]
+* &amp;apos;&amp;apos;[[Communist Left Youth|Juventud de Izquierda Comunista]]&amp;apos;&amp;apos;
+* [[UK Joint Intelligence Committee]]
+* [[JIC fitting|JIC tubing fitting]]
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="List of fictional dinosaurs"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="List of fictional dinosaurs" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;This &amp;apos;&amp;apos;&amp;apos;list of fictional dinosaurs&amp;apos;&amp;apos;&amp;apos; is subsidiary to the [[list of fictional animals]] and is a collection of various notable dinosaur characters that appear in various works of fiction. It is limited to well-referenced examples of dinosaurs in [[literature]], [[film]], [[television]], [[comics]], [[animation]], [[video games]] and [[mythology]].
+
+==Film &amp;amp; Television ==
+{|class=&amp;quot;wikitable sortable&amp;quot;
+!Name
+!Film/Show
+!Notes
+|-
+|Barney
+|&amp;apos;&amp;apos;[[Barney And Friends]]&amp;apos;&amp;apos;
+|Also known as Barney The Friendly/Purple Dinosaur, He&amp;apos;s a [[Tyrannosaurus Rex]]
+|-
+|Baby Bop
+|&amp;apos;&amp;apos;[[Barney And Friends]]&amp;apos;&amp;apos;
+|A three-year old green [[Triceratops]]
+|-
+|B.J.
+|&amp;apos;&amp;apos;[[Barney And Friends]]&amp;apos;&amp;apos;
+|A seven-year-old yellow [[Protoceratops]]
+|-
+|[[Godzilla]]
+|&amp;apos;&amp;apos;[[Godzilla]]&amp;apos;&amp;apos;
+|Also known as Godzillasaurus or King of the Monsters
+|-
+|[[Gorosaurus]]
+|&amp;apos;&amp;apos;[[King Kong Escapes]]&amp;apos;&amp;apos;
+|
+|-
+|[[Paleosaurus]]
+|&amp;apos;&amp;apos;[[Behemoth, the Sea Monster]]&amp;apos;&amp;apos;
+|A prehistoric gargantuan dinosaur saturated by radiation.
+|-
+|[[Rhedosaurus]]
+|&amp;apos;&amp;apos;[[The Beast from 20,000 Fathoms]]&amp;apos;&amp;apos;
+|A frozen carnivore unleashed from the Arctic by a nuclear bomb test.
+|-
+|Riff
+|&amp;apos;&amp;apos;[[Barney And Friends]]&amp;apos;&amp;apos;
+|An orange six-year-old [[Saurolophus]]
+|-
+|[[Titanosaurus (Godzilla)|Titanosaurus]]
+|&amp;apos;&amp;apos; [[Terror of Mechagodzilla]]&amp;apos;&amp;apos;
+|
+|-
+|[[Yonggary]]
+|&amp;apos;&amp;apos; [[Reptilian (film)|Reptilian]]&amp;apos;&amp;apos;
+|
+|}
+
+==Animation==
+{|class=&amp;quot;wikitable sortable&amp;quot;
+!Name
+!Show
+!Notes
+|-
+|[[Bob the Dinosaur|Bob]]
+|&amp;apos;&amp;apos;[[Dilbert (TV series)]]&amp;apos;&amp;apos;
+|Vegetarian dinosaur, who was found hiding behind Dilbert&amp;apos;s couch.
+|-
+|[[Denver, the Last Dinosaur|Denver]]
+|&amp;apos;&amp;apos;[[Denver, the Last Dinosaur]]&amp;apos;&amp;apos;
+|Released from a preserved egg in 1988 [[California]]
+|-
+|[[Dink, the Little Dinosaur|Dink]]
+|&amp;apos;&amp;apos;[[Dink, the Little Dinosaur]]&amp;apos;&amp;apos;
+|A nice, brave and smart [[Apatosaurus]], who has a strong bond with his friends.
+|-
+|[[Dino (The Flintstones)|Dino]]
+|&amp;apos;&amp;apos;[[The Flintstones]]&amp;apos;&amp;apos;
+|Imbued with the characteristics of a pet canine.
+|-
+|[[Gertie the Dinosaur]]
+|&amp;apos;&amp;apos;[[Gertie the Dinosaur|Gertie the Dinosaur (1914)]]&amp;apos;&amp;apos;
+|Brontosaurus smiles and interacts with animator Winsor McCay
+|-
+|[[Reptar]]
+|&amp;apos;&amp;apos;[[Rugrats]]&amp;apos;&amp;apos;
+|Main character of the babies&amp;apos; favourite TV Show. it was based on [[Godzilla]].
+|-
+|[[List of Toy Story characters#Rex|Rex]]
+|&amp;apos;&amp;apos;[[Toy Story]]&amp;apos;&amp;apos;
+|An excitable large, green, plastic [[Tyrannosaurus rex]] who suffers from anxiety, an inferiority complex and the concern that he is not scary enough. Voiced by [[Wallace Shawn]].
+|-
+|[[We&amp;apos;re Back! A Dinosaur&amp;apos;s Story (film)#Voice cast|Rex]]
+|[[We&amp;apos;re Back! A Dinosaur&amp;apos;s Story (film)|We&amp;apos;re Back! A Dinosaur&amp;apos;s Story]]
+|An intelligent Orange [[Tyrannosaurus Rex]] who ceases to become a ravaging dinosaur. Voiced by [[John Goodman]].
+|-
+|[[The Terrible Thunderlizards|Thunderlizards]]
+|&amp;apos;&amp;apos;[[The Terrible Thunderlizards]]&amp;apos;&amp;apos;, [[Eek! The Cat]]
+|A trio of operatives consisting of Doc Tari a [[Parasaurolophus]], Kutter a [[Styracosaurus]] and Squat a [[Allosaurus]] who make numerous attempts to exterminate humans.
+|}
+
+==Video games==
+{|class=&amp;quot;wikitable sortable&amp;quot;
+!Name
+!Game
+!Notes
+|-
+|[[Alex (Tekken)|Alex]]
+|&amp;apos;&amp;apos;[[Tekken (series)|Tekken]]&amp;apos;&amp;apos;
+|Velociraptor
+|-
+|[[Birdo]]
+|&amp;apos;&amp;apos;[[Super Mario Bros. 2]]&amp;apos;&amp;apos;
+|Character of the Mario universe.
+|-
+|[[List of characters in the Star Fox series#Prince Tricky|Tricky]]
+|&amp;apos;&amp;apos;[[Star Fox (series)|Star Fox]]&amp;apos;&amp;apos;
+|Prince of dinosaurs.
+|-
+|[[Red Earth (video game)#Hauzer|Hauzer]]
+|&amp;apos;&amp;apos;[[Red Earth (video game)|Red Earth]]&amp;apos;&amp;apos;
+|A fossil from Savalia, but resurrected by Scion.
+|-
+|&amp;apos;&amp;apos;Novaraptor&amp;apos;&amp;apos;
+|&amp;apos;&amp;apos;[[Primal Carnage]]&amp;apos;&amp;apos;
+|A fictional species created by combining the genetics of multiple dromaeosaur species.
+|-
+|Radical Rex
+|&amp;apos;&amp;apos;[[Radical Rex]]&amp;apos;&amp;apos;
+|A skateboarding, fire-breathing [[Tyrannosaurus rex]].
+|-
+|[[Tyranitar]]
+|&amp;apos;&amp;apos;[[Pokémon]]&amp;apos;&amp;apos;
+|A powerful, [[Godzilla]]-like creature with the ability to destroy the landscape.
+|-
+|[[Groudon]]
+|&amp;apos;&amp;apos;[[Pokémon]]&amp;apos;&amp;apos;
+|A red therapod, representing the [[Behemoth]] in the &amp;apos;&amp;apos;Pokémon&amp;apos;&amp;apos; universe.
+|-
+|[[Cranidos]] and [[Rampardos]]
+|&amp;apos;&amp;apos;[[Pokémon]]&amp;apos;&amp;apos;
+|Pachycephalosaurs revived from fossils.
+|-
+|[[Shieldon]] and [[Bastiodon]]
+|&amp;apos;&amp;apos;[[Pokémon]]&amp;apos;&amp;apos;
+|Ceratopsians revived from fossils.
+|-
+|[[Yoshi]]
+|&amp;apos;&amp;apos;[[Super Mario World]]&amp;apos;&amp;apos;
+|Acts as Mario&amp;apos;s steed and can swallow items and weak enemies.
+|}
+
+==Mythology==
+{|class=&amp;quot;wikitable sortable&amp;quot;
+!Name
+!Notes
+|-
+|[[Mbielu-Mbielu-Mbielu]]
+|(African) believed to be a [[Kentrosaurus]]
+|-
+|[[Muhuru (cryptid)|Muhuru]]
+|(African) white [[stegosaurus]]
+|-
+|[[Mokele-mbembe]]
+|(African) bears a resemblance to [[Sauropods]]
+|-
+|[[Ngoubou]]
+|(African) [[Ceratopsian]]-like cryptid
+|}
+
+==References==
+{{reflist}}
+
+==External links==
+*A list of [http://www.dinosauria.com/jdp/misc/fiction.htm Dinosaurs in Science Fiction Literature], by Michael Brett-Surman.
+{{Fictional biology navbox}}
+
+[[Category:Lists of fictional animals by type|Dinosaurs]]
+[[Category:Lists of fictional reptiles and amphibians|Dinosaurs]]
+[[Category:Fictional dinosaurs|*]]
+[[Category:Dinosaur-related lists|Fictional]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

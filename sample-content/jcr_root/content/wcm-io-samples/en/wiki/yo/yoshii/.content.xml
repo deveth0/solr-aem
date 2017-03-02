@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Yoshii"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Yoshii" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{other_people5|Yoshi (disambiguation)}}
+&amp;apos;&amp;apos;&amp;apos;Yoshii&amp;apos;&amp;apos;&amp;apos; ({{lang-ja|吉井}}) is the name of several places in Japan:
+
+*[[Yoshii, Fukuoka]], a former town in Fukuoka Prefecture
+*[[Yoshii, Gunma]], a former town in Gunma Prefecture
+*[[Yoshii, Nagasaki]], a former town in Nagasaki Prefecture
+*[[Yoshii, Okayama (Akaiwa)]] （吉井町）, a former town in Akaiwa District, Okayama Prefecture
+*[[Yoshii, Okayama (Shitsuki)]] （芳井町）, a former town in Shitsuki District, Okayama Prefecture
+
+Yoshii can also be a Japanese surname:
+* [[Yoshii Isamu]], poet
+* [[Masato Yoshii]], baseball player
+
+[[The Jim Yoshii Pile-Up]] is a band in Oakland, California.
+
+{{disambig}}
+[[Category:Place name disambiguation pages]]
+[[Category:Surnames]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Bitstream format"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Bitstream format" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+A &amp;apos;&amp;apos;&amp;apos;bitstream format&amp;apos;&amp;apos;&amp;apos; is the format of the data found in a [[Stream (computing)|stream]] of bits used in a [[digital communication]] or [[Data storage device|data storage]] application.  The term typically refers to the data format of the output of an [[encoder]], or the data format of the input to a decoder when using [[data compression]].
+
+Standardized [[interoperability]] specifications such as the [[video coding]] standards produced by the [[MPEG]] and the [[ITU-T]], and the audio coding standards produced by the MPEG, often specify only the [[bitstream]] format and the decoding process. This allows encoder implementations to use any methods whatsoever that produce bitstreams which conform to the specified bitstream format.{{clarifyme|reason=What else could the standards specify?|date=January 2012}}
+
+Normally, decoding of a bitstream can be initiated without having to start from the beginning of a &amp;apos;file&amp;apos;, or the beginning of the data transmission. Bitstreams are designed for this to occur.{{citation needed|reason=Probably should go in the bitstream article anyway|date=January 2012}}
+
+==See also==
+* [[Elementary stream]]
+
+{{DEFAULTSORT:Bitstream Format}}
+[[Category:Data compression]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

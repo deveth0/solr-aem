@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Chown"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Chown" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{For|the surname|Chown (surname)}}
+{{lowercase|title=chown}}
+
+The &amp;lt;tt&amp;gt;&amp;apos;&amp;apos;&amp;apos;chown&amp;apos;&amp;apos;&amp;apos;&amp;lt;/tt&amp;gt; [[Command (computing)|command]] (abbreviation for &amp;apos;&amp;apos;&amp;apos;ch&amp;apos;&amp;apos;&amp;apos;ange &amp;apos;&amp;apos;&amp;apos;own&amp;apos;&amp;apos;&amp;apos;er) is used on [[Unix-like]] systems to change the owner of a file. In most implementations,{{citation needed|date=December 2011}} it can only be executed by the [[superuser]], to prevent users simply changing ownership of files that aren&amp;apos;t theirs to access. [[Privilege (Computing)|Unprivileged]] (regular) users who wish to change the group of a file that they own may use &amp;lt;tt&amp;gt;[[chgrp]]&amp;lt;/tt&amp;gt;.
+
+==Usage examples==
+These examples illustrate typical syntax and use. Modifying permissions requires you are either root or have write access to the file. Changing owner requires root privilege.
+
+* Change the owner of &amp;lt;code&amp;gt;/var/run/httpd.pid&amp;lt;/code&amp;gt; to &amp;apos;root&amp;apos; (the standard name for the Superuser).
+&amp;lt;source lang=&amp;quot;bash&amp;quot;&amp;gt;
+ # chown root /var/run/httpd.pid
+&amp;lt;/source&amp;gt;
+
+* Change the owner of &amp;lt;code&amp;gt;strace.log&amp;lt;/code&amp;gt; to &amp;apos;rob&amp;apos; and the group identifier to &amp;apos;developers&amp;apos;.
+&amp;lt;source lang=&amp;quot;bash&amp;quot;&amp;gt;
+ # chown rob:developers strace.log
+&amp;lt;/source&amp;gt;
+
+* Change the owner of &amp;lt;code&amp;gt;/tmp&amp;lt;/code&amp;gt; and &amp;lt;code&amp;gt;/var/tmp&amp;lt;/code&amp;gt; to ‘[[nobody (username)|nobody]]’ (not a good idea), and change the group of &amp;lt;code&amp;gt;/tmp&amp;lt;/code&amp;gt; and &amp;lt;code&amp;gt;/var/tmp&amp;lt;/code&amp;gt; to ‘[[nogroup (groupname)|nogroup]]’
+&amp;lt;source lang=&amp;quot;bash&amp;quot;&amp;gt;
+ # chown nobody:nogroup /tmp /var/tmp
+&amp;lt;/source&amp;gt;
+
+* Change the group identifier of &amp;lt;code&amp;gt;/home&amp;lt;/code&amp;gt; to 512 (regardless of whether a group name is associated with the identifier 512 or not).
+&amp;lt;source lang=&amp;quot;bash&amp;quot;&amp;gt;
+ # chown :512 /home
+&amp;lt;/source&amp;gt;
+
+* Change the ownership of &amp;lt;code&amp;gt;base&amp;lt;/code&amp;gt; to the user &amp;lt;code&amp;gt;foouser&amp;lt;/code&amp;gt; and make it recursive (&amp;lt;code&amp;gt;-R&amp;lt;/code&amp;gt;)
+&amp;lt;source lang=&amp;quot;bash&amp;quot;&amp;gt;
+ # chown -R foouser base
+&amp;lt;/source&amp;gt;
+
+* Change the ownership to newuser and group to newgroup for all of the files and directories in current directory, and all subdirectories (recursively).
+&amp;lt;source lang=&amp;quot;bash&amp;quot;&amp;gt;
+ # chown -R newuser:newgroup .
+&amp;lt;/source&amp;gt;
+
+==See also==
+* &amp;lt;code&amp;gt;[[chgrp]]&amp;lt;/code&amp;gt;
+* &amp;lt;code&amp;gt;[[chmod]]&amp;lt;/code&amp;gt;
+* &amp;lt;code&amp;gt;[[takeown]]&amp;lt;/code&amp;gt;
+
+==External links==
+* {{man|cu|chown|SUS}}
+* [http://nersp.nerdc.ufl.edu/~dicke3/nerspcs/chown.html chown manual page]
+* [http://www.linfo.org/chown.html The chown Command] by The Linux Information Project (LINFO)
+
+{{unix commands}}
+
+[[Category:Operating system security]]
+[[Category:Standard Unix programs]]
+[[Category:Unix SUS2008 utilities]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

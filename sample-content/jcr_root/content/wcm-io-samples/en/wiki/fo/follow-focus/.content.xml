@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Follow focus"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Follow focus" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{unreferenced|date=September 2008}}
+[[Image:Arri_35II_with_anamorphic_zoom.JPG|250px|thumb|An Arri 35mm film camera with a follow focus mechanism mounted to a zoom lens.]]
+[[Image:Abel_Hidalgo_Arri.gif|250px|thumb|Pulling focus using a follow focus device]]
+A &amp;apos;&amp;apos;&amp;apos;follow focus&amp;apos;&amp;apos;&amp;apos; is a focus control mechanism used in [[filmmaking]] with [[film]] cameras and in [[television production]] with [[professional video camera]]s. It is ergonomic rather than strictly necessary; in other words it does not contribute to the basic functionality of a camera but instead allows the operator to be more efficient and precise. It is usually operated by a [[focus puller]] (often called the 1st assistant camera, or 1st AC) but some camera operators prefer to pull their own focus (the act of changing focus is called &amp;quot;pulling&amp;quot; or [[racking focus]]).
+
+The mechanism works through a set of [[gears]] on the follow focus that are attached to teeth on the focus ring of the [[Lens (optics)|lens]]. These gears feed to a wheel which, when turned by a focus puller, will spin the teeth and thus the ring on the lens. Practically, the device is not necessary as the operator can directly turn the ring on the lens. However, this would place the hand in an awkward position perpendicular to the camera rather than parallel, and turning beyond a certain distance (such as 360 degrees) would be impossible. Sometimes, such a &amp;quot;focus pull&amp;quot; would even be difficult with a follow focus, so an L-shaped metal rod called a &amp;apos;&amp;apos;&amp;apos;speed crank&amp;apos;&amp;apos;&amp;apos; can be attached in the provided square hole at the center of the wheel. Thus, the hand merely has to spin the rod, which turns the wheel. If it is necessary for the operator to stand a short distance from the camera, e.g. if the camera is inconveniently high, a short flexible cable called a &amp;quot;focus whip&amp;quot; can be used.
+
+The stationary white disk surrounding the wheel is used by the focus puller to jot down marks, and take care of the focus according to the marks he/she took during rehearsals. A focus puller often uses a tape to correctly measure the distance from the lens to the subject, allowing for accurate marking of the disk.
+
+A manual lens is usually a requisite for professional [[filmmaking]]. This is because some [[autofocus]] lens systems use [[lasers]] or [[infrared]] beams to measure the distance between the lens and the subject. This technique does not anticipate an actor stepping into the foreground of the frame, nor can it focus on anything which is not in the center of the frame.  [[Autofocus#Passive|Passive autofocus]] (not needing lasers or infrared beams) systems cannot always adjust quickly enough to sudden changes.  The job of the focus puller then is to adjust the focus onto different subjects as well as change, or (follow) focus during movement of the camera onto the required subject, hence the term.
+
+A follow focus is usually a compulsory piece of equipment for professional filmmaking, although those with low/no budgets or cameras not equipped with detachable manual lenses will have to do with autofocus systems or turning a lens ring by hand. To make matters worse, most autofocus lenses with a focus ring (such as those on most consumer and [[prosumer]] camcorders) are not &amp;quot;true&amp;quot; manual focus lenses, meaning that turning the ring does not directly adjust the elements inside the lens but rather actuates the electronics inside the camera which predict how the focus should go depending on how fast or far the ring was turned. These lenses make precise and repeatable focus pulls difficult, and use of a follow focus impractical. They are sometimes called &amp;quot;servo&amp;quot; focus lenses or &amp;quot;focus by wire&amp;quot; cameras.
+
+==See also==
+* [[Racking focus]]
+* [[Follow shot]]
+* [http://www.pcworld.com/article/208516/camera_hacks_a_follow_focus_rig_for_a_few_bucks.html?tk=hp_new Homemade Follow Focus Rig]
+* [http://www.pcworld.com/article/255672/lensfocus_shifter_is_the_simplest_45_follow_focus_attachment_you_can_buy.html?tk=hp_new Simple, Affordable Follow Focus Gear]
+* [http://www.ozirigpro.com.au/lanparte-a-b-follow-focus-kit/ Commercial Quality Follow Focus]
+[[Category:Cinematography]]
+[[Category:Film and video technology]]
+
+{{film-tech-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

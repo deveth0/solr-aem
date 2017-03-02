@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Xcon"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Xcon" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;R1&amp;apos;&amp;apos;&amp;apos; (later called &amp;apos;&amp;apos;&amp;apos;XCON&amp;apos;&amp;apos;&amp;apos;, for e&amp;apos;&amp;apos;&amp;apos;X&amp;apos;&amp;apos;&amp;apos;pert &amp;apos;&amp;apos;&amp;apos;CON&amp;apos;&amp;apos;&amp;apos;figurer) program was a production-rule-based system written in [[OPS5]] by [[John P. McDermott]] of [[Carnegie Mellon University|CMU]] in 1978 to assist in the ordering of [[Digital Equipment Corporation|DEC]]&amp;apos;s [[VAX]] computer systems by automatically selecting the computer system components based on the customer&amp;apos;s requirements. The development of XCON followed two previous unsuccessful efforts to write an expert system for this task, in [[FORTRAN]] and [[BASIC]]).
+
+XCON first went into use in 1980 in DEC&amp;apos;s plant in [[Salem, New Hampshire]]. It eventually had about 2500 rules. By 1986, it had processed 80,000 orders, and achieved 95-98% accuracy. It was estimated to be saving DEC $25M a year by reducing the need to give customers free components when technicians made errors, by speeding the assembly process, and by increasing customer satisfaction.
+
+Before XCON, when ordering a VAX from DEC, every cable, connection, and bit of [[software]] had to be ordered separately. (Computers and [[peripherals]] were not sold complete in boxes as they are today). The sales people were not always very technically expert, so customers would find that they had hardware without the correct cables, printers without the correct drivers, a processor without the correct language chip, and so on. This meant delays and caused a lot of customer dissatisfaction and resultant legal action. XCON interacted with the sales person, asking critical questions before printing out a coherent and workable system specification/order slip.
+
+XCON&amp;apos;s success led DEC to [[Rewrite (programming)|rewrite]] XCON as &amp;apos;&amp;apos;&amp;apos;XSEL&amp;apos;&amp;apos;&amp;apos;- a version of XCON intended for use by DEC&amp;apos;s salesforce to aid a customer in properly configuring their VAX (so they wouldn&amp;apos;t, say, choose a computer too large to fit through their doorway or choose too few cabinets for the components to fit in). Location problems and configuration were handled by yet another expert system, &amp;apos;&amp;apos;&amp;apos;XSITE&amp;apos;&amp;apos;&amp;apos;.
+
+McDermott&amp;apos;s 1980 paper on R1 won the [[American Association for Artificial Intelligence|AAAI]] Classic Paper Award in 1999. Legendarily, the name of R1 comes from McDermott, who supposedly said as he was writing it, &amp;quot;Three years ago I wanted to be a knowledge engineer, and today I are one.&amp;quot;
+
+==References==
+*&amp;apos;&amp;apos;The AI Business: The commercial uses of artificial intelligence&amp;apos;&amp;apos;, ed. [[Patrick Winston]] and [[Karen A. Prendergast]]. ISBN 0-262-73077-4
+
+==External links==
+*[http://www.cwa.mdx.ac.uk/bis2040/lect6ES2/xCon.html &amp;quot;Configuration with R1/XCon (1978)&amp;quot;]
+*[http://www.aaai.org/Awards/classic.php &amp;quot;AAAI Classic Paper Award&amp;quot;]
+*[http://www.ruleworks.co.uk/mobat/r1-soar.htm &amp;quot;R1-SOAR: A Research Experiment in Computer Learning&amp;quot;]
+
+[[Category:Expert systems]]
+[[Category:Business software]]
+[[Category:Information systems]]
+[[Category:History of artificial intelligence]]
+
+{{business-software-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

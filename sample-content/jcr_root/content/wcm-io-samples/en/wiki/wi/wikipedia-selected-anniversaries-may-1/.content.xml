@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:Selected anniversaries/May 1"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:Selected anniversaries/May 1" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;lt;noinclude&amp;gt;{{../doc}}
+{{Divhide|Staging area}}
+==Images==
+Use only ONE image at a time
+&amp;lt;gallery&amp;gt;
+File:Orson Welles 1937.jpg|Orson Welles in 1937
+Image:WorldColumbian.JPG|World Columbian Exposition, Chicago, 1893
+File:Overture low.ogg|The Marriage of Figaro Overture (use {{tl|DYK Listen}})
+File:Manhattan at Dusk by slonecker.jpg|Empire State Building
+File:Carol Ann Duffy (cropped).jpg|Carol Ann Duffy
+File:Carolus Linnaeus (cleaned up version).jpg|Carl Linnaeus
+&amp;lt;/gallery&amp;gt;
+
+==Ineligible==
+{|class=&amp;quot;wikitable&amp;quot;
+|-
+!Blurb
+!Reason
+|-
+| &amp;apos;&amp;apos;&amp;apos;[[May Day]]&amp;apos;&amp;apos;&amp;apos;
+| refimprove
+|-
+|[[1893]] – The &amp;apos;&amp;apos;&amp;apos;[[World&amp;apos;s Columbian Exposition]]&amp;apos;&amp;apos;&amp;apos;, a [[Expo (exhibition)|World&amp;apos;s Fair]] to celebrate the 400th anniversary of [[Christopher Columbus]]&amp;apos; discovery of the New World, opened in [[Chicago]].
+|refimprove section
+|-
+| [[1931]] – [[New York City]]&amp;apos;s &amp;apos;&amp;apos;&amp;apos;[[Empire State Building]]&amp;apos;&amp;apos;&amp;apos;, at the time the [[List of tallest buildings and structures in the world|tallest building in the world]], opened.
+| convert list to prose
+|-
+| [[1941]] – &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;[[Citizen Kane]]&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;, a [[List of films considered the best|widely acclaimed film]] by actor and director [[Orson Welles]], premiered.
+| section too detailed
+|-
+|[[1960]] – [[Bombay State]] in India was partitioned into &amp;apos;&amp;apos;&amp;apos;[[Gujarat]]&amp;apos;&amp;apos;&amp;apos; and &amp;apos;&amp;apos;&amp;apos;[[Maharashtra]]&amp;apos;&amp;apos;&amp;apos; along [[Languages of India|linguistic lines]].
+|Gujarat has unreferenced section
+|}
+
+==Eligible==
+
+{{*mp}} [[880]] – The &amp;apos;&amp;apos;&amp;apos;[[Nea Ekklesia]]&amp;apos;&amp;apos;&amp;apos; church in [[Constantinople]] was consecrated, and would go on to set the model for all later [[cross-in-square]] [[Eastern Orthodox Church|Orthodox]] churches.
+{{*mp}} [[1707]] – Under the terms of the [[Acts of Union 1707|Acts of Union]]&amp;lt;!--Not bolded, tagged with {{refimprove}}--&amp;gt;, the Kingdoms of England and Scotland merged to form the &amp;apos;&amp;apos;&amp;apos;[[Kingdom of Great Britain]]&amp;apos;&amp;apos;&amp;apos;, a single kingdom encompassing the entire island of [[Great Britain]] with a [[Parliament of Great Britain|single parliament]] and government based in [[Westminster]].
+{{*mp}} [[1753]] – &amp;apos;&amp;apos;&amp;apos;[[Carl Linnaeus]]&amp;apos;&amp;apos;&amp;apos; published his &amp;apos;&amp;apos;[[Species Plantarum]]&amp;apos;&amp;apos;&amp;lt;!--not bolded, stubby--&amp;gt;, which, with his earlier work &amp;apos;&amp;apos;[[Systema Naturae]]&amp;apos;&amp;apos;, is considered the beginning of modern [[botanical nomenclature]].
+{{*mp}} [[1786]] – &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;[[The Marriage of Figaro]]&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;, an [[opera buffa]] composed by [[Wolfgang Amadeus Mozart]], premiered at the [[Burgtheater]] in [[Vienna]].
+{{*mp}} [[1794]] – [[War of the Pyrenees]]: France regained nearly all the land it lost to Spain the previous year with its victory in the &amp;apos;&amp;apos;&amp;apos;[[Battle of Boulou]]&amp;apos;&amp;apos;&amp;apos;.
+{{*mp}} [[1865]] – Brazil, Uruguay and Argentina signed &amp;apos;&amp;apos;&amp;apos;[[Treaty of the Triple Alliance|a treaty]]&amp;apos;&amp;apos;&amp;apos; creating an alliance against Paraguay in the [[War of the Triple Alliance]].
+{{*mp}} [[1885]] – The original &amp;apos;&amp;apos;&amp;apos;[[Chicago Board of Trade Building]]&amp;apos;&amp;apos;&amp;apos; opened for business.
+{{*mp}} [[1898]] – The American [[Asiatic Squadron]] under [[Commodore (USN)|Commodore]] [[George Dewey]] defeated the Spanish Pacific Squadron under Admiral [[Patricio Montojo]] at the &amp;apos;&amp;apos;&amp;apos;[[Battle of Manila Bay]]&amp;apos;&amp;apos;&amp;apos;, the first engagement of the [[Spanish–American War]].
+{{*mp}} [[2009]] – &amp;apos;&amp;apos;&amp;apos;[[Carol Ann Duffy]]&amp;apos;&amp;apos;&amp;apos; was appointed [[Poet Laureate of the United Kingdom]], the first woman, the first Scot, and the first openly [[Bisexuality|bisexual]] person to hold the position, as well as the first laureate to be chosen in the 21st century.
+&amp;lt;/ul&amp;gt;
+
+==Notes==
+{{*mp}} [[Woolworth Building]] appears on [[Wikipedia:Selected anniversaries/April 24|April 24]], so Empire State Building should not appear in the same year
+{{divhide|end}}
+&amp;lt;/noinclude&amp;gt;
+&amp;apos;&amp;apos;&amp;apos;[[May 1]]&amp;apos;&amp;apos;&amp;apos;: &amp;apos;&amp;apos;&amp;apos;[[International Workers&amp;apos; Day]]&amp;apos;&amp;apos;&amp;apos;; &amp;apos;&amp;apos;&amp;apos;[[Beltane]]&amp;apos;&amp;apos;&amp;apos; in Ireland and Scotland; &amp;apos;&amp;apos;&amp;apos;[[Law Day, U.S.A.|Law Day]]&amp;apos;&amp;apos;&amp;apos; and &amp;apos;&amp;apos;&amp;apos;[[Loyalty Day]]&amp;apos;&amp;apos;&amp;apos; in the United States
+&amp;lt;div style=&amp;quot;float:right;margin-left:0.5em&amp;quot;&amp;gt;
+[[Image:Penny black.jpg|Penny Black postage stamp|100x100px]]
+&amp;lt;/div&amp;gt;
+{{*mp}} [[1776]] – The &amp;apos;&amp;apos;&amp;apos;[[Illuminati|Order of the Illuminati]]&amp;apos;&amp;apos;&amp;apos;, a [[secret society]], was founded by [[Adam Weishaupt]] and [[Adolph von Knigge]] in [[Ingolstadt]], [[Bavaria]], Germany.
+{{*mp}} [[1840]] – The United Kingdom issued the &amp;apos;&amp;apos;&amp;apos;[[Penny Black]]&amp;apos;&amp;apos;&amp;apos; &amp;apos;&amp;apos;(pictured)&amp;apos;&amp;apos;, the world&amp;apos;s first official adhesive [[postage stamp]].
+{{*mp}} [[1851]] – &amp;apos;&amp;apos;&amp;apos;[[The Great Exhibition]]&amp;apos;&amp;apos;&amp;apos;, the first ever [[world&amp;apos;s fair]], opened in [[London]]&amp;apos;s [[Hyde Park, London|Hyde Park]].
+{{*mp}} [[1897]] – The [[Hinduism|Hindu]] [[Monasticism|monastic order]] &amp;apos;&amp;apos;&amp;apos;[[Ramakrishna Mission|Sri Ramakrishna Math and Mission]]&amp;apos;&amp;apos;&amp;apos; was founded by [[Swami Vivekananda]].
+{{*mp}} [[1947]] – Italian separatist [[Salvatore Giuliano]] and his gang &amp;apos;&amp;apos;&amp;apos;[[Portella della Ginestra massacre|fired into a crowd]]&amp;apos;&amp;apos;&amp;apos; of [[May Day]] marchers near [[Piana degli Albanesi]], [[Sicily]], killing 11 and wounding 33.
+{{*mp}} [[1956]] – A doctor in Japan reported an &amp;quot;[[epidemic]] of an unknown disease of the [[central nervous system]]&amp;quot;, marking the official discovery of &amp;apos;&amp;apos;&amp;apos;[[Minamata disease]]&amp;apos;&amp;apos;&amp;apos;.
+&amp;lt;/ul&amp;gt;
+{{SelAnnivFooter|Month=May|Day=1}}&amp;lt;noinclude&amp;gt;
+&amp;lt;/noinclude&amp;gt;&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

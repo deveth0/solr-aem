@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Open-label trial"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Open-label trial" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;An &amp;apos;&amp;apos;&amp;apos;open-label trial&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;open trial&amp;apos;&amp;apos;&amp;apos; is a type of [[clinical trial]] in which both the researchers and participants know which treatment is being administered.&amp;lt;ref name=&amp;quot;urlDefinition: open-label trial from Online Medical Dictionary&amp;quot;&amp;gt;{{cite web |url=http://cancerweb.ncl.ac.uk/cgi-bin/omd?open-label+trial |title=Definition: open-label trial from Online Medical Dictionary |format= |work= |accessdate=}}&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;{{cite web
+|url=http://www.cancer.gov/dictionary?CdrID=285990
+|title=Open label study entry in the public domain NCI Dictionary of Cancer Terms}}&amp;lt;/ref&amp;gt;
+This contrasts with [[single blind]] and [[double blind]] experimental designs, where participants are not aware of what treatment they are receiving (researchers are also unaware in a double blind trial).
+
+Open-label trials may be appropriate for comparing two very similar treatments to determine which is most effective.  An open-label trial may be unavoidable under some circumstances, such as comparing the effectiveness of a medication to intensive physical therapy sessions.
+
+An open-label trial may still be [[randomized controlled trial|randomized]].  Open-label trials may also be uncontrolled, with all participants receiving the same treatment.
+
+==References==
+{{reflist}}
+
+{{med-stub}}
+{{Medical research studies}}
+
+[[Category:Design of experiments]]
+[[Category:Pharmacology]]
+[[Category:Clinical research]]
+[[Category:Scientific method]]
+[[Category:Medical research]]
+[[Category:Medical statistics]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

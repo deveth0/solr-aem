@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Auction catalog"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Auction catalog" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{unref|date=April 2009}}
+An &amp;apos;&amp;apos;&amp;apos;auction catalog&amp;apos;&amp;apos;&amp;apos; (US spelling) or &amp;apos;&amp;apos;&amp;apos;auction catalogue&amp;apos;&amp;apos;&amp;apos; (British spelling) is a catalogue that lists items to be sold at an [[auction]]. It is made available some time before the auction date. Auction catalogs for rare and expensive items, such as some [[art]], [[books]], [[jewelry]], [[postage stamp]]s, and [[antique furniture]], are of interest in themselves: they will often include detailed descriptions of the items, their [[provenance]], historical significance, photographs, and so forth.
+
+In some cases, auction catalogues are key documentation for rare objects that are in private collections, and make up an important part of the libraries of students and dealers of the rarities.
+
+Each entry typically includes a &amp;quot;lot number&amp;quot; identifying each item uniquely, a description of the item, and either an estimated price or a &amp;quot;reserve&amp;quot; price below which the item will not be sold. Photographs may appear with the entry, or grouped into a separate section of the catalog; for lower value items, the textual description may be considered sufficient.
+
+As a combined information source and &amp;quot;sales brochure&amp;quot;, an auction catalog must tread a fine line between accuracy and promotion. For instance, any damages or flaws must be described exactly, so that buyers cannot claim to have been deceived, but at the same time the description will typically include words playing down the bad points (as in &amp;quot;brownish spot that does not detract from appearance&amp;quot; or &amp;quot;faint crease, as is common&amp;quot;). Similarly, positive features are highlighted, such as &amp;quot;one of only four known examples of this type&amp;quot;, or perhaps a photograph of an item of jewelry being worn by a famous person.
+
+Auction catalogs may be sent to favored customers without charge, but catalogs may be charged for, sometimes as much or more than other kinds of book. Important historical catalogs may be sold by bookstores, or even appear as items in book auctions.
+
+Some time after the auction is concluded, recipients of the auction catalogs may receive a &amp;quot;prices realized&amp;quot; document, a bare listing of the lot numbers and the prices for which each was sold.
+
+[[Category:Catalogues]]
+[[Category:Auctions and trading]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

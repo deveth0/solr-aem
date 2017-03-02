@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Cinema"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Cinema" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Wiktionary|cinema}}
+&amp;apos;&amp;apos;&amp;apos;Cinema&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* [[Filmmaking]], the process of making a film
+* [[Movie theater]], a building in which films are shown
+* [[Cinema (2008 film)|&amp;apos;&amp;apos;Cinema&amp;apos;&amp;apos; (2008 film)]] or &amp;apos;&amp;apos;Bommalattam&amp;apos;&amp;apos;, a Tamil film
+* [[Cinema (TV channel)]], a defunct Scandinavian movie channel
+* [[Cinema 4D]], a 3D graphics application
+
+In &amp;apos;&amp;apos;&amp;apos;music&amp;apos;&amp;apos;&amp;apos;:
+* [[Cinema (band)]], a 1982 band formed by ex-Yes members Alan White and Chris Squire
+* [[Cinema (The Cat Empire album)|&amp;apos;&amp;apos;Cinema&amp;apos;&amp;apos; (The Cat Empire album)]]
+* [[Cinema (Elaine Paige album)|&amp;apos;&amp;apos;Cinema&amp;apos;&amp;apos; (Elaine Paige album)]]
+* [[Cinema (Nazareth album)|&amp;apos;&amp;apos;Cinema&amp;apos;&amp;apos; (Nazareth album)]], or the title song
+* [[Cinema (Yes song)|&amp;quot;Cinema&amp;quot; (Yes song)]]
+* [[Cinéma (song)|&amp;quot;Cinéma&amp;quot; (song)]], a song by Paola di Medico
+* [[Cinema (Benny Benassi song)|&amp;quot;Cinema&amp;quot; (Benny Benassi song)]]
+* &amp;apos;&amp;apos;Cinema&amp;apos;&amp;apos;, an album by [[Cachorro Grande]]
+* &amp;apos;&amp;apos;Cinema&amp;apos;&amp;apos;, an album by [[Ian Campbell (artist)|ICE MC]], or the title song
+* &amp;apos;&amp;apos;Cinéma&amp;apos;&amp;apos;, an orchestral composition by [[Erik Satie]] later arranged for [[piano duet]] by [[Darius Milhaud]]
+
+==See also==
+* [[Cinematography]], the art of recording visual images
+* {{Lookfrom|Cinema}}
+
+Shiloh Cinema is a person.
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

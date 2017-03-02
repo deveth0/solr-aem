@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Prophage"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Prophage" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Image:prophage SVG.svg|225px|thumb|Formation of a prophage]]A &amp;apos;&amp;apos;&amp;apos;prophage&amp;apos;&amp;apos;&amp;apos; is a [[phage]] (viral) [[genome]] inserted and integrated into the circular bacterial DNA chromosome or existing as an extrachromosomal [[plasmid]]. This is a latent form of a [[phage|bacteriophage]], in which the viral genes are present in the [[bacteria|bacterium]] without causing disruption of the bacterial [[cell (biology)|cell]].
+
+Upon detection of host cell damage, such as UV light or certain chemicals, the prophage is excised from the bacterial chromosome in a process called prophage induction. After induction, viral replication begins via the [[lytic cycle]]. In the lytic cycle, the virus commandeers the cell&amp;apos;s reproductive machinery. The cell may fill with new viruses until it lyses or bursts, or it may release the new viruses one at a time in a reverse endocytotic process. The period from infection to lysis is termed the latent period. A virus following a lytic cycle is called a virulent virus. Prophages are important agents of [[horizontal gene transfer]], and are considered part of the [[mobilome]]. All families of bacterial viruses with circular (single-stranded or double-stranded) DNA genomes or replicating their genomes through a circular intermediate (e.g., [[Caudovirales]]) have temperate members.&amp;lt;ref&amp;gt;{{cite journal|title=Genomics of bacterial and archaeal viruses: dynamics within the prokaryotic virosphere|journal=Microbiol Mol Biol Rev|year=2011|volume=75|issue=4|pages=610-635|doi=10.1128/MMBR.00011-11|pmid=22126996|author=Krupovic M, Prangishvili D, Hendrix RW, Bamford DH|pmc=3232739}}&amp;lt;/ref&amp;gt;
+
+==Zygotic induction==
+
+{{Main|Zygotic induction}}
+
+If a target cell doesn&amp;apos;t have the same prophage, upon infection by a phage the lytic pathway is immediately activated. This phenomenon is called [[Zygotic induction]].
+
+== References ==
+{{Reflist}}
+
+==See also==
+{{Wikispecies|virus}}
+*[[Provirus]]
+
+[[Category:Virology]]
+[[Category:Bacteriophages]]
+
+{{Virus-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

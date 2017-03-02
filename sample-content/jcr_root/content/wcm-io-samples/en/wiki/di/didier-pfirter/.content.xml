@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Didier Pfirter"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Didier Pfirter" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Didier Pfirter&amp;apos;&amp;apos;&amp;apos; (born 1959, [[Basel]]) is a [[Switzerland|Swiss]] [[diplomat]].
+
+He was the legal advisor to [[Álvaro de Soto]], the Special Cyprus Advisor of the [[United Nations|UN]]&amp;apos;s [[Secretary-General]] [[Kofi Annan]] and Ambassador at Large for Special Assignments at the Swiss Ministry for Foreign Affairs.
+
+Pfirter was appointed Swiss ambassador to [[Colombia]] in 2008.
+
+==External links==
+*[http://www.colsuizacam.com/Ingles/index.html Appointment as ambassador to Colombia]
+
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Pfirter, Didier
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION =
+| DATE OF BIRTH     = 1959
+| PLACE OF BIRTH    =
+| DATE OF DEATH     =
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Pfirter, Didier}}
+[[Category:1959 births]]
+[[Category:Living people]]
+[[Category:Ambassadors of Switzerland to Colombia]]
+
+
+{{UN-bio-stub}}
+{{Switzerland-politician-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

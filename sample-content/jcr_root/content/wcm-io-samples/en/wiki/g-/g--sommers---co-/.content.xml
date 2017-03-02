@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="G. Sommers &amp; Co."
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="G. Sommers &amp; Co." />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=July 2009}}&amp;apos;&amp;apos;&amp;apos;G. Sommers &amp;amp; Co.&amp;apos;&amp;apos;&amp;apos; was an American [[Mail-order catalog|catalog]] retailer based in [[Minneapolis, Minnesota]]. At the turn of the 20th century, it was one of the largest businesses of its kind in the United States, with an area of distribution ranging from the [[Great Lakes (North America)|Great Lakes]] west to the [[Pacific Ocean]] and from the border of [[Canada]] to [[San Francisco, California]].
+
+{{DEFAULTSORT:G. Sommers and Co.}}
+[[Category:Defunct retail companies of the United States]]
+[[Category:Companies based in Minneapolis, Minnesota]]
+
+
+{{US-retail-company-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

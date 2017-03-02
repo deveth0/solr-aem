@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="UP (complexity)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="UP (complexity)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[computational complexity theory|complexity theory]], &amp;apos;&amp;apos;&amp;apos;UP&amp;apos;&amp;apos;&amp;apos; (&amp;quot;Unambiguous Non-deterministic Polynomial-time&amp;quot;) is the [[complexity class]] of [[decision problem]]s solvable in [[polynomial time]] on a [[non-deterministic Turing machine]] with at most one accepting path for each input. &amp;apos;&amp;apos;&amp;apos;UP&amp;apos;&amp;apos;&amp;apos; contains &amp;apos;&amp;apos;&amp;apos;[[P (complexity)|P]]&amp;apos;&amp;apos;&amp;apos; and is contained in &amp;apos;&amp;apos;&amp;apos;[[NP (complexity)|NP]]&amp;apos;&amp;apos;&amp;apos;.
+
+A common reformulation of &amp;apos;&amp;apos;&amp;apos;NP&amp;apos;&amp;apos;&amp;apos; states that a language is in &amp;apos;&amp;apos;&amp;apos;NP&amp;apos;&amp;apos;&amp;apos; if and only if a given answer can be verified by a deterministic machine in polynomial time. Similarly, a language is in &amp;apos;&amp;apos;&amp;apos;UP&amp;apos;&amp;apos;&amp;apos; if a given answer can be verified in polynomial time, and the verifier machine only accepts at most &amp;apos;&amp;apos;one&amp;apos;&amp;apos; answer for each problem instance. More formally, a language &amp;apos;&amp;apos;L&amp;apos;&amp;apos; belongs to &amp;apos;&amp;apos;&amp;apos;UP&amp;apos;&amp;apos;&amp;apos; if there exists a two input polynomial time algorithm &amp;apos;&amp;apos;A&amp;apos;&amp;apos; and a constant c such that
+:if x in L , then there exists a unique certificate y with |y| = O(|x|&amp;lt;sup&amp;gt;c&amp;lt;/sup&amp;gt;) such that A(x,y) = 1
+:if x isn&amp;apos;t in L, there is no certificate y with |y| = O(|x|&amp;lt;sup&amp;gt;c&amp;lt;/sup&amp;gt;) such that A(x,y) = 1
+
+Algorithm A verifies &amp;apos;&amp;apos;L&amp;apos;&amp;apos; in polynomial time.
+
+&amp;apos;&amp;apos;&amp;apos;UP&amp;apos;&amp;apos;&amp;apos; (and its [[complement (complexity)|complement]] &amp;apos;&amp;apos;&amp;apos;co-UP&amp;apos;&amp;apos;&amp;apos;) contain both the [[integer factorization]] problem and [[parity game]] problem; because determined effort has yet to find a polynomial-time solution to any of these problems, it is suspected to be difficult to show &amp;apos;&amp;apos;&amp;apos;P&amp;apos;&amp;apos;&amp;apos;=&amp;apos;&amp;apos;&amp;apos;UP&amp;apos;&amp;apos;&amp;apos;, or even &amp;apos;&amp;apos;&amp;apos;P&amp;apos;&amp;apos;&amp;apos;=(&amp;apos;&amp;apos;&amp;apos;UP&amp;apos;&amp;apos;&amp;apos; ∩ &amp;apos;&amp;apos;&amp;apos;co-UP&amp;apos;&amp;apos;&amp;apos;).
+
+The [[Valiant-Vazirani theorem]] states that &amp;apos;&amp;apos;&amp;apos;NP&amp;apos;&amp;apos;&amp;apos; is contained in &amp;apos;&amp;apos;&amp;apos;RP&amp;apos;&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;&amp;apos;&amp;apos;&amp;apos;Promise-UP&amp;apos;&amp;apos;&amp;apos;&amp;lt;/sup&amp;gt;, which means that there is a randomized reduction from any problem in &amp;apos;&amp;apos;&amp;apos;NP&amp;apos;&amp;apos;&amp;apos; to a problem in &amp;apos;&amp;apos;&amp;apos;[[promise problem|Promise-UP]]&amp;apos;&amp;apos;&amp;apos;.
+
+&amp;apos;&amp;apos;&amp;apos;UP&amp;apos;&amp;apos;&amp;apos; is not known to have any [[Complete (complexity)|complete]] problems.&amp;lt;ref&amp;gt;{{CZoo|UP|U#up}}&amp;lt;/ref&amp;gt;
+
+==References==
+{{Reflist}}
+
+{{ComplexityClasses}}
+
+[[Category:Complexity classes]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

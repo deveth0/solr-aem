@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Counting measure"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Counting measure" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[mathematics]], the &amp;apos;&amp;apos;&amp;apos;counting measure&amp;apos;&amp;apos;&amp;apos; is an intuitive way to put a [[measure (mathematics)|measure]] on any [[Set (mathematics)|set]]: the &amp;quot;size&amp;quot; of a [[subset]] is taken to be the number of elements in the subset, if the subset has finitely many elements, and [[&amp;amp;infin;]] if the subset is [[infinite_set|infinite]].&amp;lt;ref name=&amp;quot;pm&amp;quot;&amp;gt;{{PlanetMath|urlname=CountingMeasure|title=Counting Measure}}&amp;lt;/ref&amp;gt;
+
+The counting measure can be defined on any measurable set, but is mostly used on [[countable]] sets.&amp;lt;ref name=&amp;quot;pm&amp;quot; /&amp;gt;
+
+In formal notation, we can make any set &amp;lt;math&amp;gt;X&amp;lt;/math&amp;gt; into a [[measurable space]] by taking the [[sigma-algebra]] of measurable subsets to consist of all subsets of &amp;lt;math&amp;gt;X&amp;lt;/math&amp;gt;.   Then the counting measure &amp;lt;math&amp;gt;\mu&amp;lt;/math&amp;gt; on this measurable space is the positive measure &amp;lt;math&amp;gt;\Sigma\rightarrow[0,+\infty]&amp;lt;/math&amp;gt; defined by
+
+:&amp;lt;math&amp;gt;
+\mu(A)=\begin{cases}
+\vert A \vert &amp;amp; \text{if } A \text{ is finite}\\
++\infty &amp;amp; \text{if } A \text{ is infinite}
+\end{cases}
+&amp;lt;/math&amp;gt;
+
+for all &amp;lt;math&amp;gt;A\in\Sigma&amp;lt;/math&amp;gt;, where &amp;lt;math&amp;gt;\vert A\vert&amp;lt;/math&amp;gt; denotes the [[cardinality]] of the set &amp;lt;math&amp;gt;A&amp;lt;/math&amp;gt;.&amp;lt;ref&amp;gt;Schilling (2005), p.27&amp;lt;/ref&amp;gt;
+
+The counting measure on &amp;lt;math&amp;gt;(X,\Sigma)&amp;lt;/math&amp;gt; is [[σ-finite]] if and only if the space &amp;lt;math&amp;gt;X&amp;lt;/math&amp;gt; is [[countable]].&amp;lt;ref&amp;gt;Hansen (2009) p.47&amp;lt;/ref&amp;gt;
+
+==Notes==
+{{Reflist}}
+==References==
+*Schilling, René L. (2005).&amp;quot;Measures, Integral and Martingales&amp;quot;. Cambridge University Press.
+*Hansen, Ernst (2009).&amp;quot;Measure theory, Fourth Edition&amp;quot;. Department of Mathematical Science, University of Copenhagen.
+{{DEFAULTSORT:Counting Measure}}
+[[Category:Measures (measure theory)]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

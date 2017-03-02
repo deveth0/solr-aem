@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:Articles for deletion/Configurism"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:Articles for deletion/Configurism" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;gets no google hits, website link doesn&amp;apos;t work, not linked to. [[User:Maximus Rex|Maximus Rex]] 21:56, 8 May 2004 (UTC)
+
+* Delete. Neologism, it can come back if its still around in 2 years. - [[User:Topbanana|TB]] 22:41, 8 May 2004 (UTC)
+* Delete -- [[User:Cyrius|Cyrius]]|[[User talk:Cyrius|&amp;amp;#9998]] 22:42, May 8, 2004 (UTC)
+* Delete [[User:WPWoodJr|WPWoodJr]] 05:33, 9 May 2004 (UTC)
+* Delete: [[User:Jaredwf|jaredwf]] 14:54, 9 May 2004 (UTC)
+* Could be interesting. Is there any possibility to &amp;quot;store&amp;quot; it till there is either more information on the topic or less (meaning: It isn&amp;apos;t worth an article)? If no, there&amp;apos;s no possibilty, delete it. [[User:Sidney|Sid]] 16:50, 10 May 2004 (UTC)&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

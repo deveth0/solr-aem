@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Xanthoproteic acid"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Xanthoproteic acid" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[File:Xanthoprotein-Reaktion.jpg|thumb|Xanthoproteic-reaction]]
+&amp;apos;&amp;apos;&amp;apos;Xanthoproteic acid&amp;apos;&amp;apos;&amp;apos; is a noncrystallizable yellow substance derived from proteins upon treatment with nitric acid. [[Nitric acid]] reacts with proteins to form yellow nitrated products. This reaction is known as the [[xanthoproteic reaction]]. This test is carried out by adding concentrated nitric acid to the substance being tested, and then heating the mixture. If proteins are present that contains amino acids with aromatic rings, the mixture turns yellow. Upon adding a strong base such as liquid ammonia, the color turns orange. These color changes are caused by nitrated aromatic rings in the protein. Xanthoproteins are formed when the acid contacts epithelial cells and are a certain giveaway of inadequate safety precautions when handling nitric acid.
+
+{{chemistry-stub}}
+
+[[Category:Organic acids]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Torsion"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Torsion" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary}}
+The word &amp;apos;&amp;apos;&amp;apos;torsion&amp;apos;&amp;apos;&amp;apos; may refer to the following:
+
+*In geometry:
+** [[Torsion of a curve]]
+** [[Torsion tensor]] in differential geometry
+** The closely related concepts of [[Reidemeister torsion]] (also called R-torsion, Franz torsion, de Rham torsion) and analytic torsion (also called Ray-Singer torsion)
+** [[Whitehead torsion]]
+
+*In algebra:
+** [[Torsion (algebra)]]
+** [[Tor functor]]
+** [[Torsion-free module]]
+
+* In medicine:
+** Of bones, &amp;quot;torsion fracture&amp;quot; is another term for [[spiral fracture]].
+** Of [[Organ (anatomy)|organs]], torsion refers to twisting, in particular twisting that interrupts the blood supply to that organ, e.g. splenic torsion, [[ovarian torsion]], or [[testicular torsion]].
+** Torsion of the digestive tract in some domestic animals:
+*** A type of [[Horse colic#Torsion|horse colic]]
+*** One complication of [[bloat]] (gastric torsion)
+
+* In physics and engineering:
+** [[Torsion (mechanics)]]
+** [[Torsion coefficient]]
+** [[Torsion pendulum]]
+** [[Torsion spring]] or -bar
+** [[Torsion field (pseudoscience)]], a field alleged to make faster-than-light communication and paranormal phenomena possible, a theory by Russian scientists
+** The field used in [[Einstein–Cartan theory]] and other [[alternatives to general relativity]] that involve torsion of spacetime
+
+* In biology:
+** [[Torsion (gastropod)]], a developmental feature of all gastropods
+
+* In warfare:
+** [[Torsion siege engine]], a kind of catapult
+
+{{mathdab}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

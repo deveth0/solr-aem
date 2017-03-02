@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="IBM 1013"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="IBM 1013" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{refimprove|date=September 2012}}
+
+The &amp;apos;&amp;apos;&amp;apos;IBM 1013&amp;apos;&amp;apos;&amp;apos; Card Transmission Terminal was a device manufactured by [[IBM]] from 1961 which transmitted the data held on [[Punched card|80-column cards]] to a remote computer or another 1013.&amp;lt;ref&amp;gt;{{cite web|last=IBM Corporation|title=IBM Archives Reference / FAQ / Products and Services|url=http://www-03.ibm.com/ibm/history/reference/faq_0000000011.html|accessdate=September 4, 2012}}&amp;lt;/ref&amp;gt;
+
+The speed was generally considered 100 cards per minute but could be faster if programmed to send/receive only a portion of the cards if all 80 columns were not used.  It needed a full-duplex circuit to operate but at any given time could only transmit or receive.
+
+==References==
+{{Reflist}}
+
+==External links==
+* [http://www.computerhistory.org/collections/accession/102646606 &amp;quot;IBM 1013 Card Transmission Terminal / Communicating Reader-Punch&amp;quot; at Computer History Museum]
+
+[[Category:IBM unit record equipment|1013]]
+[[Category:IBM computer terminals|1013]]
+
+
+{{compu-hardware-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

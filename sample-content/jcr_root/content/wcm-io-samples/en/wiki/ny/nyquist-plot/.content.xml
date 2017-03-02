@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Nyquist plot"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Nyquist plot" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Image:Nyquist.svg|thumb|right|A Nyquist plot.]]
+
+A &amp;apos;&amp;apos;&amp;apos;Nyquist plot&amp;apos;&amp;apos;&amp;apos; is a parametric plot of a transfer function used in [[control systems|automatic control]] and [[signal processing]].  The most common use of Nyquist plots is for assessing the stability of a system with [[feedback]].  In [[Cartesian coordinates]], the real part of the [[transfer function]] is plotted on the X axis. The imaginary part is plotted on the Y axis. The frequency is swept as a parameter, resulting in a plot per frequency.  Alternatively, in [[polar coordinates]], the [[gain]] of the transfer function is plotted as the radial coordinate, while the [[phase (waves)|phase]] of the transfer function is plotted as the angular coordinate.  The Nyquist plot is named after [[Harry Nyquist]], a former engineer at [[Bell Laboratories]].
+
+== Uses ==
+Assessment of the stability of a closed-loop [[negative feedback]] system is done by applying the [[Nyquist stability criterion]] to the Nyquist plot of the open-loop system (i.e. the same system without its [[feedback loop]]). This method is easily applicable even for systems with delays and other non-rational transfer functions, which may appear difficult to analyze by means of other methods. Stability is determined by looking at the number of encirclements of the point at (-1,0). Range of gains over which the system will be stable can be determined by looking at crossing of the real axis.
+
+The Nyquist plot can provide some information about the shape of the transfer function. For instance, the plot provides information on the difference between the number of [[pole (complex analysis)|pole]]s and [[zero (complex analysis)|zero]]s of the [[transfer function]]&amp;lt;ref&amp;gt;[http://www.facstaff.bucknell.edu/mastascu/econtrolhtml/Freq/Freq6.html Nyquist Plots]&amp;lt;/ref&amp;gt; by the angle at which the curve approaches the origin.
+
+When drawn by hand, a cartoon version of the Nyquist plot is sometimes used, which shows the shape of the curve, but where coordinates are distorted to show more detail in regions of interest. When plotted computationally, one needs to be careful to cover all frequencies of interest. This typically means that the parameter is swept logarithmically, in order to cover a wide range of values.
+
+== See also ==
+* [[Nyquist stability criterion]]
+* [[Argument principle]]
+* [[BIBO stability]]
+* [[Nichols plot]]
+
+== References ==
+{{reflist}}
+
+== External links ==
+{{Commons category|Nyquist plots}}
+*[http://controlcan.homestead.com/files/idxpages.htm Applets with modifiable parameters]
+*[http://www.abc.chemistry.bsu.by/vi/analyser/ EIS Spectrum Analyser - a freeware program for analysis and simulation of impedance spectra]
+* [http://www.mathworks.com/help/control/ref/nyquist.html MATLAB function] for creating a Nyquist plot of a frequency response of a dynamic system model.
+
+[[Category:Plots (graphics)]]
+[[Category:Signal processing]]
+[[Category:Classical control]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

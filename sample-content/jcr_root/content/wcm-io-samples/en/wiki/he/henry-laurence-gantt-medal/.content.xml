@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Henry Laurence Gantt Medal"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Henry Laurence Gantt Medal" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{multiple issues|
+{{no footnotes|date=June 2013}}
+{{primary sources|date=June 2013}}
+{{ref improve|date=June 2013}}
+}}
+The &amp;apos;&amp;apos;&amp;apos;[[Henry Laurence Gantt]] Medal&amp;apos;&amp;apos;&amp;apos; was established in 1929 by the [[American Society of Mechanical Engineers]] for &amp;quot;distinguished achievement in management and service to the community.&amp;quot;
+
+== Winners ==
+* 1944 - [[Lillian Moller Gilbreth]]
+* 2000 - [[Paul Soros]]
+* 2001 - [[Roy Huffington]]
+* 2002 - [[Alexander Dreyfoos]]
+* 2003 - [[William Timken]]
+* 2004 - [[Julie England]]
+* 2005 - [[Kathleen M. Bader]]
+* 2006 - [[Charla K. Wise]]
+* 2007 - [[Kevin M. Gottschall]]
+* 2008 - [[Ellen Doherty]]
+* 2009 - [[Claudio Valdetara]]
+
+== See also ==
+* [[ASME#Society Awards|List of prizes, medals, and awards awarded by ASME]]
+* [[List of prizes, medals, and awards]]
+* [[Project management]]
+
+== External links ==
+*[http://www.asme.org/Governance/Honors/SocietyAwards/Henry_Laurence_Gantt_Medal.cfm Official Web Page of Gantt Medal]
+
+[[Category:Mechanical engineering awards]]
+[[Category:American awards]]
+[[Category:Awards established in 1929]]
+
+
+{{award-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

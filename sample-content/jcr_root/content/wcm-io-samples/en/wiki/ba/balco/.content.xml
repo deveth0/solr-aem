@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Balco"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Balco" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;Balco&amp;apos;&amp;apos; can refer to:
+
+* the [[Bay Area Laboratory Co-operative]] (BALCO), a controversial sports medicine/nutrition centre in Burlingame, California
+* &amp;apos;&amp;apos;&amp;apos;Balco balcony systems&amp;apos;&amp;apos;&amp;apos; who develops, designs and manufactures balcony systems and glazing solutions.
+* the Balco Engine number, a unique identifier for an [[automobile]] [[engine]]
+* a [[balco alloy|nickel-iron alloy]] used as a probe in Resistance Temperature Detectors
+*&amp;apos;&amp;apos;[[Bharat Aluminium Company]]&amp;apos;&amp;apos;, an [[India]]n [[aluminium]] company
+*[[Baltimore County, Maryland]]
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

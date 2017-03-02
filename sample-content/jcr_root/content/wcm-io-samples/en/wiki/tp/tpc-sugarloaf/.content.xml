@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="TPC Sugarloaf"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="TPC Sugarloaf" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox golf facility
+| golf_facility_name = TPC Sugarloaf
+| image              = &amp;lt;!-- just name file name, no [[image:]] or size required
+| imagesize          = &amp;lt;!-- include units --&amp;gt;
+| caption            =
+| location           = [[Duluth, Georgia]], U.S.
+| coordinates        = &amp;lt;!-- use {{coord}} --&amp;gt;
+| establishment      = 1997
+| type               = Private
+| owner              = &amp;lt;!-- name of organization/company --&amp;gt;
+| operator           = [[PGA Tour]] [[Tournament Players Club|TPC Network]]
+| holes              = 27
+| tournaments        = [[AT&amp;amp;T Classic]] (1997–2008)&amp;lt;br&amp;gt;[[Greater Gwinnett Championship]] (2013–)
+| website            = [http://www.tpcsugarloaf.com www.tpcsugarloaf.com]
+| course1            = The Stables and The Meadows
+| designer1          = [[Greg Norman]]
+| par1               = 72
+| length1            = 7,259 yards
+| rating1            =
+| record1            =
+}}
+&amp;apos;&amp;apos;&amp;apos;TPC Sugarloaf&amp;apos;&amp;apos;&amp;apos; is a private [[golf club (institution)|golf club]], located within the [[gated community]] at Sugarloaf Country Club in [[Duluth, Georgia]], a suburb of [[Atlanta, Georgia|Atlanta]].
+
+The facility consists of three 9-hole [[golf course]]s that were designed by [[Greg Norman]], and is a member of the [[Tournament Players Club]] network operated by the [[PGA Tour]]. It was the home of the tour&amp;apos;s annual [[AT&amp;amp;T Classic]], formerly the BellSouth Classic, golf tournament from 1997 until it ended in 2008. It began hosting the [[Greater Gwinnett Championship]] on the [[Champions Tour]] in 2013.
+
+The BellSouth/AT&amp;amp;T Classic was always played over the original two nines, The Stables and The Meadows, which opened the week before its first staging of the tournament in 1997. Just weeks beforehand the property was hit by a tornado which damaged many trees on the first and ninth holes, and leveled some of the corporate tent structures around the 18th green. The third nine, named The Pines, was opened in 2000. The land on which the courses were built was formerly the O. Wayne Rollins family farm, where they kept pure-bred cattle and horses.
+
+==External links==
+* {{official website|http://www.tpcsugarloaf.com/}}
+* [http://www.sugarloafcc.com Sugarloaf Country Club homepage]
+* [http://atlanta.golfnation.org/course25/tournament-players-club-tpc-at-sugarloaf Golf Nation: Overhead views of each hole]
+
+{{Tournament Players Clubs}}
+{{coord missing|Georgia (U.S. state)}}
+
+[[Category:Golf clubs and courses in Georgia (U.S. state)]]
+[[Category:Buildings and structures in Gwinnett County, Georgia]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

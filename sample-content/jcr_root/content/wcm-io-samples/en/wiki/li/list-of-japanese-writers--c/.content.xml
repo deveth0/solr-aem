@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="List of Japanese writers: C"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="List of Japanese writers: C" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Use mdy dates|date=December 2011}}
+&amp;lt;center&amp;gt;[[List of Japanese authors|List]] by Family Name: [[List of Japanese authors:A|A]] - [[List of Japanese authors:B|B]] - [[List of Japanese authors:C|C]] - [[List of Japanese authors:D|D]] - [[List of Japanese authors:E|E]] - [[List of Japanese authors:F|F]] - [[List of Japanese authors:G|G]] - [[List of Japanese authors:H|H]] - [[List of Japanese authors:I|I]] - [[List of Japanese authors:J|J]] - [[List of Japanese authors:K|K]] - [[List of Japanese authors:M|M]] - [[List of Japanese authors:N|N]] - [[List of Japanese authors:O|O]] - [[List of Japanese authors:R|R]] - [[List of Japanese authors:S|S]] - [[List of Japanese authors:T|T]] - [[List of Japanese authors:U|U]] - [[List of Japanese authors:W|W]] - [[List of Japanese authors:Y|Y]] - [[List of Japanese authors:Z|Z]]&amp;lt;/center&amp;gt;
+
+*[[Chiba Kameo]] (September 24, 1878 – October 4, 1935)
+*[[Chikamatsu Shuko]] (May 4, 1876 – April 23, 1944)
+*[[Chikamatsu Monzaemon]] (1653 - January 6, 1724)
+*[[Chino Masako]] (May 6, 1880 – September 2, 1946)
+*[[Chino Shosho]] (March 18, 1883 – August 29, 1946)
+*[[Chiri Yukie]] (June 8, 1903 – September 18, 1922)
+*[[Fukuda Chiyo-ni]] (also known as Kaga no Chiyo) (1703–1775)
+
+[[Category:Lists of Japanese writers|C]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

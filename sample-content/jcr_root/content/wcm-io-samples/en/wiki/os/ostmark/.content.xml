@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ostmark"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ostmark" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|ostmark}}
+{{Audio|Ostmark.ogg|&amp;apos;&amp;apos;&amp;apos;Ostmark&amp;apos;&amp;apos;&amp;apos;}} is a German term meaning either &amp;apos;&amp;apos;&amp;apos;Eastern march&amp;apos;&amp;apos;&amp;apos; when applied to territories or &amp;apos;&amp;apos;&amp;apos;Eastern Mark&amp;apos;&amp;apos;&amp;apos; when applied to currencies.
+
+&amp;apos;&amp;apos;Ostmark&amp;apos;&amp;apos; may refer to:
+
+*the medieval [[March of Austria]] and its predecessors &amp;apos;&amp;apos;Bavarian eastern march&amp;apos;&amp;apos; and &amp;apos;&amp;apos;March of Pannonia&amp;apos;&amp;apos; in a post-19th century usage
+*the medieval [[Saxon Eastern March]] east of the Elbe River
+*the eastern regions of the Prussia acquired in the partitions of Poland, mainly the [[Province of Posen]]
+*[[Ostmark (Austria)]], Austria&amp;apos;s name when it was part of Nazi Germany
+*Ostmark was a [[Nazi Party#Regional administration|Gau]] of the Nazi Party, composed of the Prussian province Posen-West Prussia and eastern parts of Brandenburg
+&amp;apos;&amp;apos;Ostmark&amp;apos;&amp;apos; may refer to the following historical &amp;apos;&amp;apos;&amp;apos;currencies&amp;apos;&amp;apos;&amp;apos;:
+*[[East German mark]] or &amp;apos;&amp;apos;Mark of the German Democratic Republic&amp;apos;&amp;apos;, the East German currency before 1990
+*[[German ostmark]], short-lived currency used in eastern areas occupied by Germany in 1918
+
+==See also==
+*[[German Eastern Marches Society]]
+*[[Army Group Ostmark]]
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

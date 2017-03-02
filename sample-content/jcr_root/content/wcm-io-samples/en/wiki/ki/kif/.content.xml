@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Kif"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Kif" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wikt|kif}}
+&amp;apos;&amp;apos;&amp;apos;Kif&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;KIF&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* [[kief]], a finely sifted product of cannabis
+* [[KIF Kolding]], a team handball club based in Kolding, Denmark
+* [[Kif Kroker]], a fictional character in the animated television show &amp;apos;&amp;apos;Futurama&amp;apos;&amp;apos;
+* [[Kingfisher Lake Airport]] serving Kingfisher Lake, Ontario, Canada
+* [[Knowledge Interchange Format]], a computer-oriented language for the interchange of knowledge among disparate computer programs
+* [[Københavns Idræts Forening]], Denmark&amp;apos;s oldest athletics club
+* a clipped cannabis leaf product smoked in a Moroccan [[sebsi]]
+* an alien race in [[the Chanur novels]] by C. J. Cherryh
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

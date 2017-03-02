@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Helena Dahlbäck"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Helena Dahlbäck" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Helena Dahlbäck&amp;apos;&amp;apos;&amp;apos; (1960-2000) was a [[Sweden|Swedish]] author who wrote several children&amp;apos;s books, for example &amp;apos;&amp;apos;My Sister Lotta and Me&amp;apos;&amp;apos;.
+
+&amp;apos;&amp;apos;My Sister Lotta and Me&amp;apos;&amp;apos; was translated into [[English language|English]] by Rika Lessar in 1993 and published by Henry Holt &amp;amp; Co. (ISBN 0-8050-2558-8). It was illustrated by Charlotte Ramel, who also illustrated &amp;apos;&amp;apos;The Cake Book&amp;apos;&amp;apos;, published by Sprall Publishing, [[Sweden]].
+
+{{Authority control|VIAF=100973876}}
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Dahlback, Helena
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION =
+| DATE OF BIRTH     = 1960
+| PLACE OF BIRTH    =
+| DATE OF DEATH     = 2000
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Dahlback, Helena}}
+[[Category:1960 births]]
+[[Category:2000 deaths]]
+[[Category:Swedish children&amp;apos;s writers]]
+[[Category:Swedish writers]]
+
+
+{{Sweden-writer-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

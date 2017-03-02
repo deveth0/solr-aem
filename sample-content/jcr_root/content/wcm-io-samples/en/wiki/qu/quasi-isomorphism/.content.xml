@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Quasi-isomorphism"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Quasi-isomorphism" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[homological algebra]], a branch of [[mathematics]], a &amp;apos;&amp;apos;&amp;apos;quasi-isomorphism&amp;apos;&amp;apos;&amp;apos; is a morphism &amp;apos;&amp;apos;A&amp;apos;&amp;apos; → &amp;apos;&amp;apos;B&amp;apos;&amp;apos; of [[chain complex]]es (respectively, cochain complexes) such that the induced morphisms
+
+:&amp;lt;math&amp;gt;H_n(A_\bullet) \to H_n(B_\bullet)\ (\text{respectively, } H^n(A^\bullet) \to H^n(B^\bullet))\ &amp;lt;/math&amp;gt;
+
+of [[homology (mathematics)|homology]] groups (respectively, of cohomology groups) are isomorphisms for all &amp;apos;&amp;apos;n&amp;apos;&amp;apos;.
+
+==Applications==
+In the theory of [[model category|model categories]], quasi-isomorphisms are sometimes used as the class of [[weak equivalence]]s when the objects of the category are chain or cochain complexes. This results in a homology-local theory, in the sense of [[Bousfield localization]] in [[homotopy theory]].
+
+Quasi-isomorphisms play the fundamental role in defining the [[derived category]] of an [[abelian category]].
+
+==References==
+*Gelfand, Manin. &amp;apos;&amp;apos;Methods of Homological Algebra&amp;apos;&amp;apos;, 2nd ed. Springer, 2000.
+
+[[Category:Algebraic topology]]
+[[Category:Homological algebra]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

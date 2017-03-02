@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="French Quarter Mardi Gras costumes"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="French Quarter Mardi Gras costumes" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+The [[French Quarter]] neighborhood of [[New Orleans, Louisiana]] is the center of the city&amp;apos;s [[Carnival]] celebrations, especially on [[Mardi Gras]] Day.  This part of town is crowded with both [[tourism|tourists]] and locals, with the former more numerous in the Upper Quarter, the latter in the Lower Quarter.  There are numerous parties and more than one [[costume]] contest.  While the large motorized floats of the big parades have been prohibited since the early 1970s from going down the Quarter&amp;apos;s narrow streets, numerous small marching [[krewe]]s, parading [[jazz]] bands, and groups of revelers converge here.  Some krewes parade in the Quarter after starting earlier in the day in other parts of town.
+
+==Picture gallery==
+{|
+|[[Image:BandStPh.jpg|thumbnail|120px|Costumed musicians, French Quarter]]
+|[[Image:JBrel000.jpg|thumbnail|120px|Revelers, French Quarter]]
+|[[Image:BombedSq.jpg|thumbnail|120px|Revelers, French Quarter]]
+|[[Image:Grapegal.jpg|thumbnail|120px|Masker, French Quarter]]
+|[[Image:GlockenspielSousaphone.jpg|thumbnail|120px|Musicians, French Quarter levee]]
+|}
+
+==See also==
+* [[New Orleans Mardi Gras]]
+* [[Faubourg Marigny Mardi Gras costumes]]
+
+{{DEFAULTSORT:French Quarter Mardi Gras Costumes}}
+[[Category:Mardi Gras in New Orleans, Louisiana]]
+[[Category:Costume design]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

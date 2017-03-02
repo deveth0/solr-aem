@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="RANDU"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="RANDU" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Use dmy dates|date=July 2012}}
+[[Image:Randu.png|thumb|right|[[Three-dimensional space|Three-dimensional plot]] of 100,000 values generated with RANDU. Each point represents 3 consecutive pseudorandom values. It is clearly seen that the points fall in 15 [[2D geometric model|two-dimensional]] [[Plane (mathematics)|plane]]s.]]
+&amp;apos;&amp;apos;&amp;apos;RANDU&amp;apos;&amp;apos;&amp;apos;&amp;lt;ref&amp;gt;IBM, &amp;apos;&amp;apos;System/360 Scientific Subroutine Package Version II Programmer&amp;apos;s Manual,&amp;apos;&amp;apos; H20-0205-1, 1967, p. 54.&amp;lt;/ref&amp;gt; is a [[linear congruential generator|linear congruential]] [[pseudorandom number generator]] of the [[Park–Miller random number generator|Park–Miller type]], which has been used since the 1960s.&amp;lt;ref name=&amp;quot;Entacher-2000&amp;quot;&amp;gt;
+{{cite web
+ | last = Entacher
+ | first =  Karl
+ | title = A collection of classical pseudorandom number generators with linear structures - advanced version
+ | date = June 2000
+ | work =
+ | url=http://crypto.mat.sbg.ac.at/results/karl/server/server.html
+ | accessdate =13 January 2009
+}}&amp;lt;/ref&amp;gt;  It is defined by the [[Recursion|recurrence]]:
+
+:&amp;lt;math&amp;gt;V_{j+1} = 65539\cdot V_j\, \bmod\, 2^{31}\,&amp;lt;/math&amp;gt;
+
+with &amp;lt;math&amp;gt;\scriptstyle V_0&amp;lt;/math&amp;gt; [[even and odd numbers|odd]]. It generates pseudorandom [[integer number|integers]] &amp;lt;math&amp;gt;\scriptstyle V_j&amp;lt;/math&amp;gt; in the interval {{nowrap|[1, 2&amp;lt;sup&amp;gt;31&amp;lt;/sup&amp;gt; − 1]}} that in practical applications are often mapped into pseudorandom [[rational number|rationals]] &amp;lt;math&amp;gt;\scriptstyle X_j&amp;lt;/math&amp;gt; in the interval {{nowrap|(0, 1)}} by the formula:
+:&amp;lt;math&amp;gt;X_j = \frac{V_{j}}{2^{31}}&amp;lt;/math&amp;gt;.
+
+It is widely considered to be one of the most ill-conceived random number generators ever designed.  Notably, it fails the [[spectral test]] badly for dimensions greater than 2, and every integer result is odd. (However, at least eight low-order bits are dropped when converted to single-precision floating-point).
+
+The reason for choosing these particular values is that with a 32 bit integer word size the arithmetic of mod 2&amp;lt;sup&amp;gt;31&amp;lt;/sup&amp;gt; and &amp;lt;math&amp;gt;65539 = 2^{16} + 3&amp;lt;/math&amp;gt; calculations could be done quickly. To show the problem with these values consider the following calculation where every term should be taken mod 2&amp;lt;sup&amp;gt;31&amp;lt;/sup&amp;gt;, we start by writing the recursive relation as:
+
+:&amp;lt;math&amp;gt;x_{k+2}=(2^{16}+3) x_{k+1}=(2^{16}+3 )^2 x_{k}\,&amp;lt;/math&amp;gt;
+
+which becomes, after expanding the quadratic factor:
+
+:&amp;lt;math&amp;gt;x_{k+2}=(2^{32}+6 \cdot2^{16} +9 )x_{k}=[6 \cdot (2^{16}+3)-9]x_{k}\,&amp;lt;/math&amp;gt;
+
+:because {{nowrap|2&amp;lt;sup&amp;gt;32&amp;lt;/sup&amp;gt; mod 2&amp;lt;sup&amp;gt;31&amp;lt;/sup&amp;gt; {{=}} 0}}
+
+and allows us to show the correlation between three points as:
+
+:&amp;lt;math&amp;gt;x_{k+2}=6x_{k+1}-9x_{k}\,&amp;lt;/math&amp;gt;
+
+As a result of this correlation, the points in three dimensional space (mod 2&amp;lt;sup&amp;gt;31&amp;lt;/sup&amp;gt;) fall in a comparatively small number of planes, 15 to be exact.&amp;lt;ref&amp;gt;{{cite journal |author=Marsaglia, George |year=1968 |title=Random Numbers Fall Mainly in the Planes |journal=Proc National Academy of Sciences |volume=61 |issue=1 |pages=25–28 |url=http://www.pnas.org/content/61/1/25.citation |doi=10.1073/pnas.61.1.25}}&amp;lt;/ref&amp;gt; As a result of the wide use of RANDU in the early 1970s, many results from that time are seen as suspicious.&amp;lt;ref name=&amp;quot;press92&amp;quot;&amp;gt;{{cite book |author=Press, William H., et al. |year=1992 |title=[[Numerical Recipes]] in Fortran 77: The Art of Scientific Computing |edition=2nd |isbn=0-521-43064-X}}&amp;lt;/ref&amp;gt;
+
+This misbehavior was already detected in 1963&amp;lt;ref&amp;gt;ref. 7 of http://portal.acm.org/citation.cfm?id=363827&amp;lt;/ref&amp;gt; on a 36-bit computer, and carefully reimplemented on the 32-bit IBM System/360.
+
+==Sample output==
+
+The start and end of the RANDU’s output period for the initial seed &amp;lt;math&amp;gt;\scriptstyle V_0 = 1&amp;lt;/math&amp;gt; is:
+: 1, 65539, 393225, 1769499, 7077969, 26542323, …, 2141591611, 388843697, 238606867, 79531577, 477211307, 1 {{OEIS|A096555}}
+
+==Quotations==
+
+{{quote|…its very name RANDU is enough to bring dismay into the eyes and stomachs of many computer scientists!|[[Donald Knuth]]&amp;lt;ref&amp;gt;{{cite book |author=Donald E. Knuth |title=The Art of Computer Programming |volume=22 |edition=3rd |publisher=Addison-Wesley |place=Boston |year=1998}}&amp;lt;/ref&amp;gt;}}
+
+{{quote|One of us recalls producing a &amp;quot;random&amp;quot; plot with only 11 planes, and being told by his computer center&amp;apos;s programming consultant that he had misused the random number generator: &amp;quot;We guarantee that each number is random individually, but we don&amp;apos;t guarantee that more than one of them is random.&amp;quot; Figure that out.|[[William H. Press|W. H. Press]] et al.&amp;lt;ref name=&amp;quot;press92&amp;quot;/&amp;gt;}}
+
+==References==
+{{Reflist|30em}}
+
+[[Category:Pseudorandom number generators]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

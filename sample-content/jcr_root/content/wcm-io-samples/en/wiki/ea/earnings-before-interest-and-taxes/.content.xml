@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Earnings before interest and taxes"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Earnings before interest and taxes" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{accounting}}
+In [[accountancy|accounting]] and finance, &amp;apos;&amp;apos;&amp;apos;[[earnings]] before interest and taxes&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;&amp;apos;EBIT&amp;apos;&amp;apos;&amp;apos;), also called &amp;apos;&amp;apos;&amp;apos;operating profit&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;operating income&amp;apos;&amp;apos;&amp;apos; is a measure of a firm&amp;apos;s  [[profit (accounting)|profit]] that excludes interest and income tax expenses.&amp;lt;ref name=BrodieKaneMarcusEsstentials452&amp;gt;Bodie, Z., Kane, A. and Marcus, A. J. &amp;apos;&amp;apos;Essentials of Investments&amp;apos;&amp;apos;, McGraw Hill Irwin, 2004, p. 452. ISBN 0-07-251077-3&amp;lt;/ref&amp;gt; It is the difference between operating revenues and operating expenses.  When a firm does not have [[non-operating income]], then &amp;apos;&amp;apos;&amp;apos;operating income&amp;apos;&amp;apos;&amp;apos; is sometimes used as a synonym for &amp;apos;&amp;apos;&amp;apos;EBIT&amp;apos;&amp;apos;&amp;apos; and [[Profit (accounting)|operating profit]].&amp;lt;ref&amp;gt;http://www.investorwords.com/3460/operating_income.html Operating income definition&amp;lt;/ref&amp;gt;
+
+EBIT = [[Revenue]] – [[Operating expense]]s (OPEX) + [[Non-operating income]]
+
+Operating income = Revenue – Operating expenses&amp;lt;ref name=BrodieKaneMarcusEsstentials452/&amp;gt;
+
+A professional investor contemplating a change to the [[capital structure]] of a firm (e.g., through a [[leveraged buyout]]) first evaluates a firm&amp;apos;s fundamental earnings potential (reflected by Earnings Before Interest, Taxes, Depreciation and Amortization [[EBITDA]] and EBIT), and then determines the optimal use of debt vs. equity.
+
+To calculate EBIT, expenses (e.g., the [[cost of goods sold]], selling and administrative expenses) are subtracted from revenues.&amp;lt;ref&amp;gt;http://www.investorwords.com/1631/EBIT.html EBIT definition&amp;lt;/ref&amp;gt; [[Net income|Profit]] is later obtained by subtracting interest and taxes from the result.
+
+{| class=&amp;quot;wikitable&amp;quot;
+|-
+| colspan=&amp;quot;2&amp;quot; align=&amp;quot;center&amp;quot;|&amp;apos;&amp;apos;&amp;apos;Statement of Income — Example&amp;apos;&amp;apos;&amp;apos;&amp;lt;br /&amp;gt;&amp;apos;&amp;apos;(figures in thousands)&amp;apos;&amp;apos;
+|-
+| colspan=&amp;quot;2&amp;quot;|&amp;apos;&amp;apos;&amp;apos;Revenue&amp;apos;&amp;apos;&amp;apos;
+|-
+| &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; Sales Revenue
+| align=&amp;quot;right&amp;quot;|$20,438
+|-
+| colspan=&amp;quot;2&amp;quot;|&amp;apos;&amp;apos;&amp;apos;Operating Expenses&amp;apos;&amp;apos;&amp;apos;
+|-
+| &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; Cost of goods sold
+| align=&amp;quot;right&amp;quot;|$7,943
+|-
+| &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; Selling, general and administrative expenses
+| align=&amp;quot;right&amp;quot;|$8,172
+|-
+| &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; [[Depreciation]] and [[amortization]]
+| align=&amp;quot;right&amp;quot;|$960
+|-
+| &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; Other expenses
+| align=&amp;quot;right&amp;quot;|$138
+|-
+| &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; Total operating expenses
+| align=&amp;quot;right&amp;quot;|$17,213
+|-
+| &amp;apos;&amp;apos;&amp;apos;Operating income&amp;apos;&amp;apos;&amp;apos;
+| align=&amp;quot;right&amp;quot;|&amp;apos;&amp;apos;&amp;apos;$3,225&amp;apos;&amp;apos;&amp;apos;
+|-
+| &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; Non-operating income
+| align=&amp;quot;right&amp;quot;|$130
+|-
+| bgcolor=&amp;quot;yellow&amp;quot;|&amp;apos;&amp;apos;&amp;apos;Earnings before Interest and Taxes (EBIT)&amp;apos;&amp;apos;&amp;apos;
+| align=&amp;quot;right&amp;quot; bgcolor=&amp;quot;yellow&amp;quot;|&amp;apos;&amp;apos;&amp;apos;$3,355&amp;apos;&amp;apos;&amp;apos;
+|-
+| &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; Financial income
+| align=&amp;quot;right&amp;quot;|$45
+|-
+| &amp;apos;&amp;apos;&amp;apos;Income before Interest Expense (IBIE)&amp;apos;&amp;apos;&amp;apos;
+| align=&amp;quot;right&amp;quot;|&amp;apos;&amp;apos;&amp;apos;$3,400&amp;apos;&amp;apos;&amp;apos;
+|-
+| &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; Financial expense
+| align=&amp;quot;right&amp;quot;|$190
+|-
+| &amp;apos;&amp;apos;&amp;apos;Earnings before income taxes&amp;apos;&amp;apos;&amp;apos;
+| align=&amp;quot;right&amp;quot;|&amp;apos;&amp;apos;&amp;apos;$3,210&amp;apos;&amp;apos;&amp;apos;
+|-
+| &amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; [[Income tax]]es
+| align=&amp;quot;right&amp;quot;|$1,027
+|-
+| &amp;apos;&amp;apos;&amp;apos;Net Income&amp;apos;&amp;apos;&amp;apos;
+| align=&amp;quot;right&amp;quot;|$2,183
+|}
+
+(Table info source: Bodie, Z., Kane, A. and Marcus, A. J. &amp;apos;&amp;apos;Essentials of Investments&amp;apos;&amp;apos;, McGraw Hill Irwin, 2004, p. 452.)
+
+== See also ==
+
+* Earnings before depreciation, interest, and taxes ([[EBDIT]])
+* [[Earnings before interest, taxes, depreciation and amortization]] (EBITDA)
+* [[Earnings before interest, taxes, depreciation, amortization, and restructuring or rent costs]] (EBITDAR)
+* [[Financial result]]
+* [[Gross profit]]
+* [[Net income per employee]]
+* [[Net profit]] or [[Net income]]
+* [[Operating profit]]
+* Profit before interest, depreciation, and taxes ([[PBDIT]])
+* [[Revenue]]
+
+== References ==
+{{reflist}}
+
+[[Category:Financial terminology]]
+[[Category:Fundamental analysis]]
+[[Category:Generally Accepted Accounting Principles]]
+{{DEFAULTSORT:Earnings Before Interest And Taxes}}
+
+[[ja:利益#営業利益]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

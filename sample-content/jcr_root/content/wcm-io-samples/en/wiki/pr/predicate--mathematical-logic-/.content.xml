@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Predicate (mathematical logic)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Predicate (mathematical logic)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Other uses|Predicate (disambiguation)}}
+
+In [[mathematics]], a &amp;apos;&amp;apos;&amp;apos;predicate&amp;apos;&amp;apos;&amp;apos; is commonly understood to be a [[Boolean-valued function]] &amp;apos;&amp;apos;P&amp;apos;&amp;apos;: &amp;apos;&amp;apos;X&amp;apos;&amp;apos;→ {true, false}, called the predicate on &amp;apos;&amp;apos;X&amp;apos;&amp;apos;. However, predicates have many different uses and interpretations in mathematics and logic, and their precise definition, meaning and use will vary from theory to theory. So, for example, when a theory defines the concept of a [[relation (mathematics)|relation]], then a predicate is simply the [[Indicator function|characteristic function]] or the [[indicator function]] of a relation.  However, not all theories have relations, or are founded on [[set theory]], and so one must be careful with the proper definition and semantic interpretation of a predicate.
+
+==Simplified overview==
+Informally, a &amp;apos;&amp;apos;&amp;apos;predicate&amp;apos;&amp;apos;&amp;apos; is a statement that may be true or false depending on the values of its variables. {{Citation needed|date=June 2011}}  It can be thought of as an operator or function that returns a value that is either true or false. For example, predicates are sometimes used to indicate set membership: when talking about sets, it is sometimes inconvenient or impossible to describe a set by listing all of its elements. Thus, a predicate &amp;apos;&amp;apos;P(x)&amp;apos;&amp;apos; will be true or false, depending on whether &amp;apos;&amp;apos;x&amp;apos;&amp;apos; belongs to a set.
+
+Predicates are also commonly used to talk about the [[property|properties]] of objects, by defining the set of all objects that have some property in common. So, for example, when &amp;apos;&amp;apos;P&amp;apos;&amp;apos; is a predicate on &amp;apos;&amp;apos;X&amp;apos;&amp;apos;, one might sometimes say &amp;apos;&amp;apos;P&amp;apos;&amp;apos; is a [[property]] of &amp;apos;&amp;apos;X&amp;apos;&amp;apos;.  Similarly, the notation &amp;apos;&amp;apos;P&amp;apos;&amp;apos;(&amp;apos;&amp;apos;x&amp;apos;&amp;apos;) is used to denote a sentence or statement &amp;apos;&amp;apos;P&amp;apos;&amp;apos; concerning the variable object x. The set defined by &amp;apos;&amp;apos;P&amp;apos;&amp;apos;(&amp;apos;&amp;apos;x&amp;apos;&amp;apos;) is written as {&amp;apos;&amp;apos;x&amp;apos;&amp;apos; | &amp;apos;&amp;apos;P&amp;apos;&amp;apos;(&amp;apos;&amp;apos;x&amp;apos;&amp;apos;)}, and is just a collection of all the objects for which &amp;apos;&amp;apos;P&amp;apos;&amp;apos; is true.
+
+For instance, {&amp;apos;&amp;apos;x&amp;apos;&amp;apos; | &amp;apos;&amp;apos;x&amp;apos;&amp;apos; is a positive integer less than 4} is the set {1,2,3}.
+
+If &amp;apos;&amp;apos;t&amp;apos;&amp;apos; is an element of the set {&amp;apos;&amp;apos;x&amp;apos;&amp;apos; | &amp;apos;&amp;apos;P&amp;apos;&amp;apos;(&amp;apos;&amp;apos;x&amp;apos;&amp;apos;)}, then the statement &amp;apos;&amp;apos;P&amp;apos;&amp;apos;(&amp;apos;&amp;apos;t&amp;apos;&amp;apos;) is &amp;apos;&amp;apos;true&amp;apos;&amp;apos;.
+
+Here, &amp;apos;&amp;apos;P&amp;apos;&amp;apos;(&amp;apos;&amp;apos;x&amp;apos;&amp;apos;) is referred to as the &amp;apos;&amp;apos;predicate&amp;apos;&amp;apos;, and &amp;apos;&amp;apos;x&amp;apos;&amp;apos; the &amp;apos;&amp;apos;subject&amp;apos;&amp;apos; of the &amp;apos;&amp;apos;[[proposition]]&amp;apos;&amp;apos;.  Sometimes, &amp;apos;&amp;apos;P&amp;apos;&amp;apos;(&amp;apos;&amp;apos;x&amp;apos;&amp;apos;) is also called a [[propositional function]], as each choice of x produces a proposition.
+
+== Formal definition==
+The precise semantic interpretation of an atomic formula and an atomic sentence will vary from theory to theory.
+
+* In [[propositional logic]], atomic formulas are called [[propositional variable]]s. In a sense, these are nullary (i.e. 0-[[arity]]) predicates.
+* In [[first-order logic]], an atomic formula consists of a predicate symbol applied to an appropriate number of terms.
+* In [[set theory]], predicates are understood to be [[Indicator function|characteristic functions]] or set [[indicator function]]s, &amp;apos;&amp;apos;i.e.&amp;apos;&amp;apos; [[function (mathematics)|functions]] from a set element to a [[truth value]].  [[Set-builder notation]] makes use of predicates to define sets.
+* In [[autoepistemic logic]], which rejects the [[law of excluded middle]], predicates may be true, false, or simply &amp;apos;&amp;apos;unknown&amp;apos;&amp;apos;; &amp;apos;&amp;apos;i.e.&amp;apos;&amp;apos; a given collection of facts may be insufficient to determine the truth or falsehood of a predicate.
+* In [[fuzzy logic]], predicates are the [[characteristic function (probability theory)|characteristic functions]] of a [[probability distribution]]. That is, the strict true/false valuation of the predicate is replaced by a quantity interpreted as the degree of truth.
+
+==See also==
+* [[Free variables and bound variables]]
+* [[Predicate functor logic]]
+* [[Truthbearer]]
+* [[Multigrade predicate]]
+
+==External links==
+*[http://cs.odu.edu/~toida/nerzic/content/logic/pred_logic/predicate/pred_intro.html Introduction to predicates]
+
+{{Logic}}
+
+[[Category:Predicate logic]]
+[[Category:Propositional calculus]]
+[[Category:Basic concepts in set theory]]
+[[Category:Fuzzy logic]]
+[[Category:Mathematical logic]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Zygmunt Kisielewski"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Zygmunt Kisielewski" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced stub|auto=yes|date=December 2009}}
+&amp;apos;&amp;apos;&amp;apos;Zygmunt Jan Kisielewski&amp;apos;&amp;apos;&amp;apos; (27 March 1882 – 25 April 1942) was a Polish writer, brother of [[Jan August Kisielewski|Jan August]] and father of [[Stefan Kisielewski|Stefan]]. During [[World War I]] (1914–1917) he was a combatant in the [[Polish Legions in World War I|Polish Legions]].  He was an editor of [[Robotnik|Robotnik (The Worker)]] from 1918 to 1925.  He also authored books on social-national and military subjects.  His memoir is entitled &amp;apos;&amp;apos;Poranek&amp;apos;&amp;apos;.
+
+{{Authority control|VIAF=49215500}}
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Kisielewski, Zygmunt
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION =
+| DATE OF BIRTH     = 27 March 1882
+| PLACE OF BIRTH    =
+| DATE OF DEATH     = 25 April 1942
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Kisielewski, Zygmunt}}
+[[Category:Polish writers]]
+[[Category:1882 births]]
+[[Category:1942 deaths]]
+[[Category:Burials at Powązki Cemetery]]
+
+{{Poland-writer-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

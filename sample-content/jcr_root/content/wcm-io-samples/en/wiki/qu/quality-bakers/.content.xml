@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Quality Bakers"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Quality Bakers" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Quality Bakers&amp;apos;&amp;apos;&amp;apos; is a New Zealand brand of bread products. Quality Bakers forms part of the [[Goodman Fielder]] food company and has bakeries throughout Australia and New Zealand. The products are marketed under the following brands:
+
+In Australia:-
+*Helgas
+*Sunicrust
+*Mighty Soft
+*Buttercup
+*Wonder White/Gold
+
+In New Zealand:-
+*Quality Bakers Natures Fresh
+*Quality Bakers Fibre White
+*World Oven
+*Molenberg
+*Vogels
+*Sunnycrust
+*Country Split
+*Freyas
+*Mackenzie Country
+
+This is in addition to producing generically branded bread products for most of the major supermarket chains in Australia and New Zealand.
+
+==External links==
+*[http://www.goodmanfielder.com.au/ Goodman Fielder Website]
+
+[[Category:Bakeries of Australia]]
+[[Category:New Zealand brands]]
+[[Category:Goodman Fielder brands]]
+{{food-product-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

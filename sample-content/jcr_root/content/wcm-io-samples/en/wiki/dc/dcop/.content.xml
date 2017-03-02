@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="DCOP"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="DCOP" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{for|the use of this acronym as it pertains to artificial intelligence|Distributed constraint optimization}}
+{{Update|inaccurate=yes|date=January 2012}}
+
+&amp;apos;&amp;apos;&amp;apos;D&amp;apos;&amp;apos;&amp;apos;esktop &amp;apos;&amp;apos;&amp;apos;CO&amp;apos;&amp;apos;&amp;apos;mmunication &amp;apos;&amp;apos;&amp;apos;P&amp;apos;&amp;apos;&amp;apos;rotocol (&amp;apos;&amp;apos;&amp;apos;DCOP&amp;apos;&amp;apos;&amp;apos;) was a light-weight [[inter-process communication|interprocess]] and [[software componentry]] communication system.  The design goal for the system was to allow [[Application software|applications]] to interoperate, and share complex tasks.  Essentially, DCOP was a ‘remote control’ system, which allowed applications or scripts to enlist the help of other applications. It was built on top of the [[X Window System]]’s [[X Window System protocols and architecture#Inter-client communication|Inter-Client Exchange]] protocol.
+
+The use of DCOP provides extensive new capabilities, without requiring entirely new applications to be written, as might otherwise be the case.  [[KDE]] applications and the KDE [[library (computer science)|libraries]] did make heavy use of DCOP and most of the KDE applications can be controlled by [[Scripting programming language|scripts]] via the DCOP mechanism. DCOP was replaced by [[D-Bus]] in [[KDE Software Compilation 4]].
+
+There is a command-line tool called ‘dcop’ (note the lower-case letters) that can be used for communication with the applications from the shell. ‘kdcop’ is a [[Graphical user interface|GUI]] tool to explore the [[Interface (computer science)|interfaces]] of an application.
+
+== DCOP model ==
+
+The model is simple. Each application using DCOP is a client. They communicate to each other through a DCOP server, which functions like a traffic director, dispatching messages/calls to the proper destinations. All clients are peers of each other.
+
+Two types of actions are possible with DCOP: &amp;quot;send and forget&amp;quot; messages, which do not block, and &amp;quot;calls,&amp;quot; which block waiting for some data to be returned.
+
+Any data that will be sent is serialized (also referred to as &amp;apos;&amp;apos;marshalling&amp;apos;&amp;apos; in [[CORBA]] speak) using the built-in QDataStream operators available in all of the [[Qt (toolkit)|Qt]] [[Class (computer science)|classes]]. There is also a simple IDL-like compiler available (dcopidl and dcopidl2cpp) that generates stubs and skeletons. Using the dcopidl compiler has the additional benefit of [[type safety]].
+
+[[D-Bus]], a message bus system standardized by [[freedesktop.org]], was heavily influenced by the DCOP system and replaces DCOP in [[KDE Software Compilation 4]].
+
+DCOP continues to be used by the [[K_Desktop_Environment_3#Trinity|Trinity Desktop Environment]].
+
+==See also==
+{{Portal|Free software}}
+* [[D-Bus]] - Desktop Bus
+* [[Portable object (computing)|Portable object]] cross-language cross-platform Object Model definition
+* [[CORBA]] Common Object Request Broker Architecture, cross-language cross-platform object model
+* [[Freedesktop.org]] [[D-Bus]] current open cross-language cross-platform Object Model
+* [[GNOME]] [[Bonobo (computing)|Bonobo]] deprecated GNOME cross-language Object Model
+* [[KDE]] [[KPart]] KDE component framework
+* [[XPCOM]] Mozilla applications cross-platform Component Object Model
+* [[Component Object Model|COM]] Microsoft Windows only cross-language Object Model
+* [[DCOM]] Distributed COM, extension making COM able to work in networks
+* [[Common Language Infrastructure]] current .NET cross-language cross-platform Object Model
+* [[IBM System Object Model]] SOM, a component system from IBM used in OS/2
+* [[Java Beans]]
+* [[Java Remote Method Invocation]] (Java RMI)
+* [[Internet Communications Engine]]
+* [[Language binding]]
+* [[Foreign function interface]]
+* [[Calling convention]]
+* [[Name mangling]]
+* [[Application programming interface]] - API
+* [[Application Binary Interface]] - ABI
+* [[Comparison of application virtual machines]]
+* [[SWIG]] opens ource automatic interfaces bindings generator from many languages to many languages
+
+==External links==
+* [http://api.kde.org/3.5-api/kdelibs-apidocs/dcop/html/index.html DCOP Documentation]
+
+{{KDE}}
+{{IPC}}
+
+&amp;lt;!-- Interlang --&amp;gt;
+
+{{DEFAULTSORT:Dcop}}
+&amp;lt;!-- Categories --&amp;gt;
+[[Category:Inter-process communication]]
+[[Category:KDE Platform]]
+[[Category:Software that uses Qt]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

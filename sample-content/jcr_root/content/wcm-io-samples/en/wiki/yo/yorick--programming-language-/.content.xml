@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Yorick (programming language)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Yorick (programming language)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{notability|date=July 2011}}
+{{Unreferenced|date=October 2009}}
+{{Infobox programming language
+| name                   = Yorick
+| logo                   =
+| caption                =
+| file_ext               = .i
+| paradigm               =
+| year                   = 1996
+| designer               = [[David H. Munro]]
+| developer              =
+| latest_release_version = 2.1.06
+| latest_release_date    = June 2010
+| latest_test_version    =
+| latest_test_date       =
+| typing                 =
+| implementations        =
+| dialects               =
+| influenced_by          =
+| influenced             =
+| operating_system       = [[Unix]], [[Linux]], [[Mac OS|Mac]], [[Microsoft Windows]]
+| license                = [[BSD licenses|BSD]]
+| website                = [http://yorick.sourceforge.net Yorick Home Page]
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Yorick&amp;apos;&amp;apos;&amp;apos; is an [[Interpreted language|interpreted]] [[programming language]] designed for [[numerics]], [[graph of a function|graph]] plotting and steering large scientific simulation codes. It is quite fast due to [[Array data structure|array]] syntax, and extensible via [[C (programming language)|C]] or [[Fortran]] routines. It was created in 1996 by [[David H. Munro]] of [[Lawrence Livermore National Laboratory]].
+
+== Features ==
+* Indexing
+Yorick is good at manipulating elements in N-dimensional arrays conveniently with its powerful syntax.
+
+;Range of indices
+
+Several elements can be accessed all at once:
+
+&amp;lt;source lang=&amp;quot;python&amp;quot;&amp;gt;
+&amp;gt; x=[1,2,3,4,5,6];
+&amp;gt; x
+[1,2,3,4,5,6]
+&amp;gt; x(3:6)
+[3,4,5,6]
+&amp;gt; x(3:6:2)
+[3,5]
+&amp;gt; x(6:3:-2)
+[6,4]
+&amp;lt;/source&amp;gt;
+
+;Arbitrary elements
+
+&amp;lt;source lang=&amp;quot;python&amp;quot;&amp;gt;
+&amp;gt; x=[[1,2,3],[4,5,6]]
+&amp;gt; x
+[[1,2,3],[4,5,6]]
+&amp;gt; x([2,1],[1,2])
+[[2,1],[5,4]]
+&amp;gt; list=where(1&amp;lt;x)
+&amp;gt; list
+[2,3,4,5,6]
+&amp;gt; y=x(list)
+&amp;gt; y
+[2,3,4,5,6]
+&amp;lt;/source&amp;gt;
+
+;Pseudo-index
+
+Like &amp;quot;theading&amp;quot; in [[Perl Data Language|PDL]] (Perl Data Language) and &amp;quot;broadcasting&amp;quot; in [[Numpy]] (Numeric extension for Python), Yorick has a mechanism to do this:
+
+&amp;lt;source lang=&amp;quot;python&amp;quot;&amp;gt;
+&amp;gt; x=[1,2,3]
+&amp;gt; x
+[1,2,3]
+&amp;gt; y=[[1,2,3],[4,5,6]]
+&amp;gt; y
+[[1,2,3],[4,5,6]]
+&amp;gt; y(-,)
+[[[1],[2],[3]],[[4],[5],[6]]]
+&amp;gt; x(-,)
+[[1],[2],[3]]
+&amp;gt; x(,-)
+[[1,2,3]]
+&amp;gt; x(,-)/y
+[[1,1,1],[0,0,0]]
+&amp;gt; y=[[1.,2,3],[4,5,6]]
+&amp;gt; x(,-)/y
+[[1,1,1],[0.25,0.4,0.5]]
+&amp;lt;/source&amp;gt;
+
+;Rubber index
+
+&amp;quot;..&amp;quot; is  a rubber-index to represent zero or more dimensions of the array.
+
+&amp;lt;source lang=&amp;quot;python&amp;quot;&amp;gt;
+&amp;gt; x=[[1,2,3],[4,5,6]]
+&amp;gt; x
+[[1,2,3],[4,5,6]]
+&amp;gt; x(..,1)
+[1,2,3]
+&amp;gt; x(1,..)
+[1,4]
+&amp;gt; x(2,..,2)
+5
+&amp;lt;/source&amp;gt;
+
+&amp;quot;*&amp;quot; is a kind of rubber-index to reshape a slice(sub-array) of array to a vector.
+
+&amp;lt;source lang=&amp;quot;python&amp;quot;&amp;gt;
+&amp;gt; x(*)
+[1,2,3,4,5,6]
+&amp;lt;/source&amp;gt;
+
+;Tensor multiplication
+
+[[Tensor]] multiplication is done as follows in Yorick:
+
+P(,+,,)*Q(,,+)
+
+means &amp;lt;math&amp;gt;\sum_{j=1}^{j=N}{P_{ijkl}Q_{mnj}}&amp;lt;/math&amp;gt;
+
+&amp;lt;source lang=&amp;quot;python&amp;quot;&amp;gt;
+&amp;gt; x=[[1,2,3],[4,5,6]]
+&amp;gt; x
+[[1,2,3],[4,5,6]]
+&amp;gt; y=[[7,8],[9,10],[11,12]]
+&amp;gt; x(,+)*y(+,)
+[[39,54,69],[49,68,87],[59,82,105]]
+&amp;gt; x(+,)*y(,+)
+[[58,139],[64,154]]
+&amp;lt;/source&amp;gt;
+
+==External links==
+*[http://yorick.sourceforge.net Yorick Homepage]
+*[http://www.linuxjournal.com/article/2184 Linux Journal Review]
+*[http://yorick.sourceforge.net/refcard/refs.pdf Yorick Language Quick Reference Guide]
+*[http://yorick.sourceforge.net/manual/yorick.php  Yorick manual]
+
+{{DEFAULTSORT:Yorick (Programming Language)}}
+[[Category:Lawrence Livermore National Laboratory]]
+[[Category:Programming languages created in 1996]]
+[[Category:Array programming languages]]
+[[Category:Free compilers and interpreters]]
+
+{{compu-lang-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

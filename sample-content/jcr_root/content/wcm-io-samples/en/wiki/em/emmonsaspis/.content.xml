@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Emmonsaspis"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Emmonsaspis" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{orphan|date=September 2009}}
+{{Automatic taxobox
+| authority = 1886
+}}
+
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Emmonsaspis&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is a [[fossil]] that was found in the [[Cambrian]]-age Parker Slate of [[Vermont]] in the late 19th century.
+
+== Description ==
+
+&amp;apos;&amp;apos;Emmonsaspis&amp;apos;&amp;apos; is described as a [[tadpole]] or worm-like animal. No trace of a [[spinal cord]] is present.
+
+There are two species: &amp;apos;&amp;apos;Emmonaspis worthanella&amp;apos;&amp;apos; and &amp;apos;&amp;apos;Emmonaspis cambriensis&amp;apos;&amp;apos; (Walcott(?) 1886(?) 1911(?)).
+
+&amp;apos;&amp;apos;E. cambrensis&amp;apos;&amp;apos; has been described as a [[graptolite]], a [[chordate]], an [[arthropod]] and as a [[frond]]-like organism.&amp;lt;ref&amp;gt;[http://www.fossilmuseum.net/Cambrian-Explosion/Chordate/Chordate.htm Problematic Cambrian Fossil, Possibly a Primitive Chordate Fossil]&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;[http://www.biology.ualberta.ca/courses.hp/biol606/OldLecs/Lecture2K.08.Duffy.html The quest for chordate origins]&amp;lt;/ref&amp;gt;
+
+== Affinities ==
+
+It was interpreted by [[paleontologist]] [[Charles Doolittle Walcott|C. D. Walcott]] in 1911 as a [[Polychaeta|polychaete worm]]. Although some paleontologists regard it as an early [[chordate]] allied with &amp;apos;&amp;apos;[[Pikaia]]&amp;apos;&amp;apos; et al., [[Simon Conway Morris|Conway Morris]] suggested in 1993 that it might be a Cambrian descendant of the [[Ediacaran biota|Vendian]] form &amp;apos;&amp;apos;[[Pteridinium]]&amp;apos;&amp;apos;, and a frondose morphology is the current vogue.&amp;lt;ref name=&amp;quot;Shu1996&amp;quot;&amp;gt;{{cite doi|10.1038/384157a0}}&amp;lt;/ref&amp;gt;
+
+==Notes==
+{{reflist}}
+
+[[Category:Prehistoric animals]]
+[[Category:Cambrian animals]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

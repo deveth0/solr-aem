@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Half-birthday"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Half-birthday" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Wiktionary}}
+A &amp;apos;&amp;apos;&amp;apos;half-birthday&amp;apos;&amp;apos;&amp;apos; is a day approximately six months before or after the anniversary of a person&amp;apos;s birth. It is sometimes marked by people whose [[birthday]] falls near major holidays, the celebration of which may overshadow celebration of the birthday. It may also be marked by students whose birthday does not occur during the regular school year; a half-birthday allows a celebration with friends at school.
+
+== Calculation ==
+There are two ways to calculate half-birthdays.
+
+# The easier but potentially less precise method is to take the number of the date of the birthday and advance the month by six, e.g. December 3 becomes June 3. However, because not all months have the same number of days, this doesn&amp;apos;t always work – for example, six months after an August 30 birthday would be [[February 30]], which doesn&amp;apos;t exist in the [[Gregorian calendar]].
+# The more precise method is to add half the number of days in a year to the birth date.  In the case of a common year, this would be 182.5 days.  In leap years, the number of days would be 183. Continuing the example from the paragraph above, this method would lead to a March 1 or February 29 half-birthday for an August 30 birthday, depending on whether it&amp;apos;s a leap year.&amp;lt;ref&amp;gt;[http://eventcalc.com/hbd.html Half birthday calculator]&amp;lt;/ref&amp;gt;
+
+== Popular culture ==
+At least three children&amp;apos;s books have been written about half-birthdays:
+*{{cite book | last = Pomerantz | first = Charlotte | title = The Half-Birthday Party | publisher = Clarion Books | location = New York | year = 1984 | isbn = 0-89919-273-4 }}
+*{{cite book | last = Graham | first = Bob | title = Oscar&amp;apos;s Half Birthday | publisher = Candlewick Press | location = Cambridge | year = 2005 | isbn = 0-7636-2699-6 }}
+*{{cite book | last = Martin | first = Ann | title = Karen&amp;apos;s Half Birthday | publisher = Scholastic | location = New York | year = 1996 | isbn = 0-590-69186-4 }}
+
+==References==
+{{reflist}}
+
+{{DEFAULTSORT:Half-Birthday}}
+[[Category:Birthdays]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ludobot"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ludobot" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;A &amp;apos;&amp;apos;&amp;apos;ludobot&amp;apos;&amp;apos;&amp;apos; is a type of [[artificial human companion]]: an [[entertainment robot]], from [[Latin]] &amp;apos;&amp;apos;ludo&amp;apos;&amp;apos; (play) and &amp;apos;&amp;apos;bot&amp;apos;&amp;apos; (robot).
+
+Examples are [[battlebots]], [[Sony]] [[Aibo]], [http://www.tigertoys.com Tiger Toys] &amp;apos;&amp;apos;GoGo My So Real Walking Pup&amp;apos;&amp;apos; and so on.
+
+Simpler is a [[digital pet]], a virtual pet simulated by a [[computer]]. Examples are [[Neopets]], [[Tamagotchi]]s, or [[Digipet]]s.
+
+==See also==
+* [[Ifbot]]
+* [[QRIO]]
+* [[Wakamaru]]
+* [[Banryu]]
+* [[ASIMO]]
+* [[TOPIO]]
+* [[home robot]]
+
+== External links ==
+* [http://allrobots.com/article.php3?id_article=17 Ifbot] from [http://www.business-design.co.jp Business Design Laboratory].
+*[http://www.mhi.co.jp/enews/e_0936.html Mitsubishi Wakamaru].
+*[http://www.sanyo.co.jp/koho/hypertext4-eng/0211news-e/1106-e.html Sanyo-Tmsuk Banryu].
+
+{{Robotics}}
+
+[[Category:Entertainment robotics| ]]
+
+
+{{robot-stub}}
+{{toy-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

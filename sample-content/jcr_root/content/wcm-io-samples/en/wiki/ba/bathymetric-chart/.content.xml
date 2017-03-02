@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Bathymetric chart"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Bathymetric chart" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[File:LoihiBathemetric.jpg|thumb|Bathymetric Map of [[Loihi Seamount]]]]
+[[Image:Bathymetry.jpg|thumb|right|Bathymetric chart of [[Bear Lake (Idaho-Utah)|Bear Lake]].]]
+
+A &amp;apos;&amp;apos;&amp;apos;bathymetric chart&amp;apos;&amp;apos;&amp;apos; is the submerged equivalent of an above-water [[topographic map]]. Bathymetric charts are designed to present accurate, measurable description and visual presentation of the submerged terrain.
+
+In an ideal case, the joining of a bathymetric chart and topographic map of the same [[Scale (measurement)|scale]] and [[Map projection|projection]] of the same geographic area would be seamless. The only difference would be that the values begin increasing after crossing the zero at the designated [[sea level]] [[datum (geodesy)|datum]]. Thus the topographic map&amp;apos;s [[mountain]]s have the greatest values while the bathymetric chart&amp;apos;s greatest depths have the greatest values. Simply put, the bathymetric chart is intended to show the land if overlying waters were removed in exactly the same manner as the topographic map.
+
+A bathymetric chart differs from a [[Hydrography|hydrographic]] chart in that accurate presentation of the underwater features is the goal while safe [[navigation]] is the requirement for the hydrographic chart. A [[hydrographic chart]] will obscure the actual features to present a simplified version to aid [[sailor|mariners]] in avoiding underwater hazards.
+
+Bathymetric surveys are a [[subset]] of the science of [[hydrography]]. They differ slightly from the [[Hydrographic survey|survey]]s required to produce the product of hydrography in its more limited application and as conducted by the national and international agencies tasked with producing [[chart]]s and [[publication]]s for safe navigation. That chart product is more accurately termed a navigation or hydrographic chart with a strong bias toward the presentation of essential safety information.
+
+Bathymetric surveys and charts are more closely tied to the science of [[oceanography]], particularly [[marine geology]], and [[underwater engineering]] or other specialized purposes.
+
+Bathymetric charts can also be converted to [[topographic profile|bathymetric profiles]].
+
+== Free Bathymetric Chart OpenSeaMap ==
+[[File:GEBCO-Waterdepth-OpenSeaMap-Atlanitct-1024x513.jpg|thumb|Batymetric chart from OpenSeaMap]]
+[[OpenSeaMap]] shows a worldwide bathymetric chart. From 10,000 meters to 100 meters, in low zoom levels in 23 blue coloured steps and a hillshade, and in high zoom levels with depth lines. &amp;lt;ref&amp;gt;[http://map.openseamap.org/map/?zoom=4&amp;amp;lat=24.32566&amp;amp;lon=-40.84072&amp;amp;layers=BFTFTTTFFTF0FFF Batymetric chart from OpenSeaMap]&amp;lt;/ref&amp;gt;
+
+==Tools for generating bathymetric charts==
+;[[Generic Mapping Tools]]: A freely available set of tools for generating any type of map, but originally and most commonly used for generating bathymetric charts
+
+==See also==
+*[[Bathymetry]]
+*[[Hydrography]]
+* [[General Bathymetric Chart of the Oceans]]
+
+==External links==
+*[http://channelislands.noaa.gov/edu/pdf/chartlesson.pdf 3-D Bathymetric Chart Activity: An introduction to the Nautical Chart]
+*[http://www.photolib.noaa.gov/ships/ship3229.htm  &amp;quot;The very earliest rendition of a bathymetric map of an oceanic basin.] [[Matthew Fontaine Maury]] published this map in 1853 in his book  &amp;quot;Explanations and Sailing Directions to Accompany the Wind and Current Charts ....&amp;quot; NOAA Photo Library.
+*[http://www.gebco.net/ General Bathymetric Chart of the Oceans (GEBCO)]
+
+== References ==
+&amp;lt;references /&amp;gt;
+
+{{physical oceanography|expanded=other}}
+
+[[Category:Map types]]
+[[Category:Hydrography]]
+[[Category:Physical geography]]
+[[Category:Scientific modeling]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Metrization theorem"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Metrization theorem" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[topology]] and related areas of [[mathematics]], a &amp;apos;&amp;apos;&amp;apos;metrizable space&amp;apos;&amp;apos;&amp;apos; is a [[topological space]] that is [[homeomorphism|homeomorphic]] to a [[metric space]]. That is, a topological space &amp;lt;math&amp;gt;(X,\tau)&amp;lt;/math&amp;gt; is said to be metrizable if there is a metric
+:&amp;lt;math&amp;gt;d\colon X \times X \to [0,\infty)&amp;lt;/math&amp;gt;
+
+such that the topology induced by &amp;apos;&amp;apos;d&amp;apos;&amp;apos; is &amp;lt;math&amp;gt;\tau&amp;lt;/math&amp;gt;.  &amp;apos;&amp;apos;&amp;apos;Metrization theorems&amp;apos;&amp;apos;&amp;apos; are [[theorem]]s that give [[sufficient condition]]s for a topological space to be metrizable.
+
+==Properties==
+Metrizable spaces inherit all topological properties from metric spaces. For example, they are [[Hausdorff space|Hausdorff]] [[paracompact]] spaces (and hence [[normal space|normal]] and [[Tychonoff space|Tychonoff]]) and [[first-countable space|first-countable]].  However, some properties of the metric, such as completeness, cannot be said to be inherited. This is also true of other structures linked to the metric. A metrizable [[uniform space]], for example, may have a different set of [[Contraction_mapping|contraction maps]] than a metric space to which it is homeomorphic.
+
+==Metrization theorems==
+The first really useful metrization theorem was &amp;apos;&amp;apos;&amp;apos;Urysohn&amp;apos;s metrization theorem&amp;apos;&amp;apos;&amp;apos;. This states that every Hausdorff [[second-countable]] [[regular space]] is metrizable. So, for example, every second-countable [[manifold]] is metrizable. (Historical note: The form of the theorem shown here was in fact proved by [[Andrey Nikolayevich Tychonoff|Tychonoff]] in 1926. What [[Pavel Samuilovich Urysohn|Urysohn]] had shown, in a paper published posthumously in 1925, was that every second-countable &amp;apos;&amp;apos;[[normal space|normal]]&amp;apos;&amp;apos; Hausdorff space is metrizable). The converse does not hold: there exist metric spaces that are not second countable, for example, an uncountable set endowed with the discrete metric.&amp;lt;ref&amp;gt;http://www.math.lsa.umich.edu/~mityab/teaching/m395f10/10_counterexamples.pdf&amp;lt;/ref&amp;gt; The [[Nagata–Smirnov metrization theorem]], described below, provides a more specific theorem where the converse does hold.
+
+Several other metrization theorems follow as simple corollaries to Urysohn&amp;apos;s Theorem. For example, a [[Compact space|compact]] Hausdorff space is metrizable if and only if it is second-countable.
+
+Urysohn&amp;apos;s Theorem can be restated as: A topological space is [[separable space|separable]] and metrizable if and only if it is regular, Hausdorff and second-countable. The [[Nagata–Smirnov metrization theorem]] extends this to the non-separable case. It states that a topological space is metrizable if and only if it is regular, Hausdorff and has a σ-locally finite base. A σ-locally finite base is a base which is a union of countably many [[locally finite collection]]s of open sets. For a closely related theorem see the [[Bing metrization theorem]].
+
+Separable metrizable spaces can also be characterized as those spaces which are [[homeomorphic]] to a subspace of the [[Hilbert cube]] &amp;lt;math&amp;gt;\lbrack 0,1\rbrack ^\mathbb{N}&amp;lt;/math&amp;gt;, i.e. the countably infinite product of the unit interval (with its natural subspace topology from the reals) with itself, endowed with the [[product topology]].
+
+A space is said to be &amp;apos;&amp;apos;&amp;apos;locally metrizable&amp;apos;&amp;apos;&amp;apos; if every point has a metrizable [[neighbourhood (mathematics)|neighbourhood]]. Smirnov proved that a locally metrizable space is metrizable if and only if it is Hausdorff and [[paracompact]]. In particular, a manifold is metrizable if and only if it is paracompact.
+
+== Examples of non-metrizable spaces==
+Non-normal spaces cannot be metrizable; important examples include
+* the [[Zariski topology]] on an [[algebraic variety]] or on the [[spectrum of a ring]], used in [[algebraic geometry]],
+* the [[topological vector space]] of all [[function (mathematics)|function]]s from the [[real line]] &amp;apos;&amp;apos;&amp;apos;R&amp;apos;&amp;apos;&amp;apos; to itself, with the [[topology of pointwise convergence]].
+* the [[Strong operator topology]] on the set of [[unitary operators]] on a [[Hilbert Space]] &amp;lt;math&amp;gt;\mathcal{H}&amp;lt;/math&amp;gt; (often denoted &amp;lt;math&amp;gt; \mathbb{U}(\mathcal{H})&amp;lt;/math&amp;gt;)
+
+The real line with the [[lower limit topology]] is not metrizable.  The usual distance function is not a metric on this space because the topology it determines is the usual topology, not the lower limit topology. This space is Hausdorff, paracompact and first countable.
+
+The [[long line (topology)|long line]] is locally metrizable but not metrizable; in a sense it is &amp;quot;too long&amp;quot;.
+
+== See also ==
+* [[Uniformizability]], the property of a topological space of being homeomorphic to a [[uniform space]], or equivalently the topology being defined by a family of [[pseudometric]]s
+* [[Moore space (topology)]]
+* [[Ion Barbu#Apollonian metric|Apollonian metric]]
+
+==References==
+{{reflist}}
+
+{{PlanetMath attribution|id=1538|title=Metrizable}}
+
+[[Category:General topology]]
+[[Category:Theorems in topology]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

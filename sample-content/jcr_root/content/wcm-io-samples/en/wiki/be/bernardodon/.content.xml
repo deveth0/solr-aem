@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Bernardodon"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Bernardodon" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{no footnotes|date=March 2013}}
+{{Taxobox
+| name = &amp;apos;&amp;apos;Bernardodon&amp;apos;&amp;apos;
+| fossil_range = [[Early Cretaceous]]
+| status = Fossil
+| regnum = [[Animal]]ia
+| phylum = [[Chordata]]
+| classis = [[Mammal]]ia
+| ordo = [[Multituberculata]]
+| familia = [[Pinheirodontidae]]
+| genus = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Bernardodon&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+| species = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;B. atlanticus&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+| binomial = &amp;apos;&amp;apos;Bernardodon atlanticus&amp;apos;&amp;apos;
+| binomial_authority = Hahn &amp;amp; Hahn, 1999
+}}
+
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Bernardodon&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; was a small, Lower [[Cretaceous]] [[mammal]] from [[Portugal]]. It is part of the extinct order [[Multituberculata]], living at the same time as the [[dinosaur]]s. Differs from Pinheirodon in having I3 wider and more robust; on P5 the cusps of BB row do not extend for the whole tooth length.
+
+==References==
+* Hahn &amp;amp; Hahn (1999), &amp;quot;Pinheirodontidae n. fam. (Multituberculata) (Mammalia) aus der tiefen Unter-Kreide Portugals&amp;quot;. Palaeontographica Abt. A Vol. 253, pp.77-222.
+* Kielan-Jaworowska Z &amp;amp; Hurum JH (2001), &amp;quot;Phylogeny and Systematics of multituberculate mammals&amp;quot;. &amp;apos;&amp;apos;Paleontology&amp;apos;&amp;apos; &amp;apos;&amp;apos;&amp;apos;44&amp;apos;&amp;apos;&amp;apos;, p.389-429.
+
+[[Category:Cretaceous mammals]]
+[[Category:Multituberculates]]
+
+{{paleo-mammal-stub}}
+{{Cretaceous-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

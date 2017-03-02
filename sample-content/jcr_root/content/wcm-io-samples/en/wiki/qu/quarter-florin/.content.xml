@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Quarter Florin"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Quarter Florin" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{refimprove|date=January 2013}}
+
+The &amp;apos;&amp;apos;&amp;apos;Quarter Florin&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;Helm&amp;apos;&amp;apos;&amp;apos; was an attempt by [[England|English]] [[Edward III of England|King Edward III]] to produce a gold coinage suitable for use in Europe as well as in England (see also [[Florin (English coin)|Florin or Double Leopard]] and [[Half Florin|Half Florin or Leopard]]).&amp;lt;ref&amp;gt;Clancy, Kevin. &amp;quot;Gold Coins and Medals,&amp;quot; &amp;apos;&amp;apos;[[Interdisciplinary Science Reviews]]&amp;apos;&amp;apos;, Volume 17, Number 4, December 1992 , pp. 332-338&amp;lt;/ref&amp;gt; The quarter florin, based on contemporary European [[gold coin]]s had a value of &amp;apos;&amp;apos;&amp;apos;one shilling and sixpence&amp;apos;&amp;apos;&amp;apos;. Unfortunately the gold used to strike the coins was overvalued, resulting in the coins being unacceptable to the public, and the coins were withdrawn after only a few months in circulation, in August 1344, to be melted down to produce the more popular [[Noble (English coin)|gold Noble]].
+
+The obverse of the coin shows the royal helmet surmounted by  a lion and cap; the legend is &amp;lt;small&amp;gt;EDWR R ANGL Z FRANC D HIB&amp;lt;/small&amp;gt; (Edward King of England and France Lord of Ireland).
+The reverse of the coin shows a floriated cross with a [[quatrefoil]] in the centre; the legend is &amp;lt;small&amp;gt;EXALTABITUR IN GLORIA&amp;lt;/small&amp;gt; (He shall be exalted in glory).
+
+==References==
+{{Reflist|2}}
+
+{{Coins of England}}
+
+[[Category:Coins of England]]
+[[Category:English gold coins]]
+[[Category:Norman and Medieval England]]
+[[Category:Medieval economics]]
+
+
+{{coin-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Dir (command)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Dir (command)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Lowercase title}}
+{{Other uses|Dir (disambiguation)}}
+In [[computing]], &amp;apos;&amp;apos;&amp;apos;&amp;lt;code&amp;gt;dir&amp;lt;/code&amp;gt; (directory)&amp;apos;&amp;apos;&amp;apos; is a [[command (computing)|command]] used for file and directory listing, specifically in the [[command line interface]] (CLI) of these operating systems: [[RT-11]], [[CP/M]], [[OpenVMS|VMS]], [[DOS]], [[OS/2]], [[Singularity (operating system)|Singularity]], and [[Microsoft Windows]]. It is analogous to the Unix &amp;lt;code&amp;gt;[[ls]]&amp;lt;/code&amp;gt; command.
+
+Because it is the primary means of displaying the [[Computer file|files]] and [[directory (file systems)|directories]] on disk or other storage medium within a command window, the dir command is one of the most basic commands employed by users of the command line interface to [[MS-DOS]] and subsequent versions of Microsoft Windows.&amp;lt;ref&amp;gt;{{cite web |url=http://www.tnd.com/camosun/elex130/dostutor1.html |title=Learning MS-DOS Basics - A Tutorial |accessdate=2007-08-08 |last=Baril |first=Suzanne |date=2000-01-10 |archiveurl = http://web.archive.org/web/20070709072247/http://tnd.com/camosun/elex130/dostutor1.html &amp;lt;!-- Bot retrieved archive --&amp;gt; |archivedate = 2007-07-09}}&amp;lt;/ref&amp;gt;
+
+The &amp;lt;code&amp;gt;dir&amp;lt;/code&amp;gt; command has existed as a DOS command since the initial release of MS-DOS. It is built into the DOS command shell, and is not provided as a separate standalone program.
+
+In DOS and Microsoft Windows, &amp;apos;&amp;apos;&amp;apos;dir&amp;apos;&amp;apos;&amp;apos; checks for switches in the &amp;apos;&amp;apos;&amp;apos;%dircmd%&amp;apos;&amp;apos;&amp;apos; environment variable.
+
+In [[Windows PowerShell]], &amp;apos;&amp;apos;&amp;apos;dir&amp;apos;&amp;apos;&amp;apos; is a predefined [[Alias (Unix shell)|command alias]] for the &amp;lt;code&amp;gt;Get-ChildItem&amp;lt;/code&amp;gt; Cmdlet which basically serves the same purpose.
+
+== Sample usage ==
+The following example demonstrates the output of the &amp;lt;tt&amp;gt;dir&amp;lt;/tt&amp;gt; command on [[Windows 7]], given no- and one argument(s):
+&amp;lt;pre&amp;gt;
+ C:\Users\Public\Pictures\Sample Pictures&amp;gt;dir
+  Volume in drive C is System
+  Volume Serial Number is C8D0-76E2
+
+  Directory of C:\Users\Public\Pictures\Sample Pictures
+
+ 14-07-2009  06:41    &amp;lt;DIR&amp;gt;          .
+ 14-07-2009  06:41    &amp;lt;DIR&amp;gt;          ..
+ 14-07-2009  06:52           879,394 Chrysanthemum.jpg
+ 14-07-2009  06:52           845,941 Desert.jpg
+ 14-07-2009  06:52           595,284 Hydrangeas.jpg
+ 14-07-2009  06:52           775,702 Jellyfish.jpg
+ 14-07-2009  06:52           780,831 Koala.jpg
+ 14-07-2009  06:52           561,276 Lighthouse.jpg
+ 14-07-2009  06:52           777,835 Penguins.jpg
+ 14-07-2009  06:52           620,888 Tulips.jpg
+                8 File(s)      5,837,151 bytes
+                2 Dir(s)  57,925,980,160 bytes free
+
+ C:\Users\Public\Pictures\Sample Pictures&amp;gt;dir /w
+  Volume in drive C is System
+  Volume Serial Number is C8D0-76E2
+
+  Directory of C:\Users\Public\Pictures\Sample Pictures
+
+ [.]                 [..]                Chrysanthemum.jpg   Desert.jpg          Hydrangeas.jpg      Jellyfish.jpg
+ Koala.jpg           Lighthouse.jpg      Penguins.jpg        Tulips.jpg
+                8 File(s)      5,837,151 bytes
+                2 Dir(s)  57,925,992,448 bytes free
+
+ C:\Users\Public\Pictures\Sample Pictures&amp;gt;&amp;lt;/pre&amp;gt;
+
+==See also==
+*[[Directory (OpenVMS command)]]
+*[[List of Unix programs]]
+*[[List of DOS commands]]
+
+==References==
+{{reflist}}
+
+{{Windows commands}}
+
+[[Category:Internal DOS commands]]
+[[Category:Windows administration]]
+[[Category:Microcomputer software]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Noop"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Noop" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{About|Noop, the programming language|the mathematical model of object-oriented programming|NOOP (Mathematical Model of OOP)|the processor instruction (usually written &amp;quot;NOP&amp;quot;)|NOP}}
+{{Infobox programming language
+| name                   = Noop
+| typing                 = [[static typing|static]]
+| year                   = 2009
+| license                = [[Apache License]] 2.0
+| website                = http://code.google.com/p/noop
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Noop&amp;apos;&amp;apos;&amp;apos; ({{IPAc-en|ˈ|n|oʊ|.|ɒ|p}}, like [[NOP]]) was a project from [[Google]] aiming to develop a new programming language. Noop attempts to blend the best features of &amp;quot;old&amp;quot; and &amp;quot;new&amp;quot; languages, while syntactically encouraging good programming practice. Noop is initially targeted to run on the [[Java Virtual Machine]].&amp;lt;ref&amp;gt;{{cite web|url=http://code.google.com/p/noop/|title=Noop - project hosting on Google Code}}&amp;lt;/ref&amp;gt;
+
+According to one of the project owners, &amp;quot;It&amp;apos;s dead&amp;quot;.&amp;lt;ref&amp;gt;{{cite web|url=http://groups.google.com/group/noop/browse_thread/thread/574fb7ae72322e00|title=Noop - Is this project dead?}}&amp;lt;/ref&amp;gt;
+
+== Examples ==
+[[Hello world]] in Noop
+&amp;lt;source lang=&amp;quot;java&amp;quot;&amp;gt;
+import noop.Application;
+import noop.Console;
+
+class HelloWorld(Console console) implements Application {
+
+  Int main(List args) {
+    String s = &amp;quot;Hello World!&amp;quot;;
+
+    console.println(s);
+    return 0;
+  }
+}
+&amp;lt;/source&amp;gt;
+
+== References ==
+{{Reflist}}
+
+== External links ==
+* [http://www.h-online.com/open/Noop-a-new-language-for-the-JVM--/news/114262 H-Online article about Noop]
+* [http://www.theregister.co.uk/2009/09/17/google_noop/ Article about Noop by The Register]
+* [http://adtmag.com/articles/2009/09/29/new-language-for-java-by-google-developers-gains-interest.aspx Article about Noop by ADT Magazine]
+
+[[Category:Object-oriented programming languages]]
+[[Category:Discontinued Google software]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

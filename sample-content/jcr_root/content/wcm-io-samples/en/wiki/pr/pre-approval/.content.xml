@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Pre-approval"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Pre-approval" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[lending]], &amp;apos;&amp;apos;&amp;apos;pre-approval&amp;apos;&amp;apos;&amp;apos; has two meanings:
+
+The first is that a lender, via public or proprietary information, feels that a potential borrower is completely credit worthy enough for a certain credit product, and approaches the potential customer with a guarantee that should they want that product, they would be guaranteed to get it. This rarely happens in the financial services industry, and when it does happen, it is usually loaded with [[fine print]] that is not immediately disclosed.  Usually, what happens is [[pre-qualification]], instead.
+
+Although, to a typical consumer, &amp;quot;you&amp;apos;re pre-approved&amp;quot; means &amp;quot;you already passed the approval process and therefore are guaranteed to be immediately granted the loan if you apply,&amp;quot; the literal meaning is different. The literal meaning is &amp;quot;at a stage before approval.&amp;quot; Thus, pre-approved creates no obligation whatsoever on the lender and no rights whatsoever to the potential borrower. &amp;quot;Pre-approved&amp;quot; is thus a popular advertising catch phrase to induce people to apply for a loan.
+
+The second meaning relates to mortgage lending. People interested in buying a house can often approach a lender, who will check their credit history and verify their income, and then can provide assurances they would be able to get a loan up to a certain amount. This pre approval can then help a buyer find a home that is within their loan amount range. Buyers can ask for a letter of pre approval from the lender, and when shopping for a home can have possibly an advantage over others because they can show the seller that they are more likely to be able to buy the house. Often real estate agents prefer to work with a buyer who has a pre approval as it demonstrates that they are well-qualified to receive financing and are serious about buying a home. A pre approval is based on the documentation the borrower supplies at the time of application, and any actual eligibility to receive the pre approved loan depends on the terms and conditions of the pre approval and ability to secure the loan before the pre approval expires.&amp;lt;ref&amp;gt;{{cite web | url=http://www.consumerfinance.gov/askcfpb/126/what-does-it-mean-to-be-preapproved-for-a-mortgage-loan.html | title=What does it mean to be preapproved for a mortgage loan? | publisher=Consumer Financial Protection Bureau | work=Ask CFPB | date=updated July 26, 2012 | accessdate=December 06, 2012}}&amp;lt;/ref&amp;gt;
+
+==References==
+{{reflist}}
+
+==See also==
+*[[credit (finance)|Credit]]
+*[[Mortgage loan]]
+
+[[Category:Finance]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

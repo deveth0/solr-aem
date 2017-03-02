@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Promiscuous mode"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Promiscuous mode" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+In [[computer network|computer networking]], &amp;apos;&amp;apos;&amp;apos;promiscuous mode&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;promisc mode&amp;apos;&amp;apos; is a mode for a wired [[network interface controller]] (NIC) or [[wireless network interface controller]] (WNIC) that causes the controller to pass all traffic it receives to the [[central processing unit]] (CPU) rather than passing only the frames that the controller is intended to receive.  This mode is normally used for [[packet sniffing]] that takes place on a router or on a computer connected to a hub (instead of a switch) or one being part of a WLAN. The mode is also required for bridged networking for [[hardware virtualization]].
+
+In [[IEEE 802]] networks such as [[Ethernet]], [[token ring]], and [[IEEE 802.11]], and in [[Fiber distributed data interface|FDDI]], each frame includes a destination [[Media Access Control]] address ([[MAC address]]).  In non-promiscuous mode, when a NIC receives a frame, it normally drops it unless the frame is addressed to that NIC&amp;apos;s MAC address or is a [[Broadcasting (computing)|broadcast]] or [[multicast]] frame.  In promiscuous mode, however, the card allows all frames through, thus allowing the computer to read frames intended for other machines or network devices.
+
+Many [[operating system]]s require [[superuser]] privileges to enable promiscuous mode. A non-routing [[node (networking)|node]] in promiscuous mode can generally only monitor traffic to and from other nodes within the same [[broadcast domain]] (for [[Ethernet]] and [[IEEE 802.11]]) or ring (for [[token ring]] or [[Fiber distributed data interface|FDDI]]).  Computers attached to the same [[network hub]] satisfy this requirement, which is why [[network switch]]es are used to combat malicious use of promiscuous mode. A [[router (computing)|router]] may monitor all traffic that it routes.
+
+Promiscuous mode is often used to diagnose network connectivity issues. There are programs that make use of this feature to show the user all the data being transferred over the network. Some protocols like [[File Transfer Protocol|FTP]] and [[Telnet]] transfer data and passwords in clear text, without encryption, and network scanners can see this data. Therefore, computer users are encouraged to stay away from insecure protocols like telnet and use more secure ones such as [[Secure Shell|SSH]].
+
+==Detection==
+As promiscuous mode can be used in a malicious way to &amp;apos;&amp;apos;sniff&amp;apos;&amp;apos; on a network, one might be interested in detecting network devices that are in promiscuous mode. In promiscuous mode, some software might send responses to frames even though they were addressed to another machine. However, experienced sniffers can prevent this (e.g., using carefully designed firewall settings).
+
+An example is sending a ping (ICMP echo request) with the wrong MAC address but the right IP address. If an adapter is operating in normal mode, it will drop this frame, and the IP stack never sees or responds to it. If the adapter is in promiscuous mode, the frame will be passed on, and the IP stack on the machine (to which a MAC address has no meaning) will respond as it would to any other ping. The sniffer can prevent this by configuring his or her firewall to block ICMP traffic.
+
+==Some applications that use promiscuous mode==
+* [[NetScout]] Sniffer
+* [[OmniPeek]]
+* [[Capsa]]
+* [[Aircrack-ng]]
+* [[KisMAC]] (used for [[Wireless LAN|WLAN]])
+* [[AirSnort]] (used for [[Wireless LAN|WLAN]])
+* [[Wireshark]] (formerly &amp;apos;&amp;apos;Ethereal&amp;apos;&amp;apos;)
+* [[tcpdump]]
+* [[IPTraf]]
+* [[Paessler Router Traffic Grapher|PRTG]]
+* [[Kismet (software)|Kismet]]
+* [[VMware]]&amp;apos;s VMnet [[Bridging (networking)]]
+* [[Cain and Abel (software)|Cain and Abel]]
+* [[Driftnet Software]]
+* [[Microsoft Windows Network Bridge]]
+* [[XLink Kai]]
+* WC3Banlist
+* [[Snort (software)|Snort]]
+* [[ntop]]
+* [[Firesheep]]
+* [[VirtualBox]] (bridge networking mode)
+* [[CommView]]
+* AccessData SilentRunner
+
+==External links==
+[http://searchsecurity.techtarget.com/definition/promiscuous-mode SearchSecurity.com definition of promiscuous mode]
+
+==See also==
+* [[Packet analyzer]]
+* [[Monitor mode]]
+* [[MAC spoofing]]
+
+{{DEFAULTSORT:Promiscuous Mode}}
+[[Category:Network analyzers]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

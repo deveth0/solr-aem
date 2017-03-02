@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="QuickPlay"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="QuickPlay" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Notability|Products|date=September 2011}}
+{{primary sources|date=September 2011}}
+{{Infobox Software
+| name                   = QuickPlay
+| logo                   =
+| screenshot             = [[Image:HP Quickplay 3.7.jpg|250px|User interface of HP Quickplay for Windows Vista]]
+| caption                = HP QuickPlay
+| developer              = [[Hewlett-Packard Company]] / CyberLink Corporation
+| released               =
+| latest release version = 3.7 v.7508 (last release ; replaced by HP MediaSmart MVP Software)
+| latest release date    = discontinued
+| programming language   =
+| operating system       = [[Microsoft Windows|Windows]], [[Linux]] (up to v1.0)
+| language               = English and other languages
+| genre                  = [[Media player (application software)|Media player]]
+| license                = [[Proprietary software|Proprietary]]
+| website                = [http://h71036.www7.hp.com/hho/cache/303777-0-0-225-121.html Official HP QuickPlay site]
+}}
+
+&amp;apos;&amp;apos;&amp;apos;QuickPlay&amp;apos;&amp;apos;&amp;apos; is a technology pioneered by [[Hewlett-Packard]] that allows users to directly play multimedia without [[booting]] a computer to the main [[operating system]]. QuickPlay software, known as &amp;apos;&amp;apos;&amp;apos;QuickPlay&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;HP QuickPlay&amp;apos;&amp;apos;&amp;apos; is software custom developed for HP by CyberLink Corp. A media component of [[HP Pavilion (computer)|HP Pavilion]] Entertainment [[laptop]]s, QuickPlay is a feature of the dv1000 series and above, including the new Pavilion HDX series of notebooks. QuickPlay is also a feature of many other HP Compaq notebooks. The technology has been emulated by other computer manufacturers such as [[Dell]], [[Alienware]], and [[Toshiba]] in various iterations.
+
+QuickPlay software revisions up to version 2.3 have two main components. The first component is a &amp;quot;Direct&amp;quot; function that provides instant access upon boot to music [[Compact Disc|CD]]s, [[DVD]] movies, and [[MP3]]s stored on the [[hard drive]]. It is launched by the QuickPlay external button found on the notebook or included IR remote. QuickPlay &amp;quot;Direct&amp;quot; is possible through software on a separate partition with a custom operating system
+(Linux for QuickPlay 1.0 and Windows XP embedded for QuickPlay 2.3) installed. The secondary component of QuickPlay software (all versions), is an application run under Windows with identical functions. Newer versions of the Windows-only component (QuickPlay versions above 2.3) have additional gaming and karaoke functions.
+
+QuickPlay software versions 3.0 and newer included in notebooks shipping with [[Windows Vista]], solely retain the Windows-only component, as the &amp;quot;Direct&amp;quot; component is no longer implemented due to unresolved compatibility issues. Instead, users must first boot Windows Vista and login into their user accounts before the Windows-only version of the QuickPlay software can be run. This occurs regardless of whether QuickPlay is launched externally (via a notebook button or IR remote button) when the notebook is off, or when Windows Vista is running. QuickPlay software has been replaced by the HP MediaSmart Software on HP Desktops and Notebook PC
+
+HP QuickPlay should not be confused with the QuickPlay project hosted by sourceforge.net.
+
+==External links==
+* [http://h20000.www2.hp.com/bizsupport/TechSupport/Document.jsp?lang=en&amp;amp;cc=us&amp;amp;objectID=c01153829&amp;amp;jumpid=reg_R1002_USEN Official HP QuickPlay support page]
+* [http://www.asifism.com/category/hp-quickplay-windows-vista/ Backup QuickPlay files &amp;amp; Info at Asifism.com]{{dead link|date=September 2011}}
+
+[[Category:Media players]]
+
+
+{{multimedia-software-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

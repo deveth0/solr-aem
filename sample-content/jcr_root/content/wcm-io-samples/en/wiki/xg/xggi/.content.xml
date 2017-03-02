@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="XGGI"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="XGGI" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{update|date=December 2012}}
+&amp;apos;&amp;apos;&amp;apos;XGGI&amp;apos;&amp;apos;&amp;apos; is a partly accelerated [[X Window system|X]] server which uses the [[General Graphics Interface]] (GGI) and LibGGI to do hardware-independent graphics and input. It supports 8-, 15-, 16-, 24- and 32-bit modes output to multiple monitors on any LibGGI target that has a pixellinear DirectBuffer{{Technical-statement|date=July 2011}}, and should run in any [[Display resolution|resolution]] the target can support. XGGI has been successfully tested on the &amp;apos;&amp;apos;KGI&amp;apos;&amp;apos;, [[X11|X]], [[fbdev]], [[svgalib|svga]], [[Direct Graphics Access|DGA]], &amp;apos;&amp;apos;lcd823&amp;apos;&amp;apos;, and &amp;apos;&amp;apos;tile&amp;apos;&amp;apos; targets.
+
+The ability of XGGI to run on itself via GGI&amp;apos;s X11 target makes [[Xnest]] superfluous.
+
+XGGI 1.6.2 was based on [[XFree86]] 3.3.3. It featured a little acceleration but was the first Xserver with true [[Multi monitor|multihead]] support and it did not require [[Superuser|root privileges]].
+
+New features in XGGI 2.0.0 over 1.6.2:
+
+* It is based on [[Xorg]] X11R7.0
+* xdpyinfo shows 24 X Window extensions (RENDER, RANDR, MIT-SHM, ...)
+* [[IPv6]] support
+* It supports [[Scroll wheel|mouse wheels]]
+* Backing store is 100% accelerated
+* [[Hardware acceleration|Acceleration]] of many [[Window (computing)|window]] operations
+* Support for many more and new [[hardware architecture]]s &amp;amp; [[operating system]]s
+
+==References==
+* Project page: [http://freshmeat.net/projects/xggi/ XGGI - Default branch] at freshmeat.net
+* Christoph Egger: [http://marc.theaimsgroup.com/?m=113986229415113 XGGI v2.0 announcement] on the ggi-develop mailing list
+
+==External links==
+* [http://www.ggi-project.org/xggi/ XGGI homepage]
+* {{Freshmeat|xggi|XGGI}}
+
+{{Portal|Free software}}
+
+{{XWinSys}}
+
+[[Category:X servers]]
+
+
+{{Free-software-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

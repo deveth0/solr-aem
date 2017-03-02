@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Xorazm Stadium"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Xorazm Stadium" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2006}}
+&amp;apos;&amp;apos;&amp;apos;Xorazm Stadium&amp;apos;&amp;apos;&amp;apos; is a multi-use [[stadium]] in [[Urgench]], [[Uzbekistan]].  It is currently used mostly for [[football (soccer)|football]] matches and is the home stadium of [[Xorazm FK Urganch]].  The stadium holds 25,000 people.
+
+{{Coord|41.566122|60.604958|display=title|format=dms|type:landmark_scale:3000}}
+
+[[Category:Football venues in Uzbekistan]]
+
+
+{{Uzbekistan-sports-venue-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

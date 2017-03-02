@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="FIFO and LIFO accounting"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="FIFO and LIFO accounting" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Accounting}}
+&amp;apos;&amp;apos;&amp;apos;FIFO and LIFO Methods&amp;apos;&amp;apos;&amp;apos; are accounting techniques used in managing inventory and financial matters involving the amount of money a company has tied up within inventory of produced goods, raw materials, parts, components, or feed stocks. These methods are used to manage assumptions of cost flows related to inventory, stock repurchases (if purchased at different prices), and various other accounting purposes.
+
+&amp;apos;&amp;apos;&amp;apos;FIFO&amp;apos;&amp;apos;&amp;apos; stands for &amp;apos;&amp;apos;first-in, first-out&amp;apos;&amp;apos;, meaning that the oldest inventory items are recorded as sold first but do not necessarily mean that the exact oldest physical object has been tracked and sold.
+
+&amp;apos;&amp;apos;&amp;apos;LIFO&amp;apos;&amp;apos;&amp;apos; stands for &amp;apos;&amp;apos;last-in, first-out&amp;apos;&amp;apos;, meaning that the most recently produced items are recorded as sold first. Since the 1970s, some U.S. companies shifted towards the use of LIFO, which reduces their income taxes in times of [[inflation]], but with [[International Financial Reporting Standards]] banning the use of LIFO, more companies have gone back to FIFO. LIFO is only used in the [[United States|U.S.]]&amp;lt;ref&amp;gt;Gibson SC. (2002). LIFO vs. FIFO: a return to the basics. The RMA Journal.  RINA [http://findarticles.com/p/articles/mi_m0ITW/is_2_85/ai_n14897182 Free full text].&amp;lt;/ref&amp;gt;
+
+The difference between the cost of an inventory calculated under the FIFO and LIFO methods is called the &amp;apos;&amp;apos;LIFO reserve&amp;apos;&amp;apos;. This reserve is essentially the amount by which an entity&amp;apos;s taxable income has been deferred by using the LIFO method.&amp;lt;ref&amp;gt;{{cite web|url=http://www.accountingtools.com/lifo-reserve-definition |title=LIFO Reserve Definition |publisher=AccountingTools |date= |accessdate=2011-11-09}}&amp;lt;/ref&amp;gt;
+
+==References==
+{{Reflist}}
+
+==External links==
+* [http://www.taxpolicycenter.org/taxtopics/2011_LIFO.cfm Taxpolicycenter.org], &amp;quot;Tax Topics: Repeal LIFO&amp;quot;
+* [http://www.uic.edu/classes/actg/actg516rtr/Notes/06-IRS-FIFO-LIFO.htm], &amp;quot;LIFO/FIFO&amp;quot;
+[[Category:Inventory]]
+[[Category:Accounting terminology]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

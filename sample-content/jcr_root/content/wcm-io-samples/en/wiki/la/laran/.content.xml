@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Laran"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Laran" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{otheruses}}
+{{Unreferenced|date=December 2009}}
+In [[Etruscan mythology]], &amp;apos;&amp;apos;&amp;apos;Laran&amp;apos;&amp;apos;&amp;apos; was the god of [[war]].  In art, he was portrayed as a [[nudity|naked]] young man with a [[helmet]] and a [[spear]]. Laran&amp;apos;s consort was [[Turan (mythology)|Turan]] (who would later become [[Venus (mythology)|Venus]] under the Romans). Laran would go on to be merged with the Greek pantheon&amp;apos;s [[Ares]] and his Etruscan companion [[Veive]] to form the Roman&amp;apos;s god of war: [[Mars (mythology)|Mars]].
+
+&amp;lt;!--Darkover novels &amp;quot;laran&amp;quot;  psychic ability such as telepathy, telekinesis, clairvoyance etc.--&amp;gt;
+
+[[Category:Etruscan gods]]
+[[Category:Etruscan religion]]
+[[Category:War gods]]
+
+{{Etruria-stub}}
+{{deity-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

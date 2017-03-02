@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Template:Spamming"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Template:Spamming" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Navbox
+| name      = Spamming
+| title     = [[Spam (electronic)|Spamming]]
+| listclass = hlist
+
+| group1 = [[Communications protocol|Protocol]]s
+| list1  = {{Navbox|child
+
+| group1 = [[Email spam]]
+| list1  =
+*[[Address munging]]
+*[[Bulk email software]]
+*[[Directory Harvest Attack]]
+*[[Joe job]]
+*[[DNSBL]]
+*[[DNSWL]]
+*[[Email address harvesting|Spambot]]
+*[[Pink contract]]
+| group2 = Other
+| list2  =
+*[[Autodialer]]/[[Robocall]]
+*[[Flyposting]]
+*[[Junk fax]]
+*[[Messaging spam|Messaging]]
+*[[Mobile phone spam|Mobile phone]]
+*[[Newsgroup spam|Newsgroup]]
+*[[Telemarketing]]
+*[[VoIP spam|VoIP]]
+}}
+
+| group2 = [[Anti-spam techniques|Anti-spam]]
+| list2  =
+*[[Disposable email address]]
+*[[Email authentication]]
+*[[Spam and Open Relay Blocking System|SORBS]]
+*[[SpamCop]]
+*[[The Spamhaus Project|Spamhaus]]
+*[[List poisoning]]
+*[[Bayesian spam filtering]]
+*[[Network Abuse Clearinghouse]]
+
+| group3 = [[Spamdexing]]
+| list3  =
+*[[Keyword stuffing]]
+*[[Google bomb]]
+*[[Scraper site]]
+*[[Link farm]]
+*[[Cloaking]]
+*[[Doorway page]]
+*[[URL redirection]]
+*[[Spam blog]]s
+*[[Sping]]
+*[[Forum spam]]
+*[[Spam in blogs|Blog spam]]
+*[[Social spam]]
+*[[Referrer spam]]
+*[[Parasite hosting]]
+
+| group4 = [[Internet fraud]]
+| list4  =
+*[[Advance-fee fraud]]
+*[[Lottery scam]]
+*[[Make Money Fast]]
+*[[Phishing]]
+*[[Vishing]]
+}}&amp;lt;includeonly&amp;gt;[[Category:Spamming]]&amp;lt;/includeonly&amp;gt;&amp;lt;noinclude&amp;gt;
+
+[[Category:Computer security templates]]
+[[Category:Computing templates]]
+&amp;lt;/noinclude&amp;gt;&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

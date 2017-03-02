@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="VAD"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="VAD" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;VAD&amp;apos;&amp;apos;&amp;apos;  may refer to:
+*[[Vertebral artery dissection]], the development of a flap-like tear in the vertebral artery
+*[[Ventricular assist device]], a mechanical circulatory device used to replace the function of a failing heart
+*[[Vitamin A deficiency]], a lack of vitamin A in humans
+*[[Voice activity detection]], a technique in which the presence or absence of human speech is detected
+*[[IVR#Voice-Activated Dialling|Voice-Activated Dialling]], the use of speech recognition to identify the destination for a telephone call
+*[[Voluntary Aid Detachment]], a voluntary organisation providing field nursing services in the British Empire
+* Vincristine, Adriamycin (doxorubicin), Dexamethasone; a [[chemotherapy regimen]] used for multiple myeloma
+
+See also [[Vad (disambiguation)]].
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

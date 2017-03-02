@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ebraucus"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ebraucus" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{House of Brutus}}
+{{Unreferenced|date=December 2009}}
+&amp;apos;&amp;apos;&amp;apos;Ebraucus&amp;apos;&amp;apos;&amp;apos; ({{lang-cy|&amp;apos;&amp;apos;&amp;apos;Efrawg&amp;apos;&amp;apos;&amp;apos;}}/&amp;apos;&amp;apos;&amp;apos;Efrog&amp;apos;&amp;apos;&amp;apos;) was a legendary king of the [[Britons (historic)|Britons]], as recounted by [[Geoffrey of Monmouth]].  He was the son of King [[Mempricius]] before he abandoned the family.
+
+Following the death of his father, Mempricius, he became king and reigned 39 years.  According to Geoffrey he was admired, tall, and remarkably strong.  He was the first to wage war on the [[Gauls]] since the time of [[Brutus of Britain|Brutus]].  By pillaging the cities and shores and slaughtering many men, he became extremely wealthy and enriched the lands of [[Great Britain|Britain]].  He founded Kaerebrauc (City of Ebraucus) (later [[York]]) north of the [[Humber]], (see [[Eboracum]]) and Alclud in [[Alba]]ny, (see [[Dunbarton]], capital of [[Kingdom of Strathclyde|Strathclyde]]).  He had twenty wives who produced twenty sons and thirty daughters.  All his daughters he sent to his cousin [[Silvius Alba]] in [[Alba Longa]] (Italy) to be married to the other [[Troy|Trojan]] descendants.  Except for [[Brutus Greenshield]], all of Ebraucus&amp;apos;s sons, led by [[Assaracus]], went to [[Germany]], creating a kingdom there.  Brutus thus succeeded Ebraucus upon his death.
+
+==References==
+
+{{s-start | noclear = true }}
+{{s-reg | leg }}
+{{s-bef | before = [[Mempricius]] }}
+{{s-ttl | title  = [[List of legendary kings of Britain|King of Britain]] }}
+{{s-aft | after  = [[Brutus Greenshield|Brutus II Greenshield]] }}
+{{s-end}}
+
+&amp;lt;!-- Not a stub (read Geoffrey of Monmouth - this is all that can be said) --&amp;gt;
+
+[[Category:British traditional history]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

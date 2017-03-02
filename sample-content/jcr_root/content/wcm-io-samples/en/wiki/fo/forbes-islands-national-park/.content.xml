@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Forbes Islands National Park"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Forbes Islands National Park" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+{{Infobox protected area of Australia
+  | name = Forbes Islands National Park
+  | iucn_category = II
+  | image =
+  | caption =
+  | locator_x =
+  | locator_y =
+  | nearest_town_or_city  =
+  | coordinates = {{Coord|12|17|10|S|143|24|40|E|type:landmark_region:AU-QLD|display=inline,title}}
+  | area = {{Convert|1.09|km2|sqmi|2|abbr=on}}
+  | established = 1990
+  | visitation_num =
+  | visitation_year =
+  | managing_authorities = [[Queensland Parks and Wildlife Service]]
+  | official_site =
+}}
+&amp;apos;&amp;apos;&amp;apos;Forbes Islands&amp;apos;&amp;apos;&amp;apos; is a national park in [[Queensland]], [[Australia]], 1,962&amp;amp;nbsp;km northwest of [[Brisbane]] in the [[Great Barrier Reef Marine Park]] [[Queensland]] and is located about 40&amp;amp;nbsp;km North East of [[Iron Range National Park]] and [[Lockhart River, Queensland|Lockhart River]] in the [[Cape Weymouth]] area in the [[Coral Sea]] just off the small locality of Portland Roads.
+
+==See also==
+{{Portal|Queensland}}
+* [[Protected areas of Queensland]]
+
+{{National Parks of Queensland}}
+
+[[Category:National parks of Far North Queensland]]
+[[Category:Islands of Queensland]]
+[[Category:Protected areas established in 1990]]
+
+
+{{Queensland-national-park-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

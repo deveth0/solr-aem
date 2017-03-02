@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Zomba Massif"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Zomba Massif" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=August 2009}}
+The &amp;apos;&amp;apos;&amp;apos;Zomba Massif&amp;apos;&amp;apos;&amp;apos; is a mountain of the [[Shire Highlands]] in southern [[Malawi]]. It is largely made up of [[syenite]], and at its peak is 2,087 metres high. It is notable as it is unique to the region. It occupies total area of about 130 square km.
+
+{{malawi-geo-stub}}
+
+{{coord missing|Malawi}}
+
+[[Category:Landforms of Malawi]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

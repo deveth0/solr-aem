@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Qeqertarsuaq (Upernavik)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Qeqertarsuaq (Upernavik)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Qeqertarsuaq&amp;apos;&amp;apos;&amp;apos; is an island in [[Qaasuitsup]] municipality, near [[Upernavik]], in northwestern [[Greenland]].
+
+[[Qeqertarsuaq]] (meaning &amp;quot;Large Island&amp;quot;) is the name of several islands in Greenland. The island near Upernavik should not be confused with the much larger island [[Qeqertarsuaq]], better known as [[Disko Island]], or the smaller island [[Qeqertarsuaq (Herbert Island)]] near [[Qaanaaq]] ([[Thule]]).
+
+Qeqertarsuaq in Upernavik has an area of 269&amp;amp;nbsp;km². The only settlement on the island is [[Upernavik Kujalleq]] (Søndre Upernavik).
+
+Qeqertarsuaq in Upernavik is also known as &amp;apos;&amp;apos;Qeqertaq&amp;apos;&amp;apos;, meaning just &amp;quot;Island&amp;quot;. [[Qeqertaq Island]] is also the name of another island near Upernavik (Danish: [[Skalø]]) and of a settlement in [[Qasigiannguit]].
+
+{{coord|72|16|N|55|20|W|dim:50000_region:GL|display=title}}
+
+[[Category:Islands of Greenland]]
+
+
+{{Greenland-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

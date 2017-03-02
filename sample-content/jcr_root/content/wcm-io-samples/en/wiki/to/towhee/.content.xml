@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Towhee"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Towhee" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Taxobox
+| name = Towhees
+| image = Spotted Towhee (Pipilo maculatus).jpg
+| image_caption = [[Spotted Towhee]] (&amp;apos;&amp;apos;Pipilo maculatus&amp;apos;&amp;apos;)
+| regnum = [[Animal]]ia
+| phylum = [[Chordate|Chordata]]
+| classis = [[bird|Aves]]
+| ordo = [[Passeriformes]]
+| familia = [[Emberizidae]]
+| genus = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Pipilo&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+| genus_authority = [[Louis Jean Pierre Vieillot|Vieillot]], 1816
+| subdivision_ranks = Species
+| subdivision =
+See text.
+}}
+
+A &amp;apos;&amp;apos;&amp;apos;towhee&amp;apos;&amp;apos;&amp;apos; is any one of a number of species of birds in the [[genus]] &amp;apos;&amp;apos;Pipilo&amp;apos;&amp;apos; or &amp;apos;&amp;apos;Melozone&amp;apos;&amp;apos; within the family [[Emberizidae]] (which also includes the [[bunting (bird)|buntings]], [[American sparrow]]s, and [[junco]]s).
+
+Towhees typically have longer tails than other emberizids.  Most species tend to avoid humans, so they are not well known, though the [[Eastern Towhee]] &amp;apos;&amp;apos;P. erythrophthalamus&amp;apos;&amp;apos; is bolder as well as more colorful.  This species, and some others, may be seen in urban parks and gardens.
+
+There has been considerable debate over the taxonomy of the towhees in recent years. Two species complexes have been identified, the rufous-sided complex (involving &amp;apos;&amp;apos;Pipilo erythrophthalmus&amp;apos;&amp;apos;, &amp;apos;&amp;apos;P. maculatus&amp;apos;&amp;apos;, &amp;apos;&amp;apos;P. socorroensis&amp;apos;&amp;apos;, &amp;apos;&amp;apos;P. ocai&amp;apos;&amp;apos; and &amp;apos;&amp;apos;P. chlorurus&amp;apos;&amp;apos;), and the brown towhee complex (involving &amp;apos;&amp;apos;Melozone crissalis&amp;apos;&amp;apos;, &amp;apos;&amp;apos;M. fuscus&amp;apos;&amp;apos;, &amp;apos;&amp;apos;M. aberti&amp;apos;&amp;apos; and &amp;apos;&amp;apos;M. albicollis&amp;apos;&amp;apos;). The distinction of species within these is uncertain and opinions have differed over the years. Modern authorities distinguish all four species in the brown towhee complex, though &amp;apos;&amp;apos;M. fuscus&amp;apos;&amp;apos; and &amp;apos;&amp;apos;M. crissalis&amp;apos;&amp;apos; were formerly treated as a single species. Hybrids are frequent between some of the species, particularly between the Mexican races of &amp;apos;&amp;apos;P. maculatus&amp;apos;&amp;apos; (&amp;quot;Olive-backed Towhee&amp;quot;, &amp;apos;&amp;apos;P. maculatus macronyx&amp;apos;&amp;apos;) and &amp;apos;&amp;apos;P. ocai&amp;apos;&amp;apos;.
+
+&amp;apos;&amp;apos;&amp;apos;Species list:&amp;apos;&amp;apos;&amp;apos;
+* [[Green-tailed Towhee]], &amp;apos;&amp;apos;Pipilo chlorurus&amp;apos;&amp;apos;,
+* [[Collared Towhee]], &amp;apos;&amp;apos;Pipilo ocai&amp;apos;&amp;apos;,
+* [[Eastern Towhee]], &amp;apos;&amp;apos;Pipilo erythrophthalmus&amp;apos;&amp;apos;
+* [[Spotted Towhee]], &amp;apos;&amp;apos;Pipilo maculatus&amp;apos;&amp;apos;
+* [[Bermuda Towhee]] &amp;apos;&amp;apos;Pipilo naufragus&amp;apos;&amp;apos; ([[extinct]])
+* [[California Towhee]], &amp;apos;&amp;apos;Melozone crissalis&amp;apos;&amp;apos;
+* [[Canyon Towhee]], &amp;apos;&amp;apos;Melozone fuscus&amp;apos;&amp;apos;,
+* [[Abert&amp;apos;s Towhee]],  &amp;apos;&amp;apos;Melozone aberti&amp;apos;&amp;apos;,
+* [[White-throated Towhee]], &amp;apos;&amp;apos;Melozone albicollis&amp;apos;&amp;apos;
+
+== References ==
+* {{cite journal|last=Zink|first= Robert M.|last2= Dittmann|first2= Donna L. |year=1991|title=Evolution of Brown Towhees: Mitochondrial DNA Evidence|journal=Condor|volume=93|issue=1|pages=98–105|url=http://sora.unm.edu/sites/default/files/journals/condor/v093n01/p0098-p0105.pdf|doi=10.2307/1368611}}
+* {{cite journal|last=Olson|first= Storrs L.|last2= Wingate|first2= David B. |year=2012|title=A new species of towhee Aves: Emberizidae: &amp;apos;&amp;apos;Pipilo&amp;apos;&amp;apos;) from the Quaternary deposits on Bermuda|journal=Proceedings of the Biological Society of Washington|volume=125|issue=1|pages=85–96|doi=10.2988/11-21.1}}
+
+==External links==
+*[http://ibc.lynxeds.com/family/buntings-seedeaters-allies-emberizidae Towhee videos, photos and sounds] on the Internet Bird Collection
+
+[[Category:Pipilo]]
+[[Category:Melozone]]
+[[Category:Bird genera]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

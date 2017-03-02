@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Delivery point"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Delivery point" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In a [[Mail|postal]] [[system]], a &amp;apos;&amp;apos;&amp;apos;delivery point&amp;apos;&amp;apos;&amp;apos; (sometimes &amp;apos;&amp;apos;&amp;apos;DP&amp;apos;&amp;apos;&amp;apos;) is a single mailbox or other place at which [[mail]] is delivered. It differs from a [[address (geography)|street address]], in that each address may in fact have several delivery points, such as an [[apartment]] flat, [[office]] [[Departmentalization|department]], or other [[room (architecture)|room]]. Such buildings (mainly only [[residential]]) are often called [[Multi-family residential|multiple-dwelling units]] (MDUs) by the [[United States Postal Service|USPS]].
+
+==United States Postal Service usage==
+In the [[United States Postal Service|US Postal System]], a &amp;apos;&amp;apos;&amp;apos;delivery point&amp;apos;&amp;apos;&amp;apos;  is a specific set of digits between 00 and 99 assigned to every address. When combined with the [[ZIP Code|ZIP&amp;amp;nbsp;+&amp;amp;nbsp;4]] code, the delivery point provides a unique identifier for every deliverable address served by the USPS.
+
+The delivery point digits are almost never printed on mail in [[human-readable]] form; instead they are encoded in the [[POSTNET| POSTNET delivery point barcode]] (DPBC) or as part of the newer [[Intelligent Mail Barcode]] (IMB). The DPBC makes automated mail sorting possible, including ordering the mail according to how the carrier delivers it (walk sequence).
+
+The two-digit delivery point number is combined with an additional [[check digit]] in the DPBC. This digit is used by barcode sorters (BCS) to check if the ZIP, ZIP&amp;amp;nbsp;+&amp;amp;nbsp;4, or delivery point ZIP codes contain an error. In a database, storing the ZIP&amp;amp;nbsp;+&amp;amp;nbsp;4 code in a 10 character field (with the hyphen) allows easy output in the address block, and storing the check digit in a 3-digit field (instead of calculating it) allows automatic checking of the validity of the ZIP+4 and delivery point fields in case one had been changed independently. In order to receive the appropriate barcode discount, the delivery point digits and the +4 extension must be verified using an up-to-date, [[Coding Accuracy Support System|CASS]] or DPV certified program.
+
+Since each [[city block]] or section of a [[rural route]] has a different +4 extension, and address numbers generally increase by 100 per block, the delivery point is typically the last two digits of the address. In the early days of DPBC, it was acceptable to determine the delivery point in this fashion, but since [[suite (address)|suite]] and other secondary designations are assigned unique delivery point which cannot be determined without the [[Coding Accuracy Support System|CASS]]/DPV database, this is no longer possible. The delivery point is usually redundant for [[post office box]]es, since they are typically assigned their own ZIP&amp;amp;nbsp;+&amp;amp;nbsp;4 code, but must nonetheless be assigned a complete DPBC for full postal discounts. The full rules for identifying the delivery point for a given address are specified in the USPS CASS Technical Guide.&amp;lt;ref&amp;gt;{{cite web |url = https://ribbs.usps.gov/cassmass/documents/tech_guides/Technical_Guides/CASSTECH_N.PDF |title = US Postal Service CASS Technical Guide |page=37 |date = February 2011 |publisher = United States Postal Service |accessdate=3 January 2013}}&amp;lt;/ref&amp;gt;
+
+==References==
+{{reflist}}
+
+[[Category:Postal system]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

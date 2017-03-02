@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="New Glasgow"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="New Glasgow" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;New Glasgow&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* [[HMCS New Glasgow (K320)|HMCS &amp;apos;&amp;apos;New Glasgow&amp;apos;&amp;apos; (K320)]], a &amp;apos;&amp;apos;River&amp;apos;&amp;apos; class frigate
+
+==Canada==
+* [[New Glasgow, Nova Scotia]], Canada
+* [[New Glasgow, Prince Edward Island]], Canada
+* [[New Glasgow, Quebec]], a former village that merged into Sainte-Sophie, Quebec in 2000
+
+{{disambig|geo}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

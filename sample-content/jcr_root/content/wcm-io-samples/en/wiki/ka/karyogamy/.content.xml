@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Karyogamy"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Karyogamy" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced stub|auto=yes|date=December 2009}}
+&amp;apos;&amp;apos;&amp;apos;Karyogamy&amp;apos;&amp;apos;&amp;apos; is the [[cell fusion|fusion]] of [[pronuclei]] of two [[cell (biology)|cell]]s, as part of [[syngamy]], [[fertilization]], or true [[bacterial conjugation]].
+
+It is one of the two major modes of [[reproduction]] in [[fungi]]. In fungi that lack [[sexual cycle]]s, it is an important source of [[genetic variation]] through the formation of [[somatic diploid]]s.
+
+The term comes for the [[Greek (language)|Greek]] &amp;apos;&amp;apos;karuo-&amp;apos;&amp;apos; (from &amp;apos;&amp;apos;karuon&amp;apos;&amp;apos;) meaning &amp;apos;&amp;apos;nut&amp;apos;&amp;apos; and &amp;apos;&amp;apos;-gamos&amp;apos;&amp;apos; meaning &amp;apos;&amp;apos;marriage&amp;apos;&amp;apos;.
+
+[[Category:Reproduction]]It is mainly found in fungal phylum ascomycetes.
+
+{{Cell-biology-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

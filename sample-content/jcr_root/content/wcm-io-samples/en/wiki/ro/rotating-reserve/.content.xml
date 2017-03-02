@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Rotating Reserve"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Rotating Reserve" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced stub|auto=yes|date=December 2009}}
+
+In the [[United States]], a number of ships whose construction was authorized during [[World War I]] entered service at a time when the post-war cutbacks in funds and personnel seriously curtailed American peacetime naval operations. The Navy established the &amp;apos;&amp;apos;&amp;apos;rotating reserve&amp;apos;&amp;apos;&amp;apos; to maintain a force in readiness. In operation, the system required that one-third of a given force remain alongside, maintained by only the minimum number of officers and men, while another third was to be half-manned and berthed at a buoy in the harbor. The last third was fully manned and remained at buoys in the harbor but were for periodic operations underway at sea.
+
+[[Category:United States Navy]]
+
+
+{{Navy-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

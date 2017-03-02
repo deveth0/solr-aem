@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Anchor bend"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Anchor bend" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{redirect|Fisherman&amp;apos;s bend|a similarly-named knot|Fisherman&amp;apos;s knot|the place|Port Melbourne, Victoria}}
+
+{{Knot-details
+| name=Anchor bend
+| image= Roringstek.jpg
+| names= Fisherman&amp;apos;s Bend
+| type= hitch
+| strength=
+| origin=
+| related=
+| releasing= jamming
+| strength=
+| uses= attaching a rope to a ring or similar termination
+| caveat=
+| abok_number= #1723 and #1841
+}}
+The &amp;apos;&amp;apos;&amp;apos;Anchor Bend&amp;apos;&amp;apos;&amp;apos; is a [[knot]] used for attaching a rope to a ring or similar termination. Its name originates from the time when &amp;quot;bend&amp;quot; was understood to mean &amp;quot;tie to&amp;quot;, and not restricted to knots that join rope ends.  While the knot can become jammed in some modern materials, it is usually easily untied after moderate loads; it can be made more resistant to jamming by taking an extra turn around the object--this will make for a 1-diameter longer span of the end to reach around the standing part to be tucked (although in a case of tying to a small shackle or link of a chain, this might not be possible). It is the accepted knot for attaching [[anchor]]s (or more usually anchor chains) to [[warping (sailing)|warps]]. The knot is very similar to a [[round turn and two half hitches]] except that the first [[half hitch]] is passed under the turn.  In many everyday uses, the finishing half-hitch need not be made; alternatively, one might seek surer security by tying off the end with a [[Strangle knot]] to the standing part.
+
+[[Image:AnchorBend HowTo.jpg|thumb|left|Anchor bend step by step, with a finishing half hitch.]]
+
+==See also==
+* [[List of knots]]
+
+== External links ==
+*{{Animated Knots|anchor|Anchor Bend|May 5, 2013}}
+
+{{Knots}}
+
+{{Knot-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

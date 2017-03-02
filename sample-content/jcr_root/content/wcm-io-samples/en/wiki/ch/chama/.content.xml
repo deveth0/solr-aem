@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Chama"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Chama" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Chama&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+==Places==
+*[[Chama, Colorado]], USA, an unincorporated town
+*[[Chama, New Mexico]], USA, a village
+*[[Chama, Zambia]], a small town and district
+*[[Chama River (Venezuela)]], aka &amp;apos;&amp;apos;Río Chama&amp;apos;&amp;apos;, a river in Venezuela
+*[[Rio Chama (Rio Grande)]], a tributary of the Rio Grande
+*[[Chama (Maya site)]], an archaeological site in the Alta Verapaz, Guatemala
+
+==Other==
+*[[Chama (genus)|&amp;apos;&amp;apos;Chama&amp;apos;&amp;apos; (genus)]], a genus of bivalve molluscs
+*[[Japanese_honorifics#Baby_talk_variations|-chama]], a [[Japanese honorifics|Japanese honorific]]
+*&amp;apos;&amp;apos;Chama&amp;apos;&amp;apos;, a variant name of [[Kamadeva]], the Hindu god of love
+*((chama, East Africa Kenya)) A Swahili word meaning a group or organization for fund raising i.e. Merry-go-round fund raising group
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

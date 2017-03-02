@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Queen Elizabeth Driveway"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Queen Elizabeth Driveway" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+[[File:Queen Elizabeth Driveway.JPG|thumb|Looking east along the Queen Elizabeth Driveway with [[Dow&amp;apos;s Lake]]]]
+&amp;apos;&amp;apos;&amp;apos;Queen Elizabeth Driveway&amp;apos;&amp;apos;&amp;apos; is a scenic [[parkway]] in [[Ottawa]], [[Canada]] that runs along the western edge of the [[Rideau Canal]]. It runs from [[Laurier Avenue (Ottawa)|Laurier Avenue]] in the north to [[Dow&amp;apos;s Lake]] where it turns into [[Prince of Wales Drive (Ottawa)|Prince of Wales Drive]]. It is administered and owned by the [[National Capital Commission]] (NCC).
+
+The driveway was one of the first projects of the NCC, known (before 1927) as the Ottawa Improvement Agency. The two-lane road replaced the industrial buildings and private boathouses that had stood along the canal. The driveway was lined with trees and gardens, and a series of large houses were built along it. It was originally known as the Government Driveway but was soon renamed the Rideau Canal Driveway. Several decades later it was given its current name. The speed limit for most of its length is 60&amp;amp;nbsp;km/h (37&amp;amp;nbsp;mph).
+
+In the 1950s a similar route was created on the eastern edge of the canal, the [[Colonel By Drive]].
+
+Along the entire length of the Driveway is a multi-use [[Trail#Urban and suburban trails|trail]]  as part of the [[Capital Pathway]] system.
+
+{{Ottawa Roads}}
+
+[[Category:Roads in Ottawa]]
+[[Category:Parkways in Ontario]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

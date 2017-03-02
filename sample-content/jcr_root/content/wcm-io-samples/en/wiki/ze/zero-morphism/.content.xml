@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Zero morphism"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Zero morphism" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[category theory]], a branch of mathematics, a &amp;apos;&amp;apos;&amp;apos;zero morphism&amp;apos;&amp;apos;&amp;apos; is a special kind of [[morphism]] exhibiting properties like the morphisms to and from a [[zero object]].
+
+==Definitions==
+Suppose &amp;apos;&amp;apos;&amp;apos;C&amp;apos;&amp;apos;&amp;apos; is a [[Category (mathematics)|category]], and &amp;apos;&amp;apos;f&amp;apos;&amp;apos; : &amp;apos;&amp;apos;X&amp;apos;&amp;apos; → &amp;apos;&amp;apos;Y&amp;apos;&amp;apos; is a morphism in &amp;apos;&amp;apos;&amp;apos;C&amp;apos;&amp;apos;&amp;apos;. The morphism &amp;apos;&amp;apos;f&amp;apos;&amp;apos; is called a &amp;apos;&amp;apos;&amp;apos;constant morphism&amp;apos;&amp;apos;&amp;apos; (or sometimes &amp;apos;&amp;apos;&amp;apos;left zero morphism&amp;apos;&amp;apos;&amp;apos;) if for any [[Object (category theory)|object]] &amp;apos;&amp;apos;W&amp;apos;&amp;apos; in &amp;apos;&amp;apos;&amp;apos;C&amp;apos;&amp;apos;&amp;apos; and any &amp;apos;&amp;apos;g&amp;apos;&amp;apos;, &amp;apos;&amp;apos;h&amp;apos;&amp;apos; : &amp;apos;&amp;apos;W&amp;apos;&amp;apos; → &amp;apos;&amp;apos;X&amp;apos;&amp;apos;, &amp;apos;&amp;apos;fg&amp;apos;&amp;apos; = &amp;apos;&amp;apos;fh&amp;apos;&amp;apos;. Dually, &amp;apos;&amp;apos;f&amp;apos;&amp;apos; is called a &amp;apos;&amp;apos;&amp;apos;coconstant morphism&amp;apos;&amp;apos;&amp;apos; (or sometimes &amp;apos;&amp;apos;&amp;apos;right zero morphism&amp;apos;&amp;apos;&amp;apos;) if for any object &amp;apos;&amp;apos;Z&amp;apos;&amp;apos; in &amp;apos;&amp;apos;&amp;apos;C&amp;apos;&amp;apos;&amp;apos; and any &amp;apos;&amp;apos;g&amp;apos;&amp;apos;, &amp;apos;&amp;apos;h&amp;apos;&amp;apos; ∈ Mor&amp;lt;sub&amp;gt;&amp;apos;&amp;apos;&amp;apos;C&amp;apos;&amp;apos;&amp;apos;&amp;lt;/sub&amp;gt;(&amp;apos;&amp;apos;Y&amp;apos;&amp;apos;, &amp;apos;&amp;apos;Z&amp;apos;&amp;apos;), &amp;apos;&amp;apos;gf&amp;apos;&amp;apos; = &amp;apos;&amp;apos;hf&amp;apos;&amp;apos;. A &amp;apos;&amp;apos;&amp;apos;zero morphism&amp;apos;&amp;apos;&amp;apos; is one that is both a constant morphism and a coconstant morphism.
+
+A &amp;apos;&amp;apos;&amp;apos;category with zero morphisms&amp;apos;&amp;apos;&amp;apos; is one where, for every two objects &amp;apos;&amp;apos;A&amp;apos;&amp;apos; and &amp;apos;&amp;apos;B&amp;apos;&amp;apos; in &amp;apos;&amp;apos;&amp;apos;C&amp;apos;&amp;apos;&amp;apos;, there is a fixed morphism 0&amp;lt;sub&amp;gt;&amp;apos;&amp;apos;AB&amp;apos;&amp;apos;&amp;lt;/sub&amp;gt; : &amp;apos;&amp;apos;A&amp;apos;&amp;apos; → &amp;apos;&amp;apos;B&amp;apos;&amp;apos; such that for all objects &amp;apos;&amp;apos;X&amp;apos;&amp;apos;, &amp;apos;&amp;apos;Y&amp;apos;&amp;apos;, &amp;apos;&amp;apos;Z&amp;apos;&amp;apos; in &amp;apos;&amp;apos;&amp;apos;C&amp;apos;&amp;apos;&amp;apos; and all morphisms &amp;apos;&amp;apos;f&amp;apos;&amp;apos; : &amp;apos;&amp;apos;Y&amp;apos;&amp;apos; → &amp;apos;&amp;apos;Z&amp;apos;&amp;apos;, &amp;apos;&amp;apos;g&amp;apos;&amp;apos; : &amp;apos;&amp;apos;X&amp;apos;&amp;apos; → &amp;apos;&amp;apos;Y&amp;apos;&amp;apos;, the following diagram commutes:
+
+[[Image:ZeroMorphism.png|center|160px]]
+
+The morphisms 0&amp;lt;sub&amp;gt;&amp;apos;&amp;apos;XY&amp;apos;&amp;apos;&amp;lt;/sub&amp;gt; necessarily are zero morphisms and form a compatible system of zero morphisms.
+
+If &amp;apos;&amp;apos;&amp;apos;C&amp;apos;&amp;apos;&amp;apos; is a category with zero morphisms, then the collection of 0&amp;lt;sub&amp;gt;&amp;apos;&amp;apos;XY&amp;apos;&amp;apos;&amp;lt;/sub&amp;gt; is unique.
+
+== Examples ==
+* In the [[category of groups]] (or of [[module (mathematics)|modules]]), a zero morphism is a [[homomorphism]] &amp;apos;&amp;apos;f&amp;apos;&amp;apos; : &amp;apos;&amp;apos;G&amp;apos;&amp;apos; → &amp;apos;&amp;apos;H&amp;apos;&amp;apos; that maps all of &amp;apos;&amp;apos;G&amp;apos;&amp;apos; to the [[identity element]] of &amp;apos;&amp;apos;H&amp;apos;&amp;apos;.  The [[zero object|null object]] in the category of groups is the [[trivial group]] &amp;apos;&amp;apos;&amp;apos;1&amp;apos;&amp;apos;&amp;apos; = {1}, which is unique up to isomorphism.  Every zero morphism can be factored through &amp;apos;&amp;apos;&amp;apos;1&amp;apos;&amp;apos;&amp;apos;, i. e., &amp;apos;&amp;apos;f&amp;apos;&amp;apos; : &amp;apos;&amp;apos;G&amp;apos;&amp;apos; → &amp;apos;&amp;apos;&amp;apos;1&amp;apos;&amp;apos;&amp;apos; → &amp;apos;&amp;apos;H&amp;apos;&amp;apos;.
+
+* More generally, suppose &amp;apos;&amp;apos;&amp;apos;C&amp;apos;&amp;apos;&amp;apos; is any category with a [[zero object]] &amp;apos;&amp;apos;&amp;apos;0&amp;apos;&amp;apos;&amp;apos;. Then for all objects &amp;apos;&amp;apos;X&amp;apos;&amp;apos; and &amp;apos;&amp;apos;Y&amp;apos;&amp;apos; there is a unique sequence of morphisms
+::0&amp;lt;sub&amp;gt;&amp;apos;&amp;apos;XY&amp;apos;&amp;apos;&amp;lt;/sub&amp;gt; : &amp;apos;&amp;apos;X&amp;apos;&amp;apos; &amp;amp;rarr; &amp;apos;&amp;apos;&amp;apos;0&amp;apos;&amp;apos;&amp;apos; &amp;amp;rarr; &amp;apos;&amp;apos;Y&amp;apos;&amp;apos;
+:The family of all morphisms so constructed endows &amp;apos;&amp;apos;&amp;apos;C&amp;apos;&amp;apos;&amp;apos; with the structure of a category with zero morphisms.
+
+* If &amp;apos;&amp;apos;&amp;apos;C&amp;apos;&amp;apos;&amp;apos; is a [[preadditive category]], then every morphism set Mor(&amp;apos;&amp;apos;X&amp;apos;&amp;apos;,&amp;apos;&amp;apos;Y&amp;apos;&amp;apos;) is an [[abelian group]] and therefore has a zero element. These zero elements form a compatible family of zero morphisms for &amp;apos;&amp;apos;&amp;apos;C&amp;apos;&amp;apos;&amp;apos; making it into a category with zero morphisms.
+
+* The category &amp;apos;&amp;apos;&amp;apos;[[category of sets|Set]]&amp;apos;&amp;apos;&amp;apos; ([[Set (mathematics)|sets]] with [[function (mathematics)|function]]s as morphisms) does not have a zero object, but it does have an [[initial object]], the [[empty set]] ∅. The only right zero morphisms in &amp;apos;&amp;apos;&amp;apos;Set&amp;apos;&amp;apos;&amp;apos; are the functions ∅ → &amp;apos;&amp;apos;X&amp;apos;&amp;apos; for a set &amp;apos;&amp;apos;X&amp;apos;&amp;apos;.
+
+==Related concepts==
+If &amp;apos;&amp;apos;&amp;apos;C&amp;apos;&amp;apos;&amp;apos; has a [[zero object]] &amp;apos;&amp;apos;&amp;apos;0&amp;apos;&amp;apos;&amp;apos;, given two objects &amp;apos;&amp;apos;X&amp;apos;&amp;apos; and &amp;apos;&amp;apos;Y&amp;apos;&amp;apos; in &amp;apos;&amp;apos;&amp;apos;C&amp;apos;&amp;apos;&amp;apos;, there are canonical morphisms &amp;apos;&amp;apos;f&amp;apos;&amp;apos; : &amp;apos;&amp;apos;&amp;apos;0&amp;apos;&amp;apos;&amp;apos; → &amp;apos;&amp;apos;X&amp;apos;&amp;apos; and &amp;apos;&amp;apos;g&amp;apos;&amp;apos; : &amp;apos;&amp;apos;Y&amp;apos;&amp;apos; → &amp;apos;&amp;apos;&amp;apos;0&amp;apos;&amp;apos;&amp;apos;. Then, &amp;apos;&amp;apos;fg&amp;apos;&amp;apos; is a zero morphism in Mor&amp;lt;sub&amp;gt;&amp;apos;&amp;apos;&amp;apos;C&amp;apos;&amp;apos;&amp;apos;&amp;lt;/sub&amp;gt;(&amp;apos;&amp;apos;Y&amp;apos;&amp;apos;, &amp;apos;&amp;apos;X&amp;apos;&amp;apos;).  Thus, every category with a zero object is a category with zero morphisms given by the composition 0&amp;lt;sub&amp;gt;&amp;apos;&amp;apos;XY&amp;apos;&amp;apos;&amp;lt;/sub&amp;gt; : &amp;apos;&amp;apos;X&amp;apos;&amp;apos; → &amp;apos;&amp;apos;&amp;apos;0&amp;apos;&amp;apos;&amp;apos; → &amp;apos;&amp;apos;Y&amp;apos;&amp;apos;.
+
+If a category has zero morphisms, then one can define the notions of [[kernel (category theory)|kernel]] and [[cokernel]] for any morphism in that category.
+
+==References==
+*Section 1.7 of {{Citation
+| last=Pareigis
+| first=Bodo
+| title=Categories and functors
+| year=1970
+| isbn=978-0-12-545150-5
+| publisher=[[Academic Press]]
+| series=Pure and applied mathematics
+| volume=39
+}}
+* {{Citation| last1= Herrlich |first1= Horst |last2=Strecker |first2=George E. |year=1973 |title=Category Theory |publisher= Allen and Bacon, Inc. Boston}}.
+
+[[Category:Morphisms]]
+[[Category:Zero]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

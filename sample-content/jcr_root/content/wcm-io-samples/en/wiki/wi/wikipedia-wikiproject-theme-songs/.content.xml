@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:WikiProject Theme songs"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:WikiProject Theme songs" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;__NOINDEX__
+{{WikiProject status|defunct}}
+
+== Title ==
+&amp;apos;&amp;apos;&amp;apos;WikiProject Theme Songs&amp;apos;&amp;apos;&amp;apos;
+
+== Mission ==
+This [[WikiPedia:WikiProject|WikiProject]] aims to unify the description of theme songs for a whole array of [[Film|movie]]s, [[Television program|television series]] and other animation pieces.  Optimally, it should conform to the [[Wikipedia:Manual of Style|Manual of Style]] and potentially be added thereto.  It should be simple enough that it can support [[United States|American]], [[United Kingdom|British]], [[Japan]]ese, et al. movies and television shows.
+
+== Participants ==
+*[[User:Emperorbma|Emperorbma]]
+*[[User:TcDohl|TcDohl]]
+*[[User:Wootking|Wootking]]
+*[[User:E_Wing|E_Wing]]
+*[[user:ayame&amp;apos;s son|ayame&amp;apos;s son]]
+*[[User:Phenie|Phenie]]
+
+== Template ==
+
+
+Create a section labeled &amp;quot;Theme songs&amp;quot; or some similar phrase and create the following sections as needed.
+
+&amp;apos;&amp;apos;Refers to Opening themes&amp;apos;&amp;apos;
+*OP
+*# &amp;quot;Romanized Official&amp;quot;; &amp;lt;u&amp;gt;Special charset&amp;lt;/u&amp;gt; (&amp;apos;&amp;apos;Italic Translation&amp;apos;&amp;apos;) by Singer &amp;lt;u&amp;gt;(Sn: Eps a-m)&amp;lt;/u&amp;gt;
+*# &amp;quot;Romanized Official&amp;quot;; &amp;lt;u&amp;gt;Special charset&amp;lt;/u&amp;gt; (&amp;apos;&amp;apos;Italic Translation&amp;apos;&amp;apos;) by Singer &amp;lt;u&amp;gt;(Sn: Eps n-z)&amp;lt;/u&amp;gt;
+
+&amp;apos;&amp;apos;Refers to Ending themes&amp;apos;&amp;apos;
+*ED
+*# &amp;quot;Romanized Official&amp;quot;; &amp;lt;u&amp;gt;Special charset&amp;lt;/u&amp;gt; (&amp;apos;&amp;apos;Italic Translation&amp;apos;&amp;apos;) by Singer
+
+&amp;apos;&amp;apos;Refers to [[OVA|Original Video Animation]] ([[anime]] only)&amp;apos;&amp;apos;
+*OVA &amp;quot;Romanized Official&amp;quot;; &amp;lt;u&amp;gt;Special charset&amp;lt;/u&amp;gt; (&amp;apos;&amp;apos;Italic Translation&amp;apos;&amp;apos;)
+** OP: &amp;quot;Romanized Official&amp;quot;; &amp;lt;u&amp;gt;Special charset&amp;lt;/u&amp;gt; (&amp;apos;&amp;apos;Italic Translation&amp;apos;&amp;apos;) by Singer
+** ED: &amp;quot;Romanized Official&amp;quot;; &amp;lt;u&amp;gt;Special charset&amp;lt;/u&amp;gt; (&amp;apos;&amp;apos;Italic Translation&amp;apos;&amp;apos;) by Singer
+
+&amp;apos;&amp;apos;Refers to Movie theme songs (Opening and Ending are subsections)&amp;apos;&amp;apos;
+*Movies
+*# &amp;quot;&amp;apos;&amp;apos;Italic Romanized Official movie name (sans Series name&amp;amp;dagger;)&amp;apos;&amp;apos;&amp;quot;; &amp;lt;u&amp;gt;Special charset&amp;lt;/u&amp;gt; (&amp;apos;&amp;apos;Italic Translation&amp;apos;&amp;apos;)
+*#* OP: &amp;quot;Romanized Official&amp;quot;; &amp;lt;u&amp;gt;Special charset&amp;lt;/u&amp;gt; (&amp;apos;&amp;apos;Italic Translation&amp;apos;&amp;apos;) by Singer
+*#* ED: &amp;quot;Romanized Official&amp;quot;; &amp;lt;u&amp;gt;Special charset&amp;lt;/u&amp;gt; (&amp;apos;&amp;apos;Italic Translation&amp;apos;&amp;apos;) by Singer
+
+&amp;apos;&amp;apos;&amp;apos;Footnotes&amp;apos;&amp;apos;&amp;apos;&amp;lt;br&amp;gt;
+* Optional Abbreviations:
+** OP = Opening song
+** ED = Ending song
+* Sub-sections are optional based on whether or not they are used.
+* A &amp;quot;translation&amp;quot; is only necessary for foreign songs, or songs that have an alternate name.
+**E.g. &amp;lt;nowiki&amp;gt;&amp;quot;Every Heart&amp;quot; (&amp;apos;&amp;apos;Minna no Kimochi&amp;apos;&amp;apos;)&amp;lt;/nowiki&amp;gt;
+**E.g. &amp;lt;nowiki&amp;gt;&amp;quot;Sobakasu&amp;quot; (&amp;apos;&amp;apos;Freckles&amp;apos;&amp;apos;)&amp;lt;/nowiki&amp;gt;
+*Optional: Provide foreign characterset spelling to the right of the romanized spelling. (e.g. [[Kanji]])
+* &amp;lt;u&amp;gt;underline&amp;lt;/u&amp;gt; - Data is optional
+* (Sn: eps a-z) - Provide episodes used in.  Optional [[iff]] the song remains the same for the whole series.
+** Sn (Season Number) is optional if there are no seasons in the series, or it is measured by absolute episode number.
+*** S = &amp;apos;S&amp;apos;
+*** n = Season #
+* (#) - Theme song number optional [[iff]] series only has one song in that category.  (e.g. Only one Opening song)
+* † - &amp;apos;&amp;apos;Inuyasha: Toki wo Koeru Omoi&amp;apos;&amp;apos; is denoted as &amp;apos;&amp;apos;Toki wo Koeru Omoi&amp;apos;&amp;apos;.&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

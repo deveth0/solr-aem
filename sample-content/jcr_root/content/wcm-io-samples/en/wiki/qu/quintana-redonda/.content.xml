@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Quintana Redonda"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Quintana Redonda" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{unreferenced|date=January 2013}}
+
+{{Infobox settlement |
+official_name = Quintana Redonda, Spain |
+nickname = |
+image_flag = |
+image_seal = |
+image_map = |
+map_caption = |
+subdivision_type = [[List of countries|Country]] |
+subdivision_name = [[Spain]] |
+subdivision_type1 = [[Autonomous communities of Spain|Autonomous community]] |
+subdivision_name1 = [[Castile and León]] |
+subdivision_type2 = [[Provinces of Spain|Province]] |
+subdivision_name2 = [[Soria (province)|Soria]] |
+subdivision_type3 = [[List of municipalities in Soria|Municipality]] |
+subdivision_name3 = Quintana Redonda |
+leader_title = |
+leader_name = |
+area_magnitude = |
+area_total_km2 = 183 |
+area_land_km2 = |
+area_water_km2 = |
+elevation_m =  |
+population_as_of = 2004 |
+population_note = |
+population_total =  564 |
+population_density_km2 = 3.1 |
+timezone = [[Central European Time|CET]] |
+utc_offset = +1 |
+timezone_DST = [[Central European Summer Time|CEST]] |
+utc_offset_DST = +2 |
+latitude = |
+longitude = |
+website =  |
+footnotes = |
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Quintana Redonda&amp;apos;&amp;apos;&amp;apos; is a municipality located in the [[Soria (province)|province of Soria]], [[Castile and León]], [[Spain]]. According to the 2004 [[census]] ([[Instituto Nacional de Estadística (Spain)|INE]]), the municipality has a population of 564 inhabitants.
+
+{{Municipalities in Soria}}
+
+{{Coord|41|38|N|2|37|W|display=title|region:ES_type:city_source:GNS-enwiki}}
+
+[[Category:Municipalities in the Province of Soria]]
+[[Category:Populated places in the Province of Soria]]
+
+{{Soria-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

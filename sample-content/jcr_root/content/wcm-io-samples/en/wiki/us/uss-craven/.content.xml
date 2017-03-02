@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="USS Craven"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="USS Craven" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Italic title prefixed|3}}
+Three ships of the [[United States Navy]] have been named &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Craven&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; after [[Tunis Craven]], a Navy Commander who died at the [[Battle of Mobile Bay]].
+
+* {{USS|Craven|TB-10}}, a torpedo boat, commissioned in 1900 and decommissioned in 1913.
+* {{USS|Craven|DD-70}}, a [[destroyer]], commissioned in 1918, served in the [[Royal Navy]] as &amp;apos;&amp;apos;Lewes&amp;apos;&amp;apos; until being scrapped in 1945.
+* {{USS|Craven|DD-382}}, a destroyer, commissioned in 1937 and decommissioned in 1945.
+
+==Source==
+*{{DANFS|http://www.history.navy.mil/danfs/c15-list.htm}}
+
+{{Shipindex}}
+
+{{DEFAULTSORT:Craven}}
+[[Category:United States Navy ship names]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

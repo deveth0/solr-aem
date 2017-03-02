@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Macrocephaly"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Macrocephaly" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox Disease
+ | Name           = Macrocephaly
+ | Image          =Parasagittal MRI of human head in patient with benign familial macrocephaly prior to brain injury (ANIMATED).gif
+ | Caption        = An [[Magnetic resonance imaging|MRI]] of a patient with benign familial macrocephaly (male with head circumference &amp;gt; 60cm)
+ | DiseasesDB     = 22519
+ | ICD10          = {{ICD10|Q|75|3|q|65}}
+ | ICD9           = {{ICD9|756.0}}
+ | ICDO           =
+ | OMIM           = 248000
+ | MedlinePlus    = 003305
+ | eMedicineSubj  =
+ | eMedicineTopic =
+ | MeshID         =
+}}
+&amp;apos;&amp;apos;&amp;apos;Macrocephaly&amp;apos;&amp;apos;&amp;apos; (derived from the [[ancient Greek]] adjective μακροκέφαλος &amp;apos;&amp;apos;makroképhalos&amp;apos;&amp;apos;, &amp;quot;long-headed&amp;quot;, composed of the words μακρός &amp;apos;&amp;apos;makros&amp;apos;&amp;apos;, &amp;quot;long&amp;quot; + κεφαλή  &amp;apos;&amp;apos;kephalé&amp;apos;&amp;apos;, &amp;quot;head&amp;quot;), occurs when the head is abnormally large (2.5 standard deviations above normal for weight and gender) ; this includes the [[scalp]], the [[Human skull|cranial]] bone, and the contents of the cranium.
+==Causes==
+Macrocephaly may be pathologic, but many people with an unusually large head are healthy. Pathologic macrocephaly may be due to [[megalencephaly]] (enlarged brain), [[hydrocephalus]] (water on the brain), cranial [[hyperostosis]] (bone overgrowth), and other conditions. Pathologic macrocephaly is called &amp;quot;syndromic&amp;quot; when it is associated with any other noteworthy condition, and &amp;quot;nonsyndromic&amp;quot; otherwise. Pathologic macrocephaly can be caused by congenital anatomic abnormalities, genetic conditions, or by environmental events.&amp;lt;ref name=Williams/&amp;gt;
+
+Many genetic conditions are associated with macrocephaly, including familial macrocephaly related to the holgate gene, [[autism]], [[PTEN (gene)|&amp;apos;&amp;apos;PTEN&amp;apos;&amp;apos;]] mutations such as [[Cowden disease]], [[neurofibromatosis]] type 1, and [[tuberous sclerosis]]; overgrowth syndromes such as [[Sotos syndrome]] (cerebral gigantism), [[Weaver syndrome]], [[Simpson-Golabi-Behmel syndrome]] (bulldog syndrome), and [[macrocephaly-capillary malformation]] ([[M-CMTC]]) syndrome; neurocardiofacial-cutaneous syndromes such as [[Noonan syndrome]], [[Costello syndrome]], and [[cardiofaciocutaneous syndrome]]; [[Fragile X syndrome]]; [[leukodystrophies]] (brain [[white matter]] degeneration) such as [[Alexander disease]], [[Canavan disease]], and [[megalencephalic leukoencephalopathy with subcortical cysts]]; and [[glutaric aciduria type 1]] and [[D-2-hydroxyglutaric aciduria]].&amp;lt;ref name=Williams/&amp;gt;
+
+At one end of the genetic spectrum, duplications of chromosomes have been found to be related to [[autism]] and macrocephaly; at the other end, deletions of chromosomes  have been found to be related to [[schizophrenia]] and [[microcephaly]]. &amp;lt;ref&amp;gt;http://www.pnas.org/content/107/suppl.1/1736.full Crespi et al. Comparative genomics of autism and schizophrenia; 1736-1741; PNAS; January 26, 2010; vol. 107; suppl. 1&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;Rare chromosomal deletions and duplications increase risk of schizophrenia; The International Schizophrenia Consortium; Nature 455, 237-241 (11 September 2008) | {{doi|10.1038/nature07239}}; Received 14 May 2008; Accepted 8 July 2008; Published online 30 July 2008 &amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;L. Dumas and J.M. Sikela; DUF1220 Domains, Cognitive Disease, and Human Brain Evolution; Advance 2009, {{doi|10.1101/sqb.2009.74.025}}; Cold Spring Harbor Laboratory Press&amp;lt;/ref&amp;gt;
+
+Environmental events associated with macrocephaly include infection, neonatal [[intraventricular hemorrhage]] (bleeding within the infant brain), [[subdural hematoma]] (bleeding beneath the outer lining of the brain), [[subdural effusion]] (collection of fluid beneath the outer lining of the brain), and [[arachnoid cyst]]s (cysts on the brain surface).&amp;lt;ref name=Williams/&amp;gt;
+
+==Diagnosis==
+Macrocephaly is customarily diagnosed if head circumference is greater than two [[standard deviation]]s (SDs) above the mean. Relative macrocephaly occurs if the measure is less than two SDs above the mean, but is disproportionately above that when ethnicity and stature are considered. In research, cranial height or brain imaging is also used to determine intracranial volume more accurately.&amp;lt;ref name=Williams&amp;gt;{{cite journal |journal= Am J Med Genet A |date=2008 |volume=146A |issue=16 |pages=2023–37 |title= Genetic disorders associated with macrocephaly |author= Williams CA, Dagli A, Battaglia A |doi=10.1002/ajmg.a.32434 |pmid=18629877}}&amp;lt;/ref&amp;gt;
+
+==See also==
+* [[Microcephaly]]
+
+==References==
+{{Reflist}}
+
+==External links==
+* [http://www.ncbi.nlm.nih.gov/bookshelf/br.fcgi?book=gene&amp;amp;part=phts  GeneReviews/NCBI/NIH/UW entry on PTEN Hamartoma Tumor Syndrome (PHTS)]
+* [http://www.ncbi.nlm.nih.gov/books/NBK61984/  GeneReviews/NCBI/NIH/UW entry on 9q22.3 Microdeletion]
+
+{{Congenital malformations and deformations of musculoskeletal system}}
+
+[[Category:Congenital disorders of musculoskeletal system]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

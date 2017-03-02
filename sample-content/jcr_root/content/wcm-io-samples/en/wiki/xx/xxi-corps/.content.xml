@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="XXI Corps"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="XXI Corps" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[List of military corps]] &amp;amp;mdash; [[List of military corps by number]] &amp;amp;mdash; [[List of military corps by name]]
+
+&amp;apos;&amp;apos;&amp;apos;21 Corps&amp;apos;&amp;apos;&amp;apos;, &amp;apos;&amp;apos;&amp;apos;21st Corps&amp;apos;&amp;apos;&amp;apos;, &amp;apos;&amp;apos;&amp;apos;Twenty First Corps&amp;apos;&amp;apos;&amp;apos;, or &amp;apos;&amp;apos;&amp;apos;XXI Corps&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+*[[XXI Corps (German Empire)]], a unit of the Imperial German Army prior to and during [[World War I]]
+*[[XXI Corps (Ottoman Empire)]], active during World War I
+*[[XXI Corps (United Kingdom)]], active during World War I
+*[[Indian XXI Corps]], active during World War II
+*[[XXI Corps (India)]], currently active Indian Army corps
+*[[XXI Corps (United States)]], active during World War II
+*[[XXI Corps (Union Army)]], active during the American Civil War
+
+{{mil-unit-dis}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

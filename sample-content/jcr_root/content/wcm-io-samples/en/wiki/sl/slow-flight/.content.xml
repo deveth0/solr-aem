@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Slow flight"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Slow flight" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+&amp;apos;&amp;apos;&amp;apos;Slow flight&amp;apos;&amp;apos;&amp;apos; is a portion of an [[airplane]]&amp;apos;s [[performance envelope]] above the speed at which the plane will [[Stall (flight)|stall]], but below the aircraft&amp;apos;s endurance speed. This part of the performance chart is also known as &amp;quot;the back side of the power curve&amp;quot; because when flying in this area, &amp;apos;&amp;apos;more power is required in order to go slower&amp;apos;&amp;apos; and still maintain straight and level [[flight]]. A large [[angle of attack]] is required in order to maintain the altitude of the aircraft.
+
+At such low speeds, aircraft flight control surfaces begin to lose their effectiveness. [[Aileron]]s, in particular, are susceptible. The [[rudder]] remains the most efficient flight surface and the adverse effect of yaw which alters pitch is useful for altering the direction of the aircraft without the need for aileron inputs. If the ailerons are used excessively it is probable one wing will stall (due to the increased angle of attack) and send the aircraft into a [[Spin (flight)|spin]]. In modern aircraft, [[flight envelope protection]] in the [[aircraft flight control systems|aircraft flight control system]] prevents a pilot from controlling their aircraft into doing this.
+
+{{DEFAULTSORT:Slow Flight}}
+[[Category:Aerodynamics]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

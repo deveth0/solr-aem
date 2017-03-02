@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Kernel (linear algebra)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Kernel (linear algebra)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{merge from|Kernel (matrix)|date=November 2012}}
+In [[linear algebra]] and [[functional analysis]], the &amp;apos;&amp;apos;&amp;apos;kernel&amp;apos;&amp;apos;&amp;apos; of a [[linear map]] &amp;apos;&amp;apos;L&amp;apos;&amp;apos;:&amp;amp;nbsp;&amp;apos;&amp;apos;V&amp;apos;&amp;apos;&amp;amp;nbsp;→&amp;amp;nbsp;&amp;apos;&amp;apos;W&amp;apos;&amp;apos; between two [[vector space]]s or two [[module (mathematics)|module]]s &amp;apos;&amp;apos;V&amp;apos;&amp;apos; and &amp;apos;&amp;apos;W&amp;apos;&amp;apos; is the set of all elements &amp;apos;&amp;apos;v&amp;apos;&amp;apos; of &amp;apos;&amp;apos;V&amp;apos;&amp;apos; for which &amp;apos;&amp;apos;L&amp;apos;&amp;apos;(&amp;apos;&amp;apos;v&amp;apos;&amp;apos;)&amp;amp;nbsp;=&amp;amp;nbsp;0.  That is
+:&amp;lt;math&amp;gt;\ker(L) = \left\{ v\in V : L(v)=0 \right\}\text{,}&amp;lt;/math&amp;gt;
+where 0 denotes the [[null vector]] in &amp;apos;&amp;apos;W&amp;apos;&amp;apos;.  The kernel of &amp;apos;&amp;apos;L&amp;apos;&amp;apos; is a [[linear subspace]] of the [[Domain of a function|domain]] &amp;apos;&amp;apos;V&amp;apos;&amp;apos;.
+
+The kernel of a linear map &amp;apos;&amp;apos;&amp;apos;R&amp;apos;&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;&amp;apos;&amp;apos;m&amp;apos;&amp;apos;&amp;lt;/sup&amp;gt;&amp;amp;nbsp;→&amp;amp;nbsp;&amp;apos;&amp;apos;&amp;apos;R&amp;apos;&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;&amp;apos;&amp;apos;n&amp;apos;&amp;apos;&amp;lt;/sup&amp;gt;, or, more generally of a linear map between finite dimensional spaces equipped with [[basis (linear algebra)|bases]] is the same as the [[null space]] of the corresponding &amp;apos;&amp;apos;n&amp;apos;&amp;apos;&amp;amp;nbsp;&amp;amp;times;&amp;amp;nbsp;&amp;apos;&amp;apos;m&amp;apos;&amp;apos; [[matrix (mathematics)|matrix]].  Sometimes the kernel of a linear map is referred to as the &amp;apos;&amp;apos;&amp;apos;null space&amp;apos;&amp;apos;&amp;apos; of the map, and the [[dimension (vector space)|dimension]] of the kernel is referred to as the map&amp;apos;s nullity.
+
+==Examples==
+
+*If &amp;apos;&amp;apos;L&amp;apos;&amp;apos;:&amp;amp;nbsp;&amp;apos;&amp;apos;&amp;apos;R&amp;apos;&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;&amp;apos;&amp;apos;m&amp;apos;&amp;apos;&amp;lt;/sup&amp;gt;&amp;amp;nbsp;→&amp;amp;nbsp;&amp;apos;&amp;apos;&amp;apos;R&amp;apos;&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;&amp;apos;&amp;apos;n&amp;apos;&amp;apos;&amp;lt;/sup&amp;gt;, then the kernel of &amp;apos;&amp;apos;L&amp;apos;&amp;apos; is the solution set to a homogeneous [[system of linear equations]].  For example, if &amp;apos;&amp;apos;L&amp;apos;&amp;apos; is the operator:
+::&amp;lt;math&amp;gt;L(x_1,x_2,x_3) = (2x_1 + 5x_2 - 3x_3,\; 4x_1 + 2x_2 + 7x_3)&amp;lt;/math&amp;gt;
+:then the kernel of &amp;apos;&amp;apos;L&amp;apos;&amp;apos; is the set of solutions to the equations
+::&amp;lt;math&amp;gt;\begin{alignat}{7}
+ 2x_1 &amp;amp;&amp;amp;\; + \;&amp;amp;&amp;amp; 5x_2 &amp;amp;&amp;amp;\; - \;&amp;amp;&amp;amp; 3x_3 &amp;amp;&amp;amp;\; = \;&amp;amp;&amp;amp; 0 \\
+ 4x_1 &amp;amp;&amp;amp;\; + \;&amp;amp;&amp;amp; 2x_2 &amp;amp;&amp;amp;\; + \;&amp;amp;&amp;amp; 7x_3 &amp;amp;&amp;amp;\; = \;&amp;amp;&amp;amp; 0 .
+\end{alignat}&amp;lt;/math&amp;gt;
+* Let &amp;apos;&amp;apos;C&amp;apos;&amp;apos;[0,1] denote the [[vector space]] of all continuous real-valued functions on the interval [0,1], and define &amp;apos;&amp;apos;L&amp;apos;&amp;apos;:&amp;amp;nbsp;&amp;apos;&amp;apos;C&amp;apos;&amp;apos;[0,1]&amp;amp;nbsp;→&amp;amp;nbsp;&amp;apos;&amp;apos;&amp;apos;R&amp;apos;&amp;apos;&amp;apos; by the rule
+::&amp;lt;math&amp;gt;L(f) = f(0.3)\text{.}\,&amp;lt;/math&amp;gt;
+:Then the kernel of &amp;apos;&amp;apos;L&amp;apos;&amp;apos; consists of all functions &amp;apos;&amp;apos;f&amp;apos;&amp;apos;&amp;amp;nbsp;∈&amp;amp;nbsp;&amp;apos;&amp;apos;C&amp;apos;&amp;apos;[0,1] for which &amp;apos;&amp;apos;f&amp;apos;&amp;apos;(0.3)&amp;amp;nbsp;=&amp;amp;nbsp;0.
+* Let &amp;apos;&amp;apos;C&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;∞&amp;lt;/sup&amp;gt;(&amp;apos;&amp;apos;&amp;apos;R&amp;apos;&amp;apos;&amp;apos;) be the vector space of all infinitely differentiable functions &amp;apos;&amp;apos;&amp;apos;R&amp;apos;&amp;apos;&amp;apos;&amp;amp;nbsp;→&amp;amp;nbsp;&amp;apos;&amp;apos;&amp;apos;R&amp;apos;&amp;apos;&amp;apos;, and let &amp;apos;&amp;apos;D&amp;apos;&amp;apos;:&amp;amp;nbsp;&amp;apos;&amp;apos;C&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;∞&amp;lt;/sup&amp;gt;(&amp;apos;&amp;apos;&amp;apos;R&amp;apos;&amp;apos;&amp;apos;)&amp;amp;nbsp;→&amp;amp;nbsp;&amp;apos;&amp;apos;C&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;∞&amp;lt;/sup&amp;gt;(&amp;apos;&amp;apos;&amp;apos;R&amp;apos;&amp;apos;&amp;apos;) be the  [[differential operator|differentiation operator]]:
+::&amp;lt;math&amp;gt;D(f) = \frac{df}{dx}\text{.}&amp;lt;/math&amp;gt;
+:Then the kernel of &amp;apos;&amp;apos;D&amp;apos;&amp;apos; consists of all functions in &amp;apos;&amp;apos;C&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;∞&amp;lt;/sup&amp;gt;(&amp;apos;&amp;apos;&amp;apos;R&amp;apos;&amp;apos;&amp;apos;) whose derivatives are zero, i.e. the set of all [[constant function]]s.
+* Let &amp;apos;&amp;apos;&amp;apos;R&amp;apos;&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;∞&amp;lt;/sup&amp;gt; be the [[direct product]] of infinitely many copies of &amp;apos;&amp;apos;&amp;apos;R&amp;apos;&amp;apos;&amp;apos;, and let &amp;apos;&amp;apos;s&amp;apos;&amp;apos;:&amp;amp;nbsp;&amp;apos;&amp;apos;&amp;apos;R&amp;apos;&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;∞&amp;lt;/sup&amp;gt;&amp;amp;nbsp;→&amp;amp;nbsp;&amp;apos;&amp;apos;&amp;apos;R&amp;apos;&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;∞&amp;lt;/sup&amp;gt; be the [[shift operator]]
+::&amp;lt;math&amp;gt;s(x_1,x_2,x_3,x_4,\ldots) = (x_2,x_3,x_4,\ldots)\text{.}&amp;lt;/math&amp;gt;
+:Then the kernel of &amp;apos;&amp;apos;s&amp;apos;&amp;apos; is the one-dimensional subspace consisting of all vectors (&amp;apos;&amp;apos;x&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt;,&amp;amp;nbsp;0,&amp;amp;nbsp;0,&amp;amp;nbsp;...).
+* If &amp;apos;&amp;apos;V&amp;apos;&amp;apos; is an [[inner product space]] and &amp;apos;&amp;apos;W&amp;apos;&amp;apos; is a subspace, the kernel of the [[projection (linear algebra)|orthogonal projection]] &amp;apos;&amp;apos;V&amp;apos;&amp;apos;&amp;amp;nbsp;→&amp;amp;nbsp;&amp;apos;&amp;apos;W&amp;apos;&amp;apos; is the [[orthogonal complement]] to &amp;apos;&amp;apos;W&amp;apos;&amp;apos; in &amp;apos;&amp;apos;V&amp;apos;&amp;apos;.
+
+==Properties==
+If &amp;apos;&amp;apos;L&amp;apos;&amp;apos;:&amp;amp;nbsp;&amp;apos;&amp;apos;V&amp;apos;&amp;apos;&amp;amp;nbsp;→&amp;amp;nbsp;&amp;apos;&amp;apos;W&amp;apos;&amp;apos;, then two elements of &amp;apos;&amp;apos;V&amp;apos;&amp;apos; have the same [[image (mathematics)|image]] in &amp;apos;&amp;apos;W&amp;apos;&amp;apos; if and only if their difference lies in the kernel of &amp;apos;&amp;apos;L&amp;apos;&amp;apos;:
+:&amp;lt;math&amp;gt;L(v) = L(w)\;\;\;\;\Leftrightarrow\;\;\;\;L(v-w)=0\text{.}&amp;lt;/math&amp;gt;
+It follows that the image of &amp;apos;&amp;apos;L&amp;apos;&amp;apos; is [[isomorphism|isomorphic]] to the [[quotient space (linear algebra)|quotient]] of &amp;apos;&amp;apos;V&amp;apos;&amp;apos; by the kernel:
+:&amp;lt;math&amp;gt;\text{im}(L) \cong V / \ker(L)\text{.}&amp;lt;/math&amp;gt;
+This implies the [[rank-nullity theorem]]:
+:&amp;lt;math&amp;gt;\dim(\ker L) + \dim(\text{im}\,L) = \dim(V)\text{.}\,&amp;lt;/math&amp;gt;
+When &amp;apos;&amp;apos;V&amp;apos;&amp;apos; is an [[inner product space]], the quotient &amp;apos;&amp;apos;V&amp;apos;&amp;apos;&amp;amp;nbsp;/&amp;amp;nbsp;ker(&amp;apos;&amp;apos;L&amp;apos;&amp;apos;) can be identified with the [[orthogonal complement]] in &amp;apos;&amp;apos;V&amp;apos;&amp;apos; of ker(&amp;apos;&amp;apos;L&amp;apos;&amp;apos;).  This is the generalization to linear operators of the [[row space]] of a matrix.
+
+==Kernels in functional analysis==
+If &amp;apos;&amp;apos;V&amp;apos;&amp;apos; and &amp;apos;&amp;apos;W&amp;apos;&amp;apos; are [[topological vector space]]s (and &amp;apos;&amp;apos;W&amp;apos;&amp;apos; is finite-dimensional) then a linear operator &amp;apos;&amp;apos;L&amp;apos;&amp;apos;:&amp;amp;nbsp;&amp;apos;&amp;apos;V&amp;apos;&amp;apos;&amp;amp;nbsp;→&amp;amp;nbsp;&amp;apos;&amp;apos;W&amp;apos;&amp;apos; is [[continuous linear operator|continuous]] if and only if the kernel of &amp;apos;&amp;apos;L&amp;apos;&amp;apos; is a [[closed set|closed]] subspace of &amp;apos;&amp;apos;V&amp;apos;&amp;apos;.
+
+==See also==
+* [[Kernel (matrix)]]
+* [[Vector space]]
+* [[Linear subspace]]
+* [[Linear operator]]
+* [[Function space]]
+* [[Fredholm alternative]]
+
+== References ==
+*{{cite book|author=Serge Lang|title=Linear Algebra|publisher=Springer|year=1987|isbn=9780387964126|page=59}}
+
+{{DEFAULTSORT:Kernel (Linear Operator)}}
+[[Category:Linear algebra]]
+[[Category:Functional analysis]]
+
+[[sv:Nollrum]]
+[[uk:Ядро та образ лінійного оператора]]
+[[zh:核 (线性算子)]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

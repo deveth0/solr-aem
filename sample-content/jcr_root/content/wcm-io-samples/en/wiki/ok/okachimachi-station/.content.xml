@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Okachimachi Station"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Okachimachi Station" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{coord|35.707327|N|139.774847|E|display=title}}
+{{Infobox Japan station
+|namerom        = Okachimachi
+|name           = 御徒町
+|image          = Okachimachi-station-2005-06.jpg
+|imagesize      = 300px
+|caption        =
+|pref           = Tokyo
+|city           =
+|ward           = Taitō
+|address        = 5 Ueno
+|jaloc          = 東京都台東区上野５丁目
+|postal         =
+|open           = 1925
+|close          =
+|oldname        =
+|presentname    =
+|station_number =
+|operator       = [[JR East]]
+|line           = [[Yamanote Line]], [[Keihin-Tōhoku Line]]
+|stats          = 68,402
+|statsnote      = (FY2011)
+|bus            =
+}}
+
+{{nihongo|&amp;apos;&amp;apos;&amp;apos;Okachimachi Station&amp;apos;&amp;apos;&amp;apos;|御徒町駅|Okachimachi-eki}} is a railway station in [[Taito, Tokyo]], Japan, operated by [[East Japan Railway Company]] (JR East).&amp;lt;ref name=&amp;quot;jreast&amp;quot;&amp;gt;{{cite web |url= http://www.jreast.co.jp/estation/station/info.aspx?StationCd=355|title= 各駅情報（御徒町駅）|trans_title=Station Information (Okachimachi Station) |publisher= East Japan Railway Company|location= Japan|language= Japanese|archiveurl= |archivedate= |accessdate= 19 July 2012}}&amp;lt;/ref&amp;gt;
+
+==Lines==
+Okachimachi Station is served by the circular [[Yamanote Line]] and also the [[Keihin-Tōhoku Line]]. Although not physically connected, {{Ja-stalink|Naka-Okachimachi}} on the [[Tokyo Metro Hibiya Line]], {{Ja-stalink|Ueno-hirokōji}} on the [[Tokyo Metro Ginza Line]], and {{Ja-stalink|Ueno-okachimachi}} on the [[Toei Ōedo Line]] are within walking distance of Okachimachi and marked as interchanges on route maps.
+
+==Station layout==
+The station is on a raised viaduct running in a roughly north-south direction. There are two island platforms with two tracks on either side of each platform. Platforms 1 and 4 (the outermost tracks) serve the Keihin-Tōhoku Line, while platforms 2 and 3 (the inner tracks) are used for [[Yamanote Line]] trains.&amp;lt;ref name=&amp;quot;layout&amp;quot;&amp;gt;[http://www.jreast.co.jp/e/stations/e355.html Okachimachi station layout] &amp;apos;&amp;apos;JR East&amp;apos;&amp;apos; Retrieved 2009-01-11&amp;lt;/ref&amp;gt; This platform arrangement allows for easy [[cross-platform interchange]]s so that passengers may transfer between lines in the same direction by walking across the platform. East of the platforms are tracks belonging to the [[Tōhoku Main Line]] formerly running to [[Tokyo Station]] but which are now used to stable trains terminating at [[Ueno Station]].
+
+==Platforms==
+{{ja-rail-line|pfn=1|first=2|name=Keihin-Tōhoku Line|col=deepskyblue|dir=for {{Ja-stalink|Tokyo}}, {{Ja-stalink|Yokohama}}, and {{Ja-stalink|Ōfuna}}}}
+{{ja-rail-line|pfn=2|name=Yamanote Line|col=yellowgreen|dir=for {{Ja-stalink|Tokyo}} and {{Ja-stalink|Shinagawa}}}}
+{{ja-rail-line|pfn=3|nidx=Yamanote Line|col=yellowgreen|dir=for {{Ja-stalink|Ueno}} and {{Ja-stalink|Ikebukuro}}}}
+{{ja-rail-line|pfn=4|first=3|nidx=Keihin-Tōhoku Line|col=deepskyblue|dir=for {{Ja-stalink|Ueno}}, {{Ja-stalink|Akabane}}, and {{Ja-stalink|Ōmiya||Saitama}}}}
+
+Okachimachi has two exits, the {{Nihongo|north exit|北口}} and {{Nihongo|south exit|南口}}.&amp;lt;ref name=&amp;quot;layout&amp;quot;/&amp;gt; Both exits have ticket vending machines and toilets; however, the north exit has a JR reservation office and escalators to the platforms. Luggage lockers are available at the south exit.&amp;lt;ref name=&amp;quot;layout&amp;quot;/&amp;gt;
+
+==Adjacent stations==
+{{j-railservice start}}
+{{j-route|route=Yamanote Line|col=yellowgreen}}
+{{j-rserv|previous={{ja-stalink|Akihabara}}|next={{ja-stalink|Ueno}}|service=-}}
+{{j-route|route=Keihin-Tōhoku Line|col=deepskyblue}}
+{{j-rserv|service=Local|col=deepskyblue|previous=Akihabara|next=Ueno}}
+{{j-rserv|p|service=Rapid}}
+{{s-end}}
+
+==History==
+The station opened on 1 November 1925.&amp;lt;ref name=&amp;quot;jreast&amp;quot;/&amp;gt;
+
+==Passenger statistics==
+In fiscal 2011, the station was used by an average of 68,402 passengers daily (boarding passengers only).&amp;lt;ref name=&amp;quot;jreast2011stats&amp;quot;&amp;gt;{{cite web |url= http://www.jreast.co.jp/passenger/index.html|title= 各駅の乗車人員 (2011年度)|trans_title= FY2011 Station passenger figures|publisher= East Japan Railway Company|location= Japan|language= Japanese|archiveurl= |archivedate= |accessdate= 19 July 2012}}&amp;lt;/ref&amp;gt;
+
+==Surrounding area==
+Okachimachi Station is in the centre of a busy commercial district stretching southwards from Ueno Station. Particularly well-known is [[Ameya-Yokochō]] (&amp;quot;Ameyoko&amp;quot;), a busy shopping street dominated by small market-style stalls selling a wide variety of wares. Ameyoko runs parallel to the railway line and includes a large market under the railway tracks.
+
+==References==
+{{reflist}}
+
+==External links==
+{{Commons category}}
+* [http://www.jreast.co.jp/estation/station/info.aspx?StationCd=355 Okachimachi Station information] {{ja icon}}
+
+{{Yamanote Line}}
+{{Keihin-Tōhoku Line Negishi Line}}
+
+[[Category:Yamanote Line]]
+[[Category:Keihin-Tōhoku Line]]
+[[Category:Stations of East Japan Railway Company]]
+[[Category:Railway stations in Tokyo]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Michael Rogers"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Michael Rogers" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Michael Rogers&amp;apos;&amp;apos;&amp;apos;  is the name of:
+
+* [[Mike D. Rogers]] (born 1958), United States Representative from Alabama&amp;apos;s 3rd congressional district
+* [[Mike Rogers (Michigan politician)]] (born 1963), United States Representative from Michigan&amp;apos;s 8th congressional district
+* [[Mike Rogers (ice hockey)]] (born 1954), NHL hockey player,  Hartford Whalers, New York Rangers, Edmonton Oilers
+* [[Michael A. Rogers]], technology pioneer, author and futurist
+* [[Michael Rogers (actor)]] (born 1964), Canadian television and film actor
+* [[Michael Rogers (cyclist)]] (born 1979), Australian professional road bicycle racer
+* [[Michael Rogers (blogger)]] (born 1963), American fundraiser, publisher, blogger and gay rights activist
+* [[Michael John Rogers]] (1932–2006), English ornithologist
+
+== See also ==
+* [[Michael Rodgers (disambiguation)]]
+* [[Mick Rogers (disambiguation)]]
+
+{{hndis|name=Rogers, Michael}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

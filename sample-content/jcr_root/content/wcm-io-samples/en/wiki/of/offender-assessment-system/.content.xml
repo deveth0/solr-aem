@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Offender Assessment System"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Offender Assessment System" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{About|the Offender Assessment System||OASYS (disambiguation)}}
+OASys is the abbreviated term for the &amp;apos;&amp;apos;&amp;apos;Offender Assessment System&amp;apos;&amp;apos;&amp;apos;, used in the [[England]] and [[Wales]] by [[Her Majesty&amp;apos;s Prison Service]] and the [[National Probation Service]] from 2002 to measure the risks and needs of criminal offenders under their supervision.
+
+OASys is designed to enable a properly trained and qualified individual; often a Probation Officer, to:
+* assess how likely an offender is to be re-convicted
+* identify and classify offending-related needs, including basic personality characteristics and cognitive behavioural problems
+* assess risk of serious harm, risks to the individual and other risks
+* assist with management of risk of harm
+* links the assessment to the supervision or sentence plan
+* indicate the need for further specialist assessments
+* measure change during the period of supervision / sentence.
+
+OASys comprises a series of [[computer]]-based forms on which clinical evaluations are made by staff of Offenders, and supervision and sentence plans for the forthcoming period of supervision are recorded on a periodic basis - typically every 16 weeks for [[community service|offenders in the community]], and less frequently for [[prison|imprisoned offenders]].
+
+OASys supports the &amp;apos;&amp;apos;What Works?&amp;apos;&amp;apos; initiative of the Prison and Probation Services, by providing [[Performance metric|metric]]s by which the characteristics of offenders and their offences (inputs) can be analysed alongside information on interventions made (inputs) to the offender, and re-conviction data for offenders (outcomes), in order to enable refinement to be made to interventions (based on a consideration of the relation between inputs and outcomes)  as to improve outcomes - in other words, to decrease [[recidivism]] rates by ensuring that interventions are as appropriate and purposeful as possible.
+
+==External links==
+*[http://www.probation.homeoffice.gov.uk/files/pdf/Info%20for%20sentencers%203.pdf OASys: the new Offender Assessment System] - National Probation Service, Spring 2003
+*[http://www.justice.gov.uk/publications/docs/oasys-research-summary-04-09.pdf Findings from the measurement of OASys completion rates] - Ministry of Justice, March 2009
+
+[[Category:Penal system in the United Kingdom]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

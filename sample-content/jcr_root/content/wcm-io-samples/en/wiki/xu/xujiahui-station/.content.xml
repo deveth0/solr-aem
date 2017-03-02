@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Xujiahui Station"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Xujiahui Station" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{about|the metro station|the surrounding area|Xujiahui}}
+{{Unreferenced|date=January 2007}}
+{{Infobox china station
+|icon           = [[File:SML1.svg|25x25px]][[File:SML9.svg|25x25px]] Future[[File:SML11.svg|25x25px]]
+|namerom        = Xujiahui
+|name           = 徐家汇
+|image          = Xujiahui Station.jpg
+|imagesize      =
+|caption        =
+|prov           = Shanghai
+|city           = Shanghai
+|district       =  Xuhui
+|districtname   =  Xuhui
+|open           =
+|close          =
+|oldname        =
+|presentname    =
+|station_number =
+|operator       = Shanghai No.1 Metro Operation Co. Ltd.
+|line           = {{SHM line links|1}}{{SHM line links|9}} Future{{SHM line links|11}}
+|stats          =
+|statsnote      =
+|coordinates    = {{Coord|31.19454|N|121.43790|E|type:railwaystation_region:CN|display=inline,title}}
+|services       =
+{{S-rail|title=SHM}}
+{{S-line|system=SHM|line=1|previous=Hengshan Road|next=Shanghai Indoor Stadium}}
+{{S-line|system=SHM|line=9|previous=Yishan Road|next=Zhaojiabang Road}}
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Xujiahui&amp;apos;&amp;apos;&amp;apos; ({{Zh|s=徐家汇站|t=徐家匯站|p=Xújiāhuì Zhàn}}) is the name of an interchange station between Lines [[Line 1, Shanghai Metro|1]] and [[Line 9, Shanghai Metro|9]] of the [[Shanghai Metro]]. It is located in the [[Xujiahui]] area of [[Xuhui District]], [[Shanghai]].
+
+The station is one of the busiest in the metro system, and is extremely crowded during peak hours. Six large shopping malls and eight large office towers are each within no more than a three-minute walk of one of the station&amp;apos;s exits. Since the opening of Line 9 added four new exits to the north of the [[Grand Gateway Shanghai|Grand Gateway mall]], the station has a total of 18 exits. The station will also serve [[Line 11, Shanghai Metro|Line 11]] when the 2nd phase of Line 11 is completed in 2013.
+
+==Places nearby==
+* [[Xujiahui]] shopping district
+* [[St. Ignatius Cathedral of Shanghai|St. Ignatius Cathedral]] [Exit 3]
+* [[Fudan University]], Fenlin Road Campus
+* [[Shanghai Jiao Tong University]], Xuhui Campus
+* [[Carl&amp;apos;s Jr.]]
+
+{{Shanghai Metro
+|line1=yes
+|line9=yes
+|line11=yes
+}}
+
+[[Category:Shanghai Metro stations]]
+
+
+{{Shanghai-metro-stub}}
+{{Shanghai-railstation-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

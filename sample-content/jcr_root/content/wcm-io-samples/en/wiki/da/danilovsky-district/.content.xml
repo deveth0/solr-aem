@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Danilovsky District"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Danilovsky District" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[File:Map of Russia - Moscow (federal city) (2008-03).svg|thumb|right|Location of Moscow in Russia]]
+[[File:Map of Russia - Volgograd Oblast (2008-03).svg|thumb|right|Location of Volgograd Oblast in Russia]]
+[[File:Map of Russia - Yaroslavl Oblast (2008-03).svg|thumb|right|Location of Yaroslavl Oblast in Russia]]
+
+&amp;apos;&amp;apos;&amp;apos;Danilovsky District&amp;apos;&amp;apos;&amp;apos; is the name of several administrative and municipal districts in [[Russia]]. The districts&amp;apos; name generally derives from or is related to the male [[first name]] [[Daniel (name)|Danil]].
+*[[Danilovsky District, Moscow]], a district in [[Southern Administrative Okrug]] of [[Moscow]]&amp;lt;ref name=&amp;quot;Moscow_adm&amp;quot;&amp;gt;{{RussiaAdmMunRef|mow|adm|law}}&amp;lt;/ref&amp;gt;
+*[[Danilovsky District, Volgograd Oblast]], an administrative&amp;lt;ref name=&amp;quot;VolgogradO_adm&amp;quot;&amp;gt;{{RussiaAdmMunRef|vgg|adm|law}}&amp;lt;/ref&amp;gt; and municipal&amp;lt;ref name=&amp;quot;VolgogradODanilovskyD_mun&amp;quot;&amp;gt;{{RussiaAdmMunRef|vgg|mun|list|danilovsky}}&amp;lt;/ref&amp;gt; district of [[Volgograd Oblast]]
+*[[Danilovsky District, Yaroslavl Oblast]], an administrative&amp;lt;ref name=&amp;quot;YaroslavlO_adm&amp;quot;&amp;gt;{{RussiaAdmMunRef|yar|adm|law}}&amp;lt;/ref&amp;gt; and municipal&amp;lt;ref name=&amp;quot;YaroslavlO_mun&amp;quot;&amp;gt;{{RussiaAdmMunRef|yar|mun|list}}&amp;lt;/ref&amp;gt; district of [[Yaroslavl Oblast]]
+
+==See also==
+*[[Danilovsky (disambiguation)]]
+
+==References==
+{{Reflist}}
+
+{{SIA|Russian districts}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

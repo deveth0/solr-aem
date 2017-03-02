@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Enhanced Small Disk Interface"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Enhanced Small Disk Interface" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Image:IBM PS2 MCA Model 55 SX, hard drive cabling and riser.jpg|thumb|Hard disk drive cable, and [[Micro Channel architecture|MCA]]-board disk controller of the [[IBM PS/2]] Model 55 SX]]
+[[Image:IBM PS2 MCA Model 55 SX, hard drive bus closeup.jpg|thumb|DBA (Direct Bus Attachment) connector for connecting train hard disk interface ESDI/ST-412]]
+
+&amp;apos;&amp;apos;&amp;apos;Enhanced Small Disk Interface (ESDI)&amp;apos;&amp;apos;&amp;apos; was a disk interface designed by [[Maxtor Corporation]] in the early 1980s to be a follow-on to the [[ST-506]] interface. ESDI improved on ST-506 by moving certain parts that were traditionally kept on the controller (such as the [[data separator]]) into the drives themselves, and also generalizing the control bus such that more kinds of devices (such as removable disks and [[tape drive]]s) could be connected. ESDI used the same cabling as ST-506 (one 34-pin common control cable, and a 20-pin data channel cable for each device), and thus could easily be retrofitted to ST-506 applications.
+
+ESDI was popular in the mid-to-late 1980s, when [[SCSI]] and [[Advanced Technology Attachment|ATA]] technologies were young and immature, and ST-506 was neither fast nor flexible enough. ESDI could handle data rates of 10, 15, or 20 Mbit/s (as opposed to ST-506&amp;apos;s top speed of 7.5 Mbit/s), and many high-end SCSI drives of the era were actually high-end ESDI drives with SCSI [[bridge (disambiguation)|bridge]]s integrated on the drive.
+
+By 1990, SCSI had matured enough to handle high data rates and multiple types of drives, and ATA was quickly overtaking ST-506 in the desktop market. These two events made ESDI less and less important over time, and by the mid-1990s, ESDI was no longer in common use.
+
+==Connector Pinouts==
+
+{| class=&amp;quot;wikitable&amp;quot;
+|+ ESDI 34-pin Control Connector Pinout
+|-
+| GROUND || 1 || 2 || ~HD SLCT 3
+|-
+| GROUND || 3 || 4 || ~HD SLCT 2
+|-
+| GROUND || 5 || 6 || ~WRITE GATE
+|-
+| GROUND || 7 || 8 || ~CNFG/STATUS
+|-
+| GROUND || 9 || 10 || ~XFER ACK
+|-
+| GROUND || 11 || 12 || ~ATTENTION
+|-
+| GROUND || 13 || 14 || ~HD SLCT 0
+|-
+| Key (no pin) || 15 || 16 || ~SECTOR
+|-
+| GROUND || 17 || 18 || ~HD SLCT 1
+|-
+| GROUND || 19 || 20 || ~INDEX
+|-
+| GROUND || 21 || 22 || ~READY
+|-
+| GROUND || 23 || 24 || ~XFER REQ
+|-
+| GROUND || 25 || 26 || ~DRV SLCT 0
+|-
+| GROUND || 27 || 28 || ~DRV SLCT 1
+|-
+| GROUND || 29 || 30 || Reserved
+|-
+| GROUND || 31 || 32 || ~READ GATE
+|-
+| GROUND || 33 || 34 || ~CMD DATA
+|}
+
+{| class=&amp;quot;wikitable&amp;quot;
+|+ ESDI 20-pin Data Connector Pinout
+|-
+| ~DRV SLCTD || 1 || 2 || ~SECTOR
+|-
+| ~CMD COMPL || 3 || 4 || ~ADDR MK EN
+|-
+| GROUND || 5 || 6 || GROUND
+|-
+| +WRITE CLK || 7 || 8 || -WRITE CLK
+|-
+| GROUND || 9 || 10 || +RD/REF CLK
+|-
+| -RD/REF CLK || 11 || 12 || GROUND
+|-
+| +NRZ WRITE || 13 || 14 || -NRZ WRITE
+|-
+| GROUND || 15 || 16 || GROUND
+|-
+| +NRZ READ || 17 || 18 || -NRZ READ
+|-
+| GROUND || 19 || 20 || ~INDEX
+|}
+
+==References==
+{{FOLDOC}}
+
+{{Computer-bus}}
+
+[[Category:Computer storage buses]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

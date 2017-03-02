@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Quick Blog"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Quick Blog" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Orphan|date=February 2009}}
+{{Infobox Website |
+ name = Quick Blog |
+ url = http://www.godaddy.com/gdshop/blog/landing.asp |
+ screenshot =&amp;lt;!-- Deleted image removed:  [[Image:Quick-Blog.png|200px]]  --&amp;gt;|
+ commercial = Yes |
+ type = Blog hosting |
+ registration = Optional |
+ owner = [[Go Daddy|GoDaddy.com]] |
+ author = [[Go Daddy|GoDaddy.com]] |
+}}
+&amp;apos;&amp;apos;&amp;apos;Quick Blog&amp;apos;&amp;apos;&amp;apos; is a hosted [[Blog|blogging]] service from [[Go Daddy|GoDaddy.com]]. It is offered free with ads for every domain name purchased or as a separate, subscription-based product. It debuted on December 16, 2005. The current version is 1.2.9.
+
+== Features ==
+* Subscribe to entries or comments via email
+* Threaded comments
+* Comment showcase
+* Category autocompletion
+* Comprehensive statistics
+* WYSIWYG template editing
+* Drag and drop sidebar editing (the implementation is unique)
+* Entry locking
+
+== External links ==
+*[http://www.godaddy.com/gdshop/blog/landing.asp Quick Blog marketing page]
+*[http://www.onlinequickblog.com/ Quick Blogging product blog]
+*[http://www.godaddy.com/ GoDaddy.com home page]
+*[http://mvolo.com/2006/11/07/free-nohassle-blogging-with-bill-browns-quick-blog.aspx Mike Volodarsky&amp;apos;s blog on Quick Blog experiences]
+
+[[Category:Go Daddy]]
+[[Category:Blog hosting services]]
+[[Category:Blog software]]
+
+{{Website-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

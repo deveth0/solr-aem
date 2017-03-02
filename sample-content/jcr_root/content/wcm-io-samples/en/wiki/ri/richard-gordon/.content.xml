@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Richard Gordon"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Richard Gordon" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Richard Gordon&amp;apos;&amp;apos;&amp;apos; may refer to:
+*[[Richard Gordon (English author)]] (born 1921), English novelist, screenwriter and doctor
+*[[Richard Gordon (lawyer)]], president of the American Jewish Congress
+*[[Richard Gordon (American football)]] (born 1987), American football player
+*[[Richard F. Gordon, Jr.]] (born 1929), American astronaut
+*[[Richard Gordon (politician)]] (born 1945), Filipino politician
+*[[Richard Gordon (film producer)]] (1925–2011), British film producer
+*[[Richard Gordon (broadcaster)]] (born 1960), Scottish sports broadcaster
+*[[Richard Gordon (Scottish author)]] (1947–2009), Scottish author
+*[[Richard G. Gordon]], geologist, winner of the [[Arthur L. Day Medal]]
+*[[Richard Gordon (photographer)]] (born 1945), American photographer
+*[[Richard Gordon (theoretical biologist)]] (born 1943), Professor (retired), University of Manitoba
+
+==See also==
+*[[Rich Gordon]] (born 1948), American politician from California
+*[[Dick Gordon (American football)]] (born 1944), American football player
+*[[Dick Gordon (sports writer)]] (1911–2008), American sports writer
+
+{{hndis|Gordon, Richard}}
+
+{{DEFAULTSORT:Gordon, Richard}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

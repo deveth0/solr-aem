@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="File:Velvet underground album cover 2.png"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="File:Velvet underground album cover 2.png" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;== Summary ==
+{{Non-free use rationale album cover| Article           = The Velvet Underground &amp;amp; Nico
+| Use               = Infobox
+&amp;lt;!-- ADDITIONAL INFORMATION --&amp;gt;
+| Name              = The Velvet Underground &amp;amp; Nico
+| Artist            = [[The Velvet Underground]] and [[Nico]]
+| Label             = [[Verve Records|Verve]]/[[Polygram Records]]
+| Graphic Artist    = [[Andy Warhol]]
+| Item              =
+| Type              = album
+| Website           =
+| Owner             =
+| Commentary        =
+&amp;lt;!--OVERRIDE FIELDS --&amp;gt;
+| Description       =
+| Source            =
+| Portion           =
+| Low_resolution    =
+| Purpose           = &amp;lt;!--Must be specified if Use is not Infobox / Header / Section / Artist--&amp;gt;
+| Replaceability    =
+| other_information =
+}}
+Cover art for [[The Velvet Underground]]&amp;apos;s 1967 debut album &amp;apos;&amp;apos;[[The Velvet Underground &amp;amp; Nico|The Velvet Underground and Nico]]&amp;apos;&amp;apos;. Image by [[Andy Warhol]], copyright held by [[Polygram Records]].
+
+== Licensing ==
+{{Non-free album cover|image has rationale=yes}}==Rationale of fair use for [[The Velvet Underground &amp;amp; Nico|The Velvet Underground and Nico]]==
+#No free or public domain images have been located for this album.
+#The image is of lower resolution than the original cover.
+#The image does not limit the copyright owners&amp;apos; rights to distribute the album in any way.
+#For an article about an album, the cover artwork provides essential information.
+#This image is used on various websites, so its use on Wikipedia does not make it significantly more accessible than it already is.
+#The cover is being used for informational purposes only.&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

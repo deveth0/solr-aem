@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Manor Records"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Manor Records" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+&amp;lt;div style=&amp;quot;float:right; width:243px; border:2px; border-style:solid; padding:8px; margin-left: 1em; text-align:center&amp;quot;&amp;gt;[[Image:ManorRecord.jpg|Label of a Manor record]]&amp;lt;br&amp;gt;A Manor Record by [[Luis Russell]]&amp;lt;/div&amp;gt;
+&amp;apos;&amp;apos;&amp;apos;Manor Records&amp;apos;&amp;apos;&amp;apos; was a [[United States]] based [[record label]] of the 1940s.
+
+A small label founded in NYC by Irving Berman, Manor Records later moved its headquarters to New Jersey.
+The label featured such artists on its roster as [[Savannah Churchill]], The Sentimentalists—later famous as [[The Four Tunes]], [[Luis Russell]],
+[[Deek Watson (musician)|Deek Watson]] and His [[The Brown Dots|Brown Dots]], [[Boy Green]], [[Skoodle-Dum-Doo]] ([[Seth Richard]]) and Sheffield, as well as a number of other artists.
+
+Also of interest were the occasional recordings by [[Dizzy Gillespie]] of the Be-Bop genre. Performances on the label were generally not bad, all things considered. Savannah Churchill and The 4 Tunes would be considered &amp;quot;lounge acts&amp;quot; today, but they scored impressively for record sales, and kept Manor afloat for most of the late 1940s.
+
+Berman later changed the name to ARCO Records. But after 1950, tastes in the record buying public began to change and the hits were very few...consequently Berman shut down operations, and his stars went to other labels. The quality of Manor pressings was not very good, but one could probably attribute that to the war time shellac shortage, which adversely affected even the major labels during WWII.
+
+==See also==
+* [[List of record labels]]
+
+[[Category:Defunct record labels of the United States]]
+
+
+{{US-record-label-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="QFX"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="QFX" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{other uses}}
+{{Refimprove|date=December 2008}}
+
+&amp;apos;&amp;apos;&amp;apos;QFX&amp;apos;&amp;apos;&amp;apos; is an image editing computer program, developed by &amp;apos;&amp;apos;Ron Scott&amp;apos;&amp;apos; a Texan photographer and software engineer.&amp;lt;ref&amp;gt;{{cite book|last=Eggers|first=Ron|title=Basic Digital Photography: A Comprehensive, Step-by-step Guide to Selecting and Using Digital Cameras, Computers, Scanners and Software|publisher=Amherst Media, Inc|year=2000|page=51|url=http://books.google.ca/books?id=jKoOog8VJYEC&amp;amp;pg=PA55&amp;amp;dq=qfx+image+editor&amp;amp;lr=&amp;amp;as_brr=3#PPA55,M1|isbn=978-1-58428-036-1|accessdate=2008-12-04}}&amp;lt;/ref&amp;gt; The first version was released in 1990. At the time of its release, QFX was one of the most [[feature-rich]] image editing applications available on the PC platform ([[DOS]], later [[Microsoft Windows|Windows]]). It was the software of choice for digital artists and image postproduction studios in the times when 1024x768 [[True Color|truecolor]] graphics were a luxury, far before [[Adobe Photoshop|Photoshop]] could have been considered a serious professional tool. Its clean interface and clever workflow helped build a devoted fan/user base, some of whom continue using it, despite QFXs being long ago eclipsed in features and users by [[Adobe Photoshop|Photoshop]].
+
+==History==
+The first version of QFX was released around 1990. It ran on PCs equipped with AT&amp;amp;T Truevision &amp;apos;&amp;apos;AT Vista&amp;apos;&amp;apos; and &amp;apos;&amp;apos;Targa&amp;apos;&amp;apos; ISA bus [[framebuffer]] graphics cards. Low end Targa cards were limited to 8 bits, but most were 24 bit with a hardware alpha channel; Vista cards were 24 bit, and capable of greater than video resolution. All could capture RGB video.
+
+Early versions of QFX had no brushes; the program was used for image processing and color correction, rather than image creation, providing basic filters (blur, noise, glow etc.) that were a collection of [[MS-DOS]] programs that could be run from the [[command line]] and included in [[batch files]]. This functionality continued with all Targa and Vista versions of the program, and allowed operation on images with a resolution far greater than the graphics display device. Later Windows releases introduced an internal scripting facility that pre-dated Photoshop&amp;apos;s &amp;apos;&amp;apos;actions&amp;apos;&amp;apos; by many years.
+The early version ran on both Intel and DEC Alpha processors.
+
+The program was popular with PC-based computer animators, who would often use QFX tools to composite multiple image layers for single-frame output to a video recorder or film recorder.
+
+In 1991 the new version called &amp;apos;&amp;apos;Hires QFX&amp;apos;&amp;apos; priced around 3500 USD, provided additional features including brushes and expanded support for large image files. In that time the alternatives for professional digital image editing were over-200k-and-more-USD dedicated workstations like [[Quantel]]&amp;apos;s [[Quantel Paintbox|Paintbox]], [[Crossfield (software)|Crossfield]] or [[Barco Creator]] software running on expensive [[Silicon Graphics|SGI]] &amp;apos;&amp;apos;Power series&amp;apos;&amp;apos; multiprocessor boxes. QFX was one of the first multiprocessor optimized graphics programs. When running on dual processor systems, it would split the image in two, running half on each processor. Could use &amp;quot;&amp;apos;&amp;apos;all memory&amp;apos;&amp;apos;&amp;quot; with out use of &amp;quot;memory manages&amp;quot; (QMM per exemple) through Motherboard&amp;apos;s BIOS, when DOS can not handle more of 16MB!, and let user set the undo levels up to 999 years before others (aka; Photoshop) keep just one undo. Allow use customs icons for customs scripts!
+
+The boom of [[Desktop publishing|DTP]] and the rapid advances in PC hardware in the mid 1990s changed the market for graphics software. [[Photoshop]], windows oriented, less technical and cheaper solution for &amp;apos;&amp;apos;anybody&amp;apos;&amp;apos; proved to be a winning approach. QFX continued adding new features including a windows-based interface and CMYK handling, but was unable to compete with the lower-priced and increasingly feature-rich Photoshop.
+
+==Present==
+QFX was also the core code for a Computer Aided Jewelry Design System known as Digital Goldsmith, a &amp;apos;paint&amp;apos; application which originally used an &amp;apos;old&amp;apos; Tips Targa Plus format platform for image manipulation and architecture.  Although the rastor based DG, the core of which is a stripped-down QFX code, which Ron Scott modified appropriately with programming assistance from Kenton West, has moved on into the Computer Controlled Mill utilizing Nurb Design with GemVision&amp;apos;s Matrix software, yet, one may find Digital Goldsmith as the &amp;apos;photoshop&amp;apos;, world-wide, in the Jewelry Custom Design industry.  During the mid-1990s Gemvision&amp;apos;s CEO/Founder Jeff High along with Kent West and Simon Lonergan assisted Ron Scott as extensive beta testers, macro designers for DG while further lending valuable support and testing for what has become today&amp;apos;s QFX(the addition of a thumbnails browser, among many more written for the DG application even, etc...).
+
+==References==
+{{reflist}}
+
+==External links==
+*[http://www.qfx.com qfx.com]
+
+[[Category:Raster graphics editors]]
+[[Category:Windows software]]
+[[Category:Technical communication tools]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

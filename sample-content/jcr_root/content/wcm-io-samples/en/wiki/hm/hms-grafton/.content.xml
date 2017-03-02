@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="HMS Grafton"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="HMS Grafton" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;Nine ships of the [[Royal Navy]] have been named &amp;apos;&amp;apos;&amp;apos;HMS &amp;apos;&amp;apos;Grafton&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;, while another one was planned:
+
+*{{HMS|Grafton|1679}} was a 70-gun [[third-rate]] [[ship of the line]] launched in 1679, rebuilt in 1700, and captured by the French in 1707.
+*{{HMS|Grafton|1694}} was a [[fire ship]] purchased in 1694 and sold in 1696.
+*{{HMS|Grafton|1709}} was a 70-gun third rate launched in 1709, rebuilt in 1725 and broken up in 1744.
+*{{HMS|Grafton|1750}} was a 70-gun third rate launched in 1750 and sold in 1767.
+*{{HMS|Grafton|1771}} was a [[seventy-four (ship)|74-gun]] third rate launched in 1771. She was used for harbour service from 1792 and was broken up in 1816.
+*{{HMS|Grafton|1892}} was an [[Edgar class cruiser|&amp;apos;&amp;apos;Edgar&amp;apos;&amp;apos;-class]] [[cruiser]] launched in 1892 and broken up in 1920.
+*{{HMS|Grafton|H89}} was a [[G and H class destroyer|G-class]] [[destroyer]] launched in 1935 and torpedoed in 1940.
+*HMS &amp;apos;&amp;apos;Grafton&amp;apos;&amp;apos; was to have been a destroyer. She was ordered in 1944 but was cancelled in 1945.
+*{{HMS|Grafton|F51}} was a [[Blackwood class frigate|&amp;apos;&amp;apos;Blackwood&amp;apos;&amp;apos;-class]] (Type 14) [[frigate]] launched in 1957 and broken up in 1971.
+*{{HMS|Grafton|F80}} was a [[Type 23 frigate|Type 23]] [[frigate]].  She was sold to the [[Chilean Navy]] and delivered in 2007, being renamed &amp;apos;&amp;apos;Almirante Lynch&amp;apos;&amp;apos; FF 07.
+
+==References==
+*{{Colledge}}
+
+{{Shipindex}}
+{{Italic title prefixed|3}}
+{{DEFAULTSORT:Grafton, Hms}}
+[[Category:Royal Navy ship names]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

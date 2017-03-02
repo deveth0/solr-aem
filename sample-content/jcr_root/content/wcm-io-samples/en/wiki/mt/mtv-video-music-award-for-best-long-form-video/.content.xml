@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="MTV Video Music Award for Best Long Form Video"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="MTV Video Music Award for Best Long Form Video" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+The &amp;apos;&amp;apos;&amp;apos;MTV Video Music Award for Best Long Form Video&amp;apos;&amp;apos;&amp;apos; was given out only in 1991.
+
+{| class=&amp;quot;wikitable&amp;quot;
+! Year !! Winner !! Other nominees
+|-
+|{{Mtvvma|1991}}
+|[[Madonna (entertainer)|Madonna]] — &amp;apos;&amp;apos;[[The Immaculate Collection (video)|The Immaculate Collection]]&amp;apos;&amp;apos;
+|&amp;lt;small&amp;gt;
+* [[Aerosmith]] — &amp;apos;&amp;apos;[[Things That Go Pump in the Night]]&amp;apos;&amp;apos;
+* [[Peter Gabriel]] — &amp;apos;&amp;apos;P.O.V.&amp;apos;&amp;apos;
+* [[R.E.M.]] — &amp;apos;&amp;apos;[[Tourfilm]]&amp;apos;&amp;apos;&amp;lt;/small&amp;gt;
+|}
+
+{{MTV Video Music Awards}}
+
+{{DEFAULTSORT:Mtv Video Music Award For Best Long Form Video}}
+[[Category:MTV Video Music Awards]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="State Senator"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="State Senator" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;A &amp;apos;&amp;apos;&amp;apos;state senator&amp;apos;&amp;apos;&amp;apos; is a member of a state&amp;apos;s [[Senate]], the [[upper house]] in the [[bicameral]] legislature of 49 [[U.S. state]]s, or a legislator in [[Nebraska]]&amp;apos;s [[unicameral|one house]] [[Nebraska Legislature|State Legislature]].
+
+There are typically fewer state senators than there are members of a state&amp;apos;s [[lower house]].  In the past, this meant that senators represented various geographic regions within a state, regardless of the population, as a way of balancing the power of the lower house, which was apportioned according to population. This changed in 1963 when the [[Supreme Court of the United States]] ruled that state legislatures must apportion seats in both houses according to population. A state senator&amp;apos;s job is to represent the people at a higher level than a State Representative.&amp;lt;ref&amp;gt;See &amp;apos;&amp;apos;[[Gray v. Sanders]]&amp;apos;&amp;apos;, 372 U.S. 368 (1963)&amp;lt;/ref&amp;gt;
+
+==References==
+{{Reflist}}
+
+{{US-poli-stub}}
+[[Category:State senators of the United States| ]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

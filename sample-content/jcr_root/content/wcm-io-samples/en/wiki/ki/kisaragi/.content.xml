@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Kisaragi"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Kisaragi" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+{{About|the name|the Japanese ship sunk in the Battle of Wake Island|Japanese destroyer Kisaragi|the 2007 film|Kisaragi (film)}}
+&amp;apos;&amp;apos;&amp;apos;Kisaragi&amp;apos;&amp;apos;&amp;apos; (如月 or 衣更着) is a traditional name for February in the [[Japanese calendar]].
+
+The meaning of &amp;quot;kisaragi&amp;quot; is not so deep as those of the other names of the months. It is written as &amp;quot;wear more clothes&amp;quot; in [[kanji]]; it also means &amp;quot;the rehabilitation of plants.&amp;quot; In the [[lunar calendar]], which was used until the [[Heian Period]], February was the second month of winter; January, February, March made up winter, and the three months starting from April were considered spring.
+
+[[Category:Japanese words and phrases]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

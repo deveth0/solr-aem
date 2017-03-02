@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Quindío River"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Quindío River" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Image:Losnevados.jpg|thumb|left|Quindio river is originated in [[Los Nevados National Natural Park|Los Nevados National Park]].]]
+&amp;apos;&amp;apos;&amp;apos;Quindío River&amp;apos;&amp;apos;&amp;apos; ({{lang-es|Río Quindío}}) is the principal river of the department of [[Quindío Department|Quindío]], [[Colombia]].  It combines with the [[Barragán River]] at the Valle de Maravelez to form [[La Vieja River]], in turn a tributary of the [[Cauca River]].
+
+Quindío River has a length of 69 km.  It forms in the mountains east of Salento and flows in a south-westerly direction, passing by the township of Salento and forming the eastern limit of the city of [[Armenia, Colombia|Armenia]].  Its major tributaries are the Verde River and the Navarco River (these in turn have the tributaries Santo Domingo and Boquerón, respectively).  The total watershed including these tributaries is 691 km².  The average flow at the mouth is 29 m³/s.
+
+The river is the source of drinking water for the majority of the inhabitants of the department.  The continued increase in demand is placing significant pressure on this resource.  Additionally, there are contamination problems due to inadequate [[waste water treatment]] facilities in the municipalities along the river.
+
+== References ==
+
+Corporación Autónoma Regional del Quindío (2005), [http://www.crq.gov.co/visual_crq/documentos/proyecto_riolavieja/diagnostico_rio_lavieja.pdf Proyecto Ordenacion y Manejo de la Cuenca del Río La Vieja] (in Spanish)
+
+{{coord missing|Colombia}}
+
+[[Category:Rivers of Colombia]]
+
+{{Colombia-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

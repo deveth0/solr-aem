@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Xanthius"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Xanthius" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{distinguish|Xanthus|Xanthias}}
+
+In [[Greek mythology]], &amp;apos;&amp;apos;&amp;apos;Xanthius&amp;apos;&amp;apos;&amp;apos; ({{lang-el|Ξάνθιος}}) was a descendant of [[Bellerophon]], and father of [[Leucippus (mythology)|Leucippus]] and an unnamed daughter.
+
+Through the wrath of [[Aphrodite]], Leucippus fell in love with his own sister. The passion turned out too strong for him to suppress, so he addressed his mother, imploring her to help him and threatening that he would kill himself if she didn&amp;apos;t. She united the girl to Leucippus, and they consorted for a while. But the girl was already betrothed to another man, to whom someone reported the matter. The groom went on to inform Xanthius, without telling him the name of the seducer. Xanthius went straight to his daughter&amp;apos;s chamber, where she was together with Leucippus right at the moment. On hearing him enter, she tried to escape, but Xanthius hit her with a dagger, thinking that he was slaying the seducer, and killed her. Leucippus, failing to recognize his father at first, slew him. When the truth was revealed, he had to leave the country and took part in colonization of [[Crete]] and the lands in [[Asia Minor]]. Later, he was loved by [[Leucophrye]].&amp;lt;ref&amp;gt;[[Parthenius of Nicaea|Parthenius]], &amp;apos;&amp;apos;Love Romances&amp;apos;&amp;apos;, 5&amp;lt;/ref&amp;gt;
+
+==References==
+{{reflist}}
+
+==External links==
+*[http://www.maicar.com/GML/002GG/ggIschepolis.html Greek Mythology Link (Carlos Parada) - Dictionary: Ischepolis to Leucopeus], see under Leucippus (8)
+* Parthenius, &amp;apos;&amp;apos;Love Romances&amp;apos;&amp;apos;. Transl. by [[Stephen Gaselee (diplomat)|S. Gaselee]] (1916) [http://www.theoi.com/Text/Parthenius.html#5 at Classical E-text]
+
+[[Category:Greek mythology]]
+
+
+{{Greek-myth-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

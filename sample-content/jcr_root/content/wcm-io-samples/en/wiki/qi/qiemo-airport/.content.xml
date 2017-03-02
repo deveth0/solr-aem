@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Qiemo Airport"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Qiemo Airport" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox Airport
+| name         = Qiemo Airport
+| nativename-a = {{lang|zh-cn|{{nobold|且末机场}}}}
+| nativename-r = &amp;apos;&amp;apos;Qiěmò Jīchǎng&amp;apos;&amp;apos;
+| image        =
+| IATA         = IQM
+| ICAO         = ZWCM
+&amp;lt;center&amp;gt;{{Location map|China Xinjiang|width=220|float=center
+|caption=|mark=Airplane_silhouette.svg|marksize=10
+|label=IQM|position=right
+|lat_deg=38|lat_min=08|lat_sec=58|lat_dir=N
+|lon_deg=85|lon_min=31|lon_sec=58|lon_dir=E
+}}&amp;lt;small&amp;gt;Location of airport in Xinjiang&amp;lt;/small&amp;gt;&amp;lt;/center&amp;gt;
+| type         = Public
+| owner        =
+| operator     =
+| city-served  = [[Qiemo]], [[Xinjiang]], [[China]]
+| location     = &amp;lt;!--only if different--&amp;gt;
+| elevation-f  = 4,108
+| elevation-m  = 1,252
+| coordinates  = {{coord|38|08|58|N|085|31|58|E|region:CN_type:airport}}
+| website      =
+| metric-rwy   = y
+| r1-number    = 01/19
+| r1-length-m  = 1,680
+| r1-surface   = Asphalt
+| footnotes    = Sources: &amp;lt;ref name=&amp;quot;AirfieldMaps&amp;quot;&amp;gt;[http://www.airfieldmaps.co.uk/chinaairports.htm Airports in China] from AirfieldMaps.co.uk&amp;lt;/ref&amp;gt;&amp;lt;ref name=&amp;quot;GCM&amp;quot;&amp;gt;{{GCM|ZWCM}}&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;{{ASN|IQM}}&amp;lt;/ref&amp;gt;
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Qiemo Airport&amp;apos;&amp;apos;&amp;apos; ({{lang-zh|且末机场}}) {{airport codes|IQM|ZWCM}} is an [[airport]] serving [[Qiemo Town]] and the rest of [[Qiemo County]], in the [[Bayin&amp;apos;gholin Mongol Autonomous Prefecture]] of the [[Xinjiang Uyghur Autonomous Region]] of the [[People&amp;apos;s Republic of China]].
+
+== Facilities ==
+The airport resides at an [[elevation]] of {{convert|4108|ft|0}} above [[mean sea level]]. It has one asphalt paved [[runway]] designated 01/19 which measures {{convert|1680|×|30|m|0}}.&amp;lt;ref name=&amp;quot;AirfieldMaps&amp;quot; /&amp;gt;{{fact|date=July 2012}}&amp;lt;ref&amp;gt;{{cite web | url = http://www.wikimapia.org/#lat=38.1489688&amp;amp;lon=85.5327272&amp;amp;z=15&amp;amp;l=0&amp;amp;m=b&amp;amp;v=8&amp;amp;gz=0;855310321;381420921;0;0;38195;148157 | title = Annotated aerial image showing length of runway, marked 01/19 | work = WikiMapia | accessdate = 23 Feb 2010}}&amp;lt;/ref&amp;gt;
+
+==See also==
+* [[List of airports in China]]
+
+==References==
+&amp;lt;references /&amp;gt;
+
+[[Category:Airports in Xinjiang]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

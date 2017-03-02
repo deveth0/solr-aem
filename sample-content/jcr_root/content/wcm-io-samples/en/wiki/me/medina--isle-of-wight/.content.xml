@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Medina, Isle of Wight"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Medina, Isle of Wight" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{infobox historic subdivision|
+   |Name=              Medina
+   |HQ=                [[Newport, Isle of Wight|Newport]]
+   |Status=            [[non-metropolitan district]], [[borough status in the United Kingdom|borough]]
+   |Start=             1974
+   |End=               1995
+   |Replace=           [[Isle of Wight]]
+   |Map=
+   |Arms=[[File:Medina.png|140px|The Arms of &amp;apos;&amp;apos;&amp;apos;Medina Borough Council&amp;apos;&amp;apos;&amp;apos;]]
+   |Motto= Floreat Medina (May Medina flourish)
+   |PopulationFirst=      64,790
+   |PopulationFirstYear=  1973&amp;lt;ref&amp;gt;Registrar General&amp;apos;s annual estimated figure mid 1973&amp;lt;/ref&amp;gt;
+   |AreaFirst= {{convert|28949|acre|km2}}&amp;lt;ref name=guide&amp;gt;{{cite book |title=Local government in England and Wales: A Guide to the New System |year=1974 |publisher=[[HMSO]] |location=London |isbn=0-11-750847-0 |page=61 }}&amp;lt;/ref&amp;gt;
+   |AreaFirstYear= 1974
+   |PopulationLast=       72,000
+   |PopulationLastYear=   1992&amp;lt;ref&amp;gt;OPCS Key Population and Vital Statistics 1992&amp;lt;/ref&amp;gt;
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Medina&amp;apos;&amp;apos;&amp;apos; was a [[non-metropolitan district]] with the [[borough status in the United Kingdom|status of a borough]] on the [[Isle of Wight]] in [[England]] from 1974 to 1995.
+
+The district was formed by the [[Local Government Act 1972]], and was a merger of the [[municipal borough]]s of [[Newport, Isle of Wight|Newport]] and [[Ryde]] along with the [[Urban district (Great Britain and Ireland)|urban district]] of [[Cowes]]. It was one of two districts on the Island formed in 1974 - the other was [[South Wight]].
+
+&amp;quot;Medina&amp;quot; was an older name for Newport which has been preserved in the [[River Medina]].
+
+Following a review by the [[Local Government Commission for England (1992)|Local Government Commission for England]], the borough was abolished on 1 April 1995, when a single [[Isle of Wight Council]] replaced the Island&amp;apos;s county council and two district councils.&amp;lt;ref&amp;gt;{{Cite web |url=http://www.opsi.gov.uk/si/si1994/Uksi_19941210_en_1.htm |title=The Isle of Wight (Structural Change) Order 1994  |accessdate=12 January 2009 |work= |publisher=[[Office of Public Sector Information]] |year=2004}}&amp;lt;/ref&amp;gt;
+
+==References==
+{{Reflist}}
+
+{{coord|50.6830|-1.5401|display=title|region:GB-IOW_type:city}}
+
+[[Category:History of the Isle of Wight]]
+[[Category:Former non-metropolitan districts of the Isle of Wight]]
+
+
+{{IsleofWight-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Mathias Feist"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Mathias Feist" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{one source|date=July 2008}}
+
+&amp;apos;&amp;apos;&amp;apos;Mathias Feist&amp;apos;&amp;apos;&amp;apos; (born 1961 in Germany) is a [[ChessBase]] and [[Fritz (chess)|Fritz]] [[programmer]].  He led the team that programmed  [[Fritz (chess)|Deep Fritz]], which has been compared to [[Deep Blue (chess computer)|Deep Blue]].&amp;lt;ref Name=&amp;quot;Reilly&amp;quot;&amp;gt;{{cite book
+  | last =Reilly
+  | first =Edwin D.
+  | authorlink =
+  | coauthors =
+  | title =Milestones in Computer Science and Information Technology
+  | publisher =Greenwood Publishing Group
+  | year =2003
+  | location =
+  | pages =56
+  | url =http://books.google.com/books?id=JTYPKxug49IC&amp;amp;pg=PA56&amp;amp;dq=%22Mathias+Feist%22| doi =
+  | isbn=1-57356-521-0 }}&amp;lt;/ref&amp;gt; He was hired at the end of the 1980s to port the ChessBase program from [[Atari ST]] to [[DOS]]. He soon became an expert in the area of [[chess engine]]s and connecting them with the ChessBase and Fritz interfaces.
+
+==References==
+{{reflist}}
+
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Feist, Mathias
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION = German computer chess programmer
+| DATE OF BIRTH     = 1961
+| PLACE OF BIRTH    =
+| DATE OF DEATH     =
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Feist, Mathias}}
+[[Category:German computer programmers]]
+[[Category:Computer chess people]]
+[[Category:Living people]]
+[[Category:1961 births]]
+
+
+{{compu-bio-stub}}
+{{germany-chess-bio-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

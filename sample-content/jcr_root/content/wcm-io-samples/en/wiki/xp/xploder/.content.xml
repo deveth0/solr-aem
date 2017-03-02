@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Xploder"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Xploder" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{For|the candy bar|Wonka Xploder}}
+{{Unreferenced|date=September 2008}}
+&amp;apos;&amp;apos;&amp;apos;Xploder&amp;apos;&amp;apos;&amp;apos; is a brand of game cheats and multimedia devices for games consoles, similar to [[Action Replay]]. Xploder products have been released for [[PS2]], [[PlayStation (console)|PSone]], [[PlayStation Portable|PSP]], [[Xbox (console)|Xbox]], [[GameCube]], [[N64]], [[Game Boy]], [[Game Boy Advance]], [[IBM PC clone|PC]] and others. Support for the [[PlayStation 3|PS3]], [[Xbox 360]] and Nintendo [[Wii]] started in 2006-2007. Xploder products are often bundled with accessories for game consoles, such as [[Lexar]]&amp;apos;s [[Memory Stick]]s for the PSP, or the X-Link cable with the PS2 V5 Media Centre version. Newer versions for the [[Xbox 360]] and [[PlayStation 3]] allow users to download saved games from the Internet.
+
+Utilizing the Xploder disc for the original [[PlayStation (console)|PlayStation]], users have found it possible to boot backup or copied versions of their games.
+
+==External links==
+*[http://www.xploder.net/ Xploder]
+*[http://www.xplodercheats.net/ Xploder Cheats]
+
+[[Category:Unlicensed Nintendo hardware]]
+[[Category:PlayStation 2 accessories]]
+[[Category:Video game cheating]]
+
+
+{{videogame-hardware-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

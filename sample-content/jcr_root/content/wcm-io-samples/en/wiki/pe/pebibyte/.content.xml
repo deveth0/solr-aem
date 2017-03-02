@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Pebibyte"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Pebibyte" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Selfref|For guidelines on using of this unit on Wikipedia, see [[WP:PEBIBYTE]].}}
+{{Redirect|PiB|other things abbreviating to PiB or PIB|PIB (disambiguation)}}
+{{Quantities of bytes}}
+The &amp;apos;&amp;apos;&amp;apos;pebibyte&amp;apos;&amp;apos;&amp;apos; is a standards-based [[binary prefix|binary multiple]] (prefix [[pebi-|&amp;apos;&amp;apos;pebi&amp;apos;&amp;apos;]], symbol &amp;apos;&amp;apos;Pi&amp;apos;&amp;apos;) of the [[byte]], a unit of [[Computer data storage|digital information storage]]. The pebibyte unit symbol is &amp;apos;&amp;apos;&amp;apos;PiB&amp;apos;&amp;apos;&amp;apos;.&amp;lt;ref name=&amp;quot;NIST&amp;quot;&amp;gt;{{cite web|url=http://physics.nist.gov/cuu/Units/binary.html|title=Prefixes for binary multiples|date=2007|publisher=NIST|accessdate=10 August 2007}}&amp;lt;/ref&amp;gt;
+
+: 1 pebibyte = 2&amp;lt;sup&amp;gt;50&amp;lt;/sup&amp;gt; [[byte]]s = {{gaps|1|125|899|906|842|624|bytes}} = 1024 [[tebibyte]]s
+
+The pebibyte is closely related to the [[petabyte]], which is defined as 10&amp;lt;sup&amp;gt;15&amp;lt;/sup&amp;gt; bytes = {{gaps|1|000|000|000|000|000|bytes}} (see [[binary prefix]]). 1 PiB ≈ 1.13 PB.
+
+==See also==
+* [[Orders of magnitude (data)]]
+* [[Pebibit]]
+* [[Exbibyte]]
+* [[SI prefix]]
+* [[IEEE 1541]]
+
+==References==
+{{Reflist}}
+
+[[Category:Units of information]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Xenophylla"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Xenophylla" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Taxobox
+| name = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Xenophylla&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+| image =
+| image_caption =
+| regnum = [[Animal]]ia
+| phylum = [[Arthropod]]a
+| classis = [[Insect]]a
+| ordo = [[Lepidoptera]]
+| familia = [[Tortricidae]]
+| subfamilia = [[Tortricinae]]
+| genus = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Xenophylla&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+| genus_authority = Diakonoff, 1960
+| subdivision_ranks = Species
+| subdivision =
+}}
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Xenophylla&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is a genus of [[moth]]s belonging to the subfamily [[Tortricinae]] of the family [[Tortricidae]].&amp;lt;ref&amp;gt;{{cite web|author=Baixeras, J., Brown, J. W., and Gilligan, T. M. |url=http://www.tortricidae.com/catalogue.asp |title=Online World Catalogue of the Tortricidae|publisher=Tortricidae.com|accessdate=January 20, 2009}}&amp;lt;/ref&amp;gt;
+
+==Species==
+*&amp;apos;&amp;apos;[[Xenophylla megalogona]]&amp;apos;&amp;apos; &amp;lt;small&amp;gt;(Diakonoff, 1947)&amp;lt;/small&amp;gt;
+
+==See also==
+*[[List of Tortricidae genera]]
+==References==
+{{Reflist}}
+
+==External links==
+*[http://www.tortricidae.com/catalogueGenusList.asp?gcode=997 tortricidae.com]
+
+[[Category:Tortricidae]]
+
+
+{{Tortricinae-stub}}
+
+{{italictitle}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

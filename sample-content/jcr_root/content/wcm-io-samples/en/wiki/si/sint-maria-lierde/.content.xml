@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Sint-Maria-Lierde"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Sint-Maria-Lierde" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{no footnotes|date=January 2013}}
+&amp;apos;&amp;apos;&amp;apos;Sint-Maria-Lierde&amp;apos;&amp;apos;&amp;apos; is a small [[village]] which makes up part of the [[municipality]] of [[Lierde]]. It is located in the [[Denderarea]] and in the [[Flemish Ardennes]], the hilly southern part of the [[Belgium|Belgian]] [[province]] of [[East Flanders]].
+
+The village&amp;apos;s [[coat of arms]] shows a [[heart]] of [[Jesus]] beneath a [[Crown (headgear)|crown]]. The arms were granted in 1818 and confirmed on December 20, 1846.
+
+
+
+== External links ==
+
+
+* [http://www.lierde.be/sit013.htm Page on Sint-Maria-Lierde] from the official Lierde website (only available in [[Dutch language|Dutch]])
+
+* [http://www.ngw.nl/int/bel/s/s-marial.htm Coat of arms] from the International Civic Arms website
+
+* [http://www.reocities.com/belgiumtowns/stmarialierdekerk.html Webpage at Reocities]
+
+
+
+
+{{EastFlanders-geo-stub}}
+
+{{coord|50|49|N|3|51|E|region:BE_type:city|display=title}}
+
+[[Category:Populated places in Belgium]]
+[[Category:Lierde]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

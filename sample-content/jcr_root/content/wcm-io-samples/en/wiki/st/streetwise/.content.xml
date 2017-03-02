@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Streetwise"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Streetwise" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary}}
+&amp;apos;&amp;apos;&amp;apos;Streetwise&amp;apos;&amp;apos;&amp;apos;  may refer to:
+
+*[[Rover Streetwise]], a small hatchback made by the MG Rover Group
+*Possessing knowledge of [[youth culture]], also called &amp;quot;&amp;apos;&amp;apos;street&amp;apos;&amp;apos;&amp;quot;
+*[[Know-how|Practical knowledge]], as opposed to ivory tower or book knowledge, knowledge on how to succeed through life, or generally how to avoid the pitfalls
+*The Streetwise Fund, a mutual fund offered by [[ING Direct]]
+
+==In media==
+*&amp;apos;&amp;apos;[[StreetWise]]&amp;apos;&amp;apos;, a Chicago newspaper
+*[[Street Smarts (game show)|&amp;apos;&amp;apos;Street Smarts&amp;apos;&amp;apos; (game show)]], a TV game show
+*[[Streetwise (1984 film)|&amp;apos;&amp;apos;Streetwise&amp;apos;&amp;apos; (1984 film)]], a 1984 documentary following the lives of homeless teenagers living on the streets of downtown Seattle
+*[[Streetwise (1998 film)|&amp;apos;&amp;apos;Streetwise&amp;apos;&amp;apos; (1998 film)]], a 1998 film
+*[[Streetwise (Transformers)]], the name of several Transformers characters
+
+==See also==
+*[[Common sense]]
+
+{{disambig}}
+[[Category:Euphemisms]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

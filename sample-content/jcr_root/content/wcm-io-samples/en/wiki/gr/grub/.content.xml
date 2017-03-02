@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Grub"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Grub" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Wiktionary|grub}}
+&amp;apos;&amp;apos;&amp;apos;Grub&amp;apos;&amp;apos;&amp;apos; can refer to:
+
+{{TOCright}}
+==Places==
+* [[Grub, Appenzell Ausserrhoden]], Switzerland
+* [[Grub, St. Gallen]], Switzerland
+* [[Grub am Forst]], a town in the district of Coburg in Bavaria, Germany
+* [[Grub, Thuringia]], a municipality in the district of Hildburghausen in Thuringia, Germany
+
+==Science and technology==
+* [[Larva]], especially those of the beetle superfamily Scarabaeoidea
+* Headless set [[screw]], a British term
+* [[GNU GRUB]], the GNU project&amp;apos;s bootloader software
+* [[Grub (search engine)]], a distributed search crawler platform
+
+==Other==
+* [[Garden-Raised Bounty (GRuB)]], an American non-profit organization
+* [[Grub Street]], the former name of a London street, which became a metonym for hack writers
+* Grub is also a slang word, referring to food. Example usage: &amp;quot;Why am I editing Wikipedia at this hour? Maybe I should get some grub and go to sleep.&amp;quot;
+
+==See also==
+* [[Grubb]]
+
+{{disambig|geo}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="NTFS junction point"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="NTFS junction point" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{About|the NTFS file system feature|the video game studio|Junction Point Studios}}
+{{original research|date=June 2010}}
+An &amp;apos;&amp;apos;&amp;apos;NTFS junction point&amp;apos;&amp;apos;&amp;apos; is a feature of the [[NTFS]] [[file system]] that provides the ability to create a [[symbolic link]] to a [[Directory (file systems)|directory]] which then functions as an alias of that directory. This has many benefits over a [[Windows shell]] [[Computer shortcut|shortcut]] (.lnk) file, such as allowing access to files within the directory via [[Windows Explorer]], the [[Command Prompt (Windows)|Command Prompt]], etc.
+
+Junction points can only link to directories on a local volume; junction points to remote shares are unsupported.&amp;lt;ref name=&amp;quot;junction&amp;quot;&amp;gt;
+ [http://technet.microsoft.com/en-us/sysinternals/bb896768 Sysinternals Junction documentation]
+&amp;lt;/ref&amp;gt;
+
+Junction points are a type of [[NTFS reparse point]]; they were introduced with NTFS 3.0, the default file system for [[Windows 2000]] (Windows NT 5.0). The Windows 2000 and [[Windows 2003]] [[Resource Kit]]s include a program called &amp;apos;&amp;apos;linkd&amp;apos;&amp;apos;,&amp;lt;ref&amp;gt;
+ Microsoft Knowledge Base,
+ 2007-02-20,
+ How to create and manipulate NTFS junction points,
+ http://support.microsoft.com/kb/205524/en-us
+&amp;lt;/ref&amp;gt; to create junction points; [[Mark Russinovich]] of [[Winternals]] released a tool called &amp;apos;&amp;apos;junction&amp;apos;&amp;apos;&amp;lt;ref&amp;gt;
+ Mark Russinovich,
+ 2010-09-08,
+ Junction,
+ http://technet.microsoft.com/en-us/sysinternals/bb896768
+&amp;lt;/ref&amp;gt; which provided more complete functionality. Windows XP includes &amp;lt;code&amp;gt;fsutil reparsepoint&amp;lt;/code&amp;gt;. [[Windows NT 6.0]] and later operating systems include an &amp;apos;&amp;apos;mklink&amp;apos;&amp;apos; command-line utility for creating junction points.
+
+==Examples of use==
+
+===Program redirection===
+By setting a junction point that points to a directory containing a particular version of a piece of software, it may be possible to add another version of the software and redirect the junction point to point to the version desired.
+
+===Saving disk space===
+Since the contents of a junction do not take up any space (they simply point to the original files in the original directory) if you need to have multiple points of entry to a large directory, junction points will serve that purpose well. Do not confuse junction points with a &amp;apos;&amp;apos;copy&amp;apos;&amp;apos; of something as it simply points to the original. If directories need to be modified separately a junction cannot be used as it does not provide a distinct copy of the directory or files within.
+
+===Circumventing pre-defined paths===
+Since reinstalling Windows (or installing a new version) often requires deleting the contents of the C: drive, it is advantageous to create multiple [[Disk partitioning|partition]]s so only one partition needs to be deleted during the installation. However, some programs don&amp;apos;t let the user choose the installation directory, or install some of their files to the C: drive even when they are installed to a different drive. By creating a junction point, the program can be tricked into installing to a different directory.
+
+==Obtaining a list of junction points==
+A list of all the junctions present in the current directory can be obtained from an elevated Command Prompt as Admin by executing &amp;quot;dir /aL&amp;quot;, and a list of all the junctions present on a disk volume, by executing &amp;quot;dir /aL /s C:\&amp;quot;, where &amp;quot;C:&amp;quot; is the volume to scan.
+
+==Creating or deleting a junction point==
+A junction point can be created in XP (after installing; Server2003 Resource Kit) with
+&amp;lt;pre&amp;gt;LINKD Source Destination&amp;lt;/pre&amp;gt;
+
+To delete it in XP, use:
+&amp;lt;pre&amp;gt;LINKD Source /D &amp;lt;/pre&amp;gt;
+
+A junction point can be created in Vista or 7 with
+&amp;lt;pre&amp;gt;mklink /J &amp;lt;/pre&amp;gt;
+
+To delete it in Vista or 7, use:
+&amp;lt;pre&amp;gt;fsutil reparsepoint delete PATH&amp;lt;/pre&amp;gt;
+
+==Limitations==
+Junction points aren&amp;apos;t supported by [[Windows NT startup process|Windows boot]] [[Windows Vista startup process|process]], so it&amp;apos;s impossible to redirect certain system folders:
+*folder containing hiberfil.sys (if it&amp;apos;s configured to be outside root directory)
+*\Windows
+*\Windows\System32
+*\Windows\Config
+However it is possible to redirect non-critical folders:
+*\Users
+*\Documents and Settings
+*\Program Files
+*\Program Files (x86)
+
+==See also==
+* [[NTFS symbolic link]]
+* [[NTFS volume mount point]]
+* [[NTFS reparse point]]
+* [[Symbolic link]]
+
+==References==
+&amp;lt;references/&amp;gt;
+
+==External links==
+*[http://support.microsoft.com/?kbid=205524 Microsoft Knowledge Base Article] – &amp;apos;How to Create and Manipulate NTFS Junction Points&amp;apos;
+*[http://technet.microsoft.com/sysinternals/bb896768 Junction] command line utility from Microsoft TechNet
+*[http://www.codeproject.com/w2k/junctionpoints.asp Codeproject Article] – discussion on the source code of a junction point utility, aimed at programmers
+*[http://www.pcmag.com/article2/0,4149,1183816,00.asp PC Mag Article] about adding any directory to the start menu (allowing a preview within the startmenu as a submenu).
+
+{{Windows Components}}
+
+{{DEFAULTSORT:Ntfs Junction Point}}
+[[Category:Disk file systems]]
+[[Category:Windows disk file systems]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

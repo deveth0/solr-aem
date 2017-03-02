@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ferentina"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ferentina" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{refimprove|date=May 2008}}
+
+&amp;apos;&amp;apos;&amp;apos;Ferentina&amp;apos;&amp;apos;&amp;apos; was the patron goddess of the city [[Ferentinum]], [[Latium]]. She was protector of the Latin commonwealth.   She was also closely associated with the [[Roman Empire]].
+
+A grove sacred to the goddess was used as the site of a famous meeting of the leaders of the Latin towns with the last king of Rome, [[Lucius Tarquinius Superbus]], at the beginning of his reign.  The leading citizen of [[Ariccia|Aricia]], [[Turnus Herdonius]] was murdered at the command of Tarquinius, by being drowned in the sacred waters of the grove.&amp;lt;ref&amp;gt;[[Livy]] &amp;apos;&amp;apos;[[Ab urbe condita (book)|Ab urbe condita]]&amp;apos;&amp;apos; 1.50-52&amp;lt;/ref&amp;gt;
+
+==References==
+{{reflist}}
+
+[[Category:Roman goddesses]]
+[[Category:Tutelary deities]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

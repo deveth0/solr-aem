@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Platform"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Platform" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|platform}}
+&amp;apos;&amp;apos;&amp;apos;Platform&amp;apos;&amp;apos;&amp;apos;  may refer to:
+
+{{tocright}}
+== Physical objects and features ==
+
+* [[Diving platform]], used in diving
+* [[Jumping platform]], naturally occurring platforms, or platforms made in an ad-hoc way for cliff jumping
+* [[Oil platform]], a structure built for oil production
+* [[Platform (geology)]], the part of a continental craton that is covered by sedimentary rocks
+* [[Carbonate platform]], a type of sedimentary body
+* [[Platform mound]], an earthwork intended to support a structure or activity
+* [[Platform shoe]], a kind of shoe with a thick sole
+* [[Platform (theatre)]], a standard piece of theatrical scenery
+* [[Railway platform]], an area at a railway station to alight from/embark on trains or trams
+
+== Politics ==
+
+* [[Party platform]], a list of principles held by a political party
+* [[Platform (European politics)]], an openly organized faction within a left-wing political party
+
+== Technology ==
+
+* [[Computing platform]], a framework on which applications may be run
+* [[Facebook Platform]], a set of APIs provided by Facebook
+* [[Platform game]], a genre of video games
+* [[Platform technology]], a technology that enables the creation of products and processes that support present or future development
+
+== Arts ==
+
+* [[Platform (art group)]], an interdisciplinary art group that researches the oil industry
+* [[Platform (2000 film)|&amp;apos;&amp;apos;Platform&amp;apos;&amp;apos; (2000 film)]], a 2000 film by Jia Zhangke
+* [[Platform (1993 film)|&amp;apos;&amp;apos;Platform&amp;apos;&amp;apos; (1993 film)]], a 1993 Bollywood action film
+* [[Platform (novel)|&amp;apos;&amp;apos;Platform&amp;apos;&amp;apos; (novel)]], a 2001 novel by Michel Houellebecq
+
+== Other ==
+
+* [[Automobile platform]], a set of components shared by several vehicle models
+* [[Platform (economics)]], an intermediary between two or more sides of a market
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

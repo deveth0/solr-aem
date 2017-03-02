@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Otto Witt"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Otto Witt" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Use dmy dates|date=June 2013}}
+{{Refimprove|date=December 2009}}
+&amp;apos;&amp;apos;&amp;apos;Otto Witt&amp;apos;&amp;apos;&amp;apos; (1875–1923) was a [[Sweden|Swedish]] author. He was one of the prominent figures in early Swedish science fiction. He did, among other things, publish [[Hugin (magazine)|Hugin]], a science magazine which was filled &amp;quot;with speculative
+articles and fiction&amp;quot;.&amp;lt;ref name=&amp;quot;ma&amp;quot;&amp;gt;[[Mike Ashley (writer)|Mike Ashley]], &amp;quot;Science Fiction Magazines:The Crucibles of Change&amp;quot; in
+David Seed,&amp;apos;&amp;apos;A Companion to Science Fiction&amp;apos;&amp;apos;.  John Wiley &amp;amp; Sons, 2005
+ISBN 1405112182  (p. 62).&amp;lt;/ref&amp;gt; &amp;apos;&amp;apos;Hugin&amp;apos;&amp;apos; was one of the first [[science fiction magazine|magazines]] to regularly carry science fiction
+in the world, although it appears to have had little influence outside Sweden.&amp;lt;ref name=&amp;quot;ma&amp;quot; /&amp;gt;
+
+==Notes==
+
+{{Reflist}}
+
+{{Authority control|VIAF=49665921}}
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Witt, Otto
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION = Swedish writer
+| DATE OF BIRTH     = 1875
+| PLACE OF BIRTH    =
+| DATE OF DEATH     = 1923
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Witt, Otto}}
+[[Category:1875 births]]
+[[Category:1923 deaths]]
+[[Category:Swedish science fiction writers]]
+[[Category:Swedish-language writers]]
+
+
+{{Sf-writer-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

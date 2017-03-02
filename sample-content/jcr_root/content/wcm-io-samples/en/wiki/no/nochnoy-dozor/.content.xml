@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Nochnoy Dozor"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Nochnoy Dozor" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Nochnoy dozor&amp;apos;&amp;apos;&amp;apos; ({{lang-ru|Ночной дозор}}, &amp;apos;&amp;apos;Nochnoi dozor&amp;apos;&amp;apos;, &amp;apos;&amp;apos;Nochnoj dozor&amp;apos;&amp;apos;, &amp;apos;&amp;apos;&amp;apos;Night Watch&amp;apos;&amp;apos;&amp;apos;)
+
+&amp;apos;&amp;apos;&amp;apos;Nochnoy Dozor&amp;apos;&amp;apos;&amp;apos; may mean:
+
+*[[Night Watch (Russian novel)|&amp;apos;&amp;apos;Night Watch&amp;apos;&amp;apos; (Russian novel)]], 1998 opening of Sergei Lukyanenko&amp;apos;s Watch fantasy tetralogy
+*[[Night Watch (2004 film)|&amp;apos;&amp;apos;Night Watch&amp;apos;&amp;apos; (2004 film)]], Russian blockbuster based on Lukyanenko&amp;apos;s novel
+*[[Night Watch (video game)|&amp;apos;&amp;apos;Night Watch&amp;apos;&amp;apos; (video game)]], based on the world from the Russian novel by Lukyanenko and the film
+*[[Nochnoy Dozor (group)]], activist group in Estonia
+
+== See also ==
+*[[Night Watch (disambiguation)]]
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

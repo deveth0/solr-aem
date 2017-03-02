@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="A Gamut of Games"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="A Gamut of Games" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{notability|Books|date=January 2013}}
+{{no footnotes|date=January 2013}}
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;A Gamut of Games&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;, written by [[Sid Sackson]] and first published in 1969, contains rules for a large number of [[paper and pencil game|paper and pencil]], [[card game|card]], and [[board games|board]] [[game]]s. Many of the games in the book had never before been published.  It is considered by many to be an essential text for anyone interested in [[abstract strategy]] games, and a number of the rules were later expanded into full-fledged published board games.
+
+Some of the games which were later sold separately include [[Focus (board game)|Focus]], [[Property (game)|Property]] and Origins of World War I; [[Robert Abbott (game designer)|Robert Abbott]] expanded his game [[Crossings (game)|Crossings]], published here, into the more-refined title [[Epaminondas (game)|Epaminondas]].  Many of the games covered in the book were creations of Sid Sackson himself, who was a prolific game designer.
+
+The sections of the book and the games covered therein are as follows:
+
+==In Search of Big and Little Games==
+*&amp;apos;&amp;apos;[[Mate (game)|Mate]]&amp;apos;&amp;apos;, a card game by G. Capellen
+*&amp;apos;&amp;apos;[[Blue &amp;amp; Gray|Blue and Gray]]&amp;apos;&amp;apos;, a board game by Henry Busch and Arthur Jaeger
+*&amp;apos;&amp;apos;[[Truc|Le Truc]]&amp;apos;&amp;apos;, a revived French card game
+*&amp;apos;&amp;apos;[[Plank (game)|Plank]]&amp;apos;&amp;apos;, a serious revamp of the concepts in Tic-Tac-Toe
+*Zetema, a Victorian card game similar to [[Bezique]]
+*&amp;apos;&amp;apos;[[Hekaton (game)|Hekaton]]&amp;apos;&amp;apos;, a card game originally published along with &amp;quot;Yankee Notion Cards&amp;quot; from the 19th century
+
+==Game Inventors Are People Too==
+*&amp;apos;&amp;apos;[[Lines of Action]]&amp;apos;&amp;apos;, a board game by Claude Soucie
+*&amp;apos;&amp;apos;[[Cups (game)|Cups]]&amp;apos;&amp;apos;, a mancala variant by Arthur and Wald Amberstone
+*&amp;apos;&amp;apos;[[Crossings (game)|Crossings]]&amp;apos;&amp;apos;, a board game by [[Robert Abbott (game designer)|Robert Abbott]]; later turned into [[Epaminondas (game)|Epaminondas]]
+*&amp;apos;&amp;apos;[[Lap (game)|Lap]]&amp;apos;&amp;apos;, a complex progeny of [[Battleship (game)|Battleships]] by [[Lech Pijanowski]]
+*&amp;apos;&amp;apos;[[Three Musketeers (game)|Three Musketeers]]&amp;apos;&amp;apos;, a board game by Haar Hoolim; notably, this game and the character in it was once used as the mascot for the [[Zillions of Games]] software product
+*&amp;apos;&amp;apos;[[Paks (game)|Paks]]&amp;apos;&amp;apos;, a playing card game by Phil Laurence
+*&amp;apos;&amp;apos;[[Skedoodle]]&amp;apos;&amp;apos;, a pencil-and-paper game by Father Daniel
+*&amp;apos;&amp;apos;[[Knight Chase]]&amp;apos;&amp;apos;, a board game by Alex Randolph (inventor of games like [[TwixT]])
+*&amp;apos;&amp;apos;[[Origins of World War I (game)|Origins of World War I]]&amp;apos;&amp;apos;, a historical pencil-and-paper game by [[Jim Dunnigan]] which teaches players history
+
+==Those Protean Pieces of Pasteboard==
+&amp;apos;&amp;apos;All of the games in this section use a standard pack of cards.&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[All My Diamonds]]&amp;apos;&amp;apos;, an auctioning game by Sid Sackson
+*&amp;apos;&amp;apos;[[Osmosis (game)|Osmosis]]&amp;apos;&amp;apos;, by Sid Sackson
+*&amp;apos;&amp;apos;[[Patterns (game)|Patterns]]&amp;apos;&amp;apos;, by Sid Sackson
+*&amp;apos;&amp;apos;[[Suit Yourself (game)|Suit Yourself]]&amp;apos;&amp;apos;, by Sid Sackson
+*&amp;apos;&amp;apos;Bowling Solitaire&amp;apos;&amp;apos;, a one-player game by Sid Sackson that simulates [[ten-pin bowling]].
+*&amp;apos;&amp;apos;[[Card Baseball]]&amp;apos;&amp;apos;, by Sid Sackson
+*&amp;apos;&amp;apos;[[Slam (game)|Slam]]&amp;apos;&amp;apos;, a two-handed takeoff of [[Contract bridge|Bridge]] by Sid Sackson
+*&amp;apos;&amp;apos;[[Poke (game)|Poke]]&amp;apos;&amp;apos;, a two-player multi-genre card game that combines strong elements of Poker with trick-taking games
+*&amp;apos;&amp;apos;[[Color Gin]]&amp;apos;&amp;apos;, a two-handed modification of [[Hollywood Gin]] by Sid Sackson
+
+==New Battles on an Old Battlefield==
+&amp;apos;&amp;apos;All of the games in this section use a checkerboard.&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Focus (board game)|Focus]]&amp;apos;&amp;apos;, by Sid Sackson; this game was later sold commercially
+*&amp;apos;&amp;apos;[[Network (board game)|Network]]&amp;apos;&amp;apos;, by Sid Sackson
+*&amp;apos;&amp;apos;[[Take it Away (game)|Take It Away]]&amp;apos;&amp;apos;, by Sid Sackson
+==Grab a Pencil==
+&amp;apos;&amp;apos;All of the games in this section are meant to be played with pencil and paper.&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Hold That Line (game)|Hold That Line]]&amp;apos;&amp;apos;, by Sid Sackson; an attempt to move &amp;quot;boredom&amp;quot; games away from [[Tic-tac-toe|Tic-Tac-Toe]]
+*&amp;apos;&amp;apos;[[Cutting Corners (game)|Cutting Corners]]&amp;apos;&amp;apos;, by Sid Sackson; another attempt at a &amp;quot;boredom&amp;quot; game
+*&amp;apos;&amp;apos;[[Paper Boxing]]&amp;apos;&amp;apos;, by Sid Sackson
+*&amp;apos;&amp;apos;[[Last Word (game)|Last Word]]&amp;apos;&amp;apos;, a paper-based [[Scrabble]]-esque game by Sid Sackson
+*&amp;apos;&amp;apos;[[Patterns II]]&amp;apos;&amp;apos;, an inductive-reasoning game by Sid Sackson; see [[Eleusis (game)|Eleusis]] for another game in this small genre
+*&amp;apos;&amp;apos;[[Property (game)|Property]]&amp;apos;&amp;apos;, later republished as New York, by Sid Sackson
+==A Miscellany of Games==
+*&amp;apos;&amp;apos;[[Solitaire Dice]]&amp;apos;&amp;apos;, by Sid Sackson
+*&amp;apos;&amp;apos;[[Domino Bead Game]]&amp;apos;&amp;apos;, by Sid Sackson
+*&amp;apos;&amp;apos;[[Haggle (game)|Haggle]]&amp;apos;&amp;apos;, a deliciously confusing party game by Sid Sackson
+*&amp;apos;&amp;apos;[[The No Game]]&amp;apos;&amp;apos;, a classic and simple party game
+*&amp;apos;&amp;apos;[[Change Change (game)|Change Change]]&amp;apos;&amp;apos;, a simple solitaire utilizing coins by Sid Sackson
+
+A second edition of the book was published in 1982; [[Dover Publications]] released an unabridged reprint, with an additional preface by Sackson, in 1992.
+
+== References ==
+*Sackson, Sid. &amp;apos;&amp;apos;A Gamut of Games&amp;apos;&amp;apos;.  ISBN 0-486-27347-4
+
+{{DEFAULTSORT:Gamut Of Games, A}}
+[[Category:1969 books]]
+[[Category:Books about board games]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

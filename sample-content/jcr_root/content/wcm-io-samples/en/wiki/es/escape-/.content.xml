@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Escape!"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Escape!" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+{{Infobox short story
+|name         = Escape!
+|author       = [[Isaac Asimov]]
+|country      = [[United States]]
+|language     = [[English language|English]]
+|series       = [[Robot series (Asimov)|&amp;apos;&amp;apos;Robot&amp;apos;&amp;apos; series]]
+|genre        = [[Science fiction]] [[short story]]
+|publication_type = [[Periodical]]
+|published_in = &amp;apos;&amp;apos;[[Astounding Science Fiction]]&amp;apos;&amp;apos;
+|publisher    = [[Street &amp;amp; Smith]]
+|media_type   = Print ([[magazine]], [[Hardcover|hardback]] and [[paperback]])
+|pub_date     = August 1945
+|preceded_by  = [[Risk (short story)|Risk]]
+|followed_by  = [[Evidence (short story)|Evidence]]
+}}
+
+&amp;quot;&amp;apos;&amp;apos;&amp;apos;Escape!&amp;apos;&amp;apos;&amp;apos;&amp;quot; is a [[science fiction]] [[short story]] by [[Isaac Asimov]].  It was first published as &amp;quot;Paradoxical Escape&amp;quot; (a publisher&amp;apos;s change in the title) in the August 1945 issue of &amp;apos;&amp;apos;[[Astounding Science Fiction]]&amp;apos;&amp;apos; and reprinted as &amp;quot;Escape!&amp;quot; (Asimov&amp;apos;s choice of title) in the collections &amp;apos;&amp;apos;[[I, Robot]]&amp;apos;&amp;apos; (1950) and &amp;apos;&amp;apos;[[The Complete Robot]]&amp;apos;&amp;apos; (1982).
+
+==Plot summary==
+Many research organizations are working to develop the [[Hyperspace (science fiction)|hyperspatial]] drive. The company [[U.S. Robots and Mechanical Men]], Inc., is approached by its biggest competitor that has plans for a working hyperspace engine that allows humans to survive the jump (a theme which would be further developed in future Asimov stories). But the staff of U.S. Robots is wary, because, in performing the calculations, their rival&amp;apos;s (non-[[positronic]]) [[supercomputer]] has destroyed itself.
+
+The U.S. Robots and Mechanical Men company finds a way to feed the information to its own positronic [[computer]] known as &amp;apos;&amp;apos;The Brain&amp;apos;&amp;apos; (which is not a robot in the strictest sense of the word, since it doesn&amp;apos;t move, although it does obey the [[Three Laws of Robotics]]), without the same thing happening. &amp;apos;&amp;apos;The Brain&amp;apos;&amp;apos; then directs the building of a hyperspace ship.
+
+[[Powell and Donovan]] board the spaceship, and the spaceship takes off without them being initially aware of it. They also find that &amp;apos;&amp;apos;The Brain&amp;apos;&amp;apos; has become a practical joker: it hasn&amp;apos;t built any manual controls for the ship, no showers or beds, either, and it only provides tinned [[beans]] and [[milk]] for the crew to survive on.
+
+Shortly after their journey begins, and after many strange visions by the crew, the ship does safely return to Hyper Base after two hyperspace jumps. Dr. [[Susan Calvin]] has, by this time, discovered what has happened: any hyperspace jump causes the crew of the ship to cease existing for a brief moment, effectively [[dying]], which is a violation of the [[Three Laws of Robotics|First Law of Robotics]] (albeit a temporary one), and this frightens the [[artificial intelligence]] of &amp;apos;&amp;apos;The Brain&amp;apos;&amp;apos; into irrational, childish behavior as a means of coping, and a means for ensuring the survival of the crew.
+
+{{AsimovStory
+|before    = &amp;quot;[[Risk (short story)|Risk]]&amp;quot;
+|included1 = [[I, Robot]]
+|included2 = [[The Complete Robot]]
+|series1   = [[Robot series (Asimov)|&amp;apos;&amp;apos;Robot&amp;apos;&amp;apos; series]]
+|series2   = [[Foundation series|&amp;apos;&amp;apos;Foundation&amp;apos;&amp;apos; Series]]
+|next      = &amp;quot;[[Evidence (short story)|Evidence]]&amp;quot;
+}}
+
+{{I, Robot}}
+{{The Complete Robot}}
+
+[[Category:Robot series short stories by Isaac Asimov]]
+[[Category:1945 short stories]]
+[[Category:Works originally published in Analog Science Fiction and Fact]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

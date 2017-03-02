@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Barrel shifter"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Barrel shifter" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;A &amp;apos;&amp;apos;&amp;apos;barrel shifter&amp;apos;&amp;apos;&amp;apos; is a [[digital circuit]] that can [[Bit shift|shift]] a [[Word (data type)|data word]] by a specified number of [[bit]]s in one [[clock cycle]]. It can be implemented as a sequence of [[multiplexer]]s (mux.), and in such an implementation the output of one mux is connected to the input of the next mux in a way that depends on the shift distance.
+
+For example, take a four-bit barrel shifter, with inputs A, B, C and D. The shifter can cycle the order of the bits &amp;apos;&amp;apos;ABCD&amp;apos;&amp;apos; as &amp;apos;&amp;apos;DABC&amp;apos;&amp;apos;, &amp;apos;&amp;apos;CDAB&amp;apos;&amp;apos;, or &amp;apos;&amp;apos;BCDA&amp;apos;&amp;apos;; in this case, no bits are lost. That is, it can shift all of the outputs up to three positions to the right (and thus make any cyclic combination of A, B, C and D). The barrel shifter has a variety of applications, including being a useful component in [[microprocessor]]s (alongside the [[Arithmetic logic unit|ALU]]).
+
+== Implementation ==
+
+A barrel shifter is often implemented as a cascade of parallel 2×1 multiplexers.  For a four-bit barrel shifter, an intermediate signal is used which shifts by two bits, or passes the same data, based on the value of S[1].  This signal is then shifted by another multiplexer, which is controlled by S[0]:
+
+  im  = IN, if S[1] == 0
+      = IN &amp;lt;&amp;lt; 2, if S[1] == 1
+  OUT = im, if S[0] == 0
+      = im &amp;lt;&amp;lt; 1, if S[0] == 1
+
+Larger barrel shifters have additional stages.
+
+== Cost ==
+
+The number of multiplexers required for an &amp;apos;&amp;apos;n&amp;apos;&amp;apos;-bit word is &amp;lt;math&amp;gt;\scriptstyle n\log_2n&amp;lt;/math&amp;gt;.  Five common [[word size]]s and the number of multiplexers needed are listed below:
+
+* 128-bit &amp;amp;mdash; &amp;lt;math&amp;gt;\scriptstyle 128\times\log_2(128) = 128\times7 = 896&amp;lt;/math&amp;gt;
+* 64-bit &amp;amp;mdash; &amp;lt;math&amp;gt;\scriptstyle 64\times\log_2(64) = 64\times6 = 384&amp;lt;/math&amp;gt;
+* 32-bit &amp;amp;mdash; &amp;lt;math&amp;gt;\scriptstyle 32\times\log_2(32) = 32\times5 = 160&amp;lt;/math&amp;gt;
+* 16-bit &amp;amp;mdash; &amp;lt;math&amp;gt;\scriptstyle 16\times\log_2(16) = 16\times4 = 64&amp;lt;/math&amp;gt;
+* 8-bit &amp;amp;mdash; &amp;lt;math&amp;gt;\scriptstyle 8\times\log_2(8) = 8\times3 = 24&amp;lt;/math&amp;gt;
+
+Cost of critical path in [[FO4]] (estimated, without wire delay):
+* 32-bit: from 18 FO4 to 14 FO4&amp;lt;ref&amp;gt;http://www.realworldtech.com/page.cfm?ArticleID=RWT081502231107&amp;amp;p=4&amp;lt;/ref&amp;gt;
+
+== Uses ==
+
+A common usage of a barrel shifter is in the hardware implementation of [[floating-point]] arithmetic. For a floating-point add or subtract operation, the [[significand]]s of the two numbers must be aligned, which requires shifting the smaller number to the right, increasing its [[exponent]], until it matches the exponent of the larger number. This is done by subtracting the exponents, and using the barrel shifter to shift the smaller number to the right by the difference, in one cycle. If a simple shifter were used, shifting by &amp;apos;&amp;apos;n&amp;apos;&amp;apos; bit positions would require &amp;apos;&amp;apos;n&amp;apos;&amp;apos; clock cycles.
+
+==See also==
+*[[Circular shift]]
+
+==External links==
+&amp;lt;!--*[http://answers.google.com/answers/threadview?id=388350 Google Answers] has a good explanation, and collection of links--&amp;gt;
+*[http://tams-www.informatik.uni-hamburg.de/applets/hades/webdemos/10-gates/60-barrel/shifter8.html University of Hamburg] for a useful Java Barrel shifter.
+*[http://www.xilinx.com/support/documentation/application_notes/xapp195.pdf Xilinx Application Note] Implementation of Barrel shifter using Xilinx FPGAs.
+
+==References==
+
+{{reflist}}
+{{FOLDOC}}
+
+[[Category:Digital circuits]]
+[[Category:Binary arithmetic]]
+[[Category:Computer arithmetic]]
+
+{{CPU technologies}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Spam (disambiguation)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Spam (disambiguation)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|SPAM|Spam|spam|spammy}}
+{{selfref|For spam on Wikipedia, see [[Wikipedia:Spam]] and [[Wikipedia:WikiProject Spam]]}}
+&amp;apos;&amp;apos;&amp;apos;[[Spam]]&amp;apos;&amp;apos;&amp;apos; is a canned pork meat product.
+
+&amp;apos;&amp;apos;&amp;apos;Spam&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;SPAM&amp;apos;&amp;apos;&amp;apos; may also refer to:
+* [[Spam (electronic)]], unsolicited or undesired electronic messages, named after the Monty Python sketch
+** [[Email spam]], unsolicited, undesired, or illegal email messages
+* [[Spam (gaming)]], the repetition of an in-game action
+* [[Spam (Monty Python)|&amp;quot;Spam&amp;quot; (Monty Python)]], a comedy sketch about the meat
+* [[Street spam]], flyposting, an analogous illegal blanket advertising in public places
+
+==Other uses==
+* &amp;quot;Spam&amp;quot;, a song about the meat by &amp;quot;Weird Al&amp;quot; Yankovic on the album &amp;apos;&amp;apos;[[UHF – Original Motion Picture Soundtrack and Other Stuff]]&amp;apos;&amp;apos;
+* &amp;quot;Spam&amp;quot;, a track about the meat on &amp;apos;&amp;apos;[[It Means Everything]]&amp;apos;&amp;apos;, 1997 ska album by Save Ferris
+* Smooth-particle applied mechanics, the use of [[smoothed-particle hydrodynamics]] computation to study impact fractures in solids
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

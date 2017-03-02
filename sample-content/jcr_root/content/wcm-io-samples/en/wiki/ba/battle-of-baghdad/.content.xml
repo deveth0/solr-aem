@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Battle of Baghdad"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Battle of Baghdad" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Battle of Baghdad&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+*[[Battle of Baghdad (946)]], Buyid-Hamdanid War
+*[[Battle of Baghdad (1258)]], Mongol conquest of Baghdad
+*[[Battle of Baghdad (1401)]], conquests of Tamerlane
+*[[Battle of Baghdad (1534)]], Turko-Persian War
+*[[Capture of Baghdad (1623)]], Turko-Persian War
+*[[Capture of Baghdad (1638)]], Turko-Persian War
+*[[Fall of Baghdad (1917)]], World War I
+*[[Iraq coup (1941)]], World War II
+*[[Battle of Baghdad (2003)]], United States invasion of Iraq
+
+==See also==
+*[[Siege of Baghdad (disambiguation)]]
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Nielsen (crater)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Nielsen (crater)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{lunar crater data|
+ latitude=31.8|
+ N_or_S=N|
+ longitude=51.8|
+ E_or_W=W|
+ diameter=10 km|
+ depth=&amp;apos;&amp;apos;Unknown&amp;apos;&amp;apos;|
+ colong=52|
+ eponym=[[Axel Nielsen|Axel V. Nielsen]]&amp;lt;br /&amp;gt;[[Harald Herborg Nielsen|Harald H. Nielsen]]}}
+&amp;apos;&amp;apos;&amp;apos;Nielsen&amp;apos;&amp;apos;&amp;apos; is a lunar [[impact crater]] on the [[Oceanus Procellarum]]. It is located north-east of [[Montes Agricola]] on the western hemisphere of the Moon. To the east-southeast is the crater [[Wollaston (crater)|Wollaston]].
+
+Nielsen is a bowl-shaped formation that lies astride a small ridge that runs north-northwestwards towards the [[Mons Rümker]]. The latter is an unusual raised formation of [[lunar dome]]s.
+
+The crater is named jointly after the Danish astronomer [[Axel Nielsen]] (1902-1970) and the Danish–American physicist [[Harald Herborg Nielsen]] (1903-1973).
+
+==References==
+{{Lunar crater references}}
+
+==External links==
+*{{cite web
+ | last=Wood | first=Charles A.
+ | date=September 8, 2004
+ | url=http://www.lpod.org/archive/LPOD-2004-09-08.htm
+ | title=Where in the Moon is Nielsen?
+ | publisher=Lunar Picture of the Day
+ | accessdate=2007-09-05 }}
+*{{cite web
+ | author=Staff | year=2007
+ | url=http://www.lpi.usra.edu/resources/mapcatalog/LTO/lto38b2_4/
+ | title=LTO-38B2: Nielsen
+ | publisher=Lunar &amp;amp; Planetary Institute
+ | accessdate=2007-09-05 }}
+http://www.lunarrepublic.com/atlas/sections/c2.shtml
+
+{{Moon-crater-stub}}
+[[Category:Impact craters on the Moon]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

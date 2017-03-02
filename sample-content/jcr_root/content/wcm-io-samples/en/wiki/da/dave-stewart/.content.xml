@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Dave Stewart"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Dave Stewart" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Dave Stewart&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* [[Dave Stewart (baseball)]] (born 1957), former pitcher in Major League Baseball and 1989 World Series MVP
+* [[David A. Stewart]] (born 1952), English musician and record producer best known for his work with Eurythmics
+* [[Dave Stewart (footballer)]] (born 1958), Northern Irish footballer (Hull City, Scunthorpe United, Northern Ireland)
+* [[Dave Stewart (keyboardist)]] (born 1950), former member of Egg, Hatfield &amp;amp; The North, National Health and Bruford, now works with vocalist Barbara Gaskin
+* Dave Stewart, drummer with the group [[Camel (band)|Camel]]
+* Dave Stewart, guitar and vocals with [[Steve Hillage]]&amp;apos;s band
+* [[Dave Stewart (artist)]], colorist in the comics industry
+* [[Dave Stewart (EastEnders)|Dave Stewart (&amp;apos;&amp;apos;EastEnders&amp;apos;&amp;apos;)]], fictional character in &amp;apos;&amp;apos;EastEnders&amp;apos;&amp;apos;
+* [[Dave Stewart (soccer)]], retired American soccer forward
+* [[Dave Stewart (trombonist)]], bass trombonist and music teacher based in London
+
+==See also==
+* [[David Stewart (disambiguation)]]
+* [[David Stuart (disambiguation)]]
+
+{{hndis|Stewart, Dave}}
+
+{{DEFAULTSORT:Stewart, Dave}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

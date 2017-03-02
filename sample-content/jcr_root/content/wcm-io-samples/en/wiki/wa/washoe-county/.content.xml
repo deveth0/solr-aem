@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Washoe County"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Washoe County" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Washoe County&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+;Places
+*[[Washoe County, Nevada]]
+
+;Ships
+*USS &amp;apos;&amp;apos;LST-1165&amp;apos;&amp;apos;, a United States Navy landing ship tank commissioned in 1953 and renamed [[USS Washoe County (LST-1165)|USS &amp;apos;&amp;apos;Washoe County&amp;apos;&amp;apos; (LST-1165)]] in 1955
+*[[USS Washoe County (LST-1165)|USS &amp;apos;&amp;apos;Washoe County&amp;apos;&amp;apos; (LST-1165)]], a United States Navy landing ship tank in commission from 1953 to 1971.
+*USNS &amp;apos;&amp;apos;Washoe County&amp;apos;&amp;apos; (T-LST-1165), a United States Navy landing ship tank in non-commissioned service in the Military Sealift Command as a cargo ship in 1973 which had previously been in commission as [[USS Washoe County (LST-1165)|USS &amp;apos;&amp;apos;Washoe County&amp;apos;&amp;apos; (LST-1165)]], .
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

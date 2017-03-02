@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="American Pie"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="American Pie" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|American Pie}}
+
+&amp;apos;&amp;apos;&amp;apos;American Pie&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+== Music ==
+* [[American Pie (album)|&amp;apos;&amp;apos;American Pie&amp;apos;&amp;apos; (album)]], a 1971 album by Don McLean
+** [[American Pie (song)|&amp;quot;American Pie&amp;quot; (song)]], a song from the album
+* &amp;quot;American Pie&amp;quot;, a song by Slaughter from &amp;apos;&amp;apos;[[Revolution (Slaughter album)|Revolution]]&amp;apos;&amp;apos;
+
+== Film, television and radio ==
+* [[American Pie (series)|&amp;apos;&amp;apos;American Pie&amp;apos;&amp;apos; (series)]], a series of teen films
+** [[American Pie (film)|&amp;apos;&amp;apos;American Pie&amp;apos;&amp;apos; (film)]], a 2000 film, first in the series
+* &amp;apos;&amp;apos;American Pie&amp;apos;&amp;apos;, a 1996 sitcom pilot starring [[Andy Buckley]]
+* &amp;apos;&amp;apos;[[Tim Rice&amp;apos;s American Pie]]&amp;apos;&amp;apos;, a British radio programme about American music, hosted by [[Tim Rice]]
+&amp;lt;!-- Commented out because not supported by the linked article: * [[Apple cake]] (although this expression is not common in the U.S.) --&amp;gt;
+&amp;lt;!--* [[American Pie (TV series)]] --&amp;gt;
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

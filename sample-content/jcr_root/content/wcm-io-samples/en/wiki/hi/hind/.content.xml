@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Hind"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Hind" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Wiktionary|hind}}
+&amp;apos;&amp;apos;&amp;apos;Hind&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* A female [[deer]], especially a red deer
+* Hind and [[al-Hind]], a Persian and Arabic name for India
+*[[Hindi]], the most widely spoken language in India
+*[[Hindu]], a follower of Hinduism
+*[[Hind (crater)]], a lunar impact crater
+*[[Hind (video game)]], a helicopter game simulation by Digital Integration
+*[[Hawker Hind]], a Royal Air Force light-bomber of the inter-war years
+*[[Mil Mi-24]], a helicopter, codenamed the &amp;quot;Hind&amp;quot; by NATO
+
+==People==
+* [[Hind (name)]]
+* [[Hind (singer)]], Bahraini singer
+
+==See also==
+*{{in title}}
+*[[Epinephelus]], a genus of groupers sometimes referred to as hinds
+*&amp;apos;&amp;apos;[[Golden Hind]]&amp;apos;&amp;apos;, a ship captained by Sir Francis Drake between 1577 and 1580
+*[[Hinds (disambiguation)]]
+*[[Hinde (surname)]]
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

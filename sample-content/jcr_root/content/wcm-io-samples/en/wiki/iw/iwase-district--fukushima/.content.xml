@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Iwase District, Fukushima"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Iwase District, Fukushima" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+[[File:Iwase District in Fukushima Prefecture.svg|thumb|Location of Iwase District in [[Fukushima Prefecture]]]]
+{{Nihongo|&amp;apos;&amp;apos;&amp;apos;Iwase&amp;apos;&amp;apos;&amp;apos;|岩瀬郡|Iwase-gun}} is a [[districts of Japan|district]] located in [[Fukushima Prefecture|Fukushima]], [[Japan]].
+
+As of 2003, the district has an estimated [[population]] of 31,847 and a [[population density|density]] of 83.50 persons per km². The total area is 381.38&amp;amp;nbsp;km².
+
+==Towns and villages==
+*[[Kagamiishi, Fukushima|Kagamiishi]]
+*[[Tenei, Fukushima|Ten&amp;apos;ei]]
+
+==Merger==
+* On April 1, 2005 the town of [[Naganuma, Fukushima|Naganuma]] and the village of [[Iwase, Fukushima|Iwase]] merged into the city of [[Sukagawa, Fukushima|Sukagawa]].
+
+{{Fukushima}}
+
+{{coord|37|17|17|N|140|04|30|E|type:landmark_source:itwiki|display=title}}
+
+[[Category:Districts in Fukushima Prefecture]]
+[[Category:Iwashiro Province|District Iwase]]
+
+{{Fukushima-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

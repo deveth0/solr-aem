@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="List of mathematical shapes"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="List of mathematical shapes" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;Following is a list of some [[mathematics|mathematically]] [[well-defined]] [[shape]]s. See also [[list of geometric shapes]], [[list of polygons, polyhedra and polytopes]], and [[list of curves]].
+
+==0D with no surface==
+*[[Point (geometry)|point]]
+
+==1D with 0D surface==
+*[[interval (mathematics)|interval]]
+*[[Line (geometry)|line]]
+
+==2D with 1D surface==
+*[[Bézier curve]]: (&amp;apos;&amp;apos;As&amp;apos;&amp;apos;&amp;amp;nbsp;+&amp;amp;nbsp;&amp;apos;&amp;apos;Bt&amp;apos;&amp;apos;)&amp;lt;sup&amp;gt;&amp;apos;&amp;apos;n&amp;apos;&amp;apos;&amp;lt;/sup&amp;gt; | 0&amp;amp;nbsp;≤&amp;amp;nbsp;&amp;apos;&amp;apos;s&amp;apos;&amp;apos;&amp;amp;nbsp;≤&amp;amp;nbsp;1 ∧ 0&amp;amp;nbsp;≤&amp;amp;nbsp;&amp;apos;&amp;apos;t&amp;apos;&amp;apos;&amp;amp;nbsp;≤&amp;amp;nbsp;1 ∧ &amp;apos;&amp;apos;s&amp;apos;&amp;apos; + &amp;apos;&amp;apos;t&amp;apos;&amp;apos; = 1, &amp;apos;&amp;apos;A&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;&amp;apos;&amp;apos;n&amp;apos;&amp;apos;&amp;lt;/sup&amp;gt;, &amp;apos;&amp;apos;A&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;&amp;apos;&amp;apos;n&amp;apos;&amp;apos;&amp;amp;nbsp;&amp;amp;minus;&amp;amp;nbsp;1&amp;lt;/sup&amp;gt;&amp;apos;&amp;apos;B&amp;apos;&amp;apos;, ..., &amp;apos;&amp;apos;B&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;&amp;apos;&amp;apos;n&amp;apos;&amp;apos;&amp;lt;/sup&amp;gt; are vectors
+*[[circle]]: &amp;apos;&amp;apos;&amp;apos;x&amp;apos;&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;2&amp;lt;/sup&amp;gt; + &amp;apos;&amp;apos;&amp;apos;y&amp;apos;&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;2&amp;lt;/sup&amp;gt; = &amp;apos;&amp;apos;r&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;2&amp;lt;/sup&amp;gt;
+*[[ellipse]]
+*[[parabola]]
+*[[hyperbola]]
+*[[polygon]]
+**[[chiliagon]]
+**[[decagon]]
+**[[enneagon]]
+**[[googolgon]]
+**[[hectagon]]
+**[[heptagon]]
+**[[hendecagon]]
+**[[hexagon]]
+**[[myriagon]]
+**[[octagon]]
+**[[pentagon]]
+**[[quadrilateral]]
+**[[triangle]]
+**[[trapezoid|trapezium]]
+**[[myriagon]]
+**[[megagon]]
+**[[apeirogon]]
+
+==3D with 1D surface==
+*[[helix]]: &amp;apos;&amp;apos;x&amp;apos;&amp;apos; = sin(&amp;apos;&amp;apos;z&amp;apos;&amp;apos;) ∧ &amp;apos;&amp;apos;y&amp;apos;&amp;apos; = cos(&amp;apos;&amp;apos;z&amp;apos;&amp;apos;)
+
+==3D with 2D surface==
+*[[Bézier triangle]]: (&amp;apos;&amp;apos;As&amp;apos;&amp;apos; + &amp;apos;&amp;apos;Bt&amp;apos;&amp;apos; + &amp;apos;&amp;apos;Cu&amp;apos;&amp;apos;)&amp;lt;sup&amp;gt;&amp;apos;&amp;apos;n&amp;apos;&amp;apos;&amp;lt;/sup&amp;gt; | 0 ≤ &amp;apos;&amp;apos;s&amp;apos;&amp;apos; ≤ 1 ∧ 0 ≤ &amp;apos;&amp;apos;t&amp;apos;&amp;apos; ≤ 1 ∧ 0 ≤ &amp;apos;&amp;apos;u&amp;apos;&amp;apos; ≤ 1 ∧ &amp;apos;&amp;apos;s&amp;apos;&amp;apos; + &amp;apos;&amp;apos;t&amp;apos;&amp;apos; + &amp;apos;&amp;apos;u&amp;apos;&amp;apos; = 1, &amp;apos;&amp;apos;A&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;&amp;apos;&amp;apos;p&amp;apos;&amp;apos;&amp;lt;/sup&amp;gt;&amp;apos;&amp;apos;B&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;&amp;apos;&amp;apos;q&amp;apos;&amp;apos;&amp;lt;/sup&amp;gt;&amp;apos;&amp;apos;C&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;&amp;apos;&amp;apos;r&amp;apos;&amp;apos;&amp;lt;/sup&amp;gt; vectors if &amp;apos;&amp;apos;p&amp;apos;&amp;apos; + &amp;apos;&amp;apos;q&amp;apos;&amp;apos; + &amp;apos;&amp;apos;r&amp;apos;&amp;apos; = &amp;apos;&amp;apos;n&amp;apos;&amp;apos; and &amp;apos;&amp;apos;p&amp;apos;&amp;apos;, &amp;apos;&amp;apos;q&amp;apos;&amp;apos;, &amp;apos;&amp;apos;r&amp;apos;&amp;apos; are [[nonnegative]] integers
+*[[cylinder (geometry)|cylinder]]
+*[[hyperplane]]
+*[[möbius strip]]
+*[[Plane (mathematics)|plane]]
+*[[platonic solid]]
+**[[dodecahedron]]
+**[[hexahedron]] (cube)
+**[[icosahedron]]
+**[[octahedron]]
+**[[tetrahedron]]
+*[[torus]] (doughnut)
+*[[quadric]]
+**[[cone (geometry)|cone]]
+**[[cylinder (geometry)|cylinder]]
+**[[ellipsoid]]
+***[[spheroid]]
+****[[sphere]]
+**[[hyperboloid]]
+**[[paraboloid]]
+**[[sphere]]
+
+==4D with 3D surface==
+*[[polychoron]]
+**[[hecatonicosachoron]]
+**[[hexacosichoron]]
+**[[hexadecachoron]]
+**[[icositetrachoron]]
+**[[pentachoron]] ([[simplex]])
+**[[tesseract]]
+*[[spherical cone]]
+
+==5D with 4D surfaces==
+*regular 5-polytopes:
+**5-dimensional [[simplex]]
+**5-dimensional [[cross-polytope]]
+**5-dimensional [[hypercube]] (5-measure polytope)
+
+== [[Fractal]]s ==
+*[[Apollonian gasket]]
+*[[Cantor set]]
+*[[Dragon curve]]
+*[[Koch snowflake]]
+*[[Lévy C curve]]
+*[[Lyapunov fractal]]
+*[[Mandelbrot set]]
+*[[Sierpinski carpet]]
+*[[Peano curve]]
+*[[Sierpinski triangle]]
+
+==See also==
+*[[List of mathematical topics]]
+*[[Periodic_table_of_shapes|The Periodic table of mathematical shapes]]
+
+[[Category:Mathematics-related lists|Shapes]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Emme (river)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Emme (river)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Image:Emme bei Schüpbach.jpg|thumb|The Emme River near [[Schüpbach]].]]
+The &amp;apos;&amp;apos;&amp;apos;Emme&amp;apos;&amp;apos;&amp;apos; is a [[Rivers of Switzerland|river]] in [[Switzerland]]. It rises in the [[Alps]] between the peaks of [[Hohgant]] and [[Augstmatthorn]] in the [[canton of Bern]]. The Emme is 80 km long and flows through the [[Emmental]] and into the [[Aar]] below [[Solothurn]]. The drainage area is 983 km². The average discharge at the mouth is approximately 20 cubic metres per second. The maximum discharge can be up to 500 cubic metres per second.
+
+The Emme is known for its sudden variations in water discharge. The narration &amp;apos;&amp;apos;Die Wassernot im Emmental&amp;apos;&amp;apos; (&amp;apos;&amp;apos;The flood in the Emmental&amp;apos;&amp;apos;) by [[Jeremias Gotthelf]] describes very impressively the largest well-known flood, which occurred August 13, 1837. This and other floods led to the building of numerous canals and dams in the 19th century.
+
+The tributaries of the Emme are the [[Ilfis]] and the [[Limpach (river)|Limpach]].
+
+==See also==
+*[[Emmental]]
+*[[Kleine Emme]]
+
+{{coord|47|13|N|7|34|E|display=title|region:CH_type:river_source:GNS-enwiki}}
+
+[[Category:Rivers of Switzerland]]
+[[Category:Tributaries of the Aar]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

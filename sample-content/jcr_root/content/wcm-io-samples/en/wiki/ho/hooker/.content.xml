@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Hooker"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Hooker" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{pp-semi-protected|small=yes}}
+{{wiktionary|hooker}}
+&amp;apos;&amp;apos;&amp;apos;Hooker&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+{{tocright}}
+==People==
+* [[Hooker (surname)]]
+* [[Hooker Jim]] (1851–1879), Modoc (Native American) warrior
+
+==Places==
+*[[Hooker, Kentucky]]
+* [[Hooker, Missouri]], a ghost town
+* [[Hooker County, Nebraska]]
+* [[Hooker Township, Dixon County, Nebraska]]
+* [[Hooker Township, Gage County, Nebraska]]
+* [[Hooker, Oklahoma]], a city
+* Hooker, [[Turner County, South Dakota]]
+* [[Hooker Dam]], a proposed dam on the Gila River in New Mexico
+* [[Hooker Falls]], North Carolina
+* [[Hooker River]], New Zealand
+* [[Hooker Glacier]], a glacier in the Southern Alps of New Zealand
+* [[Hooker Island]] in Franz Josef Land, Russia
+* [[Mount Hooker (disambiguation)]]
+* [[Cape Hooker (Antarctica)]]
+* [[Cape Hooker (South Shetland Islands)]]
+
+==Sport==
+* [[Hooker (rugby league)]], one of the positions in rugby league football
+* Hooker, one of the [[rugby union positions]]
+* In cricket, a batsman who plays the [[Batting (cricket)#Pull and hook|hook shot]]
+* An expert practitioner of [[catch wrestling]]
+* Title of [[Lou Thesz]]&amp;apos;s book on professional wrestling (1916–2002)
+
+==Other==
+* A colloquial term for a [[prostitute]]
+* &amp;quot;Hooker&amp;quot;, a song by Pink from the album &amp;apos;&amp;apos;[[Try This]]&amp;apos;&amp;apos;
+* The {{convert|100|in|mm|adj=on}} Hooker Telescope at [[Mount Wilson Observatory]]
+* [[Galway hooker]], a traditional Irish fishing boat
+* The [[Hooker Emerald Brooch|Hooker Emerald]], a {{convert|75|carat|g|adj=on}} emerald on display by the Smithsonian Institution as of 2010
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

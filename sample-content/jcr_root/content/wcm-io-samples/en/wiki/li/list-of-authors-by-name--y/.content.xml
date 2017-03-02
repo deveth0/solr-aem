@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="List of authors by name: Y"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="List of authors by name: Y" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Use dmy dates|date=October 2010}}
+[[List of authors]] by name:
+
+[[List of authors by name: A|A]] &amp;amp;ndash; [[List of authors by name: B|B]] &amp;amp;ndash;
+[[List of authors by name: C|C]] &amp;amp;ndash; [[List of authors by name: D|D]] &amp;amp;ndash;
+[[List of authors by name: E|E]] &amp;amp;ndash; [[List of authors by name: F|F]] &amp;amp;ndash;
+[[List of authors by name: G|G]] &amp;amp;ndash; [[List of authors by name: H|H]] &amp;amp;ndash;
+[[List of authors by name: I|I]] &amp;amp;ndash; [[List of authors by name: J|J]] &amp;amp;ndash;
+[[List of authors by name: K|K]] &amp;amp;ndash; [[List of authors by name: L|L]] &amp;amp;ndash;
+[[List of authors by name: M|M]] &amp;amp;ndash; [[List of authors by name: N|N]] &amp;amp;ndash;
+[[List of authors by name: O|O]] &amp;amp;ndash; [[List of authors by name: P|P]] &amp;amp;ndash;
+[[List of authors by name: Q|Q]] &amp;amp;ndash; [[List of authors by name: R|R]] &amp;amp;ndash;
+[[List of authors by name: S|S]] &amp;amp;ndash; [[List of authors by name: T|T]] &amp;amp;ndash;
+[[List of authors by name: U|U]] &amp;amp;ndash; [[List of authors by name: V|V]] &amp;amp;ndash;
+[[List of authors by name: W|W]] &amp;amp;ndash; [[List of authors by name: X|X]] &amp;amp;ndash;
+&amp;apos;&amp;apos;&amp;apos;Y&amp;apos;&amp;apos;&amp;apos; &amp;amp;ndash; [[List of authors by name: Z|Z]]
+
+* [[Agustín Yáñez]] (1904–1980)
+* [[Dornford Yates]] (1885–1960)
+* [[Richard Yates (novelist)|Richard Yates]] (1926–1992)
+* [[William Butler Yeats]] (1865–1939)
+* [[Tamar Yellin]]
+* [[Frank Yerby]]
+* [[Jane Yolen]] (born 1939)
+* [[Rebecca York]] (born 1942)
+* [[Banana Yoshimoto]] (born 1964)
+* [[Marguerite Yourcenar]] (1903–1987)
+* [[Lin Yutang]] (1899–1976)
+
+[[Category:Lists of writers|Y]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Richard Cadbury"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Richard Cadbury" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[File:Blue plaque Richard Cadbury.jpg|right|thumb|[[Blue plaque]] at Wheeley&amp;apos;s Road, Edgbaston]]
+&amp;apos;&amp;apos;&amp;apos;Richard Barrow Cadbury&amp;apos;&amp;apos;&amp;apos; (29 August 1835 – 22 March 1899) was the second son of the [[Quaker]] [[John Cadbury]], founder of [[Cadbury Schweppes#Cadbury&amp;apos;s|Cadbury&amp;apos;s]] cocoa and chocolate company.
+
+Together with his younger brother [[George Cadbury|George]] he took over the family business in 1861 and in 1878 they acquired 14 acres (57,000 m²) of land in open country, four miles (6&amp;amp;nbsp;km) south of [[Birmingham]] where they opened a new factory in 1879. Over the following years, more land was acquired and a [[model village]] was built for his workers which became known as [[Bournville]].
+
+==References==
+*{{ODNBweb|id=32232|title=Cadbury, George|first=I. A.|last=Williams}}
+
+{{Authority control|VIAF=78281188}}
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Cadbury, George
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION =
+| DATE OF BIRTH     = 29 August 1835
+| PLACE OF BIRTH    =
+| DATE OF DEATH     = 22 March 1899
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Cadbury, George}}
+[[Category:1835 births]]
+[[Category:1899 deaths]]
+[[Category:Cadbury|Cadbury, Richard]]
+[[Category:Businesspeople in confectionery|Cadbury, Richard]]
+[[Category:English Quakers|Cadbury, Richard]]
+
+{{England-business-bio-stub}}
+{{UK-business-bio-1830s-stub}}
+{{Food-bio-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

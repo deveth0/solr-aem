@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Tim Traveller"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Tim Traveller" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Beano strip|
+image=|strip_name=Tim Traveller|
+artist=[[Keith Reynolds]]|
+start_issue=2862|
+start_date=24 May 1997|
+finish= Issue 3228 (29 May 2004)|
+characters=Tim, Tim&amp;apos;s Mum, Tim&amp;apos;s Dad|
+}}
+&amp;apos;&amp;apos;&amp;apos;Tim Traveller&amp;apos;&amp;apos;&amp;apos; was a [[fictional character]] and [[comic strip]] in the [[United Kingdom|UK]] [[comic book|comic]] &amp;apos;&amp;apos;[[The Beano]]&amp;apos;&amp;apos;. He first appeared in issue 2862, dated 24 May 1997, as part of a continuing set of six new comic strips where the one with the most votes would be voted into the comic by readers.
+
+The first strip featured Tim looking for a [[bicycle]] in the town dump, and finding an unusual one. Pulling a dial at the front he was transported to [[caveman]] times, at which point he realised the bike could travel through time. He and [[Crazy for Daisy]] were the joint winners of the poll, beating [[Camp Cosmos]], [[Have a Go Jo]], [[Sydd]] and [[Trash Can Ally]]. It was drawn by [[Vic Neill]] until his death in 2000. However, Neill strips continued to run for some time in the comic as they had been stockpiled. Once these had run out, [[Keith Reynolds]] drew it up to 2004 when the strip was dropped. Only 5 strips appeared in the character&amp;apos;s final twelve months in the comic. In the 2003 [[The Beano Annual|Beano annual]], his strip was drawn by [[Richard Elson]].
+
+The plot of the strip was simple, but had proved so popular with readers that it is now considered a classic. &amp;lt;ref&amp;gt;http://www.robertharrop.com/harrop_forum/archive/index.php/t-44.html&amp;lt;/ref&amp;gt; Tim Traveller would use his bicycle to travel back and forth between time, encountering all sorts of crazy mishaps, occasionally getting in so much trouble he had to rush back to the present day to avoid it. Some of his trips resulted in him causing or learning the truth about various historical mysteries, such as why the [[Leaning Tower of Pisa]] leaned (It fell over in an earthquake and Tim only managed to partly pull it back into position) or what happened to the crew of the &amp;apos;&amp;apos;[[Mary Celeste]]&amp;apos;&amp;apos; (Tim visited the ship and fell into a large fish, appearing to the crew as a sea monster, causing them to dive overboard).
+
+{{Reflist}}
+
+{{D. C. Thomson Comics}}
+{{Beano}}
+[[Category:Beano strips]]
+
+{{comics-char-stub}}
+{{UK-comics-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

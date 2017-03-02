@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="ADD (disambiguation)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="ADD (disambiguation)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{redirect|Add|the mathematical operation of adding|Addition|the Scottish river|River Add}}
+{{wiktionary|add}}
+&amp;apos;&amp;apos;&amp;apos;ADD&amp;apos;&amp;apos;&amp;apos; is a common abbreviation for [[attention deficit disorder]]. It may also refer to:
+
+;Entertainment
+*[[Arab Digital Distribution]], a pay television network in the Middle East and North Africa
+*[[SPARS code#Codes|SPARS code]] appearing on some compact disc recordings, telling the consumer that the recording was made on analog (A) equipment and digital (D) equipment was used to mix/edit and master the recording
+*&amp;quot;A.D.D&amp;quot;, a song on the 1998 album &amp;apos;&amp;apos;[[Hard to Swallow]]&amp;apos;&amp;apos; by Vanilla Ice
+*&amp;quot;A.D.D. (American Dream Denial)&amp;quot;, a song on the 2002 album &amp;apos;&amp;apos;[[Steal This Album!]]&amp;apos;&amp;apos; by System of a Down
+
+;Science
+*[[ADD model]], a hypothesis in physics to explain the weakness of gravity relative to the other forces
+*Accumulated [[degree day]]s as calculated by summing average daily temperatures and used to determine the state of temperature dependent processes, usually biological
+
+;Technology
+*Architectural design document, describes the architectural design using the software requirements and the logical model defined in the [[software design document]]
+*ADD2, advanced digital display 2, a designation for Intel [[Serial Digital Video Out|SDVO]] adapter cards
+*ADD is a common abbreviation for [[Android Developer Day]].
+
+;Transport
+*National Rail station code for [[Adderley Park railway station]] in United Kingdom
+*IATA airport code for [[Bole International Airport]] in Addis Ababa, Ethiopia
+*Automatic dropping device, equipment of [[Pantograph (rail)|rail vehicle pantograph]]
+
+==See also==
+*[[AD&amp;amp;D]]
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

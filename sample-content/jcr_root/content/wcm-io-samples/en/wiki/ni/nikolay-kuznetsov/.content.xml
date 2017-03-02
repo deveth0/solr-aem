@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Nikolay Kuznetsov"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Nikolay Kuznetsov" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Nikolay Kuznetsov&amp;apos;&amp;apos;&amp;apos; may refer to:
+*[[Nikolai Dmitriyevich Kuznetsov]] (1911–1995), Soviet jet and rocket engine designer, Hero of Socialist Labor
+*[[Nikolai Dmitriyevich Kuznetsov (painter)]] (1850–1930), Ukrainian-Russian painter
+*[[Nikolai Efimovich Kuznetsov]] (1879–1970), Russian and Soviet painter
+*[[Nikolay Gerasimovich Kuznetsov]] (1904–1974), Soviet Naval officer
+*[[Nikolai Ivanovich Kuznetsov]] (1911–1944), Soviet intelligence agent during World War II
+*[[Nikolay Kuznetsov (cyclist)]] (born 1973), Russian cyclist, brother of Svetlana Kuznetsova
+*[[Nikolay Kuznetsov (fencer)]] (1882–after 1912), Russian fencer
+*[[Nikolay Kuznetsov (rower)]] (born 1953), Soviet rower
+*[[Nikolay Kuznetsov (water polo)]] (1931–1995), Soviet water polo player
+*[[Russian aircraft carrier Admiral Kuznetsov]], aircraft carrier built in 1991, named after Nikolay Gerasimovich Kuznetsov
+*[[Nikolai Alexeyevich Kuznetsov]] (1922–2009), Director of the Kazakh Soviet Socialist Republic Administration of Civil Aviation
+*[[Nikolai Jakovlevice Kusnezov]] (1873–1948), Russian entomologist, paleoentomologist and physiologist
+
+{{Hndis|name=Kuznetsov, Nikolay}}
+
+[[ru:Кузнецов, Николай]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

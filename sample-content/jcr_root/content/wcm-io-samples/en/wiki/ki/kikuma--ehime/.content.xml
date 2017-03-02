@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Kikuma, Ehime"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Kikuma, Ehime" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{nihongo|&amp;apos;&amp;apos;&amp;apos;Kikuma&amp;apos;&amp;apos;&amp;apos;|菊間町|Kikuma-chō}} was a [[towns of Japan|town]] located in [[Ochi District, Ehime|Ochi District]], [[Ehime Prefecture|Ehime]], [[Japan]].
+
+On January 16, 2005 Kikuma, along with the towns of [[Hakata, Ehime|Hakata]], [[Kamiura, Ehime|Kamiura]], [[Miyakubo, Ehime|Miyakubo]], [[Namikata, Ehime|Namikata]], [[Ōmishima, Ehime|Ōmishima]], [[Ōnishi, Ehime|Ōnishi]], [[Tamagawa, Ehime|Tamagawa]] and [[Yoshiumi, Ehime|Yoshiumi]], and the villages of [[Asakura, Ehime|Asakura]] and [[Sekizen, Ehime|Sekizen]], all from [[Ochi District, Ehime|Ochi District]], was merged into the expanded city of [[Imabari, Ehime|Imabari]] and no longer exists as an independent [[municipality of Japan|municipality]].
+
+As of 2003, the town had an estimated [[population]] of 7,342 and a [[population density|density]] of 198.59 per km². The total area was 36.97 km².
+
+==External links==
+*[http://www.city.imabari.ehime.jp/ Official website of Imabari] in Japanese
+
+[[Category:Dissolved municipalities of Ehime Prefecture]]
+
+
+{{Ehime-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

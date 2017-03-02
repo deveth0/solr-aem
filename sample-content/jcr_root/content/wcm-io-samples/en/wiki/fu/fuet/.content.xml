@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Fuet"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Fuet" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[File:Fuet.jpg|thumb|&amp;apos;&amp;apos;Fuet&amp;apos;&amp;apos;]]
+
+&amp;apos;&amp;apos;&amp;apos;Fuet&amp;apos;&amp;apos;&amp;apos; ({{IPA-ca|fuˈɛt|ec}}, {{IPA-ca|fuˈet|wc}}) is a [[Catalan cuisine|Catalan]] thin, cured, dry [[sausage]] of [[pork]] meat in a pork gut. The most famous is made in the [[Comarques of Catalonia|&amp;apos;&amp;apos;comarca&amp;apos;&amp;apos; (county)]] of [[Osona]] and is also known as &amp;apos;&amp;apos;Vic fuet&amp;apos;&amp;apos; (&amp;apos;&amp;apos;fuet de Vic&amp;apos;&amp;apos;, after the city of [[Vic]], capital of Osona).&amp;lt;ref&amp;gt;Coupe, Alison, (editor). &amp;apos;&amp;apos;Michelin Green Guide Spain&amp;apos;&amp;apos;. Michelin Apa Publications, 2010. ISBN 978-1-906261-92-4 p57&amp;lt;/ref&amp;gt; Other places that have long tradition of making it are the city of [[Olot]] and the surrounding zones.
+
+==Notes==
+{{reflist}}
+
+{{Commons}}
+{{Salami}}
+
+[[Category:Spanish sausages]]
+[[Category:Catalan cuisine]]
+
+{{Meat-stub}}
+{{Catalonia-cuisine-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

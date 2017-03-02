@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Kappa curve"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Kappa curve" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Image:Kappa curve with asymptotes - by Pt.png|frame|The kappa curve has two vertical [[asymptote]]s.]]
+In [[geometry]], the &amp;apos;&amp;apos;&amp;apos;kappa curve&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;Gutschoven&amp;apos;s curve&amp;apos;&amp;apos;&amp;apos; is a two-dimensional [[algebraic curve]] resembling the [[Greek alphabet|Greek letter]] [[Kappa (letter)|ϰ (kappa)]].
+The kappa curve was first studied by [[Gérard van Gutschoven]] around 1662.
+In the history of mathematics, it is remembered as one of the first example where [[Isaac Barrow]] was able to apply rudimentary calculus methods to determine the [[tangent]]s during  the 17th century.   [[Isaac Newton]] and [[Johann Bernoulli]] continued the studies of this curve subsequently.
+
+Using the [[Cartesian coordinate system]] it can be expressed as:
+:&amp;lt;math&amp;gt;x^2(x^2 + y^2)=a^2y^2&amp;lt;/math&amp;gt;
+or, using [[parametric equation]]s:
+:&amp;lt;math&amp;gt;
+\begin{matrix}
+x&amp;amp;=&amp;amp;a\sin t\\
+y&amp;amp;=&amp;amp;a\sin t\tan t
+\end{matrix}
+&amp;lt;/math&amp;gt;
+
+In [[polar coordinates]] its equation is even simpler:
+:&amp;lt;math&amp;gt;r=a\tan\theta&amp;lt;/math&amp;gt;
+
+It has two vertical [[asymptote]]s at &amp;lt;math&amp;gt;x=\pm a&amp;lt;/math&amp;gt;, shown as dashed blue lines in the figure at right.
+
+The kappa curve&amp;apos;s [[curvature]]:
+:&amp;lt;math&amp;gt;\kappa(\theta)={8\left(3-\sin^2\theta\right)\sin^4\theta\over a\left[\sin^2(2\theta)+4\right]^{3\over2}}&amp;lt;/math&amp;gt;
+
+[[Tangent]]ial angle:
+:&amp;lt;math&amp;gt;\phi(\theta)=-\arctan\left[{1\over2}\sin(2\theta)\right]&amp;lt;/math&amp;gt;
+
+==Tangents via infinitessimals==
+
+The tangent lines of the kappa curve can also be determined geometrically using [[Differential (infinitesimal)|differentials]] and the elementary rules
+of [[infinitessimal]] arithmetic.  Suppose x and y are variables, while a is taken as a constant.  From
+the definition of the kappa curve,
+:&amp;lt;math&amp;gt; x^2(x^2 + y^2)-a^2y^2 = 0 &amp;lt;/math&amp;gt;
+Now, an infinitessimal change in our location must also change the value
+of the left hand side, so
+:&amp;lt;math&amp;gt;d (x^2(x^2 + y^2)-a^2y^2) = 0 &amp;lt;/math&amp;gt;
+Distributing the differential and applying [[Differential_(calculus)|appropriate rules]],
+
+:&amp;lt;math&amp;gt;d (x^2(x^2 + y^2))-d (a^2y^2) = 0 &amp;lt;/math&amp;gt;
+
+:&amp;lt;math&amp;gt; (2 x dx ) (x^2+y^2) + x^2 (2xdx + 2y dy) - a^2 2y dy = 0 &amp;lt;/math&amp;gt;
+
+:&amp;lt;math&amp;gt; ( 4 x^3 + 2 x y^2) dx + ( 2 y x^2 - 2 a^2 y ) dy = 0 &amp;lt;/math&amp;gt;
+
+:&amp;lt;math&amp;gt; x ( 2 x^2 + y^2 ) dx  + y (x^2 - a^2) dy = 0 &amp;lt;/math&amp;gt;
+
+:&amp;lt;math&amp;gt; \frac{ x ( 2 x^2 + y^2 ) }{ y (a^2 - x^2)} = \frac{dy}{dx} &amp;lt;/math&amp;gt;
+
+==Derivative==
+
+If we use the modern concept of a functional relationship y(x) and apply
+[[implicit differentiation]], the slope of a tangent line to the kappa curve
+at a point (x,y) is :
+
+:&amp;lt;math&amp;gt; 2 x ( x^2 + y^2 ) + x^2 ( 2x + 2 y \frac{dy}{dx} ) = 2 a^2 y \frac{dy}{dx} &amp;lt;/math&amp;gt;
+
+:&amp;lt;math&amp;gt; 2 x ( x^2 + y^2 ) + x^2 ( 2x + 2 y \frac{dy}{dx} ) = 2 a^2 y \frac{dy}{dx} &amp;lt;/math&amp;gt;
+
+:&amp;lt;math&amp;gt; 2 x^3 + 2 x y^2 + 2 x^3 = 2 a^2 y \frac{dy}{dx} - 2 x^2 y \frac{dy}{dx} &amp;lt;/math&amp;gt;
+
+:&amp;lt;math&amp;gt; 4 x^3 + 2 x y^2 = (2 a^2 y - 2 x^2 y ) \frac{dy}{dx} &amp;lt;/math&amp;gt;
+
+:&amp;lt;math&amp;gt; \frac{2 x^3 + x y^2}{a^2 y - x^2 y} = \frac{dy}{dx} &amp;lt;/math&amp;gt;
+
+==External links==
+*{{MathWorld|title=Kappa curve|urlname=KappaCurve}}
+*[http://www-groups.dcs.st-and.ac.uk/~history/Java/Kappa.html A Java applet for playing with the curve]
+*{{MacTutor|class=Curves|id=Kappa|title=Kappa Curve}}
+
+[[Category:Curves]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

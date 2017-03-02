@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="JIRC"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="JIRC" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{notability|Products|date=December 2009}}
+{{primarysources|date=December 2009}}
+{{lowercase|title=jIRC}}
+
+Written entirely in [[Java (programming language)|Java]], &amp;apos;&amp;apos;&amp;apos;jIRC&amp;apos;&amp;apos;&amp;apos; is a [[World Wide Web|web]]-based [[Java applet]] that allows users to connect to any [[Internet Relay Chat|IRC]] server through a [[web browser]].
+
+==See also==
+*[[List of IRC clients]]
+*[[Comparison of IRC clients]]
+
+==External articles==
+* http://sourceforge.net/projects/jircwin/
+
+{{IRC clients}}
+
+[[Category:Internet Relay Chat clients]]
+[[Category:Java Internet Relay Chat clients]]
+
+{{IRC-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

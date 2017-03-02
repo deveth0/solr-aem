@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="James Moriarty"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="James Moriarty" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;James Moriarty&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* [[James Moriarty (bishop)]] (born 1936), the Bishop Emeritus of the Roman Catholic Diocese of Kildare and Leighlin
+* [[James F. Moriarty]], United States diplomat and career foreign service officer
+* [[James Robert Moriarty]] (born 1946), American lawyer noted for mass torts against major corporations
+* [[Count Jim Moriarty]], fictional character from the 1950s BBC Radio comedy &amp;apos;&amp;apos;The Goon Show&amp;apos;&amp;apos;
+* [[Professor Moriarty]], fictional character and the archenemy of the detective Sherlock Holmes
+* [[Jim Moriarty]], New Zealand actor
+
+==See also==
+*[[Jim Moriarty (disambiguation)]]
+{{hndis|Moriarty, James}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

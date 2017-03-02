@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Kimi Reichenberg"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Kimi Reichenberg" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{no footnotes|date=March 2013}}
+{{Infobox person
+|name=Kimi Reichenberg
+|image=
+|occupation=[[Film]], [[television]] [[actress]]
+}}
+&amp;apos;&amp;apos;&amp;apos;Kimi Reichenberg&amp;apos;&amp;apos;&amp;apos; is an [[United States|American]] [[actress]]. She has appeared in the movie &amp;apos;&amp;apos;[[Crazy/Beautiful]]&amp;apos;&amp;apos;. She has also guest starred in &amp;apos;&amp;apos;[[Mr. Monk]]&amp;apos;&amp;apos;, &amp;apos;&amp;apos;[[Watching Ellie]]&amp;apos;&amp;apos;, &amp;apos;&amp;apos;[[NYPD Blue]]&amp;apos;&amp;apos;, &amp;apos;&amp;apos;[[King of Queens]]&amp;apos;&amp;apos;, &amp;apos;&amp;apos;[[Curb Your Enthusiasm]]&amp;apos;&amp;apos; and &amp;apos;&amp;apos;[[The Online Gamer Series]]&amp;apos;&amp;apos;.
+
+==External links==
+*{{IMDb name|1007949|Kimi Reichenberg}}
+
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Reichenberg, Kimi
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION = American actor
+| DATE OF BIRTH     =
+| PLACE OF BIRTH    =
+| DATE OF DEATH     =
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Reichenberg, Kimi}}
+[[Category:Year of birth missing (living people)]]
+[[Category:Living people]]
+[[Category:American television actresses]]
+[[Category:American film actresses]]
+
+
+{{US-tv-actor-stub}}
+{{US-film-actor-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

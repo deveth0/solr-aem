@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="University of San Antonio"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="University of San Antonio" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{distinguish2|the [[University of Texas at San Antonio]]}}
+
+The &amp;apos;&amp;apos;&amp;apos;University of San Antonio&amp;apos;&amp;apos;&amp;apos; was a [[United Methodist Church|Methodist]] institution of [[higher education]] located in [[San Antonio]], [[Texas]], USA.  It was founded as &amp;apos;&amp;apos;&amp;apos;San Antonio Female College&amp;apos;&amp;apos;&amp;apos; in 1894.  The name was changed to &amp;apos;&amp;apos;&amp;apos;Westmoorland College&amp;apos;&amp;apos;&amp;apos; in 1918 and to the University of San Antonio in 1937.  In 1942, the campus was taken over by [[Trinity University (Texas)|Trinity University]], which adopted the [[alumni]] of the University of San Antonio.  Trinity, in turn, built a new campus and left the old University of San Antonio campus in 1952.
+
+&amp;apos;&amp;apos;Note&amp;apos;&amp;apos;: This university was not related to the later [[University of Texas at San Antonio]] (UTSA).
+
+==External links==
+* {{Handbook of Texas|id=kbs08|name=San Antonio Female College}}
+
+{{coord missing|Texas}}
+
+[[Category:Universities and colleges in San Antonio, Texas]]
+[[Category:Educational institutions established in 1894]]
+[[Category:Defunct universities and colleges in Texas]]
+
+
+{{Texas-university-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

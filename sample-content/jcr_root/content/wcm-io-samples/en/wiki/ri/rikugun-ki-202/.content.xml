@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Rikugun Ki-202"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Rikugun Ki-202" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;lt;!-- This article is a part of [[Wikipedia:WikiProject Aircraft]]. Please see [[Wikipedia:WikiProject Aircraft/page content]] for recommended layout. --&amp;gt;
+{|{{Infobox Aircraft Begin
+  |name = Ki-202 Shūsui-Kai
+  |image =
+  |caption =
+}}{{Infobox Aircraft Type
+  |type = [[Rocket engine|Rocket]]-powered [[interceptor aircraft]]
+  |manufacturer = [[Rikugun Kokugijitsu Kenkyujo]]
+  |designer =
+  |first flight =
+  |introduction =
+  |retired =
+  |status = Cancelled
+  |primary user = [[Imperial Japanese Army Air Force]]
+  |more users =
+  |produced =
+  |number built = 0
+  |unit cost =
+  |developed from = [[Messerschmitt Me 163]]
+  |variants with their own articles =
+}}
+|}
+
+The &amp;apos;&amp;apos;&amp;apos;[[Rikugun]] Ki-202 &amp;apos;&amp;apos;Shūsui-Kai&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; ({{lang-ja|三菱 Ki-202 秋水改}}, translated as &amp;quot;Sharp Sword, improved&amp;quot;) was a direct development of the German [[Messerschmitt Me 163]] &amp;apos;&amp;apos;Komet&amp;apos;&amp;apos; [[Rocket engine|rocket]]-powered [[interceptor aircraft]]. None were produced before [[Japan]]&amp;apos;s surrender that ended [[World War II]].
+
+In a split from the development of the [[Mitsubishi J8M]] and [[Mitsubishi Ki-200]], the IJA instructed Rikugun to develop a new design based on the Me 163, independent of the IJN&amp;apos;s J8M. A fundamental shortcoming of the Me 163, and all other aircraft based on it, was extremely limited endurance, typically only a few minutes. The [[Imperial Japanese Navy]] proposed to improve the endurance of the &amp;apos;&amp;apos;&amp;apos;J8M1&amp;apos;&amp;apos;&amp;apos; by producing a version with only one cannon, thereby saving weight and space for more fuel (the &amp;apos;&amp;apos;&amp;apos;J8M2&amp;apos;&amp;apos;&amp;apos;). The [[Imperial Japanese Army Air Force|Army]], on the other hand, opted to keep both cannon, but enlarge the airframe to accommodate larger tanks, resulting in the &amp;apos;&amp;apos;&amp;apos;Ki-202&amp;apos;&amp;apos;&amp;apos;, which was to have been the definitive Army version of the fighter. Power was to be supplied by a {{convert|2,000|kg|lb|abbr=on|0}} thrust [[Mitsubishi Toku Ro.3]] (KR20) rocket motor. Undercarriage was to have been a sprung skid and tail-wheel.
+
+==Specifications (Ki-202 estimated)==
+{{Aircraft specs
+|ref=&amp;apos;&amp;apos;Japanese Secret Projects:Experimental aircraft of the IJA and IJN 1939-1945&amp;apos;&amp;apos;&amp;lt;ref name=&amp;quot;Dyer&amp;quot;&amp;gt;{{cite book|last=Dyer|first=Edwin M. III|title=Japanese Secret Projects:Experimental aircraft of the IJA and IJN 1939-1945|publisher=Midland publishing|location=Hinkley|year=2009|edition=1st|pages=40–42|isbn=978-1-85780-317-4}}&amp;lt;/ref&amp;gt;
+|prime units?=met&amp;lt;!-- imp or kts first for US aircraft, and UK aircraft pre-metrification,
+met(ric) first for all others. You MUST choose a format, or no specifications will show --&amp;gt;
+&amp;lt;!--
+        General characteristics
+--&amp;gt;
+|crew=1
+|length m=7.68
+|span m=9.72
+|height m=2.74
+|wing area sqm=18.39
+|empty weight kg=1,619
+|gross weight kg=3,384
+|max takeoff weight kg=5,015
+&amp;lt;!--
+        Powerplant
+--&amp;gt;
+|eng1 number=1
+|eng1 name=[[Mitsubishi Toku Ro.3]]
+|eng1 type=liquid-fuelled rocket motor
+|eng1 lbf=4,409&amp;lt;!-- jet/rocket engines --&amp;gt;
+&amp;lt;!--
+        Performance
+--&amp;gt;
+|max speed kmh=900
+|max speed note=at {{convert|10,000|m|ft|abbr=on|0}}&amp;lt;br/&amp;gt;
+*&amp;apos;&amp;apos;&amp;apos;Landing speed:&amp;apos;&amp;apos;&amp;apos; {{convert|132|km/h|mph|abbr=on|0}}
+|endurance=&amp;lt;!-- if range unknown --&amp;gt;10 minutes 28 seconds
+|ceiling m=12,000
+|climb rate ms=12.346
+|climb rate note= initial
+|time to altitude=&amp;lt;br/&amp;gt;
+** {{convert|2,000|m|ft|abbr=on|0}} in 1 minute 21 seconds
+** {{convert|4,000|m|ft|abbr=on|0}} in 2 minutes
+** {{convert|6,000|m|ft|abbr=on|0}} in 2 minute 34 seconds
+** {{convert|8,000|m|ft|abbr=on|0}} in 3 minute 2 seconds
+** {{convert|10,000|m|ft|abbr=on|0}} in 3 minute 26 seconds
+|wing loading kg/m2=272.43
+&amp;lt;!--
+        Armament
+--&amp;gt;
+|guns=  2 × 30 mm (1.18 in) [[Ho-155 cannon|Ho 155-II]] cannon
+}}
+
+==See also==
+{{aircontent|
+|related=
+* [[Messerschmitt Me 163]]
+* [[Mitsubishi J8M]]
+|similar aircraft=
+|sequence=
+|lists=
+* [[List of military aircraft of Japan]]
+* [[List of fighter aircraft]]
+|see also=
+}}
+
+==Notes==
+{{reflist}}
+
+==Bibliography==
+{{refbegin}}
+*{{cite book|last=Dyer|first=Edwin M. III|title=Japanese Secret Projects:Experimental aircraft of the IJA and IJN 1939-1945|publisher=Midland publishing|location=Hinkley|year=2009|edition=1st|pages=40–42|isbn=978-1-85780-317-4}}
+{{refend}}
+
+{{Mitsubishi aircraft}}
+{{Japanese Army Aircraft Designation System}}
+{{aviation lists}}
+
+[[Category:Mitsubishi aircraft|Ki-202]]
+[[Category:Japanese fighter aircraft 1940–1949|Ki-202, Mitsubishi]]
+[[Category:Rocket-powered aircraft]]
+[[Category:World War II Japanese fighter aircraft|Ki-202, Mitsubishi]]
+
+[[ja:秋水#バリエーション]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

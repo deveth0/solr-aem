@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Illinois Route 50"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Illinois Route 50" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox road
+| state=IL
+| type=IL
+| route = 50
+| previous_route = 50
+| previous_type = US
+| next_route = 51
+| next_type = US
+| length_mi = 66.49
+| length_ref = &amp;lt;ref name=t2&amp;gt;{{cite web |author=Illinois Technology Transfer Center |url=http://www.dot.state.il.us/gist2/select.html |title=T2 GIS Data |accessdate=2007-11-08 |year=2006}}&amp;lt;/ref&amp;gt;
+| direction_b = North
+|direction_a=South
+| established = 1924&amp;lt;ref name=n9jig&amp;gt;Carlson, Rick. [http://www.n9jig.com/41-60.html Illinois State Highways Page: Routes 41 thru 60]. Last updated March 15, 2006. Retrieved March 23, 2006.&amp;lt;/ref&amp;gt;
+| terminus_a = {{jct|state=IL|US|45|US|52}} in [[Kankakee, Illinois|Kankakee]]
+| junction = {{jct|state=IL|I|57}} in [[Bradley, Illinois|Bradley]]&amp;lt;br&amp;gt;{{jct|state=IL|US|30}} in [[Matteson, Illinois|Matteson]]&amp;lt;br&amp;gt;{{jct|state=IL|US|6}} in [[Oak Forest, Illinois|Oak Forest]]&amp;lt;br&amp;gt;{{jct|state=IL|I|294}} in [[Alsip, Illinois|Alsip]]&amp;lt;br&amp;gt;{{jct|state=IL|US|12|US|20}} in [[Oak Lawn, Illinois|Oak Lawn]]&amp;lt;br&amp;gt;{{jct|state=IL|I|55}} in [[Chicago]]&amp;lt;br&amp;gt;{{jct|state=IL|I|290|IL|110}} in [[Chicago]]&amp;lt;br&amp;gt;{{jct|state=IL|I|94}} in [[Chicago]]&amp;lt;br&amp;gt;{{jct|state=IL|US|14}} in [[Chicago]]
+| terminus_b = {{jct|state=IL|US|41}} in [[Skokie, Illinois|Skokie]]
+| counties = [[Kankakee County|Kankakee]], [[Will County, Illinois|Will]], [[Cook County, Illinois|Cook]],
+}}
+&amp;apos;&amp;apos;&amp;apos;Illinois Route 50&amp;apos;&amp;apos;&amp;apos; is a north&amp;amp;ndash;south state road in northeastern [[Illinois]]. It runs from the junction with [[U.S. Route 45]] in [[Kankakee, Illinois|West Kankakee]] north to [[U.S. Route 41]] in [[Skokie, Illinois|Skokie]]. This is a distance of {{convert|66.49|mi|km}}.&amp;lt;ref name=&amp;quot;t2&amp;quot; /&amp;gt; In [[Chicago]] and the suburbs it&amp;apos;s known as [[Cicero Avenue]]. Before this, Cicero Avenue was previously known as 48th Avenue, owing to its City of Chicago address of 4800 West.&amp;lt;ref&amp;gt;{{cite web|title=Talbot&amp;apos;s Industry and Work Map|url=http://www.lib.uchicago.edu/e/su/maps/chi1900/G4104-C6P3-1904-T3-N.html|work=Chicago, 1900-1914|publisher=University of Chicago Library|accessdate=14 July 2011}}&amp;lt;/ref&amp;gt;
+
+==Major intersections==
+{| class=wikitable
+!County
+!Location
+!Junction
+!Notes
+|-
+|rowspan=3|[[Kankakee County, Illinois|Kankakee]]
+|rowspan=2|[[Kankakee, Illinois|Kankakee]]
+|{{jct|state=IL|US|45|US|52}}
+| Southern Terminus
+|-
+|{{jct|state=IL|IL|17}}
+|
+|-
+|[[Bourbonnais, Illinois|Bourbonnais]]
+|{{jct|state=IL|I|57}}
+|
+|-
+|rowspan=13|[[Cook County, Illinois|Cook]]
+|[[Matteson, Illinois|Matteson]]
+|{{jct|state=IL|US|30|Lincoln}}
+| IL 50 runs through [[Will County, Illinois|Will County]], but has no major intersections.
+|-
+|[[Oak Forest, Illinois|Oak Forest]]
+|{{jct|state=IL|US|6|}}
+| right by the train station
+|-
+|[[Midlothian, Illinois|Midlothian]]
+|{{jct|state=IL|IL|83}}
+| South end of IL 83 concurrency
+|-
+|rowspan=2|[[Alsip, Illinois|Alsip]]
+|{{jct|state=IL|IL|83}}
+| North end of IL 83 concurrency
+|-
+|{{jct|state=IL|I|294}}
+| Southbound entrance on 127th Ave.
+|-
+|[[Oak Lawn, Illinois|Oak Lawn]]
+|{{jct|state=IL|US|12|US|20}}
+|
+|-
+|rowspan=6|[[Chicago, Illinois|Chicago]]
+|{{jct|state=IL|I|55}}
+|
+|-
+|{{jct|state=IL|I|290|IL|110}}
+| No eastbound entrance
+|-
+|{{jct|state=IL|IL|64}}
+|
+|-
+|{{jct|state=IL|IL|19}}
+|
+|-
+|{{jct|state=IL|I|94}}
+| Southbound entrance ONLY
+|-
+|{{jct|state=IL|US|14}}
+|
+|-
+|[[Skokie, Illinois|Skokie]]
+|{{jct|state=IL|US|41}}
+| Northern Terminus
+|}
+
+==References==
+{{reflist}}
+
+== External links ==
+* [http://highwayexplorer.com/il_EndsPage.php?id=1050&amp;amp;section=1 Illinois Highway Ends: Illinois Route 50]
+
+[[Category:State highways in Illinois|050]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

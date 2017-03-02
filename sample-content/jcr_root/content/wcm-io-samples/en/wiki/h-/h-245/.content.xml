@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="H.245"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="H.245" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;H.245&amp;apos;&amp;apos;&amp;apos; is a control channel [[Communications protocol|protocol]] used with[in] e.g. [[H.323]] and [[H.324]] communication sessions, and involves the line transmission of non-[[telephone]] signals. It also offers the possibility to be tunneled within [[H.225.0]] call signaling messages. This eases [[firewall (networking)|firewall]] traversing.
+
+H.245 is capable of conveying information needed for multimedia communication, such as [[encryption]], [[flow control (data)|flow control]], [[jitter]] management, preference requests, as well as the opening and closing of logical channels used to carry media streams. It also defines separate &amp;apos;&amp;apos;send&amp;apos;&amp;apos; and &amp;apos;&amp;apos;receive&amp;apos;&amp;apos; capabilities and the means to send these details to other devices that support H.323.
+
+==Handshake issues==
+One major drawback within the initial version of H.323 was the lengthy, four-way H.245 protocol [[handshaking|handshake]] required during the opening up the logical channels of a telephony session. Later versions of H.323 introduced the &amp;apos;&amp;apos;Fast Connect&amp;apos;&amp;apos; procedure, using the fastStart element of an H.225.0 message. Fast Connect brought the negotiation down to a two-way handshake. Another recommendation, [[H.460.6]], Extended Fast Connect Feature, exists that defines a one-way handshake.
+
+==External links==
+* [http://www.itu.int/rec/T-REC-H.245/en ITU-T H.245 Recommendation]
+
+[[Category:ITU-T recommendations]]
+[[Category:Videotelephony]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

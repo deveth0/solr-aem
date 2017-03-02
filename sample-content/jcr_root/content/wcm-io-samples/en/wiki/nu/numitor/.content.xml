@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Numitor"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Numitor" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{About|the Roman mythological king|the ship|USS Numitor (ARL-17)}}
+
+In [[Roman mythology]], King &amp;apos;&amp;apos;&amp;apos;Numitor&amp;apos;&amp;apos;&amp;apos; of [[Alba Longa]], son of [[Procas]], descendant of [[Aeneas]] the [[Troy|Trojan]], was the father of [[Rhea Silvia]]. He was overthrown by his brother, [[Amulius]], and thrown out of his kingdom where he had ruled. Amulius also murdered his sons, in an effort to remove power from his brother for himself. His grandsons, however, [[Romulus and Remus]], reinstated him after killing Amulius.&amp;lt;ref&amp;gt;[[Livy]] I.3.10-I.6.2; [[Virgil]] VI, 768.&amp;lt;/ref&amp;gt;
+
+==Family tree==
+{{Family tree of the Latin kings of Alba Longa}}
+
+==See also==
+*&amp;apos;&amp;apos;[[Aeneid]]&amp;apos;&amp;apos;
+*[[The Golden Bough (mythology)]]
+
+==References==
+{{reflist}}
+
+{{Ancient-Rome-myth-stub}}
+
+[[Category:Latin kings of Alba Longa]]
+[[Category:Roman mythology]]
+[[Category:Mythological kings]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Tamasay"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Tamasay" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Refimprove|date=March 2009}}
+[[File:WLA brooklynmuseum Ainu Tamasay Bead Necklace.jpg|tamasay|250px|thumb]]
+A &amp;apos;&amp;apos;&amp;apos;tamasay&amp;apos;&amp;apos;&amp;apos; (or &amp;apos;&amp;apos;&amp;apos;tamasai&amp;apos;&amp;apos;&amp;apos;) is a [[bead]] [[necklace]] worn by [[Ainu people|Ainu]] women for special occasions.
+
+The necklace is called a &amp;apos;&amp;apos;&amp;apos;shitoki&amp;apos;&amp;apos;&amp;apos; if it has a [[medallion]].  They are made with large [[glass]] beads the Ainu obtained through trading with [[China|Chinese]] merchants.  The Ainu also obtained glass beads secretly made by the [[Matsumae Clan]].&amp;lt;ref&amp;gt;[http://www.ainu-museum.or.jp/english/eng08.html Ainu History and Culture : Ornaments]&amp;lt;/ref&amp;gt; The shitoki medallion often represents the [[white-tailed sea eagle]]s that the Ainu hunt.  The more strands and beads a necklace has, the more valuable it is.  The necklaces are passed down through generations and are highly treasured by their owners.  This jewelry is especially important in ceremonies and rituals because it is believed to protect the wearer from evil spirits.
+
+==References==
+{{Reflist}}
+
+[[Category:Ainu culture]]
+
+{{Japan-culture-stub}}
+{{ainu-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

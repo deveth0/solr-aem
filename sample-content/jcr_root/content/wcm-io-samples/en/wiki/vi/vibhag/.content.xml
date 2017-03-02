@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Vibhag"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Vibhag" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced stub|auto=yes|date=December 2009}}
+&amp;apos;&amp;apos;&amp;apos;Vibhag&amp;apos;&amp;apos;&amp;apos; represent a duration of rhythmic phrasing in Indian classical music made up of a certain number of beats. They are the rough equivalent of bars in western music, but instead of always being equal subdivisions of the tala (the rhythmic cycle - think 12 bar blues), they can be uneven. In certain traditions of [[music of India|Indian music]], any number of [[beat (music)|beats]] may form a &amp;apos;&amp;apos;&amp;apos;vibhag&amp;apos;&amp;apos;&amp;apos;. Usually the beats will be in two, three, or four.  They should be designated either with a clap or a wave of the hand.
+
+
+{{Hindustani Classical Music page end}}
+
+[[Category:Tala]]
+
+
+{{India-culture-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

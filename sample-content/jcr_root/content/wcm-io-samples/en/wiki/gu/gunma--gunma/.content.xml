@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Gunma, Gunma"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Gunma, Gunma" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{nihongo|&amp;apos;&amp;apos;&amp;apos;Gunma&amp;apos;&amp;apos;&amp;apos;|群馬町|Gunma-machi}} was a [[towns of Japan|town]] located in [[Gunma District, Gunma|Gunma District]], [[Gunma Prefecture|Gunma]], [[Japan]].
+
+On January 23, 2006 Gunma, along with the towns of [[Kurabuchi, Gunma|Kurabuchi]] and [[Misato, Gunma|Misato]], all from [[Gunma District, Gunma|Gunma District]], and the town of [[Shin, Gunma|Shin]], from [[Tano District, Gunma|Tano District]], was merged into the expanded city of [[Takasaki, Gunma|Takasaki]].
+
+As of 2005, the town has an estimated [[population]] of 36,569 and a [[population density|density]] of 1,666.77 persons per km². The total area is 21.94 km².
+
+Gunma is located in the centre of [[Gunma Prefecture]], and on a gentle slope between the foot of southeast [[Mt. Haruna]] and [[Maebashi]] plateau.
+
+Although [[Jōetsu Shinkansen]] passes the section of Takasaki, there is no station.
+
+Also, [[Kan-etsu Expressway]] passes in the section of Takasaki, but there is no interchange (the nearest one is Maebashi IC).
+
+==External links==
+* [http://www.city.takasaki.gunma.jp/ Takasaki city official website] {{ja icon}}
+
+[[Category:Dissolved municipalities of Gunma Prefecture]]
+
+
+{{Gunma-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

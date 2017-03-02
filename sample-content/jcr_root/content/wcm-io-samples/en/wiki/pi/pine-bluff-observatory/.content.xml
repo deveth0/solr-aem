@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Pine Bluff Observatory"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Pine Bluff Observatory" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox observatory
+|name            = Pine Bluff Observatory
+|background      =
+|image           =
+|caption         =
+|organization    = [[University of Wisconsin–Madison]]
+|code            =
+|location        = [[Cross Plains (town), Wisconsin|Cross Plains, Wisconsin]]
+|coords          = {{Coord|43.0777|-89.6717|type:landmark|display=inline,title}}
+|altitude        = {{Convert|362|m|ft|sp=us}}
+|weather         =
+|established     = {{Start date|1958}}
+|closed          =
+|website         = {{URL|http://www.sal.wisc.edu/PBO/|Pine Bluff Observatory}}
+|telescope1_name = 36-Inch Telescope
+|telescope1_type = 0.9 m reflector
+|telescope2_name = 16-Inch Telescope
+|telescope2_type = 0.4 m reflector
+|telescope3_name =
+|telescope3_type =
+|telescope4_name =
+|telescope4_type =
+}}
+
+The &amp;apos;&amp;apos;&amp;apos;Pine Bluff Observatory&amp;apos;&amp;apos;&amp;apos; (PBO) is an [[astronomy|astronomical]] [[observatory]] located in the town of [[Cross Plains (town), Wisconsin|Cross Plains, Wisconsin]] ([[United States of America|USA]]) about {{Convert|24|km|mi|sp=us}} west of [[Madison, Wisconsin|Madison]].  PBO is owned and operated by the [[University of Wisconsin–Madison]] (UW-Madison).  It opened in 1958, and is mainly used by students and faculty of UW-Madison for instruction and research.  PBO also provides a facility for testing new instruments.&amp;lt;ref name=PBOMAIN /&amp;gt;  Recent research conducted at PBO includes measuring the lunar sodium tail, monitoring [[circumstellar disks]] around [[Be stars]], and studying the [[interstellar medium|warm ionized medium]].&amp;lt;ref name=2006MIER /&amp;gt;&amp;lt;ref name=2011DRAP /&amp;gt;&amp;lt;ref name=2011HALF /&amp;gt;
+
+==See also==
+* [[Washburn Observatory]]
+* [[List of astronomical observatories]]
+
+==References==
+{{Reflist|refs=
+
+&amp;lt;ref name=PBOMAIN&amp;gt;{{cite web |title=UW Pine Bluff Observatory |url=http://www.sal.wisc.edu/PBO/ |publisher=University of Wisconsin–Madison Department of Astronomy |accessdate=2012-01-17}}&amp;lt;/ref&amp;gt;
+
+&amp;lt;ref name=2006MIER&amp;gt;{{cite journal |bibcode=2006AGUFM.U41C0834M |title=The Observed Velocity Structure of the Lunar Sodium Tail |author1=Mierkiewicz |first1=E. J. |last2=Line |first2=M. R. |last3=Roesler |first3=F. L. |last4=Oliversen |first4=R. J. |volume=41 |year=2006 |pages=0834 |journal=American Geophysical Union}}&amp;lt;/ref&amp;gt;
+
+&amp;lt;ref name=2011DRAP&amp;gt;{{cite journal |doi=10.1017/S1743921311010854 |title=Disk-loss and disk-renewal phases in classical Be stars – II. Detailed analysis of spectropolarimetric data |year=2011 |last1=Draper |first1=Zachary H. |last2=Wisniewski |first2=John P. |last3=Bjorkman |first3=Karen S. |last4=Bjorkman |first4=Jon E. |last5=Haubois |first5=Xavier |last6=Carciofi |first6=Alex C. |last7=Meade |first7=Marilyn R. |journal=Proceedings of the International Astronomical Union |volume=6 |pages=388|arxiv = 1101.2906 }}&amp;lt;/ref&amp;gt;
+
+&amp;lt;ref name=2011HALF&amp;gt;{{cite journal |bibcode=2011AAS...21725109H |title=Studying the Temperature and Ionization State of the Warm Ionized Medium |author1=Halford |first1=Melissa |last2=Mierkiewicz |first2=E. J. |last3=Reynolds |first3=R. J. |last4=Madsen |first4=G. J. |last5=Haffner |first5=L. M. |last6=Barger |first6=K. A. |last7=Roesler |first7=F. L. |volume=217 |year=2011 |pages=25109 |journal=American Astronomical Society}}&amp;lt;/ref&amp;gt;
+
+}}
+
+==External links==
+* [http://www.astro.wisc.edu/ Department of Astronomy] at University of Wisconsin–Madison
+* [http://www.cleardarksky.com/c/PBOWIkey.html?1 Pine Bluff Observatory Clear Sky Clock] Forecasts of observing conditions.
+
+
+{{University of Wisconsin–Madison}}
+
+[[Category:Astronomical observatories in Wisconsin]]
+[[Category:University of Wisconsin–Madison]]
+[[Category:Buildings and structures in Dane County, Wisconsin]]
+
+
+{{Observatory-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Unitary matrix"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Unitary matrix" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[mathematics]], a [[complex number|complex]] [[Matrix_(mathematics)#Square_matrices|square]] [[matrix (mathematics)|matrix]] &amp;apos;&amp;apos;U&amp;apos;&amp;apos; is &amp;apos;&amp;apos;&amp;apos;unitary&amp;apos;&amp;apos;&amp;apos; if
+
+::&amp;lt;math&amp;gt;U^* U = UU^* = I \,&amp;lt;/math&amp;gt;
+
+where &amp;apos;&amp;apos;I&amp;apos;&amp;apos; is the [[identity matrix]] and &amp;apos;&amp;apos;U&amp;apos;&amp;apos; * is the [[conjugate transpose]]  of &amp;apos;&amp;apos;U&amp;apos;&amp;apos;.
+
+The real analogue of a unitary matrix is an [[orthogonal matrix]].
+
+==Properties==
+For any unitary matrix &amp;apos;&amp;apos;U&amp;apos;&amp;apos;, the following hold:
+*Given two complex vectors &amp;apos;&amp;apos;x&amp;apos;&amp;apos; and &amp;apos;&amp;apos;y&amp;apos;&amp;apos;, multiplication by &amp;apos;&amp;apos;U&amp;apos;&amp;apos; preserves their [[inner product]]; that is,
+:&amp;lt;math&amp;gt;\langle Ux, Uy \rangle = \langle x, y \rangle&amp;lt;/math&amp;gt;.
+*&amp;apos;&amp;apos;U&amp;apos;&amp;apos; is [[normal matrix|normal]]
+*&amp;apos;&amp;apos;U&amp;apos;&amp;apos; is [[diagonalizable matrix|diagonalizable]]; that is, &amp;apos;&amp;apos;U&amp;apos;&amp;apos; is [[similar matrix|unitarily similar]] to a diagonal matrix, as a consequence of the [[spectral theorem]].  Thus &amp;apos;&amp;apos;U&amp;apos;&amp;apos; has a decomposition of the form
+::&amp;lt;math&amp;gt;U = VDV^*\;&amp;lt;/math&amp;gt;
+:where &amp;apos;&amp;apos;V&amp;apos;&amp;apos; is unitary and &amp;apos;&amp;apos;D&amp;apos;&amp;apos; is diagonal and unitary.
+* &amp;lt;math&amp;gt;|\det(U)|=1&amp;lt;/math&amp;gt;.
+* Its [[Eigenvector#Eigenspaces_of_a_matrix|eigenspaces]] are orthogonal.
+* For any positive [[integer]] &amp;apos;&amp;apos;n&amp;apos;&amp;apos;, the set of all &amp;apos;&amp;apos;n&amp;apos;&amp;apos; by &amp;apos;&amp;apos;n&amp;apos;&amp;apos; unitary matrices with matrix multiplication forms a [[group (mathematics)|group]], called the [[unitary group]] &amp;apos;&amp;apos;U(n)&amp;apos;&amp;apos;.
+* Any square matrix with unit Euclidean norm is the average of two unitary matrices.&amp;lt;ref&amp;gt;{{cite journal| first1=Chi-Kwong|last1= Li |first2= Edward|last2= Poon|doi=10.1080/03081080290025507|title=Additive Decomposition of Real Matrices| year=2002| journal=Linear and Multilinear Algebra| volume=50| issue=4| pages=321–326}}&amp;lt;/ref&amp;gt;
+
+==Equivalent conditions==
+If &amp;apos;&amp;apos;U&amp;apos;&amp;apos; is a square, complex matrix, then the following conditions are equivalent:
+#&amp;apos;&amp;apos;U&amp;apos;&amp;apos; is unitary
+#&amp;apos;&amp;apos;U&amp;apos;&amp;apos; *  is unitary
+#&amp;apos;&amp;apos;U&amp;apos;&amp;apos; is invertible, with &amp;apos;&amp;apos;U&amp;apos;&amp;apos;&amp;lt;sup&amp;gt; –1&amp;lt;/sup&amp;gt;=&amp;apos;&amp;apos;U&amp;apos;&amp;apos; *.
+# the columns of &amp;apos;&amp;apos;U&amp;apos;&amp;apos; form an [[orthonormal basis]] of &amp;lt;math&amp;gt;\mathbb{C}^n&amp;lt;/math&amp;gt; with respect to the usual inner product
+# the rows of &amp;apos;&amp;apos;U&amp;apos;&amp;apos; form an orthonormal basis of &amp;lt;math&amp;gt;\mathbb{C}^n&amp;lt;/math&amp;gt; with respect to the usual inner product
+# &amp;apos;&amp;apos;U&amp;apos;&amp;apos; is an [[isometry]] with respect to the usual norm
+# &amp;apos;&amp;apos;U&amp;apos;&amp;apos; is a [[normal matrix]] with [[eigenvalues]] lying on the [[unit circle]].
+
+==See also==
+* [[Orthogonal matrix]]
+* [[Hermitian matrix]]
+* [[Symplectic matrix]]
+* [[Unitary group]]
+* [[Special unitary group]]
+* [[Unitary operator]]
+* [[Matrix decomposition]]
+* [[Identity matrix]]
+* [[Quantum gate]]
+
+== References ==
+{{reflist}}
+
+== External links ==
+* {{MathWorld|urlname=UnitaryMatrix |title=Unitary Matrix |last=Rowland|first= Todd}}
+* {{SpringerEOM|id=U/u095540|title=Unitary matrix |first=O. A. |last=Ivanova}}
+
+{{DEFAULTSORT:Unitary Matrix}}
+[[Category:Matrices]]
+[[Category:Unitary operators]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

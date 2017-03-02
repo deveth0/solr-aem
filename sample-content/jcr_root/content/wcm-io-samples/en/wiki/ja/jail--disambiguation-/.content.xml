@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Jail (disambiguation)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Jail (disambiguation)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionarypar|jail}}
+
+A &amp;apos;&amp;apos;&amp;apos;[[prison#North America|jail]]&amp;apos;&amp;apos;&amp;apos; is a short-term detention facility in the United States and Canada.
+
+&amp;apos;&amp;apos;&amp;apos;Jail&amp;apos;&amp;apos;&amp;apos; may also refer to:
+
+==Entertainment==
+*[[Jail (1966 film)|&amp;apos;&amp;apos;Jail&amp;apos;&amp;apos; (1966 film)]], a 1966 Malayalam movie
+*[[Jail (film)|&amp;apos;&amp;apos;Jail&amp;apos;&amp;apos; (film)]], a 2009 Bollywood movie
+*[[Jail (TV series)|&amp;apos;&amp;apos;Jail&amp;apos;&amp;apos; (TV series)]], a reality television series
+*[[Jail (Monopoly)]], a space on the board game &amp;apos;&amp;apos;Monopoly&amp;apos;&amp;apos;
+
+==Computing==
+*[[Jail (computer security)]], a program resources sandbox mechanism
+*[[Chroot jail]], a command on Unix operating systems
+*[[FreeBSD jail]], a FreeBSD system-level virtualization mechanism
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

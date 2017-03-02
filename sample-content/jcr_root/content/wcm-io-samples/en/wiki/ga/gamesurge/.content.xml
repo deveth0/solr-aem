@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="GameSurge"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="GameSurge" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Refimprove|date=February 2009}}
+{{Infobox IRC network
+| name             = GameSurge
+| image            = [[Image:gslogo.png]]
+| founded_on       = February 2004
+| located_in       = [[United States]]&amp;lt;br /&amp;gt;[[Europe]]
+| based_in         = [[World]]wide
+| executive_board  = [http://www.gamesurge.net/organization/ Organization]
+| website_url      = [http://www.gamesurge.net/ www.gamesurge.net]
+| primary_dns      = [irc://irc.gamesurge.net irc.gamesurge.net]
+| average_users    = {{IRC NQNS link|GameSurge|18,000 - 23,000}}
+| average_channels = {{IRC NQNS link|GameSurge|52,000 - 53,000}}
+| average_servers  = {{IRC NQNS link|GameSurge|21}}
+| main_content     = Public/[[Video Games]]
+}}
+
+&amp;apos;&amp;apos;&amp;apos;GameSurge&amp;apos;&amp;apos;&amp;apos; is a popular [[Internet Relay Chat]] network devoted to the online multiplayer gaming community.  Games commonly seen referenced on GameSurge include many [[First-person shooter|first person shooters]] (such as [[Counter-Strike]], [[Counter-Strike: Source]], [[Team Fortress Classic]], [[Team Fortress 2]], [[Day of Defeat]], [[Call of Duty]], and [[Battlefield 2]]) and [[MMORPG]]s (such as [[World of Warcraft]] and [[Guild Wars]]).
+
+GameSurge is consistently in the top 10 IRC Networks by users currently online.&amp;lt;ref&amp;gt;[http://searchirc.com/network/GameSurge Search IRC]&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;[http://irc.netsplit.de/networks/GameSurge/]&amp;lt;/ref&amp;gt;
+
+==History==
+GameSurge was created in February 2004, as a result of the merger of GamesNET users and the ProGamePlayer Network, a network with common interests.&amp;lt;ref name=&amp;quot;pgpn_merger&amp;quot;&amp;gt;[http://www.irc101.org/news.php?id=370 GamesNET, ProGamePlayer Announce Network Merger]&amp;lt;/ref&amp;gt; The merger, coincidentally, occurred during a time of legal disputes over the domain name gamesnet.net.
+
+At present day, the user base of GameSurge is primarily North American, with a growing number of [[English language|English-speaking]] gamers from [[Europe]]. The user base contains a large number of [[Clan (computer gaming)|clans]] who participate in a wide variety of games. Among the more popular games on GameSurge are &amp;apos;&amp;apos;Counter-Strike&amp;apos;&amp;apos;, &amp;apos;&amp;apos;Counter-Strike: Source&amp;apos;&amp;apos;, &amp;apos;&amp;apos;[[Team Fortress Classic]]&amp;apos;&amp;apos;, &amp;apos;&amp;apos;[[Team Fortress 2]]&amp;apos;&amp;apos;, &amp;apos;&amp;apos;[[Day of Defeat]]&amp;apos;&amp;apos;, [[Urban Terror]] and &amp;apos;&amp;apos;[[Call of Duty]]&amp;apos;&amp;apos;.
+
+== Services ==
+GameSurge runs a [[feature-rich]] package of [[Internet Relay Chat services|services]] known as &amp;apos;&amp;apos;[[srvx]]&amp;apos;&amp;apos;, which was written by GameSurge&amp;apos;s development staff from scratch in [[C (programming language)|C]].
+
+GameSurge provides five user-accessible services:
+*&amp;apos;&amp;apos;AuthServ&amp;apos;&amp;apos;, which provides authentication for other services on the network and allows users to use an [[User (computing)|account]] to maintain channel access.  In the interests of providing a service directed toward gaming (and thus allowing users to easily switch clan/team/guild tags), GameSurge does not provide [[nickname]] registration.
+*&amp;apos;&amp;apos;[[ChanServ]]&amp;apos;&amp;apos;, which provides facilities such as event logging and advanced user/ban management.
+*&amp;apos;&amp;apos;HelpServ&amp;apos;&amp;apos; bots, which manage support requests in certain channels via a [[FIFO]] queue.
+**&amp;apos;&amp;apos;HelpServ&amp;apos;&amp;apos;, in the &amp;apos;&amp;apos;#support&amp;apos;&amp;apos; channel, for general user support.
+**Other &amp;apos;&amp;apos;HelpServ&amp;apos;&amp;apos; bots in miscellaneous help channels throughout the network.
+*&amp;apos;&amp;apos;SpamServ&amp;apos;&amp;apos;, which provides spam protection services to channels on the network. This service was added in {{Start date|2008|7}}.
+*&amp;apos;&amp;apos;HostServ&amp;apos;&amp;apos;, which provides free &amp;quot;titles&amp;quot; to users wishing to use cloaked hosts.  See the [http://www.gamesurge.net/titles GameSurge Titles] page for details.
+
+==References==
+{{reflist}}
+
+==External links==
+*[http://www.gamesurge.net/ GameSurge]
+*[http://www.srvx.net srvx] (network services for GameSurge)
+*[http://www.gamesurge.net/servers/ GameSurge Servers]
+{{IRC NQ|GameSurge}}
+
+{{IRC networks}}
+
+[[Category:Internet Relay Chat networks]]
+
+{{IRC-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Zenga"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Zenga" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{unreferenced|date=November 2009}}
+{{for|the Italian goalkeeper|Walter Zenga}}
+&amp;apos;&amp;apos;&amp;apos;Zenga&amp;apos;&amp;apos;&amp;apos; is the [[Japanese language|Japanese]] term for the practice and art of [[Zen]] [[Buddhist]] painting and [[calligraphy]] in the [[Japanese tea ceremony]] and also the [[martial arts]].
+
+==Definition==
+As a noun, Zenga is a style of Japanese calligraphy and painting, done in [[ink]]. In many instances, both calligraphy and image will be in the same piece. The calligraphy denotes a poem, or saying, that teaches some element of the true path of Zen. The brush painting is characteristically simple, bold and abstract.
+==History==
+Though [[Zen Buddhism]] had arrived in [[Japan]] at the end of the 12th-century, Zenga (as here described) didn&amp;apos;t come into its own until the beginning of the [[Edo period]] in 1600.
+
+==Subject matter==
+In keeping with individual paths to [[Enlightenment (spiritual)|enlightenment]], nearly any subject matter can lend (and has lent) itself to Zenga. Everything from a cat, to a [[bamboo]] shoot, to a man defecating in a field has been used to illustrate a particular point - although [[Ensō|enso]], sticks and [[Mt. Fuji]] are the most common elements.
+
+== See also ==
+*[[Japanese tea ceremony]]
+*[[Japanese calligraphy]]
+**[[Hitsuzendo]]
+**[[Bokuseki]]
+
+
+[[Category:Japanese tea ceremony]]
+[[Category:Zen terms]]
+
+
+{{zen-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

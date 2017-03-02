@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Trimeter"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Trimeter" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Refimprove|date=December 2009}}
+{{Wiktionary|trimeter}}
+
+In [[poetry]], a &amp;apos;&amp;apos;&amp;apos;trimeter&amp;apos;&amp;apos;&amp;apos; is a metre of three [[metrical foot|metrical feet]] per line&amp;amp;mdash;example:
+
+: When here // the spring // we see,
+: Fresh green // upon // the tree.
+(Greek &amp;quot;three measure&amp;quot;): a line with three stresses. Coleridge, Christabel, line 31: &amp;quot;She stole along, she nothing spoke.&amp;quot;
+
+&amp;lt;ref&amp;gt;{{cite book|title=The Norton Anthology of English Literature|year=2006|publisher=Norton|location= United States|isbn=0-393-92713-X (v. 1)|pages=A62}}&amp;lt;/ref&amp;gt;
+
+
+==See also==
+* [[Anapaest]]
+* [[Dactyl (poetry)|Dactyl]]
+
+
+== References ==
+{{reflist}}
+
+[[Category:Poetic rhythm]]
+
+
+{{Poetry-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

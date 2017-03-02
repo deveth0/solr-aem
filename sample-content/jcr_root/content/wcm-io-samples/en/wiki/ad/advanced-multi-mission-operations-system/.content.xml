@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Advanced Multi-Mission Operations System"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Advanced Multi-Mission Operations System" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=January 2009}}
+The &amp;apos;&amp;apos;&amp;apos;Advanced Multi-Mission Operations System&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;&amp;apos;AMMOS&amp;apos;&amp;apos;&amp;apos;) is a common set of services and tools created by the [[Interplanetary Network Directorate]], a division of the [[Jet Propulsion Laboratory]], for use in JPL&amp;apos;s operation of spacecraft. These tools include a means by which mission planning and analysis can be undertaken, as well as developing pre-planned command sequences for the [[spacecraft]]. AMMOS also provides a means by which downlinked data can be displayed and manipulated, including key mission [[telemetry]] such as readings of temperature, pressure, power, and other critical indicators. This common toolset allows space missions to minimize the cost of developing operations [[infrastructure]], which is very important in light of recent restricted spending by [[outer space|space]] agencies.
+
+==References==
+
+[[Category:Aerospace engineering]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

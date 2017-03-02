@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Zhukov (disambiguation)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Zhukov (disambiguation)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The name &amp;apos;&amp;apos;&amp;apos;Zhukov&amp;apos;&amp;apos;&amp;apos; often refers to [[Georgy Zhukov]] (1896–1974), a Soviet military leader, vice admiral. It may also refer to:
+
+*[[Zhukov (surname)]]
+*[[Zhukov (inhabited locality)]], name of several inhabited localities in Russia
+*[[2132 Zhukov]], an asteroid named after Georgy Zhukov
+*[[USS Zhukov (NCC-62136)|USS &amp;apos;&amp;apos;Zhukov&amp;apos;&amp;apos; (NCC-62136)]], a Federation Ambassador class starship in the fictional &amp;apos;&amp;apos;Star Trek&amp;apos;&amp;apos; universe, named after Georgy Zhukov
+
+==See also==
+*[[Zhukovo]]
+*[[Zhukovsky (disambiguation)]]
+
+{{Disambiguation|geo}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

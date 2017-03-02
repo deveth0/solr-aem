@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Yugawa, Fukushima"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Yugawa, Fukushima" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox City Japan
+|Name= Yugawa
+|JapaneseName= 湯川村
+|settlement_type= Village
+|MapImage= Yugawa in Fukushima Prefecture.png
+|Region= [[Tōhoku region|Tōhoku]]
+|Prefecture= [[Fukushima prefecture|Fukushima]]
+|District= [[Kawanuma District, Fukushima|Kawanuma District]]
+|Area_km2= 16.36
+|PopDate= 2003
+|Population= 3,615
+|Density_km2= auto
+|Coords=
+|LatitudeDegrees=37
+|LatitudeMinutes=34
+|LatitudeSeconds=
+|LongtitudeDegrees=139
+|LongtitudeMinutes=53
+|LongtitudeSeconds=
+|Tree=
+|Flower=
+|SymbolImage=
+|SymbolDescription=
+|Mayor=
+|CityHallPostalCode=
+|CityHallAddress=
+|CityHallPhone=
+|CityHallLink= [http://www.vill.yugawa.fukushima.jp/ Village of Yugawa]
+}}
+{{Nihongo|&amp;apos;&amp;apos;&amp;apos;Yugawa&amp;apos;&amp;apos;&amp;apos;|湯川村|Yugawa-mura}} is a [[villages of Japan|village]] located in [[Kawanuma District, Fukushima]], [[Japan]].
+
+As of 2003, the village has an estimated [[population]] of 3,615 and a [[population density]] of 220.97 persons per km². The total area is 16.36&amp;amp;nbsp;km².
+
+==External links==
+*[http://www.vill.yugawa.fukushima.jp/ Yugawa official website] {{ja icon}}
+
+[[Category:Villages in Fukushima Prefecture]]
+
+
+{{Fukushima-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

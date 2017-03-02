@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="JavaOS"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="JavaOS" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Refimprove|date=August 2009}}
+{{Infobox OS
+| name                   = JavaOS
+| logo                   =
+| screenshot             =
+| caption                =
+| website                =
+| developer              = [[Sun Microsystems]]
+| family                 =
+| source_model           = Closed source
+| released               =
+| latest_release_version =
+| latest_release_date    =
+| latest_test_version    =
+| latest_test_date       =
+| marketing_target       =
+| programmed_in          = [[Java (programming language)|Java]]
+| language               =
+| kernel_type            = Microkernel
+| ui                     =
+| license                = Proprietary
+| working_state          = Discontinued
+| supported_platforms    = [[ARM architecture|ARM]], [[PowerPC]], [[SPARC]], [[IA-32]] (x86)
+| updatemodel            =
+| package_manager        =
+}}
+&amp;apos;&amp;apos;&amp;apos;JavaOS&amp;apos;&amp;apos;&amp;apos; is an [[operating system]] with a [[Java virtual machine]] as a fundamental component, originally developed by [[Sun Microsystems]].&amp;lt;ref name=&amp;quot;announce&amp;quot;&amp;gt;{{cite press release
+  |url = http://www.skytel.co.cr/wireless-communications/research/1996/0529-b.htm
+  |title = JavaSoft Announces JavaOS
+  |accessdate = 2011-12-16
+  |date = 1996-05-29
+  |publisher = JavaSoft ([[Sun Microsystems]])
+}}&amp;lt;/ref&amp;gt; Unlike Windows, Mac OS, [[Unix]] or [[Unix-like]] systems which are primarily written in the [[C (programming language)|C]] programming language, JavaOS is primarily written in [[Java (programming language)|Java]].  It is now considered a [[legacy system]].&amp;lt;ref name=&amp;quot;CDCFAQ&amp;quot;/&amp;gt;
+
+== History ==
+
+JavaOS was originally announced in 1996 by Sun&amp;apos;s JavaSoft subsidiary as a compact OS designed to run &amp;quot;in anything from net computers to pagers&amp;quot;.&amp;lt;ref name=&amp;quot;announce&amp;quot;/&amp;gt; In 1998, Sun recruited [[IBM]] to accelerate its development.&amp;lt;ref&amp;gt;{{cite news
+  | authorlink =
+  | author = Mary Hayes
+  | title = Sun Enlists IBM For JavaOS Aid
+  | url = http://www.informationweek.com/670/70iusun.htm
+  | work = [[InformationWeek]]
+  | date = 1998-02-23
+  | accessdate = 2011-12-16
+  | quote =
+}}&amp;lt;/ref&amp;gt; IBM indicated its focus was more on [[network computer]] thin clients, specifically to replace traditional &amp;quot;[[IBM 3270|green screen]]&amp;quot; and [[X terminal|UNIX terminal]]s, and to implement single application clients.&amp;lt;ref&amp;gt;{{cite web
+  |url = http://www.itmweb.com/f031098.htm
+  |title = Inside the IBM JavaOS Project
+  |accessdate = 2011-12-16
+  |author = Russ Finney
+  |date = 1998-03-10
+  |work = itmWEB
+}}&amp;lt;/ref&amp;gt;
+
+In 1999, Sun and IBM announced the end of the JavaOS project.&amp;lt;ref name=&amp;quot;CNet&amp;quot;&amp;gt;{{cite news
+  | author = Stephen Shankland
+  | title = Sun, IBM decaffeinate JavaOS
+  | url = http://news.cnet.com/2100-1001-230175.html
+  | work = [[CNet News]]
+  | date = 1999-08-23
+  | accessdate = 2011-12-16
+}}&amp;lt;/ref&amp;gt; As early as 2003, Sun materials referred to JavaOS as a &amp;quot;[[legacy system|legacy technology]]&amp;quot;, recommending migration to [[Java ME]], leaving the choice of specific OS and Java environment to the implementer.&amp;lt;ref name=&amp;quot;CDCFAQ&amp;quot;&amp;gt;{{cite web
+ | title = What is the migration path for the PersonalJava, EmbeddedJava and JavaOS technologies?
+ | work = Connected Device Configuration FAQ
+ | url=http://java.sun.com/products/cdc/faq.html#cp8
+ | archiveurl=http://web.archive.org/web/20030604120422/http://java.sun.com/products/cdc/faq.html
+ | archivedate=2003-06-04
+ | accessdate = 2011-12-16}}&amp;lt;/ref&amp;gt;
+
+== Design ==
+The system is based on a hardware architecture native [[microkernel]]. The Java virtual machine runs on top of the microkernel.
+
+Platforms that the kernel runs on include:
+* [[ARM architecture|ARM]]
+* [[PowerPC]]
+* [[SPARC]]
+* [[StrongARM]]
+* [[IA-32]]
+
+All [[device driver]]s are written in Java and executed by the virtual machine.
+
+A graphics and windowing system implementing the [[Abstract Window Toolkit|AWT]] [[Application programming interface|API]] is also written in Java.
+
+== Applications ==
+JavaOS was designed to run on [[embedded system]]s and has applications in devices such as [[set top box]]es, [[computer network|networking]] infrastructure and [[automatic teller machine|ATMs]]. It&amp;apos;s also the operating system that comes with the [[JavaStation]].
+
+== See also ==
+{{Portal|Java}}
+* [[JNode]]
+* [[JX (operating system)]]
+* [[Sanos]]
+* [[SavaJe]]
+* [[Vino (operating system)]]
+
+== References ==
+{{Reflist}}
+
+== External links ==
+&amp;lt;!--* [http://www4.informatik.uni-erlangen.de/Projects/JX/index.html JX Java OS] WRONG PAGE--&amp;gt;
+* [http://java.sun.com/developer/products/JavaOS/ JavaOS SDK page]
+
+[[Category:Embedded operating systems]]
+[[Category:Java platform]]
+[[Category:Sun Microsystems software]]
+[[Category:ARM operating systems]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

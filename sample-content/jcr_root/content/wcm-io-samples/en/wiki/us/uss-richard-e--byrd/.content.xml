@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="USS Richard E. Byrd"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="USS Richard E. Byrd" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Italic title prefixed|3}}
+Two ships of the [[United States Navy]] have borne the name &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Richard E. Byrd&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;, in honor of polar explorer [[Rear Admiral]] [[Richard E. Byrd]] (1888–1957).
+
+* [[USS Richard E. Byrd (DDG-23)|USS &amp;apos;&amp;apos;Richard E. Byrd&amp;apos;&amp;apos; (DDG-23)]] was a [[Charles F. Adams-class destroyer|&amp;apos;&amp;apos;Charles F. Adams&amp;apos;&amp;apos;-class]] [[guided missile destroyer]], launched in 1962 and struck in 1992. The ship was sold to Greece to provide spare parts for other ships, and sunk as a target in 2003.
+
+* [[USNS Richard E. Byrd (T-AKE-4)|USNS &amp;apos;&amp;apos;Richard E. Byrd&amp;apos;&amp;apos; (T-AKE-4)]] is a [[Lewis and Clark class dry cargo ship|&amp;apos;&amp;apos;Lewis and Clark&amp;apos;&amp;apos;-class]] [[dry cargo ship]], launched in 2007 and active in service {{As of|2008|lc=on}}.
+
+{{Shipindex}}
+
+{{DEFAULTSORT:Richard E. Byrd}}
+[[Category:United States Navy ship names]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

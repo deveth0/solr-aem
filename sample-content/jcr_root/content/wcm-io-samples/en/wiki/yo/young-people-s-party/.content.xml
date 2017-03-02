@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Young People&#x27;s Party"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Young People&#x27;s Party" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Politics of Sierra Leone}}
+The &amp;apos;&amp;apos;&amp;apos;Young People&amp;apos;s Party&amp;apos;&amp;apos;&amp;apos; is a [[political party]] in [[Sierra Leone]]&amp;lt;ref&amp;gt;{{cite web|url=http://allafrica.com/stories/200107050121.html|title=Sierra Leone: Young Peoples&amp;apos; Party: Can They Rule?|last=Kangbai|first=Jia|date=4 July 2001|publisher=[[allAfrica.com]]|accessdate=24 February 2013}}&amp;lt;/ref&amp;gt; without parliamentary representation.
+
+== References ==
+{{Reflist}}
+
+== External links ==
+*[http://www.yppsl.org/ Official web site]{{deadlink|date=February 2013}} &amp;lt;!-- actually just an advert placeholder --&amp;gt;
+
+
+{{SierraLeone-party-stub}}
+
+
+[[Category:Political parties in Sierra Leone]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

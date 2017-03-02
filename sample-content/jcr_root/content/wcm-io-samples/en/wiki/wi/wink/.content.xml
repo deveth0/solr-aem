@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="WINK"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="WINK" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;WINK&amp;apos;&amp;apos;&amp;apos; can refer to:
+
+* [[WINK (AM)]], a radio station (1200 AM) licensed to Pine Island Center, Florida, United States
+* [[WINK-FM]], a radio station (96.9 FM) licensed to Fort Myers, Florida, United States
+* [[WINK-TV]], a television station (channel 9/PSIP 11) licensed to Fort Myers, Florida, United States
+* [[WFSX (AM)]], a radio station (1240 AM) licensed to Fort Myers, Florida, United States, which used the call sign WINK from 1944 until 1999 and from 2003 until 2010
+* [[WNNK-FM]], a radio station (104.1 FM) licensed to Harrisburg, Pennsylvania, United States, which brands as &amp;quot;Wink 104&amp;quot;
+* [[WNKI]], a radio station (106.1 FM) licensed to Corning, New York, United States, which brands as &amp;quot;Wink 106&amp;quot;
+
+{{call sign disambiguation}}
+[[ja:WINK]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

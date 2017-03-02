@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Frequency deviation"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Frequency deviation" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Frequency deviation (Δf)&amp;apos;&amp;apos;&amp;apos; is used in [[Frequency modulation|FM radio]] to describe the maximum instantaneous difference between an FM modulated frequency and the [[Center frequency|nominal carrier frequency]]. The term is sometimes mistakenly used as synonymous with [[frequency drift]], which is an unintended offset of an oscillator from its nominal frequency.
+
+The frequency deviation of a radio is of particular importance in relation to [[Bandwidth (signal processing)|bandwidth]], because less deviation means that more channels can fit into the same amount of [[frequency spectrum]]. The [[FM broadcasting]] range (87.5–108 MHZ, NOTE: In some countries the 87.5-88.0 MHZ part of the band is not used) uses a channel spacing of 200 kHz, with a maximum frequency deviation of 75 kHz, leaving a 25 kHz buffer above the highest and below the lowest frequency to reduce interaction with other channels.&amp;lt;ref&amp;gt;http://hyperphysics.phy-astr.gsu.edu/hbase/audio/radio.html&amp;lt;/ref&amp;gt; [[AM broadcasting]] uses a channel spacing of 10 kHz, but with [[amplitude modulation]] frequency deviation is irrelevant.
+
+FM applications use peak deviations of 75 kHz (200 kHz spacing), 5 kHz (25 kHz spacing), 2.25 kHz (12.5 kHz spacing), and 2 kHz (8.33 kHz spacing).&amp;lt;ref&amp;gt;http://www.rsgb-spectrumforum.org.uk/Papers/VHF/Davos%20C5%20Papers/DV05_C5_17%20SARL%20NBFM.pdf&amp;lt;/ref&amp;gt;
+
+== See also ==
+* [[Frequency modulation]]
+
+== References ==
+*{{FS1037C MS188}}
+{{reflist}}
+
+[[Category:Radio modulation modes]]
+[[Category:Frequency domain analysis]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

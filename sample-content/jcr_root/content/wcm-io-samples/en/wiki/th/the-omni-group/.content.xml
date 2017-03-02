@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="The Omni Group"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="The Omni Group" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox Company
+| company_name = The Omni Group
+| company_logo =
+| company_type = Private
+| foundation = 1989
+| location = Omni Development, Inc.&amp;lt;br /&amp;gt;3257 16th Avenue West&amp;lt;br /&amp;gt;Seattle, WA 98119-1760
+| key_people = Ken Case, Tim Wood
+| industry = [[Computer software]]
+| products = [[Mac OS X]] software, see [[#Products]], below
+| revenue =
+| num_employees =
+| homepage = {{URL|omnigroup.com}}
+}}
+
+&amp;apos;&amp;apos;&amp;apos;The Omni Group&amp;apos;&amp;apos;&amp;apos; is a company that develops software for the [[Mac OS X]] platform.  The Omni Group was informally founded as a [[NEXTSTEP]] consulting company in 1989 by [[Wil Shipley]], who immediately brought on [[Ken Case (Business)|Ken Case]] and Tim Wood. The three incorporated together under the name &amp;apos;&amp;apos;&amp;apos;Omni Development, Inc.&amp;apos;&amp;apos;&amp;apos; in 1993, because the name &amp;quot;Omni Group&amp;quot; was taken by another Seattle firm.  Omni initially produced custom database software for the NEXTSTEP platform for clients such as the [[William Morris Agency]] and [[McCaw Cellular Communications]] (then [[Cingular Wireless]]; now [[AT&amp;amp;T Inc.]]).  During this period they also ported a number of games to NEXTSTEP, then later to Mac OS X (after Apple acquired NeXT in 1997). Around 2000 the company decided to start focusing on their own consumer applications for the Mac, and as of 2004 the vast majority of their revenue came from their consumer products. In 2003 Ken Case took over as the chief officer of Omni, and in March 2004 Wil Shipley left with another Omni employee, interface designer [[Mike Matas]], to form [[Delicious Monster]]. Matas later left for Apple.
+
+The Omni Group also administers several [[mailing list]]s related to Mac OS X and software development. They also provide several frameworks for [[Cocoa (software)|Cocoa]] software development under an [[open source]] license.
+
+[[OmniGraffle]] and [[OmniOutliner]] have won [[Macworld]] Editors&amp;apos; Choice Awards. At the Macintosh [[Worldwide Developers Conference]] in 2001, OmniWeb 4.0 won two [[Apple Design Awards]]: &amp;quot;Best Mac OS X User Experience&amp;quot; and &amp;quot;Best New Mac OS X Product.&amp;quot; In 2002 OmniGraffle 2.0 won two more Apple Design Awards.
+
+==Products==
+===Productivity===
+* OmniDazzle
+* [[OmniDictionary]]
+* [[OmniDiskSweeper]]
+* [[OmniGraffle]]
+* OmniGraphSketcher
+* [[OmniOutliner]]
+* [[OmniPlan]]
+* [[OmniWeb]]
+* [[OmniFocus]]
+
+===Frameworks===
+The Omni Group uses many [[Application framework|frameworks]] in their applications,&amp;lt;ref&amp;gt;[http://www.omnigroup.com/developer/ Developer Source Code]&amp;lt;/ref&amp;gt; and releases them under an [[open source]] license.&amp;lt;ref&amp;gt;[http://www.omnigroup.com/developer/sourcelicense/ The Omni Source License: a modification of the MIT License]&amp;lt;/ref&amp;gt; Most of the frameworks are dependent on the Mac OS X platform, and require [[Xcode]] 2.3 and thus [[Mac OS X v10.4|Tiger]].
+* OmniAppKit
+* OmniBase
+* OmniFoundation
+* OmniHTML
+* OmniNetworking
+* Omni Web Framework
+
+===Games===
+As users of a platform that was not targeted by commercial porting houses, the Omni Group historically did [[source port]]s of games for NeXTStep/OpenStep [[Pro bono publico|pro bono]], especially maintenance updates of [[id Software|id]] games. They continued to do so during the transition through [[Rhapsody (operating system)|Rhapsody]] into [[Mac OS X|OS X]], catching the eye of the existing Macintosh games industry in the process, and were then contracted to port a number of games commercially.
+* &amp;apos;&amp;apos;Activision Anthology: Remix Edition&amp;apos;&amp;apos;
+* &amp;apos;&amp;apos;Alchemy Deluxe&amp;apos;&amp;apos;
+* &amp;apos;&amp;apos;Aliens Versus Predator 2&amp;apos;&amp;apos;
+* &amp;apos;&amp;apos;Big Money! Deluxe&amp;apos;&amp;apos;
+* &amp;apos;&amp;apos;Doom&amp;apos;&amp;apos;
+* &amp;apos;&amp;apos;Doom II: Hell on Earth&amp;apos;&amp;apos;
+* &amp;apos;&amp;apos;Fallout: A Post-Nuclear Role Playing Game&amp;apos;&amp;apos;
+* &amp;apos;&amp;apos;Fallout 2&amp;apos;&amp;apos;
+* &amp;apos;&amp;apos;Freedom Force&amp;apos;&amp;apos;
+* &amp;apos;&amp;apos;Giants: Citizen Kabuto&amp;apos;&amp;apos;
+* &amp;apos;&amp;apos;Heavy Metal: F.A.K.K.²&amp;apos;&amp;apos;
+* &amp;apos;&amp;apos;Incoming: The Final Conflict&amp;apos;&amp;apos;
+* &amp;apos;&amp;apos;No One Lives Forever 2: A Spy in H.A.R.M.&amp;apos;s Way&amp;apos;&amp;apos;
+* &amp;apos;&amp;apos;Quake&amp;apos;&amp;apos;
+* &amp;apos;&amp;apos;Quake II&amp;apos;&amp;apos;
+* &amp;apos;&amp;apos;Quake III: Arena&amp;apos;&amp;apos;
+* &amp;apos;&amp;apos;Soldier of Fortune II: Double Helix&amp;apos;&amp;apos;
+
+==References==
+{{Reflist}}
+
+==External links==
+*[http://www.omnigroup.com/ The Omni Group]
+*[http://www.macobserver.com/article/2001/06/04.6.shtml Mac Observer: OmniWeb Wins Two OS X Apple Design Awards]
+
+{{DEFAULTSORT:Omni Group, The}}
+[[Category:The Omni Group| The Omni Group]]
+[[Category:Mac software companies]]
+[[Category:Companies based in Seattle, Washington]]
+[[Category:Computer companies of the United States]]
+[[Category:Companies established in 1989]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

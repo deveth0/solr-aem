@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="CFR"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="CFR" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Wiktionary}}
+&amp;apos;&amp;apos;&amp;apos;CFR&amp;apos;&amp;apos;&amp;apos; can refer to:
+&amp;lt;!-- 1,000,000+ Google hits --&amp;gt;
+* [[Code of Federal Regulations]] of the United States
+* [[Council on Foreign Relations]], U.S. foreign policy think tank
+* [[Campaign finance reform in the United States]]
+* [[Centre for Foreign Relations]], [[Tanzania]]
+
+&amp;lt;!-- 100,000+ Google hits --&amp;gt;
+* [[Cost and Freight]], word used in international commerce
+* [[CFR Cluj]], Romanian football club
+* [[Case fatality rate]], term for proportion of people dying of a disease
+* [[Franciscan Friars of the Renewal|The Community of the Franciscan Friars of the Renewal]], a Catholic Religious Community
+
+&amp;lt;!-- 1,000+ Google hits --&amp;gt;
+* [[Charter of Fundamental Rights of the European Union]]
+* [[Căile Ferate Române]], the Romanian state railway
+* [[Canadian Finals Rodeo]]
+* [[Certified first responder]]
+* [[Commander of the Federal Republic|Commander of the Order of the Federal Republic]], Nigerian National Honour
+* &amp;apos;&amp;apos;Chemin de Fer de la Rhune&amp;apos;&amp;apos; also nicknamed [[Petit train de la Rhune|Le Petit train de la Rhune]], a metre gauge rack railway in the French Pyrenees
+* [[Crest factor|Crest Factor]] Reduction, a digital signal processing technique.
+
+&amp;lt;!-- Under 1,000 Google hits --&amp;gt;
+* [[Center for Forest Research]], Canadian research center
+* [[Culdee Fell Railway]], fictional railway in W.V. Awdry&amp;apos;s &amp;apos;&amp;apos;Railway Series&amp;apos;&amp;apos;
+* [[23S rRNA (adenine2503-C2)-methyltransferase]], an enzyme
+* [[23S rRNA (adenine2503-C2,C8)-dimethyltransferase]], an enzyme
+
+{{Disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

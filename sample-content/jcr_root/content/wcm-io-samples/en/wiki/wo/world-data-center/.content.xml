@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="World Data Center"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="World Data Center" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;World Data Centre&amp;apos;&amp;apos;&amp;apos; (WDC) system was created to archive and distribute data collected from the observational programmes of the 1957-1958 [[International Geophysical Year]] by the International Council of Science ([[ICSU]]). The WDCs were funded and maintained by their host countries on behalf of the international science community.
+Originally established in the [[United States]], [[Europe]], [[Soviet Union]], and [[Japan]], the WDC system expanded to other countries and to new scientific disciplines. The WDC system included up to 52 Centres in 12 countries. All data held in WDCs were available for the cost of copying and sending the requested information.
+At the end of 2008, following the ICSU General Assembly in Maputo (Mozambique), the World Data Centres were reformed and a new ICSU World Data System (WDS) established in 2009 building on the 50-year legacy of the ICSU World Data Centre system (WDC) and the ICSU Federation of Astronomical and Geophysical data-analysis Services.
+
+==See also==
+* [[ICSU]]
+
+==External links==
+* [http://www.icsu-wds.org Homepage of the ICSU World Data System]
+* [http://www.icsu.org/ ICSU International Council for Science]
+* [http://www.ngdc.noaa.gov/wdc/list.shtml List of former WDCs]
+
+[[Category:Open data]]
+[[Category:International scientific organizations]]
+
+{{sci-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

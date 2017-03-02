@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Zora"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Zora" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|Zora|zora}}
+&amp;apos;&amp;apos;&amp;apos;Zora&amp;apos;&amp;apos;&amp;apos; may refer to:
+*[[Zora (given name)]]
+*&amp;apos;&amp;apos;Zora&amp;apos;&amp;apos;, a genus of spider in the &amp;apos;&amp;apos;[[Zoridae]]&amp;apos;&amp;apos; family
+*[[Zoras]], a fictional race in &amp;apos;&amp;apos;The Legend of Zelda&amp;apos;&amp;apos; series
+*[[Zora, Pennsylvania]], the site of a Civil War skirmish near [[Monterey Pass]]
+*&amp;apos;&amp;apos;The Red Zora&amp;apos;&amp;apos;, a German children&amp;apos;s book by Kurt Kläber ([[The Outsiders of Oskoken Castle]])
+*[[Zora Lancaster]], a character played by Allisyn Ashley Arm on &amp;apos;&amp;apos;Sonny With a Chance&amp;apos;&amp;apos;
+* [[Zora Arkus-Duntov]] (1909–1996), Belgian-born American engineer whose work on the Chevrolet Corvette earned him the nickname &amp;quot;Father of the Corvette&amp;quot;
+*[[Zora (vampire)]], the Italian comic book erotic character
+* Zora, the pseudonym of trip-hop artist Larry Hansen
+
+==See also==
+* Zhora, a [[List of Blade Runner characters|character in &amp;apos;&amp;apos;Blade Runner&amp;apos;&amp;apos;]]
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

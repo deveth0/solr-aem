@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Editorial board"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Editorial board" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{nofootnotes|date=May 2011}}
+{{refimprove|date=May 2011}}
+The &amp;apos;&amp;apos;&amp;apos;editorial board&amp;apos;&amp;apos;&amp;apos; is a group of people, usually at a publication, who dictate the tone and direction the publication&amp;apos;s [[editorial]] policy will take.
+
+== Board makeup ==
+At a newspaper, the editorial board usually consists of the editorial page editor, and [[editorial writer]]s. Some newspapers include other personnel as well.
+
+Editorial boards for magazines may include experts in the subject area that the magazine focuses on, and larger magazines may have several editorial boards grouped by subject. An executive editorial board may oversee these subject boards, and usually includes the executive editor and representatives from the subject focus boards.
+
+Book publishers may also make use of editorial boards, using subject experts to select manuscripts.
+
+Almost all [[academic journal]]s have an editorial board consisting of selected, unpaid experts in the academic field covered by a journal. This is almost always an honorary position, although board members sometimes provide [[peer review]] of submissions.
+
+== Functions ==
+Editorial boards meet on a regular basis to discuss the latest news and opinion trends and discuss what the newspaper should say on a range of issues. They will then decide who will write what editorials and for what day. When such an editorial appears in a newspaper, it is considered the institutional opinion of that newspaper.
+
+At some newspapers, the editorial board will also review [[wire service]] and [[print syndication|syndicated]] columns for inclusion on the editorial page or op-ed page.
+
+Some newspapers, particularly small ones, do not have an editorial board, choosing instead to rely on the judgment of a single editorial page editor.
+
+Book and magazine publishers will often use their editorial boards to review or select manuscripts or articles, and sometimes to check facts.
+
+==Role in political campaigns==
+The editorial board controls the endorsement process for the newspaper during campaigns.  Candidates will come before the editorial board for a group interview which can last for several hours, depending on the office.  During the meeting, the board asks the candidate a range of questions on various issues and uses the meeting as a way to judge which candidate to endorse.
+
+Candidates may routinely meet with editorial board early in their campaigns in order to provide their opinions to the newspaper&amp;apos;s decision makers.  This is a way to steer media coverage their way and to influence the final endorsement.
+
+== External links ==
+* [http://www.clintreilly.com/?p=134 &amp;apos;&amp;apos;Editorial Boards and the Public Interest&amp;apos;&amp;apos; by Clint Reilly]
+
+[[Category:Editing]]
+[[Category:Journalism occupations]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

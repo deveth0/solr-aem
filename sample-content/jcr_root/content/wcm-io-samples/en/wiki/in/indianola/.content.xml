@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Indianola"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Indianola" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Indianola&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+*[[Indianola, California (disambiguation)]]
+**[[Indianola (Eureka), California]]
+**[[Indianola (Fields Landing), California]]
+* [[Indianola, Florida]]
+* [[Indianola, Illinois]]
+* [[Indianola, Iowa]]
+* [[Indianola, Mississippi]]
+* [[Indianola, Nebraska]]
+* [[Indianola, Oklahoma]]
+* [[Indianola, Texas]], a ghost town
+* [[Indianola, Utah]]
+* [[Indianola, Washington]]
+
+==Other==
+*[[Indianola (album)|&amp;apos;&amp;apos;Indianola&amp;apos;&amp;apos; (album)]], a 2007 album by Steve Azar
+* [[Indianola Records]], American independent record label
+*&amp;apos;&amp;apos;[[USS Indianola (1862)|USS Indianola]]&amp;apos;&amp;apos;, an iron-clad ship of the American Civil War
+{{disambig}}
+[[Category:Place name disambiguation pages]]
+
+[[bg:Индианола]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

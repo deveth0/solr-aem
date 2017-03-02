@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Zeller"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Zeller" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Zeller&amp;apos;&amp;apos;&amp;apos;, meaning both prisoner and monk in German, may refer to:
+
+*[[Zeller (surname)]]
+*[[Zeller See]], Lake Zeller, in Austria
+*[[Zeller Glacier]], glacier in Antarctica
+
+==In fiction==
+* Sniper rifle in the 2006 computer game &amp;apos;&amp;apos;[[Battlefield 2142]]&amp;apos;&amp;apos;
+* Herr Zeller, the Gauleiter, in both &amp;apos;&amp;apos;[[The Sound of Music]]&amp;apos;&amp;apos;, musical and movie
+* Julie Zeller in the play &amp;quot;Liliom&amp;quot;, which was the basis for [[Carousel (musical)|&amp;apos;&amp;apos;Carousel&amp;apos;&amp;apos; (musical)]]
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

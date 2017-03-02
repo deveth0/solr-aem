@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Tetragonal crystal system"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Tetragonal crystal system" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{refimprove|date=July 2011}}
+[[Image:WulfeniteUSGOV.jpg|thumb|right|200px|An example of the tetragonal crystals, [[wulfenite]]]]
+In [[crystallography]], the &amp;apos;&amp;apos;&amp;apos;tetragonal&amp;apos;&amp;apos;&amp;apos; [[crystal system]] is one of the 7 lattice [[point group]]s. Tetragonal [[crystal lattice]]s result from stretching a cubic lattice along one of its lattice vectors, so that the [[Cube (geometry)|cube]] becomes a rectangular [[Prism (geometry)|prism]] with a square base (&amp;apos;&amp;apos;a&amp;apos;&amp;apos; by &amp;apos;&amp;apos;a&amp;apos;&amp;apos;) and height (&amp;apos;&amp;apos;c&amp;apos;&amp;apos;, which is different from &amp;apos;&amp;apos;a&amp;apos;&amp;apos;).
+
+There are two tetragonal [[Bravais lattice]]s: the simple tetragonal (from stretching the simple-cubic lattice) and the centered tetragonal (from stretching either the face-centered or the body-centered cubic lattice).  One might suppose stretching face-centered cubic would result in face-centered tetragonal, but face-centered tetragonal is equivalent to body-centered tetragonal, BCT (with a smaller lattice spacing).  BCT is considered more fundamental, so that is the standard terminology.&amp;lt;ref&amp;gt;{{Cubic-to-Tetragonal Transition|url=http://www.aem.umn.edu/people/faculty/shield/hane/tet.html}}&amp;lt;/ref&amp;gt;
+
+{| class=wikitable
+|+ Tetragonal Bravais lattices
+!Primitive
+!Body-centered
+|-
+|[[image:Tetragonal.svg|100px]]
+|[[image:Tetragonal-body-centered.svg|100px]]
+|}
+
+The [[crystallographic point group|point groups]] that fall under this crystal system are listed below, followed by their representations in international notation and [[Schoenflies notation]], and [[mineral]] examples.&amp;lt;ref&amp;gt;http://webmineral.com/crystal/Tetragonal.shtml Webmineral&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;Hurlbut, Cornelius S.; Klein, Cornelis, 1985, &amp;apos;&amp;apos;Manual of Mineralogy&amp;apos;&amp;apos;, 20th ed., pp. 73 - 78, ISBN 0-471-80580-7 &amp;lt;/ref&amp;gt;
+
+{| class=&amp;quot;wikitable&amp;quot;
+!rowspan=2 width=60|#
+!colspan=5|Point group
+!rowspan=2|Example
+!rowspan=2|[[Space group]]s
+|-
+!Class
+![[Hermann-Mauguin_notation|Intl]]
+![[Schoenflies notation|Schoenflies]]
+![[Orbifold]]
+![[Coxeter notation|Coxeter]]
+|-
+!75-80
+|Tetragonal pyramidal
+|4||&amp;apos;&amp;apos;C&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt;&amp;apos;&amp;apos;||44||[4]&amp;lt;sup&amp;gt;+&amp;lt;/sup&amp;gt;
+|[[pinnoite]], [[richellite]]
+| P4,  P4&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt;, P4&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;, P4&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;, I4, I4&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt;
+|-
+!81-82
+|Tetragonal disphenoidal
+|{{overline|4}}||&amp;apos;&amp;apos;S&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt;&amp;apos;&amp;apos;||2x||[2&amp;lt;sup&amp;gt;+&amp;lt;/sup&amp;gt;,4&amp;lt;sup&amp;gt;+&amp;lt;/sup&amp;gt;]
+|[[cahnite]], [[tugtupite]]
+| P{{overline|4}}, I{{overline|4}}
+|-
+!83-88
+|Tetragonal dipyramidal
+|4/m||&amp;apos;&amp;apos;C&amp;lt;sub&amp;gt;4h&amp;lt;/sub&amp;gt;&amp;apos;&amp;apos;||4*||[2,4&amp;lt;sup&amp;gt;+&amp;lt;/sup&amp;gt;]
+|[[scheelite]], [[wulfenite]], [[leucite]]
+| P4/m, P4&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;/m, P4/n, P4&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;/n, I4/m, I4&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt;/a
+|-
+!89-98
+|Tetragonal trapezohedral
+|422||&amp;apos;&amp;apos;D&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt;&amp;apos;&amp;apos;||224||[2,4]&amp;lt;sup&amp;gt;+&amp;lt;/sup&amp;gt;
+|[[cristobalite]], [[wardite]]
+| P422, P42&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt;2, P4&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt;22, P4&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt;2&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt;2, P4&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;22, P4&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;2&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt;2, P4&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;22, P4&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;2&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt;2, I422, I4&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt;22
+|-
+!99-110
+|Ditetragonal pyramidal
+|4mm|| &amp;apos;&amp;apos;C&amp;lt;sub&amp;gt;4v&amp;lt;/sub&amp;gt;&amp;apos;&amp;apos;||*44||[4]
+|[[diaboleite]]
+| P4mm, P4bm, P4&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;cm, P4&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;nm, P4cc, P4nc, P4&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;mc, P4&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;bc, I4mm, I4cm, I4&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt;md, I4&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt;cd
+|-
+!111-122
+|Tetragonal scalenohedral
+|{{overline|4}}2m||&amp;apos;&amp;apos;D&amp;lt;sub&amp;gt;2d&amp;lt;/sub&amp;gt;&amp;apos;&amp;apos;||2*2||[2&amp;lt;sup&amp;gt;+&amp;lt;/sup&amp;gt;,4]
+|[[chalcopyrite]], [[stannite]]
+| P{{overline|4}}2m, P{{overline|4}}2c, P{{overline|4}}2&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt;m, P{{overline|4}}2&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt;c, P{{overline|4}}m2, P{{overline|4}}c2, P{{overline|4}}b2, P{{overline|4}}n2, I{{overline|4}}m2, I{{overline|4}}c2, I{{overline|4}}2m, I{{overline|4}}2d
+|-
+!123-142
+|Ditetragonal dipyramidal
+|4/mmm||&amp;apos;&amp;apos;D&amp;lt;sub&amp;gt;4h&amp;lt;/sub&amp;gt;&amp;apos;&amp;apos;||*224||[2,4]
+|[[rutile]], [[pyrolusite]], [[zircon]]
+| P4/mmm, P4/mcc, P4/nbm, P4/nnc, P4/mbm, P4/mnc, P4/nmm, P4/ncc, P4&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;/mmc, P4&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;/mcm, P4&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;/nbc, P4&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;/nnm, P4&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;/mbc, P4&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;/mnm, P4&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;/nmc, P4&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;/ncm, I4/mmm, I4/mcm, I4&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt;/amd, I4&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt;/acd
+|}
+
+==See also==
+*[[Crystal structure]]
+*[[point groups]]
+*[[Bravais lattices]]
+
+==References==
+{{Reflist}}
+
+{{Crystal systems}}
+
+[[Category:Crystallography]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

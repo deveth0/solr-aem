@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Web developer"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Web developer" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{for|the Mozilla extension|Web Developer (Mozilla extension)}}
+{{Refimprove|date=May 2013}}
+
+A &amp;apos;&amp;apos;&amp;apos;web developer&amp;apos;&amp;apos;&amp;apos; is a [[programmer]] who specializes in, or is specifically engaged in, the development of [[World Wide Web]] applications, or distributed network applications that are run over [[HTTP]] from a [[web server]] to a [[web browser]].
+
+== Nature of employment ==
+
+Web developers can be found working in all types of organizations, including large [[corporations]] and [[governments]], small and medium sized [[companies]], or alone as [[freelancers]]. Some web developers work for one organization as a permanent [[full-time]] employee, while others may work as independent [[consultants]], or as contractors for an [[employment agency]]
+
+== Type of work performed ==
+
+Modern [[web applications]] often contain three or more [[Multitier architecture|tiers]],&amp;lt;ref&amp;gt;{{cite web | url=http://docforge.com/wiki/Web_application#Components | title=Web application | author=Multiple (wiki) | work=Docforge | accessdate=2012-12-07 }}&amp;lt;/ref&amp;gt; and depending on the size of the team a developer works on, he or she may specialize in one or more of these tiers - or may take a more [[interdisciplinary]] role.&amp;lt;ref&amp;gt;{{cite web | url=http://docforge.com/wiki/Web_development | title=Web development | author=Multiple (wiki) | work=Docforge | accessdate=2012-12-07 }}&amp;lt;/ref&amp;gt; For example, in a two person team, one developer may focus on the technologies sent to the [[Client-side|client]] such as [[HTML]], [[JavaScript]], [[CSS]], and on the [[server-side]] frameworks (such as [[Perl]], [[Python (programming language)|Python]], [[Ruby (programming language)|Ruby]], [[PHP]], [[Java (programming language)|Java]], [[Active Server Pages|ASP]], [[.NET Framework|.NET]], [[ASP.NET MVC Framework|.NET MVC]]) used to deliver content and scripts to the client. Meanwhile the other developer might focus on the interaction between server-side frameworks, the [[web server]], and a [[database]] system. Further, depending on the size of their organization, the aforementioned developers might work closely with a content creator/copy writer, marketing advisor, [[web designer]], [[web producer]], [[project manager]], [[software architect]], or [[database administrator]] - or they may be responsible for such tasks as [[web design]] and [[project management]] themselves.
+
+== Educational and licensure requirements ==
+
+There are no formal educational or licensure requirements to become a web developer. However, many colleges and trade schools offer coursework in web development. There are also many tutorials and articles, which teach web development, freely available on the web - for example: http://en.wikiversity.org/wiki/Basic_JavaScript
+
+Even though there are no formal educational requirements, dealing with web developing projects requires those who wish to be referred to as web developers to have advanced knowledge/skills in:
+* HTML/XHTML, CSS, JavaScript
+* [[server-side|Server]]/[[Client-side|Client]] side architecture
+* Programming/Coding/Scripting in one of the many server-side frameworks (at least one of: [[Perl]], [[Python (programming language)|Python]], [[Ruby (programming language)|Ruby]], [[PHP]], [[ColdFusion Markup Language|CFML - ColdFusion]], [[Java (programming language)|Java]], [[Active Server Pages|ASP]], [[.NET Framework|.NET]], [[ASP.NET MVC Framework|.NET MVC]])
+* Ability to utilize a [[Web development#Database_Technology|database]]
+
+== See also ==
+* [[Web design]]
+* [[Web development]]
+* [[Web engineering]]
+* [[Software developer]]
+
+==References==
+{{reflist|2}}
+
+== External links ==
+{{Wikiversity|Web design}}
+* [http://www.w3.org/standards/webdesign/ W3C consortium for web standards]
+* {{dmoz|Computers/Internet/Web_Design_and_Development|Web design and development}}
+
+[[Category:Web development]]
+[[Category:Computer occupations]]
+
+[[nl:Webdevelopment]]
+[[ru:Веб-разработчик]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

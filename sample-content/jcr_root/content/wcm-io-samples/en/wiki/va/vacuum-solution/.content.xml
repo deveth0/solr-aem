@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Vacuum solution"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Vacuum solution" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;A &amp;apos;&amp;apos;&amp;apos;vacuum solution&amp;apos;&amp;apos;&amp;apos; is a solution of a [[field equation]] in which the sources of the field are taken to be identically zero. That is, such field equations are written without [[matter]] interaction (i.e.- set to zero).
+
+==Examples==
+*In Maxwell&amp;apos;s theory of [[electromagnetism]], a vacuum solution would represent the electromagnetic field in a region of space where there are no electromagnetic sources (charges and electric currents), i.e. where the current 4-vector vanishes:&amp;lt;ref name=Esposito1997&amp;gt;{{Citation
+ | doi = 10.1016/S0375-9601(96)00872-9
+ | title = Classical vgr? c solutions of Maxwell&amp;apos;s equations and the photon tunneling effect
+ | url = http://linkinghub.elsevier.com/retrieve/pii/S0375960196008729
+ | year = 1997
+ | author = Esposito, S.
+ | journal = Physics Letters A
+ | pages = 203–209
+ | volume = 225
+ | issue = 4-6
+ | accessdate = 2009-07-04
+|arxiv = physics/9611018 |bibcode = 1997PhLA..225..203E }}&amp;lt;/ref&amp;gt;
+
+:&amp;lt;math&amp;gt;J^a=0&amp;lt;/math&amp;gt;
+
+*Einstein&amp;apos;s theory of [[general relativity]] where a [[vacuum solution (general relativity)|vacuum solution]]&amp;lt;ref name=Stephani2003&amp;gt;{{Citation
+ | title =  Exact solutions of Einstein&amp;apos;s field equations
+ | url = http://www.loc.gov/catdir/samples/cam033/2002071495.pdf
+ | year = 2003
+ | author = Stephani, H.
+ | accessdate = 2009-07-04
+}}&amp;lt;/ref&amp;gt; would represent the gravitational field in a region of spacetime where there are no gravitational sources (masses), i.e. where the energy-momentum tensor vanishes:&amp;lt;ref name=Quevedo1990&amp;gt;{{Citation
+ | doi = 10.1002/prop.2190381002
+ | title = Multipole Moments in General Relativity-Static and Stationary Vacuum Solutions
+ | url = http://www3.interscience.wiley.com/journal/112587363/abstract
+ | year = 1990
+ | author = Quevedo, H.
+ | pages = 733
+ | journal = Fortschritte der Physik/Progress of Physics
+ | volume = 38
+ | issue = 10
+ | accessdate = 2009-07-04
+|bibcode = 1990ForPh..38..733Q }}&amp;lt;/ref&amp;gt;
+
+:&amp;lt;math&amp;gt;T_{ab}=0&amp;lt;/math&amp;gt;
+
+*[[Kaluza-Klein]] vacuum (static) field equations&amp;lt;ref name=Sorkin1983&amp;gt;{{Citation
+ | title = Kaluza-klein monopole
+ | doi = 10.1103/PhysRevLett.51.87
+ | year = 1983
+ | author = Sorkin, R.D.
+ | journal = Physical Review Letters
+ | pages = 87–90
+ | volume = 51
+ | issue = 2
+| bibcode=1983PhRvL..51...87S
+}}&amp;lt;/ref&amp;gt;
+
+*Kasner vacuum solution&amp;lt;ref&amp;gt;{{Citation
+ | title = Where has the fifth dimension gone?
+ | doi = 10.1103/PhysRevD.21.2167
+ | year = 1980
+ | journal = Physical Review D
+ | pages = 2167–2170
+ | volume = 21
+ | issue = 8
+ | last1 = Chodos  | first1 =  A.
+ | last2 =  Detweiler  | first2 =  S. |bibcode = 1980PhRvD..21.2167C }}&amp;lt;/ref&amp;gt;
+
+==See also==
+*[[Einstein field equations]]
+*[[Kasner metric]]
+*[[Kerr metric]]
+*[[Maxwell&amp;apos;s equations]]
+*[[Vacuum solution (general relativity)]]
+
+==Notes==
+{{reflist}}
+
+==References==
+*{{Citation
+ | title = Gravitational lensing effects of vacuum strings- Exact solutions
+ | bibcode = 1985ApJ...288..422G
+ | year = 1985
+ | journal = Astrophysical Journal
+ | volume = 288
+ | issue = Part 1
+ | last1 = Gott  | first1 =  J.R.
+ | last2 =  Richard  | first2 =  J. |doi = 10.1086/162808 }}
+*{{Citation
+ | doi = 10.1007/s002200050571
+ | title = The initial boundary value problem for Einstein&amp;apos;s vacuum field equation
+ | url = http://math.msu.edu/~gnagy/papers/hFgN99.pdf
+ | year = 1999
+ | journal = Communications in Mathematical Physics
+ | pages = 619–655
+ | volume = 201
+ | issue = 3
+ | last1 = Friedrich   | first1 =  H.
+ | last2 =  Nagy   | first2 =  G.
+ | accessdate = 2009-07-04  |bibcode = 1999CMaPh.201..619F }}
+*{{Citation
+ | title = Quantum dynamics of Kaluza-Klein theories
+ | doi = 10.1103/PhysRevD.28.772
+ | year = 1983
+ | journal = Physical Review D
+ | pages = 772–784
+ | volume = 28
+ | issue = 4
+ | last1 = Appelquist  | first1 =  T.
+ | last2 =  Chodos   | first2 =  A. |bibcode = 1983PhRvD..28..772A }}
+
+[[Category:Theoretical physics]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

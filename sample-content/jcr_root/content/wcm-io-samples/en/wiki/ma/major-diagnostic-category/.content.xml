@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Major Diagnostic Category"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Major Diagnostic Category" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;Major Diagnostic Categories&amp;apos;&amp;apos;&amp;apos; (MDC) are formed by dividing all possible principal diagnoses (from [[ICD]]-9-CM) into 25 mutually exclusive diagnosis areas. MDC codes, like [[Diagnosis-related group|DRG]] codes, are primarily a claims and administrative data element unique to the [[United States]] medical care reimbursement system. DRG codes also are mapped, or grouped, into MDC codes.
+
+The diagnoses in each MDC correspond to a single organ system or [[etiology]] and, in general, are associated with a particular medical specialty. MDC 1 to MDC 23 are grouped according to principal diagnoses. Patients are assigned to MDC 24 (Multiple Significant [[Physical trauma|Trauma]]) with at least two significant trauma diagnosis codes (either as principal or secondaries) from different body site categories. Patients assigned to MDC 25 ([[HIV]] Infections) must have a principal diagnosis of an HIV Infection or a principal diagnosis of a significant HIV related condition and a secondary diagnosis of an HIV Infection.
+
+MDC 0, unlike the others, can be reached from a number of diagnosis/procedure situations, all related to transplants. This is due to the expense involved for the transplants so designated and because these transplants can be needed for a number of reasons which do not all come from one diagnosis domain.  DRGs which reach MDC 0 are assigned to the MDC for the principal diagnosis instead of to the MDC associated with the designated DRG.
+
+==List of Major Diagnostic Categories==
+
+{| class=&amp;quot;wikitable&amp;quot; width=&amp;quot;50%&amp;quot;
+!MDC
+!Description
+|-
+!0
+|Pre-MDC
+|-
+!1
+|Nervous System
+|-
+!2
+|Eye
+|-
+!3
+|Ear, Nose, Mouth And Throat
+|-
+!4
+|Respiratory System
+|-
+!5
+|Circulatory System
+|-
+!6
+|Digestive System
+|-
+!7
+|Hepatobiliary System And Pancreas
+|-
+!8
+|Musculoskeletal System And Connective Tissue
+|-
+!9
+|Skin, Subcutaneous Tissue And Breast
+|-
+!10
+|Endocrine, Nutritional And Metabolic System
+|-
+!11
+|Kidney And Urinary Tract
+|-
+!12
+|Male Reproductive System
+|-
+!13
+|Female Reproductive System
+|-
+!14
+|Pregnancy, Childbirth And Puerperium
+|-
+!15
+|Newborn And Other Neonates (Perinatal Period)
+|-
+!16
+|Blood and Blood Forming Organs and Immunological Disorders
+|-
+!17
+|Myeloproliferative DDs (Poorly Differentiated Neoplasms)
+|-
+!18
+|Infectious and Parasitic DDs
+|-
+!19
+|Mental Diseases and Disorders
+|-
+!20
+|Alcohol/Drug Use or Induced Mental Disorders
+|-
+!21
+|Injuries, Poison And Toxic Effect of Drugs
+|-
+!22
+|Burns
+|-
+!23
+|Factors Influencing Health Status
+|-
+!24
+|Multiple Significant Trauma
+|-
+!25
+|Human Immunodeficiency Virus Infection
+|-
+|}
+
+== See also ==
+* [[Diagnosis codes]]
+* [[Medical classification]]
+
+==External links==
+*[http://health.utah.gov/opha/IBIShelp/codes/MDC.htm Utah Department of Health - description of MDC]
+
+[[Category:Diagnosis classification]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

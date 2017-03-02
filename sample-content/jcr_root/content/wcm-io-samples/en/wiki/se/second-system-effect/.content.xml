@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Second-system effect"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Second-system effect" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;second-system effect&amp;apos;&amp;apos;&amp;apos; (also known as &amp;apos;&amp;apos;second-system syndrome&amp;apos;&amp;apos;) refers to the tendency of small, [[elegant]], and successful systems to have elephantine, feature-laden monstrosities as their successors due to inflated expectations.&amp;lt;ref&amp;gt; {{cite web | url = http://catb.org/jargon/html/S/second-system-effect.html | title = second-system effect | accessdate = 24 Jun 2013 | last = Raymond | first = Eric | work = The Jargon File}}&amp;lt;/ref&amp;gt;
+
+The term was first used by [[Fred Brooks]] in his classic &amp;apos;&amp;apos;[[The Mythical Man-Month]]&amp;apos;&amp;apos;.&amp;lt;ref name=&amp;quot;mythical&amp;quot;&amp;gt;{{cite book|last=Brooks, Jr.|first=Frederick P.|title=The Mythical Man-Month: essays on software engineering|pages=53|origyear=1975|year=2006|month=December|edition=Anniversary ed.|publisher=Addison Wesley Longman|isbn=0-201-83595-9|chapter=The Second-System Effect}}&amp;lt;/ref&amp;gt; It described the jump from a set of simple operating systems on the [[IBM 700/7000 series]] to [[OS/360]] on the 360 series.
+
+== See also ==
+
+* [[Anti-pattern]]
+* [[Feature creep]]
+* [[Inner-platform effect]]
+* [[Software bloat]]
+* [[Sophomore slump]]
+* [[Unix philosophy]]
+
+== Notes ==
+
+{{reflist}}
+
+== References ==
+
+{{refbegin}}
+{{FOLDOC}}
+{{refend}}
+
+== External links ==
+
+* [http://www.joelonsoftware.com/articles/fog0000000069.html Things You Should Never Do] by Joel Spolsky, about the Netscape project
+* [http://notes-on-haskell.blogspot.com/2007/08/rewriting-software.html Rewriting Software], in Notes on Haskell
+* [http://www.neilgunton.com/doc/rewrites_harmful Rewrites Considered Harmful?] by Neil Gunton
+* [http://chadfowler.com/blog/2006/12/27/the-big-rewrite/ The Big Rewrite] by Chad Fowler
+
+{{software-eng-stub}}
+
+[[Category:Anti-patterns]]
+[[Category:Software quality]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

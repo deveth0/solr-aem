@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Expert shopping"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Expert shopping" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced stub|auto=yes|date=December 2009}}
+&amp;apos;&amp;apos;&amp;apos;Expert shopping&amp;apos;&amp;apos;&amp;apos; is the practice of finding an expert on a given subject whose professional opinion is skewed toward the answer that the searching party already prefers. This is commonplace in the [[news media]], [[politic]]s, and [[business]], though can be found in all walks of life.
+
+Another well-known use is in [[lawsuit]]s, when an [[expert witness]] can be paid to testify in favor of one side of the case. In this case, the expert witnesses on each side may have totally different opinions. Explicitly, this qualifies as [[perjury]], but in practice it is difficult to prove, particularly when the expert&amp;apos;s testimony is not considered abhorrent by his or her colleagues. They are thus inclined to allow him his scholarly opinion with reservation, instead of formally contesting it.
+
+{{DEFAULTSORT:Expert Shopping}}
+[[Category:Evidence law]]
+
+
+{{Law-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

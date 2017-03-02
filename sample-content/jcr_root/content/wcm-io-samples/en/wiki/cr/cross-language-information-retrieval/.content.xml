@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Cross-language information retrieval"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Cross-language information retrieval" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{unreferenced|date=January 2009}}
+
+&amp;apos;&amp;apos;&amp;apos;Cross-language information retrieval (CLIR)&amp;apos;&amp;apos;&amp;apos; is a subfield of [[information retrieval]] dealing with retrieving information written in a language different from the language of the user&amp;apos;s query. For example, a user may pose their query in English but retrieve relevant documents written in French. To do so, most of CLIR systems use translation techniques.  CLIR techniques can be classified into different categories based on different translation resources:
+* Dictionary-based CLIR techniques
+* Parallel corpora based CLIR techniques
+* Comparable corpora based CLIR techniques
+* Machine translator based CLIR techniques
+
+The first workshop on CLIR was held in Zürich during the SIGIR-96 conference.&amp;lt;ref&amp;gt;The proceedings of this workshop can be found in the book &amp;apos;&amp;apos;Cross-Language Information Retrieval&amp;apos;&amp;apos; (Grefenstette, ed; Kluwer, 1998) ISBN 0-7923-8122-X.&amp;lt;/ref&amp;gt; Workshops have been held yearly since 2000 at the meetings of the [[Cross Language Evaluation Forum]] (CLEF).
+
+The term &amp;quot;cross-language information retrieval&amp;quot; has many synonyms, of which the following are perhaps the most frequent: cross-lingual information retrieval, translingual information retrieval, multilingual information retrieval. The term &amp;quot;multilingual information retrieval&amp;quot; refers to CLIR in general, but it also has a specific meaning of cross-language information retrieval where a document collection is multilingual.
+
+==See also==
+*[[EXCLAIM]] (EXtensible Cross-Linguistic Automatic Information Machine)
+
+==References==
+&amp;lt;references /&amp;gt;
+
+==External links==
+*[http://www.glue.umd.edu/~oard/research.html A resource page for CLIR]
+
+{{DEFAULTSORT:Cross-Language Information Retrieval}}
+[[Category:Information retrieval]]
+[[Category:Natural language processing]]
+
+
+{{linguistics-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

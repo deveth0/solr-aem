@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Xenophon (crater)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Xenophon (crater)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{lunar crater data |
+ image=[[Image:Zhiritskiy crater.jpg|200px]]|
+ caption=Xenophon is at top center, to the north of
+[[Zhiritskiy (crater)|Zhiritskiy&amp;amp;nbsp;F]]. &amp;apos;&amp;apos;[[NASA]]&amp;amp;nbsp;photo&amp;apos;&amp;apos;.|
+ latitude=22.8|
+ N_or_S=S|
+ longitude=122.1|
+ E_or_W=E|
+ diameter=25 km|
+ depth=&amp;apos;&amp;apos;Unknown&amp;apos;&amp;apos;|
+ colong=238|
+ eponym=[[Xenophon]]}}
+
+&amp;apos;&amp;apos;&amp;apos;Xenophon&amp;apos;&amp;apos;&amp;apos; is a small [[Moon|lunar]] [[Impact crater|crater]] that lies across the southern rim of the walled plain [[Fermi (crater)|Fermi]], to the west of the crater [[Tsiolkovskiy (crater)|Tsiolkovskiy]]. South of Xenophon is Zhiritskiy F, a satellite crater of [[Zhiritskiy (crater)|Zhiritskiy]] to the south-southwest.
+
+The rim of this crater is eroded and crossed by several tiny craterlets, especially along the western edge. The interior floor is relatively featureless. This crater is located on the [[Far side (Moon)|far side]] of the [[Moon]] and cannot be seen directly from the [[Earth]].
+
+==References==
+{{Lunar crater references}}
+
+==External links==
+* [http://www.lpi.usra.edu/resources/mapcatalog/LTO/lto101b4_2/ LTO-101B4 Babakin] &amp;amp;mdash; L&amp;amp;PI [[topographic map]]
+
+[[Category:Impact craters on the Moon]]
+
+{{Moon-crater-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

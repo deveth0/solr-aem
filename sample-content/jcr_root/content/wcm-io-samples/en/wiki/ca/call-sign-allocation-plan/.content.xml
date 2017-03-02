@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Call-sign allocation plan"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Call-sign allocation plan" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{no footnotes|date=March 2013}}
+{{Orphan|date=February 2009}}
+In [[telecommunication]], &amp;apos;&amp;apos;&amp;apos;call-sign allocation plan&amp;apos;&amp;apos;&amp;apos; is the table of [[Frequency allocation|allocation]] of international [[call sign]] series contained in the current edition of the &amp;apos;&amp;apos;[[International Telecommunication Union]] (ITU) &amp;apos;&amp;apos;[[Radio Regulations]]&amp;apos;&amp;apos;.&amp;apos;&amp;apos;
+
+&amp;apos;&amp;apos;Note:&amp;apos;&amp;apos;  In the table of allocation, the first two characters of each call sign (whether two letters or one number and one letter, in that order) identify the nationality of the [[station (telecommunication)|station]]. In certain instances where the complete alphabetical [[block]] is allocated to a single nation, the first letter is sufficient for national identity. Individual assignments are made by appropriate national assignment authorities from the national allocation.
+
+==See also==
+* [[North American call sign]]
+* [[ITU prefix]]
+* [[Airline codes]]
+
+==References==
+*[[Code of Federal Regulations]], Telecommunications Parts 0-199
+*{{FS1037C}}
+
+[[Category:Call signs]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

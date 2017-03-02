@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="CRM114 (program)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="CRM114 (program)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{for|the fictional device|CRM 114 (fictional device)}}
+&amp;apos;&amp;apos;&amp;apos;CRM114&amp;apos;&amp;apos;&amp;apos; (full name: &amp;quot;The CRM114 Discriminator&amp;quot;) is a program based upon a statistical approach for [[data classification|classifying data]], and especially used for filtering [[Spam (e-mail)|email spam]].
+
+== Origin of the name ==
+The name comes from the [[CRM 114 (device)|CRM-114 Discriminator]]  in  the [[Stanley Kubrick]] movie [[Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb|Dr. Strangelove]] - a piece of radio equipment designed to filter out messages lacking a specific code-prefix.
+
+== Operation ==
+While others have done statistical [[Bayesian filtering]] based upon the frequency of single word occurrences in email, CRM114 achieves a higher rate of spam recognition through creating hits based upon phrases up to five words in length. These phrases are used to form a [[Markov Random Field]] representing the incoming texts.  With this additional contextual recognition, it is one of the more accurate spam filters available. Initial testing in 2002 by author Bill Yerazunis&amp;lt;ref&amp;gt;[http://www.networkworld.com/supp/2007/ndc2/031907-antispam-man.html &amp;quot;The antispam man &amp;quot;], March 19, 2007, Cara Garretson, Network World&amp;lt;/ref&amp;gt; gave a 99.87% accuracy;&amp;lt;ref&amp;gt;[http://www.paulgraham.com/wsy.html &amp;quot;Bill Yerazunis: Better Than Human&amp;quot;], [[Paul Graham (computer programmer)|Paul Graham&amp;apos;s]] website&amp;lt;/ref&amp;gt; Holden &amp;lt;ref name=holden&amp;gt;[http://web.archive.org/web/20050307062526/http://sam.holden.id.au/writings/spam2/ &amp;apos;&amp;apos;Spam Filtering II&amp;apos;&amp;apos;]&amp;lt;/ref&amp;gt; and [[Trec|TREC 2005 and 2006]].&amp;lt;ref name=&amp;quot;trec14&amp;quot;&amp;gt;[http://trec.nist.gov/pubs/trec14/papers/SPAM.OVERVIEW.pdf &amp;apos;&amp;apos;Spam Track Overview&amp;apos;&amp;apos; (2005)] - [[Text Retrieval Conference|TREC 2005]]&amp;lt;/ref&amp;gt;&amp;lt;ref name=&amp;quot;trec15&amp;quot;&amp;gt;[http://trec.nist.gov/pubs/trec15/papers/SPAM06.OVERVIEW.pdf &amp;apos;&amp;apos;Spam Track Overview&amp;apos;&amp;apos; (2006)] - [[Text Retrieval Conference|TREC 2005]]&amp;lt;/ref&amp;gt; gave results of better than 99%, with significant variation depending on the particular corpus.
+
+CRM114&amp;apos;s [[classifier]] can also be switched to use Littlestone&amp;apos;s [[Winnow (algorithm)|Winnow]] algorithm, character-by-character [[correlation]], a variant on KNN ([[K-nearest neighbor algorithm]]) classification called Hyperspace, a bit-entropic classifier that uses [[entropy encoding]] to determine similarity, a [[support vector machine|SVM]], by mutual compressibility as calculated by a modified [[Lempel-Ziv|LZ77]] algorithm, and other more experimental classifiers.
+
+The CRM114 algorithms are multi-lingual and null-safe.  A voting set of CRM114 classifiers have been demonstrated to detect confidential versus non-confidential documents written in [[Japanese language|Japanese]] at better than 99.9% detection rate and a 5.3% false alarm rate.&amp;lt;ref&amp;gt;https://media.blackhat.com/bh-us-10/whitepapers/Yerazunis/BlackHat-USA-2010-Yerazunis-Confidential-Mail-Filtering-wp.pdf&amp;lt;/ref&amp;gt;
+
+CRM114 is a good example of [[pattern recognition]] software, demonstrating how machine learning can be accomplished with a reasonably simple algorithm. The program&amp;apos;s C source code is available under the [[GPL]].
+
+At a deeper level, CRM114 is also a string pattern matching language, similar to [[grep]] or even [[Perl]]; although it is [[Turing complete]] it is highly tuned for matching text, and even a simple (recursive) definition of the factorial takes almost ten lines.  Part of this is because the crm114 language syntax is not [[positional]], but [[declension]]al.  As a programming language, it may be used for many other applications aside from detecting spam.  CRM114 uses the TRE approximate-match [[regex]] engine, so it is possible to write programs that do not depend on absolutely identical strings matching to function correctly.
+
+==See also==
+* [[String matching]]
+
+==References==
+{{reflist}}
+
+==External links==
+* [http://crm114.sourceforge.net The CRM114 home page on SourceForge]
+* [http://laurikari.net/tre The TRE approximate regex matcher homepage]
+
+{{DEFAULTSORT:Crm114 (Program)}}
+[[Category:Spam filtering]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

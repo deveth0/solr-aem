@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="George Curtis"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="George Curtis" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;George Curtis&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+*[[George Ticknor Curtis]] (1812&amp;amp;ndash;1894), American author, historian and lawyer
+*[[George F. Curtis]], founding dean of the University of British Columbia Faculty of Law
+*[[George William Curtis]] (1824&amp;amp;ndash;1892), American writer and public speaker
+*[[George M. Curtis]] (1844&amp;amp;ndash;1921), U.S. Representative from Iowa
+*[[George Curtis (Australian politician)]] (1845–1922)
+*[[George Curtis (footballer born 1919)]], footballer with Arsenal F.C. and Southampton F.C., and Norway national football team manager
+*[[George Curtis (footballer born 1939)]], footballer and manager with Coventry City F.C.
+*[[George Curtis (Union spy)]] during the American Civil War
+==See also==
+*[[George Curtis Moore]], American diplomat
+
+{{hndis|name=Curtis, George}}
+
+{{DEFAULTSORT:Curtis, George}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

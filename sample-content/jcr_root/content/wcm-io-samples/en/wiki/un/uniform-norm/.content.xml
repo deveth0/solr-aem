@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Uniform norm"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Uniform norm" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{About|the function space norm|the finite-dimensional vector space distance|Chebyshev distance|the uniformity norm in additive combinatorics|Gowers norm}}
+{{Refimprove|date=December 2009}}
+[[Image:Vector norm sup.svg|frame|right|The black square is the set of points in &amp;apos;&amp;apos;&amp;apos;R&amp;apos;&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;2&amp;lt;/sup&amp;gt; where the sup norm equals a fixed positive constant.]]
+
+In [[mathematical analysis]], the &amp;apos;&amp;apos;&amp;apos;uniform [[norm (mathematics)|norm]]&amp;apos;&amp;apos;&amp;apos; (or &amp;apos;&amp;apos;&amp;apos;sup norm&amp;apos;&amp;apos;&amp;apos;) assigns to [[real number|real-]] or [[complex number|complex]]-valued bounded functions &amp;apos;&amp;apos;f&amp;apos;&amp;apos; defined on a set &amp;apos;&amp;apos;S&amp;apos;&amp;apos; the non-negative number
+
+:&amp;lt;math&amp;gt;\|f\|_\infty=\|f\|_{\infty,S}=\sup\left\{\,\left|f(x)\right|:x\in S\,\right\}.&amp;lt;/math&amp;gt;
+
+This norm is also called the &amp;apos;&amp;apos;&amp;apos;[[supremum]] norm,&amp;apos;&amp;apos;&amp;apos; the &amp;apos;&amp;apos;&amp;apos;Chebyshev norm,&amp;apos;&amp;apos;&amp;apos; or the &amp;apos;&amp;apos;&amp;apos;infinity norm.&amp;apos;&amp;apos;&amp;apos; The name &amp;quot;uniform norm&amp;quot; derives from the fact that a sequence of functions &amp;lt;math&amp;gt;\{f_n\}&amp;lt;/math&amp;gt; converges to f under the metric derived from the uniform norm if and only if &amp;lt;math&amp;gt;f_n&amp;lt;/math&amp;gt; converges to &amp;lt;math&amp;gt;f&amp;lt;/math&amp;gt; [[uniform convergence|uniformly]].&amp;lt;ref&amp;gt;{{cite book|last=Rudin|first=Walter|title=Principles of Mathematical Analysis|year=1964|publisher=McGraw-Hill|location=New York|isbn=0-07-054235-X|pages=151}}&amp;lt;/ref&amp;gt;
+
+If we allow unbounded functions, this formula does not yield a norm or [[metric (mathematics)|metric]] in a strict sense, although the obtained so-called [[metric (mathematics)#Generalized metrics|extended metric]] still allows one to define a topology on the function space in question.
+
+If &amp;apos;&amp;apos;f&amp;apos;&amp;apos; is a [[continuous function]] on a [[closed interval]], or more generally a [[compact space|compact]] set, then it is bounded and the [[supremum]] in the above definition is attained by the Weierstrass [[extreme value theorem]], so we can replace the supremum by the maximum. In this case, the norm is also called the &amp;apos;&amp;apos;&amp;apos;maximum norm&amp;apos;&amp;apos;&amp;apos;.
+In particular, for the case of a vector &amp;lt;math&amp;gt;x=(x_1,\dots,x_n)&amp;lt;/math&amp;gt; in [[finite set|finite]] [[dimension]]al [[coordinate space]], it takes the form
+
+:&amp;lt;math&amp;gt;\|x\|_\infty=\max\{ |x_1|, \dots, |x_n| \}.&amp;lt;/math&amp;gt;&amp;lt;!-- avoiding &amp;quot;\,&amp;quot; should allow HTML display --&amp;gt;
+
+The reason for the subscript &amp;quot;∞&amp;quot; is that whenever &amp;apos;&amp;apos;f&amp;apos;&amp;apos; is continuous
+
+:&amp;lt;math&amp;gt;\lim_{p\rightarrow\infty}\|f\|_p=\|f\|_\infty,&amp;lt;/math&amp;gt;
+
+where
+
+:&amp;lt;math&amp;gt;\|f\|_p=\left(\int_D \left|f\right|^p\,d\mu\right)^{1/p}&amp;lt;/math&amp;gt;
+
+where &amp;apos;&amp;apos;D&amp;apos;&amp;apos; is the domain of &amp;apos;&amp;apos;f&amp;apos;&amp;apos; (and the integral amounts to a sum if &amp;apos;&amp;apos;D&amp;apos;&amp;apos; is a [[discrete set]]).
+
+The binary function
+
+:&amp;lt;math&amp;gt;d(f,g)=\|f-g\|_\infty&amp;lt;/math&amp;gt;
+
+is then a [[metric (mathematics)|metric]] on the space of all bounded functions (and, obviously, any of its subsets) on a particular domain. A sequence { &amp;apos;&amp;apos;f&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;&amp;apos;&amp;apos;n&amp;apos;&amp;apos;&amp;lt;/sub&amp;gt; : &amp;apos;&amp;apos;n&amp;apos;&amp;apos; = 1, 2, 3, ... } [[uniform convergence|converges uniformly]] to a function &amp;apos;&amp;apos;f&amp;apos;&amp;apos; if and only if
+
+:&amp;lt;math&amp;gt;\lim_{n\rightarrow\infty}\|f_n-f\|_\infty=0.\,&amp;lt;/math&amp;gt;
+
+We can define closed sets and closures of sets with respect to this metric topology; closed sets in the uniform norm are sometimes called &amp;apos;&amp;apos;uniformly closed&amp;apos;&amp;apos; and closures &amp;apos;&amp;apos;uniform closures&amp;apos;&amp;apos;. The uniform closure of a set of functions A is the space of all functions that can be approximated by a sequence of uniformly-converging functions on A. For instance, one restatement of the [[Stone–Weierstrass theorem]] is that the set of all continuous functions on &amp;lt;math&amp;gt;[a,b]&amp;lt;/math&amp;gt; is the uniform closure of the set of polynomials on &amp;lt;math&amp;gt;[a,b]&amp;lt;/math&amp;gt;.
+
+For [[complex number|complex]] [[continuity (topology)|continuous]] functions over a [[compact space]], this turns it into a [[C-star algebra|C* algebra]].
+
+==See also==
+*[[Chebyshev distance]]
+*[[Uniform continuity]]
+*[[Uniform space]]
+
+==References==
+
+{{Reflist}}
+
+{{DEFAULTSORT:Uniform Norm}}
+[[Category:Functional analysis]]
+[[Category:Norms (mathematics)]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

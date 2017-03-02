@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Mithlond"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Mithlond" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;#REDIRECT[[Lindon (Middle-earth)]]
+
+[[Category:Middle-earth cities and towns]][[Category:Middle-earth redirects]][[Category:WikiProject Middle-earth to be merged]]
+
+[[bg:Сивите заливи]]
+[[ca:Rades Grises]]
+[[es:Puertos Grises]]
+[[eu:Portu Grisak]]
+[[fr:Mithlond]]
+[[it:Mithlond]]
+[[nl:Mithlond]]
+[[no:Mithlond]]
+[[pl:Szare Przystanie]]
+[[pt:Portos Cinzentos]]
+[[fi:Harmaat Satamat]]
+[[sv:Regioner och platser i Tolkiens värld#Grå hamnarna]]
+[[th:มิธลอนด์]]
+[[zh:米斯龍德]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

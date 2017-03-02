@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Suffix (disambiguation)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Suffix (disambiguation)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|suffix|Appendix:Suffixes}}
+A &amp;apos;&amp;apos;&amp;apos;[[suffix]]&amp;apos;&amp;apos;&amp;apos; is part of a word; an affix that follows the morphemes to which it can attach.
+
+&amp;apos;&amp;apos;&amp;apos;Suffix&amp;apos;&amp;apos;&amp;apos; may also refer to:
+
+* [[Suffix (name)]], the style at the end of a person&amp;apos;s name which gives additional identifying information about the person
+* [[Suffix (computer science)]],  the last part of a string of characters
+* Suffix notation, a notation for manipulating vector quantities, also known as [[index notation]]
+* [[Suffix array]], an array of integers giving the starting positions of suffixes of a string in lexicographical order
+* [[Suffix tree]], a data structure that presents the suffixes of a given string in a way that allows for a particularly fast implementation of many important string operations
+
+== See also ==
+* [[Prefix]]
+* [[Infix]]
+* [[Derivation (linguistics)]]
+* [[Wiktionary:Appendix:Suffixes:English]]
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

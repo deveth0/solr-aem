@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="John Moores"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="John Moores" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;John Moores&amp;apos;&amp;apos;&amp;apos; may refer to:
+*[[John H. Moores]] (1821–1880), American businessman and politician in the state of Oregon
+*Sir [[John Moores (British businessman)]] (1896–1993), British businessman who founded Littlewoods
+*[[John Moores (baseball)]] (born 1944), American entrepreneur and former owner of the San Diego Padres
+*[[Liverpool John Moores University]], a university in Liverpool, England, named after Sir John Moores
+
+==See also==
+*[[John Moore (disambiguation)]]
+{{hndis|Moores, John}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Nick Carter"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Nick Carter" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Nick Carter&amp;apos;&amp;apos;&amp;apos; may refer to:
+{{tocright}}
+==Musicians==
+*[[Nick Carter (musician)]] (born 1980), member of the boyband Backstreet Boys
+*[[Murs (rapper)]] (Nick Carter, born 1978), underground MC
+
+==Athletes==
+* [[Nick Carter (athlete)]] (1902–1997), track and field athlete from United States, who competed in the 1928 Summer Olympics
+* [[Nick Carter (baseball)]] (1879–1961), Major League Baseball pitcher for the Philadelphia Athletics in 1908
+* [[Nick Carter (cyclist)]] (1924–2003), cyclist from New Zealand, who competed in the 1948 Summer Olympics
+* [[Nick Carter (footballer)]] (born 1978), Australian rules footballer
+* [[Nick Carter (tennis)]], tennis player from United States
+
+==Others==
+*[[Nick Carter (British Army officer)]], British general
+* [[Nick Carter (environmentalist)]] (died 2000), Zambian environmentalist
+
+==Fiction==
+*[[Nick Carter (literary character)]], a popular fictional detective
+**[[Nick Carter-Killmaster]], a spy series of novels named for the fictional detective
+**&amp;apos;&amp;apos;[[Nick Carter, Master Detective]]&amp;apos;&amp;apos;, radio series based on the fictional detective
+**[[Nick Carter (comic strip)|&amp;apos;&amp;apos;Nick Carter&amp;apos;&amp;apos; (comic strip)]], a 1972 Italian comic strip featuring detective Nick Carter
+*Nick Carter, character from &amp;apos;&amp;apos;[[Tekkaman Blade]]&amp;apos;&amp;apos;
+
+{{Hndis|name=Carter, Nick}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="USS Tiburon (SS-529)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="USS Tiburon (SS-529)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{otherships|USS Dorado}}
+{|{{Infobox Ship Begin}}
+{{Infobox Ship Image
+|Ship image=
+|Ship caption=
+}}
+{{Infobox Ship Career
+|Hide header=
+|Ship country=United States
+|Ship flag={{USN flag|1944}}
+|Ship name=USS &amp;apos;&amp;apos;Tiburon&amp;apos;&amp;apos;
+|Ship namesake=The [[tiburon]], a [[shark]]
+|Ship ordered=
+|Ship builder=[[Boston Navy Yard]], [[Boston, Massachusetts|Boston]], [[Massachusetts]] (proposed)
+|Ship laid down=Never
+|Ship launched=
+|Ship sponsor=
+|Ship completed=
+|Ship acquired=
+|Ship commissioned=
+|Ship decommissioned=
+|Ship in service=
+|Ship out of service=
+|Ship struck=
+|Ship reinstated=
+|Ship fate=Construction [[contract]] cancelled 29 July 1944
+|Ship status=
+}}
+{{Infobox Ship Characteristics
+|Hide header=
+|Header caption=
+|Ship class=[[Tench class submarine|&amp;apos;&amp;apos;Tench&amp;apos;&amp;apos;-class]] [[diesel-electric]] [[submarine]] &amp;lt;ref name=&amp;quot;Register&amp;quot;&amp;gt;{{cite book
+  | last = Bauer
+  | first = K. Jack
+  | authorlink =
+  | coauthors = Roberts, Stephen S.
+  | title = Register of Ships of the U.S. Navy, 1775-1990: Major Combatants
+  | publisher = Greenwood Press
+  | date = 1991
+  | location = [[Westport, Connecticut]]
+  | pages = 280–282
+  | url =
+  | doi =
+  | isbn = 0-313-26202-0 }}&amp;lt;/ref&amp;gt;
+|Ship displacement=1,570&amp;amp;nbsp;[[long ton|ton]]s (1,595&amp;amp;nbsp;[[tonne|t]]) surfaced &amp;lt;ref name=&amp;quot;Register&amp;quot;/&amp;gt;&amp;lt;br /&amp;gt;2,416&amp;amp;nbsp;tons (2,455&amp;amp;nbsp;t) submerged &amp;lt;ref name=&amp;quot;Register&amp;quot;/&amp;gt;
+|Ship length={{convert|311|ft|8|in|abbr=on}} &amp;lt;ref name=&amp;quot;Register&amp;quot;/&amp;gt;
+|Ship beam={{convert|27|ft|4|in|abbr=on}} &amp;lt;ref name=&amp;quot;Register&amp;quot;/&amp;gt;
+|Ship draft={{convert|17|ft|0|in|abbr=on}} maximum &amp;lt;ref name=&amp;quot;Register&amp;quot;/&amp;gt;
+|Ship propulsion={{Fleet-boat-propulsion-late-FM-2-GE}}
+|Ship speed={{convert|20.25|kn|km/h|0|lk=in}} surfaced &amp;lt;ref name=&amp;quot;FriedmanSubs1-specs&amp;quot;&amp;gt;&amp;apos;&amp;apos;U.S. Submarines Through 1945&amp;apos;&amp;apos; pp. 305-311&amp;lt;/ref&amp;gt;&amp;lt;br /&amp;gt;{{convert|8.75|kn|km/h|0}} submerged &amp;lt;ref name=&amp;quot;FriedmanSubs1-specs&amp;quot;/&amp;gt;
+|Ship range={{convert|11000|nmi|km}} surfaced at 10 knots (19 km/h) &amp;lt;ref name=&amp;quot;FriedmanSubs1-specs&amp;quot;/&amp;gt;
+|Ship endurance=48 hours at {{convert|2|kn|km/h}} submerged &amp;lt;ref name=&amp;quot;FriedmanSubs1-specs&amp;quot;/&amp;gt;&amp;lt;br /&amp;gt;75 days on patrol
+|Ship test depth={{convert|400|ft|m|-1|abbr=on}} &amp;lt;ref name=&amp;quot;FriedmanSubs1-specs&amp;quot;/&amp;gt;
+|Ship complement=10 officers, 71 enlisted &amp;lt;ref name=&amp;quot;FriedmanSubs1-specs&amp;quot;/&amp;gt;
+|Ship sensors=
+|Ship EW=
+|Ship armament={{Fleet-boat-armament-5-inch-28-torps}}
+}}
+|}
+&amp;apos;&amp;apos;&amp;apos;USS &amp;apos;&amp;apos;Tiburon&amp;apos;&amp;apos; (SS-529)&amp;apos;&amp;apos;&amp;apos;, a cancelled [[Tench class submarine|&amp;apos;&amp;apos;Tench&amp;apos;&amp;apos;-class submarine]], was the only ship of the [[United States Navy]] to be named for the [[tiburon]], a large voracious [[shark]] found in the [[Caribbean Sea]] and along both the [[Atlantic_Ocean|Atlantic]] and [[Pacific_Ocean|Pacific]] coasts of [[Central America]]. Her construction by the [[Boston Navy Yard]] at [[Boston, Massachusetts|Boston]], [[Massachusetts]], was authorized on 19 July 1940, but was cancelled on 29 July 1944.
+
+== References ==
+{{reflist}}
+{{refbegin}}
+*{{DANFS|http://www.history.navy.mil/danfs/t5/tiburon.htm}}
+{{refend}}
+
+{{Tench_class_submarine}}
+
+{{DEFAULTSORT:Tiburon (SS-529)}}
+[[Category:Tench-class submarines|Tiburon]]
+[[Category:Proposed ships of the United States Navy]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

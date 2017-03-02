@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ringer equivalence number"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ringer equivalence number" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[telecommunication]], a &amp;apos;&amp;apos;&amp;apos;ringer equivalence number&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;&amp;apos;REN&amp;apos;&amp;apos;&amp;apos;) is a somewhat [[arbitrary]] [[number]] which denotes the [[electrical load]] a [[telephone]] ringer has on the [[telephone line|line]].  In the [[United States|U.S.]], this is determined in accordance with ANSI/TIA-968-B (August 2009).
+
+REN is a [[United States]]-developed [[yardstick]], but analogous systems exist internationally. In some countries, (particularly in [[Commonwealth of Nations|Commonwealth]] nations), the REN is better known as the &amp;apos;&amp;apos;&amp;apos;ringer approximated loading&amp;apos;&amp;apos;&amp;apos; number (&amp;apos;&amp;apos;&amp;apos;RAL&amp;apos;&amp;apos;&amp;apos;).
+
+== Explanation ==
+A ringer equivalency number of 1 represents the loading effect of a single &amp;quot;traditional&amp;quot; telephone ringing [[electrical network|circuit]], such as that within the Western Electric [[Model 500 telephone]]. Note that the REN of modern telephone equipment may be significantly lower than 1: as a rough guide, externally-powered digital-ring phones may have a REN as low as 0.1, while modern [[analog (signal)|analog]]-ring phones (where the ringer is powered from the phone line) typically have a REN around 0.8.
+
+In the [[United States]] 1 REN was formerly equivalent to a 6930[[Ohm (unit)|Ω]] [[resistor]] [[Series and parallel circuits|in series]] with an 8 µF ([[Farad|microfarad]]) [[capacitor]].  The modern ANSI/TIA-968-B specification (August 2009) defines 1 REN as an [[electrical impedance|impedance]] of 7000Ω at 20Hz (type A), or 8000Ω from 15Hz to 68Hz (type B).
+
+== Maximum REN loading ==
+The total REN for a [[subscriber]]&amp;apos;s line is simply the sum of the RENs of all [[information appliance|device]]s connected to the line; this number expresses the overall loading effect of the subscriber&amp;apos;s equipment on the [[telephone exchange|central office]] ringing [[current (electricity)|current]] [[electrical generator|generator]]. The local [[telephone company]] usually sets a limit on the total REN, typically 5 or less.
+
+If the total allowable REN load is exceeded, the phone circuit may fail to ring or otherwise malfunction.  For example, [[Call waiting]], [[caller ID]] and [[ADSL]] services are often affected by high REN. 20th century equipment tends to contribute to a larger REN than new equipment.  In extreme cases, the telephone service provider may temporarily disconnect an overloaded line to reduce load.
+
+Some [[analog telephone adapter]]s for [[Internet telephony]] require analog phones with low REN, but researching RENs online is difficult because manufacturers and sellers seldom provide that information.  The AT&amp;amp;T 210 is a basic phone which does not require an external electrical connection and has a REN of 0.9B.
+
+== International usage ==
+[[File:Aansluitfactor.jpg|thumb|In the Netherlands all telephone equipment shall carry a blue label with the ringer equivalence number - in this case 1.5]]
+In the [[United Kingdom]] it is called the &amp;apos;&amp;apos;&amp;apos;ringer equivalence number&amp;apos;&amp;apos;&amp;apos; and a maximum of 4 is allowed on any [[British Telecom]] (BT) line.
+
+In [[Australia]] it is also called &amp;apos;&amp;apos;&amp;apos;ringer equivalence number&amp;apos;&amp;apos;&amp;apos; and a maximum of 3 is allowed on any [[Telstra]] or [[Optus]] Line.
+
+In Canada it is called a Load Number (LN); which cannot exceed 100.  (The LN of each device represents the percentage of total load allowed).
+
+In Europe 1 REN used to be equivalent to an 1800Ω resistor in series with a 1 µF capacitor.  The latest ETSI specification (2003-09) calls for 1 REN to be greater than 16 kΩ at 25&amp;amp;nbsp;Hz and 50&amp;amp;nbsp;Hz.
+
+==References==
+*{{FS1037C}}
+*[[American National Standards Institute|ANSI]]/[[TIA-968-B]]
+*[[European Telecommunications Standards Institute|ETSI]] TS 103 021
+
+[[Category:Telephony equipment]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

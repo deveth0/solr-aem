@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="First Landing"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="First Landing" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{About||the park|First Landing State Park|the racehorse|First Landing (horse)}}
+
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;First Landing&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is a 2002 [[science fiction]] novel by [[Robert Zubrin]] that tells the story of the first manned space expedition to [[Mars]]. Zubrin is the head of the [[Mars Society]], an organization lobbying the real world [[NASA]] to send astronauts to Mars. The plan used to accomplish their mission in the book is the same one advocated by his group.
+
+In the novel, the explorers discover [[bacteria]]l life on Mars and are abandoned due to political circumstances, and must fend for themselves if they want to return to Earth, thus highlighting many of the more robust features of Zubrin&amp;apos;s plan for Mars.
+
+Zubrin also wrote &amp;apos;&amp;apos;[[The Case for Mars]]&amp;apos;&amp;apos;, a detailed nonfiction explanation of the same plan.
+
+==Editions==
+* ISBN 0-441-00963-8 ([[paperback]], 2002)
+* ISBN 0-441-00859-3 ([[hardcover]], 2002)
+
+{{Robert Zubrin}}
+
+[[Category:Mars in fiction]]
+[[Category:2002 novels]]
+[[Category:2000s science fiction novels]]
+[[Category:Books by Robert Zubrin]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

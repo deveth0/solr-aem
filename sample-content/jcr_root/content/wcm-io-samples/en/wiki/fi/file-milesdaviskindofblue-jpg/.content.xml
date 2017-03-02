@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="File:MilesDavisKindofBlue.jpg"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="File:MilesDavisKindofBlue.jpg" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;== Summary ==
+Original vinyl album cover, mono release, featuring a photo by Jay Maisel.
+
+==Rationale==
+{{Non-free use rationale album cover|Article = Kind of Blue
+|Use = Infobox
+|Name = &amp;apos;&amp;apos;Kind of Blue&amp;apos;&amp;apos;
+|Artist = Miles Davis
+|Label = Columbia Records
+|Source = Derived from a digital capture (photo/scan) of the album cover (creator of this digital version is irrelevant as the copyright in all equivalent images is still held by the same party). Copyright held by the PHOTOGRAPHER JAY MAISEL.
+}}
+
+== Licensing ==
+{{Non-free album cover|image has rationale=yes}}
+{{reviewedfairuse|date=22:03, 17 February 2008 (UTC)|user=[[User:Kaiba|Kaiba]]|pages=[[Kind of Blue]]}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

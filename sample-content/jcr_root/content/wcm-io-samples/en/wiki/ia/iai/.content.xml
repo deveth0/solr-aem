@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="IAI"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="IAI" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;IAI&amp;apos;&amp;apos;&amp;apos; is an acronym for:
+
+* [[Iaido]]
+* The [[Information Architecture Institute]]
+* [[Institute of Art and Ideas]]
+* [[Inter-American Institute for Global Change Research]]
+* [[International African Institute]]
+* [[International Association for Identification]]
+* [[Israel Aerospace Industries]] (&amp;apos;&amp;apos;Ha-Taasiya Ha-Avirit&amp;apos;&amp;apos;)
+* [[Islamic Army in Iraq]]
+* [[International Academy of Irvine]]
+* [[Independent Administrative Institution]]
+* [[Intelligent Actuator]] (International Automation Industry)
+* [[Istituto Affari Internazionali]] (Italian Institute of International Affairs)
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

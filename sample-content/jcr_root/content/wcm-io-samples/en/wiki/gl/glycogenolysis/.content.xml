@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Glycogenolysis"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Glycogenolysis" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{distinguish|Glycolysis|Glycogenesis|Gluconeogenesis}}
+
+[[Image:Glycogen.png|thumb|[[Glycogen]]]]
+[[Image:Beta-D-Glucose.svg|thumb|[[Glucose]]]]
+[[Image:Glucose-6-Phosphate.svg|thumb|[[Glucose-6-phosphate]]]]
+&amp;apos;&amp;apos;&amp;apos;Glycogenolysis&amp;apos;&amp;apos;&amp;apos; is the breakdown of [[glycogen]] to [[glucose-1-phosphate]] and [[glucose]]. Glycogen branches are [[catabolism|catabolized]] by the sequential removal of glucose monomers via [[phosphorolysis]], by the enzyme [[glycogen phosphorylase]]. &amp;lt;ref name=&amp;quot;urlGlycogenesis&amp;quot;&amp;gt;{{cite web |url=http://www.elmhurst.edu/~chm/vchembook/604glycogenesis.html |title=Glycogenesis |format= |work= |accessdate=}}&amp;lt;/ref&amp;gt;
+
+==Mechanism==
+The overall reaction for the breakdown of glycogen to glucose-1-phosphate is:
+
+: glycogen&amp;lt;sub&amp;gt;(n residues)&amp;lt;/sub&amp;gt; + P&amp;lt;sub&amp;gt;i&amp;lt;/sub&amp;gt; {{eqm}} glycogen&amp;lt;sub&amp;gt;(n-1 residues)&amp;lt;/sub&amp;gt; + glucose-1-phosphate
+
+Here, [[glycogen phosphorylase]] cleaves the bond linking a terminal glucose [[Residue (chemistry)|residue]] to a glycogen branch by [[Substitution reaction|substitution]] of a [[phosphoryl]] group for the α[1→4] linkage. Glucose residues are phosphorolysed from branches of glycogen until four residues before a glucose that is branched with a α[1→6] linkage. [[Glycogen debranching enzyme]] then transfers three of the remaining four glucose units to the end of another glycogen branch. This exposes the α[1→6] branching point, which is [[hydrolysis|hydrolysed]] by [[glucosidase|α[1→6] glucosidase]], removing the final glucose residue of the branch as a molecule of glucose and eliminating the branch. This is the only case in which a glycogen metabolite is not glucose-1-phosphate. The glucose is concomitantly phosphorylated to glucose-1-phosphate by [[hexokinase]]. Glucose-1-phosphate is converted to glucose-6-phosphate by the enzyme [[phosphoglucomutase]].
+
+==Function==
+Glycogenolysis takes place in the cells of the [[muscle]] and [[liver]] tissues in response to hormonal and neural signals. In particular, glycogenolysis plays an important role in the [[fight-or-flight response]] and the regulation of glucose levels in the blood.
+
+In [[myocyte|myocytes]] (muscle cells), glycogen degradation serves to provide an immediate source of glucose-6-phosphate for [[glycolysis]], to provide energy for muscle contraction.
+
+In [[hepatocyte|hepatocytes]] (liver cells), the main purpose of the breakdown of glycogen is for the release of glucose into the bloodstream for uptake by other cells. The phosphate group of glucose-6-phosphate is removed by the enzyme [[glucose-6-phosphatase]], which is not present in myocytes, and the free glucose exits the cell via [[GLUT2]] facilitated diffusion channels in the hepatocyte cell membrane.
+
+==Regulation==
+
+Glycogenolysis is regulated hormonally in response to blood sugar levels by [[glucagon]] and [[insulin]], and stimulated by [[epinephrine]] during the [[fight-or-flight response]]. In myocytes, glycogen degradation may also be stimulated by neural signals.&amp;lt;ref&amp;gt;{{cite book |title = Molecular Cell Biology |edition = 6th |last = Lodish et al. |year = 2007 |publisher = W. H. Freeman and Company |isbn = 1429203145 |page = 658}}&amp;lt;/ref&amp;gt;
+
+==Clinical significance==
+Parenteral ([[intravenous]]) administration of glucagon is a common human medical intervention in [[Diabetes|diabetic]] emergencies when sugar cannot be given orally. It can also be administered     [[intramuscularly]].
+
+==See also==
+
+* [[Glycogenesis]]
+
+==References==
+{{reflist}}
+
+==External links==
+*[http://www2.ufp.pt/~pedros/bq/glycogen.htm#degrada The chemical logic of glycogen degradation at ufp.pt]
+*{{MeshName|Glycogenolysis}}
+
+[[Category:Metabolic pathways]]
+[[Category:Hepatology]]
+[[Category:Diabetes]]
+
+{{Carbohydrate metabolism}}
+{{Glycogenesis and glycogenolysis}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

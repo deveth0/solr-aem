@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Anthisnes"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Anthisnes" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox Belgium Municipality
+|name=Anthisnes
+|picture=
+|picture=Anthisnes JPG01.jpg
+|picture-legend=
+|map=Anthisnes Liège Belgium Map.png
+|map-legend=Location of Anthisnes in the province of Liège
+|arms=Héraldique Ville BE Anthisnes.svg
+|flag=Anthisnes_Belgium.svg
+|region={{BE-REG-WAL}}
+|community={{BE-FR}}
+|province={{BE-PROV-LG}}
+|arrondissement=[[Arrondissement of Huy|Huy]]
+|nis=61079
+|pyramid-date
+|0-19=
+|20-64
+|65
+|foreigners=
+|foreigners-date
+|mayor=[[Marc Tarabella]] ([[Parti Socialiste (Belgium)|PS]])
+|majority=[[Socialist Party (francophone Belgium)|PS]]-IC
+|postal-codes=4160-4163
+|telephone-area=04
+|web=[http://www.anthisnes.be/ www.anthisnes.be]
+|lat_deg=50
+|lat_min=29
+|lon_deg=05
+|lon_min=31
+}}
+&amp;apos;&amp;apos;&amp;apos;Anthisnes&amp;apos;&amp;apos;&amp;apos; is a [[Belgium|Belgian]] [[municipality]] located in the [[Wallonia|Walloon]] province of [[Liège (province)|Liège]]. On January 1, 2006 Anthisnes had a total population of 3,998. The total area is 37.08&amp;amp;nbsp;km² which gives a [[population density]] of 108 inhabitants per km².
+
+==Famous inhabitants==
+* [[Marc Tarabella]], mayor, [[member of the European Parliament]]
+
+==References==
+{{reflist}}
+
+{{Liege municipalities}}
+
+[[Category:Populated places in Belgium]]
+[[Category:Municipalities of Liège (province)]]
+
+{{Liege-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

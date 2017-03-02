@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Viewing frustum"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Viewing frustum" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{merge from|Pyramid of vision|date=April 2013}}
+{{ref improve|date=April 2013}}
+[[File:ViewFrustum.svg|thumb|A view frustum.]]In [[3D computer graphics]], the &amp;apos;&amp;apos;&amp;apos;viewing frustum&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;view frustum&amp;apos;&amp;apos;&amp;apos; is the region of space in the modeled world that may appear on the screen; it is the [[field of view in video games|field of view]] of the notional camera.&amp;lt;ref&amp;gt;http://msdn.microsoft.com/en-us/library/ff634570.aspx Microsoft - What Is a View Frustum?&amp;lt;/ref&amp;gt;
+
+The exact shape of this region varies depending on what kind of camera lens is being simulated, but typically it is a [[frustum]] of a rectangular pyramid (hence the name). The planes that cut the frustum perpendicular to the viewing direction are called the &amp;apos;&amp;apos;near plane&amp;apos;&amp;apos; and the &amp;apos;&amp;apos;far plane&amp;apos;&amp;apos;. Objects closer to the camera than the near plane or beyond the far plane are not drawn. Sometimes, the far plane is placed infinitely far away from the camera so all objects within the frustum are drawn regardless of their distance from the camera.
+
+&amp;apos;&amp;apos;&amp;apos;[[Frustum culling|Viewing frustum culling]]&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;view frustum culling&amp;apos;&amp;apos;&amp;apos; is the process of removing objects that lie completely outside the viewing frustum from the [[rendering (computer graphics)|rendering]] process. Rendering these objects would be a waste of time since they are not directly visible. To make culling fast, it is usually done using [[bounding volume]]s surrounding the objects rather than the objects themselves.
+
+== Definitions ==
+;VPN: the view-plane normal – a [[Surface normal|normal]] to the view plane.
+
+;VUV: the view-up vector – the vector on the view plane that indicates the upward direction.
+
+;VRP: the viewing reference point – a point located on the view plane, and the origin of the VRC.
+
+;PRP: the projection reference point – the point where the image is projected from, for parallel projection, the PRP is at infinity.
+
+;VRC: the viewing-reference coordinate system.
+
+The geometry is defined by a [[field of view]] angle (in the &amp;apos;y&amp;apos; direction), as well as an [[Aspect ratio (image)|aspect ratio]].  Further, a set of z-planes define the near and far bounds of the frustum.
+
+==References==
+{{reflist}}
+
+{{Compu-graphics-stub}}
+
+[[Category:3D computer graphics]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

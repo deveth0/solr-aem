@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Rosy retrospection"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Rosy retrospection" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{ref improve|date=August 2012}}
+&amp;apos;&amp;apos;&amp;apos;Rosy retrospection&amp;apos;&amp;apos;&amp;apos; refers to the finding that subjects later rate past events more positively than they had actually rated them when the event occurred, reminiscent of the Latin phrase &amp;apos;&amp;apos;memoria praeteritorum bonorum&amp;apos;&amp;apos; (&amp;quot;The past is always recalled to be good&amp;quot;).
+
+The effect appears to be stronger with moderately pleasant events and is usually explained as a result of minor annoyances and dislikes &amp;quot;fading&amp;quot; from memory dramatically faster than positive situations.
+
+==Experiments==
+In one group of experiments, three groups going on different vacations were interviewed before, during and after their journeys. Most followed the pattern of initial anticipation, followed by mild disappointment. Generally, most subjects some time later reviewed the events more favorably than they actually did while experiencing them.{{Citation needed|date=October 2010}}
+
+==See also==
+{{multicol}}
+* [[Emotion and memory]]
+* [[List of cognitive biases]]
+* [[Memory]]
+* [[Optimism bias]]
+{{multicol-break}}
+* [[Positivity effect]]
+* [[Reference class forecasting]]
+* [[Nostalgia]]
+{{multicol-end}}
+
+==References==
+{{reflist}}
+
+==Further reading==
+*{{cite book |last=Mitchell |first=T. |last2=Thompson |first2=L. |year=1994 |chapter=A theory of temporal adjustments of the evaluation of events: Rosy Prospection &amp;amp; Rosy Retrospection |editor1-first=C. |editor1-last=Stubbart |editor2-first=J. |editor2-last=Porac |editor3-first=J. |editor3-last=Meindl |title=Advances in managerial cognition and organizational information-processing |volume=5 |pages=85–114 |location=Greenwich, CT |publisher=JAI press |isbn=1-55938-447-6 }}
+
+{{DEFAULTSORT:Rosy Retrospection}}
+[[Category:Cognitive biases]]
+[[Category:Memory biases]]
+
+[[pl:Retrospekcja]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

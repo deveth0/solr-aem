@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Quebec Route 352"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Quebec Route 352" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox road|
+|province=QC
+|type=QC
+|route=352
+|maint=[[Transports Québec]] and Municipalities of Saint-Narcisse, Saint-Stanislas, Saint-Adelphe and Sainte-Thècle.&amp;lt;ref&amp;gt;The section between the villages of Saint-Narcisse and Saint-Stanislas (km 20.2 to km 29.5) is a local road managed by the municipalities of Saint-Narcisse and Saint-Stanislas&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;The section between the Rang Saint-Émile and the Route 153 (km 47 and 55.4) is a local road managed by the municipalities of Saint-Adelphe and Sainte-Thècle.&amp;lt;/ref&amp;gt;
+|map=
+|established=
+|decommissioned=
+|alternate_name=
+|length_km=55.4
+|length_round=1
+|length_ref=&amp;lt;ref&amp;gt;Ministère des transports, &amp;quot;Distances routières&amp;quot;, page 101, Les Publications du Québec, 2005&amp;lt;/ref&amp;gt;
+|direction_a=West
+|direction_b=East
+|terminus_a=[[Image:Quebec Autoroute 40.svg|15px]] in [[Trois-Rivières]]
+|terminus_b=[[Image:qc153.svg|15px]] in [[Sainte-Thècle, Quebec|Sainte-Thecle]]|
+|previous_type=QC
+|previous_route=351
+|next_type=QC
+|next_route=354
+|cities=
+|junction= [[Image:qc159.svg|15px]] in [[Saint-Stanislas, Mauricie, Quebec|Saint-Stanislas]]
+|}}
+&amp;apos;&amp;apos;&amp;apos;Route 352&amp;apos;&amp;apos;&amp;apos; is a 55&amp;amp;nbsp;km east-west provincial road in the [[Mauricie]] region in [[Quebec]], [[Canada]]. It goes north from [[Saint-Maurice, Quebec|Saint-Maurice]] (exit 210 of [[Quebec Autoroute 40|autoroute 40]]) to [[Sainte-Thècle, Quebec|Sainte-Thècle]].
+
+It goes through the villages of St-Maurice, [[Saint-Narcisse, Quebec|Saint-Narcisse]], [[Saint-Stanislas, Mauricie, Quebec|Saint-Stanislas]], [[Saint-Adelphe, Quebec|Saint-Adelphe]], and then Sainte-Thècle.
+
+From the Saint-Narcisse-Saint-Stanislas border, it follows the [[Batiscan River]] to past Saint-Adelphe.
+
+==Municipalities along Route 352==
+* [[Trois-Rivières]]
+* [[Saint-Maurice, Quebec|Saint-Maurice]]
+* [[Saint-Luc-de-Vincennes, Quebec|Saint-Luc-de-Vincennes]]
+* [[Saint-Narcisse, Quebec|Saint-Narcisse]]
+* [[Saint-Stanislas, Mauricie, Quebec|Saint-Stanislas]]
+* [[Saint-Adelphe, Quebec|Saint-Adelphe]]
+* [[Sainte-Thècle, Quebec|Sainte-Thècle]]
+
+==Major intersections==
+{| class=wikitable
+![[List of regional county municipalities and equivalent territories in Quebec|RCM]] or [[List of regional county municipalities and equivalent territories in Quebec|ET]]
+!Municipality
+!Km
+!Road
+!Notes
+|-
+|[[Trois-Rivières]]
+|[[Trois-Rivières]]
+|0.0
+|{{jct|state=QC|A|40}}
+|Exit 210 (A-40)
+|-
+|rowspan=&amp;quot;5&amp;quot;|[[Les Chenaux Regional County Municipality, Quebec|Les Chenaux]]
+|[[Saint-Luc-de-Vincennes, Quebec|Saint-Luc-de-Vincennes]]
+|{{Jctint/type|concur}}|13.1
+|{{Jctint/type|concur}}|{{jct|state=QC|Route|359}}
+|{{Jctint/type|concur}}|Western terminus of Route 352 / Route 359 overlap
+|-
+|rowspan=&amp;quot;2&amp;quot;|[[Saint-Narcisse, Quebec|Saint-Narcisse]]
+|{{Jctint/type|concur}}|17.1
+|{{Jctint/type|concur}}|{{jct|state=QC|Route|359}}
+|{{Jctint/type|concur}}|Eastern terminus of Route 352 / Route 359 overlap
+|-
+|20.2
+|{{jct|state=QC|Route|361}}
+|Northern terminus of Route 361
+|-
+|rowspan=&amp;quot;2&amp;quot;|[[Saint-Stanislas, Mauricie, Quebec|Saint-Stanislas]]
+|{{Jctint/type|concur}}|29.5
+|{{Jctint/type|concur}}|{{jct|state=QC|Route|159}}
+|{{Jctint/type|concur}}|Western terminus of Route 159 / Route 352 overlap
+|-
+|{{Jctint/type|concur}}|30.3
+|{{Jctint/type|concur}}|{{jct|state=QC|Route|159}}
+|{{Jctint/type|concur}}|Eastern terminus of Route 159 / Route 352 overlap
+|-
+|rowspan=&amp;quot;3&amp;quot;|[[Mékinac Regional County Municipality, Quebec|Mékinac]]
+|rowspan=&amp;quot;2&amp;quot;|[[Saint-Adelphe, Quebec|Saint-Adelphe]]
+|44.1
+|Rue du Moulin
+|To [[Saint-Adelphe, Quebec|Saint-Adelphe]]
+|-
+|47
+|Rang Saint-Émile
+|To [[Saint-Tite, Quebec|Saint-Tite]]
+|-
+|[[Sainte-Thècle, Quebec|Saint-Thècle]]
+|55.4
+|{{jct|state=QC|Route|153}}
+|
+|}
+
+==See also==
+* [[List of Quebec provincial highways]]
+
+==References==
+{{reflist}}
+
+== External links ==
+* [http://www.inforoutiere.qc.ca/fr/carte_routiere/index.asp Provincial Route Map (Courtesy of the Quebec Ministry of Transportation)] {{fr icon}}
+* [http://maps.google.com/maps?f=d&amp;amp;saddr=Route+de+Red+Mill+N%2FRTE-352+%4046.439910,+-72.494960&amp;amp;daddr=46.813542,-72.506976&amp;amp;hl=en&amp;amp;geocode=12530015797361708435,46.439910,-72.494960%3B12429388310193330111,46.804372,-72.492989&amp;amp;mra=dme&amp;amp;mrcr=0&amp;amp;mrsp=1&amp;amp;sz=15&amp;amp;dirflg=h&amp;amp;sll=46.810164,-72.492771&amp;amp;sspn=0.013511,0.038624&amp;amp;ie=UTF8&amp;amp;ll=46.639065,-72.417755&amp;amp;spn=0.43373,1.235962&amp;amp;z=10 Route 352] on Google Maps
+&amp;lt;br&amp;gt;
+{{Secondary Highways in Quebec (300-series)}}
+
+[[Category:Quebec Routes|352]]
+[[Category:Transport in Trois-Rivières]]
+
+
+{{Quebec-road-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

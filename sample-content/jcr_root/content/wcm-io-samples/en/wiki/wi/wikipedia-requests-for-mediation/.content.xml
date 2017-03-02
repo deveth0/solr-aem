@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:Requests for mediation"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:Requests for mediation" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;lt;noinclude&amp;gt;{{pp-move-indef}}&amp;lt;/noinclude&amp;gt;
+{{Medcom menu}}
+{{Redirect3|WP:RFM|For requesting a change of article name, see [[Wikipedia:Requested moves]]}}
+{{Wikipedia:Requests for mediation/Top}}
+{{Wikipedia:Requests for mediation/Pending}}
+{{Wikipedia:Requests for mediation/Rejected cases}}
+
+== Indexes ==
+{{Wikipedia:Requests for mediation/Archives}}
+Previous requests for mediation are indexed on the box on the right.
+
+[[Category:Non-talk pages with subpages that are automatically signed]]
+
+{{DEFAULTSORT:Requests for mediation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

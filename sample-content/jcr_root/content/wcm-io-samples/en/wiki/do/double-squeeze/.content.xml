@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Double squeeze"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Double squeeze" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+The &amp;apos;&amp;apos;&amp;apos;double squeeze&amp;apos;&amp;apos;&amp;apos; is a type of [[Squeeze play (bridge)|squeeze play]] in the [[card game]] of [[contract bridge|Bridge]].
+
+Double squeezes are a combination of two [[simple squeeze]]s carried out against both opponents. If both squeezes are executed by the same trick, that is the same squeeze card, the double squeeze is called simultaneous.
+If both opponents are squeezed on different tricks (the squeeze card is then a card in the suit that was menacing the opponent squeezed first) the double squeeze is called non-simultaneous.
+
+As there are only four suits in contract bridge the two simple squeezes can only be combined by using a menace for both opponents, the squeeze card being in the fourth suit.
+
+The following diagram demonstrates the basics of a double squeeze.
+{{BridgeHandNWES
+|Label =
+|Lead =
+|A&amp;amp;thinsp;2|K|&amp;amp;mdash;|&amp;amp;mdash;
+|Q&amp;amp;thinsp;3|A|&amp;amp;mdash;|&amp;amp;mdash;
+|K&amp;amp;thinsp;9|&amp;amp;mdash;|Q|&amp;amp;mdash;
+|6|&amp;amp;mdash;|J|2}} When the two of clubs is played, West has to keep his ace of hearts (menaced by dummy&amp;apos;s king) and gives up his spade guard (spades being the double menace). In the same trick (this is therefore a simultaneous double squeeze), East is squeezed in the [[pointed suit]]s.{{Clear}}
+
+{{DEFAULTSORT:Double Squeeze}}
+[[Category:Bridge squeezes]]
+{{WPCBIndex}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

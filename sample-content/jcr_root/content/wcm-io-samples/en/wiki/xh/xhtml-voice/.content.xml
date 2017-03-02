@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="XHTML+Voice"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="XHTML+Voice" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;XHTML+Voice&amp;apos;&amp;apos;&amp;apos; (commonly &amp;apos;&amp;apos;&amp;apos;X+V&amp;apos;&amp;apos;&amp;apos;) is an [[XML]] language for describing [[Multimodal interaction|multimodal user interfaces]].  The two essential modalities are visual and auditory.  Visual interaction is defined like most current web pages via [[XHTML]]. Auditory components are defined by a subset of [[Voice XML]].  Interfacing the voice and visual components of X+V documents is accomplished through a combination of [[ECMAScript]], [[JavaScript]], and [[XML Events]].
+
+==Voice input==
+Voice input or [[speech recognition]] is based on grammars that define the set of possible input text.  In contrast to a probabilistic approach employed by popular software packages such as [[Dragon Naturally Speaking]], the grammar based approach provides the recognizer with important contextual information that significantly boosts recognition accuracy.  The specific formats for grammars include [[JSGF]].
+
+==Voice output==
+Voice output or [[speech synthesis]] can read any string at virtually any time.  Pitch, volume, and other characteristics can be customized using [[CSS]] and [[Speech Synthesis Markup Language]] (SSML) however the [[Opera (web browser)|Opera]] web browser doesn&amp;apos;t currently support all these features.
+
+==MIME types==
+The previously recommended MIME type for any X+V document is application/xhtml+voice+xml which is what the [[Opera browser]] uses.  Opera will also interpret X+V documents served as text/xml.  The current recommended MIME type for any X+V document is application/xv+xml. Since most web servers associate the .xml extension with text/xml, an xml extension is a fairly safe way of making your static X+V document files browsable.
+
+==X+V-enabled browsers==
+The most commonly used X+V browser is the [[Opera browser]].  Users of the [[Opera browser]] can enable X+V support through steps described at [http://www.opera.com/voice/ http://www.opera.com/voice/].  Voice is not yet supported in [[Opera Mini]] or on platforms other than Windows.
+
+Detecting support for X+V is best done from the server by checking the HTTP header &amp;quot;Accept&amp;quot; for the MIME type application/xhtml+voice+xml.  Here is some PHP code that returns &amp;quot;true&amp;quot; if and only if the requesting browser supports XHTML+Voice:
+
+  &amp;lt;?php
+  /*
+    The following script echoes &amp;quot;true&amp;quot; if and only if the requesting browser
+    supports XHTML+Voice.
+  */
+
+  //
+  // Determine whether browser is sending Accept header.
+  //
+  if (isset($_SERVER[&amp;apos;HTTP_ACCEPT&amp;apos;])) {
+      $accept = $_SERVER[&amp;apos;HTTP_ACCEPT&amp;apos;];
+      // If they omit the MIME type from Accept then assume no support.
+      if (strpos($accept, &amp;apos;application/xhtml+voice+xml&amp;apos;) === false) {
+          echo &amp;apos;false&amp;apos;;
+      } else {
+         echo &amp;apos;true&amp;apos;;
+      }
+  } else {
+      echo &amp;apos;false&amp;apos;;
+  }
+  ?&amp;gt;
+
+==Related Technology==
+[[Speech Application Language Tags]](SALT) is a very similar format developed by [[Microsoft]] in 2001 to compete with [[VoiceXML]] and XHTML+Voice.  SALT also provides users with multimodal support including grammar based recognition and speech synthesized output.  The main differences are in the providers of support.  Many different companies support VoiceXML and XHTML+Voice by providing various development tools and in particular [[IBM]] and [[Opera Software]].  SALT is supported almost exclusively from [[Microsoft]] by products such as the [[SASDK|Microsoft Speech Application SDK]] and [[Microsoft Speech Server]].
+
+==External links==
+*[http://www.voicexml.org/specs/multimodal/x+v/12/ XHTML+Voice v1.2]
+*[http://dev.opera.com/articles/voice/ Voice - Opera Developer Community]
+*[ftp://ftp.software.ibm.com/software/pervasive/info/multimodal/XHTML_voice_programmers_guide.pdf XHTML+Voice Programmer&amp;apos;s Guide]
+*[http://www.opera.com/download/ Download Opera Web Browser]
+*[http://www.myspeechweb.org/ The SpeechWeb Project]
+*[http://www.apps.ietf.org/rfc/rfc4374.txt RFC 4374 on MIME type]
+*[http://www.youtube.com/watch?v=_4wx9MKljPM Video Demonstration of XHTML+Voice Page]
+
+[[Category:XML-based standards]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

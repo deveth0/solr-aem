@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:Tutorial/Wikipedia links"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:Tutorial/Wikipedia links" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{pp-semi|small=yes}}{{pp-move-indef}}
+{{WP help pages (header bar)}}
+{{Wikipedia:Tutorial/TabsHeader|This=4}}
+&amp;lt;div style=&amp;quot;border:2px solid #A3B1BF; padding:.5em 1em 1em 1em; border-top:none; background-color:#fff; color:#000&amp;quot;&amp;gt;
+{{WP:Tutorial/VE notice}}{{TOCright}}
+[[File:Boldness and links tutorial.ogv|thumb|360px|thumbtime=1|A video tutorial about the basics of wiki markup, including creating links]]
+&amp;apos;&amp;apos;&amp;apos;Linking&amp;apos;&amp;apos;&amp;apos; Wikipedia articles together is very important. These easily created links allow users to jump to information related to the article they are reading, greatly adding to Wikipedia&amp;apos;s usefulness.
+
+==How to link==
+To make a link to another Wikipedia page (called a &amp;apos;&amp;apos;wiki link&amp;apos;&amp;apos;), put it in double square brackets, like this:
+:&amp;lt;tt&amp;gt;&amp;lt;nowiki&amp;gt;[[Sandbox]]&amp;lt;/nowiki&amp;gt;&amp;lt;/tt&amp;gt;
+
+which the reader will see, after you save your edit, as this: [[Sandbox]]
+
+If you want to link to an article, but display some other text for the link, you can do so by adding the [[Help:Link#Piped link|pipe]] &amp;quot;|&amp;quot; divider (SHIFT + BACKSLASH on English-layout and other keyboards) followed by the alternative name. For example:
+:&amp;lt;tt&amp;gt;&amp;lt;nowiki&amp;gt;[[Target page|display text]]&amp;lt;/nowiki&amp;gt;&amp;lt;/tt&amp;gt;
+will display as this: [[Target page|display text]]
+
+You can make a link to a specific section of a page like so:
+:&amp;lt;tt&amp;gt;&amp;lt;nowiki&amp;gt;[[Target page#Target section|display text]]&amp;lt;/nowiki&amp;gt;&amp;lt;/tt&amp;gt;
+which will display as this:  [[Target page#Target section|display text]]
+
+If you want the display text of the link to appear in italics or bold, nest the double square brackets for the link within the multiple apostrophes that delimit the italicized or bold text, like this:
+:&amp;lt;tt&amp;gt;&amp;lt;nowiki&amp;gt;&amp;apos;&amp;apos;[[War and Peace]]&amp;apos;&amp;apos;&amp;lt;/nowiki&amp;gt;&amp;lt;/tt&amp;gt;
+which will display as this: &amp;apos;&amp;apos;[[War and Peace]]&amp;apos;&amp;apos;
+
+Please check your links to ensure they point to the correct article. For example, [[Apple]] points to  the article about the fruit, while [[Apple Inc.]] is the title of the article about the computer manufacturer. There are also [[Wikipedia:Disambiguation|&amp;quot;disambiguation&amp;quot; pages]], which are not articles, but rather pages which contain links to articles with similar titles. Some, such as [[Apple (disambiguation)]] are obvious, while others such as [[Georgia]] use generic titles. These differing titles are where piped links are especially useful.  For example, a wikilink of [[Georgia (country)]] is much less readable than a piped link of [[Georgia (country)|Georgia]], though both take the reader to the same place.
+
+==When  to link==
+Adding links to an article makes it more useful, but too many links can be distracting. (Lead sections often have more links than other sections of articles.) To avoid excessive links, you should normally create a link in an article only where the &amp;apos;&amp;apos;first occurrence&amp;apos;&amp;apos; of a word or phrase occurs.  And you should not link common words such as &amp;quot;state&amp;quot; and &amp;quot;world&amp;quot;, even though Wikipedia has articles for those words, unless these common words are central concepts to the article.
+
+Looking at other Wikipedia articles can help you learn when to add links. You can find a list of high quality articles on the [[Wikipedia:featured articles|featured articles]] page.
+
+==Categories==
+You can also put the article in a category with others in a related topic. Near the bottom of the article, type &amp;lt;nowiki&amp;gt;[[Category:]]&amp;lt;/nowiki&amp;gt;, and put the name of the category between the colon and the brackets. For example, &amp;lt;tt&amp;gt;&amp;lt;nowiki&amp;gt;[[Category:Wikipedia tutorial]]&amp;lt;/nowiki&amp;gt;&amp;lt;/tt&amp;gt;.
+
+&amp;apos;&amp;apos;&amp;apos;It is very important to put in the correct categories so that other people can easily find your work.&amp;apos;&amp;apos;&amp;apos; The best way to find which categories to put in is to look at pages on similar subjects, and check which categories they use. For example, if you write an article about a type of tree, you may look at an article on another type of tree to see which categories could be appropriate.
+
+&amp;lt;div style=&amp;quot;float: right; background-color:#f5faff; color: #000; padding: .2em .6em; font-size: 100%; border: 1px solid #cedff2; margin-bottom:3px;&amp;quot;&amp;gt;&amp;apos;&amp;apos;&amp;apos;For more information, see [[Wikipedia:Categorization]]&amp;apos;&amp;apos;&amp;apos;&amp;lt;/div&amp;gt;
+
+&amp;lt;div style=&amp;quot;float:left; background-color: #f5faff; padding: .2em .6em; font-size: 130%; border: 1px solid #cee0f2;&amp;quot;&amp;gt;&amp;apos;&amp;apos;&amp;apos;Test what you have learned in the [[Wikipedia:Tutorial/Wikipedia links/sandbox|sandbox]]&amp;apos;&amp;apos;&amp;apos;&amp;lt;/div&amp;gt;
+
+{{-}}
+&amp;lt;noinclude&amp;gt;
+&amp;lt;div style=&amp;quot;float:right; margin-top: 0.0em; margin-bottom:3px; background-color: #cee0f2; padding: .2em .6em; font-size: 130%; border: 1px solid #a3b1bf;&amp;quot;&amp;gt;&amp;apos;&amp;apos;&amp;apos;Continue the tutorial with [[Wikipedia:Tutorial/Citing sources|Citing sources]]&amp;apos;&amp;apos;&amp;apos; &amp;lt;span style=&amp;quot;font-size: larger; font-weight: bold;&amp;quot;&amp;gt;→&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;&amp;lt;/noinclude&amp;gt;
+&amp;lt;div style=&amp;quot;clear:both&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;noinclude&amp;gt;
+[[Category:Wikipedia tutorials|*3]]
+
+
+[[ms:Wikipedia:Tutorial (Pautan)]]
+[[pt:Wikipedia:Tutorial/Ligações internas]]
+[[ckb:Wikipedia:فێرکاری (بەستەرەکان لە ویکیپیدیا)]]
+[[zh:Wikipedia:使用指南 (维基百科链接)]]
+&amp;lt;/noinclude&amp;gt;&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

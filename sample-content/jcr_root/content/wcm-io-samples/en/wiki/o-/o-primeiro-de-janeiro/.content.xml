@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="O Primeiro de Janeiro"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="O Primeiro de Janeiro" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{nofootnotes|date=May 2008}}
+{{Infobox Newspaper
+| logo                = [[Image:O Primeiro de Janeiro.jpg|250px]]
+| image               =
+| caption             =
+| type                = Daily [[newspaper]]
+| format              = [[Broadsheet]]
+| foundation          = 1868
+| ceased publication  =
+| price               =
+| owners              =
+| publisher           =
+| editor              =
+| chiefeditor         =
+| assoceditor         =
+| maneditor           =
+| staff               =
+| language            = [[Portuguese language|Portuguese]]
+| political           =
+| circulation         =
+| headquarters        = [[Porto]]
+| sister newspapers   =
+| oclc                =
+| ISSN                =
+| website             = http://www.oprimeirodejaneiro.pt/
+}}
+
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;O Primeiro de Janeiro&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; (lit. &amp;apos;&amp;apos;January 1&amp;apos;&amp;apos;) is a [[Portugal|Portuguese]] daily [[newspaper]], published in [[Porto]], where it was founded in 1868.
+
+
+==See also==
+*[[List of newspapers in Portugal]]
+
+==External links==
+[http://www.oprimeirodejaneiro.pt/ &amp;apos;&amp;apos;O Primeiro de Janeiro&amp;apos;&amp;apos; online]
+
+{{portugal-newspaper-stub}}
+
+{{Portugal newspapers}}
+{{DEFAULTSORT:Primeiro de Janeiro}}
+[[Category:Newspapers published in Portugal]]
+[[Category:Publications established in 1868]]
+[[Category:Media in Porto]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

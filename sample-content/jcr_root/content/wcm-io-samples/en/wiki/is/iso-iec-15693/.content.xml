@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="ISO/IEC 15693"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="ISO/IEC 15693" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;lt;!-- {{context}} what should this do? --&amp;gt;
+&amp;apos;&amp;apos;&amp;apos;ISO/IEC 15693&amp;apos;&amp;apos;&amp;apos;, is an [[International Organization for Standardization|ISO]] standard for &amp;apos;&amp;apos;vicinity cards&amp;apos;&amp;apos;, i.e. cards which can be read from a greater distance as compared to [[proximity card]]s.
+
+ISO/IEC 15693 systems operate at the 13.56&amp;amp;nbsp;MHz [[frequency]], and offer maximum read distance of 1–1.5 metres.  As the vicinity cards have to operate at a greater distance, the necessary [[magnetic field]] is less (0.15 to 5 A/m) than that for a proximity card (1.5 to 7.5 A/m).
+
+== Communication to the card ==
+Communication from the reader to the card uses an [[amplitude-shift keying]] with 10% or 100% [[modulation index]].
+
+The data coding is:
+
+;1 out of 4 [[pulse position modulation]] : 2 bits are coded as the position of a 9.44 µs pause in a 75.52 µs symbol time, giving a bit rate of 26.48 kilo[[bits per second]] The [[least-significant bit]]s are sent first.
+;1 out of 256 pulse position modulation : 8 bits are coded as the position of a 9.44 µs pause in a 4.833 ms symbol time, giving a bit rate of 1.65 kbit/s.
+
+== Communication to the reader ==
+The card has two ways to send its data back to the reader:
+
+=== Amplitude shift keying ===
+[[Amplitude-shift keying]] 100% modulation index on a 423.75&amp;amp;nbsp;kHz [[subcarrier]].  The data rate can be:
+* Low 6.62 kbit/s (fc/2048)
+* High 26.48 kbit/s (fc/512)
+
+A logic 0 starts with eight pulses of 423.75&amp;amp;nbsp;kHz followed by an unmodulated time of 18.88 µs (256/ fc); a logic 1 is the other way round. The [[data frame]] delimitors are code violations, a start of frame is:
+# an unmodulated time of 56.64 µs (768/ fc),
+# 24 pulses of 423.75&amp;amp;nbsp;kHz
+# a logic 1
+
+and the end of a frame is:
+# a logic 0
+# 24 pulses of 423.75&amp;amp;nbsp;kHz
+# an unmodulated time of 56.64 µs
+
+The data is sent using a [[Manchester code]].
+
+=== Frequency shift keying ===
+[[Frequency-shift keying]] by switching between a 423.75&amp;amp;nbsp;kHz sub carrier (operating frequency divided by 32) and a 484.25&amp;amp;nbsp;kHz sub carrier (operating frequency divided by 28). The data rate can be:
+* Low 6.67 kbit/s (fc/2032)
+* High 26.69 kbit/s (fc/508)
+
+A logic 0 starts with eight pulses of 423.75&amp;amp;nbsp;kHz  followed by nine pulses of 484.28&amp;amp;nbsp;kHz; a logic 1 is the other way round. The [[data frame]] delimitors are code violations, a start of frame is:
+
+# 27 pulses of 484.28&amp;amp;nbsp;kHz
+# 24 pulses of 423.75&amp;amp;nbsp;kHz
+# a logic 1
+
+and the end of a frame is:
+# a logic 0
+# 24 pulses of 423.75&amp;amp;nbsp;kHz
+# 27 pulses of 484.28&amp;amp;nbsp;kHz
+
+The data is sent using a [[Manchester code]].
+
+==Manufacturer codes==
+see [[ISO/IEC_7816#7816-6:_Interindustry_data_elements_for_interchange|ISO/IEC 7816-6]]
+#Code 0x01: Motorola
+#Code 0x02: ST Microelectronics
+#Code 0x03: Hitachi
+#Code 0x04: NXP Semiconductors
+#Code 0x05: Infineon Technologies
+#Code 0x06: Cylinc
+#Code 0x07: Texas Instruments &amp;apos;&amp;apos;Tag-it™&amp;apos;&amp;apos;
+#Code 0x08: Fujitsu Limited
+#Code 0x09: Matsushita Electric Industrial
+#Code 0x0A: NEC
+#Code 0x0B: Oki Electric
+#Code 0x0C: Toshiba
+#Code 0x0D: Mitsubishi Electric
+#Code 0x0E: Samsung Electronics
+#Code 0x0F: Hyundai Electronics
+#Code 0x10: LG Semiconductors
+#Code 0x11
+#Code 0x12
+#Code 0x13
+#Code 0x14
+#Code 0x15
+#Code 0x16: EM Microelectronic-Marin
+
+==Implementations==
+The [[UID]] should be always 0xE0.
+iCLASS family of cards and tags by [[HID Global]], with a maximum read range {{convert|45|cm|in}}.
+
+==External links==
+*[http://www.iso.org/iso/iso_catalogue/catalogue_ics/catalogue_detail_ics.htm?csnumber=39694 ISO/IEC 15693-1:2000 Identification cards &amp;amp;mdash; Contactless integrated circuit(s) cards &amp;amp;mdash; Vicinity cards &amp;amp;mdash; Part 1: Physical characteristics]
+*[http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=39695 ISO/IEC 15693-2:2006 Identification cards &amp;amp;mdash; Contactless integrated circuit cards &amp;amp;mdash; Vicinity cards &amp;amp;mdash; Part 2: Air interface and initialization]
+*[http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=43467 ISO/IEC 15693-3:2009 Identification cards &amp;amp;mdash; Contactless integrated circuit cards &amp;amp;mdash; Vicinity cards &amp;amp;mdash; Part 3: Anticollision and transmission protocol]
+*[http://www.waazaa.org/15693/ Final Committee Drafts in pdf form for free download]
+
+{{ISO standards}}
+
+{{DEFAULTSORT:ISO IEC 15693}}
+[[Category:ISO/IEC standards|#15693]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

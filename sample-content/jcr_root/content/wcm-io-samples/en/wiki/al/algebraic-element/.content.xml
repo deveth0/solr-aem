@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Algebraic element"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Algebraic element" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{no footnotes|date=March 2013}}
+In [[mathematics]], if &amp;apos;&amp;apos;L&amp;apos;&amp;apos; is a [[field extension]] of &amp;apos;&amp;apos;K&amp;apos;&amp;apos;, then an element &amp;apos;&amp;apos;a&amp;apos;&amp;apos; of &amp;apos;&amp;apos;L&amp;apos;&amp;apos; is called an &amp;apos;&amp;apos;&amp;apos;algebraic element&amp;apos;&amp;apos;&amp;apos; over &amp;apos;&amp;apos;K&amp;apos;&amp;apos;, or just &amp;apos;&amp;apos;&amp;apos;algebraic over&amp;apos;&amp;apos;&amp;apos; &amp;apos;&amp;apos;K&amp;apos;&amp;apos;, if there exists some non-zero [[polynomial]] &amp;apos;&amp;apos;g&amp;apos;&amp;apos;(&amp;apos;&amp;apos;x&amp;apos;&amp;apos;) with [[coefficient]]s in &amp;apos;&amp;apos;K&amp;apos;&amp;apos; such that &amp;apos;&amp;apos;g&amp;apos;&amp;apos;(&amp;apos;&amp;apos;a&amp;apos;&amp;apos;)=0. Elements of &amp;apos;&amp;apos;L&amp;apos;&amp;apos; which are not algebraic over &amp;apos;&amp;apos;K&amp;apos;&amp;apos; are called &amp;apos;&amp;apos;&amp;apos;transcendental&amp;apos;&amp;apos;&amp;apos; over &amp;apos;&amp;apos;K&amp;apos;&amp;apos;.
+
+These notions generalize the [[algebraic number]]s and the [[transcendental number]]s (where the field extension is &amp;apos;&amp;apos;&amp;apos;C&amp;apos;&amp;apos;&amp;apos;/&amp;apos;&amp;apos;&amp;apos;Q&amp;apos;&amp;apos;&amp;apos;, &amp;apos;&amp;apos;&amp;apos;C&amp;apos;&amp;apos;&amp;apos; being the field of [[complex number]]s and &amp;apos;&amp;apos;&amp;apos;Q&amp;apos;&amp;apos;&amp;apos; being the field of [[rational number]]s).
+
+== Examples ==
+* The [[square root]] of [[two|2]] is algebraic over &amp;apos;&amp;apos;&amp;apos;Q&amp;apos;&amp;apos;&amp;apos;, since it is the root of the polynomial &amp;apos;&amp;apos;g&amp;apos;&amp;apos;(&amp;apos;&amp;apos;x&amp;apos;&amp;apos;) = &amp;apos;&amp;apos;x&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;2&amp;lt;/sup&amp;gt; - 2 whose coefficients are rational.
+* [[Pi]] is transcendental over &amp;apos;&amp;apos;&amp;apos;Q&amp;apos;&amp;apos;&amp;apos; but algebraic over the field of [[real number]]s &amp;apos;&amp;apos;&amp;apos;R&amp;apos;&amp;apos;&amp;apos;: it is the root of &amp;apos;&amp;apos;g&amp;apos;&amp;apos;(&amp;apos;&amp;apos;x&amp;apos;&amp;apos;) = &amp;apos;&amp;apos;x&amp;apos;&amp;apos; - π, whose coefficients (1 and -π) are both real, but not of any polynomial with only rational coefficients.  (The definition of the term [[transcendental number]] uses &amp;apos;&amp;apos;&amp;apos;C&amp;apos;&amp;apos;&amp;apos;/&amp;apos;&amp;apos;&amp;apos;Q&amp;apos;&amp;apos;&amp;apos;, not &amp;apos;&amp;apos;&amp;apos;C&amp;apos;&amp;apos;&amp;apos;/&amp;apos;&amp;apos;&amp;apos;R&amp;apos;&amp;apos;&amp;apos;.)
+
+== Properties ==
+
+The following conditions are equivalent for an element &amp;apos;&amp;apos;a&amp;apos;&amp;apos; of &amp;apos;&amp;apos;L&amp;apos;&amp;apos;:
+* &amp;apos;&amp;apos;a&amp;apos;&amp;apos; is algebraic over &amp;apos;&amp;apos;K&amp;apos;&amp;apos;
+* the field extension &amp;apos;&amp;apos;K&amp;apos;&amp;apos;(&amp;apos;&amp;apos;a&amp;apos;&amp;apos;)/&amp;apos;&amp;apos;K&amp;apos;&amp;apos; has finite degree, i.e. the [[dimension of a vector space|dimension]] of &amp;apos;&amp;apos;K&amp;apos;&amp;apos;(&amp;apos;&amp;apos;a&amp;apos;&amp;apos;) as a &amp;apos;&amp;apos;K&amp;apos;&amp;apos;-[[vector space]] is finite. (Here &amp;apos;&amp;apos;K&amp;apos;&amp;apos;(&amp;apos;&amp;apos;a&amp;apos;&amp;apos;) denotes the smallest subfield of &amp;apos;&amp;apos;L&amp;apos;&amp;apos; containing &amp;apos;&amp;apos;K&amp;apos;&amp;apos; and &amp;apos;&amp;apos;a&amp;apos;&amp;apos;)
+* &amp;apos;&amp;apos;K&amp;apos;&amp;apos;[&amp;apos;&amp;apos;a&amp;apos;&amp;apos;] = &amp;apos;&amp;apos;K&amp;apos;&amp;apos;(&amp;apos;&amp;apos;a&amp;apos;&amp;apos;), where &amp;apos;&amp;apos;K&amp;apos;&amp;apos;[&amp;apos;&amp;apos;a&amp;apos;&amp;apos;] is the set of all elements of &amp;apos;&amp;apos;L&amp;apos;&amp;apos; that can be written in the form &amp;apos;&amp;apos;g&amp;apos;&amp;apos;(&amp;apos;&amp;apos;a&amp;apos;&amp;apos;) with a polynomial &amp;apos;&amp;apos;g&amp;apos;&amp;apos; whose coefficients lie in &amp;apos;&amp;apos;K&amp;apos;&amp;apos;.
+
+This characterization can be used to show that the sum, difference, product and quotient of algebraic elements over &amp;apos;&amp;apos;K&amp;apos;&amp;apos; are again algebraic over &amp;apos;&amp;apos;K&amp;apos;&amp;apos;. The set of all elements of &amp;apos;&amp;apos;L&amp;apos;&amp;apos; which are algebraic over &amp;apos;&amp;apos;K&amp;apos;&amp;apos; is a field that sits in between &amp;apos;&amp;apos;L&amp;apos;&amp;apos; and &amp;apos;&amp;apos;K&amp;apos;&amp;apos;.
+
+If &amp;apos;&amp;apos;a&amp;apos;&amp;apos; is algebraic over &amp;apos;&amp;apos;K&amp;apos;&amp;apos;, then there are many non-zero polynomials &amp;apos;&amp;apos;g&amp;apos;&amp;apos;(&amp;apos;&amp;apos;x&amp;apos;&amp;apos;) with coefficients in &amp;apos;&amp;apos;K&amp;apos;&amp;apos; such that &amp;apos;&amp;apos;g&amp;apos;&amp;apos;(&amp;apos;&amp;apos;a&amp;apos;&amp;apos;) = 0. However there is a single one  with smallest degree and with leading coefficient 1. This is the [[Minimal polynomial (field theory)|minimal polynomial]] of &amp;apos;&amp;apos;a&amp;apos;&amp;apos; and it encodes many important properties of &amp;apos;&amp;apos;a&amp;apos;&amp;apos;.
+
+Fields that do not allow any algebraic elements over them (except their own elements) are called [[algebraically closed field|algebraically closed]]. The field of complex numbers is an example.
+
+==See also==
+*[[Algebraic independence]]
+
+==References==
+*{{Lang Algebra | edition=3r}}
+
+[[Category:Abstract algebra]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

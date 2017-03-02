@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="XHITT-FM"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="XHITT-FM" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+{{Infobox Radio Station |
+  name      = XHITT-FM |
+  image     = |
+  area      = [[Tijuana, Baja California]]|
+  branding  = |
+  slogan    = |
+  airdate   = |
+  frequency = 88.7 ([[megahertz|MHz]])|
+  format    = [[Public Radio]]|
+  erp       = 1,150 [[Watt]]s |
+  haat      = 139 meters|
+  class     = A |
+  owner     = Instituto Tecnologico de Tijuana|
+  website   = |
+  callsign_meaning = |
+}}
+&amp;apos;&amp;apos;&amp;apos;XHITT-FM&amp;apos;&amp;apos;&amp;apos; 88.7 is a Public [[radio station]] in [[Tijuana, Baja California|Tijuana]], [[Mexico]].
+
+{{Tijuana Radio}}
+
+{{coord missing|Mexico}}
+
+{{DEFAULTSORT:Xhitt-Fm}}
+[[Category:Radio stations in Tijuana]]
+[[Category:Radio stations established in 1983]]
+
+
+{{Mexico-radio-station-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

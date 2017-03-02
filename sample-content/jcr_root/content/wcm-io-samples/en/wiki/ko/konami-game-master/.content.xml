@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Konami Game Master"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Konami Game Master" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox VG
+|title = Game Master
+|image = [[File:Konami Game Master.jpg]]
+|developer = Konami
+|publisher =
+|distributor =
+|designer =
+|engine =
+|version =
+|released = 1986
+|genre = [[Cheat]] device
+|modes = [[Single player]]
+|ratings =
+|platforms = [[MSX]]
+|media = Cartridge, # RC-735
+|requirements =
+|input =
+|preceded by =
+|followed by =
+}}
+
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;The Konami Game Master&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;, released as {{nihongo|&amp;apos;&amp;apos;Konami no Game wo 10-bai Tanoshimu Cartridge&amp;apos;&amp;apos;|コナミのゲームを10倍楽しむカートリッジ|lit. &amp;quot;The Cartridge which Enjoys the Konami Games 10 Times&amp;quot;}}in Japan, is a special [[cheat cartridge]] specifically designed for [[Konami]] games on the [[MSX]].
+
+It allowed the player to start at different stages, with more lives, save the game&amp;apos;s progress and high scores, make screen dumps, and play in slow motion, as well as other uses. The Game Master II was a second cheat cartridge made with additional support for MSX2 games.
+
+{{Infobox VG
+|title = Game Master II
+|image = &amp;lt;!-- Deleted image removed: [[Image:KonamiGameMaster2_MSX.jpg|Game Master II Screenshot]] --&amp;gt;
+|developer = [[Konami]]
+|publisher = [[Konami]]
+|distributor =
+|designer =
+|engine =
+|version =
+|released = 1988 ([[Japan]]/[[Netherlands]])
+|genre = [[Cheat]] device
+|modes = [[Single player]]
+|ratings =
+|platforms = [[MSX]]
+|media = [[Cartridge (electronics)|Cartridge]], #RC-755
+|requirements =
+|input =
+|preceded by =
+|followed by =
+}}
+
+==External links==
+* [http://bifi.msxnet.org/msxnet/konami/gamemasters/ The Game Master 1 and 2 at msxnet]
+
+[[Category:Konami]]
+[[Category:MSX]]
+[[Category:Video game cheating]]
+
+{{Konami-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

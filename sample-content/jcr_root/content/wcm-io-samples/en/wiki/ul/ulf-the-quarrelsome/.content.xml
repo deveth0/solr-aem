@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ulf the Quarrelsome"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ulf the Quarrelsome" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Ulf the Quarrelsome&amp;apos;&amp;apos;&amp;apos;, or &amp;apos;&amp;apos;&amp;apos;Ulf Hreda&amp;apos;&amp;apos;&amp;apos;, is described in  [[Njals Saga]] as a brother (or sometimes identified as stepson) to [[Brian Boru]],  [[High King of Ireland]] from 1002 to 1014.  He is primarily mentioned in Njals saga&amp;apos;s account of the [[Battle of Clontarf]] of [[1014 in Ireland|1014]], in the aftermath of which he gruesomely killed [[Brodir and Ospak of Man|Brodir]] of the [[Isle of Man]] to avenge his brother&amp;apos;s death at the hands of the invaders:
+
+&amp;apos;&amp;apos;Ulf the Quarrelsome cut open his belly, and led him round and round the trunk of a tree, and so wound all his entrails out of him, and he did not die before they were all drawn out of him.&amp;apos;&amp;apos;
+
+Some have identified Ulf as a brother of Brian named Cuiduligh.
+
+==External links==
+*[http://sunsite.berkeley.edu/OMACL/Njal/11part.html The Story of Burnt Njal (Njal&amp;apos;s Saga) Part 11]
+*[http://www.northvegr.org/lore/njal indexed online version of Njåls saga] translated to English by George Dasents. The part referring to Clontarf, &amp;apos;&amp;apos;Brian&amp;apos;s Battle&amp;apos;&amp;apos;, is in chapter 156
+
+{{Ireland-royal-stub}}
+[[Category:Medieval Gaels]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Queen&#x27;s Faculty of Health Sciences"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Queen&#x27;s Faculty of Health Sciences" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox academic division
+|name           = Faculty of Health Sciences
+|former_names   =
+|type           = [[Faculty (division)|Faculty]]
+|affiliation    = [[Queen&amp;apos;s University]]
+|parent         =
+|image_name     =
+|image_size     =
+|image_alt      =
+|caption        =
+|established    = &amp;lt;!-- {{Start date|YYYY}} --&amp;gt;
+|closed         = &amp;lt;!-- {{End date|YYYY}} --&amp;gt;
+|city           = [[Kingston, Ontario|Kingston]]
+|province       = [[Ontario]]
+|country        = [[Canada]]
+|coor           =
+|dean           = Richard Reznick
+|academic_staff =
+|administrative_staff =
+|students       =
+|undergrad      =
+|postgrad       =
+|doctoral       =
+|alumni         =
+|motto          =
+|motto_lang     =
+|motto_eng      =
+|colours        =
+|symbol         =
+|website        = {{URL|http://healthsci.queensu.ca/}}
+|logo           =
+|footnotes      =
+}}
+
+The &amp;apos;&amp;apos;&amp;apos;Queen&amp;apos;s Faculty of Health Sciences&amp;apos;&amp;apos;&amp;apos; is a [[Faculty (division)|faculty]] of [[Queen&amp;apos;s University]] in [[Kingston, Ontario|Kingston]], [[Ontario]], [[Canada]]. It contains three schools: the [[Queen&amp;apos;s School of Medicine|School of Medicine]], the [[Queen&amp;apos;s School of Nursing|School of Nursing]], and the [[Queen&amp;apos;s School of Rehabilitation Therapy|School of Rehabilitation Therapy]].
+
+This faculty also administers Queen&amp;apos;s University&amp;apos;s highly competitive [[Life Sciences]] and [[Biochemistry]] programs.
+
+The educational program leading to the [[Doctor of Medicine|MD]] degree is central to the purpose of the faculty. It must meet all the requirements for [[School accreditation|accreditation]] and prepare [[alumnus|graduates]] for postgraduate training leading to licensure and certification by the [[College of Family Physicians Canada]] or the [[Royal College of Physicians and Surgeons of Canada]].
+
+==External links==
+*[http://healthsci.queensu.ca/ Queen&amp;apos;s Faculty of Health Sciences Website]
+
+{{Queen&amp;apos;s}}
+[[Category:Queen&amp;apos;s University|Faculty of Health Sciences]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Phylactery"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Phylactery" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|phylacteries|phylactery}}
+&amp;apos;&amp;apos;&amp;apos;Phylactery&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* An [[amulet]] or [[spell (paranormal)|charm]]; worn for its [[magical]] or [[supernatural]] power.
+* A [[speech scroll]] that contains dialogue in mediaeval art, a precursor to the [[speech balloon]].
+
+== Fantasy ==
+* An object used by a [[Lich (Dungeons &amp;amp; Dragons)|Lich]] to contain its soul, protecting it from death
+:* &amp;apos;&amp;apos;[[Dungeons &amp;amp; Dragons]]&amp;apos;&amp;apos; fantasy role-playing game
+:* &amp;apos;&amp;apos;[[World of Warcraft]]&amp;apos;&amp;apos;
+:* &amp;apos;&amp;apos;[[Magic: the Gathering]]&amp;apos;&amp;apos;
+* In &amp;apos;&amp;apos;[[Dragon Age]]&amp;apos;&amp;apos;, the [[Bioware]]-created RPG series, a vial of a mage&amp;apos;s blood which the Templars use to track the mage
+
+== History ==
+* English name for [[Tefillin]], a pair of small, black, leather boxes containing scrolls of parchment inscribed with verses from the Torah, which are worn by observant Jews during weekday morning prayers
+
+== Music ==
+* &amp;apos;&amp;apos;[[Phylactery Factory]]&amp;apos;&amp;apos;, the second album by American singer-songwriter Casey Dienel, but the first under the White Hinterland name
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

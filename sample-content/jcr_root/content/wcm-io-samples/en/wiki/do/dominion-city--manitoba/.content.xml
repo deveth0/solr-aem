@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Dominion City, Manitoba"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Dominion City, Manitoba" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=October 2009}}
+[[File:Dominion City, Manitoba.jpg|thumb|right|Dominion City, 2006]]
+&amp;apos;&amp;apos;&amp;apos;Dominion City&amp;apos;&amp;apos;&amp;apos; is a community in the [[Franklin, Manitoba (rural municipality)|Rural Municipality of Franklin]] in the [[Canadian]] province of [[Manitoba]]. It is located in south central Manitoba about 20 kilometres from the [[Canada-U.S. border]].
+
+Dominion City is served by Roseau Valley School. It has a pool, a museum, a bank, a credit union, a store, a hockey rink, and a curling club. Historic buildings in Dominion City include [[All Saints Anglican Church (Dominion City, Manitoba)|All Saints Anglican Church]], which is now the Franklin Museum.
+
+There was a Post Office called Roseau Crossing established in 1876. The name was changed to Dominion City in 1880.
+
+== References ==
+* &amp;apos;&amp;apos;Geographic Names of Manitoba&amp;apos;&amp;apos; (pg. 65) - the Millennium Bureau of Canada
+
+{{Manitoba}}
+
+{{Coord|49|08|31|N|97|09|20|W|region:CA_type:city_source:GNS-enwiki|display=title}}
+
+[[Category:Hamlets in Manitoba]]
+
+
+{{Manitoba-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

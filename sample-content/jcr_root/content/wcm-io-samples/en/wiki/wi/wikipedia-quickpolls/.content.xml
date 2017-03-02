@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:Quickpolls"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:Quickpolls" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{historical|WP:QP}}
+&amp;apos;&amp;apos;&amp;apos;Quickpolls&amp;apos;&amp;apos;&amp;apos; were a trial of a system for making fast decisions about problematic users. They consisted of polls among Wikipedia regulars on issues that needed to be quickly resolved.  It operated from [[March]] to [[June]] of [[2004]], although some action continued into [[July]].
+
+After mixed reactions in the 30-day review process this page fell into disuse. As seen on the [[Wikipedia talk:Quickpolls|talk page]], there was much dissatisfaction with the process, and no agreement on what changes were needed to fix it.
+
+Potential alternatives to the quickpoll system include the &amp;quot;[[Wikipedia:Three strikes you&amp;apos;re out policy|three strikes rule]]&amp;quot; and other ways of [[wikipedia:dealing with trolls|dealing with trolls]] and [[Wikipedia:dealing with disruptive or antisocial editors|dealing with disruptive or antisocial editors]].
+
+At the time, [[Wikipedia:Quickpolls policy]] contained the policy for this procedure. Concluded polls have been moved to [[Wikipedia:Quickpolls/Archive]] (which also includes an example poll).
+
+A proposal to revive quickpolls was active in March, 2005. See [[Wikipedia:Bring back quickpolls]].&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

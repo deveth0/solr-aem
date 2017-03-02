@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Subspace"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Subspace" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Wiktionary|subspace}}
+{{TOCright}}
+&amp;apos;&amp;apos;&amp;apos;Subspace&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+==In mathematics==
+* A subset of a topological space endowed with the [[subspace topology]]
+* [[Linear subspace]], in linear algebra, a subset of a vector space that is closed under addition and scalar multiplication
+* [[Flat (geometry)]], an Euclidean subspace
+* [[Affine subspace]],&amp;lt;!-- linear manifold or linear variety, is--&amp;gt; a geometric structure that generalizes the affine properties of a flat
+* [[Multilinear subspace]] in multilinear algebra, a subset of a tensor space that is closed under addition and scalar multiplication
+
+==In science fiction==
+* [[Subspace (fictional)]] or hyperspace, a fictional parallel universe
+* [[Subspace (Star Trek)]], a fictional feature of space-time that facilitates faster-than-light communication and transit
+
+==In games==
+* [[SubSpace (video game)|&amp;apos;&amp;apos;SubSpace&amp;apos;&amp;apos; (video game)]], a two-dimensional space shooter computer game
+* [[Super Smash Bros. Brawl#Adventure Mode: The Subspace Emissary|The Subspace Emissary]], the two player Adventure mode in the video game &amp;apos;&amp;apos;Super Smash Bros. Brawl&amp;apos;&amp;apos;
+* &amp;apos;&amp;apos;[[Yume Kōjō: Doki Doki Panic]]&amp;apos;&amp;apos; and its derivative, &amp;apos;&amp;apos;[[Super Mario Bros. 2]]&amp;apos;&amp;apos;, both feature a realm called &amp;quot;Subspace&amp;quot; whose primary features include [[power-up]] items, health restoration bonuses, and coins used to purchase extra lives
+* &amp;apos;&amp;apos;SubSpace&amp;apos;&amp;apos;, is the name of a level in the [[PlayStation (console)|PlayStation]] version of [[Final Doom]]
+
+==Other uses==
+* [[Subspace (song)|&amp;quot;Subspace&amp;quot; (song)]], a 2001 single by Funker Vogt
+* [[Subspace (BDSM)]], in BDSM, a psychological state that can be entered by the submissive participant
+
+{{mathematical disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

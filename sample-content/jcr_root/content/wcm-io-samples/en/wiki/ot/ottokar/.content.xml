@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ottokar"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ottokar" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Ottokar&amp;apos;&amp;apos;&amp;apos; is the German form of the Germanic name [[Audovacar]].
+
+;Kings of Bohemia, members of the Přemyslid dynasty
+** [[Ottokar I of Bohemia]], died 1230
+** [[Ottokar II of Bohemia]], died 1278
+
+;Four Styrian margraves of the dynasty of the Otakars
+
+** [[Ottokar I, Margrave of Styria]], died 1064
+** [[Ottokar II, Margrave of Styria]], died 1122
+** [[Ottokar III, Margrave of Styria]], died 1164
+** [[Ottokar IV, Duke of Styria]], 1192
+* [[Count Ottokar Czernin]],  diplomat/politician in the Austro-Hungarian monarchy
+* [[Ottakar&amp;apos;s]] (a chain of bookshops in the United Kingdom)
+* The fictional King Ottokar IV of Syldavia, from the Tintin book &amp;apos;&amp;apos;[[King Ottokar&amp;apos;s Sceptre]]&amp;apos;&amp;apos;
+* The fictional prince in [[Carl Maria von Weber]]&amp;apos;s opera &amp;apos;&amp;apos;[[Der Freischütz]]&amp;apos;&amp;apos;
+* [[Ottakring]]
+
+[[Category:German given names]]
+[[Category:Czech given names]]
+{{hndis}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

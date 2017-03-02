@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="USS Norfolk"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="USS Norfolk" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Italic title prefixed|3}}
+{{For|a ship with a similar name|USS Norfolk Packet}}
+
+&amp;apos;&amp;apos;&amp;apos;USS &amp;apos;&amp;apos;Norfolk&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+*{{USS|Norfolk|1798}}, was a brig during the Quasi-War with France
+
+*&amp;apos;&amp;apos;Norfolk&amp;apos;&amp;apos; (CA-137), was a planned [[heavy cruiser]] laid down in December 1944 at the Philadelphia Naval Shipyard, but construction was canceled in August 1945.
+
+*{{USS|Norfolk|DL-1}}, was a destroyer leader in service from 1953 to 1970
+
+*{{USS|Norfolk|SSN-714}}, is a {{sclass|Los Angeles|submarine}} commissioned in 1983 and currently on active service
+
+{{Shipindex}}
+
+{{DEFAULTSORT:Norfolk}}
+[[Category:United States Navy ship names]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

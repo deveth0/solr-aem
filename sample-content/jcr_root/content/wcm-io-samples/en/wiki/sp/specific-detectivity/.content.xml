@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Specific detectivity"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Specific detectivity" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Specific detectivity&amp;apos;&amp;apos;&amp;apos;, or &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;D*&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;, for a [[photodetector]] is a [[figure of merit]] used to characterize performance, equal to the reciprocal of [[noise-equivalent power]] (NEP), normalized per unit area.
+
+Specific detectivity is given by &amp;lt;math&amp;gt;D^*=\frac{\sqrt{A}}{NEP}&amp;lt;/math&amp;gt;, where &amp;lt;math&amp;gt;A&amp;lt;/math&amp;gt; is the area of the photosensitive region of the detector. Its common units are &amp;lt;math&amp;gt;cm \cdot \sqrt{Hz}/ W&amp;lt;/math&amp;gt;, also called the &amp;apos;&amp;apos;Jones&amp;apos;&amp;apos; in honor of R. Clark Jones who defined this magnitude.&amp;lt;ref&amp;gt;R. C. Jones, &amp;quot;Quantum efficiency of photoconductors,&amp;quot; &amp;apos;&amp;apos;Proc. IRIS&amp;apos;&amp;apos; &amp;apos;&amp;apos;&amp;apos;2&amp;apos;&amp;apos;&amp;apos;, 9 (1957)&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;R. C. Jones, &amp;quot;Proposal of the detectivity D** for detectors limited by radiation noise,&amp;quot; &amp;apos;&amp;apos;J. Opt. Soc. Am.&amp;apos;&amp;apos; &amp;apos;&amp;apos;&amp;apos;50&amp;apos;&amp;apos;&amp;apos;, 1058 (1960), {{doi|10.1364/JOSA.50.001058}})&amp;lt;/ref&amp;gt;
+
+Given that [[noise-equivalent power]] can be expressed as a function of the [[responsivity]] &amp;lt;math&amp;gt;\mathfrak{R}&amp;lt;/math&amp;gt; (in units of &amp;lt;math&amp;gt;A/W&amp;lt;/math&amp;gt; or &amp;lt;math&amp;gt;V/W&amp;lt;/math&amp;gt;) and the [[noise spectral density]] &amp;lt;math&amp;gt;S_n&amp;lt;/math&amp;gt; (in units of &amp;lt;math&amp;gt;A/Hz^{1/2}&amp;lt;/math&amp;gt; or &amp;lt;math&amp;gt;V/Hz^{1/2}&amp;lt;/math&amp;gt;) as &amp;lt;math&amp;gt;NEP=\frac{S_n}{\mathfrak{R}}&amp;lt;/math&amp;gt;, it&amp;apos;s common to see the specific detectivity expressed as &amp;lt;math&amp;gt;D^*=\frac{\mathfrak{R}\cdot\sqrt{A}}{S_n}&amp;lt;/math&amp;gt;.
+
+The unit &amp;apos;&amp;apos;Jones&amp;apos;&amp;apos; is now commonly used with the D* figure of merit.
+
+It is often useful to express the specific detectivity in terms of relative noise levels present in the device. A common expression is given below.
+
+&amp;lt;math&amp;gt;D^* = \frac{q\lambda \eta}{hc} \left[\frac{4kT}{R_0 A}+2q^2 \eta \Phi_b\right]^{-1/2}&amp;lt;/math&amp;gt;
+
+With &amp;apos;&amp;apos;q&amp;apos;&amp;apos; as the electronic charge, &amp;lt;math&amp;gt;\lambda&amp;lt;/math&amp;gt; is the wavelength of interest, &amp;apos;&amp;apos;h&amp;apos;&amp;apos; is Planck&amp;apos;s constant, &amp;apos;&amp;apos;c&amp;apos;&amp;apos; is the speed of light, &amp;apos;&amp;apos;k&amp;apos;&amp;apos; is Boltzmann&amp;apos;s constant, &amp;apos;&amp;apos;T&amp;apos;&amp;apos; is the temperature of the detector, &amp;lt;math&amp;gt;R_0A&amp;lt;/math&amp;gt; is the zero-bias dynamic resistance area product (often measured experimentally, but also expressible in noise level assumptions), &amp;lt;math&amp;gt;\eta&amp;lt;/math&amp;gt; is the quantum efficiency of the device, and &amp;lt;math&amp;gt;\Phi_b&amp;lt;/math&amp;gt; is the total flux of the source (often a blackbody) in photons/sec/cm².
+
+== References ==
+&amp;lt;div class=&amp;quot;references-small&amp;quot; style=&amp;quot;-moz-column-count:1; column-count:1;&amp;quot;&amp;gt;
+&amp;lt;references/&amp;gt;&amp;lt;/div&amp;gt;
+
+[[Category:Physical quantities]]
+{{FS1037C}}
+[[Category:Infrared imaging]]
+{{physics-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Pedicle"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Pedicle" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Wiktionarypar|pedicel}}
+&amp;apos;&amp;apos;&amp;apos;Pedicle&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;pedicel&amp;apos;&amp;apos;&amp;apos; may refer to:
+*[[Pedicle of vertebral arch]], the segment between the transverse process and the vertebral body, and is often used as a radiographic marker and entry point in vertebroplasty and kyphoplasty procedures
+*pedicle of a [[skin flap]] (medicine)
+* [[Pedicle (zoology)]], a fleshy line used to attach and anchor brachiopods and some bivalve mollusks to a substrate
+*[[Pedicel (botany)]], the stalk of an individual flower
+*Pedicle (cervidae), the attachment point for [[antler]]s in cervids
+*[[Pedicel (antenna)]], the second segment of the [[antenna (biology)|antenna]] in the class Insecta, where the [[Johnston&amp;apos;s organ]] is found
+*[[Hilum of kidney]], also called the renal pedicle
+*Pedicel, a foot process of a renal [[podocyte]]
+*Pedicel or [[petiole (insect)]], the stem formed by a restricted abdominal segment which connects the thorax with the gaster (the remaining abdominal segments) in the suborder Apocrita
+*[[Pedicel (spider)]], the narrow segment connecting the [[cephalothorax]] with the abdomen
+*[[Congo Pedicle]], an area of DR Congo jutting into Zambia
+* [[Zaire Pedicle]], used for &amp;apos;Congo Pedicle&amp;apos; during the time that DR Congo was called Zaire
+*[[Congo Pedicle road]], serving Zambian provinces either side of the Congo Pedicle
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

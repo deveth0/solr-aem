@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:WikiProject Orphanage/Orphaned Articles"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:WikiProject Orphanage/Orphaned Articles" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{historical}}
+These &amp;apos;&amp;apos;&amp;apos;orphaned articles&amp;apos;&amp;apos;&amp;apos; were detected in the database dump of June 26, 2004. (Some of the orphaned articles that were detected at that time have since been linked from other articles and removed from this list.) It includes articles that are &amp;apos;&amp;apos;&amp;apos;not linked from other articles&amp;apos;&amp;apos;&amp;apos; in the article [[Wikipedia:namespace|namespace]]. [[Wikipedia:disambiguation|Disambiguation pages]] should already be removed.
+
+{{specialpageslist}}
+These pages can be removed from this list once:
+*pages have been adopted (by the creation of a link from three or more other articles);
+*pages have been deleted (links already red or question marked);
+*pages have been made [[Wikipedia:redirect|redirect]]s;
+*pages have been marked [[Wikipedia:Disambiguation|disambiguation]] pages, usually with &amp;lt;nowiki&amp;gt;{{&amp;lt;/nowiki&amp;gt;[[Template:disambig|disambig]]}}
+*pages are listed on [[Wikipedia:Duplicate_articles]] and marked as such, or have already been merged (redirected);
+*[[Wikipedia:Subpages to be moved#temp|temp pages]] have been moved out of the article namespace.
+After an update, they won&amp;apos;t appear here.
+
+&amp;lt;br style=&amp;quot;clear:both;&amp;quot;/&amp;gt;
+
+There is cached version of the initial function at [[Special:Lonelypages]] which includes disambiguation pages and others excluded here.
+
+==How to update==
+See [[/How to update]]
+
+==Excluded entries==
+[[Census-designated place]]s, towns and villages, are listed on &amp;apos;&amp;apos;&amp;apos;[[/CDPs and towns]]&amp;apos;&amp;apos;&amp;apos;
+
+==Main list==
+{| border=&amp;quot;1&amp;quot; cellpadding=&amp;quot;2&amp;quot;
+|&amp;apos;&amp;apos;&amp;apos;&amp;lt;nowiki&amp;gt;----&amp;lt;/nowiki&amp;gt;&amp;apos;&amp;apos;&amp;apos; || &amp;apos;&amp;apos;&amp;apos;##&amp;apos;&amp;apos;&amp;apos; || &amp;apos;&amp;apos;&amp;apos;Last count&amp;apos;&amp;apos;&amp;apos; ||&amp;apos;&amp;apos;&amp;apos;&amp;lt;nowiki&amp;gt;----&amp;lt;/nowiki&amp;gt;&amp;apos;&amp;apos;&amp;apos; || &amp;apos;&amp;apos;&amp;apos;##&amp;apos;&amp;apos;&amp;apos; || &amp;apos;&amp;apos;&amp;apos;Last count&amp;apos;&amp;apos;&amp;apos; ||
+|-
+! style=&amp;quot;background: gray&amp;quot; |[[/A|-A-]]
+! style=&amp;quot;background: gray&amp;quot; | 0
+! style=&amp;quot;background: gray&amp;quot; | May 29, 2008
+! style=&amp;quot;background: gold&amp;quot; |[[/O|-O-]]
+| 19
+! style=&amp;quot;background: #3366CC&amp;quot;| October 30, 2007
+|-
+! style=&amp;quot;background: gold&amp;quot; |[[/B|-B-]]
+| 24
+| June 3, 2008
+! style=&amp;quot;background: gray&amp;quot; |[[/P|-P-]]
+! style=&amp;quot;background: gray&amp;quot; | 0
+! style=&amp;quot;background: gray&amp;quot; | May 30, 2008
+|-
+| style=&amp;quot;background: gold&amp;quot; |[[/C|-C-]]
+| 44
+| January 30, 2009
+! style=&amp;quot;background: gray&amp;quot; |[[/Q|-Q-]]
+! style=&amp;quot;background: gray&amp;quot; | 0
+! style=&amp;quot;background: gray&amp;quot; | August 26, 2006
+|-
+! style=&amp;quot;background: gold&amp;quot; |[[/D|-D-]]
+| 54
+| May 19, 2008
+! style=&amp;quot;background: gray&amp;quot; |[[/R|-R-]]
+! style=&amp;quot;background: gray&amp;quot; | 0
+! style=&amp;quot;background: gray&amp;quot; | May 31, 2008
+|-
+! style=&amp;quot;background: gold&amp;quot; |[[/E|-E-]]
+| 53
+| August 28, 2008
+|[[/S|-S-]]
+| 198
+| May 25, 2008
+|-
+| style=&amp;quot;background: gold&amp;quot; |[[/F|-F-]]
+| 20
+| May 29, 2008
+! style=&amp;quot;background: gray&amp;quot; |[[/T|-T-]]
+! style=&amp;quot;background: gray&amp;quot; | 0
+! style=&amp;quot;background: gray&amp;quot;| May 29, 2008
+|-
+! style=&amp;quot;background: gold&amp;quot; |[[/G|-G-]]
+| 23
+| June 18, 2008
+! style=&amp;quot;background: gray&amp;quot; |[[/U|-U-]]
+! style=&amp;quot;background: gray&amp;quot; | 0
+! style=&amp;quot;background: gray&amp;quot; | May 31, 2008
+|-
+|[[/H|-H-]]
+| 182
+| May 20, 2008
+! style=&amp;quot;background: gold&amp;quot; |[[/V|-V-]]
+| 16
+| June 16, 2008
+|-
+|[[/I|-I-]]
+!style=&amp;quot;background:red&amp;quot; | 200
+| June 16, 2008
+! style=&amp;quot;background: gray&amp;quot; |[[/W|-W-]]
+! style=&amp;quot;background: gray&amp;quot; | 0
+! style=&amp;quot;background: gray&amp;quot; | May 29, 2008
+|-
+|[[/J|-J-]]
+!style=&amp;quot;background: white&amp;quot;| 97
+| July 20, 2009
+! style=&amp;quot;background: gray&amp;quot; |[[/X|-X-]]
+! style=&amp;quot;background: gray&amp;quot; | 0
+! style=&amp;quot;background: gray&amp;quot; | May 21, 2006
+|-
+|[[/K|-K-]]
+| 146
+| June 21, 2008
+! style=&amp;quot;background: gray&amp;quot; |[[/Y|-Y-]]
+! style=&amp;quot;background: gray&amp;quot; | 0
+! style=&amp;quot;background: gray&amp;quot; | May 26, 2006
+|-
+! style=&amp;quot;background: gold&amp;quot; |[[/L|-L-]]
+| 68
+| June 21, 2008
+! style=&amp;quot;background: gray&amp;quot; |[[/Z|-Z-]]
+! style=&amp;quot;background: gray&amp;quot; | 0
+! style=&amp;quot;background: gray&amp;quot; | April 4, 2006
+|-
+! style=&amp;quot;background: gold&amp;quot; |[[/M|-M-]]
+| 84
+| June 2, 2008
+! style=&amp;quot;background: gray&amp;quot; |[[/Other|Oth]]
+! style=&amp;quot;background: gray&amp;quot; | 0
+! style=&amp;quot;background: gray&amp;quot; | April 4, 2006
+|-
+! style=&amp;quot;background: gold&amp;quot;|[[/N|-N-]]
+| 35
+| May 22, 2008
+|}
+
+* 1715 Current Total (June 2, 2008)
+* 2480 (May 21, 2008)
+* 3052 (April 23, 2008)
+* 3632 (October 30, 2007)
+* 3757 (July 12, 2007)
+* 4505 (July 10, 2007)
+* 4694 (May 12, 2007)
+* 4744 (March 7, 2007)
+* 5110 (December 2, 2006)
+
+===Key===
+{|
+|-
+|&amp;apos;&amp;apos;&amp;apos;Last count&amp;apos;&amp;apos;&amp;apos; denotes the last time the number in the previous column was updated
+|-
+! style=&amp;quot;background: gold&amp;quot; |all unorphaned articles harvested (as of last count)
+|-
+! style=&amp;quot;background: gray&amp;quot; | blank/finished pages
+|-
+! style=&amp;quot;background: red&amp;quot; | largest count
+|-
+! style=&amp;quot;background: #3366CC&amp;quot; | longest since last count (among non-blank)
+|}
+
+
+[[de:Wikipedia:WikiProjekt Verwaiste Seiten]]
+[[fr:Projet:Pages orphelines]]
+[[la:Vicipaedia:Paginae orbatae]]
+[[pt:Wikipedia:Artigos órfãos]]
+[[ru:Википедия:Страницы-сироты]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

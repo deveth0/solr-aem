@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Hybrid balance"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Hybrid balance" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[telecommunication]]s, a &amp;apos;&amp;apos;&amp;apos;hybrid balance&amp;apos;&amp;apos;&amp;apos; is an expression of the degree of electrical symmetry between two [[impedance matching|impedances]] connected to two conjugate sides of a [[hybrid coil]] or [[resistance hybrid]]. It is usually expressed in [[decibel|dB]].
+
+If the respective impedances of the branches of the hybrid that are connected to the conjugate sides of the hybrid are known, hybrid balance may be computed by the formula for [[return loss]].
+
+{{FS1037C MS188}}
+
+[[Category:Telecommunications engineering]]
+[[Category:Electrical parameters]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

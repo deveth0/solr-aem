@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="James McMillan"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="James McMillan" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;James McMillan&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* [[James McMillan (fur trader)]] (1783–1858), founder of Fort Langley, British Columbia
+* [[James W. McMillan]] (1825–1903), Union officer during the American Civil War
+* [[James McMillan (politician)]] (1838–1902), U.S. Senator from Michigan
+* [[James McMillan (footballer)]] (born c. 1866), played for Sunderland
+* [[James McMillan (Scottish footballer)]], played for Notts County
+* [[James Bryan McMillan]] (1916–1995), U.S. federal judge
+* [[Jim McMillan (politician)]] (born c. 1933), Canadian fringe politician
+* [[Jim McMillan (speedway rider)]] (born 1945), Scottish motorcycle speedway rider
+* [[Jimmy McMillan]] (born 1946), U.S. fringe politician, founder of The Rent Is Too Damn High Party
+* [[James Francis McMillan]] (1948–2010), Scottish historian and author
+* [[James MacMillan]] (born 1959), Scottish composer
+* [[James McMillan (cricketer)]] (born 1978), New Zealand cricketer
+
+{{hndis|McMillan, James}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

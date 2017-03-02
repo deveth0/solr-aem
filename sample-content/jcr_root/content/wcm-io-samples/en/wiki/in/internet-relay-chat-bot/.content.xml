@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Internet Relay Chat bot"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Internet Relay Chat bot" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[image:IrcBot.png|thumb|409px|right|An IRC bot performing a simple task.]]An &amp;apos;&amp;apos;&amp;apos;IRC bot&amp;apos;&amp;apos;&amp;apos; is a set of [[Scripting language|scripts]] or an independent [[Computer program|program]] that connects to [[Internet Relay Chat]] as a [[Client (computing)|client]], and so appears to other IRC users as another user. An IRC bot differs from a regular client in that instead of providing interactive access to IRC for a human user, it performs automated functions.
+
+==History==
+The historically oldest IRC bots were [[Bill Wisner]]&amp;apos;s Bartender and [[Greg Lindahl]]&amp;apos;s GM (&amp;apos;&amp;apos;Game Manager&amp;apos;&amp;apos; for the [[Hunt the Wumpus]] game).&amp;lt;ref&amp;gt;[http://groups.google.com/group/alt.irc/browse_thread/thread/da3923f0b480cf6/753c065b9ee6ab62 &amp;quot;INTERESTING IDEA&amp;quot; thread on alt.irc in 1991]&amp;lt;/ref&amp;gt; Over time, bots evolved to provide special services, such as managing channels on behalf of groups of users, maintaining access lists, and providing access to databases.
+
+==Function==
+Often, an IRC bot is deployed as a detached program running from a stable host.  It sits on an [[IRC channel]] to keep it open and prevents malicious users from [[IRC takeover|taking over]] the channel.  It can be configured to give [[IRC channel operator|channel operator status]] to privileged users when they join the channel, and can provide a unified channel operator list. Many of these features require that the bot be a channel operator.  Thus, most IRC bots are run from computers which have long [[uptime]]s (generally running a [[BSD]] derivative or [[Linux]]) and a fast, stable [[Internet]] connection.  As IRC has become popular with many [[dial-up]] users as well, special services have appeared that offer limited user-level access to a stable Linux server with a decent connection.  The user may run an IRC bot from this [[shell account]].  These services are commonly known as [[shell provider]]s.
+
+A bot can also perform many other useful functions, such as logging what happens in an IRC channel, giving out information on demand (very popular in IRC channels dealing with user support), creating [[statistics]], hosting [[trivia]], [[Uno]] and other games, etc.  These functions are usually provided by user-writable scripts, often written in a [[scripting programming language]] such as [[Tcl]] or [[Perl]], added to the bot in question. Channels dedicated to [[file sharing]] often use [[XDCC]] bots to distribute their files.
+
+IRC bots are particularly well-used on [[IRC network]]s without channel registration services like [[ChanServ]], such as [[EFnet]] and [[IRCnet]], and on networks that may prevent channels from being registered due to certain registration requirements (minimum user count, etc.), such as [[Undernet]] or [[QuakeNet]].  Where bots are used for administrative functions such as this, they may need more access than a normal client connection allows.  Some versions of IRC have a &amp;quot;Service&amp;quot; protocol that allows clients with these extra powers.  Such server-sanctioned bots are called [[IRC services]].
+
+Bots are not always welcome. Some IRC networks forbid the usage of bots. One of the reasons for doing so is that each [[nickname]] connected to the network increases the size of the network [[database]] which is being kept in [[Synchronization|sync]] across all servers. Allowing for bots in large networks can cause a relevant amount of [[Internet traffic|network traffic]] [[Overhead (engineering)|overhead]] which needs to be financed and may even lead to [[netsplit]]s. This however is a shortcoming of the IRC technology, not the bots.&amp;lt;ref&amp;gt;RFC 1324, D. Reed, 1992. 2.5.1, Size&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;[http://www.psyc.eu/synconf Functionality provided by systems for synchronous conferencing], C.v. Loesch, 1992. 1.2.1 Growth&amp;lt;/ref&amp;gt;
+
+==In popular culture==
+* [[Basshunter]]&amp;apos;s 2006 song, [[Boten Anna]], is about a female IRC user mistaken for an IRC bot
+
+==See also==
+*[[Chatterbot]]
+*[[Comparison of Internet Relay Chat bots]]
+
+==References==
+{{reflist}}
+
+==External links==
+* {{dmoz|Computers/Software/Internet/Clients/Chat/IRC/Bots|IRC Bots}}
+
+{{IRC topics}}
+
+{{DEFAULTSORT:Internet Relay Chat Bot}}
+[[Category:Internet Relay Chat|Bot, Internet Relay Chat]]
+[[Category:Internet Relay Chat bots| ]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

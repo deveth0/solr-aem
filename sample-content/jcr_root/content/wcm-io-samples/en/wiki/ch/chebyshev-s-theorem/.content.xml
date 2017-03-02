@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Chebyshev&#x27;s theorem"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Chebyshev&#x27;s theorem" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Chebyshev&amp;apos;s theorem&amp;apos;&amp;apos;&amp;apos; is a name given to several theorems  proven by [[Russia]]n [[mathematician]] [[Pafnuty Chebyshev]]
+
+* [[Bertrand&amp;apos;s postulate]]
+* [[Chebyshev&amp;apos;s inequality]]
+* [[Chebyshev&amp;apos;s sum inequality]]
+* Chebyshev&amp;apos;s [[equioscillation theorem]]
+* The statement that if the function &amp;lt;math&amp;gt;\scriptstyle \pi(x)\ln x/x&amp;lt;/math&amp;gt; has a limit at infinity, then the limit is 1 (where π is the prime-counting function). This result has been superseded by the [[prime number theorem]].
+
+{{mathdab}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

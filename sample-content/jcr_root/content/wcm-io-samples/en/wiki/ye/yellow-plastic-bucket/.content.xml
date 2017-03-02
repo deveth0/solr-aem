@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Yellow Plastic Bucket"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Yellow Plastic Bucket" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Yellow Plastic Bucket&amp;apos;&amp;apos;&amp;apos; was a band based in [[Oakville, Ontario]], [[Canada]], formed in 1993 and disbanded in 1997.
+
+Their better-known songs include &amp;quot;Just Got Back/I Tried&amp;quot; and the [[Mark Kramer]] produced &amp;quot;Young Again/Empire Maple&amp;quot;. Their members include Gord on [[bass guitar]], Phil on [[Drum kit|drums]], and Chris and Jamie on [[guitar]]. They were influenced by artists such as [[Captain Beefheart]], [[Merle Travis]], [[UK Subs]], and [[Devo]]. Yellow Plastic Bucket also, in turn, influenced better known artists such as the [[Tragically Hip]] and [[Neil Young]].
+
+== External links ==
+* [http://www.canoe.ca/JamMusicPopEncycloPagesY/yellow_plastic.html Canadian Music Encyclopedia]
+* [http://www.worldsystem.com/ypb/ypb.html Fan site]
+
+[[Category:Musical groups established in 1993]]
+[[Category:Musical groups disestablished in 1997]]
+[[Category:Canadian rock music groups]]
+[[Category:Musical groups from the Regional Municipality of Halton]]
+
+{{Canada-band-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

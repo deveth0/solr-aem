@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Microlophus"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Microlophus" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{italic title}}
+{{Taxobox
+| name = &amp;apos;&amp;apos;Microlophus&amp;apos;&amp;apos;
+| image = Male Galápagos Santiago lava lizard.jpg
+| image_caption = &amp;apos;&amp;apos;[[Microlophus jacobi]]&amp;apos;&amp;apos;, male
+| regnum = [[Animal]]ia
+| phylum = [[Chordate|Chordata]]
+| classis = [[Reptile|Reptilia]]
+| ordo = [[Squamata]]
+| familia = [[Tropiduridae]]
+| genus = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Microlophus&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+| genus_authority = Duméril &amp;amp; Bibron, 1837
+| subdivision_ranks = Species
+| subdivision = 22 recognized species, see [[#Species|text]]
+}}
+
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Microlophus&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is a genus of [[Tropiduridae|Tropidurid]] lizards. There are twenty two recognized species in the genus, and nine of these are [[Endemism|endemic]] to the [[Galápagos Islands]] where they are popularly known as &amp;apos;&amp;apos;&amp;apos;lava lizards&amp;apos;&amp;apos;&amp;apos;&amp;lt;ref&amp;gt;Fitter, J.;Fitter, D; and Hosking, D. (2000) Wildlife of the Galalpagos. Updated Edition. Princeton University Press. p.94.&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;Benavides,E; Baum, R.; Snell, H. M.; Snell, H. L.; and Sites, Jr., J. W. (2009) [http://siteslab.byu.edu/Portals/25/docs/Publications/BenavidesEtal09.pdf &amp;quot;Island Biogeography of Galápagos Lava Lizards (Tropiduridae: &amp;apos;&amp;apos;Microlophus&amp;apos;&amp;apos;): Species Diversity and Colonization of the Archipelago.&amp;quot;] (.pdf) &amp;apos;&amp;apos;Evolution&amp;apos;&amp;apos;, &amp;apos;&amp;apos;&amp;apos;63 (6):&amp;apos;&amp;apos;&amp;apos; 1606–1626.&amp;lt;/ref&amp;gt; (they are sometimes placed in &amp;apos;&amp;apos;[[Tropidurus]]&amp;apos;&amp;apos; instead). The remaining, which often are called &amp;apos;&amp;apos;&amp;apos;Pacific iguanas&amp;apos;&amp;apos;&amp;apos;, are found in the [[Andes]] and along the [[Pacific]] coast of [[Chile]], [[Peru]], and [[Ecuador]].
+
+The distribution of the lava lizards and their variations in shape, colour and behaviour show the phenomenon of [[adaptive radiation]] so typical of the inhabitants of this archipelago. One species occurs on all the central and western islands, which were perhaps connected during periods of lower sea levels, while one species each occurs on six other more peripheral [[island]]s. All have most likely evolved from a single ancestral species. However, as usual for Tropiduridae they can change their colour individually to some extent, and members of the same species occurring in different habitats also show colour differences. Thus animals living mainly on dark [[lava]] are darker than ones which live in lighter, sandy environments.
+
+==Species==
+Listed alphabetically&amp;lt;ref&amp;gt;[http://reptile-database.reptarium.cz/advanced_search?genus=Microlophus&amp;amp;exact%5B0%5D=genus&amp;amp;submit=Search &amp;apos;&amp;apos;Microlophus&amp;apos;&amp;apos;], Reptile Database&amp;lt;/ref&amp;gt; (* endemic to the Galapágos Islands).
+*&amp;apos;&amp;apos;[[Microlophus albemarlensis]]&amp;apos;&amp;apos; – Galápagos Lava Lizard*
+*&amp;apos;&amp;apos;[[Microlophus atacamensis]]&amp;apos;&amp;apos; – Atacamen Pacific Iguana
+*&amp;apos;&amp;apos;[[Microlophus bivittatus]]&amp;apos;&amp;apos; – San Cristóbal Lava Lizard*
+*&amp;apos;&amp;apos;[[Microlophus delanonis]]&amp;apos;&amp;apos; – Española Lava Lizard or Hood Lava Lizard*
+*&amp;apos;&amp;apos;[[Microlophus duncanensis]]&amp;apos;&amp;apos; – Pinzón Lava Lizard*
+*&amp;apos;&amp;apos;[[Microlophus grayii]]&amp;apos;&amp;apos; – Floreana Lava Lizard*
+*&amp;apos;&amp;apos;[[Microlophus habelii]]&amp;apos;&amp;apos; – Marchena Lava Lizard*
+*&amp;apos;&amp;apos;[[Microlophus heterolepis]]&amp;apos;&amp;apos;
+*&amp;apos;&amp;apos;[[Microlophus indefatigabilis]]&amp;apos;&amp;apos; – Santa Cruz Lava Lizard*
+*&amp;apos;&amp;apos;[[Microlophus jacobi]]&amp;apos;&amp;apos; – Santiago Lava Lizard*
+*&amp;apos;&amp;apos;[[Microlophus koepckeorum]]&amp;apos;&amp;apos; – Frost&amp;apos;s Iguana
+*&amp;apos;&amp;apos;[[Microlophus occipitalis]]&amp;apos;&amp;apos; – Knobbed Pacific Iguana
+*&amp;apos;&amp;apos;[[Microlophus pacificus]]&amp;apos;&amp;apos; – Common Pacific Iguana*
+*&amp;apos;&amp;apos;[[Microlophus peruvianus]]&amp;apos;&amp;apos; – Peru Pacific Iguana
+*&amp;apos;&amp;apos;[[Microlophus quadrivittatus]]&amp;apos;&amp;apos; – Four-banded Pacific Iguana
+*&amp;apos;&amp;apos;[[Microlophus stolzmanni]]&amp;apos;&amp;apos; – Stolzmann&amp;apos;s Pacific Iguana or Stolzmann&amp;apos;s Lizard
+*&amp;apos;&amp;apos;[[Microlophus tarapacensis]]&amp;apos;&amp;apos; – Tarapaca Pacific Iguana
+*&amp;apos;&amp;apos;[[Microlophus theresiae]]&amp;apos;&amp;apos; – Theresia&amp;apos;s Pacific Iguana
+*&amp;apos;&amp;apos;[[Microlophus theresioides]]&amp;apos;&amp;apos; – &amp;apos;&amp;apos;Corredor de Pica&amp;apos;&amp;apos; (in Spanish)
+*&amp;apos;&amp;apos;[[Microlophus thoracicus]]&amp;apos;&amp;apos; – Tschudi&amp;apos;s Pacific Iguana
+*&amp;apos;&amp;apos;[[Microlophus tigris]]&amp;apos;&amp;apos; – Tiger Pacific Iguana
+*&amp;apos;&amp;apos;[[Microlophus yanezi]]&amp;apos;&amp;apos; – Yanez&amp;apos;s Lava Lizard
+
+==References==
+{{reflist}}
+
+==External links==
+{{commons category|Microlophus}}
+{{Wikispecies|Microlophus}}
+
+[[Category:Endemic fauna of the Galápagos Islands]]
+[[Category:Tropidurids]]
+[[Category:Microlophus| ]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

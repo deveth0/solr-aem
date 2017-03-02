@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Kreis Schrimm"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Kreis Schrimm" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Image:Posen kr Schrimm.jpg|thumb|right]]
+&amp;apos;&amp;apos;&amp;apos;{{PAGENAME}}&amp;apos;&amp;apos;&amp;apos; ({{lang-pl|Powiat [[Śrem|śremski]]}}) was a [[county]] in the southern administrative [[Posen district|district of Posen]], in the Prussian [[province of Posen]]. It presently lies in the southern part of [[Poland|Polish]] region of [[Greater Poland Voivodeship]].
+
+==External links==
+
+{{GreaterPoland-geo-stub}}
+{{Germany-hist-stub}}
+
+{{coord missing|Greater Poland Voivodeship}}
+
+{{DEFAULTSORT:Schrimm, Kreis}}
+[[Category:Districts of Prussia]]
+[[Category:Former administrative regions of Greater Poland]]
+
+{{NavPosenDistricts}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

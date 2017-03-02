@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Electro-optics"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Electro-optics" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{distinguish|optoelectronics}}
+
+&amp;apos;&amp;apos;&amp;apos;Electro-optics&amp;apos;&amp;apos;&amp;apos; is a branch of [[technology]] involving components, devices and systems which operate by modification of the optical properties of a material by an [[electric field]]. Thus it concerns the interaction between the [[electromagnetism|electromagnetic]] ([[optics|optical]]) and the [[electricity|electrical]] ([[electron]]ic) states of materials.
+
+== Electro-optical devices ==
+The [[electro-optic effect]] relates to a change in the optical properties of the medium which usually is a change in the [[birefringence]] and not simply the refractive index.
+In a [[Kerr cell]], the change in birefringence is [[Proportionality (mathematics)|proportional]] to the square of the [[electric field]], and the material is usually a liquid.  In a [[Pockels cell]], the  change in birefringence varies linearly with the electric field, and the material is a crystal.
+Non-crystalline electro-optic material have caught interested because of their low cost of production. It is polymer-based material, therefore is organic material. It is called sometimes as organic EO material, plastic EO material, or polymer EO material, which consists of a polymer and a nonlinear optical chromophore. Nonlinear optical chromophore is the molecule has Pockel&amp;apos;s effect.
+
+==References==
+*{{FS1037C MS188}}
+*{{DODDIC}}
+
+* {{cite book
+  | last = Friedman
+  | first = Edward
+  | title = Photonics Rules of Thumb: Optics, Electro-optics, Fiber Optics, and Lasers
+  | publisher = McGraw-Hill Professional
+  | year = 2004
+  | isbn = 0-07-138519-3 }}
+
+{{Technology}}
+[[Category:Optoelectronics]]
+[[Category:Nonlinear optics]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

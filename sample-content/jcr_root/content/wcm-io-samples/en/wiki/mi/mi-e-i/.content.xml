@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Miķeļi"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Miķeļi" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=March 2008}}
+
+In ancient [[Latvia]], &amp;apos;&amp;apos;&amp;apos;Miķeļi&amp;apos;&amp;apos;&amp;apos; was a festival held from September 22 to September 24, during the &amp;apos;&amp;apos;dzelzs nedēļa&amp;apos;&amp;apos; meaning &amp;quot;the week of [[iron]].&amp;quot;  The holiday was held sacred and associated with [[Latvian mythology#List_of_deities_and_other_terms|the gods Miķelis and Jumis]].
+
+The festival held at the end of the harvest season; when Jumis&amp;apos; gift of food had been received.
+
+On the first day, a ritual called the Catching of Jumis takes place.  Jumis, represented by a double-headed stalk of grain, was said to be hiding in the last of the unharvested fields.  This last cut is saved until the end, so as to please Jumis, and invite him back the following spring.  These last stalks are tied with special twine and placed in a barn, separate from the rest of the harvest.  The grasses are then used during the winter to cure sick livestock.  [[Chicken]] is eaten at the evening&amp;apos;s feast.
+
+The second day was a feast and party.
+
+The third day was a market day, and also the only day men proposed to their prospective wives.
+
+{{Latvian seasonal mythological holidays}}
+
+{{DEFAULTSORT:Mikeli}}
+[[Category:Public holidays in Latvia]]
+
+
+{{Latvia-stub}}
+{{festival-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

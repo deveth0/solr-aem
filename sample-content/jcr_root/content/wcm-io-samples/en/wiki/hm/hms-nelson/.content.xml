@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="HMS Nelson"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="HMS Nelson" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;Three ships and a naval base of the [[Royal Navy]] have been named &amp;apos;&amp;apos;&amp;apos;HMS &amp;apos;&amp;apos;Nelson&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; in honour of [[Horatio Nelson]]:
+
+* {{HMS|Nelson|1814}} was a 120-gun [[first rate]] launched in 1814. She was converted to screw propulsion and rearmed to 90 guns in 1860, and was handed over to the government of the [[State of Victoria|Dominion of Victoria, Australia]], in 1867. She was sold in 1898 as a storage hulk, and later used as a coal hulk, and was scrapped in 1928.
+* {{HMS|Nelson|1876}} was a [[Nelson-class cruiser|&amp;apos;&amp;apos;Nelson&amp;apos;&amp;apos;-class]] [[armoured cruiser]], launched in 1876. She became a training ship in 1902. and she was sold as scrap in 1910.
+* {{HMS|Nelson|28}} was a [[Nelson-class battleship|&amp;apos;&amp;apos;Nelson&amp;apos;&amp;apos;-class]] [[battleship]]. She was launched in 1925, served during World War II, and was scrapped in 1949.
+* HMS &amp;apos;&amp;apos;Nelson&amp;apos;&amp;apos; is the barracks and support services site forming part of [[HMNB Portsmouth]].
+
+==See also==
+* {{HMS|Lord Nelson}}
+
+{{Shipindex}}
+{{Italic title prefixed|3}}
+{{DEFAULTSORT:Nelson, Hms}}
+[[Category:Royal Navy ship names]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

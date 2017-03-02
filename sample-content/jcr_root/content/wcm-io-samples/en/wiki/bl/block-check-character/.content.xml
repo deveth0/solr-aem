@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Block check character"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Block check character" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+
+In [[telecommunication]]s, a &amp;apos;&amp;apos;&amp;apos;block check character&amp;apos;&amp;apos;&amp;apos; (BCC) is a [[character (computing)|character]] added to a [[transmission block]] to facilitate [[Error detection and correction|error detection]].
+
+In [[Longitudinal redundancy check]]ing and [[cyclic redundancy check]]ing, [[block check]] characters are computed for, and added to, each [[message]] block transmitted. This block [[check character]] is compared with a second block check character computed by the receiver to determine whether the transmission is error free.
+
+{{DEFAULTSORT:Block Check Character}}
+[[Category:Control characters]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

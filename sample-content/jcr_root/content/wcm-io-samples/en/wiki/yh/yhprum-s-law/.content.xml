@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Yhprum&#x27;s Law"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Yhprum&#x27;s Law" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Yhprum&amp;apos;s Law&amp;apos;&amp;apos;&amp;apos; is the opposite of [[Murphy&amp;apos;s Law]] (Yhprum = Murphy backwards).
+
+The simple formula of Yhprum&amp;apos;s Law is: &amp;quot;Everything, that can work, will work.&amp;quot;
+
+Another formulation of the law due to [[Richard Zeckhauser]], a professor for [[political economy]] at [[Harvard University]] states: &amp;quot;Sometimes systems that should not work, work nevertheless.&amp;quot;
+
+Resnick &amp;apos;&amp;apos;et al&amp;apos;&amp;apos;. (2006) used this law to describe how intensive and seemingly [[altruistic]] participation by giving ranking is observed in the [[eBay]] system.&amp;lt;ref name=Resnick06&amp;gt;{{cite journal|last=Resnick|first=Paul|coauthors=Zeckhauser, Richard; Swanson, John; Lockwood, Kate|title=The value of reputation on eBay: A controlled experiment|journal=Experimental Economics|year=2006|month=June|volume=9|issue=2|pages=79–101|doi=10.1007/s10683-006-4309-2|url=http://ksghome.harvard.edu/~RZeckhauser/postcards.pdf}}&amp;lt;/ref&amp;gt;
+
+== References==
+{{Reflist}}
+
+[[Category:Sociological theories]]
+
+{{sociology-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

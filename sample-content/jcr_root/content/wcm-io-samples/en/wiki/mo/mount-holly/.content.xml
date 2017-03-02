@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Mount Holly"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Mount Holly" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Mount Holly&amp;apos;&amp;apos;&amp;apos; is the name of several places
+
+;in the United States
+(by state)
+*[[Mount Holly Cemetery]], Little Rock, AR, listed on the NRHP in Arkansas
+**[[Mount Holly Mausoleum]], Little Rock, AR, listed on the NRHP in Arkansas
+*[[Mount Holly Ski Area]], [[Holly, Michigan]]
+*[[Mount Holly (Foote, Mississippi)]], [[List of RHPs in MS|listed on the NRHP in Mississippi]]
+*[[Mount Holly Township, New Jersey]]
+**[[Mount Holly Historic District]], Mount Holly, NJ, listed on the NRHP in New Jersey
+*[[Mount Holly, North Carolina]]
+**[[Mount Holly Cotton Mill]], Mount Holly, NC, [[List of RHPs in NC|listed on the NRHP in North Carolina]]
+*[[Mount Holly, Vermont]]
+
+==See also==
+*[[Holly (disambiguation)]]
+
+{{geodis}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

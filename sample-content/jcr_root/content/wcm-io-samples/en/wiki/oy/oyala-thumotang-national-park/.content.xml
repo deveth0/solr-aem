@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Oyala Thumotang National Park"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Oyala Thumotang National Park" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Use dmy dates|date=August 2012}}
+{{Use Australian English|date=August 2012}}
+[[File:Mungkan-kandju-national-park-cape-york-queensland-australia.jpg|thumb|alt= Mungkan Kandju National Park, Cape York, Australia.|Mungkan Kandju National Park.]]
+
+{{Unreferenced|date=July 2011}}
+{{Infobox protected area of Australia | name = Oyala Thumotang National Park
+  | iucn_category = II
+  | image = Australia_Locator_Map.svg
+  | caption =
+  | locator_x = 200
+  | locator_y = 20
+  | nearest_town_or_city  = [[Coen, Queensland|Coen]]
+  | coordinates = {{coord|13|28|54|S|142|16|42|E|type:landmark_region:AU}}
+  | area = 4570 km²
+  | established = 1994
+  | visitation_num =
+  | visitation_year =
+  | managing_authorities = Queensland Parks and Wildlife Service
+  | official_site = [http://www.epa.qld.gov.au/projects/park/index.cgi?noback=1&amp;amp;parkid=156 Mungkan Kandju National Park]
+}}
+&amp;apos;&amp;apos;&amp;apos;Oyala Thumotang&amp;apos;&amp;apos;&amp;apos;, formerly Mungkan Kandju National Park (and prior to that Archer Bend National Park), is a national park in [[Queensland]], [[Australia]], 1914&amp;amp;nbsp;km northwest of [[Brisbane]].
+
+==See also==
+{{Portal|Queensland}}
+* [[Protected areas of Queensland]]
+* [[Koowarta v Bjelke-Petersen]]
+
+{{National Parks of Queensland}}
+
+[[Category:National parks of Far North Queensland]]
+[[Category:Protected areas established in 1994]]
+[[Category:Australian Aboriginal place names]]
+
+
+{{Queensland-protected-area-stub}}
+{{FarNorthQueensland-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

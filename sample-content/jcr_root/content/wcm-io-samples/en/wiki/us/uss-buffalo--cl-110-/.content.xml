@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="USS Buffalo (CL-110)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="USS Buffalo (CL-110)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{otherships|USS Buffalo}}
+{|{{Infobox Ship Begin}}
+{{Infobox Ship Career
+|Ship country=
+|Ship flag={{USN flag|1944}}
+|Ship name=USS &amp;apos;&amp;apos;Buffalo&amp;apos;&amp;apos;
+|Ship owner=
+|Ship namesake=[[Buffalo, New York]]
+|Ship ordered=
+|Ship laid down=2 April 1944
+|Ship builder=[[New York Shipbuilding|New York Shipbuilding Corp.]]&amp;lt;br&amp;gt;[[Camden, New Jersey]]
+|Ship acquired=
+|Ship fate=
+|Ship status=Construction cancelled 12 August 1944
+}}
+{{Infobox ship characteristics
+| Hide header = yes
+| Header caption =
+| Ship class = {{sclass|Fargo|cruiser|0}} [[light cruiser]]
+| Ship displacement =
+| Ship length =
+| Ship beam =
+| Ship draft =
+| Ship propulsion =
+| Ship speed =
+| Ship range =
+| Ship complement =
+| Ship sensors =
+| Ship EW =
+| Ship armament =
+| Ship armor =
+| Ship notes =
+}}
+|}
+
+&amp;apos;&amp;apos;&amp;apos;USS &amp;apos;&amp;apos;Buffalo&amp;apos;&amp;apos; (CL-110)&amp;apos;&amp;apos;&amp;apos; was scheduled to be a ship in the [[United States Navy]]. She was never completed.
+
+&amp;apos;&amp;apos;Buffalo&amp;apos;&amp;apos; was laid down as a [[Fargo class cruiser|&amp;apos;&amp;apos;Fargo&amp;apos;&amp;apos;-class]] [[light cruiser]], 3 April 1944, by [[New York Shipbuilding Corporation]], [[Camden, New Jersey]]. With the end of [[World War II]] imminent, construction was canceled on 12 August 1945.
+
+==References==
+*{{DANFS|http://www.history.navy.mil/danfs/b10/buffalo-ii.htm}}
+
+{{Fargo class cruiser}}
+
+{{US-mil-ship-stub}}
+
+{{DEFAULTSORT:Buffalo (CL-110)}}
+[[Category:Fargo-class cruisers]]
+[[Category:Ships built in New Jersey]]
+[[Category:World War II cruisers of the United States]]
+[[Category:United States Navy New York-related ships]]
+[[Category:United States Navy Buffalo-related ships]]
+[[Category:Canceled ships of the United States Navy]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

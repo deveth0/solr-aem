@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Boven Merwede"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Boven Merwede" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+[[File:Bovenmerwede.jpg|thumb]]
+The &amp;apos;&amp;apos;&amp;apos;Boven Merwede&amp;apos;&amp;apos;&amp;apos; is a stretch of river in the [[Netherlands]].
+The [[Afgedamde Maas river]] joins the [[Waal (river)|Waal]] at [[Woudrichem]] to form the Boven Merwede, which at [[Hardinxveld-Giessendam]] splits into the  [[Beneden Merwede river]] on the right and the [[Nieuwe Merwede river]] on the left. Its length is 8.8&amp;amp;nbsp;km. The [[Merwede]] is part of the main shipping route between [[Rotterdam]] and [[Germany]].
+
+There is a road bridge, from the west side of [[Gorinchem]] on the north to the west side of [[Werkendam|Sleeuwijk]] on the south.
+
+There are three passenger ferries.
+
+&amp;lt;gallery&amp;gt;
+[[Image:Bovenmerwede.jpg|Merwedebrug over the Boven Merwede near [[Gorinchem]]]]
+&amp;lt;/gallery&amp;gt;
+
+{{Coord|51|49|42|N|4|56|15|E|display=title|region:NL}}
+
+{{Rhine–Meuse–Scheldt delta}}
+
+[[Category:Rivers of the Netherlands]]
+[[Category:Rhine–Meuse–Scheldt delta]]
+[[Category:Distributaries]]
+
+{{SouthHolland-geo-stub}}
+{{NorthBrabant-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

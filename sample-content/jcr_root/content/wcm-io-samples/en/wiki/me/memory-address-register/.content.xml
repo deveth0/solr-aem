@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Memory address register"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Memory address register" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+In a [[computer]], the &amp;apos;&amp;apos;&amp;apos;Memory Address Register (MAR)&amp;apos;&amp;apos;&amp;apos; is a [[Central_processing_unit|CPU]] register that either stores the [[memory address]] from which data will be fetched to the CPU or the address to which data will be sent and stored.
+
+In other words, MAR holds the memory location of data that needs to be accessed. When reading from memory, data addressed by MAR is fed into the MDR ([[memory data register]]) and then used by the CPU.
+When writing to memory, the CPU writes data from MDR to the memory location whose address is stored in MAR.
+
+The Memory Address Register is half of a minimal interface between a [[microprogram]] and [[computer storage]]. The other half is a [[memory data register]].
+
+Far more complex memory interfaces exist, but this is the least that can work.
+
+{{DEFAULTSORT:Memory Address Register}}
+[[Category:Digital registers]]
+
+&amp;lt;!-- interwiki kept as it links to a section --&amp;gt;
+[[de:Memory Address Register und Memory Buffer Register#Memory Address Register]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

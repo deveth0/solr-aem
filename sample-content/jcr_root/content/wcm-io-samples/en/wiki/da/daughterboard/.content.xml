@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Daughterboard"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Daughterboard" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Refimprove|date=October 2009}}
+[[Image:Roland SCD-15 on Diamond MX300.jpg|thumb|A sound card with a MIDI daughterboard attached]]
+[[Image:Inventec daughterboard LSI 1078.jpg|thumb|A daughterboard for [[Inventec]] server platform that acts as a RAID controller based on LSI 1078 chipset]]
+A &amp;apos;&amp;apos;&amp;apos;daughterboard&amp;apos;&amp;apos;&amp;apos;, &amp;apos;&amp;apos;&amp;apos;daughtercard&amp;apos;&amp;apos;&amp;apos;, &amp;apos;&amp;apos;&amp;apos;mezzanine board&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;piggyback board&amp;apos;&amp;apos;&amp;apos; is a [[circuit board]] meant to be an extension or &amp;quot;daughter&amp;quot; of a [[motherboard]] (or &amp;apos;mainboard&amp;apos;), or occasionally of another card.  In particular, daughterboards often have [[plugs (connector)|plugs]], [[Jack (connector)|sockets]], [[pins]], [[electrical connector|connectors]], or other attachments for other boards, which is what differentiates them from standard expansion boards such as for [[Peripheral Component Interconnect|PCI]] or [[Industry Standard Architecture|ISA]], which are usually called [[expansion card]]s.  In addition, daughterboards usually have only internal [[Electrical connector|connections]] within a [[computer]] or other [[electronics|electronic]] [[machine|device]] rather than any external ones, and usually access the motherboard directly rather than through a [[computer bus]].
+
+Daughterboards are sometimes used in computers in order to allow for expansion cards to fit on their side (or upright), [[parallel (geometry)|parallel]] to the motherboard, usually to maintain a small or slim [[Computer form factor|form factor]]. In this case they can also be called [[riser card]]s, or risers. Daughterboards are also sometimes used to expand the basic functionality of an electronic device, such as when a certain model has features added to it and is released as a new or separate model.  Rather than redesign the first model completely, a daughterboard may be added to a special [[Computer port (hardware)|port]] or connector on the motherboard or mainboard.  These usually fit on top of and parallel to the board, separated by [[spacer]]s or [[Standoff (separator)|standoff]]s, and are therefore sometimes called &amp;apos;&amp;apos;&amp;apos;mezzanine cards&amp;apos;&amp;apos;&amp;apos; due to being stacked like the [[mezzanine (architecture)|mezzanine]] of a [[theatre]]. [[Wavetable]] cards are often [[wikt:mount|mounted]] on [[sound card]]s in this manner.
+
+== Types ==
+*[[Enhanced Graphics Adapter]] piggyback board, adds memory beyond 64 KB, up to 256 KB&amp;lt;ref&amp;gt;Market Looks to EGA as De Facto Standard, &amp;apos;&amp;apos;InfoWorld&amp;apos;&amp;apos;, Aug 19, 1985&amp;lt;/ref&amp;gt;
+*[[Expanded memory]] piggyback board, adds additional memory to some EMS and EEMS boards&amp;lt;ref&amp;gt;Product Comparison: 16-Bit EMS Memory, &amp;apos;&amp;apos;InfoWorld&amp;apos;&amp;apos;, Sep 7, 1987&amp;lt;/ref&amp;gt;
+*ADD daughterboard
+*RAID daughterboard
+* [[Network interface controller]] (NIC) daughterboard
+*CPU Socket daughterboard
+*Bluetooth daughterboard
+*Modem daughterboard
+*AD/DA/DIO daughter-card
+*Communication daughterboard (CDC)
+*Server Management daughterboard (SMDC)
+*Serial ATA connector daughterboard
+*Robotic daughterboard
+*Access control List daughterboard
+*[[Arduino#Shields|Arduino &amp;quot;shield&amp;quot;]] daughterboards.
+
+==See also==
+*[[Creative Wave Blaster]]
+*[[M-Module]], an industrial mezzanine standard for modular I/O
+*[[PowerUP (accelerator)|PowerUP]] accelerators, CPU and memory daughterboard for [[Amiga (computer)|Amiga]] systems
+*[[Riser card]]
+
+==References==
+{{reflist}}
+
+[[Category:Electronics]]
+[[Category:Motherboard| ]]
+[[Category:Computer peripherals| ]]
+
+{{Compu-hardware-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

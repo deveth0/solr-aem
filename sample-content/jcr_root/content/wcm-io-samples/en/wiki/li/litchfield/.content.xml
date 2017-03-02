@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Litchfield"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Litchfield" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{for|the English city|Lichfield}}
+&amp;apos;&amp;apos;&amp;apos;Litchfield&amp;apos;&amp;apos;&amp;apos; may refer to:
+{{TOC right}}
+== Places ==
+;Antarctica
+* [[Litchfield Island]], Palmer Archipelago
+
+;Australia
+* [[Litchfield Municipality]], Northern Territory
+* [[Litchfield National Park]], Northern Territory
+* [[Litchfield Station]], Northern Territory
+
+;Canada
+* [[Litchfield, Quebec]]
+* [[Litchfield, Nova Scotia]]
+
+;UK
+* [[Litchfield, Hampshire]], England
+
+;USA
+* [[Litchfield Park, Arizona]]
+* [[Litchfield, California]]
+* [[Litchfield, Connecticut]]
+** [[Litchfield (borough), Connecticut]]
+** [[Litchfield Female Academy]], defunct educational institution
+** [[Litchfield Law School]]
+* [[Litchfield County, Connecticut]]
+* [[Litchfield Hills]], Connecticut
+* [[Litchfield, Illinois]]
+* [[Litchfield, Maine]]
+* [[Litchfield, Michigan]]
+* [[Litchfield, Minnesota]]
+* [[Litchfield, Nebraska]]
+* [[Litchfield, New Hampshire]]
+* [[Litchfield, New York]]
+* [[Litchfield Villa]], Brooklyn, New York
+* [[Litchfield Observatory]], Hamilton College, New York
+* [[Litchfield, Ohio]]
+* [[Litchfield Towers]], University of Pittsburgh, Pennsylvania
+* [[Litchfield Beach, South Carolina]]
+* [[Litchfield Plantation]], South Carolina
+* [[Litchfield Township (disambiguation)]]
+
+== Other uses==
+* [[Litchfield (surname)]]
+
+== See also ==
+* [[Lichfield (disambiguation)]]
+
+{{disambiguation|geo}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

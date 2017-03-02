@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Spinifex"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Spinifex" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Spinifex&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* [[Spinifex (genus)|&amp;apos;&amp;apos;Spinifex&amp;apos;&amp;apos; (genus)]], a genus of grass which is indigenous to the coastal areas of Australasia and Indonesia
+* [[Triodia (plant genus)|&amp;apos;&amp;apos;Triodia&amp;apos;&amp;apos; (plant genus)]], a hummock grass of arid Australia, covering twenty percent of the Australian continent (although not technically &amp;apos;&amp;apos;Spinifex&amp;apos;&amp;apos;, it is commonly referred to as such)
+** [[Spinifex resin]]
+* [[Spinifex hopping mouse]], a mouse native to the central and western Australian arid zones
+* [[Spinifex people]], or Pila Nguru, an Australian tribe named after the grass
+* Spinifex, a [[Texture (geology)|texture]] in certain ultramafic lavas such as [[komatiite]]
+* [[Spinifex Pigeon]] (&amp;apos;&amp;apos;Geophaps plumifera&amp;apos;&amp;apos;), a bird found in Australia
+* [[Spinifex Ridge]], a mine in Australia
+* [[Spinifexbird]] (&amp;apos;&amp;apos;Eremiornis carteri&amp;apos;&amp;apos;), a bird found in Australia
+
+
+{{Disambig}}
+[[Category:Poaceae genera]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

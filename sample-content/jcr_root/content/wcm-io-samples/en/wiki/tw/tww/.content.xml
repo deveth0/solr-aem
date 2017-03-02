@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="TWW"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="TWW" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;TWW&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* [[Television Wales and the West]], a commercial television contractor serving Wales and England from 1958-1968!
+* [[TheWolfWeb]], an internet message board for students at North Carolina State University
+* [[Transcom WorldWide]], a customer relationship management and debt collection company based in Europe
+* &amp;apos;&amp;apos;[[Transformers: The War Within]]&amp;apos;&amp;apos;, a comic book series
+* &amp;apos;&amp;apos;[[The Legend of Zelda: The Wind Waker]]&amp;apos;&amp;apos;, a video game
+* [[Woodrow Wilson|Thomas Woodrow Wilson]], the 28th President of the United States
+* &amp;apos;&amp;apos;[[The West Wing]]&amp;apos;&amp;apos;, an American television serial drama.
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

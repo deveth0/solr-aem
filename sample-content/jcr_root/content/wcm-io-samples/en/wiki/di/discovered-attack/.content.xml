@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Discovered attack"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Discovered attack" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{More footnotes|date=February 2010}}
+In [[chess]], a &amp;apos;&amp;apos;&amp;apos;discovered attack&amp;apos;&amp;apos;&amp;apos; is an attack revealed when one piece moves out of the way of another.&amp;lt;ref&amp;gt;[http://www.chesscorner.com/tutorial/tactics/discovered/discovered.htm Discovered Attack] Article at Chesscorner.com&amp;lt;/ref&amp;gt; Discovered attacks can be extremely powerful, as the piece moved can make a threat independently of the piece it reveals.  Like many [[chess tactics]], they succeed because the opponent is unable to meet two threats at once.  While typically the consequence of a discovered attack is the gain of [[material (chess)|material]], they do not have to do this to be effective; the tactic can be used merely to gain a [[tempo (chess)|tempo]].&amp;lt;ref&amp;gt;[http://www.markalowery.net/Chess/Tactics_Strategy/Tactics_Lesson2/tactics_lesson2_index.html More detailed tutorial] at MarkLowery.net{{Dead link|date=May 2011}}&amp;lt;/ref&amp;gt;  If the discovered attack is a [[check (chess)|check]], it is called a &amp;apos;&amp;apos;&amp;apos;discovered check&amp;apos;&amp;apos;&amp;apos;.
+{{algebraic notation|pos=tocleft}}
+
+==Types==
+When the moving piece gives [[check (chess)|check]] to the opponent&amp;apos;s king, the maneuver is often described as a &amp;apos;&amp;apos;discovered attack with check&amp;apos;&amp;apos;.  When the discovered attack is itself a check, it is called a &amp;apos;&amp;apos;discovered check&amp;apos;&amp;apos;.  If both pieces give check, a [[double check]] results.
+
+Discovered attacks—especially checks—can win material when the moving piece captures an opposing piece nominally protected by another opposing piece. If the opponent deals with the discovered attack (obligatory if it is a check), the attacking player will have time to return the moving piece out of harm&amp;apos;s way.  This scenario is often referred to as a &amp;apos;&amp;apos;discovered attack&amp;apos;&amp;apos; (or &amp;apos;&amp;apos;check&amp;apos;&amp;apos;) &amp;apos;&amp;apos;with capture&amp;apos;&amp;apos;.
+
+When the moving piece moves to a square from which it threatens to inflict [[checkmate]] on the next move, the tactic is called a &amp;apos;&amp;apos;discovered attack with mate threat&amp;apos;&amp;apos;.  A &amp;apos;&amp;apos;discovered checkmate&amp;apos;&amp;apos; itself is also possible.
+
+==Example ==
+
+{{Chess diagram|=
+| tright
+|
+|=
+ |rd|  |bd|  |kd|bd|nd|rd|=
+ |pd|pd|  |  |  |pd|pd|pd|=
+ |  |  |  |  |pd|  |  |  |=
+ |  |xx|  |pd|pl|  |  |  |=
+ |  |  |  |qd|  |  |  |  |=
+ |  |  |  |bl|  |  |  |  |=
+ |pl|pl|  |  |  |pl|pl|pl|=
+ |rl|nl|bl|ql|kl|  |  |rl|=
+| Position after 6. ... Qxd4.  7. Bb5+ (&amp;amp;times;) wins Black&amp;apos;s queen using a discovered attack with check.
+}}
+
+The diagram illustrates a trap in the Advance Variation of the [[French Defence]], based on a discovered attack.   If, after 1.e4 e6 2.d4 d5 3.e5 c5 4.c3 cxd4 5.cxd4 Qb6 6.Bd3, Black mistakenly attempts to win White&amp;apos;s d4 pawn with 6. ... Qxd4?? (diagram), White can play 7.Bb5+, a discovered attack (White&amp;apos;s bishop gets out of the way of White&amp;apos;s queen) against Black&amp;apos;s queen with check. Black must get out of check, then White can follow up with 8.Qxd4.
+
+==References==
+{{reflist}}
+
+==External links==
+*[http://web.archive.org/web/20080120161502/http://www.chesstr.com/problems?ta=9 Chess Tactics Repository - Discovered Attacks] - Collection of chess problems involving discovered attacks
+
+{{chess}}
+
+{{DEFAULTSORT:Discovered Attack}}
+[[Category:Chess tactics]]
+[[Category:Chess terminology]]
+
+{{Chess-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Gallieni (Paris Métro)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Gallieni (Paris Métro)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Use dmy dates|date=April 2011}}
+{{Infobox Paris metro
+|Name=Gallieni
+|Subtitle=Parc de Bagnolet
+|Pic=Île-de-France RATP MP 67 n°132 M3 Gallieni.jpg
+|Day=2 April
+|Year=1971
+|Access=Av. du Général de Gaulle&amp;lt;br&amp;gt;Bus depot
+|Municipality=Bagnolet
+|Zone=1
+|Next=
+{{Paris Metro/next special|3|[[Porte de Bagnolet (Paris Metro)|Porte de Bagnolet]]|Terminus}}
+| X=229
+| Y=67
+}}
+&amp;apos;&amp;apos;&amp;apos;Gallieni (Parc de Bagnolet)&amp;apos;&amp;apos;&amp;apos; is a station on [[Paris Métro Line 3]], being its eastern terminus. It was opened on 2 April 1971 when the line was extended from [[Gambetta (Paris Métro)|Gambetta]]. It is situated on the &amp;apos;&amp;apos;Avenue Gallieni&amp;apos;&amp;apos;, which is named after General [[Joseph Gallieni]], famous for commandeering 600 taxis to take troops to the front to help save Paris during the [[First Battle of the Marne]] in 1914.
+
+It is next door to a large international bus station serving bus services from [[Eurolines]].
+
+==References==
+
+{{Paris Metro/line 3}}
+
+{{Paris-metro-stub}}
+
+{{coord|48.86350|2.41578|region:FR_type:landmark_scale:2000_source:frwiki|display=title|format=dms}}
+
+[[Category:Railway stations opened in 1971]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

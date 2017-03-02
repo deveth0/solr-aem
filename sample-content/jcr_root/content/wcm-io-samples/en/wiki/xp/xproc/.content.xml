@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="XProc"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="XProc" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{infobox file format
+| name = XProc
+| extension = .xpl
+| mime = application/xproc+xml
+| owner = [http://www.w3.org/ World Wide Web Consortium]
+| screenshot =
+| creatorcode =
+| genre = [[Stylesheet language]]
+| containerfor =
+| containedby =
+| extendedfrom = [[XML]]
+| extendedto =
+| standard = [http://www.w3.org/TR/xproc 1.0 (Recommendation)]
+
+}}
+
+&amp;apos;&amp;apos;&amp;apos;XProc&amp;apos;&amp;apos;&amp;apos; is a [[W3C]] Recommendation to define an [[XML transformation language]] to define [[XML Pipeline]]s.
+
+Below is an example abbreviated XProc file:
+&amp;lt;source lang=&amp;quot;xml&amp;quot;&amp;gt;
+&amp;lt;p:pipeline name=&amp;quot;pipeline&amp;quot; xmlns:p=&amp;quot;http://www.w3.org/ns/xproc&amp;quot; version=&amp;quot;1.0&amp;quot;&amp;gt;
+  &amp;lt;p:input port=&amp;quot;schemas&amp;quot; sequence=&amp;quot;true&amp;quot;/&amp;gt;
+
+  &amp;lt;p:xinclude/&amp;gt;
+
+  &amp;lt;p:validate-with-xml-schema&amp;gt;
+    &amp;lt;p:input port=&amp;quot;schema&amp;quot;&amp;gt;
+      &amp;lt;p:pipe step=&amp;quot;pipeline&amp;quot; port=&amp;quot;schemas&amp;quot;/&amp;gt;
+    &amp;lt;/p:input&amp;gt;
+  &amp;lt;/p:validate-with-xml-schema&amp;gt;
+&amp;lt;/p:pipeline&amp;gt;
+&amp;lt;/source&amp;gt;
+
+This is a pipeline that consists of two atomic steps, XInclude and Validate. The pipeline itself has three inputs, “source” (a source document), “schemas” (a list of W3C XML Schemas) and  “parameters” (for passing parameters). The XInclude step reads the pipeline input “source” and produces a result document. The Validate step reads the pipeline input “schemas” and the output from the XInclude step and produces a result document. The result of the validation, “result”, is the result of the pipeline.
+
+Here is an equivalent less abbreviated XProc pipeline:
+&amp;lt;source lang=&amp;quot;xml&amp;quot;&amp;gt;
+&amp;lt;p:pipeline name=&amp;quot;pipeline&amp;quot; xmlns:p=&amp;quot;http://www.w3.org/ns/xproc&amp;quot;
+  version=&amp;quot;1.0&amp;quot;&amp;gt;
+  &amp;lt;p:input port=&amp;quot;schemas&amp;quot; sequence=&amp;quot;true&amp;quot;/&amp;gt;
+
+  &amp;lt;p:xinclude name=&amp;quot;included&amp;quot;&amp;gt;
+    &amp;lt;p:input port=&amp;quot;source&amp;quot;&amp;gt;
+      &amp;lt;p:pipe step=&amp;quot;pipeline&amp;quot; port=&amp;quot;source&amp;quot;/&amp;gt;
+    &amp;lt;/p:input&amp;gt;
+  &amp;lt;/p:xinclude&amp;gt;
+
+  &amp;lt;p:validate-with-xml-schema name=&amp;quot;validated&amp;quot;&amp;gt;
+    &amp;lt;p:input port=&amp;quot;source&amp;quot;&amp;gt;
+      &amp;lt;p:pipe step=&amp;quot;included&amp;quot; port=&amp;quot;result&amp;quot;/&amp;gt;
+    &amp;lt;/p:input&amp;gt;
+    &amp;lt;p:input port=&amp;quot;schema&amp;quot;&amp;gt;
+      &amp;lt;p:pipe step=&amp;quot;pipeline&amp;quot; port=&amp;quot;schemas&amp;quot;/&amp;gt;
+    &amp;lt;/p:input&amp;gt;
+  &amp;lt;/p:validate-with-xml-schema&amp;gt;
+&amp;lt;/p:pipeline&amp;gt;
+&amp;lt;/source&amp;gt;
+
+== Implementations ==
+* [http://norman.walsh.name/2008/projects/calabash Calabash] maintained by Norman Walsh
+* [https://community.emc.com/community/edn/xmltech Calumet], EMC’s XProc implementation
+* [http://code.google.com/p/quixproc/ QuiXProc], Innovimax&amp;apos;s (GPL) version in [[Java (programming language)|Java]] implementing [[Streaming]] and [[Parallel processing]]
+* [http://code.google.com/p/tubular/ Tubular] (LGPL) maintained by Herve Quiroz
+* [http://code.google.com/p/xprocxq/ xprocxq], [[XQuery]] implementation on top of [[eXist]]
+
+== See also ==
+* [[XSLT]]
+* [[XPath]]
+
+== External links ==
+* The [http://www.w3.org/XML/Processing/ XML Processing Model Working Group] page at W3C
+* The [http://www.w3.org/TR/xproc/ W3C Recommendation]
+* [http://xproc.org/ The web site] maintained by Norman Walsh
+* [http://www.data2type.de/en/xml-xslt-xslfo/xproc/xproc-introduction/ XProc tutorial]
+* [http://www.data2type.de/en/xml-xslt-xslfo/xproc/xproc-reference/ XProc reference]
+
+{{W3C Standards}}
+
+{{DEFAULTSORT:Xproc}}
+[[Category:World Wide Web Consortium standards]]
+[[Category:XML-based standards]]
+[[Category:XML-based programming languages]]
+[[Category:Markup languages]]
+[[Category:Declarative programming languages]]
+[[Category:Concurrent programming languages]]
+[[Category:Domain-specific programming languages]]
+
+{{compu-lang-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

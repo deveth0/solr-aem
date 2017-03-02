@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Uder"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Uder" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{for|the Verwaltungsgemeinschaft|Uder (Verwaltungsgemeinschaft)}}
+
+{{Infobox German location
+|image_photo       =
+|Wappen            = Wappen Uder.png
+|Wappengröße       = 100
+|lat_deg           = 51 |lat_min = 21 |lat_sec = 45
+|lon_deg           = 10 |lon_min = 4 |lon_sec = 17
+|Lageplan = Uder in EIC.svg
+|Bundesland        = Thüringen
+|Landkreis         = Eichsfeld
+|Verwaltungsgemeinschaft = Uder
+|Höhe              = 230
+|Fläche            = 13.90
+|Einwohner         = 2543
+|Stand             = 2006-12-31
+|PLZ               = 37318
+|Vorwahl           = 036083
+|Kfz               = EIC
+|Gemeindeschlüssel = 16 0 61 097
+|Straße            = Siedlung 14
+|Website           = [http://www.gemeinde-uder.de www.gemeinde-uder.de]
+|Bürgermeister     = Gerhard Martin
+|Partei            = CDU
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Uder&amp;apos;&amp;apos;&amp;apos; is a [[Thuringia]]n municipality in the district of [[Eichsfeld (district)|Eichsfeld]] in Germany.
+
+{{Cities and towns in Eichsfeld (district)}}
+==References==
+{{Reflist}}
+
+{{Eichsfeld-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

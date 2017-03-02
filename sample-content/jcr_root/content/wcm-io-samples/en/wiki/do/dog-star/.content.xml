@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Dog Star"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Dog Star" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Dog Star&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;Dogstar&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* the Dog Star, a common name for the star [[Sirius]], reflecting its prominence in its constellation, Canis Major (Greater Dog)
+* [[Dogstar (band)]], a rock group including Keanu Reeves
+* [[Dogstar (TV series)|&amp;apos;&amp;apos;Dogstar&amp;apos;&amp;apos; (TV series)]], a 2006 animated Australian TV series
+* [[Dog Star (short story)|&amp;quot;Dog Star&amp;quot; (short story)]], a short story by Arthur C. Clarke
+* The Dogstar, a theatre in Brixton which hosts performances by [[blank Pages]]
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Dungeness River"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Dungeness River" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Geobox | River
+&amp;lt;!-- *** Name section *** --&amp;gt;
+| name = Dungeness River
+| category = River
+| category_hide = 1
+&amp;lt;!-- *** Image *** ---&amp;gt;
+| image =
+| image_size =
+| image_caption =
+&amp;lt;!-- *** Etymology *** ---&amp;gt;
+| etymology  =
+&amp;lt;!-- *** Country etc. *** --&amp;gt;
+| country = United States
+| country_flag = 1
+| state = [[Washington (U.S. state)|Washington]]
+| district_type = County
+| district = [[Clallam County, Washington|Clallam]], [[Jefferson County, Washington|Jefferson]]
+&amp;lt;!-- *** Source *** --&amp;gt;
+| source = [[Olympic Mountains]]
+| source_location =
+| source_region =
+| source_state =
+| source_elevation_imperial   =
+| source_elevation_note       =
+| source_length_imperial =
+| source_lat_d                = 47
+| source_lat_m                = 48
+| source_lat_s                = 19
+| source_lat_NS               = N
+| source_long_d               = 123
+| source_long_m               = 10
+| source_long_s               = 0
+| source_long_EW              = W
+| source_coordinates_note     = &amp;lt;ref name=gnis/&amp;gt;
+&amp;lt;!-- *** Mouth *** --&amp;gt;
+| mouth_name                  = [[Strait of Juan de Fuca]]
+| mouth_location              =
+| mouth_district =
+| mouth_region =
+| mouth_state =
+| mouth_country =
+| mouth_note =
+| mouth_lat_d                 = 48
+| mouth_lat_m                 = 9
+| mouth_lat_s                 = 3
+| mouth_lat_NS                = N
+| mouth_long_d                = 123
+| mouth_long_m                = 8
+| mouth_long_s                = 8
+| mouth_long_EW               = W
+| mouth_coordinates_note      = &amp;lt;ref name=gnis/&amp;gt;
+| mouth_elevation_imperial    =
+| mouth_elevation_note        =
+&amp;lt;!-- *** Geography *** --&amp;gt;
+| length_imperial             = 28
+| length_round                = 0
+| length_note                 = &amp;lt;ref name=gnis/&amp;gt;
+| watershed_imperial          =
+| watershed_round             =
+| watershed_note              =
+| discharge_location          =
+| discharge_imperial          =
+| discharge_round             =
+| discharge_note              =
+| discharge_max_imperial      =
+| discharge_min_imperial      =
+| discharge1_location         =
+| discharge1_note             =
+&amp;lt;!-- *** Map section *** --&amp;gt;
+| map                         =
+| map_size                    = 300
+| map_caption                 =
+| map1 = Washington Locator Map.PNG
+| map1_size                   = 300
+| map1_caption = Location of the mouth of the Dungeness River in Washington
+| map1_locator = Washington
+&amp;lt;!-- *** Websites *** --&amp;gt;
+| commons =
+}}
+The &amp;apos;&amp;apos;&amp;apos;Dungeness River&amp;apos;&amp;apos;&amp;apos; is a {{convert|28|mi|km|adj=on}} long&amp;lt;ref name=gnis&amp;gt;{{GNIS|1528593|Dungeness River}}&amp;lt;/ref&amp;gt; river located in the [[Olympic Peninsula]] in the [[U.S. state]] of [[Washington (U.S. state)|Washington]]. It rises near [[Mount Constance]] in the [[Olympic Mountains]] within the [[Olympic National Park]], flows through the [[Buckhorn Wilderness]], passes by the town of [[Sequim, Washington|Sequim]], and empties into the [[Strait of Juan de Fuca]] at [[Dungeness Bay]], behind the [[Dungeness Spit]].&amp;lt;ref&amp;gt;{{GNIS|1519006|Dungeness Bay}}&amp;lt;/ref&amp;gt; One of its main tributaries is the [[Gray Wolf River]].
+
+The river was named for Dungeness Spit. The name &amp;quot;Dungeness&amp;quot; refers to the [[Dungeness (headland)|Dungeness]] headland in [[England]]. It was given by [[George Vancouver]] in 1792, who wrote: &amp;apos;&amp;apos;The low sandy point of land, which from its great resemblance to Dungeness in the British Channel, I called New Dungeness.&amp;apos;&amp;apos;&amp;lt;ref&amp;gt;{{cite book |last= Phillips |first= James W. |title= Washington State Place Names |year= 1971 |publisher= University of Washington Press |isbn= 0-295-95158-3}}&amp;lt;/ref&amp;gt;
+
+==See also==
+*[[List of Washington rivers]]
+*[[Dungeness crab]]
+
+==References==
+{{reflist}}
+
+[[Category:Rivers of Washington (state)]]
+[[Category:Landforms of Clallam County, Washington]]
+[[Category:Landforms of Jefferson County, Washington]]
+
+
+{{ClallamWA-geo-stub}}
+{{JeffersonWA-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

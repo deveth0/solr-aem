@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Qa-1b"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Qa-1b" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Context|date=October 2009}}
+&amp;apos;&amp;apos;&amp;apos;Qa-1b&amp;apos;&amp;apos;&amp;apos; is a [[MHC class I]] molecule and is the functional homolog of [[HLA-E]] in humans. Qa-1b is characterised by its limited [[Polymorphism (biology)|polymorphisms]] and small peptide repertoire. Qa-1b binds to peptides derived from [[signal peptides]] of MHC class Ia molecule and interact with the CD94/[[NKG2]] [[Receptor (biochemistry)|receptor]]s on [[natural killer cell]]s. The Qa-1b-peptide complex signals natural killer cells not to engage in cell lysis. Despite of its homology with HLA-E, it seems that the Qa-1b has coincidentally evolved to have a similar function to HLA-E.
+
+{{Surface antigens}}
+
+[[Category:Biomolecules]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Safeway"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Safeway" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;lt;!-- *** EDITING GUIDELINES for DISAMBIGUATION (DAB) PAGES  *** --&amp;gt;
+ &amp;lt;!-- DAB pages are not normal articles and have a special style --&amp;gt;
+ &amp;lt;!-- DAB pages help users find specific articles                --&amp;gt;
+ &amp;lt;!-- Please   ~  Point to (link) only one article on each line  --&amp;gt;
+ &amp;lt;!-- Please   ~  Start each line with the target article        --&amp;gt;
+ &amp;lt;!-- Remember ~  These are guidelines - not absolute rules      --&amp;gt;
+ &amp;lt;!-- ***         More information @ [[WP:MOSDAB]]           *** --&amp;gt;
+&amp;apos;&amp;apos;&amp;apos;Safeway&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+{{TOC right}}
+
+==Companies==
+
+===Supermarket chains===
+* [[Safeway Inc]], a grocery company in the United States and Canada
+* [[Safeway (Australia)]], a defunct supermarket chain of the Australian company Woolworths Limited, which formerly a subsidiary of the American company
+* [[Safeway (UK)]], a defunct UK supermarket chain, which was formerly a subsidiary of the American company
+* [[Safeway Stores (Ireland)]], a former Northern Ireland-based joint venture between the UK Safeway plc and Fitzwilton Group
+* [[Safeway stores (Jordan)]], a grocery company in Jordan
+
+===Other===
+* [[Safeway Insurance Group]], a privately held insurance company in the United States
+
+== People ==
+* [[Safeway Goya]], an American singer
+
+{{disambig}}
+
+[[ar:سيفوي]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

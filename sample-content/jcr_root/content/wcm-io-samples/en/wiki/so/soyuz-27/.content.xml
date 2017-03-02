@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Soyuz 27"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Soyuz 27" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{about|the Soyuz 27 spacecraft|the crew launched in Soyuz 27|Salyut 6 EP-1}}
+{{Infobox spaceflight
+| name                  = Soyuz 27
+| image                 =
+| image_caption         =
+| insignia              =
+
+| mission_type          =
+| operator              =
+| COSPAR_ID             =
+| SATCAT                =
+| mission_duration      = 64&amp;amp;nbsp;days, 22&amp;amp;nbsp;hours, 52&amp;amp;nbsp;minutes, 47&amp;amp;nbsp;seconds
+| distance_travelled    =
+| orbits_completed      = 1,025
+
+| spacecraft            =
+| spacecraft_type       = [[Soyuz 7K-T]]
+| manufacturer          = [[NPO Energia]]
+| launch_mass           = {{convert|6800|kg|lb}}
+| landing_mass          =
+
+| launch_date           = {{start-date|January 10, 1978, 12:26:00|timezone=yes}}&amp;amp;nbsp;UTC
+| launch_rocket         = [[Soyuz-U]]
+| launch_site           = [[Baikonur Cosmodrome|Baikonur]] [[Baikonur Cosmodrome Site 1|1/5]]&amp;lt;ref&amp;gt;{{cite web |url=http://www.astronautix.com/sites/baiurlc1.htm |title=Baikonur LC1 |accessdate=2009-03-04 |publisher=Encyclopedia Astronautica}}&amp;lt;/ref&amp;gt;
+
+| landing_date          = {{end-date|March 16, 1978, 11:18:47|timezone=yes}}&amp;amp;nbsp;UTC
+| landing_site          = {{convert|310|km|mi}} W of Tselinograd
+
+| crew_size             = 2
+| crew_launching        = [[Vladimir Dzhanibekov]]&amp;lt;br/&amp;gt;[[Oleg Grigoryevich Makarov|Oleg Makarov]]
+| crew_landing          = [[Yuri Romanenko]]&amp;lt;br/&amp;gt;[[Georgi Grechko]]
+| crew_callsign         = {{lang|ru|Памир}} ({{lang|ru-Latn|&amp;apos;&amp;apos;Pamir&amp;apos;&amp;apos;}} - &amp;quot;[[Pamir Mountains]]&amp;quot;)
+| crew_photo            =
+| crew_photo_caption    =
+
+| orbit_epoch           =
+| orbit_reference       = [[Geocentric orbit|Geocentric]]
+| orbit_regime          = [[Low Earth orbit|Low Earth]]
+| orbit_periapsis       = {{convert|198.9|km|mi}}
+| orbit_apoapsis        = {{convert|253.8|km|mi}}
+| orbit_inclination     = 51.65&amp;amp;nbsp;degrees
+| orbit_period          = 88.73&amp;amp;nbsp;minutes
+| apsis                 = gee
+
+| docking               =
+ {{Infobox spaceflight/Dock
+   | docking_target     = [[Salyut 6]]
+   | docking_type       = dock
+   | docking_port       =
+   | docking_date       =
+   | undocking_date     =
+   | time_docked        =
+ }}
+
+| previous_mission      = [[Soyuz 26]]
+| next_mission          = [[Soyuz 28]]
+| programme             = [[Soyuz programme]]&amp;lt;br/&amp;gt;&amp;lt;small&amp;gt;(Manned missions)&amp;lt;/small&amp;gt;
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Soyuz 27&amp;apos;&amp;apos;&amp;apos; ({{lang-ru|&amp;apos;&amp;apos;&amp;apos;Союз 27&amp;apos;&amp;apos;&amp;apos;}}, &amp;apos;&amp;apos;Union 27&amp;apos;&amp;apos;) was a 1978 [[Soviet Union|Soviet]] manned spacecraft which flew to the orbiting [[Salyut 6]] space station, during the mission [[Salyut 6 EP-1|EP-1]].&amp;lt;ref&amp;gt;The mission report is available here: http://www.spacefacts.de/mission/english/soyuz-27.htm&amp;lt;/ref&amp;gt; It was the third manned flight to the station, and the second successful docking. Once docked, it marked the first time that three spacecraft were docked together.
+
+The main function of the EP-1 mission was to swap Soyuz craft with the orbiting crew, in so doing freeing a docking port for a forthcoming supply tanker. [[Cosmonauts]] [[Vladimir Dzhanibekov]] and [[Oleg Grigoryevich Makarov|Oleg Makarov]] returned to earth in the [[Soyuz 26]] spacecraft after spending five days on the station.
+
+==Crew==
+{{Spaceflight crew
+|terminology       = Cosmonaut
+|position1         = Commander
+|crew1_up          = [[Vladimir Dzhanibekov]]
+|flights1_up       = First
+|expedition1_up    = [[Salyut 6 EP-1|EP-1]]
+|crew1_down        = [[Yuri Romanenko]]
+|flights1_down     = First
+|expedition1_down  = [[Salyut 6 EO-1|EO-1]]
+|position2         = Flight Engineer
+|crew2_up          = [[Oleg Grigoryevich Makarov|Oleg Makarov]]
+|flights2_up       = Third
+|expedition2_up    = [[Salyut 6 EP-1|EP-1]]
+|crew2_down        = [[Georgi Grechko]]
+|flights2_down     = Second
+|expedition2_down  = [[Salyut 6 EO-1|EO-1]]
+}}
+
+===Backup crew===
+{{Spaceflight crew
+|terminology       = Cosmonaut
+|position1         = Commander
+|crew1_up          = [[Vladimir Kovalyonok]]
+|position2         = Flight Engineer
+|crew2_up          = [[Aleksandr Ivanchenkov]]
+|notes             = The launching and landing crews had the same backups
+}}
+
+==Mission parameters==
+*&amp;apos;&amp;apos;&amp;apos;Mass:&amp;apos;&amp;apos;&amp;apos; {{convert|6800|kg|lb|abbr=on}}
+*&amp;apos;&amp;apos;&amp;apos;Perigee:&amp;apos;&amp;apos;&amp;apos; {{convert|198.9|km|mi|abbr=on}}
+*&amp;apos;&amp;apos;&amp;apos;Apogee:&amp;apos;&amp;apos;&amp;apos; {{convert|253.8|km|mi|abbr=on}}
+*&amp;apos;&amp;apos;&amp;apos;Inclination:&amp;apos;&amp;apos;&amp;apos; 51.65°
+*&amp;apos;&amp;apos;&amp;apos;Period:&amp;apos;&amp;apos;&amp;apos; 88.73 minutes
+
+== External links ==
+*http://www.astronautix.com/flights/soyuz27.htm
+*http://www.spacefacts.de/mission/english/soyuz-27.htm
+*http://www.terra.es/personal/heimdall/eng/soyuz27.htm
+*http://www.zarya.info/Diaries/Salyut6/Occupation1.htm
+*http://books.nap.edu/books/0309085489/html/index.html
+
+==References==
+{{reflist}}
+
+{{Soyuz}}
+
+[[Category:Manned Soyuz missions]]
+[[Category:1978 in spaceflight]]
+[[Category:1978 in the Soviet Union]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

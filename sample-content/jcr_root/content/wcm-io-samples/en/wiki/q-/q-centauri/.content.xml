@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Q Centauri"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Q Centauri" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Starbox begin
+| name=Q Centauri A/B
+}}
+{{Starbox observe
+| epoch = J2000.0
+| constell = [[Centaurus]]
+| ra = {{RA|13|41|44.772}}&amp;lt;ref name=&amp;quot;van Leeuwen2007&amp;quot;/&amp;gt;
+| dec = {{DEC|−54|33|33.93}}&amp;lt;ref name=&amp;quot;van Leeuwen2007&amp;quot;/&amp;gt;
+| appmag_v = +4.99 (+5.7/+7.1)
+}}
+{{Starbox character
+| class = B8Vn/A0V
+| b-v = −0.05
+| u-b = −0.23
+| variable = none
+}}
+{{Starbox astrometry
+| radial_v = +10
+| prop_mo_ra = -42.33 ± 0.60&amp;lt;ref name=&amp;quot;van Leeuwen2007&amp;quot;/&amp;gt;
+| prop_mo_dec = -24.26 ± 0.53&amp;lt;ref name=&amp;quot;van Leeuwen2007&amp;quot;/&amp;gt;
+| parallax = 12.02
+| p_error = 0.69
+| parallax_footnote = &amp;lt;ref name=&amp;quot;van Leeuwen2007&amp;quot;/&amp;gt;
+| absmag_v = +0.39 (+1.1/+2.5)
+}}
+{{Starbox catalog
+| names = [[Harvard Revised catalogue|HR]]&amp;amp;nbsp;5141, [[Henry Draper Catalogue|HD]]&amp;amp;nbsp;118991, [[Durchmusterung|CP]]−53°5725, [[Hipparcos catalogue|HIP]]&amp;amp;nbsp;66821, [[Smithsonian Astrophysical Observatory catalogue|SAO]]&amp;amp;nbsp;241076, GC&amp;amp;nbsp;18495, CCDM&amp;amp;nbsp;J13417-5434}}
+{{Starbox reference
+| Simbad = HD+118991
+}}
+{{Starbox end}}
+&amp;apos;&amp;apos;&amp;apos;Q Centauri&amp;apos;&amp;apos;&amp;apos; (Q Cen) is a [[binary star]] in the [[constellation]] [[Centaurus]].  It has a combined [[apparent magnitude]] of +4.99 and is approximately 270 [[light year]]s from [[Earth]].
+
+The primary component, &amp;apos;&amp;apos;&amp;apos;Q Centauri A&amp;apos;&amp;apos;&amp;apos;, is a blue-white [[stellar classification|B-type]] [[main sequence|main sequence dwarf]] with an [[apparent magnitude]] of +5.7.  Its companion, &amp;apos;&amp;apos;&amp;apos;Q Centauri B&amp;apos;&amp;apos;&amp;apos;, is a white [[stellar classification|A-type]] main sequence dwarf with an apparent magnitude of +7.1.  The two stars are separated by 5.5 [[arcsecond]]s on the sky.
+
+== References ==
+{{Reflist|colwidth=30em|refs=
+
+&amp;lt;ref name=&amp;quot;van Leeuwen2007&amp;quot;&amp;gt;{{cite journal | title=Validation of the new Hipparcos reduction | url=http://www.aanda.org/index.php?option=com_article&amp;amp;access=bibcode&amp;amp;Itemid=129&amp;amp;bibcode=2007A%2526A...474..653VFUL | last1=van Leeuwen | first1=F. | journal=Astronomy and Astrophysics | volume=474 | issue=2 | pages=653–664 | year=2007 | arxiv=0708.1752 | bibcode=2007A&amp;amp;A...474..653V | doi=10.1051/0004-6361:20078357 }} [http://webviz.u-strasbg.fr/viz-bin/VizieR-5?-out.add=.&amp;amp;-source=I/311/hip2&amp;amp;recno=66594 Vizier catalog entry ]&amp;lt;/ref&amp;gt;
+
+}}
+
+{{Stars of Centaurus}}
+
+[[Category:Bayer objects|Centauri, Q]]
+[[Category:Binary stars]]
+[[Category:B-type main-sequence stars]]
+[[Category:A-type main-sequence stars]]
+[[Category:Centaurus (constellation)]]
+
+
+{{Multi-star-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

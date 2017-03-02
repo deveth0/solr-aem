@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Termination type"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Termination type" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[lithic reduction]], &amp;apos;&amp;apos;&amp;apos;termination type&amp;apos;&amp;apos;&amp;apos; is a characteristic indicating the manner in which the distal end of a [[lithic flake]] detaches from a [[lithic core|core]] (Andrefsky 1998:18).  Common types include:
+
+* &amp;apos;&amp;apos;&amp;apos;Step/snap termination&amp;apos;&amp;apos;&amp;apos; – these occur when a flake snaps or breaks during removal, resulting in an abrupt right-angle break.
+* &amp;apos;&amp;apos;&amp;apos;Hinge termination&amp;apos;&amp;apos;&amp;apos; – results when the applied force rolls away from the core or objective piece, creating a rounded or blunted distal end.
+* &amp;apos;&amp;apos;&amp;apos;Overshot/outrepasse/plunging termination&amp;apos;&amp;apos;&amp;apos; - occurs when the applied force dips and removes a section of the opposite margin of the artifact or the distal end of the core.  Also referred to as a reverse hinge termination.
+* &amp;apos;&amp;apos;&amp;apos;Perverse termination&amp;apos;&amp;apos;&amp;apos; - &amp;quot;twisting&amp;quot; breaks resulting from when the applied force is redirected through the material in a [[helical]] fashion;
+* &amp;apos;&amp;apos;&amp;apos;Feather/monotomic termination&amp;apos;&amp;apos;&amp;apos; – a smooth termination that results in a feathered distal end.  The distal ends of these flakes are only a few molecules thick, are extremely sharp, and indicate a flawless detachment.  These are the intended results of some lithic reduction techniques, and are very desirable for opportunistic tool use that does not require [[Retouch (lithics)|retouching]] or sharpening.
+
+==References==
+* Andrefsky, William, Jr. (1998) &amp;apos;&amp;apos;Lithics: Macroscopic approaches to analysis&amp;apos;&amp;apos;.  Cambridge University Press, Cambridge.
+
+[[Category:Lithics]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

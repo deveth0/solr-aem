@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="USS Newark"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="USS Newark" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Italic title prefixed|3}}
+Multiple ships of the [[United States Navy]] have been named &amp;apos;&amp;apos;&amp;apos;USS &amp;apos;&amp;apos;Newark&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;, after the city of [[Newark, New Jersey]].
+
+* {{USS|Newark|C-1}} was a [[protected cruiser]] in service from 1891 to 1912.
+* {{USS|Newark|SP-266}} was a [[minesweeper (ship)|minesweeper]] and tug in commission from 1917 to 1919.
+* {{USS|Newark|CL-88}} was a planned {{sclass-|Cleveland|cruiser|0}} [[light cruiser]]; construction was cancelled in 1940.{{Citation needed|date=September 2010}}
+* {{USS|Newark|CL-100}} was a &amp;apos;&amp;apos;Cleveland&amp;apos;&amp;apos;-class light cruiser that was converted during construction to the {{sclass-|Independence|aircraft carrier|0}} [[light aircraft carrier]] {{USS|San Jacinto|CVL-30}}.
+* {{USS|Newark|CL-108}} was a planned {{sclass-|Fargo|cruiser|0}} light cruiser; construction was cancelled in 1945.
+
+{{Shipindex}}
+
+{{DEFAULTSORT:Newark, Uss}}
+[[Category:United States Navy ship names]]
+[[Category:United States Navy New Jersey-related ships]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

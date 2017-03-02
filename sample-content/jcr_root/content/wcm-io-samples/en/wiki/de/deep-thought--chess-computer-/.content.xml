@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Deep Thought (chess computer)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Deep Thought (chess computer)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Deep Thought&amp;apos;&amp;apos;&amp;apos; was a [[computer]] designed to play chess. Deep Thought was initially developed at [[Carnegie Mellon University]] and later at [[IBM]].&amp;lt;ref&amp;gt;{{citeweb|title=History of deep blue|url=http://www.research.ibm.com/deepblue/meet/html/d.3.1.html|accessdate=2008-02-18}}&amp;lt;/ref&amp;gt;  It was second in the line of [[chess]] computers developed by [[Feng-hsiung Hsu]], starting with [[ChipTest]] and culminating in [[IBM Deep Blue|Deep Blue]]. In addition to Hsu, the Deep Thought team included [[Thomas Anantharaman]], Mike Browne, [[Murray Campbell]] and Andreas Nowatzyk.&amp;lt;ref name=AAAIBerliner&amp;gt;[http://www.aaai.org/ojs/index.php/aimagazine/article/viewFile/753/671 Deep Thought wins the $10,000 Fredkin Prize], [[Hans Berliner]]&amp;lt;/ref&amp;gt;   Deep Thought was easily defeated in both games of a two-game match with [[Garry Kasparov]] in 1989 as well as in a [[correspondence chess|correspondence]] match with [[Michael Valvo]].
+
+It was named after &amp;apos;&amp;apos;&amp;apos;[[List of minor The Hitchhiker&amp;apos;s Guide to the Galaxy characters#Deep Thought|Deep Thought]]&amp;apos;&amp;apos;&amp;apos;, a fictional computer in [[Douglas Adams]]&amp;apos; series, &amp;apos;&amp;apos;[[The Hitchhiker&amp;apos;s Guide to the Galaxy]]&amp;apos;&amp;apos;. The naming of chess computers has continued in this vein with [[IBM Deep Blue|Deep Blue]], [[Deep Fritz]], [[Deep Junior]], etc.
+
+Deep Thought won the [[North American Computer Chess Championship]] in 1988 and the [[World Computer Chess Championship]] in the year 1989, and its [[ELO rating system|rating]], according to the [[United States Chess Federation|USCF]] was 2551.&amp;lt;ref name=AAAIBerliner /&amp;gt;  In 1994, Deep Thought 2 won the [[North American Computer Chess Championship]] for the fifth time, with its rating estimated at around 2600. It was sponsored by [[IBM]]. Some engineers who designed Deep Thought also worked in the design of Deep Thought 2. Its algorithms were quite simple evaluation functions, but it could examine half a billion chess positions per move in tournament games, which is sufficient to reach depth of 10 or 11 moves ahead in complex positions. Despite that, using the technique of &amp;apos;&amp;apos;singular extensions&amp;apos;&amp;apos; it could also follow lines of forced moves that reach even further, which is how it once found a [[checkmate]] in 37 moves.{{Citation needed|date=May 2008}}
+
+== See also ==
+* [[Computer chess]]
+
+==Notes==
+{{Reflist}}
+
+==References==
+{{Refbegin}}
+*{{Citation
+|last=Hsu|first=Feng-hsiung|authorlink=Feng-hsiung Hsu
+|year=2002
+|title=Behind Deep Blue: Building the Computer that Defeated the World Chess Champion
+|publisher=[[Princeton University Press]]
+|id=ISBN 0-691-09065-3}}
+*{{Citation
+|last=Newborn|first=Monty
+|year=1997
+|title=Kasparov versus Deep Blue: Computer Chess Comes of Age
+|publisher=Springer
+|id=ISBN 0-387-94820-1}}
+{{Refend}}
+
+==External links==
+*{{chessgames player|id=13728|name=Deep Thought}}
+
+[[Category:Chess engines]]
+[[Category:One-of-a-kind computers]]
+[[Category:Carnegie Mellon University]]
+
+{{IBM}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

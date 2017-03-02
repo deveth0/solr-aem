@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Project Phoenix (SETI)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Project Phoenix (SETI)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{unreferenced|date=August 2012}}
+&amp;apos;&amp;apos;&amp;apos;Project Phoenix&amp;apos;&amp;apos;&amp;apos; was a [[Search for extraterrestrial intelligence|SETI]] project: in this case a search for extraterrestrial intelligence by analyzing patterns in radio signals. It was run by the independently funded [[SETI Institute]] of [[Mountain View, Santa Clara County, California|Mountain View, California]], [[United States|USA]].
+
+Project Phoenix started work in February 1995 with the [[Parkes Observatory|Parkes radio telescope]] located in [[New South Wales]], [[Australia]], the largest telescope in the [[Southern Hemisphere]].
+
+Between September 1996 and April 1998, the Project used the [[National Radio Astronomy Observatory]] in [[Green Bank, West Virginia|Green Bank]], [[West Virginia]], USA.
+
+Rather than attempting to scan the whole sky for messages, the Project concentrated on nearby systems that are similar to our own. Project Phoenix&amp;apos;s targets comprised about 800 stars with a 200 [[light-year]] range.
+
+The Project searched for radio signals as narrow as 1 Hz between 1,000 and 3,000 MHz: a broad bandwidth compared with most SETI searches.
+
+In March 2004 the Project announced that after checking the 800 stars on its list, it had failed to find any evidence of extraterrestrial signals.&amp;lt;ref name=&amp;quot;BBCNews20040325&amp;quot;&amp;gt;{{Cite news |url=http://news.bbc.co.uk/2/hi/science/nature/3567729.stm |title=Radio search for ET draws a blank |first=David |last=Whitehouse |date=25 March 2004 |work=[[BBC News]]}}&amp;lt;/ref&amp;gt; Project leader Peter Backus remarked that they had been forced to conclude that &amp;quot;we live in a quiet neighborhood.&amp;quot;&amp;lt;ref name=&amp;quot;BBCNews20040325&amp;quot;/&amp;gt;
+
+==See also==
+* [[HabCat]]
+
+==References==
+
+{{reflist}}
+
+==External links==
+* [http://www.seti.org/seti-institute/project/details/project-phoenix Project Phoenix]
+* [http://www.jb.man.ac.uk/research/seti/phoenix.html Project Phoenix project] at [[Jodrell Bank]]
+
+{{Extraterrestrial life}}
+
+[[Category:Search for extraterrestrial intelligence]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

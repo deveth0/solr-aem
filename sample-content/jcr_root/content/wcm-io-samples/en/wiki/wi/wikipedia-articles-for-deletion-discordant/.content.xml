@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:Articles for deletion/Discordant"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:Articles for deletion/Discordant" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;From vfd:
+
+From Cleanup: dict. def.
+
+* Redirected. Keep. [[User:Dysprosia|Dysprosia]] 01:03, 2 Apr 2004 (UTC)
+
+Comment by [[User:Aquarius_rising]]: Aug. 13/05: The problem with the redirect is that &amp;quot;Discordant&amp;quot; and &amp;quot;Dissonance&amp;quot; are only partially synonymous at best.  And the Redirect resulted in tje possibility of someone using the Search function automatically landing on Dissonance, notwithstanding that there might be one or more appearances of the word &amp;apos;discordant&amp;apos; on Wikipedia in other articles bearing other titles, for example an article on Electronics or Popular Culture.  At present, there seem to be no appearances of the word &amp;apos;discordant&amp;apos; but, over time, there will likely be.
+
+:This isn&amp;apos;t a candidate for speedy deletion if it has already been on VfD and kept. You will need to list it at [[WP:RFD]] if you think it should be deleted. [[User:Angela|Angela]][[user talk:Angela|.]] 19:48, August 13, 2005 (UTC)&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

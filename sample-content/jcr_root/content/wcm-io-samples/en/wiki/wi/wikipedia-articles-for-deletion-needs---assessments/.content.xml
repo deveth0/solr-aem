@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:Articles for deletion/Needs &amp; Assessments"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:Articles for deletion/Needs &amp; Assessments" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The entry doesn&amp;apos;t have any context, nor pages linking to it, in addition, doesn&amp;apos;t really impart much information, the title has nothing to do with the article, and finally, doesn&amp;apos;t seem very encyclopedic.  Seems much more like an outline of a plan for a new organization.
+-[[User:Yizzerin|Yizzerin]] 00:13, May 18, 2004 (UTC)
+*Right. Delete, the sooner the better.[[User:Beelzebubs|Beelzebubs]] 00:14, 18 May 2004 (UTC)
+*Oy, it&amp;apos;s been around for months.  Delete.  [[User:RickK|Rick]]&amp;apos;&amp;apos;&amp;apos;[[User talk:RickK|K&amp;apos;&amp;apos;&amp;apos;]] 00:15, 18 May 2004 (UTC)
+* Has that copyvio cut-and-paste look to it. -- [[User:Cyrius|Cyrius]]|[[User talk:Cyrius|&amp;amp;#9998]] 00:36, May 18, 2004 (UTC)&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

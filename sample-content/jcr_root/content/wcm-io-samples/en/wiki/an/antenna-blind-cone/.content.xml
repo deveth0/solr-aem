@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Antenna blind cone"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Antenna blind cone" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{no footnotes|date=January 2013}}
+In [[telecommunications]], &amp;apos;&amp;apos;&amp;apos;antenna blind cone&amp;apos;&amp;apos;&amp;apos; (sometimes called a &amp;apos;&amp;apos;&amp;apos;cone of silence&amp;apos;&amp;apos;&amp;apos;) is the volume of space, usually approximately conical with its vertex at the [[antenna (electronics)|antenna]], that cannot be scanned by an antenna because of limitations of the antenna [[radiation pattern]] and mount.
+
+&amp;apos;&amp;apos;Note:&amp;apos;&amp;apos;  An example of an antenna blind cone is that of an [[Air Route Surveillance Radar]] (ARSR). The horizontal radiation pattern of an ARSR antenna is very narrow. The vertical radiation pattern is fan-shaped, reaching approximately 70° of elevation above the horizontal plane. As the fan antenna is rotated about a vertical axis, it can illuminate targets only if they are 70° or less from the horizontal plane. Above that elevation, they are in the antenna blind cone.
+
+{{FS1037C}}
+
+[[Category:Antennas|Blind cone]]
+[[Category:Radar]]
+
+
+{{electronics-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

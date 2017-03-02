@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Upsala Nya Tidning"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Upsala Nya Tidning" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox newspaper
+| name                 = Upsala Nya Tidning
+| logo                 =
+| image                =
+| caption              =
+| type                 =
+| format               =
+| owners               =
+| founder              =
+| publisher            =
+| editor               =
+| chiefeditor          = Lars Nilsson
+| assoceditor          =
+| maneditor            =
+| newseditor           =
+| managingeditordesign =
+| campuseditor         =
+| campuschief          =
+| opeditor             =
+| sportseditor         =
+| photoeditor          =
+| staff                =
+| foundation           = 1890
+| political            =
+| language             = [[Swedish language|Swedish]]
+| ceased publication   =
+| headquarters         = [[Uppsala]], Sweden
+| circulation          = 49,900 (2010)&amp;lt;ref name=ne /&amp;gt;
+| sister newspapers    =
+| ISSN                 = 1104-0173
+| oclc                 =
+| website              = [http://www.unt.se/ www.unt.se]
+}}
+&amp;apos;&amp;apos;&amp;apos;Upsala Nya Tidning&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;UNT&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is a regional daily [[newspaper]] published in [[Uppsala]] (older spelling &amp;apos;&amp;apos;Upsala&amp;apos;&amp;apos;), [[Sweden]]. The name means &amp;apos;&amp;apos;Upsala New Newspaper&amp;apos;&amp;apos; and the first issue appeared in 1890. It has a circulation of about 60,000 (in 2003). The distribution and news coverage are mainly regional, while the editorial page is devoted to national and international as well as regional affairs. The stated political position of the editorial page is &amp;quot;independent [[Liberalism|liberal]]&amp;quot;.
+
+In August 2008 the newspaper first published a story about a 78-year-old woman who put herself down the baggage chute at the airport after misreading check-in signs. The story was reported by international newspapers and radio stations, including those in the United Kingdom.
+
+==See also==
+*[[List of Swedish newspapers]]
+
+==References==
+{{reflist|refs=
+&amp;lt;ref name=ne&amp;gt;{{cite encyclopedia |title=Upsala Nya Tidning |encyclopedia=[[Nationalencyklopedin]] |language=Swedish |url=http://www.ne.se/upsala-nya-tidning |accessdate=25 March 2011}}&amp;lt;/ref&amp;gt;
+}}
+
+==External links==
+*[http://www.unt.se/ Official Site]
+
+{{Sweden-newspaper-stub}}
+
+[[Category:Newspapers published in Sweden]]
+[[Category:Swedish-language newspapers]]
+[[Category:Media in Uppsala]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

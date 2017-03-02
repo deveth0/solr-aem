@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="USS Davis"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="USS Davis" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Italic title prefixed|3}}
+Four ships of the [[United States Navy]] have borne the name &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Davis&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;. The first three were named in honor of Admiral [[Charles Henry Davis|Charles H. Davis]]. The fourth, DD-937, was named for Commander [[George Fleming Davis|George F. Davis]].
+
+* {{USS|Davis|TB-12}}, a [[torpedo boat]], launched 1898, sold for scrap 1920
+* {{USS|Davis|DD-65}}, a {{sclass|Sampson|destroyer}}, launched 1916, sold 1934
+* {{USS|Davis|DD-395}}, a {{sclass|Somers|destroyer|2}}, launched, 1938, sold 1947
+* {{USS|Davis|DD-937}}, a {{sclass|Forrest Sherman|destroyer|2}}, launched 1956, decommissioned 1982
+
+==See also==
+*{{USS|Frederick C. Davis|DE-136}}
+*{{USS|George E. Davis|DE-357}}
+*{{USS|James L. Davis|1861}}
+*{{USS|M. M. Davis|SP-314}}
+*{{USS|Rodney M. Davis|FFG-60}}
+
+{{Shipindex}}
+
+{{DEFAULTSORT:Davis}}
+[[Category:United States Navy ship names]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

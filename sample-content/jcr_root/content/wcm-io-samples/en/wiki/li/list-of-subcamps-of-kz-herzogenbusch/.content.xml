@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="List of subcamps of KZ Herzogenbusch"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="List of subcamps of KZ Herzogenbusch" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{no footnotes|date=March 2013}}
+Below is the &amp;apos;&amp;apos;&amp;apos;list of subcamps of [[Herzogenbusch]]&amp;apos;&amp;apos;&amp;apos; complex (Konzentrationslager Herzogenbusch) of [[Nazi concentration camps]], in Dutch known as &amp;apos;&amp;apos;Kamp [[Vught]]&amp;apos;&amp;apos;.
+
+#[[Kamp Amersfoort|Amersfoort]] or Polizeiliches Durchgangslager Amersfoort
+#[[Arnhem]]
+#[[Breda]]
+#[[Eindhoven]]
+#[[Gilze-Rijen]]
+#[[Haaren, North Brabant|Haaren]]
+#[[Herzogenbusch]]
+#[[Leeuwarden]]
+#[[Moerdijk]]
+#[[Roosendaal]]
+#[[&amp;apos;s Gravenhage]]
+#[[Sint-Michielsgestel]]
+#[[Valkenburg aan de Geul|Valkenburg]]
+#[[Venlo]]
+#[[Zutphen]]
+
+==See also==
+*[[List of Nazi-German concentration camps]]
+
+==External links==
+* [http://www.kampamersfoort.nl/ Kamp Amersfoort] official website, in Dutch, English and Polish
+*[http://www.zuidenwind.nl/films/index.php?taal=en&amp;amp;type=1&amp;amp;id=27 Documentary film about Konzentrationslager Herzogenbusch]
+
+
+{{DEFAULTSORT:Herzogenbusch}}
+[[Category:Herzogenbusch concentration camp]]
+[[Category:Nazi SS]]
+[[Category:Nazi concentration camps in the Netherlands|Herzogenbusch]]
+[[Category:20th century in Germany]]
+[[Category:The Holocaust in the Netherlands|Herzogenbusch]]
+
+{{Holocaust-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

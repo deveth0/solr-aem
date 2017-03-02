@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Sitana"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Sitana" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{italic title}}
+{{Taxobox
+| name = &amp;apos;&amp;apos;Sitana&amp;apos;&amp;apos;
+| image = Sitana_ponticeriana.jpg
+| image_width = 240px
+| image_caption = &amp;apos;&amp;apos;[[Sitana ponticeriana]]&amp;apos;&amp;apos;
+| regnum = [[Animal]]ia
+| phylum = [[Chordate|Chordata]]
+| classis = [[Reptile|Reptilia]]
+| ordo = [[Squamata]]
+| subordo = [[Lacertilia]]
+| familia = [[Agamidae]]
+| subfamilia = [[Agaminae]]
+| genus = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Sitana&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+}}
+
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Sitana&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is a genus of [[lizard]] from the family [[Agamidae]] found in [[Nepal]] and [[India]], [[Sri Lanka]] and [[Pakistan]].
+
+==Species==
+Listed alphabetically.&amp;lt;ref&amp;gt;[http://reptile-database.reptarium.cz/search.php?taxon=&amp;amp;genus=Sitana&amp;amp;submit=Search &amp;apos;&amp;apos;Sitana&amp;apos;&amp;apos;], The Reptile Database&amp;lt;/ref&amp;gt;
+*&amp;apos;&amp;apos;[[Sitana fusca]]&amp;apos;&amp;apos; Schleich &amp;amp; Kästle, 1998
+*&amp;apos;&amp;apos;[[Sitana ponticeriana]]&amp;apos;&amp;apos; Cuvier, 1829 – (Blue) Fan-throated Lizard
+*&amp;apos;&amp;apos;[[Sitana schleichi]]&amp;apos;&amp;apos; Anders &amp;amp; Kästle, 2002
+*&amp;apos;&amp;apos;[[Sitana sivalensis]]&amp;apos;&amp;apos; Schleich, Kästle &amp;amp; Shah, 1998
+
+==References==
+{{commons}}
+{{wikispecies}}
+{{reflist}}
+
+[[Category:Agamidae]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

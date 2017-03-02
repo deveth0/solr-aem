@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ontario Medical Association"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ontario Medical Association" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;Ontario Medical Association&amp;apos;&amp;apos;&amp;apos; is a [[professional organization]] for [[physicians]] in [[Ontario]], [[Canada]] founded in 1880. It represents and, to a certain degree, governs approximately 24,000 physicians in Ontario. The association&amp;apos;s main office is located at 150 Bloor Street West in [[Toronto]]. The current president is Dr. Doug Weir. &amp;lt;ref&amp;gt;https://www.oma.org/Spotlight/Pages/DrStewartKennedy.aspx &amp;lt;/ref&amp;gt; The chair of the anaesthesiology section is Dr. Jim Watson. The chair of the Section on Emergency Medicine is Dr. Myron Haluk. &amp;lt;ref&amp;gt;http://www.thestar.com/news/canada/article/1222917--second-senior-says-she-had-cataract-surgery-without-sedation-at-oakville-trafalgar-hospital&amp;lt;/ref&amp;gt;
+
+==See also==
+*[[Professional Association of Internes and Residents of Ontario]]
+*[[College of Physicians and Surgeons of Ontario]]
+
+== References ==
+{{Reflist}}[https://www.oma.org/Spotlight/Pages/ Ontario Medical Association - Physician Spotlight]
+
+==External links==
+*[http://www.oma.org/ Ontario Medical Association WebLink]
+*[http://www.ontariosanesthesiologists.ca/ Ontario&amp;apos;s Anesthesiologists]
+
+[[Category:Medical associations based in Canada]]
+
+
+{{med-org-stub}}
+[[Category:Organizations based in Ontario]]
+[[Category:Organizations established in 1880]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

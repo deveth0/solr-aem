@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Template:Type 42 destroyer"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Template:Type 42 destroyer" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{military navigation
+| name      = Type 42 destroyer
+| title     = [[Type 42 destroyer]]
+| state     = {{{state|autocollapse}}}
+| bodyclass = hlist
+| style     = wide
+
+| group1 = {{navy|United Kingdom|size=30x15px}}
+| list1  =
+* {{HMS|Sheffield|D80|2}}
+* {{HMS|Birmingham|D86|2}}
+* {{HMS|Cardiff|D108|2}}
+* {{HMS|Coventry|D118|2}}
+* {{HMS|Newcastle|D87|2}}
+* {{HMS|Glasgow|D88|2}}
+* {{HMS|Exeter|D89|2}}
+* {{HMS|Southampton|D90|2}}
+* {{HMS|Nottingham|D91|2}}
+* {{HMS|Liverpool|D92|2}}
+* {{HMS|Manchester|D95|2}}
+* {{HMS|York|D98|2}}
+* {{HMS|Gloucester|D96|2}}
+* {{HMS|Edinburgh|D97|2}}
+
+| group2 = {{navy|Argentina|size=30x15px}}
+| list2  =
+* {{ship|ARA|Hércules|B-52|2}}
+* {{ship|ARA|Santísima Trinidad|1974|2}}
+
+| below =
+* Preceded by: [[Type 82 destroyer|Type 82]]
+* Followed by: [[Type 45 destroyer|Type 45]]
+
+* [[List of destroyer classes of the Royal Navy|List of destroyers of the Royal Navy]]
+
+}}&amp;lt;noinclude&amp;gt;
+{{collapsible option}}
+
+[[Category:United Kingdom destroyer templates]]
+
+&amp;lt;/noinclude&amp;gt;&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

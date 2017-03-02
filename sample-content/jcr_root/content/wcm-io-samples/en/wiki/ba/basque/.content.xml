@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Basque"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Basque" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|Basque|basque}}
+&amp;apos;&amp;apos;&amp;apos;Basque&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+In &amp;apos;&amp;apos;&amp;apos;geography&amp;apos;&amp;apos;&amp;apos;:
+* [[Basque Country (greater region)]], the homeland of the Basque people with parts in Spain and France
+* [[Basque Country (autonomous community)]], an autonomous region of Spain
+* [[French Basque Country]], situated within the western part of the Pyrénées-Atlantiques
+
+In &amp;apos;&amp;apos;&amp;apos;humanities&amp;apos;&amp;apos;&amp;apos;:
+* [[Basque language]], the ancestral language of the Basque people
+* [[Basque people]], an ethnic group which primarily inhabits an area known as the Basque Country
+* [[Basque cuisine]], the cuisine of the Basque people
+
+In &amp;apos;&amp;apos;&amp;apos;other&amp;apos;&amp;apos;&amp;apos;:
+* [[Basque (clothing)]], or old basque, an item of women&amp;apos;s apparel
+* [[Basque (grape)]], another name for white wine grape Crouchen
+
+==See also==
+{{portal|Basque}}
+* [[Torsolette]]
+* [[List of Basques]]
+* [[Basque conflict]]
+* {{look from}}
+* {{in title}}
+
+{{disambiguation}}
+[[hu:Baszk]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

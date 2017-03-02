@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Semivariance"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Semivariance" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[spatial statistics]], the &amp;apos;&amp;apos;&amp;apos;empirical semivariance&amp;apos;&amp;apos;&amp;apos; is described by
+
+:&amp;lt;math&amp;gt;\hat\gamma(h)=\frac{1}{2}\cdot\frac{1}{n(h)}\sum_{i=1}^{n(h)}(z(x_i+h)-z(x_i))^2&amp;lt;/math&amp;gt;
+
+where &amp;apos;&amp;apos;z&amp;apos;&amp;apos; is a [[datum]] at a particular location, &amp;apos;&amp;apos;h&amp;apos;&amp;apos; is the distance between ordered data, and &amp;apos;&amp;apos;n&amp;apos;&amp;apos;(&amp;apos;&amp;apos;h&amp;apos;&amp;apos;) is the number of paired data at a distance of &amp;apos;&amp;apos;h&amp;apos;&amp;apos;. The semivariance is half the variance of the increments &amp;lt;math&amp;gt;z(x_i+h)-z(x_i)&amp;lt;/math&amp;gt;, but the whole variance of z-values at given separation distance &amp;apos;&amp;apos;h&amp;apos;&amp;apos; (Bachmaier and Backes, 2008).
+
+A plot of semivariances versus distances between ordered data in a graph is known as a [[semivariogram]] rather than a [[variogram]]. Many authors call &amp;lt;math&amp;gt;2\hat\gamma(h)&amp;lt;/math&amp;gt; a variogram, others use the terms variogram and semivariogram synonymously. However,  Bachmaier and Backes (2008), who discussed this confusion, have shown that &amp;lt;math&amp;gt;\hat\gamma(h)&amp;lt;/math&amp;gt; should be called a variogram, terms like semivariogram or semivariance should be avoided.
+
+==See also==
+* [[Variance]]
+* [[Sampling variogram]]
+* [[Geostatistics]]
+* [[Kriging]]
+* [[Post-modern_portfolio_theory|Post-Modern Portfolio Theory]]
+
+== References ==
+*Bachmaier, M and Backes, M, 2008, &amp;quot;Variogram or Semivariogram &amp;amp;mdash; Explaining the Variances in a Variogram&amp;quot;. Article {{doi|10.1007/s11119-008-9056-2}}, &amp;apos;&amp;apos;Precision Agriculture&amp;apos;&amp;apos;, [[Springer-Verlag]], Berlin, Heidelberg, New York.
+* Clark, I, 1979, &amp;apos;&amp;apos;Practical Geostatistics&amp;apos;&amp;apos;, Applied Science Publishers
+* David, M, 1978, &amp;apos;&amp;apos;Geostatistical Ore Reserve Estimation&amp;apos;&amp;apos;, Elsevier Publishing
+* Hald, A, 1952, &amp;apos;&amp;apos;Statistical Theory with Engineering Applications&amp;apos;&amp;apos;, John Wiley &amp;amp; Sons, New York
+* Journel, A G and Huijbregts, Ch J, 1978 &amp;apos;&amp;apos;Mining Geostatistics&amp;apos;&amp;apos;, Academic Press
+
+==External links==
+* Shine, J.A., Wakefield, G.I.: A comparison of supervised imagery classification using analyst-chosen and geostatistically-chosen training sets, 1999, http://www.geovista.psu.edu/sites/geocomp99/Gc99/044/gc_044.htm
+
+
+
+{{statistics|state=collapsed}}
+[[Category:Geostatistics]]
+[[Category:Statistical deviation and dispersion]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

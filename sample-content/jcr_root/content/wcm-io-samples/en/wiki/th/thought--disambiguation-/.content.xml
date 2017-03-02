@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Thought (disambiguation)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Thought (disambiguation)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionarypar|thought}}
+
+&amp;apos;&amp;apos;&amp;apos;Thought&amp;apos;&amp;apos;&amp;apos; is a [[mental process]] which allows beings to be conscious, make decisions, imagine and, in general, operate on symbols in a rational or irrational manner. It is an element/instance of [[thinking]] and is used as its synonym.
+
+&amp;apos;&amp;apos;&amp;apos;Thought&amp;apos;&amp;apos;&amp;apos; may refer to:
+* In philosophy, thought is also a synonym for [[idea]]
+* [[School of thought]], a collections of ideas that result from the adoption of a particular [[paradigm]]
+* &amp;apos;&amp;apos;Thought&amp;apos;&amp;apos;, the short name of &amp;apos;&amp;apos;Thought: A review of Culture and Idea, Fordham University Quarterly&amp;apos;&amp;apos;, a publication of [[Fordham University]]
+* &amp;quot;Thought&amp;quot;, in [[Gottlob Frege]]&amp;apos;s theory of meaning, &amp;quot;something for which the question of truth can arise at all&amp;quot;
+* &amp;apos;&amp;apos;Thought&amp;apos;&amp;apos; (Myel), a short story by [[Leonid Andreyev]]
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

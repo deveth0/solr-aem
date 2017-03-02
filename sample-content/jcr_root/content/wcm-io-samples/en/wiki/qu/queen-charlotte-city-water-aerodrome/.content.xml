@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Queen Charlotte City Water Aerodrome"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Queen Charlotte City Water Aerodrome" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox airport
+| name = Queen Charlotte City Water Aerodrome
+| IATA =
+| ICAO =
+| TC = CAQ6
+| type = Public
+| owner =
+| operator = Queen Charlotte City Harbour Authority
+| city-served =
+| location = [[Queen Charlotte City, British Columbia]]
+| elevation-f = 0
+| latd = 53 | latm = 15 | lats = 15.5 | latNS = N
+| longd= 132 | longm= 04 | longs= 32 | longEW= W
+| coordinates_region = CA-BC
+| pushpin_map = Canada British Columbia
+| pushpin_label = CAQ6
+| pushpin_map_caption = Location in British Columbia
+| website =
+| r1-number = n/a
+| r1-length-f = n/a
+| r1-length-m = n/a
+| r1-surface = [[Water]]
+| footnotes = Source: [[Canada Flight Supplement|Water Aerodrome Supplement]]&amp;lt;ref name=&amp;quot;CFS&amp;quot;&amp;gt;{{WAS}}&amp;lt;/ref&amp;gt;
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Queen Charlotte City Water Aerodrome&amp;apos;&amp;apos;&amp;apos;, {{Airport codes||||CAQ6}}, is located adjacent to [[Queen Charlotte City, British Columbia|Queen Charlotte City]], [[British Columbia]], [[Canada]].
+
+==References==
+&amp;lt;references/&amp;gt;
+
+{{List of airports in Canada}}
+
+[[Category:Seaplane bases in British Columbia]]
+[[Category:Skeena-Queen Charlotte Regional District]]
+[[Category:Graham Island]]
+[[Category:Registered aerodromes in British Columbia]]
+
+
+{{BritishColumbia-airport-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

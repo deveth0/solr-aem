@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ephrem (name)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ephrem (name)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|Ephrem}}
+&amp;apos;&amp;apos;&amp;apos;Ephrem&amp;apos;&amp;apos;&amp;apos; is a given name that may also be spelled Efrem or Ephraem. Ephrem may refer to:
+{{TOCright}}
+
+==People==
+===First name===
+*[[Ephrem the Syrian]] (306-373), Syrian saint
+*[[Efrem Emerson]], American writer
+*[[Efrem Forni]] (1889-1976), Italian priest
+*[[Efrem Hill]] (born 1983), American football player
+*[[Efrem Kurtz]] (1900-1995), Russian conductor
+*[[Ephrem Mbom]] (born 1954), Cameroonian football player
+*[[Ephrem Mtsire]] (died 1101), Georgian monk
+*[[Efrem Shultz]] (born 1975), American musician
+*[[Efrem Zimbalist]] (1890-1985), Russian-born American violinist
+*[[Efrem Zimbalist Jr.]] (born 1918), American actor
+*[[Saint Ephrem of Crimea]]
+
+===Surname===
+*[[Georgios Efrem]] (born 1989), Cypriot football player
+*[[Mérovée Ephrem]] (born 1990), French figure skater
+*[[Sebhat Ephrem]] (born 1951), Eritrean general and politician
+
+==See also==
+*[[Ephraim (disambiguation)]]
+
+{{given name}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

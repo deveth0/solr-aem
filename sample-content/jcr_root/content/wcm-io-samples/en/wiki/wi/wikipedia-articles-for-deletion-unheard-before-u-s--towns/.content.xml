@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:Articles for deletion/unheard-before U.S. towns"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:Articles for deletion/unheard-before U.S. towns" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;[http://en.wikipedia.org/w/wiki.phtml?title=MediaWiki:VfD-unheard-before_U.S._towns&amp;amp;action=edit To add to this deletion debate, click here]&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+
+*I vote to delete all small U.S. towns on the basis that they destroy the functionality of the Random link. [[User:666|666]] 20:38, 28 Mar 2004 (UTC)
+*You&amp;apos;ll have to list every single one you want deleted, but I don&amp;apos;t think you want to do that.  Keep all.[[User:RickK|RickK]] | [[User talk:RickK|Talk]] 20:44, 28 Mar 2004 (UTC)
+*Keep all. Someone from one of these &amp;quot;unheard of&amp;quot; towns could come along and add some useful and intresting information about their town. Besides, what constitutes as &amp;quot;small&amp;quot;? 1,000? 10,000? 50,000? [[User:Rainier Schmidt|Rainier Schmidt]] 20:48, Mar 28, 2004 (UTC)
+*This request is inmpossible because, as Rainier says, you haven&amp;apos;t specified what you mean by &amp;quot;small&amp;quot;. If you said &amp;quot;all towns with less than 10 people&amp;quot; or &amp;quot;all towns with less than 100 people&amp;quot; or &amp;quot;all towns with less than 10,000 people&amp;quot; or whatever, then that would be a debatable suggestion (although I&amp;apos;d personally vote against it). [[User:Saulisagenius|Saul Taylor]] 22:10, 28 Mar 2004 (UTC)
+*Keep - [[Special:Randompage|random page]] works fine for me -- [[User:Cyrius|Cyrius]] | [[User talk:Cyrius|Talk]] 22:16, Mar 28, 2004 (UTC)&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Fechner"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Fechner" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Fechner&amp;apos;&amp;apos;&amp;apos; is a surname. Notable people with the surname include:
+
+* [[Christian Fechner]] (1944–2008), French film producer and screenwriter
+* [[Gustav Fechner]] (1801–1887), German experimental psychologist
+* [[Harry Fechner]] (born 1950), German football defender
+* [[Max Fechner]] (1892–1973), Minister of Justice of the GDR
+* [[Robert Fechner]] (1876–1939), American union leader
+* [[Sebastian Fechner]] (born 1983), Polish footballer
+
+== See also ==
+* [[Fechner color]], an illusion of color
+* [[Weber–Fechner law]]
+* [[Fechner (crater)]], a lunar crater
+* [[11041 Fechner]] (1989 SH2), a main-belt asteroid discovered on 1989 by E. W. Elst
+
+{{surname|Fechner}}
+
+[[Category:German-language surnames]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

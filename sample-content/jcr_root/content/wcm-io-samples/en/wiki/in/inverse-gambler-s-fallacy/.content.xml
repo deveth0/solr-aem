@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Inverse gambler&#x27;s fallacy"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Inverse gambler&#x27;s fallacy" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;inverse gambler&amp;apos;s fallacy&amp;apos;&amp;apos;&amp;apos;, named by philosopher [[Ian Hacking]], is a [[formal fallacy]] of [[Bayesian inference]] which is an inverse of the better known [[gambler&amp;apos;s fallacy]]. It is the fallacy of concluding, on the basis of an unlikely outcome of a [[random]] process, that the process is likely to have occurred many times before. For example, if one observes a pair of fair [[dice]] being rolled and turning up double sixes, it is wrong to suppose that this lends any support to the hypothesis that the dice have been rolled many times before. We can see this from the Bayesian update rule: letting &amp;apos;&amp;apos;U&amp;apos;&amp;apos; denote the unlikely outcome of the random process and &amp;apos;&amp;apos;M&amp;apos;&amp;apos; the proposition that the process has occurred many times before, we have
+
+: &amp;lt;math&amp;gt;P(M|U) = P(M) \frac{P(U|M)}{P(U)}&amp;lt;/math&amp;gt;
+
+and since &amp;apos;&amp;apos;P&amp;apos;&amp;apos;(&amp;apos;&amp;apos;U&amp;apos;&amp;apos;|&amp;apos;&amp;apos;M&amp;apos;&amp;apos;) = &amp;apos;&amp;apos;P&amp;apos;&amp;apos;(&amp;apos;&amp;apos;U&amp;apos;&amp;apos;) (the outcome of the process is unaffected by previous occurrences), it follows that &amp;apos;&amp;apos;P&amp;apos;&amp;apos;(&amp;apos;&amp;apos;M&amp;apos;&amp;apos;|&amp;apos;&amp;apos;U&amp;apos;&amp;apos;) = &amp;apos;&amp;apos;P&amp;apos;&amp;apos;(&amp;apos;&amp;apos;M&amp;apos;&amp;apos;); that is, our confidence in &amp;apos;&amp;apos;M&amp;apos;&amp;apos; should be unchanged when we learn &amp;apos;&amp;apos;U&amp;apos;&amp;apos;.
+
+== Real-world examples ==
+
+The inverse gambler&amp;apos;s fallacy is unquestionably a fallacy, but there is disagreement over whether and where it has been committed in practice. In his original paper,&amp;lt;ref&amp;gt;Ian Hacking, &amp;apos;&amp;apos;The Inverse Gambler&amp;apos;s Fallacy: The Argument from Design. The Anthropic Principle Applied to Wheeler Universes&amp;apos;&amp;apos;. &amp;apos;&amp;apos;Mind&amp;apos;&amp;apos; 96:383 (July 1987), pp. 331–340. {{doi|10.1093/mind/XCVI.383.331}}&amp;lt;/ref&amp;gt; Hacking takes as his main example a certain response to the [[argument from design]]. The argument from design asserts, first, that the universe is [[fine-tuned universe|fine tuned]] to support life, and second, that this fine tuning points to the existence of an intelligent designer. The rebuttal attacked by Hacking consists of accepting the first premise, but rejecting the second on the grounds that our (big bang) universe is just one in a long &amp;apos;&amp;apos;sequence&amp;apos;&amp;apos; of universes, and that the fine tuning merely shows that there have been many other (poorly tuned) universes preceding this one. Hacking draws a sharp distinction between this argument and the argument that all possible worlds coexist in some non-temporal sense. He proposes that these arguments, often treated as minor variations of one another, should be considered fundamentally different because one is formally invalid while the other is not.
+
+A rebuttal paper&amp;lt;ref&amp;gt;John Leslie, &amp;apos;&amp;apos;No Inverse Gambler&amp;apos;s Fallacy in Cosmology.&amp;apos;&amp;apos; &amp;apos;&amp;apos;Mind&amp;apos;&amp;apos; 97:386 (April 1988), pp. 269–272. {{doi|10.1093/mind/XCVII.386.269}}&amp;lt;/ref&amp;gt; by [[John A. Leslie|John Leslie]] points out a difference between the observation of double sixes and the observation of fine tuning, namely that the former is not necessary (the roll could have come out different) while the latter is necessary (our universe [[anthropic principle|must support life]], which means &amp;apos;&amp;apos;ex hypothesi&amp;apos;&amp;apos; that we must see fine tuning). He suggests the following analogy: instead of being summoned into a room to observe a particular roll of the dice, we are told that we will be summoned into the room immediately after a roll of double sixes. In this situation it may be quite reasonable, upon being summoned, to conclude with high confidence that we are not seeing the first roll. In particular, if we know that the dice are fair and that the rolling would not have been stopped before double sixes turned up, then the probability that we are seeing the first roll is at most 1/36. However, the probability will be 1 if the roller has control over the outcome using omnipotence and omniscience which [[monotheism|believers]] attribute to the creator. But if the roller doesn&amp;apos;t have such powers, the probability may even be less than 1/36 because we have not assumed that the roller is obliged to summon us the first time double sixes come up.
+
+Suppose a man walked into a room and saw someone rolling a pair of dice. Furthermore, imagine that the result of this dice roll is a double-six. The man entering the room would commit the Inverse Gambler&amp;apos;s Fallacy if he said, &amp;quot;You&amp;apos;ve probably been rolling the dice for quite a while, since it&amp;apos;s unlikely you would get a double-six on your first attempt.&amp;quot;
+
+==See also==
+{{Portal|Mathematics}}
+* [[Gambler&amp;apos;s fallacy]]
+* [[Gambler&amp;apos;s conceit]]
+
+==References==
+&amp;lt;references/&amp;gt;
+
+{{Formal_Fallacy}}
+
+[[Category:Causal fallacies]]
+[[Category:Gambling terminology]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Kiten (program)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Kiten (program)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox software
+| name                   = Kiten
+| logo                   =
+| screenshot             = [[Image:Kiten.ssp.png|200px]]
+| caption                = Kiten 1.2 running on [[SuSE Linux]] 9.3 Professional.
+| developer              = [[KDE]]
+| programming language   = [[C++]]
+| latest release version = 1.2
+| latest release date    =
+| latest preview version =
+| latest preview date    =
+| operating system       =
+| language               = Multilingual
+| programming language   = [[C++]] ([[KDELibs]])
+| operating system       = [[Cross-platform]]
+| genre                  =
+| license                = [[GNU General Public License|GPL]]
+| website                = [http://edu.kde.org/kiten/ Kiten Website]
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Kiten&amp;apos;&amp;apos;&amp;apos; is a [[Japanese language|Japanese]] [[Kanji]] learning tool and reference for [[KDE Software Compilation]]. It also works as a Japanese-to-[[English language|English]] and English-to-Japanese [[dictionary]]. Users of the program can look up Kanji characters by number of strokes, or by radical. Users can also add Kanji to their &amp;quot;learn&amp;quot; list and get simple &amp;quot;[[flash card]]&amp;quot; type quizzes where the Kanji is displayed and then get a number of possible [[translation]]s to click on.
+
+== External links ==
+*[http://edu.kde.org/kiten/ Kiten Website]
+
+== See also ==
+[[Gjiten]] the comparable Gnome kanji app
+
+{{KDE}}
+
+[[Category:KDE software]]
+[[Category:KDE Software Compilation]]
+[[Category:KDE Education Project]]
+[[Category:Japanese language learning resources]]
+[[Category:Japanese dictionaries]]
+[[Category:Software that uses Qt]]
+[[Category:Free educational software]]
+
+{{KDE-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

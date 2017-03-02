@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Angus McLean"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Angus McLean" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Angus McLean&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+*[[Angus Wilton McLean]] (1870–1935), American banker
+*[[Angus McLean (footballer)]] (1925–1979), Welsh football player and manager
+*[[Angus Alexander McLean]] (1854–1943), Canadian lawyer and politician, MP for Queen&amp;apos;s, 1904–1908 and 1911–1917
+*[[Angus MacLean]] (1914–2000), Canadian politician and farmer, MP for Queen&amp;apos;s, 1951–1968 and Malpeque, 1968–1976
+
+{{hndis|Maclean, Angus}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

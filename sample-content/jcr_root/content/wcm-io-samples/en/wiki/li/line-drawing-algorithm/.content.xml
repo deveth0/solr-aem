@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Line drawing algorithm"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Line drawing algorithm" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Expand German|Rasterung von Linien|fa=yes|topic=sci|date=December 2009}}
+A &amp;apos;&amp;apos;&amp;apos;line drawing algorithm&amp;apos;&amp;apos;&amp;apos; is a graphical [[algorithm]] for approximating a line segment on discrete graphical media. On discrete media, such as [[pixel]]-based [[computer display|display]]s and [[computer printer|printer]]s, line drawing requires such an approximation (in nontrivial cases).
+
+On continuous media, by contrast, no algorithm is necessary to draw a line. For example, [[oscilloscope]]s use natural phenomena to draw lines and curves.
+
+The Cartesian slope-intercept equation for a straight line is
+Y= mx+b
+With m representing the slope of the line and b as the y intercept. Given that the two endpoints of the line segment are specified at positions (x1,y1) and (x2,y2). we can determine values for the slope m and y intercept b with the following calculations,
+
+m=(y2-y1)/(x2-x1)
+
+so, b=y1-m.x1
+
+==A na&amp;amp;iuml;ve line-drawing algorithm==
+&amp;lt;code&amp;gt;
+ dx = x2 - x1
+ dy = y2 - y1
+ &amp;apos;&amp;apos;&amp;apos;for&amp;apos;&amp;apos;&amp;apos; x &amp;apos;&amp;apos;&amp;apos;from&amp;apos;&amp;apos;&amp;apos; x1 &amp;apos;&amp;apos;&amp;apos;to&amp;apos;&amp;apos;&amp;apos; x2 {
+  y = y1 + (dy) * (x - x1)/(dx)
+  plot(x, y)
+ }
+&amp;lt;/code&amp;gt;
+It is assumed here that the points have already been ordered so that &amp;lt;math&amp;gt;x_2 &amp;gt; x_1&amp;lt;/math&amp;gt;.
+This algorithm works just fine when &amp;lt;math&amp;gt;dx &amp;gt;= dy&amp;lt;/math&amp;gt; (i.e., slope is less than or equal to 1), but if &amp;lt;math&amp;gt;dx &amp;lt; dy&amp;lt;/math&amp;gt; (i.e., slope greater than 1), the line becomes quite sparse with lots of gaps, and in the limiting case of &amp;lt;math&amp;gt;dx = 0&amp;lt;/math&amp;gt;, only a single point is plotted.
+
+The na&amp;amp;iuml;ve line drawing algorithm is inefficient and thus, slow on a digital computer. Its inefficiency stems from the number of operations and the use of floating-point calculations. Line drawing algorithms such as [[Bresenham&amp;apos;s line algorithm|Bresenham]]&amp;apos;s or [[Xiaolin Wu&amp;apos;s line algorithm|Wu]]&amp;apos;s are preferred instead.
+
+==List of line drawing algorithms==
+The following is a partial list of line drawing algorithms:
+*[[Digital Differential Analyzer (graphics algorithm)]] &amp;amp;mdash; Similar to the naive line-drawing algorithm, with minor variations.
+*[[Bresenham&amp;apos;s line algorithm]] &amp;amp;mdash; optimized to use only additions (i.e. no divisions or multiplications); it also avoids floating-point computations.
+*[[Xiaolin Wu&amp;apos;s line algorithm]] &amp;amp;mdash; can perform [[spatial anti-aliasing]]
+
+==References==
+Fundamentals of Computer Graphics, 2nd Edition, A.K. Peters by Peter Shirley
+
+{{DEFAULTSORT:Line Drawing Algorithm}}
+[[Category:Computer graphics algorithms]]
+
+{{Link FA|de}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

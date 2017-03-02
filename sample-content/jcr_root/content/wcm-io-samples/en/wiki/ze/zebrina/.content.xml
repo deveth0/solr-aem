@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Zebrina"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Zebrina" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Italic title}}
+{{For|the sailing barge|Zebrina (ship)}}
+
+{{Taxobox
+| name = &amp;apos;&amp;apos;Zebrina&amp;apos;&amp;apos;
+| image = Zebrina detrita.jpg
+| image_caption = An illustration showing both a live snail and a [[gastropod shell|shell]] of &amp;apos;&amp;apos;[[Zebrina detrita]]&amp;apos;&amp;apos;
+| status =
+| regnum = [[Animal]]ia
+| phylum = [[Mollusca]]
+| classis = [[Gastropoda]]
+| unranked_superfamilia = clade [[Heterobranchia]]
+clade [[Euthyneura]]&amp;lt;br/&amp;gt;clade [[Panpulmonata]]&amp;lt;br/&amp;gt;
+clade [[Eupulmonata]]&amp;lt;br/&amp;gt;
+clade [[Stylommatophora]]&amp;lt;br/&amp;gt;
+informal group [[Orthurethra]]
+| superfamilia = [[Enoidea]]
+| familia = [[Enidae]]
+| subfamilia = [[Eninae]]
+| tribus = [[Chondrulini]]
+| genus = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Zebrina&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+| genus_authority = [[Held]], 1837&amp;lt;ref&amp;gt;Held F. (1838). &amp;quot;Notizen über die Weichthiere Bayerns&amp;quot;. (Fortsetzung.). &amp;apos;&amp;apos;Isis&amp;apos;&amp;apos; &amp;apos;&amp;apos;&amp;apos;1837&amp;apos;&amp;apos;&amp;apos;(12): 902-921. Leipzig.&amp;lt;/ref&amp;gt;
+}}
+
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Zebrina&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;  is a [[genus]] of air-breathing [[land snail]]s, [[terrestrial animal|terrestrial]] [[pulmonate]] [[gastropod]] [[mollusk]]s in the family Enidae.
+
+== Species ==
+Species in the genus &amp;apos;&amp;apos;Zebrina&amp;apos;&amp;apos; include:
+* &amp;apos;&amp;apos;[[Zebrina detrita]]&amp;apos;&amp;apos; (O. F. Müller, 1774)
+* &amp;apos;&amp;apos;[[Zebrina fasciolata]]&amp;apos;&amp;apos; (Olivier, 1801) - [[type species]] for genus &amp;apos;&amp;apos;Zebrina&amp;apos;&amp;apos;
+* &amp;apos;&amp;apos;[[Zebrina kindermanni]]&amp;apos;&amp;apos; (L. Pfeiffer, 1853)
+* &amp;apos;&amp;apos;[[Zebrina varnensis]]&amp;apos;&amp;apos; (L. Pfeiffer, 1847)
+
+==References==
+{{Reflist}}
+
+[[Category:Enidae]]
+
+
+{{Enidae-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

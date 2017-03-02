@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="USS Vengeance (1805)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="USS Vengeance (1805)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{otherships|USS Vengeance}}
+{|{{Infobox Ship Begin}}
+{{Infobox Ship Image
+|Ship image=
+|Ship caption=
+}}
+{{Infobox Ship Career
+|Hide header=
+|Ship country=
+|Ship flag= {{USN flag|1818}}
+|Ship name= USS &amp;apos;&amp;apos;Vengeance&amp;apos;&amp;apos;
+|Ship namesake=
+|Ship ordered=
+|Ship builder=
+|Ship laid down=
+|Ship launched=
+|Ship acquired=by purchase, 1805
+|Ship commissioned=
+|Ship decommissioned=
+|Ship in service=
+|Ship out of service=
+|Ship struck=
+|Ship reinstated=
+|Ship homeport=
+|Ship motto=
+|Ship nickname=
+|Ship honours=
+|Ship fate= Broken up,  1818
+|Ship status=
+|Ship notes=
+}}
+{{Infobox Ship Characteristics
+|Hide header=
+|Header caption=
+|Ship type= [[Brig]]
+|Ship displacement=
+|Ship length=
+|Ship beam=
+|Ship draft=
+|Ship propulsion= Sail
+|Ship sail plan=
+|Ship speed=
+|Ship range=
+|Ship complement=
+|Ship armament=3 × guns
+|Ship notes=
+}}
+|}
+The second &amp;apos;&amp;apos;&amp;apos;USS &amp;apos;&amp;apos;Vengeance&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; was a [[brig]] in the [[United States Navy]] during the [[First Barbary War]].
+
+&amp;apos;&amp;apos;Vengeance&amp;apos;&amp;apos; was purchased by the [[United States Navy]] at [[Boston]], [[Massachusetts]], in 1805 for use as a bomb [[ketch]] against the [[Barbary pirates]].
+
+Commanded by Lieutenant [[William Lewis (US Navy)|William Lewis]], she left Boston for the [[Mediterranean]] on 19 June and was with Capt. [[John Rodgers (naval officer, War of 1812)|John Rodgers]]&amp;apos; squadron of 13 warships when it appeared off [[Tunis]] on 1 August. Impressed by the American show of force, the [[Bey of Tunis]] elected to accept American peace terms, and &amp;apos;&amp;apos;Vengeance&amp;apos;&amp;apos; did not see action. Her subsequent movements are unknown, but she was broken up at [[New York, New York|New York City]] in 1818.
+
+== References ==
+{{DANFS}}
+
+{{DEFAULTSORT:Vengeance}}
+[[Category:Brigs of the United States Navy]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

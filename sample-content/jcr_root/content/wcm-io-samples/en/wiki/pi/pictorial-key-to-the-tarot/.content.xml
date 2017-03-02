@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Pictorial Key to the Tarot"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Pictorial Key to the Tarot" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wikisource|The Pictorial Key to the Tarot}}
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;The Pictorial Key to the Tarot&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is [[Arthur Edward Waite|A. E. Waite]]&amp;apos;s influential guide to [[divinatory tarot]], published in England in 1911  in conjunction with the [[Rider-Waite-Smith deck]]. While Waite was an [[occultist]], he was very concerned with the accuracy of the symbols he used for his deck, and he did much research into the traditions, interpretations, and history behind the cards.
+
+The book (which Waite himself called &amp;quot;a [[monograph]]&amp;quot;) consists of three parts.
+
+:* Part I, &amp;quot;The Veil and Its Symbols&amp;quot;, is a short overview of the traditional symbols associated with each card, followed by a history of the Tarot. Waite dismissed as baseless the belief that the Tarot was Egyptian in origin, and noted that no evidence of the cards exists prior to the 15th century.
+
+:* Part II, &amp;quot;The Doctrine of the Veil&amp;quot;, contains 78 black and white plates of the Rider-Waite-Smith deck, and a discussion of the unique symbols chosen for each card. Waite drew upon the earlier Tarot of French occultist [[Eliphas Levi]], at times retaining his changes to the traditional deck (as with the Chariot card, which both Waite and Levi picture being drawn by two [[sphinx]], instead of horses), at other times criticizing him (as with the Hermit card, which Waite thought Levi misinterpreted).
+
+:* Part III, &amp;quot;The Outer Methods of the Oracles&amp;quot;, concerns matters of divination with the cards, including a description of the famous Celtic Cross Tarot layout, which the book helped popularize.
+
+In 1918, an [[United States|American]] author, [[L. W. de Laurence]], published an exact facsimile copy of the book under the title &amp;apos;&amp;apos;The Illustrated Key to the Tarot: The Veil of Divination, Illustrating the Greater and Lesser Arcana&amp;apos;&amp;apos;, without giving any credit to Waite.
+
+== Links and references ==
+* [http://www.sacred-texts.com/tarot/ HTML version of the 1910 text, with images]
+
+[[Category:1910 books]]
+[[Category:Tarot]]
+[[Category:Occult books]]
+[[Category:Tarot reading]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

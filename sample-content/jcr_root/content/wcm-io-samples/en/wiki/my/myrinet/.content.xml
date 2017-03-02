@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Myrinet"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Myrinet" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{unreferenced|date=June 2011}}
+&amp;apos;&amp;apos;&amp;apos;Myrinet&amp;apos;&amp;apos;&amp;apos;, ANSI/VITA 26-1998, is a high-speed [[local area network]]ing system designed by [[Myricom]] to be used as an interconnect between multiple machines to form [[computer cluster]]s. Myrinet has much lower protocol overhead than standards such as [[Ethernet]], and therefore provides better [[throughput]], less interference, and lower [[Lag|latency]] while using the host CPU. Although it can be used as a traditional networking system, Myrinet is often used directly by programs that &amp;quot;know&amp;quot; about it, thereby bypassing a call into the [[operating system]].
+
+Myrinet physically consists of two [[fibre optic]] cables, upstream and downstream, connected to the host computers with a single connector. Machines are connected via low-overhead [[router (computing)|router]]s and [[Network switch|switch]]es, as opposed to connecting one machine directly to another. Myrinet includes a number of fault-tolerance features, mostly backed by the switches. These include flow control, error control, and &amp;quot;heartbeat&amp;quot; monitoring on every link. The newest, &amp;quot;fourth-generation&amp;quot; Myrinet, called [[Myri-10G]], supports a 10 Gbit/s data rate and is interoperable with [[10 Gigabit Ethernet]] on [[PHY]], the physical layer (cables, connectors, distances, signaling). [[Myri-10G]] started shipping at the end of 2005.
+
+== Performance  ==
+Myrinet is a lightweight protocol with little overhead that allows it to operate with throughput close to the basic signaling speed of the physical layer. On the latest 2.0 Gbit/s links, Myrinet often runs at 1.98 Gbit/s of sustained throughput, considerably better than what Ethernet offers, which varies from 0.6 to 1.9 Gbit/s, depending on load. However, for supercomputing, the low latency of Myrinet is even more important than its throughput performance, since, according to [[Amdahl&amp;apos;s law]], a high-performance parallel system tends to be bottlenecked by its slowest sequential process, which in all but the most [[embarrassingly parallel]] supercomputer workloads is often the latency of message transmission across the network.
+
+== Deployment ==
+According to Myricom, 141 (28.2%) of the June 2005 [[TOP500]] supercomputers used Myrinet technology. In the November 2005 TOP500, the number of supercomputers using Myrinet was down to 101 computers, or 20.2%, in November 2006, 79 (15.8%), and by November 2007, 18 (3.6%), a long way behind [[Gigabit Ethernet]] at 54% and [[Infiniband]] at 24.2%.
+
+In the latest TOP500 list (June 2011), the number of supercomputers using Myrinet interconnect is 4 (0.8%).
+
+==See also==
+*[[List of device bandwidths]]
+*[[NUMAlink]]
+*[[HIPPI]]
+*[[RapidIO]]
+*[[Infiniband]]
+*[[Quadrics]]
+*[[Scalable Coherent Interconnect]] (SCI)
+*[[Gigabit Ethernet]]
+*[[10 Gigabit Ethernet]]
+
+==External links==
+{{wayback|date=20110514103424|url=http://www.myricom.com/myrinet/overview/|title=Myrinet overview}}
+
+[[Category:Supercomputers]]
+[[Category:Computer networks]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Helly family"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Helly family" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Refimprove|date=February 2010}}
+In [[combinatorics]], a &amp;apos;&amp;apos;&amp;apos;Helly family of order &amp;apos;&amp;apos;k&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is a family of sets such that any minimal subfamily with an empty intersection has &amp;apos;&amp;apos;k&amp;apos;&amp;apos; or fewer sets in it. In other words, any subfamily such that every &amp;lt;math&amp;gt;k&amp;lt;/math&amp;gt;-fold intersection is non-empty has non-empty total intersection.
+
+The &amp;apos;&amp;apos;k&amp;apos;&amp;apos;-&amp;apos;&amp;apos;&amp;apos;Helly property&amp;apos;&amp;apos;&amp;apos; is the property of being a Helly family of order &amp;apos;&amp;apos;k&amp;apos;&amp;apos;. These concepts are named after [[Eduard Helly]] (1884 - 1943); [[Helly&amp;apos;s theorem]] on [[convex set]]s, which gave rise to this notion, states that convex sets in [[Euclidean space]] of dimension &amp;apos;&amp;apos;n&amp;apos;&amp;apos; are a Helly family of order &amp;apos;&amp;apos;n&amp;apos;&amp;apos;&amp;amp;nbsp;+&amp;amp;nbsp;1.
+
+== Examples ==
+
+* In the family of all subsets of the set {a,b,c,d}, the subfamily {{a,b,c}, {a,b,d}, {a,c,d}, {b,c,d}} has an empty intersection, but removing any set from this subfamily causes it to have a nonempty intersection. Therefore, it is a minimal subfamily with an empty intersection. It has four sets in it, and is the largest possible minimal subfamily with an empty intersection, so the family of all subsets of the set {a,b,c,d} is a Helly family of order 4.
+
+* Let I be a set of closed [[Interval (mathematics)|intervals]] of the [[real line]] with an empty intersection. Then there must be two intervals A and B in I such that the left endpoint of A is larger than the right endpoint of B.{{Why?|date=February 2010}} {A,B} have an empty intersection, so I cannot be minimal unless I={A,B}. Therefore, all minimal families of intervals with empty intersections have 2 or fewer intervals in them, and the set of all intervals is a Helly family of order 2.
+
+== Formal definition ==
+
+More formally, a &amp;apos;&amp;apos;&amp;apos;Helly family of order &amp;apos;&amp;apos;k&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is a [[set system]] (&amp;apos;&amp;apos;F&amp;apos;&amp;apos;,&amp;amp;nbsp;&amp;apos;&amp;apos;E&amp;apos;&amp;apos;), with &amp;apos;&amp;apos;F&amp;apos;&amp;apos; a collection of [[subset]]s of &amp;apos;&amp;apos;E&amp;apos;&amp;apos;, such that, for any &amp;apos;&amp;apos;G&amp;apos;&amp;apos; ⊆ &amp;apos;&amp;apos;F&amp;apos;&amp;apos; with
+
+:&amp;lt;math&amp;gt;\bigcap_{X\in G} X=\varnothing,&amp;lt;/math&amp;gt;
+
+we can find &amp;apos;&amp;apos;H&amp;apos;&amp;apos; ⊆ &amp;apos;&amp;apos;G&amp;apos;&amp;apos; such that
+
+:&amp;lt;math&amp;gt;\bigcap_{X\in H} X=\varnothing&amp;lt;/math&amp;gt;
+
+and
+
+:&amp;lt;math&amp;gt;\left|H\right|\le k.&amp;lt;/math&amp;gt;
+
+== Helly dimension ==
+If a family of sets is a Helly family of order &amp;apos;&amp;apos;k&amp;apos;&amp;apos;, that family is said to have &amp;apos;&amp;apos;&amp;apos;Helly number&amp;apos;&amp;apos;&amp;apos; &amp;apos;&amp;apos;k&amp;apos;&amp;apos;. The &amp;apos;&amp;apos;&amp;apos;Helly dimension&amp;apos;&amp;apos;&amp;apos; of a [[metric space]] is one less than the Helly number of the family of metric balls in that space; Helly&amp;apos;s theorem implies that the Helly dimension of a Euclidean space equals its dimension as a real [[vector space]].
+
+The &amp;apos;&amp;apos;&amp;apos;Helly dimension&amp;apos;&amp;apos;&amp;apos; of a subset S of a Euclidean space, such as a polyhedron, is one less than the Helly number of the family of [[Translation (geometry)|translates]] of S. For instance, the Helly dimension of any [[hypercube]] is 1, even though such a shape may belong to a Euclidean space of much higher dimension.
+
+Helly dimension has also been applied to other mathematical objects. For instance M. Domokos ({{arxiv|math.AG/0511300}}) defines the Helly dimension of a [[Group (mathematics)|group]] (an algebraic structure formed by an invertible and associative binary operation) to be one less than the Helly number of the family of [[Coset|left cosets]] of the group.
+
+== The Helly property ==
+
+If a family of nonempty sets has an empty intersection, its Helly number must be at least two, so the smallest &amp;apos;&amp;apos;k&amp;apos;&amp;apos; for which the &amp;apos;&amp;apos;k&amp;apos;&amp;apos;-Helly property is nontrivial is &amp;apos;&amp;apos;k&amp;apos;&amp;apos; = 2.
+The 2-Helly property is also known as the &amp;apos;&amp;apos;&amp;apos;Helly property&amp;apos;&amp;apos;&amp;apos;. A 2-Helly family is also known as a &amp;apos;&amp;apos;&amp;apos;Helly family&amp;apos;&amp;apos;&amp;apos;.
+
+A [[convex metric|convex]] [[metric space]] in which the closed [[Ball (mathematics)|balls]] have the 2-Helly property (that is, a space with Helly dimension 1) is called [[injective metric space|injective]] or hyperconvex. The existence of the [[tight span]] allows any metric space to be embedded isometrically into a space with Helly dimension 1.
+
+== See also ==
+* [[Radon&amp;apos;s theorem]]
+* [[Carathéodory&amp;apos;s theorem (convex hull)|Carathéodory&amp;apos;s theorem]]
+
+==References==
+*{{cite book
+ | last       = Balakrishnan
+ | first      = R.
+ | coauthors  = Ranganathan, K.
+ | title      = A textbook of graph theory
+ | publisher  = New York: Springer
+ | year       = 2000
+ | pages      =
+ | isbn       = 0-387-98859-9 (acid-free paper)
+}}
+
+*{{cite book
+ | last       = Kloks
+ | first      = Ton
+ | title      = Treewidth: computations and approximations
+ | publisher  = Berlin; New York: Springer-Verlag
+ | year       = 1994
+ | pages      =
+ | isbn       = 3-540-58356-4
+}}
+
+[[Category:Set families]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

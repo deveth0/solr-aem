@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Security Service"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Security Service" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Security Service&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;security service&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+; Government
+* [[Security agency]], a governmental institution for information gathering
+* [[MI5]], also called the Security Service, the United Kingdom&amp;apos;s counter-intelligence and security agency
+* [[U.S. Air Force Security Service]], a former designation of the United States Air Force Intelligence, Surveillance and Reconnaissance Agency
+* [[RCMP Security Service]], the Royal Canadian Mounted Police&amp;apos;s political intelligence branch, replaced by Canadian Security Intelligence Service in the 1980s
+* [[Swedish Security Service]], the security service of Sweden, belonging to the Swedish National Police Board
+* [[Secret service]], a government agency, or the activities of a government agency, concerned with the gathering of intelligence data
+* [[Secret police]], a police agency which operates in secrecy and beyond the law to protect the political power of an individual dictator or an authoritarian political regime
+
+; Other
+* [[Security service (telecommunication)]], security architecture for the interconnection of open systems
+* [[Security (finance)]], a fungible, negotiable financial instrument representing financial value
+* [[:Category:Security companies|Private Security Services]], any private company which provides security for environment protection.
+* [[Private military company|Private Military Companies]], private military contractors
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Pernety (Paris Métro)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Pernety (Paris Métro)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox Paris metro
+|Name=Pernety
+|Pic=[[File:Point de rendez-vous.jpg|275px]]
+|Day=21 January
+|Year=1937
+|Access=Rue Raymond-Losserand
+|Municipality=the 14th arrondissement of Paris
+|Zone=1
+|Next=
+{{Paris Metro/next|13|Gaîté|Plaisance }}
+| X=111
+| Y=123
+}}
+&amp;apos;&amp;apos;&amp;apos;Pernety&amp;apos;&amp;apos;&amp;apos; is a station on line [[Paris Métro Line 13|Line 13]] of the [[Paris Métro]] in the [[14th arrondissement of Paris|14th arrondissement]].
+
+The station opened on 21 January 1937 as part of the original line 14 between [[Montparnasse - Bienvenüe (Paris Métro)|Bienvenüe]] and [[Porte de Vanves (Paris Métro)|Porte de Vanves]]. This line became part of line 13 on 9 November 1976.
+The station is named after the &amp;apos;&amp;apos;Rue Pernety&amp;apos;&amp;apos;, named after the [[Joseph Marie de Pernety]] (1766–1856), who was one of [[Napoleon]]&amp;apos;s generals and owned the land where the street was built.
+
+==Layout==
+{|table border=0 cellspacing=0 cellpadding=3
+|-
+|style=&amp;quot;border-top:solid 1px gray;border-right:solid 2px black;border-left:solid 2px black;border-bottom:solid 2px black;&amp;quot; colspan=2|&amp;lt;center&amp;gt;&amp;lt;small&amp;gt;[[Side Platform]]
+|-
+|style=&amp;quot;border-bottom:solid 1px gray;&amp;quot;|[[File:Metro-M.svg|20px]] [[File:Paris m 13 jms.svg|20px]] towards [[Châtillon - Montrouge (Paris Métro)|Châtillon - Montrouge]]
+|-
+|[[File:Metro-M.svg|20px]] [[File:Paris m 13 jms.svg|20px]] towards [[Asnières – Gennevilliers – Les Courtilles (Paris Métro)|Asnières – Gennevilliers – Les Courtilles]] or [[Saint-Denis - Université (Paris Métro)|Saint-Denis - Université]]
+|-
+|style=&amp;quot;border-top:solid 2px black;border-right:solid 2px black;border-left:solid 2px black;border-bottom:solid 1px gray;&amp;quot; colspan=2|&amp;lt;center&amp;gt;&amp;lt;small&amp;gt;[[Side Platform]]
+|}
+
+==Gallery==
+&amp;lt;gallery widths=&amp;quot;200px&amp;quot; heights=&amp;quot;125px&amp;quot; perrow=&amp;quot;2&amp;quot;&amp;gt;
+File:Pernety station.jpg|[[Paris Métro Line 13|Line 13]] platforms at Pernety
+&amp;lt;/gallery&amp;gt;
+{{commons category|Pernety (Paris Metro)}}
+
+==References==
+*Roland, Gérard (2003). &amp;apos;&amp;apos;Stations de métro. D’Abbesses à Wagram.&amp;apos;&amp;apos; Éditions Bonneton.
+
+{{Paris Metro/line 13}}
+
+{{coord|48.83421|N|2.31851|E|region:FR_type:railwaystation_scale:2000_source:frwiki|display=title|format=dms}}
+
+{{DEFAULTSORT:Pernety (Paris Metro)}}
+[[Category:Railway stations opened in 1937]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

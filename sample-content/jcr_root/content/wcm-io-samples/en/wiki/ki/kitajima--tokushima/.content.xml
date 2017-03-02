@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Kitajima, Tokushima"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Kitajima, Tokushima" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox City Japan
+|Name= Kitajima
+|JapaneseName= 北島町
+|MapImage= Map Kitajima,Tokushima en.png
+|settlement_type=Town
+|Region= [[Shikoku region|Shikoku]]
+|Prefecture= [[Tokushima Prefecture|Tokushima]]
+|District= [[Itano District, Tokushima|Itano]]
+|Area_km2= 8.77
+|PopDate= 2003
+|Population= 20,326
+|Density_km2= auto
+|Coords=
+|LatitudeDegrees= 34
+|LatitudeMinutes= 8
+|LatitudeSeconds=
+|LongtitudeDegrees= 134
+|LongtitudeMinutes= 33
+|LongtitudeSeconds=
+|Tree=
+|Flower=
+|Bird=
+|SymbolImage=
+|SymbolDescription=
+|Mayor=
+|CityHallPostalCode=
+|CityHallAddress=
+|CityHallPhone=
+|CityHallLink= [http://www.town.kitajima.lg.jp/ Town of Kitajima]
+}}
+{{nihongo|&amp;apos;&amp;apos;&amp;apos;Kitajima&amp;apos;&amp;apos;&amp;apos;|北島町|Kitajima-chō}} is a [[towns of Japan|town]] located in [[Itano District, Tokushima|Itano District]], [[Tokushima Prefecture|Tokushima]], [[Japan]].
+
+As of 2003, the town has an estimated [[population]] of 20,326 and a [[population density|density]] of 2,317.67 persons per km². The total area is 8.77&amp;amp;nbsp;km².
+
+==External links==
+{{Commons category-inline}}
+*[http://www.town.kitajima.lg.jp/ Kitajima official website] {{ja icon}}
+
+[[Category:Towns in Tokushima Prefecture]]
+
+{{Tokushima-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

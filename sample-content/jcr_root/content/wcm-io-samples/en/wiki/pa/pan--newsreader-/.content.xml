@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Pan (newsreader)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Pan (newsreader)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox software
+| name                   = Pan
+| logo                   =
+| screenshot             = [[Image:Pan-screenshot.png|230px|Pan screenshot showing the Gmane newsserver and the pan user list]]
+| caption                = Pan screenshot showing the [[Gmane]] newsserver and the pan user list
+| author                 =
+| developer              =
+| released               =
+| latest release version = 0.14.2
+| latest release date    = {{Start date and age|2003|08|31|df=yes}}
+| latest preview version = 0.138
+| latest preview date    = {{Start date and age|2012|06|14|df=yes}}
+| programming language   =
+| operating system       = [[Linux]], [[FreeBSD]], [[NetBSD]], [[OpenBSD]] [[OpenSolaris]], and [[Microsoft Windows|Windows]]
+| platform               =
+| language               =
+| status                 =
+| genre                  = [[News client]]
+| license                = [[GNU General Public License]]
+| website                = {{URL|http://pan.rebelbase.com/}}
+}}
+&amp;apos;&amp;apos;&amp;apos;Pan&amp;apos;&amp;apos;&amp;apos; is a [[news client]] for multiple operating systems, developed by Charles Kerr and others. It supports offline reading, multiple servers, multiple connections, fast (indexed) article header filtering and mass saving of multi-part attachments encoded in [[uuencode]], [[yEnc]] and [[base64]]; images in common formats can be viewed inline. Pan is [[free software]] available for [[Linux]], [[FreeBSD]], [[NetBSD]], [[OpenBSD]], [[OpenSolaris]], and [[Microsoft Windows|Windows]].
+
+Pan is popular for its large feature set. It passes the [[Good Netkeeping Seal of Approval]] 2.0 set of standards for newsreaders.
+
+== Name ==
+The name Pan originally [[acronym|stood for]] &amp;apos;&amp;apos;&amp;apos;P&amp;apos;&amp;apos;&amp;apos;imp-&amp;apos;&amp;apos;&amp;apos;a&amp;apos;&amp;apos;&amp;apos;ss &amp;apos;&amp;apos;&amp;apos;n&amp;apos;&amp;apos;&amp;apos;ewsreader.  As Pan became an increasingly popular and polished application, the full name was perceived to be unprofessional and in poor taste, so references to it have been removed from the program and its website.&amp;lt;ref&amp;gt;{{cite web |last=Horkan |first=Alan |title=Alan Horkan Says |work=maemo applications |publisher=svenfoo ([[Sven Neumann]]) |date=2005-06-24 |url=http://svenfoo.geekheim.de/2005/06/17/maemo-applications/#comment-88 |accessdate=2011-01-25}}&amp;lt;/ref&amp;gt;
+[[Image:Screenshot_of_Pan_newsreader_application.jpg|thumb|left|230px|Pan 0.14.2.91]]
+{{clearleft}}
+
+==References==
+{{Reflist}}
+
+==See also==
+{{Portal|Free software}}
+*[[List of Usenet newsreaders]]
+*[[Comparison of Usenet newsreaders]]
+
+==External links==
+*{{Official website|http://pan.rebelbase.com/}}
+
+{{FLOSS}}
+
+{{DEFAULTSORT:Pan (Newsreader)}}
+[[Category:Usenet clients]]
+[[Category:Free Usenet clients]]
+[[Category:Linux internet software]]
+[[Category:BSD software]]
+
+{{network-software-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

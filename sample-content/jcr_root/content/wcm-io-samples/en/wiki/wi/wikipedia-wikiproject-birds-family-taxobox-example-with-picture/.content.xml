@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:WikiProject Birds/family taxobox example with picture"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:WikiProject Birds/family taxobox example with picture" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Taxobox
+| name = Penguins
+| fossil_range = [[Paleocene]]-Recent
+| image = Pygoscelis papua.jpg
+| image_caption = [[Gentoo Penguin]], &amp;apos;&amp;apos;Pygoscelis papua&amp;apos;&amp;apos;
+| regnum = [[Animal]]ia
+| phylum = [[Chordata]]
+| classis = [[Aves]]
+| ordo = &amp;apos;&amp;apos;&amp;apos;Sphenisciformes&amp;apos;&amp;apos;&amp;apos;
+| ordo_authority = [[Richard Bowdler Sharpe|Sharpe]], 1891
+| familia = &amp;apos;&amp;apos;&amp;apos;Spheniscidae&amp;apos;&amp;apos;&amp;apos;
+| familia_authority = [[Charles Lucien Jules Laurent Bonaparte|Bonaparte]], 1831
+| subdivision_ranks = Modern [[genus|genera]]
+| subdivision =
+* &amp;apos;&amp;apos;[[Aptenodytes]]&amp;apos;&amp;apos;
+* &amp;apos;&amp;apos;[[Eudyptes]]&amp;apos;&amp;apos;
+* &amp;apos;&amp;apos;[[Eudyptula]]&amp;apos;&amp;apos;
+* &amp;apos;&amp;apos;[[Megadyptes]]&amp;apos;&amp;apos;
+* &amp;apos;&amp;apos;[[Pygoscelis]]&amp;apos;&amp;apos;
+* &amp;apos;&amp;apos;[[Spheniscus]]&amp;apos;&amp;apos;
+* For prehistoric genera, see [[Sphenisciformes#Systematics|Systematics]]
+}}
+
+Another ready-made example to cut and paste.
+
+This one includes a picture. Note that because this is an article about a family of species, it is important to identify the species that appears in the picture.
+
+Note that there is only one family in the order Sphenisciformes so both groups are bold in the taxobox and both have authorities. If there are several families in the order, then there should be a separate article for the order, which should be linked in the taxobox for the family. (There would then be no need to give the authority for the order in the latter.)
+
+If you edit the example to improve it, make sure that you edit &amp;apos;&amp;apos;both&amp;apos;&amp;apos; the taxobox code &amp;apos;&amp;apos;and&amp;apos;&amp;apos; the &amp;lt;nowiki&amp;gt;&amp;lt;pre&amp;gt; and &amp;lt;/pre&amp;gt;&amp;lt;/nowiki&amp;gt; copy below!
+
+&amp;lt;br clear=&amp;quot;all&amp;quot;&amp;gt;
+
+&amp;lt;pre&amp;gt;
+{{Taxobox
+| name = Penguins
+| fossil_range = [[Paleocene]]-Recent
+| image = Pygoscelis papua.jpg
+| image_caption = [[Gentoo Penguin]], &amp;apos;&amp;apos;Pygoscelis papua&amp;apos;&amp;apos;
+| regnum = [[Animal]]ia
+| phylum = [[Chordata]]
+| classis = [[Aves]]
+| ordo = &amp;apos;&amp;apos;&amp;apos;Sphenisciformes&amp;apos;&amp;apos;&amp;apos;
+| ordo_authority = [[Richard Bowdler Sharpe|Sharpe]], 1891
+| familia = &amp;apos;&amp;apos;&amp;apos;Spheniscidae&amp;apos;&amp;apos;&amp;apos;
+| familia_authority = [[Charles Lucien Jules Laurent Bonaparte|Bonaparte]], 1831
+| subdivision_ranks = Modern [[genus|genera]]
+| subdivision =
+* &amp;apos;&amp;apos;[[Aptenodytes]]&amp;apos;&amp;apos;
+* &amp;apos;&amp;apos;[[Eudyptes]]&amp;apos;&amp;apos;
+* &amp;apos;&amp;apos;[[Eudyptula]]&amp;apos;&amp;apos;
+* &amp;apos;&amp;apos;[[Megadyptes]]&amp;apos;&amp;apos;
+* &amp;apos;&amp;apos;[[Pygoscelis]]&amp;apos;&amp;apos;
+* &amp;apos;&amp;apos;[[Spheniscus]]&amp;apos;&amp;apos;
+* For prehistoric genera, see [[Sphenisciformes#Systematics|Systematics]]
+}}
+&amp;lt;/pre&amp;gt;
+[[Category:WikiProject Birds]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="King Louis"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="King Louis" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;King Louis&amp;apos;&amp;apos;&amp;apos;  may refer to:
+
+==Kings==
+* [[Louis I (disambiguation)]], multiple kings with the name
+* [[Louis II (disambiguation)]], multiple kings with the name
+* [[Louis III (disambiguation)]], multiple kings with the name
+* [[Louis IV (disambiguation)]], multiple kings with the name
+* [[Louis V (disambiguation)]], multiple kings with the name
+* [[Louis VI of France]] (died 1137), called Louis the Fat
+* [[Louis VII of France]] (died 1180), called Louis the Younger
+* [[Louis VIII of France]] (died 1226), called Louis the Lion
+* [[Louis IX of France]] (died 1270), called Saint Louis
+* [[Louis X of France]] (died 1316), called Louis the Quarreller
+* [[Louis XI of France]] (died 1483), called Louis the Prudent
+* [[Louis XII of France]] (died 1515)
+* [[Louis XIII of France]]
+* [[Louis XIV of France]], the &amp;apos;Sun King&amp;apos;
+* [[Louis XV of France]] (died 1774), called the Louis the Beloved
+* [[Louis XVI of France]]
+* [[Louis XVII of France]] (died 1795), died in prison, never anointed as king
+* [[Louis XVIII of France]] (died 1824),
+* [[Louis XIX of France]] (died 1844), nominally king for less than an hour
+* [[Louis-Philippe of France]]
+
+==&amp;quot;King Louie&amp;quot;==
+* [[King Louie]], &amp;apos;&amp;apos;The King of the Swingers&amp;apos;&amp;apos; from Disney&amp;apos;s The Jungle Book film
+* [[King Louie Bankston]], garage punk musician
+
+==Other==
+* King Louis, drummer for [[Jesse Quin &amp;amp; The Mets]]
+
+{{hndis|Louis}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

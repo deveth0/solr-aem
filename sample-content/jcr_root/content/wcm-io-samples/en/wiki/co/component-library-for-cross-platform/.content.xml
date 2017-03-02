@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Component Library for Cross Platform"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Component Library for Cross Platform" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+&amp;apos;&amp;apos;&amp;apos;Component Library for Cross Platform (CLX)&amp;apos;&amp;apos;&amp;apos; (pronounced clicks), is a cross-platform visual component-based framework for developing [[Microsoft Windows]] and [[Linux]] applications. It is developed by [[Borland]] for use in its [[Kylix programming tool|Kylix]], [[Delphi programming language|Delphi]], and [[C++ Builder]] software development environment.
+
+Its aim was to replace the popular [[Microsoft Foundation Classes]] with [[Visual Component Library]]. CLX was based on [[Qt (framework)|Qt]] by [[Nokia]]. The [[Application programming interface|API]] of CLX almost completely followed VCL. It was envisioned that existing applications using VCL would be recompiled with CLX.
+
+However, due to lacklustre performance on Windows, subtle differences from VCL, and bugs, it didn&amp;apos;t become the expected successor to VCL. Commercial failure of Kylix stopped further development of CLX.
+
+In terms of [[object-oriented]] approach, CLX forms an object hierarchy where the TObject class serves as the &amp;apos;&amp;apos;[[Superclass (computer science)|base class]]&amp;apos;&amp;apos;. All other classes inherit or indirectly inherit the TObject class.
+
+==See also==
+{{Pascal programming language family}}
+{{Widget toolkits}}
+
+{{DEFAULTSORT:Component Library For Cross Platform}}
+[[Category:Borland]]
+[[Category:Component-based software engineering]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

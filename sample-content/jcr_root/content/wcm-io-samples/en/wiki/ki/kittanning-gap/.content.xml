@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Kittanning Gap"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Kittanning Gap" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Kittanning Gap&amp;apos;&amp;apos;&amp;apos; is a gap at the summit of [[Allegheny Ridge]]{{Citation needed|date=December 2009}} in central [[Pennsylvania]] in the [[United States]]. It is located in [[Logan Township, Blair County, Pennsylvania|Logan Township]], approximately 5&amp;amp;nbsp;mi (8&amp;amp;nbsp;km) west of [[Altoona, Pennsylvania|Altoona]].
+
+==History==
+In the 18th century the [[Kittanning Path]] passed through the gap, providing a route between central and western Pennsylvania for [[Indigenous peoples of the Americas|Native Americans]] and early white settlers. It was later selected as the site for a [[railroad]] line across the [[Allegheny Mountains]]. The challenge of constructing a railroad through the ridge led to the construction of the unique [[Horseshoe Curve (Pennsylvania)|Horseshoe Curve]] in 1854, now designated as a [[National Historic Landmark]].
+
+{{coord|40|29|54|N|78|27|03|W|display=title}}
+
+[[Category:Landforms of Pennsylvania]]
+[[Category:Geography of Blair County, Pennsylvania]]
+
+
+{{BlairPA-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="ZNC"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="ZNC" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox software
+| name                   = ZNC
+| logo                   =
+| screenshot             = [[Image:ZNCstartup.PNG|250px]]
+| caption                = ZNC 0.070 Start-up Screen
+| developer              = prozac, imaginos, psychon, crox
+| released               =
+| frequently updated     = Yes &amp;lt;!-- Release version update? Don&amp;apos;t edit this page, just click on the version number! --&amp;gt;
+| programming language   = [[C++]]
+| operating system       = [[Unix-like]], [[Microsoft Windows]]&amp;lt;ref&amp;gt;{{cite web|url=http://code.google.com/p/znc-msvc/ |title=Native windows port Code.google.com Retrieved on 2011-11-28 |publisher=Code.google.com |date= |accessdate=2012-04-16}}&amp;lt;/ref&amp;gt;
+| status                 = Active
+| genre                  = [[bouncer (networking)|IRC bouncer]]
+| license                = [[Apache License]]
+| website                = [http://wiki.znc.in/ZNC www.znc.in]
+}}
+{{Portal|Free software}}
+&amp;apos;&amp;apos;&amp;apos;ZNC&amp;apos;&amp;apos;&amp;apos; is an [[Internet Relay Chat|IRC]] [[bouncer (networking)|network bouncer]] or BNC. It can detach the client from the actual IRC server, and also from selected channels. Multiple clients from different locations can connect to a single ZNC account simultaneously and therefore appear under the same nickname on IRC. It supports [[Secure Sockets Layer|SSL]] secured connections and [[IPv6]].
+
+ZNC is written in [[C++]] and licensed under the [[Apache License]].
+
+The main program, which already features multiple users, per channel playback buffers and transparent [[Direct Client-to-Client|DCC]] bouncing, can be extended using modules. Modules can be written in [[Python (programming language)|Python]], [[Perl]], [[Tcl]], or [[C++]].&amp;lt;ref&amp;gt;{{cite web|url=http://en.znc.in/wiki/ZNC |title=Official ZNC site retrieved 11 July 2009 |publisher=En.znc.in |date=2012-04-11 |accessdate=2012-04-16}}&amp;lt;/ref&amp;gt; Available modules comprise logging functionality, [[Blowfish (cipher)|Blowfish]] encryption, user and channel management, away functionality, a partyline and more.&amp;lt;ref&amp;gt;{{cite web|url=http://en.znc.in/wiki/Modules |title=Modules list on ZNC site retrieved 11 July 2009 |publisher=En.znc.in |date=2012-01-29 |accessdate=2012-04-16}}&amp;lt;/ref&amp;gt; A very popular module is &amp;apos;&amp;apos;webadmin&amp;apos;&amp;apos;: it provides a way to manage users and channels conveniently using only a web browser. ZNC also supports ident spoofing via [[oidentd]].&amp;lt;ref&amp;gt;{{cite web|url=http://en.znc.in/wiki/Using_ident_spoofs |title=Using ident spoofs – ZNC En.znc.in (2011-07-13) Retrieved on 2011-11-28 |publisher=En.znc.in |date=2012-03-25 |accessdate=2012-04-16}}&amp;lt;/ref&amp;gt;
+
+ZNC has been in development since August 2004,&amp;lt;ref&amp;gt;{{cite web|url=http://znc.svn.sourceforge.net/viewvc/znc?view=rev&amp;amp;revision=2 |title=SourceForge revision history retrieved 11 July 2009 |publisher=Znc.svn.sourceforge.net |date= |accessdate=2012-04-16}}&amp;lt;/ref&amp;gt; and new releases are made regularly.
+It has received favorable reviews,&amp;lt;ref&amp;gt;{{cite web|url=http://www.ohloh.net/p/znc |title=ZNC on Ohloh retrieved 11 July 2009 |publisher=Ohloh.net |date= |accessdate=2012-04-16}}&amp;lt;/ref&amp;gt; especially in comparison to [[psyBNC]], and has an active community on IRC.
+
+In mid-2009, ZNC popularity gained momentum among [[iPhone]] users when a push module for mobile [[Colloquy (IRC client)|Colloquy]] nick highlight notifications&amp;lt;ref&amp;gt;{{cite web|url=http://colloquy.info/project/wiki/PushNotifications |title=Official Colloquy website retrieved 31 August 2009 |publisher=Colloquy.info |date= |accessdate=2012-04-16}}&amp;lt;/ref&amp;gt; and another module for iPhone notifications via [[Growl (software)|Growl]]&amp;lt;ref&amp;gt;{{cite web|url=http://en.znc.in/wiki/Prowl |title=Prowl znc.in. retrieved 31 August 2009 |publisher=En.znc.in |date=2011-12-17 |accessdate=2012-04-16}}&amp;lt;/ref&amp;gt; were published.
+
+==References==
+{{reflist}}
+
+== External links ==
+* {{Official website|http://www.znc.in/}}
+* [http://github.com/znc/znc ZNC] at [[GitHub]]
+* {{Freshmeat|znc|ZNC}}
+* [irc://irc.efnet.org/znc #ZNC] on [[EFnet]]
+
+{{IRC bouncers}}
+
+[[Category:Internet Relay Chat bouncers, gateways and proxies]]
+[[Category:Internet privacy software]]
+[[Category:Free software programmed in C++]]
+[[Category:2004 software]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

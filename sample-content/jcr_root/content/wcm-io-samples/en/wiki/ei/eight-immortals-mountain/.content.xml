@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Eight Immortals Mountain"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Eight Immortals Mountain" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced stub|auto=yes|date=December 2009}}
+{{about|the mountain in Taiwan||Eight Immortals (disambiguation)}}
+Located in central [[Taiwan]], &amp;apos;&amp;apos;&amp;apos;Pa-hsien Mountain&amp;apos;&amp;apos;&amp;apos; ({{zh|c=八仙山|p=baxianshan}}), or &amp;apos;&amp;apos;&amp;apos;Eight Immortals Mountain&amp;apos;&amp;apos;&amp;apos;, is a branch of [[Yü Shan]]. Its height is 2448 metres, which is around 8000 [[Taiwanese units of measurement|Taiwanese feet]] (台尺). The pronunciation of &amp;apos;&amp;apos;eight thousand&amp;apos;&amp;apos; (baqian) and &amp;apos;&amp;apos;eight immortals&amp;apos;&amp;apos; are similar in [[Chinese language|Chinese]], hence the name.
+
+One of the three major [[logging station]]s in Taiwan used to be in the forest. There is an amusement park located on the part of the mountain that is located in [[Heping, Taichung]]. It is estimated that there are 59 native [[bird]]s and 5 [[bird migration|migratory bird]]s.
+
+==See also==
+*[[Eight Immortals]]
+*[[Penglai Mountain]]
+
+{{Coord missing|Taiwan}}
+
+[[Category:Mountains of Taiwan]]
+
+{{Taiwan-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

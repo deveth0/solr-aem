@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="XHUZ-FM"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="XHUZ-FM" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox Radio station
+ | name = XHUZ
+ | image =
+ | city = [[Aguascalientes, Aguascalientes]], [[Mexico]]
+ | area = [[Aguascalientes]]
+ | branding = 105 digital
+ | slogan = Siempre éxitos
+ | airdate =
+ | frequency = 105.3 FM
+ | format =
+ | power = 67.1 kW
+ | erp =
+ | class =
+ | callsign_meaning =
+ | former_callsigns =
+ | owner =  Radio Grupo Mexico
+ | webcast =
+ | website = www.radiogrupo.com.mx
+ | affiliations =
+}}
+
+==Digital 105 at 105.3 FM==
+&amp;apos;&amp;apos;&amp;apos;XHUZ&amp;apos;&amp;apos;&amp;apos; at 105.3 FM is a talk radio station.
+
+* [http://www.radiogrupo.com.mx/xhuz/ XHUZ 105.3 website]
+
+&amp;lt;br clear=all&amp;gt;
+{{Aguascalientes Radio}}
+
+{{Mexico-radio-station-stub}}
+
+{{coord missing|Mexico}}
+
+[[Category:Regional Mexican radio stations]]
+[[Category:Spanish-language radio stations]]
+[[Category:Radio stations in Aguascalientes]]
+[[Category:Media in Aguascalientes, Aguascalientes]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

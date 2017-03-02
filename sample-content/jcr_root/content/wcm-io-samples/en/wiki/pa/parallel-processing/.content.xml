@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Parallel processing"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Parallel processing" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{more footnotes|date=January 2009}}
+{{refimprove|date=January 2009}}
+
+&amp;apos;&amp;apos;&amp;apos;Parallel processing&amp;apos;&amp;apos;&amp;apos; is the ability to carry out multiple operations or tasks simultaneously. The term is used in the contexts of both human cognition, particularly in the ability of the [[brain]] to simultaneously process incoming stimuli, and in [[parallel computing]] by machines.
+
+==Parallel processing by the brain==
+Parallel processing is the ability of the [[brain]] to simultaneously process incoming stimuli of differing quality. This becomes most important in [[Visual perception|vision]], as the brain divides what it sees into four components: [[color]], [[motion (physics)|motion]], [[shape]], and [[Distance|depth]]. These are individually analyzed and then compared to stored [[memory|memories]], which helps the brain identify what you are viewing. The brain then combines all of these into the field of view that you see and comprehend. Parallel processing has been linked, by some experimental psychologists, to the [[Stroop effect]].  This is a continual and seamless operation.
+
+==Parallel processing in computers==
+{{main|Parallel computing}}
+The simultaneous use of more than one [[Central processing unit|CPU]] or processor core to execute a program or multiple computational threads. Ideally, parallel processing makes programs run faster because there are more engines (CPUs or Cores) running it. In practice, it is often difficult to divide a program in such a way that separate CPUs or cores can execute different portions without interfering with each other.
+Most computers have just one CPU, but some models have several, and multi-core processor chips are becoming the norm. There are even computers with thousands of CPUs.
+
+
+With single-CPU, single-core computers, it is possible to perform parallel processing by connecting the computers in a network. However, this type of parallel processing requires very sophisticated software called distributed processing software.
+
+Note that parallelism differs from concurrency. Concurrency is a term used in the operating systems and databases communities which refers to the property of a system in which multiple tasks remain &amp;apos;&amp;apos;logically&amp;apos;&amp;apos; active and make progress at the same time by interleaving the execution order of the tasks and thereby creating an illusion of simultaneously executing instructions.&amp;lt;ref name=&amp;quot;parallel programming expert&amp;quot;&amp;gt;[http://software.intel.com/en-us/articles/how-to-sound-like-a-parallel-programming-expert-part-1-introducing-concurrency-and-parallelism/ How to sound like a Parallel Programming Expert]&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;Principles of Parallel Programming by Lin C. and Snyder L.&amp;lt;/ref&amp;gt; Parallelism, on the other hand, is a term typically used by the supercomputing community to describe executions that &amp;apos;&amp;apos;physically&amp;apos;&amp;apos; execute simultaneously with the goal of solving a problem in less time or solving a larger problem in the same time. Parallelism exploits concurrency.&amp;lt;ref name=&amp;quot;parallel programming expert&amp;quot; /&amp;gt;
+
+Parallel processing is also called parallel computing. In the quest of cheaper computing alternatives parallel processing provides a viable option. The idle time of processor cycles across network can be used effectively by sophisticated distributed computing software.
+The term parallel processing is used to represent a large class of techniques which are used to provide simultaneous data processing tasks for the purpose of increasing the computational speed of a computer system.
+
+Advantages:-
+Faster execution time, so higher throughput.
+Disadvantages:-
+More hardware required, also more power requirements. Not good for low power and mobile devices.
+
+==References==
+{{reflist}}
+* &amp;apos;&amp;apos;Myers&amp;apos;&amp;apos;, David G. Psychology. 6th ed. New York: Worth, 2001.
+* Parallel Processing via MPI &amp;amp; OpenMP, M. Firuziaan, O. Nommensen. Linux Enterprise, 10/2002
+* Gaurav Wadhwa
+* [http://video.google.com/videoplay?docid=-7704388615049492068#docid=-2564633278649199702 Computer Chronicles: Parallel Processing (1986)] Last Access 2010-11-20
+
+[[Category:Neural coding]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

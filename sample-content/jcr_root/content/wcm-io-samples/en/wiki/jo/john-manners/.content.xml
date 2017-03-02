@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="John Manners"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="John Manners" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;John Manners&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+==Dukes==
+*[[John Manners, 1st Duke of Rutland]] (1638-1711)
+*[[John Manners, 2nd Duke of Rutland]] (1676-1721)
+*[[John Manners, 3rd Duke of Rutland]] (1696-1779)
+*[[John Manners, 5th Duke of Rutland]] (1778-1857)
+*[[John Manners, 7th Duke of Rutland]] (1818-1896), better known as Lord John Manners in his role as a 19th century statesman
+*[[John Manners, 9th Duke of Rutland]] (1886-1980)
+
+==Other nobles==
+*[[John Manners, 4th Earl of Rutland]] (c. 1552-1588)
+*[[John Manners, 8th Earl of Rutland]] (1604-1679)
+*[[John Manners, Marquess of Granby]] (1721-1770) an 18th century military officer, son of the 3rd Duke of Rutland
+
+==Others==
+*[[John Manners (died 1438)]], MP for [[Northumberland (UK Parliament constituency)]]
+*[[John Manners (died 1611)]], MP for [[Nottinghamshire (UK Parliament constituency)]]
+*[[John Manners (MP)]] (1730–1792), politician
+*Hon. [[John Manners Tollemache]] (c.1768–1837), born John Manners, son of the above
+*[[John Manners (New Jersey politician)]] (1786–1853), physician and President of the New Jersey Senate
+*[[J. Hartley Manners]], (1870–1928), British playwright
+
+{{hndis|Manners, John}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

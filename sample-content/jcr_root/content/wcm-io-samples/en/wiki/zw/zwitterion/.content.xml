@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Zwitterion"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Zwitterion" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[File:Amino Acid Zwitterion Structural Formulae V.1.svg|thumb||280px|An [[amino acid]] contains both acidic (carboxylic acid fragment) and basic (amine fragment) centres. The isomer on the right is a zwitterion.]]
+[[File:Zwitterion Structural Formulae V.1.svg|thumb|280px|Sulfamic acid isomers, with the zwitterion (right).]]
+In chemistry, a &amp;apos;&amp;apos;&amp;apos;zwitterion&amp;apos;&amp;apos;&amp;apos; ({{IPAc-en|ˈ|t|s|v|ɪ|t|ər|.|aɪ|.|ə|n}} {{respell|TSVIT|ər-eye-ən}}; from [[German language|German]] &amp;apos;&amp;apos;zwitter&amp;apos;&amp;apos; {{IPA-de|ˈtsvɪtɐ|}} &amp;quot;hybrid&amp;quot; and formerly called a &amp;apos;&amp;apos;&amp;apos;dipolar ion&amp;apos;&amp;apos;&amp;apos;) is a neutral [[molecule]] with a positive and a negative [[electrical charge]], distinct from [[dipole]]s, at different locations within that molecule. Zwitterions are sometimes also called &amp;apos;&amp;apos;&amp;apos;inner salts&amp;apos;&amp;apos;&amp;apos;.&amp;lt;ref name=zwitter&amp;gt;IUPAC Gold Book [http://goldbook.iupac.org/Z06752.html &amp;apos;&amp;apos;zwitterionic compounds/zwitterions&amp;apos;&amp;apos;]&amp;lt;/ref&amp;gt;
+
+==Examples==
+[[Amino acid]]s are the best-known examples of zwitterions. These compounds contain an ammonium and a carboxylate group, and can be viewed as arising via a kind of intramolecular [[acid–base reaction]]: The [[amine]] group deprotonates the [[carboxylic acid]].
+:NH&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;RCHCO&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;H {{eqm}} NH&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;&amp;lt;sup&amp;gt;+&amp;lt;/sup&amp;gt;RCHCO&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;&amp;lt;sup&amp;gt;−&amp;lt;/sup&amp;gt;
+The zwitterionic structure of [[glycine]] in the solid state has been confirmed by [[neutron diffraction]] measurements.&amp;lt;ref&amp;gt;{{cite journal|last=Jönsson|first=P.-G.|coauthors=Kvick, Å.|year=1972|journal=Acta Cryst. B|title=Precision neutron diffraction structure determination of protein and nucleic acid components. III. The crystal and molecular structure of the amino acid &amp;amp;alpha;-glycine|volume=28|pages=1827–1833|doi=10.1107/S0567740872005096|issue=6}}&amp;lt;/ref&amp;gt; At least in some cases, the zwitterionic form of amino acids also persists in the gas phase.&amp;lt;ref&amp;gt;{{cite journal|last=Price|first=William D.|coauthors=Jockusch, Rebecca A.; Williams, Evan R.|year=1997|title=Is Arginine a Zwitterion in the Gas Phase?|journal=J. Am. Chem. Soc.|volume=119|issue=49|pages=11988–11989|doi=10.1021/ja9711627|pmid=16479267|pmc=1364450}} [http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1364450/ text]&amp;lt;/ref&amp;gt;
+
+In addition to the amino acids, many other compounds that contain both acidic and basic centres [[tautomer]]ize to the zwitterionic form. Examples, such as [[bicine]] and [[tricine]], contain a basic secondary or tertiary amine fragment together with a carboxylic acid fragment. [[Neutron diffraction]] measurements show that solid [[sulfamic acid]] exists as a zwitterion.&amp;lt;ref name=&amp;quot;Sass&amp;quot;&amp;gt;{{ cite journal | author = R. L. Sass | year = 1960 | title = A neutron diffraction study on the crystal structure of sulfamic acid | journal = Acta Cryst. | volume = 13 | issue = 4 | month = April | pages = 320–324 | doi = 10.1107/S0365110X60000789 }}&amp;lt;/ref&amp;gt; Many [[alkaloid]]s, such as [[lysergic acid]] and [[psilocybin]], exist as zwitterions because they contain carboxylates and ammonium centres.
+
+Many zwitterions contain [[quaternary ammonium cation]]s.  Since it lacks N–H bonds, the ammonium center cannot participate in [[tautomer]]ization.  Zwitterions containing quaternary-ammonium centers are common in biology, e.g., [[betaine]]s, which serve as [[electrolyte]]s in fish. The membrane-forming phospholipids are also commonly zwitterions.  The polar head groups in these compounds are zwitterions, resulting from the presence of the anionic phosphate and cationic quaternary ammonium centres.&amp;lt;ref&amp;gt;Nelson, D. L.; Cox, M. M. &amp;quot;Lehninger, Principles of Biochemistry&amp;quot; 3rd Ed. Worth Publishing: New York, 2000. ISBN 1-57259-153-6.&amp;lt;/ref&amp;gt;
+[[Image:1-palmitoyl-2-oleoylphosphatidylcholine.svg|300px|thumb|The vesicle-forming phospholipid phosphatidylcholine, palmitoyl-oleyl-&amp;apos;&amp;apos;sn&amp;apos;&amp;apos;-phosphatidylcholine.]]
+
+==Related compounds==
+Dipolar compounds are usually not classified as zwitterions.  For example [[amine oxide]]s, which are often written as R&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;N&amp;lt;sup&amp;gt;+&amp;lt;/sup&amp;gt;O&amp;lt;sup&amp;gt;−&amp;lt;/sup&amp;gt;, are not zwitterions in terms of the definition,&amp;lt;ref name=zwitter /&amp;gt; which specifies that there are &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;unit&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; electrical charges on atoms. The distinction lies in the fact that the plus and minus signs on the amine oxide signify [[formal charge]]s, not electrical charges. Formal charges are used in [[valence bond theory]] for some canonical forms used to construct a [[resonance hybrid]]. In fact another theoretical representation of an amine oxide uses a [[Dipolar bond|dative covalent bond]] ≡N→O with no formal charges. Other compounds that are sometimes referred to as zwitterions, mistakenly according to the definition above, include [[nitrone]]s  and &amp;quot;dipolar compounds&amp;quot;, such as a [[1,2-dipole]] and a [[1,3-dipole]].&amp;lt;ref name=&amp;apos;dipolar compounds&amp;apos;&amp;gt;IUPAC Gold Book [http://goldbook.iupac.org/D01753.html &amp;apos;&amp;apos;dipolar compounds&amp;apos;&amp;apos;]&amp;lt;/ref&amp;gt;
+
+==References==
+{{reflist}}
+
+[[Category:German words and phrases]]
+[[Category:Zwitterions| ]]
+[[Category:Ions]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

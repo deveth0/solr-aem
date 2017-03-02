@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Kirby calculus"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Kirby calculus" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[mathematics]], the &amp;apos;&amp;apos;&amp;apos;Kirby calculus&amp;apos;&amp;apos;&amp;apos; in [[geometric topology]], named after [[Robion Kirby]], is a method for modifying [[framed link]]s in the [[3-sphere]] using a finite set of moves, the &amp;apos;&amp;apos;&amp;apos;Kirby moves&amp;apos;&amp;apos;&amp;apos;.  Using four-dimensional [[Cerf theory]], he proved that if &amp;apos;&amp;apos;M&amp;apos;&amp;apos; and &amp;apos;&amp;apos;N&amp;apos;&amp;apos; are [[3-manifold]]s, resulting from [[Dehn surgery]] on framed links &amp;apos;&amp;apos;L&amp;apos;&amp;apos; and &amp;apos;&amp;apos;J&amp;apos;&amp;apos; respectively, then they are [[homeomorphic]] if and only if &amp;apos;&amp;apos;L&amp;apos;&amp;apos; and &amp;apos;&amp;apos;J&amp;apos;&amp;apos; are related by a sequence of Kirby moves.  According to the [[Lickorish–Wallace theorem]] any [[closure (mathematics)|closed]] [[orientable]] 3-manifold is obtained by such surgery on some link in the 3-sphere.
+
+Some ambiguity exists in the literature on the precise use of the term &amp;quot;Kirby moves&amp;quot;.  Different presentations of &amp;quot;Kirby calculus&amp;quot; have a different set of moves and these are sometimes called Kirby moves.  Kirby&amp;apos;s original formulation involved two kinds of move, the &amp;quot;blow-up&amp;quot; and the &amp;quot;handle slide&amp;quot;; Roger Fenn and Colin Rourke exhibited an equivalent construction in terms of a single move, the [[Fenn–Rourke move]], that appears in many expositions and extensions of the Kirby calculus.  [[Dale Rolfsen]]&amp;apos;s book, &amp;apos;&amp;apos;Knots and Links&amp;apos;&amp;apos;, from which many topologists have learned the Kirby calculus, describes a set of two moves: 1) delete or add a component with surgery coefficient infinity  2) twist along an unknotted component and modify surgery coefficients appropriately (this is called the [[Rolfsen twist]]).  This allows an extension of the Kirby calculus to rational surgeries.
+
+There are also various tricks to modify surgery diagrams.  One such useful move is the [[slam-dunk]].
+
+An extended set of diagrams and moves are used for describing [[4-manifold]]s.
+A framed link in the 3-sphere encodes instructions for attaching 2-handles to the 4-ball.
+(The 3-dimensional boundary of this manifold is the 3-manifold interpretation of the link diagram mentioned above.)  1-handles are denoted by either (a) a pair of 3-balls (the attaching region of the 1-handle) or, more commonly, (b) unknotted circles with dots. The dot indicates that a neighborhood of a standard 2-disk with boundary the dotted circle is to be excised from the interior of the 4-ball.&amp;lt;ref&amp;gt;http://www.physics.upenn.edu/~chb/pubs/onehandle.pdf&amp;lt;/ref&amp;gt;  Excising this 2-handle is equivalent to adding a 1-handle. 3-handles and 4-handles are usually not indicated in the diagram.
+
+== Handle decomposition ==
+
+* A closed, smooth 4-manifold is usually described by a [[handle decomposition]].
+* A 0-handle is just a ball, and the [[attaching map]] is disjoint union.
+* A 1-handle is attached along two disjoint 3-[[ball (mathematics)|balls]].
+* A 2-handle is attached along a [[solid torus]]; since this solid torus is embedded in a [[3-manifold]], there is a relation between handle decompositions on 4-manifolds, and [[knot theory]] in 3-manifolds.
+* A pair of handles with index differing by 1, whose cores link each other in a sufficiently simple way can be cancelled without changing the underlying manifold. Similarly, such a cancelling pair can be created.
+
+Two different smooth handlebody decompositions of a smooth 4-manifold are related by a finite sequence of [[Homotopy#Isotopy|isotopies]] of the attaching maps, and the creation/cancellation of handle pairs.
+
+==See also==
+* [[Exotic R4|Exotic &amp;apos;&amp;apos;&amp;apos;R&amp;apos;&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;4&amp;lt;/sup&amp;gt;]]
+
+==References==
+
+* Rob Kirby, &amp;quot;A Calculus for Framed Links in S&amp;lt;sup&amp;gt;3&amp;lt;/sup&amp;gt;&amp;quot;.  Inventiones Mathematicae, vol. 45 (1978), pp.&amp;amp;nbsp;35&amp;amp;ndash;56.
+* R. P. Fenn and C. P. Rourke, &amp;quot;On Kirby&amp;apos;s calculus of links&amp;quot;.  Topology, vol. 18 (1979), pp.&amp;amp;nbsp;1–15
+* [[Robert Gompf]] and Andras Stipsicz, &amp;apos;&amp;apos;4-Manifolds and Kirby Calculus&amp;apos;&amp;apos;, (1999) (Volume 20 in &amp;apos;&amp;apos;Graduate Studies in Mathematics&amp;apos;&amp;apos;), American Mathematical Society, Providence, RI ISBN 0-8218-0994-6
+&amp;lt;references/&amp;gt;
+
+[[Category:Geometric topology]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

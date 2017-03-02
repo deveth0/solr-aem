@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="One-way voice link"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="One-way voice link" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{unreferenced|date=August 2009}}
+A &amp;apos;&amp;apos;&amp;apos;one-way voice link (OWVL)&amp;apos;&amp;apos;&amp;apos; is typically a radio based communication method used by [[spy]] networks to communicate with agents in the field typically (but not exclusively) using [[shortwave radio]] frequencies.
+
+Shortwave frequencies were and are generally highly preferred for their long range, as a communications link of 1200&amp;amp;nbsp;km is easily possible. [[VHF]] and [[UHF]] frequencies can be used for one way voice circuits, but are generally not preferred as their range is at best 300&amp;amp;nbsp;km (on flat terrain). Since the 1970s &amp;apos;&amp;apos;infrared point to point communication systems&amp;apos;&amp;apos; have been used that offer one way voice links, but the number of users was always limited.
+
+This communications system often employs recorders to transmit pre-recorded messages in real time or in &amp;apos;[[burst transmission]]s,&amp;apos; which minimize the time that a spy needs to be &amp;apos;on the air&amp;apos;. Voice scrambling systems have been selectively used for this kind of communications circuit since the 1980s, based on operational needs.
+
+Since personal computers became cheap and readily available in the 2000s, time compressed voice scrambling for one way and bi-directional circuits is a practically free technology (but there is no readily available public domain or [[open source software]] for experimenters).
+
+One way voice links have existed outside of espionage, for example the [[NICAM]] transmission system was modified in the UK to allow for a one way voice link to BBC mobile units. This one way voice link was typically used for sports events, as it was highly flexible.
+
+== Historical context ==
+During the mid to late [[Cold War]] the [[STASI]] (the East German spy agency) used point to point infrared technology for 2 way voice links within the divided city of Berlin. One way voice links were used intermittently.
+
+One way voice link transmission methods were used during the [[Falklands War]] by UK elite forces to provide information about suitable troop landing areas. This fact emerged in the late 1980s when UK veterans of the war were writing their memoirs. Argentina had access to similar technology to communicate with its military, but did not really use it during this conflict.
+
+==See also==
+*[[Numbers station]]
+
+{{espionage}}
+{{intelligence cycle management}}
+
+[[Category:Espionage techniques]]
+
+
+{{electronics-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

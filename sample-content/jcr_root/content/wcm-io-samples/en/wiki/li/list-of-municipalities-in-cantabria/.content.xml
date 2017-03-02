@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="List of municipalities in Cantabria"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="List of municipalities in Cantabria" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;This is a list of the municipalities in the [[provinces of Spain|province]] and [[autonomous community]] of [[Cantabria]], [[Spain]].
+[[File:Cantabria - Mapa municipal.svg|right|thumb|500px|Municipal Map of Cantabria]]
+
+{| class=&amp;quot;wikitable sortable&amp;quot;
+!Name
+!Population (2002)
+|-
+|[[Alfoz de Lloredo]] || 2,593
+|-
+|[[Ampuero]] || 3,602
+|-
+|[[Anievas]] || 378
+|-
+|[[Arenas de Iguña]] || 1,984
+|-
+|[[Argoños]] || 1,000
+|-
+|[[Arnuero]] || 1,900
+|-
+|[[Arredondo, Cantabria|Arredondo]] || 598
+|-
+|[[Bárcena de Cicero]] || 2,490
+|-
+|[[Bárcena de Pie de Concha]] || 885
+|-
+|[[Bareyo]] || 1,690
+|-
+|[[Cabezón de la Sal]] || 7,639
+|-
+|[[Cabezón de Liébana]] || 727
+|-
+|[[Cabuérniga]] || 1,114
+|-
+|[[Camaleño]] || 1,106
+|-
+|[[Camargo, Cantabria|Camargo]] || 23,914
+|-
+|[[Campoo de Enmedio]] || 3,995
+|-
+|[[Campoo de Yuso]] || 753
+|-
+|[[Cartes]] || 3,681
+|-
+|[[Castañeda, Cantabria|Castañeda]] || 1,582
+|-
+|[[Castro Urdiales]] || 22,394
+|-
+|[[Cieza, Cantabria|Cieza]] || 678
+|-
+|[[Cillorigo de Liébana]] || 1,122
+|-
+|[[Colindres]] || 6,911
+|-
+|[[Comillas]] || 2,340
+|-
+|[[Los Corrales de Buelna]] || 10,876
+|-
+|[[Corvera de Toranzo]] || 1,937
+|-
+|[[El Astillero]] || 14,202
+|-
+|[[Entrambasaguas]] || 2,452
+|-
+|[[Escalante, Cantabria|Escalante]] || 719
+|-
+|[[Guriezo]] || 1,784
+|-
+|[[Hazas de Cesto]] || 1,247
+|-
+|[[Hermandad de Campoo de Suso]] || 1,918
+|-
+|[[Herrerías]] || 742
+|-
+|[[Lamasón]] || 371
+|-
+|[[Laredo, Cantabria|Laredo]] || 12,563
+|-
+|[[Liendo]] || 888
+|-
+|[[Liérganes]] || 2,266
+|-
+|[[Limpias]] || 1,389
+|-
+|[[Luena, Cantabria|Luena]] || 914
+|-
+|[[Marina de Cudeyo]] || 5,112
+|-
+|[[Mazcuerras]] || 1,885
+|-
+|[[Medio Cudeyo]] || 6,327
+|-
+|[[Meruelo]] || 1,173
+|-
+|[[Miengo]] || 3,762
+|-
+|[[Miera]] || 496
+|-
+|[[Molledo]] || 1,884
+|-
+|[[Noja]] || 2,135
+|-
+|[[Penagos]] || 1,750
+|-
+|[[Peñarrubia, Cantabria|Peñarrubia]] || 324
+|-
+|[[Pesaguero]] || 394
+|-
+|[[Pesquera, Cantabria|Pesquera]] || 86
+|-
+|[[Piélagos]] || 13,389
+|-
+|[[Polaciones]] || 276
+|-
+|[[Polanco, Cantabria|Polanco]] || 3,700
+|-
+|[[Potes]] || 1,590
+|-
+|[[Puente Viesgo]] || 2,344
+|-
+|[[Ramales de la Victoria]] || 2,231
+|-
+|[[Rasines]] || 947
+|-
+|[[Reinosa]] || 10,638
+|-
+|[[Reocín]] || 7,022
+|-
+|[[Ribamontán al Mar]] || 3,826
+|-
+|[[Ribamontán al Monte]] || 2,008
+|-
+|[[Rionansa]] || 1,341
+|-
+|[[Riotuerto]] || 1,524
+|-
+|[[Las Rozas de Valdearroyo]] || 317
+|-
+|[[Ruente]] || 966
+|-
+|[[Ruesga]] || 1,188
+|-
+|[[Ruiloba]] || 729
+|-
+|[[San Felices de Buelna]] || 2,209
+|-
+|[[San Miguel de Aguayo, Cantabria|San Miguel de Aguayo]] || 152
+|-
+|[[San Pedro del Romeral]] || 618
+|-
+|[[San Roque de Riomiera]] || 482
+|-
+|[[San Vicente de la Barquera]] || 4,412
+|-
+|[[Santa Cruz de Bezana]] || 8,828
+|-
+|[[Santa María de Cayón]] || 6,465
+|-
+|[[Santander, Cantabria|Santander]] || 184,661
+|-
+|[[Santillana del Mar]] || 3,950
+|-
+|[[Santiurde de Reinosa]] || 327
+|-
+|[[Santiurde de Toranzo]] || 1,546
+|-
+|[[Santoña]] || 11,593
+|-
+|[[Saro, Cantabria|Saro]] || 532
+|-
+|[[Selaya]] || 1,998
+|-
+|[[Soba, Cantabria|Soba]] || 1,614
+|-
+|[[Solórzano]] || 1,000
+|-
+|[[Suances]] || 6,649
+|-
+|[[Los Tojos]] || 419
+|-
+|[[Torrelavega]] || 56,18
+|-
+|[[Tresviso]] || 55
+|-
+|[[Tudanca]] || 245
+|-
+|[[Udías]] || 823
+|-
+|[[Val de San Vicente]] || 2,610
+|-
+|[[Valdáliga]] || 2,503
+|-
+|[[Valdeolea]] || 1,433
+|-
+|[[Valdeprado del Río]] || 334
+|-
+|[[Valderredible]] || 1,126
+|-
+|[[Valle de Villaverde]] || 366
+|-
+|[[Vega de Liébana]] || 985
+|-
+|[[Vega de Pas]] || 1,003
+|-
+|[[Villacarriedo]] || 1,756
+|-
+|[[Villaescusa, Cantabria|Villaescusa]] || 3,303
+|-
+|[[Villafufre]] || 1,149
+|-
+|[[Voto, Cantabria|Voto]] || 2,241
+|}
+
+==See also==
+*[[Geography of Spain]]
+*[[List of Spanish cities]]
+
+{{Municipalities of Spain}}
+
+[[Category:Lists of municipalities in Spain|Cantabria]]
+[[Category:Municipalities in Cantabria| ]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Tramway"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Tramway" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Wiktionary}}
+
+&amp;apos;&amp;apos;&amp;apos;Tramway&amp;apos;&amp;apos;&amp;apos; may refer to:
+* [[Tramway (industrial)]], a lightly laid railway for uses such as logging or mining (the original use of the word)
+* A system of [[tram]]s (public transport vehicles running on rails)
+* [[Aerial tramway]]
+* [[Tramway, North Carolina]] (locality in the United States)
+*[[Tramway (arts centre)]] (centre for visual and performing arts in Glasgow, United Kingdom)
+*&amp;apos;&amp;apos;[[Tramway (film)]]&amp;apos;&amp;apos; a short film by Polish director Krzysztof Kieślowski
+
+==See also==
+* [[Industrial railway]]
+* [[Tramways Act 1870]]
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

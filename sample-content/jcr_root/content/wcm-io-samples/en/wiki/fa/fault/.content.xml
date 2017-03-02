@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Fault"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Fault" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Wiktionary}}
+&amp;apos;&amp;apos;&amp;apos;Fault&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+*[[Fault (geology)]], planar rock fractures which show evidence of relative movement
+*[[Fault (dog)]], in dog breeding, is an undesirable aspect of structure or appearance that indicates the dog should not be bred
+*[[Fault (legal)]], in criminal law, one must determine fault in a crime
+*[[Fault (technology)]], an abnormal condition or defect at the component, equipment, or sub-system level which may lead to a failure
+*[[Fault (tennis)]], a serve that fails to place a tennis ball in the correct area of play
+*[[Fault (power engineering)]], an unintended electrical connection, a &amp;quot;short circuit&amp;quot;, of several kinds
+*[[Fault (computing)]], a type of interrupt in software or operating systems
+*A penalty in [[show jumping]] applied in scoring horse and rider performance
+
+==See also==
+*[[Active fault]]
+*[[Defect (disambiguation)]]
+*[[Error]]
+*[[Mistake (disambiguation)]]
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

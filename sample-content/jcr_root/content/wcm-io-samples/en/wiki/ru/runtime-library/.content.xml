@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Runtime library"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Runtime library" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=October 2008}}
+In [[computer programming]], a &amp;apos;&amp;apos;&amp;apos;runtime library&amp;apos;&amp;apos;&amp;apos; is the [[API]] used by a [[compiler]] to invoke some of the behaviors of a [[runtime system]].   The runtime system implements the execution model and other fundamental behaviors of a [[programming language]].  The compiler inserts calls to the runtime library into the executable binary.  During execution ([[Run time (program lifecycle phase)|run time]]) of that [[computer program]], execution of those calls to the runtime library cause communication between the application and the [[runtime system]]. This often includes functions for input and output, or for memory management.
+
+The runtime library may implement a portion of the [[runtime system]]&amp;apos;s behavior, but if one reads the code of the calls available, they typically are thin wrappers that simply package information and send it to the [[runtime system]].  However, sometimes the term &amp;apos;&amp;apos;&amp;apos;runtime library&amp;apos;&amp;apos;&amp;apos; is meant to include the code of the [[runtime system]] itself, even though much of that code cannot be directly reached via a library call.
+
+&amp;lt;!--
+When the [[source code]] of a computer program is translated into the respective target language by a compiler, it would cause an extreme enlargement of program code if each command in the program and every call to a built-in function would cause the in-place generation of the complete respective program code in the target language every time. Instead the compiler often uses compiler-specific auxiliary functions in the runtime library that are mostly not accessible to application programmers. Depending on the compiler manufacturer, the runtime library will sometimes also contain the [[standard library]] of the respective compiler or be contained in it.
+--&amp;gt;
+
+For example, some language features that can be performed only (or are more efficient or accurate) at runtime are implemented in the [[runtime system]] and may be invoked via the runtime library API, e.g. some logic errors, array bounds checking, dynamic type checking, [[exception handling]] and possibly debugging functionality. For this reason, some programming bugs are not discovered until the program is tested in a &amp;quot;live&amp;quot; environment with real data, despite sophisticated compile-time checking and pre-release testing. In this case, the end user may encounter a runtime error message.
+
+&amp;lt;!--
+The runtime system  functions by accessing the [[operating system]]. Many programming languages have built-in functions that do not necessarily have to be realized in the compiler, but can be implemented in the &amp;apos;&amp;apos;runtime library&amp;apos;&amp;apos;. So the border between &amp;apos;&amp;apos;runtime library&amp;apos;&amp;apos; and &amp;apos;&amp;apos;standard library&amp;apos;&amp;apos; is up to the compiler manufacturer. Therefore a runtime library is always compiler-specific and [[Platform (computing)|platform]]-specific.
+--&amp;gt;
+
+The concept of a &amp;apos;&amp;apos;runtime library&amp;apos;&amp;apos; should not be confused with an ordinary [[program library]] like that created by an application programmer or delivered by a third party, nor with a dynamic library, meaning a program library linked at run time.
+
+&amp;lt;!--
+For example, the programming language [[C (programming language)|C]] requires only a minimal runtime library (commonly called [[crt0]]) but defines a large [[standard library]] (called [[C standard library]]) that each implementation has to deliver.
+--&amp;gt;
+
+{{DEFAULTSORT:Runtime Library}}
+[[Category:Computer libraries]]
+
+[[bs:Runtime]]
+[[da:Kørsel (datalogi)]]
+[[es:Tiempo de ejecución]]
+[[fr:Moteur d&amp;apos;exécution]]
+[[it:Run-time]]
+[[pl:Biblioteka uruchomieniowa]]
+[[pt:Tempo de execução]]
+[[ru:Библиотека времени исполнения]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

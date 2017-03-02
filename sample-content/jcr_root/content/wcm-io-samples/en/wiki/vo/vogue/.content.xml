@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Vogue"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Vogue" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Wiktionary|vogue}}
+
+&amp;apos;&amp;apos;&amp;apos;Vogue&amp;apos;&amp;apos;&amp;apos; may refer to:
+* [[Vogue (magazine)|&amp;apos;&amp;apos;Vogue&amp;apos;&amp;apos; (magazine)]], a fashion magazine
+** [[Vogue (British magazine)|&amp;apos;&amp;apos;Vogue&amp;apos;&amp;apos; (British magazine)]], the British edition
+** &amp;apos;&amp;apos;[[Vogue China]]&amp;apos;&amp;apos;, the Chinese edition
+** &amp;apos;&amp;apos;[[Vogue India]]&amp;apos;&amp;apos;, the Indian edition
+** &amp;apos;&amp;apos;[[Vogue Italia]]&amp;apos;&amp;apos;, the Italian edition
+** &amp;apos;&amp;apos;[[Vogue Paris]]&amp;apos;&amp;apos;, the French edition
+* [[Vogue (cigarette)]], a brand of cigarettes
+* [[Vogue (dance)]], a style of dance
+* [[Vogüé]], a village in Ardèche department, France
+
+In &amp;apos;&amp;apos;&amp;apos;music&amp;apos;&amp;apos;&amp;apos;:
+* [[The Vogue]], an American rock band
+* [[Vogue (Madonna song)|&amp;quot;Vogue&amp;quot; (Madonna song)]]
+* [[Vogue (KMFDM song)|&amp;quot;Vogue&amp;quot; (KMFDM song)]]
+* [[Vogue (Ayumi Hamasaki song)|&amp;quot;Vogue&amp;quot; (Ayumi Hamasaki song)]]
+* [[Vogue Records]], an American record label
+* [[Disques Vogue]], a French record label
+
+==People with the name==
+* [[Melchior de Vogüé]] (1848–1910), French writer
+
+==See also==
+* &amp;apos;&amp;apos;[[Men&amp;apos;s Vogue]]&amp;apos;&amp;apos;, a monthly men&amp;apos;s magazine
+* &amp;apos;&amp;apos;[[Teen Vogue]]&amp;apos;&amp;apos;, a version of &amp;apos;&amp;apos;Vogue&amp;apos;&amp;apos; magazine for teenage girls
+* [[En Vogue]], an American R&amp;amp;B quartet
+* &amp;quot;[[In Vogue]]&amp;quot;, a song by Drop Dead, Gorgeous
+* &amp;quot;In Vogue&amp;quot;, a song by [[Japan (band)|Japan]]
+
+{{disambiguation}}
+
+[[sv:Vogue]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Generic"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Generic" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;__NOTOC__
+{{Wiktionary}}
+&amp;apos;&amp;apos;&amp;apos;Generic&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;generics&amp;apos;&amp;apos;&amp;apos; may refer to:
+* [[Generic mood]], a grammatical mood used to make generalized statements like &amp;apos;&amp;apos;Snow is white&amp;apos;&amp;apos;
+* [[Generic antecedent]]s, referents in linguistic contexts, which are classes
+* [[Generic role-playing game system]], a framework that provides rule mechanics for any setting—world or environment or genre
+* [[Generic drug]], a drug identified by its chemical name rather than its brand name
+* [[Genus]], the generic name for classification of an organism in taxonomy
+
+==In computer programming==
+* [[Generic function]], a computer programming entity made up of all methods having the same name
+* [[Generic programming]], a computer programming paradigm based on method/functions or classes defined irrespective of the concrete data types used upon instantiation
+** [[Generics in Java]]
+
+==In mathematics==
+* [[Generic filter]], a mathematical filter that satisfies specific properties
+* [[Generic point]], a special kind of point whose behavior reflects the behavior of a closed subset of an algebraic variety or scheme
+* [[Generic property]], a formal definition of a property shared by almost all objects of a certain type
+* [[GENERIC formalism]], a mathematical framework to describe irreversible phenomena in thermodynamics
+
+==In business==
+* [[Generic term]], a common name used for a range or class of similar things not protected by trademark
+* [[Generic brand]], a brand for a product that does not have an associated brand or trademark, other than the trading name of the business providing the product
+* [[Generic trademark]], a trademark that sometimes or usually replaces a common term in colloquial usage
+
+==In music==
+* &amp;apos;&amp;apos;[[Album – Generic Flipper]]&amp;apos;&amp;apos;, an album by the band Flipper
+* [[The Advantage]], an American band originally called Generic
+
+==See also==
+* [[Generic name (disambiguation)]]
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

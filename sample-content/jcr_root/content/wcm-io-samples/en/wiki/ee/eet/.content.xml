@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="EET"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="EET" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;EET&amp;apos;&amp;apos;&amp;apos; may refer to:
+* [[Eastern European Time]], one of the names of the UTC+2 time zone
+* &amp;apos;&amp;apos;[[EE Times]]&amp;apos;&amp;apos;, a weekly magazine of the electronic industry
+* &amp;quot;[[Eet]]&amp;quot;, a song from Regina Spektor&amp;apos;s album &amp;apos;&amp;apos;Far&amp;apos;&amp;apos;
+* [[EET (library)]], a C library for serializing, compressing, storing and accessing data structures
+* [[eet (symbol)]], an upside-down tee (⊥) used in mathematics and logic
+* [[Electrical Engineering Technology]], an engineering technology discipline related to electrical engineering
+* [[Electronic energy transfer]], a mechanism describing energy transfer between chromophores
+* [[Epoxyeicosatrienoic acid]], a type of biochemical signaling molecule
+* [[Evil Eye Trio]], fictional villains
+* [[Extra element theorem]], an analytic technique for linear electronic circuits
+* [[School of Engineering of Terrassa]], whose Catalan name has EET as an acronym
+* [[Shelby County Airport (Alabama)]], which has an IATA airport code of EET
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

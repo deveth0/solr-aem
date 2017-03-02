@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Percopsiformes"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Percopsiformes" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Taxobox
+| name = Percopsiformes
+| image =Amblyopsis_spelaea.jpg
+| image_caption = &amp;apos;&amp;apos;Amblyopsis spelaeus&amp;apos;&amp;apos;
+| fossil_range = {{Fossil range|Eocene|Recent}}&amp;lt;ref name=EoF/&amp;gt;
+| regnum = [[Animal]]ia
+| phylum = [[Chordate|Chordata]]
+| classis = [[Actinopterygii]]
+| ordo = &amp;apos;&amp;apos;&amp;apos;Percopsiformes&amp;apos;&amp;apos;&amp;apos;
+| ordo_authority = [[Lev Berg|L. S. Berg]], 1940
+| subdivision_ranks = Families
+| subdivision =
+[[Amblyopsidae]] (cavefishes)&amp;lt;br /&amp;gt;
+[[Aphredoderidae]] (pirate perch)&amp;lt;br /&amp;gt;
+[[Percopsidae]] (trout-perches)
+}}
+
+The &amp;apos;&amp;apos;&amp;apos;Percopsiformes&amp;apos;&amp;apos;&amp;apos; are a small order of [[Actinopterygii|ray-finned fishes]], comprising the [[trout-perch]] and its allies. It contains just 9 species, grouped into three families.&amp;lt;ref&amp;gt;{{FishBase_order|order=Amblyopsiformes|year=2008|month=December}}&amp;lt;/ref&amp;gt;
+
+They are generally small fish, ranging from {{convert|5|to|20|cm|in|abbr=on}} in adult body length. They inhabit freshwater habitats in North America. They are grouped together because of technical  characteristics of their internal anatomy, and the different species may appear quite different externally.&amp;lt;ref name=EoF&amp;gt;{{cite book |editor=Paxton, J.R. &amp;amp; Eschmeyer, W.N.|author= Cohen, Daniel M.|year=1998|title=Encyclopedia of Fishes|publisher= Academic Press|location=San Diego|page= 129|isbn= 0-12-547665-5}}&amp;lt;/ref&amp;gt;
+
+==References==
+{{reflist}}
+
+{{Actinopterygii}}
+
+[[Category:Percopsiformes| ]]
+[[Category:Paracanthopterygii]]
+
+[[de:Barschlachse]]
+[[pl:Percopsiformes]]
+[[ar:البيركوبسيفورميس]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

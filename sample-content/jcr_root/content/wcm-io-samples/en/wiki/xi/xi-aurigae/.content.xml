@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Xi Aurigae"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Xi Aurigae" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Starbox short
+ | name = Xi Aurigae
+ | epoch = [[J2000]]
+ | constell = [[Auriga (constellation)|Auriga]]
+ | ra = {{RA|05|54|50.78082}}&amp;lt;ref name=aaa474_2_653/&amp;gt;
+ | dec = {{DEC|+55|42|25.0084}}&amp;lt;ref name=aaa474_2_653/&amp;gt;
+ | spectral = A2&amp;amp;nbsp;V&amp;lt;ref name=aj74_375/&amp;gt;
+ | appmag_v = +5.00&amp;lt;ref name=clpl4_99/&amp;gt;
+ | dist_ly = {{nowrap|238 ± 5}}
+ | dist_pc = {{nowrap|73 ± 1}}&amp;lt;ref name=aaa474_2_653/&amp;gt;
+ | names = 30&amp;amp;nbsp;Aurigae, [[Bonner Durchmusterung|BD]]+55&amp;amp;nbsp;1027, [[Fifth Fundamental Catalogue|FK5]]&amp;amp;nbsp;1157, [[Henry Draper Catalogue|HD]]&amp;amp;nbsp;39283, [[Hipparcos catalogue|HIP]]&amp;amp;nbsp;27949, [[Harvard Revised catalogue|HR]]&amp;amp;nbsp;2029, [[Smithsonian Astrophysical Observatory catalogue|SAO]]&amp;amp;nbsp;25450.&amp;lt;ref name=SIMBAD/&amp;gt;
+}}
+&amp;apos;&amp;apos;&amp;apos;Xi Aurigae&amp;apos;&amp;apos;&amp;apos; (ξ Aur, ξ Aurigae) is the [[Bayer designation]] for a [[star]] in the northern [[constellation]] of [[Auriga (constellation)|Auriga]]. This star was once considered part of the constellation of [[Camelopardalis]] and held the [[Flamsteed designation]] &amp;apos;&amp;apos;&amp;apos;32 Camelopardalis&amp;apos;&amp;apos;&amp;apos;.&amp;lt;ref name=wagman18/&amp;gt; It is visible to the naked eye with an [[apparent visual magnitude]] of +5.0.&amp;lt;ref name=clpl4_99/&amp;gt; The measured annual [[parallax]] shift of this star is {{nowrap|13.69 ± 0.28 [[milliarcsecond|mas]]}},&amp;lt;ref name=aaa474_2_653/&amp;gt; which corresponds to a physical distance of {{Convert|238|ly|pc|abbr=off|lk=on}} with a 5&amp;amp;nbsp;light-year [[margin of error]]. This is an [[A-type main sequence star]] with a [[stellar classification]] of A2&amp;amp;nbsp;V.&amp;lt;ref name=aj74_375/&amp;gt;
+
+==References==
+{{reflist|refs=
+
+&amp;lt;ref name=aaa474_2_653&amp;gt;{{citation | first1=Floor | last1=van Leeuwen | month=November | year=2007 | title=Validation of the new Hipparcos reduction | volume=474 | issue=2 | pages=653–664 | bibcode=2007A&amp;amp;A...474..653V | arxiv=0708.1752v1 | doi=10.1051/0004-6361:20078357 | journal=Astronomy and Astrophysics | postscript=. }} &amp;apos;&amp;apos;Note:&amp;apos;&amp;apos; see VizieR catalogue [http://vizier.u-strasbg.fr/viz-bin/Cat?I/311 I/311].&amp;lt;/ref&amp;gt;
+
+&amp;lt;ref name=clpl4_99&amp;gt;{{citation | last1=Johnson | display-authors=1 | first1=H. L. | last2=Iriarte | first2=B. | last3=Mitchell | first3=R. I. | last4=Wisniewskj | first4=W. Z. | title=UBVRIJKL photometry of the bright stars | journal=Communications of the Lunar and Planetary Laboratory | volume=4 | issue=99 | year=1966 | bibcode=1966CoLPL...4...99J }}&amp;lt;/ref&amp;gt;
+
+&amp;lt;ref name=aj74_375&amp;gt;{{citation | display-authors=1 | last1=Cowley | first1=A. | last2=Cowley | first2=C. | last3=Jaschek | first3=M. | last4=Jaschek | first4=C. | title=A study of the bright A stars. I. A catalogue of spectral classifications | journal=Astronomical Journal | volume=74 | pages=375–406 | month=April | year=1969 | doi=10.1086/110819 | bibcode=1969AJ.....74..375C | postscript=. }}&amp;lt;/ref&amp;gt;
+
+&amp;lt;ref name=SIMBAD&amp;gt;{{citation | title=ksi Aur -- Star | work=SIMBAD Astronomical Database | publisher=Centre de Données astronomiques de Strasbourg | url=http://simbad.u-strasbg.fr/simbad/sim-id?Ident=Xi+Aurigae | accessdate=2012-08-20 | postscript=. }}&amp;lt;/ref&amp;gt;
+
+&amp;lt;ref name=wagman18&amp;gt;{{citation | last=Wagman | first=M. | title=Flamsteed&amp;apos;s Missing Stars | journal=Journal for the History of Astronomy | issue=3 | volume=18 | page=213 | month=August | year=1987 | bibcode=1987JHA....18..209W }}&amp;lt;/ref&amp;gt;
+
+}}
+
+==External links==
+* [http://webviz.u-strasbg.fr/viz-bin/VizieR-S?HR%202029 HR 2029]
+* [http://aladin.u-strasbg.fr/AladinPreview?-c=05+54+50.7821%2B55+42+25.008&amp;amp;ident=*+ksi+Aur&amp;amp;submit=Aladin+previewer Image Xi Aurigae]
+
+{{Stars of Auriga}}
+
+[[Category:Henry Draper Catalogue objects|39283]]
+[[Category:Hipparcos objects|027949]]
+[[Category:Bayer objects|Aurigae, Xi]]
+[[Category:Auriga (constellation)]]
+[[Category:A-type main-sequence stars]]
+
+
+{{star-stub}}
+{{main-star-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

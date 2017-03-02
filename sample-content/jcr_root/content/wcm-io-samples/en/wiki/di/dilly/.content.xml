@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Dilly"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Dilly" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary}}
+&amp;apos;&amp;apos;&amp;apos;Dilly&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+&amp;apos;&amp;apos;&amp;apos;People:&amp;apos;&amp;apos;&amp;apos;
+* [[Erin Dilly]] (b. 1972), a Tony Award nominated actress
+* [[Dilly Braimoh]] (b. 1959), an African-British television presenter and producer
+* [[Dilly Knox]] (1884–1943), British codebreaker and classical scholar at King&amp;apos;s College, Cambridge
+
+&amp;apos;&amp;apos;&amp;apos;Places&amp;apos;&amp;apos;&amp;apos;
+* [[Dili]], also spelled Díli, the capital and largest city of East Timor.
+* [[Dilly, Mali]], a town and commune in Mali
+* [[Dilly, Wisconsin]], United States
+
+&amp;apos;&amp;apos;&amp;apos;Fiction:&amp;apos;&amp;apos;&amp;apos;
+* Dilly the Duck, a fictional animal character in the British 1984 TV series [[People and animals (Thomas the Tank Engine and Friends)|&amp;apos;&amp;apos;Thomas the Tank Engine and Friends&amp;apos;&amp;apos;]]
+* Dilly the Dinosaur, protagonist of a children&amp;apos;s book series by [[Tony Bradman]]
+
+&amp;apos;&amp;apos;&amp;apos;Music:&amp;apos;&amp;apos;&amp;apos;
+*&amp;quot;[[Dilly (song)|Dilly]]&amp;quot;, a 2011 single by Band of Horses, taken from their 2010 album &amp;apos;&amp;apos;[[Infinite Arms]]&amp;apos;&amp;apos;
+
+&amp;apos;&amp;apos;&amp;apos;Other:&amp;apos;&amp;apos;&amp;apos;
+* Derby Dilly, a short-lived 19th century British political faction headed by [[Edward Smith-Stanley, 14th Earl of Derby]]
+* Dilly, an alternate name for the [[Sapodilla]] (&amp;apos;&amp;apos;Manilkara zapota&amp;apos;&amp;apos;)
+
+==See also==
+* [[Dilli (disambiguation)]], has several meanings
+
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

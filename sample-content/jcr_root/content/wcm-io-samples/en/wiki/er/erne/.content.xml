@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Erne"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Erne" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionarypar|erne}}
+&amp;apos;&amp;apos;&amp;apos;Erne&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+;Ships
+* [[HMS Erne|&amp;apos;&amp;apos;HMS&amp;apos;&amp;apos; Erne]], various ships of Britain&amp;apos;s navy, including:
+** [[HMS Erne (U03)|HMS &amp;apos;&amp;apos;Erne&amp;apos;&amp;apos; (U03)]], a sloop-of-war
+** [[HMS Erne (1903)|HMS &amp;apos;&amp;apos;Erne&amp;apos;&amp;apos; (1903)]], a [[River class destroyer]]
+*[[Erne (ship)]], a British (later Canadian) ship that transported Indian labourers
+
+;People
+* [[Young Erne]] (1884–1944), a boxer
+* [[Philippe Erne]] (1986– ), a Liechtenstein footballer
+* [[Earl Erne]], a title in the peerage of Ireland
+
+;Other
+* [[Sea eagle]], any bird of prey in the genus &amp;apos;&amp;apos;Haliaeetus&amp;apos;&amp;apos;
+* [[River Erne]], a river in Ireland
+* [[Lough Erne]], a lake in Ireland
+
+==See also==
+*[[Ernes]], a commune in France
+*[[Ern (disambiguation)]]
+*[[Shannon-Erne Waterway]], a canal in Ireland
+
+{{Disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

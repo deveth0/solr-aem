@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Heptagonal number"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Heptagonal number" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;A &amp;apos;&amp;apos;&amp;apos;heptagonal number&amp;apos;&amp;apos;&amp;apos; is a [[figurate number]] that represents a [[heptagon]]. The &amp;apos;&amp;apos;n&amp;apos;&amp;apos;-th heptagonal number is given by the formula
+:&amp;lt;math&amp;gt;\frac{5n^2 - 3n}{2}&amp;lt;/math&amp;gt;.
+[[File:Heptagonal numbers.svg|thumbnail|right|The first five heptagonal numbers.]]
+The first few heptagonal numbers are:
+:[[1 (number)|1]], [[7 (number)|7]], [[18 (number)|18]], [[34 (number)|34]], [[55 (number)|55]], [[81 (number)|81]], [[112 (number)|112]], [[148 (number)|148]], [[189 (number)|189]], [[235 (number)|235]], 286, 342, 403, 469, 540, [[616 (number)|616]], 697, 783, 874, 970, 1071, 1177, 1288, 1404, 1525, 1651, 1782, … {{OEIS|id=A000566}}
+
+==Parity==
+The parity of heptagonal numbers follows the pattern odd-odd-even-even. Like [[square number]]s, the [[digital root]] in base 10 of a heptagonal number can only be 1, 4, 7 or 9. Five times a heptagonal number, plus 1 equals a [[triangular number]].
+
+==Generalized heptagonal numbers==
+A &amp;apos;&amp;apos;&amp;apos;generalized heptagonal number&amp;apos;&amp;apos;&amp;apos; is obtained by the formula
+:&amp;lt;math&amp;gt;T_n + T_{\lfloor \frac{n}{2} \rfloor},&amp;lt;/math&amp;gt;
+where &amp;apos;&amp;apos;T&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;&amp;apos;&amp;apos;n&amp;apos;&amp;apos;&amp;lt;/sub&amp;gt; is the &amp;apos;&amp;apos;n&amp;apos;&amp;apos;th triangular number. The first few generalized heptagonal numbers are:
+:1, [[4 (number)|4]], 7, [[13 (number)|13]], 18, [[27 (number)|27]], 34, [[46 (number)|46]], 55, [[70 (number)|70]], 81, [[99 (number)|99]], 112, … {{OEIS|id=A085787}}
+
+Every other generalized heptagonal number is a regular heptagonal number. Besides 1 and 70, no generalized heptagonal numbers are also [[Pell number]]s.&amp;lt;ref&amp;gt;B. Srinivasa Rao, &amp;quot;Heptagonal Numbers in the Pell Sequence and [[Diophantine equation]]s &amp;lt;math&amp;gt;2x^2 = y^2(5y - 3)^2 \pm 2&amp;lt;/math&amp;gt;&amp;quot; &amp;apos;&amp;apos;[[Fibonacci Quarterly|Fib. Quart.]]&amp;apos;&amp;apos; &amp;apos;&amp;apos;&amp;apos;43&amp;apos;&amp;apos;&amp;apos; 3: 194&amp;lt;/ref&amp;gt;
+
+==Sum of reciprocals==
+A formula for the sum of the reciprocals of the heptagonal numbers is given by:&amp;lt;ref&amp;gt;[http://www.math.psu.edu/sellersj/downey_ong_sellers_cmj_preprint.pdf Beyond the Basel Problem: Sums of Reciprocals of Figurate Numbers]&amp;lt;/ref&amp;gt;
+
+:&amp;lt;math&amp;gt;
+\sum_{n=1}^\infty \frac{2}{n(5n-3)} = \frac{1}{15}{\pi}{\sqrt{25-10\sqrt{5}}}+\frac{2}{3}\ln(5)+\frac{{1}+\sqrt{5}}{3}\ln\left(\frac{1}{2}\sqrt{10-2\sqrt{5}}\right)+\frac{{1}-\sqrt{5}}{3}\ln\left(\frac{1}{2}\sqrt{10+2\sqrt{5}}\right)
+&amp;lt;/math&amp;gt;
+
+==References==
+
+&amp;lt;references/&amp;gt;
+
+{{Classes of natural numbers}}
+[[Category:Figurate numbers]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

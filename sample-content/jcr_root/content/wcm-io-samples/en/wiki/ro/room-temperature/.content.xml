@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Room temperature"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Room temperature" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{lead too short|date=September 2012}}
+{{Refimprove|date=June 2009}}
+
+&amp;apos;&amp;apos;&amp;apos;Room temperature&amp;apos;&amp;apos;&amp;apos; is a general term describing common indoor [[temperature]]s. It is usually in the range of 20&amp;amp;nbsp;°C (68&amp;amp;nbsp;°F or 293 K) to 25&amp;amp;nbsp;°C (77&amp;amp;nbsp;°F or 298 K).&amp;lt;ref&amp;gt;http://www.wolframalpha.com/input/?i=room+temperature&amp;lt;/ref&amp;gt;
+
+==Comfort levels==
+The [[American Society of Heating, Refrigerating and Air-Conditioning Engineers]] (ASHRAE) has listings for suggested temperatures and air flow rates in different types of buildings and different environmental circumstances. A comfortable room temperature depends on individual needs and other factors.{{fact|date=September 2012}}
+
+According to the West Midlands Public Health Observatory (UK),&amp;lt;ref&amp;gt;{{cite web|url=http://www.wmpho.org.uk/publications/item.aspx?id=47|work=West Midlands Public Health Observatory|title=Fuel Poverty|date=1 March 2006|accessdate=25 December 2011|first=Anne|last=Hartley|publisher=West Midlands Public Health Observatory|location=Birmingham, UK}}&amp;lt;/ref&amp;gt; an adequate level of warmth for older people is {{convert|21|C|F}} in the living room and {{convert|18|C|F}} in other occupied rooms, although most people (at least in the UK) will find this quite cold; {{convert|24|C|F}} is stated as the maximum comfortable room temperature.&amp;lt;ref&amp;gt;{{cite news|url=http://news.bbc.co.uk/1/hi/health/5372296.stm|title=Why more people die in the winter|first=Michelle|last=Roberts|work=BBC News|date=27 October 2006|accessdate=25 December 2011}}&amp;lt;/ref&amp;gt;
+
+Owing to variations in humidity and likely clothing, recommendations for summer and winter may vary; one for summer is {{convert|23|C|F}} to {{convert|26|C|F}}, with that for winter being {{convert|19|C|F}} to {{convert|21|C|F}}, although by other considerations the maximum should be below {{convert|24|C|F}}&amp;amp;nbsp;– for [[sick building syndrome]] avoidance, below {{convert|22|C|F}}.&amp;lt;ref&amp;gt;{{cite book|url=http://books.google.com/books?id=KBbHmp2yisEC&amp;amp;lpg=PA149&amp;amp;ots=yTqUP4xIOx&amp;amp;dq=%2BASHRAE%20%2B%22recommended%20temperatures%22&amp;amp;pg=PA149#v=onepage&amp;amp;q=+ASHRAE%20+%22recommended%20temperatures%22&amp;amp;f=false|pages=149–151|title=Managing Indoor Air Quality|publisher=Fairmont Press|year=2011|first1=H. E.|last1=Burroughs|first2=Shirley|last2=Hansen|accessdate=25 December 2015}}&amp;lt;/ref&amp;gt;
+
+==Ambient versus room temperature==
+&amp;apos;&amp;apos;Room temperature&amp;apos;&amp;apos; implies a temperature inside a temperature-controlled building. &amp;apos;&amp;apos;Ambient temperature&amp;apos;&amp;apos; simply means &amp;quot;the temperature of the surroundings&amp;quot; and will be the same as room temperature indoors. In many languages, such as [[Spanish language|Spanish]], there is an expression for &amp;apos;&amp;apos;ambient temperature&amp;apos;&amp;apos;, but no distinct translation for &amp;apos;&amp;apos;room temperature&amp;apos;&amp;apos;.&amp;lt;ref&amp;gt;{{Cite web|title=ambiente|work=WordReference.com Spanish-English Dictionary|publisher=WordReference.com|url=http://www.wordreference.com/es/en/translation.asp?spen=ambiente|accessdate=20 September 2011}}&amp;lt;/ref&amp;gt;
+
+==See also==
+* [[Ambient food]]
+* [[Psychrometrics]], the study of moist air
+* [[International Standard Atmosphere]]
+
+==References==
+{{Reflist}}
+
+[[Category:Heat transfer]]
+[[Category:Science experiments]]
+[[Category:Temperature]]
+[[Category:Environmental engineering]]
+[[Category:Heating, ventilating, and air conditioning]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

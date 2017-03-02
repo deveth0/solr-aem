@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Aufidius"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Aufidius" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Orphan|date=March 2011}}
+
+&amp;apos;&amp;apos;&amp;apos;Aufidius&amp;apos;&amp;apos;&amp;apos; is the [[Roman naming conventions|nomen]] of the Roman &amp;apos;&amp;apos;[[gens]]&amp;apos;&amp;apos; [[Aufidia (gens)|Aufidia]]&amp;apos;&amp;apos;.
+
+* Gnaeus Aufidius Orestes, consul 71 BC
+* Marcus [[Aufidius Lurco]], a magistrate and maternal grandfather to [[Ancient Rome|Roman]] [[Empress]] [[Livia]] Drusilla
+* [[Aufidius Bassus]], historian
+* Publius Iuuentius Celsus T. Aufidius Hoenius Seuerianus, consul 129
+* Lucius Aufidius Pantera, prefect who dedicated an altar now at [[Lympne]], [[Kent]], England [http://www.roman-britain.org/places/portus_lemanis.htm]
+* Gaius Aufidius Victorinus, consul 183
+* Marcus Aufidius Fronto, consul 199
+* Gaius Aufidius Victorinus, consul 200
+* Gaius Aufidius Marcellus, consul 226
+
+== Fiction ==
+&amp;apos;&amp;apos;&amp;apos;Tullus Aufidius&amp;apos;&amp;apos;&amp;apos; is a major character in the [[tragedy]] of &amp;apos;&amp;apos;[[Coriolanus (play)|Coriolanus]]&amp;apos;&amp;apos; by [[William Shakespeare]].
+
+[[Category:Ancient Roman families]]
+[[Category:Prosopography of Ancient Rome]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

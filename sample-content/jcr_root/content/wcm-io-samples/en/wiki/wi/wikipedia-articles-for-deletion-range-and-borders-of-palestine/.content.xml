@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:Articles for deletion/Range and borders of Palestine"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:Articles for deletion/Range and borders of Palestine" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;Article [[Range and borders of Palestine]] listed on [[WP:VFD]] Apr 29 to May 6 2004, consensus was to delete.  Discussion:
+
+This user attempted to make these changes to the main Palestine article, and was voted down by the other users.  Instead, they went and created a new counter-article.  This should be deleted.  --[[User:Rei|Rei]]
+*  Delete.  [[User:Postdlf|Postdlf]] 7:21 29 Apr 2004 (UTC)
+* Delete.  [[User:SWAdair|SWAdair]] | [[User talk:SWAdair|Talk ]] 03:22, 30 Apr 2004 (UTC)
+*Delete. --[[User:Lick-my-ankles|Lick-my-ankles]] 04:41, 30 Apr 2004 (UTC)
+
+&amp;apos;&amp;apos;End discussion&amp;apos;&amp;apos;&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

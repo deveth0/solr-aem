@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Legendre form"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Legendre form" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[mathematics]], the &amp;apos;&amp;apos;&amp;apos;Legendre forms of [[elliptic integral]]s&amp;apos;&amp;apos;&amp;apos; are a canonical set of three elliptic integrals to which all others may be reduced. [[Adrien-Marie Legendre|Legendre]] chose the name &amp;apos;&amp;apos;elliptic integrals&amp;apos;&amp;apos; because&amp;lt;ref&amp;gt;{{cite book
+  | last = Gratton-Guinness
+  | first = Ivor
+  | title = The Fontana History of the Mathematical Sciences
+  | publisher = Fontana Press
+  | year = 1997
+  | pages = 308
+  | isbn = 0-00-686179-2}}
+&amp;lt;/ref&amp;gt; the second kind gives the [[arc length]] of an [[ellipse]] of unit semi-minor axis and [[eccentricity (mathematics)|eccentricity]] &amp;lt;math&amp;gt;\scriptstyle{k}&amp;lt;/math&amp;gt; (the ellipse being defined parametrically by &amp;lt;math&amp;gt;\scriptstyle{x = \sqrt{1 - k^{2}} \cos(t)}&amp;lt;/math&amp;gt;, &amp;lt;math&amp;gt;\scriptstyle{y = \sin(t)}&amp;lt;/math&amp;gt;).
+
+In modern times the Legendre forms have largely been supplanted by an alternative canonical set, the [[Carlson symmetric form]]s. A more detailed treatment of the Legendre forms is given in the main article on [[elliptic integral]]s.
+
+== Definition ==
+
+The &amp;apos;&amp;apos;&amp;apos;incomplete elliptic integral of the first kind&amp;apos;&amp;apos;&amp;apos; is defined as,
+
+:&amp;lt;math&amp;gt;F(\phi,k) = \int_0^\phi \frac{1}{\sqrt{1 - k^2 \sin^2(t)}} dt,&amp;lt;/math&amp;gt;
+
+the &amp;apos;&amp;apos;&amp;apos;second kind&amp;apos;&amp;apos;&amp;apos; as
+
+:&amp;lt;math&amp;gt;E(\phi,k) = \int_0^\phi \sqrt{1 - k^2 \sin^2(t)}\,dt,&amp;lt;/math&amp;gt;
+
+and the &amp;apos;&amp;apos;&amp;apos;third kind&amp;apos;&amp;apos;&amp;apos; as
+
+:&amp;lt;math&amp;gt;\Pi(\phi,n,k) = \int_0^\phi \frac{1}{(1 - n \sin^2(t))\sqrt{1 - k^2 \sin^2(t)}}\,dt.&amp;lt;/math&amp;gt;
+
+The argument &amp;apos;&amp;apos;n&amp;apos;&amp;apos; of the third kind of integral is known as the &amp;apos;&amp;apos;&amp;apos;characteristic&amp;apos;&amp;apos;&amp;apos;, which in different notational conventions can appear as either the first, second or third argument of &amp;apos;&amp;apos;Π&amp;apos;&amp;apos; and furthermore is sometimes defined with the opposite sign. The argument order shown above is that of Gradshteyn and Ryzhik&amp;lt;ref name=gradshteyn_ryzhik&amp;gt;{{cite book
+  | author = Israil Solomonovich Gradshteyn, Iosif Moiseevich Ryzhik,
+  | title = Tables of Series, Products and Integrals
+  | language = Russian
+  | location = Moscow
+  | publisher = Nauka
+  | year = 1971
+  | edition = 5
+  | chapter = Chap. 8.1 Special Functions: Elliptic Integrals and Functions}}
+&amp;lt;/ref&amp;gt; as well as [[Numerical Recipes]].&amp;lt;ref name=numerical_recipes&amp;gt;{{cite book
+  | author = William H. Press, Saul A. Teukolsky, William T. Vetterlimg and Brian P. Flannery
+  | title = Numerical Recipes in C
+  | publisher = Cambridge University Press
+  | year = 1992
+  | edition = 2
+  | chapter = Chap. 6.11 Special Functions: Elliptic Integrals and Jacobian Functions
+  | pages = 261–271
+  | isbn = 0-521-43108-5
+  | url = http://www.nrbook.com/a/bookcpdf/c6-11.pdf}}
+&amp;lt;/ref&amp;gt; The choice of sign is that of [[Abramowitz and Stegun]]&amp;lt;ref name=abramowitz_stegun&amp;gt;{{cite book
+  | author = Milton Abramowitz and Irene A. Stegun,
+  | title = Handbook of Mathematical Functions
+  | publisher = Dover
+  | year = 1964
+  | chapter = Chap. 17 Elliptic Integrals
+  | pages = 589–628
+  | isbn = 0-486-61272-4
+  | url = http://www.math.sfu.ca/~cbm/aands/page_589.htm}}
+&amp;lt;/ref&amp;gt; as well as Gradshteyn and Ryzhik,&amp;lt;ref name=gradshteyn_ryzhik/&amp;gt; but corresponds to the &amp;lt;math&amp;gt;\scriptstyle{\Pi(\phi,-n,k)}&amp;lt;/math&amp;gt; of [[Numerical Recipes]].&amp;lt;ref name=numerical_recipes/&amp;gt;
+
+The respective &amp;apos;&amp;apos;&amp;apos;complete elliptic integrals&amp;apos;&amp;apos;&amp;apos; are obtained by setting the &amp;apos;&amp;apos;&amp;apos;amplitude&amp;apos;&amp;apos;&amp;apos;, &amp;lt;math&amp;gt;\scriptstyle{\phi}&amp;lt;/math&amp;gt;, the upper limit of the integrals, to &amp;lt;math&amp;gt;\scriptstyle{\pi / 2}&amp;lt;/math&amp;gt;.
+
+The Legendre form of an [[elliptic curve]] is given by
+
+:&amp;lt;math&amp;gt;y^2 = x(x - 1)(x - \lambda)&amp;lt;/math&amp;gt;
+
+== Numerical Evaluation ==
+
+The classic method of evaluation is by means of &amp;apos;&amp;apos;&amp;apos;[[John Landen|Landen]]&amp;apos;s transformations&amp;apos;&amp;apos;&amp;apos;. Descending Landen transformation decreases the &amp;apos;&amp;apos;&amp;apos;modulus&amp;apos;&amp;apos;&amp;apos; &amp;lt;math&amp;gt;\scriptstyle{k}&amp;lt;/math&amp;gt; towards zero, while increasing the amplitude &amp;lt;math&amp;gt;\scriptstyle{\phi}&amp;lt;/math&amp;gt;. Conversely, ascending transformation increases the modulus towards unity, while decreasing the amplitude. In either limit of &amp;lt;math&amp;gt;\scriptstyle{k}&amp;lt;/math&amp;gt;, zero or one, the integral is readily evaluated.
+
+Most modern authors recommend evaluation in terms of the [[Carlson symmetric form]]s, for which there exist efficient, robust and relatively simple algorithms. This approach has been adopted by [[Boost C++ Libraries]], [[GNU Scientific Library]]&amp;lt;!--see gsl/specfunc/ellint.c--&amp;gt; and [[Numerical Recipes]].&amp;lt;ref name=numerical_recipes/&amp;gt;
+
+== References ==
+
+&amp;lt;references /&amp;gt;
+
+== See also ==
+
+* [[Carlson symmetric form]]
+
+{{DEFAULTSORT:Legendre Form}}
+[[Category:Special functions]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="IEC 60027"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="IEC 60027" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Use British (Oxford) English|date=December 2011}}
+&amp;apos;&amp;apos;&amp;apos;IEC 60027&amp;apos;&amp;apos;&amp;apos; (formerly &amp;apos;&amp;apos;&amp;apos;IEC 27&amp;apos;&amp;apos;&amp;apos;) is the [[International Electrotechnical Commission]]&amp;apos;s [[technical standard|standard]] on &amp;apos;&amp;apos;Letter symbols to be used in electrical technology&amp;apos;&amp;apos;. It consists of several parts:
+* IEC 60027-1: General
+* IEC 60027-2: Telecommunications and electronics
+* IEC 60027-3: Logarithmic and related quantities, and their units
+* IEC 60027-4: Symbols for quantities to be used for rotating electrical machines
+* IEC 60027-6: Control technology
+* IEC 60027-7: Physiological quantities and units
+
+A closely related international standard on [[physical quantity|quantities]] and [[physical unit|units]] is [[ISO 31]]. The ISO 31 and IEC 60027 Standards are being revised by the two standardization organizations in collaboration. The revised harmonized standard is known as [[ISO/IEC 80000]], Quantities and units. It supersedes both ISO 31 and part of IEC 60027.
+
+==See also==
+* [[Binary prefix]]
+==External links==
+* &amp;quot;[http://webstore.iec.ch/webstore/webstore.nsf/Artnum_PK/44009 IEC 60027-7 (2010-05) Ed. 1.0]&amp;quot; (IEC Catalog, www.iec.ch)
+* &amp;quot;[http://webstore.iec.ch/preview/info_iec60027-2%7Bed3.0%7Db.pdf IEC 60027-2 (2005-08) Ed. 3.0 Bilingual]&amp;quot; (preview)
+
+[[Category:IEC standards|#60027]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

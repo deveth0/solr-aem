@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Desk on a frame"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Desk on a frame" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;desk on a frame&amp;apos;&amp;apos;&amp;apos; (or desk on frame) is usually an antique form made up of two pieces of furniture. The first piece is a fairly large and closable [[portable desk]] with  a slanted hinged top giving access to the writing surface and utility nooks and small drawers. The second piece is a stand made for it in the same style and material. It is also sometimes a single piece of furniture which looks as if it were made up of the two previous pieces but is in fact solid and undetachable. This form was popular in [[Colonial America]] and was often done in the [[Queen Anne style furniture|Queen Anne style]].
+
+The [[slant top desk]] is a direct morphological descendant. In a sense the  Spanish [[Bargueno desk|Bargueno]] (or Vargueno) desk is a distant cousin of the two piece version, since the Bargueno is also made up of a portable desk and a stand constructed specially for it, using the same materials and style.
+
+See also the [[list of desk forms and types]].
+
+
+==References==
+
+*Aronson, Joseph. The Encyclopedia of Furniture. 3rd edition. New York: Crown Publishers Inc., 1965.
+*Boyce, Charles.  Dictionary of Furniture.  2nd ed. New York: Roundtable Press Book, 2001.
+*Moser,Thomas.  Measured Shop Drawings for American Furniture.  New York:  Sterling Publlishing Inc., 1985.
+*Sack, Albert. Fine Points of Furniture: Early American. New York: Crown Publishers, 1950.
+
+[[Category:Desks]]
+
+
+{{furniture-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Xenos vesparum"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Xenos vesparum" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{taxobox
+| regnum = [[Animal]]ia
+| phylum = [[Arthropod]]a
+| classis = [[Insect]]a
+| ordo = [[Strepsiptera]]
+| familia = [[Xenidae]]
+| subfamilia = [[Xeninae]]
+| genus = &amp;apos;&amp;apos;[[Xenos (genus)|Xenos]]&amp;apos;&amp;apos;
+| species = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Xenos vesparum&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+| species_authority = [[Pietro Rossi (scientist)|Rossi]], 1793
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Xenos vesparum&amp;apos;&amp;apos;&amp;apos; is an [[insect]] species, whose females are permanent [[entomophagous]] [[endoparasite]]s of &amp;apos;&amp;apos;[[Polistes]]&amp;apos;&amp;apos; paper wasps. They dwell their whole life in the [[abdomen]] of the [[wasp]].
+
+According to Fabio Manfredini of Pennsylvania State University, co-author of an  Animal Behaviour study of this insect&amp;apos;s odd life cycle, published on 8 October 2011, the parasite infects a European worker wasp and completely alters its worker caste behaviour. The infected wasp begins to suffer nutritionally, then flies to meet with other infected wasps.  The male parasite exits the wasps abdomen and mates with the female parasites which stay inside their host. Wasps infected with the male parasite die. Wasps infected with the female parasite then fatten themselves up much like queen wasps do. They then fly to meet with other uninfected queen wasps. Then when the parasite is mature, the infected wasp flies to mingle with other uninfected wasps, thereby spreading brood and larvae into new environments.
+
+== Sources ==
+
+* [http://www.ncbi.nlm.nih.gov/sites/entrez?cmd=Retrieve&amp;amp;db=PubMed&amp;amp;list_uids=16047336&amp;amp;dopt=AbstractPlus Mating of Xenos vesparum ]
+* [http://www.discoverlife.org/nh/tx/Insecta/Strepsiptera/images/strep-im-5-300x272.jpg.html Xenos vesparum electron-microscope image]
+* {{citation
+  | title   = New findings on sperm ultrastructure of Xenos vesparum (Rossi) (Strepsiptera, Insecta)
+  | author  = R. Dallai, L. Beani, J. Kathirithamby, P. Lupetti and B. A. Afzelius
+  | doi     = 10.1016/S0040-8166(02)00099-X
+  | year    = 2003
+  | journal = Tissue and Cell
+  | volume  = 35
+  | pages   = 19
+  | pmid    = 12589726
+  | issue   = 1
+  }}
+* {{citation
+  | title   = The midgut ultrastructure of the endoparasite Xenos vesparum (Rossi) (Insecta, Strepsiptera) during post-embryonic development and stable carbon isotopic analyses of the nutrient uptake
+  | author  = Fabiola Giusti, Luigi Dallai, Laura Beani, Fabio Manfredini and Romano Dallai
+  | doi     = 10.1016/j.asd.2007.01.001
+  | year    = 2007
+  | journal = Arthropod Structure &amp;amp; Development
+  | volume  = 36
+  | pages   = 183
+  | pmid    = 18089098
+  | issue   = 2
+  }}
+* {{cite web
+  | url        = http://www.wired.co.uk/news/archive/2011-10/20/parasite-wasp-zombies
+  | title      = Parasite turns wasps into outsider zombie queens
+  | author     = Brandon Keim
+  | date       = 20 October 11
+  | work       = [[Wired (magazine)|Wired]]
+  | accessdate = 2011-11-02
+  }}
+
+[[Category:Strepsiptera]]
+
+{{Strepsiptera-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

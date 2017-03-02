@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="USS Dugong (SS-353)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="USS Dugong (SS-353)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{|{{Infobox Ship Begin}}
+{{Infobox Ship Image
+|Ship image=
+|Ship caption=
+}}
+{{Infobox Ship Career
+|Hide header=
+|Ship country=United States
+|Ship flag={{USN flag|1944}}
+|Ship name=USS &amp;apos;&amp;apos;Dugong&amp;apos;&amp;apos;
+|Ship namesake=The [[dugong]], an aquatic [[mammal]]
+|Ship ordered=
+|Ship builder=[[Electric Boat Company]], [[Groton, Connecticut|Groton]], [[Connecticut]] (proposed)&amp;lt;ref&amp;gt;&amp;apos;&amp;apos;Conway{{&amp;apos;}}s All the World{{&amp;apos;}}s Fighting Ships 1922-1946&amp;apos;&amp;apos;, p. 146&amp;lt;/ref&amp;gt;
+|Ship laid down=Never
+|Ship launched=
+|Ship acquired=
+|Ship commissioned=
+|Ship decommissioned=
+|Ship in service=
+|Ship out of service=
+|Ship struck=
+|Ship reinstated=
+|Ship fate=Construction order cancelled 23 October 1944
+|Ship status=
+}}
+{{Infobox Ship Characteristics
+|Hide header=
+|Header caption=
+|Ship class={{sclass|Balao|submarine|4}} [[diesel-electric]] [[submarine]]&amp;lt;ref name=&amp;quot;Register&amp;quot;/&amp;gt;
+|Ship displacement={{convert|1526|long ton|t|lk=on}} surfaced,&amp;lt;ref name=&amp;quot;Register&amp;quot;/&amp;gt; {{convert|2414|long ton|t}} submerged&amp;lt;ref name=&amp;quot;Register&amp;quot;/&amp;gt;
+|Ship length={{convert|311|ft|9|in|abbr=on}}&amp;lt;ref name=&amp;quot;Register&amp;quot;/&amp;gt;
+|Ship beam={{convert|27|ft|3|in|abbr=on}}&amp;lt;ref name=&amp;quot;Register&amp;quot;/&amp;gt;
+|Ship draft={{convert|16|ft|10|in|abbr=on}} maximum&amp;lt;ref name=&amp;quot;Register&amp;quot;/&amp;gt;
+|Ship propulsion={{Fleet-boat-propulsion-early-GM-4-GE}}
+|Ship speed={{convert|20.25|kn|km/h|abbr=on|lk=in}} surfaced,&amp;lt;ref name=&amp;quot;FriedmanSubs1-specs&amp;quot;&amp;gt;&amp;apos;&amp;apos;U.S. Submarines Through 1945&amp;apos;&amp;apos; pp. 305-311&amp;lt;/ref&amp;gt; {{convert|8.75|kn|km/h|abbr=on}} submerged&amp;lt;ref name=&amp;quot;FriedmanSubs1-specs&amp;quot;/&amp;gt;
+|Ship range={{convert|11000|nmi|km|abbr=on}} surfaced @ {{convert|10|kn|km/h|abbr=on}}&amp;lt;ref name=&amp;quot;FriedmanSubs1-specs&amp;quot;/&amp;gt;
+|Ship endurance=48 hours @ {{convert|2|kn|km/h|abbr=on}} submerged,&amp;lt;ref name=&amp;quot;FriedmanSubs1-specs&amp;quot;/&amp;gt; 75 days on patrol
+|Ship test depth={{convert|400|ft|m|abbr=on}}&amp;lt;ref name=&amp;quot;FriedmanSubs1-specs&amp;quot;/&amp;gt;
+|Ship complement=10 officers, 70–71 enlisted&amp;lt;ref name=&amp;quot;FriedmanSubs1-specs&amp;quot;/&amp;gt;
+|Ship sensors=
+|Ship EW=
+|Ship armament={{Fleet-boat-armament-4-inch}}
+}}
+|}
+&amp;apos;&amp;apos;&amp;apos;USS &amp;apos;&amp;apos;Dugong&amp;apos;&amp;apos; (SS-353)&amp;apos;&amp;apos;&amp;apos;, would have been a [[Balao class submarine|&amp;apos;&amp;apos;Balao&amp;apos;&amp;apos;-class]] [[submarine]], the only submarine of the [[United States Navy]] to be named for the [[dugong]], an aquatic herbivorous mammal related to the [[manatee]].  Her construction was canceled on 23 October 1944.
+
+==References==
+{{reflist}}
+{{refbegin}}
+*{{DANFS|http://www.history.navy.mil/danfs/d6/dugong.htm}}
+*Gardiner, Robert, Ed. &amp;apos;&amp;apos;Conway&amp;apos;s All the World&amp;apos;s Fighting Ships 1922-1946&amp;apos;&amp;apos;. New York: Mayflower Books, 1980. ISBN 0-8317-0303-2.
+{{refend}}
+
+{{Balao class submarine}}
+
+{{DEFAULTSORT:Dugong (SS-353)}}
+[[Category:Balao-class submarines|Dugong (SS-353)]]
+[[Category:Proposed ships of the United States Navy]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

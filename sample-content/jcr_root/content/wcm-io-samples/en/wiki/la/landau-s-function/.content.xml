@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Landau&#x27;s function"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Landau&#x27;s function" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In mathematics, &amp;apos;&amp;apos;&amp;apos;Landau&amp;apos;s function&amp;apos;&amp;apos;&amp;apos; &amp;apos;&amp;apos;g&amp;apos;&amp;apos;(&amp;apos;&amp;apos;n&amp;apos;&amp;apos;), named after [[Edmund Landau]], is defined for every [[natural number]] &amp;apos;&amp;apos;n&amp;apos;&amp;apos; to be the largest [[order (group theory)|order]] of an element of the [[symmetric group]] &amp;apos;&amp;apos;S&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;&amp;apos;&amp;apos;n&amp;apos;&amp;apos;&amp;lt;/sub&amp;gt;. Equivalently, &amp;apos;&amp;apos;g&amp;apos;&amp;apos;(&amp;apos;&amp;apos;n&amp;apos;&amp;apos;) is the largest [[least common multiple]] (lcm) of any [[integer partition|partition]] of &amp;apos;&amp;apos;n&amp;apos;&amp;apos;, or the maximum number of times a [[permutation]] of &amp;apos;&amp;apos;n&amp;apos;&amp;apos; elements can be recursively applied to itself before it returns to its starting sequence.
+
+For instance, 5 = 2 + 3 and lcm(2,3) = 6. No other partition of 5 yields a bigger lcm, so &amp;apos;&amp;apos;g&amp;apos;&amp;apos;(5) = 6. An element of order 6 in the group &amp;apos;&amp;apos;S&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;5&amp;lt;/sub&amp;gt; can be written in cycle notation as (1 2) (3 4 5).
+
+The [[integer sequence]] &amp;apos;&amp;apos;g&amp;apos;&amp;apos;(0) = 1, &amp;apos;&amp;apos;g&amp;apos;&amp;apos;(1) = 1, &amp;apos;&amp;apos;g&amp;apos;&amp;apos;(2) = 2, &amp;apos;&amp;apos;g&amp;apos;&amp;apos;(3) = 3, &amp;apos;&amp;apos;g&amp;apos;&amp;apos;(4) = 4, &amp;apos;&amp;apos;g&amp;apos;&amp;apos;(5) = 6, &amp;apos;&amp;apos;g&amp;apos;&amp;apos;(6) = 6, &amp;apos;&amp;apos;g&amp;apos;&amp;apos;(7) = 12, &amp;apos;&amp;apos;g&amp;apos;&amp;apos;(8) = 15, ... {{OEIS|A000793}} is named after [[Edmund Landau]], who proved in 1902&amp;lt;ref&amp;gt;Landau, pp. 92–103&amp;lt;/ref&amp;gt; that
+:&amp;lt;math&amp;gt;\lim_{n\to\infty}\frac{\ln(g(n))}{\sqrt{n \ln(n)}} = 1&amp;lt;/math&amp;gt;
+(where ln denotes the [[natural logarithm]]).
+
+The statement that
+:&amp;lt;math&amp;gt;\ln g(n)&amp;lt;\sqrt{\mathrm{Li}^{-1}(n)}&amp;lt;/math&amp;gt;
+for all sufficiently large &amp;apos;&amp;apos;n&amp;apos;&amp;apos;, where Li&amp;lt;sup&amp;gt;&amp;amp;minus;1&amp;lt;/sup&amp;gt; denotes the inverse of the [[logarithmic integral function]], is equivalent to the [[Riemann hypothesis]].
+
+It can be shown that:
+:&amp;lt;math&amp;gt;g(n)&amp;lt;e^{n/e}.&amp;lt;/math&amp;gt;
+
+==Notes==
+&amp;lt;references/&amp;gt;
+
+== References ==
+*[[E. Landau]], &amp;quot;Über die Maximalordnung der Permutationen gegebenen Grades [On the maximal order of permutations of given degree]&amp;quot;, &amp;apos;&amp;apos;Arch. Math. Phys.&amp;apos;&amp;apos; Ser. 3, vol. 5, 1903.
+*W. Miller, &amp;quot;The maximum order of an element of a finite symmetric group&amp;quot;, &amp;apos;&amp;apos;[[American Mathematical Monthly]]&amp;apos;&amp;apos;, vol. 94, 1987, pp.&amp;amp;nbsp;497&amp;amp;ndash;506.
+*J.-L. Nicolas, &amp;quot;On Landau&amp;apos;s function &amp;apos;&amp;apos;g&amp;apos;&amp;apos;(&amp;apos;&amp;apos;n&amp;apos;&amp;apos;)&amp;quot;, in &amp;apos;&amp;apos;The Mathematics of Paul Erdős&amp;apos;&amp;apos;, vol. 1, Springer-Verlag, 1997, pp.&amp;amp;nbsp;228&amp;amp;ndash;240.
+
+==External links==
+*{{SloanesRef |sequencenumber=A000793|name=Landau&amp;apos;s function on the natural numbers}}
+
+[[Category:Group theory]]
+[[Category:Permutations]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

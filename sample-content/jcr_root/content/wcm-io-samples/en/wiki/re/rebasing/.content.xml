@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Rebasing"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Rebasing" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{About|computing activities|the use of a new base for the CPI|consumer price index}}
+{{Merge to|Relocation (computer science) |discuss=Talk:Relocation (computer science)#Merge Rebasing| |date=September 2010}}
+In computing,  &amp;apos;&amp;apos;&amp;apos;rebasing&amp;apos;&amp;apos;&amp;apos; is one of the following:
+
+* The process of creating a [[shared library]] image in such a way that it is guaranteed to use [[virtual memory]] without conflicting with any other [[Library (computer science)|shared libraries]] loadable in the system. This technique is used extensively on [[Win32]] platforms to avoid the overhead of address relocation of system [[Dynamic-link library|DLL]]s by the loader. Some security extensions to [[Linux]]/[[X86 architecture|x86]] use rebasing to force the use of code addresses below 0x00ffffff in order to introduce a 0x00 byte into all code pointers; this eliminates a certain class of [[buffer overflow]] security problems related to improper checking of zero terminated strings, common in the [[C (programming language)|C]] [[programming language]].
+* The mechanism that the Microsoft Exchange or Microsoft Outlook DST ([[Daylight saving time]]) rebasing tool TZMOVE.EXE uses to recalculate and reschedule appointment dates that are affected by DST.
+* The act of moving [[changeset]]s to a different [[Branching (software)|branch]] when using a [[revision control]] system, or, in some systems, by synchronizing a branch with the originating branch by merging all new changes in the latter to the former.  For example, [[git (software)|git]] and [[Darcs]] do this (but Darcs extends the concept and calls it &amp;quot;patch commutation&amp;quot;).
+
+==Further reading==
+* {{Cite book|title=Linkers and loaders|series=The Morgan Kaufmann Series in Software Engineering and Programming|author=[[John R. Levine]]|publisher=Morgan Kaufmann|year=2000|isbn=978-1-55860-496-4|pages=218}}
+* {{Cite web|url=http://blogs.msdn.com/b/oldnewthing/archive/2004/12/17/323556.aspx|author=[[Raymond Chen]]|date=2004-12-17|title=How did Windows 95 rebase DLLs?|work=The Old New Thing}}
+* {{Cite web|title=Rebasing Win32 DLLs|author=Thiadmer Riemersma|date=2000-12-01|url=http://drdobbs.com/184416272|work=[[Dr. Dobb&amp;apos;s Journal]]}}
+* {{Cite web|title=Optimizing DLL Loads|author=Mark Baker|date=2004-03-25|url=http://drdobbs.com/184416922|work=[[Dr. Dobb&amp;apos;s Journal]]}}
+* {{Cite journal|magazine=[[MSDN Magazine]]|title=Improving Application Startup Time|author=Claudio Caldato|url=http://msdn.microsoft.com/en-gb/magazine/cc163655.aspx#S6|date=February 2006|publisher=Microsoft Corporation}}
+* {{Cite journal|magazine=[[MSDN Magazine]]|title=The Performance Benefits of NGen|author=Surupa Biswas|url=http://msdn.microsoft.com/en-us/magazine/cc163610.aspx#S5|date=May 2006|publisher=Microsoft Corporation}}
+* {{Cite journal|magazine=[[MSDN Magazine]]|title=An In-Depth Look into the Win32 Portable Executable File Format, Part 2|author=[[Matt Pietrek]]|url=http://msdn.microsoft.com/en-us/magazine/cc301808.aspx|date=March 2002|publisher=Microsoft Corporation}}
+* {{Cite web|title=Rebasing Win32 DLLs: The Whole Story|author=Ruediger R. Asche|date=1995-09-18|url=http://hyper.sunjapan.com.cn/~hz/win32/pagetest.htm}}
+* {{Cite book|title=Debugging applications: Microsoft|series=Microsoft programming series|author=John Robbins|publisher=Microsoft Press|year=2000|isbn=978-0-7356-0886-3|pages=34&amp;amp;ndash;36}}
+* {{Cite web|url=http://www.symantec.com./connect/articles/dynamic-linking-linux-and-windows-part-two|date=2006-08-14|title=Dynamic Linking in Linux and Windows, part two|author=Reji Thomas and Bhasker Reddy|publisher=Symantec Corp}}
+
+[[Category:Computer libraries]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

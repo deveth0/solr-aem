@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Zubair Khan"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Zubair Khan" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{for|the Pakistani economist|Mohammad Zubair Khan}}
+&amp;apos;&amp;apos;&amp;apos;Zubair Khan&amp;apos;&amp;apos;&amp;apos; (born February 7, 1983) was a British [[cricket]]er. Born in [[Birmingham]], he was a left-handed batsman and a right-arm fast bowler who played for [[Derbyshire County Cricket Club|Derbyshire]] during the 2000 season. Khan&amp;apos;s brother, [[Rawait Khan]], is also a British cricketer. Both are of Pakistani background.
+
+His cricketing debut in the year 2000 was tentative, and he was never picked to play for the Derbyshire side again, accruing a strike rate of 120.
+
+==External links==
+*[http://content-uk.cricinfo.com/england/content/player/15933.html Zubair Khan] at Cricinfo
+
+{{Persondata
+| NAME              = Khan, Zubair
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION = English cricketer
+| DATE OF BIRTH     = February 7, 1983
+| PLACE OF BIRTH    =
+| DATE OF DEATH     =
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Khan, Zubair}}
+[[Category:1983 births]]
+[[Category:Living people]]
+[[Category:English cricketers]]
+[[Category:Derbyshire cricketers]]
+[[Category:Sportspeople from Birmingham, West Midlands]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

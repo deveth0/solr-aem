@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Yellow moray"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Yellow moray" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Taxobox
+| name = Yellow Moray
+| image = Gymnothorax prasinus (Yellow moray).jpg
+| regnum = [[Animalia]]
+| phylum = [[Chordata]]
+| classis = [[Actinopterygii]]
+| ordo = [[Anguilliformes]]
+| familia = [[Muraenidae]]
+| genus = &amp;apos;&amp;apos;[[Gymnothorax]]&amp;apos;&amp;apos;
+| species = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;G. prasinus&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+| binomial = &amp;apos;&amp;apos;Gymnothorax prasinus&amp;apos;&amp;apos;
+| binomial_authority = ([[John Richardson (naturalist)|J. Richardson]], 1848)
+}}
+
+The &amp;apos;&amp;apos;&amp;apos;yellow moray&amp;apos;&amp;apos;&amp;apos;, &amp;apos;&amp;apos;Gymnothorax prasinus&amp;apos;&amp;apos;, is a [[moray eel]] of the genus &amp;apos;&amp;apos;[[Gymnothorax]]&amp;apos;&amp;apos;, found in southern [[Australia]] and between [[North Cape, New Zealand|North Cape]] and the [[Mahia Peninsula]] on the [[North Island]] of [[New Zealand]].
+
+==References==
+* {{ITIS |id=635570 |taxon=Gymnothorax prasinus |accessdate=19 March 2006}}
+* {{FishBase species | genus = Gymnothorax | species = prasinus  | month = January | year = 2006}}
+* Tony Ayling &amp;amp; Geoffrey Cox, &amp;apos;&amp;apos;Collins Guide to the Sea Fishes of New Zealand&amp;apos;&amp;apos;,  (William Collins Publishers Ltd, Auckland, New Zealand 1982) ISBN 0-00-216987-8
+
+{{Commons|Gymnothorax prasinus}}
+
+[[Category:Gymnothorax|prasinus]]
+[[Category:Animals described in 1848]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

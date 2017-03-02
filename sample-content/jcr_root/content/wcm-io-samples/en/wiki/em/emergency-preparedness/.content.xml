@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Emergency Preparedness"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Emergency Preparedness" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Underlinked|date=June 2013}}
+
+&amp;quot;Preparedness is the adult response to the knowledge that sometimes, at some level, things go haywire.&amp;quot;&amp;lt;ref&amp;gt;www.fortomorrowwe.blogspot.com&amp;lt;/ref&amp;gt;
+Emergency preparedness ranges from making sure your car has plenty of fuel to some sort of &amp;quot;Doomsday&amp;quot; scenario. The driving forces behind preparedness are varied, but include religious beliefs,&amp;lt;ref&amp;gt;http://www.lds.org/topics/emergency-preparedness&amp;lt;/ref&amp;gt; popular culture,&amp;lt;ref&amp;gt;http://channel.nationalgeographic.com/channel/doomsday-preppers/&amp;lt;/ref&amp;gt; or just a desire for a self-reliant lifestyle.&amp;lt;ref&amp;gt;http://readyforanything.org/&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;http://www.lds.org/topic/self-reliance/&amp;lt;/ref&amp;gt;
+While the &amp;quot;prepper&amp;quot; community tends to prepare more for doomsday, or SHTF(S*** Hits The Fan) scenario, there are many who try to be prepared for any type of emergency. The government encourages preparedness through www.ready.gov and the [[FEMA | Federal Emergency Management Agency&amp;apos;s]] Community Emergency Response Team[[Community_emergency_response_teams | (CERT)]] program&amp;lt;ref&amp;gt;http://www.fema.gov/community-emergency-response-teams&amp;lt;/ref&amp;gt;
+
+Preparedness is a part of [[Emergency management|Emergency Management]], which includes:
+* Prevention
+* [[Preparedness]]
+* Mitigation
+* Response
+* Recovery
+
+
+
+==References==
+{{Reflist}}
+
+[[Category:Emergency management]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

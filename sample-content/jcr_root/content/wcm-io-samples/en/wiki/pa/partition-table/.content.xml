@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Partition table"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Partition table" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The term &amp;apos;&amp;apos;partition table&amp;apos;&amp;apos; is most commonly associated with the &amp;apos;&amp;apos;[[MBR partition table]]&amp;apos;&amp;apos; of a [[Master Boot Record]] (MBR) in IBM PC compatibles, but it may be used generically to refer to other &amp;quot;formats&amp;quot; that divide a [[disk drive]] into &amp;apos;&amp;apos;[[disk partition|partitions]]&amp;apos;&amp;apos;, such as: [[GUID Partition Table]] (GPT), [[Apple partition map]] (APM),&amp;lt;ref&amp;gt;The &amp;apos;&amp;apos;pdisk&amp;apos;&amp;apos; utility for Apple Partition Maps is described as an &amp;apos;&amp;apos;Apple partition table editor&amp;apos;&amp;apos; in its [[man page]] [http://developer.apple.com/mac/library/DOCUMENTATION/Darwin/Reference/ManPages/man8/pdisk.8.html].&amp;lt;/ref&amp;gt; or [[BSD disklabel]].&amp;lt;ref&amp;gt;The Solaris documentation on disklabels [http://docs.sun.com/app/docs/doc/805-7228/6j6q7uet6?a=view] uses the term &amp;quot;partition table&amp;quot;.&amp;lt;/ref&amp;gt;
+
+An alternative term to generically refer to &amp;apos;&amp;apos;partition table&amp;apos;&amp;apos; is &amp;apos;&amp;apos;partition map&amp;apos;&amp;apos;.
+
+==See also==
+* [[Master Boot Record]] (MBR)
+* [[Extended Boot Record]] (EBR)
+* [[GUID Partition Table]] (GPT)
+* [[Boot Engineering Extension Record]] (BEER)
+* [[Apple Partition Map]] (APM)
+* [[Rigid Disk Block]] (RDB)
+* [[BSD disklabel]]
+* [[Disk partitioning]]
+
+==References==
+&amp;lt;references/&amp;gt;
+
+{{DEFAULTSORT:Partition Table}}
+[[Category:Disk file systems]]
+
+{{compu-storage-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

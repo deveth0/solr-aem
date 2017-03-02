@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="S1G reactor"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="S1G reactor" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+The &amp;apos;&amp;apos;&amp;apos;S1G reactor&amp;apos;&amp;apos;&amp;apos; is a [[United States Naval reactor|naval reactor]] used by the [[United States Navy]] to provide [[electricity generation]] and [[Nuclear marine propulsion|propulsion]] on [[warship]]s.  The S1G designation stands for:
+
+* S = [[Submarine]] platform
+* 1 = First generation [[Nuclear reactor core|core]] designed by the contractor
+* G = [[General Electric]] was the contracted designer
+
+This [[nuclear reactor]] was constructed by General Electric as a prototype for the [[USS Seawolf (SSN-575)|USS &amp;apos;&amp;apos;Seawolf&amp;apos;&amp;apos; (SSN-575)]] submarine.  It was a [[liquid metal cooled reactor]] using pure [[sodium]] to cool the core instead of water, because the higher temperature of liquid sodium (compared to pressurized water) enabled the production of more superheated [[steam]] in the [[Steam generator (nuclear power)|steam generators]].  This resulted in a more efficient thermal cycle, yielding more [[Horsepower#Shaft horsepower|shaft horsepower]] for a given reactor size.  The reactor design had problems because of limited [[operating temperature]] constraints.  The major disadvantage of this concept was the ignition of sodium when exposed to air.
+
+S1G was used for testing and training.  Eventually a sodium leak resulted in a fire, and the facility was shut down.  In the meantime, the [[S1W reactor|S1W]] and [[S2W reactor|S2W]] [[pressurized water reactor]]s, conceived for the [[USS Nautilus (SSN-571)|USS &amp;apos;&amp;apos;Nautilus&amp;apos;&amp;apos; (SSN-571)]], had demonstrated their superior reliability.  The S1G reactor facility and its [[Horton Sphere]] were later reused for the [[D1G reactor|D1G]] prototype destroyer reactor.
+
+==References==
+{{Reflist}}
+
+{{Nuclear-energy-stub}}
+{{USN-stub}}
+{{United States Naval reactor}}
+
+{{DEFAULTSORT:S1g Reactor}}
+[[Category:United States naval reactors]]
+[[Category:Liquid metal fast reactors]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

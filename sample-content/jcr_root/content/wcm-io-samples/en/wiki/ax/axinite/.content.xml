@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Axinite"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Axinite" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox mineral
+| name        = Axinite
+| category    = [[Sorosilicate]]s
+| boxwidth    = 180px
+| image       = Axinite-Oisan.jpg
+| caption     = Axinite – Deposit Topotype, France
+| formula     = (Ca,Fe,Mn)&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;Al&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;BO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;Si&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt;O&amp;lt;sub&amp;gt;12&amp;lt;/sub&amp;gt;OH or Ca&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;(Fe,Mn)Al&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;BSi&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt;O&amp;lt;sub&amp;gt;15&amp;lt;/sub&amp;gt;(OH)
+| strunz      = 09.BD.20
+| color       = Reddish brown to yellow to colorless. Blue, violet, grey.
+| habit       = Tabular, wedge shaped crystals
+| system      = [[Triclinic]]
+| cleavage    = Good on {100}
+| fracture    = Conchoidal
+| mohs        = 6.0–7.5
+| luster      = Vitreous
+| refractive  = n&amp;lt;sub&amp;gt;α&amp;lt;/sub&amp;gt; = 1.672–1.693&amp;lt;br&amp;gt; n&amp;lt;sub&amp;gt;β&amp;lt;/sub&amp;gt; = 1.677–1.701&amp;lt;br&amp;gt; n&amp;lt;sub&amp;gt;γ&amp;lt;/sub&amp;gt; = 1.681–1.704
+| opticalprop = Biaxial (-)
+| birefringence = δ = 0.011
+| pleochroism = Strong
+| streak      = White
+| gravity     = 3.18–3.37
+| melt        =
+| fusibility  =
+| solubility  =
+| other       =
+| references  = &amp;lt;ref name=Galleries&amp;gt;[http://mineral.galleries.com/Minerals/Silicate/AXINITE/AXINITE.htm Axinite]. Mineral Galleries&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;[http://www.mindat.org/min-440.html Axinite]. Mindat&amp;lt;/ref&amp;gt;
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Axinite&amp;apos;&amp;apos;&amp;apos; is a brown to violet-brown, or reddish-brown bladed group of [[mineral]]s composed of [[calcium]] [[aluminium]] [[boron|boro]]-[[silicon|silicate]], (Ca,Fe,Mn)&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;Al&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;BO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;Si&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt;O&amp;lt;sub&amp;gt;12&amp;lt;/sub&amp;gt;OH. Axinite is [[pyroelectricity|pyroelectric]] and [[piezoelectric]].
+
+The axinite group includes:
+*Axinite-(Fe) or ferroaxinite, Ca&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;Fe&amp;lt;sup&amp;gt;2+&amp;lt;/sup&amp;gt;Al&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;BOSi&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt;O&amp;lt;sub&amp;gt;15&amp;lt;/sub&amp;gt;(OH) iron rich, clove-brown, brown, plum-blue, pearl-gray &amp;lt;ref&amp;gt;[http://rruff.info/doclib/hom/ferroaxinite.pdf Handbook of Mineralogy: Ferroaxinite]&amp;lt;/ref&amp;gt;
+*Axinite-(Mg) or magnesioaxinite, Ca&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;MgAl&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;BOSi&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt;O&amp;lt;sub&amp;gt;15&amp;lt;/sub&amp;gt;(OH) magnesium rich, pale blue to pale violet; light brown to light pink &amp;lt;ref&amp;gt;[http://rruff.info/doclib/hom/magnesioaxinite.pdf  Handbook of Mineralogy: Magnesioaxinite]&amp;lt;/ref&amp;gt;
+*Axinite-(Mn) or manganaxinite, Ca&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;Mn&amp;lt;sup&amp;gt;2+&amp;lt;/sup&amp;gt;Al&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;BOSi&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt;O&amp;lt;sub&amp;gt;15&amp;lt;/sub&amp;gt;(OH) manganese rich, honey-yellow, clove-brown, brown to blue &amp;lt;ref&amp;gt;[http://rruff.info/doclib/hom/manganaxinite.pdf Handbook of Mineralogy: Manganaxinite]&amp;lt;/ref&amp;gt;
+*Tinzenite, (CaFe&amp;lt;sup&amp;gt;2+&amp;lt;/sup&amp;gt;Mn&amp;lt;sup&amp;gt;2+&amp;lt;/sup&amp;gt;)&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;Al&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;BOSi&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt;O&amp;lt;sub&amp;gt;15&amp;lt;/sub&amp;gt;(OH) iron – manganese intermediate, yellow, brownish yellow-green&amp;lt;ref&amp;gt;[http://rruff.info/doclib/hom/tinzenite.pdf Handbook of Mineralogy: Tinzenite]&amp;lt;/ref&amp;gt;
+
+==Gallery==
+&amp;lt;gallery widths=&amp;quot;200px&amp;quot; heights=&amp;quot;220px&amp;quot; perrow=&amp;quot;2&amp;quot;&amp;gt;
+File:Axinite-64246.jpg|Clove-brown axinite crystals to 2.3 cm set atop matrix from the West Bor Pit at [[Dalnegorsk]], Russia
+File:Axinite-60191.jpg|Chloritized bladed crystals of Axinite forming on [[Adularia]] from the [[Swiss Alps]]
+File:Tinzenite-Calcite-172430.jpg|Tinzenite on Calcite,  4.5 x 3.5 x 3 cm.  Wessels Mine, Kalahari manganese fields, [[Northern Cape Province]], South Africa
+File:Axinite-(Mn)-239862.jpg|Manganaxinite (Axinite-(Mn)), with sharp curving crystals to 4 cm. West Bor Pit at [[Dalnegorsk]], Russia
+&amp;lt;/gallery&amp;gt;
+
+==References==
+{{commons category| Axinite}}
+{{Reflist}}
+
+{{Manganese minerals}}
+
+[[Category:Calcium minerals]]
+[[Category:Iron minerals]]
+[[Category:Manganese minerals]]
+[[Category:Aluminium minerals]]
+[[Category:Sorosilicates]]
+[[Category:Triclinic minerals]]
+{{silicate-mineral-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

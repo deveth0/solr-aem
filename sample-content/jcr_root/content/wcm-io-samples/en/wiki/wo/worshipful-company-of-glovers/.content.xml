@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Worshipful Company of Glovers"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Worshipful Company of Glovers" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{primarysources|date=December 2009}}
+The &amp;apos;&amp;apos;&amp;apos;Worshipful Company of Glovers&amp;apos;&amp;apos;&amp;apos; is one of the [[Livery Company|Livery Companies]] of the [[City of London]]. Glovers were originally classified as [[Worshipful Company of Cordwainers|Cordwainers]], but eventually separated to form their own organization in 1349. They received a [[Royal Charter]] of incorporation in 1639. The Company is now, as are most other Livery Companies, a charitable body, instead of a body that retains links to its original trade. A ceremonial link, though, is still maintained; the Company formally presents the [[Monarch of the United Kingdom|Sovereign]] with gloves upon his or her coronation.
+
+The Company ranks sixty-second in the [[order of precedence]] of Livery Companies. The Company&amp;apos;s motto is &amp;apos;&amp;apos;True Hearts and Warm Hands&amp;apos;&amp;apos;.
+
+==External links==
+* [http://www.thegloverscompany.org/ Official website]
+
+{{Livery Companies in the City of London}}
+
+{{DEFAULTSORT:Worshipful Company Of Glovers}}
+[[Category:Livery companies|Glovers]]
+[[Category:Organisations based in London with royal patronage]]
+[[Category:1349 establishments in England]]
+
+
+{{London-stub}}
+{{UK-org-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Vieta (crater)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Vieta (crater)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{lunar crater data|
+ latitude=29.2|
+ N_or_S=S|
+ longitude=56.3|
+ E_or_W=W|
+ diameter=87 km|
+ depth=4.5 km|
+ colong=57|
+ eponym=[[François Viète]]}}
+&amp;apos;&amp;apos;&amp;apos;Vieta&amp;apos;&amp;apos;&amp;apos; is a [[Moon|lunar]] [[impact crater]] that lies due north of the walled plain [[Schickard (crater)|Schickard]], in the southwestern part of the [[Moon]]. About half a crater diameter to the southeast is the smaller [[Fourier (crater)|Fourier]], and to the north-northeast lies [[Cavendish (crater)|Cavendish]].
+
+The outer rim of this crater has undergone some impact erosion, and small craters lie along the northeast, south, and north-northwestern sides. The inner walls are irregular, with incised bases in some locations. A chain of small craters lies across the northern half of the interior floor, following a line towards the east-northeast. The floor is nearly level, but with some uneven areas in the south and by the crater chain.
+
+==Satellite craters==
+By convention these features are identified on lunar maps by placing the letter on the side of the crater midpoint that is closest to Vieta.
+
+{| class=&amp;quot;wikitable&amp;quot;
+!width=&amp;quot;25%&amp;quot; style=&amp;quot;background:#eeeeee;&amp;quot; |Vieta
+!width=&amp;quot;25%&amp;quot; style=&amp;quot;background:#eeeeee;&amp;quot; |Latitude
+!width=&amp;quot;25%&amp;quot; style=&amp;quot;background:#eeeeee;&amp;quot; |Longitude
+!width=&amp;quot;25%&amp;quot; style=&amp;quot;background:#eeeeee;&amp;quot; |Diameter
+|-
+|align=&amp;quot;center&amp;quot;|A
+|align=&amp;quot;center&amp;quot;|30.3° S
+|align=&amp;quot;center&amp;quot;|59.3° W
+|align=&amp;quot;center&amp;quot;|34&amp;amp;nbsp;km
+|-
+|align=&amp;quot;center&amp;quot;|B
+|align=&amp;quot;center&amp;quot;|30.5° S
+|align=&amp;quot;center&amp;quot;|60.2° W
+|align=&amp;quot;center&amp;quot;|40&amp;amp;nbsp;km
+|-
+|align=&amp;quot;center&amp;quot;|C
+|align=&amp;quot;center&amp;quot;|28.7° S
+|align=&amp;quot;center&amp;quot;|58.4° W
+|align=&amp;quot;center&amp;quot;|12&amp;amp;nbsp;km
+|-
+|align=&amp;quot;center&amp;quot;|D
+|align=&amp;quot;center&amp;quot;|27.8° S
+|align=&amp;quot;center&amp;quot;|54.2° W
+|align=&amp;quot;center&amp;quot;|8&amp;amp;nbsp;km
+|-
+|align=&amp;quot;center&amp;quot;|E
+|align=&amp;quot;center&amp;quot;|27.0° S
+|align=&amp;quot;center&amp;quot;|58.1° W
+|align=&amp;quot;center&amp;quot;|11&amp;amp;nbsp;km
+|-
+|align=&amp;quot;center&amp;quot;|F
+|align=&amp;quot;center&amp;quot;|26.8° S
+|align=&amp;quot;center&amp;quot;|57.7° W
+|align=&amp;quot;center&amp;quot;|6&amp;amp;nbsp;km
+|-
+|align=&amp;quot;center&amp;quot;|G
+|align=&amp;quot;center&amp;quot;|29.4° S
+|align=&amp;quot;center&amp;quot;|57.0° W
+|align=&amp;quot;center&amp;quot;|6&amp;amp;nbsp;km
+|-
+|align=&amp;quot;center&amp;quot;|H
+|align=&amp;quot;center&amp;quot;|29.1° S
+|align=&amp;quot;center&amp;quot;|56.2° W
+|align=&amp;quot;center&amp;quot;|5&amp;amp;nbsp;km
+|-
+|align=&amp;quot;center&amp;quot;|J
+|align=&amp;quot;center&amp;quot;|28.9° S
+|align=&amp;quot;center&amp;quot;|55.9° W
+|align=&amp;quot;center&amp;quot;|6&amp;amp;nbsp;km
+|-
+|align=&amp;quot;center&amp;quot;|K
+|align=&amp;quot;center&amp;quot;|28.0° S
+|align=&amp;quot;center&amp;quot;|55.0° W
+|align=&amp;quot;center&amp;quot;|5&amp;amp;nbsp;km
+|-
+|align=&amp;quot;center&amp;quot;|L
+|align=&amp;quot;center&amp;quot;|29.5° S
+|align=&amp;quot;center&amp;quot;|60.2° W
+|align=&amp;quot;center&amp;quot;|8&amp;amp;nbsp;km
+|-
+|align=&amp;quot;center&amp;quot;|M
+|align=&amp;quot;center&amp;quot;|29.8° S
+|align=&amp;quot;center&amp;quot;|60.6° W
+|align=&amp;quot;center&amp;quot;|5&amp;amp;nbsp;km
+|-
+|align=&amp;quot;center&amp;quot;|P
+|align=&amp;quot;center&amp;quot;|27.5° S
+|align=&amp;quot;center&amp;quot;|57.9° W
+|align=&amp;quot;center&amp;quot;|8&amp;amp;nbsp;km
+|-
+|align=&amp;quot;center&amp;quot;|R
+|align=&amp;quot;center&amp;quot;|26.6° S
+|align=&amp;quot;center&amp;quot;|57.5° W
+|align=&amp;quot;center&amp;quot;|3&amp;amp;nbsp;km
+|-
+|align=&amp;quot;center&amp;quot;|T
+|align=&amp;quot;center&amp;quot;|32.4° S
+|align=&amp;quot;center&amp;quot;|57.8° W
+|align=&amp;quot;center&amp;quot;|28&amp;amp;nbsp;km
+|-
+|align=&amp;quot;center&amp;quot;|Y
+|align=&amp;quot;center&amp;quot;|30.5° S
+|align=&amp;quot;center&amp;quot;|55.8° W
+|align=&amp;quot;center&amp;quot;|11&amp;amp;nbsp;km
+|}
+
+==References==
+{{Lunar crater references}}
+
+[[Category:Impact craters on the Moon]]
+
+[[fr:Viète (cratère)]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

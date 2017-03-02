@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Thomas write rule"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Thomas write rule" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[computer science]], particularly the field of [[database]]s, the &amp;apos;&amp;apos;&amp;apos;Thomas Write rule&amp;apos;&amp;apos;&amp;apos; is a rule in [[timestamp-based concurrency control]].  It can be summarized as &amp;apos;&amp;apos;ignore outdated writes&amp;apos;&amp;apos;.
+
+It states that, if a more recent transaction has already written the value of an object, then a less recent transaction does not need perform its own write since it will eventually be overwritten by the more recent one.
+
+The Thomas Write rule is applied in situations where a predefined &amp;apos;&amp;apos;&amp;apos;logical&amp;apos;&amp;apos;&amp;apos; order is assigned to transactions when they start.  For example a transactions might be assigned a monotonically increasing timestamp when it is created.  The rule prevents changes in the order in which the transactions are executed from creating different outputs: The outputs will always be consistent with the predefined logical order.
+
+For example consider a database with 3 variables (A, B, C), and two atomic operations C := A (T1), and C := B (T2).  Each transaction involves a read (A or B), and a write (C).  The only conflict between these transactions is the write on C.  The following is one possible schedule for the operations of these transactions:
+
+:&amp;lt;math&amp;gt;\begin{bmatrix}
+T_1 &amp;amp; T_2 \\
+&amp;amp; Read(A) \\
+Read(B) &amp;amp;   \\
+ &amp;amp;Write(C)   \\
+Write(C) &amp;amp;  \\
+Commit &amp;amp; \\
+&amp;amp; Commit \end{bmatrix} \Longleftrightarrow
+\begin{bmatrix}
+T_1 &amp;amp; T_2 \\
+&amp;amp; Read(A) \\
+Read(B) &amp;amp; \\
+&amp;amp; Write(C) \\
+ &amp;amp; \\
+Commit &amp;amp; \\
+&amp;amp; Commit\\
+\end{bmatrix}
+&amp;lt;/math&amp;gt;
+
+If (when the transactions are created) T1 is assigned a timestamp that precedes T2 (i.e., according to the logical order, T1 comes first), then only T2&amp;apos;s write should be visible.  If, however, T1&amp;apos;s write is executed after T2&amp;apos;s write, then we need a way to detect this and discard the write.
+
+One practical approach to this is to label each value with a write timestamp (WTS) that indicates the timestamp of the last transaction to modify the value.  Enforcing the Thomas Write rule only requires checking to see if the write timestamp of the object is greater than the time stamp of the transaction performing a write.  If so, the write is discarded
+
+In the example above, if we call TS(T) the timestamp of transaction T, and WTS(O) the write timestamp of object O, then T2&amp;apos;s write sets WTS(C) to TS(T2).  When T1 tries to write C, it sees that TS(T1) &amp;lt; WTS(C), and discards the write.  If a third transaction T3 (with TS(T3) &amp;gt; TS(T2)) were to then write to C, it would get TS(T3) &amp;gt; WTS(C), and the write would be allowed.
+
+==References==
+
+{{Cite journal | author=Robert H. Thomas | title=A majority consensus approach to concurrency control for multiple copy databases | journal=ACM Transactions on Database Systems | year=1979 | volume=4 | issue=2 | pages= 180–209 | doi=10.1145/320071.320076 }}
+
+[[Category:Data management]]
+[[Category:Transaction processing]]
+
+
+{{compu-sci-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

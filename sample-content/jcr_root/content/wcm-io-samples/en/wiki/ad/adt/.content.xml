@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="ADT"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="ADT" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;ADT&amp;apos;&amp;apos;&amp;apos;, as an abbreviation, may refer to:
+
+*[[Abstract data type]], a computer programming term
+*[[Algebraic data type]], a term from functional programming
+*[[Active Denial Technology]]
+*&amp;apos;&amp;apos;Admission, Discharge, and Transfer&amp;apos;&amp;apos;, a message type used in [[Health Level 7]] formatted communication
+*[[Alternating decision tree]], another term in computer programming
+*[[American death triangle|American Death Triangle]], a deprecated rock climbing anchor system.
+*[[American Discovery Trail]], a coast-to-coast hiking trail across the mid-tier of the United States
+*[[Androgen deprivation therapy]], a common component of treatment for prostate cancer
+*[[Android software development|Android Development Tools]]
+*[[Apple II family|Apple]] Disk Transfer
+*[[Asynchronous data transfer]], a method of transferring data
+*[[Atlantic Daylight Time]]
+*[[Automatic double tracking]], an audio recording technology invented for The Beatles
+*[[Average Daily Traffic]], to show the volume of traffic on a road in transportation planning
+*Average [[downtime]], a simple quantification of a system&amp;apos;s reliability
+
+ADT may also refer to:
+
+*[[The ADT Corporation]], formerly American District Telegraph
+*[[ADT College]], a City Technology College in London
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

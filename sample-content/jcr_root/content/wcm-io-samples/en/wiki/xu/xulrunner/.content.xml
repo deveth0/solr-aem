@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="XULRunner"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="XULRunner" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{cleanup|date=November 2011}}
+{{Infobox software
+| developer              = [[Mozilla Foundation]] and community
+| released               = February 2006
+| latest release version = 21.0&amp;lt;ref&amp;gt;https://ftp.mozilla.org/pub/mozilla.org/xulrunner/releases/21.0/&amp;lt;/ref&amp;gt;
+| latest release date    = {{Start date and age|2013|05|11}}
+| latest preview version = 22.0b1&amp;lt;ref&amp;gt;https://ftp.mozilla.org/pub/mozilla.org/xulrunner/releases/22.0b1/&amp;lt;/ref&amp;gt;
+| latest preview date    = {{Start date and age|2013|05|14}}
+| programming language   = [[C++]]
+| operating system       = [[Cross-platform]]
+| programming language   = [[C++]], [[XUL]], [[XBL]], [[JavaScript]]
+| genre                  = [[Runtime environment]]
+| license                = [[Mozilla Public License|MPL]]
+| website                = {{URL|developer.mozilla.org/en/XULRunner}}
+}}
+
+&amp;apos;&amp;apos;&amp;apos;XULRunner&amp;apos;&amp;apos;&amp;apos; is a [[runtime environment]] developed by the [[Mozilla Foundation]] to provide a common back-end for [[XUL]]-based applications. It replaced the &amp;apos;&amp;apos;Gecko Runtime Environment&amp;apos;&amp;apos;, a stalled project with a similar purpose.&amp;lt;ref&amp;gt;{{cite web|url=https://developer.mozilla.org/en/GRE |title=GRE&amp;amp;nbsp;— Mozilla Developer Center |publisher=Developer.mozilla.org |date= |accessdate=2011-02-28}}&amp;lt;/ref&amp;gt;
+
+The first stable developer preview of XULRunner was released in February 2006, based on the Mozilla 1.8 code base.
+
+XULRunner is a &amp;quot;technology experiment&amp;quot;, not a shipped product,&amp;lt;ref&amp;gt;{{cite newsgroup|newsgroup=mozilla.dev.planning|id=mailman.909.1309204932.4544.dev-planning@lists.mozilla.org|title=Re: lifecycle policy for XULRunner apps?|author=Benjamin Smedberg|url=https://groups.google.com/group/mozilla.dev.planning/msg/773734e58af45bb2?dmode=source&amp;amp;output=gplain&amp;amp;noredirect}}&amp;lt;/ref&amp;gt; meaning there are no &amp;quot;official&amp;quot; XULRunner releases, only stable builds based on the same code as a corresponding Firefox release.
+
+==Uses==
+All XUL-based applications like [[Mozilla Firefox]], [[Mozilla Thunderbird]], [[Songbird (software)|Songbird]], [[Flickr]] Uploadr, [[SeaMonkey]], [[Conkeror]], [[Mozilla Sunbird|Sunbird]], [[Democracy Player|Miro]], [[Joost]], and [[TomTom#TomTom HOME|TomTom Home 2.0]] run on XULRunner.  Starting with version 3.0, Mozilla Firefox uses a &amp;quot;private&amp;quot; XULRunner,&amp;lt;ref&amp;gt;{{cite web|url=https://wiki.mozilla.org/XULRunner:Roadmap |title=XULRunner:Roadmap - MozillaWiki |publisher=Wiki.mozilla.org |date=2009-12-01 |accessdate=2011-02-28}}&amp;lt;/ref&amp;gt; meaning the framework is installed locally in the application directory.
+
+The fourth version of the [[video game]] series Simon the Sorcerer, &amp;apos;&amp;apos;[[Simon the Sorcerer 4: Chaos Happens]]&amp;apos;&amp;apos;, uses XULrunner.
+
+The [[eMusic]] website has a download application called [[eMusic Remote]] that uses XULRunner.
+
+The [[Google Adwords]] Editor uses XULRunner,&amp;lt;ref&amp;gt;{{cite web|url=http://code.google.com/p/xulrunner-adwords-editor/ |title=xulrunner-adwords-editor&amp;amp;nbsp;— Project Hosting on Google Code |publisher=Code.google.com |date= |accessdate=2011-02-28}}&amp;lt;/ref&amp;gt; as does the [[Evergreen (software)|Evergreen ILS]], a free and open-source library automation system.
+
+In addition, the XULRunner package provides access to [[ActiveX]] Control functionality previously found in a (now defunct) third-party ActiveX Control built off the Mozilla source code.  Applications using this [[application programming interface]] (API) may function with XULRunner installed and registered.
+
+Starting with [[Lotus Notes]] version 8.5.1, [[IBM]] deployed XULRunner to provide Notes client support for [[XPages]] applications.
+
+XULRunner is used in [[Google Chrome]] web browser according to the credits, URL = &amp;quot;chrome://credits/&amp;quot;
+
+==See also==
+{{Portal|Free software}}
+* [[Mozilla application framework]] (XPFE)
+* [[Mozilla Prism]]
+* [[Gecko (layout engine)]]
+* [[HTML Application]]
+* [[Adobe Integrated Runtime]] (AIR)
+
+==References==
+{{Reflist}}
+
+==External links==
+* [https://wiki.mozilla.org/XUL:Xul_Runner XULRunner wiki site]
+* [https://developer.mozilla.org/en/XULRunner XULRunner Documentation]
+* [https://developer.mozilla.org/en/XULRunner_Hall_of_Fame XULRunner Hall of Fame]
+* [http://benjamin.smedbergs.us/blog/2007-05-15/xulrunner-what-we-are-doing/ XULRunner: What we are doing] (Mozilla plans for the 1.9 timeframe)
+* [http://ftp.mozilla.org/pub/mozilla.org/xulrunner/ XULRunner source code]
+* [http://video.kiberpipa.org/media/SU_Harnessing_the_Mozilla_platform/play.html Brian King 2005 Media]
+* [http://brian.mozdev.org/presentations/cyberpipe2005/slides.html Brian King 2005 Presentations Slides]
+
+{{Mozilla projects}}
+{{Rich Internet applications}}
+
+{{DEFAULTSORT:Xulrunner}}
+[[Category:Free software programmed in C++]]
+[[Category:Free system software]]
+[[Category:Mozilla]]
+[[Category:Markup languages|*]]
+[[Category:Widget engines]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

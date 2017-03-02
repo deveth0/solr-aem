@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:WikiProject Cephalopods/order taxobox example with picture"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:WikiProject Cephalopods/order taxobox example with picture" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Taxobox
+| name = Common Cuttlefish
+| image = Sepia officinalis.jpg
+| image_caption = &amp;apos;&amp;apos;[[Sepia officinalis]]&amp;apos;&amp;apos;
+| regnum = [[Animal]]ia
+| phylum = [[Mollusca]]
+| classis = [[Cephalopod]]a
+| ordo = [[Sepiida]]
+| familia = [[Sepiidae]]
+| genus = &amp;apos;&amp;apos;[[Sepia (genus)|Sepia]]&amp;apos;&amp;apos;
+| subgenus = &amp;apos;&amp;apos;[[Sepia (subgenus)|Sepia]]&amp;apos;&amp;apos;
+| species = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;S. officinalis&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+| binomial = &amp;apos;&amp;apos;Sepia officinalis&amp;apos;&amp;apos;
+| binomial_authority = [[Linnaeus]], 1758
+| synonyms =
+*&amp;apos;&amp;apos;Sepia rugosa&amp;apos;&amp;apos;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;Bowdich, 1822&amp;lt;/small&amp;gt;
+*&amp;apos;&amp;apos;Sepia vicellius&amp;apos;&amp;apos;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;Gray, 1849&amp;lt;/small&amp;gt;
+*&amp;apos;&amp;apos;Sepia zebrina&amp;apos;&amp;apos;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;Risso, 1854&amp;lt;/small&amp;gt;
+*&amp;apos;&amp;apos;Sepia filliouxi&amp;apos;&amp;apos;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;Lafont, 1869&amp;lt;/small&amp;gt;
+*?&amp;apos;&amp;apos;Sepia fischeri&amp;apos;&amp;apos;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;Lafont, 1871&amp;lt;/small&amp;gt;
+*&amp;apos;&amp;apos;Sepia officinalis mediterranea&amp;apos;&amp;apos;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;Ninni, 1884&amp;lt;/small&amp;gt;
+*?&amp;apos;&amp;apos;Sepia veranyi&amp;apos;&amp;apos;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;P. Fischer &amp;apos;&amp;apos;in&amp;apos;&amp;apos; Lagatu, 1888&amp;lt;/small&amp;gt;
+}}
+
+==Things to note:==
+* Usually the taxobox heading is the &amp;apos;&amp;apos;&amp;apos;common name&amp;apos;&amp;apos;&amp;apos; of the organism in bold type. The taxobox name and the article title, should always be singular.
+* If there is &amp;apos;&amp;apos;&amp;apos;no&amp;apos;&amp;apos;&amp;apos; suitable &amp;apos;&amp;apos;&amp;apos;common name&amp;apos;&amp;apos;&amp;apos;, use the &amp;apos;&amp;apos;&amp;apos;scientific name&amp;apos;&amp;apos;&amp;apos; instead.
+
+==Example ready for cut and paste==
+&amp;lt;pre style=&amp;quot;overflow:auto&amp;quot;&amp;gt;
+{{Taxobox
+| name = Common Cuttlefish
+| image = Sepia officinalis.jpg
+| image_caption = &amp;apos;&amp;apos;[[Sepia officinalis]]&amp;apos;&amp;apos;
+| regnum = [[Animal]]ia
+| phylum = [[Mollusca]]
+| classis = [[Cephalopod]]a
+| ordo = [[Sepiida]]
+| familia = [[Sepiidae]]
+| genus = &amp;apos;&amp;apos;[[Sepia (genus)|Sepia]]&amp;apos;&amp;apos;
+| subgenus = &amp;apos;&amp;apos;[[Sepia (subgenus)|Sepia]]&amp;apos;&amp;apos;
+| species = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;S. officinalis&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+| binomial = &amp;apos;&amp;apos;Sepia officinalis&amp;apos;&amp;apos;
+| binomial_authority = [[Linnaeus]], 1758
+| synonyms =
+*&amp;apos;&amp;apos;Sepia rugosa&amp;apos;&amp;apos;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;Bowdich, 1822&amp;lt;/small&amp;gt;
+*&amp;apos;&amp;apos;Sepia vicellius&amp;apos;&amp;apos;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;Gray, 1849&amp;lt;/small&amp;gt;
+*&amp;apos;&amp;apos;Sepia zebrina&amp;apos;&amp;apos;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;Risso, 1854&amp;lt;/small&amp;gt;
+*&amp;apos;&amp;apos;Sepia filliouxi&amp;apos;&amp;apos;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;Lafont, 1869&amp;lt;/small&amp;gt;
+*?&amp;apos;&amp;apos;Sepia fischeri&amp;apos;&amp;apos;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;Lafont, 1871&amp;lt;/small&amp;gt;
+*&amp;apos;&amp;apos;Sepia officinalis mediterranea&amp;apos;&amp;apos;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;Ninni, 1884&amp;lt;/small&amp;gt;
+*?&amp;apos;&amp;apos;Sepia veranyi&amp;apos;&amp;apos;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;P. Fischer &amp;apos;&amp;apos;in&amp;apos;&amp;apos; Lagatu, 1888&amp;lt;/small&amp;gt;
+}}
+&amp;lt;/pre&amp;gt;&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

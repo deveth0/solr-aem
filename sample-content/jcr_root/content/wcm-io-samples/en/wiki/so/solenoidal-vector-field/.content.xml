@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Solenoidal vector field"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Solenoidal vector field" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[vector calculus]] a &amp;apos;&amp;apos;&amp;apos;solenoidal vector field&amp;apos;&amp;apos;&amp;apos; (also known as an &amp;apos;&amp;apos;&amp;apos;incompressible vector field&amp;apos;&amp;apos;&amp;apos;) is a [[vector field]] &amp;apos;&amp;apos;&amp;apos;v&amp;apos;&amp;apos;&amp;apos; with [[divergence]] zero at all points in the field:
+
+:&amp;lt;math&amp;gt; \nabla \cdot \mathbf{v} = 0.\, &amp;lt;/math&amp;gt;
+
+==Properties==
+The [[Helmholtz decomposition|fundamental theorem of vector calculus]] states that any vector field can be expressed as the sum of an [[irrotational]] and a solenoidal field. The condition of zero divergence is satisfied whenever a vector field &amp;apos;&amp;apos;&amp;apos;v&amp;apos;&amp;apos;&amp;apos; has only a [[vector potential]] component, because the definition of the vector potential &amp;apos;&amp;apos;&amp;apos;A&amp;apos;&amp;apos;&amp;apos; as:
+
+:&amp;lt;math&amp;gt;\mathbf{v} = \nabla \times \mathbf{A}&amp;lt;/math&amp;gt;
+
+automatically results in the [[Vector calculus identities|identity]] (as can be shown, for example, using Cartesian coordinates):
+
+:&amp;lt;math&amp;gt;\nabla \cdot \mathbf{v} = \nabla \cdot (\nabla \times \mathbf{A}) = 0.&amp;lt;/math&amp;gt;
+
+The [[converse (logic)|converse]] also holds: for any solenoidal &amp;apos;&amp;apos;&amp;apos;v&amp;apos;&amp;apos;&amp;apos; there exists a vector potential &amp;apos;&amp;apos;&amp;apos;A&amp;apos;&amp;apos;&amp;apos; such that &amp;lt;math&amp;gt;\mathbf{v} = \nabla \times \mathbf{A}.&amp;lt;/math&amp;gt; (Strictly speaking, this holds only subject to certain technical conditions on &amp;apos;&amp;apos;&amp;apos;v&amp;apos;&amp;apos;&amp;apos;, see [[Helmholtz decomposition]].)
+
+The [[divergence theorem]] gives the equivalent integral definition of a solenoidal field; namely that for any closed surface, the net total flux through the surface must be zero:
+
+:{{oiint | integrand=&amp;lt;math&amp;gt;\mathbf{v} \cdot \, d\mathbf{s} = 0 &amp;lt;/math&amp;gt;,}}
+
+where &amp;lt;math&amp;gt;d\mathbf{s}&amp;lt;/math&amp;gt; is the outward normal to each surface element.
+
+==Etymology==
+&amp;apos;&amp;apos;Solenoidal&amp;apos;&amp;apos; has its origin in the Greek word for [[solenoid]], which is σωληνοειδές (sōlēnoeidēs) meaning pipe-shaped, from σωλην (sōlēn) or pipe. In the present context of solenoidal it means constrained as if in a pipe, so with a fixed volume.
+
+==Examples==
+
+* the [[magnetic flux density]] &amp;apos;&amp;apos;&amp;apos;B&amp;apos;&amp;apos;&amp;apos; is solenoidal (see [[Maxwell&amp;apos;s equations]]);
+* the [[velocity]] field of an [[incompressible fluid flow]] is solenoidal;
+* the [[vorticity]] field is solenoidal
+* the [[electric flux density]] &amp;apos;&amp;apos;&amp;apos;D&amp;apos;&amp;apos;&amp;apos; in regions where there is no charge (ρ&amp;lt;sub&amp;gt;e&amp;lt;/sub&amp;gt; = 0);
+* the [[current density]] &amp;apos;&amp;apos;&amp;apos;J&amp;apos;&amp;apos;&amp;apos; where the charge density is unvarying,  &amp;lt;math&amp;gt;\frac{\partial \rho_e}{\partial t} = 0&amp;lt;/math&amp;gt;.
+
+==See also==
+
+* [[Longitudinal and transverse vector fields]]
+
+==References==
+*{{citation | title=Vectors, tensors, and the basic equations of fluid mechanics | authorlink=Rutherford Aris | first=Rutherford | last=Aris | publisher=Dover | year=1989 | isbn=0-486-66110-5 }}
+
+[[Category:Vector calculus]]
+[[Category:Fluid dynamics]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

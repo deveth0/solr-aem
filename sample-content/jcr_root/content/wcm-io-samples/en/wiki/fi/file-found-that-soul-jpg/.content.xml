@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="File:Found That Soul.jpg"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="File:Found That Soul.jpg" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Non-free album cover|image has rationale=yes}}
+{{Non-free use rationale|Description=Album Cover from the album [[Found That Soul]]
+|Source=Derived from a scan of the album cover (creator of this digital version is irrelevant as the copyright in all equivalent images is still held by the same party) Copyright held by the record company or the artist.  Claimed as fair use regardless.
+|Portion=Entire front cover, but does not include back or insides of original artwork
+|Resolution=Is only as much resolution is necessary to identify and show the style of artwork used for the article, not enough to be used for piracy
+|Article=Found That Soul
+|Purpose=Illustrates the appearance of the album and identifies it by recognized features
+|Replaceability=no free equivalent can equal this image (any would be a derivative of this artwork)
+|other_information= Image in this form is already widely distributed to identify the album as part of catalogs and reviews, so we degrade no market value by providing it ourselves
+}}
+[[Category:Manic Street Preachers album covers]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

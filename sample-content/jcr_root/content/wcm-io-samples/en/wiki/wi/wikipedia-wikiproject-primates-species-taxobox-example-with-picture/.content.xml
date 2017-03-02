@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:WikiProject Primates/species taxobox example with picture"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:WikiProject Primates/species taxobox example with picture" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Taxobox
+| name = Indri
+| image = Indris 1882 encyclopedia.jpg
+| regnum = [[Animal]]ia
+| phylum = [[Chordate|Chordata]]
+| classis = [[Mammal]]ia
+| ordo = [[Primate]]s
+| familia = [[Indriidae]]
+| genus = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Indri&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+| genus_authority = [[Étienne Geoffroy Saint-Hilaire|É. Geoffroy]] and&amp;lt;br&amp;gt;[[Georges Cuvier|G. Cuvier]], 1796
+| species = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;I. indri&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+| binomial = &amp;apos;&amp;apos;Indri indri&amp;apos;&amp;apos;
+| binomial_authority = ([[Johann Friedrich Gmelin|Gmelin]], 1788)
+}}
+
+==Things to note:==
+* Usually the taxobox heading is the &amp;apos;&amp;apos;&amp;apos;common name&amp;apos;&amp;apos;&amp;apos; of the organism in bold type. The taxobox name and the article title, should always be singular.
+* If there is &amp;apos;&amp;apos;&amp;apos;no&amp;apos;&amp;apos;&amp;apos; suitable &amp;apos;&amp;apos;&amp;apos;common name&amp;apos;&amp;apos;&amp;apos;, use the &amp;apos;&amp;apos;&amp;apos;scientific name&amp;apos;&amp;apos;&amp;apos; instead.
+* There is no need for a caption below  the picture if it shows a typical member of the species. (But if there is something unusual to note, e.g. juvenile, male/female colouring, activity, location etc., then add a caption.)
+* It is usually best not to provide an image_width parameter, as this over-rules users&amp;apos; default thumb size preferences; if it is necessary to do so, note that the [[Wikipedia:Manual of Style]] recommends that lead images not be made smaller than 300px, as this will make the lead image smaller than the others for users with a 300px default thumb size.
+&amp;lt;br style=&amp;quot;clear:both&amp;quot;/&amp;gt;
+
+==Taxobox markup==
+
+&amp;lt;pre&amp;gt;
+{{Taxobox
+| name = Indri
+| image = indris.jpg
+| regnum = [[Animal]]ia
+| phylum = [[Chordate|Chordata]]
+| classis = [[Mammal]]ia
+| ordo = [[Primate]]s
+| familia = [[Indriidae]]
+| genus = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Indri&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+| genus_authority = [[Étienne Geoffroy Saint-Hilaire|É. Geoffroy]] and&amp;lt;br&amp;gt;[[Georges Cuvier|G. Cuvier]], 1796
+| species = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;I. indri&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+| binomial = &amp;apos;&amp;apos;Indri indri&amp;apos;&amp;apos;
+| binomial_authority = ([[Johann Friedrich Gmelin|Gmelin]], 1788)
+}}
+&amp;lt;/pre&amp;gt;
+
+
+[[Category:WikiProject Primates]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

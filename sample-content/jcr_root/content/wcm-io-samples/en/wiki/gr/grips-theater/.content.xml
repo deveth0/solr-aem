@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Grips-Theater"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Grips-Theater" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Image:Grips-theater.berlin-hansaplatz.II.JPG|thumb|The Grips-Theater at Hansaplatz in Berlin]]
+The &amp;apos;&amp;apos;&amp;apos;Grips-Theater&amp;apos;&amp;apos;&amp;apos; in [[Berlin]], [[Germany]] is a well-known and well-respected [[theater]] for [[child]]ren and [[youth]] located at the [[Hansaviertel|Hansaplatz]]. It was here that the popular musical &amp;apos;&amp;apos;[[Linie 1]]&amp;apos;&amp;apos; originated, the title referring to a subway line, Line No 1, running through Berlin.&amp;lt;ref&amp;gt;{{cite web | last = | first = | authorlink = | coauthors = | title = Grips-Theatre | work = | publisher = Visit Berlin | date = | url = http://www.visitberlin.de/en/spot/grips-theater| format = | doi = | accessdate = 26 May 2013 | archiveurl =  | archivedate = }}&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;{{cite web | last = | first = | authorlink = | coauthors = | title = Grips-Theatre | work = | publisher = Goethe Institut, Germany | date = | url = http://www.goethe.de/kue/the/kjt/kjt/bue/en8428731.htm | format = | doi = | accessdate = 26 May 2013 | archiveurl =  | archivedate = }}&amp;lt;/ref&amp;gt;
+
+
+==References==
+{{Reflist}}
+
+==External links==
+*[http://www.grips-theater.de  Information in German]
+
+{{coord|52|31|7|N|13|20|31|E|type:landmark_region:DE-BE_source:dewiki|display=title}}
+
+[[Category:Theatres in Berlin]]
+
+{{theat-struct-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

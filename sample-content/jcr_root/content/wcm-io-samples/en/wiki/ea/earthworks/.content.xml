@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Earthworks"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Earthworks" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Earthworks&amp;apos;&amp;apos;&amp;apos; can refer to:
+* [[Earthworks (archaeology)]] &amp;amp;ndash; &amp;quot;lumps and bumps&amp;quot; on the landscape showing archaeological features
+* [[Earthworks (engineering)]] &amp;amp;ndash; civil engineering work involving moving quantities of soil
+* [[Earthworks (corporation)]] &amp;amp;ndash; audio equipment company
+* [[Earthworks (novel)|&amp;apos;&amp;apos;Earthworks&amp;apos;&amp;apos; (novel)]] &amp;amp;ndash; by Brian Aldiss
+* [[Land art|Earthworks (art)]] &amp;amp;ndash; a style of art
+* [[Earthworks (band)]] &amp;amp;ndash; a jazz band led by drummer Bill Bruford
+** [[Earthworks (album)]] &amp;amp;ndash; the band&amp;apos;s self titled debut album
+* [[Community High School (Ann Arbor, Michigan)#Merger with Earthworks|Earthworks High School]] &amp;amp;ndash; an experimental school in Ann Arbor, Michigan, USA, 1971–1978.
+* [[Earthworks (song)]] &amp;amp;ndash; by [[Kerbdog]]
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

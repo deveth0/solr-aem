@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Mary Christian"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Mary Christian" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Nofootnotes|date=January 2008}}
+&amp;apos;&amp;apos;&amp;apos;Mary Dorothy Christian&amp;apos;&amp;apos;&amp;apos; née Perry (June 12, 1889 &amp;amp;ndash; April 20, 2003) was an [[United States|American]] [[supercentenarian]] who became the [[oldest people|oldest recognized person in the United States]] at age 113 upon the death of 113-year-old [[Mae Harrington]] and was succeeded in this title by another 113-year-old, [[Elena Slough]].
+
+Perry was born in [[Taunton, Massachusetts]] to parents whose name had been [[anglicism|anglicized]] from &amp;apos;&amp;apos;Perreira&amp;apos;&amp;apos; (she was of [[Portugal|Portuguese]] descent).
+She spent much of her life in [[California]], where she died in a [[San Pablo, California]] nursing home at [[list of the oldest people|113 years and 312 days]].
+
+==See also==
+
+* [[List of the oldest people]]
+* [[Oldest people]]
+* [[Supercentenarian]]
+
+==References==
+* [http://www.cbsnews.com/stories/2003/04/22/national/main550622.shtml CBS News - Nation&amp;apos;s oldest person dies at age 113]
+*{{cite news |url=http://www.sfgate.com/cgi-bin/article.cgi?f=/c/a/2002/11/08/BA245357.DTL |title=113-year-old is oldest American |work=San Francisco Chronicle |author=Charles Burress |date=November 8, 2002 |accessdate=2007-12-10}}
+
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Christian, Mary
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION =
+| DATE OF BIRTH     = June 12, 1889
+| PLACE OF BIRTH    =
+| DATE OF DEATH     = April 20, 2003
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Christian, Mary}}
+[[Category:1889 births]]
+[[Category:2003 deaths]]
+[[Category:Verified American supercentenarians]]
+
+
+{{US-bio-stub}}
+
+[[it:Supercentenari statunitensi#Decani degli Stati Uniti]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

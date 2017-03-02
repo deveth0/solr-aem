@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Roll-to-roll processing"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Roll-to-roll processing" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{refimprove|date=October 2010}}
+In the field of electronic devices, &amp;apos;&amp;apos;&amp;apos;Roll-to-roll processing&amp;apos;&amp;apos;&amp;apos;, also known as &amp;apos;&amp;apos;&amp;apos;web processing&amp;apos;&amp;apos;&amp;apos;, &amp;apos;&amp;apos;&amp;apos;reel-to-reel processing&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;R2R&amp;apos;&amp;apos;&amp;apos;, is the process of creating electronic devices on a roll of [[flexible plastic]] or metal [[Foil (chemistry)|foil]]. In other fields predating this use, it can refer to any process of applying coatings, [[Roll-to-roll printing|printing]], or performing other processes starting with a roll of a flexible material and re-reeling after the process to create an output roll. These processes can be grouped together under the general term &amp;apos;&amp;apos;&amp;apos;[[converting]]&amp;apos;&amp;apos;&amp;apos;. Once the rolls of material have been coated, laminated or printed they are normally slit to their finished size on a [[slitter]] rewinder.
+
+== R2R in electronic devices ==
+Large [[Integrated circuit|circuit]]s made with [[thin-film transistor]]s and other devices can be easily [[pattern]]ed onto these large substrates, which can be up to a few metres wide and 50&amp;amp;nbsp;km long.  Some of the devices can be patterned directly, much like an [[inkjet printer]] deposits ink.  For most [[semiconductor]]s, however, the devices must be patterned using [[photolithography]] techniques.
+
+Roll-to-roll processing is a technology that is still in development.  If [[semiconductor device]]s can be fabricated in this way on large substrates, many devices could be fabricated at a fraction of the cost of traditional semiconductor manufacturing methods.  Most notable would be [[solar cell]]s, which are still prohibitively expensive for most markets due to the high cost per unit area of traditional bulk ([[Monocrystalline silicon|mono-]] or [[Polycrystalline silicon|polycrystalline]]) silicon manufacturing.  Other applications could arise which take advantage of the flexible nature of the substrates, such as electronics embedded into clothing, large-area flexible displays, and roll-up portable displays.
+
+=== Thin-film cells ===
+A crucial issue for a roll-to-roll thin-film cell production system is the [[Deposition (physics)|deposition]] rate of the [[microcrystalline]] layer, and this can be tackled using four approaches:&amp;lt;ref&amp;gt;{{Wayback |url=http://ec.europa.eu/research/energy/nn/nn_rt/nn_rt_pv/article_1109_en.htm#5 |date=20060618 |title=PV projects in FP6}}&amp;lt;/ref&amp;gt;
+*very high frequency  plasma-enhanced chemical vapour deposition ([[VHF]]-[[PECVD]])
+*microwave ([[Microwave|MW]])-PECVD
+*hot wire [[chemical vapour deposition]] ([[hot wire|hot-wire CVD]]).
+*the use of [[ultrasonic nozzle]]s in an in-line process
+
+==See also==
+*[[Amorphous silicon]]
+*[[Low cost solar cell]]
+*[[Printed electronics]]
+*[[Roll-to-roll electronics inkjet printer]]
+*[[Thin film solar cell]]
+* [[Slitter|Roll Slitting]]
+
+==References==
+&amp;lt;references/&amp;gt;
+
+== External links ==
+
+[[Category:Electronics manufacturing]]
+[[Category:Semiconductors]]
+
+
+{{engineering-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

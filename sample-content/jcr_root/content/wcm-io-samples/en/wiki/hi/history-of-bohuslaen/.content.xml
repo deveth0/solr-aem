@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="History of Bohuslän"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="History of Bohuslän" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+These are lists of the chartered [[city|cities]] or &amp;apos;&amp;apos;städer&amp;apos;&amp;apos; and the historical districts or &amp;apos;&amp;apos;härader&amp;apos;&amp;apos; of the historical province of [[Bohuslän]] in [[Sweden]], until 1658 part of [[Norway]].
+
+==Cities==
+*[[Kungälv]] (city since 12th century)
+*[[Lysekil]] (town charter 1836, city charter 1903)
+*[[Marstrand]] (city since 13th century)
+*[[Strömstad]] (town charter 1667, city charter 1672)
+*[[Uddevalla]] (city charter 1498)
+
+==Districts==
+*Bullarens
+*[[Hisingen|Hisings]] Västra (named [[Norway|Norska]] Hisingen, until 1681)
+*Inlands Fräkne
+*Inlands Torpe
+*Inlands Nordre
+*Inlands Södre
+*Kville
+*Lane
+*[[Orust]] Västra
+*Orust Östra
+*[[Sotenäs]]
+*Stångenäs
+*Sörbygdens
+*Tanums
+*[[Tjörn]]s
+*Tunge
+*Vette
+
+{{DEFAULTSORT:History Of Bohuslan}}
+[[Category:Bohuslän]]
+[[Category:History of Bohuslän|*]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

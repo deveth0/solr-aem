@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="MediaWiki:Blockipsuccesstext"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="MediaWiki:Blockipsuccesstext" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;lt;div id=&amp;quot;mw-blockipsuccesstext&amp;quot; class=&amp;quot;plainlinks&amp;quot;&amp;gt;&amp;quot;&amp;apos;&amp;apos;&amp;apos;[[User:$1|$1]]&amp;apos;&amp;apos;&amp;apos;&amp;quot; has been blocked {{toolbar|[[User_talk:$1|talk]]|[{{fullurl:User talk:$1|action=edit}} edit talk]|[{{fullurl:User talk:$1|action=edit&amp;amp;section=new}} message]|[[Special:Contributions/$1|contribs]]|[{{fullurl:Special:AbuseLog|wpSearchUser={{urlencode:$1}}}} abuse filter log]|[{{fullurl:Special:Log|type=block&amp;amp;user=&amp;amp;page=User:{{urlencode:$1}}}} block log]|[{{fullurl:Special:BlockIP/$1}} change block settings]|[{{fullurl:User:$1|action=watch}} watch]|[[meta:Special:CentralAuth/$1|centralauth]]}}.
+
+* See also:
+** [[Special:Ipblocklist|List of active blocks]]
+** [[Special:Log/block|Block log]]
+** [[Special:BlockIP|Add another block]]
+** [[Special:Log/newusers|User creation log]]
+** [[Wikipedia:Template messages/User talk namespace#Blocks|Templated block messages]]
+** [{{fullurl:Wikipedia:Administrator intervention against vandalism|action=purge}} Administrator intervention against vandalism]
+** [{{fullurl:Wikipedia:Usernames for administrator attention|action=purge}} Usernames for administrator attention]
+** [{{fullurl:Category:Requests for unblock|action=purge}} Requests for unblock]
+&amp;lt;/div&amp;gt;&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

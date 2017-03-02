@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ziwiyeh"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ziwiyeh" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=August 2009}}
+{{coord|36|15|43.73|N|46|41|16.11|E|display=title}}
+&amp;apos;&amp;apos;&amp;apos;The castle at Ziwiyeh&amp;apos;&amp;apos;&amp;apos; which has been ruined through digging for archaeological purposes, was an ancient and strong building situated on the top of a mount above the wide Ziwiyeh Cave, [[Iran]].  It is located in an altitude of 1,835 m above sea level in [[Kurdistan Province (Iran)|Kurdistan province of Iran]] on the south of [[Lake Urmia]].  Artefacts found there belong to the 9th century BC (belonging to [[Medes]] era) and have been kept in some museums.  A large golden [[necklace]] with some mythical animals engraved on it is one of the most famous things found in the area.
+
+== See also ==
+*[[Ziwiye hoard]]
+*[[Ziviyeh District]]
+
+[[Category:Castles in Iran]]
+[[Category:Iranian architecture]]
+[[Category:Kurdistan Province]]
+
+{{Iran-struct-stub}}
+{{Castle-stub}}
+{{Kurdistan Province}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

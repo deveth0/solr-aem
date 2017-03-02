@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ring Tone Transfer Language"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ring Tone Transfer Language" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Ring Tone Text Transfer Language&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;&amp;apos;RTTTL&amp;apos;&amp;apos;&amp;apos;) was developed by [[Nokia]]{{Citation needed|reason=Nokia Smart Messaging specification or early Nokia ringtone software (PC Composer) does not mention/support RTTTL; however, RTTTL was already in use those times by &amp;quot;NokRing&amp;quot; by John Mostelo.|date=February 2010}} to be used to transfer [[ringtone]]s to [[cellphone]] by Nokia.
+
+The RTTTL format is a string divided into three sections: name, default value, and data.
+
+The &amp;apos;&amp;apos;name&amp;apos;&amp;apos; section consists of a string describing the name of the ringtone. It can be no longer than 10 characters, and cannot contain a colon &amp;quot;:&amp;quot; character. (However, since the [[Smart Messaging]] specification allows names up to 15 characters in length, some applications processing RTTTL also do so.)
+
+The &amp;apos;&amp;apos;default value&amp;apos;&amp;apos; section is a set of values separated by commas, where each value contains a key and a value separated by an &amp;apos;&amp;apos;=&amp;apos;&amp;apos; character, which describes certain defaults which should be adhered to during the execution of the ringtone. Possible names are
+* &amp;apos;&amp;apos;&amp;apos;d&amp;apos;&amp;apos;&amp;apos; - [[duration (music)|duration]]
+* &amp;apos;&amp;apos;&amp;apos;o&amp;apos;&amp;apos;&amp;apos; - [[octave]]
+* &amp;apos;&amp;apos;&amp;apos;b&amp;apos;&amp;apos;&amp;apos; - [[beat (music)|beat]], [[tempo]]
+
+The &amp;apos;&amp;apos;data&amp;apos;&amp;apos; section consists of a set of character strings separated by commas, where each string  contains a &amp;apos;&amp;apos;duration&amp;apos;&amp;apos;, &amp;apos;&amp;apos;pitch&amp;apos;&amp;apos;, &amp;apos;&amp;apos;octave&amp;apos;&amp;apos; and optional &amp;apos;&amp;apos;dotting&amp;apos;&amp;apos; (which increases the duration of the note by one half).
+
+The format of RTTTL notation is similar to the [[Music Macro Language]] found in [[BASIC]] implementations present on many early microcomputers.
+
+==Technical specification==
+To be recognized by ringtone programs, an RTTTL/Nokring format ringtone must contain three specific elements: name, settings, and notes.
+
+For example, here is the RTTTL ringtone for Haunted House:
+
+&amp;lt;code&amp;gt;HauntHouse: d=4,o=5,b=108: 2a4, 2e, 2d#, 2b4, 2a4, 2c, 2d, 2a#4, 2e., e, 1f4, 1a4, 1d#, 2e., d, 2c., b4, 1a4, 1p, 2a4, 2e, 2d#, 2b4, 2a4, 2c, 2d, 2a#4, 2e., e, 1f4, 1a4, 1d#, 2e., d, 2c., b4, 1a4&amp;lt;/code&amp;gt;
+
+The three parts are separated by a colon.
+
+* &amp;apos;&amp;apos;&amp;apos;Part 1:&amp;apos;&amp;apos;&amp;apos; name of the ringtone (here: &amp;quot;HauntHouse&amp;quot;), a string of characters represents the name of the ringtone
+* &amp;apos;&amp;apos;&amp;apos;Part 2:&amp;apos;&amp;apos;&amp;apos; settings (here: d=4,o=5,b=108), where &amp;quot;d=&amp;quot; is the default duration of a note. In this case, the &amp;quot;4&amp;quot; means that each note with no duration specifier (see below) is by default considered a [[quarter note]]. &amp;quot;8&amp;quot; would mean an [[eighth note]], and so on. Accordingly, &amp;quot;o=&amp;quot; is the default [[octave]]. There are four octaves in the Nokring/RTTTL format. And &amp;quot;b=&amp;quot; is the [[tempo]], in &amp;quot;beats per minute&amp;quot;.
+* &amp;apos;&amp;apos;&amp;apos;Part 3:&amp;apos;&amp;apos;&amp;apos; the notes. Each note is separated by a comma and includes, in sequence: a duration specifier, a standard music note, either a, b, c, d, e, f or g, and an octave specifier. If no duration or octave specifier are present, the default applies.
+
+=== Durations ===
+
+Standard musical durations are denoted by the following notations:
+* &amp;apos;&amp;apos;&amp;apos;1&amp;apos;&amp;apos;&amp;apos; - [[whole note]]
+* &amp;apos;&amp;apos;&amp;apos;2&amp;apos;&amp;apos;&amp;apos; - [[half note]]
+* &amp;apos;&amp;apos;&amp;apos;4&amp;apos;&amp;apos;&amp;apos; - [[quarter note]]
+* &amp;apos;&amp;apos;&amp;apos;8&amp;apos;&amp;apos;&amp;apos; - [[eighth note]]
+* &amp;apos;&amp;apos;&amp;apos;16&amp;apos;&amp;apos;&amp;apos; - [[sixteenth note]]
+* &amp;apos;&amp;apos;&amp;apos;32&amp;apos;&amp;apos;&amp;apos; - [[thirty-second note]]
+
+[[dotted note|Dotted]] [[rhythm]] patterns can be formed by appending a period (&amp;quot;.&amp;quot;) character to the end of a duration/beat/octave element.
+
+=== Pitch ===
+
+* &amp;apos;&amp;apos;&amp;apos;P&amp;apos;&amp;apos;&amp;apos; - rest or pause
+* &amp;apos;&amp;apos;&amp;apos;A&amp;apos;&amp;apos;&amp;apos; - A
+* &amp;apos;&amp;apos;&amp;apos;A#&amp;apos;&amp;apos;&amp;apos; - A# / Bb
+* &amp;apos;&amp;apos;&amp;apos;B&amp;apos;&amp;apos;&amp;apos; - B / Cb
+* &amp;apos;&amp;apos;&amp;apos;C&amp;apos;&amp;apos;&amp;apos; - C
+* &amp;apos;&amp;apos;&amp;apos;C#&amp;apos;&amp;apos;&amp;apos; - C# / Db
+* &amp;apos;&amp;apos;&amp;apos;D&amp;apos;&amp;apos;&amp;apos; - D
+* &amp;apos;&amp;apos;&amp;apos;D#&amp;apos;&amp;apos;&amp;apos; - D# / Eb
+* &amp;apos;&amp;apos;&amp;apos;E&amp;apos;&amp;apos;&amp;apos; - E / Fb
+* &amp;apos;&amp;apos;&amp;apos;F&amp;apos;&amp;apos;&amp;apos; - F / E#
+* &amp;apos;&amp;apos;&amp;apos;F#&amp;apos;&amp;apos;&amp;apos; - F# / Gb
+* &amp;apos;&amp;apos;&amp;apos;G&amp;apos;&amp;apos;&amp;apos; - G
+* &amp;apos;&amp;apos;&amp;apos;G#&amp;apos;&amp;apos;&amp;apos; - G# / Ab
+
+=== Octave ===
+
+The RTTTL format allows octaves starting from the A below middle C and going up four octaves. This corresponds with the inability of [[cellphone]]s to reproduce certain [[pitch (music)|tone]]s audibly. These octaves are numbered from lowest pitch to highest pitch from 4 to 7.
+
+The [[octave]] should be left out of the notation in the case of a rest or pause in the pattern.
+
+== Example ==
+
+An example of the RTTTL format would be
+&amp;lt;code&amp;gt;
+ fifth:d=4,o=5,b=63:8P,8G5,8G5,8G5,2D#5&amp;lt;/code&amp;gt;
+
+==References==
+*[http://cellphones.about.com/od/cellularfaqs/f/rf_rtttl_format.htm How do I distinguish a Nokring/RTTTL ringtone from other ringtones?] (Eric Bematchez, about.com)
+*[http://merwin.bespin.org/t4a/specs/nokia_rtttl.txt RTTTL specification document in pseudo-code]
+
+==External links==
+*[http://merwin.bespin.org/db/rts/ Library of RTTTL ringtones]
+*[http://merwin.bespin.org/t4aphp/ Convert RTTTL to other formats]
+
+[[Category:Mobile telecommunications standards]]
+[[Category:Musical notation]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

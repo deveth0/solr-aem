@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Laverna"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Laverna" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Roman myth (trade)}}
+
+In [[Roman mythology]], &amp;apos;&amp;apos;&amp;apos;Laverna&amp;apos;&amp;apos;&amp;apos; was a goddess of [[thieves]], [[cheats]] and the [[underworld]]. She was propitiated by libations poured with the left hand. The poet [[Horace]] and the playwright [[Plautus]] call her a goddess of thieves.  In [[Rome, Italy|Rome]], her sanctuary was near the [[Porta Lavernalis]].
+
+==References==
+{{Wikisource1911Enc}}
+Michael Jordon, &amp;apos;&amp;apos;Encyclopedia of Gods&amp;apos;&amp;apos;, Kyle Cathie Limited, 2002
+
+[[Category:Commerce goddesses]]
+[[Category:Roman goddesses]]
+[[Category:Trickster goddesses]]
+[[Category:Underworld goddesses]]
+
+{{AncientRome-myth-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

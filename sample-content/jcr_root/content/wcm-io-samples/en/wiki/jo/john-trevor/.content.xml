@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="John Trevor"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="John Trevor" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;John Trevor&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+==Religion==
+*[[John Trevor I]], mid-14th century Bishop of St Asaph
+*[[John Trevor II]], late 14th century Bishop of St Asaph
+*[[John Trevor (1855–1930)]], Unitarian minister who formed The Labour Church
+
+==Politicians==
+*Sir [[John Trevor (1563–1630)]], MP and Surveyor of the Queen&amp;apos;s Ships
+*Sir [[John Trevor (1596–1673)]], his son, MP from 1620, member of the Council of State during the Protectorate
+*Sir [[John Trevor (1626–1672)]], his son, Secretary of State for the Northern Department during the 17th century
+*Sir [[John Trevor (speaker)]] (1637–1717), Speaker of the House of Commons and Master of the Rolls in the late 17th and 18th centuries
+*[[John Morley Trevor (the elder)]] (1681–1719), grandson of the Secretary of State for the Northern Department, MP for Lewes and [[Sussex (UK Parliament constituency)|Sussex]]
+*[[John Morley Trevor (the younger)]] (1717–1743), son of the above, MP for [[Lewes (UK Parliament constituency)|Lewes]]
+*[[John Trevor, 3rd Viscount Hampden]] (1748–1824), 18th century British diplomatist
+*[[John B. Trevor (Pennsylvania politician)]], Pennsylvania State Treasurer
+
+==Others==
+*[[John Bond Trevor]] (1822-1890), American financeer and Wall Street pioneer
+*[[John B. Trevor Sr.]] (1878–1956), American lawyer and immigration reformer
+*[[John B. Trevor Jr.]] (1909–2006), electrical engineer and author
+==See also==
+*{{intitle}}
+{{hndis| name=Trevor, John}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

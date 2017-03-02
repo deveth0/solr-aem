@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Emma Vyssotsky"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Emma Vyssotsky" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=September 2009}}
+
+&amp;apos;&amp;apos;&amp;apos;Emma Vyssotsky&amp;apos;&amp;apos;&amp;apos; (October 23, 1894 – May, 1975), born Emma T. R. Williams in [[Media, Pennsylvania|Media]], [[Pennsylvania]] was an [[United States|American]] [[astronomer]].
+
+==Biography==
+She received a [[Ph.D.]] in astronomy from [[Harvard College]] in 1930.  She spent her career at the [[McCormick Observatory]] of the [[University of Virginia]], where her speciality was the motion of [[star]]s and the [[kinematics]] of the [[Milky Way]].
+
+She married the [[Russia]]n-born astronomer [[Alexander N. Vyssotsky]] in 1929. They had one son, [[Victor A. Vyssotsky]] (a [[mathematician]] and [[computer scientist]]), who was involved in the [[Multics]] project and creator of the [[Darwin Game|Darwin]] computer game.
+
+She was awarded the [[Annie J. Cannon Award in Astronomy]] by the [[American Astronomical Society]] in 1946.{{Citation needed|date=September 2009}}
+
+{{Use mdy dates|date=October 2011}}
+
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              =Vyssotsky, Emma
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION =astronomer
+| DATE OF BIRTH     = October 23, 1894
+| PLACE OF BIRTH    = Media, Pennsylvania
+| DATE OF DEATH     = May 1975
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Vyssotsky, Emma}}
+[[Category:1894 births]]
+[[Category:1975 deaths]]
+[[Category:People from Media, Pennsylvania]]
+[[Category:Harvard University alumni]]
+[[Category:American astronomers]]
+[[Category:Women astronomers]]
+[[Category:Recipients of the Annie J. Cannon Award in Astronomy]]
+[[Category:University of Virginia faculty]]
+
+
+{{US-astronomer-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

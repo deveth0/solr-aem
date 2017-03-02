@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Florence flask"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Florence flask" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{one source|date=November 2011}}
+{{Infobox laboratory equipment
+|name    = Florence flask
+|image   = Boiling flask with liquid.svg|200px
+|alt     = &amp;lt;!-- See Wikipedia:Alternative text for images --&amp;gt;
+|caption = Diagrammatic representation of a Florence flask
+|uses    = Boiling&amp;lt;br/&amp;gt;[[Distillation]]
+|related = [[Round-bottom flask]]
+}}
+
+A &amp;apos;&amp;apos;&amp;apos;Florence flask&amp;apos;&amp;apos;&amp;apos; (also known as a &amp;apos;&amp;apos;&amp;apos;boiling flask&amp;apos;&amp;apos;&amp;apos;) is a type of [[laboratory flask|flask]] used as an item of [[laboratory glassware]]. It is used as a container to hold liquids. A Florence flask has a round bottom with a single long neck. It is designed for uniform heating and ease of swirling; it is produced in a number of different glass thicknesses to stand different types of use. They are often made of [[borosilicate glass]] to prevent cracks or defacing of the glass.  The flask is named after [[Florence, Italy]].  Traditional Florence flasks typically do not have a [[ground glass joint]] on their rather longer necks but typically have a slight lip or flange around the tip of the neck.  A common size of a Florence flask is 1 [[litre]].&amp;lt;ref&amp;gt;{{cite book|last=Thompson|first=Robert|title=Illustrated guide to home chemistry experiments: all lab, no lecture|year=2008|publisher=O&amp;apos;Reilly Media, Inc |page=17 |isbn=0-596-51492-1 |location= Sebastopol, Calif. |url=http://books.google.com/books?id=DuJLYq4IkL0C&amp;amp;pg=PA17&amp;amp;dq=florence+flask#v=onepage&amp;amp;q=florence%20flask&amp;amp;f=false}}&amp;lt;/ref&amp;gt;
+
+==See also==
+* [[Round-bottom flask]]
+* [[Erlenmeyer flask]]
+* [[Test tube]]
+
+==References==
+{{Reflist}}
+
+
+{{Laboratory equipment}}
+
+{{DEFAULTSORT:Florence Flask}}
+[[Category:Laboratory glassware]]
+
+
+{{Glass-stub}}
+
+[[de:Rundkolben]]
+[[es:Balón de destilación]]
+[[fr:Ballon (instrument)]]
+[[simple:Florence flask]]
+[[sr:Дестилациони балон]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Sama"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Sama" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{sisterlinks|sama}}
+&amp;apos;&amp;apos;&amp;apos;Sama&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+;Places
+* [[Sama (Harstad)]], a part of Harstad city in northern Norway
+* [[Sama, Asturias]], a parish in the municipality of Langreo in northern Spain
+* [[Sama, South Khorasan]], a village in Iran
+
+;People
+* [[Sama people]], an indigenous ethnic group of the Philippines and Malaysia
+* [[Bajau]] ethnic group in Borneo also known Sama
+* Sama, a character of the [[Mahabharata]]
+* [[Samma tribe]], a Rajput tribe in Pakistan and India
+
+;Religion
+* [[Shamash]], the Assyrian and Babylonian sun god
+* [[Sama (Sufism)]],  form of Sufi ritual ceremony
+* Sama, the indigenous religion of the [[Munda people|Munda]] people of India
+
+;Others
+* [[Sama Dubai]], a property company based in Dubai
+* [[Japanese honorifics#Sama|Japanese honorifics: &amp;apos;&amp;apos;Sama&amp;apos;&amp;apos;]] (様), a Japanese honorific suffix
+* [[Sama Airlines]]
+* [[Sama language]], or Sama-Bajau
+* [[Sama language (Angola)]]
+* [[Sama (film)]], directed by [[Néjia Ben Mabrouk]]
+
+&amp;apos;&amp;apos;&amp;apos;SAMA&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* [[Saudi Arabian Monetary Agency]]
+* [[South African Medical Association]]
+* [[San Antonio Museum of Art]]
+* [[South African Music Awards]]
+* [[South Atlantic Magnetic Anomaly]]
+* [[Scientific Apparatus Makers Association]], a former organisation for automation standards in the U.S.
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

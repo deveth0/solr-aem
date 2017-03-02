@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Aire"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Aire" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|-aire|Aire|aire}}
+&amp;apos;&amp;apos;&amp;apos;Aire&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+== Rivers ==
+*[[River Aire]], a river in Yorkshire, England
+*[[Aire (Aisne)]], a river in the Ardennes &amp;apos;&amp;apos;département&amp;apos;&amp;apos;, northern France
+*[[Aire River (Switzerland)]], a river in the canton of Geneva, in Switzerland
+*[[Aire River (Victoria)]], a river in Australia
+
+== Towns ==
+*[[Aire-sur-la-Lys]], a town in the Pas-de-Calais département in France
+**The [[Siege of Aire]] was a military action in 1710 in the [[War of the Spanish Succession]]
+*[[Aire-la-Ville]], a municipality in the Canton of Geneva, in Switzerland
+*[[Aire-sur-l&amp;apos;Adour]], a town of Aquitaine, in the Landes département
+**[[Roman Catholic Diocese of Aire]]
+*[[Aire, Ardennes]], a commune in the Ardennes département in France
+*[[Aïre]], a small commune in Geneva, Switzerland
+
+== Other ==
+*AIRE ([[Autoimmune regulator|Auto-Immune REgulator]]), a human gene that is expressed in the thymus
+*[[Aire de service (disambiguation)|Aire de service]], a rest area/service station in France or in Quebec
+*[[Aire (Yuri album)|&amp;apos;&amp;apos;Aire&amp;apos;&amp;apos; (Yuri album)]], 1987
+*&amp;apos;&amp;apos;Aire&amp;apos;&amp;apos;, an album by [[José Mercé]]
+*[[Aire (Pablo Ruiz album)|&amp;apos;&amp;apos;Aire&amp;apos;&amp;apos; (Pablo Ruiz album)]]
+*&amp;quot;Aire&amp;quot;, a song on &amp;apos;&amp;apos;[[Ya Viene el Sol]]&amp;apos;&amp;apos;, an album by Spanish group Mecano
+*[[Illa de l&amp;apos;Aire]], island in the Balearics
+
+{{disambig|geo}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

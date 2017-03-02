@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Rectilinear locomotion"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Rectilinear locomotion" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=January 2007}}
+&amp;apos;&amp;apos;&amp;apos;Rectilinear locomotion&amp;apos;&amp;apos;&amp;apos; is a mode of [[animal locomotion|locomotion]] most often associated with [[snake]]s, particularly heavy-bodied species like terrestrial [[Pythonidae|python]]s and [[Boidae|boa]]s, although most snakes are capable of it.  Unlike all other modes of snake locomotion, in which the snake bends its body, in rectilinear locomotion, the snake flexes its body only when turning.
+
+Rectilinear locomotion relies upon two opposing [[muscle]]s, the costcutaneous inferior and superior, which are present on every [[rib]] and connect the rib to the [[skin]].  The ribs themselves do not move, only the skin.  First, the costcutaneous superior lifts a section of the snake&amp;apos;s belly from the ground and places it ahead of its former position.  Then, the costcutaneous inferior pulls backwards while the belly scales are on the ground, propelling the snake forwards.  These sections of contact propagate posteriorly, resulting in continuous motion.
+
+This method of locomotion is extremely slow, but is also almost noiseless and very hard to detect, making it the mode of choice for many species when stalking prey.
+
+{{locomotion}}
+
+[[Category:Snakes]]
+[[Category:Terrestrial locomotion]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

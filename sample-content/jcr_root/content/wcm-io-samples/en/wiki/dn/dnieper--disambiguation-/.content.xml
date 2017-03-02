@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Dnieper (disambiguation)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Dnieper (disambiguation)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Dnieper&amp;apos;&amp;apos;&amp;apos;, &amp;apos;&amp;apos;&amp;apos;Dnepr&amp;apos;&amp;apos;&amp;apos; (Russian), or &amp;apos;&amp;apos;&amp;apos;Dnipro&amp;apos;&amp;apos;&amp;apos; (Ukrainian) can mean:
+
+* [[Dnieper River]]
+* [[Dnieper Ukraine]], central Ukraine under the Russian Empire
+* [[Dnepr rocket]], a space rocket.
+* [[Dnipro (Kiev Metro)]], a Metro station in Kiev
+* [[Dnepr (motorcycle)]]
+* [[FC Dnepr Smolensk]], a Russian football club
+* [[FC Dnipro Dnipropetrovsk]], a football club from Ukraine
+* [[FC Dnepr Mahilyow]], a football club from Belarus
+* Dnepr was the call sign of the Soviet [[Soyuz T-7]] mission to space station Salyut 7.
+* [[Ukrainian Dnipro Ensemble of Edmonton]]
+
+{{Disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

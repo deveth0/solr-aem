@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Akaike, Fukuoka"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Akaike, Fukuoka" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Use mdy dates|date=May 2012}}
+{{nihongo|&amp;apos;&amp;apos;&amp;apos;Akaike&amp;apos;&amp;apos;&amp;apos;|赤池町|Akaike-machi}} was a [[towns of Japan|town]] located in [[Tagawa District, Fukuoka|Tagawa District]], [[Fukuoka Prefecture|Fukuoka]], Japan. It was once a coal mining town.
+
+In 1992, it was the first municipality in Japan to become effectively bankrupt, with losses of 3.2 billion yen, or 1.3 times its annual budget.&amp;lt;ref&amp;gt;{{cite news|last=Takahara|first=Kanako|title=Ministry takes charge of bankrupt city|url=http://search.japantimes.co.jp/cgi-bin/nn20070301f2.html|accessdate=September 8, 2011|newspaper=Japan Times|date=March 1, 2007}}&amp;lt;/ref&amp;gt; The town&amp;apos;s rehabilitation process was completed at the end of fiscal 2001—two years earlier than initially planned. This was achieved through measures such as slashing the salaries of town officials, raising utility costs, and cutting back on public works projects.
+
+As of 2005, the town had an estimated population of 9,592 and a [[population density|density]] of 592.09 persons per km². The total area was 16.20&amp;amp;nbsp;km². This is down from 9,870 (609.26/km²) in 2003.
+
+On March 6, 2006, Akaike was merged with the towns of [[Hōjō, Fukuoka|Hōjō]] and [[Kanada, Fukuoka|Kanada]], all from [[Tagawa District, Fukuoka|Tagawa District]], to form the new town of [[Fukuchi, Fukuoka|Fukuchi]], with an estimated population of 25,000 (September 1, 2011).
+
+==See also==
+[[Yūbari, Hokkaidō|Yūbari,_Hokkaidō]]—presently the only bankrupt town in Japan.
+
+==References==
+{{reflist|colwidth=30em}}
+
+==External links==
+*[http://www.town.fukuchi.lg.jp/index.php/ Fukuchi official website] in Japanese
+
+[[Category:Dissolved municipalities of Fukuoka Prefecture]]
+[[Category:Populated places disestablished in 2006]]
+
+{{Fukuoka-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Vertical plane"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Vertical plane" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+&amp;apos;&amp;apos;&amp;apos;Vertical plane&amp;apos;&amp;apos;&amp;apos; is used in radio to plot an antenna&amp;apos;s relative [[field strength]] perpendicular to the ground (which directly affects a station&amp;apos;s coverage area) on a [[polar coordinate system|polar graph]].
+
+Normally the maximum of 1.000 or 0 [[Decibel|dB]] is at the side (unless there is [[beam tilt]]), which is labeled 0°, to 90° at the top and &amp;amp;minus;90° at the bottom. Other field strengths are expressed as a decimal less than 1.000, a percentage less than 100%, or [[decibel]]s less than 0 dB.
+
+Most broadcast antennas use either [[line-of-sight propagation|line-of-sight]] or [[Surface wave|ground wave]] propagation (a slight refraction towards the ground) to reach their nearby listeners, and thus want a low angle in the vertical plane.  Short wave transmitters want a somewhat higher elevation angle in the vertical plane to encourage [[skywave]] propagation, which would refract or reflect radio waves off the [[ionosphere]] and back to the ground at a great distance from the transmitter.
+
+[[Omnidirectional antenna]]s typically try to limit the range of their vertical plane radiation pattern to concentrate energy over a smaller range and increase [[Antenna gain|gain]].
+
+==See also==
+* [[Horizontal and vertical]]
+* the [[horizontal plane]], perpendicular to the vertical plane
+* [[Radio propagation]]
+
+{{DEFAULTSORT:Vertical Plane}}
+[[Category:Antennas (radio)]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

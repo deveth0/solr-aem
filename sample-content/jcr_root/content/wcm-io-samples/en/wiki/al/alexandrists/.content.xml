@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Alexandrists"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Alexandrists" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{multiple issues|
+{{one source|date=February 2012}}
+{{no footnotes|date=February 2012}}
+}}
+
+The &amp;apos;&amp;apos;&amp;apos;Alexandrists&amp;apos;&amp;apos;&amp;apos; were a school of [[Renaissance]] philosophers who, in the great controversy on the subject of personal immortality, adopted the explanation of the &amp;apos;&amp;apos;De Anima&amp;apos;&amp;apos; given by [[Alexander of Aphrodisias]].
+
+According to the orthodox [[Thomism]] of the [[Roman Catholic Church]], [[Aristotle]] rightly regarded reason as a facility of the individual soul. Against this, the Averroists, led by [[Agostino Nifo]], introduced the modifying theory that universal reason in a sense individualizes itself in each soul and then absorbs the active reason into itself again.  These two theories respectively evolved the doctrine of individual and universal immortality, or the absorption of the individual into the eternal One.
+
+The Alexandrists, led by [[Pietro Pomponazzi]], boldly assailed these beliefs and denied that either was rightly attributed to Aristotle.  They held that Aristotle considered the soul as a material and therefore a mortal entity which operates during life only under the authority of universal reason.  Hence the Alexandrists denied the possibility of any form of immortality, holding that, since the soul is organically connected with the body, the dissolution of the latter involves the extinction of the former.
+
+==References==
+*{{1911}}
+
+[[Category:Christian philosophy]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

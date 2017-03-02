@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="IMP programming language"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="IMP programming language" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;This article is about Irons IMP. See also the contemporary and unrelated [[Edinburgh IMP programming language]].&amp;apos;&amp;apos;
+
+&amp;apos;&amp;apos;&amp;apos;IMP&amp;apos;&amp;apos;&amp;apos; was a [[systems (programming)|systems]] [[programming language]] developed by [[E. T. Irons]] in the late 1960s through early 1970s. Unlike most other systems programming languages, IMP was an [[:Category:Extensible syntax programming languages|extensible syntax programming language]].
+
+Even though its designer refers to the language as &amp;quot;being based on [[ALGOL]]&amp;quot;, IMP excludes many &amp;apos;&amp;apos;defining&amp;apos;&amp;apos; features of that language, while supporting a very non-ALGOL-like one: syntax extensibility.
+
+A compiler for IMP existed as early as 1965 and was used for programming the [[CDC 6600]] time-sharing system, which was in use at the [[Institute for Defense Analyses]] since 1967. Although the compiler is slower than comparable ones for non-extensible languages, it has been used for practical production work.
+
+IMP compilers were developed for the [[CDC-6600]], [[Cray]], [[PDP-10]] and [[PDP-11]] computers. Important IMP versions were &amp;apos;&amp;apos;&amp;apos;IMP65&amp;apos;&amp;apos;&amp;apos;, &amp;apos;&amp;apos;&amp;apos;IMP70&amp;apos;&amp;apos;&amp;apos;, and &amp;apos;&amp;apos;&amp;apos;IMP72&amp;apos;&amp;apos;&amp;apos;.
+
+==Extensible syntax in IMP72==
+Being an [[:Category:Extensible syntax programming languages|extensible syntax programming language]], IMP allows the programmer to extend its syntax, although no specific means are provided to add new datatypes or structures to it. To achieve its syntax-extensibility, IMP uses a powerful parse algorithm based on a syntax graph and several connectivity matrices. The programmer may add new [[Backus–Naur form|BNF]] productions to the graph.
+
+IMP72&amp;apos;s syntax is extended by means of extended-BNF &amp;apos;&amp;apos;syntax statements&amp;apos;&amp;apos; included in a source program. The mechanism is so powerful, that it allowed the implementation of the language by itself, i.e., by an IMP72 source file consisting entirely of syntax statements, which was input to a trivial compiler which was initially able to translate the simplest case of the syntax statement. There is also a simple form of the syntax statement which looks like a [[Macro (computer science)|macro]] to the casual user.
+
+Basically, the syntax statement is an augmented BNF production with associated semantics added on the right:
+
+ &amp;lt;class&amp;gt; ::= syntax-part ::= semantic-part
+
+For example, to add the construct described by the following BNF:
+
+ &amp;lt;EXP&amp;gt; ::= INCREMENT &amp;lt;VBL&amp;gt;
+
+with the semantics that &amp;lt;code&amp;gt;INCREMENT V&amp;lt;/code&amp;gt; should translate to &amp;lt;code&amp;gt;V &amp;amp;larr; V + 1&amp;lt;/code&amp;gt;, the programmer would only need to insert the following &amp;apos;&amp;apos;IMP statement&amp;apos;&amp;apos;:
+
+ &amp;lt;EXP&amp;gt; ::= INCREMENT &amp;lt;VBL,A&amp;gt; ::= &amp;quot;A&amp;amp;larr;A+1&amp;quot;
+
+The semantic-part can also contain calls to &amp;apos;&amp;apos;semantic routines&amp;apos;&amp;apos;, as in the following syntax statement:
+ &amp;lt;ATOM&amp;gt; ::= ABS ( &amp;lt;ATOM,A&amp;gt; ) ::= DEWOP(214B,AREG1(1,13),A)
+The semantic part of this statement consists of a call on the semantic routine &amp;lt;code&amp;gt;DEWOP&amp;lt;/code&amp;gt;. The arguments are the octal constant &amp;lt;code&amp;gt;214B&amp;lt;/code&amp;gt;, the semantic routine call &amp;lt;code&amp;gt;AREG1(1,13)&amp;lt;/code&amp;gt;, and &amp;lt;code&amp;gt;A&amp;lt;/code&amp;gt;, which is the object on top of the stack at the moment this production is invoked. &amp;lt;code&amp;gt;DEWOP&amp;lt;/code&amp;gt; is a semantic routine which respectively takes as its arguments a PDP-10 machine language [[opcode]], a register object, and any other object, and produces an object whose value is the result of executing the designated machine instruction using as address field the object which is its last argument. In this specific example, the opcode &amp;lt;code&amp;gt;214B&amp;lt;/code&amp;gt; designates the &amp;lt;code&amp;gt;Load Magnitude&amp;lt;/code&amp;gt; instruction, and thus the result of the above syntax statement will be to compile code to compute the absolute value of &amp;lt;code&amp;gt;A&amp;lt;/code&amp;gt;.
+
+==Folklore Operating System==
+IMP was the language used on [[NSA]]&amp;apos;s homegrown [[time-sharing]] system known as &amp;apos;&amp;apos;&amp;apos;Folklore&amp;apos;&amp;apos;&amp;apos;.
+&amp;lt;ref&amp;gt;{{cite web|last=Cotter|first=George|title=High-Performance Computing at the National Security Agency|url=http://publishing.cdlib.org/ucpressebooks/view?docId=ft0f59n73z&amp;amp;chunk.id=d0e12339&amp;amp;toc.depth=1&amp;amp;toc.id=d0e12308&amp;amp;brand=ucpress|work=Frontiers of Supercomputing II|publisher=UNIVERSITY OF CALIFORNIA PRESS|accessdate=25 May 2012}}&amp;lt;/ref&amp;gt;
+
+==See also==
+* [[Edinburgh IMP programming language]] (contrast)
+
+==References==
+{{Reflist}}
+* &amp;apos;&amp;apos;Experience with an Extensible Language&amp;apos;&amp;apos;, Irons E.T., &amp;apos;&amp;apos;&amp;apos;CACM&amp;apos;&amp;apos;&amp;apos;, Vol. 13, No. 1, January 1970.
+* &amp;apos;&amp;apos;Syntax Extension and the IMP72 Programming Language&amp;apos;&amp;apos;, Walter Bilofsky, Yale University, &amp;apos;&amp;apos;&amp;apos;SIGPLAN Notices&amp;apos;&amp;apos;&amp;apos;, May 1974.
+
+==External links==
+* [http://www.saildart.org/IMP.BO%5B11,DOC%5D1 PDP-10 IMP72 Reference Manual]
+* [http://pdp-10.trailing-edge.com/decuslib10-03/index.html IMP72 Sources] &amp;lt;nowiki&amp;gt;(dcus:[43,50306]*.*)&amp;lt;/nowiki&amp;gt;
+
+{{DEFAULTSORT:Imp Programming Language}}
+[[Category:Extensible syntax programming languages]]
+[[Category:Systems programming languages]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

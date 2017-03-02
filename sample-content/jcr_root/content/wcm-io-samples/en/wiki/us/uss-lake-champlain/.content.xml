@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="USS Lake Champlain"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="USS Lake Champlain" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Italic title prefixed|3}}
+*&amp;apos;&amp;apos;[[S/S Lake Champlain]]&amp;apos;&amp;apos;, built 1874 in [[Glasgow]] for the Beaver Line, sank 1888 &amp;lt;ref&amp;gt;http://www.norwayheritage.com/p_ship.asp?sh=lacha&amp;lt;/ref&amp;gt;
+
+Three ships of the [[United States Navy]] have been named &amp;apos;&amp;apos;&amp;apos;USS &amp;apos;&amp;apos;Lake Champlain&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;, after the [[Battle of Lake Champlain]] in the [[War of 1812]].
+
+*{{USS|Lake Champlain|1917}}, was a cargo ship in use during 1918 and 1919 and then sold
+
+*{{USS|Lake Champlain|CV-39}}, was an [[aircraft carrier]] in service from 1945 to 1966
+
+*{{USS|Lake Champlain|CG-57}}, is a [[guided missile cruiser]] commissioned in 1988 and currently in active service
+
+{{Shipindex}}
+
+==References==
+{{reflist}}
+
+{{DEFAULTSORT:Lake Champlain}}
+[[Category:United States Navy ship names]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

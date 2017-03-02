@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:Articles for deletion/Cojones"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:Articles for deletion/Cojones" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;From Cleanup: Dict. def.
+
+* Redirect [[Testicle]]? -- [[User:Cyrius|Cyrius]] | [[User talk:Cyrius|Talk]] 04:17, Apr 2, 2004 (UTC)
+* Redirect Testicle. [[User:Niteowlneils|Niteowlneils]] 03:11, 5 Apr 2004 (UTC)
+* Disambig: (1) [[testicle]], (2) [[courage]] or [[fortitude]].  There&amp;apos;s lots of slang words that have the second meaning, for example [[guts]], though [[balls]] doesn&amp;apos;t exist.  --[[User:Zandperl|zandperl]] 03:42, 6 Apr 2004 (UTC)
+* Merge content into [[testicle]] (separate section) and redirect. - [[User:Hephaestos|Hephaestos]]|[[User talk:Hephaestos|&amp;amp;#167;]] 03:46, 6 Apr 2004 (UTC)&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

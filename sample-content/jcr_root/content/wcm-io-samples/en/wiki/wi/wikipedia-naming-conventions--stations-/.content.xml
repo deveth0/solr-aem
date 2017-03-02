@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:Naming conventions (stations)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:Naming conventions (stations)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{historical}}
+
+=== [[Wikipedia:Naming conventions]] (stations) ===
+
+This is a proposal for a naming convention for transportation stations.  It may be logical to rename this convention as not to conflict with any possible radio/television station convention.
+
+&amp;apos;&amp;apos;&amp;apos;This convention is still under debate, please see [[Wikipedia talk:Naming conventions (stations)]].&amp;apos;&amp;apos;&amp;apos;
+
+Stations should be named &amp;quot;[Station Name] ([System] station)&amp;quot;.  Examples: &amp;quot;Metro Center (Washington Metro station)&amp;quot;.  The system should use the long official name, and while the system name itself may be sufficient (e.g. BART, MTA), it may not be for things like Metro, and thus the city should be added.
+
+&amp;apos;&amp;apos;Rationale:&amp;apos;&amp;apos; All stations should contain the &amp;apos;&amp;apos;(system station)&amp;apos;&amp;apos; portion, because while &amp;apos;&amp;apos;most&amp;apos;&amp;apos; stations are unique enough that they will only mean the station, enough will need disambiguation as to make a standard useful.
+
+Examples of stations requiring disambiguation (examples from the [[Washington Metro]]): Vienna, Pentagon, Rockville.&amp;lt;br&amp;gt;
+Examples of stations &amp;apos;&amp;apos;not&amp;apos;&amp;apos; requiring disambiguation: Foggy Bottom-GWU, Tenleytown-AU, Metro Center.
+
+If we will need names like &amp;quot;Rockville (Washington Metro station)&amp;quot; and &amp;quot;Vienna (Washington Metro station)&amp;quot;, but &amp;quot;Foggy Bottom-GWU&amp;quot; and &amp;quot;Tenleytown-AU&amp;quot; are sufficient, then we should probably append &amp;apos;&amp;apos;(system) station&amp;apos;&amp;apos; to all names, and use redirects.  &amp;quot;Foggy Bottom-GWU&amp;quot; would consist of a redirect to &amp;quot;Foggy Bottom-GWU (Washington Metro station)&amp;quot;.
+
+For stations in the [[United Kingdom]], the standard is different and defined at [[Wikipedia:Naming conventions (UK stations)]]
+
+Comments are more than welcome in [[Wikipedia talk:Naming conventions (stations)]].  This convention is not yet being used by any pages.
+
+==See also==
+*[[Wikipedia:Naming conventions (UK stations)]]
+*[[Wikipedia:Naming conventions (stations in Poland)]]
+
+[[Category:Wikipedia naming conventions proposals|Stations]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

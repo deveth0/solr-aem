@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="WinLinux"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="WinLinux" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;WinLinux&amp;apos;&amp;apos;&amp;apos; is a [[Linux distribution]] with an installer that runs from inside the [[Microsoft Windows|Windows]] operating system. It also has a configuration tool that can be run inside of Windows to set up the hardware options of the Linux OS. It is installed to a directory on an existing [[FAT32]] partition, which means it has the ability to share the Windows partition and disk space.
+
+The latest version is WinLinux 2003. It can be launched like a Windows application from a shortcut, which causes the PC to reboot into WinLinux. Exiting out of WinLinux will allow the PC to go back into Windows on the next bootup. It is able to run Linux applications, and ships with [[KDE]] as the default desktop. The distribution is currently inactive.
+
+== See also ==
+* [[Topologilinux]]
+* [[Xandros#Presto|Xandros Presto]]
+
+== External links ==
+* [http://distro.ibiblio.org/pub/linux/distributions/winlinux/ WinLinux at ibiblio]
+
+{{linux-distro-stub}}
+
+{{linux-distro}}
+
+[[Category:RPM-based Linux distributions]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Nugent Slaughter"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Nugent Slaughter" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox person
+|image =
+|imagesize =
+| name        = Nugent Slaughter
+| birth_name  =
+| birth_date   = {{birth date|1888|3|17}}
+| birth_place  = [[Virginia]], United States
+| death_date   = {{death date and age|1968|12|27|1888|3|17}}
+| death_place  = [[Oroville, California]], United States
+| othername   =
+| occupation  = Special effects designer
+| yearsactive = 1927
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Nugent Slaughter&amp;apos;&amp;apos;&amp;apos; (March 17, 1888 &amp;amp;ndash; December 27, 1968) provided the [[special effects]] and [[Audio mixing (film and television)|sound mixing]] for the 1927 film, &amp;apos;&amp;apos;[[The Jazz Singer]]&amp;apos;&amp;apos;.  His efforts in this project earned him a nomination for the [[Academy Award for Best Visual Effects|Academy Award for Engineering Effects]].&amp;lt;ref name=&amp;quot;Oscars1929&amp;quot;&amp;gt;{{Cite web|url=http://www.oscars.org/awards/academyawards/legacy/ceremony/1st-winners.html |title=The 1st Academy Awards (1929) Nominees and Winners |accessdate=2013-06-16|work=oscars.org}}&amp;lt;/ref&amp;gt;
+
+==References==
+{{reflist}}
+
+==External links==
+*{{IMDb name|0805521|name=Nugent Slaughter}}
+
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Slaughter, Nugent
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION = American special effects person
+| DATE OF BIRTH     = March 17, 1888
+| PLACE OF BIRTH    = Virginia
+| DATE OF DEATH     = December 27, 1968
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Slaughter, Nugent}}
+[[Category:1888 births]]
+[[Category:1968 deaths]]
+[[Category:People from Virginia]]
+[[Category:Special effects people]]
+{{US-film-bio-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

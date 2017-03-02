@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Personal experience"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Personal experience" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=January 2008}}
+&amp;apos;&amp;apos;&amp;apos;Personal experience&amp;apos;&amp;apos;&amp;apos; of a [[human being]] is the moment-to-moment [[experience]] and [[sensory awareness]] of internal and external [[event (philosophy)|events]].
+
+==History==
+An early belief of some philosophers of [[Ancient Greece]] was that the [[mind]] was like a [[recording]] device and simply kept somehow-objective records of what the [[senses]] experienced. This was believed in the Western world into the 20th century until [[cognitive psychology]] experiments decisively proved that it was not true, and that many events were simply filled in by the mind, based on what &amp;quot;should be&amp;quot;. This, among other things, explained why [[witness|eyewitness]] accounts of events often were so widely varied.
+
+In [[Ancient Rome]] it was believed that personal experience was part of some divine or species-wide [[collective experience]]. This gave rise to notions of [[racial memory]], [[national mission]], and such notions as [[racism]] and [[patriotism]]. It was likely easier to create [[political movement]]s and military morale with such notions, than a strictly personal idea of experience. [[Carl Jung]] and [[Joseph Campbell]] were notable investigators of these ideas of collective experience in the 20th century.
+
+During [[the Enlightenment]], there was rigorous investigation of these ideas. [[Immanuel Kant]] noted that it was only possible to explain &amp;quot;experience and its objects&amp;quot; as a consequence of each other: either experience makes those objects possible, or those objects make experience possible. This is seen today as [[dualism]], and denying the possibility of a third thing making both experience and whatever reality its objects have, both possible. That thing could be a more universal [[cognition]], as proposed in some versions of [[Christianity]] or [[Gaia philosophy]].
+
+==See also==
+* [[Postmodernism]]
+
+[[Category:Thought]]
+[[Category:Perception]]
+[[Category:Mind]]
+[[Category:Subjective experience]]
+
+{{philosophy-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

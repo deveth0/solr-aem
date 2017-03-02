@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Negative imprinting"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Negative imprinting" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Orphan|date=February 2009}}
+&amp;apos;&amp;apos;&amp;apos;Negative imprinting&amp;apos;&amp;apos;&amp;apos; is a feature of some film [[camera]]s, in which the date, [[shutter speed]] and [[aperture]] setting are recorded on the [[Photographic film|negative]] directly as the film is [[Exposure (photography)|exposed]].
+
+The oldest patent on this is [http://patft.uspto.gov/netacgi/nph-Parser?Sect2=PTO1&amp;amp;Sect2=HITOFF&amp;amp;p=1&amp;amp;u=%2Fnetahtml%2Fsearch-bool.html&amp;amp;r=1&amp;amp;f=G&amp;amp;l=50&amp;amp;d=PALL&amp;amp;RefSrch=yes&amp;amp;Query=PN%2F3882512  US patent #3,882,512], which uses [[mirror|half-silvered mirrors]] to direct the readout of a digital clock and mix it with the [[light|light rays]] coming through the main [[camera lens]].
+
+The type of imprinter used in modern SLR cameras is of the type described in [http://patft.uspto.gov/netacgi/nph-Parser?Sect2=PTO1&amp;amp;Sect2=HITOFF&amp;amp;p=1&amp;amp;u=%2Fnetahtml%2Fsearch-bool.html&amp;amp;r=1&amp;amp;f=G&amp;amp;l=50&amp;amp;d=PALL&amp;amp;RefSrch=yes&amp;amp;Query=PN%2F4001846|US patent #4,001,846]. This imprinter is fixed to the back of the camera on the film backing plate. It uses a small [[LED]] display for illumination and optics to focus the light onto a specific part of the film. The LED display is exposed on the negative at the same time the picture is taken.
+
+The imprinter superimposes the date and other information on the image and this can be distracting. [[Digital camera]]s can often encode all the information in the image file itself. The [[Exif]] format is the most commonly used format.
+
+[[Category:Photography equipment]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

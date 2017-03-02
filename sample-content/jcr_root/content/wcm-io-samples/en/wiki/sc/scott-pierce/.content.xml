@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Scott Pierce"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Scott Pierce" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Use mdy dates|date=June 2013}}
+{{multiple issues|
+{{BLP sources|date=December 2011}}
+{{Notability|date=January 2012}}
+}}
+
+
+&amp;apos;&amp;apos;&amp;apos;Scott Pierce II&amp;apos;&amp;apos;&amp;apos; (born 1930, [[New York City]]) is the youngest child of [[Marvin Pierce|Marvin]] and Pauline (Robinson) Pierce, and brother of former [[First Lady of the United States|First Lady]] [[Barbara Bush (First Lady)|Barbara Bush]], wife of [[George Herbert Walker Bush]] and uncle of the 43rd President [[George W. Bush]]. Pierce is named for his grandfather, who was an insurance salesman in Dayton, [[Ohio]]. His father was chairman of [[McCall Corporation]].  Upon graduation from [[Miami University]] and marriage to Janice Chamberlaine in 1954, he joined [[Phelps, Fenn and Company]], a prominent [[municipal bond]] house. In 1966, Pierce was made a partner of [[G. H. Walker &amp;amp; Co.]], a company founded by George H. W. Bush&amp;apos;s grandfather, [[George Herbert Walker]]. He left the firm in 1974 to join [[Blyth, Eastman, Dillon and Company]] as a senior vice president of [[public finance]]. In the fall of 1975, he moved to [[E. F. Hutton|E. F. Hutton &amp;amp; Co.]] where in 1982 he became President.
+
+Prior to his election, some Hutton offices engaged in an aggressive cash management scheme. On May 2, 1985 the company pleaded guilty to 2,000 counts of mail fraud; Mr. Pierce was in no way implicated in the scandal.  Pierce left the company two years later to head [[PAMCO]], a division of [[Prudential Financial|Prudential]]. He is currently retired and serving as the Chairman of the Board of Trustees for [[Manhattanville College]].
+
+==References==
+* [http://www.dynbase.net/p.php DynBase Biography (requires payment)]
+
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Pierce, Scott
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION =
+| DATE OF BIRTH     = 1930
+| PLACE OF BIRTH    =
+| DATE OF DEATH     =
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Pierce, Scott}}
+[[Category:1930 births]]
+[[Category:Living people]]
+[[Category:Miami University alumni]]
+[[Category:Bush family]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

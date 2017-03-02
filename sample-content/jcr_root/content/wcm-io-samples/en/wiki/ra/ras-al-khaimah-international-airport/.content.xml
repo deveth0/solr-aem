@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ras Al Khaimah International Airport"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ras Al Khaimah International Airport" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox Airport
+| name         = Ras Al Khaimah International Airport&amp;lt;BR&amp;gt;&amp;lt;small&amp;gt;&amp;apos;&amp;apos;(Ra&amp;apos;sal-Khaymah)&amp;apos;&amp;apos;&amp;lt;/small&amp;gt;
+| nativename   =
+| nativename-a = مطار رأس الخيمة الدولي
+| nativename-r =
+| image        = Ras Al Khaimah International Airport.jpg
+| image-width  =
+| caption      =
+| IATA         = RKT
+| ICAO         = OMRK
+&amp;lt;center&amp;gt;{{Location map|UAE|width=200|float=center
+|caption=|mark=Airplane_silhouette.svg|marksize=10
+|label=RKT|position=bottom
+|lat_deg=25|lat_min=36|lat_sec=49|lat_dir=N
+|lon_deg=55|lon_min=56|lon_sec=20|lon_dir=E
+}}&amp;lt;small&amp;gt;Location of airport in UAE&amp;lt;/small&amp;gt;&amp;lt;/center&amp;gt;
+| type         = Public
+| owner        =
+| operator     = Department of Civil Aviation
+| city-served  =
+| location     = Ras al-Khaimah
+| elevation-f  = 102
+| elevation-m  = 31
+| coordinates  = {{Coord|25|36|49|N|55|56|20|E|type:airport}}
+| website      = www.rakairport.com
+| metric-elev  =
+| metric-rwy   =
+| r1-number    = 16/34
+| r1-length-f  = 12,336
+| r1-length-m  = 3,760
+| r1-surface   = [[Asphalt]]
+| stat-year    =
+| stat1-header =
+| stat1-data   =
+| stat2-header =
+| stat2-data   =
+| footnotes    =
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Ras Al Khaimah International Airport&amp;apos;&amp;apos;&amp;apos; {{airport codes|RKT|OMRK}} (alternatively Ra&amp;apos;sal-Khaymah, {{lang-ar|مطار رأس الخيمة الدولي}}) is an airport located {{convert|18|km|mi}} away from the city of [[Ras al-Khaimah]], [[United Arab Emirates]]. The airport was inaugurated by His Highness Sheikh [[Saqr bin Mohammad Al Qassimi]] in 1976. The airport has two passenger terminal buildings, a cargo terminal facility,  aircraft maintenance facilities and an aviation training facility.&amp;lt;ref&amp;gt;http://www.rakairport.com/aboutus.html&amp;lt;/ref&amp;gt; It reported a 58.5 per cent growth in the first quarter of 2012 compared with the same period of the previos year. &amp;lt;ref&amp;gt;http://www.tradearabia.com/news/TTN_217376.html RAK airport posts 58pc passenger growth&amp;lt;/ref&amp;gt; Six scheduled carriers and over 25 charter airlines fly to the airport. The airport was the second in the GCC to secure the ISO 9001: 2000 accreditation for quality management.&amp;lt;ref&amp;gt;http://www.tradearabia.com/news/TTN_237966.html RAK airport woos European carriers&amp;lt;/ref&amp;gt;
+
+==Airlines and destinations==
+{{Airport-dest-list
+|[[Jetairfly]] | [[Brussels International Airport|Brussels]] (begins 26 October 2013)
+|[[RAK Airways]] | [[Cairo International Airport|Cairo]], [[Calicut International Airport|Calicut]], [[Shah Amanat International Airport|Chittagong]], [[Cochin International Airport|Cochin]] [[Shahjalal International Airport|Dhaka]], [[Doha International Airport|Doha]], [[King Abdulaziz International Airport|Jeddah]], [[Tribhuvan International Airport|Kathmandu]], [[Allama Iqbal International Airport|Lahore]], [[Bacha Khan International Airport|Peshawar]], [[Trivandrum International Airport|Trivandrum]]
+|[[Transaero Airlines]] | [[Domodedovo International Airport|Moscow-Domodedovo]]
+}}
+
+==References==
+{{Reflist}}
+* {{cite web|title=RKT Ra&amp;apos;sal-Khaymah Airport|url=http://www.flightstats.com/go/Airport/airportDetails.do?airport=rkt&amp;amp;x=0&amp;amp;y=0|publisher=FlightStats|accessdate=2012-08-20}}
+
+==External links==
+* [http://www.rakairport.com/ Ras Al Khaimah International Airport Homepage]
+* {{WAD|OMRK}}
+
+{{Airports in the United Arab Emirates}}
+
+[[Category:Airports in the United Arab Emirates]]
+[[Category:Ras al-Khaimah]]
+
+{{UnitedArabEmirates-struct-stub}}
+{{Asia-airport-stub}}
+{{UnitedArabEmirates-transport-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

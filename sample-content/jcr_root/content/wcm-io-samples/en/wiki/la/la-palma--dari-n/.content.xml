@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="La Palma, Darién"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="La Palma, Darién" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=January 2008}}
+&amp;apos;&amp;apos;&amp;apos;La Palma&amp;apos;&amp;apos;&amp;apos; is located at the mouth of the [[Río Tuira]], where the wide river meets the [[Golfo de San Miguel]]. The Chucunaque joins the Tuira farther south. La Palma is the provincial capital of [[Darién Province]] and the most populous town in the region. However, despite its lofty position as capital of the largest province in [[Panama]], La Palma is literally a one-street town. [[Tourism]] is becoming one of the town&amp;apos;s main industries.
+
+Most travelers pass through La Palma for one of two reasons: they’re here to catch a plane to somewhere else, or they’re here to take a boat ride to somewhere else. Every facility of possible interest to the traveler is located on the main street, which is within 300 meters of the airstrip. La Palma is home to the only bank in the Darién Province, the [[Banco Nacional de Panamá]]. There’s also a hospital, a port and a police station, as well as three hotels, three bars and several food stands.
+
+La Palma is the principal trading center for the large sparsely populated region that surrounds it. Plantains, corn, and rice are cultivated, and livestock is raised; there is also some sawmilling. The town is isolated, with no highway linking it to other communities in central and western Panama. The current population is around 4,300 inhabitants.
+
+{{coord|8|24|36|N|78|09|00|W|region:PA_type:city(1900)|display=title}}
+
+[[Category:Populated places in Darién Province]]
+
+{{Panama-geo-stub}}
+
+{{Darién Province}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

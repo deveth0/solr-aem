@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:Selected anniversaries/December 20"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:Selected anniversaries/December 20" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;lt;noinclude&amp;gt;{{../doc}}
+{{divhide|Staging area}}
+==Images==
+Use only ONE image at a time
+&amp;lt;gallery&amp;gt;
+File:Louisiana purchase treaty.jpg|Louisiana Purchase treaty
+File:Felix Dzerzhinsky 1919.jpg|Cheka director Felix Edmundovich Dzerzhinsky
+File:EBR-1 2001.jpg|Experimental Breeder Reactor&amp;amp;nbsp;I
+File:First four nuclear lit bulbs.jpeg|Four light bulbs were lit with electricity generated from the EBR-1 reactor.
+File:KGB Symbol.png|The sword-and-shield emblem of the Cheka-KGB
+File:Oldmacauflag.PNG|Flag of Concelho de Macau, one of the two concelhos of Macau under Portuguese rule
+File:Doña Paz at Tacloban.jpg|MV Doña Paz in port
+File:Luis Carrero Blanco.jpg|Luis Carrero Blanco
+&amp;lt;/gallery&amp;gt;
+
+==Ineligible==
+{|class=&amp;quot;wikitable&amp;quot;
+|-
+!Blurb
+!Reason
+|-
+|  [[1803]] – As part of the [[Louisiana Purchase]], [[New Orleans]] in the [[Louisiana (New France)|French territory of Louisiana]] &amp;apos;&amp;apos;&amp;apos;[[History of New Orleans|was officially transferred]]&amp;apos;&amp;apos;&amp;apos; to the United States.
+| refimprove
+|-
+| [[1917]] – The &amp;apos;&amp;apos;&amp;apos;[[Cheka]]&amp;apos;&amp;apos;&amp;apos;, the first [[Chronology of Soviet secret police agencies|Soviet secret police]], was established by a decree issued by [[Vladimir Lenin]].
+| refimprove
+|-
+| [[1941]] – [[World War II]]: The &amp;apos;&amp;apos;&amp;apos;[[Flying Tigers]]&amp;apos;&amp;apos;&amp;apos; of the [[Republic of China Air Force|Chinese Air Force]] engaged in its first combat missions.
+| refimprove section
+|-
+| [[1973]] – [[Prime Minister of Spain|Spanish Prime Minister]] &amp;apos;&amp;apos;&amp;apos;[[Luis Carrero Blanco]]&amp;apos;&amp;apos;&amp;apos; &amp;apos;&amp;apos;(pictured)&amp;apos;&amp;apos; [[Operación Ogro|was assassinated]]&amp;lt;!--Not bolded, stubby--&amp;gt; by a bomb planted by members of the [[Basque nationalist]] and separatist group [[ETA]].
+| needs more footnotes
+|-
+|  [[1995]] – As per the [[Dayton Agreement]] that ended the [[Bosnian War]], the [[NATO]]-led &amp;apos;&amp;apos;&amp;apos;[[Implementation Force (IFOR)|IFOR]]&amp;apos;&amp;apos;&amp;apos; began peacekeeping operations in [[Bosnia and Herzegovina]].
+| Tagged with {{tl|missing citations}}
+|}
+
+==Eligible==
+{{*mp}} [[1951]] – &amp;apos;&amp;apos;&amp;apos;[[Experimental Breeder Reactor I|Experimental Breeder Reactor&amp;amp;nbsp;I]]&amp;apos;&amp;apos;&amp;apos; near [[Arco, Idaho]], US, became the world&amp;apos;s first [[electricity]]-generating [[nuclear power plant]] when it produced sufficient electricity to illuminate four 200-[[watt]] [[light bulb]]s.
+{{*mp}} [[1987]] – The deadliest peacetime [[List of maritime disasters|maritime disaster]] in history occurred when the &amp;apos;&amp;apos;&amp;apos;{{MV|Doña Paz}}&amp;apos;&amp;apos;&amp;apos; sank after colliding with an [[oil tanker]] on the [[Tablas Strait]] in the Philippines, resulting in an estimated 4,000 deaths.
+{{*mp}} [[1968]] – The &amp;apos;&amp;apos;&amp;apos;[[Zodiac Killer]]&amp;apos;&amp;apos;&amp;apos; murdered the first of his five confirmed victims in [[Vallejo, California]], a case which remains unsolved.
+{{*mp}} [[1988]] – The &amp;apos;&amp;apos;&amp;apos;[[United Nations Convention Against Illicit Traffic in Narcotic Drugs and Psychotropic Substances]]&amp;apos;&amp;apos;&amp;apos; governing international cooperation against the [[illegal drug trade]] was signed in [[Vienna]].
+{{*mp}} [[1989]] – American forces &amp;apos;&amp;apos;&amp;apos;[[United States invasion of Panama|invaded]]&amp;apos;&amp;apos;&amp;apos; Panama to overthrow the government of [[Manuel Noriega]].
+{{*mp}} [[1995]] – &amp;apos;&amp;apos;&amp;apos;[[American Airlines Flight 965]]&amp;apos;&amp;apos;&amp;apos; crashed into a mountain in [[Buga, Valle del Cauca|Buga, Colombia]], killing 151 passengers and 8 crew members.
+{{*mp}} [[2005]] – [[United States district court|US district court]] Judge [[John E. Jones&amp;amp;nbsp;III]] ruled against mandating the teaching of &amp;quot;[[intelligent design]]&amp;quot; in his ruling of &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;[[Kitzmiller v. Dover Area School District]]&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;.
+&amp;lt;/ul&amp;gt;
+
+==Notes==
+{{*mp}} [[SilkAir Flight 185]] appears on [[Wikipedia:Selected anniversaries/December 19|December 19]], so American Airlines Flight 965 should not appear in the same year
+{{divhide|end}}
+&amp;lt;/noinclude&amp;gt;
+&amp;apos;&amp;apos;&amp;apos;[[December 20]]&amp;apos;&amp;apos;&amp;apos;
+&amp;lt;div style=&amp;quot;float:right;margin-left:0.5em&amp;quot;&amp;gt;
+[[File:It&amp;apos;s A Wonderful Life.jpg|Donna Reed, James Stewart, and Karolyn Grimes in &amp;quot;It&amp;apos;s a Wonderful Life&amp;quot;|100x100px]]
+&amp;lt;/div&amp;gt;
+{{*mp}} [[1860]] – [[South Carolina]]&amp;lt;!--Not bolded, tagged with {{tl|isbn}}--&amp;gt; became the first of eleven [[slave state]]s to secede from the United States, leading to the eventual creation of the &amp;apos;&amp;apos;&amp;apos;[[Confederate States of America]]&amp;apos;&amp;apos;&amp;apos; and later the [[American Civil War]].
+{{*mp}} [[1946]] – [[Frank Capra]]&amp;apos;s popular Christmas film &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;[[It&amp;apos;s a Wonderful Life]]&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; &amp;apos;&amp;apos;(pictured)&amp;apos;&amp;apos; was first released in New York City.
+{{*mp}} [[1955]] – &amp;apos;&amp;apos;&amp;apos;[[Cardiff]]&amp;apos;&amp;apos;&amp;apos; was proclaimed as the [[capital city|capital]] of [[Wales]].
+{{*mp}} [[1999]] – Portugal [[Transfer of sovereignty over Macau|transferred sovereignty]]&amp;lt;!--Not bolded, refimprove--&amp;gt; of &amp;apos;&amp;apos;&amp;apos;[[Macau]]&amp;apos;&amp;apos;&amp;apos;, which it had administered since the mid-16th century, to China.
+{{*mp}} [[2007]] – [[Pablo Picasso]]&amp;apos;s &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;[[Portrait of Suzanne Bloch]]&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; was stolen from the [[São Paulo Museum of Art]].
+&amp;lt;/ul&amp;gt;
+{{SelAnnivFooter|Month=December|Day=20}}
+&amp;lt;noinclude&amp;gt;
+&amp;lt;/noinclude&amp;gt;&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

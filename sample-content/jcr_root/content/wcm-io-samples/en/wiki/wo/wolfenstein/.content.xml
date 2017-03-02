@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wolfenstein"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wolfenstein" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Wolfenstein&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+== Geography ==
+* [[Wolfenstein (rock)|Wolfenstein]], a rock formation in Germany
+
+== People ==
+* [[Alfred Wolfenstein]] (1888-1945), German poet ([[:de:Alfred Wolfenstein]])
+* [[Eugene Victor Wolfenstein]] (1940-2010), distinguished social theorist, practicing psychoanalyst and a professor of Political Science at University of California, Los Angeles
+* [[Lincoln Wolfenstein]] (b. 1923), American physicist
+
+== Video games ==
+* &amp;apos;&amp;apos;[[Wolfenstein (series)]]&amp;apos;&amp;apos;, includes:
+** &amp;apos;&amp;apos;[[Castle Wolfenstein]]&amp;apos;&amp;apos;, a computer game released in 1981 by Muse Software
+** &amp;apos;&amp;apos;[[Beyond Castle Wolfenstein]]&amp;apos;&amp;apos;, the sequel for the above game, released in 1984
+** &amp;apos;&amp;apos;[[Wolfenstein 3D]]&amp;apos;&amp;apos;, a computer game released in 1992 by id Software
+** &amp;apos;&amp;apos;[[Spear of Destiny (video game)]]&amp;apos;&amp;apos;, the prequel for the above game, released in 1992
+** &amp;apos;&amp;apos;[[Return to Castle Wolfenstein]]&amp;apos;&amp;apos;, a computer game released in 2001
+** &amp;apos;&amp;apos;[[Wolfenstein: Enemy Territory]]&amp;apos;&amp;apos;, a free multiplayer game based on Return to Castle Wolfenstein, released in 2003
+** &amp;apos;&amp;apos;[[Wolfenstein (2009 video game)]]&amp;apos;&amp;apos;, the sequel to 2001&amp;apos;s Return to Castle Wolfenstein, released in 2009 by [[Activision]].
+** &amp;apos;&amp;apos;[[Wolfenstein: The New Order]]&amp;apos;&amp;apos; by MachineGames
+
+== Movies ==
+* &amp;apos;&amp;apos;[[Return to Castle Wolfenstein (film)]]&amp;apos;&amp;apos;, a movie based on the &amp;apos;&amp;apos;Wolfenstein&amp;apos;&amp;apos; series, current production status is unknown.
+
+==See also==
+* [[Wolfsschanze]]
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

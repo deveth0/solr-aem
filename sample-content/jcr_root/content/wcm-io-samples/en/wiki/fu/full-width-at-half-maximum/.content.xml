@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Full width at half maximum"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Full width at half maximum" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Image:FWHM.svg|thumb|250px|right|full width at half maximum]]
+&amp;apos;&amp;apos;&amp;apos;Full width at half maximum&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;&amp;apos;FWHM&amp;apos;&amp;apos;&amp;apos;) is an expression of the extent of a function, given by the difference between the two extreme values of the [[independent variable]] at which the dependent variable is equal to half of its maximum value.
+
+FWHM is applied to such phenomena as the duration of [[pulse (signal processing)|pulse]] waveforms and the [[spectral width]] of sources used for optical [[telecommunication|communications]] and the resolution of [[spectrometer]]s.
+
+The term &amp;apos;&amp;apos;full duration at half maximum&amp;apos;&amp;apos; (FDHM) is preferred when the independent variable is [[time]].
+
+The convention of &amp;quot;width&amp;quot; meaning &amp;quot;half maximum&amp;quot; is also widely used in [[signal processing]] to define [[bandwidth (signal processing)|bandwidth]] as &amp;quot;width of frequency range where less than half the signal&amp;apos;s power is attenuated&amp;quot;, i.e., the power is at least half the maximum. In signal processing terms, this is at most &amp;amp;minus;3 [[decibel|dB]] of attenuation, called &amp;quot;[[half power point]]&amp;quot;.
+
+If the considered function is the [[normal distribution]] of the form
+
+:&amp;lt;math&amp;gt;f(x) = \frac{1}{\sigma \sqrt{2 \pi} } \exp \left[ -\frac{(x-x_0)^2}{2 \sigma^2} \right]&amp;lt;/math&amp;gt;
+
+where &amp;lt;math&amp;gt;\sigma&amp;lt;/math&amp;gt; is the [[standard deviation]] and &amp;lt;math&amp;gt;x_0&amp;lt;/math&amp;gt; can be any value (the width of the function does not depend on translation), then the relationship between FWHM and the [[standard deviation]] is&amp;lt;ref&amp;gt;[http://mathworld.wolfram.com/GaussianFunction.html Gaussian Function - from Wolfram MathWorld&amp;lt;!-- Bot generated title --&amp;gt;]&amp;lt;/ref&amp;gt;
+
+:&amp;lt;math&amp;gt; \mathrm{FWHM} =   2\sqrt{2 \ln 2 } \; \sigma \approx 2.3548201 \; \sigma.&amp;lt;/math&amp;gt;
+
+In [[spectroscopy]] half the width at half maximum, HWHM, is in common use. For example, a [[cauchy distribution|Lorentzian]] of unit height can be defined by
+:&amp;lt;math&amp;gt;f(x)=\frac{1}{1+\left( \frac{x-x_0}{HWHM}\right)^2}&amp;lt;/math&amp;gt;
+
+Another important distribution function, related to [[soliton]]s in [[optics]], is the [[hyperbolic secant distribution|hyperbolic secant]]:
+
+:&amp;lt;math&amp;gt;f(x)=\operatorname{sech} \left( \frac{x}{X} \right).&amp;lt;/math&amp;gt;
+
+Any translating element was omitted, since it does not affect the FWHM. For this impulse we have:
+
+:&amp;lt;math&amp;gt;\mathrm{FWHM} =   2 \; \operatorname{arsech} \left( \frac{1}{2} \right) X = 2 \ln (2 + \sqrt{3}) \; X \approx 2.634 \; X &amp;lt;/math&amp;gt;
+
+where &amp;apos;&amp;apos;arsech&amp;apos;&amp;apos; is the [[Inverse hyperbolic function|inverse hyperbolic secant]].
+
+== References ==
+*{{FS1037C}}
+{{reflist}}
+
+== See also ==
+*[[Gaussian function]]
+*[[Cutoff frequency]]
+
+== External links ==
+*[http://mathworld.wolfram.com/FullWidthatHalfMaximum.html FWHM at Wolfram Mathworld]
+
+[[Category:Statistical deviation and dispersion]]
+[[Category:Telecommunication theory]]
+[[Category:Waves]]
+
+{{Mathapplied-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

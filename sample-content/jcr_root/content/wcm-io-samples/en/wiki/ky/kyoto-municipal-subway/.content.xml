@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Kyoto Municipal Subway"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Kyoto Municipal Subway" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox public transit
+|box_width                   =
+|name                        =Kyoto Municipal Subway
+|image                       =Kyoto MTB Logo.svg
+|alt                         =Kyoto Municipal Subway Logo
+|imagesize                   =80
+|image2                      =
+|alt2                        =
+|imagesize2                  =
+|caption                     =Kyoto Municipal Subway Logo
+|owner                       =
+|locale                      =[[Kyoto]]
+|transit_type                =Rapid Transit
+|lines                       =2
+|stations                    =29
+|ridership                   =
+|annual_ridership            =
+|chief_executive             =
+|headquarters                =
+|website                     =
+|began_operation             ={{Start date|1981}}
+|operation_will_start        =
+|ended_operation             =
+|operator                    =[[Kyoto Municipal Transportation Bureau]]
+|marks                       =
+|vehicles                    =
+|train_length                =
+|headway                     =
+|system_length               = {{convert|28.8|km|mi|2|abbr=on}}
+|track_gauge                 =
+|ogauge                      =
+|minimum_radius_of_curvature = &amp;lt;!-- {{convert|0|ft|0|in|mm|0}} --&amp;gt;
+|el                          =
+|average_speed               = &amp;lt;!-- {{convert|0|mph|km/h|abbr=on}} --&amp;gt;
+|top_speed                   = &amp;lt;!-- {{convert|0|mph|km/h|abbr=on}} --&amp;gt;
+|osm_id                      =
+|map                         = [[File:Kyoto Metro Map.png|250px]]&amp;lt;br&amp;gt;Map of Kyoto Municipal Subway
+|map_state                   = collapsed
+}}
+
+{{nihongo|&amp;apos;&amp;apos;&amp;apos;Kyoto Municipal Subway&amp;apos;&amp;apos;&amp;apos;|京都市営地下鉄|Kyōto-shiei chikatetsu}} is the [[rapid transit|metro]] network in the city of [[Kyoto]], [[Japan]].  It is operated by [[Kyoto Municipal Transportation Bureau]]. It has two lines.
+
+==Lines==
+{| class=&amp;quot;wikitable&amp;quot; &amp;lt;!--style=&amp;quot;margin: 0 auto; text-align:center;&amp;quot;--&amp;gt;
+! colspan=2| Color &amp;amp; Icon
+! colspan=2| Name
+! Mark
+! First section&amp;lt;br /&amp;gt;opened
+! Last ex-&amp;lt;br /&amp;gt;tension
+! Length&amp;lt;br /&amp;gt;km/miles
+! Stations
+|-
+| rowspan=3 style=&amp;quot;background:#3cb371; color:white;&amp;quot;|green
+| rowspan=3|[[File:Subway KyotoKarasuma.png|25px]]
+| -
+| style=&amp;quot;text-align:left;&amp;quot;|[[Karasuma Line]]
+| K
+| 1981
+| 1997
+| 13.7/8.5
+| 15
+|-
+| rowspan=2|&amp;apos;&amp;apos;Via trackage rights&amp;apos;&amp;apos;
+| style=&amp;quot;text-align:left;&amp;quot;|[[Kintetsu]] [[Kintetsu Kyoto Line|Kyōto Line]]
+| rowspan=2|-
+| 1988&amp;lt;ref&amp;gt;Between [[Takeda Station (Kyoto)|Takeda Station]] and [[Yamato-Saidaiji Station]]&amp;lt;/ref&amp;gt;
+| 2000
+| 31.0/19.3
+| 22&amp;lt;ref&amp;gt;Including [[Takeda Station (Kyoto)|Takeda Station]]&amp;lt;/ref&amp;gt;
+|-
+| style=&amp;quot;text-align:left;&amp;quot;|[[Kintetsu]] [[Kintetsu Nara Line|Nara Line]]
+| 2000&amp;lt;ref&amp;gt;Between [[Yamato-Saidaiji Station]] and [[Kintetsu Nara Station]]&amp;lt;/ref&amp;gt;
+| -
+| 4.4/2.7
+| 3&amp;lt;ref&amp;gt;Including [[Yamato-Saidaiji Station]]&amp;lt;/ref&amp;gt;
+|-
+| rowspan=3 style=&amp;quot;background:orangered; color:white;&amp;quot;|vermilion
+| rowspan=3|[[File:Subway KyotoTozai.png|25px]]
+| -
+| rowspan=3 style=&amp;quot;text-align:left;&amp;quot;|[[Tōzai Line (Kyoto)|Tōzai Line]]
+| rowspan=3| T
+| 1997&amp;lt;ref&amp;gt;Between [[Rokujizō Station]] and [[Misasagi Station]]&amp;lt;/ref&amp;gt;
+| 2004
+| 8.7/5.4
+| 8
+|-
+|&amp;apos;&amp;apos;Via trackage rights&amp;apos;&amp;apos;
+| 1997&amp;lt;ref&amp;gt;Owned by [[Kyoto High-Speed Rail]] between [[Misasagi Station]] and [[Sanjō Keihan Station]]&amp;lt;/ref&amp;gt;
+| -
+| 3.4/2.1
+| 4&amp;lt;ref&amp;gt;Including [[Misasagi Station]] and [[Sanjō Keihan Station]]&amp;lt;/ref&amp;gt;
+|-
+| -
+| 1997&amp;lt;ref&amp;gt;Between [[Sanjō Keihan Station]] and [[Nijō Station (Kyoto)|Nijō Station]]&amp;lt;/ref&amp;gt;
+| 2008
+| 3.0/1.9
+| 5
+|}
+
+==See also==
+* [[List of metro systems]]
+* [[Transport in Greater Osaka]]
+
+== External links ==
+*{{commonscat-inline|Kyoto Subway}}
+*[http://www.city.kyoto.jp/koho/eng/access/transport.html Public transport in Kyoto]
+*[http://www.cityrailtransit.com/maps/kyoto_map.htm Network map (to scale)]
+
+==Notes==
+&amp;lt;references /&amp;gt;
+
+{{Metro systems in Japan}}
+{{Osaka transit}}
+
+[[Category:Kyoto]]
+[[Category:Kyoto Municipal Subway|*]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

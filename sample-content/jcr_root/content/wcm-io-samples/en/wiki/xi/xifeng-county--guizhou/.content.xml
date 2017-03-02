@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Xifeng County, Guizhou"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Xifeng County, Guizhou" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{No footnotes|date=April 2009}}
+&amp;apos;&amp;apos;&amp;apos;Xifeng&amp;apos;&amp;apos;&amp;apos; ({{zh|c=息烽|p=Xīfēng}}) is a county with  250,000 inhabitants in the [[Guiyang]] [[Prefecture (China)|Prefecture]] of [[Guizhou]] [[Province (China)|Province]] of the [[People&amp;apos;s Republic of China]]. Xifeng is one of the poorest cities in the province.
+The production of [[pesticide]]s is an important industry.
+Xifeng has belonged to the prefecture of [[Guiyang]] since 1996.
+
+Xifeng has an area of 1,037&amp;amp;nbsp;km². The seat of the county is Yongjing(永靖镇).
+
+== Transportation ==
+*[[China National Highway 210]]
+
+==External links==
+* {{zh icon}} [http://www.gz.xinhuanet.com/zfpd/gys/xf/contents/xingai.htm Introductions of Xifeng by xinhuanet 1 ], [http://www.gz.xinhuanet.com/zfpd/gys/xf/contents/xingai-2.htm 2], [http://www.gz.xinhuanet.com/zfpd/gys/xf/contents/xingai-3.htm 3]
+{{county-level divisions of Guizhou}}
+{{coord|27|08|N|106|40|E|region:CN_type:city|display=title}}
+
+[[Category:County-level divisions of Guizhou]]
+
+{{Guizhou-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

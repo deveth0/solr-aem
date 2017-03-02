@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Dinitz conjecture"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Dinitz conjecture" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[combinatorics]], the &amp;apos;&amp;apos;&amp;apos;Dinitz conjecture&amp;apos;&amp;apos;&amp;apos; is a statement about the extension of arrays to partial [[Latin squares]], proposed in 1979 by [[Jeff Dinitz]], and proved in 1994 by [[Fred Galvin]].
+
+The Dinitz conjecture, now a theorem, is that given an &amp;apos;&amp;apos;n&amp;apos;&amp;apos; &amp;amp;times; &amp;apos;&amp;apos;n&amp;apos;&amp;apos; square array, a set of &amp;apos;&amp;apos;m&amp;apos;&amp;apos; symbols with &amp;apos;&amp;apos;m&amp;apos;&amp;apos; ≥ &amp;apos;&amp;apos;n&amp;apos;&amp;apos;, and for each cell of the array an &amp;apos;&amp;apos;n&amp;apos;&amp;apos;-element set drawn from the pool of &amp;apos;&amp;apos;m&amp;apos;&amp;apos; symbols, it is possible to choose a way of labeling each cell with one of those elements in such a way that no row or column repeats a symbol.
+
+The Dinitz conjecture is closely related to [[graph theory]], in which it can be succinctly stated as &amp;lt;math&amp;gt;\chi^\prime_l(K_{n, n}) = n&amp;lt;/math&amp;gt; for natural &amp;lt;math&amp;gt;n&amp;lt;/math&amp;gt;. It means that the [[list chromatic index]] of the [[complete bipartite graph]] &amp;lt;math&amp;gt;K_{n, n}&amp;lt;/math&amp;gt; equals &amp;lt;math&amp;gt;n&amp;lt;/math&amp;gt;. In fact, Fred Galvin proved the Dinitz conjecture as a special case of his theorem stating that the list chromatic index of any bipartite multigraph is equal to its [[chromatic index]]. Moreover, it is also a special case of the &amp;apos;&amp;apos;&amp;apos;edge list coloring conjecture&amp;apos;&amp;apos;&amp;apos; saying that the same holds not only for bipartite graphs, but also for any loopless multigraph.
+
+==References==
+* {{cite journal | author=F. Galvin | authorlink=Fred Galvin | title=The list chromatic index of a bipartite multigraph |journal=Journal of Combinatorial Theory |series=Series B |volume=63 |issue=1 |year=1995 |pages=153–158 |doi=10.1006/jctb.1995.1011}}
+* {{cite journal |last=Zeilberger |first=D. |authorlink=Doron Zeilberger |coauthors= |year=1996 |month= |title=The Method of Undetermined Generalization and Specialization Illustrated with Fred Galvin&amp;apos;s Amazing Proof of the Dinitz Conjecture |journal=The American mathematical monthly |volume=103 |issue=3 |pages=233–239 |id= |arxiv=math/9506215 |accessdate=2009-04-15 |quote= }}
+* {{cite journal |last=Chow |first=T. Y. |authorlink= |coauthors= |year=1995 |month= |title=On the Dinitz conjecture and related conjectures |journal=Discrete Math |volume=145 |issue= |pages=145–173 |id= |url=http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.72.7005 |accessdate=2009-04-15 |quote= }}
+
+==External links==
+* {{MathWorld|title=Dinitz Problem|urlname=DinitzProblem|accessdate=2008-08-17}}
+
+[[Category:Combinatorics]]
+[[Category:Latin squares]]
+[[Category:Graph coloring]]
+[[Category:Theorems in discrete mathematics]]
+
+
+{{combin-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

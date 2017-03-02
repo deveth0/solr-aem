@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Michael Hastings"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Michael Hastings" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Michael Hastings&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;Mike Hastings&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+*[[Michael Hastings (playwright)]] (1938–2011), British playwright, screen-writer, novelist and poet
+*[[Michael Abney-Hastings, 14th Earl of Loudoun]] (1942–2012), British-born Australian farmer, alleged to be the rightful monarch of England
+*[[Michael Hastings, Baron Hastings of Scarisbrick]], British peer and television executive
+*[[Mike Hastings (ice hockey)]] (born 1966), former head coach and general manager of the Omaha Lancers in the USHL
+*[[Michael Hastings (journalist)]] (1980–2013), American journalist and writer
+*[[Michael Hastings (politician)]], State Senator, Illinois State Senate
+
+{{hndis|Hastings, Michael}}
+
+{{DEFAULTSORT:Hastings, Michael}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

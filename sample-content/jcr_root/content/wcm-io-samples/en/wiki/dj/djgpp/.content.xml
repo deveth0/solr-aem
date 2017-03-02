@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="DJGPP"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="DJGPP" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox Software
+| name                   = DJGPP
+| logo                   = [[Image:djgpp logo.svg|250px]]
+| screenshot             = [[Image:GCC DJGPP Windows.png|300px]]
+| caption                = The DJGPP environment, utilizing [[GNU Compiler Collection|GCC]]
+| developer              = [[DJ Delorie]]
+| latest release version = 2.0.3p2
+| latest release date    = {{release date|2002|06|10}}
+| operating system       = [[DOS]] and [[Microsoft Windows|Windows]]
+| genre                  = [[Compiler]]
+| license                = [[GNU General Public License|GNU GPL]]
+| website                = http://www.delorie.com/djgpp/
+}}
+&amp;apos;&amp;apos;&amp;apos;DJGPP&amp;apos;&amp;apos;&amp;apos; (DJ&amp;apos;s GNU Programming Platform)&amp;lt;ref&amp;gt;{{cite web|url=http://www.delorie.com/djgpp/doc/eli-m17n99.html#History|title=The DJGPP Project|date=Jul-1999|accessdate=20-Jul-2009|author=Eli Zaretskii}}&amp;lt;/ref&amp;gt; is a development suite for [[x86|386]]-based [[PC compatible|IBM PC compatibles]] which supports [[DOS]]-compatible operating systems. It is guided by [[DJ Delorie]], who began the project in 1989. It is a [[porting|port]] of the popular [[GNU Compiler Collection|GCC]] [[compiler]], as well as mostly [[GNU]] utilities such as [[Bash (Unix shell)|Bash]], [[find]], [[tar (file format)|tar]], [[ls]], [[AWK|Gawk]], [[sed]], and [[ld (Unix)|ld]] to [[DPMI]]. Languages available include [[C (programming language)|C]], [[C++]], [[Objective-C]]/C++, [[Ada (programming language)|Ada]], [[Fortran]], and [[Pascal (programming language)|Pascal]].
+
+== Design ==
+
+The compiler generates 32-bit code, which runs natively in 32-bit [[protected mode]] while switching back to 16-bit [[DOS]] calls for basic OS support. However, unlike [[Open Watcom]], it is not a zero-based flat model due to preferring NULL pointer protection for better stability. It is currently based upon a variant of the [[COFF]] format. It can access up to 4 GB of RAM in pure DOS when using a suitable [[DPMI]] host (e.g. [[CWSDPMI]] r7 or HDPMI32).
+
+== Compatibility ==
+
+DJGPP presents the programmer an interface which is compatible with the [[ANSI C]] and [[C99]] standards, unofficial DOS standards, and an older [[POSIX]] [[Unix]] standard. Compiled binaries are [[long file name]]-aware and handle such filenames under [[Windows 9x|Win32]] by default. [[Terminate and Stay Resident|TSR]]s to support LFNs under plain [[DOS]] or [[Windows NT 4]] are available.
+
+While DJGPP runs in 32-bit [[protected mode]], its stub and library heavily rely upon many 16-bit DOS and BIOS calls. Because the [[x86-64]] versions of [[Microsoft Windows|Windows]] lack support for 16-bit programs,&amp;lt;ref&amp;gt;{{cite web|url=http://support.microsoft.com/kb/282423|title=List of limitations in 64-Bit Windows|date=Oct-2007|accessdate=18-May-2010|author=Microsoft}}&amp;lt;/ref&amp;gt; there is no [[NTVDM]], and DJGPP applications cannot be run. Under x86-64 systems these applications only function through emulation (e.g. [[DOSBox]]), [[x86 virtualization|virtualization]] (e.g. [[VirtualBox]]), or similar (e.g. Linux&amp;apos;s [[DOSEMU]]). This problem arises because in [[long mode]] x86-64 processors do not support the [[virtual 8086 mode]] used to run 16-bit code in IA-32 processors. Newer x86 CPUs with [[VT-X]] do support [[paged real mode]] and unrestricted guest mode execution.
+
+== Uses ==
+
+The original [[Quake (video game)|Quake]] for DOS was compiled with DJGPP, as well as other programs such as [[GNU Emacs]], [[p7zip]], [[Vim (text editor)|Vim]], [[beye]], [[UPX]], [[Netwide Assembler|NASM]], [[The Hessling Editor|THE]], [[Linley&amp;apos;s Dungeon Crawl]], [[NetHack]], [[Perl]], [[Python (programming language)|Python]], and auxiliary applications within [[Arachne (web browser)|Arachne]].&amp;lt;ref&amp;gt;[http://www.delorie.com/djgpp/history.html The history of djgpp]&amp;lt;/ref&amp;gt;
+
+== See also ==
+{{Portal|Free software}}
+
+* [[Cygwin]]
+* [[EMX (programming environment)]]
+* [[GnuWin32]]
+* [[MinGW]]
+
+== References ==
+
+{{refs}}
+
+== External links ==
+
+* {{official|http://www.delorie.com/djgpp/}}
+
+[[Category:C compilers]]
+[[Category:DOS extenders]]
+[[Category:Free compilers and interpreters]]
+[[Category:Free integrated development environments]]
+[[Category:1989 software]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

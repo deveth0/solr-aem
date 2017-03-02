@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="List of publishers of children&#x27;s books"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="List of publishers of children&#x27;s books" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;This is a &amp;apos;&amp;apos;&amp;apos;list of publishers of [[Children&amp;apos;s literature|children&amp;apos;s books]]&amp;apos;&amp;apos;&amp;apos;. The publishers may be independent, an imprint of a larger publisher, and may be currently operating or out of business.
+
+{{dynamic list}}
+&amp;lt;!--publishers should have articles, or references showing notability. redlinks without references WILL be removed, as will external links without references. external links with references other than their website should be turned into plain names (black text), with a ref tag at the end.--&amp;gt;
+* [[Adarna House]]
+* [[AER (publishing house)|AER]]
+* [[Annick Press]]
+* [[Anvil Publishing, Inc.]]
+* [[Barefoot Books]]
+* [[Big Guy Books]]
+* [[Bloomsbury Publishing|Bloomsbury]]
+* [[The Bookhouse for Children]]
+* [[Candlewick Press]]
+* [[David Fickling Books]]
+* [[Dorling Kindersley]]
+* [[Dutton Children&amp;apos;s Books]]
+* [[Gallimard Jeunesse]]
+* [[Golden Books]]
+* [[Goops|Goops Unlimited]]
+* [[Harper Collins]]
+* [[Kids Can Press]]
+* [[Kim Dong Publishing House]]
+* [[Ladybird Books]]
+* [[J. Lumsden and Son]]
+* [[Lee &amp;amp; Low Books]]
+* [[Mackinac Island Press]]
+* [[Mascot Books]]
+* [[Miles Kelly Publishing]]
+* [[Neal Porter Books]]
+* [[Orchard Books]]
+* [[Orion Publishing Group|Orion]]
+* [[Peace Hill Press]]
+* [[Puffin Books]]
+* [[Random House]]
+* [[Roaring Brook Press]]
+* [[Salariya Book Company]]
+* [[Scholastic (publisher)|Scholastic]]
+* [[Tamarind Books]]
+* [[Tundra Books]]
+* [[Usborne Publishing]]
+
+==See also==
+* [[List of English language book publishers]]
+
+{{Companies by industry}}
+
+{{DEFAULTSORT:Publishers Of Children&amp;apos;s Books}}
+
+[[Category:Children&amp;apos;s book publishers|*]]
+[[Category:Lists of publishing companies|Childrens]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Open eBook"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Open eBook" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox file format
+| name = Open eBook Publication Structure (OEBPS)
+| icon =
+| logo =
+| screenshot =
+| caption =
+| extension = .opf
+| mime = application/oebps-package+xml&amp;lt;ref&amp;gt;http://www.idpf.org/2007/opf/OPF_2.0_final_spec.html&amp;lt;/ref&amp;gt;
+| type code =
+| uniform type =
+| magic =
+| owner = Open eBook Forum
+| released = 1999
+| latest release version = Open eBook Publication Structure (OEBPS) 1.2
+| latest release date = August 2002
+| genre = e-Book [[file format]]
+| container for =
+| contained by = OEB Package Format ([[ZIP (file format)|ZIP]])
+| extended from = [[XML]], defined subset of [[XHTML]], [[Cascading Style Sheets|CSS]], [[Dublin Core]]
+| extended to = [[EPUB]] electronic publication standard
+| standard =
+| url = [http://www.idpf.org/ Open eBook Forum]
+}}
+&amp;apos;&amp;apos;&amp;apos;Open eBook&amp;apos;&amp;apos;&amp;apos; (or &amp;apos;&amp;apos;&amp;apos;OEB&amp;apos;&amp;apos;&amp;apos;), or formally, the &amp;apos;&amp;apos;&amp;apos;Open eBook Publication Structure&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;&amp;apos;OEBPS&amp;apos;&amp;apos;&amp;apos;), is a [[Legacy_system|legacy]] [[e-book]] format which has been superseded by the [[EPUB]] format.  It was &amp;quot;based primarily on technology developed by [[SoftBook]] Press&amp;quot;&amp;lt;ref&amp;gt;{{Citation | last=Judge | first=Paul | title=E-Books: A Library On Your Lap | magazine=BusinessWeek | date=1998-11-16 | url=http://web.archive.org/web/20000208053039/www.businessweek.com/1998/46/b3604010.htm}}&amp;lt;/ref&amp;gt; and on [[XML]].
+
+Open eBook is a [[ZIP (file format)|ZIP file]] plus a [[Manifest file]]. Inside the package a defined subset of [[XHTML]] may be used, along with [[Cascading Style Sheets|CSS]] and [[Dublin Core]] metadata. The default file extension is .opf (OEB Package Format).
+
+==Specification release history==
+* September 2007 — &amp;apos;&amp;apos;Open Publication Structure (OPS) 2.0, [[EPUB]]. Released, supersedes the OEBPS 1.2&amp;apos;&amp;apos;
+* August 2002 — &amp;apos;&amp;apos;OEBPS 1.2 Recommended Specification Released&amp;apos;&amp;apos;
+* June 2001 — &amp;apos;&amp;apos;OEBPS 1.0.1 replaces OEBPS 1.0&amp;apos;&amp;apos;
+* September 1999 — &amp;apos;&amp;apos;Open eBook Publication Structure (OEBPS) 1.0 released&amp;apos;&amp;apos;
+
+==Reader software==
+* [[SoftBook]]
+* [[Adobe Digital Editions]]
+* [[FBReader]] — GPL e-book reader for Unix/Windows computers.
+* [[Lexcycle Stanza]]
+* [[Mobipocket]]
+* [[Openberg Lector]] — crossplatform reader released under the [[GPL]] and based on [[Mozilla]] platform
+* [[WordPlayer]] — eBook reader for Android (Google) Phone OS
+
+==Reader devices==
+* [[SoftBook]], 1998
+* [[Sony Reader]] — As of 7/24/2008 the Sony Reader PRS-505 supports the EPUB file format with the release of Sony eBook Library version 2.2.00.18100 and Reader [[firmware]] version 1.1.00.18040 &amp;lt;ref&amp;gt;http://esupport.sony.com/US/perl/swu-download.pl?upd_id=3623&amp;amp;mdl=PRS505&amp;lt;/ref&amp;gt;
+* [[Intel Reader]] &amp;lt;ref&amp;gt;http://www.reader.intel.com&amp;lt;/ref&amp;gt;
+* [[Apple iPad]] &amp;lt;ref&amp;gt;http://www.apple.com/ipad/&amp;lt;/ref&amp;gt;
+* [[Nook Reader]] &amp;lt;ref&amp;gt;http://www.barnesandnoble.com/nook/index.asp&amp;lt;/ref&amp;gt;
+* [[Kobo eReader]] &amp;lt;ref&amp;gt;http://www.koboereader.com&amp;lt;/ref&amp;gt;
+
+==See also==
+* [[Comparison of e-book formats]]
+* [[Open Packaging Conventions]]
+
+==References==
+{{Reflist}}
+
+==External links==
+* [http://www.idpf.org/ Open eBook Forum]
+* [http://sourceforge.net/projects/openberg/ Openberg]
+* [http://www.stg.brown.edu/service/oebvalid/ Open eBook Validator]
+* [http://www.idpf.org/2007/ops/OPS_2.0_final_spec.html Open Publication Structure (OPS) 2.0]
+* [http://www.adobe.com/products/digitaleditions/library/ Adobe&amp;apos;s Sample eBook Library]
+* [http://wiki.mobileread.com/wiki/EPUB Article &amp;quot;EPUB&amp;quot; at the MobileRead Wiki]
+* [http://www.epubconversion.com/ePub-validator-iBook.jsp/ ePub Validator - This utility allows to validate the epub file to ePub standards of 1.0.5]
+
+{{DEFAULTSORT:Open Ebook}}
+[[Category:Markup languages]]
+[[Category:XML-based standards]]
+
+{{standard-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

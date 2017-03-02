@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="German Forum Party"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="German Forum Party" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;German Forum Party&amp;apos;&amp;apos;&amp;apos; ({{lang-de|Deutsche Forumpartei}}) was an opposition [[political party]] in [[East Germany]]. It was formed from the [[New Forum]] (&amp;apos;&amp;apos;Neues Forum&amp;apos;&amp;apos;) citizens&amp;apos; movement. It was founded in [[Chemnitz|Karl-Marx-Stadt]] (now Chemnitz) on 27 January 1990. Its first chairman was Jürgen Schmieder. It described itself as being at the political centre.
+
+It was invited to join the Christian Democrat dominated [[Alliance for Germany]] coalition for the 1990 [[Volkskammer]] election but instead it joined the [[Association of Free Democrats]] in 12 February 1990.
+
+==See also==
+*[[Liberalism]]
+*[[Contributions to liberal theory]]
+*[[Liberalism worldwide]]
+*[[List of liberal parties]]
+*[[Liberal democracy]]
+*[[Liberalism in Germany]]
+
+==External links==
+*[http://www.chronikderwende.de/english/term.jsp?key=E_DFP German Forum Party from &amp;apos;&amp;apos;Chronik der Wende&amp;apos;&amp;apos;]
+
+{{GDR political parties}}
+
+[[Category:Defunct liberal political parties|Germany 1990]]
+[[Category:Political parties in East Germany]]
+[[Category:Political parties established in 1990]]
+[[Category:1990 establishments in East Germany]]
+
+
+{{Euro-liberalparty-stub}}
+{{Germany-party-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

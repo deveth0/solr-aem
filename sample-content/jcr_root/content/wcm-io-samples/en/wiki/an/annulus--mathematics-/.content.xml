@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Annulus (mathematics)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Annulus (mathematics)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Image:Annulus_area.svg|right|150px|An annulus]]
+In [[mathematics]], an &amp;apos;&amp;apos;&amp;apos;annulus&amp;apos;&amp;apos;&amp;apos; (the [[Latin]] word for &amp;quot;little ring&amp;quot;, with plural &amp;apos;&amp;apos;annuli&amp;apos;&amp;apos;) is a ring-shaped object, especially a region bounded by two concentric circles. The adjectival form is &amp;apos;&amp;apos;&amp;apos;annular&amp;apos;&amp;apos;&amp;apos; (as in [[annular eclipse]]).
+
+The open annulus is [[Homeomorphism|topologically equivalent]] to both the open [[cylinder (geometry)|cylinder]] {{math|&amp;apos;&amp;apos;S&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;1&amp;lt;/sup&amp;gt; &amp;amp;times; (0,1)}} and the [[punctured plane]].
+
+The area of an annulus is the difference in the areas of the larger [[circle]] of radius {{math|&amp;apos;&amp;apos;R&amp;apos;&amp;apos;}} and the smaller one of radius {{math|&amp;apos;&amp;apos;r&amp;apos;&amp;apos;}}:
+:&amp;lt;math&amp;gt;A = \pi R^2 - \pi r^2 = \pi(R^2 - r^2)\,.&amp;lt;/math&amp;gt;
+
+The area of an annulus can be obtained from the length of the longest interval that can lie completely inside the annulus, 2*&amp;apos;&amp;apos;d&amp;apos;&amp;apos; in the accompanying diagram. This can be proven by the [[Pythagorean theorem]]; the length of the longest interval that can lie completely inside the annulus will be [[tangent]] to the smaller circle and form a right angle with its radius at that point. Therefore &amp;apos;&amp;apos;d&amp;apos;&amp;apos; and &amp;apos;&amp;apos;r&amp;apos;&amp;apos; are the sides of a right angled triangle with hypotenuse &amp;apos;&amp;apos;R&amp;apos;&amp;apos; and the area is given by:
+:&amp;lt;math&amp;gt;A = \pi (R^2-r^2) = \pi d^2 \,.&amp;lt;/math&amp;gt;
+
+The area can also be obtained via [[calculus]] by dividing the annulus up into an infinite number of annuli of [[infinitesimal]] width {{math|&amp;apos;&amp;apos;d&amp;amp;rho;&amp;apos;&amp;apos;}} and area {{math|2&amp;apos;&amp;apos;&amp;amp;pi;&amp;amp;rho; d&amp;amp;rho;&amp;apos;&amp;apos;}} ( {{math|= circumference &amp;amp;times; width}}) and then [[integral|integrating]] from &amp;apos;&amp;apos;&amp;amp;rho;&amp;apos;&amp;apos; = &amp;apos;&amp;apos;r&amp;apos;&amp;apos; to &amp;apos;&amp;apos;&amp;amp;rho;&amp;apos;&amp;apos; = &amp;apos;&amp;apos;R&amp;apos;&amp;apos;:
+:&amp;lt;math&amp;gt;A = \int_r^R 2\pi\rho\, d\rho = \pi(R^2-r^2).&amp;lt;/math&amp;gt;
+
+The area of an annulus segment of angle {{math|&amp;apos;&amp;apos;&amp;amp;theta;&amp;apos;&amp;apos;}}, with {{math|&amp;apos;&amp;apos;&amp;amp;theta;&amp;apos;&amp;apos;}} measured in radians, is given by:
+:&amp;lt;math&amp;gt; A = \frac{\theta}{2} (R^2 - r^2) &amp;lt;/math&amp;gt;
+
+==Complex structure==
+In [[complex analysis]] an &amp;apos;&amp;apos;&amp;apos;annulus&amp;apos;&amp;apos;&amp;apos; {{math|ann&amp;apos;&amp;apos;(a; r, R)&amp;apos;&amp;apos;}} in the [[complex plane]] is an [[open region]] defined by:
+
+:&amp;lt;math&amp;gt; r &amp;lt; |z-a| &amp;lt; R.\,&amp;lt;/math&amp;gt;
+
+If {{math|&amp;apos;&amp;apos;r&amp;apos;&amp;apos;}} is {{math|0}}, the region is known as the &amp;apos;&amp;apos;&amp;apos;punctured disk&amp;apos;&amp;apos;&amp;apos; of radius {{math|&amp;apos;&amp;apos;R&amp;apos;&amp;apos;}} around the point {{math|&amp;apos;&amp;apos;a&amp;apos;&amp;apos;}}.
+
+As a subset of the complex [[Plane (mathematics)|plane]], an annulus can be considered as a [[Riemann surface]]. The complex structure of an annulus depends only on the ratio {{math|&amp;apos;&amp;apos;r&amp;apos;&amp;apos;/&amp;apos;&amp;apos;R&amp;apos;&amp;apos;}}. Each annulus {{math|ann&amp;apos;&amp;apos;(a; r, R)&amp;apos;&amp;apos;}} can be [[holomorphic function|holomorphically]] mapped to a standard one centered at the origin and with outer radius {{math|1}} by the map
+:&amp;lt;math&amp;gt;z \mapsto \frac{z-a}{R}.&amp;lt;/math&amp;gt;
+The inner radius is then {{math|&amp;apos;&amp;apos;r&amp;apos;&amp;apos;/&amp;apos;&amp;apos;R&amp;apos;&amp;apos; &amp;lt; 1}}.
+
+The [[Hadamard three-circle theorem]] is a statement about the maximum value a holomorphic function may take inside an annulus.
+
+== See also ==
+* [[Annulus theorem]] (or conjecture)
+* [[Spherical shell]]
+* [[Torus]]
+* [[List of geometric shapes]]
+
+== External links ==
+*[http://www.mathopenref.com/annulus.html Annulus definition and properties] With interactive animation
+*[http://www.mathopenref.com/annulusarea.html Area of an annulus, formula] With interactive animation
+
+[[Category:Elementary geometry]]
+[[Category:Geometric shapes]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

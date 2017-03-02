@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Normal good"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Normal good" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{mergewith|Inferior good|date=February 2013}}
+In [[economics]], &amp;apos;&amp;apos;&amp;apos;normal goods&amp;apos;&amp;apos;&amp;apos; are any [[Good (economics)|good]]s for which [[Demand (economics)|demand]] increases when income increases, and falls when income decreases but price remains constant, i.e. with a positive [[income elasticity of demand]].&amp;lt;ref&amp;gt;http://www.businessdictionary.com/definition/normal-good.html&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;[http://www.economist.com/research/economics/alphabetic.cfm?letter=N#normalgoods The Economist - Normal goods]&amp;lt;/ref&amp;gt; The term does not necessarily refer to the quality of the good, but an abnormal good would clearly not be in demand, except for possibly lower socioeconomic groups.
+
+In particular, when the price of a normal good is zero, the demand is infinite.
+
+Depending on the [[indifference curve]]s, the amount of a good bought can either increase, decrease, or stay the same when income increases.  In the diagram below, good Y is a normal good since the amount purchased increases from Y1 to Y2 as the [[budget constraint]] shifts from BC1 to the higher income BC2.  Good X is an [[inferior good]] since the amount bought decreases from X1 to X2 as income increases.
+
+Examples include Holidays, Cars, diamonds, branded fashions, hi-tech products etc.
+
+[[Image:inferior_good.png|example of a normal good and an inferior good]]
+
+==See also==
+* [[Consumer theory]]
+* [[Inferior good]]
+* [[Superior good]]
+==References==
+{{Reflist}}
+
+{{Goodtypes}}
+{{econ-stub}}
+
+[[Category:Goods]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

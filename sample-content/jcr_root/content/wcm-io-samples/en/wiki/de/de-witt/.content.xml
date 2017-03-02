@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="De Witt"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="De Witt" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Wiktionary|De Witt}}
+{{Distinguish|DeWitt (disambiguation){{!}}DeWitt|Dewitt (disambiguation){{!}}Dewitt|de Wit}}
+&amp;apos;&amp;apos;&amp;apos;De Witt&amp;apos;&amp;apos;&amp;apos; (Dutch for &amp;quot;The White&amp;quot; ) may refer to:
+
+==Places==
+* [[De Witt, Arkansas]], USA
+* [[De Witt, Iowa]], USA
+* [[De Witt, Missouri]], USA
+* [[De Witt, Nebraska]], USA
+* [[De Witt, New York]], USA
+* [[De Witt Island]], Tasmania, Australia
+
+==Other uses==
+* [[De Witt (family)]], a patrician family from the Dutch Golden Age
+* [[De Witt (surname)]]
+
+{{disambiguation|geo}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

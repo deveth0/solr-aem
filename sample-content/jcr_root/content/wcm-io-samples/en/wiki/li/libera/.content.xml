@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Libera"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Libera" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Wiktionary|libera}}
+&amp;apos;&amp;apos;&amp;apos;Libera&amp;apos;&amp;apos;&amp;apos; may refer to:
+* [[Libera (mythology)]], a Roman goddess of fertility
+* [[Libera (music)]], a boy vocal group from London
+* [[Libera (song)|&amp;apos;&amp;apos;Libera&amp;apos;&amp;apos; (song)]], a song by Italian artist Mia Martini
+* [[Libera (gastropod)|&amp;apos;&amp;apos;Libera&amp;apos;&amp;apos; (gastropod)]], a genus of gastropods in the family Endodontidae
+* [[Adalberto Libera]], an Italian architect (1903-1963)
+
+== See also ==
+* &amp;apos;&amp;apos;[[Libera me]]&amp;apos;&amp;apos; (&amp;quot;Deliver me&amp;quot;), a Roman Catholic responsory that is sung in the Office of the Dead
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

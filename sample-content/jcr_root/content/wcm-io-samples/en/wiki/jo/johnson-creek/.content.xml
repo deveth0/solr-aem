@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Johnson Creek"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Johnson Creek" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Johnson Creek&amp;apos;&amp;apos;&amp;apos; may refer to many places in the United States, including:
+
+* [[Johnson Creek, Wisconsin]], a village in southern Wisconsin
+* [[Johnson Creek (Rock River tributary)]], a stream in southern Wisconsin
+* [[Johnson Creek (Texas)]], a tributary in the Trinity River watershed in North Texas
+* [[Johnson Creek (Willamette River)]], a tributary of the Willamette River in Oregon
+* [[Johnson Creek (Tualatin River)]], a tributary of the [[Tualatin River]] in Oregon
+* [[Johnson Creek (Georgia)]], part of the Intracoastal Waterway, [http://geonames.usgs.gov/pls/gnispublic/f?p=gnispq:3:::NO::P3_FID:342347 USGS Feature Detail Report]
+
+==See also==
+* [[Ardenwald-Johnson Creek, Portland, Oregon]]
+* [[Johnson Creek Airport]]
+
+{{disamb}}
+[[Category:Place name disambiguation pages]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Lowball"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Lowball" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Wiktionary}}
+&amp;apos;&amp;apos;&amp;apos;Lowball&amp;apos;&amp;apos;&amp;apos; is an early type of [[railway signal]] indicating danger/stop.  The ball signal was a light or indicator suspended from a rope, that could move upwards and downwards, held by a weighted ball.  The lowball signal was indicated when the weighted ball, and therefore signal, was at the end of its rope in the low position, indicating stop.&amp;lt;ref&amp;gt;Yoshinori Kon, &amp;quot;The Current Status of Signal Control Systems, and Research and Development&amp;quot; &amp;apos;&amp;apos;JR EAST Technical Review&amp;apos;&amp;apos; (Technology and Planning Department
+East Japan Railway Company) 3 Winter 2004:36–44 at 36–37 [http://www.jreast.co.jp/E/development/tech/pdf_3/36-44.pdf pdf].&amp;lt;/ref&amp;gt;
+
+It can also refer to:
+
+*[[Low-ball]], a persuasion technique
+*[[Lowball (poker)]], a variant of the card game poker, in which hand values are reversed so that the lowest-valued hand wins
+*Lowball estimate, also known as [[cost underestimation]],  the estimation of the lower bound of a venture&amp;apos;s cost
+*[[Old fashioned glass|Lowball glass]], a short glass tumbler used for serving certain varieties of [[alcoholic beverage]]
+
+==References==
+{{reflist}}
+
+==See also==
+* [[Highball]]
+
+{{Disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

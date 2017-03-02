@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="C-HTML"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="C-HTML" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{primary sources|date=December 2011}}
+[[File:Mobile Web Standards Evolution Vector.svg|thumb|200px|left|Evolution of mobile web standards]]
+{{HTML}}
+&amp;apos;&amp;apos;&amp;apos;C-HTML&amp;apos;&amp;apos;&amp;apos; (short for &amp;apos;&amp;apos;Compact [[Hypertext|HyperText]] [[markup language|Markup Language]]&amp;apos;&amp;apos;), also called &amp;apos;&amp;apos;i-mode-HTML&amp;apos;&amp;apos;,&amp;lt;ref&amp;gt;{{citation |url=http://www.nttdocomo.com/binary/technologies/imodetechnology_guideline2002030.pdf |title=i-mode service guideline |date=2002-03-04 |publisher=NTT DoCoMo, Inc. |format=PDF}}&amp;lt;/ref&amp;gt; is a subset of [[HTML]] for small information devices, such as first-generation smart phones and [[Personal digital assistant|PDAs]], such as [[NTT DoCoMo|DoCoMo]]&amp;apos;s [[i-mode]] [[mobile phone]]s used in Japan. C-HTML adds several features not found in standard HTML, notably [[Access key|accesskeys]], phone number shortcuts for links, and [[emoji]] pictorial characters as locally extended [[Shift JIS]], all concepts borrowed from [[Handheld Device Markup Language|HDML]] and [[Wireless Markup Language|WML]].
+
+Because small devices such as cellular phones have hardware restrictions such as lower memory, low-power CPUs with limited or no storage capabilities, small monochrome display screens, single-character fonts and restricted input methods (the absence of a keyboard or a mouse), there is a need for a simpler form of HTML.&amp;lt;ref name=&amp;quot;requirements&amp;quot;&amp;gt;{{citation |url=http://www.w3.org/TR/1998/NOTE-compactHTML-19980209/#www2-1|title=2.1. Scope of the Products |first=Tomihisa |last=Kamada |date=09-Feb-1998 |publisher=[[W3C]] |accessdate=2009-04-24}}&amp;lt;/ref&amp;gt;
+
+C-HTML does not support tables, image maps, multiple fonts and styling of fonts, background colors and images, frames, or style sheets, and is limited to a monochromatic display.&amp;lt;ref&amp;gt;{{citation |url=http://www.w3.org/TR/1998/NOTE-compactHTML-19980209/#www3-1 |title=3.1 Design Principles |last=Kamada |first=Tomihisa |date=09-Feb-1998|publisher=[[W3C]] |accessdate=2009-04-24}}&amp;lt;/ref&amp;gt;
+
+The language is defined so that all the basic interactive operations can be done by a combination of four buttons and not by two-dimensional cursor movement: cursor forward, cursor backward, select, and back/stop. Functionality requiring two-dimensional cursor pointing, like image maps, are excluded from C-HTML.
+
+==See also==
+* [[Comparison of document markup languages]]
+* [[Information appliance]]
+* [[List of document markup languages]]
+* [[Microbrowser]]
+
+==References==
+{{Reflist}}
+
+==External links==
+* [http://www.w3.org/TR/1998/NOTE-compactHTML-19980209/ Compact HTML for Small Information Appliances &amp;amp;mdash; W3C NOTE 09-Feb-1998]
+
+{{W3C standards}}
+{{web-stub}}
+
+[[Category:Markup languages]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

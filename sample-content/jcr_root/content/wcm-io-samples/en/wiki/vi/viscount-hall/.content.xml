@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Viscount Hall"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Viscount Hall" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Viscount Hall&amp;apos;&amp;apos;&amp;apos;, of [[Cynon Valley]] in the [[County]] of [[Glamorgan]], was a title in the [[Peerage of the United Kingdom]]. It was created on 28 October 1946 for the [[Labour Party (UK)|Labour]] [[politician]] [[George Hall, 1st Viscount Hall|George Hall]].
+
+The title became extinct upon the death of his son, the second Viscount, in 1985. He married had pioneering Leicestershire businesswoman Alice Walker in 1962. &amp;lt;ref&amp;gt;{{cite news|title=ON THIS DAY 25 YEARS AGO|url=http://www.thisisleicestershire.co.uk/DAY-25-YEARS-AGO/story-16962452-detail/story.html|newspaper=This is Leicestershire}}&amp;lt;/ref&amp;gt;
+
+==Viscounts Hall (1946)==
+*[[George Henry Hall, 1st Viscount Hall]] (1881–1965)
+*William George Leonard Hall, 2nd Viscount Hall (1913–1985)
+
+==References==
+*{{Rayment|date=February 2012}}
+{{Reflist}}
+{{DEFAULTSORT:Hall}}
+[[Category:Viscountcies in the Peerage of the United Kingdom]]
+[[Category:Extinct viscountcies in the Peerage of the United Kingdom]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

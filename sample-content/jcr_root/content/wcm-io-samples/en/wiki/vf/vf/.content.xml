@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="VF"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="VF" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|VF}}
+{{selfref|For information about VF (Vandal Fighter) in Wikipedia, see [[WP:VF]].}}
+
+&amp;apos;&amp;apos;&amp;apos;Vf&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;VF&amp;apos;&amp;apos;&amp;apos; may stand for:
+
+In &amp;apos;&amp;apos;&amp;apos;companies, organizations, groups&amp;apos;&amp;apos;&amp;apos;:
+* [[VF Corporation]], a clothing company
+* [[Valuair]], an airline based in Singapore, IATA code VF
+* [[Vodafone]], a UK-based mobile/cell phone network
+* [[Vaterländische Front]], a former Austrian political party
+
+In &amp;apos;&amp;apos;&amp;apos;titles&amp;apos;&amp;apos;&amp;apos;:
+* &amp;apos;&amp;apos;[[Dean (Christianity)|Vicar Forane]]&amp;apos;&amp;apos;, also see [[Archpriest]]
+
+In &amp;apos;&amp;apos;&amp;apos;science&amp;apos;&amp;apos;&amp;apos;:
+* [[Voice Frequency]] (300–3000&amp;amp;nbsp;Hz)
+* [[Velocity]] final in Physics (acceleration formula)
+
+In &amp;apos;&amp;apos;&amp;apos;medicine&amp;apos;&amp;apos;&amp;apos;:
+* [[Ventricular fibrillation]], a cardiac arrhythmia
+* Virological failure
+
+In &amp;apos;&amp;apos;&amp;apos;mathematics&amp;apos;&amp;apos;&amp;apos;:
+*[[Vector Field]]
+In &amp;apos;&amp;apos;&amp;apos;vehicle and machine designations&amp;apos;&amp;apos;&amp;apos;:
+* [[Squadron (aviation)]] designation used by the United States Navy to indicate a fighter squadron or individual fighter plane
+* Designation for the [[variable fighter]]s in the Macross series
+* Designation for the [[Veritech fighter]]s in Robotech, which derived its designation from Macross
+
+In &amp;apos;&amp;apos;&amp;apos;games&amp;apos;&amp;apos;&amp;apos;:
+*[[Virtua Fighter]], a series of fighting games by [[Sega]]
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

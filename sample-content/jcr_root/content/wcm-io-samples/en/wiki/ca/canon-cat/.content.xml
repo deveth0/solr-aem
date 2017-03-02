@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Canon Cat"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Canon Cat" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=September 2011}}
+[[Image:Canon Cat.jpg|thumb|Photo of the Canon Cat.]]
+The &amp;apos;&amp;apos;&amp;apos;Canon Cat&amp;apos;&amp;apos;&amp;apos; was a task-dedicated, desktop [[microcomputer|computer]] released by [[Canon Inc.]] in 1987 at a price of $1495 [[United States dollar|USD]]. On the surface it was not unlike the dedicated [[word processor]]s popular in the late 1970s to early 1980s, but it was far more powerful and incorporated many unique ideas for data manipulation.
+
+==Description==
+The Cat was primarily the brainchild of [[Jef Raskin]], originator of the [[Apple Macintosh|Macintosh]] project at [[Apple Computer|Apple]] in 1979. It featured a [[text user interface]], not making use of any [[computer mouse|mouse]], [[icon (computing)|icon]]s, or [[computer graphics|graphics]]. All data was seen as a long &amp;quot;stream&amp;quot; of text broken into several pages. Instead of using a traditional [[command line interface]] or [[menu (computing)|menu]] system, the Cat made use of its special [[computer keyboard|keyboard]], with commands being activated by holding down a &amp;quot;Use Front&amp;quot; key and pressing another key. The Cat also used special &amp;quot;Leap keys&amp;quot; which, when held down, allowed the user to [[incremental find|incrementally search]] for [[string (computer science)|string]]s of characters.
+
+[[Image:Canon Cat keyboard.jpg|thumb|Keyboard of the Canon Cat and the red &amp;quot;leap&amp;quot; keys, used for instant inline searching.]]
+The machine&amp;apos;s hardware consisted of a 9 inch (229 mm) black-and-white [[computer display|monitor]], a single 3½ inch 256 [[kilobyte|KB]] [[floppy disk]] drive and an [[IBM Selectric typewriter|IBM Selectric]]-compatible [[computer keyboard|keyboard]]. It used a [[Motorola 68000]] [[central processing unit|CPU]] (like the Macintosh, Lisa and Amiga) running at 5 [[Megahertz|MHz]], had 256 KB of [[random-access memory|RAM]], and an internal 300/1200 bit/s [[modem]]. Setup and user preference data was stored in 8 KB of non-volatile (battery backed-up) RAM. The Cat&amp;apos;s array of [[input/output|I/O]] interfaces encompassed one [[Centronics]] [[parallel port]], one [[RS-232|RS-232C]] [[serial port]] ([[DB-25]]), and two [[RJ11, RJ14, RJ25|RJ11]] telephone jacks for the modem loop. The total weight of the system was 17 pounds (7.7 kg).
+
+An extensive range of application software was built into 256 KB of [[read-only memory|ROM]]: standard [[office suite]] programs, communications, a 90,000 word spelling dictionary, and user programming toolchains for [[Forth (programming language)|Forth]] and [[assembly language]].
+
+Often considered a text-only machine, the Cat included graphics routines in ROM as well as connectors for a [[Mouse (computing)|mouse]] or other [[pointing device]] that were never used. [http://www.apple-history.com/?page=gui_raskin2]
+
+There is a current software project underway, that was initiated by the late [[Jef Raskin]] himself, to develop a similar yet even more capable system for today&amp;apos;s computing systems. The project (called [[Archy]]) is designed to eventually replace current software [[User interface|interfaces]].
+
+==References==
+* [http://www.jagshouse.com/swyft.html Canon&amp;apos;s Cat Computer: The Real Macintosh]
+
+==External links==
+* [http://www.digibarn.com/collections/systems/canon-cat/index.html DigiBarn Systems: Canon Cat]
+* [http://www.old-computers.com/museum/computer.asp?st=1&amp;amp;c=642 OLD-COMPUTERS.COM Museum: Canon Cat]
+* [http://canoncat.org/ CanonCat.org]
+* [http://jef.raskincenter.org/published/cat_manual.html Canon Cat Manual]
+* [http://jef.raskincenter.org/published/cat_ref.html Canon Cat Reference Manual]
+* [http://video.google.com/videoplay?docid=-3953309968260107254 Promotional Video for Leap and Canon Cat]
+
+{{Canon}}
+[[Category:Canon (company)]]
+[[Category:Jef Raskin]]
+[[Category:Personal computers]]
+[[Category:Products introduced in 1987]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

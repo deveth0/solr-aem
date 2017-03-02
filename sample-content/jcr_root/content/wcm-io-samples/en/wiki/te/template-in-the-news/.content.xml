@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Template:In the news"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Template:In the news" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{In the news/image
+ |image  = Andy_Murray_ITN.jpg
+ |size   = 100x100px
+ |title  = Andy Murray at The Boodles, Stoke Park, June 2012
+ |link   = Andy_Murray_ITN.jpg
+ |border = yes
+ |alt    = Andy Murray
+}}
+{{*mp|July 7}} In tennis, &amp;apos;&amp;apos;&amp;apos;[[Marion Bartoli]]&amp;apos;&amp;apos;&amp;apos; wins the [[2013 Wimbledon Championships – Women&amp;apos;s Singles|women&amp;apos;s singles]] and &amp;apos;&amp;apos;&amp;apos;[[Andy Murray]]&amp;apos;&amp;apos;&amp;apos; &amp;apos;&amp;apos;(pictured)&amp;apos;&amp;apos; wins the [[2013 Wimbledon Championships – Men&amp;apos;s Singles|men&amp;apos;s singles]] at the [[2013 Wimbledon Championships|Wimbledon Championships]].
+{{*mp|July 6}} &amp;apos;&amp;apos;&amp;apos;[[Asiana Airlines Flight 214]]&amp;apos;&amp;apos;&amp;apos; crashes while landing at [[San Francisco International Airport]], killing two people.
+{{*mp|July 6}} A runaway fuel train &amp;apos;&amp;apos;&amp;apos;[[Lac-Mégantic derailment|derails]]&amp;apos;&amp;apos;&amp;apos; in [[Lac-Mégantic, Quebec]], killing at least five people and destroying at least thirty buildings in the town&amp;apos;s core.
+{{*mp|July 6}} At least 42 people, mostly students, are &amp;apos;&amp;apos;&amp;apos;[[Yobe State school shooting|killed]]&amp;apos;&amp;apos;&amp;apos; in a pre-dawn attack at a school in [[Yobe State]], Nigeria.
+{{*mp|July 4}} The &amp;apos;&amp;apos;&amp;apos;[[London Array]]&amp;apos;&amp;apos;&amp;apos;, the world&amp;apos;s largest [[Offshore wind power|offshore wind farm]], is inaugurated.
+{{*mp|July 3}} King &amp;apos;&amp;apos;&amp;apos;[[Albert II of Belgium]]&amp;apos;&amp;apos;&amp;apos; announces his intention to [[abdication|abdicate]] in favour of his son [[Prince Philippe, Duke of Brabant|Philippe]].
+{{*mp|July 3}} &amp;apos;&amp;apos;&amp;apos;[[2013 Aceh earthquake|An earthquake]]&amp;apos;&amp;apos;&amp;apos; strikes [[Aceh]], Indonesia, killing at least 35 people.
+
+&amp;lt;/ul&amp;gt;
+&amp;lt;!--&amp;apos;&amp;apos;&amp;apos;{{#ifexist:Deaths in {{CURRENTYEAR}}|[[Deaths in {{CURRENTYEAR}}|Recent deaths]]|[[Deaths in {{#time:Y|-1 years}}|Recent deaths]]}}&amp;apos;&amp;apos;&amp;apos;: {{nowrap|NAME}}--&amp;gt;
+&amp;lt;!-- Please consider keeping ongoing news stories on ITN if the article keeps getting updated. --&amp;gt;&amp;lt;div style=&amp;quot;text-align: right;&amp;quot; class=&amp;quot;noprint&amp;quot;&amp;gt;&amp;apos;&amp;apos;&amp;apos;{{#ifexist:Deaths in {{CURRENTYEAR}}|[[Deaths in {{CURRENTYEAR}}|Recent&amp;amp;nbsp;deaths]]|[[Deaths in {{#time:Y|-1 years}}|Recent&amp;amp;nbsp;deaths]]}}&amp;apos;&amp;apos;&amp;apos;{{#if:{{{nocurrenteventslink|}}}||&amp;amp;nbsp;– &amp;apos;&amp;apos;&amp;apos;[[Portal:Current events|More&amp;amp;nbsp;current&amp;amp;nbsp;events...]]&amp;apos;&amp;apos;&amp;apos;}}&amp;lt;/div&amp;gt;&amp;lt;noinclude&amp;gt; {{active editnotice}}
+{{documentation}}
+&amp;lt;/noinclude&amp;gt;&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

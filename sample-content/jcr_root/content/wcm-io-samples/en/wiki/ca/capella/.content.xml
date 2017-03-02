@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Capella"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Capella" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|capella}}
+
+&amp;apos;&amp;apos;&amp;apos;Capella&amp;apos;&amp;apos;&amp;apos; can refer to:
+
+* [[Capella (star)]], a bright star in the constellation of Auriga
+* [[Capella (crater)]], an impact crater on the Moon
+* [[Capella, Queensland]], a small town in Central Queensland
+* [[Capella Island]], a minor island of the U.S. Virgin Islands
+* [[Capella University]], an online academic institution based in Minneapolis, Minnesota
+* [[Mazda Capella]], a model of automobile manufactured by Mazda
+* [[USS Capella|USS &amp;apos;&amp;apos;Capella&amp;apos;&amp;apos;]], a cargo ship in the United States Navy
+* [[Capella (notation program)]], a music scorewriter by WHC software
+* &amp;apos;&amp;apos;[[Gallinago]]&amp;apos;&amp;apos; or &amp;apos;&amp;apos;Capella&amp;apos;&amp;apos;, a genus of snipes
+* [[Capella, Aragon]], a municipality in Huesca, Spain
+* [[Capella (band)]], was an Italian Eurodance act formed in 1987
+
+==People with the name==
+* [[Felix Capella]], Canadian race walker
+* [[Martianus Capella]], writer and astronomer of late antiquity
+
+==See also==
+* [[Capela (disambiguation)]]
+* [[Cappella (disambiguation)]]
+* [[A cappella (disambiguation)]]
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

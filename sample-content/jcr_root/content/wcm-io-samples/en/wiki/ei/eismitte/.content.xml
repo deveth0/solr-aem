@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Eismitte"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Eismitte" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Location map|Greenland|lat_dir=N|lat_deg=71|lat_min=10|lon_dir=W|lon_deg=39|lon_min=56|width=250|position=top|caption=Location within [[Greenland]]|label=Eismitte}}
+
+[[File:Wegener Expedition-1930 13.jpg|thumb|right|Station Eismitte in 1930]]
+
+&amp;apos;&amp;apos;&amp;apos;Eismitte&amp;apos;&amp;apos;&amp;apos;, in [[English language|English]] also called &amp;apos;&amp;apos;&amp;apos;Mid-Ice&amp;apos;&amp;apos;&amp;apos;, was the site of an [[Arctic]] expedition in the interior of [[Greenland]] that took place from July 1930 through August 1931, and claimed the life of noted [[Germany|German]] scientist [[Alfred Wegener]].
+
+The name &amp;quot;Eismitte&amp;quot; means &amp;apos;&amp;apos;Ice-Center&amp;apos;&amp;apos; in [[German language|German]], and the campsite was located {{convert|402|km|mi|sp=us}} from the coast at an estimated altitude of 3,000 meters (9,843 feet).  The coldest [[temperature]] recorded during the expedition was −64.9&amp;amp;nbsp;°C (−85&amp;amp;nbsp;°F), while the warmest temperature noted was −2.8&amp;amp;nbsp;°C (27&amp;amp;nbsp;°F).  For the 12-month period beginning September 1, 1930 and ending August 31, 1931, the warmest month, July, had a mean monthly temperature of −12.2&amp;amp;nbsp;°C (10&amp;amp;nbsp;°F), while the coldest month, February, averaged −47.2&amp;amp;nbsp;°C (−53&amp;amp;nbsp;°F).  Over the same period a total of 110 millimeters (4.33 inches) of water-equivalent [[precipitation (meteorology)|precipitation]] was recorded, with most of it, rather surprisingly, being received in winter.  At the latitude of the camp, the sun does not set between May 13 and July 30 each year, and does not rise between November 23 and January 20.
+
+==See also==
+*[[North Ice]]
+*[[Summit Camp]]
+*[[NEEM Camp]]
+*[[Camp Century]]
+*[[Renland]]
+
+== External links ==
+* Hourly meteorological observations at station Eismitte by Johannes Georgi ({{doi|10.1594/PANGAEA.604003}}).
+
+==References==
+{{reflist}}
+
+{{Abandoned sites in Greenland}}
+
+[[Category:History of Greenland]]
+
+[[Category:1930 in science]]
+[[Category:1931 in science]]
+[[Category:Arctic expeditions]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

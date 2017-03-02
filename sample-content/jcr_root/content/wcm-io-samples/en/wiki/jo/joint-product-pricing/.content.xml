@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Joint product pricing"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Joint product pricing" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+&amp;apos;&amp;apos;&amp;apos; Joint Products are two or more products, produced from the same process or operation, considered to be of relative equal importance.&amp;apos;&amp;apos;&amp;apos;
+Pricing for joint products is a little more complex than pricing for a single product. To begin with there are two demand curves. The characteristics of each demand curve could be different. Demand for one product could be greater than for the other product. Consumers of one product could be more [[price elasticity of demand|price elastic]] than the consumers of the other product (and therefore more sensitive to changes in the product&amp;apos;s price).
+
+To complicate things further, both products, because they are produced jointly, share a common marginal cost curve. There are complexities in the production function also. Their production could be linked in the sense that they are bi-products (referred to as complements in production), or they could be linked in the sense that they can be produced by the same inputs (referred to as substitutes in production). Also, production of the joint product could be in fixed proportions or in variable proportions.
+
+When setting prices in a situation as complex as this, microeconomic marginal analysis is helpful. In a simple case of a single product, price is set at that quantity demanded where marginal cost exactly equals marginal revenue. This is exactly what is done when joint products are produced in variable proportions.  Each product is treated separately. In fact, it might even be possible to construct separate cost functions. In the diagram below, to determine optimal pricing for joint products produced in variable proportions, you find the intersection point of marginal revenue (product A) with the joint marginal cost curve. You then extend that quantity, up to the demand curve for product A, and that gives you the [[profit maximization|profit maximizing]] price for product A (point Pa in the diagram). You do the same for product B, yielding price point Pb1.
+
+&amp;lt;div style=&amp;quot;float:right;width:650px;margin-left:0.1em;text-align:center&amp;quot;&amp;gt;[[image:price jointprod.jpg|alt text]]&amp;lt;br&amp;gt;&amp;apos;&amp;apos;&amp;apos;Pricing of Joint Products&amp;apos;&amp;apos;&amp;apos;&amp;lt;/div&amp;gt;
+
+If the products are produced in fixed proportions (example: cow hides and cow steaks), then one of the products will very likely be produced in quantities different from the profit maximizing amount considered separately. In fact the profit maximizing quantity and price of the second half of the joint product, will be different from the profit maximizing amount considered separately. In the diagram, product B is produced in greater amounts than the profit maximizing amount considered separately, and sold at a lower price (point Pb2) than the profit maximizing price considered separately (point Pb1). Although price is lower and output is higher, marginal cost is also higher. Yet this is a profit maximizing solution to this situation. Quantity supplied of product B is increased to the point that marginal revenue becomes zero (i.e.: the point where the marginal revenue curve intersects the horizontal axis).
+
+==See also==
+
+*[[marketing]]
+*[[pricing]]
+*[[microeconomics]]
+*[[production, costs, and pricing]]
+
+{{DEFAULTSORT:Joint Product Pricing}}
+[[Category:Marketing]]
+[[Category:Pricing]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Zoster-immune globulin"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Zoster-immune globulin" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Drugbox
+| Verifiedfields = changed
+| verifiedrevid = 447614064
+| image =
+| drug_name = Zoster-immune globulin
+
+&amp;lt;!--Clinical data--&amp;gt;
+| tradename =
+| pregnancy_AU = &amp;lt;!-- A / B1 / B2 / B3 / C / D / X --&amp;gt;
+| pregnancy_US = &amp;lt;!-- A / B            / C / D / X --&amp;gt;
+| pregnancy_category =
+| legal_AU = &amp;lt;!-- S2, S3, S4, S5, S6, S7, S8, S9 or Unscheduled--&amp;gt;
+| legal_CA = &amp;lt;!-- Schedule I, II, III, IV, V, VI, VII, VIII --&amp;gt;
+| legal_UK = &amp;lt;!-- GSL, P, POM, CD, or Class A, B, C --&amp;gt;
+| legal_US = &amp;lt;!-- OTC / Rx-only / Schedule I, II, III, IV, V --&amp;gt;
+| legal_status =
+| routes_of_administration =
+
+&amp;lt;!--Identifiers--&amp;gt;
+| CAS_number_Ref = {{cascite|correct|??}}
+| CAS_number =
+| ATC_prefix = J06
+| ATC_suffix = BB03
+| PubChem =
+| DrugBank_Ref = {{drugbankcite|correct|drugbank}}
+| DrugBank =
+| ChemSpiderID_Ref = {{chemspidercite|changed|chemspider}}
+| ChemSpiderID = NA
+
+&amp;lt;!--Chemical data--&amp;gt;
+}}
+&amp;apos;&amp;apos;&amp;apos;Zoster-immune globulin&amp;apos;&amp;apos;&amp;apos; (ZIG) is a [[globulin]] fraction (separable constituent) of pooled (mixed) [[blood plasma|plasma]] extracted from human donors who have recovered {{Citation needed|date=October 2009}} from [[infection]] by [[herpes zoster]].  ZIG is used in the prevention of [[chickenpox]] and shingles, but is not known to be useful in treating clinical varicella or zoster.&amp;lt;ref&amp;gt;http://www.cdc.gov/mmwr/preview/mmwrhtml/rr5604a1.htm&amp;lt;/ref&amp;gt;
+
+== References ==
+{{reflist}}
+
+{{Immune sera and immunoglobulins}}
+
+{{DEFAULTSORT:Zoster-Immune Globulin}}
+[[Category:Polyclonal antibodies]]
+
+
+{{antiinfective-drug-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

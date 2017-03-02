@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="River Wantsum"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="River Wantsum" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox River
+  | river_name      = River Wantsum
+  | image_name      = River Stour Map.jpg
+  | image_size      = &amp;lt;!--Optional; defaults to 288 px--&amp;gt;
+  | caption         = River Stour and Tributaries
+  | origin          = [[Reculver]]
+  | mouth           = [[River Stour, Kent|River Stour]]
+  | basin_countries =
+  | length          =
+  | elevation       =
+  | mouth_elevation =
+  | discharge       =
+  | watershed       =
+}}
+[[Image:The River Wantsum today - geograph.org.uk - 41871.jpg|thumb|The River Wantsum today. In Roman and medieval times this was a channel a mile and a half wide, linking Reculver and Richborough, capable of taking seagoing boats.]]
+The &amp;apos;&amp;apos;&amp;apos;River Wantsum&amp;apos;&amp;apos;&amp;apos; is a tributary of the [[River Stour, Kent|River Stour]], in [[Kent]], England. Formerly, the River Wantsum and the River Stour together formed the [[Wantsum Channel]], which separated the [[Isle of Thanet]] from the mainland of Kent. Now the River Wantsum is little more than a drainage ditch starting at Reculver, and ending where it joins the Stour.
+
+[[Bede]], in the 8th century, said that the Wantsum – meaning Wantsum Channel – was three [[furlong]]s wide ({{convert|660|yd|m}}), and in 1414 there was still a ferry crossing the Wantsum at [[Sarre, Kent|Sarre]], but by 1550 Thanet was no longer an island. At [[Reculver]], the Romans built a fort that was about {{convert|1|mi|km}} from the sea, whereas [[John Leland (antiquary)|Leland]], in the early 16th century, described Reculver as being {{convert|0.25|mi|m}} from the sea, and the great storm of 1809 carried away half of the fort. It is postulated that the eroded material was carried along the shore and blocked the northern mouth of the Wantsum.&amp;lt;ref name=&amp;quot;Jessup&amp;quot;&amp;gt;{{cite book|last=Jessup|first=Frank|title=Kent History Illustrated|publisher=Kent Education Committee|location=Maidstone, Kent|year=1966|page=72}}&amp;lt;/ref&amp;gt;
+
+The River Wantsum now joins the [[River Stour, Kent|Great Stour]] from the north as a small tributary, just before the [[Little Stour]] enters it from the south to form what is thereafter known simply as the [[River Stour, Kent|River Stour]].
+
+==References==
+{{reflist}}
+
+{{River Stour}}
+
+{{coord|51|23|N|1|14|E|display=title|region:GB_type:river_source:GNS-enwiki}}
+
+[[Category:Rivers of Kent|Wantsum]]
+
+
+{{Kent-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

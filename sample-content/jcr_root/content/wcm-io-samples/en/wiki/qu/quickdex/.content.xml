@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="QuickDex"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="QuickDex" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;QuickDex&amp;apos;&amp;apos;&amp;apos; is a free form [[database]] software application first released by [[Casady &amp;amp; Greene]] for the [[Mac OS]]. An update, QuickDex II was released and the product eventually became &amp;apos;&amp;apos;InfoGenie&amp;apos;&amp;apos; and then &amp;apos;&amp;apos;iData Pro&amp;apos;&amp;apos;. The purpose of this software is to store text data that doesn&amp;apos;t fit into more rigid database structures. QuickDEX and its successors featured an extremely fast search, phone dialing, as well as label and envelope printing. InfoGenie and iData Pro 1.0 added the ability to have fields in a record along with the freeform text area.
+
+Since the closing of Casady &amp;amp; Greene, Inc., iData has been taken over by [http://www.raccoonbend.com/ Mike Wright] and [[Robin Casady]]. It is currently available at [http://www.idata3.com iData3.com] and a new (Cocoa) version has been written for Mac OS X. &amp;apos;&amp;apos;&amp;apos;iData 3&amp;apos;&amp;apos;&amp;apos; expands on its predecessors by adding (among many other features) the ability to have styled text and images in the freeform text area.
+
+There is also a version available for the iPhone, iPod Touch, and iPad through iTunes. It is called [http://itunes.apple.com/us/app/idata-mobile/id304669885?mt=8 &amp;apos;&amp;apos;&amp;apos;iData Mobile&amp;apos;&amp;apos;&amp;apos;].
+
+[[Category:Mac OS-only software]]
+
+{{mac-software-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Verdet constant"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Verdet constant" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+The &amp;apos;&amp;apos;&amp;apos;Verdet constant&amp;apos;&amp;apos;&amp;apos; is an [[optical]] &amp;quot;constant&amp;quot; that describes the strength of the [[Faraday effect]] for a particular material.
+
+The Verdet constant for most materials is extremely small and is [[wavelength]] dependent.  It is strongest in substances containing [[paramagnetic]] [[ion]]s such as [[terbium]]. The highest Verdet constants are found in terbium [[Doping (Semiconductors)|doped]] dense flint glasses or in [[crystal]]s of [[terbium gallium garnet]] (TGG). This material has excellent [[Transparency (optics)|transparency]] properties and is very resistant to [[laser]] damage.
+
+The Faraday effect is chromatic (i.e. it depends on wavelength) and therefore the Verdet constant is quite a strong function of wavelength. At 632.8&amp;amp;nbsp;[[nanometre|nm]], the Verdet constant for TGG is reported to be -134&amp;amp;nbsp;[[radian|rad]]/[[tesla (unit)|T]]·m, whereas at 1064&amp;amp;nbsp;nm it falls to -40&amp;amp;nbsp;rad/T·m.  This behavior means that the devices manufactured with a certain degree of rotation at one wavelength, will produce much less rotation at longer wavelengths.  Many [[Faraday rotator]]s and [[Faraday isolator|isolators]] are adjustable by varying the degree to which the active TGG rod is inserted into the [[magnetic field]] of the device.  In this way, the device can be tuned for use with a range of lasers within the design range of the device. Truly [[broadband]] sources (such as ultra-short [[pulse laser]]s and the tunable [[vibronic laser]]s) will not see the same rotation across the whole wavelength band.
+
+The Verdet constant is named after the French physicist [[Émile Verdet]].
+
+{{DEFAULTSORT:Verdet Constant}}
+[[Category:Optics]]
+[[Category:Electric and magnetic fields in matter]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

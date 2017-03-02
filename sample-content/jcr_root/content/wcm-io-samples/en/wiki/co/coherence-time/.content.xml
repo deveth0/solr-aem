@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Coherence time"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Coherence time" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{merge|coherence length|target=Coherence length and time|date=July 2013}}
+For an [[electromagnetic wave]], the &amp;apos;&amp;apos;&amp;apos;coherence time&amp;apos;&amp;apos;&amp;apos; is the [[time]] over which a propagating wave (especially a [[laser]] or [[maser]] beam) may be considered [[coherence (physics)|coherent]]. In other words, it is the time interval within which its [[Phase (waves)|phase]] is, on average, predictable.
+
+In long-distance [[telecommunication|transmission systems]], the coherence time may be reduced by [[wave propagation|propagation]] factors such as [[dispersion (optics)|dispersion]], [[scattering]], and [[diffraction]].
+
+Coherence time, &amp;apos;&amp;apos;τ&amp;apos;&amp;apos;, is calculated by dividing the [[coherence length]] by the [[phase velocity]] of [[light]] in a medium; approximately given by
+:&amp;lt;math&amp;gt;\tau = \frac{1}{\Delta \nu} \approx \frac{\lambda^2}{c\, \Delta \lambda}&amp;lt;/math&amp;gt;
+where &amp;apos;&amp;apos;λ&amp;apos;&amp;apos; is the central [[wavelength]] of the source, &amp;apos;&amp;apos;Δν&amp;apos;&amp;apos; and &amp;apos;&amp;apos;Δλ&amp;apos;&amp;apos; is the [[spectral width]] of the source in units of frequency and wavelength respectively, and &amp;apos;&amp;apos;c&amp;apos;&amp;apos; is the [[speed of light]] in vacuum.
+
+A single mode [[fiber laser]] has a linewidth of a few kHz. The Schawlow-Townes limit for some cw lasers can be below 1&amp;amp;nbsp;Hz. Hydrogen masers have linewidth around 1&amp;amp;nbsp;Hz;&amp;lt;ref&amp;gt;http://www.physics.harvard.edu/Thesespdfs/humphrey.pdf - Precision measurements with atomic hydrogen masers&amp;lt;/ref&amp;gt; their [[coherence length]] approximately corresponds to the distance from the Earth to the Moon.
+
+{{As of|2009}}, single electron spins show the longest room-temperature spin dephasing times ever observed in solid-state systems (1.8&amp;amp;nbsp;ms).&amp;lt;ref&amp;gt;
+{{cite journal
+ |last1=Balasubramanian
+ |last2=et al.
+ |year=2009
+ |title=Direct Ultralong spin coherence time in isotopically engineered diamond
+ |journal=[[Nature Materials]]
+ |volume=8 |pages=383
+ |bibcode=
+ |doi:10.1038/nmat2420
+ |pmid=
+}}&amp;lt;/ref&amp;gt;
+
+==See also==
+{{Portal|Physics}}
+* [[Atomic coherence]]
+* [[Coherence time (communications systems)]]
+
+==References==
+&amp;lt;references/&amp;gt;
+*{{FS1037C MS188}}
+
+{{DEFAULTSORT:Coherence Time}}
+[[Category:Electromagnetic radiation]]
+[[Category:Optics]]
+[[Category:Radio frequency propagation]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

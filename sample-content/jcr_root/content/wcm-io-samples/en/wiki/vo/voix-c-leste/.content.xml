@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Voix céleste"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Voix céleste" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Listen |filename=Vox coelestisII me.ogg |title=Vox coelestis |description=Sound of &amp;quot;voix céleste&amp;quot; stop |image=[[Image:Diogene Maillart - Jeanne d&amp;apos;Arc et les voix celestes.jpg|50px]]}}
+
+The &amp;apos;&amp;apos;&amp;apos;Voix celeste&amp;apos;&amp;apos;&amp;apos;, (&amp;apos;&amp;apos;Voix céleste&amp;apos;&amp;apos;) [Fr.] (heavenly voice) is an [[organ stop]] consisting of either one or two ranks of pipes slightly out of tune. The term &amp;apos;&amp;apos;celeste&amp;apos;&amp;apos; refers to a rank of pipes detuned slightly so as to produce a [[beat (acoustics)|beating]] effect when combined with a normally tuned rank. It is also used to refer to a compound stop of two or more ranks in which at the ranks are detuned relative to each other.&amp;lt;ref&amp;gt;[http://www.organstops.org/c/Celeste.html Encyclopedia of Organ Stops, Celeste].&amp;lt;/ref&amp;gt;
+
+The Voix celeste is located in the [[Expression pedal|swell organ]] on British and American organs and in the &amp;apos;&amp;apos;Récit expressif&amp;apos;&amp;apos; on French organs.  It is designed to be used in conjunction with a stop of similar tonal quality of its own, normally a Viola da gamba (&amp;apos;&amp;apos;Viole de gambe&amp;apos;&amp;apos;) [Fr.] or Salicional.  When both stops are played together an undulant, warm sounding string effect is generated.  When proper organ terminology is used, &amp;quot;Voix Celeste&amp;quot; will always use string-voiced pipes.  Frequently, both ranks of pipes required are placed on the same stop knob, and it is labeled as &amp;quot;Voix Celeste II&amp;quot;.  The celeste concept is extended to other types of organ voices (notably flutes) but they will be called by the name of the primary sound (e.g. &amp;quot;Spitzflöte Celeste&amp;quot;).
+
+==References==
+{{reflist}}
+
+[[Category:Organ stops]]
+
+
+{{Musical-instrument-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

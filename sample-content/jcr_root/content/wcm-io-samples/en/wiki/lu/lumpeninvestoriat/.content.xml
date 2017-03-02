@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Lumpeninvestoriat"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Lumpeninvestoriat" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced stub|auto=yes|date=December 2009}}
+{{Orphan|date=February 2009}}
+The &amp;apos;&amp;apos;&amp;apos;Lumpeninvestoriat&amp;apos;&amp;apos;&amp;apos; is a term used by financial [[Pundit (politics)|pundit]]s, especially online but also in the printed press, as a reference to the masses of common investors.
+
+The word is combination of [[lumpenproletariat]] and [[investor]]. It is often applied by contrarian writers in a derogatory sense, with the implication that the masses of investors tend to blindly follow trends without regard to the underlying dynamics of the [[financial markets]], often with long-term disastrous results.
+
+[[Category:Finance]]
+
+
+{{Econ-term-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

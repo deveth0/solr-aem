@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="X-ray interferometer"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="X-ray interferometer" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;An &amp;apos;&amp;apos;&amp;apos;X-ray interferometer&amp;apos;&amp;apos;&amp;apos; is analogous to a [[neutron interferometer]].  It has been suggested that it may offer the very highest spatial resolution in [[astronomy]], though the technology is unproven as of 2008.
+&amp;lt;ref Name=&amp;quot;Cash&amp;quot;&amp;gt;{{cite web
+  | last =Cash
+  | first = Webster
+  | authorlink =
+  | coauthors =
+  | title =X-ray Interferometry
+  | work =
+  | publisher =Center for Astrophysics and Space Astronomy; University of Colorado, Boulder, CO 80309-0389
+  | date =
+  | url =http://casa.colorado.edu/~wcash/interf/Interfere.htm
+  | format =web
+  | doi =
+  | accessdate = 2008-05-28 }}&amp;lt;/ref&amp;gt;
+
+One technique is [[triple Laue interferometry]] (LLL interferometry).&amp;lt;ref&amp;gt;http://www.aps.anl.gov/Science/Reports/1999/fezzaak1.pdf&amp;lt;/ref&amp;gt;
+
+==See also==
+*[[High energy X-rays]]
+
+==References==
+{{reflist}}
+*[http://e1.physik.uni-dortmund.de/xtm/ X-Ray and Neutron Interferometry] Author: Ulrich Bonse at uni-dortmund.de, 10 February 2005
+
+[[Category:Interferometers]]
+
+
+{{tech-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

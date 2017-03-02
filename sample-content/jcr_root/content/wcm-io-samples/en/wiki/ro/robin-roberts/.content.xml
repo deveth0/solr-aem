@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Robin Roberts"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Robin Roberts" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Robin Roberts&amp;apos;&amp;apos;&amp;apos; may refer to:
+* [[Robin Roberts (baseball)]] (1926–2010), American baseball player
+* [[Robin Roberts (newscaster)]] (born 1960), &amp;apos;&amp;apos;Good Morning America&amp;apos;&amp;apos; anchor and former ESPN anchor
+&amp;lt;!--* [[Robin Roberts (musicologist/folksinger)]], during late 1940s &amp;amp; &amp;apos;50s to present, worked sometimes with Alan Lomax &amp;amp; others, recorded several solo albums &amp;amp; appeared on compilation albums.--&amp;gt;
+* [[Rockin&amp;apos; Robin Roberts]] (1940–1967), singer
+{{hndis|name = Roberts, Robin}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

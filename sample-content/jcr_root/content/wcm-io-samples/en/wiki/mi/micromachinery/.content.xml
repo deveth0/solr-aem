@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Micromachinery"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Micromachinery" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{redir|micromachines|the toys|Micro Machines|the video games based on the toys|Micro Machines (video game series)}}
+[[Image:Micromachine 1.jpg|thumb|250px|A micromachine by [[Sandia National Laboratories|Sandia]] is moved by a lit [[LED]] at [[Miraikan]] in [[Tokyo]]]]
+[[Image:Micromachine 2.jpg|thumb|250px|A circuit diagram for a [[Sandia National Laboratories|Sandia]] micromachine]]
+
+&amp;apos;&amp;apos;&amp;apos;Micromachines&amp;apos;&amp;apos;&amp;apos; are [[mechanics|mechanical]] objects that are [[Fabrication (semiconductor)|fabricated]] in the same general manner as [[integrated circuits]].  They are generally considered to be between 100 [[nanometre]]s to 100 [[micrometre]]s in size, though that is debatable. The applications of micromachines include [[accelerometer]]s that detect when a [[Automobile|car]] has hit an object and trigger an [[airbag]]. Complex systems of [[gear]]s and [[lever]]s are another application.
+
+The fabrication of these devices is usually done by one or both of two techniques: [[surface micromachining]] and [[bulk micromachining]].
+
+Most micromachines act as [[transducer]]s; in other words, they are either [[sensor]]s or [[actuator]]s.
+
+Sensors convert information from the environment into interpretable electrical signals. One example of a micromachine sensor is a resonant chemical sensor. A lightly damped mechanical object vibrates much more at one frequency than any other, and this frequency is called its resonance frequency. A chemical sensor is coated with a special [[polymer]] that attracts certain [[molecule]]s, such as those found in [[anthrax]], and when those molecules attach to the sensor, its [[mass]] increases. The increased mass alters the resonance frequency of the mechanical object, which is detected with circuitry.
+
+Actuators convert electrical signals and energy into motion of some kind. The three most common types of actuators are [[electrostatics|electrostatic]], [[thermal]], and [[magnetism|magnetic]]. Electrostatic actuators use the force of electrostatic energy to move objects. Two mechanical elements, one that is stationary (the [[stator]]) and one that is movable (the [[rotor (electric)|rotor]]) have two different voltages applied to them, which creates an [[electric field]]. The field competes with a restoring force on the rotor (usually a spring force produced by the bending or stretching of the rotor) to move the rotor. The greater the electric field, the farther the rotor will move. Thermal actuators use the force of thermal expansion to move objects. When a material is heated, it expands and amount depending on material properties. Two objects can be connected in such a way that one object is heated more than the other and expands more, and this imbalance creates motion. The direction of motion depends on the connection between the objects.
+This is seen in a &amp;quot;heatuator&amp;quot;, which is a U-shaped beam with one wide arm and one narrow arm. When a current is passed through the object, heat is created. The narrow arm is heated more than the wide arm because they have the same current density. Since the two arms are connected at the top, the stretching hot arm pushes in the direction of the cold arm. Magnetic actuators used fabricated magnetic layers to create forces.
+
+To do bulk micromachining, the region needed is highly doped with boron and the unwanted silicon is etched in liquid silicon etches.  This technique is termed an etchstop as the doping of boron produces an unetchable layer/pattern.&amp;lt;ref&amp;gt;http://www.techneglas.com/dopantpages/etch.htm&amp;lt;/ref&amp;gt;
+
+== See also ==
+
+* [[Microelectromechanical systems|MEMS]]
+* [[Microfactory]]
+* [[Nano guitar]]
+* [[Microscanner]]
+
+== References ==
+
+{{refs}}
+
+== External links ==
+
+* [http://www.memx.com/products.htm Image Gallery of Working Micromachines]
+* [http://www.3d-micromac.com 3D-Micromac Laser Micromachining Company]
+
+{{Microtechnology}}
+[[Category:Nanotechnology]]
+[[Category:Microtechnology]]
+{{nano-tech-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

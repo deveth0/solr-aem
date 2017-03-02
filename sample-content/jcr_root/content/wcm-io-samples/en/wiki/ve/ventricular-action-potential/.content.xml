@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ventricular action potential"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ventricular action potential" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+In [[electrocardiography]], the [[ventricular myocyte]] [[cell potential|membrane potential]] is about -90 mV at rest, which is close to the [[potassium]] [[reversal potential]].  When an [[action potential]] is generated, the membrane potential rises above this level in four distinct phases.
+
+The beginning of the action potential, phase 0, specialized [[integral membrane protein|membrane proteins]] ([[ion channel|voltage-gated sodium channels]]) in the [[cell membrane]] selectively allow [[sodium]] [[ion]]s to enter the cell.  This causes the membrane potential to rise at a rate of about 300 V/s.  As the membrane voltage rises (to about 40 mV) sodium channels close due to a process called inactivation.
+
+The Na+ channel opening is followed by inactivation.  Na+ inactivation comes with slowly activating Ca2+ channels at the same time as a few fast K+ channels open. There is a balance between the outward flow of K+ and the inward flow of Ca2+ causing a plateau of length in variables.  The delayed opening of more Ca2+-activated K+ channels, which are activated by build-up of Ca2+ in the sarcoplasm, while the Ca2+ channels close, ends the plateau. This leads to repolarisation.
+
+The depolarization of the membrane allows [[calcium]] channels to open as well.  As sodium channels close calcium provides current to maintain the potential around 20 mV.  The plateau lasts on the order of 100 ms.  At the time that calcium channels are getting activated, channels that mediate the transient outward potassium current open as well.  This outward potassium current causes a small dip in membrane potential shortly after [[action potential|depolarization]].  This current is observed in human and dog action potentials, but not in guinea pig action potentials.
+
+[[action potential|Repolarization]] is accomplished by channels that open slowly and are mostly activated at the end of the action potential ([[slow delayed-rectifier channels]]), and channels that open quickly but are inactivated until the end of the action potential ([[rapid delayed rectifier channels]]).  Fast delayed rectifier channels open quickly but are shut by inactivation at high membrane potentials.  As the membrane voltage begins to drop the channels recover from inactivation and carry current.
+
+==See also==
+* [[Cardiac action potential]]
+
+{{Cardiovascular physiology}}
+
+{{DEFAULTSORT:Ventricular Action Potential}}
+[[Category:Cardiac electrophysiology]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

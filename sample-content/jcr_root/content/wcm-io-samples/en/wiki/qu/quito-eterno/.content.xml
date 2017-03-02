@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Quito Eterno"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Quito Eterno" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{orphan|date=September 2008}}
+
+&amp;apos;&amp;apos;&amp;apos;Quito Eterno&amp;apos;&amp;apos;&amp;apos; is an [[Ecuador]]ian educational program. It is a part of the [[Corporación del Centro Histórico of Quito]], a non-profit citizen partnership aimed at finding solutions to the problems of the Historical Center (declared [[World Heritage of Humanity]] by [[UNESCO]] in 1978.
+Quito Eterno promotes learning of the art, culture and history of Quito and Ecuador. Their main program is called Rutas de Leyenda (Excursion of Legends), and consists of a series of visits to the places that best represent the heritage of the Quito Historical Center.  The Rutas de Leyenda are led by historical and traditional characters from the city. This experience combines theater, non-formal education and historical research.
+Quito Eterno is known in the city of Quito for having recreated characters of the city (i.e.: [[Manuela Sáenz]], [[Eugenio Espejo]], and the Chulla [[:es:Chulla]]) to be the hosts in the Historical downtown. The Rutas de Leyenda are principally offered to primary and secondary students in Quito and Ecuador. Through August 2006 More than 35,000 students had been able to experience the work of Quito Eterno, in Rutas de Leyenda.
+The different programs of Quito Eterno all share the following fundamental ideas:
+* To promote and develop the alternative education for interpretation and preservation of our cultural homeland.
+* To complement the formal education system in the areas of history, culture, art and citizenship.
+* To promote cultural and ethnic tolerance.
+
+Quito Eterno additionally offers logistical and planning services for volunteer groups and study abroads.
+
+[[Category:Education in Ecuador]]
+[[Category:Ecuadorian culture]]
+[[Category:Ecuadorian educational programs]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

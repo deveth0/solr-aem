@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Stanley Meads"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Stanley Meads" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Use dmy dates|date=October 2011}}
+{{Infobox rugby biography
+| image =
+| birth_date = {{birth date and age|df=yes|1938|7|12}}
+| birth_place = [[Arapuni]]
+| height = {{convert|1.91|m|ftin|abbr=on}}
+| weight = {{convert|99|kg|lbs|abbr=on}}
+| ru_position = Lock, Loose Forward
+|ru_currentposition = Retired
+|ru_amateuryears = 1957–66
+|ru_amateurclubs = [[King Country Rugby Football Union|King Country]]
+|ru_amupdate =
+| ru_nationalyears = 1961-1966
+| ru_nationalteam = {{ru|New Zealand}}
+| ru_nationalcaps = 30
+| ru_nationalpoints =(12)
+}}
+&amp;apos;&amp;apos;&amp;apos;Stanley Thomas Meads&amp;apos;&amp;apos;&amp;apos; (born 12 July 1938 in Arapuni, [[New Zealand]]) was a [[rugby union]] footballer and brother of [[Colin Meads]], considered by some to be one of the greatest rugby footballers of all time. He played as a [[Rugby union positions#4._.26_5._Lock|lock]], [[Rugby_union_positions#8._Number_Eight|No 8]] and [[Rugby_union_positions#6._Blindside_flanker_.26_7._Openside_flanker|flanker]], and scored four tries for New Zealand in 30 games (15 tests). He played for [[King Country Rugby Football Union|King Country]] between 1957 and 1966, when he abruptly announced his retirement to concentrate on his sheep farm near [[Te Kuiti]].
+
+==External links==
+*{{All Blacks|id=602|name=Stan Meads}}
+
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Meads, Stan
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION = New Zealand rugby union player
+| DATE OF BIRTH     = 12 July 1938
+| PLACE OF BIRTH    = [[Arapuni]]
+| DATE OF DEATH     =
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Meads, Stan}}
+[[Category:1938 births]]
+[[Category:New Zealand international rugby union players]]
+[[Category:New Zealand rugby union players]]
+[[Category:Living people]]
+
+
+{{NewZealand-rugbyunion-bio-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

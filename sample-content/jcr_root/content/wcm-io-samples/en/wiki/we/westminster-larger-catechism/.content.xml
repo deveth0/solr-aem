@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Westminster Larger Catechism"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Westminster Larger Catechism" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;Westminster Larger Catechism&amp;apos;&amp;apos;&amp;apos;, along with the [[Westminster Shorter Catechism]], is a central [[catechism]] of [[Calvinism|Calvinists]] in the [[England|English]] tradition throughout the world.
+
+== History ==
+In 1643 when the [[Long Parliament]] of England called the [[Westminster Assembly]] to produce the [[Westminster Confession]], it also asked for a directory of &amp;quot;catechising&amp;quot;. The Assembly asked [[Herbert Palmer (Puritan)|Herbert Palmer]] to produce a draft of the Larger Catechism. [[Robert Baillie]] and other [[Scotland|Scottish]] delegates found the work disappointing. In December 1643 a committee was formed to write the Catechism. In January 1647 the [[Westminster Assembly|Assembly]] gave up writing one [[catechism]] and split it into two. The [[Westminster Shorter Catechism]] was to be &amp;quot;easier to read and concise for beginners&amp;quot; and the Larger Catechism was to be &amp;quot;more exact and comprehensive&amp;quot;.  The Catechism was completed by the [[Westminster Assembly]] in 1647. It was then adopted by the General Assembly of the [[Church of Scotland]] in 1648 and (with modifications relating to the civil magistrate) by the [[Presbyterian]] Synod of [[New York]] and [[Philadelphia]] in 1788.
+
+==See also==
+* [[Westminster Shorter Catechism]]
+
+== References ==
+* Van Dixhorn, Chad [http://www.opc.org/new_horizons/NH00/0010b.html Is the Larger Catechism Worthwhile?]
+* [[William Maxwell Hetherington|Hetherington, William]] [http://www.reformed.org/books/hetherington/west_assembly/index.html &amp;apos;&amp;apos;History of the Westminster Assembly of Divines&amp;apos;&amp;apos;]
+
+==External links==
+* {{wikisource-inline|single=true}}
+* [http://www.reformed.org/documents/wlc_w_proofs/WLC_Intro.html Westminster Larger Catechism with Scripture proofs]
+
+[[Category:Westminster Standards]]
+[[Category:Catechisms]]
+[[Category:Congregationalism]]
+[[Category:Presbyterianism]]
+[[Category:English Reformation]]
+[[Category:Westminster Assembly]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

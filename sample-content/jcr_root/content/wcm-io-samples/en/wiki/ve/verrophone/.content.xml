@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Verrophone"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Verrophone" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Refimprove|date=December 2012}}
+A &amp;apos;&amp;apos;&amp;apos;verrophone&amp;apos;&amp;apos;&amp;apos; is a musical instrument, invented in 1983 by Sascha Reckert,&amp;lt;ref&amp;gt;http://www.glasmusik.com/hist5.htm&amp;lt;/ref&amp;gt; in which open-ended [[glass]] tubes are arranged in various sizes (usually in a [[chromatic scale]], arranged from large to small, like the pipes of a [[pipe organ]]).  The sound is made by rubbing one end of one or more of the glass tubes, or also by striking them or rubbing them with a special [[mallet]].  The tubes are close together so that chords can be played by rubbing more than one at the same time.  The instrument carries more acoustical volume than the glass armonica and other glass instruments and generally has a range from G3-C6.
+
+==Predecessors of the verrophone==
+Previous glass instruments include the [[glass harmonica]], and arrangements of ordinary drinking glasses (approximately glass tubes closed at one end).
+
+==Related instruments==
+Modern artists such as Barry Prophet of The Music Gallery have produced glass instruments that work similar to a [[glockenspiel]] or [[lithophone]], i.e. by striking various glass tubes.  Hear, for example, a work entitled &amp;quot;Crystal Bones&amp;quot; composed and played on the microtonally tuned glass instruments of Prophet.
+
+==References==
+&amp;lt;references/&amp;gt;
+
+[[Category:Friction idiophones]]
+[[Category:Crystallophones]]
+
+
+{{Musical-instrument-stub}}
+{{Glass-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

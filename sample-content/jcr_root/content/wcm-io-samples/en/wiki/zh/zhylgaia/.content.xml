@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Zhylgaia"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Zhylgaia" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{taxobox
+| name=&amp;apos;&amp;apos;Zhylgaia&amp;apos;&amp;apos;
+| status = Fossil
+| fossil_range = [[Late Cretaceous]]
+| regnum = [[Animal]]ia
+| phylum = [[Chordate|Chordata]]
+| classis = [[Bird|Aves]]
+| subclassis = [[Neornithes]]
+| infraclassis = [[Neognathae]]
+| genus = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Zhylgaia&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+| genus_authority = [[Lev Alexandrovich Nesov|Nesov]], 1988
+| species =
+| binomial = &amp;apos;&amp;apos;Zhylgaia aestiflua&amp;apos;&amp;apos;
+| binomial_authority = Nesov, 1988
+}}
+
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Zhylgaia&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is a [[genus]] of [[bird]]s known only from [[fossils]]. Its remains have been recovered from a [[Late Cretaceous]] or [[Paleogene]] deposit in [[Central Asia]].
+
+The relationships of this form are unknown; it was initially placed in the [[Presbyornithidae]], which at that time were believed to be some sort of &amp;quot;transitional shorebird&amp;quot;. Recognizing that the presbyornithids were actually a prehistoric lineage of fairly advanced [[waterfowl]], &amp;apos;&amp;apos;Zhylgaia&amp;apos;&amp;apos; was assigned to the [[form taxon]] &amp;quot;[[Graculavidae]]&amp;quot;, an assemblage of Late Cretaceous and [[Paleocene]] shorebirds which are not a natural [[clade]] but merely an assemblage of outwardly similar birds. All that can be said about this taxon is that it was a [[Neornithes|modern bird]], in all probability a [[Neognathae|neognathe]].
+
+==References==
+* &amp;apos;&amp;apos;&amp;apos;Nesov&amp;apos;&amp;apos;&amp;apos;, L. A. (1988): [New Birds from the Cretaceous and Paleogene of Central Asia and Kazakhstan and Natural Conditions in Their Habitats]. &amp;apos;&amp;apos;Trudy Zoologicheskogo Instituta Akademii Nauk SSSR&amp;apos;&amp;apos; &amp;apos;&amp;apos;&amp;apos;182&amp;apos;&amp;apos;&amp;apos;: 116-123. [Article in Russian]
+
+[[Category:Cretaceous birds]]
+[[Category:Bird genera]]
+
+
+{{paleo-bird-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Field (computer science)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Field (computer science)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[computer science]], data that has several parts can be divided into &amp;apos;&amp;apos;&amp;apos;fields&amp;apos;&amp;apos;&amp;apos;. [[Relational database]]s arrange data as sets of [[database record]]s, also called [[Row (database)|rows]]. Each record consists of several &amp;apos;&amp;apos;fields&amp;apos;&amp;apos;; the fields of all records form the [[Column (database)|columns]].
+
+In [[object-oriented programming]], &amp;apos;&amp;apos;field&amp;apos;&amp;apos; (also called &amp;apos;&amp;apos;data member&amp;apos;&amp;apos; or &amp;apos;&amp;apos;[[member variable]]&amp;apos;&amp;apos;) is the [[data]] [[information hiding|encapsulated]] within a [[class (computer science)|class]] or [[object (object-oriented programming)|object]]. In the case of a regular field (also called &amp;apos;&amp;apos;[[instance variable]]&amp;apos;&amp;apos;), for each instance of the object there is an [[instance variable]]: for example, an &amp;lt;code&amp;gt;Employee&amp;lt;/code&amp;gt; class has a &amp;lt;code&amp;gt;Name&amp;lt;/code&amp;gt; field and there is one distinct name per employee. A static field (also called &amp;apos;&amp;apos;[[class variable]]&amp;apos;&amp;apos;) is one variable, which is shared by all instances.&amp;lt;ref&amp;gt;
+{{cite web
+| accessdate = 2011-08-12
+| location   =
+| publisher  = SLICCWARE
+| title      = Data fields
+| url        = http://www.sliccware.com/WebHelp/Load_Definition/Definitions/Data_Fields/Data_Fields.htm}}
+&amp;lt;/ref&amp;gt;
+
+==Fixed length==
+Fields that contain a fixed number of bits are known as fixed length fields. A four byte field for example may contain a 31 bit binary integer plus a sign bit (32 bits in all). A 30 byte name field may contain a persons name typically padded with blanks at the end.
+The disadvantage of using fixed length fields is that some part of the field may be wasted but space is still required for the maximum length case. Also, where fields are omitted, padding for the missing fields is still required to maintain fixed start positions within a record for instance.
+
+==Variable length==
+A variable length field is not always the same physical size.
+Such fields are nearly always used for text fields that can be large, or fields that vary greatly
+in length. For example, a bibliographical database like [[PubMed]] has many small fields such
+as publication date and author name, but also has abstracts, which vary greatly in length.
+Reserving a fixed-length field of some length would be inefficient because it would enforce a
+maximum length on abstracts, and because space would be wasted in most records (particularly if many articles lacked abstracts entirely).
+
+Database implementations commonly store varying-length fields in special ways, in order to
+make all the records of a given type have a uniform small size. Doing so can help performance.
+On the other hand, data in [[serialized]] forms such as stored in typical file systems,
+transmitted across networks, and so on usually uses quite different performance strategies.
+The choice depends on factors such as the total size of records, performance characteristics of the
+storage medium, and the expected patterns of access.
+
+Database implementations typically store variable length fields in ways such as
+
+*a sequence of characters or bytes, followed by an &amp;apos;&amp;apos;end-marker&amp;apos;&amp;apos; that is prohibited within the string itself. This makes it slower to access later fields in the same record because the later fields are not always at the same physical distance from the start of the record.
+
+*a &amp;apos;&amp;apos;pointer&amp;apos;&amp;apos; to data in some other location, such as a [[URI]], a file offset (and perhaps length), or a key identifying a record in some special place. This typically speeds up processes that don&amp;apos;t need the contents of the variable length field(s), but slows processes that do.
+
+*a &amp;apos;&amp;apos;length prefix&amp;apos;&amp;apos; followed by the specified number of characters or bytes. This avoids searches for an end-marker as in the first method, and avoids the loss of [[locality of reference]] as in the second method. On the other hand, it imposes a maximum length: the biggest number that can be represented using the (generally fixed length) prefix. In addition, records still vary in length, and must be traversed in order to reach later fields.
+
+If a varying-length field is often empty, additional optimizations come into play.
+
+==See also==
+* [[Attribute (computing)]]
+* [[Class variable]]
+* [[Data hierarchy]]
+* [[Instance variable]]
+* [[Key field]]
+* [[n-tuple]]
+* [[Row (database)|record]]
+
+==References==
+{{Reflist|2}}
+
+{{DEFAULTSORT:Field (Computer Science)}}
+&amp;lt;!--Categories--&amp;gt;
+[[Category:Data modeling]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Island joke"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Island joke" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Orphan|date=February 2009}}
+&amp;apos;&amp;apos;&amp;apos;Island jokes&amp;apos;&amp;apos;&amp;apos; are [[joke]]s about a person or group of people stranded on a desert [[island]].  This setting is typically used to play on [[stereotypes]] of the people present.  This may refer to their profession, religion or nationality, or the people involved may be famous figures.  The island setting highlights the absurdity of the stereotypical behaviour and prejudices of the protagonists, suggesting that they will find a way to express their own particular foibles even in a hostile setting.
+
+This setting is also popular in [[cartoons]]. The stereotypical landscape is a small hump of dry land with  a ragged person (or persons) under a sole [[palm tree]].
+
+== Example ==
+
+A Scottish Presbyterian is rescued after many years on a desert island. As he stands on the deck of the rescuing vessel, the captain says to him, &amp;quot;I thought you were stranded alone. How come I can see three huts on the beach?&amp;quot;
+:- &amp;quot;Well,&amp;quot; replies the castaway, &amp;quot;that one there is my house and that one there is where I go to church.&amp;quot;
+:- &amp;quot;And the third one?&amp;quot; asks the skipper.
+:- &amp;quot;Oh, that&amp;apos;s my old church.&amp;quot;
+
+== Example ==
+Three guys are shipwrecked on a desert island; a newlywed, a divorcee, and a Public Broadcasting &amp;amp; National Public Radio fan.
+:- The newlywed says, &amp;quot;Don&amp;apos;t worry guys, my bride and I are eternally dedicated to each other, she&amp;apos;ll search to the ends of the earth and won&amp;apos;t rest &amp;apos;till she finds me.&amp;quot;
+:- The divorcee replies, &amp;quot;Yah, don&amp;apos;t sweat it fellas, the judge ordered me to pay my evil ex-wife an arm &amp;amp; a leg in alimony; she&amp;apos;ll figure out a way to find me.&amp;quot;
+:- To which the PBS-watching NPR listener responds, &amp;quot;Two years ago my girlfriend turned me on to PBS &amp;amp; NPR, and I contributed the $30 minimum gift.  Last year I contributed the &amp;quot;dollar-a-day&amp;quot; $365 gift.  This year I just pledged the &amp;quot;Donor&amp;apos;s Circle&amp;quot; $3,000 gift, but hadn&amp;apos;t written the check before we got shipwrecked here. Don&amp;apos;t worry, they&amp;apos;ll find me....&amp;quot;
+
+[[Category:Joke cycles]]
+
+{{comedy-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

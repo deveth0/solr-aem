@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Xeroradiography"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Xeroradiography" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Diagnostic infobox |
+  Name        = {{PAGENAME}} |
+  Image       = |
+  Caption     = |
+  ICD10       = |
+  ICD9        = |
+  MeshID      = D014986 |
+  OPS301      = |
+  OtherCodes  = |
+}}
+&amp;apos;&amp;apos;&amp;apos;Xeroradiography&amp;apos;&amp;apos;&amp;apos; is a type of [[x-ray]] in which a picture of the body is [[recorded]] on paper rather than on [[film]]. In this technique, a plate of selenium, which rests on a thin layer of aluminium oxide, is charged uniformly by passing it in front of a &amp;apos;[http://www.medcyclopaedia.com/library/topics/volume_i/s/scorotron.aspx scorotron]&amp;apos;.
+
+As X-ray photon impinges on this amorphous coat of selenium, charges diffuse out, in proportion to energy content of the X-ray. This occurs as a result of [http://en.wiktionary.org/wiki/photoconduction photoconduction]. The resulting imprint, in the form of charge distribution on the plate, attracts toner particles, which is then transferred to reusable paper plates. In contrast to conventional X-rays, [[photographic developer]]s are not needed. Hence the term xeroradiography; &amp;apos;xero&amp;apos; meaning dry in Greek.
+It requires more radiation exposure.
+Its use is in mammography.
+
+[[Xeromammography]] is a form of xeroradiography.&amp;lt;ref&amp;gt;{{MeshName|Xeromammography}}&amp;lt;/ref&amp;gt;
+
+== References ==
+&amp;lt;references /&amp;gt;
+
+== External links ==
+* [http://www.cancer.gov/dictionary?CdrID=46655 Xeroradiography] entry in the public domain NCI Dictionary of Cancer Terms
+
+{{NCI-cancer-dict}}
+{{med-stub}}
+
+
+== External links ==
+*http://www.medcyclopaedia.com/library/topics/volume_i/x/xeroradiography.aspx
+
+{{Medical imaging}}
+[[Category:Radiography]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

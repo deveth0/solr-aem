@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Obturation"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Obturation" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{cleanup|reason=style|date=June 2012}}
+
+In the field of [[firearms]] and [[airguns]], &amp;apos;&amp;apos;&amp;apos;obturation&amp;apos;&amp;apos;&amp;apos; denotes necessary barrel blockage or fitment by a deformed soft projectile.&amp;lt;ref&amp;gt;[http://dictionary.reference.com/browse/obturate Obturate] at dictionary.com&amp;lt;/ref&amp;gt; A [[bullet]] or [[Pellet (air gun)|pellet]], made of soft material and often with a concave base, will flare under the heat and pressure of firing, filling the bore and engaging the barrel&amp;apos;s [[rifling]]. The mechanism by which an undersized soft-metal projectile enlarges to fill the barrel is, for hollow-base bullets, expansion from gas pressure within the base cavity and, for solid-base bullets, &amp;quot;upsetting&amp;quot;—the combined shortening and thickening that occurs when a malleable metal object is struck forcibly at one end. For [[shotgun shell]]s which have multiple pellets, much smaller than the barrel bore, obturation is achieved by placing a plastic wad or biodegradable card of the same diameter as the barrel between the propellant powder and the pellets.
+
+==Obturation in firearms ammunition==
+With reference to [[firearm]]s and [[air gun]]s, obturation is the result of a [[bullet]] or [[Pellet (air gun)|pellet]] expanding or upsetting to fit the bore, or, in the case of a firearm, of a brass case expanding to seal against the chamber at the moment of firing.  In the first case, this both seals the bullet in the bore, and causes the bullet to engage the barrel&amp;apos;s [[rifling]]. In the second case, it seals the case in the chamber and prevents backward travel of gases against the bolt. The thin brass case easily seals the chamber, even in low pressure rounds like the [[.22 CB]], but expanding or upsetting the bullet sufficiently for effective obturation requires sufficient pressure to deform the bullet material.  The formula used to calculate the pressure required for solid base bullets is:
+
+:Bullet&amp;apos;s [[Brinell hardness test|BHN]] x 9.80665 N/kgf×10&amp;lt;sup&amp;gt;6&amp;lt;/sup&amp;gt; mm²/m² = &amp;amp;#91;[[newton (unit)|N]]/m²&amp;amp;#93; = pressure in [[Pascal (unit)|pascals]]
+
+:Bullet&amp;apos;s [[Brinell hardness test|BHN]] x 1422 = pressure in [[pounds per square inch]]&amp;lt;ref&amp;gt;[http://www.lasc.us/FryxellCBAlloyObturation.htm Cast Bullet Alloys and Obturation] by Glen E. Fryxell on the LASC website&amp;lt;/ref&amp;gt;
+
+The constant 1422 is a mathematically derived number.  The number comes from converting the pressure in kgf/mm² (which are the units used to measure BHN) to lbf/in² (which are the units used to measure cartridge pressure). That is:
+:Conversion factor = 25.4 (mm/in) x 25.4 (mm/in) x 2.2046 (lbf/kgf) = 1,422.
+
+Note that this number should only be used with cast lead plain-base bullets.  It does not apply to jacketed or gas-check cast bullets.  Below is a chart containing various bullet alloys, the BHN, and the PSI required to expand a bullet to the bore:
+
+{|
+|-----
+! rowspan=2|Material ||rowspan=2| || rowspan=2|BHN ||rowspan=2| ||colspan=2| Pressure
+|-
+!  (psi) ||(MPa)
+|-----
+| Pure lead || ||align=right| 5 || ||align=right| 7,110 ||align=right| 49
+|-----
+| 1:20 tin/lead || ||align=right| 10 || ||align=right| 14,200 ||align=right| 98
+|-----
+| 1:10 tin/lead || ||align=right| 11.5 || ||align=right| 16,400 ||align=right| 113
+|-----
+| Pure copper || ||align=right| 40 || ||align=right| 56,900 ||align=right| 392
+|}
+
+Pure lead is very soft, and can be expanded or upset by most firearm cartridges, but the pressures required are higher than those encountered in most airguns.  To allow obturation in airguns, pellets use soft alloys in conjunction with a thin, concave base designed to expand more easily.  Some firearms ammunition, such as [[Foster slug]]s and hollow base [[wadcutter]] bullets, also use a hollow base to allow the bullet to expand and conform to a barrel&amp;apos;s irregularities, even as the chamber pressure drops as the bullet travels down the barrel (see [[internal ballistics]]).  For example, it is not uncommon for [[revolver]] barrels to have a slight constriction at the breech end where they thread into the revolver&amp;apos;s frame; a hollow base bullet will expand to fill the larger diameter of the barrel after passing through the constriction.
+
+To prevent excessive deformation in high pressure [[rifle]] and magnum [[pistol]] cartridges, lead bullets are often covered in copper or another harder alloy.  These bullets are generally designed to [[Swaging#Firearms and ammunition|swage]] to fit upon firing.
+
+==See also==
+*[[Driving band]]
+*[[Gas check]]
+*[[Minié ball]]
+*[[Glossary of firearms terminology]]
+
+==References==
+{{reflist}}
+
+[[Category:Ammunition]]
+[[Category:Firearm terminology]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="EQ"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="EQ" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|EQ}}
+__NOTOC__
+&amp;apos;&amp;apos;&amp;apos;EQ&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+== Businesses ==
+* [[Embarq]] (NYSE stock symbol), a local exchange carrier in the United States
+* [[TAME (airline)]] (IATA airline designator), an airline based in Quito, Ecuador
+* [[eQ Bank]], a Finnish bank
+* [[EQ Recordings]], an in-house record label of Stomp Entertainment, an Australian entertainment group and record house
+
+== Medicine and psychology ==
+* [[Emotional quotient]], a numerical measure of emotional intelligence
+* [[Empathy Quotient]], a measure of empathy as defined in [[empathizing–systemizing theory]]
+* [[Encephalization quotient]], a value for the brain to body mass ratio
+
+== Natural science ==
+* [[Equation]] in mathematics
+* [[Equator|Equatorial]] in geography
+* [[Equivalent (chemistry)]], a measurement unit used in chemistry
+
+== Other uses ==
+* [[Earthquake]]
+* [[Eça de Queiroz]], a realistic and critical Portuguese writer
+* [[English Qaballa]], a system of numerology
+* [[Equalization (audio)]] in audio processing
+* [[Equals (disambiguation)]]
+* [[Equality (relational operator)]], used in computer programming for an equality operator
+* [[Equestrianism]], a term pertaining to horses or their riders
+* &amp;apos;&amp;apos;[[Evangelical Quarterly]]&amp;apos;&amp;apos;, religious journal
+* &amp;apos;&amp;apos;[[EverQuest]]&amp;apos;&amp;apos;, a groundbreaking massively multiplayer online role-playing game first released in 1999
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

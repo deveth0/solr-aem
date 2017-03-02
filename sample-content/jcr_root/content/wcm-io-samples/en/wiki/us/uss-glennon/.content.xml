@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="USS Glennon"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="USS Glennon" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Italic title prefixed|3}}
+Two ships of the [[United States Navy]] have borne the name &amp;apos;&amp;apos;&amp;apos;USS &amp;apos;&amp;apos;Glennon&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;,in honor of Rear Admiral [[James H. Glennon]].
+
+*{{USS|Glennon|DD-620}}, was a [[Gleaves class destroyer|&amp;apos;&amp;apos;Gleaves&amp;apos;&amp;apos;-class]] [[destroyer]], launched in 1942 and sunk by a mine in 1944
+
+*{{USS|Glennon|DD-840}}, was a [[Gearing class destroyer|&amp;apos;&amp;apos;Gearing&amp;apos;&amp;apos;-class]] destroyer, launched in 1945 and struck in 1976
+
+{{Shipindex}}
+
+{{DEFAULTSORT:Glennon}}
+[[Category:United States Navy ship names]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

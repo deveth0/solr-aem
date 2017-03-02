@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Correctness (computer science)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Correctness (computer science)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[theoretical computer science]], &amp;apos;&amp;apos;&amp;apos;correctness&amp;apos;&amp;apos;&amp;apos; of an [[algorithm]] is asserted when it is said that the algorithm is correct with respect to a [[program specification|specification]]. &amp;apos;&amp;apos;Functional&amp;apos;&amp;apos; correctness refers to the input-output behaviour of the algorithm (i.e., for each input it produces the correct output) {{Citation needed|date=June 2013}}.
+
+A distinction is made between &amp;apos;&amp;apos;&amp;apos;total correctness&amp;apos;&amp;apos;&amp;apos;, which additionally requires that the algorithm terminates, and &amp;apos;&amp;apos;&amp;apos;partial correctness&amp;apos;&amp;apos;&amp;apos;, which simply requires that &amp;apos;&amp;apos;if&amp;apos;&amp;apos; an answer is returned it will be correct. Since there is no general solution to the [[halting problem]], a total correctness assertion may lie much deeper. A [[termination proof]] is a type of [[mathematical proof]] that plays a critical role in [[formal verification]] because total correctness of an algorithm depends on termination {{Citation needed|date=June 2013}}.
+
+For example, successively searching through [[integer]]s 1, 2, 3, … to see if we can find an example of some phenomenon &amp;amp;mdash; say an odd [[perfect number]] &amp;amp;mdash; it is quite easy to write a partially correct program (using long division by two to check &amp;apos;&amp;apos;n&amp;apos;&amp;apos; as perfect or not). But to say this program is totally correct would be to assert something [[Perfect_number#Odd_perfect_numbers|currently not known]] in [[number theory]].
+
+A proof would have to be a mathematical proof, assuming both the algorithm and specification are given formally. In particular it is not expected to be a correctness assertion for a given program implementing the algorithm on a given machine. That would involve such considerations as limitations on [[computer memory]].
+
+A [[deep result]] in [[proof theory]], the [[Curry-Howard correspondence]], states that a proof of functional correctness in [[constructive logic]] corresponds to a certain program in the [[lambda calculus]]. Converting a proof in this way is called &amp;apos;&amp;apos;program extraction&amp;apos;&amp;apos;.
+
+[[Hoare logic]] is a specific [[formal system]] for reasoning rigorously about the correctness of computer programs.
+
+==See also==
+*[[Formal verification]]
+*[[Design by contract]]
+*[[Program analysis (computer science)]]
+*[[Model checking]]
+*[[Compiler correctness]]
+*[[Program derivation]]
+
+[[Category:Formal methods terminology]]
+[[Category:Theoretical computer science]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

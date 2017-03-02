@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="IBM 1712"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="IBM 1712" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+&amp;lt;!-- Image with disputed fair-use status removed:  [[Image:IBM_logo.svg|thumb|128px|IBM logo]] --&amp;gt;
+The &amp;apos;&amp;apos;&amp;apos;IBM 1712 Multiplexer and Terminal Unit&amp;apos;&amp;apos;&amp;apos; was part of the [[IBM 1710]] [[process control]] computer. The Terminal Unit provided the physical connections between factory wiring and the computer. The 1712 could support up to 300 separate wire pairs. Signal types supported included analog input, analog output, contact sense, contact operate, process branch indicators and process interrupts. Special terminal blocks supported [[thermocouple]] inputs. The Multiplexer selects which signal was connected to the [[IBM 1711]] Data Converter.
+
+{{DEFAULTSORT:Ibm 1712}}
+[[Category:IBM transistorized computers|1712]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

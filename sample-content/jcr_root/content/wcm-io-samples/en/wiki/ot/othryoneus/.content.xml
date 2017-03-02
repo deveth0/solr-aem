@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Othryoneus"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Othryoneus" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+&amp;apos;&amp;apos;&amp;apos;Othryoneus&amp;apos;&amp;apos;&amp;apos; (Ὀθρυονεύς) was in [[Greek mythology]] a [[suitor]] of Princess [[Cassandra]] of [[Troy]] during the [[Trojan War]], mentioned in one passage in Homer&amp;apos;s &amp;apos;&amp;apos;[[Iliad]]&amp;apos;&amp;apos;.
+
+Othryoneus was from Cabesos, a Homeric site over whose location there has been disagreements since ancient times, some sources suggesting a site in the [[Troad]] self and others pointing at the very similar name of the ancient site of Kavissos, today near [[Feres, Evros|Feres]] near [[Evros (regional unit)|Evros]]. Othryoneus had taken part in the war in the sole purpose of marrying [[King Priam]]&amp;apos;s daughter, the &amp;quot;loveliest&amp;quot; according to Homer, and to which the King had assented. In the Iliad, he is killed during the Battle of the Ships by [[Idomeneus]], in a passage in which he is cited as gleefully mocking him while Othryoneus is dying.
+
+==References==
+*[[Homer]], &amp;apos;&amp;apos;Iliad&amp;apos;&amp;apos;, 13. 363-384
+
+{{Characters in the Iliad}}
+
+[[Category:Characters in the Iliad]]
+[[Category:Greek mythology]]
+[[Category:People of the Trojan War]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

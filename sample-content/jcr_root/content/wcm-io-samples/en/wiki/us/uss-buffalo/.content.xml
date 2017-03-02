@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="USS Buffalo"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="USS Buffalo" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Italic title prefixed|3}}
+Five ships of the [[United States Navy]] have been named &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Buffalo&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;, the first after the [[American Bison|large mammal]], the others after the city of [[Buffalo, New York]].
+
+* The {{USS|Buffalo|1813}} was a 3-gun sloop purchased April 1813 at Philadelphia and attached to the Delaware Flotilla. She took part in the 29 July 1813 attack on the HMS &amp;apos;&amp;apos;Junon&amp;apos;&amp;apos; and HMS &amp;apos;&amp;apos;Martin&amp;apos;&amp;apos;.  She was sold 12 August 1816.
+* The {{USS|Buffalo|1892}} was an auxiliary cruiser purchased for use in the Spanish-American War.
+* The {{USS|Buffalo|CL-99}} was a planned {{sclass-|Cleveland|cruiser|0}} [[light cruiser]] that was converted into the {{sclass-|Independence|aircraft carrier|0}} [[light aircraft carrier]] {{USS|Bataan|CVL-29}}.
+* The {{USS|Buffalo|CL-110}} was a planned {{sclass-|Fargo|cruiser|0}} light cruiser, laid down on 3 April 1944 but the contract for her construction was canceled on 12 August 1945. Her unfinished hull was scrapped.
+* The {{USS|Buffalo|SSN-715}} is the 25th {{sclass-|Los Angeles|submarine|0}} nuclear attack submarine and is currently in service
+
+==References==
+*{{DANFS|http://www.history.navy.mil/danfs/b10-list.htm}}
+*{{NVR|http://www.nvr.navy.mil/nvrships/details/SSN715.htm}}
+
+{{Shipindex}}
+
+{{DEFAULTSORT:Buffalo, USS}}
+[[Category:United States Navy ship names]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

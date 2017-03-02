@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Netscape Public License"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Netscape Public License" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{ infobox software license
+| name            = Netscape Public License
+| author          = [[Netscape]]
+| version         = 1.1
+| copyright       = Netscape
+| date            = ?
+| OSI approved    = No
+| Debian approved = ?
+| Free Software   = Yes
+| GPL compatible  = No&amp;lt;ref&amp;gt;{{cite web
+                        |title=Netscape Public License (NPL)
+                        |work=Various Licenses and Comments about Them
+                        |publisher=Free Software Foundation
+                        |url=http://www.gnu.org/licenses/license-list.html#NPL
+                        |accessdate=May 23, 2013
+                      }}&amp;lt;/ref&amp;gt;
+| copyleft        = Limited
+| linking         = Yes
+}}
+
+The &amp;apos;&amp;apos;&amp;apos;Netscape Public License&amp;apos;&amp;apos;&amp;apos; (NPL) is a [[free software license]], the license under which [[Netscape Communications Corporation]] originally released [[Mozilla]].
+
+Its most notable feature is that it gives the original developer of Mozilla ([[Netscape Communications Corporation|Netscape]], now a subsidiary of [[AOL]]), the right to distribute modifications made by other contributors under whatever terms it desires, including [[proprietary software|proprietary]] terms, without granting similar rights to these other contributors in respect to contributions made by the original developer.  This allowed the release of the [[Netscape (web browser)|Netscape]] 6 and later versions as proprietary software.
+
+This asymmetry with respect to rights has led to criticism of the license by many members of the [[open source]] and [[free software]] movements: the [[Free Software Foundation]] [http://www.fsf.org/licensing/licenses/ acknowledged it] as a free-software license
+but one to be avoided, and the [[Open Source Initiative]] either [http://opensource.org/licenses/alphabetical rejected it entirely or was not asked to review it].  The FSF adds that it&amp;apos;s not possible to combine software obtained under the license with software obtained under the [[GNU General Public License|GPL]].
+
+The [[Mozilla Public License]] version 1.1 is similar (and has limited &amp;quot;file-level copyleft&amp;quot;), but lacks the asymmetry in rights. Time Warner, exercising its rights under the Netscape Public License, and at the request of the Mozilla Foundation, [http://www.mozilla.org/MPL/relicensing-faq.html relicensed] all code in Mozilla that was under the Netscape Public License (including code by other contributors) to an MPL 1.1/GPL 2.0/[[GNU Lesser General Public License|LGPL]] 2.1 [[tri-license]], thus removing the GPL-incompatibility.
+
+==References==
+{{Reflist}}
+
+== External links ==
+* [http://www.mozilla.org/MPL/NPL-1.0.html Netscape Public License version 1.0]
+
+{{Netscape}}
+
+[[Category:Mozilla]]
+[[Category:Netscape]]
+[[Category:Free and open-source software licenses]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Out of the Inner Circle"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Out of the Inner Circle" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Out of the Inner Circle: A Hacker&amp;apos;s Guide to Computer Security&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is a book by [[Bill Landreth]] and [[Howard Rheingold]], published in 1985 by [[Microsoft Press]] and distributed by [[Simon &amp;amp; Schuster, Inc.]] (ISBN 0-671-30942-0). The book was created to provide insight into the ways and methods of the [[Hacker (computer security)|hacking]] community in days before [[internet]] became prevalent. Although largely outdated and more than a little nostalgic, it does show what brought on many of the current trends we see in network security today.
+
+{{nonfiction-book-stub}}
+
+[[Category:1985 books]]
+[[Category:Computer security books]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

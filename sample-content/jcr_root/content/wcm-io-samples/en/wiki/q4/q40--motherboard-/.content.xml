@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Q40 (motherboard)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Q40 (motherboard)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;Q40&amp;apos;&amp;apos;&amp;apos; and &amp;apos;&amp;apos;&amp;apos;Q60&amp;apos;&amp;apos;&amp;apos; (sometimes known generically as the &amp;apos;&amp;apos;&amp;apos;Qx0&amp;apos;&amp;apos;&amp;apos; series) are [[computer]] [[motherboard]]s designed  in the late 1990s, based on the [[Motorola 68040]] and [[68060]] [[microprocessors]] respectively and intended to be partially compatible with the [[Sinclair QL]] [[microcomputer]]. They were by designed by Peter Graf of [[Germany]] and manufactured by D&amp;amp;D Systems of the [[United Kingdom]].
+
+== Hardware ==
+The Q40 consists of a sub-[[AT form factor]] board comprising a 40 MHz 68040 processor, 1 MiB of video RAM, and several [[Programmable logic device|PLDs]] implementing a QL-compatible video display generator, an [[Industry Standard Architecture|ISA]] bus, stereo 20 kHz audio [[Digital-to-analog converter|DAC]]s and an [[AT keyboard]] interface. [[Floppy disk]], [[AT Attachment|ATA]] [[hard disk]], [[RS-232]] and [[Centronics printer port]] interfaces are provided by an ISA &amp;quot;multi-I/O&amp;quot; card in one of the two ISA slots provided. Up to 32 MiB of FPM or EDO RAM can be installed in two 72-pin [[SIMM]] slots. Also included are sockets for two ROM devices, 2 kiB of non-volatile RAM and a [[real-time clock]].
+
+Both of the QL&amp;apos;s standard video modes are supported, plus two extended modes: 512×256 or 1024×512 pixels with 16-bit colour.
+
+The Q60 is a revised board with a 66 MHz 68060 or 80 MHz 68LC060 processor and support for up to 128 MiB of RAM.
+
+The Q40 board was produced in limited quantities before being superseded by the &amp;apos;&amp;apos;&amp;apos;Q40i&amp;apos;&amp;apos;&amp;apos;; essentially a Q60 board with a 40 MHz 68040.
+
+== Software ==
+Three [[operating system]]s are available for the Q40/Q60; these comprise QDOS Classic (an enhanced version of [[Sinclair QDOS|Qdos 1.10]]), [[SMSQ/E]] and a custom [[Linux distribution]].
+
+== External links ==
+*[http://www.q40.de/ Official Q40/Q60 website]
+
+{{Sinclair computers and clones}}
+
+[[Category:Sinclair computers and derivatives]]
+
+{{compu-hardware-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

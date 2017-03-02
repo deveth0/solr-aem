@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="File:Rush Retrospective I.jpg"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="File:Rush Retrospective I.jpg" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Non-free album cover|image has rationale=yes}}
+{{Non-free use rationale|Article=Retrospective I
+|Description=Cover for the album &amp;apos;&amp;apos;[[Retrospective I]]&amp;apos;&amp;apos; by [[Rush (band)|Rush]]
+|Source=Derived from a scan of the album cover (creator of this digital version is irrelevant as the copyright in all equivalent images is still held by the same party). Copyright held by the record company or the artist.  Claimed as fair use regardless.
+|Portion=Entire front cover, but does not include back or insides of original artwork
+|Resolution=Is only as much resolution as necessary to identify and show the style of artwork used for the article, not enough to be used for piracy.
+|Purpose=Illustrates the appearance of the album and identifies it by recognized features.
+|Replaceability=No free equivalent can equal this image (any would be a derivative of this artwork)
+|other_information= Image in this form is already widely distributed to identify the album as part of catalogs and reviews, so we degrade no market value by providing it ourselves.}}
+
+Used on Wikipedia under [[fair use]] guidelines:
+:Low resolution copy of the album cover
+
+[[User:RedWolf|RedWolf]] 02:54, Apr 2, 2004 (UTC)
+[[Category:Rush (band) album covers]]
+[[Category:Album covers by Hugh Syme]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

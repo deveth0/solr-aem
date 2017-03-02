@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Piecki-Migowo"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Piecki-Migowo" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Image:Piecki-Migowo Zdjecie lotnicze ubt.jpeg|right|thumb|350px|Piecki-Migowo]]
+&amp;apos;&amp;apos;&amp;apos;Piecki-Migowo&amp;apos;&amp;apos;&amp;apos; is one of the quarters of the city of [[Gdańsk]], [[Poland]].  It consists of two parts: Piecki and Migowo. Populated by 23,593 inhabitants in an area of 3.8 km² (population density 6,224),
+Piecki-Migowo together are popularly called The Morena. It is located on top of a hill more than 100 meters above sea level that used to be an example of Arcadian nature. Nevertheless, it is an example of a multi-story housing estate that failed to properly use the beauty of the landscape.
+
+The housing estate was built in the second half of the 1970s and in the 1980s. The construction areas are slowly being extended to the area of the former military poligoons. The prevailing type of new structures are family houses or small buildings.
+
+The Morena is characterized by a very cold and extremely windy climate, in sharp contrast with neighbouring areas of Gdańsk. However, air pollution is virtually nonexistent because of a sea breeze of over 40 km per hour.
+
+The hill is connected with [[Wrzeszcz]] by a convenient bicycle route.
+
+==External links==
+* [http://gis.gdansk.pl/dziel/d-16.htm Map of Piecki-Migowo]
+{{Gdańsk}}
+
+{{coord missing|Pomeranian Voivodeship}}
+
+[[Category:Districts of Gdańsk]]
+
+{{Pomeranian-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

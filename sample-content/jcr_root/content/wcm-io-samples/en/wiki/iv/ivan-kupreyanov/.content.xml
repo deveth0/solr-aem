@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ivan Kupreyanov"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ivan Kupreyanov" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=October 2006}}
+
+&amp;apos;&amp;apos;&amp;apos;Ivan Antonovich Kupreyanov&amp;apos;&amp;apos;&amp;apos; ({{lang-ru|Ива́н Анто́нович Купрея́нов}}; 1800–1857), also spelled in English as &amp;apos;&amp;apos;&amp;apos;Kupreanof&amp;apos;&amp;apos;&amp;apos;, was the head of the [[Russian-American Company]] in [[Russian America]] from 1835 to 1840.  He built the famous residence, library and museum in [[Sitka, Alaska|Sitka]] called Baranof&amp;apos;s Castle by early American settlers, who assumed that it had been built by [[Alexandr Baranov]], Kupreyanov&amp;apos;s predecessor by eighteen years.  The residence was the site of the ceremony in which [[Alaska Purchase|control]] of Russian America was transferred from Russia to the United States in 1867.  Although the residence fell down in 1897, the hill where is was located is still called Castle Hill.
+
+Kupreyanov and his wife, Yuliya Ivanovna, began a school for native girls in Sitka.  It was closed at the end of his administration but was reopened later.
+
+==Legacy==
+[[Kupreanof Island]] in the [[Alexander Archipelago]] (the [[Alaska Panhandle]]) was named after him, and indirectly the city of [[Kupreanof, Alaska]], which is on that island.
+
+{{S-start}}
+{{s-gov}}
+{{succession box|before=[[Ferdinand von Wrangel]]|after=[[Arvid Adolf Etholén]]|years=1835&amp;amp;mdash;1840|title=[[Russian-American Company|Governor of Russian Colonies in America]]}}
+{{s-end}}
+
+{{Alaska history footer|state=collapsed}}
+
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Kupreyanov, Ivan
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION = Russian explorer
+| DATE OF BIRTH     = 1800
+| PLACE OF BIRTH    =
+| DATE OF DEATH     = 1857
+| PLACE OF DEATH    =
+}}
+
+{{DEFAULTSORT:Kupreyanov, Ivan}}
+[[Category:Governors of the Russian-American Company]]
+[[Category:19th-century Russian people]]
+[[Category:Imperial Russian explorers]]
+[[Category:1800 births]]
+[[Category:1857 deaths]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

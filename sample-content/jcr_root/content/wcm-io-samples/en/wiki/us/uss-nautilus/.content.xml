@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="USS Nautilus"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="USS Nautilus" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Italic title prefixed|3}}
+{{otherships|ships named Nautilus}}
+
+&amp;apos;&amp;apos;&amp;apos;USS &amp;apos;&amp;apos;Nautilus&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* [[USS Nautilus (1799)|USS &amp;apos;&amp;apos;Nautilus&amp;apos;&amp;apos; (1799)]], a 12-gun schooner (1799–1812)
+* [[USS Nautilus (1838)|USS &amp;apos;&amp;apos;Nautilus&amp;apos;&amp;apos; (1838)]], a 76-foot coast survey schooner (1838–1859)
+* [[USS Nautilus (SS-168)|USS &amp;apos;&amp;apos;Nautilus&amp;apos;&amp;apos; (SS-168)]], a &amp;apos;&amp;apos;Narwhal&amp;apos;&amp;apos;-class submarine (1930–1945)
+* [[USS Nautilus (SSN-571)|USS &amp;apos;&amp;apos;Nautilus&amp;apos;&amp;apos; (SSN-571)]], the first nuclear submarine (1954–1980)
+
+;See also
+*[[USS H-2 (SS-29)|USS &amp;apos;&amp;apos;H-2&amp;apos;&amp;apos; (SS-29)]], a &amp;apos;&amp;apos;H&amp;apos;&amp;apos;-class submarine (1913–1930) called &amp;apos;&amp;apos;Nautilus&amp;apos;&amp;apos; only during construction
+*[[USS Nautilus II (SP-559)|USS &amp;apos;&amp;apos;Nautilus II&amp;apos;&amp;apos; (SP-559)]], a 66-foot patrol/escort (1917–1919)
+*[[USS O-12 (SS-73)|USS &amp;apos;&amp;apos;O-12&amp;apos;&amp;apos; (SS-73)]], an &amp;apos;&amp;apos;O-11&amp;apos;&amp;apos;-class submarine (1917–1931) which carried the name &amp;apos;&amp;apos;Nautilus&amp;apos;&amp;apos; during a civilian arctic expedition in 1931
+
+{{Shipindex}}
+
+{{DEFAULTSORT:Nautilus, Uss}}
+[[Category:United States Navy ship names]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

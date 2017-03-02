@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="O-grade"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="O-grade" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{for|the linguistic term|Indo-European ablaut}}
+
+The &amp;apos;&amp;apos;&amp;apos;Ordinary Grade&amp;apos;&amp;apos;&amp;apos; (commonly known as the &amp;quot;&amp;apos;&amp;apos;&amp;apos;O-Grade&amp;apos;&amp;apos;&amp;apos;&amp;quot;) of the [[Scottish Certificate of Education]] is a now-discontinued qualification which was studied for as part of the [[Scottish secondary education system]]. It could be considered broadly equivalent to the old [[England|English]] [[O-level|O-Level]] qualification and is the predecessor to the [[Standard Grade]] qualification.
+
+Along with its more advanced sibling, the &amp;apos;[[Higher (Scottish)|Higher Grade]]&amp;apos;, the O-Grade was the bedrock of the Scottish educational system for many years. Its name refers to one of the two levels of award the Scottish Certificate of Education was made at, the Higher Grade being the other. &amp;quot;O-Grade&amp;quot; can also be used to refer to a pass in a particular subject; e.g. &amp;quot;He has seven O-Grades&amp;quot;.
+
+Courses were studied over two years, taking place during the third and fourth years (age 13-16) of a student&amp;apos;s time at [[secondary school]]. They were available in a wide range of subjects.
+
+A good pass at O-Grade would normally enable a student to take the same subject at Higher Grade in their fifth (or possibly sixth) year, if they so desired. This did not always follow however, particularly as many more pupils left school at the end of their fourth year than is the case nowadays.
+
+From the mid-1980s to the early-1990s, the O-Grade was gradually phased out. Its replacement, the Standard Grade focuses more closely on [[coursework]] and the application of knowledge.
+
+==See also==
+* [[Education in Scotland]]
+* [[Scottish Qualifications Certificate]]
+* [[Scottish Qualifications Authority]]
+
+[[Category:Educational qualifications in Scotland]]
+[[Category:Secondary school qualifications]]
+[[Category:School examinations]]
+[[Category:Secondary education in Scotland]]
+
+{{Scotland-hist-stub}}
+{{Scotland-education-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

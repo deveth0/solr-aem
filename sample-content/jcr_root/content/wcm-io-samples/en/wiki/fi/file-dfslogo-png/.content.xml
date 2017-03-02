@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="File:DFSlogo.png"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="File:DFSlogo.png" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;== Summary ==
+{{Information
+| Description = Logo of the [[Deutsche Forschungsanstalt für Segelflug]], or &amp;apos;&amp;apos;&amp;apos;DFS&amp;apos;&amp;apos;&amp;apos;  (German Research Institute for Sailplane Flight)
+|      Source =   Scan from historical document
+|        Date =
+|    Location =
+|      Author =  [[Deutsche Forschungsanstalt für Segelflug]], or DFS  (German Research Institute for Sailplane Flight)
+|  Permission = Non-free logo
+}}
+==Fair use rationale==
+{{Non-free use rationale|Description=  Logo of the [[Deutsche Forschungsanstalt für Segelflug]], or DFS  (German Research Institute for Sailplane Flight)
+|Source=   Scan from historical document
+|        Date =
+|Portion=logo
+|Resolution=
+|Article=Deutsche Forschungsanstalt für Segelflug
+|Purpose=From Scan from historical document for fair use on [[Deutsche Forschungsanstalt für Segelflug]]
+# This image is a low-resolution image of an organization&amp;apos;s logo.
+# This image does not limit the copyright holder&amp;apos;s ability to profit from the original source, nor will it dilute the importance or recognition of the logo in connection with its organization.
+# This image enhances the article in which it&amp;apos;s displayed, as it provides an immediate relevance to the reader more capably than the textual description alone.
+#Use of the organization&amp;apos;s logo visually identifies the organization and its products in a manner that mere prose cannot, and meets all criteria in [[WP:NFCC]].
+|Replaceability=Not replaceable; logos are always presumed non-free.
+}}
+
+== Licensing ==
+{{Non-free logo|image has rationale=yes}}
+[[Category:Aviation logos]]
+[[Category:Aircraft manufacturers of Germany]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="UAR (disambiguation)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="UAR (disambiguation)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|UAR}}
+&amp;apos;&amp;apos;&amp;apos;UAR&amp;apos;&amp;apos;&amp;apos; may refer to:
+* [[Uar]], a tribe in Central Asia and China.
+* [[Understanding Animal Research]], a British advocacy group formed from the merger of the Research Defence Society and the Coalition for Medical Progress.
+* [[United Arab Republic]], the state formed by the union of the republics of Egypt and Syria in 1958. It existed until Syria&amp;apos;s secession in 1961, although Egypt continued to be known as the UAR until 1971.
+* [[Argentine Rugby Union]] (Spanish: &amp;apos;&amp;apos;Unión Argentina de Rugby&amp;apos;&amp;apos;), the official governing body of rugby union in Argentina.
+* [[Union of African Railways]], an organization of African railways.
+* [[Aerostar Airlines]] (ICAO code:UAR), a Ukrainian airline.
+
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

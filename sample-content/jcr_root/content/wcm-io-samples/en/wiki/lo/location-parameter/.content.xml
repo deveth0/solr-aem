@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Location parameter"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Location parameter" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+In [[statistics]], a &amp;apos;&amp;apos;&amp;apos;location family&amp;apos;&amp;apos;&amp;apos; is a class of [[probability distribution]]s that is [[statistical parameter|parametrized]] by a scalar- or vector-valued parameter &amp;lt;math&amp;gt;x_0&amp;lt;/math&amp;gt;, which determines the &amp;quot;location&amp;quot; or shift of the distribution. Formally, this means that the [[probability density function]]s or [[probability mass function]]s in this class have the form
+:&amp;lt;math&amp;gt;f_{x_0}(x) = f(x - x_0).&amp;lt;/math&amp;gt;
+Here, &amp;lt;math&amp;gt;x_0&amp;lt;/math&amp;gt; is called the &amp;apos;&amp;apos;&amp;apos;location parameter&amp;apos;&amp;apos;&amp;apos;. Examples of location parameters include the [[mean (statistics)|mean]], the [[median]], and the [[Mode (statistics)|mode]].
+
+Thus in the one-dimensional case if &amp;lt;math&amp;gt;x_0&amp;lt;/math&amp;gt; is increased, the probability density or mass function shifts rigidly to the right, maintaining its exact shape.
+
+A location parameter can also be found in families having more than one parameter, such as [[location-scale family|location-scale families]]. In this case, the probability density function or probability mass function will be a special case of the more general form
+:&amp;lt;math&amp;gt;f_{x_0,\theta}(x) = f_\theta(x-x_0)&amp;lt;/math&amp;gt;
+where &amp;lt;math&amp;gt;x_0&amp;lt;/math&amp;gt; is the location parameter, &amp;apos;&amp;apos;θ&amp;apos;&amp;apos; represents additional parameters, and &amp;lt;math&amp;gt;f_\theta&amp;lt;/math&amp;gt; is a function parametrized on the additional parameters.
+
+==Additive noise==
+An alternative way of thinking of location families is through the concept of [[additive noise]]. If &amp;lt;math&amp;gt;x_0&amp;lt;/math&amp;gt; is an constant and &amp;apos;&amp;apos;W&amp;apos;&amp;apos; is random [[noise]] with probability density &amp;lt;math&amp;gt;f_W(w),&amp;lt;/math&amp;gt; then &amp;lt;math&amp;gt;X = x_0 + W&amp;lt;/math&amp;gt; has probability density &amp;lt;math&amp;gt;f_{x_0}(x) = f_W(x-x_0)&amp;lt;/math&amp;gt; and its distribution is therefore part of a location family.
+
+==See also==
+* [[Central tendency]]
+* [[Location test]]
+* [[Invariant estimator]]
+* [[Location-scale family]]
+* [[Scale parameter]]
+* [[Two-moment decision models]]
+
+{{Statistics|descriptive|state=collapsed}}
+
+{{DEFAULTSORT:Location Parameter}}
+[[Category:Summary statistics]]
+[[Category:Theory of probability distributions]]
+[[Category:Statistical terminology]]
+
+[[de:Parameter (Statistik)#Lageparameter]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="James W. Kemp"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="James W. Kemp" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{BLP unsourced|date=May 2013}}
+{{Other people|James Kemp}}
+
+&amp;apos;&amp;apos;&amp;apos;James W. Kemp&amp;apos;&amp;apos;&amp;apos; is a retired United [[Methodist]] [[pastor]] and author now living in [[Lexington, Kentucky]].  In his book, &amp;apos;&amp;apos;The Gospel According to Dr. Seuss&amp;apos;&amp;apos;, he says he considers Theodor S. Geisel (aka [[Dr. Seuss]]) to be his favorite [[theology|theologian]].
+
+==Bibliography==
+* Kemp, James r. &amp;apos;&amp;apos;The Gospel According to 645 South 9TH Street&amp;apos;&amp;apos;.  Judson Press, 2004. (ISBN 0-8170-1457-8)
+
+{{Authority control|VIAF=55995411}}
+
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Kemp, James W
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION =
+| DATE OF BIRTH     =
+| PLACE OF BIRTH    =
+| DATE OF DEATH     =
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Kemp, James W}}
+[[Category:United Methodist clergy]]
+[[Category:American Methodist clergy]]
+[[Category:American non-fiction writers]]
+[[Category:Year of birth missing (living people)]]
+[[Category:Living people]]
+
+
+{{US-Christian-clergy-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

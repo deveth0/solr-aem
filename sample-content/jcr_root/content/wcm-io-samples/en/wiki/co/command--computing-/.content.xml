@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Command (computing)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Command (computing)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{unreferenced|date=May 2008}}
+In [[computing]], a &amp;apos;&amp;apos;&amp;apos;command&amp;apos;&amp;apos;&amp;apos; is a directive to a computer program acting as an interpreter of some kind, in order to perform a specific task. Most commonly a command is a directive to some kind of [[command line interface]], such as a [[shell (computing)|shell]].
+
+Specifically, the term &amp;apos;&amp;apos;command&amp;apos;&amp;apos; is used in [[imperative programming|imperative]] [[computer language]]s. These languages are called this, because [[statement (programming)|statements]] in these languages are usually written in a manner similar to the [[imperative mood]] used in many [[natural language]]s. If one views a statement in an [[imperative language]] as being like a sentence in a natural language, then a command is generally like a verb in such a language.
+
+Many programs allow specially formatted [[command-line argument|arguments]], known as flags or options, which modify the default behaviour of the command, while further [[Parameter (computer science)|arguments]] describe what the command acts on. Comparing to a natural language: the flags are adverbs, whilst the other arguments are [[object (grammar)|object]]s.
+
+==Examples==
+Here are some commands given to a [[command line interpreter]] ([[Unix shell]]).
+
+The following command changes the user&amp;apos;s place in the [[directory tree]] from their current position to the directory &amp;lt;tt&amp;gt;/home/pete&amp;lt;/tt&amp;gt;. &amp;lt;tt&amp;gt;[[Cd (command)|cd]]&amp;lt;/tt&amp;gt; is the command and &amp;lt;tt&amp;gt;/home/pete&amp;lt;/tt&amp;gt; is the argument:
+&amp;lt;source lang=&amp;quot;bash&amp;quot;&amp;gt;
+ cd /home/pete
+&amp;lt;/source&amp;gt;
+
+The following command prints the text &amp;lt;tt&amp;gt;hello&amp;lt;/tt&amp;gt; out to the [[standard output]] stream, which, in this case, will just print the text out on the screen. &amp;lt;tt&amp;gt;[[Echo (command)|echo]]&amp;lt;/tt&amp;gt; is the command and &amp;lt;tt&amp;gt;&amp;quot;Hello World&amp;quot;&amp;lt;/tt&amp;gt; is the argument. The quotes are used to prevent &amp;lt;tt&amp;gt;Hello&amp;lt;/tt&amp;gt; and &amp;lt;tt&amp;gt;World&amp;lt;/tt&amp;gt; being treated as separate arguments:
+&amp;lt;source lang=&amp;quot;bash&amp;quot;&amp;gt;
+ echo &amp;quot;Hello World&amp;quot;
+&amp;lt;/source&amp;gt;
+
+The following commands are equivalent. They list files in the directory &amp;lt;tt&amp;gt;/bin&amp;lt;/tt&amp;gt;. &amp;lt;tt&amp;gt;[[ls]]&amp;lt;/tt&amp;gt; is the command, &amp;lt;tt&amp;gt;[[Filesystem Hierarchy Standard|/bin]]&amp;lt;/tt&amp;gt; is the argument and there are three flags: &amp;lt;tt&amp;gt;-l&amp;lt;/tt&amp;gt;, &amp;lt;tt&amp;gt;-t&amp;lt;/tt&amp;gt; and &amp;lt;tt&amp;gt;-r&amp;lt;/tt&amp;gt;:
+&amp;lt;source lang=&amp;quot;bash&amp;quot;&amp;gt;
+ ls -l -t -r  /bin
+ ls -ltr  /bin
+&amp;lt;/source&amp;gt;
+
+The following command displays the contents of the files &amp;lt;tt&amp;gt;ch1.txt&amp;lt;/tt&amp;gt; and &amp;lt;tt&amp;gt;ch2.txt&amp;lt;/tt&amp;gt;. &amp;lt;tt&amp;gt;[[cat (Unix)|cat]]&amp;lt;/tt&amp;gt; is the command and &amp;lt;tt&amp;gt;ch1.txt&amp;lt;/tt&amp;gt; and &amp;lt;tt&amp;gt;ch2.txt&amp;lt;/tt&amp;gt; are both arguments.
+&amp;lt;source lang=&amp;quot;bash&amp;quot;&amp;gt;
+ cat ch1.txt ch2.txt
+&amp;lt;/source&amp;gt;
+
+The following command lists all the contents of the current directory. &amp;lt;tt&amp;gt;[[Dir (command)|dir]]&amp;lt;/tt&amp;gt; is the command and &amp;quot;A&amp;quot; is a flag. There is no argument. Here are some commands given to a different command line interpreter (the [[DOS]], [[OS/2]] and [[Microsoft Windows]] command prompt). Notice that the flags are identified differently but that the concepts are the same:
+&amp;lt;source lang=&amp;quot;bash&amp;quot;&amp;gt;
+ dir /A
+&amp;lt;/source&amp;gt;
+
+The following command displays the contents of the file readme.txt. &amp;lt;tt&amp;gt;[[Type (command)|type]]&amp;lt;/tt&amp;gt; is the command. &amp;quot;readme.txt&amp;quot; is the argument. &amp;quot;P&amp;quot; is a parameter...
+
+&amp;lt;source lang=&amp;quot;bash&amp;quot;&amp;gt;
+ type /P readme.txt
+&amp;lt;/source&amp;gt;
+
+== See also ==
+{{Wikibooks|Guide to Windows commands}}
+* [[List of Unix programs]]
+* [[List of DOS commands]]
+* [[Formal grammar]]
+
+== External links ==
+* [http://foldoc.org/index.cgi?query=command command] from [[FOLDOC]]
+
+[[Category:User interfaces]]
+[[Category:Computing terminology]]
+[[Category:Computing commands| ]]
+
+[[de:Instruktion]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

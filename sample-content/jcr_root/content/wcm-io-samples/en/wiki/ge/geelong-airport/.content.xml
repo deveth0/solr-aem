@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Geelong Airport"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Geelong Airport" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Use dmy dates|date=May 2013}}
+{{Use Australian English|date=May 2013}}
+{{Infobox airport
+| name = Geelong Airport
+| nativename =
+| nativename-a =
+| nativename-r =
+| image =
+| image-width =
+| caption =
+| IATA = &amp;lt;s&amp;gt;GEX&amp;lt;/s&amp;gt;
+| ICAO = &amp;lt;s&amp;gt;YGLG&amp;lt;/s&amp;gt;
+| type = Public
+| owner =
+| operator =
+| city-served = Geelong
+| location = [[Grovedale, Victoria|Grovedale]]
+| elevation-f = 140
+| latd = 38 | latm = 13 | lats = 31 | latNS = S
+| longd= 144 | longm= 19 | longs= 59 | longEW= E
+| coordinates_region = AU-VIC
+| pushpin_map = Australia Victoria
+| pushpin_label = YGLG
+| pushpin_map_caption = Location in Victoria
+| website =
+| metric-rwy = Yes
+| r1-number =&amp;lt;s&amp;gt;09/27&amp;lt;/s&amp;gt;
+| r1-length-m =
+| r1-surface = &amp;lt;s&amp;gt;Gravel&amp;lt;/s&amp;gt;
+| r2-number = &amp;lt;s&amp;gt;18/36&amp;lt;/s&amp;gt;
+| r2-length-m =
+| r2-surface = &amp;lt;s&amp;gt;Asphalt&amp;lt;/s&amp;gt;
+| stat-year =
+| stat1-header =
+| stat1-data =
+| stat2-header =
+| stat2-data =
+| footnotes = Reference&amp;lt;ref&amp;gt;[http://gc.kls2.com/airport/YGLG Great Circle Mapper: YGLG - Geelong, Victoria, Australia]&amp;lt;/ref&amp;gt;{{AIP AU|YGLG|name=Perth}}
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Geelong Airport&amp;apos;&amp;apos;&amp;apos; &amp;lt;s&amp;gt;{{airport codes|GEX|YGLG}}&amp;lt;/s&amp;gt; was a small airfield specifically for light aircraft located in [[Mount Duneed, Victoria|Mount Duneed]], [[Victoria (Australia)|Victoria]], Australia. It was primarily used for scenic flights and private aircraft, and was located in the [[Local government in Australia|local government area]] of the [[City of Greater Geelong]].
+
+The airport remained small and undeveloped and contained two gravel/tarmac [[runway]]s: north/south and east/west. Though commercial airlines had attempted to fly services to Geelong in the past, they chose to use the more developed airport at [[Avalon Airport]], located to the north on the [[Melbourne]] side of the city. Other airports in the area are at [[Barwon Heads Airport|Barwon Heads]] {{airport codes||YBRS}} and the [[Torquay Airport]] {{airport codes||YTQY}} in Blackgate Road, Torquay.
+
+The site is also used to record wind and weather measurements for the area.&amp;lt;ref&amp;gt;[http://www.bom.gov.au/climate/averages/tables/cw_087163.shtml Bureau of Meteorology: Summary statistics GEELONG AIRPORT]&amp;lt;/ref&amp;gt; Geelong airport was sold to property developers to allow for the expansion of the [[urban sprawl]] of Geelong. The airport closed 31 December 2011.&amp;lt;ref&amp;gt;[http://www.geelongcity.vic.gov.au/Services_In_Geelong/Planning/Strategic_Planning/Armstrong_Creek_Urban_Growth_Plan/ City of Greater Geelong: Armstrong Creek Urban Growth Plan]{{Dead link|date=July 2012}}&amp;lt;/ref&amp;gt;
+
+==See also==
+{{Portal|Victoria}}
+* [[List of airports in Victoria (Australia)|List of airports in Victoria]]
+* [[Transportation in Australia]]
+
+==References==
+{{reflist}}
+
+{{Airports in Victoria (Australia)}}
+
+[[Category:Transport in Geelong]]
+[[Category:Defunct airports in Victoria (Australia)]]
+
+
+{{Australia-airport-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

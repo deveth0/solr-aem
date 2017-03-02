@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Johan Håstad"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Johan Håstad" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{refimproveblp|date=January 2013}}
+{{ Infobox scientist
+| name              = Johan Håstad
+| image             = &amp;lt;!--(filename only)--&amp;gt;
+| image_size        =
+| caption           =
+| birth_date        = {{birth date and age|1960|11|19|df=y}}
+| birth_place       =
+| death_date        =
+| death_place       =
+| nationality       = {{flag|Sweden}}
+| fields            = [[Computer science]]
+| workplaces        = [[Royal Institute of Technology]]
+| alma_mater        = [[Massachusetts Institute of Technology]]&amp;lt;br&amp;gt;[[Uppsala University]]&amp;lt;br&amp;gt;[[Stockholm University]]
+| doctoral_advisor  = [[Shafrira Goldwasser]]
+| doctoral_students = [[Viggo Kann]]
+| known_for         =
+| awards            = [[International Mathematical Olympiad|IMO gold medal]] (1977)&amp;lt;br&amp;gt;[[ACM Doctoral Dissertation Award]] (1985)&amp;lt;br&amp;gt;[[Gödel Prize]] (1994, 2011)
+}}
+&amp;apos;&amp;apos;&amp;apos;Johan Torkel Håstad&amp;apos;&amp;apos;&amp;apos; (born 19 November 1960) is a [[Sweden|Swedish]] [[Computer science|theoretical computer scientist]] most known for his work on [[computational complexity theory]]. He was the recipient of the [[Gödel Prize]] in 1994 and 2011 and the [[Association for Computing Machinery|ACM]] Doctoral Dissertation Award in 1986, among other prizes. He is a [[professor]] in [[theoretical computer science]] at the [[Royal Institute of Technology]] in [[Stockholm]], Sweden since 1992. He is a member of the [[Royal Swedish Academy of Sciences]] since 2001.
+
+He received his [[Bachelor of Science|B.S.]] in [[Mathematics]] at [[Stockholm University]] in 1981, his [[Master of Science|M.S.]] in Mathematics at [[Uppsala University]] in 1984 and his [[Doctor of Philosophy|Ph.D.]] in Mathematics from [[Massachusetts Institute of Technology|MIT]] in 1986.&amp;lt;ref&amp;gt;{{MathGenealogy|id=79819}}&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;[http://awards.acm.org/citation.cfm?id=4220823&amp;amp;srt=all&amp;amp;aw=146&amp;amp;ao=DOCDISRT Johan Håstad&amp;apos;s ACM doctoral dissertation award]&amp;lt;/ref&amp;gt;
+
+Håstad&amp;apos;s thesis and [[Gödel Prize]] (1994) concerned his work on [[lower bound]]s on the size of constant-depth [[Boolean circuits]] for the [[parity function]].  After [[Andrew Yao]] proved that such circuits require exponential size, Håstad proved nearly optimal lower bounds on the necessary size through his [[switching lemma]], which became an important technical tool in [[Boolean function complexity]].
+
+He received the 2011 Gödel Prize for his work on optimal inapproximability results. In 2012 he became a fellow of the [[American Mathematical Society]].&amp;lt;ref&amp;gt;[http://www.ams.org/profession/fellows-list List of Fellows of the American Mathematical Society], retrieved 2013-01-19.&amp;lt;/ref&amp;gt;
+
+==References==
+{{reflist}}
+
+==External links==
+* [http://www.nada.kth.se/~johanh/ Johan Håstad&amp;apos;s home page]
+* {{IMO results|id=13}}
+
+{{Gödel winners}}
+
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Hastad, Johan
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION =
+| DATE OF BIRTH     = 19 November 1960
+| PLACE OF BIRTH    =
+| DATE OF DEATH     =
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Hastad, Johan}}
+[[Category:1960 births]]
+[[Category:Living people]]
+[[Category:Swedish computer scientists]]
+[[Category:Swedish mathematicians]]
+[[Category:20th-century mathematicians]]
+[[Category:21st-century mathematicians]]
+[[Category:Gödel Prize laureates]]
+[[Category:Uppsala University alumni]]
+[[Category:Stockholm University alumni]]
+[[Category:Royal Institute of Technology academics]]
+[[Category:Members of the Royal Swedish Academy of Sciences]]
+[[Category:Massachusetts Institute of Technology alumni]]
+[[Category:Fellows of the American Mathematical Society]]
+
+{{compu-scientist-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Q with hook tail"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Q with hook tail" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Q with hook tail&amp;apos;&amp;apos;&amp;apos; (majuscule: &amp;apos;&amp;apos;&amp;apos;{{Unicode|Ɋ}}&amp;apos;&amp;apos;&amp;apos;, minuscule: &amp;apos;&amp;apos;&amp;apos;{{Unicode|ɋ}}&amp;apos;&amp;apos;&amp;apos;) is a letter of the extended [[Latin alphabet]], based on the letter [[Q]]. It was introduced by [[Lutheran]] [[missionaries]] in [[Papua New Guinea]] for use in the [[Numanggang language]] in the 1930s or 1940s. In 2002, it was decided to discontinue using Q with hook tail.&amp;lt;ref name=&amp;quot;N2906&amp;quot;/&amp;gt;
+
+In some forms of handwriting for English (and presumably other languages based on the [[Latin alphabet]]), lowercase q &amp;apos;&amp;apos;always&amp;apos;&amp;apos; has a hook tail. This is particularly evident in [[geometric sans-serif]] typefaces used to teach children how to write.
+
+==Unicode==
+{{charmap
+|024A|name1=LATIN CAPITAL LETTER&amp;lt;br /&amp;gt;SMALL Q WITH HOOK TAIL
+|024B|name2=LATIN SMALL LETTER&amp;lt;br /&amp;gt;Q WITH HOOK TAIL
+}}
+
+== References ==
+&amp;lt;references&amp;gt;
+&amp;lt;ref name=&amp;quot;N2906&amp;quot;&amp;gt;[http://std.dkuug.dk/jtc1/sc2/wg2/docs/n2906.pdf Revised Proposal for Additional Latin Phonetic and Orthographic Characters], Lorna A. Priest, 2004.
+&amp;lt;/references&amp;gt;
+
+{{Latin alphabet|Q|}}
+
+{{DEFAULTSORT:Q With Hook Tail}}
+[[Category:Uncommon Latin letters|Qz]]
+
+{{Latin-alphabet-stub}}
+{{writingsystem-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

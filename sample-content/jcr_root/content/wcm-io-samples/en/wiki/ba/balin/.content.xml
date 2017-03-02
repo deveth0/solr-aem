@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Balin"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Balin" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Balin&amp;apos;&amp;apos;&amp;apos; can refer to:
+
+*[[Balin (Middle-earth)]], a Dwarf in J. R. R. Tolkien&amp;apos;s legendarium of Middle-earth
+*[[Sir Balin]], a courageous knight in the legend of King Arthur
+*[[Balin (Hinduism)]], a monkey king of Kishkindhya and a son of Indra in Hinduism, killed by Rama
+
+&amp;apos;&amp;apos;&amp;apos;People&amp;apos;&amp;apos;&amp;apos;
+*[[Mireille Balin]] (1911-1968), French actress
+*[[Ina Balin]] (1937-1990), American actress
+*[[Marty Balin]] (born 1942), American musician
+**&amp;apos;&amp;apos;[[Balin (album)|Balin]]&amp;apos;&amp;apos;, Marty Balin&amp;apos;s debut solo album
+*&amp;quot;El Balin&amp;quot;, nickname of Honduran soccer player [[Eduardo Bennet]]
+
+&amp;apos;&amp;apos;&amp;apos;Places&amp;apos;&amp;apos;&amp;apos;
+*[[Balin, Iran]], a village in Kermanshah Province, Iran
+*[[Balin, Inowrocław County]] in Kuyavian-Pomeranian Voivodeship (north-central Poland)
+*[[Balin, Rypin County]] in Kuyavian-Pomeranian Voivodeship (north-central Poland)
+*[[Balin, Łódź Voivodeship]] (central Poland)
+*[[Balin, Lesser Poland Voivodeship]] (south Poland)
+
+==See also==
+*[[Baline]]
+*[[Balinese (disambiguation)]]
+*[[Baling]]
+*[[Balinge]]
+*[[Ballin (disambiguation)]]
+
+{{disambig|geo}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

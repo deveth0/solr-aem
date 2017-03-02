@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Your Life in Their Hands"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Your Life in Their Hands" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Use dmy dates|date=November 2012}}
+{{Unreferenced|auto=yes|date=December 2009}}
+
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Your Life in Their Hands&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is a long-running [[BBC]] TV documentary series on the subject of [[surgery]], examining surgical practice from the point of view of both surgeons and patients. Its first run lasted from 1958 to 1964 and was presented by Dr. Charles Fletcher. An early 1970s revival (the first in colour) was presented by [[Jonathan Miller]], and another revival, lasting from 1979 to 1987, was presented by [[Robert Winston]]. The series was revived again in the early 2000s and was still running as of 2005.
+
+{{DEFAULTSORT:Your Life In Their Hands}}
+[[Category:BBC television documentaries]]
+
+
+{{BBC-tv-prog-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

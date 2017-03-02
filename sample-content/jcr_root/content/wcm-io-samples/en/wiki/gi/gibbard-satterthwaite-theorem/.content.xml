@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Gibbard–Satterthwaite theorem"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Gibbard–Satterthwaite theorem" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;Gibbard–Satterthwaite theorem&amp;apos;&amp;apos;&amp;apos;, named after [[Allan Gibbard]] and [[Mark Satterthwaite]], is a result about the deterministic [[voting system]]s that choose a single winner using only the preferences of  the voters, where each voter ranks all candidates in order of preference. The Gibbard–Satterthwaite theorem states that, for three or more candidates, one of the following three things must hold for every voting rule:
+
+# The rule is dictatorial (i.e., there is a single individual who can choose the winner), or
+# There is some candidate who can never win, under the rule, or
+# The rule is susceptible to [[tactical voting]], in the sense that there are conditions under which a voter with full knowledge of how the other voters are to vote and of the rule being used would have an incentive to vote in a manner that does not reflect his preferences.
+
+Rules that forbid particular eligible candidates from winning or are dictatorial are defective. Hence, every voting system  that selects a single winner either is manipulable or does not meet the preconditions of the theorem.  Taylor&amp;lt;!-- Please replace with another reference; the result didn&amp;apos;t originate in the paper cited --&amp;gt; shows that the result holds even if ties are allowed in the ballots: the winner is then chosen from the candidates tied at the top of the dictator&amp;apos;s ballot.{{Citation needed|date=August 2011}} [[Arrow&amp;apos;s impossibility theorem]] is a similar theorem that deals with voting systems designed to yield a complete preference order of the candidates, rather than simply choosing a winner. Similarly, the [[Duggan–Schwartz theorem]] deals with voting systems that choose a (nonempty) set of winners rather than a single winner.
+
+==Conjecture by Dummett and Farquharson==
+[[Robin Farquharson]] published influential articles on the theory of voting; in an article with [[Michael Dummett]], he conjectured that deterministic voting rules with at least three issues faced endemic [[tactical voting]].&amp;lt;ref&amp;gt;
+{{cite journal|doi=10.1007/s00355-005-0014-x|title=The work and life of Robin Farquharson
+|first=Michael|last=Dummett|journal=Social Choice and Welfare|year=2005|volume=25|issue=2|pages=475–483 }}
+&amp;lt;/ref&amp;gt;
+
+After the establishment of the Farquarson-Dummett conjecture by Gibbard and Sattherthwaite, Michael Dummett contributed three proofs of the Gibbard–Satterthwaite theorem in his monograph on voting.&amp;lt;ref&amp;gt;Michael Dummett &amp;apos;&amp;apos;Voting Procedures&amp;apos;&amp;apos; (Oxford, 1984)
+&amp;lt;/ref&amp;gt;
+
+==Notes==
+&amp;lt;references/&amp;gt;
+
+==References==
+* {{cite book|author=[[Michael Dummett]]|title=Voting Procedures|publisher=Oxford|year=1984|isbn=978-0198761884}}
+* {{cite journal|doi=10.1007/s00355-005-0014-x|title=The work and life of [[Robin Farquharson]]
+|authorlink=Michael Dummett
+|first=Michael|last=Dummett|journal=Social Choice and Welfare|year=2005|volume=25|issue=2|pages=475–483 }}
+* {{cite journal
+|author=Rudolf Farra and Maurice Salles
+|title=An Interview with Michael Dummett: From analytical philosophy to voting analysis and beyond
+|journal=Social Choice and Welfare
+|volume=27
+|issue=2
+|month=October
+|year=2006
+}}
+* {{cite journal
+|title=Straightforwardness in voting procedures
+|authorlink=Robin Farquharson
+|first=Robin
+|last=Farquharson
+|journal=Oxford Economic Papers, New Series
+|volume=8
+|issue=1
+|month=Feb.
+|year=1956
+|pages=80–89
+|jstor=2662065
+}}
+
+* {{cite journal
+|doi=10.2307/1907685
+|title=Stability in Voting
+|author= Michael Dummett and Robin Farquharson
+|journal=Econometrica
+|volume=29
+|issue=1
+|month=Jan.
+|year=1961
+|pages=33–43
+|jstor=1907685
+}}
+
+*{{cite journal|author=[[Allan Gibbard]]|title=Manipulation of voting schemes: a general result|journal=Econometrica|volume=41|issue=4|year=1973|pages=587–601|jstor=1914083}}
+*{{cite journal|author=Mark A. Satterthwaite|title=Strategy-proofness and Arrow&amp;apos;s Conditions: Existence and Correspondence Theorems for Voting Procedures and Social Welfare Functions|journal=Journal of Economic Theory|volume=10|month=April|year=1975|pages=187–217|doi=10.1016/0022-0531(75)90050-2}}
+*{{cite journal|author=Alan D. Taylor|title=The manipulability of voting systems|journal=[[The American Mathematical Monthly]]|month=April|year=2002|jstor=2695497}}
+
+==External links==
+* [http://swopec.hhs.se/lunewp/papers/lunewp1999_001.pdf The Proof of the Gibbard–Satterthwaite Theorem Revisited]
+* [http://home.uchicago.edu/~preny/papers/arrow-gibbard-satterthwaite.pdf Arrow’s Theorem and the Gibbard–Satterthwaite Theorem: A Unified Approach]
+
+{{DEFAULTSORT:Gibbard-Satterthwaite theorem}}
+[[Category:Social choice theory]]
+[[Category:Voting theory]]
+[[Category:Economics theorems]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

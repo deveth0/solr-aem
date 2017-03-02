@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Play School"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Play School" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Play School&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is an  educational television programme for [[Preschool|pre-school]] aged children that is produced in many countries, including:
+*[[Play School (UK TV series)|&amp;apos;&amp;apos;Play School&amp;apos;&amp;apos; (UK TV series)]] – the original BBC production
+*[[Play School (Australian TV series)|&amp;apos;&amp;apos;Play School&amp;apos;&amp;apos; (Australian TV series)]] – an Australian Broadcasting Corporation production based on the British version
+*&amp;apos;&amp;apos;[[Polka Dot Door]]&amp;apos;&amp;apos; – a Canadian adaptation of the &amp;apos;&amp;apos;Play School&amp;apos;&amp;apos; format
+*[[Play School (New Zealand TV series)|&amp;apos;&amp;apos;Play School&amp;apos;&amp;apos; (New Zealand TV series)]] – New Zealand version based on the BBC original
+
+{{wiktionarypar|playschool}}
+&amp;apos;&amp;apos;&amp;apos;Play school&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;playschool&amp;apos;&amp;apos;&amp;apos; can also mean:
+*[[Kindergarten]]
+*[[Pre-school playgroup]]
+
+Not to be confused with [[Playskool]], a toy company.
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Saint Jerome (disambiguation)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Saint Jerome (disambiguation)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;[[Saint Jerome]]&amp;apos;&amp;apos;&amp;apos; is a Christian church father, best known for translating the Bible into Latin.
+
+&amp;apos;&amp;apos;&amp;apos;Saint Jerome&amp;apos;&amp;apos;&amp;apos; may also refer to:
+
+*[[Jerome of Pavia]] (d.787), Bishop of Pavia
+* [[Saint Jerome Emiliani]] (1486–1537), Italian humanitarian, founder of the Somaschi Fathers
+* Saint Jerome Hermosilla, one of the [[Vietnamese Martyrs]]
+* [[Saint-Jérôme, Quebec]], Canada
+* [[Saint Jerome of Cotalba Monastery]], Alfauir, (Valencia), Spain
+* Saint Jerome, a song by Jason Schwartzman&amp;apos;s solo-musical project Coconut Records for his 2009 album &amp;apos;&amp;apos;[[Davy (album)|Davy]]&amp;apos;&amp;apos;
+
+{{disambig}}
+
+[[Category:Human name disambiguation pages|Jerome]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

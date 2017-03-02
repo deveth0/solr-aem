@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Beaverton"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Beaverton" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Beaverton&amp;apos;&amp;apos;&amp;apos; may refer to the following places:
+
+In &amp;apos;&amp;apos;&amp;apos;Canada&amp;apos;&amp;apos;&amp;apos;:
+*[[Beaverton, Ontario]]
+
+In the &amp;apos;&amp;apos;&amp;apos;United States&amp;apos;&amp;apos;&amp;apos;:
+*[[Beaverton, Alabama]]
+*[[Beaverton, Michigan]]
+*[[Beaverton Township, Michigan]]
+*[[Beaverton, Oregon]]
+**[[Beaverton Mall]], in Beaverton, Oregon
+
+&amp;apos;&amp;apos;&amp;apos;Fictional towns&amp;apos;&amp;apos;&amp;apos;:
+*A fictional town in &amp;apos;&amp;apos;South Park&amp;apos;&amp;apos; as seen in the episode [[Two Days Before the Day After Tomorrow]]
+
+{{geodis}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

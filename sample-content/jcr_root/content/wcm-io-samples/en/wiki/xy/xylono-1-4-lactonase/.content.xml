@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Xylono-1,4-lactonase"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Xylono-1,4-lactonase" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{enzyme
+| Name = xylono-1,4-lactonase
+| EC_number = 3.1.1.68
+| CAS_number =
+| IUBMB_EC_number = 3/1/1/68
+| GO_code = 0050402
+| image =
+| width =
+| caption =
+}}
+In [[enzymology]], a &amp;apos;&amp;apos;&amp;apos;xylono-1,4-lactonase&amp;apos;&amp;apos;&amp;apos; ({{EC number|3.1.1.68}}) is an [[enzyme]] that [[catalysis|catalyzes]] the [[chemical reaction]]
+
+:D-xylono-1,4-lactone + H&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;O &amp;lt;math&amp;gt;\rightleftharpoons&amp;lt;/math&amp;gt; D-xylonate
+
+Thus, the two [[substrate (biochemistry)|substrates]] of this enzyme are [[D-xylono-1,4-lactone]] and [[water|H&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;O]], whereas its [[product (chemistry)|product]] is [[D-xylonate]].
+
+This enzyme belongs to the family of [[hydrolase]]s, specifically those acting on carboxylic [[ester]] bonds.  The systematic name of this enzyme class is &amp;apos;&amp;apos;&amp;apos;D-xylono-1,4-lactone lactonohydrolase&amp;apos;&amp;apos;&amp;apos;. Other names in common use include &amp;apos;&amp;apos;&amp;apos;xylono-g-lactonase&amp;apos;&amp;apos;&amp;apos;, and &amp;apos;&amp;apos;&amp;apos;xylonolactonase&amp;apos;&amp;apos;&amp;apos;.  This enzyme participates in [[pentose and glucuronate interconversions]].
+
+==References==
+{{reflist|1}}
+{{refbegin}}
+* {{cite journal | author = Buchert J and Viikari L | date = 1988 | title = The role of xylonolactone in xylonic acid production by Pseudomonas fragi | journal = Appl. Microbiol. Biotechnol.  | volume = 27 | pages = 333&amp;amp;ndash;336 }}
+{{refend}}
+{{refbegin}}
+
+{{hydrolase-stub}}
+
+[[Category:EC 3.1.1]]
+[[Category:Enzymes of unknown structure]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

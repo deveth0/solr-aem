@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Joplin"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Joplin" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Joplin&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+==Places==
+;United States
+*[[Joplin, Missouri]]
+**[[Joplin, Missouri metropolitan area]]
+*[[Joplin, Montana]]
+*[[Joplin, Texas]]
+*[[Joplin, Virginia]] (now extinct)
+*[[Joplin, West Virginia]]
+
+==People==
+*[[Joplin (surname)]], people with the surname, including:
+**[[Janis Joplin]] (1943–1970), American singer-songwriter
+**[[Scott Joplin]] (c. 1867–1917), American ragtime composer
+
+==Others==
+*[[Joplin High School]], a public High School in Joplin, Missouri
+*[[Joplin Miners]], a defunct minor league baseball team in Joplin, Missouri
+*[[Joplin Regional Airport]], a regional airport next to Joplin, Missouri
+*[[Joplin Tundra]], a family of Canadian aircraft
+
+==See also==
+*[[2011 Joplin tornado]], an extreme tornado that devastated Joplin, Missouri
+
+{{disambig}}
+[[Category:Place name disambiguation pages]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

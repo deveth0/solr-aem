@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Chosen-plaintext attack"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Chosen-plaintext attack" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Merge from|Gardening (cryptanalysis)|date=August 2010}}
+{{Refimprove|date=January 2013}}
+
+A &amp;apos;&amp;apos;&amp;apos;chosen-plaintext attack&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;&amp;apos;CPA&amp;apos;&amp;apos;&amp;apos;) is an [[attack model]] for [[cryptanalysis]] which presumes that the attacker has the capability to choose arbitrary [[plaintext]]s to be encrypted and obtain the corresponding [[ciphertext]]s.&amp;lt;ref name=&amp;quot;RASE&amp;quot;&amp;gt;Ross Anderson, &amp;apos;&amp;apos;Security Engineering: A Guide to Building Dependable Distributed Systems&amp;apos;&amp;apos;. The first edition (2001): http://www.cl.cam.ac.uk/~rja14/book.html&amp;lt;/ref&amp;gt; The goal of the attack is to gain some further information which reduces the security of the encryption scheme.  In the worst case, a chosen-plaintext attack could reveal the scheme&amp;apos;s secret [[key (cryptography)|key]]. For some chosen-plaintext attacks, only a small part of the plaintext needs to be chosen by the attacker: such attacks are known as &amp;apos;&amp;apos;&amp;apos;plaintext injection&amp;apos;&amp;apos;&amp;apos; attacks.
+
+This appears, at first glance, to be an unrealistic model; it would certainly be unlikely that an attacker could persuade a human cryptographer to encrypt large amounts of plaintexts of the attacker&amp;apos;s choosing. Modern cryptography, on the other hand, is implemented in software or hardware and is used for a diverse range of applications; for many cases, a chosen-plaintext attack is often very feasible.  Chosen-plaintext attacks become extremely important in the context of [[public key cryptography]], where the encryption key is public and attackers can encrypt any plaintext they choose.
+
+Any cipher that can prevent chosen-plaintext attacks is then also guaranteed to be secure against [[known-plaintext attack|known-plaintext]] and ciphertext-only attacks; this is a conservative approach to security.
+
+Two forms of chosen-plaintext attack can be distinguished:
+
+*&amp;apos;&amp;apos;&amp;apos;Batch chosen-plaintext attack&amp;apos;&amp;apos;&amp;apos;, where the cryptanalyst chooses all plaintexts before any of them are encrypted. This is often the meaning of an unqualified use of &amp;quot;chosen-plaintext attack&amp;quot;.
+*&amp;apos;&amp;apos;&amp;apos;Adaptive chosen-plaintext attack&amp;apos;&amp;apos;&amp;apos;, where the cryptanalyst makes a series of interactive queries, choosing subsequent plaintexts based on the information from the previous encryptions.
+
+A technique termed &amp;quot;[[Gardening (cryptanalysis)|Gardening]]&amp;quot; was used by Allied codebreakers in [[World War II]] who were solving messages encrypted on the [[Enigma machine]]. Gardening can be viewed as a plaintext injection attack.
+
+==See also==
+* [[Known-plaintext attack]]
+* [[Chosen-ciphertext attack]]
+* [[Adaptive chosen-ciphertext attack]]
+* [[Related-key attack]]
+
+==References==
+{{Reflist}}
+
+{{DEFAULTSORT:Chosen-Plaintext Attack}}
+[[Category:Chosen-plaintext attacks| ]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Yet Another Previewer"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Yet Another Previewer" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+
+&amp;apos;&amp;apos;&amp;apos;Yet Another Previewer&amp;apos;&amp;apos;&amp;apos; (or &amp;apos;&amp;apos;&amp;apos;YAP&amp;apos;&amp;apos;&amp;apos;) is the name of two different document previewing applications, one for [[Device independent file format|DVI]] and one for [[PostScript]].
+
+==PostScript==
+The YAP for PostScript previewing is used to dynamically edit and re-render PostScript as if one was editing a file, unlike the actual PostScript interpreter itself (such as [[ghostscript]]), which deals with PostScript input interactively from a user.
+
+YAP first was bundled with the NeXT demos package of [[NeXTSTEP]], which was also bundled with [[OPENSTEP]]. It was not carried into its incarnation as [[Mac OS X]], presumably because of PostScript&amp;apos;s lessened importance with the OS X subsystems relying on [[Display PDF]] instead.
+
+==DVI==
+The YAP for DVI viewing is a program bundled with the widely used [[MiKTeX]] [[TeX]] distribution for the [[Microsoft Windows]] platform. YAP allows zooming in and out by several integer factors, besides having a &amp;quot;magnifying glass&amp;quot; feature for local zooming. It supports [[PostScript]] specials (for instance, rendering [[LaTeX]] documents with [[PSTricks]]). Since YAP supports [[inverse search]] (when the DVI file was compiled with &amp;apos;&amp;apos;source specials&amp;apos;&amp;apos;), it can be configured to launch a LaTeX editor for the source file, placing the cursor on the corresponding word under the cursor in YAP. However, unlike [[PDF]], there is no search facility. YAP is [[free software]] published under the [[GNU]] [[GNU General Public License|GPL]]. It was written by Christian Schenk.
+
+==See also==
+*[[Yet Another]]
+
+[[Category:Free TeX software]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

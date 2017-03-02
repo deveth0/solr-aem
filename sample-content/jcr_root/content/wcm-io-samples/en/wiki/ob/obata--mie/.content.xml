@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Obata, Mie"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Obata, Mie" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{nihongo|&amp;apos;&amp;apos;&amp;apos;Obata&amp;apos;&amp;apos;&amp;apos;|小俣町|Obata-chō}} was a [[towns of Japan|town]] located in [[Watarai District, Mie|Watarai District]], [[Mie Prefecture|Mie]], [[Japan]].
+
+On November 1, 2005 Obata, along with the town of [[Futami, Mie|Futami]], and the village of [[Misono, Mie|Misono]], all from [[Watarai District, Mie|Watarai District]], was merged into the expanded city of [[Ise, Mie|Ise]] and no longer exists as an independent [[municipalities of Japan|municipality]].
+
+As of 2003, the town had an estimated [[population]] of 18,437 and a [[population density|density]] of 1,594.90 persons per km². The total area was 11.56 km².
+
+==External links==
+* [http://www.city.ise.mie.jp/ Official website of Ise] {{ja icon}}
+
+[[Category:Dissolved municipalities of Mie Prefecture]]
+
+
+{{Mie-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

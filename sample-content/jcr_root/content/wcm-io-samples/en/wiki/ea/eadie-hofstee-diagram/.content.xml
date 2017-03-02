@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Eadie–Hofstee diagram"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Eadie–Hofstee diagram" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[biochemistry]], an &amp;apos;&amp;apos;&amp;apos;Eadie–Hofstee diagram&amp;apos;&amp;apos;&amp;apos; (also &amp;apos;&amp;apos;&amp;apos;Woolf–Eadie–Augustinsson–Hofstee&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;Eadie–Augustinsson plot&amp;apos;&amp;apos;&amp;apos;) is a graphical representation of [[enzyme kinetics]] in which [[reaction rate]] is plotted as a [[Function (mathematics)|function]] of the ratio between rate and [[substrate (biochemistry)|substrate]] [[concentration]]:
+
+:&amp;lt;math&amp;gt;v = -K_m { v \over [S] } + V_\max&amp;lt;/math&amp;gt;
+
+where &amp;apos;&amp;apos;v&amp;apos;&amp;apos; represents reaction rate, &amp;apos;&amp;apos;K&amp;lt;sub&amp;gt;m&amp;lt;/sub&amp;gt;&amp;apos;&amp;apos; is the [[Michaelis–Menten constant]], [&amp;apos;&amp;apos;S&amp;apos;&amp;apos;] is the substrate concentration, and &amp;apos;&amp;apos;V&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;max&amp;lt;/sub&amp;gt; is the maximum reaction rate.
+
+It can be derived from the Michaelis–Menten equation as follows:
+
+:&amp;lt;math&amp;gt;v = {{V_\max{} [S]} \over {K_m + [S]}}&amp;lt;/math&amp;gt;
+
+invert and multiply with &amp;lt;math&amp;gt;V_\max&amp;lt;/math&amp;gt;:
+
+:&amp;lt;math&amp;gt; {V_\max \over v} = {{V_\max{}(K_m+[S])}\over{V_\max{}[S]}} = {{K_m+[S]}\over{[S]}}&amp;lt;/math&amp;gt;
+
+Rearrange:
+
+:&amp;lt;math&amp;gt; V_\max = {{{vK_m} \over {[S]}} + {{v[S]} \over {[S]}}} = {{vK_m}\over {[S]}} + v&amp;lt;/math&amp;gt;
+
+Isolate v:
+
+:&amp;lt;math&amp;gt;v = -K_m{v \over {[S]}} + V_\max&amp;lt;/math&amp;gt;
+
+A plot of v against &amp;apos;&amp;apos;v&amp;apos;&amp;apos;/[S] will hence yield &amp;apos;&amp;apos;V&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;max&amp;lt;/sub&amp;gt; as the y-intercept, &amp;apos;&amp;apos;V&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;max&amp;lt;/sub&amp;gt;/K&amp;lt;sub&amp;gt;m&amp;lt;/sub&amp;gt; as the x-intercept, and &amp;apos;&amp;apos;K&amp;lt;sub&amp;gt;m&amp;lt;/sub&amp;gt;&amp;apos;&amp;apos; as the negative slope. Like other techniques that linearize the [[Michaelis–Menten equation]], the Eadie-Hofstee plot was used historically for rapid identification of important kinetic terms like &amp;apos;&amp;apos;K&amp;lt;sub&amp;gt;m&amp;lt;/sub&amp;gt;&amp;apos;&amp;apos; and &amp;apos;&amp;apos;V&amp;apos;&amp;apos;&amp;lt;sub&amp;gt;max&amp;lt;/sub&amp;gt;, but has been superseded by [[nonlinear regression]] methods that are significantly more accurate and no longer computationally inaccessible.  It is also more robust against error-prone data than the [[Lineweaver–Burk plot]], particularly because it gives equal weight to data points in any range of substrate concentration or reaction rate. (The Lineweaver–Burk plot unevenly weights such points.)  Both plots remain useful as a means to present data graphically.
+
+One drawback from the Eadie–Hofstee approach is that neither [[ordinate]] nor [[abscissa]] represent [[independent variable]]s: both are dependent on reaction rate. Thus any experimental error will be present in both axes. Also, experimental error or [[Propagation of uncertainty|uncertainty will propagate]] unevenly and become larger over the [[abscissa]] thereby giving more weight to smaller values of &amp;apos;&amp;apos;v&amp;apos;&amp;apos;/[S]. Therefore, the typical measure of goodness of fit for [[linear regression]], the correlation coefficient &amp;apos;&amp;apos;R&amp;apos;&amp;apos;, is not applicable.
+
+==See also==
+
+* [[Michaelis–Menten equation]]
+* [[Lineweaver–Burk plot]]
+* [[Hanes–Woolf plot]]
+
+==References==
+
+* {{cite journal | last = Eadie | first = GS | year = 1942 | title = The Inhibition of Cholinesterase by Physostigmine and Prostigmine | journal = Journal of Biological Chemistry | volume = 146 | pages = 85–93}}
+
+* {{cite journal | last = Hofstee | first = BHJ | year = 1959 | title = Non-Inverted Versus Inverted Plots in Enzyme Kinetics | journal = Nature | pmid = 14402470 | volume = 184 | pages = 1296–1298 | doi = 10.1038/1841296b0 | issue=4695}}
+
+* {{cite journal | last = Dowd | first = JE | coauthors = and Riggs, DS | year = 1965 | title = A Comparison of Estimates of Michaelis–Menten Kinetic Constants from Various Linear Transformations | journal = Journal of Biological Chemistry | volume = 240 | pages = 863–869 | pmid = 14275146}}
+
+* {{cite journal | last = Atkins | first = GL | coauthors = and Nimmo, IA | year = 1975 | title = A comparison of seven methods for fitting the Michaelis–Menten equation | journal = Biochemical Journal | volume = 149 | issue = 3 | pages = 775–777 | pmid = 1201002 | pmc = 1165686}}
+
+{{DEFAULTSORT:Eadie-Hofstee diagram}}
+[[Category:Diagrams]]
+[[Category:Enzyme kinetics]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

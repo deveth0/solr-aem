@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Eric Harris"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Eric Harris" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Eric Harris&amp;apos;&amp;apos;&amp;apos; may refer to:
+* [[Eric Harris (American football)]] (1955–2012), NFL player
+* [[Eric W. Harris]] (1916–2007), businessman and Louisiana state Jaycees founder
+* [[Eric Harris (musician)]], American drummer
+* [[Eric David Harris]] (1981–1999), teen gunman in the Columbine High School massacre
+* [[Eric Harris (rugby league)]] (born 1910), rugby league player of the 1920s and &amp;apos;30s for Western Suburbs and Leeds
+* [[Eric Harris (athlete)]] (born 1991), American sprinter
+
+{{hndis|Harris Eric}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

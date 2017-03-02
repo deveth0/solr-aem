@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Eumetcast"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Eumetcast" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;EUMETCast&amp;apos;&amp;apos;&amp;apos; is a scheme for dissemination of various (mainly satellite based) meteorological data operated by [[EUMETSAT]], the European Organisation for the Exploitation of Meteorological Satellites. The main purpose is the dissemination of EUMETSAT&amp;apos;s own data, but various data from other providers are broadcast as well.
+EUMETCast is a contribution to GEONETCast and IGDDS ([[World Meteorological Organization|WMO&amp;apos;s]] Integrated Global Data Dissemination Service) and provides data for [[Global Earth Observation System of Systems|GEOSS]] and [[Global Monitoring for Environment and Security|GMES]].
+
+== Services ==
+EUMETCast includes data from [[Meteosat]] 7 (Indian Ocean), [[Meteosat 8|8]] and 9, derived products, data from polar orbiting satellites (Metop-A and NOAA-18 global coverage, NOAA-17 and NOAA-18 European regional coverage) and data from other meteorological programmes.&amp;lt;ref&amp;gt;http://www.eumetsat.int/HOME/Main/Access_to_Data/Delivery_Mechanisms/SP_1117714355151&amp;lt;/ref&amp;gt; Most common formats used for satellite images are HRIT and LRIT, known under common name as XRIT.
+
+== Transmission Technology ==
+EUMETCast uses the [[DVB-S]] [[MPEG2]] stream for encapsulating [[Internet Protocol|IP]] frames ([[IP over DVB]]). At this IP layer, IP Multicast techniques are used for distributing the file based content. For this purpose, TELLICAST (an IP multicast software from Newtec (formerly Tellitec)) is used.
+
+The primary transmission via [[Eutelsat]]&amp;apos;s [[Eurobird]] 9 satellite (in [[Ku band|K&amp;lt;sub&amp;gt;u&amp;lt;/sub&amp;gt; band]]) can be received by most end users in Europe and is relayed via [[Eutelsat]]&amp;apos;s [[Atlantic Bird]] 3 (in [[C band]], covers Europe and Africa) and [[SES New Skies]]&amp;apos; NSS-806 (in [[C band]], covers both Americas).&amp;lt;ref&amp;gt;http://www.eumetsat.int/HOME/Main/What_We_Do/EUMETCast/index.htm?l=en&amp;lt;/ref&amp;gt;
+
+The technology used makes it possible for end users to receive the data with regular off-the-shelf satellite TV equipment and a PC.
+
+== Licensing ==
+The data policy distinguishes between essential and licensed data. Generally data may be used free of charge for scientific, educational or personal purposes, however for receiving licensed data registration is necessary and a hardware key (€ 40) has to be bought in order to decrypt the content. A License for the TELLICAST client software must be obtained for € 60.
+
+==External links==
+*[http://www.eumetsat.int/Home/Main/What_We_Do/EUMETCast/index.htm?l=en EUMETCast Homepage]
+
+==References==
+&amp;lt;references/&amp;gt;
+
+[[Category:Satellite meteorology and remote sensing]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

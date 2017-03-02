@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Eugène Auguste Ernest Havet"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Eugène Auguste Ernest Havet" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{multiple issues|
+{{One source|date=February 2012}}
+{{No footnotes|date=February 2012}}
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Eugène Auguste Ernest Havet&amp;apos;&amp;apos;&amp;apos; (April 11, 1813 – December 21, 1889), French scholar, was born in [[Paris, France|Paris]].
+
+Educated at the Lycée Saint-Louis and the [[Ecole Normale]], he was for many years before his death professor of [[Latin]] eloquence at the [[Collège de France]].
+
+His two capital works were a commentary on the works of [[Blaise Pascal|Pascal]], &amp;apos;&amp;apos;Pensées de Pascal, publiées dans le texte authentique, avec un commentaire suivi et une étude littéraire&amp;apos;&amp;apos; (1852; 2nd ed. 2 vols., 1881), and &amp;apos;&amp;apos;Le Christianisme et ses origines&amp;apos;&amp;apos; (4 vols., 1871–1884), the chief thesis of which was that [[Christianity]] owed more to Greek [[philosophy]] than to the writings of the [[Hebrew language|Hebrew]] prophets.
+
+His elder son, [[Pierre Antoine Louis Havet]], was professor of Latin [[philology]] at the Collège de France and a member of the Institute. The younger, [[Julien Havet]], is separately noticed.
+
+{{1911}}
+
+{{Authority control|VIAF=166961044}}
+
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Havet, Eugene Auguste Ernest
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION =
+| DATE OF BIRTH     = April 11, 1813
+| PLACE OF BIRTH    =
+| DATE OF DEATH     = December 21, 1889
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Havet, Eugene Auguste Ernest}}
+[[Category:1813 births]]
+[[Category:1889 deaths]]
+[[Category:École Normale Supérieure alumni]]
+[[Category:Collège de France faculty]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

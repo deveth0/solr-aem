@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Kamala Nehru Park"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Kamala Nehru Park" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{for|the park in Pune|Kamala Nehru Park, Pune}}
+[[Image:Old-Womans-shoe.jpg|thumb|right|Old Woman&amp;apos;s Shoe]]
+
+&amp;apos;&amp;apos;&amp;apos;Kamala Nehru Park&amp;apos;&amp;apos;&amp;apos; is a [[park]] in [[India]] covering an area of {{convert|4000|sqft|m2|sigfig=2}}.&amp;lt;ref&amp;gt;{{cite web|title=Kamala Nehru Park|url=http://www.travelchannel.com/Places_Trips/Destinations/Asia/India/Mumbai_Bombay/Attractions/Kamala_Nehru_Park|publisher=The Travel Channel|accessdate=25 July 2010}}&amp;lt;/ref&amp;gt; Located at the top of [[Mumbai]]&amp;apos;s [[Malabar Hill]], it is named after [[Kamala Nehru]], the wife of India&amp;apos;s first [[Prime Minister]] [[Jawaharlal Nehru]].
+
+A place frequently visited by [[schoolchildren]], it has little to offer by way of [[entertainment]] apart from a structure shaped like a [[shoe]]. The shoe structure is inspired by the [[nursery rhyme]] &amp;apos;&amp;apos;[[There was an Old Woman Who Lived in a Shoe]]&amp;apos;&amp;apos;.
+
+From the [[garden]], one can see the spectacular view of the city, Chowpatty Beach, and Queen&amp;apos;s Necklace ([[Marine Drive, Mumbai|Marine Drive]]).
+
+==References==
+{{Reflist}}
+
+{{Mumbai topics}}
+{{Tourist attractions in Mumbai}}
+
+{{coord missing|Maharashtra}}
+
+[[Category:Parks in Mumbai]]
+
+
+{{Mumbai-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

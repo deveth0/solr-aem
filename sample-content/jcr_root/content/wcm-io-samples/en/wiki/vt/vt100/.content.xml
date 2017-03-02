@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="VT100"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="VT100" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Image:Terminal-dec-vt100.jpg|thumb|[[Digital Equipment Corporation|DEC]] VT100 terminal]]
+The &amp;apos;&amp;apos;&amp;apos;VT100&amp;apos;&amp;apos;&amp;apos; is a video [[computer terminal|terminal]] that was made by [[Digital Equipment Corporation]] (DEC).  Its detailed attributes became the [[de facto standard]] for [[terminal emulator]]s to emulate.
+
+==History==
+It was introduced in August 1978, following its predecessor, the [[VT52]], and communicated with its [[Server (computing)|host]] system over serial lines using the [[ASCII]] character set and control sequences (a.k.a. [[escape sequence]]s) standardized by [[American National Standards Institute|ANSI]].  The VT100 was also the first Digital mass-market terminal to incorporate &amp;quot;graphic renditions&amp;quot; (blinking, bolding, [[reverse video]], and underlining) as well as a selectable 80 or 132 column display. All setup of the VT100 was accomplished using interactive displays presented on the screen; the setup data was stored in non-volatile memory within the terminal. The VT100 also introduced an additional character set that allowed the drawing of on-screen forms.
+
+The control sequences used by the VT100 family are based on the [[ANSI]] X3.64 standard, also known as [[Ecma International|ECMA]]-48 and [[International Organization for Standardization|ISO]]/[[International Electrotechnical Commission|IEC]] 6429.  These are sometimes referred to as [[ANSI escape code]]s.  The VT100 was not the first terminal to be based on X3.64&amp;amp;mdash;The [[Heath Company]] had a microprocessor-based video terminal, the Heathkit H-19 (H19), that implemented a subset of the standard proposed by ANSI in X3.64.&amp;lt;ref&amp;gt;{{citation
+   |url=ftp://ftp.cs.utk.edu/pub/shuford/terminal/dec.html
+   |title=DEC Video Terminals&amp;amp;mdash;The VT100 and Its Successors
+   |last=Shuford
+   |first=Richard S.
+   |year=2005
+   |accessdate=2012-12-08
+}}&amp;lt;/ref&amp;gt;  In addition, the VT100 provided backwards compatibility for VT52 users, with support for the VT52 control sequences.&amp;lt;ref&amp;gt;http://ascii-table.com/ansi-escape-sequences-vt-100.php&amp;lt;/ref&amp;gt;
+
+In 1983, the VT100 was replaced by the more-powerful VT200 series terminals such as the [[VT220]].
+
+In August 1995 the terminal business of Digital was sold to [[Boundless Technologies]].&amp;lt;ref&amp;gt;http://www.boundlessterminals.com/history.html&amp;lt;/ref&amp;gt;
+
+==Variants==
+[[Image:Vt100-adventure.jpg|thumb|VT101]]
+The VT100 was also the first of Digital&amp;apos;s terminals to be based upon an industry-standard microprocessor (in this case, the [[Intel 8080]]). Options could be added to the terminal to support an external printer, additional graphic renditions, and more memory (the &amp;quot;AVO&amp;quot; &amp;apos;Advanced&amp;apos; Video Option &amp;amp;mdash; without this option, the VT100 could not display a full 24 lines of text when in 132 column mode). The VT100 became a platform on which Digital constructed related products.
+
+The VT101 and VT102 were cost-reduced non-expandable follow-on products, with the VT102 including the AVO and serial printer port options of the VT100.  The VT105 contained a simple graphics subsystem mostly-compatible with the earlier [[VT55]]. The VT125 added an implementation of the byte-efficient Remote Graphic Instruction Set ([[ReGIS]].)  The VT103 included a backplane socket for an [[LSI-11]] [[minicomputer]] board and supported dual TU58 [[DECtape]] II block addressable tape drive which behaved like a very slow disk drive.  The [[VT180]] (codenamed &amp;quot;Robin&amp;quot;) added a single-board microcomputer using a [[Zilog Z80]] to run [[CP/M]]. The VT278 added a built-in [[PDP-8]] processor, allowing the terminal to run Digital&amp;apos;s [[WPS-8]] word processing software.
+
+==References==
+&amp;lt;references/&amp;gt;
+
+== External links ==
+* [http://vt100.net/vt_history DEC video terminal history]
+* [http://vt100.net/docs/vt100-ug/ VT100 user guide]
+* [http://vt100.net/docs/vt100-tm/ VT100 Series Technical Manual]
+* [http://www.ecma-international.org/publications/standards/Ecma-048.htm ECMA-48]
+
+{{DEC video terminals}}
+
+{{DEFAULTSORT:Vt100}}
+[[Category:DEC hardware]]
+[[Category:Character-oriented terminal]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

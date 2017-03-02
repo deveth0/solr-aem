@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ski jumping at the 2002 Winter Olympics"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ski jumping at the 2002 Winter Olympics" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+&amp;apos;&amp;apos;&amp;apos;[[2002 Winter Olympics|2002 Winter Olympic Games]] [[Ski jumping]]&amp;apos;&amp;apos;&amp;apos;
+
+==Medal table==
+{| {{RankedMedalTable|class=wikitable sortable}}
+|-
+| 1 ||align=left| {{FlagIOCteam|SUI|2002 Winter}} || &amp;apos;&amp;apos;&amp;apos;2&amp;apos;&amp;apos;&amp;apos; || 0 || 0 || &amp;apos;&amp;apos;&amp;apos;2&amp;apos;&amp;apos;&amp;apos;
+|-
+| 2 ||align=left| {{FlagIOCteam|GER|2002 Winter}} || 1 || &amp;apos;&amp;apos;&amp;apos;1&amp;apos;&amp;apos;&amp;apos; || 0 || &amp;apos;&amp;apos;&amp;apos;2&amp;apos;&amp;apos;&amp;apos;
+|-
+| 3 ||align=left| {{FlagIOCteam|FIN|2002 Winter}} || 0 || &amp;apos;&amp;apos;&amp;apos;1&amp;apos;&amp;apos;&amp;apos; || &amp;apos;&amp;apos;&amp;apos;1&amp;apos;&amp;apos;&amp;apos; || &amp;apos;&amp;apos;&amp;apos;2&amp;apos;&amp;apos;&amp;apos;
+|-
+| 3 ||align=left| {{FlagIOCteam|POL|2002 Winter}} || 0 || &amp;apos;&amp;apos;&amp;apos;1&amp;apos;&amp;apos;&amp;apos; || &amp;apos;&amp;apos;&amp;apos;1&amp;apos;&amp;apos;&amp;apos; || &amp;apos;&amp;apos;&amp;apos;2&amp;apos;&amp;apos;&amp;apos;
+|-
+| 5 ||align=left| {{FlagIOCteam|SLO|2002 Winter}} || 0 || 0 || &amp;apos;&amp;apos;&amp;apos;1&amp;apos;&amp;apos;&amp;apos; || 1
+|- class=&amp;quot;sortbottom&amp;quot;
+!colspan=2| Total || 3 || 3 || 3 || 9
+|}
+
+=== Events ===
+
+{| {{MedalistTable|type=Event|columns=2}}
+|-
+| Normal hill individual &amp;lt;br /&amp;gt;{{DetailsLink|Ski jumping at the 2002 Winter Olympics – Normal hill individual}}
+|{{flagIOCmedalist|[[Simon Ammann]]|SUI|2002 Winter}}||269.0
+|{{flagIOCmedalist|[[Sven Hannawald]]|GER|2002 Winter}}|| 267.5
+|{{flagIOCmedalist|[[Adam Małysz]]|POL|2002 Winter}} ||263.0
+|-
+| Large hill individual &amp;lt;br /&amp;gt;{{DetailsLink|Ski jumping at the 2002 Winter Olympics – Large hill individual}}
+| {{flagIOCmedalist|[[Simon Ammann]]|SUI|2002 Winter}}||281.4
+| {{flagIOCmedalist|[[Adam Małysz]]|POL|2002 Winter}}||269.7
+||{{flagIOCmedalist|[[Matti Hautamäki]]|FIN|2002 Winter}} ||256.0
+|-
+| Large hill team &amp;lt;br /&amp;gt;{{DetailsLink|Ski jumping at the 2002 Winter Olympics – Large hill team}}
+|{{flagIOC|GER|2002 Winter}} &amp;lt;small&amp;gt;&amp;lt;br/&amp;gt;[[Sven Hannawald]]&amp;lt;br/&amp;gt;[[Stephan Hocke]]&amp;lt;br/&amp;gt;[[Michael Uhrmann]]&amp;lt;br/&amp;gt;[[Martin Schmitt]]&amp;lt;/small&amp;gt;||974.1
+|{{flagIOC|FIN|2002 Winter}} &amp;lt;small&amp;gt;&amp;lt;br/&amp;gt;[[Matti Hautamäki]]&amp;lt;br/&amp;gt;[[Veli-Matti Lindström]]&amp;lt;br/&amp;gt;[[Risto Jussilainen]]&amp;lt;br/&amp;gt;[[Janne Ahonen]]&amp;lt;/small&amp;gt;||974.0
+|{{flagIOC|SLO|2002 Winter}} &amp;lt;small&amp;gt;&amp;lt;br/&amp;gt;[[Damjan Fras]]&amp;lt;br/&amp;gt;[[Primož Peterka]]&amp;lt;br/&amp;gt;[[Robert Kranjec]]&amp;lt;br/&amp;gt;[[Peter Žonta]]&amp;lt;/small&amp;gt;||946.3
+|}
+
+==See also==
+[[Nordic combined at the 2002 Winter Olympics|Nordic combined]].
+
+==References==
+*[http://www.la84foundation.org/5va/reports_frmst.htm Official Olympic Report]
+{{Olympic Games Ski jumping}}
+{{EventsAt2002WinterOlympics}}
+
+{{DEFAULTSORT:Ski Jumping At The 2002 Winter Olympics}}
+[[Category:2002 Winter Olympics events]]
+[[Category:Ski jumping at the Winter Olympics|2002]]
+[[Category:2002 in ski jumping]]
+[[Category:Ski jumping at the 2002 Winter Olympics| ]]
+
+{{Link FL|pl}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

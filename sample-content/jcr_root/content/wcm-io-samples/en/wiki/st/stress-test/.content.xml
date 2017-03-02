@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Stress test"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Stress test" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The term &amp;apos;&amp;apos;&amp;apos;stress test&amp;apos;&amp;apos;&amp;apos; has variety of meanings that are best understood in a specific testing context.
+
+*[[Cardiac stress test]], covers testing of the heart (&amp;quot;treadmill test&amp;quot;)
+*[[Stress testing]], covers software, hardware, and nuclear plant stress tests
+**[[Stress test (hardware)]], covers hardware in greater depth (for example surge tests)
+**[[Stress testing (software)]], covers software in great depth (for example unit tests, regression tests, etc.)
+*[[Stress test (financial)]], broad overview of financial sector stress tests
+*[[Stress analysis]], methods for computing mechanical stress
+*[[Contraction stress test]], relating to labor and delivery
+*[[Trier social stress test]], a procedure used to induce stress in human research participants
+*[[Voice stress analysis]], sometimes called a voice stress test
+
+==See also==
+*[[Highly accelerated life test]], generally for electronic equipment
+*[[Fatigue (material)]]
+*[[Stress (mechanics)]]
+*[[Stress measures]], ways to quantify mechanical stress
+*[[List of bank stress tests]], lists major bank stress testing programs with links to details by year
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

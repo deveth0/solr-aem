@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Common whipping"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Common whipping" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{no footnotes|date=January 2013}}
+{{Knot-details
+| name=Common whipping
+| names=Plain whipping, Ordinary whipping, Wolf whipping
+| image=
+| caption=
+| type= whipping
+| type2=
+| strength=
+| origin=
+| related=
+| releasing=
+| uses=
+| caveat=
+| abok_number= #3442
+}}
+
+The &amp;apos;&amp;apos;&amp;apos;common whipping&amp;apos;&amp;apos;&amp;apos; is the simplest type of [[whipping knot]], a series of knots intended to stop a [[rope]] from unravelling. As it can slip off the rope easily, the common whipping should not be used for rope ends that will be handled. This whipping knot is also called &amp;apos;wolf&amp;apos; whipping in some parts of the world. The &amp;apos;[[Hangman&amp;apos;s knot]]&amp;apos; is a variation of this whipping knot.
+
+The benefit of a common whipping is that no tools are necessary and the rope does not need to be unlayed.  The problem is that it will slide off the end of the rope with little provocation.  Other whippings avoid this by interleaving the whipping with the strands of the rope and creating friction with the strands to avoid slipping.
+
+Normally a natural fibre rope is whipped with twine. The size of the rope dictates the size of the twine. Any twine can be used, but tarred two strand hemp (marline) is preferred. Artificial-fibre ropes should have their ends fused by heat rather than whipped to prevent unravelling.
+
+==Process==
+
+{|
+|
+[[Image:Common-whipping-binding-0.png|300px|rope without whipping]]
+|The rope should be whipped a short distance (One and a half times the diameter) from its end.
+|-
+|
+[[Image:Common-whipping-binding-1.png|300px|whipping step 1]]
+|Lay the head of the twine along the rope, make a [[Bight (knot)|bight]] back along the rope
+|-
+|
+[[Image:Common-whipping-binding-2.png|300px|whipping step 2]]
+|Begin wrapping the twine around the rope and bight of twine securely.
+Wrap until the whipping is one and a half times wider than the rope is thick
+|-
+|
+[[Image:Common-whipping-binding-3.png|300px|whipping step 3]]
+|
+Slip the working end of the twine through the bight.
+Carefully pull on the standing end of the twine until the bight and working end are pulled under the whipping (Note: It is normally necessary to maintain tension on the working end to prevent the bight from being dragged completely through and so destroying the whipping)
+|-
+|
+[[Image:Common-whipping.png|300px|whipping - finished]]
+|
+Cut the twine flush with the edges of the whipping and the rope end not less than half its width from the whipping to give the rope end a finished look
+|}
+
+==References==
+* {{cite book | author = Hervey Garrett Smith | title = The Arts of the Sailor: Knotting, Splicing and Ropework | publisher = [[Dover Publications]] | isbn = 0-486-26440-8 | month = October | year = 1990}}
+
+==See also==
+*[[List of knots]]
+*[[Ropework]]
+
+{{Knots}}
+
+[[Category:Whipping knots]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Java Naming and Directory Interface"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Java Naming and Directory Interface" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{noref|date=March 2012}}
+The &amp;apos;&amp;apos;&amp;apos;Java Naming and Directory Interface&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;&amp;apos;JNDI&amp;apos;&amp;apos;&amp;apos;) is a Java [[Application programming interface|API]] for a [[directory service]] that allows Java software clients to discover and look up data and objects via a name. Like all [[Java (programming language)|Java]] APIs that interface with host systems, JNDI is independent of the underlying implementation. Additionally, it specifies a [[service provider interface]] (SPI) that allows [[directory service]] implementations to be plugged into the framework. It may make use of a server, a flat file, or a database; the choice is up to the vendor.
+
+==Background==
+The JNDI API is used by the Java [[Java remote method invocation|RMI]] and [[Java EE]] APIs to look up objects in a network.
+
+The API provides:
+* a mechanism to bind an object to a name
+* a directory lookup interface that allows general queries
+* an event interface that allows clients to determine when directory entries have been modified
+* LDAP extensions to support the additional capabilities of an LDAP service
+
+The [[Service provider interface|SPI]] portion allows support for practically any kind of naming or directory service including:
+* [[Lightweight Directory Access Protocol|LDAP]]
+* [[Domain Name System|DNS]]
+* [[Network Information Service|NIS]]
+* [[CORBA]] name service
+* [[File system]]
+
+The JNDI specification was first released by [[Sun Microsystems]] on March 10, 1997.&amp;lt;ref&amp;gt;[http://www.sun.com/smi/Press/sunflash/1997-03/sunflash.970310.10204.html] {{dl|date=March 2012}}&amp;lt;/ref&amp;gt;  {{As of|2006}}, the current version is JNDI 1.2.
+
+==Basic lookup==
+JNDI (Java Naming and Directory Interface)  organizes its names into a hierarchy. A name can be any string such as &amp;quot;com.mydomain.ejb.MyBean&amp;quot;. A name can also be an object that implements the &amp;lt;code&amp;gt;Name&amp;lt;/code&amp;gt; interface, however a string is the most common way to name an object. A name is bound to an object in the directory by storing either the object or a [[JNDI reference|reference]] to the object in the directory service identified by the name.
+
+The JNDI API defines a context that specifies where to look for an object. The initial context is typically used as a starting point.
+
+In the simplest case, an initial context must be created using the specific implementation and extra parameters required by the implementation. The initial context will be used to look up a name. The initial context is analogous to the root or top of a directory tree for a file system. Below is an example of creating an initial context:
+
+&amp;lt;source lang=&amp;quot;java&amp;quot;&amp;gt;
+Hashtable contextArgs = new Hashtable();
+
+// First you must specify the context factory.
+// This is how you choose between jboss implementation
+// vs. an implementation from Sun or other vendors.
+contextArgs.put( Context.INITIAL_CONTEXT_FACTORY, &amp;quot;com.jndiprovider.TheirContextFactory&amp;quot; );
+
+// The next argument is the URL specifying where the data store is:
+contextArgs.put( Context.PROVIDER_URL, &amp;quot;jndiprovider-database&amp;quot; );
+
+// (You may also have to provide security credentials)
+
+// Next you create the initial context
+Context myCurrentContext = new InitialContext(contextArgs);
+&amp;lt;/source&amp;gt;
+
+A context is then used to look up previously bound names in that context. For example:
+
+&amp;lt;source lang=&amp;quot;java&amp;quot;&amp;gt;
+MyBean myBean = (MyBean)  myCurrentContext.lookup(&amp;quot;com.mydomain.MyBean&amp;quot;);
+&amp;lt;/source&amp;gt;
+
+Alternative to above code is as below:
+
+The Context object can also be configured by adding jndi.properties file in classpath containing initial context factory class name and provider URL. The above code will be reduced as shown below:
+
+&amp;lt;source lang=&amp;quot;java&amp;quot;&amp;gt;
+//just need to create initial context object, it will try to read jndi.properties file from the classpath.
+Context myCurrentContext = new InitialContext();
+&amp;lt;/source&amp;gt;
+
+A context is then used to look up previously bound names in that context. For example:
+
+&amp;lt;source lang=&amp;quot;java&amp;quot;&amp;gt;
+MyBean myBean = (MyBean)  myCurrentContext.lookup(&amp;quot;com.mydomain.MyBean&amp;quot;);
+&amp;lt;/source&amp;gt;
+
+==Searching==
+Attributes may be attached to special entries called directories. Directories enable searching for objects by their associated attributes. Directories are a type of context; they restrict the name space much like a directory structure on a file system does.
+
+==References==
+&amp;lt;references /&amp;gt;
+
+==External links==
+*[http://docs.oracle.com/javase/7/docs/technotes/guides/jndi/index.html Java SE 7 JNDI page]
+*[http://docs.oracle.com/javase/jndi/tutorial/ The JNDI Tutorial]
+
+{{DEFAULTSORT:Java Naming And Directory Interface}}
+[[Category:Java enterprise platform|Naming and Directory Interface]]
+[[Category:Java APIs]]
+[[Category:Application layer protocols]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

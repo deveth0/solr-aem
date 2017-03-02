@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Zebra moray"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Zebra moray" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Taxobox
+| name = Zebra moray
+| image = Gymnomuraena zebra by NPS.jpg
+| regnum = [[Animal]]ia
+| phylum = [[Chordate|Chordata]]
+| classis = [[Actinopterygii]]
+| ordo = [[Anguilliformes]]
+| familia = [[Muraenidae]]
+| genus = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Gymnomuraena&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+| genus_authority = [[Bernard Germain de Lacépède|Lacépède]], 1803
+| species = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;G. zebra&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+| binomial = &amp;apos;&amp;apos;Gymnomuraena zebra&amp;apos;&amp;apos;
+| binomial_authority = ([[George Shaw|G. Shaw]], 1797)
+| synonyms = &amp;apos;&amp;apos;Echidna zebra&amp;apos;&amp;apos;
+| range_map=
+| range_map_caption=
+}}
+
+The &amp;apos;&amp;apos;&amp;apos;zebra moray&amp;apos;&amp;apos;&amp;apos;, &amp;apos;&amp;apos;Gymnomuraena zebra&amp;apos;&amp;apos;, is a species of [[moray eel]]. It is the only member of the genus &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Gymnomuraena&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;, though it sometimes has been included in &amp;apos;&amp;apos;[[Echidna]]&amp;apos;&amp;apos; instead. It is found at reefs in the [[Indo-Pacific]], and in the east [[Pacific]] from southern [[Baja California]], [[Mexico]] to northern [[Colombia]], including the [[Galapagos Islands]].
+
+Its length is up to {{convert|1.5|m|ft}}, though most individuals are far smaller. It is densely banded dark and whitish, giving rise to its common name. Unlike most other moray eels, it feeds almost exclusively on [[crustacean]]s, [[sea urchins]] and [[mollusk]]s.
+
+==References==
+* {{FishBase_species| genus = Gymnomuraena | species = zebra | month = June | year = 2006}}
+* {{ITIS |id=635323 |taxon=&amp;apos;&amp;apos;Gymnomuraena&amp;apos;&amp;apos;}}
+
+[[Category:Muraenidae]]
+[[Category:Marine fauna of the Gulf of California]]
+[[Category:Western Central American coastal fauna]]
+[[Category:Galápagos Islands coastal fauna]]
+[[Category:Fish of Hawaii]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

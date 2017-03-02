@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Europe Transparent"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Europe Transparent" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{primarysources|date=February 2008}}
+{{Infobox political party
+| country       = the Netherlands
+| colorcode     = {{Dutch politics/party colours|VVD}}
+| party_name    = Europe Transparent
+| native_name   = {{lang|nl|Europa Transparant}}
+| party_logo    =
+| leader        = [[Paul van Buitenen]]
+| chairman      =
+| leader1_title = Leader in the Senate
+| leader1_name  =
+| leader2_title = Leader in the House of Representatives
+| leader2_name  =
+| leader3_title = Leader in the European Parliament
+| leader3_name  = [[Paul van Buitenen]]
+| foundation    = {{Start date|2004|04|08|df=y}}
+| merger        =
+| split         =
+| dissolved     = {{End date|2008}}
+| merged        =
+| seats1_title  = [[Senate of the Netherlands|Seats in the Senate]]
+| seats1        =
+| seats2_title  = [[House of Representatives of the Netherlands|Seats in the House of Representatives]]
+| seats2        =
+| seats3_title  = Seats in the European Parliament
+| seats3        = &amp;lt;timeline&amp;gt;
+ImageSize = width:100 height:25
+PlotArea = left:0 bottom:0 top:0 right:0
+TimeAxis = orientation:horizontal format:yyyy
+DateFormat = x.y
+Period = from:0 till:27
+TimeAxis = orientation:horizontal
+AlignBars = early
+Colors =
+ id:gray value:rgb(0.85,0.85,0.85)
+ id:darkgray value:rgb(0.27,0.27,0.27)
+ id:midgray value:rgb(0.57,0.57,0.57)
+ id:blue value:rgb(0.07, 0.44, 0.76)
+ id:green value:rgb(0.38, 0.73, 0.27)
+ id:orange value:rgb(1, 0.55, 0)
+ id:red value:rgb(0.80,0, 0)
+BarData =
+ bar:Wikipedias
+PlotData=
+ bar:Wikipedias from:0 till:25 color:gray width:0.2in text:/25
+ bar:Wikipedias from:0 till:0 color:red width:0.2in text:0
+&amp;lt;/timeline&amp;gt;
+| ideology      = Anti-Corruption
+| position      = N/A
+| religion      =
+| youth_wing    =
+| wing1_title   = Thinktank
+| wing1         =
+| international =
+| european      =
+| europarl      = [[EGP/EFA]]
+| colours       =
+| headquarters  =
+| website       = {{URL|europatransparant.nl}}
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Europe Transparent&amp;apos;&amp;apos;&amp;apos; ({{lang-nl|Europa Transparant}}) was a [[political party]] in the [[Netherlands]]. The founder of the party, [[Paul van Buitenen]], announced the party&amp;apos;s establishment on 8 April 2004. In the [[European Parliament election, 2004|2004 election]] to the [[European Parliament]] the party gained two seats, after a campaign that cost no more than €4,000.{{Fact|date=September 2011}} Van Buitenen and the number two on the list, [[Els de Groen]], who has written about [[Political corruption|corruption]] scandals in [[Eastern Europe]], have joined the [[European Greens - European Free Alliance|European Greens–European Free Alliance]] [[European Parliament party groups|party group]] as independent members.
+
+The party was claiming{{Fact|date=September 2011}} to be non-ideological: they aimed to fight for{{Fact|date=September 2011}} more open European government, against [[fraud]], corruption and favouring of friends. Because the pursuit of this goal was their primary occupation, they participated only to a limited extent in the normal system of debates, reports, meetings, etc.
+
+Their ultimate goal is to be able to disband themselves when they have made the [[European Union]] transparent.{{Fact|date=September 2011}}
+
+==References==
+{{Reflist}}
+
+==External links==
+* [http://www.europatransparant.nl/ Official website] {{nl icon}}
+
+{{Dutch Political Parties}}
+
+[[Category:Political parties in the Netherlands]]
+[[Category:Anti-corruption parties]]
+[[Category:Political parties established in 2004]]
+[[Category:Political parties disestablished in 2008]]
+[[Category:Europe Transparent MEPs|*Main]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

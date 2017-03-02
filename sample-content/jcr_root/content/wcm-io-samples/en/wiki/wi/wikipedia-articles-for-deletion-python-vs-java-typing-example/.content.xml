@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:Articles for deletion/Python vs Java typing example"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:Articles for deletion/Python vs Java typing example" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[http://en.wikipedia.org/w/wiki.phtml?title=MediaWiki:VfD-Python_vs_Java_typing_example this is an archived deletion debate]
+
+*Not encyclopedic. Move to Wikibooks? [[User:Fredrik|Fredrik]] 14:52, 4 Apr 2004 (UTC)
+* Keep. It relates to two languages, hence it is in a separate article, to avoid duplication. the text must be wikified and clarified, though. [[User:Mikkalai|Mikkalai]] 16:49, 4 Apr 2004 (UTC)
+**I agree that it might be kept if it gets fixed. [[User:Fredrik|Fredrik]] 17:25, 4 Apr 2004 (UTC)
+*Delete, or put somewhere else appropriate. Are we going to have a &amp;apos;&amp;apos;language x&amp;apos;&amp;apos; vs &amp;apos;&amp;apos;language y&amp;apos;&amp;apos; example for all proramming languages?
+**I noticed there&amp;apos;s also [[Python vs C Plus Plus example]]. [[User:Fredrik|Fredrik]] 22:26, 4 Apr 2004 (UTC)
+*Delete.  I&amp;apos;m a Python fan myself, but an advocacy piece like this doesn&amp;apos;t belong in an encyclopedia, even if it&amp;apos;s improved. [[User:Josh Cherry|Josh Cherry]] 00:37, 5 Apr 2004 (UTC)
+* delete. [[User:DJ Clayworth|DJ Clayworth]] 14:20, 5 Apr 2004 (UTC)
+*Delete, non encyclopedic. Python rocks, no two ways about it -- unfortunately language advocacy isn&amp;apos;t suitable for WP. [[User:Wile E. Heresiarch|Wile E. Heresiarch]] 14:03, 7 Apr 2004 (UTC)&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

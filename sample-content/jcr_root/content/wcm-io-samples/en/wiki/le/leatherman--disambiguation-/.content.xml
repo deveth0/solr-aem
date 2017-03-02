@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Leatherman (disambiguation)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Leatherman (disambiguation)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionarypar|leatherman}}
+&amp;apos;&amp;apos;&amp;apos;[[Leatherman]]&amp;apos;&amp;apos;&amp;apos; is a trademark for a line of [[multitools]] produced by the Leatherman Tool Group.
+
+&amp;apos;&amp;apos;&amp;apos;Leatherman&amp;apos;&amp;apos;&amp;apos; may also refer to:
+;In people
+* A man involved with the [[leather subculture]]
+** &amp;apos;&amp;apos;sensu stricto&amp;apos;&amp;apos; [[Glenn Hughes (singer)|Glenn Hughes]], the biker character from the band Village People
+* [[Leatherman (vagabond)]], a man in the nineteenth century
+* [http://www.baseball-reference.com/minors/player.cgi?id=leathe001dan Daniel Charles &amp;quot;Dan&amp;quot; Leatherman], a minor league baseball player
+* [[Stephen Leatherman]], a geological scientist at the Florida State University
+* [[Timothy S. Leatherman]], a businessman and the inventor of the multitool
+
+;In other uses
+* &amp;quot;[[Leatherman_%28song%29#Track_listing|Leatherman]]&amp;quot;, a Pearl Jam B-side released only on their 1998 single, &amp;quot;Given to Fly&amp;quot;, about the 19th century vagabond
+* Leatherman Peak in Idaho&amp;apos;s [[Lost River Range]], the second highest named peak in the state
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

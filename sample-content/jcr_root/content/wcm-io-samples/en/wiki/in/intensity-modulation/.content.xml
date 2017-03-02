@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Intensity modulation"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Intensity modulation" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[optical communications]], &amp;apos;&amp;apos;&amp;apos;intensity modulation&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;&amp;apos;IM&amp;apos;&amp;apos;&amp;apos;) is a form of [[modulation]] in which the optical [[Power (physics)|power]] output of a source is varied in accordance with some characteristic of the modulating [[Signal (information theory)|signal]].  The envelope of the modulated optical signal is an analog of the modulating signal in the sense that the instantaneous power of the envelope is an analog of the characteristic of interest in the modulating signal.
+
+Recovery of the modulating signal is usually by direct detection, not [[Heterodyne|heterodyning]].  However, [[optical heterodyne detection]] is possible and has been actively studied since 1979. Bell Laboratories had a working, but impractical, system in 1969.&amp;lt;ref&amp;gt;T. Okoshi, &amp;apos;&amp;apos;Coherent Optical Fiber Communications&amp;apos;&amp;apos;, pages 2-3, Springer, 1988 ISBN 9027726779.&amp;lt;/ref&amp;gt; Heterodyne and [[homodyne]] systems are of interest because they are expected to produce an increase in sensitivity of up to {{nowrap|20 dB}}&amp;lt;ref&amp;gt;T. G. Hodgkinson, D. W. Smith, R. Wyatt, D. J. Malyon, &amp;quot;Coherent optical fibre transmission systems&amp;quot;, in Bishnu P Pal (ed), &amp;apos;&amp;apos;Fundamentals Of Fibre Optics In Telecommunication And Sensor Systems&amp;apos;&amp;apos; ,page 470, Bohem Press, 1992 ISBN 8122404693.&amp;lt;/ref&amp;gt; allowing longer hops between islands for instance.  Such systems also have the important advantage of very narrow channel spacing in optical [[frequency-division multiplexing]] (OFDM) systems.&amp;lt;ref&amp;gt;Chinlon Lin, &amp;quot;Opto-electronics and the information age: a perspective&amp;quot;, in Bishnu P Pal (ed), &amp;apos;&amp;apos;Fundamentals Of Fibre Optics In Telecommunication And Sensor Systems&amp;apos;&amp;apos; ,page 20, Bohem Press, 1992 ISBN 8122404693.&amp;lt;/ref&amp;gt;  OFDM is a step beyond [[wavelength-division multiplexing]] (WDM).  Normal WDM using direct detection does not achieve anything like the close channel spacing of [[radio frequency]] FDM.&amp;lt;ref&amp;gt;Ananth Selvarajan, Subrat Kar, T. Srinivas. &amp;apos;&amp;apos;Optical Fiber Communication: Principles and Systems&amp;apos;&amp;apos;, page 129, Tata McGraw-Hill Education, 2003 ISBN 0070445567.&amp;lt;/ref&amp;gt;
+
+==References==
+{{reflist}}
+{{FS1037C MS188}}
+
+==Further reading==
+*William Shieh, Ivan Djordjevic, &amp;apos;&amp;apos;OFDM for Optical Communications&amp;apos;&amp;apos;, Academic Press, 2009 ISBN 0-12-374879-8.
+
+{{Optical telecommunication}}
+{{Telecommunications}}
+
+[[Category:Optical communications]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

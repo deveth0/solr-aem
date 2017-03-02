@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="HMAS Derwent"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="HMAS Derwent" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Italic title prefixed|4}}
+One ship and one shore base of the Royal Australian Navy have been named &amp;apos;&amp;apos;&amp;apos;HMAS &amp;apos;&amp;apos;Derwent&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;, after the [[River Derwent (Tasmania)|Derwent River]] in Tasmania.
+
+* {{HMAS|Derwent|naval base}}, a naval base in Tasmania, renamed {{HMAS|Huon|naval base|6}} in 1942 to avoid confusion with {{HMS|Derwent|L83|6}}.
+* {{HMAS|Derwent|DE 49}}, a River class destroyer escort which entered service in 1964, left service in 1994, and sunk as an artificial reef
+
+==Battle honours==
+One battle honour was awarded to the destroyer escort &amp;apos;&amp;apos;Derwent&amp;apos;&amp;apos;, which will be inherited by future ships of the name:&amp;lt;ref name=newhonours&amp;gt;{{cite news |url=http://www.navy.gov.au/Navy_Marks_109th_Birthday_With_Historic_Changes_To_Battle_Honours |title=Navy Marks 109th Birthday With Historic Changes To Battle Honours |date=1 March 2010 |archiveurl=http://web.archive.org/web/20110613184920/http://www.navy.gov.au/Navy_Marks_109th_Birthday_With_Historic_Changes_To_Battle_Honours |archivedate=13 June 2011 |publisher=Royal Australian Navy |accessdate=23 December 2012}}&amp;lt;/ref&amp;gt;&amp;lt;ref name=honourslist&amp;gt;{{cite web |url=http://www.navy.gov.au/w/images/Units_entitlement_list.pdf |title=Royal Australian Navy Ship/Unit Battle Honours |date=1 March 2010 |publisher=Royal Australian Navy |archiveurl=http://web.archive.org/web/20110614064156/http://www.navy.gov.au/w/images/Units_entitlement_list.pdf |archivedate=14 June 2011 |accessdate=23 December 2012}}&amp;lt;/ref&amp;gt;
+* [[Indonesia–Malaysia confrontation|Malaysia]] 1964–66
+
+==See also==
+* {{HMS|Derwent}}, several British warships of the same name
+
+==References==
+{{reflist}}
+
+{{Shipindex}}
+
+{{DEFAULTSORT:Derwent, Hmas}}
+[[Category:Royal Australian Navy ship names]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

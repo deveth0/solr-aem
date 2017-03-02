@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:WikiProject Alternative medicine/Reviews"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:WikiProject Alternative medicine/Reviews" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Historical}}
+==Compliance Audits==
+This WikiProject is in the business of coordinating the formal review of the major branches of alternative medicine articles and other specific CAM articles that have a history of controversy in regards to their degree of compliance to our standards of quality guidelines.
+
+Our public participants periodically reviewing the compliance of these CAM articles to our standards of quality guidelines will be one of our most important methods for achieving Wikipedian community consensus that will be required before a community wide resolve is built to end the edit wars currently taking place in CAM.
+
+==Current criteria for passing our compliance audits==
+We have a master list of [[Wikipedia:Wikiproject:Alternative Medicine/Checklist| 20 Key Questions]]  that are designed to measure the compliance of [[Terms and concepts in alternative medicine#CAM|CAM]] articles to our [[Wikipedia:Wikiproject:Alternative Medicine/Standards of Quality|Standards of Quality Guidelines]]. As this is the first review, we are not trying to be too strict this go around.  Scoring 7 or fewer questions  wrong will result in a passing evaluation.  This works out to a passing grade of 65% (computed as the complement from one).
+
+==Failed==
+
+A listing of CAM articles that &amp;apos;&amp;apos;&amp;apos;failed&amp;apos;&amp;apos;&amp;apos; our compliance audit the last time it was reviewed.
+# None to date
+
+==Passed==
+
+A listing of CAM articles that &amp;apos;&amp;apos;&amp;apos;passed&amp;apos;&amp;apos;&amp;apos; our compliance audit the last time it was reviewed.
+# [[Orthomolecular medicine]] - Unfavorable impression since the reader is missing important information as to what this branch has to offer compared to other branches. Scored 4 wrong,for a passing grade pf 80%.  No footnote to support the health claim that RDA is inadequate. No explanation of therapeutic effects. No listing of effective medical conditions treated. Physical mode of action was determined to come from proper nutrition. -- [[User:Mr-Natural-Health|John Gohde]] 05:21, 1 Jun 2004 (UTC)&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

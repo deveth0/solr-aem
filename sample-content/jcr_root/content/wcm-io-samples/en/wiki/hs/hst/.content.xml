@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="HST"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="HST" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Wiktionary|HST}}
+&amp;apos;&amp;apos;&amp;apos;HST&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+In &amp;apos;&amp;apos;&amp;apos;science and technology&amp;apos;&amp;apos;&amp;apos;:
+* [[Hubble Space Telescope]]
+* [[Harvard-MIT Division of Health Sciences and Technology]]
+* [[Herschel Space Telescope]], an alternate name for the Herschel Space Observatory
+* [[History of science and technology]]
+* [[High Speed Telegraphy]], a radiosport
+* [[USRobotics]]&amp;apos; HST (High-Speed Transfer) modem protocol
+
+&amp;apos;&amp;apos;&amp;apos;Places&amp;apos;&amp;apos;&amp;apos;:
+* [[Hospital Santo Tomas]] (Saint Thomas Hospital), a hospital in Panama City, Panama
+
+&amp;apos;&amp;apos;&amp;apos;Transportation&amp;apos;&amp;apos;&amp;apos;:
+* [[Helsinki City Transport]], Swedish abbreviation
+* [[Heritage Shunters Trust]], a trade name of the South Yorkshire Railway Company
+* [[High Street (Glasgow) railway station]], Scotland with National Rail station code HST
+* [[InterCity 125]], a British train often called the High Speed Train
+* High-Speed Tractor, a military vehicle including the [[M4 Tractor|M4]], [[M5 Tractor|M5]], [[M6 Tractor|M6]] and [[M8 Tractor|M8]], among others
+
+&amp;apos;&amp;apos;&amp;apos;Other uses&amp;apos;&amp;apos;&amp;apos;:
+* [[Harmonized Sales Tax]], in Canada a tax on goods, services and sales
+* [[Hegemonic stability theory]], a concept in international relations
+* [[Helicopter support team]], a team of eight landing support Marines
+* [[Hypertrophy-specific Training]], in weight lifting
+* [[Hawaiian Standard Time]]
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

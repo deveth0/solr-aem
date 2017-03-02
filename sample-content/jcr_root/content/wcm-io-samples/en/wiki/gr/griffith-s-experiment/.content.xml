@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Griffith&#x27;s experiment"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Griffith&#x27;s experiment" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Image:Griffith experiment.svg|thumb|450px|right|Griffith&amp;apos;s experiment discovering the &amp;quot;transforming principle&amp;quot; in [[pneumococcus]] bacteria.]]
+
+&amp;apos;&amp;apos;&amp;apos;Griffith&amp;apos;s experiment&amp;apos;&amp;apos;&amp;apos;, reported in 1928 by [[Frederick Griffith]],&amp;lt;ref&amp;gt;{{cite journal|last=Griffith|first=Fred.|title=The Significance of Pneumococcal Types|journal=Journal of Hygiene|publisher=Cambridge University Press|month=January|year=1928|volume=27|issue=2|pages=113–159|jstor=4626734|pmid=20474956|pmc=2167760|doi=10.1017/S0022172400031879}}&amp;lt;/ref&amp;gt; was one of the first experiments suggesting that bacteria are capable of transferring genetic information through a process known as [[Transformation (genetics)|transformation]].&amp;lt;ref&amp;gt;{{cite journal|last1=Lorenz|first1=M. G.|last2=Wackernagel|first2=W.|title=Bacterial gene transfer by natural genetic transformation in the environment|journal=[[Microbiology and Molecular Biology Reviews|Microbiological Reviews]]|volume=58|issue=3|pages=563–602|date=1994-09-01|pmid=7968924|pmc=372978}}&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;{{cite journal|last=Downie|first=A. W.|title=Pneumococcal transformation &amp;amp;mdash; a backward view: Fourth Griffith Memorial Lecture|journal=[[Microbiology (journal)|Journal of General Microbiology]]|url=http://mic.sgmjournals.org/content/73/1/1.full.pdf|volume=73|issue=1|pages=1–11|year=1972|doi=10.1099/00221287-73-1-1|pmid=4143929|accessdate=2011-11-30}}&amp;lt;/ref&amp;gt;
+
+Griffith used two [[Strain (biology)|strain]]s of pneumococcus (&amp;apos;&amp;apos;[[Streptococcus pneumoniae]]&amp;apos;&amp;apos;) bacteria which infect [[mouse|mice]] &amp;amp;ndash; a type III-S (smooth) and type II-R (rough) strain. The III-S strain covers itself with a [[polysaccharide]] capsule that protects it from the host&amp;apos;s [[immune system]], resulting in the death of the host, while the II-R strain doesn&amp;apos;t have that protective capsule and is defeated by the host&amp;apos;s immune system. A German bacteriologist, [[Fred Neufeld]], had discovered the three pneumococcal types (Types I, II, and III) and discovered the Quellung reaction to identify them in vitro.&amp;lt;ref&amp;gt;[http://books.google.com/books?id=iwDn7ubDO2kC Lehrer, Steven. Explorers of the Body. 2nd edition 2006 p 44]&amp;lt;/ref&amp;gt; Until Griffith&amp;apos;s experiment, bacteriologists believed that the types were fixed and unchangeable, from one generation to another.
+
+In this experiment, [[bacterium|bacteria]] from the III-S strain were killed by heat, and their remains were added to II-R strain bacteria. While neither alone harmed the mice, the combination was able to kill its host. Griffith was also able to isolate both live II-R and live III-S strains of pneumococcus from the blood of these dead mice. Griffith concluded that the type II-R had been &amp;quot;transformed&amp;quot; into the lethal III-S strain by a &amp;quot;transforming principle&amp;quot; that was somehow part of the dead III-S strain bacteria.
+
+Today, we know that the &amp;quot;transforming principle&amp;quot; Griffith observed was the [[DNA]] of the III-S strain bacteria. While the bacteria had been killed, the DNA had survived the heating process and was taken up by the II-R strain bacteria. The III-S strain DNA contains the genes that form the protective polysaccharide capsule. Equipped with this gene, the former II-R strain bacteria were now protected from the host&amp;apos;s immune system and could kill the host. The exact nature of the transforming principle (DNA) was verified in the experiments done by [[Avery-MacLeod-McCarty experiment|Avery, McLeod and McCarty]] and by [[Hershey-Chase experiment|Hershey and Chase]].
+
+==Notes==
+{{Reflist}}
+
+==References==
+*{{cite journal | author = Avery, MacLeod, and McCarty | title = Studies on the Chemical Nature of the Substance Inducing Transformation of Pneumococcal Types: Induction of Transformation by a Desoxyribonucleic Acid Fraction Isolated from Pneumococcus Type III | journal = Journal of Experimental Medicine | volume = 79 | issue = 1 | pages = 137–158 | year = 1944 | doi = 10.1084/jem.79.2.137 | pmid=19871359 | pmc=2135445}}
+::(References the original experiment by Griffith. [http://osulibrary.oregonstate.edu/specialcollections/coll/pauling/dna/papers/avery.html Original article] and [http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&amp;amp;cmd=Retrieve&amp;amp;dopt=AbstractPlus&amp;amp;list_uids=33226 35th anniversary reprint] available.&amp;apos;&amp;apos;)
+
+==Further reading==
+* {{cite book
+  | author = Daniel Hartl and Elizabeth Jones
+  | title=Genetics: Analysis of Genes and Genomes, 6th edition
+  | publisher=Jones &amp;amp; Bartlett
+  | year = 2005
+}} 854 pages. ISBN 0-7637-1511-5.
+*{{cite book | last = Lehrer | first = Steven | title = Explorers of the Body | url = http://books.google.com/?id=iwDn7ubDO2kC
+| publisher = iUniverse, Inc | location = United States | year = 2006 | isbn = 0-595-40731-5 |edition=2nd}}
+{{History of biology}}
+
+{{DEFAULTSORT:Griffith&amp;apos;s Experiment}}
+[[Category:Genetics experiments]]
+[[Category:Microbiology]]
+[[Category:1928 in science]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

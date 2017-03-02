@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Victory Mountains"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Victory Mountains" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Location map|Antarctica|
+  lat_deg=72|lat_min=40|lat_dir=S|lon_deg=168|lon_min=00|lon_dir=E|
+  float=right|mark=Fire.svg|marksize=12|AlternativeMap=Antarctica relief location map.jpg|
+  label=Victory&amp;amp;nbsp;Mountains|position=top|caption=Victory Mountains in Antarctica
+}}
+The &amp;apos;&amp;apos;&amp;apos;Victory Mountains&amp;apos;&amp;apos;&amp;apos; ({{coord|72|40|S|168|00|E|type:mountain|display=inline}}) is a major group of [[mountain]]s in [[Victoria Land]], [[Antarctica]], about {{convert|160|km|mi|0}} long and {{convert|80|km|mi|0|abbr=on}} wide, which is bounded primarily by [[Mariner Glacier|Mariner]] and [[Tucker Glacier|Tucker]] glaciers and the [[Ross Sea]]. The division between these mountains and the [[Concord Mountains]] (to the NW) is less precise but apparently lies in the vicinity of [[Thomson Peak]].&amp;lt;ref name=gnis&amp;gt;{{cite gnis|type=antarid|id=16041|name=Victory Mountains|accessdate=2004-11-13}}&amp;lt;/ref&amp;gt;
+
+A Ross Sea aspect of the mountains was first obtained by early British expeditions of [[James Clark Ross|Ross]], [[Carstens Borchgrevink|Borchgrevink]], [[Robert Falcon Scott|Scott]] and [[Ernest Shackleton|Shackleton]]. The mapping of the interior mountains was largely done from air photos taken by the U.S. Navy and surveys undertaken by [[New Zealand]] and [[United States|American]] parties in the 1950s and 1960s. So named by the NZGSAE 1957-58, because of the proximity of this group to the [[Admiralty Mountains]], and with the intention that many of the topographic features would be named for celebrated victories, especially naval victories.&amp;lt;ref name=gnis/&amp;gt;
+
+==See also==
+*[[Cartographers Range]]
+
+==References==
+{{reflist}}
+
+[[Category:Mountain ranges of Victoria Land]]
+[[Category:Borchgrevink Coast]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

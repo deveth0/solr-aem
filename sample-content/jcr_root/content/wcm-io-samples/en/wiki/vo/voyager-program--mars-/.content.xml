@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Voyager program (Mars)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Voyager program (Mars)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{refimprove|date=June 2008}}
+The &amp;apos;&amp;apos;&amp;apos;Voyager Mars Program&amp;apos;&amp;apos;&amp;apos;  was a planned series of unmanned [[NASA]] probes to the planet [[Mars]].  The missions were planned, as part of the [[Apollo Applications Program]], between 1966 and 1968 and were scheduled for launch in 1974&amp;amp;ndash;75.  The probes were conceived as precursors for a manned Mars landing in the 1980s.
+
+Originally NASA had proposed a direct lander using a variant of the [[Apollo Command Module]] launched atop of a [[Saturn IB]] rocket with a [[Centaur (rocket stage)|Centaur]] upper stage.  With the discovery by [[Mariner 4]] in 1965 that Mars had only a tenuous atmosphere, the mission was changed to have both an orbiter and lander.  This required the use of a [[Saturn V]] to launch two probes at once. The orbiter would have been a modified Mariner probe identical to that employed for [[Mariner 8]] and [[Mariner 9]], while the landers would have been [[Surveyor program|Surveyor]] moon probes modified with the use of aeroshells and a combination parachute/retrorocket landing systems.
+
+Funding for the program, like that of the entire [[Apollo Applications Program|AAP]], was cut in 1968 and the mission itself was cancelled entirely in 1971, mainly on the grounds that launching both probes on a single rocket was both risky and expensive.
+
+Despite the cancellation, the planning and development of the Voyager Mars program was eventually carried out by NASA&amp;apos;s [[Viking program]] in the mid-1970s.  Despite being cheaper and simpler than the Voyager Mars program (using the same Mariner 8/9 design for the orbiter, but with an automobile-sized lander with a very expensive microbiology lab), the [[Viking 1]] and [[Viking 2]] probes were launched to Mars on separate [[Titan III|Titan IIIE]]/Centaur rockets in 1975 and reached Mars in 1976.
+
+After the cancellation, the &amp;quot;Voyager&amp;quot; name was recycled for the [[Mariner 11]] and [[Mariner 12]] probes to the outer planets, with the latter probe, &amp;apos;&amp;apos;Voyager 2&amp;apos;&amp;apos; (Mariner 12), completing another ambitious post-Apollo project, the &amp;quot;[[Planetary Grand Tour|Grand Tour]]&amp;quot;. The Saturn V had also been planned at one point as the launch vehicle for an upscaled probe for this mission.&amp;lt;ref&amp;gt;[http://www.jsc.nasa.gov/history/oral_histories/CortrightEM/EMC_8-20-98.pdf Cortright Oral History (p31)]&amp;lt;/ref&amp;gt;
+
+==References==
+{{reflist}}
+
+==External links==
+*[http://www.astronautix.com/craft/voyr1973.htm Voyager 1973]
+
+{{Mars spacecraft}}
+{{NASA planetary exploration programs}}
+
+[[Category:Missions to Mars]]
+[[Category:NASA programs]]
+[[Category:Cancelled spacecraft]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

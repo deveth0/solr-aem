@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="DES"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="DES" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionarypar|DES|Des}}
+
+&amp;apos;&amp;apos;&amp;apos;DES&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+==Computing==
+* [[Data Encryption Standard]]
+* [[DirectShow Editing Services]], an Application Programming Interface
+* [[Discrete event simulation]], a kind of scientific modelling
+
+==Medical==
+* [[Diethylstilbestrol]], a synthetic estrogen and the origin of the phrase &amp;quot;DES daughter&amp;quot;
+* DES gene, which encodes the [[desmin]] protein
+* [[Diffuse esophageal spasm]], a disorder of the esophagus
+* [[Dissociative Experiences Scale]], a questionnaire to screen for [[Dissociative identity disorder]]
+* [[Drug-eluting stent]], a medical device
+* [[Dysequilibrium syndrome]], a congenital disorder of the nervous system
+
+==Other uses==
+* [[Bachelor of Design]] (B.Des), an academic degree
+* [[Dark Energy Survey]], an astronomy project
+* [[Deep Ecliptic Survey]], an astronomy project
+* [[Deep eutectic solvent]], an ionic solvent
+* [[Delivered Ex Ship]], an international sales term
+* [[Detached eddy simulation]], a model in fluid dynamics
+* [[Desroches Airport]], IATA code DES
+* [[Arizona Department of Economic Security]], the government organization that funds the nutritional assistance, low-income health care, and other programs in the US state of Arizona
+* Department of Education and Science, the former name of the UK [[Department for Education and Skills (United Kingdom)|Department for Education and Skills]]
+* A shortened form of the name [[Desmond (name)|Desmond]]
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

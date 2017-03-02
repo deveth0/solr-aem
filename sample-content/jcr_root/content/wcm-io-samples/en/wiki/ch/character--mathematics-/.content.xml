@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Character (mathematics)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Character (mathematics)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[mathematics]], a &amp;apos;&amp;apos;&amp;apos;character&amp;apos;&amp;apos;&amp;apos; is (most commonly) a special kind of [[function (mathematics)|function]] from a [[group (mathematics)|group]] to a [[field (mathematics)|field]] (such as the [[complex numbers]]). There are at least two distinct, but overlapping meanings. Other uses of the word &amp;quot;character&amp;quot; are almost always qualified.
+
+==Multiplicative character==
+{{main|multiplicative character}}
+
+A &amp;apos;&amp;apos;&amp;apos;multiplicative character&amp;apos;&amp;apos;&amp;apos; (or &amp;apos;&amp;apos;&amp;apos;linear character&amp;apos;&amp;apos;&amp;apos;, or simply &amp;apos;&amp;apos;&amp;apos;character&amp;apos;&amp;apos;&amp;apos;) on a group &amp;apos;&amp;apos;G&amp;apos;&amp;apos; is a [[group homomorphism]] from &amp;apos;&amp;apos;G&amp;apos;&amp;apos; to the [[unit group|multiplicative group]] of a field {{Harv|Artin|1966}}, usually the field of [[complex numbers]].  If &amp;apos;&amp;apos;G&amp;apos;&amp;apos; is any group, then the set Ch(&amp;apos;&amp;apos;G&amp;apos;&amp;apos;) of these morphisms forms an [[abelian group]] under pointwise multiplication.
+
+This group is referred to as the [[character group]] of &amp;apos;&amp;apos;G&amp;apos;&amp;apos;. Sometimes only &amp;apos;&amp;apos;unitary&amp;apos;&amp;apos; characters are considered (thus the image is in the [[unit circle]]); other such homomorphisms are then called &amp;apos;&amp;apos;quasi-characters&amp;apos;&amp;apos;. [[Dirichlet character]]s can be seen as a special case of this definition.
+
+Multiplicative characters are [[linear independence|linearly independent]], i.e. if &amp;lt;math&amp;gt;\chi_1,\chi_2, \ldots , \chi_n &amp;lt;/math&amp;gt; are different characters on a group &amp;apos;&amp;apos;G&amp;apos;&amp;apos; then from &amp;lt;math&amp;gt;a_1\chi_1+a_2\chi_2 + \ldots + a_n \chi_n = 0 &amp;lt;/math&amp;gt; it follows that &amp;lt;math&amp;gt;a_1=a_2=\cdots=a_n=0 &amp;lt;/math&amp;gt;.
+
+==Character of a representation==
+{{main|Character theory}}
+The &amp;apos;&amp;apos;&amp;apos;character of a representation&amp;apos;&amp;apos;&amp;apos; &amp;apos;&amp;apos;φ&amp;apos;&amp;apos; of a group &amp;apos;&amp;apos;G&amp;apos;&amp;apos; on a finite-dimensional [[vector space]] &amp;apos;&amp;apos;V&amp;apos;&amp;apos; over a field &amp;apos;&amp;apos;F&amp;apos;&amp;apos; is the [[trace (matrix)|trace]] of the [[group representation|representation]] &amp;apos;&amp;apos;φ&amp;apos;&amp;apos; {{Harv|Serre|1977}}. In general, the trace is not a group homomorphism, nor does the set of traces form a group.  The characters of one-dimensional representations are identical to one-dimensional representations, so the above notion of multiplicative character can be seen as a special case of higher dimensional characters. The study of representations using characters is called &amp;quot;[[character theory]]&amp;quot; and one dimensional characters are also called &amp;quot;linear characters&amp;quot; within this context.
+
+== See also ==
+* [[Dirichlet character]]
+* [[Harish-Chandra character]]
+* [[Hecke character]]
+* [[Infinitesimal character]]
+* [[Alternating character]]
+
+==References==
+* {{citation|title=Galois Theory|note= Lectures Delivered at the University of Notre Dame|series=Notre Dame Mathematical Lectures, number 2|authorlink=Emil Artin|first=Emil|last= Artin|year=1966|publisher = Arthur Norton Milgram (Reprinted Dover Publications, 1997)|isbn=978-0-486-62342-9}}
+* {{citation |authorlink=J.-P. Serre|first=Jean-Pierre|last= Serre | title=Linear Representations of Finite Groups | publisher=Springer-Verlag | year=1977 | isbn= 0-387-90190-6}}.
+
+==External links==
+* {{springer|title=Character of a group|id=p/c021560}}
+* {{planetmath reference|id=1843|title=Character of a group representation}}
+
+[[Category:Representation theory]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Old Dominion"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Old Dominion" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Old Dominion&amp;apos;&amp;apos;&amp;apos; may refer to:
+*Old Dominion, nickname for the U.S. State of [[Virginia]]
+**The Old Dominion, a reference to the [[Colony of Virginia]], which became the &amp;quot;Dominion of Virginia&amp;quot;
+*[[Old Dominion (Amtrak)|&amp;apos;&amp;apos;Old Dominion&amp;apos;&amp;apos; (Amtrak)]], former Amtrak passenger train
+*[[Old Dominion Athletic Conference]], an NCAA Division III athletic conference.
+*[[Old Dominion Brewing Company]]
+*[[Old Dominion Electric Cooperative]]
+*[[Old Dominion University]], a public university in Norfolk, Virginia
+**[[Old Dominion Monarchs and Lady Monarchs]], the athletic teams representing Old Dominion University
+*[[Old Dominion Foundation]], a predecessor of the Andrew W. Mellon Foundation
+*&amp;quot;Old Dominion&amp;quot;, the debut EP of Indie rock band [[Hotel of the Laughing Tree]]
+*&amp;quot;Old Dominion&amp;quot;, a song by Avail from their 2000 album &amp;apos;&amp;apos;[[One Wrench]]&amp;apos;&amp;apos;
+*&amp;quot;Old Dominion&amp;quot;, a song by Enon from their 2002 album &amp;apos;&amp;apos;[[High Society (Enon album)|High Society]]&amp;apos;&amp;apos;
+
+In a plural form, &amp;apos;&amp;apos;&amp;apos;Old Dominions&amp;apos;&amp;apos;&amp;apos;, this term is used as a reference to historical parts of the [[British Empire]], most often the [[Australia]], [[New Zealand]], [[Canada]], [[South Africa]] (see also: [[British Dominions]])
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

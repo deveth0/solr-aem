@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Ouffet"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Ouffet" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox Belgium Municipality
+|name=Ouffet
+|picture=Ouffet JPG03.jpg
+|picture-legend=
+|map=Ouffet Liège Belgium Map.png
+|map-legend=Location of Ouffet in the province of Liège
+|arms=
+|flag=
+|region={{BE-REG-WAL}}
+|community={{BE-FR}}
+|province={{BE-PROV-LG}}
+|arrondissement=[[Arrondissement of Huy|Huy]]
+|nis=61048
+|pyramid-date
+|0-19=
+|20-64
+|65
+|foreigners=
+|foreigners-date
+|mayor=Marc Gielen (EC)
+|majority=EC
+|postal-codes=4590
+|telephone-area=086
+|web=[http://www.ouffet.be/ www.ouffet.be]
+|lat_deg=50
+|lat_min=26
+|lon_deg=05
+|lon_min=28
+}}
+&amp;apos;&amp;apos;&amp;apos;Ouffet&amp;apos;&amp;apos;&amp;apos; is a [[municipality]] of [[Belgium]]. It lies in the country&amp;apos;s [[Wallonia|Walloon Region]] and [[Liege (province)|Province of Liege]]. On January 1, 2006 Ouffet had a total population of 2,529. The total area is 40.22 km² which gives a [[population density]] of 63 inhabitants per km².
+
+==References==
+{{reflist}}
+
+[[Image:Ouffet CH1 JPG.jpg|thumb|left|The castle (XVIIIth century)|275px]]
+
+{{Liege municipalities}}
+[[Category:Municipalities of Liège (province)]]
+
+{{Liege-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

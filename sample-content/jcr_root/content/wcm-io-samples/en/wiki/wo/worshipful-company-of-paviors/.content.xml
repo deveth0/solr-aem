@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Worshipful Company of Paviors"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Worshipful Company of Paviors" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;Worshipful Company of Paviors&amp;apos;&amp;apos;&amp;apos; is one of the [[Livery Company|Livery Companies]] of the [[City of London]]. The Paviors were formed at some point prior to 1276; they were responsible for the paving and maintenance of London&amp;apos;s streets. It received a [[Royal Charter]] in 1672. The Company is no longer a trade association for, and a regulator of, London&amp;apos;s road constructors, instead acting as a charitable institution; for example, it has sponsored a road making display at [[Amberley Working Museum]].
+
+The Paviors&amp;apos; Company ranks fifty-sixth in the [[order of precedence]] for Livery Companies. Its motto is &amp;apos;&amp;apos;God Can Raise to Abraham Children of Stone&amp;apos;&amp;apos;.
+
+==External links==
+
+* [http://www.paviors.org.uk/ The Paviors&amp;apos; Company]
+
+{{Livery Companies in the City of London}}
+[[Category:Livery companies|Paviors]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

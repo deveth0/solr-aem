@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Hubbert curve"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Hubbert curve" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{main|Hubbert peak theory|Peak oil}}
+The &amp;apos;&amp;apos;&amp;apos;Hubbert curve&amp;apos;&amp;apos;&amp;apos; is an approximation of the production rate of a resource over time.  It is a symmetric [[logistic distribution]] curve,&amp;lt;ref &amp;quot;Figure 11&amp;quot; name=&amp;apos;hubbert_NEFF&amp;apos; /&amp;gt; often confused with the &amp;quot;normal&amp;quot; [[gaussian function]].   It first appeared in &amp;quot;Nuclear Energy and the Fossil Fuels,&amp;quot; geologist [[M. King Hubbert]]&amp;apos;s 1956 presentation to the American Petroleum Institute, as an idealized symmetric curve, during his tenure at the [[Shell Oil Company]].&amp;lt;ref name=&amp;apos;hubbert_NEFF&amp;apos;&amp;gt;{{cite journal | title= Nuclear Energy and the Fossil Fuels | author = M. King Hubbert | url=http://www.hubbertpeak.com/hubbert/1956/1956.pdf | journal =  Drilling and Production Practice (1956) American Petroleum Institute &amp;amp; Shell Development Co. Publication No. 95, See pp 9-11, 21-22.}}&amp;lt;/ref&amp;gt;  It has gained a high degree of popularity in the scientific community for predicting the depletion of various natural resources.  The curve is the main component of [[Hubbert peak theory]], which has led to the rise of [[peak oil]] concerns.
+
+Basing his calculations on the peak of oil well discovery in 1948, Hubbert used his model in 1956 to create a curve which accurately predicted that oil production in the contiguous United States would peak around 1970.&amp;lt;ref &amp;quot;Figure 21&amp;quot; name=&amp;apos;hubbert_NEFF&amp;apos; /&amp;gt;
+
+==Shape==
+[[Image:Hubbert-curve.png|thumb|Plot of the Hubbert curve]]
+The prototypical Hubbert curve is a [[probability density function]] of a [[logistic distribution]] curve. It is not a [[gaussian function]] (which is used to plot [[normal distribution]]s), but the two have a similar appearance. The density of a  Hubbert curve approaches zero more slowly than a gaussian function:
+
+:&amp;lt;math&amp;gt;
+x = {e^{-t}\over(1+e^{-t})^2}={1\over2+2\cosh t}.
+&amp;lt;/math&amp;gt;
+
+The graph of a Hubbert curve consists of three key elements:
+# a gradual rise from zero resource production that then increases quickly
+# a &amp;quot;[[Hubbert peak theory|Hubbert peak]]&amp;quot;, representing the maximum production level
+# a drop from the peak that then follows a steep production decline.
+
+The actual shape of a graph of real world production trends is determined by various factors, such as development of enhanced production techniques, availability of competing resources, and government regulations on production or consumption.  Because of such factors, real world Hubbert curves are often not symmetrical.
+
+==Application==
+
+=== Peak oil ===
+{{main|Peak oil}}
+Using the curve, Hubbert modeled the rate of petroleum production for several regions, determined by the rate of new oil well discovery, and extrapolated a world production curve.&amp;lt;ref name=&amp;apos;hubbert_NEFF&amp;apos;/&amp;gt; The relative steepness of decline in this projection is the main concern in peak oil discussions. This is because a steep drop in the production implies that global oil production will decline so rapidly that the world will not have enough time to develop sources of energy to replace the energy now used from oil, possibly leading to drastic social and economic impacts.
+
+===Other resources===
+{{main|Hubbert peak theory}}
+Hubbert models have been used to predict the production trends of various resources, such as [[peak gas|natural gas]] (Hubbert&amp;apos;s attempt in the late 1970s resulted in an inaccurate prediction that natural gas production would fall dramatically in the 1980s), [[Peak coal|Coal]], [[Peak uranium|fissionable materials]], [[peak helium|Helium]], transition metals (such as [[Peak copper|copper]]), and [[peak water|water]].  At least one researcher has attempted to create a Hubbert curve for the [[whaling]] industry and caviar,&amp;lt;ref&amp;gt;Ugo Bardi and Leigh Yaxley.  &amp;apos;&amp;apos;[http://www.aspoitalia.net/index.php?option=com_content&amp;amp;task=view&amp;amp;id=34&amp;amp;Itemid=39 How General is the Hubbert Curve?]&amp;apos;&amp;apos;  Proceedings of the 4th [[Association for the Study of Peak Oil and Gas|ASPO]] Workshop, Lisbon 2005&amp;lt;/ref&amp;gt; while another applied it to [[cod]].&amp;lt;ref&amp;gt;Jean Laherrere.  &amp;apos;&amp;apos;[http://www.hubbertpeak.com/laherrere/multihub.htm Multi-Hubbert Modeling].&amp;apos;&amp;apos; July, 1997.&amp;lt;/ref&amp;gt;
+
+==See also==
+*[[Association for the Study of Peak Oil and Gas]] (ASPO)
+*[[Bioeconomics (biophysical)]]
+*[[Energy Accounting]]
+*[[Thermoeconomics]]
+
+==References==
+{{reflist}}
+
+==External links==
+* [http://dieoff.org/page191.htm The Hubbert Curve: Its Strengths And Weaknesses] article by [[Jean Laherrère]].
+* [http://sepwww.stanford.edu/sep/jon/hubbert.pdf Hubbert Math] further mathematical manipulations by a Stanford professor
+* [http://www.hubbertpeak.com/hubbert/Bibliography.htm M. King Hubbert Bibliography]
+
+[[Category:Equations]]
+[[Category:Economics curves]]
+[[Category:Peak oil]]
+[[Category:Probability distributions]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

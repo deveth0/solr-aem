@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Oersted"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Oersted" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Other uses}}
+
+&amp;apos;&amp;apos;&amp;apos;Oersted&amp;apos;&amp;apos;&amp;apos; (abbreviated as &amp;apos;&amp;apos;&amp;apos;Oe&amp;apos;&amp;apos;&amp;apos;) is the unit of the [[Magnetic field#The H field|auxiliary magnetic field &amp;apos;&amp;apos;&amp;apos;H&amp;apos;&amp;apos;&amp;apos;]] in the [[Centimetre gram second system of units|CGS]] system of units.
+
+==Difference between CGS and SI systems==
+
+In CGS the unit of [[H-field#B and H|H-field]] is the oersted and the unit of [[B-field#B and H|B-field]] is the [[gauss (unit)|gauss]]. In the SI system, ampere per meter (A/m) is used for H-field and [[Tesla (unit)|tesla]] is used for B-field.&amp;lt;ref&amp;gt;Kaye, G.W.C &amp;amp; Laby, T.H:&amp;apos;&amp;apos;Table of Physical and Chemical Constants&amp;apos;&amp;apos;, page 14. Longman, 1973.&amp;lt;/ref&amp;gt;
+
+==History==
+The unit was established by the [[International Electrotechnical Commission|IEC]] in 1930 &amp;lt;ref&amp;gt;[http://www.iec.ch/about/history/ IEC history]&amp;lt;/ref&amp;gt; in honour of the Danish physicist [[Hans Christian Ørsted]]. Oersted discovered the relationship between magnetism and electric current when a magnetic field produced in a current-carrying coil deflected an [[ammeter]] (an instrument used to measure current) when it was switched on and off.
+
+==Definition==
+
+The oersted is defined as a [[dyne]] per [[Magnetic pole strength|unit pole]].{{citation needed|date=October 2011}} The oersted is 1000/4π (≈79.5774715) ampere per meter, in terms of [[SI units]].&amp;lt;ref&amp;gt;[http://www-d0.fnal.gov/hardware/cal/lvps_info/engineering/mag_conv.htm Magnetic Conversion Factors&amp;lt;!-- Bot generated title --&amp;gt;]&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;[http://www.vitatech.net/emf_fundamentals.php4 EMF Fundamentals&amp;lt;!-- Bot generated title --&amp;gt;]&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;[http://everything2.com/index.pl?node_id=1145558 oersted@Everything2.com&amp;lt;!-- Bot generated title --&amp;gt;]&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;[http://www.gordonengland.co.uk/conversion/sinon3.htm Derived CGS Units with Special Names&amp;lt;!-- Bot generated title --&amp;gt;]&amp;lt;/ref&amp;gt;
+
+The H-field strength inside a long [[solenoid]] wound with 79.58 turns per meter of a wire carrying 1 [[ampere|A]] is approximately 1 oersted. The preceding statement is exactly correct if the solenoid considered is infinite in length with the current evenly distributed over its surface.
+
+The oersted is closely related to the [[gauss (unit)|gauss]], the CGS unit of magnetic flux density. In a vacuum, if the magnetizing field strength is 1 Oe, then the magnetic field density is 1 Gs, whereas in a medium having [[magnetic permeability|permeability]] &amp;lt;math&amp;gt;\mu&amp;lt;/math&amp;gt;&amp;lt;sub&amp;gt;r&amp;lt;/sub&amp;gt; (relative to permeability of vacuum), their relation is:
+
+:&amp;lt;math&amp;gt;B(\mbox{G})= \mu&amp;lt;/math&amp;gt;&amp;lt;sub&amp;gt;r&amp;lt;/sub&amp;gt; * &amp;lt;math&amp;gt;H(\mbox{Oe}).&amp;lt;/math&amp;gt;
+
+Because oersteds are used to measure magnetizing field strength, they are also related to the [[magnetomotive force]] (mmf) of current in a single-winding wire-loop:
+
+:&amp;lt;math&amp;gt;H(\mbox{Oe})= \frac{1000}{4 \pi} \frac{I(\mbox{A})}{l(\mbox{m})}.&amp;lt;/math&amp;gt;&amp;lt;ref&amp;gt;{{cite book|last=Griffiths|first=David|title=Introduction to Electrodynamics|year=1999|publisher=Prentice Hall|isbn=0-13-805326-X|page=559}}&amp;lt;/ref&amp;gt;
+
+The stored energy in a magnet, called &amp;apos;&amp;apos;magnet performance&amp;apos;&amp;apos; or &amp;apos;&amp;apos;maximum energy product&amp;apos;&amp;apos; (often abbreviated BH&amp;lt;sub&amp;gt;max&amp;lt;/sub&amp;gt;), is typically measured in units of megagauss-oersteds (MGOe). One MGOe is approximately equal to 7957.74715 J/m&amp;lt;sup&amp;gt;3&amp;lt;/sup&amp;gt;.&amp;lt;ref&amp;gt;[http://www.efunda.com/units/convert_units.cfm?From=1050 eFunda: Glossary: Units: Energy Density Units: Megagauss-Oersted (MGOe)]&amp;lt;/ref&amp;gt;
+
+==See also==
+*[[Centimetre gram second system of units]]
+*[[Ampere model of magnetization|Ampere&amp;apos;s model of magnetization]]
+
+==References==
+{{reflist}}
+
+[[Category:Centimetre–gram–second system of units]]
+[[Category:Units of magnetic induction]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

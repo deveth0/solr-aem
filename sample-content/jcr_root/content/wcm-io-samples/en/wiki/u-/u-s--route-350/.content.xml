@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="U.S. Route 350"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="U.S. Route 350" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox road
+|type=US
+|state=CO
+|route=350
+|map=US 350 map.png
+|length_mi=73.00
+|length_round=2
+|length_ref=&amp;lt;ref name=&amp;quot;dot&amp;quot;&amp;gt;{{cite web|url=http://www.dot.state.co.us/app_DTD_DataAccess/Highways/index.cfm?fuseaction=Description&amp;amp;route=350&amp;amp;begRefPt=0&amp;amp;endRefPt=500&amp;amp;Printable=true|title=Segment list for US 350|accessdate=2007-05-13}}{{dead link|date=January 2013}}&amp;lt;/ref&amp;gt;
+|established=
+|direction_a=West
+|terminus_a={{Jct|state=CO|US|160}} near [[Trinidad, Colorado|Trinidad]]
+|junction=
+|direction_b=East
+|terminus_b={{Jct|state=CO|US|50}} in [[La Junta, Colorado|La Junta]]
+|previous_type=CO
+|previous_route=348
+|next_type=CO
+|next_route=368
+}}
+&amp;apos;&amp;apos;&amp;apos;U.S. Highway 350&amp;apos;&amp;apos;&amp;apos; is a {{convert|73|mi|adj=on}} long northeast-southwest [[United States highway]] located entirely within the state of [[Colorado]].
+
+==Route description==
+US 350 starts at a junction with {{roadlink|state=CO|US|160}} northeast of [[Trinidad, Colorado]]. The highway runs northeast, past the [[Perry Stokes Airport]] and crossing the [[Purgatoire River]].  It then continues the rest of its length along a route chosen by the [[Atchison, Topeka and Santa Fe Railway]], and close to the Mountain Branch of the [[Santa Fe Trail]]. The highway passes just northeast of the [[Piñon Canyon Maneuver Site]], then crosses [[Comanche National Grassland]] before a junction with {{roadlink|state=CO|SH|71}} going north.&amp;lt;ref name=cag&amp;gt;{{cite book |title=Colorado Atlas &amp;amp; Gazetteer |edition=Third |publisher=DeLorme |year=1997 |location=Yarmouth, Maine |isbn=0-89933-206-4 |page=100}}&amp;lt;/ref&amp;gt; At [[La Junta, Colorado|La Junta]], the highway turns east on 5th Street, then north on Barnes Avenue before ending at a junction with {{roadlink|state=CO|US|50}}.
+
+==History==
+Until the 1990s, US 350 continued on into Trinidad, where it intersected with [[Interstate 25 (Colorado)|Interstate 25]]. Prior to the creation of I-25, the road terminated at [[U.S. Highway 85 (Colorado)|U.S. Highway 85]] and [[U.S. Highway 87 (Colorado)|U.S. Highway 87]].
+
+==Major intersections==
+{{jcttop|length_ref=&amp;lt;ref name=&amp;quot;dot&amp;quot;/&amp;gt;}}
+{{COint
+|county=Las Animas
+|location=none
+|mile=0.000
+|road={{Jct|state=CO|US|160|city1=Trinidad|city2=Springfield}}
+|notes=}}
+{{COint
+|county=Otero
+|cspan=2
+|location=none
+|mile=59.412
+|road={{Jct|state=CO|CO|71|dir1=North|city1=Rocky Ford}}
+|notes=Southern terminus of SH 71}}
+{{COint
+|location=La Junta
+|mile=73.001
+|road={{Jct|state=CO|US|50|city1=Pueblo|city2=Lamar}}
+|notes=}}
+{{jctbtm}}
+
+==See also==
+===Related U.S. Routes===
+* [[U.S. Route 50]]
+
+==References==
+{{Reflist}}
+
+==External links==
+{{AttachedKML|display=title,inline}}
+*[http://usends.com/50-59/350/350.html Endpoints of US highways]
+
+[[Category:Three-digit U.S. Highways|50-3]]
+[[Category:U.S. Highways in Colorado|50-3]]
+[[Category:U.S. Route 50| 3]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

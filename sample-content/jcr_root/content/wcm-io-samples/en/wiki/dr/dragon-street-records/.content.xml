@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Dragon Street Records"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Dragon Street Records" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{unreferenced|date=March 2009}}
+&amp;apos;&amp;apos;&amp;apos;Dragon Street Records&amp;apos;&amp;apos;&amp;apos; is an [[independent record label]], based out of [[Dallas, Texas]]. Founded in [[1989 in music|1989]] by [[David Dennard]] and [[Patrick Keel]], longtime local musicians with over 25 combined years of music experience, Dragon Street&amp;apos;s original goal was to develop regional rock bands into nationally viable recording artists, and, in general, promoting the Texas music scene. The first major bands to be released through Dragon Street were [[The Bat Mastersons]], [[Hagfish (band)|Hagfish]], [[The Nixons]], and [[Tripping Daisy]].
+
+By 1995, major labels had come to dominate the [[alternative rock]] scene, and Dennard began refocusing the label on [[alternative country]] and [[rockabilly]] music, giving starts to artists including [[Ronnie Dawson (musician)|Ronnie Dawson]], [[Killbilly]], the [[Dixie Chicks]], and [[Gene Summers]].
+
+In addition to the continuing development of local acts, Dragon Street is currently issuing a series of recordings centering on 1960s and 1970s Dallas bands.
+
+== See also ==
+* [[List of record labels]]
+
+[[Category:American independent record labels]]
+[[Category:Record labels established in 1989]]
+[[Category:Alternative rock record labels]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

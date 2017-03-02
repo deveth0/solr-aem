@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Xestia dolosa"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Xestia dolosa" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{italic title}}
+{{Taxobox
+| name = Xestia dolosa
+| image = Xestia_dolosa.jpg
+| image_width = 240px
+| regnum = [[Animal]]ia
+| phylum = [[Arthropod]]a
+| classis = [[Insect]]a
+| ordo = [[Lepidoptera]]
+| familia = [[Noctuidae]]
+| genus = &amp;apos;&amp;apos;[[Xestia]]&amp;apos;&amp;apos;
+| species = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;X. dolosa&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+| binomial = &amp;apos;&amp;apos;Xestia dolosa&amp;apos;&amp;apos;
+| binomial_authority = Franclemont, 1980
+}}
+The &amp;apos;&amp;apos;&amp;apos;Greater Black-letter Dart&amp;apos;&amp;apos;&amp;apos;, &amp;apos;&amp;apos;&amp;apos;Woodland Spotted Cutworm&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;Spotted Cutworm&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;Xestia dolosa&amp;apos;&amp;apos;) is a [[moth]] of the [[Noctuidae]] family (Note that the common name &amp;apos;&amp;apos;&amp;apos;Spotted Cutworm&amp;apos;&amp;apos;&amp;apos; is also used for larvae of &amp;apos;&amp;apos;[[Xestia c-nigrum]]&amp;apos;&amp;apos;). It is found from [[New Brunswick]] and [[Prince Edward Island]] to [[Florida]] west to [[Texas]], north to [[North Dakota]] and [[Manitoba]].
+
+This [[wingspan]] is about 40&amp;amp;nbsp;mm. The moth flies from May to October in two generations in the South and from July to August in one generation in the North.
+
+The [[larva]] feed on various crop plants, including barley, clovers, corn, tobacco as well as apple and maples.
+
+==External links==
+*[http://www.butterfliesandmoths.org/species?l=4759 butterfliesandmoths.org]
+*[http://bugguide.net/node/view/30522 Species info]
+
+{{DEFAULTSORT:Xestia Dolosa}}
+[[Category:Xestia]]
+
+
+{{Noctuinae-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

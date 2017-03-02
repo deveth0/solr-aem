@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="List of municipalities in Ciudad Real"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="List of municipalities in Ciudad Real" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;This is a list of the municipalities in the [[provinces of Spain|province]] of [[Ciudad Real (province)|Ciudad Real]] in the [[autonomous community]] of [[Castile–La Mancha]], [[Spain]].
+
+{| class=&amp;quot;wikitable sortable&amp;quot;
+|-
+!Name
+!Population.&amp;lt;br&amp;gt;(2002)
+|-
+|[[Abenójar, Ciudad Real|Abenójar]] || 1,725
+|-
+|[[Agudo (Spain)|Agudo]] || 2,013
+|-
+|[[Alamillo]] || 674
+|-
+|[[Albaladejo]] || 1,541
+|-
+|[[Alcázar de San Juan]] || 26,565
+|-
+|[[Alcoba]] || 801
+|-
+|[[Alcolea de Calatrava]] || 1,630
+|-
+|[[Alcubillas]] || 681
+|-
+|[[Aldea del Rey]] || 2,106
+|-
+|[[Alhambra, Ciudad Real|Alhambra]] || 1,213
+|-
+|[[Almadén]] || 6,830
+|-
+|[[Almadenejos]] || 550
+|-
+|[[Almagro, Ciudad Real|Almagro]] || 8,354
+|-
+|[[Almedina]] || 742
+|-
+|[[Almodóvar del Campo]] || 7,202
+|-
+|[[Almuradiel]] || 965
+|-
+|[[Anchuras]] || 414
+|-
+|[[Arenales de San Gregorio]] || 703
+|-
+|[[Arenas de San Juan]] || 1,061
+|-
+|[[Argamasilla de Alba]] || 6,791
+|-
+|[[Argamasilla de Calatrava]] || 5,408
+|-
+|[[Arroba de los Montes]] || 611
+|-
+|[[Ballesteros de Calatrava]] || 556
+|-
+|[[Bolaños de Calatrava]] || 11,374
+|-
+|[[Brazatortas]] || 1,200
+|-
+|[[Cabezarados]] || 379
+|-
+|[[Cabezarrubias del Puerto]] || 624
+|-
+|[[Calzada de Calatrava]] || 4,568
+|-
+|[[Campo de Criptana]] || 13,189
+|-
+|[[Cañada de Calatrava]] || 80
+|-
+|[[Caracuel de Calatrava]] || 159
+|-
+|[[Carrión de Calatrava]] || 2,651
+|-
+|[[Carrizosa]] || 1,619
+|-
+|[[Castellar de Santiago]] || 2,261
+|-
+|[[Ciudad Real]] || 65,084
+|-
+|[[Corral de Calatrava]] || 1,272
+|-
+|[[Los Cortijos]] || 1,026
+|-
+|[[Cózar]] || 1,260
+|-
+|[[Chillón]] || 2,272
+|-
+|[[Daimiel]] || 17,342
+|-
+|[[Fernán Caballero]] || 1,053
+|-
+|[[Fontanarejo]] || 348
+|-
+|[[Fuencaliente]] || 1,283
+|-
+|[[Fuenllana]] || 320
+|-
+|[[Fuente el Fresno]] || 3,544
+|-
+|[[Granátula de Calatrava]] || 1,029
+|-
+|[[Guadalmez]] || 996
+|-
+|[[Herencia]] || 7,239
+|-
+|[[Hinojosas de Calatrava]] || 722
+|-
+|[[Horcajo de los Montes]] || 1,030
+|-
+|[[Las Labores]] || 678
+|-
+|[[Luciana, Ciudad Real|Luciana]] || 446
+|-
+|[[Llanos del Caudillo]] || 692
+|-
+|[[Malagón]] || 8,015
+|-
+|[[Manzanares, Ciudad Real|Manzanares]] || 17,780
+|-
+|[[Membrilla]] || 6,601
+|-
+|[[Mestanza]] || 894
+|-
+|[[Miguelturra]] || 10,595
+|-
+|[[Montiel]] || 1,673
+|-
+|[[Moral de Calatrava]] || 5,283
+|-
+|[[Navalpino]] || 294
+|-
+|[[Navas de Estena]] || 404
+|-
+|[[Pedro Muñoz]] || 7,346
+|-
+|[[Picón]] || 661
+|-
+|[[Piedrabuena]] || 4,759
+|-
+|[[Poblete]] || 810
+|-
+|[[Porzuna]] || 3,854
+|-
+|[[Pozuelo de Calatrava]] || 2,602
+|-
+|[[Los Pozuelos de Calatrava]] || 524
+|-
+|[[Puebla de Don Rodrigo]] || 1,327
+|-
+|[[Puebla del Príncipe]] || 1,019
+|-
+|[[Puerto Lápice]] || 1,037
+|-
+|[[Puertollano]] || 50,035
+|-
+|[[Retuerta del Bullaque]] || 1,033
+|-
+|[[El Robledo]] || 1,084
+|-
+|[[Ruidera]] || 596
+|-
+|[[Saceruela]] || 723
+|-
+|[[San Carlos del Valle]] || 1,218
+|-
+|[[San Lorenzo de Calatrava]] || 297
+|-
+|[[Santa Cruz de los Cáñamos]] || 650
+|-
+|[[Santa Cruz de Mudela]] || 4,828
+|-
+|[[Socuéllamos]] || 11,580
+|-
+|[[La Solana]] || 15,340
+|-
+|[[Solana del Pino]] || 501
+|-
+|[[Terrinches]] || 976
+|-
+|[[Tomelloso]] || 30,430
+|-
+|[[Torralba de Calatrava]] || 2,903
+|-
+|[[Torre de Juan Abad]] || 1,381
+|-
+|[[Torrenueva]] || 3,208
+|-
+|[[Valdemanco del Esteras]] || 281
+|-
+|[[Valdepeñas]] || 26,796
+|-
+|[[Valenzuela de Calatrava]] || 802
+|-
+|[[Villahermosa, Ciudad Real|Villahermosa]] || 2,559
+|-
+|[[Villamanrique]] || 1,599
+|-
+|[[Villamayor de Calatrava]] || 628
+|-
+|[[Villanueva de la Fuente]] || 2,640
+|-
+|[[Villanueva de los Infantes]] || 5,800
+|-
+|[[Villanueva de San Carlos]] || 424
+|-
+|[[Villar del Pozo]] || 100
+|-
+|[[Villarrubia de los Ojos]] || 9,598
+|-
+|[[Villarta de San Juan]] || 2,972
+|-
+|[[Viso del Marqués]] || 3,002
+|}
+
+==See also==
+*[[Geography of Spain]]
+*[[List of Spanish cities]]
+
+{{Municipalities of Spain}}
+
+[[Category:Municipalities in the Province of Ciudad Real| ]]
+[[Category:Lists of municipalities in Spain|Ciudad Real]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

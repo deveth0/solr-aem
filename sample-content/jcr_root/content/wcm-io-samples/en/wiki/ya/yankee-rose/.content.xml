@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Yankee Rose"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Yankee Rose" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Yankee Rose&amp;apos;&amp;apos;&amp;apos; may refer to:
+* &amp;quot;Yankee Rose&amp;quot;, a 1920s song written by Sidney Holden and Abe Frankl, and published in 1926 by [[Irving Berlin]], Inc.
+* [[Yankee Rose (song)|&amp;quot;Yankee Rose&amp;quot; (song)]], a 1986 song by David Lee Roth on his album &amp;apos;&amp;apos;Eat &amp;apos;Em and Smile&amp;apos;&amp;apos;
+* [[The Satanic Bible#Yankee Rose|Yankee Rose]], the last words in the &amp;apos;&amp;apos;The Satanic Bible&amp;apos;&amp;apos; written by Anton Szandor LaVey
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Yohoia"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Yohoia" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{speciesbox
+| image = Yohoia.jpg
+|fossil_range = Mid Cambrian
+|regnum = [[Animal]]ia
+|phylum = [[Arthropoda]]
+|unranked_classis = [[Arachnomorpha]]
+|classis = [[Megacheira]]
+|familia = [[Yohoiidae]]
+|authority = 1912 Walcott
+|species= tenuis
+}}
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Yohoia&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is a tiny, extinct animal from the [[Cambrian]] period that has been found as [[fossil]]s in the [[Burgess Shale]] formation of [[British Columbia]], [[Canada]]. It has been placed among the arachnomorphs, a group of [[arthropod]]s that includes the [[Chelicerata|chelicerate]]s and [[trilobite]]s. Their sizes range from 7 to 23 mm. {{gpb abundance|711|1.35}}
+
+Specimens of &amp;apos;&amp;apos;Yohoia&amp;apos;&amp;apos; have a head shield which is followed by 13 trunk [[tergites]], or plates. On both sides, the bottom side of the first 10 of these ended in backward-pointing, triangular points or projections. The last three plates were complete tubes, circling the entire trunk. At the end of the trunk was a paddle-like tail. There were also a pair of large extensions at the front of the head shield. They had a pronounced &amp;quot;elbow&amp;quot; and ended in four long spines, looking rather like fingers. There were three appendages on the bottom of the head shield on each side, and these are assumed to have supported the creature on the sandy or silty sea bottom. There were also single appendages hanging down under the body plates which were flap-like and fringed with setae, probably used for swimming and [[Respiration (physiology)|respiration]]. Specimens also show some bulbous formations at the front of the head shield that may have served as eyes.&amp;lt;ref name=&amp;quot;fotbs&amp;quot;&amp;gt;[[Fossils of the Burgess Shale]]&amp;lt;/ref&amp;gt;
+
+Yohoia is assumed to been a mainly benthic (bottom-dwelling) creature that swam just above the muddy ocean floor and using its appendages to scavenge or capture prey.
+
+== External links ==
+* {{Burgess Shale species | 135}}
+==References==
+{{Reflist}}
+
+[[Category:Prehistoric arthropods]]
+[[Category:Burgess Shale fossils]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

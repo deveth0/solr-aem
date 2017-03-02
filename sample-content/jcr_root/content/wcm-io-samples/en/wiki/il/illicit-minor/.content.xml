@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Illicit minor"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Illicit minor" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Illicit minor&amp;apos;&amp;apos;&amp;apos; is a [[formal fallacy]] committed in a [[categorical syllogism]] that is [[validity|invalid]] because its [[minor term]] is [[distribution of terms|undistributed]] in the [[minor premise]] but distributed in the conclusion.
+
+This fallacy has the following [[argument form]]:
+:All A are B.
+:All A are C.
+:Therefore, all C are B.
+
+&amp;apos;&amp;apos;Example:&amp;apos;&amp;apos;
+
+: All cats are felines.
+: All cats are mammals.
+: Therefore, all mammals are felines.
+
+
+The minor term here is [[mammal]], which is not distributed in the [[minor premise]] &amp;quot;All cats are mammals,&amp;quot; because this premise is only defining a property of &amp;apos;&amp;apos;&amp;apos;possibly some&amp;apos;&amp;apos;&amp;apos; mammals (i.e., that they&amp;apos;re [[cat]]s.) However, in the conclusion &amp;quot;All mammals are felines,&amp;quot; mammal &amp;apos;&amp;apos;is&amp;apos;&amp;apos; distributed (it is talking about &amp;apos;&amp;apos;&amp;apos;all&amp;apos;&amp;apos;&amp;apos; mammals being felines).  It is shown to be false by any [[mammal]] that is not a [[Felidae|feline]]; for example, a [[dog]].
+
+&amp;apos;&amp;apos;Example:&amp;apos;&amp;apos;
+
+: Pie is good.
+: Pie is unhealthy.
+: Thus, all good things are unhealthy.
+
+
+== See also ==
+* [[Illicit major]]
+* [[Syllogistic fallacy]]
+
+{{FOLDOP}}
+
+{{Formal Fallacy}}
+
+[[Category:Syllogistic fallacies]]
+
+
+{{philosophy-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

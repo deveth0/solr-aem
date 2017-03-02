@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Band-stop filter"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Band-stop filter" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{refimprove|date=June 2010}}
+[[Image:Ideal Band Stop Filter Transfer Function.svg|frame|right|A generic ideal band-stop filter, showing both positive and negative [[angular frequency|angular frequencies]]]]
+
+In [[signal processing]], a &amp;apos;&amp;apos;&amp;apos;band-stop filter&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;band-rejection filter&amp;apos;&amp;apos;&amp;apos; is a [[filter (signal processing)|filter]] that passes most [[frequency|frequencies]] unaltered, but [[attenuate]]s those in a specific range to very low levels.  It is the opposite of a [[band-pass filter]].  A &amp;apos;&amp;apos;&amp;apos;notch filter&amp;apos;&amp;apos;&amp;apos; is a band-stop filter with a narrow [[stopband]] (high [[Q factor]]).
+
+Narrow notch filters ([[optical]]) are used in [[Raman spectroscopy]], live sound reproduction ([[public address system]]s, or PA systems) and in [[instrument amplifier]]s (especially amplifiers or [[preamplifier]]s for acoustic instruments such as [[acoustic guitar]], [[mandolin]], [[double bass|bass instrument amplifier]], etc.) to reduce or prevent [[audio feedback]], while having little noticeable effect on the rest of the frequency spectrum ([[Electronics|electronic]] or [[computer software|software]] filters). Other names include &amp;apos;band limit filter&amp;apos;, &amp;apos;T-notch filter&amp;apos;, &amp;apos;band-elimination filter&amp;apos;, and &amp;apos;band-reject filter&amp;apos;.
+
+Typically, the width of the stopband is 1 to 2 [[decade (log scale)|decade]]s (that is, the highest frequency attenuated is 10 to 100 times the lowest frequency attenuated).  However, in the [[Audio frequency|audio]] band, a notch filter has high and low frequencies that may be only [[semitone]]s apart.
+
+[[Image:Band-Reject_Filter.svg|frame|right|Generic electrical schematic of a simple band-stop filter]]
+
+== Examples ==
+
+=== In the audio domain ===
+&amp;apos;&amp;apos;&amp;apos;Anti-hum filter&amp;apos;&amp;apos;&amp;apos;
+
+For countries using 60 Hz [[electric power transmission|power lines]]:
+*Low Freq: 59 [[Hertz|Hz]]
+*High Freq: 61 [[Hertz|Hz]]
+This means that the filter passes all frequencies, except for the range of 59–61 Hz.  This would be used to filter out the [[mains hum]] from the 60 Hz power line, though its higher harmonics could still be present.
+
+For countries where power transmission is at 50Hz, the filter would have a 49–51 Hz range.
+
+&amp;apos;&amp;apos;&amp;apos;Anti-presence filter&amp;apos;&amp;apos;&amp;apos;
+
+*Low Freq: 1 [[kHz]]
+*High Freq: 4 [[kHz]]
+
+For attenuating [[Presence_(amplification)|presence]].
+
+=== In the radio frequency (RF) domain ===
+&amp;apos;&amp;apos;&amp;apos;Non-linearities of power amplifiers&amp;apos;&amp;apos;&amp;apos;
+
+When measuring the non-linearities of power amplifiers, a very narrow notch filter can be very useful to avoid the carrier frequency. Use of the filter may ensure that the maximum input power of a spectrum analyser used to detect spurious content will not be exceeded.
+
+&amp;apos;&amp;apos;&amp;apos;Wave trap&amp;apos;&amp;apos;&amp;apos;
+
+A notch filter, usually a simple LC circuit, is used to remove a specific interfering frequency.  This is a technique used with radio receivers that are so close to a transmitter that it swamps all other signals.  The wave trap is used to remove, or greatly reduce, the signal from the local transmitter.&amp;lt;ref&amp;gt;Joseph J. Carr, &amp;apos;&amp;apos;The technician&amp;apos;s radio receiver handbook: wireless and telecommunication technology&amp;apos;&amp;apos;, p.282, Newnes, 2001 ISBN 0-7506-7319-2.&amp;lt;/ref&amp;gt;
+
+=== In the optical domain ===
+
+Optical notch filters rely on destructive [[Interference_(wave_propagation)|interference]].
+
+==See also==
+*[[Band-pass filter]]
+*[[High-pass filter]]
+*[[Low-pass filter]]
+*[[Mains hum]]
+*[[Parametric equalizer]]
+*[[Bass instrument amplification]] (discusses use of notch filter to prevent feedback)
+
+== Notes ==
+{{reflist}}
+
+== References ==
+{{FS1037C MS188}}
+
+
+{{Electronic filters}}
+
+[[Category:Linear filters]]
+[[Category:Synthesiser modules]]
+[[Category:Filter frequency response]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

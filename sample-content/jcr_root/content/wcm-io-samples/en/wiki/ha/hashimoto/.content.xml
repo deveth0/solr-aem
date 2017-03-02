@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Hashimoto"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Hashimoto" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Nihongo|&amp;apos;&amp;apos;&amp;apos;Hashimoto&amp;apos;&amp;apos;&amp;apos;|橋本}} is a Japanese name meaning &amp;quot;base of bridge&amp;quot;, from {{Nihongo|hashi|橋}} meaning &amp;quot;bridge&amp;quot; and {{Nihongo|moto|本}} meaning &amp;quot;base&amp;quot;.&amp;lt;ref&amp;gt;{{cite web|author=Mike Campbell |url=http://surnames.behindthename.com/php/search.php?terms=Japanese&amp;amp;title=Japanese+Names&amp;amp;usage=yes |title=Behind the Name: Japanese Names |publisher=Surnames.behindthename.com |date= |accessdate=2012-10-31}}&amp;lt;/ref&amp;gt; It may refer to:
+
+* Hashimoto, a place in the city of [[Sagamihara, Kanagawa]], Japan
+*[[Hashimoto, Wakayama|Hashimoto]], a city in Wakayama Prefecture, Japan
+*[[Hashimoto (surname)]]
+
+==See also==
+* [[Hashimoto&amp;apos;s thyroiditis]], the most common form of thyroiditis
+* [[Hashimoto&amp;apos;s encephalopathy]], a rare neuroendocrine disorder
+* &amp;apos;The Hashimoto Prize&amp;apos;, A prestigious prize presented at [[New Jersey Institute of Technology]] to a top [[Electrical engineering]] or [[Computer engineering]] PhD candidate during its May commencement ceremony.&amp;lt;ref&amp;gt;{{cite web|url=http://commencement.njit.edu/2010/components/2010-commencement-program.pdf |title=&amp;apos;NJIT May 2010 Commencement Ceremony Guide&amp;apos; |format=PDF |date= |accessdate=2012-10-31}}&amp;lt;/ref&amp;gt;
+
+==References==
+{{Reflist}}
+
+{{disambiguation|geo}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

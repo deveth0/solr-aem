@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Shell integration"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Shell integration" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[File:Shell integration.svg|thumb|right|200px]]
+{{Calculus |Integral}}
+
+&amp;apos;&amp;apos;&amp;apos;Shell integration&amp;apos;&amp;apos;&amp;apos; (the &amp;apos;&amp;apos;&amp;apos;shell method&amp;apos;&amp;apos;&amp;apos; in [[integral calculus]]) is a means of [[calculation|calculating]] the [[volume]] of a [[solid of revolution]], when integrating along an axis parallel to the axis of revolution. While less intuitive than [[disc integration]], it usually produces simpler integrals.
+
+It makes use of the so-called &amp;quot;representative [[cylinder (geometry)|cylinder]]&amp;quot;. Intuitively speaking, part of the [[graph of a function]] is rotated around an [[axis of rotation|axis]], and is modelled by an infinite number of hollow pipes, all infinitely thin.
+
+The idea is that a &amp;quot;representative [[rectangle]]&amp;quot; (used in the most basic forms of [[integral|integration]] &amp;amp;ndash; such as ∫&amp;amp;nbsp;&amp;apos;&amp;apos;x&amp;apos;&amp;apos;&amp;amp;nbsp;&amp;apos;&amp;apos;dx&amp;apos;&amp;apos;) can be rotated about the [[solid of revolution|axis of revolution]]; thus generating a hollow cylinder. Integration, as an accumulative process, can then calculate the &amp;apos;&amp;apos;integrated&amp;apos;&amp;apos; volume of a &amp;quot;[[Family (disambiguation)#Mathematics|family]]&amp;quot; of shells (a shell being the outer edge of a hollow cylinder) &amp;amp;ndash; as volume is the [[antiderivative]] of area, if one can calculate the [[lateral surface]] area of a shell, one can then calculate its volume.
+
+Shell integration can be considered a special case of evaluating a [[double integral]] in [[polar coordinates]].
+
+== Calculation ==
+
+Mathematically, this method is represented by:
+:&amp;lt;math&amp;gt;2\pi \int_{a}^{b} p(x)h(x)\,dx&amp;lt;/math&amp;gt;
+
+if the rotation is around the [[y-axis]] (vertical axis of revolution), or
+
+:&amp;lt;math&amp;gt;2\pi \int_{a}^{b} p(y)h(y)\,dy&amp;lt;/math&amp;gt;
+
+if the rotation is around the [[x-axis]] (horizontal axis of revolution).
+
+[[File:Shell-integration.png|thumb|center|200px]]
+
+==See also==
+*[[Solid of revolution]]
+*[[Disk integration]]
+*[[Radius]]
+
+==References==
+*CliffsNotes.com. Volumes of Solids of Revolution. 12 Apr 2011 &amp;lt;http://www.cliffsnotes.com/study_guide/topicArticleId-39909,articleId-39907.html&amp;gt;.
+*{{MathWorld|title=Method of Shells|urlname=MethodofShells}}
+*Frank Ayres, Elliott Mendelson:&amp;apos;&amp;apos;Schaum&amp;apos;s outlines: Calculus&amp;apos;&amp;apos;. McGraw-Hill Professional 2008, ISBN 978-0-07-150861-2. pp.&amp;amp;nbsp;244–248 ({{Google books|Ag26M8TII6oC|online copy|page=244}})
+
+{{DEFAULTSORT:Shell Integration}}
+[[Category:Integral calculus]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

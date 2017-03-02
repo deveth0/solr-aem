@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="USS North Carolina"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="USS North Carolina" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Italic title prefixed|3}}
+&amp;apos;&amp;apos;&amp;apos;USS &amp;apos;&amp;apos;North Carolina&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+*{{USS|North Carolina|1820}} was a [[ship of the line]] launched in 1820 and sold in 1867
+*{{USS|North Carolina|ACR-12}} was a {{sclass-|Tennessee|cruiser}} launched in 1906 and escorted troop transports during World War I and sold for scrap in 1930
+*{{USS|North Carolina|BB-52}} was a &amp;apos;&amp;apos;South Dakota&amp;apos;&amp;apos;-class battleship, laid down but soon canceled by the [[Washington Naval Treaty]] in 1920
+*{{USS|North Carolina|BB-55}} is a {{sclass-|North Carolina|battleship}} launched in 1940; decommissioned in 1947 and a museum ship in Wilmington North Carolina
+*{{USS|North Carolina|SSN-777}} is a {{sclass-|Virginia|submarine}} commissioned in 2008 and currently in service
+
+;See also
+*[[CSS North Carolina|CSS &amp;apos;&amp;apos;North Carolina&amp;apos;&amp;apos;]].
+
+{{Shipindex}}
+
+{{DEFAULTSORT:North Carolina, USS}}
+[[Category:United States Navy ship names]]
+[[Category:United States Navy North Carolina-related ships]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

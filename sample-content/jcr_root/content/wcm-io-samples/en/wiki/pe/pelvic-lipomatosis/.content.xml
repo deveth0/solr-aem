@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Pelvic lipomatosis"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Pelvic lipomatosis" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The [[rare disease]] &amp;apos;&amp;apos;&amp;apos;pelvic lipomatosis&amp;apos;&amp;apos;&amp;apos; is most often seen in older [[obese]] black men with [[hypertension]]. In pelvic [[lipomatosis]], abnormally dense deposits of otherwise apparently normal [[fat]] may be observed in the spaces of the pelvic area. Associated with [[cystitis glandularis]], a precursor to [[adenocarcinoma]] of the [[urinary bladder]].
+
+==References==
+* Fogg LB, Smyth JW. &amp;apos;&amp;apos;Pelvic lipomatosis: a condition simulating pelvic neoplasm.&amp;apos;&amp;apos; Radiology. 1968;90:558.
+
+==External links==
+* http://www.medscape.com/viewarticle/417016_print
+* [http://www.blackwell-science.com/products/journals/bjui/cases/87.7/bju2155.htm An example of aggressive pelvic lipomatosis]
+* [http://www.lipomaboard.com Lipoma Board]
+
+[[Category:Medical conditions related to obesity]]
+
+
+{{disease-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="R Leporis"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="R Leporis" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Starbox begin
+| name = [[Variable star designation|R&amp;amp;nbsp;Leporis]]}}
+{{Starbox image
+| image = [[Image:R Leporis.png|250px]]
+| caption=Location of R Leporis in the constellation Lepus.
+}}
+{{Starbox observe
+| epoch = [[J2000.0]]
+| equinox = [[J2000.0]] ([[International Celestial Reference System|ICRS]])
+| constell = [[Lepus (constellation)|Lepus]]
+| ra = {{RA|04|59|36.3487}}&amp;lt;ref name=sb0&amp;gt;{{SIMBAD link|R+Lep|V* R Lep -- Variable Star of Mira Cet type}}, database entry, [[SIMBAD]].  Accessed on line November 19, 2009.&amp;lt;/ref&amp;gt;
+| dec = {{DEC|−14|48|22.518}}&amp;lt;ref name=sb0 /&amp;gt;
+| appmag_v=5.5&amp;amp;nbsp;to&amp;amp;nbsp;11.7&amp;lt;ref name=gcvs1&amp;gt;R Lep, database entry, [http://www.sai.msu.su/groups/cluster/gcvs/gcvs/iii/iii.dat The combined table of GCVS Vols I-III and NL 67-78 with improved coordinates, General Catalogue of Variable Stars], Sternberg Astronomical Institute, Moscow, Russia.  Accessed on line November 19, 2009.&amp;lt;/ref&amp;gt;
+}}
+{{Starbox character
+| class = C7,6e(N6e)&amp;lt;ref name=gcvs1 /&amp;gt;
+| b-v = +5.74&amp;lt;ref name=bsc2&amp;gt;[http://webviz.u-strasbg.fr/viz-bin/VizieR-5?-out.add=.&amp;amp;-source=V/50/catalog&amp;amp;recno=1607 HR 1607], database entry, The Bright Star Catalogue,  5th Revised Ed. (Preliminary Version), D. Hoffleit and W. H. Warren, Jr., [[Centre de Données astronomiques de Strasbourg|CDS]] ID [http://vizier.u-strasbg.fr/viz-bin/Cat?V/50 V/50].  Accessed on line November 19, 2009.&amp;lt;/ref&amp;gt;
+| r-i = +1.47&amp;lt;ref name=bsc2 /&amp;gt;
+| variable = [[Mira variable|Mira (long-period)]]&amp;lt;ref name=gcvs1 /&amp;gt;
+}}
+{{Starbox astrometry
+| radial_v = 32.4&amp;amp;nbsp;±&amp;amp;nbsp;2&amp;lt;ref name=sb0 /&amp;gt;
+| prop_mo_ra = 7.51&amp;lt;ref name=sb0 /&amp;gt;
+| prop_mo_dec = −4.27&amp;lt;ref name=sb0 /&amp;gt;
+| parallax = 2.42
+| p_error = 1.02
+| parallax_footnote = &amp;lt;ref name=sb0 /&amp;gt;
+| absmag_v=    2&amp;lt;ref&amp;gt;From apparent magnitude and parallax.&amp;lt;/ref&amp;gt;
+}}
+{{Starbox detail
+|radius=500
+}}
+{{Starbox catalog
+| names=R&amp;amp;nbsp;Lep, AAVSO&amp;amp;nbsp;0455-14, [[Durchmusterung|BD]]−15&amp;amp;nbsp;915, [[Boss General Catalogue|GC]]&amp;amp;nbsp;6093, [[Henry Draper Catalogue|HD]]&amp;amp;nbsp;31996, [[Hipparcos Catalogue|HIP]]&amp;amp;nbsp;23203, [[Bright Star Catalogue|HR]]&amp;amp;nbsp;1607, IRC&amp;amp;nbsp;-10080, [[PPM Star Catalogue|PPM]]&amp;amp;nbsp;215123, RAFGL&amp;amp;nbsp;667, [[Smithsonian Astrophysical Observatory Star Catalog|SAO]]&amp;amp;nbsp;150058.&amp;lt;ref name=sb0 /&amp;gt;}}
+{{Starbox reference
+| Simbad=R+Lep}}
+{{Starbox end}}
+
+&amp;apos;&amp;apos;&amp;apos;R&amp;amp;nbsp;Leporis&amp;apos;&amp;apos;&amp;apos;  (&amp;apos;&amp;apos;&amp;apos;R&amp;amp;nbsp;Lep&amp;apos;&amp;apos;&amp;apos;), sometimes called &amp;apos;&amp;apos;&amp;apos;Hind&amp;apos;s Crimson Star&amp;apos;&amp;apos;&amp;apos;,&amp;lt;ref name=allen /&amp;gt; is a well-known [[variable star]] in the constellation [[Lepus (constellation)|Lepus]], near its border with [[Eridanus (constellation)|Eridanus]].   It is designated &amp;apos;&amp;apos;&amp;apos;&amp;quot;R&amp;quot;&amp;apos;&amp;apos;&amp;apos; in the chart to the right.&amp;lt;ref name=sb0 /&amp;gt;
+
+It is a [[carbon star]] which appears distinctly red. It is named after famous British astronomer [[John Russell Hind|J. R. Hind]], who observed it in 1845.  Its [[apparent magnitude]] varies from +5.5 to +11.7 with a period of 418&amp;amp;ndash;441 days, although recent measurements give a period of 427.07 days.  There may be a secondary period of 40 years.&amp;lt;ref name=bsc2 /&amp;gt;
+
+R Leporis has often been reported as an intense smoky red color, although this is not pronounced when the star is near its maximum brightness. It is reddest when it is dimmest, which occurs every 14.5 months. During these periods it is a candidate for the most-visible reddest star, but this claim is questionable. The red coloration may be caused by carbon in the star&amp;apos;s outer atmosphere filtering out the blue part of its [[visible light]] [[spectrum]].  The star&amp;apos;s discoverer, Hind, reported that it appeared &amp;quot;like a drop of blood on a black field.&amp;quot;&amp;lt;ref name=allen&amp;gt;p. 269, [http://books.google.com/books?id=5xQuAAAAIAAJ &amp;apos;&amp;apos;Star-names and their meanings&amp;apos;&amp;apos;], Richard Hinckley Allen, New York: G. E. Stechert, 1899.&amp;lt;/ref&amp;gt;
+
+==References==
+{{reflist}}
+
+== External links ==
+* [http://www.noao.edu/outreach/aop/observers/rleporis.html Best of the Advanced Observation Program: R Leporis]
+* [http://www.usatoday.com/tech/news/2004-01-30-nightsky_x.htm USA Today.com - NightSky: The Hare and the Dove]
+* [http://www.smokymtnastro.org/scraps/Jan2004.pdf Smoky Mountain Astronomical Society - Hind&amp;apos;s Crimson Star: R Leporis]
+* [http://www.geody.com/geospot.php?world=space&amp;amp;ufi=23203&amp;amp;alc=hnd Geody Hinds Crimson Star]
+
+[[Category:C-type stars]]
+[[Category:Mira variables]]
+[[Category:Lepus (constellation)]]
+[[Category:Henry Draper Catalogue objects|031996]]
+[[Category:Hipparcos objects|023203]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

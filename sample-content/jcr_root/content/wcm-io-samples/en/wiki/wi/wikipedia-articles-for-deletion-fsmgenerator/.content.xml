@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:Articles for deletion/FSMGenerator"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:Articles for deletion/FSMGenerator" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;Article [[FSMGenerator]] listed on [[WP:VFD]] Apr 22 to Apr 29 2004, consensus was to delete.  Discussion:
+
+Advert. BTW, the external link doesn&amp;apos;t even work.  :-)  Delete.  [[User:SWAdair|SWAdair]] | [[User talk:SWAdair|Talk ]] 06:42, 22 Apr 2004 (UTC)
+
+* Delete. [[User:Fuzheado|Fuzheado]] 07:08, 22 Apr 2004 (UTC)
+* Delete -- [[User:Cyrius|Cyrius]]|[[User talk:Cyrius|&amp;amp;#9998]] 13:05, Apr 22, 2004 (UTC)
+* Delete.  [[User:Postdlf|Postdlf]]  00:10 23 Apr 2004 (UTC)
+* Delete. Garbage. [[User:Mat-C|Mat-C]] 02:09, 23 Apr 2004 (UTC)
+* Unsubstantiated advertising claim.  Delete. - [[User:Lucky 6.9|Lucky 6.9]] 17:35, 26 Apr 2004 (UTC)
+* Delete. [[User:Cribcage|Cribcage]] 01:10, 27 Apr 2004 (UTC)
+
+&amp;apos;&amp;apos;End discussion&amp;apos;&amp;apos;&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="O Senhor Embaixador"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="O Senhor Embaixador" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=July 2009}}{{Notability|date=July 2009}}
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;O Senhor Embaixador&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;His Excellency, the Ambassador&amp;apos;&amp;apos;) is a [[novel]] by [[Erico Verissimo]], about the history of the fictional Republic of Sacramento. The story focus mainly on the staff of the Sacramentese embassy in Washington, showing the lives of those people and talking about the larger plot of the Sacramento &amp;quot;Republic&amp;quot;.
+
+== Sacramento ==
+The Sacramento depicted in the novel seems to be an amalgam of various Latin American countries of the time, exhibiting the common problems of dictatorship, corruption, instability, inequality and pressures from the superpowers, especially the United States, that are depicted in the novel as directly influencing through military incursions and economic pressure the political, economic and social state of Sacramento, mainly in order to benefit American multinational corporations in the country (references are made to &amp;quot;[[War is a Racket]]&amp;quot;). Sacramento also exhibits a resemblance to Cuba, especially by the end of the book, when a revolution led by a messianic figure (who is actually a puppet controlled by a radical communist), overthrows a US supported dictator.
+
+{{DEFAULTSORT:Senhor Embaixador}}
+[[Category:1965 novels]]
+[[Category:Brazilian novels]]
+
+
+{{1960s-novel-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

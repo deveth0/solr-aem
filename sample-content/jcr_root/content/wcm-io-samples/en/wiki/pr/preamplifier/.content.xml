@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Preamplifier"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Preamplifier" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Redirect|Preamp|the device used in professional audio|Microphone preamplifier}}
+[[Image:Musicfirstaudioclassicpreamplifier.jpg|thumb|right|An example of a typical [[high-end]] [[stereo]] preamplifier.]]
+
+A &amp;apos;&amp;apos;&amp;apos;preamplifier&amp;apos;&amp;apos;&amp;apos; (preamp) is an [[electronic amplifier]] that prepares a small electrical [[Signalling (telecommunication)|signal]] for further amplification or processing. A preamplifier is often placed close to the [[sensor]] to reduce the effects of [[Noise (electronics)|noise]] and [[Electromagnetic interference|interference]]. It is used to boost the signal strength to drive the cable to the main instrument without significantly degrading the [[signal-to-noise ratio]] (SNR). The noise performance of a preamplifier is critical; according to [[Friis formulas for noise|Friis&amp;apos;s formula]], when the gain of the preamplifier is high, the SNR of the final signal is determined by the SNR of the input signal and the [[noise figure]] of the preamplifier.
+
+In a home [[audio system]], the term &amp;apos;preamplifier&amp;apos; may sometimes be used to describe equipment which merely [[switch]]es between different [[line level]] sources and applies a [[attenuation|volume control]], so that no actual amplification may be involved. In an audio system, the second amplifier is typically a [[power amplifier]] (power amp).  The preamplifier provides [[voltage]] gain (e.g. from 10 millivolts to 1 volt) but no significant [[Electric current|current]] gain. The power amplifier provides the higher current necessary to drive [[loudspeakers]].
+
+Preamplifiers may be:
+* incorporated into the housing or chassis of the amplifier they feed
+* in a separate housing
+* mounted within or near the signal source, such as a turntable, microphone or [[musical instrument]].
+
+Preamplifier Types:
+Three basic types of preamplifiers are available: the current-sensitive preamplifier, the parasitic-capacitance preamplifier, and the
+[[charge amplifier|charge-sensitive preamplifier]].
+
+== Examples ==
+
+
+* The integrated preamplifier in a foil [[electret]] microphone.
+* The first stages of an [[instrument amplifier]], which is then sent to the power amplifier. With instrument amplifiers, the preamp is often designed to produce [[distortion (music)|overdrive]] or distortion effects (listen to the [[James Cotton]] sound clip on the right to hear the sound of an overdriven guitar preamp).
+* A stand-alone unit for use in [[live music]] and [[recording studio]] applications.
+* As part of a stand-alone [[channel strip]] or channel strip built into an audio [[mixing desk]].
+* A [[Radio masts and towers|masthead]] amplifier used with [[television]] receiver [[antenna (electronics)|antenna]] or a [[satellite]] [[Receiver (radio)|receiver]] dish.
+* The circuit inside of a hard drive connected to the magnetic heads or the circuit inside of CD/DVD drive which connects to the [[photodiode]]s.
+* A [[switched capacitor]] circuit used to null the effects of mismatch offset in most [[CMOS]] comparator-based flash [[analog-to-digital converter]]s
+
+==See also==
+* [[Low-noise amplifier]] (LNA)
+* [[Instrumentation amplifier]]
+* [[Buffer amplifier]]
+* [[Logarithmic resistor ladder]]
+
+==External links==
+
+* [http://www.preamplifier.org Preamplifier.org - An overview of the most common types of preamplifiers.]
+
+{{music technology}}
+
+[[Category:Electronic amplifiers]]
+[[Category:Audio engineering]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

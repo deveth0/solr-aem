@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Balmain"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Balmain" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Balmain&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+&amp;apos;&amp;apos;&amp;apos;Places&amp;apos;&amp;apos;&amp;apos;:
+* [[Balmain, New South Wales]], a suburb of Sydney, Australia
+* [[Electoral district of Balmain]], an electoral division in New South Wales, Australia
+* [[Balmain East, New South Wales]], a suburb of Sydney, Australia
+* [[Balmain, Trinidad and Tobago|Balmain]], a town in [[Trinidad and Tobago]]
+&amp;apos;&amp;apos;&amp;apos;People&amp;apos;&amp;apos;&amp;apos; with the surname Balmain:
+* [[William Balmain]] (1762&amp;amp;ndash;1803), a surgeon at the first European settlement in Sydney
+* [[Pierre Balmain]] (1914&amp;amp;ndash;1982), a French fashion designer
+
+&amp;apos;&amp;apos;&amp;apos;Balmain&amp;apos;&amp;apos;&amp;apos; may also refer to:
+* [[Balmain Tigers]], a Sydney rugby league football club
+* [[Balmain bug]], a crustacean
+* [[Balmain (fashion house)]], a fashion house founded by Pierre Balmain
+* [[Balmain Colliery]], a former coal mine in Birchgrove, New South Wales
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

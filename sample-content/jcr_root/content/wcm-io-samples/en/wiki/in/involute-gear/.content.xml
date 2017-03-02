@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Involute gear"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Involute gear" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Image:Involute wheel.gif|right|frame|Two involute gears, the left driving the right: Blue arrows show the contact forces between them.  The force line (or [[gear#Line of Action|Line of Action]]) runs along a tangent common to both base circles. (In this situation, there is no force, and no contact needed, along the opposite common tangent not shown.)  The involutes here are traced out in converse fashion: points (of contact) move along the &amp;apos;&amp;apos;stationary&amp;apos;&amp;apos; force-vector &amp;quot;string&amp;quot; as if it was being unwound from the left &amp;apos;&amp;apos;rotating&amp;apos;&amp;apos; base circle, and wound onto the right &amp;apos;&amp;apos;rotating&amp;apos;&amp;apos; base circle.]]
+
+The &amp;apos;&amp;apos;&amp;apos;involute gear&amp;apos;&amp;apos;&amp;apos; profile is the most commonly used system for [[gear]]ing today.  In an involute gear, the profiles of the teeth are &amp;apos;&amp;apos;[[involute]]s of a circle.&amp;apos;&amp;apos; (The involute of a circle is the spiraling curve traced by the end of an imaginary taut string unwinding itself from that stationary circle called the base circle.)
+
+In involute gear design contact between a pair of gear teeth occurs at a single instantaneous point (see figure at right).  Rotation of the gears causes the location of this contact point to move across the respective tooth surfaces.  The path traced by this contact point is known as the [[gear#Line of Action|Line of Action]] (also called Pressure Line or Line of Contact).  A property of the involute tooth form is that if the gears are meshed properly, the line of action is straight and passes through the [[gear#Pitch Point|Pitch Point]] of the gears, and is tangent to the two base circles.  When this is true, the gears obey the Fundamental Law of Gearing:&amp;lt;ref&amp;gt;Norton, R.L., 2006, &amp;apos;&amp;apos;Machine Design: An Integrated Approach&amp;apos;&amp;apos;, 3rd Ed, Pearson/Prentice-Hall, ISBN 0-13-148190-8&amp;lt;/ref&amp;gt;
+
+&amp;lt;blockquote&amp;gt;
+&amp;apos;&amp;apos;The angular velocity ratio between two gears of a gearset must remain constant throughout the mesh.&amp;apos;&amp;apos;
+&amp;lt;/blockquote&amp;gt;
+
+This property is required for smooth transmission of power with minimal speed or torque variations as pairs of teeth go into or come out of mesh, but is not required for low-speed gearing.
+
+The [[Angle of pressure|Pressure Angle]] is the acute angle between the line of action and a normal to the line connecting the gear centers.  The pressure angle of the gear is a function of the involute tooth shape and pairs of gears must have the same pressure angle in order for the teeth to mesh properly.
+
+While any pressure angle can be manufactured, the most common stock gears have a 20° pressure angle, with 14½° and 25° pressure angle gears being much less common.&amp;lt;ref&amp;gt;Juvinall, R.C. and K.M. Marshek, 2006, &amp;apos;&amp;apos;Fundamentals of Machine Component Design&amp;apos;&amp;apos;, 4th Ed, Wiley, ISBN 978-0-471-66177-1, p. 598&amp;lt;/ref&amp;gt;  Increasing the pressure angle increases the width of the base of the gear tooth, leading to greater strength and load carrying capacity.  Decreasing the pressure angle provides lower backlash, smoother operation and less sensitivity to manufacturing errors.&amp;lt;ref&amp;gt;Boston Gear Company, Open Gearing Catalog, http://bostongear.com/products/open/spur.html&amp;lt;/ref&amp;gt;
+
+==References==
+{{Reflist}}
+
+{{Gears}}
+
+==External links==
+*[http://kmoddl.library.cornell.edu/index.php Kinematic Models for Design Digital Library (KMODDL)]&amp;lt;br /&amp;gt; Movies and photos of hundreds of working mechanical-systems models at Cornell University. Also includes an [http://kmoddl.library.cornell.edu/e-books.php e-book library] of classic texts on mechanical design and engineering.
+
+==External links==
+*[http://auto.howstuffworks.com/gear8.htm Involute gear at How Stuff Works - with animation]
+
+{{DEFAULTSORT:Involute Gear}}
+[[Category:Gears]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

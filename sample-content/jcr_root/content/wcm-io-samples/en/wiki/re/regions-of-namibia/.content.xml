@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Regions of Namibia"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Regions of Namibia" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Politics of Namibia}}
+The [[Subnational|administrative]] division of [[Namibia]] is tabled by &amp;apos;&amp;apos;Delimitation Commissions&amp;apos;&amp;apos; and accepted or declined by the [[National Assembly of Namibia|National Assembly]]. The First Delimitation Commission chaired by Judge President [[Johan Strydom]] suggested in 1992 that Namibia be divided into 13 Regions, a number that has not been amended since.&amp;lt;ref&amp;gt;{{cite book
+|title=Focus on: Khomas Region
+|chapter=Khomas Region, a constitutional, political and geographical hybrid
+|last=Matundu-Tjiparuro
+|first=Mae
+|publisher=supplement to [[New Era (Namibia)|New Era]]
+|page=3
+|date=28 February 2011}}&amp;lt;/ref&amp;gt;
+
+{| class=wikitable
+! # !! &amp;apos;&amp;apos;&amp;apos;Region&amp;apos;&amp;apos;&amp;apos; !! &amp;apos;&amp;apos;&amp;apos;Capital&amp;apos;&amp;apos;&amp;apos; !! &amp;apos;&amp;apos;&amp;apos;Population (2011)&amp;apos;&amp;apos;&amp;apos;&amp;lt;ref&amp;gt;{{cite news
+|url=http://www.namibian.com.na/news-articles/national/full-story/archive/2012/april/article/namibias-population-hits-21-million/
+|title=Namibia’s population hits 2,1 million
+|last=Smit
+|first=Nico
+|date=12 April 2012
+|work=[[The Namibian]]}}&amp;lt;/ref&amp;gt;&amp;lt;ref name=ElectionWatch&amp;gt;{{cite journal
+|year=2013
+|title=Namibia&amp;apos;s Population by Region
+|journal=Election Watch
+|publisher=Institute for Public Policy Research
+|issue=1
+|page=3}}&amp;lt;/ref&amp;gt; !! &amp;apos;&amp;apos;&amp;apos;Area (km²)&amp;apos;&amp;apos;&amp;apos;&amp;lt;ref name=ElectionWatch/&amp;gt; !! Population density&amp;lt;br /&amp;gt; persons/km²
+|-
+! 1
+| [[Caprivi Region]] || [[Katima Mulilo]]
+| style=&amp;quot;text-align:right;&amp;quot; | 90,100
+| style=&amp;quot;text-align:right;&amp;quot; | 14,785
+| style=&amp;quot;text-align:right;&amp;quot; | 6.1
+|-
+! 2
+| [[Erongo Region]] || [[Swakopmund]]
+| style=&amp;quot;text-align:right;&amp;quot; | 150,400
+| style=&amp;quot;text-align:right;&amp;quot; | 63,539
+| style=&amp;quot;text-align:right;&amp;quot; | 2.4
+|-
+! 3
+| [[Hardap Region]] || [[Mariental, Namibia|Mariental]]
+| style=&amp;quot;text-align:right;&amp;quot; | 79,000
+| style=&amp;quot;text-align:right;&amp;quot; | 109,781
+| style=&amp;quot;text-align:right;&amp;quot; | 0.7
+|-
+! 4
+| [[Karas Region]] || [[Keetmanshoop]]
+| style=&amp;quot;text-align:right;&amp;quot; | 76,000
+| style=&amp;quot;text-align:right;&amp;quot; | 161,514
+| style=&amp;quot;text-align:right;&amp;quot; | 0.5
+|-
+! 5
+| [[Kavango Region]] || [[Rundu]]
+| style=&amp;quot;text-align:right;&amp;quot; | 222,500
+| style=&amp;quot;text-align:right;&amp;quot; | 48,742
+| style=&amp;quot;text-align:right;&amp;quot; | 4.6
+|-
+! 6
+| [[Khomas Region]] || [[Windhoek]]
+| style=&amp;quot;text-align:right;&amp;quot; | 340,900
+| style=&amp;quot;text-align:right;&amp;quot; | 36,964
+| style=&amp;quot;text-align:right;&amp;quot; | 9.2
+|-
+! 7
+| [[Kunene Region]] || [[Opuwo]]
+| style=&amp;quot;text-align:right;&amp;quot; | 88,300
+| style=&amp;quot;text-align:right;&amp;quot; | 115,260
+| style=&amp;quot;text-align:right;&amp;quot; | 0.8
+|-
+! 8
+| [[Ohangwena Region]] || [[Eenhana]]
+| style=&amp;quot;text-align:right;&amp;quot; | 245,100
+| style=&amp;quot;text-align:right;&amp;quot; | 10,706
+| style=&amp;quot;text-align:right;&amp;quot; | 22
+|-
+! 9
+| [[Omaheke Region]] || [[Gobabis]]
+| style=&amp;quot;text-align:right;&amp;quot; | 70,800
+| style=&amp;quot;text-align:right;&amp;quot; | 84,981
+| style=&amp;quot;text-align:right;&amp;quot; | 0.8
+|-
+! 10
+| [[Omusati Region]] || [[Outapi]]
+| style=&amp;quot;text-align:right;&amp;quot; | 242,900
+| style=&amp;quot;text-align:right;&amp;quot; | 26,551
+| style=&amp;quot;text-align:right;&amp;quot; | 9.1
+|-
+! 11
+| [[Oshana Region]] || [[Oshakati]]
+| style=&amp;quot;text-align:right;&amp;quot; | 174.900
+| style=&amp;quot;text-align:right;&amp;quot; | 8,647
+| style=&amp;quot;text-align:right;&amp;quot; | 20
+|-
+! 12
+| [[Oshikoto Region]] || [[Omuthiya]]
+| style=&amp;quot;text-align:right;&amp;quot; | 181,600
+| style=&amp;quot;text-align:right;&amp;quot; | 38,685
+| style=&amp;quot;text-align:right;&amp;quot; | 4.7
+|-
+! 13
+| [[Otjozondjupa Region]] || [[Otjiwarongo]]
+| style=&amp;quot;text-align:right;&amp;quot; | 142,400
+| style=&amp;quot;text-align:right;&amp;quot; | 105,460
+| style=&amp;quot;text-align:right;&amp;quot; | 1.4
+|}
+
+==Map of regions==
+{| class=&amp;quot;wikitable&amp;quot;
+|-
+! Regions of [[Namibia]]
+|-
+| [[Image:Namibia Regions numbered.png|center|260px|Map of Namibian administrative regions.]]
+|- style=&amp;quot;vertical-align:top;&amp;quot;
+| {{div col|2}}
+:1. [[Caprivi Region|Caprivi]]
+:2. [[Erongo Region|Erongo]]
+:3. [[Hardap Region|Hardap]]
+:4. [[Karas Region|Karas]]
+:5. [[Okavango Region|Okavango]]
+:6. [[Khomas Region|Khomas]]
+:7. [[Kunene Region|Kunene]]
+:8. [[Ohangwena Region|Ohangwena]]
+:9. [[Omaheke]]
+:10. [[Omusati]]
+:11. [[Oshana]]
+:12. [[Oshikoto Region|Oshikoto]]
+:13. [[Otjozondjupa]]
+{{div col end}}
+|}
+
+==See also==
+*[[Constituencies of Namibia]]
+*[[ISO 3166-2:NA]]
+
+==References==
+{{reflist}}
+*{{cite web |title=Namibia 2001 Population and Housing Census |url=http://www.npc.gov.na/census/index.htm |publisher=National Planning Commission |year=2001 |accessdate=2008-12-27}}
+
+{{Regions of Namibia}}
+{{Articles on first-level administrative divisions of African countries}}
+
+[[Category:Regions of Namibia| ]]
+[[Category:Subdivisions of Namibia]]
+[[Category:Lists of country subdivisions|Namibia, Regions]]
+[[Category:Country subdivisions of Africa|Namibia 1]]
+[[Category:First-level administrative country subdivisions|Regions, Namibia]]
+[[Category:Namibia geography-related lists]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

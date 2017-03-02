@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="File:Loom.png"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="File:Loom.png" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;Loom screenshot, taken using [[ScummVM]], scaled using HQ2x filter, with aspect ratio correction.
+Taken from the scummvm.org screenshots page
+{{Non-free video game screenshot|image has rationale=yes}}
+{{Non-free use rationale|Description=Screenshot from &amp;apos;&amp;apos;[[Loom (video game)]]&amp;apos;&amp;apos;.
+|Source=www.scummvm.org , with the screenshot there taken in game with ScummVM.
+|Portion=A single screenshot, which is trivial compared to the game as a whole, the actual product being sold.
+|Resolution=Web resolution.
+|Article=Loom (video game)
+|Purpose=Identify a typical scene from &amp;apos;&amp;apos;Loom&amp;apos;&amp;apos; and show its graphics; additionally, explain the style of the [[SCUMM]] system in general.
+|Replaceability=Irreplaceable.  It&amp;apos;s a copyrighted game; no free image is possible that is also correct for what the game actually is.  No art has been released into the public domain to my knowledge.
+|other_information=This screenshot does not in any way affect the merchantability of the product.
+}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="NetPositive"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="NetPositive" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=June 2009}}
+{{Infobox Software
+| name                   = NetPositive
+| logo                   = [[Image:NetPositiveIcon.png]]
+| screenshot             = [[Image:NetPositive.png|250px]]
+| caption                = NetPositive 2.2 under [[BeOS R5]] showing Wikipedia (no CSS support)
+| developer              = [[Be Inc.]]
+| latest_release_version = 2.2.2 &amp;lt;!-- If you update this, don&amp;apos;t forget to update [[Comparison of web browsers]]--&amp;gt;
+| latest_release_date    = {{release_date|2001|11|01}}
+| operating_system       = [[BeOS]]
+| genre                  = [[Web browser]]
+| license                = [[Proprietary software|Proprietary]]
+| website                =
+}}
+
+&amp;apos;&amp;apos;&amp;apos;NetPositive&amp;apos;&amp;apos;&amp;apos; (often called &amp;apos;&amp;apos;&amp;apos;Net+&amp;apos;&amp;apos;&amp;apos;) is the default browser that comes with the [[BeOS|Be Operating System]] (BeOS). It has partial support for [[JavaScript]], but no [[Java (programming language)|Java]] or [[Cascading Style Sheets|CSS]] support. NetPositive originally was the only web browser available for BeOS, but that is no longer the case. The last official version of NetPositive before the Be, Inc. bankruptcy was 2.2 /2.2.1 for US customers, but there also exists a 3.0d3 beta version, and a leaked 2.2.2 which changed from the [[RSA (security firm)|RSA Encryption Engine]] to [[OpenSSL]], possibly indicating that Be were cleaning the source of commercial code with an intent to [[open source]], like the [[OpenTracker]] project.
+
+Built binaries of NetPositive, including all encryption libraries, and other tools not provided by the OS itself, such as the [[HTTP]] and [[File Transfer Protocol|FTP]] engines, weigh in from 1.4 to 1.7 [[Megabyte|MB]] in size, uncompressed, depending on the strength of encryption provided.
+
+NetPositive can be embedded into another application, or into the desktop of the OS itself, using the replicants system provided by the OS. When [[Active Desktop]] was launched on [[Microsoft Windows|Windows]], [[Microsoft]] promoted it as having been a major achievement. Be later claimed to have cloned the functionality using NetPositive (where [[Internet Explorer]] is used in Windows) in &amp;quot;nine lines of code&amp;quot;.
+
+A number of projects exist to clone NetPositive for BeOS, due to BeOS users&amp;apos; familiarity with its interface. The most advanced of these is [[Themis (browser)|Themis]], which aims to capture the feel of NetPositive in a browser with modern features. There is also [[Net plus plus|Net++]], which aims to use the [[Gecko (layout engine)|Gecko]] [[layout engine]] in the shell of the failed [[NetOptimist]] browser. For Haiku there is a successor for NetPositive, based on WebKit, called [[WebPositive]].
+
+It is still included in [[Magnussoft ZETA|ZETA]] as the default browser for opening saved files and links from other applications, due to unfinished implementation of the native OS bindings in [[Mozilla Firefox]] for BeOS. However, Firefox is promoted as being the primary browser on the platform.
+
+==Error messages in Haiku==
+
+The browser was notable among BeOS users due to its [[haiku in English|haiku]] error messages, which led to the name of [[Haiku (operating system)|Haiku]], an open-source BeOS clone. A late 1990s email joke which claimed that Microsoft was moving to Haiku error messages in Japanese versions of Windows was almost entirely made up of NetPositive error messages. For instance, a user might see the following error message if they try to access a website that is unavailable:
+
+:Cables have been cut
+:Southwest of Northeast somewhere
+:We are not amused.
+
+If the user tried unsuccessfully to authenticate against a website, they might see:
+
+:Server&amp;apos;s poor response
+:Not quick enough for browser.
+:Timed out, plum blossom.
+
+==External links==
+*[http://www.arstechnica.com/reviews/4q99/bebrow/bebrow-1.html Browsin&amp;apos; on BeOS article]
+*[http://www.libpng.org/pub/png/pngs-img-netpos.html NetPositive 2.2 PNG screenshots]
+*[http://themis.sourceforge.net Themis home page]
+*[http://8325.org/haiku List of NetPositive haiku error messages]
+{{Web browsers|desktop}}
+
+[[Category:BeOS software]]
+[[Category:Discontinued web browsers]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

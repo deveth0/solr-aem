@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Yamaha YMF7xx"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Yamaha YMF7xx" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Refimprove|date=May 2007}}
+[[Image:PCIsoundcard.jpg|thumb|A [[Peripheral Component Interconnect|PCI]] Yamaha XG sound card with a YMF724E-V chipset.]]
+[[Image:yamaha_YMF724E-v.png|thumb|Another Yamaha XG sound card with YMF724E-V chipset.]]
+The Yamaha &amp;apos;&amp;apos;&amp;apos;YMF7xx&amp;apos;&amp;apos;&amp;apos; family of microchips is a series of audio controllers for use in personal computers. The last model number for controller chips used on [[Industry Standard Architecture|ISA]] bus cards is 719; chips used on [[Peripheral Component Interconnect|PCI]] cards start at 720 and higher. Chips for PCI bus standalone adapters are marked YMF7x4, while on-board or embedded systems are marked YMF7x0. The YMF7x4 series features hardware-assisted [[XG (midi)|XG]] [[MIDI]] synthesis with either 32- or 64-note [[Polyphony (instrument)|polyphony]], full-duplex playback and recording at any samplerate (internally upsampled to 48 kHz), external game controller and MIDI interface, and a legacy block for [[DOS]] application support.
+
+YMF7xx chips were used in many inexpensive (sub-$50) soundcards. Relative performance was good despite the typical low cost. The cards were usually equipped with good quality 18-bit Digital-to-Analogue Converters, providing similar low noise and harmonic distortion levels to those found in semi-professional hardware.
+
+The XG synthesizer on the YMF7x4 series features not only basic XG System Level 1, but also some of the [[Yamaha MU-series|MU-50]] additions, and can reproduce most musical data previously programmed for the popular [[DB50XG]] daughterboard. YMF7x4 cards shipped with a 2 MB wavetable bank of 8-bit [[Sampling (music)|samples]] by default, which must be loaded into system [[RAM]] during [[booting]]. Neither the resolution nor content of the wavetable bank are hardware limitations. A user can load their own banks using third-party tools to further improve sound quality or completely change the set of instruments.&amp;lt;ref&amp;gt;PowerYMF: a (discontinued) device driver tweaker meant for improving quality of MIDI synthesis {{wayback|http://www.yohng.com/powerymf/}}&amp;lt;/ref&amp;gt; As with most other XG standard tone generators, YMF7x4 can switch itself into TG300B mode, which is an [[Emulator|emulation]] of the [[Roland GS]] standard that allows adequate playback of musical data bearing the GS logo.
+
+Legacy support includes an [[OPL3]] FM synthesizer, [[Sound Blaster]] Pro (22 kHz 8-bit Stereo) emulation and [[MPU-401]] compatible MIDI interface. In addition to OPL3, DOS applications running under [[Microsoft Windows|Windows]] 9x/Me can also use the XG tone generator.
+
+All of these features are available using Yamaha&amp;apos;s [[VxD]] driver under Windows 9x/Me. [[Windows Driver Model|WDM]] drivers for these operating systems and later Windows 2000/XP provide subjectively unacceptable XG MIDI synthesis ([[General MIDI]] synthesis is considered acceptable), and may lack important mixer controls, like separate Line-Out and 3D Wide. [[Legacy mode]] is not supported under [[Windows NT|NT]]-based OSes.
+
+The original version of the YMF7x4 chipset series is the YMF724.  It is limited to two-channel output.  It is followed by the YMF744 and its variants, which feature four-channel output.  The final and most advanced version of the YMF7x4 chipset series is the YMF754, which also features standard four-channel output, but adds lower power consumption features. The most [[feature-rich]] soundcards based on the YMF754 are the Labway XWave 6000 (which has an additional hardware chip to emulate 5.1 surround sound and a six-channel amplifier providing 2W per channel) and the Hoontech SoundTrack i-Phone Digital XG (which features an additional connector for an included speech-optimized headset microphone as well as support circuitry that limits feedback in telephony applications).
+
+==References==
+{{Reflist}}
+
+==External links==
+*[ftp://ftp.alsa-project.org/pub/manuals/yamaha/ymf724.pdf YMF724 specification datasheet (PDF)]
+*[ftp://ftp.alsa-project.org/pub/manuals/yamaha/ymf744b.pdf YMF744 specification datasheet (PDF)]
+*[http://www.yohng.com/powerymf/files/ymffaq.txt Frequently Asked Questions about YMF7x4] (Russian). [http://web.archive.org/web/20100407143026/http://www.yohng.com/powerymf/files/ymffaq.txt Archive copy] at the [[Wayback Machine]].
+
+
+{{Yamaha soundchips}}
+
+[[Category:Sound chips]]
+[[Category:Yamaha music products]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

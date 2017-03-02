@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Starspot"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Starspot" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Starspots&amp;apos;&amp;apos;&amp;apos; are equivalent to [[sunspot]]s but located on other stars. Spots the size of sunspots are very hard to detect since they are too small to cause detectable fluctuations in brightness. Observed starspots are in general much larger than those on the [[Sun]]: up to about 30% of the stellar surface may be covered, corresponding to sizes 100 times greater than those on the Sun.
+
+==Detection and Measurements ==
+To detect and measure the extent of starspots one uses several types of methods.
+*For rapidly rotating stars – [[Doppler imaging]] and [[Zeeman-Doppler imaging]].&amp;lt;ref&amp;gt;[[#Cameron|Cameron]]&amp;lt;/ref&amp;gt;
+:With the Zeeman-Doppler imaging technique the direction of the [[magnetic field]] on stars can be determined since spectral lines are split according to the [[Zeeman effect]], revealing the direction  and magnitude of the field.
+*For slowly rotating stars – Line Depth Ratio (LDR).
+:Here one measures two different spectral lines, one sensitive to temperature and one which is not. Since starspots have a lower temperature than their surroundings the temperature-sensitive line changes its depth. From the difference between these two lines the temperature and size of the spot can be calculated, with a temperature accuracy of 10K.
+*For [[Binary star#Eclipsing binaries|eclipsing binary stars]] – [[Eclipse mapping]] produces images and maps of spots on both stars.&amp;lt;ref&amp;gt;[[#Cameron|Cameron]] [http://star-www.st-and.ac.uk/~acc4/coolpages/movies.html Eclipse movies] show spots on two imaged binaries&amp;lt;/ref&amp;gt;
+{{Expand section|date=August 2008}}&amp;lt;!-- include more methods, for example from Berdyugina: Photometry, Polarimetry, Interferometry,   Microlensing --&amp;gt;
+
+==Temperature==
+Observed starspots have a temperature which is in general 500–2000 [[Kelvin]] cooler than the stellar [[photosphere]]. This temperature difference could give rise to a brightness variation up to 0.6 [[Magnitude (astronomy)|magnitudes]] between the spot and the surrounding surface.
+There also seems to be a relation between the spot temperature and the temperature for the stellar photosphere, indicating that starspots behave similarly for different types of stars (observed in [[Stellar classification#Class G|G-K dwarfs]])
+
+==Lifetimes==
+The lifetime for a starspot depends on its size.
+*For small spots the lifetime is proportional to their size, similar to spots on the Sun.&amp;lt;ref name=&amp;quot;B53&amp;quot;&amp;gt;[[#Berdyugina|Berdyugina]] [http://solarphysics.livingreviews.org/Articles/lrsp-2005-8/articlesu22.html#x30-270005.3 5.3 Lifetimes]&amp;lt;/ref&amp;gt;
+*For large spots the sizes depend on the [[differential rotation]] of the star, but there are some indications that large spots which give rise to light variations can survive for many years even in stars with differential rotation.&amp;lt;ref name=&amp;quot;B53&amp;quot;/&amp;gt;
+
+==Activity cycles==
+The distribution of starspots across the stellar surface varies analogous to the solar case, but differs for different types of stars, e.g., depending on whether the star is a [[binary star|binary]] or not. The same type of activity cycles that are found for the Sun can be seen for other stars, corresponding to the solar (2 times) 11-year cycle.  Some stars have longer cycles, possibly analogous to the [[Maunder Minimum|Maunder minima]] for the Sun.
+
+===Flip-flop cycles===
+Another activity cycle is the so called flip-flop cycle, which implies that the activity on either hemisphere shifts from one side to the other. The same phenomena can be seen on the Sun, with periods of 3.8 and 3.65 years for the northern and southern hemispheres.
+Flip-flop phenomena are observed for both binary [[RS Canum Venaticorum variable|RS CVn]] stars and single stars although the extent of the cycles are different between binary and singular stars.
+
+==See also==
+*[[Sunspot]]
+*[[Doppler imaging]]
+*[[Zeeman-Doppler imaging]]
+
+==Notes==
+{{Reflist}}
+
+==References==
+{{refbegin}}
+*&amp;lt;cite id=&amp;quot;Cameron&amp;quot;&amp;gt;{{cite web |last=Cameron |first=Andrew Collier |publisher=[[University of St Andrews]] |title=Mapping starspots and magnetic fields on cool stars |url=http://star-www.st-and.ac.uk/~acc4/coolpages/imaging.html |accessdate=2008-08-28}}&amp;lt;/cite&amp;gt; (explains how Doppler imaging works)
+*&amp;lt;cite id=&amp;quot;Berdyugina&amp;quot;&amp;gt;{{cite journal |last=Berdyugina |first=Svetlana V. |year=2005 |publisher=Institute of Astronomy ETHZ, [[Max Planck Society]] |title=Starspots: A Key to the Stellar Dynamo |url=http://www.livingreviews.org/lrsp-2005-8 |journal=Living Reviews in Solar Physics |volume=2 |issue=8 |accessdate=2008-08-28}}&amp;lt;/cite&amp;gt;
+* K.G.Strassmeier (1997), [http://cdsads.u-strasbg.fr/abs/1997akst.book.....S “Aktive sterne. Laboratorien der solaren Astrophysik”], Springer, ISBN # 3-211-83005-7
+{{refend}}
+
+[[Category:Stellar phenomena]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

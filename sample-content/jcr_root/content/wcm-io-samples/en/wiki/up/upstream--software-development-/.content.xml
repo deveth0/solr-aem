@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Upstream (software development)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Upstream (software development)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[software development]], &amp;apos;&amp;apos;&amp;apos;upstream&amp;apos;&amp;apos;&amp;apos;  refers to a direction toward the [[Software engineering|original authors]] or [[Maintenance mode|maintainers]] of [[Computer software|software]] that is distributed as [[source code]], and is a qualification of either a [[Software bug|bug]] or a [[Patch (Unix)|patch]]. For example, a patch &amp;apos;&amp;apos;sent upstream&amp;apos;&amp;apos; is offered to the original authors or maintainers of the software. If accepted, the authors or maintainers will include the patch in their software, either immediately or in a future release. If rejected, the person who submitted the patch will have to maintain his or her own [[Linux_distribution|distribution]] of the author&amp;apos;s software.
+
+Upstream development allows other distributions to benefit from it when they pick up the future release.&amp;lt;ref&amp;gt;{{cite web|url=http://fedoraproject.org/wiki/Staying_close_to_upstream_projects|title=Staying close to upstream projects|publisher=[[Fedora (operating system)|Fedora]]}}&amp;lt;/ref&amp;gt;
+
+The term also pertains to bugs – responsibility for a bug is said to lie upstream when it is not caused through the distribution&amp;apos;s [[porting]] and integration efforts.
+
+== References ==
+
+&amp;lt;references/&amp;gt;
+
+==See also==
+* [[Backporting]]
+
+{{DEFAULTSORT:Upstream (Software Development)}}
+[[Category:Computing terminology]]
+
+{{compu-prog-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

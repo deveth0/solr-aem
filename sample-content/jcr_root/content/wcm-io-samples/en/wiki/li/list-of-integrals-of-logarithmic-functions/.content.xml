@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="List of integrals of logarithmic functions"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="List of integrals of logarithmic functions" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The following is a list of [[integral]]s ([[antiderivative]] functions) of [[logarithmic function]]s. For a complete list of integral functions, see [[list of integrals]].
+
+&amp;apos;&amp;apos;Note:&amp;apos;&amp;apos; &amp;apos;&amp;apos;x&amp;apos;&amp;apos;&amp;amp;gt;0 is assumed throughout this article, and the [[constant of integration]] is omitted for simplicity.
+
+: &amp;lt;math&amp;gt;\int\ln ax\;dx = x\ln ax - x&amp;lt;/math&amp;gt;
+
+: &amp;lt;math&amp;gt;\int\ln (ax + b)\;dx = \frac{(ax+b)\ln(ax+b) - ax}{a}&amp;lt;/math&amp;gt;
+
+: &amp;lt;math&amp;gt;\int (\ln x)^2\; dx = x(\ln x)^2 - 2x\ln x + 2x&amp;lt;/math&amp;gt;
+
+: &amp;lt;math&amp;gt;\int (\ln x)^n\; dx = x\sum^{n}_{k=0}(-1)^{n-k} \frac{n!}{k!}(\ln x)^k&amp;lt;/math&amp;gt;
+
+: &amp;lt;math&amp;gt;\int \frac{dx}{\ln x} = \ln|\ln x| + \ln x + \sum^\infty_{k=2}\frac{(\ln x)^k}{k\cdot k!}&amp;lt;/math&amp;gt;
+
+: &amp;lt;math&amp;gt;\int \frac{dx}{(\ln x)^n} = -\frac{x}{(n-1)(\ln x)^{n-1}} + \frac{1}{n-1}\int\frac{dx}{(\ln x)^{n-1}} \qquad\mbox{(for }n\neq 1\mbox{)}&amp;lt;/math&amp;gt;
+
+: &amp;lt;math&amp;gt;\int x^m\ln x\;dx = x^{m+1}\left(\frac{\ln x}{m+1}-\frac{1}{(m+1)^2}\right) \qquad\mbox{(for }m\neq -1\mbox{)}&amp;lt;/math&amp;gt;
+
+: &amp;lt;math&amp;gt;\int x^m (\ln x)^n\; dx = \frac{x^{m+1}(\ln x)^n}{m+1} - \frac{n}{m+1}\int x^m (\ln x)^{n-1} dx  \qquad\mbox{(for }m\neq -1\mbox{)}&amp;lt;/math&amp;gt;
+
+: &amp;lt;math&amp;gt;\int \frac{(\ln x)^n\; dx}{x} = \frac{(\ln x)^{n+1}}{n+1}  \qquad\mbox{(for }n\neq -1\mbox{)}&amp;lt;/math&amp;gt;
+
+: &amp;lt;math&amp;gt;\int \frac{\ln{x^n}\;dx}{x} = \frac{(\ln{x^n})^2}{2n} \qquad\mbox{(for }n\neq 0\mbox{)} &amp;lt;/math&amp;gt;
+
+: &amp;lt;math&amp;gt;\int \frac{\ln x\,dx}{x^m} = -\frac{\ln x}{(m-1)x^{m-1}}-\frac{1}{(m-1)^2 x^{m-1}} \qquad\mbox{(for }m\neq 1\mbox{)}&amp;lt;/math&amp;gt;
+
+: &amp;lt;math&amp;gt;\int \frac{(\ln x)^n\; dx}{x^m} = -\frac{(\ln x)^n}{(m-1)x^{m-1}} + \frac{n}{m-1}\int\frac{(\ln x)^{n-1} dx}{x^m} \qquad\mbox{(for }m\neq 1\mbox{)}&amp;lt;/math&amp;gt;
+
+: &amp;lt;math&amp;gt;\int \frac{x^m\; dx}{(\ln x)^n} = -\frac{x^{m+1}}{(n-1)(\ln x)^{n-1}} + \frac{m+1}{n-1}\int\frac{x^m dx}{(\ln x)^{n-1}}  \qquad\mbox{(for }n\neq 1\mbox{)}&amp;lt;/math&amp;gt;
+
+: &amp;lt;math&amp;gt;\int \frac{dx}{x\ln x} = \ln \left|\ln x\right|&amp;lt;/math&amp;gt;
+
+: &amp;lt;math&amp;gt;\int \frac{dx}{x^n\ln x} = \ln \left|\ln x\right| + \sum^\infty_{k=1} (-1)^k\frac{(n-1)^k(\ln x)^k}{k\cdot k!}&amp;lt;/math&amp;gt;
+
+: &amp;lt;math&amp;gt;\int \frac{dx}{x(\ln x)^n} = -\frac{1}{(n-1)(\ln x)^{n-1}} \qquad\mbox{(for }n\neq 1\mbox{)}&amp;lt;/math&amp;gt;
+
+: &amp;lt;math&amp;gt;\int \ln(x^2+a^2)\; dx = x\ln(x^2+a^2)-2x+2a\tan^{-1} \frac{x}{a}&amp;lt;/math&amp;gt;
+
+: &amp;lt;math&amp;gt;\int \frac{x}{x^2+a^2}\ln(x^2+a^2)\; dx = \frac{1}{4} \ln^2(x^2+a^2)&amp;lt;/math&amp;gt;
+
+: &amp;lt;math&amp;gt;\int \sin (\ln x)\;dx = \frac{x}{2}(\sin (\ln x) - \cos (\ln x))&amp;lt;/math&amp;gt;
+
+: &amp;lt;math&amp;gt;\int \cos (\ln x)\;dx = \frac{x}{2}(\sin (\ln x) + \cos (\ln x))&amp;lt;/math&amp;gt;
+
+: &amp;lt;math&amp;gt;\int e^x \left(x \ln x - x - \frac{1}{x}\right)\;dx = e^x (x \ln x - x - \ln x) &amp;lt;/math&amp;gt;
+
+: &amp;lt;math&amp;gt;\int \frac{1}{e^x} \left( \frac{1}{x}-\ln x \right)\;dx = \frac{\ln x}{e^x} &amp;lt;/math&amp;gt;
+
+: &amp;lt;math&amp;gt;\int e^x \left( \frac{1}{\ln x}- \frac{1}{x\ln^2 x} \right)\;dx = \frac{e^x}{\ln x} &amp;lt;/math&amp;gt;
+
+For &amp;lt;math&amp;gt;n&amp;lt;/math&amp;gt; consecutive integrations, the formula
+
+: &amp;lt;math&amp;gt;\int\ln x\;dx = x\;(\ln x - 1) +C&amp;lt;/math&amp;gt;
+
+generalizes to
+
+: &amp;lt;math&amp;gt;\int\cdot\cdot\cdot\int\ln x\;dx\cdot\cdot\cdot\;dx    =   \frac{x^{n}}{n!}\left(\ln\,x-\sum_{k=1}^{n}\frac{1+{ \binom nk }(-x)^{-k}}{k}\right)+C&amp;lt;/math&amp;gt;
+
+== References ==
+* [[Milton Abramowitz]] and [[Irene A. Stegun]], &amp;apos;&amp;apos;[[Abramowitz and Stegun|Handbook of Mathematical Functions with Formulas, Graphs, and Mathematical Tables]]&amp;apos;&amp;apos;, 1964. A few integrals are listed on [http://www.math.sfu.ca/~cbm/aands/page_69.htm page 69].
+
+{{Lists of integrals}}
+
+[[Category:Integrals|Logarithmic functions]]
+[[Category:Mathematics-related lists|Integrals of logarithmic functions]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

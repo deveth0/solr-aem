@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="It&#x27;s Never Enough"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="It&#x27;s Never Enough" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{for|the upcoming Drake album|It&amp;apos;s Never Enough (mixtape)}}
+{{Infobox Album | &amp;lt;!-- See Wikipedia:WikiProject_Albums --&amp;gt;
+| Name        = It&amp;apos;s Never Enough
+| Type        = [[Album]]
+| Artist      = [[Ace Troubleshooter]]
+| Cover       =It&amp;apos;s Never Enough.jpg
+| Released    = March 23, 2004
+| Recorded    =
+| Genre       = [[Pop punk]]
+| Length      = 39:04
+| Label       = [[Tooth &amp;amp; Nail Records]]
+| Producer    = Tim Patalan
+| Last album  = &amp;apos;&amp;apos;[[The Madness of the Crowds]]&amp;apos;&amp;apos;&amp;lt;br /&amp;gt;(2002)
+| This album  = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;It&amp;apos;s Never Enough&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;lt;br /&amp;gt;(2004)
+| Next album  =
+}}
+{{Album ratings
+| rev1      = [[Allmusic]]
+| rev1Score =  {{Rating|2.5|5}} [{{Allmusic|class=album|id=r683721|pure_url=yes}} link]
+|rev2=[[Cross Rhythms]]|rev2Score= {{Rating|8|10}} [http://www.crossrhythms.co.uk/products/Ace_Troubleshooter/Its_Never_Enough/11469/ link]
+|rev3=[[Jesus Freak Hideout]]|rev3Score= {{Rating|4|5}} [http://www.jesusfreakhideout.com/cdreviews/ItsNeverEnough.asp link]}}
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;It&amp;apos;s Never Enough&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is the fifth and final [[album]] released by [[Ace Troubleshooter]].
+
+==Track listing==
+#&amp;quot;Ball &amp;amp; Chain&amp;quot;
+#&amp;quot;Anything&amp;quot;
+#&amp;quot;Jasmine&amp;quot;
+#&amp;quot;Make It Right&amp;quot;
+#&amp;quot;Seaside&amp;quot;
+#&amp;quot;Turn Round&amp;quot;
+#&amp;quot;My Defense&amp;quot;
+#&amp;quot;Helen Burns&amp;quot;
+#&amp;quot;Tempest&amp;quot;
+#&amp;quot;Hoping&amp;quot;
+#&amp;quot;Don&amp;apos;t Do It Again&amp;quot;
+#&amp;quot;So Long&amp;quot;
+
+&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;{{AceTroubleshooter}}
+
+[[Category:Ace Troubleshooter albums]]
+[[Category:2004 albums]]
+[[Category:Tooth &amp;amp; Nail Records albums]]
+
+{{2000s-indie-rock-album-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

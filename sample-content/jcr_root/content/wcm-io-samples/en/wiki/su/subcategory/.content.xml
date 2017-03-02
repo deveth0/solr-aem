@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Subcategory"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Subcategory" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{For|subcategories in wikipedia|WP:Subcategories}}
+
+In [[mathematics]], a &amp;apos;&amp;apos;&amp;apos;subcategory&amp;apos;&amp;apos;&amp;apos; of a [[category (mathematics)|category]] &amp;apos;&amp;apos;C&amp;apos;&amp;apos; is a category &amp;apos;&amp;apos;S&amp;apos;&amp;apos; whose objects are objects in &amp;apos;&amp;apos;C&amp;apos;&amp;apos; and whose [[morphism]]s are morphisms in &amp;apos;&amp;apos;C&amp;apos;&amp;apos; with the same identities and composition of morphisms. Intuitively, a subcategory of &amp;apos;&amp;apos;C&amp;apos;&amp;apos; is a category obtained from &amp;apos;&amp;apos;C&amp;apos;&amp;apos; by &amp;quot;removing&amp;quot; some of its objects and arrows.
+
+==Formal definition==
+Let &amp;apos;&amp;apos;C&amp;apos;&amp;apos; be a category. A &amp;apos;&amp;apos;&amp;apos;subcategory&amp;apos;&amp;apos;&amp;apos; &amp;apos;&amp;apos;S&amp;apos;&amp;apos; of &amp;apos;&amp;apos;C&amp;apos;&amp;apos; is given by
+*a subcollection of objects of &amp;apos;&amp;apos;C&amp;apos;&amp;apos;, denoted ob(&amp;apos;&amp;apos;S&amp;apos;&amp;apos;),
+*a subcollection of morphisms of &amp;apos;&amp;apos;C&amp;apos;&amp;apos;, denoted hom(&amp;apos;&amp;apos;S&amp;apos;&amp;apos;).
+such that
+*for every &amp;apos;&amp;apos;X&amp;apos;&amp;apos; in ob(&amp;apos;&amp;apos;S&amp;apos;&amp;apos;), the identity morphism id&amp;lt;sub&amp;gt;&amp;apos;&amp;apos;X&amp;apos;&amp;apos;&amp;lt;/sub&amp;gt; is in hom(&amp;apos;&amp;apos;S&amp;apos;&amp;apos;),
+*for every morphism &amp;apos;&amp;apos;f&amp;apos;&amp;apos; : &amp;apos;&amp;apos;X&amp;apos;&amp;apos; → &amp;apos;&amp;apos;Y&amp;apos;&amp;apos; in hom(&amp;apos;&amp;apos;S&amp;apos;&amp;apos;), both the source &amp;apos;&amp;apos;X&amp;apos;&amp;apos; and the target &amp;apos;&amp;apos;Y&amp;apos;&amp;apos; are in ob(&amp;apos;&amp;apos;S&amp;apos;&amp;apos;),
+*for every pair of morphisms &amp;apos;&amp;apos;f&amp;apos;&amp;apos; and &amp;apos;&amp;apos;g&amp;apos;&amp;apos; in hom(&amp;apos;&amp;apos;S&amp;apos;&amp;apos;) the composite &amp;apos;&amp;apos;f&amp;apos;&amp;apos; o &amp;apos;&amp;apos;g&amp;apos;&amp;apos; is in hom(&amp;apos;&amp;apos;S&amp;apos;&amp;apos;) whenever it is defined.
+
+These conditions ensure that &amp;apos;&amp;apos;S&amp;apos;&amp;apos; is a category in its own right: the collection of objects is ob(&amp;apos;&amp;apos;S&amp;apos;&amp;apos;), the collection of morphisms is hom(&amp;apos;&amp;apos;S&amp;apos;&amp;apos;), and the identities and composition are as in &amp;apos;&amp;apos;C&amp;apos;&amp;apos;. There is an obvious [[Full and faithful functors|faithful functor]] &amp;apos;&amp;apos;I&amp;apos;&amp;apos; : &amp;apos;&amp;apos;S&amp;apos;&amp;apos; → &amp;apos;&amp;apos;C&amp;apos;&amp;apos;, called the &amp;apos;&amp;apos;&amp;apos;inclusion functor&amp;apos;&amp;apos;&amp;apos; which takes objects and morphisms to themselves.
+
+Let &amp;apos;&amp;apos;S&amp;apos;&amp;apos; be a subcategory of a category &amp;apos;&amp;apos;C&amp;apos;&amp;apos;. We say that &amp;apos;&amp;apos;S&amp;apos;&amp;apos; is a &amp;apos;&amp;apos;&amp;apos;full subcategory of&amp;apos;&amp;apos;&amp;apos; &amp;apos;&amp;apos;C&amp;apos;&amp;apos; if for each pair of objects &amp;apos;&amp;apos;X&amp;apos;&amp;apos; and &amp;apos;&amp;apos;Y&amp;apos;&amp;apos; of &amp;apos;&amp;apos;S&amp;apos;&amp;apos;
+:&amp;lt;math&amp;gt;\mathrm{Hom}_\mathcal{S}(X,Y)=\mathrm{Hom}_\mathcal{C}(X,Y).&amp;lt;/math&amp;gt;
+A full subcategory is one that includes &amp;apos;&amp;apos;all&amp;apos;&amp;apos; morphisms between objects of &amp;apos;&amp;apos;S&amp;apos;&amp;apos;. For any collection of objects &amp;apos;&amp;apos;A&amp;apos;&amp;apos; in &amp;apos;&amp;apos;C&amp;apos;&amp;apos;, there is a unique full subcategory of &amp;apos;&amp;apos;C&amp;apos;&amp;apos; whose objects are those in &amp;apos;&amp;apos;A&amp;apos;&amp;apos;.
+
+==Embeddings==
+Given a subcategory &amp;apos;&amp;apos;S&amp;apos;&amp;apos; of &amp;apos;&amp;apos;C&amp;apos;&amp;apos; the inclusion [[functor]] &amp;apos;&amp;apos;I&amp;apos;&amp;apos; : &amp;apos;&amp;apos;S&amp;apos;&amp;apos; → &amp;apos;&amp;apos;C&amp;apos;&amp;apos; is both [[faithful functor|faithful]] and [[Injective function|injective]] on objects. It is [[full functor|full]] if and only if &amp;apos;&amp;apos;S&amp;apos;&amp;apos; is a full subcategory.
+
+Some authors define an &amp;apos;&amp;apos;&amp;apos;embedding&amp;apos;&amp;apos;&amp;apos; to be a [[full and faithful functor]]. Such a functor is necessarily injective on objects up-to-isomorphism. For instance, the [[Yoneda embedding]] is an embedding in this sense.
+
+Some authors define an &amp;apos;&amp;apos;&amp;apos;embedding&amp;apos;&amp;apos;&amp;apos; to be a full and faithful functor that is injective on objects (strictly).&amp;lt;ref&amp;gt;{{cite web|author=van Oosten|title=Basic category theory|url=http://www.staff.science.uu.nl/~ooste110/syllabi/catsmoeder.pdf}}&amp;lt;/ref&amp;gt;
+
+Other authors define a functor to be an &amp;apos;&amp;apos;&amp;apos;embedding&amp;apos;&amp;apos;&amp;apos; if it is
+faithful and
+injective on objects.
+Equivalently, &amp;apos;&amp;apos;F&amp;apos;&amp;apos; is an embedding if it is injective on morphisms. A functor &amp;apos;&amp;apos;F&amp;apos;&amp;apos; is then called a &amp;apos;&amp;apos;&amp;apos;full embedding&amp;apos;&amp;apos;&amp;apos; if it is a full functor and an embedding.
+
+For any (full) embedding &amp;apos;&amp;apos;F&amp;apos;&amp;apos; : &amp;apos;&amp;apos;B&amp;apos;&amp;apos; → &amp;apos;&amp;apos;C&amp;apos;&amp;apos; the image of &amp;apos;&amp;apos;F&amp;apos;&amp;apos; is a (full) subcategory &amp;apos;&amp;apos;S&amp;apos;&amp;apos; of &amp;apos;&amp;apos;C&amp;apos;&amp;apos; and &amp;apos;&amp;apos;F&amp;apos;&amp;apos; induces an [[isomorphism of categories]] between &amp;apos;&amp;apos;B&amp;apos;&amp;apos; and &amp;apos;&amp;apos;S&amp;apos;&amp;apos;. If &amp;apos;&amp;apos;F&amp;apos;&amp;apos; is not strictly injective on objects, the image of &amp;apos;&amp;apos;F&amp;apos;&amp;apos; is [[equivalence of categories|equivalent]] to &amp;apos;&amp;apos;B&amp;apos;&amp;apos;.
+
+In some categories, one can also speak of morphisms of the category being [[embedding#Category theory|embedding]]s.
+
+==Types of subcategories==
+A subcategory &amp;apos;&amp;apos;S&amp;apos;&amp;apos; of &amp;apos;&amp;apos;C&amp;apos;&amp;apos; is said to be &amp;apos;&amp;apos;&amp;apos;[[isomorphism-closed]]&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;replete&amp;apos;&amp;apos;&amp;apos; if every [[isomorphism]] &amp;apos;&amp;apos;k&amp;apos;&amp;apos; : &amp;apos;&amp;apos;X&amp;apos;&amp;apos; → &amp;apos;&amp;apos;Y&amp;apos;&amp;apos; in &amp;apos;&amp;apos;C&amp;apos;&amp;apos; such that &amp;apos;&amp;apos;Y&amp;apos;&amp;apos; is in &amp;apos;&amp;apos;S&amp;apos;&amp;apos; also belongs to &amp;apos;&amp;apos;S&amp;apos;&amp;apos;. A isomorphism-closed full subcategory is said to be &amp;apos;&amp;apos;&amp;apos;strictly full&amp;apos;&amp;apos;&amp;apos;.
+
+A subcategory of &amp;apos;&amp;apos;C&amp;apos;&amp;apos; is &amp;apos;&amp;apos;&amp;apos;wide&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;lluf&amp;apos;&amp;apos;&amp;apos; (a term first posed by P. Freyd&amp;lt;ref&amp;gt;{{cite book |last= Freyd|first= Peter|authorlink=Peter J. Freyd  |year= 1991|month= |pages=95–104 |chapter= Algebraically complete categories|series=Lecture Notes in Mathematics |volume= 1488|publisher=Springer|title=Proceedings of the International Conference on Category Theory, Como, Italy (CT 1990)|doi=10.1007/BFb0084215}}&amp;lt;/ref&amp;gt;) if it contains all the objects of &amp;apos;&amp;apos;C&amp;apos;&amp;apos;. A lluf subcategory is typically not full: the only full lluf subcategory of a category is that category itself.
+
+A &amp;apos;&amp;apos;&amp;apos;Serre subcategory&amp;apos;&amp;apos;&amp;apos; is a non-empty full subcategory &amp;apos;&amp;apos;S&amp;apos;&amp;apos; of an [[abelian category]] &amp;apos;&amp;apos;C&amp;apos;&amp;apos; such that for all short [[exact sequence]]s
+
+:&amp;lt;math&amp;gt;0\to M&amp;apos;\to M\to M&amp;apos;&amp;apos;\to 0&amp;lt;/math&amp;gt;
+
+in &amp;apos;&amp;apos;C&amp;apos;&amp;apos;, &amp;apos;&amp;apos;M&amp;apos;&amp;apos; belongs to &amp;apos;&amp;apos;S&amp;apos;&amp;apos; if and only if both &amp;lt;math&amp;gt;M&amp;apos;&amp;lt;/math&amp;gt; and  &amp;lt;math&amp;gt;M&amp;apos;&amp;apos;&amp;lt;/math&amp;gt; do. This notion arises from [[Localization of a category#Serre&amp;apos;s C-theory|Serre&amp;apos;s C-theory]].
+
+== See also ==
+*[[Reflective subcategory]]
+
+==References==
+&amp;lt;references /&amp;gt;
+
+[[Category:Category theory]]
+[[Category:Hierarchy]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

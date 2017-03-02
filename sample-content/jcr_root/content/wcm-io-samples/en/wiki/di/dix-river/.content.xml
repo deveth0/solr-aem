@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Dix River"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Dix River" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;Dix River&amp;apos;&amp;apos;&amp;apos; is a {{convert|79.3|mi|km|adj=mid|-long}}&amp;lt;ref name=NHD&amp;gt;U.S. Geological Survey. National Hydrography Dataset high-resolution flowline data. [http://viewer.nationalmap.gov/viewer/ The National Map], accessed June 13, 2011&amp;lt;/ref&amp;gt; tributary of the [[Kentucky River]] in central [[Kentucky]] in the [[United States]].
+
+It begins in western [[Rockcastle County, Kentucky|Rockcastle County]], about {{convert|5|mi|km|0}} west of [[Mount Vernon, Kentucky|Mount Vernon]]. It flows generally northwest, in a tight [[meander]]ing course, passing north of [[Stanford, Kentucky|Stanford]] and east of [[Danville, Kentucky|Danville]]. Northwest of Danville it is impounded by the [[Dix Dam]] to form the [[Herrington Lake]] reservoir. The river then flows about {{convert|2|mi|km|0}} before joining the Kentucky River near [[High Bridge, Kentucky|High Bridge]], about {{convert|20|mi|km}} southwest of [[Lexington, Kentucky|Lexington]], in the region of the [[Kentucky River Palisades]].
+
+The watershed of the river is largely [[agriculture|agricultural land]], with undulating hills over a bed of [[limestone]].  The river is a popular destination for [[fly fishing]], in particular for varieties of [[bass (fish)|bass]].  Occasionally, recreational kayakers and canoeists can be found on tame day trips.  Water levels are Class I+ with possible mild class II.
+
+==References==
+{{Reflist}}
+
+==External links==
+*[http://www.uky.edu/WaterResources/Watershed/KRB_AR/dix_river_(lower).htm University of Kentucky: lower Dix River watershed]
+*[http://www.uky.edu/WaterResources/Watershed/KRB_AR/dix_river_(upper).htm University of Kentucky: upper Dix River watershed]
+*{{GNIS|517054|Dix River}}
+
+{{coord|37|48|53|N|84|42|59|W|display=title}}
+
+[[Category:Rivers of Kentucky]]
+[[Category:Geography of Rockcastle County, Kentucky]]
+[[Category:Geography of Lincoln County, Kentucky]]
+[[Category:Geography of Boyle County, Kentucky]]
+[[Category:Geography of Garrard County, Kentucky]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

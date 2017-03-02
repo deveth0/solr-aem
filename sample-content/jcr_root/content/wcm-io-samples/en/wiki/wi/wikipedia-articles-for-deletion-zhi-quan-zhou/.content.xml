@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:Articles for deletion/Zhi Quan Zhou"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:Articles for deletion/Zhi Quan Zhou" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;Article [[Zhi Quan Zhou]] listed on [[Wikipedia:Votes for deletion]] Apr 20 to Apr 26 2004, consensus was to move to user namespace and delete.  Discussion:
+
+* Self-created personal page, no content, not significant enough... --[[User:Robert Merkel|Robert Merkel]] 08:43, 20 Apr 2004 (UTC)
+* It got moved to [[User:Zhi Quan Zhou]], which &amp;apos;&amp;apos;isn&amp;apos;t&amp;apos;&amp;apos; the user&amp;apos;s account. It needs to be moved to [[User:Zqzhou]], and the redirects deleted. -- [[User:Cyrius|Cyrius]]|[[User talk:Cyrius|&amp;amp;#9998]] 10:14, Apr 20, 2004 (UTC)
+* I&amp;apos;ve moved it. Any reason to not just zap away the errent redirects? - [[User:UtherSRG|UtherSRG]] 00:17, 21 Apr 2004 (UTC)
+** No reason not to that I see. -- [[User:Cyrius|Cyrius]]|[[User talk:Cyrius|&amp;amp;#9998]] 01:25, Apr 21, 2004 (UTC)
+** Nope. Delete. [[User:Cribcage|Cribcage]] 05:47, 24 Apr 2004 (UTC)
+
+&amp;apos;&amp;apos;End discussion&amp;apos;&amp;apos;&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

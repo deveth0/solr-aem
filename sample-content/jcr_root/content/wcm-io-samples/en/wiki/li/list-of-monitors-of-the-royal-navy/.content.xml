@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="List of monitors of the Royal Navy"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="List of monitors of the Royal Navy" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Royal_Navy_ship_types}}
+This is a &amp;apos;&amp;apos;&amp;apos;list of [[monitor (ship)|monitor]]s of the [[Royal Navy]]&amp;apos;&amp;apos;&amp;apos; of the [[United Kingdom]].
+
+*[[Humber class monitor|&amp;apos;&amp;apos;Humber&amp;apos;&amp;apos; class]]
+**[[HMS Severn (1914)|&amp;apos;&amp;apos;Severn&amp;apos;&amp;apos;]]
+**[[HMS Humber (1914)|&amp;apos;&amp;apos;Humber&amp;apos;&amp;apos;]]
+**[[HMS Mersey (1914)|&amp;apos;&amp;apos;Mersey&amp;apos;&amp;apos;]]
+*[[Abercrombie class monitor|&amp;apos;&amp;apos;Abercrombie&amp;apos;&amp;apos; class]]
+**[[HMS Abercrombie (1914)|&amp;apos;&amp;apos;Abercrombie&amp;apos;&amp;apos;]]
+**[[HMS Havelock (1915)|&amp;apos;&amp;apos;Havelock&amp;apos;&amp;apos;]]
+**[[HMS Raglan|&amp;apos;&amp;apos;Raglan&amp;apos;&amp;apos;]]
+**[[HMS Roberts (1915)|&amp;apos;&amp;apos;Roberts&amp;apos;&amp;apos;]]
+*[[Lord Clive class monitor|&amp;apos;&amp;apos;Lord Clive&amp;apos;&amp;apos; class]]
+**[[HMS Lord Clive|&amp;apos;&amp;apos;Lord Clive&amp;apos;&amp;apos;]]
+**[[HMS General Crauford|&amp;apos;&amp;apos;General Craufurd&amp;apos;&amp;apos;]]
+**[[HMS Earl of Peterborough|&amp;apos;&amp;apos;Earl of Peterborough&amp;apos;&amp;apos;]]
+**[[HMS Sir Thomas Picton|&amp;apos;&amp;apos;Sir Thomas Picton&amp;apos;&amp;apos;]]
+**[[HMS Prince Eugene|&amp;apos;&amp;apos;Prince Eugene&amp;apos;&amp;apos;]]
+**[[HMS Prince Rupert|&amp;apos;&amp;apos;Prince Rupert&amp;apos;&amp;apos;]]
+**[[HMS Sir John Moore|&amp;apos;&amp;apos;Sir John Moore&amp;apos;&amp;apos;]]
+**[[HMS General Wolfe|&amp;apos;&amp;apos;General Wolfe&amp;apos;&amp;apos;]]
+*[[Marshal Ney class monitor|&amp;apos;&amp;apos;Marshal Ney&amp;apos;&amp;apos; class]]
+**[[HMS Marshal Ney|&amp;apos;&amp;apos;Marshal Ney&amp;apos;&amp;apos;]]
+**[[HMS Marshal Soult|&amp;apos;&amp;apos;Marshal Soult&amp;apos;&amp;apos;]]
+*[[Gorgon class monitor|&amp;apos;&amp;apos;Gorgon&amp;apos;&amp;apos; class]]
+**[[HMS Gorgon (1914)|&amp;apos;&amp;apos;Gorgon&amp;apos;&amp;apos;]]
+**[[HMS Glatton (1914)|&amp;apos;&amp;apos;Glatton&amp;apos;&amp;apos;]]
+*[[M15 class monitor|&amp;apos;&amp;apos;M15&amp;apos;&amp;apos; class]]
+**[[HMS M15|&amp;apos;&amp;apos;M15&amp;apos;&amp;apos;]]
+**[[HMS M16|&amp;apos;&amp;apos;M16&amp;apos;&amp;apos;]]
+**[[HMS M17|&amp;apos;&amp;apos;M17&amp;apos;&amp;apos;]]
+**[[HMS M18|&amp;apos;&amp;apos;M18&amp;apos;&amp;apos;]]
+**[[HMS M19|&amp;apos;&amp;apos;M19&amp;apos;&amp;apos;]]
+**[[HMS M20|&amp;apos;&amp;apos;M20&amp;apos;&amp;apos;]]
+**[[HMS M21|&amp;apos;&amp;apos;M21&amp;apos;&amp;apos;]]
+**[[HMS M22|&amp;apos;&amp;apos;M22&amp;apos;&amp;apos;]]
+**[[HMS M23|&amp;apos;&amp;apos;M23&amp;apos;&amp;apos;]]
+**[[HMS M24|&amp;apos;&amp;apos;M24&amp;apos;&amp;apos;]]
+**[[HMS M25|&amp;apos;&amp;apos;M25&amp;apos;&amp;apos;]]
+**[[HMS M26|&amp;apos;&amp;apos;M26&amp;apos;&amp;apos;]]
+**[[HMS M27|&amp;apos;&amp;apos;M27&amp;apos;&amp;apos;]]
+**[[HMS M28|&amp;apos;&amp;apos;M28&amp;apos;&amp;apos;]]
+*[[M29 class monitor|&amp;apos;&amp;apos;M29&amp;apos;&amp;apos; class]]
+**[[HMS M29|&amp;apos;&amp;apos;M29&amp;apos;&amp;apos;]] (later HMS &amp;apos;&amp;apos;Medusa&amp;apos;&amp;apos;)
+**[[HMS M30|&amp;apos;&amp;apos;M30&amp;apos;&amp;apos;]]
+**[[HMS M31|&amp;apos;&amp;apos;M31&amp;apos;&amp;apos;]]
+**[[HMS M32|&amp;apos;&amp;apos;M32&amp;apos;&amp;apos;]]
+**[[HMS M33|&amp;apos;&amp;apos;M33&amp;apos;&amp;apos;]]
+*[[Erebus class monitor|&amp;apos;&amp;apos;Erebus&amp;apos;&amp;apos; class]]
+**[[HMS Erebus (I02)|&amp;apos;&amp;apos;Erebus&amp;apos;&amp;apos;]]
+**[[HMS Terror (I03)|&amp;apos;&amp;apos;Terror&amp;apos;&amp;apos;]]
+*[[Roberts class monitor|&amp;apos;&amp;apos;Roberts&amp;apos;&amp;apos; class]]
+**[[HMS Roberts (F40)|&amp;apos;&amp;apos;Roberts&amp;apos;&amp;apos;]]
+**[[HMS Abercrombie (F109)|&amp;apos;&amp;apos;Abercrombie&amp;apos;&amp;apos;]]
+
+== External links ==
+{{Commons|Category:Monitors of the United Kingdom}}
+
+[[Category:Lists of Royal Navy ships by type|Monitors]]
+[[Category:Monitors of the Royal Navy| ]]
+[[Category:Military units and formations of the United Kingdom|Royal Navy]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

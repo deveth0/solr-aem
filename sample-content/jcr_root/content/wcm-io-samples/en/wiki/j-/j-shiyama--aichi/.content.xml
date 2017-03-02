@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Jūshiyama, Aichi"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Jūshiyama, Aichi" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[File:Map of Aichi Prefecture, showing Jushiyama.png|thumb|Jūshiyama in Aichi Prefecture]]
+{{nihongo|&amp;apos;&amp;apos;&amp;apos;Jūshiyama&amp;apos;&amp;apos;&amp;apos;|十四山村|Jūshiyama-mura}} was a [[villages of Japan|village]] located in [[Ama District, Aichi|Ama District]], [[Aichi Prefecture|Aichi]], [[Japan]].
+
+On April 1, 2006 Jūshiyama was merged into the town of [[Yatomi, Aichi|Yatomi]] to gain the city status.
+
+As of 2003, the village had an estimated [[population]] of 5,687 and a [[population density|density]] of 570.41 persons per km². The total area was 9.97 km².
+
+==External links==
+* [http://www.city.yatomi.aichi.jp/ Yatomi official website] {{ja icon}}
+
+{{DEFAULTSORT:Jushiyama, Aichi}}
+[[Category:Dissolved municipalities of Aichi Prefecture]]
+
+
+{{Aichi-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

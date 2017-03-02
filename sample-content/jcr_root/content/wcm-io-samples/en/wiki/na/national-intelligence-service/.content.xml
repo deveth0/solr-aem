@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="National Intelligence Service"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="National Intelligence Service" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;National Intelligence Service&amp;apos;&amp;apos;&amp;apos; is the name of several state security agencies:
+
+*[[National Intelligence Service (Greece)]]
+*[[National Intelligence Service (Albania)]]
+*[[National Intelligence Service (Bulgaria)]]
+*[[National Intelligence Service (Peru)]]
+*[[National Intelligence Service (South Africa)]]
+*[[National Intelligence Service (South Korea)]]
+==See also==
+*[[Servicio de Inteligencia Naval (Argentina)]]
+*[[Servicio de Inteligencia del Ejército (Argentina)]]
+*[[Servicio de Inteligencia de la Fuerza Aérea (Argentina)]]
+*[[Servicio de Inteligencia Militar]] (Dominican Republic)
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

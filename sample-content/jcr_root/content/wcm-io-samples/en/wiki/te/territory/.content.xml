@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Territory"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Territory" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|territory}}
+&amp;apos;&amp;apos;&amp;apos;Territory&amp;apos;&amp;apos;&amp;apos; may refer to:
+* [[Territory (country subdivision)]], a non-sovereign geographic region
+**[[States and territories of Australia]], administrative subdivisions of Australia
+**[[British Overseas Territories]]
+**[[Provinces and territories of Canada]], administrative subdivisions of Canada with fewer powers of self-government than provinces
+**[[Overseas territory (France)]]
+**[[Territoire de Belfort]], a French &amp;apos;&amp;apos;département&amp;apos;&amp;apos; that retains its historical name from 1871–1919
+**[[Union Territory]], administrative subdivisions in India
+**[[Territories of the United States]]
+**[[Unorganized territory]] (in USA and Canada)
+*[[Sales operations#Sales territory| Sales territory]]
+* [[International taxation#Territorial| Territorial tax systems]] (vs. residency based or hybrid)
+* [[Territoriality (nonverbal communication)]], how people use space to communicate ownership/occupancy of areas and possessions
+
+==Music==
+* [[Territory (Two Hours Traffic album)|&amp;apos;&amp;apos;Territory&amp;apos;&amp;apos; (Two Hours Traffic album)]], 2009
+* [[Territory (Ronnie Montrose album)|&amp;apos;&amp;apos;Territory&amp;apos;&amp;apos; (Ronnie Montrose album)]], 1986
+* [[Territory (song)|&amp;quot;Territory&amp;quot; (song)]], a 1993 song by Sepultura
+
+==Other==
+* [[Territory (animal)]], a geographical area defended by an animal against others of the same species (and occasionally of other species)
+* [[Spraying (animal behavior)]] (territorial marking)
+* &amp;apos;&amp;apos;[[The Territory]]&amp;apos;&amp;apos;, a 1981 Portuguese famila
+* [[Ford Territory]], a crossover SUV built by Ford Australia
+* [[Territory (novel)|&amp;apos;&amp;apos;Territory&amp;apos;&amp;apos; (novel)]], a 2007 novel by Emma Bull
+
+==See also==
+* [[Territorial Army (disambiguation)]] a term for Reserve units in the United Kingdom and some Commonwealth nations
+* [[Territorial dispute]] a disagreement over the possession/control of land
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Hwanin"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Hwanin" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox Korean name|
+hangul=환인|
+hanja=桓因|
+mr=Hwan-in|
+rr=Hwan-in|
+}}
+&amp;apos;&amp;apos;&amp;apos;Hwanin&amp;apos;&amp;apos;&amp;apos;, (also pronounced &amp;quot;Han-in&amp;quot; 한인) or &amp;quot;Divine Regent&amp;quot; is a figure in [[Korean mythology]]. In the traditional Dangun mythology he is portrayed as the Emperor of Heaven himself, with his son [[Hwanung]] 환웅(桓雄) and his grandson [[Dangun]] being the mythical founder of Korea. Hwanin 환인(桓因) is the name on [[Buddhism]] of [[Indra]], this name is widely used in east Asia.
+
+==See also==
+* [[Culture of Korea]]
+* [[History of Korea]]
+* [[List of Korea-related topics]]
+
+==References==
+{{reflist}}
+
+{{Asia-myth-stub}}
+
+[[Category:Gods]]
+[[Category:Korean mythology]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

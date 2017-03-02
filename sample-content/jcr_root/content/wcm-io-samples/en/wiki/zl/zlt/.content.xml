@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="ZLT"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="ZLT" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;ZLT&amp;apos;&amp;apos;&amp;apos; is a [[three-letter abbreviation]] with multiple meanings, as described below:
+
+* the [[IATA]] code for [[La Tabatière Airport]] in [[La Tabatière, Quebec]], [[Canada]].
+* [[Zero length launch]] a system to launch jet fighters.
+* [[ZeroLine Trader]] http://www.zerolinetrader.com - a &amp;apos;&amp;apos;simple&amp;apos;&amp;apos;, &amp;apos;&amp;apos;reliable&amp;apos;&amp;apos; and &amp;apos;&amp;apos;easy to use&amp;apos;&amp;apos; trading platform.
+* The anti-depressant Zoloft
+* [[Zeppelin NT|Zeppelin Luftschifftechnik GmbH &amp;amp; Co]], a new company continuing work on [[Zeppelin]]&amp;apos;s funded by the money from the winding-up of the old Zeppelin Company many years earlier.
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

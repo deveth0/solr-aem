@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Pudding Lane"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Pudding Lane" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Image:Pudding Lane.png|thumb|250px|right|Pudding Lane looking northwards from the junction with Monument Street.]]
+&amp;apos;&amp;apos;&amp;apos;Pudding Lane&amp;apos;&amp;apos;&amp;apos; is a street in the [[City of London]] and formerly the location of Thomas Farriner&amp;apos;s bakery where the [[Great Fire of London]] began in 1666. The lane is located off [[Eastcheap]], near [[London Bridge]] and [[Monument to the Great Fire of London|the Monument]].
+
+According to the chronicler [[John Stow]], it is named after the &amp;quot;puddings&amp;quot; (a medieval word for [[Digestion|entrails]] and [[Organ (anatomy)|organ]]s) which would fall from the carts coming down the lane from the butchers in [[Eastcheap]] as they headed for the waste barges on the [[River Thames]].&amp;lt;ref&amp;gt;[http://www.british-history.ac.uk/report.aspx?compid=60037 Billinsgate warde], from &amp;apos;&amp;apos;A Survey of London,&amp;apos;&amp;apos; by John Stow. Reprinted from the text of 1603: &amp;quot;... commonly called Pudding Lane, because the Butchers of Eastcheape haue their skalding House for Hogges there, and their puddinges with other filth of Beastes, are voided downe that way to theyr dung boates on the Thames.&amp;quot;&amp;lt;/ref&amp;gt; A commemorative plaque on the wall of a building called Faryners House, on Pudding Lane, records the site of the start of the fire. The sign was presented by the [[Worshipful Company of Bakers]] in 1986. The original name of the lane was &amp;quot;Offal Pudding Lane&amp;quot;.
+
+The nearest [[London Underground]] station is [[Bank-Monument station|Monument]], a short distance to the west. The closest mainline railway stations are [[Fenchurch Street railway station|Fenchurch Street]] and [[Cannon Street station|Cannon Street]].
+
+== References ==
+{{reflist}}
+
+{{City of London}}
+
+{{coord|51.5102|-0.0853|type:landmark_region:GB-LND|display=title}}
+
+[[Category:Streets in the City of London]]
+[[Category:History of the City of London]]
+[[Category:Great Fire of London]]
+
+{{london-road-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

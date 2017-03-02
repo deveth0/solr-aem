@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wise River"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wise River" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox river
+  | river_name      = Wise River
+  | image_name      =
+  | image_size      =
+  | caption         =
+  | origin          =
+  | mouth           = {{Coord|45|47|56|N|112|56|47|W |display=title,inline|name=Wise River}}&amp;lt;ref name=gnis&amp;gt;{{cite gnis |id=793435 |name=Wise River}}&amp;lt;/ref&amp;gt;
+  | basin_countries = [[Beaverhead County, Montana]]
+  | progression     =
+  | length          = {{convert|30|mi|km}}
+  | elevation       =
+  | mouth_elevation = {{convert|5607|ft|m}}&amp;lt;ref name=gnis/&amp;gt;
+  | discharge       =
+  | watershed       =
+  | river_system    = [[Missouri River]]
+  | left_tribs      =
+  | right_tribs     =
+}}
+
+The &amp;apos;&amp;apos;&amp;apos;Wise River&amp;apos;&amp;apos;&amp;apos; is a tributary of the [[Big Hole River]], approximately 30&amp;amp;nbsp;mi (48&amp;amp;nbsp;km) long, in southwestern [[Montana]] in the [[United States]]. It rises in the [[Beaverhead National Forest]] in the [[Pioneer Mountains (Montana)|Pioneer Mountains]] in [[Beaverhead County, Montana|Beaverhead County]]. It flows NNW through the mountains and joins the Big Hole near the town of [[Wise River, Montana|Wise River]].  The river has also been known as Elkhorn Creek.&amp;lt;ref name=gnis/&amp;gt;
+
+The river is a popular destination for [[fly fishing]]. The Wise is a Class II river for stream access for recreational purposes.&amp;lt;ref name=StreamAccess&amp;gt;[http://fwp.mt.gov/content/getItem.aspx?id=24929 Stream Access in Montana]&amp;lt;/ref&amp;gt;
+
+==See also==
+*[[List of rivers of Montana]]
+*[[Montana Stream Access Law]]
+
+==Notes==
+{{reflist}}
+
+{{Montana}}
+
+[[Category:Rivers of Montana]]
+[[Category:Landforms of Beaverhead County, Montana]]
+
+{{Montana-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

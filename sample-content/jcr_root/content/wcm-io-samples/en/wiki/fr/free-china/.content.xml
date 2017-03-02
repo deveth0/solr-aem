@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Free China"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Free China" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The term &amp;quot;&amp;apos;&amp;apos;&amp;apos;Free China&amp;apos;&amp;apos;&amp;apos;&amp;quot; may mean:
+* [[Free China (Second Sino-Japanese War)]], areas of China not under the control of the invading Imperial Japanese Army
+* [[Free area of the Republic of China]], a term used by the ROC government to contrast itself with the People&amp;apos;s Republic of China and avoid acknowledging their control over mainland China; often shortened to &amp;quot;Free China&amp;quot; and used in contrast to &amp;quot;Red China&amp;quot;
+* &amp;apos;&amp;apos;[[Free China Journal]]&amp;apos;&amp;apos;, a former publication of the government of the [[Republic of China]]
+* [[Free China (junk)]] ([[:zh:自由中國號]]), a Chinese junk boat
+* The [[Free China Movement]], a coalition of about 30 pro-democracy and human rights organizations promoting democracy in China
+* The [[Republic of China]] (commonly known as &amp;apos;Taiwan&amp;apos; since the 1970s), as a counterpart to &amp;apos;Communist China&amp;apos; or &amp;apos;Red China&amp;apos; ([[People&amp;apos;s Republic of China]]).
+* [[Free China:The Courage to Believe]] a 2012 film.
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

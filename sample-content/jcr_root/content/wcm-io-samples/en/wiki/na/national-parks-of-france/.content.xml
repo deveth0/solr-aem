@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="National parks of France"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="National parks of France" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Image:Parcs naturels français.svg|thumb|300px|French national parks (in purple) and [[Regional natural parks of France|regional parks]] (in green).]]
+The &amp;apos;&amp;apos;&amp;apos;national parks of France&amp;apos;&amp;apos;&amp;apos; is a system of ten [[national park]]s throughout metropolitan [[France]] and its [[overseas department]]s, coordinated by the government agency &amp;apos;&amp;apos;Parcs Nationaux de France&amp;apos;&amp;apos;. The French national parks protect a total area of {{convert|3,710|km2|mi2}} in core area and {{convert|9,162|km2|mi2}} in buffer zones in metropolitan France. This puts over 2% of the total area of metropolitan France under some level of protection. French national parks draw over seven million visitors every year.
+
+{| class=&amp;quot;wikitable sortable&amp;quot;
+|-
+!Name
+!class=&amp;quot;unsortable&amp;quot;|Photo
+!Department
+!Area
+!Established
+|-
+| [[Vanoise National Park]]&amp;lt;br/&amp;gt;(&amp;apos;&amp;apos;Parc national de la Vanoise&amp;apos;&amp;apos;)
+| [[File:Vanoise National Park.JPG|175px|]]
+| [[Savoie]]
+| {{sort|{{commas|1250}}|{{convert|1250|km2|sqmi|0|abbr=on}}}}
+| 6 July 1963
+|-
+| [[Port-Cros National Park]]&amp;lt;br/&amp;gt;(&amp;apos;&amp;apos;Parc national de Port-Cros&amp;apos;&amp;apos;)
+| [[File:Port-cros-nature 1.jpg|175px|]]
+| [[Var (department)|Var]]
+| {{sort|{{commas|7}}|{{convert|7|km2|sqmi|0|abbr=on}}}}
+| 14 December 1963
+|-
+| [[Pyrénées National Park]]&amp;lt;br/&amp;gt;(&amp;apos;&amp;apos;Parc national des Pyrénées&amp;apos;&amp;apos;)
+| [[File:Aspe Parc national Pyrenees.jpg|175px|]]
+| [[Hautes-Pyrénées]] and [[Pyrénées-Atlantiques]]
+| {{sort|{{commas|457}}|{{convert|457|km2|sqmi|0|abbr=on}}}}
+| 23 March 1967
+|-
+| [[Cévennes National Park]]&amp;lt;br/&amp;gt;(&amp;apos;&amp;apos;Parc national des Cévennes&amp;apos;&amp;apos;)
+| [[File:CornicheDesCevennes.JPG|175px|]]
+| Mainly [[Lozère]] and [[Gard]], also [[Ardèche]] and [[Aveyron]]
+| {{sort|{{commas|913}}|{{convert|913|km2|sqmi|0|abbr=on}}}}
+| 2 September 1970
+|-
+| [[Écrins National Park]]&amp;lt;br/&amp;gt;(&amp;apos;&amp;apos;Parc National des Écrins&amp;apos;&amp;apos;)
+| [[File:Olan Ecrins National Park.jpg|175px|]]
+| [[Isère]] and [[Hautes-Alpes]]
+| {{sort|{{commas|918}}|{{convert|918|km2|sqmi|0|abbr=on}}}}
+| 27 March 1973
+|-
+| [[Mercantour National Park]]&amp;lt;br/&amp;gt;(&amp;apos;&amp;apos;Parc national du Mercantour&amp;apos;&amp;apos;)
+| [[File:Le Mercantour National Park.jpg|175px|]]
+| [[Alpes-Maritimes]] and [[Alpes-de-Haute-Provence]]
+| {{sort|{{commas|685}}|{{convert|685|km2|sqmi|0|abbr=on}}}}
+| 18 August 1979
+|-
+| [[Guiana Amazonian Park]]&amp;lt;br/&amp;gt;(&amp;apos;&amp;apos;Parc amazonien de Guyane&amp;apos;&amp;apos;)
+| [[File:Camopi.JPG|175px|]]
+| [[French Guiana]] (overseas department)
+| {{sort|{{commas|33900}}|{{convert|33900|km2|sqmi|0|abbr=on}}}}
+| 2007
+|-
+| [[Réunion National Park]]&amp;lt;br/&amp;gt;(&amp;apos;&amp;apos;Parc national de la Réunion&amp;apos;&amp;apos;)
+| [[File:View on Mafate.jpg|175px|]]
+| [[Réunion]] (overseas department)
+| {{sort|{{commas|1054}}|{{convert|1054|km2|sqmi|0|abbr=on}}}}
+| 2007
+|-
+| [[Guadeloupe National Park]]&amp;lt;br/&amp;gt;(&amp;apos;&amp;apos;Parc national de la Guadeloupe&amp;apos;&amp;apos;)
+| [[File:Guadeloupe 123 - Massif de la Soufrière 1467m - Chemin des bains jaunes.jpg|175px|]]
+| [[Guadeloupe]] (overseas department)
+| {{sort|{{commas|173}}|{{convert|173|km2|sqmi|0|abbr=on}}}}
+| 20 February 1989
+|-
+| [[Calanques National Park]]&amp;lt;br/&amp;gt;(&amp;apos;&amp;apos;Parc national des Calanques&amp;apos;&amp;apos;)
+| [[File:Cassis calanques.jpg|175px|]]
+| [[Bouches-du-Rhône]]
+| {{sort|{{commas|520}}|{{convert|520|km2|sqmi|0|abbr=on}}}}
+| 18 April 2012
+|}
+
+== See also ==
+*[[Regional natural parks of France]]
+*[[List of national parks in the Alps]]
+*[[Tourism in France]]
+
+== References==
+{{Reflist}}
+
+== External links ==
+*{{fr}} [http://www.parcsnationaux.fr/ Parcs Nationaux de France]
+*[http://www.parks.it/world/FR/Eindex.html National Parks and other Protected Areas]
+
+{{Établissement public à caractère administratif}}
+{{National parks of France}}
+{{Europe in topic|List of national parks of|countries_only=yes}}
+
+{{DEFAULTSORT:National Parks Of France}}
+[[Category:Lists of national parks|France]]
+[[Category:National parks of France| ]]
+[[Category:France geography-related lists|National parks]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

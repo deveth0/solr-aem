@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Raufoss"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Raufoss" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{about|a village in Norway|the ammunition|Raufoss Mk 211}}
+[[Image:Raufoss church.jpg|thumb|right|270px|Raufoss church]]
+&amp;apos;&amp;apos;&amp;apos;Raufoss&amp;apos;&amp;apos;&amp;apos; is the municipal centre of [[Vestre Toten]], a municipality in the county of [[Oppland]], [[Norway]], 10 kilomenters south of the larger town [[Gjøvik]]. It has approximately 6,000 inhabitants. The largest employer is what was earlier Raufoss Ammunitions factory, now split into several sub companies. These include [[Nammo]], [[Norsk Hydro|Hydro Aluminium]] and [[Raufoss Technology]].
+The community has an active sports community pivoting around the sports club [[Raufoss I.L.]] where the football team has been the most prominent part of the club. Raufoss Fotball currently plays in Norwegian 2. division.
+In addition to sports, Raufoss have an active music community which has fostered musicians as [[Ronni Le Tekrø]] of rock band [[TNT (band)]]. In 2007 a mall was built, called Raufoss Kjøpesenter.
+
+[[Image:Raufoss railroad station.jpg|thumb|left|200px|Raufoss railroad station]]
+Raufoss is also one of the stops on [[Gjøvikbanen]], the second to last stop. The station also has a local bus service.
+
+==The name==
+The village is named after a waterfall in the river [[Hunnselva]]. The first element is &amp;apos;&amp;apos;raud&amp;apos;&amp;apos; (&amp;quot;red&amp;quot;), and the last element is &amp;apos;&amp;apos;foss&amp;apos;&amp;apos; (&amp;quot;waterfall&amp;quot;). (The color red indicates traces of iron in the river bed.)
+
+==External links==
+* [http://www.turistinnlandet.no Tourist information]
+
+{{coord|60|43|N|10|37|E|region:NO_type:city|display=title}}
+
+[[Category:Villages in Oppland]]
+[[Category:Vestre Toten]]
+
+{{Oppland-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

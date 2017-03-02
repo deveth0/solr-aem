@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Facilities engineering"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Facilities engineering" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Underlinked|date=December 2012}}
+
+&amp;apos;&amp;apos;&amp;apos;Facilities Engineering&amp;apos;&amp;apos;&amp;apos; evolved from &amp;quot;plant engineering&amp;quot; in the early 1990s as U.S. workplaces became more complex. Practitioners preferred this term because it more accurately reflected the multidisciplinary demands for specialized conditions in a wider variety of indoor environments, not merely manufacturing plants.
+
+Today, a facilities engineer (vs. a facilities manager) typically has hands-on responsibility for the employer&amp;apos;s [[Electrical engineering]], maintenance, environmental, health, safety, energy, controls/instrumentation, [[civil engineering]], and [[HVAC]] needs. The need for expertise in these categories varies widely depending on whether the facility is, for example, a single-use site or a multi-use campus; whether it is an office, school, hospital, museum, processing/production plant, etc.
+
+Some colleges and universities offer degrees in facilities engineering. Others offer continuing education courses. The [[Association for Facilities Engineering]] offers rigorous programs to certify engineers, maintenance managers and supervisors.
+
+Additionally the [[US Department of Defense]] (DoD) has created a Facilities Engineering career field as part of the Acquisition, Technology and Logistics workforce.  That career field is not limited to indoor environments.  In the DoD, the field also encompasses Real Estate, Ranges and the management of Linear Structures such as roadways, fences and pipelines. Dod offers three levels of certification for professionals in this field.
+
+==References==
+* Bernard T. Lewis, James P. Marron, &amp;apos;&amp;apos;Facilities and plant engineering handbook&amp;apos;&amp;apos;, McGraw-Hill, 1973
+
+==External links==
+* [http://www.afe.org/ Association for Facilities Engineering] (AFE)
+
+[[Category:Engineering disciplines]]
+
+
+{{tech-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

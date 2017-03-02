@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="HMS Manchester"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="HMS Manchester" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;Three ships of the [[Royal Navy]] have borne the name &amp;apos;&amp;apos;&amp;apos;HMS&amp;apos;&amp;apos;&amp;apos; &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Manchester&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; after the city of [[Manchester]] in the north-west of [[England]].
+
+* HMS &amp;apos;&amp;apos;Manchester&amp;apos;&amp;apos; was a hired store ship in 1814 &amp;lt;ref&amp;gt;http://www.royalnavy.mod.uk/operations-and-support/surface-fleet/type-42-destroyers/hms-manchester/history/&amp;lt;/ref&amp;gt;
+* {{HMS|Manchester|15|6}} was a {{sclass2-|Town|cruiser (1936)|0}} cruiser launched in 1937 and lost in action in 1942.
+* {{HMS|Manchester|D95|6}} is a [[Type 42]] (Batch 3) [[destroyer]] launched in 1980. She participated in the 1991 [[Gulf War]] and was decommissioned on 17 February 2011.
+
+==Battle honours==
+* [[Norwegian campaign|Norway]] 1940
+* [[Battle of Cape Spartivento|Spartivento]] 1940
+* [[Siege of Malta (1940)|Malta]] 1942
+* [[Arctic convoys of World War II|Arctic]] 1942
+* [[Gulf War|Persian Gulf]] 1991
+
+==Notes and references==
+{{reflist}}
+
+{{Shipindex}}
+{{Italic title prefixed|3}}
+{{DEFAULTSORT:Manchester, Hms}}
+[[Category:Royal Navy ship names]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

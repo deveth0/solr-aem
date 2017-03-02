@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="George Dweh"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="George Dweh" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{BLP sources|date=July 2009}}
+
+&amp;apos;&amp;apos;&amp;apos;George Dweh&amp;apos;&amp;apos;&amp;apos; is a [[Liberia]]n [[politician]] and a member of the ethnic [[Krahn]] group operating in the [[Liberians United for Reconciliation and Democracy|LURD]] and the [[Movement for Democracy in Liberia|MODEL]] faction groups. He is also cousin to late President [[Samuel K. Doe]], a Krahn who seized power in a 1980 [[coup d&amp;apos;etat|coup]].
+
+Despite widespread resistance to his appointment amidst allegations of his involvement in numerous massacres,&amp;lt;ref&amp;gt;http://focusonliberia.wordpress.com/2011/11/&amp;lt;/ref&amp;gt; Dweh served as Speaker of the [[National Transitional Legislative Assembly of Liberia]] (NTLA) from October 2003 to 14 March 2005, when he was suspended from the body after being accused of financial mismanagement and corruption.
+Dweh has six children : Georgetta, George, George, Georgina, George jr, and Georgecee Dweh &amp;lt;ref&amp;gt;[http://www.irinnews.org/report.aspx?reportid=53466 &amp;quot;LIBERIA: Appeals for calm amid parliament corruption row&amp;quot;], IRIN, March 17, 2005.&amp;lt;/ref&amp;gt;
+
+==References==
+{{Reflist}}
+
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Dweh, George
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION = Liberian politician
+| DATE OF BIRTH     = March 6, 1961
+| PLACE OF BIRTH    = monrovia
+| DATE OF DEATH     =
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Dweh, George}}
+[[Category:Living people]]
+[[Category:Year of birth missing (living people)]]
+[[Category:Members of the Legislature of Liberia]]
+[[Category:Krahn people]]
+
+
+{{Liberia-politician-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

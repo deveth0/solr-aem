@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Feature extraction"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Feature extraction" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[pattern recognition]] and in [[image processing]], &amp;apos;&amp;apos;&amp;apos;feature extraction&amp;apos;&amp;apos;&amp;apos; is a special form of [[dimensionality reduction]].
+
+When the input data to an [[algorithm]] is too large to be processed and it is suspected to be notoriously redundant (e.g. the same measurement in both feet and meters) then the input data will be transformed into a reduced representation set of features (also named features vector). Transforming the input data into the set of features is called &amp;apos;&amp;apos;feature extraction&amp;apos;&amp;apos;. If the features extracted are carefully chosen it is expected that the features set will extract the relevant information from the input data in order to perform the desired task using this reduced representation instead of the full size input.
+
+==General==
+
+Feature extraction involves simplifying the amount of resources required to describe a large set of data accurately. When performing analysis of complex data one of the major problems stems from the number of variables involved. Analysis with a large number of variables generally requires a large amount of memory and computation power or a [[statistical classification|classification]] algorithm which [[overfitting|overfits]] the training sample and generalizes poorly to new samples. Feature extraction is a general term for methods of constructing combinations of the variables to get around these problems while still describing the data with sufficient accuracy.
+
+Best results are achieved when an expert constructs a set of application-dependent features. Nevertheless, if no such expert knowledge is available general dimensionality reduction techniques may help. These include:
+* [[Principal component analysis]]
+* [[Semidefinite embedding]]
+* [[Multifactor dimensionality reduction]]
+* [[Multilinear subspace learning]]
+* [[Nonlinear dimensionality reduction]]
+* [[Isomap]]
+* [[Kernel PCA]]
+* [[Multilinear PCA]]
+* [[Latent semantic analysis]]
+* [[Partial least squares]]
+* [[Independent component analysis]]
+* [[Autoencoder]]
+
+==Image processing==
+It can be used in the area of [[image processing]] which involves using [[algorithm]]s to detect and isolate various desired portions or shapes (features) of a [[digitized image]] or [[video stream]]. It is particularly important in the area of [[optical character recognition]]
+
+&amp;lt;!--The following is just a list of subject headings to be filled in later
+
+*Template operations  &amp;amp; Fourier Transforms--&amp;gt;
+===Low-level===
+* [[Edge detection]]
+* [[Corner detection]]
+* [[Blob detection]]
+* [[Ridge detection]]
+* [[Scale-invariant feature transform]]
+
+====Curvature====
+*Edge direction, changing intensity, [[autocorrelation]].
+
+====Image motion====
+*[[Motion detection]]. Area based, differential approach. [[Optical flow]].
+
+=== Shape based ===
+
+* [[Thresholding (image processing)|Thresholding]]
+* [[Blob extraction]]
+* [[Template matching]]
+* [[Hough transform]]
+** Lines
+** Circles/ellipses
+** Arbitrary shapes (generalized Hough transform)
+** Works with any parameterizable feature (class variables, cluster detection, etc..)
+
+===Flexible methods===
+*Deformable, parameterized shapes
+*Active contours (snakes)
+
+==Feature extraction in software==
+
+Many [[List of statistical packages|data analysis software]] packages provide for feature extraction and dimension reduction. Common numerical programming environments such as [[MATLAB]], [[SciLab]], [[NumPy]] and [[R (programming language)|the R language]] provide some of the simpler feature extraction techniques (e.g. [[principal component analysis]]) via built-in commands. More specific algorithms are often available as publicly available scripts or third-party add-ons.
+
+==See also==
+*[[Cluster analysis]]
+*[[Dimensionality reduction]]
+*[[Feature detection (computer vision)|Feature detection]]
+*[[Feature selection]]
+*[[Data mining]]
+*[[Connected-component labeling]]
+*[[Segmentation (image processing)]]
+
+==References==
+{{unreferenced|date=August 2011}}
+
+==External links==
+* [http://jmlr.csail.mit.edu/papers/special/feature03.html JMLR Special Issue on Variable and Feature Selection]
+* [http://splab.cz/immi IMMI - Rapidminer Image Mining Extension] - open-source tool for image mining
+
+[[Category:Feature detection‎]]
+[[Category:Dimension reduction]]
+
+{{compu-graphics-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

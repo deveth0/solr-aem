@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Gary Stewart"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Gary Stewart" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Gary Stewart&amp;apos;&amp;apos;&amp;apos; is the name of:
+* [[Gary Stewart (singer)]] (1944–2003), country musician
+* [[Gary L. Stewart]], imperator of AMORC from 1987 to 1990
+* [[Gary Stewart (politician)]] (born 1938), politician in Ontario
+* [[Gary Stewart (basketball)]], American college basketball coach
+* Gary Stewart, protagonist in &amp;apos;&amp;apos;[[The House of the Dead 2]]&amp;apos;&amp;apos;
+
+==See also==
+* [[Garry Stewart]] (born 1962), artistic director of Australian Dance Theater
+* [[Gareth Stewart]] (born 1980), English footballer
+
+{{hndis|Stewart, Gary}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

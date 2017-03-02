@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Blind transmission"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Blind transmission" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{no footnotes|date=March 2013}}
+A &amp;apos;&amp;apos;&amp;apos;blind transmission&amp;apos;&amp;apos;&amp;apos;, in [[telecommunications]], is a transmission made without obtaining a receipt, or acknowledgment of reception, from the intended receiving station. Blind transmissions may occur or be necessary when security constraints, such as radio silence, are imposed, when technical difficulties with a sender&amp;apos;s [[Communications receiver|receiver]] or receiver&amp;apos;s [[transmitter]] occur, or when lack of time precludes the delay caused by waiting for receipts.
+
+==Examples==
+*The usual reason for &amp;quot;transmitting blind&amp;quot; would be that the captain of an aircraft knows or suspects that the aircraft&amp;apos;s receiver has failed. The captain would still proceeding according to the [[flight plan]], and under obligation to let other people know of his whereabouts and decisions.
+*The less common reason would be a [[ground control station]] not being able to transmit (due to transmitter failure) or not wanting to transmit any acknowledgment (to avoid giving away further information and putting a military mission at risk).
+
+==See also==
+*[[Transmission time]]
+
+==References==
+*{{Cite web |url=http://www.its.bldrdoc.gov/fs-1037/fs-1037c.htm |title=Federal Standard 1037C Telecom Glossary 2000:Blind Transmission |accessdate=2008-06-26 |publisher=[[Institute for Telecommunication Sciences]]}}
+
+[[Category:Telecommunications techniques]]
+
+{{telecomm-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

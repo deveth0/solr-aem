@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Zebibyte"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Zebibyte" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Selfref|For guidelines on using of this unit on Wikipedia, see [[WP:ZEBIBYTE]].}}
+The &amp;apos;&amp;apos;&amp;apos;zebibyte&amp;apos;&amp;apos;&amp;apos; is a standards-based [[binary prefix|binary multiple]] (prefix [[zebi-|&amp;apos;&amp;apos;zebi&amp;apos;&amp;apos;]], symbol &amp;apos;&amp;apos;Zi&amp;apos;&amp;apos;) of the [[byte]], a unit of [[Computer data storage|digital information storage]]. The zebibyte unit symbol is &amp;apos;&amp;apos;&amp;apos;ZiB&amp;apos;&amp;apos;&amp;apos;.
+
+1 zebibyte = 2&amp;lt;sup&amp;gt;70&amp;lt;/sup&amp;gt; [[byte]]s = {{gaps|1|180|591|620|717|411|303|424|bytes}} = 1,024 [[exbibyte]]s
+
+The zebibyte is closely related to the [[zettabyte]], which is defined as 10&amp;lt;sup&amp;gt;21&amp;lt;/sup&amp;gt; bytes = {{gaps|1|000|000|000|000|000|000|000|bytes}} (see [[binary prefix]]).
+
+The &amp;apos;&amp;apos;zebi&amp;apos;&amp;apos; and &amp;apos;&amp;apos;yobi&amp;apos;&amp;apos; prefixes were originally not part of the system of binary prefixes, but were added by the [[International Electrotechnical Commission]] in August 2005.&amp;lt;ref&amp;gt;[http://www.iec.ch/news_centre/release/nr2005/nr2005.htm IEC - IEC in action | News releases &amp;gt; nr2005 - Here come zebi and yobi]&amp;lt;/ref&amp;gt;
+
+==Usage examples==
+* [[GUID Partition Table]] (GPT) allows for a maximum disk and partition size of 8 zebibytes, or 9.4 zettabytes, when using 512-byte [[Disk sector|sectors]].&amp;lt;ref name=UEFIDrivePartitionLimits&amp;gt;{{cite news |title=FAQ: Drive Partition Limits |publisher=UEFI Forum |url=http://www.uefi.org/learning_center/UEFI_MBR_Limits_v2.pdf |format=PDF |date=2010-06-09 |accessdate=2013-05-29}}&amp;lt;/ref&amp;gt;&amp;lt;ref name=IBMLargeDrivesGPT&amp;gt;{{cite news |title=Make the most of large drives with GPT and Linux |author=Roderick W. Smith |publisher=[[IBM]] |url=http://www.ibm.com/developerworks/library/l-gpt/ |quote=Disk pointers are 64 bits in size, meaning that GPT can handle disks of up to 512 x 264 bytes (8 zebibytes, or 8.6 billion TiB), assuming 512-byte sectors. |date=2012-07-03 |accessdate=2013-05-29}}&amp;lt;/ref&amp;gt;
+
+==See also==
+{{Quantities of bytes}}
+* [[zebibit]]
+* [[exbibyte]]
+* [[yobibyte]]
+* [[SI prefix]]
+* [[IEEE 1541]]
+* [[orders of magnitude (data)]]
+
+==References==
+{{reflist}}
+
+{{Computer Storage Volumes}}
+
+[[Category:Units of information]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

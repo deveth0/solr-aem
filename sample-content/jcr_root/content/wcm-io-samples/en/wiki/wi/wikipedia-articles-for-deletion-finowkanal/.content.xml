@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:Articles for deletion/Finowkanal"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:Articles for deletion/Finowkanal" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{archive}}
+
+&amp;apos;&amp;apos;&amp;apos;This page is an archive of the discussion surrounding the proposed deletion of the page entitled [[Finowkanal]].&amp;apos;&amp;apos;&amp;apos;
+
+&amp;apos;&amp;apos;&amp;apos;This page is kept as an historic record.&amp;apos;&amp;apos;&amp;apos;
+
+&amp;apos;&amp;apos;&amp;apos;The result of the debate was to keep the article.&amp;apos;&amp;apos;&amp;apos;
+
+----
+
+*Delete. Nothing but German. This encyclopedia is supposed to be English. [[User:66.245.2.114|66.245.2.114]] 16:57, 15 May 2004 (UTC)
+*Keep. Translated it, and copied German content to the approbiate entry in de.wikipedia. -- [[User:Tillwe|till we *)]] 19:10, 15 May 2004 (UTC)
+*Keep. Thanks for the translation, I can&amp;apos;t see any reason for deletion now. -- [[User:Jao|Jao]] 22:30, 15 May 2004 (UTC)
+* Keep translated stub. -- [[User:Cyrius|Cyrius]]|[[User talk:Cyrius|&amp;amp;#9998]] 22:24, May 16, 2004 (UTC)
+
+----
+
+This page is now preserved as an archive of the debate and is no longer &amp;apos;live&amp;apos;. Subsequent comments on the issue should be placed on other relevant &amp;apos;live&amp;apos; pages. &amp;apos;&amp;apos;&amp;apos;Please do not edit this page.&amp;apos;&amp;apos;&amp;apos;
+
+----&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

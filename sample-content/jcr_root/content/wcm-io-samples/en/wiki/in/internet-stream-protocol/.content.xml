@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Internet Stream Protocol"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Internet Stream Protocol" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;Internet Stream Protocol&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;&amp;apos;ST&amp;apos;&amp;apos;&amp;apos; and later &amp;apos;&amp;apos;&amp;apos;ST-II&amp;apos;&amp;apos;&amp;apos;) is a family of experimental protocols first defined in [[Internet Experiment Note]] IEN-119&amp;lt;ref&amp;gt;{{cite web|title=IEN-119: ST - A Proposed Internet Stream Protocol by James Forgie|url=ftp://ftp.rfc-editor.org/in-notes/ien/ien119.txt}}&amp;lt;/ref&amp;gt; (1979), and later substantially revised in RFC 1190 (ST-II) and RFC 1819 (ST2+).&amp;lt;ref&amp;gt;{{cite web
+  | title      = ST, Internet Stream Protocol
+  | quote      =
+  | work       =
+  | publisher  = Network Sorcery, Inc.
+  | date       =
+  | url        = http://www.networksorcery.com/enp/protocol/st.htm
+  | doi        =
+  | accessdate = 2012-06-09}}&amp;lt;/ref&amp;gt;
+
+The Internet Stream Protocol family was never introduced for public use, but many of the concepts available in ST are similar to later [[Asynchronous Transfer Mode]] protocols and can be found in [[Multiprotocol Label Switching]] (MPLS). They also presaged [[Voice over IP]].
+
+ST arose as the transport protocol of the [[Network Voice Protocol]], a pioneering computer network protocol for transporting human speech over packetized communications networks, first implemented in December 1973 by Internet researcher [[Danny Cohen (engineer)|Danny Cohen]] of the [[Information Sciences Institute]] (ISI) as part of [[DARPA|ARPA]]&amp;apos;s Network Secure Communications (NSC) project.&amp;lt;ref&amp;gt;RFC 741 (published 1977)&amp;lt;/ref&amp;gt;
+
+First specified in 1979, ST was envisioned to be a connection-oriented complement to [[IPv4]], operating on the same level as IP but using a different header format from that used for IP datagrams. According to IEN-119, its concepts came from Danny Cohen, Estil Hoversten, and James W. Forgie. The protocol was notable for introducing the concepts of [[packetized voice]] (now [[Voice over IP]]), a [[talkspurt]] (a continuous segment of speech between silent intervals), and specified delay and drop-rate requirements for packet services. It was implemented in the [[Voice Funnel]].
+
+Its second version, known variously as ST-II or ST2, was drafted by Claudio Topolcic and others in 1987 and specified in 1990.&amp;lt;ref&amp;gt;RFC 1190 (published 1990)&amp;lt;/ref&amp;gt; The final version of ST2, which was also known as ST2+, was drafted by the IETF ST2 Working group&amp;lt;ref&amp;gt;{{cite web|title=IETF ST2 Working Group (Concluded March, 1996)|url=http://www.ietf.org/wg/concluded/st2.html}}&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;{{cite web|title=IETF ST2 Status Pages (Concluded)|url=http://tools.ietf.org/wg/st2/}}&amp;lt;/ref&amp;gt; and published as RFC 1819.
+ST2 distinguishes its own packets with an [[Internet Protocol]] version number 5, although it was never known as &amp;apos;&amp;apos;&amp;apos;IPv5&amp;apos;&amp;apos;&amp;apos;.&amp;lt;ref&amp;gt;RFC 1819&amp;lt;/ref&amp;gt;
+&amp;lt;blockquote&amp;gt;
+   IP and ST packets can be distinguished by the IP Version Number field, i.e., the first four (4) bits of the packet; ST has been
+   assigned the value 5 (see [RFC1700]). There is no requirement for compatibility between IP and ST packet headers beyond the first four
+   bits. (IP uses value 4.)
+&amp;lt;/blockquote&amp;gt;
+
+ST uses the same IP address structure and the same [[link layer]] protocol number (ethertype 0x800) as IP.
+
+There is a &amp;quot;[[datagram]] mode&amp;quot; in which ST packets can be encapsulated over IP headers using [[List of IP protocol numbers|protocol number]] 5.&amp;lt;ref&amp;gt;{{cite web|url=http://www.iana.org/assignments/protocol-numbers/ |title=Protocol Numbers |publisher=Iana.org |date= |accessdate=2012-06-05}}&amp;lt;/ref&amp;gt;
+
+==See also==
+*[[Voice Funnel]]
+*[[Network Voice Protocol]]
+*[[IPv4]] - Internet Protocol Version 4
+*[[IPv6]] - Internet Protocol Version 6
+
+==References==
+{{reflist}}
+* Cohen, D., &amp;quot;Specifications for the Network Voice Protocol&amp;quot;, Technical Report ISI/RR-75-39, USC/Information Sciences Institute, Marina del Rey, CA (Mar 1976).
+*IEN 119,  ST — A proposed Internet stream protocol, James W. Forgie, M. I. T. Lincoln Laboratory, September 7, 1979.
+* Cohen, D., &amp;quot;A Network Voice Protocol NVP-II&amp;quot; and &amp;quot;Sample NVP/ST Scenarios&amp;quot; (unpublished memorandums), USC/Information Sciences Institute, Marina del Rey, CA (Apr 1981).
+*Topolcic, C., Park, P., Draft of &amp;quot;Proposed Changes to the Experimental Internet Stream Protocol (ST)&amp;quot;, BBN Laboratories, Cambridge, MA (Apr 1987).
+*RFC 1190, Experimental Internet Stream Protocol, Version 2 (ST-II), 1990
+*RFC 1819, Internet Stream Protocol Version 2 (ST2), 1995
+
+[[Category:Internet Protocol]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:Articles for deletion/World Pantheist Movement"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:Articles for deletion/World Pantheist Movement" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;POV rant page by [[Wikipedia:Requests for comment/Paul Vogel|Paul Vogel]]. Is there even such an organisation? - [[User:David Gerard|David Gerard]] 21:33, Apr 2, 2004 (UTC)
+*Lean towards keeping newly written stub. Over 1000 hits for &amp;apos;&amp;apos;&amp;quot;World Pantheist Movement&amp;quot;&amp;apos;&amp;apos;. [[User:Niteowlneils|Niteowlneils]] 21:51, 2 Apr 2004 (UTC)
+*I got 2150.  Keep stub. [[User:Meelar|Meelar]] 02:28, 3 Apr 2004 (UTC)
+*Newly written stub is good. Now the hard part is how to keep Vogel from reverting it to the incoherent POV rant several times a day ... - [[User:David Gerard|David Gerard]] 15:14, Apr 5, 2004 (UTC)
+**Delete Vogel? -- [[User:Cyrius|Cyrius]]|[[User talk:Cyrius|&amp;amp;#9998]] 02:55, Apr 6, 2004 (UTC)
+***See [[Wikipedia talk:Quickpolls]] for discussion of the 3-revert rule and anons - [[User:David Gerard|David Gerard]] 07:32, Apr 6, 2004 (UTC)&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

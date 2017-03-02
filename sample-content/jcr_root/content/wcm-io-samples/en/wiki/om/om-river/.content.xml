@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Om River"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Om River" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Refimprove|date=December 2009}}
+[[File:RiverOm2009.JPG|thumb|220px|Om River in Kuybyshev]]
+
+&amp;apos;&amp;apos;&amp;apos;Om&amp;apos;&amp;apos;&amp;apos; ({{Lang-ru|Омь}}) is a [[river]] in the south of Western [[Siberia]]n plains in [[Russia]]. It is ~724&amp;amp;nbsp;km long, flowing into the major [[Irtysh River]]. It rises in the [[Vasyugan Swamp]] at the border of [[Novosibirsk Oblast|Novosibirsk]] and [[Omsk Oblast|Omsk]] [[oblast]]s. The name is probably from the word &amp;apos;&amp;apos;om&amp;apos;&amp;apos; &amp;apos;quiet&amp;apos; in the language of the [[Baraba Tatar]]s.&amp;lt;ref&amp;gt;E.M. Pospelov, &amp;apos;&amp;apos;Geograficheskie nazvaniya mira&amp;apos;&amp;apos; (Moscow, 1998), p. 310.&amp;lt;/ref&amp;gt;
+
+The city of [[Omsk]] is situated at the confluence of Om and [[Irtysh]].
+
+== References ==
+&amp;lt;references /&amp;gt;
+
+{{commons category}}
+{{coord|54.9817|N|73.3694|E|source:kolossus-ruwiki|display=title}}
+
+&amp;lt;!--Categories--&amp;gt;
+[[Category:Ob basin]]
+[[Category:Rivers of Novosibirsk Oblast]]
+[[Category:Rivers of Omsk Oblast]]
+
+{{NovosibirskOblast-geo-stub}}
+{{OmskOblast-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

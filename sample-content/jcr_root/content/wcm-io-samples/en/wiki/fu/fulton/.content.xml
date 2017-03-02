@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Fulton"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Fulton" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|Fulton}}
+&amp;apos;&amp;apos;&amp;apos;Fulton&amp;apos;&amp;apos;&amp;apos; may refer to:
+{{TOC right}}
+
+== People ==
+&amp;lt;!--Only include persons who are commonly referenced as &amp;quot;Fulton&amp;quot; alone -- others with surname are listed at [[Fulton (surname)]] --&amp;gt;
+* [[Robert Fulton]] (1765–1815), U.S. engineer and inventor, developed the first commercially successful steam-powered ship
+* [[Fulton (surname)]], including list of people with the surname
+* [[Fulton Sheen]], Sainthood candidate and American Archbishop and media personality
+
+== Places ==
+=== Canada ===
+* [[Fulton, Ontario]], a community in West Lincoln, Ontario
+
+=== United States ===
+* [[Fulton, Alabama]]
+* [[Fulton, Arkansas]]
+* [[Fulton, California]]
+* [[Fulton, Illinois]]
+* [[Fulton, Indiana]]
+* [[Fulton, Kansas]]
+* [[Fulton, Kentucky]]
+* [[Fulton, Maryland]]
+* [[Fulton, Michigan (disambiguation)]]
+* [[Fulton, Minneapolis]], Minnesota
+* [[Fulton, Mississippi]]
+* [[Fulton, Missouri]]
+* [[Fulton, New York (disambiguation)]],
+* [[Fulton, South Dakota]]
+* [[Fulton, Texas]]
+** [[George W. Fulton Mansion]]
+* [[Fulton, Tennessee]]
+* [[Fulton, Wisconsin]], a town
+* [[Fulton (community), Wisconsin]], an unincorporated community
+
+== Other uses ==
+* [[Fulton Financial Corporation]], a financial holding company
+* [[Fulton surface-to-air recovery system]]
+* [[Fulton Opera House]]
+* [[Fulton Homes]], a homebuilder based in Tempe, Arizona specializing in mid-range to high-end homes.
+
+== See also ==
+* {{Lookfrom|Fulton}}
+* {{Intitle|Fulton}}
+* [[Fulton County (disambiguation)]]
+* [[Fulton Ferry (disambiguation)]]
+* [[Fulton Township (disambiguation)]]
+* Lord Fulton&amp;apos;s committee report, a [[Her Majesty&amp;apos;s Civil Service#Lord Fulton&amp;apos;s committee report|major review of the UK civil service]]
+
+{{disambiguation|geo}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

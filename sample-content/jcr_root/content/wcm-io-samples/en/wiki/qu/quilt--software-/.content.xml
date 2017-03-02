@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Quilt (software)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Quilt (software)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Other uses|Quilt (disambiguation)}}
+{{For|the sewing technique|Quilting}}
+{{Infobox software
+| name                   = Quilt
+| logo                   = &amp;lt;!-- [[File: ]] --&amp;gt;
+| screenshot             = &amp;lt;!-- [[File: ]] --&amp;gt;
+| caption                =
+| collapsible            =
+| author                 =
+| developer              = Andreas Gruenbacher, Jean Delvare
+| released               = &amp;lt;!-- {{start date|YYYY|MM|DD}} --&amp;gt;
+| discontinued           =
+| latest release version = 0.60
+| latest release date    = {{start date and age|2012|02|29}}
+| latest preview version =
+| latest preview date    = &amp;lt;!-- {{start date and age|YYYY|MM|DD}} --&amp;gt;
+| frequently updated     =
+| programming language   = [[Shell script]]
+| operating system       = [[GNU/Linux]]
+| platform               =
+| size                   =
+| language               =
+| status                 =
+| genre                  = Patch management
+| license    = [[GPLv2]]+
+| website                = {{URL|http://savannah.nongnu.org/projects/quilt}}
+}}
+&amp;apos;&amp;apos;&amp;apos;Quilt&amp;apos;&amp;apos;&amp;apos; is a software utility for managing a series of changes to the [[source code]] of any [[computer program]]. Such changes are often referred to as &amp;quot;[[Patch (computing)|patches]]&amp;quot; or &amp;quot;patch sets&amp;quot;, and essentially Quilt takes N patches and turns them into a single patch. In doing so, quilt makes it easier for other programmers to test and evaluate the different changes before they are permanently inserted into the source code. This type of tool is very important for distributed [[software development]] where many programmers are collaborating to test and build a single large codebase. It is heavily used, for example, by the maintainers of the [[Linux kernel]].&amp;lt;ref&amp;gt;https://www.linux.com/news/special-feature/linux-developers/600241:30-linux-kernel-developers-in-30-weeks-greg-kroah-hartman&amp;lt;/ref&amp;gt;
+
+==Development==
+Quilt evolved from a set of patch-management scripts originally written by [[Linux kernel]] developer [[Andrew Morton (computer programmer)|Andrew Morton]],&amp;lt;ref&amp;gt;{{cite paper |author=Morton, Andrew |title=patch management scripts |date=2002-10-20 |url=http://lwn.net/Articles/13518/}}&amp;lt;/ref&amp;gt; and was developed by Andreas Grünbacher for maintaining Linux kernel customizations for [[SuSE Linux]].&amp;lt;ref&amp;gt;{{cite paper |author=Grünbacher, Andreas |title=How To Survive With Many Patches, or Introduction to Quilt |date=2005-06-12 |url=http://www.suse.de/~agruen/quilt.pdf |format=[[PDF]] |accessdate=2008-04-25}}&amp;lt;/ref&amp;gt; It is now being developed as a community effort, hosted at the [[GNU Savannah]] project repository and distributed as [[free software]] (its license is [[GNU General Public License]] v2 or later).
+
+It has been incorporated into [[dpkg]],&amp;lt;ref&amp;gt;http://lists.debian.org/debian-devel-changes/2009/11/msg02647.html&amp;lt;/ref&amp;gt; [[Debian]]&amp;apos;s package manager and will be one of the standard source formats supported from the Debian &amp;quot;squeeze&amp;quot; release onwards. This source format is identified as &amp;quot;3.0 (quilt)&amp;quot; by dpkg.
+
+Quilt is also &amp;lt;ref&amp;gt;http://wiki.openwrt.org/doc/devel/patches OpenWrt Buildroot integrates quilt&amp;lt;/ref&amp;gt; integrated into [[OpenWrt|OpenWrt Buildroot]].
+
+The name originated from [[patchwork quilt]].
+
+== See also ==
+* The [[Mercurial (software)|Mercurial]] extension &amp;apos;&amp;apos;&amp;apos;mq&amp;apos;&amp;apos;&amp;apos; provides similar functionality.&amp;lt;ref&amp;gt;http://www.selenic.com/mercurial/wiki/index.cgi/MqExtension&amp;lt;/ref&amp;gt;
+{{Portal|Free software}}
+
+==References==
+{{Reflist}}
+
+==External links==
+* {{Official website|http://savannah.nongnu.org/projects/quilt}}
+* [http://www.shakthimaan.com/downloads/glv/quilt-tutorial/quilt-doc.pdf Quilt Tutorial] (PDF)
+
+[[Category:Free computer programming tools]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

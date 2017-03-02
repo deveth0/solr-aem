@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="The Triumph of Technique"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="The Triumph of Technique" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;The Triumph of Technique: The Industrialization of Agriculture and the Destruction of Rural America&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is a 2004 book by [[Robert Wolf (writer)|Robert Wolf]].
+
+&amp;apos;&amp;apos;The Triumph of Technique&amp;apos;&amp;apos; examines contemporary [[agriculture]] and its impact on rural [[economics|economies]]. This book has been hailed by leaders of the [[sustainable agriculture]] movement as a significant contribution to understanding the depth of the current crisis in agriculture and its implications.
+
+The “technique” of the title refers not only to technologies but to any methods developed for the purpose of achieving predetermined ends. Wolf argues that technique, as he defines it, has taken the art out of farming by transforming it into [[agribusiness]], on a much larger scale.  He claims that this transformation has led to the decline of rural communities.
+
+{{DEFAULTSORT:Triumph Of Technique, The}}
+[[Category:2004 books]]
+[[Category:Agriculture books]]
+[[Category:Industrial agriculture]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

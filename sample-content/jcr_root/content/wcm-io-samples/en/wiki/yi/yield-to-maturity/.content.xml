@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Yield to maturity"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Yield to maturity" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Financial markets}}
+The &amp;apos;&amp;apos;&amp;apos;Yield to maturity&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;&amp;apos;YTM&amp;apos;&amp;apos;&amp;apos;), &amp;apos;&amp;apos;&amp;apos;book yield&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;redemption yield&amp;apos;&amp;apos;&amp;apos; of a [[Bond (finance)|bond]] or other [[security (finance)|fixed-interest security]], such as [[gilts]], is the [[internal rate of return]] (IRR, overall interest rate) earned by an investor who buys the bond today at the market price, assuming that the bond will be held until [[Maturity (finance)|maturity]], and that all [[Coupon (bond)|coupon]] and principal payments will be made on schedule. Yield to maturity is simply the discount rate at which the sum of all future cash flows from the bond (coupons and principal) is equal to the price of the bond. The YTM is often given in terms of Annual Percentage Rate (A.P.R.), but more usually market convention is followed: in a number of major markets the convention is to quote yields semi-annually (see [[compound interest]]: thus, for example, an annual effective yield of 10.25% would be quoted as 5.00%, because 1.05 x 1.05 = 1.1025).
+
+The yield is usually quoted without making any allowance for tax paid by the investor on the return, and is then known as &amp;quot;gross redemption yield&amp;quot;. It also does not make any allowance for the dealing costs incurred by the purchaser (or seller).
+
+* If the yield to maturity for a bond is less than the bond&amp;apos;s [[coupon rate]], then the (super clean) market value of the bond is less than greater to than to the par value (and vice versa).
+* If a bond&amp;apos;s [[coupon rate]] is less than its YTM, then the bond is selling at a [[discounts and allowances|discount]].
+* If a bond&amp;apos;s coupon rate is more than its YTM, then the bond is selling at a [[:wikt:premium|premium]].
+* If a bond&amp;apos;s coupon rate is equal to its YTM, then the bond is selling at [[par value|par]].
+
+==Variants of yield to maturity==
+As some bonds have different characteristics, there are some variants of YTM:
+* Yield to call: when a bond is callable (can be repurchased by the issuer before the maturity), the market looks also to the Yield to call, which is the same calculation of the YTM, but assumes that the bond will be called, so the cashflow is shortened.
+
+* Yield to put: same as yield to call, but when the bond holder has the option to sell the bond back to the issuer at a fixed price on specified date.
+
+* Yield to worst: when a bond is callable, puttable, exchangeable, or has other features, the yield to worst is the lowest yield of yield to maturity, yield to call, yield to put, and others.
+
+== Formula for yield to maturity ==
+
+&amp;lt;math&amp;gt;
+\text{Yield to maturity(YTM)} = \sqrt[\text{Time period}]{\dfrac{\text{Face value}}{\text{Present value}}} - 1
+&amp;lt;/math&amp;gt;
+
+==Example==
+Consider a 30-year [[zero-coupon bond]] with a face value of $100. If the bond is priced at an annual YTM of 10%, it will cost $5.73 today (the [[present value]] of this cash flow, 100/(1.1)&amp;lt;sup&amp;gt;30&amp;lt;/sup&amp;gt; = 5.73). Over the coming 30 years, the price will advance to $100, and the annualized return will be 10%.
+
+What happens in the meantime? Suppose that over the first 10 years of the holding period, [[interest rates]] decline, and the yield-to-maturity on the bond falls to 7%. With 20 years remaining to maturity, the price of the bond will be 100/1.07&amp;lt;sup&amp;gt;20&amp;lt;/sup&amp;gt;, or $25.84. Even though the yield-to-maturity for the remaining life of the bond is just 7%, and the yield-to-maturity bargained for when the bond was purchased was only 10%, the return earned over the first 10 years is 16.25%. This can be found by evaluating (1+i) from the equation (1+i)&amp;lt;sup&amp;gt;10&amp;lt;/sup&amp;gt; = (25.842/5.731), giving 1.1625.
+
+Over the remaining 20 years of the bond, the annual rate earned is not 16.25%, but rather 7%. This can be found by evaluating (1+i) from the equation (1+i)&amp;lt;sup&amp;gt;20&amp;lt;/sup&amp;gt; = 100/25.84, giving 1.07. Over the entire 30 year holding period, the original $5.73 invested increased to $100, so 10% per annum was earned, irrespective of any interest rate changes in between.
+
+Here is another example:
+
+You buy ABC Company bond which matures in 1 year and has a 5% interest rate (coupon) and has a par value of $100. You pay $90 for the bond.
+
+The [[current yield]] is 5.56% ((5/90)*100).
+
+If you hold the bond until maturity, ABC Company will pay you $5 as interest and $100 par value for the matured bond.
+
+Now for your $90 investment, you get $105, so your yield to maturity is 16.67% [= (105/90)-1] or [=(105-90)/90].
+
+==See also==
+*[[Bond valuation#Yield to Maturity|Bond Valuation — Yield To Maturity]]
+*[[I-spread]]
+*[[Dividend yield]]
+*[[Bond duration]]
+*[[Coupon rate]]
+*[[Wikinvest:Yield to Maturity|Yield to Maturity on Wikinvest]]
+
+==References==
+{{Reflist}}
+{{Bond  market}}
+
+{{DEFAULTSORT:Yield To Maturity}}
+[[Category:Fixed income analysis]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

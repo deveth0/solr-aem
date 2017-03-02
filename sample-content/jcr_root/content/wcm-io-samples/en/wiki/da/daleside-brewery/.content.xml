@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Daleside Brewery"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Daleside Brewery" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox company
+| name           = Daleside Brewery
+| logo         = [[Image:DalesideLogo.png|150px]]
+| caption        = Daleside Logo
+| location_city = [[Harrogate]], [[Yorkshire]],
+|location_country      = England
+| owner          =
+| foundation        = 1988
+| production     =
+| active_beers   =
+| seasonal_beers =
+| other_beers    =
+}}
+&amp;apos;&amp;apos;&amp;apos;Daleside&amp;apos;&amp;apos;&amp;apos; is an independent [[brewery]] founded in 1988 in [[Harrogate]], [[North Yorkshire]], [[England]].
+
+==Products==
+Daleside produce a wide range of beers, including Morocco Ale, a traditional spiced beer based on an Elizabethan recipe;&amp;lt;ref&amp;gt;[http://www.levenshall.co.uk/main/ale.htm Levens Hall - Secret Recipe Elizabethan Ale&amp;lt;!-- Bot generated title --&amp;gt;]&amp;lt;/ref&amp;gt; Old Legover, a low [[Alcohol by volume|abv]] Old Ale;&amp;lt;ref&amp;gt;[http://www.legendslimited.com/legover.html Legends, Ltd. - Old Legover&amp;lt;!-- Bot generated title --&amp;gt;]&amp;lt;/ref&amp;gt; Monkey Wrench, a stronger Old Ale; Ripon Jewel, a strong pale ale; and Duff, a 5% abv dark ale. &amp;apos;Duff&amp;apos; sounds like &amp;apos;dubh&amp;apos; Gaelic for &amp;quot;Dark&amp;quot;.
+
+==References==
+{{reflist}}
+
+==External links==
+*[http://www.dalesidebrewery.com/index.php Daleside Brewery]
+*[http://www.ratebeer.com/Brewers/daleside/1001/ RateBeer]
+
+[[Category:Beer and breweries in England]]
+[[category: Breweries in Yorkshire]]
+[[Category:Yorkshire cuisine]]
+[[Category:Companies established in 1988]]
+[[Category:Companies based in Harrogate]]
+
+
+{{beer-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

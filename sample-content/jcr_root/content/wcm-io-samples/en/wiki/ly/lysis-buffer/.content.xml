@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Lysis buffer"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Lysis buffer" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced stub|auto=yes|date=December 2009}}
+A &amp;apos;&amp;apos;&amp;apos;lysis buffer&amp;apos;&amp;apos;&amp;apos; is a [[buffer solution]] used for the purpose of [[lysis|lysing]] cells for use in [[molecular biology]] experiments that analyze the compounds of the cells (e.g. [[western blot]]). There are many different types of lysis buffer that can be applied, depending on what analysis the [[cell lysate]] will be used for (e.g. red blood cell lysis buffer). Generally, lysis buffers contain [[tris-HCl]], [[EDTA]], [[EGTA (chemical)|EGTA]], [[Sodium dodecyl sulfate|SDS]], [[deoxycholate]], [[Triton X-100|tritonX]] and/or [[NP-40]]. In some cases the buffer may also contain [[NaCl]] (150 [[mM]]).
+
+In studies like [[DNA fingerprinting]] the lysis buffer is used for DNA isolation. [[Dish soap]] can be used in a pinch to break down the cell and nuclear membranes, allowing the DNA to be released. Other such lysis buffers include the proprietary [[Qiagen]] product [[Buffer P2]].
+
+[[Radioimmunoprecipitation_assay_buffer|RIPA buffer]] is another commonly used lysis buffer for [[immunoprecipitation]] and general protein extraction from cells and tissues.
+
+{{DEFAULTSORT:Lysis Buffer}}
+[[Category:Laboratory techniques]]
+[[Category:Cell biology]]
+[[Category:DNA]]
+
+
+{{Biology-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

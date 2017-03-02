@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="X-Men: The Manga"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="X-Men: The Manga" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{unreferenced|date=October 2008}}
+
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;X-Men: The  Manga&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; (1998–1999),  is a [[manga]] by [[Bamboo Comics]]/[[Marvel Comics|Marvel Comics Group]] inspired by its American counterpart produced for a Japanese audience. Marvel used this title as another attempt to break into the Japanese comic market (others being &amp;apos;&amp;apos;[[Spider-Man: The Manga]]&amp;apos;&amp;apos; and &amp;apos;&amp;apos;[[Hulk: The Manga]]&amp;apos;&amp;apos; in the 1970s). It is in 12 volumes, by [[Hiroshi Higuchi]], [[Miyako Kojima]], [[Koji Yasue]], and others.
+The first manga has been translated and is being sold in America.
+
+== See also ==
+* [[Del Rey Manga#Marvel|Del Rey Manga/Marvel]]
+
+{{X-Comics}}
+
+[[Category:X-Men titles]]
+[[Category:Manga series]]
+[[Category:1998 comic debuts]]
+[[Category:Superhero anime and manga]]
+
+{{Marvel-title-stub}}
+{{manga-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="EG"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="EG" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Wiktionary|eg}}
+&amp;apos;&amp;apos;&amp;apos;Eg&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* e.g., an abbreviation of &amp;apos;&amp;apos;[[exempli gratia]]&amp;apos;&amp;apos;, Latin: &amp;quot;for example&amp;quot;
+* [[Eg White]], a British musician, songwriter and producer.
+* [[Eg, Afghanistan]], a town
+* [[Eg River]], a river in northern Mongolia.
+* [[Exagram]], an SI unit of mass
+* [[band gap energy]]
+
+&amp;apos;&amp;apos;&amp;apos;EG&amp;apos;&amp;apos;&amp;apos; also stands for:
+* [[Evil Geniuses]], an electronic sports team
+* [[Eurographics]], European Association for Computer Graphics
+* EG, a model code for a 1992-95 [[Honda Civic]] &amp;amp; Civic Hatchback
+* [[EG (magazine)|&amp;apos;&amp;apos;EG&amp;apos;&amp;apos; (magazine)]], a journal dedicated to chess endgame studies
+* [[E.G. Records]], a music record label
+* [[.eg]], Internet country code top-level domain for Egypt
+* [[Japan Asia Airways]], IATA code
+* [[Equatorial Guinea]], a small African country
+* [[Electric Gardens]], a music festival in Faversham, UK
+* [[Ethylene glycol]], an alcohol
+* [[Enskilda Gymnasiet]], a private secondary school in Stockholm, Sweden
+* eG, &amp;apos;&amp;apos;[[eingetragene Genossenschaft]]&amp;apos;&amp;apos;, a registered cooperative society under German law
+
+== See also ==
+* [[Egg (disambiguation)]]
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

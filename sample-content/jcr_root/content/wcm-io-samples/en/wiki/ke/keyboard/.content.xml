@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Keyboard"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Keyboard" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|Keyboard|keyboard}}
+{{commons category|Keyboards}}
+&amp;apos;&amp;apos;&amp;apos;Keyboard&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+==Typing==
+* [[Typewriter]] keyboard, used to enter text onto paper
+* [[Computer keyboard]], a set of keys used to input information to a computer
+** [[IBM PC keyboard]]
+** [[Apple Keyboard]]
+** [[Chorded keyboard]], on which several keys are pressed together to enter a letter or command
+
+==Music==
+* [[Musical keyboard]], a set of adjacent keys or levers used to play a musical instrument
+** [[Keyboard instrument]], an instrument with a musical keyboard
+*** [[Electronic keyboard]], a keyboard instrument in which key presses complete an electric circuit
+****[[MIDI keyboard]], an electronic keyboard used to send MIDI data to a computer or synthesizer
+***[[Pedal keyboard]], a foot-operated keyboard that is placed on the floor
+*** [[Keyboardist]], a musician who plays keyboard instruments
+*** &amp;apos;&amp;apos;[[Keyboard Magazine]]&amp;apos;&amp;apos;, a publication about musical instruments such as the piano
+* [[Synthesizer]], an electronic instrument that is commonly referred to as a keyboard
+
+==See also==
+* [[Keypad]]
+
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

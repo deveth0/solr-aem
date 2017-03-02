@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="BND"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="BND" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;BND&amp;apos;&amp;apos;&amp;apos; may stand for:
+
+* &amp;apos;&amp;apos;[[Bundesnachrichtendienst]]&amp;apos;&amp;apos;, German intelligence agency
+* [[Bank of North Dakota]]
+* [[Buy Nothing Day]]
+* [[Brunei dollar]] ([[ISO currency code]])
+* [[Ordinary National Diploma|BTEC National Diploma]]
+* [[Brandon railway station]], Brandon, Suffolk, England; [[National Rail]] station code BND
+* [[Bulgarian New Democracy]], a Bulgarian centre-right party.
+* &amp;quot;BND&amp;quot;, a song on [[No Doubt (No Doubt album)]]
+* The Russian way of saying [[VID (company)]], A Russian TV Company.
+* [http://www.aqute.biz/Bnd/Bnd bnd], a software toolkit for [[OSGi]] development.
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

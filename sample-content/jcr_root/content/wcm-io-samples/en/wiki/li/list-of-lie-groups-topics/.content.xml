@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="List of Lie groups topics"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="List of Lie groups topics" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;This is a &amp;apos;&amp;apos;&amp;apos;list of [[Lie group]] topics&amp;apos;&amp;apos;&amp;apos;, by Wikipedia page.
+
+==Examples==
+&amp;apos;&amp;apos;See [[Table of Lie groups]] for a list&amp;apos;&amp;apos;
+
+*[[General linear group]], [[special linear group]]
+**[[SL2(R)|SL&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;(&amp;apos;&amp;apos;&amp;apos;R&amp;apos;&amp;apos;&amp;apos;)]]
+**[[SL2(C)|SL&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;(&amp;apos;&amp;apos;&amp;apos;C&amp;apos;&amp;apos;&amp;apos;)]]
+*[[Unitary group]], [[special unitary group]]
+**[[SU(2)]]
+**[[SU(3)]]
+*[[Orthogonal group]], [[special orthogonal group]]
+**[[Rotation group SO(3)]]
+**[[SO(8)]]
+**[[Generalized orthogonal group]], [[generalized special orthogonal group]]
+***The special unitary group SU(1,1) is the unit sphere in the ring of [[coquaternion]]s. It is the group of [[hyperbolic motion]]s of the Poincaré disk model of the [[Hyperbolic geometry|Hyperbolic plane]].
+***[[Lorentz group]]
+**[[Spinor group]]
+*[[Symplectic group]]
+*Exceptional groups
+**[[G2 (mathematics)|G&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;]]
+**[[F4 (mathematics)|F&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt;]]
+**[[E6 (mathematics)|E&amp;lt;sub&amp;gt;6&amp;lt;/sub&amp;gt;]]
+**[[E7 (mathematics)|E&amp;lt;sub&amp;gt;7&amp;lt;/sub&amp;gt;]]
+**[[E8 (mathematics)|E&amp;lt;sub&amp;gt;8&amp;lt;/sub&amp;gt;]]
+*[[Affine group]]
+*[[Euclidean group]]
+*[[Poincaré group]]
+*[[Heisenberg group]]
+
+==[[Lie algebra]]s==
+
+*[[Commutator]]
+*[[Jacobi identity]]
+*[[Universal enveloping algebra]]
+*[[Campbell-Hausdorff formula]]
+*[[Casimir invariant]]
+*[[Killing form]]
+*[[Kac-Moody algebra]]
+*[[Affine Lie algebra]]
+*[[Loop algebra]]
+*[[Graded Lie algebra]]
+
+==Foundational results==
+
+*[[One-parameter group]], [[One-parameter subgroup]]
+*[[Matrix exponential]]
+*[[Infinitesimal transformation]]
+*[[Lie&amp;apos;s third theorem]]
+*[[Maurer-Cartan form]]
+*[[Cartan&amp;apos;s theorem]]
+*[[Cartan&amp;apos;s criterion]]
+*[[Local Lie group]]
+*[[Formal group law]]
+*[[Hilbert&amp;apos;s fifth problem]]
+*[[Hilbert-Smith conjecture]]
+*[[Lie group decompositions]]
+*[[Real form (Lie theory)]]
+*[[Complex Lie group]]
+*[[Complexification (Lie group)]]
+
+== Semisimple theory==
+
+*[[Simple Lie group]]
+*[[Compact Lie group]], [[Compact real form]]
+*[[Semisimple Lie algebra]]
+*[[Root system]]
+*[[Simply laced group]]
+**[[ADE classification]]
+*[[Maximal torus]]
+*[[Weyl group]]
+*[[Dynkin diagram]]
+*[[Weyl character formula]]
+
+==Representation theory==
+{{see also|List of representation theory topics}}
+
+*[[Representation of a Lie group]]
+*[[Representation of a Lie algebra]]
+*[[Adjoint representation of a Lie group]]
+*[[Adjoint representation of a Lie algebra]]
+*[[Unitary representation]]
+*[[Weight (representation theory)]]
+*[[Peter–Weyl theorem]]
+*[[Borel–Weil theorem]]
+*[[Kirillov character formula]]
+*[[Representation theory of SU(2)]]
+*[[Representation theory of SL2(R)]]
+
+==Applications==
+===Physical theories===
+*[[Pauli matrices]]
+*[[Gell-Mann matrices]]
+*[[Poisson bracket]]
+*[[Noether&amp;apos;s theorem]]
+*[[Wigner&amp;apos;s classification]]
+*[[Gauge theory]]
+*[[Grand unification theory]]
+*[[Supergroup (physics)|Supergroup]]
+*[[Lie superalgebra]]
+*[[Twistor]]
+*[[Anyon]]
+*[[Witt algebra]]
+*[[Virasoro algebra]]
+
+===Geometry===
+*[[Erlangen programme]]
+*[[Homogeneous space]]
+**[[Principal homogeneous space]]
+*[[Invariant theory]]
+*[[Lie derivative]]
+*[[Darboux derivative]]
+*[[Lie groupoid]]
+*[[Lie algebroid]]
+
+===[[Discrete group]]s===
+*[[Lattice (group)]]
+*[[Lattice (discrete subgroup)]]
+*[[Frieze group]]
+*[[Wallpaper group]]
+*[[Space group]]
+*[[Crystallographic group]]
+*[[Fuchsian group]]
+*[[Modular group]]
+*[[Congruence subgroup]]
+*[[Kleinian group]]
+*[[Discrete Heisenberg group]]
+*[[Clifford–Klein form]]
+
+===[[Algebraic group]]s===
+*[[Borel subgroup]]
+*[[Parabolic subgroup]]
+*[[Arithmetic group]]
+
+==[[Special functions]]==
+
+*[[Dunkl operator]]
+
+===Automorphic forms===
+*[[Modular form]]
+*[[Langlands program]]
+
+==People==
+
+*[[Sophus Lie]] (1842 &amp;amp;ndash; 1899)
+*[[Wilhelm Killing]] (1847 &amp;amp;ndash; 1923)
+*[[Élie Cartan]] (1869 &amp;amp;ndash; 1951)
+*[[Hermann Weyl]] (1885 &amp;amp;ndash; 1955)
+*[[Harish-Chandra]] (1923 &amp;amp;ndash; 1983)
+*[[Lajos Pukánszky]](1928 &amp;amp;ndash; 1996)
+*[[Bertram Kostant]]
+
+[[Category:Mathematics-related lists|Lie groups]]
+[[Category:Lie groups| ]]
+[[Category:Lie algebras]]
+[[Category:Outlines]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

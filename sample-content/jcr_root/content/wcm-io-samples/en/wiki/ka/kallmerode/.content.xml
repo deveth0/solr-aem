@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Kallmerode"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Kallmerode" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced stub|auto=yes|date=December 2009}}
+{{Infobox German location
+|image_photo       =
+|Wappen            = Wappen Kallmerode.png
+|lat_deg           = 51 |lat_min = 21 |lat_sec = 2
+|lon_deg           = 10 |lon_min = 18 |lon_sec = 23
+|Lageplan = Kallmerode in EIC.svg
+|Bundesland        = Thüringen
+|Landkreis         = Eichsfeld
+|Verwaltungsgemeinschaft = Dingelstädt
+|Höhe              = 375
+|Fläche            = 5.59
+|Einwohner         = 606
+|Stand             = 2006-12-31
+|PLZ               = 37327
+|Vorwahl           = 03605
+|Kfz               = EIC
+|Gemeindeschlüssel = 16 0 61 054
+|Adresse-Verband   = Geschwister-Scholl-Str. 26/28&amp;lt;br /&amp;gt;37351 Dingelstädt
+|Website           =
+|Bürgermeister     = Marion Weise
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Kallmerode&amp;apos;&amp;apos;&amp;apos; is a [[Thuringia]]n municipality in the district of [[Eichsfeld (district)|Eichsfeld]] in Germany.
+
+{{Cities and towns in Eichsfeld (district)}}
+==References==
+{{Reflist}}
+
+{{Eichsfeld-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

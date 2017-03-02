@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:WikiProject Genealogy"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:WikiProject Genealogy" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Shortcut|WT:SBS}}
+{{Archive box|auto=yes}}
+
+The &amp;apos;&amp;apos;&amp;apos;WikiProject for Genealogy&amp;apos;&amp;apos;&amp;apos; is a place for standardizing genealogical tables within Wikipedia and for enhancing genealogical knowledge within articles.  While Wikipedia is not and never was intended as a genealogical tool, that does not mean that it cannot be.  Nearly all royalty pages list a brief ancestry as well as a list of spouses and issue.  This practice should be more widespread, outside the bounds of simple aristocracy and into the bounds of everyday people.
+
+== Project goals ==
+* Choose the standard form for ancestry tables
+* Choose the standard form for spouses and issue
+* Decide on proper placement of charts within articles
+* Expand scope of ancestral table publishing to include everyday people
+
+== Proposals for the standard ancestry table form ==
+=== s-anc ===
+This proposed standard form incorporates the present need to identify noble houses and family names with a need to be brief in ancestral trees.  Unlike many current forms, it does not include unnecessary descriptors such as grandfather and great grandmother, but it does allow for royal house names and mother and father titles.  Most importantly, it is derived from CSS templates instead of many lines of unnecessary code.  The template is available at {{tl|s-anc}} although it requires {{tl|s-fam}} and {{tl|end}} or {{tl|s-ref}} to function properly.  In the end, it appears as this when completed:
+
+{{s-fam}}
+{{s-anc
+|name=Page Name or Custom name
+|F=Father
+|Ftitle=King of Something
+|FF=Grandfather
+|FFH=Grandfather&amp;apos;s House
+|FM=Grandmother
+|FMH=Grandmother&amp;apos;s House
+|M=Mother
+|Mtitle=Queen of Something
+|MF=Grandfather
+|MFH=Grandfather&amp;apos;s House
+|MM=Grandmother
+|MMH=Grandmother&amp;apos;s House}}
+{{s-ref|Cite your sources here}}
+
+=== Other templates ===
+Wikipedia has various other [[:Category:Genealogy templates|genealogy templates]] that have been used in various articles.  Some of them might qualify for proposal as the standard ancestry table form, and need to be evaluated for such.
+
+==Proposals for the standard form for spouses and issue==
+Some of the aforementioned [[:Category:Genealogy templates|genealogy templates]] might qualify for proposal as the standard form for spouses and issue, and need to be evaluated for such.
+
+== Members ==
+The following are registered members of this WikiProject:
+
+* {{Lu|JohnAlbertRigali}}
+** (currently not very active on Wikipedia, but now trying to resurrect this WikiProject nonetheless)
+* {{Lu|KuatofKDY}} AKA: Darius von Whaleyland
+** (had previously attempted to resurrect the project and standardize genealogical boxes currently in use at Wikipedia; also the founder of [[Wikipedia:WikiProject Succession Box Standardization]] and a frequenter to any royalty page)
+* {{Lu|Kthapelo}}
+** (very interested in genealogy, and tracking how people tie together through their blood lines)
+* {{Lu|OlliffeObscurity}}
+** (amateur genealogist with advanced knowledge of genealogical systems and terminology; strongly agreeing with and frequently adhering to the project goals!)
+* {{Lu|Iamthecheese44}}
+** (ditto the interests of Darius von Whaleyland &amp;amp; Kthapelo, with whom I have a feeling I will get along well ;) )
+* {{Lu|Technical 13}}
+** Interested in genealogy in general but not any specific tree.  Also I greatly enjoy writing [[WP:TEMP|Templates]] and [[JavaScript]]s to make life easier on Wikipedia.
+
+== Cross-references ==
+* [[M:Wikipeople|Wikipeople Project]]
+* [[M:GlobalFamilyTree|GlobalFamilyTree]]
+* [http://wikitree.org/index.php?title=Main_Page WikiTree]
+* [http://rodovid.org rodovid]
+
+== Partner projects ==
+* [[WP:WikiProject Succession Box Standardization]]
+
+== Tools ==
+:&amp;apos;&amp;apos;Main tool page: [[tools:~dispenser/view/Tools|toolserver.org]]&amp;apos;&amp;apos;
+* [[tools:~dispenser/view/Reflinks|Reflinks]] - Edits bare references - adds title/dates etc. to bare references
+* [[tools:~dispenser/view/Checklinks|Checklinks]] - Edit and repair external links
+* [[tools:~dispenser/view/Dab_solver|Dab solver]] - Quickly resolve ambiguous links.
+* [[tools:~dispenser/view/Peer_reviewer|Peer reviewer]] - Provides hints and suggestion to improving articles.
+
+{{Wikipedia policies and guidelines}}
+{{WikiProject Footer}}
+
+[[Category:Society WikiProjects|Genealogy]]
+[[Category:WikiProject Biography work groups and child projects|Genealogy]]
+[[fr:Projet:Généalogie]]
+[[ru:Википедия:Проект:Генеалогия]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

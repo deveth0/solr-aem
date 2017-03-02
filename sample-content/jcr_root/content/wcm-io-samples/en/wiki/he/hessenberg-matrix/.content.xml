@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Hessenberg matrix"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Hessenberg matrix" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[linear algebra]], a &amp;apos;&amp;apos;&amp;apos;Hessenberg matrix&amp;apos;&amp;apos;&amp;apos; is a special kind of [[square matrix]], one that is &amp;quot;almost&amp;quot; [[Triangular matrix|triangular]]. To be exact, an &amp;apos;&amp;apos;&amp;apos;upper Hessenberg matrix&amp;apos;&amp;apos;&amp;apos; has zero entries below the first [[diagonal#Matrices|subdiagonal]], and a &amp;apos;&amp;apos;&amp;apos;lower Hessenberg matrix&amp;apos;&amp;apos;&amp;apos; has zero entries above the first [[Diagonal#Matrices|superdiagonal]].&amp;lt;ref&amp;gt;{{harvtxt|Horn|Johnson|1985}}, page 28; {{harvtxt|Stoer|Bulirsch|2002}}, page 251&amp;lt;/ref&amp;gt; They are named after [[Karl Hessenberg]].&amp;lt;ref&amp;gt;Biswa Nath Datta (2010) Numerical Linear Algebra and Applications, 2nd Ed., Society for Industrial and Applied Mathematics (SIAM) ISBN 978-0-89871-685-6, p. 307&amp;lt;/ref&amp;gt;
+
+For example:
+:&amp;lt;math&amp;gt;\begin{bmatrix}
+1 &amp;amp; 4 &amp;amp; 2 &amp;amp; 3 \\
+3 &amp;amp; 4 &amp;amp; 1 &amp;amp; 7 \\
+0 &amp;amp; 2 &amp;amp; 3 &amp;amp; 4 \\
+0 &amp;amp; 0 &amp;amp; 1 &amp;amp; 3 \\
+\end{bmatrix}&amp;lt;/math&amp;gt;
+is upper Hessenberg and
+:&amp;lt;math&amp;gt;\begin{bmatrix}
+1 &amp;amp; 2 &amp;amp; 0 &amp;amp; 0 \\
+5 &amp;amp; 2 &amp;amp; 3 &amp;amp; 0 \\
+3 &amp;amp; 4 &amp;amp; 3 &amp;amp; 7 \\
+5 &amp;amp; 6 &amp;amp; 1 &amp;amp; 1 \\
+\end{bmatrix}&amp;lt;/math&amp;gt;
+is lower Hessenberg.
+
+==Computer programming==
+Many linear algebra [[algorithm]]s require significantly less [[computational complexity theory|computational effort]] when applied to [[triangular matrix|triangular matrices]], and this improvement often carries over to Hessenberg matrices as well. If the constraints of a linear algebra problem do not allow a general matrix to be conveniently reduced to a triangular one, reduction to Hessenberg form is often the next best thing. In fact, reduction of any matrix to a Hessenberg form can be achieved in a finite number of steps (for example, through [[Householder transformation|Householder&amp;apos;s algorithm]] of unitary similarity transforms). Subsequent reduction of Hessenberg matrix to a triangular matrix can be achieved through iterative procedures, such as shifted [[QR decomposition|QR]]-factorization. In [[eigenvalue algorithm]]s, the Hessenberg matrix can be further reduced to a triangular matrix through Shifted QR-factorization combined with deflation steps. Reducing a general matrix to a Hessenberg matrix and then reducing further to a triangular matrix, instead of directly reducing a general matrix to a triangular matrix, often economizes the arithmetic involved in the [[QR algorithm]] for eigenvalue problems.
+
+==Properties==
+
+The product of a Hessenberg matrix with a triangular matrix is again Hessenberg. More precisely, if &amp;apos;&amp;apos;A&amp;apos;&amp;apos; is upper Hessenberg and &amp;apos;&amp;apos;T&amp;apos;&amp;apos; is upper triangular, then &amp;apos;&amp;apos;AT&amp;apos;&amp;apos; and &amp;apos;&amp;apos;TA&amp;apos;&amp;apos; are upper Hessenberg.
+
+A matrix that is both upper Hessenberg and lower Hessenberg is a [[tridiagonal matrix]].
+
+==See also==
+*[[Hessenberg variety]]
+
+== Notes ==
+&amp;lt;references/&amp;gt;
+
+== References ==
+* {{Citation | last1=Horn | first1=Roger A. | last2=Johnson | first2=Charles R. | title=Matrix Analysis | publisher=[[Cambridge University Press]] | isbn=978-0-521-38632-6 | year=1985}}.
+* {{Citation | last1=Stoer | first1=Josef | last2=Bulirsch | first2=Roland | title=Introduction to Numerical Analysis | publisher=[[Springer-Verlag]] | location=Berlin, New York | edition=3rd | isbn=978-0-387-95452-3 | year=2002}}.
+*{{Citation | last1=Press | first1=WH | last2=Teukolsky | first2=SA | last3=Vetterling | first3=WT | last4=Flannery | first4=BP | year=2007 | title=Numerical Recipes: The Art of Scientific Computing | edition=3rd | publisher=Cambridge University Press |  publication-place=New York | isbn=978-0-521-88068-8 | chapter=Section 11.6.2. Reduction to Hessenberg Form | chapter-url=http://apps.nrbook.com/empanel/index.html#pg=594}}
+
+== External links ==
+*[http://mathworld.wolfram.com/HessenbergMatrix.html Hessenberg matrix] at MathWorld.
+*[http://planetmath.org/encyclopedia/HessenbergMatrix.html Hessenberg matrix] at PlanetMath.
+* [http://www.cs.utexas.edu/users/flame/pubs/flawn53.pdf High performance algorithms] for reduction to condensed (Hessenberg, tridiagonal, bidiagonal) form
+
+{{DEFAULTSORT:Hessenberg Matrix}}
+[[Category:Matrices]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

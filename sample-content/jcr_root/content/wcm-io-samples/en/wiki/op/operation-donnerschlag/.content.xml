@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Operation Donnerschlag"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Operation Donnerschlag" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{unreferenced|date=October 2008}}
+{{coord missing}}
+During [[World War II]], the [[Nazi Germany|German]] military planned or undertook an operation named &amp;apos;&amp;apos;&amp;apos;Donnerschlag&amp;apos;&amp;apos;&amp;apos; (&amp;quot;Thunderclap&amp;quot; in [[German language|German]]).
+
+The December 1942 German Army plan called for a breakout from the besieged city of [[Battle of Stalingrad|Stalingrad]] (now [[Volgograd]]) by the [[6th Army (Wehrmacht)|German Sixth Army]] and there meet up with the relief [[Operation Wintergewitter]].  &amp;apos;&amp;apos;Donnerschlag&amp;apos;&amp;apos; was to be the code word for the commencement of &amp;apos;&amp;apos;Operation Wintergewitter&amp;apos;&amp;apos;.  The operation was downgraded and converted into a defensive stance after [[Hermann Göring]]&amp;apos;s boast that the &amp;apos;&amp;apos;Luftwaffe&amp;apos;&amp;apos; would resupply the surrounded troops at Stalingrad.  This effort eventually failed totally, and the Sixth Army, [[encirclement|encircled]] by the [[Red Army]] as a result of [[Operation Uranus]], surrendered in early February 1943.
+
+{{Battle of Stalingrad |Operations}}
+
+[[Category:Battle of Stalingrad]]
+[[Category:Cancelled military operations involving Germany|Donnerschlag]]
+
+
+{{World-War-II-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

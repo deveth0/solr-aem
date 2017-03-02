@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="BH"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="BH" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|BH|Bh|.bh}}
+&amp;apos;&amp;apos;&amp;apos;BH&amp;apos;&amp;apos;&amp;apos;, &amp;apos;&amp;apos;&amp;apos;Bh&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;bh&amp;apos;&amp;apos;&amp;apos; may refer to:
+{{TOCright}}
+==Places==
+* [[Bahrain]]&amp;apos;s ISO 2-letter country code
+** [[.bh]], the Internet country code top-level domain for Bahrain
+* [[Belize]]&amp;apos;s WMO and obsolete NATO country code digram
+* [[Belo Horizonte]], the capital of Minas Gerais, Brazil
+* [[Bihor County]], county in Romania
+* [[BH postcode area]], the United Kingdom postal area for the region in southern England which is served by Bournemouth postal sorting office
+* [[Beverly Hills]], a city in Los Angeles County, California, USA
+
+==Religion==
+* [[B&amp;apos;ezrat hashem]] or B&amp;quot;H, Hebrew for &amp;quot;with God&amp;apos;s help&amp;quot;
+* [[Before Hijra]], a moment in the Islamic calendar
+
+==Other uses==
+* [[bh (digraph)]], a digraph in some writing systems
+* [[BH register]], the high byte of an X86 16-bit BX register
+* [[B&amp;amp;H Rail]]&amp;apos;s reporting mark
+* [[Beistegui Hermanos]], a Spanish bicycle manufacturer
+* [[Bihari language]]&amp;apos;s ISO 639-1 language code
+* [[Bohrium]], a chemical element
+* [[Broadcasting House (radio programme)|&amp;apos;&amp;apos;Broadcasting House&amp;apos;&amp;apos; (radio programme)]]
+* [[Hawkair]]&amp;apos;s IATA code
+
+==See also==
+*[[B&amp;amp;H (disambiguation)]]
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

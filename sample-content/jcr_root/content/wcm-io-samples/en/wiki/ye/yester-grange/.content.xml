@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Yester Grange"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Yester Grange" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{unreferenced|date=June 2009}}
+{{orphan|date=December 2007|att=June 2009}}
+[[Image:(1)Yester_Grange.jpg|thumb|right|320px|Yester Grange]]
+&amp;apos;&amp;apos;&amp;apos;Yester Grange&amp;apos;&amp;apos;&amp;apos; is an historic house and estate situated in the village of [[Wentworth Falls, New South Wales|Wentworth Falls]], in the [[Blue Mountains (Australia)|Blue Mountains]] approximately 95 kilometres west of [[Sydney]], [[Australia]].
+
+==History and description==
+
+It is not known exactly when Yester Grange was built, but the land came into the ownership of prominent Sydney importer and builder John Charles Smith in 1888 and the main residence was most likely constructed before 1891. The house is built of [[kauri]] wood from [[New Zealand]] and is surrounded by an estate measuring 8 [[hectare]]s directly above the main waterfall at Wentworth Falls. The house offers stunning views over the Jamison Valley.
+
+In 1902 the estate was purchased by NSW Premier Sir [[John See]]. See expanded the house by adding a ballroom and hosted large formal gatherings at the property. After his death in 1907, Yester Grange was retained as a holiday house by his family until 1938, when it was abandoned. The Grange remained vacant until 1944 when it was taken over by local council alderman Margery Anderson and her husband James. James Anderson sold the Grange in 1975 following the death of his wife two years previously.
+
+By now the house and grounds had fallen into disrepair and the new owners, Gil and Elizabeth Clarke, set about restoring the Grange to some element of its former glory. The Clarkes had previously owned a gallery in Sydney and established Yester Grange as a [[Victorian era|Victorian-period]] museum, opening the estate to [[tourism]] for the first time. Until 1999, the place was a popular destination for visitors. Since 1999 the property has been owned by hotel developer Crockett Group. Yester Grange was closed to the general public while extensive restoration work was carried out. As of 2012, the house and grounds were used as a function centre.
+
+==See also==
+* [[List of historic houses]]
+* [[List of Blue Mountains subjects]]
+==External links==
+*[http://www.yestergrange.com.au Yester Grange website]
+
+{{coord|-33.7263|150.3781|type:landmark_region:AU|display=title}}
+
+[[Category:Blue Mountains (New South Wales)]]
+[[Category:Houses in New South Wales]]
+[[Category:Historic house museums in Australia]]
+
+
+{{NewSouthWales-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

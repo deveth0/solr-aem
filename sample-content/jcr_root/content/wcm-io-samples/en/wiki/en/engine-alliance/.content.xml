@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Engine Alliance"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Engine Alliance" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{primary sources|date=November 2012}}
+The &amp;apos;&amp;apos;&amp;apos;Engine Alliance&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;&amp;apos;EA&amp;apos;&amp;apos;&amp;apos;) is a 50/50 joint venture between [[GE Aviation|General Electric]] and [[Pratt &amp;amp; Whitney]] (a subsidiary of [[United Technologies]]) formed in August 1996 to develop, manufacture, sell, and support a family of modern technology [[aircraft engine]]s for new high-capacity, long-range [[aircraft]].&amp;lt;ref name=&amp;quot;ea&amp;quot;&amp;gt;[http://www.enginealliance.com/en/about/default.aspx About Us | Engine Alliance]&amp;lt;/ref&amp;gt;
+
+The main application for such an engine, the [[Engine Alliance GP7000|GP7200]], was originally the [[Boeing 747]]-500/600X projects, before these were cancelled owing to lack of demand from [[airlines]].
+
+Instead, the GP7000 has been re-optimised for use on the [[Airbus A380]] superjumbo. In that market it is competing with the [[Rolls-Royce Trent 900]], the launch engine for the aircraft. The two variants are the GP7270 and the GP7277.
+
+==References==
+{{refs}}
+==External links==
+* [http://www.enginealliance.com Engine Alliance]
+
+{{General Electric}}
+{{Aviation lists}}
+[[Category:Companies established in 1996]]
+[[Category:Aircraft engine manufacturers of the United States]]
+[[Category:Joint ventures]]
+
+{{aero-company-stub}}
+{{US-company-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

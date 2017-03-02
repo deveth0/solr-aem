@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Recursive categorical syntax"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Recursive categorical syntax" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{primarysources|date=September 2009}}
+
+&amp;apos;&amp;apos;&amp;apos;Recursive categorical syntax&amp;apos;&amp;apos;&amp;apos;, also sometimes called &amp;apos;&amp;apos;&amp;apos;algebraic syntax&amp;apos;&amp;apos;&amp;apos;, is an [[algebra]]ic theory of [[syntax]] developed by [[Michael Brame]] as an alternative to [[transformational-generative grammar]].
+
+==References==
+*Brame, Michael. &amp;quot;Universal Word Induction vs Move α&amp;quot; in &amp;apos;&amp;apos;Linguistic Analysis&amp;apos;&amp;apos;, Vol. 14, No. 4, 1984.
+*Brame, Michael. &amp;quot;Recursive Categorical Syntax I: Semigroups, Monoids, Lattices, and Categories&amp;quot; in &amp;apos;&amp;apos;Linguistic Analysis&amp;apos;&amp;apos;, Vol. 14, No. 1.
+*Brame, Michael. &amp;quot;Recursive Categorical Syntax II: &amp;apos;&amp;apos;n&amp;apos;&amp;apos;-arity and Variable Continuation&amp;quot; in &amp;apos;&amp;apos;Linguistic Analysis&amp;apos;&amp;apos;, Vol. 15, No. 2-3, 1985.
+*Brame, Michael. &amp;quot;Recursive Categorical Syntax III: &amp;lt;u&amp;gt;dl&amp;lt;/u&amp;gt;-Induction&amp;quot; in &amp;apos;&amp;apos;Linguistic Analysis&amp;apos;&amp;apos;.
+{{reflist}}
+
+[[Category:Grammar frameworks]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Xdebug"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Xdebug" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Expert-subject|Computing|article|date=July 2009}}
+{{Infobox Software
+| name                   = Xdebug
+| logo                   = [[Image:Xdebug-logo.png|100px]]
+| screenshot             =
+| caption                =
+| collapsible            =
+| author                 =
+| developer              = Derick Rethans
+| released               = {{Start date|2002|05|02}}
+| frequently updated     = yes&amp;lt;!-- Release version update? Don&amp;apos;t edit this page, just click on the version number! --&amp;gt;
+| programming language   = [[C (programming language)|C]]
+| operating system       =
+| platform               =
+| size                   =
+| language               = English
+| status                 = Active
+| genre                  = [[Debugger]]
+| license                = The Xdebug license
+| website                = [http://www.xdebug.org/ www.xdebug.org]
+}}
+&amp;apos;&amp;apos;&amp;apos;Xdebug&amp;apos;&amp;apos;&amp;apos; is a [[PHP]] extension which provides debugging and profiling capabilities.&amp;lt;ref&amp;gt;{{cite book
+| last        = McArthur
+| first       = Kevin
+| authorlink  =
+| title       = Pro PHP: Patterns, Frameworks, Testing and More
+| date        = 2008-03-24
+| publisher   = [[Apress]]
+| location    = [[New York City, New York]]
+| isbn        = 1-59059-819-9
+| pages       = 120&amp;amp;nbsp;–  124
+| chapter     = Testing, Development, and Continuous Integration
+}}&amp;lt;/ref&amp;gt; It uses the [[DBGp]] debugging protocol.
+
+The debug information that Xdebug can provide includes the following:
+* [[Stack trace|stack]] and function traces in error messages&amp;lt;ref&amp;gt;{{cite book
+| last1       = Sklar
+| first1      = David
+| authorlink1 =
+| last2       = Trachtenberg
+| first2      = Adam
+| authorlink2 =
+| title       = PHP Cookbook
+| edition     = 2nd
+| date        = 2009-05-11
+| publisher   = [[O&amp;apos;Reilly Media]]
+| location    = [[Sebastopol, CA]]
+| isbn        = 0-596-10101-5
+| page        = 618&amp;amp;nbsp;– 619
+| chapter     = Error Handling, Debugging, and Testing
+}}&amp;lt;/ref&amp;gt; with:
+:*full parameter display for user defined functions
+:*function name, file name and line indications
+:*support for member functions
+* memory allocation
+* protection for [[Infinite loop|infinite recursions]]
+
+Xdebug also provides:
+* profiling information for PHP scripts&amp;lt;ref&amp;gt;{{cite book
+| last        = Henderson
+| first       = Cal
+| authorlink  =
+| title       = Building Scalable Web Sites
+| date        = 2006-05-16
+| publisher   = [[O&amp;apos;Reilly Media]]
+| location    = [[Sebastopol, CA]]
+| isbn        = 0-596-10235-6
+| pages       = 170&amp;amp;nbsp;–  171
+| chapter     = Bottlenecks
+}}&amp;lt;/ref&amp;gt;
+* code coverage analysis
+* capabilities to debug your scripts interactively with a [[debugger front-end]].&amp;lt;ref&amp;gt;{{cite book
+| last1       = Masters
+| first1      = Jon
+| authorlink1 =
+| last2       = Blum
+| first2      = Richard
+| authorlink2 =
+| title       = Professional Linux Programming
+| date        = 2007-03-12
+| publisher   = [[John Wiley &amp;amp; Sons]]
+| location    = [[Hoboken, New Jersey]]
+| isbn        = 0-471-77613-0
+| page        = 426
+| chapter     = LAMP
+}}&amp;lt;/ref&amp;gt;
+
+Xdebug is also available via the [[PHP Extension Community Library|PECL]] library.&amp;lt;ref&amp;gt;{{cite book
+| last1       = Gerner
+| first1      = Jason
+| authorlink1 =
+| last2       = Naramore
+| first2      = Elizabeth
+| authorlink2 =
+| last3       = Owens
+| first3      = Morgan L.
+| authorlink3 =
+| last4       = Warden
+| first4      = Matt
+| authorlink4 =
+| editorn-last = Gerner
+| editorn-first = Jason
+| editor-link =
+| title       = Professional LAMP: Linux, Apache, MySQL and PHP Web Development
+| date        = 2005-12-05
+| publisher   = [[John Wiley &amp;amp; Sons]]
+| location    = [[Hoboken, New Jersey]]
+| isbn        = 0-7645-9723-X
+| page        = 197
+| chapter     = PEAR and PECL
+}}&amp;lt;/ref&amp;gt;
+
+==See also==
+{{Portal box|Free software|Software Testing}}
+*[[Debugger]]
+*[[Dynamic program analysis]]
+*[[Software performance analysis]]
+*[[Optimization (computer science)|Optimization]]
+*[[DBG]] (another debugger)
+
+==References==
+{{Reflist|2}}
+
+==External links==
+*{{Official|http://www.xdebug.org/}}
+*[http://pecl.php.net/package/Xdebug Xdebug] in [[PHP Extension Community Library|PECL]]
+
+[[Category:Debuggers]]
+[[Category:PHP programming language]]
+[[Category:Free software programmed in C]]
+[[Category:Cross-platform free software]]
+
+{{Compu-prog-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

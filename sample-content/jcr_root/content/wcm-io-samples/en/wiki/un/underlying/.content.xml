@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Underlying"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Underlying" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{For|the phonological term|Underlying representation}}
+{{Unreferenced|date=December 2009}}
+In finance, the &amp;apos;&amp;apos;&amp;apos;underlying&amp;apos;&amp;apos;&amp;apos; of a [[derivative (finance)|derivative]] is an [[asset]], [[basket (finance)|basket of assets]], [[Index (economics)|index]], or even another derivative, such that the cash flows of the (former) derivative depend on the value of this underlying. There must be an independent way to observe this value to avoid [[conflict of interest|conflicts of interest]].
+
+According to the Financial Accounting Standards Board&amp;apos;s [[FASB]] Statement of Financial Accounting Standards No. 133 ([[FAS 133]]) - Accounting for Derivative Instruments and Hedging Activities, an &amp;apos;&amp;apos;&amp;apos;underlying&amp;apos;&amp;apos;&amp;apos; is a specified interest rate, security price, commodity price, foreign exchange rate, index of prices or rates, or other variable (including the occurrence or nonoccurrence of a specified event such as a scheduled payment under a contract). An underlying may be a price or rate of an asset or liability but is not the asset or liability itself.
+
+==Examples==
+For example, in a [[stock option]] to buy 100 shares of [[Nokia]] at EUR 50 in April 2011, the &amp;apos;&amp;apos;underlying&amp;apos;&amp;apos; is a Nokia share. In a [[futures contract]] to buy EUR 10 million 10-year German Government Bonds, the &amp;apos;&amp;apos;underlying&amp;apos;&amp;apos; are the German Government bonds. Other examples are [[stock market index]]es such as the [[Dow Jones Industrial Average]] and [[Nikkei 225]], for which the underlying are the [[common stock]]s of 30 large U.S. companies and 225 Japanese companies, respectively.
+
+[[Options on futures]] derivatives are an example of derivatives whose underlying is also a derivative. For example, Euro-Bund options (OGBL) are traded on [[Eurex]] and their underlying is the Euro-Bund futures contract (FGBL).
+
+[[Category:Derivatives (finance)]]
+
+{{Econ-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

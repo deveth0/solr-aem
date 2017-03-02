@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Recapitulation"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Recapitulation" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|recapitulate|recapitulation}}
+
+&amp;apos;&amp;apos;&amp;apos;Recapitulation&amp;apos;&amp;apos;&amp;apos; may refer to:
+* [[Recapitulation (music)]], a section of musical sonata form where the exposition is repeated in an altered form and the development is concluded
+* [[Recapitulation theory]], a scientific theory influential on but no longer accepted in its original form by both evolutionary and developmental biology, namely, that the congruence in form between the same embryonic developmental stages of different species is evidence that the embryos are repeating the evolutionary stages of their ancestral history
+*[[Recapitulation theory of atonement]], first clearly expressed by [[Irenaeus]]
+*[[Recapitulation (Castaneda)]], a spiritual practice appearing first in the writings of Carlos Castaneda and later in those of Miguel Ángel Ruiz, Victor Sanchez and others
+
+==See also==
+*[[Recap (disambiguation)]]
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

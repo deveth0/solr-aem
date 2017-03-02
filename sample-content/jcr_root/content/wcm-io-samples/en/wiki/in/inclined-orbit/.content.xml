@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Inclined orbit"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Inclined orbit" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;A satellite is said to occupy an inclined orbit around the [[Earth]] if the orbit exhibits an angle other than zero degrees with the [[equatorial plane]]. This angle is called the [[orbit]]&amp;apos;s [[inclination]]. A planet is said to have an inclined orbit around the [[Sun]] if it has an angle other than zero to the [[plane of the ecliptic]].
+
+== Special case: geosynchronous inclined orbit ==
+A [[geostationary orbit]] occurs when an object ([[satellite]]) is placed approximately {{convert|37,000|km|mi|abbr=on}} above the Earth&amp;apos;s [[equator]] with the characteristic that, from a fixed observation point on the Earth&amp;apos;s surface, it appears motionless.  A satellite is in an &amp;apos;&amp;apos;&amp;apos;inclined orbit&amp;apos;&amp;apos;&amp;apos; when its orbital plane is tipped some number of degrees from the horizontal defined by the equator. In the case of an inclined [[geosynchronous]] orbit, although the satellite remains [[geosynchronous]] (that is, completing one orbit around the earth every 24 hours), it is no longer geostationary. From a fixed observation point on Earth, it would appear to trace out a small ellipse as the gravitational effects of other stellar bodies (Sun &amp;amp; Moon) exhibit influence over the satellite, as the effect accumulates over time the trace becomes an [[analemma]] with lobes oriented north-southward. The satellite traces the same analemma once each [[sidereal day]].
+
+A geostationary orbit is not stable. It takes regular manoeuvres to actively counteract the above gravitational forces. The majority of the fuel of the satellite, typically [[hydrazine]] is spent for this purpose. Otherwise, the satellite experiences a change in the inclination over time. At the end of the satellite&amp;apos;s lifetime, when fuel approaches depletion, satellite operators may decide to omit these expensive manoeuvres to correct inclination and only control eccentricity. This prolongs the life-time of the satellite as it consumes less fuel over time, but the satellite can then only be used by ground antennae capable of following the north-south movement, Satellite Tracking earth stations.
+Before the fuel comes to an end, satellites can be moved to a [[graveyard orbit]] to keep the geostationary altitude free for subsequent missions.
+
+[[NASA]] maintains a [[Java (programming language)|Java]] based real-time display of most commercial satellites which can be helpful in Visualizing  the various orbits.
+
+==See also==
+* [[List of orbits]]
+
+==External links==
+*http://science.nasa.gov/realtime/jtrack/3d/JTrack3D.html
+
+{{orbits}}
+
+[[Category:Orbits]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

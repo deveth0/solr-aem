@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Plancherel theorem"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Plancherel theorem" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[mathematics]], the &amp;apos;&amp;apos;&amp;apos;Plancherel theorem&amp;apos;&amp;apos;&amp;apos; is a result in [[harmonic analysis]], proved by [[Michel Plancherel]] in 1910. It states that the integral of a function&amp;apos;s squared modulus is equal to the integral of the squared modulus of its frequency spectrum.
+
+A more precise formulation is that if a function is in both [[Lp space|&amp;apos;&amp;apos;L&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;1&amp;lt;/sup&amp;gt;(&amp;apos;&amp;apos;&amp;apos;R&amp;apos;&amp;apos;&amp;apos;)]] and [[Lp space|&amp;apos;&amp;apos;L&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;2&amp;lt;/sup&amp;gt;(&amp;apos;&amp;apos;&amp;apos;R&amp;apos;&amp;apos;&amp;apos;)]], then its [[Fourier transform]] is in &amp;apos;&amp;apos;L&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;2&amp;lt;/sup&amp;gt;(&amp;apos;&amp;apos;&amp;apos;R&amp;apos;&amp;apos;&amp;apos;), and the Fourier transform map is an isometry with respect to the &amp;apos;&amp;apos;L&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;2&amp;lt;/sup&amp;gt; norm.  This implies that the Fourier transform map restricted to &amp;apos;&amp;apos;L&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;1&amp;lt;/sup&amp;gt;(&amp;apos;&amp;apos;&amp;apos;R&amp;apos;&amp;apos;&amp;apos;)&amp;amp;nbsp;∩&amp;amp;nbsp;&amp;apos;&amp;apos;L&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;2&amp;lt;/sup&amp;gt;(&amp;apos;&amp;apos;&amp;apos;R&amp;apos;&amp;apos;&amp;apos;)  has a unique extension to  a linear isometric map &amp;apos;&amp;apos;L&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;2&amp;lt;/sup&amp;gt;(&amp;apos;&amp;apos;&amp;apos;R&amp;apos;&amp;apos;&amp;apos;)&amp;amp;nbsp;→&amp;amp;nbsp;&amp;apos;&amp;apos;L&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;2&amp;lt;/sup&amp;gt;(&amp;apos;&amp;apos;&amp;apos;R&amp;apos;&amp;apos;&amp;apos;).  This isometry is actually a [[unitary operator|unitary]] map.  In effect, this makes it possible to speak of Fourier transforms of [[quadratically integrable function]]s.
+
+Plancherel&amp;apos;s theorem remains valid as stated on &amp;apos;&amp;apos;n&amp;apos;&amp;apos;-dimensional [[Euclidean space]] &amp;apos;&amp;apos;&amp;apos;R&amp;apos;&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;&amp;apos;&amp;apos;n&amp;apos;&amp;apos;&amp;lt;/sup&amp;gt;. The theorem also holds more generally in [[locally compact abelian group]]s. There is also a version of the Plancherel theorem which makes sense for non-commutative locally compact groups satisfying certain technical assumptions.  This is the subject of [[non-commutative harmonic analysis]].
+
+The [[unitary transformation|unitarity]] of the [[Fourier transform]] is often called [[Parseval&amp;apos;s theorem]] in science and engineering fields, based on an earlier (but less general) result that was used to prove the unitarity of the [[Fourier series]].
+
+==See also==
+*[[Plancherel theorem for spherical functions]]
+
+== References ==
+* {{citation|doi=10.1007/BF03014877|last=Plancherel|first=Michel|authorlink=Michel Plancherel|year=1910|last2=Mittag-Leffler|title=Contribution à l&amp;apos;étude de la représentation d&amp;apos;une fonction arbitraire par les intégrales définies|journal=[[Rendiconti del Circolo Matematico di Palermo]]|volume=30|issue=1|pages=289&amp;amp;ndash;335}}.
+* {{citation|first=J.|last=Dixmier|authorlink=Jacques Dixmier|title=Les C*-algèbres et leurs Représentations|publisher=Gauthier Villars|year=1969}}.
+* {{citation|first=K.|last=Yosida|authorlink=Kōsaku Yosida|title=Functional Analysis|publisher=Springer Verlag|year=1968}}.
+
+==External links==
+* [http://mathworld.wolfram.com/PlancherelsTheorem.html Plancherel&amp;apos;s Theorem] on Mathworld
+
+[[Category:Theorems in functional analysis]]
+[[Category:Theorems in harmonic analysis]]
+[[Category:Theorems in Fourier analysis]]
+
+{{mathanalysis-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

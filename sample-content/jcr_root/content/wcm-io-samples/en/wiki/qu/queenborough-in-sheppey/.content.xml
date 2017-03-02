@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Queenborough-in-Sheppey"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Queenborough-in-Sheppey" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{infobox historic subdivision|
+   |Name=              Queenborough-in-Sheppey
+   |HQ=
+   |Status=            [[municipal borough]]
+   |Start=             1968
+   |End=               1974
+   |Replace=           [[Swale]]
+   |Image=
+}}
+&amp;apos;&amp;apos;&amp;apos;Queenborough-in-Sheppey&amp;apos;&amp;apos;&amp;apos; was a [[municipal borough]] in [[Kent]], England from 1968 to 1974.&amp;lt;ref&amp;gt;http://www.visionofbritain.org.uk/unit_page.jsp?u_id=10492051&amp;lt;/ref&amp;gt; It was created by a merger of the [[Municipal Borough of Queenborough]] with [[Sheerness Urban District]] and [[Sheppey Rural District]], and occupied the entire [[Isle of Sheppey]]. It incorporated the following parishes:
+
+*[[Eastchurch]]
+*[[Elmley]]
+*[[Harty]]
+*[[Leysdown-on-Sea]]
+*[[Minster in Sheppey]]
+*[[Queenborough]]
+*[[Sheerness]]
+*[[Warden, Kent|Warden]]
+
+In 1974 the council was abolished under the [[Local Government Act 1972]], and the area now forms part of the [[Swale]] district.  Queenborough and various parishes in the island now have independent [[Parish councils in England|parish and town councils]] again.
+
+==References==
+{{reflist}}
+
+{{Swale}}
+{{coord|51.41|0.74|display=title|format=dms}}
+
+{{DEFAULTSORT:Queenborough-in-Sheppey}}
+[[Category:Districts of England abolished by the Local Government Act 1972]]
+[[Category:History of Kent]]
+[[Category:Municipal boroughs of England]]
+
+
+{{Kent-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

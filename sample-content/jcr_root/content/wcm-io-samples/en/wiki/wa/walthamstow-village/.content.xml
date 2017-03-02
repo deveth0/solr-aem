@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Walthamstow Village"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Walthamstow Village" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{infobox UK place
+|country                  = England
+|map_type                 = Greater London
+|region                   = London
+|population               =
+|official_name            = Walthamstow Village
+|london_borough           = Waltham Forest
+|constituency_westminster =
+|post_town                = LONDON
+|postcode_area            = E
+|postcode_district        = E17
+|dial_code                = 020
+|os_grid_reference        = TQ385895
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Walthamstow Village&amp;apos;&amp;apos;&amp;apos; is an ancient nucleus of present day [[Walthamstow]], located in North East [[London]]. Designated a [[Conservation Area]] by the [[London Borough of Waltham Forest]] in 1967, it centres around [[St. Mary&amp;apos;s Church, Walthamstow|St. Mary&amp;apos;s Church]], which was founded in the 12th century. Across the road from this is a 15th-century [[timber framing|timber-framed]] &amp;quot;[[hall house]]&amp;quot; which locals have dubbed &amp;quot;The Ancient House&amp;quot;. Nearby are [[almshouse]]s dating from the 16th and 18th centuries, and &amp;quot;Vestry House&amp;quot;, which has been used as a [[workhouse]] and police station, but has been a museum since 1931.
+
+Orford Road, the ancient road leading up to St Mary&amp;apos;s church, has in recent years developed as an attractive street of small restaurants, cafes and an upmarket local supermarket.
+
+The area has been described by the London Metropolitan Police as &amp;apos;a notably affluent area of the ward&amp;apos;.
+
+==External links==
+*[http://www.walthamstowvillage.net Walthamstow Village News and Residents Association]
+*[http://www.walthamforest.gov.uk/pages/services/vhm.aspx Vestry House Museum]
+[[Image:Walthamstow Village, 1998.jpg|thumb|left|Walthamstow Village, 1998, looking towards the timber-framed house with [[St. Mary&amp;apos;s Church]] in the background]]
+
+{{coord|51.58734|N|0.00223|W|region:GB_source:enwiki-osgb36(TQ385895)|display=title}}&amp;lt;!-- Note: WGS84 lat/long, converted from OSGB36 grid ref --&amp;gt;
+
+{{LB Waltham Forest}}
+
+[[Category:Areas of London]]
+[[Category:Districts of Waltham Forest]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

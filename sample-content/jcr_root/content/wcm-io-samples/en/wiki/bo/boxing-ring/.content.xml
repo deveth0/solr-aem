@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Boxing ring"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Boxing ring" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[File:Boxing ring.jpg|thumb|right|An [[International Boxing Association|AIBA]] full-sized competition ring. Dimensions are 23 ft x 23 ft (20 ft x 20 ft inside), with a 3 ft platform height.]]
+A &amp;apos;&amp;apos;&amp;apos;boxing ring&amp;apos;&amp;apos;&amp;apos; is the space in which a [[boxing]] match occurs. A modern ring, which is set on a raised platform, is square with a post at each corner to which four parallel rows of ropes are attached with a [[turnbuckle]]. Unlike its cousin the [[wrestling ring]], the ropes in a boxing ring are generally secured at the midway point.
+
+==Construction==
+As there are a number of [[:Category:Professional boxing organisations|professional boxing organizations]], the standards of construction vary. A standard ring is between {{convert|16|and|25|ft|m}} to a side between the ropes with another {{convert|2|ft|m}} outside. The platform the ring is on is generally {{convert|3|to|4|ft|m}} from the ground with the posts rising around {{convert|5|ft|m}}.
+
+The ring itself has around {{convert|1|in|mm}} of padding covered by stretched [[canvas]]. The ropes are around {{convert|1|in|mm}} in diameter and held up on posts rising around {{convert|5|ft|m}} at heights of 18, 30, 42, and 55&amp;amp;nbsp;inches (.46, .76, 1.07, and 1.37 m).
+
+==Terminology==
+The name ring is a relic from when contests were fought in a roughly drawn circle on the ground. The name ring continued with the [[Jack Broughton]] [[London Prize Ring rules|rules]] in 1743, which specified a small circle in the centre of the fight area where the boxers met at the start of each round. The first square ring was introduced by the [[Pugilistic Society]] in 1838. That ring was specified as {{convert|24|ft|m}} square and bound by two ropes. For these and other reasons, the boxing ring is commonly referred to as the &amp;quot;square circle&amp;quot;.
+
+==See also==
+* [[Ring girl]]
+* [[Wrestling ring]]
+
+{{boxing}}
+
+[[Category:Boxing|*]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

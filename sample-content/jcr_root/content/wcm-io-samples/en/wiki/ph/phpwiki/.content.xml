@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="PhpWiki"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="PhpWiki" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox software
+| name                   = PhpWiki
+| logo                   =
+| screenshot             = [[File:PhpWiki.png|300px]]
+| caption                =
+| developer              = Reini Urban, Marc-Etienne Vargenau
+| released               =
+| frequently updated     = yes&amp;lt;!-- Release version update? Don&amp;apos;t edit this page, just click on the version number! --&amp;gt;
+| programming language   = [[PHP]]
+| platform               = [[Cross-platform]]
+| language               = de, en, es, fr, it, ja, nl, po, sv, zh
+| genre                  = [[Wiki]]
+| license                = [[GNU GPL]]
+| website                = http://phpwiki.sourceforge.net/
+}}
+&amp;apos;&amp;apos;&amp;apos;PhpWiki&amp;apos;&amp;apos;&amp;apos; is a [[World Wide Web|web-based]] [[wiki software]] application.
+It began as a clone of [[WikiWikiWeb]] and was the first wiki written in [[PHP]].&amp;lt;ref name=&amp;quot;Wiki&amp;quot;&amp;gt;{{cite book
+ | last = Ebersbach
+ | first = Anja
+ | coauthors = Markus Glaser, Richard Heigl, Gunter Dueck
+ | title = Wiki: Web Collaboration
+ | url = http://books.google.com/books?id=BQ9-vV6TUJEC&amp;amp;pg=PA18&amp;amp;dq=phpwiki#PPA17,M1
+ | accessdate = 2009-02-21
+ | year = 2006
+ | publisher = Springer
+ | isbn = 3-540-25995-3
+ | pages = 17–18}}&amp;lt;/ref&amp;gt;
+PhpWiki has been used to edit and format paper books for publication.&amp;lt;ref name=&amp;quot;RELAX&amp;quot;&amp;gt;{{cite book
+ | last = Van der Vlist
+ | first = Eric
+ | title = RELAX NG
+ | url = http://books.google.com/books?id=nYKg2fUzCP8C&amp;amp;pg=PR18&amp;amp;dq=phpwiki#PPR17,M1
+ | accessdate = 2009-02-21
+ | date = 2004
+ | publisher = O&amp;apos;Reilly
+ | isbn = 0-596-00421-4}}&amp;lt;/ref&amp;gt;
+
+==History==
+The first version, by Steve Wainstead, was in December 1999 and was the first Wiki written in PHP to be publicly released.
+The first version ran under PHP 3.x and ran on DBM files only.
+It was a feature-for-feature reimplementation of the original WikiWikiWeb at c2.com.{{Citation needed|date=September 2009}}
+
+In early 2000 Arno Hollosi contributed a second database library to run PhpWiki on MySQL.{{Citation needed|date=September 2009}}
+From then on the features and contributions started to grow, including a templating system, color [[diff]]s, rewrites of the rendering engine and much more.
+Arno was interested in running a wiki for the game Go.&amp;lt;ref&amp;gt;http://senseis.xmp.net/?GoWiki&amp;lt;/ref&amp;gt;
+
+Jeff Dairiki was the next major contributor, and soon headed the project for the next few years.
+
+Since then Reini Urban and Marc-Etienne Vargenau maintain it.
+
+Version 1.4.0rc1 implements [[Creole (markup)|Wikicreole]] 1.0, including additions.
+
+==See also==
+{{Portal|Free software}}
+*[[List of wiki software]]
+*[[Comparison of wiki software]]
+
+==References==
+{{Reflist}}
+
+==External links==
+*{{Official|http://phpwiki.sourceforge.net}}
+
+{{Wiki software}}
+
+{{DEFAULTSORT:Phpwiki}}
+
+[[Category:Cross-platform free software]]
+[[Category:Free wiki software]]
+[[Category:Free software programmed in PHP]]
+[[Category:Semantic wiki software]]
+[[Category:Software clones]]
+
+{{web-software-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

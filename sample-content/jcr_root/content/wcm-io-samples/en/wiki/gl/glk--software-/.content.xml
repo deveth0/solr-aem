@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Glk (software)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Glk (software)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Glk&amp;apos;&amp;apos;&amp;apos; is a portable [[application programming interface]] (API) created by [[Andrew Plotkin]] for use by programs with a text [[user interface|interface]]; these programs mostly include [[interactive fiction]] (IF) [[interpreter (computing)|interpreters]] for [[Z-machine]], [[TADS]], [[Glulx]], and [[Hugo (programming language)|Hugo]] games, and IF games written in more obscure file formats such as those used by [[Level 9 Computing]] and [[Magnetic Scrolls]].
+
+The Glk API specification describes facilities for [[input/output|input]], [[output]], text formatting, [[graphics]], [[sound]], and file I/O.
+
+Glk does not describe a [[virtual machine]]. [[Glulx]] is a virtual machine designed to be implemented using the Glk functions,&amp;lt;ref&amp;gt;http://www.eblong.com/zarf/glk/glk-spec-070_0.html#s.2: 0.2: What About the Virtual Machine? (retrieved 2009-08-23)&amp;lt;/ref&amp;gt; and [[Glulxe]] is an interpreter for Glulx.  Interpreters for other virtual machines may use Glk while being unrelated to Glulx: for example [[Nitfol]] is an interpreter for the [[Z-Machine]] that uses Glk.&amp;lt;ref&amp;gt;http://ifwiki.org/index.php/Nitfol: &amp;quot;Uses the Glk API for I/O.&amp;quot;, &amp;quot;Supports versions 1 through 8 of Z-machine&amp;quot; (retrieved 2009-08-23)&amp;lt;/ref&amp;gt;
+
+The Glk API has many [[implementation]]s, including GlkTerm, WindowsGlk, XGlk.&amp;lt;ref&amp;gt;http://www.eblong.com/zarf/glk/: section &amp;quot;Liberation&amp;quot; (retrieved 2009-08-23)&amp;lt;/ref&amp;gt; Implementations are available on the following platforms:
+* [[Java (programming language)|Java]]&amp;lt;ref&amp;gt;http://www.russotto.net/jglulx.html: Java Glulx and Java Glk (retrieved 2009-08-23)&amp;lt;/ref&amp;gt;
+* [[Javascript]] &amp;lt;ref&amp;gt;http://eblong.com/zarf/glk/glkote.html: GlkOte: a Javascript library for IF interfaces (retrieved 2012-05-03)&amp;lt;/ref&amp;gt;
+* [[Macintosh]]
+* [[DOS]]
+* [[Unix]]
+** [[X Window System]]
+* [[Microsoft Windows]]
+** [[Pocket PC]]
+
+The existence of the Glk API has made possible the creation of &amp;quot;universal translator&amp;quot; IF interpreters, programs such as &amp;apos;&amp;apos;Gargoyle&amp;apos;&amp;apos; and &amp;apos;&amp;apos;Spatterlight&amp;apos;&amp;apos; which can run all popular IF formats and almost all of the more obscure ones. Such programs are very useful for newcomers to the medium who are unsure of which interpreter to choose, and to experienced players who may possess games in a variety of formats.
+
+== References ==
+&amp;lt;references/&amp;gt;
+
+==External links==
+*[http://www.eblong.com/zarf/glk/ GLK API specification]
+*[http://www.ifarchive.org/indexes/if-archiveXprogrammingXglk.html The GLK Section of the Interactive FictionArchive]
+
+{{DEFAULTSORT:Glk (Software)}}
+[[Category:Windows software]]
+[[Category:Unix software]]
+
+
+{{Windows-software-stub}}
+{{Unix-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

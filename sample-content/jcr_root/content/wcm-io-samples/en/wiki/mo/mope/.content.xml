@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="MOPE"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="MOPE" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;MOPE&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* [[Ministry of Population and Environment]], a government ministry in Nepal.
+* [[Ministry of Power and Energy (Sri Lanka)|Ministry of Power and Energy]], a government ministry in Sri Lanka.
+* &amp;apos;&amp;apos;[[Mope]]&amp;apos;&amp;apos;, a song by the [[Bloodhound Gang]].
+* &amp;apos;&amp;apos;Mormon Pope&amp;apos;&amp;apos;, a slang term for the President of [[The Church of Jesus Christ of Latter-day Saints]], currently Thomas S. Monson.
+* [[Ministry of Public Education]]
+* [[Ministry of Petroleum and Energy]], a government ministry in Norway
+
+==See also==
+
+* [[Moped]], a low power motorcycle with pedals
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

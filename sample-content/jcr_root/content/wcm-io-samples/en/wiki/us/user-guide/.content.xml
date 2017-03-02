@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="User guide"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="User guide" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;A &amp;apos;&amp;apos;&amp;apos;user guide&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;user&amp;apos;s guide&amp;apos;&amp;apos;&amp;apos;, also commonly known as a &amp;apos;&amp;apos;&amp;apos;manual&amp;apos;&amp;apos;&amp;apos;, is a [[technical communication]] [[document]] intended to give assistance to people using a particular system.&amp;lt;ref&amp;gt;{{cite web |title=Online Technical Writing: User Guides |url=http://www.prismnet.com/~hcexres/textbook/user_guides.html |date= |work= |publisher=hcexres@io.com |accessdate=13 August 2009}}&amp;lt;/ref&amp;gt; It is usually written by a [[technical writer]], although user guides are written by programmers, product or project managers, or other technical staff, particularly in smaller companies.&amp;lt;ref&amp;gt;[[Gary Blake]] and [[Robert W. Bly]], &amp;apos;&amp;apos;The Elements of Technical Writing&amp;apos;&amp;apos;, pg. 143. [[New York City|New York]]: [[Macmillan Publishers (United States)|Macmillan Publishers]], 1993. ISBN 0020130856&amp;lt;/ref&amp;gt;
+
+User guides are most commonly associated with electronic goods, [[computer hardware]] and [[computer software|software]].
+
+Most user guides contain both a written guide and the associated images.  In the case of computer applications, it is usual to include [[screenshot]]s of the human-machine interface(s), and hardware manuals often include clear, simplified [[diagram]]s.  The language used is matched to the intended [[audience]], with [[jargon]] kept to a minimum or explained thoroughly.
+
+==Contents of a user manual==
+The sections of a user manual often include:
+*A cover page
+*A title page and copyright page
+*A preface, containing details of related documents and information on how to navigate the user guide
+*A contents page
+*A guide on how to use at least the main functions of the system
+*A troubleshooting section detailing possible errors or problems that may occur, along with how to fix them
+*A [[FAQ]] (Frequently Asked Questions)
+*Where to find further help, and contact details
+*A [[glossary]] and, for larger documents, an [[index (publishing)|index]]
+
+==Computer software manuals and guides==
+User manuals and user guides for most non-trivial [[software application]]s are book-like documents with contents similar to the above list. The &amp;apos;&amp;apos;Starta User Manual&amp;apos;&amp;apos;&amp;lt;ref&amp;gt;{{cite web |title=Starta User Manual |url=http://www.startadevelopment.com/manual/|date=16 October 2006 |work= |publisher=Starta Development, Inc. |accessdate=13 August 2009}}&amp;lt;/ref&amp;gt; is a good example of this type of document. Some documents have a more fluid structure with many internal links. The &amp;apos;&amp;apos;[[Google Earth]] User Guide&amp;apos;&amp;apos;&amp;lt;ref&amp;gt;{{cite web |title=Google Earth User Guide |url=http://earth.google.com/userguide/v4/ |date=4 June 2009 |work= |publisher=Google |accessdate=13 August 2009}}&amp;lt;/ref&amp;gt; is an example of this format. The term &amp;apos;&amp;apos;guide&amp;apos;&amp;apos; is often applied to a document that addresses a specific aspect of a software product. Some usages are &amp;apos;&amp;apos;[[Installation (computer programs)|Installation]] Guide&amp;apos;&amp;apos;, &amp;apos;&amp;apos;Getting Started Guide&amp;apos;&amp;apos;, and various &amp;apos;&amp;apos;[[How to]]&amp;apos;&amp;apos; guides. An example is the &amp;apos;&amp;apos;[[Picasa]] Getting Started Guide&amp;apos;&amp;apos;.&amp;lt;ref&amp;gt;{{cite web |title=Getting Started with Picasa: Getting Started Guide |url=http://picasa.google.com/support/bin/answer.py?hl=en&amp;amp;answer=93183 |date=15 June 2009 |work= |publisher=Google |accessdate=13 August 2009}}&amp;lt;/ref&amp;gt;
+
+In some [[business software]] applications, where groups of users have access to only a sub-set of the application&amp;apos;s full functionality, a user guide may be prepared for each group. An example of this approach is the &amp;apos;&amp;apos;[[Autodesk]] Topobase 2010 [[Online help|Help]]&amp;apos;&amp;apos;&amp;lt;ref&amp;gt;{{cite web |title=Autodesk Topobase 2010 Help |url=http://docs.autodesk.com/TOPOBSCLNT/2010/ENU/Autodesk%20Topobase%202010%20User%20Documentation/index.html?url=WSfacf1429558a55de9af080101d7e8b304-7c61.htm,topicNumber=d0e342 |date= |work= |publisher=Autodesk|accessdate=13 August 2009}}&amp;lt;/ref&amp;gt; document, which contains separate &amp;apos;&amp;apos;[[System administrator|Administrator]] Guides&amp;apos;&amp;apos;, &amp;apos;&amp;apos;[[User (computing)|User]] Guides&amp;apos;&amp;apos;, and a &amp;apos;&amp;apos;[[Software developer|Developer&amp;apos;s]] Guide&amp;apos;&amp;apos;. These guides are a valuable tool for [[OJT|&amp;apos;&amp;apos;On-the-job&amp;apos;&amp;apos; training]].
+
+==References==
+{{reflist}}
+
+== See also ==
+*[[Release notes]]
+*[[Moe book]]
+*[[Technical writer]]
+*[[Manual page (Unix)]]
+*[[Instruction manual (gaming)]]
+*[[Reference card]]
+
+
+[[Category:Technical communication]]
+[[Category:Automobile maintenance]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

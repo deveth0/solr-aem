@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:Abundance and redundancy"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:Abundance and redundancy" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{essay}}
+
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Abundance and Redundancy&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; deals with similar material being shared among separate articles, and debates over the removal of said materials on the basis of context: It is a &amp;apos;&amp;apos;preferred solution&amp;apos;&amp;apos; that &amp;apos;&amp;apos;material be included rather than excluded to resolve an edit war.&amp;apos;&amp;apos; In many cases, &amp;apos;&amp;apos;&amp;apos;edit wars&amp;apos;&amp;apos;&amp;apos; are based on a premise, that: &amp;quot;such material doesn&amp;apos;t belong &amp;apos;&amp;apos;here&amp;apos;&amp;apos;, because it belongs in another article&amp;quot;. Instead of removing content, &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;it is preferred to have abundance and redundancy of content&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;.
+
+==Size and ease-of-reading issue==
+Since most articles are very small (under 10k) there is no bandwidth need to exclude material on the basis of its redundancy across articles. Ease of reading is facilitated by the inclusion of relevant material, rather than disinclusion. If we weren&amp;apos;t redundant, general articles would be chopped up into tiny little bits – each of which would link to specialized articles that you had to piece together.
+
+==Solution to NPOV disputes==
+More often this situation involves a disagreement about the validity of facts and/or their sources. Or, often, it&amp;apos;s about the inclusion of points of view that differ. These tend to be examples of where materials that contradict the material already present in the article are contested. It&amp;apos;s a reflex tendency of someone attached to a topic to want to &amp;apos;&amp;apos;exclude&amp;apos;&amp;apos; facts that seemingly contradict other facts in the article. It is often a flaw of human nature to want to simplify contentious topics by merely &amp;apos;&amp;apos;excluding&amp;apos;&amp;apos; points of view that disagree with it. This in fact, is the reason for the [[NPOV]] policy. Even in these cases, &amp;apos;&amp;apos;&amp;apos;abundance and redundancy&amp;apos;&amp;apos;&amp;apos; as a rule of thumb can lead to a solution.
+
+==A hypothetical example==
+:&amp;apos;&amp;apos;The &amp;quot;Geminye Cult&amp;quot; article: The Geminye Cult claim to have recently produced a working model of [[cold fusion]]. &amp;quot;User:JoeX1000&amp;quot; adds this claim to the article, under the lead, as a claim. A anonymous Geminye Cult member, however, &amp;quot;555.454.x.x&amp;quot;, has removed this information to the &amp;quot;ColdFuzers&amp;quot; article; about a subsidiary company of Geminye. A small &amp;quot;revision-war&amp;quot; erupts over the inclusion of this material...&amp;apos;&amp;apos;
+
+This represents a common scenario: In these cases, an enormous amount of time and energy is wasted on the &amp;apos;&amp;apos;exclusion&amp;apos;&amp;apos; of something, as opposed to simply &amp;apos;&amp;apos;including&amp;apos;&amp;apos; it. &amp;quot;555&amp;quot;, claims that this would be&amp;quot; redundant&amp;quot;, but he is &amp;apos;&amp;apos;incorrect&amp;apos;&amp;apos; – &amp;quot;[[WP:REDUNDANT|redundancy]]&amp;quot; only detracts if it&amp;apos;s on the &amp;apos;&amp;apos;same&amp;apos;&amp;apos; article. As a rule; &amp;apos;&amp;apos;if the material is factual, and if it&amp;apos;s not entirely irrelevant to the topic,&amp;apos;&amp;apos; it &amp;apos;&amp;apos;should not be excluded.&amp;apos;&amp;apos;
+
+==Editing is just as much about &amp;apos;&amp;apos;exclusion&amp;apos;&amp;apos;, as &amp;apos;&amp;apos;inclusion&amp;apos;&amp;apos;==
+&amp;quot;555&amp;quot; wanted the facts to be handled in a &amp;apos;&amp;apos;discorporate&amp;apos;&amp;apos; way: to isolate elements that are controversial: So that &amp;apos;&amp;apos;if&amp;apos;&amp;apos; they eventually are found to be false, can be disassociated from the &amp;quot;Geminye cult&amp;quot;. Although it doesn&amp;apos;t seem to be logical to worry about a Wikipedia article, people do battle over history and the way it is written all the time.
+
+In a completely different context, this is the basic idea behind [[Enronomics]]; the moving of accounting deficits from the main company to subsidiaries in order to make it appear as if there are no conflicts. All particulars aside, this type of confusion of issues is a form of [[fraud]].
+
+== See also ==
+* [[Wikipedia:Article size]]
+* [[Wikipedia:Summary style]]
+
+[[Category:Wikipedia essays identifying problems and/or solutions]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

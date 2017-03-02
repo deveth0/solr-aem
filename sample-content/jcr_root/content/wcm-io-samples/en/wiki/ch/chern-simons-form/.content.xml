@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Chern–Simons form"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Chern–Simons form" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[mathematics]], the &amp;apos;&amp;apos;&amp;apos;Chern–Simons forms&amp;apos;&amp;apos;&amp;apos; are certain secondary [[characteristic class]]es. They have been found to be of interest in [[gauge theory]], and they (especially the 3-form) define the action of [[Chern–Simons theory]].  The theory is named for [[Shiing-Shen Chern]] and [[James Harris Simons]], co-authors of a 1974 paper entitled &amp;quot;Characteristic Forms and Geometric Invariants,&amp;quot; from which the theory arose.{{harvs|txt=yes|last1=Chern|last2=Simons|year=1974}}
+
+==Definition==
+Given a [[manifold]] and a [[Lie algebra]] valued [[p-form|1-form]], &amp;lt;math&amp;gt;\bold{A}&amp;lt;/math&amp;gt; over it, we can define a family of [[p-form]]s:
+
+In one dimension, the &amp;apos;&amp;apos;&amp;apos;Chern–Simons&amp;apos;&amp;apos;&amp;apos; [[p-form|1-form]] is given by
+:&amp;lt;math&amp;gt;{\rm Tr} [ \bold{A} ].&amp;lt;/math&amp;gt;
+
+In three dimensions, the &amp;apos;&amp;apos;&amp;apos;Chern–Simons 3-form&amp;apos;&amp;apos;&amp;apos; is given by
+:&amp;lt;math&amp;gt;{\rm Tr} \left[ \bold{F}\wedge\bold{A}-\frac{1}{3}\bold{A}\wedge\bold{A}\wedge\bold{A}\right].&amp;lt;/math&amp;gt;
+
+In five dimensions, the &amp;apos;&amp;apos;&amp;apos;Chern–Simons 5-form&amp;apos;&amp;apos;&amp;apos; is given by
+:&amp;lt;math&amp;gt;{\rm Tr} \left[ \bold{F}\wedge\bold{F}\wedge\bold{A}-\frac{1}{2}\bold{F}\wedge\bold{A}\wedge\bold{A}\wedge\bold{A} +\frac{1}{10}\bold{A}\wedge\bold{A}\wedge\bold{A}\wedge\bold{A}\wedge\bold{A} \right]&amp;lt;/math&amp;gt;
+
+where the curvature &amp;apos;&amp;apos;&amp;apos;F&amp;apos;&amp;apos;&amp;apos; is defined as
+:&amp;lt;math&amp;gt;\bold{F} = d\bold{A}+\bold{A}\wedge\bold{A}.&amp;lt;/math&amp;gt;
+
+The general Chern–Simons form &amp;lt;math&amp;gt;\omega_{2k-1}&amp;lt;/math&amp;gt; is defined in such a way that
+:&amp;lt;math&amp;gt;d\omega_{2k-1}={\rm Tr}  \left( F^{k} \right),&amp;lt;/math&amp;gt;
+
+where the [[wedge product]] is used to define &amp;apos;&amp;apos;F&amp;lt;sup&amp;gt;k&amp;lt;/sup&amp;gt;&amp;apos;&amp;apos;.
+
+In general, the Chern–Simons [[p-form]] is defined for any odd &amp;apos;&amp;apos;p&amp;apos;&amp;apos;. See also [[gauge theory]] for the definitions. Its [[Differential form|integral]] over a &amp;apos;&amp;apos;p&amp;apos;&amp;apos;-dimensional [[manifold]] is a global  geometric invariant, and is typically [[gauge invariant]] modulo addition of an  integer.
+
+==See also==
+*[[Chern–Weil homomorphism]]
+*[[Chiral anomaly]]
+*[[Topological quantum field theory]]
+*[[Jones polynomial]]
+
+==References==
+* {{citation|last1=Chern|first1=S.-S.|authorlink1=S.-S. Chern|last2=Simons|first2=J|authorlink2=James Harris Simons|title=Characteristic forms and geometric invariants|journal=The Annals of Mathematics. Second Series|volume=99|number=1|year=1974|pages=48–69|jstor=1971013}}.
+
+{{DEFAULTSORT:Chern-Simons form}}
+[[Category:Homology theory]]
+[[Category:Algebraic topology]]
+[[Category:Differential geometry]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

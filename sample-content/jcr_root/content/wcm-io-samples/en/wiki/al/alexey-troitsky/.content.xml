@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Alexey Troitsky"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Alexey Troitsky" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{about|Russian and Soviet chess composer|Russian and Soviet soccer player|Aleksei Troitsky (footballer)}}
+[[File:Troitzky.jpg|thumb|right|200px|A. A. Troitsky]]
+
+&amp;apos;&amp;apos;&amp;apos;Alexey Alexeyevich Troitsky&amp;apos;&amp;apos;&amp;apos;, or &amp;apos;&amp;apos;&amp;apos;Alexei&amp;apos;&amp;apos;&amp;apos;, or &amp;apos;&amp;apos;&amp;apos;Troitzky&amp;apos;&amp;apos;&amp;apos; ({{lang-ru|Алексе́й Алексе́евич Тро́ицкий}}) (March 14, 1866&amp;amp;ndash;August 1942) is considered to have been one of the greatest [[chess composer|composer]]s of [[chess]] [[endgame studies]].&amp;lt;ref&amp;gt;In the introduction to &amp;apos;&amp;apos;Collection of Chess Studies&amp;apos;&amp;apos;, [[Sam Sloan]] writes &amp;quot;... Trotzky is considered to have been the greatest composer of chess endgame studies ever.&amp;quot;&amp;lt;/ref&amp;gt; He is widely regarded as the founder of the modern art of composing chess studies {{harvcol|Seirawan|2003|p=91}}. Troitzky died of [[starvation]] during [[World War II]] at the [[siege of Leningrad]], where his notes were destroyed.
+
+One of his most famous works involves analyzing the [[Chess endgame|endgame]] with two knights versus a pawn, see [[Two knights endgame#Troitzky line|Troitzky line]].  [[John Nunn]] analyzed this endgame with an [[endgame tablebase]] and stated that &amp;quot;the analysis of Troitsky ... is astonishingly accurate&amp;quot; {{harvcol|Nunn|1995|p=265}}.
+{{clear left}}
+
+==Compositions==
+{{algebraic notation|pos=secleft}}
+Troitzky was a prolific composer of endgame studies.  [[Irving Chernev]] included nine of them in his book &amp;apos;&amp;apos;200 Brilliant Endgames&amp;apos;&amp;apos;. The diagram shows one of them.
+
+{{Chess diagram|=
+|tleft
+| &amp;apos;&amp;apos;&amp;apos;Troitzky, 1909&amp;apos;&amp;apos;&amp;apos;
+|=
+|  |qd|  |  |  |  |  |  |=
+|  |  |nd|  |  |  |  |  |=
+|  |  |  |  |  |  |  |  |=
+|  |  |  |  |  |  |  |  |=
+|nl|  |  |kd|  |  |  |  |=
+|  |  |  |  |  |  |ql|  |=
+|  |  |  |kl|  |  |  |  |=
+|  |  |  |  |  |  |  |  |=
+|White to move and win
+}}
+
+{{break|2}}
+The main line goes:
+:&amp;apos;&amp;apos;&amp;apos;1. Nb6! Qe8&amp;apos;&amp;apos;&amp;apos;
+:&amp;apos;&amp;apos;&amp;apos;2. Nd7! Kc4&amp;apos;&amp;apos;&amp;apos;
+:&amp;apos;&amp;apos;&amp;apos;3. Qxc7+ Kb4&amp;apos;&amp;apos;&amp;apos;
+:&amp;apos;&amp;apos;&amp;apos;4. Qc5+ Kb3&amp;apos;&amp;apos;&amp;apos;
+:&amp;apos;&amp;apos;&amp;apos;5. Qc3+ Ka4&amp;apos;&amp;apos;&amp;apos;
+:&amp;apos;&amp;apos;&amp;apos;6. Qd4+ Ka3&amp;apos;&amp;apos;&amp;apos;
+:&amp;apos;&amp;apos;&amp;apos;7. Nc5 Qb8&amp;apos;&amp;apos;&amp;apos;
+:&amp;apos;&amp;apos;&amp;apos;8. Qa1+ Kb4&amp;apos;&amp;apos;&amp;apos;
+:&amp;apos;&amp;apos;&amp;apos;9. Na6+
+and White wins {{harvcol|Chernev|1989|pp=207–8}}.
+{{clear}}
+
+==Books==
+
+* Troitzky, A. (1924), &amp;apos;&amp;apos;500 Endspielstudien&amp;apos;&amp;apos;, Verlag Kagan Berlin
+*{{Citation
+|surname1=Troitzky|given1=A. A.
+|year=1968
+|title=360 Brilliant and Instructive End Games
+|publisher=[[Dover Publications]] (reprint)
+|isbn=0-486-21959-3}}
+* Troitzky, A. (1992), &amp;apos;&amp;apos;Collection of Studies&amp;apos;&amp;apos;, Tschaturanga Ed. Olms, ISBN 3-283-00114-6.  Reprinted in 2006 by [[Ishi Press]], ISBN 0-923891-10-2. The 360 studies above plus a supplement on the theory of the endgame of two knights against pawns.
+
+==See also==
+*[[Two knights endgame]] (contains Troitzky line)
+
+==Notes==
+{{reflist}}
+
+==References==
+* {{Citation
+ |last=Chernev|first=Irving|authorlink=Irving Chernev
+ |title=200 Brilliant Endgames
+ |year=1989
+ |publisher=Dover
+ |isbn= 0-486-43211-4}}
+
+*{{Citation
+|last=Nunn|first=John|authorlink=John Nunn
+|year=1995
+|title=Secrets of Minor-Piece Endings
+|publisher=Batsford
+|isbn= 0-8050-4228-8}}
+
+*{{Citation
+ |last=Seirawan|first=Yasser|authorlink=Yasser Seirawan
+ |title=Winning Chess Endings
+ |year=2003
+ |publisher=Everyman Chess
+ |isbn= 1-85744-348-9}}
+
+==External links==
+* [http://www.chessvariants.org/index/msdisplay.php?itemid=MPtroitzkychess Troitzky Chess, invented by Paul Byway], a chess variant where checkmate by two knights can be forced.
+
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Troitsky, Alexey Alexeyevich
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION = Russian chess player
+| DATE OF BIRTH     = March 14, 1866
+| PLACE OF BIRTH    =
+| DATE OF DEATH     = 1942
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Troitsky, Alexey Alexeyevich}}
+[[Category:1866 births]]
+[[Category:1942 deaths]]
+[[Category:Deaths by starvation]]
+[[Category:Chess composers]]
+[[Category:Chess theoreticians]]
+[[Category:Russian chess writers]]
+
+{{Russia-chess-bio-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

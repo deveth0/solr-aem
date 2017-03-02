@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Pugin (surname)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Pugin (surname)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Pugin&amp;apos;&amp;apos;&amp;apos; most commonly refers to &amp;apos;&amp;apos;&amp;apos;[[Augustus Welby Northmore Pugin]]&amp;apos;&amp;apos;&amp;apos; (1812&amp;amp;ndash;1852), English architect and designer.
+
+Other members of his family include:
+
+* [[Augustus Charles Pugin]] (1768/9&amp;amp;ndash;1832), his French-born father, an artist and architectural draughtsman
+* [[E. W. Pugin]] (1834&amp;amp;ndash;1875),  his eldest son, also an architect
+* [[Peter Paul Pugin]] (1851–1904), his youngest son, also an architect
+
+== See also ==
+* [[Pugin &amp;amp; Pugin]], the Pugin family&amp;apos;s architectural firm
+
+{{surname|Pugin}}&amp;lt;!-- It does not help to add disambig or hndis tags where the page only contains people who share a surname --&amp;gt;&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

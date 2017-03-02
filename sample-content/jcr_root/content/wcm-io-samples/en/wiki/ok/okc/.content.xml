@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="OKC"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="OKC" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;OKC&amp;apos;&amp;apos;&amp;apos; is a [[three-letter abbreviation]]. It can stand for:
+
+* [[Keratocystic odontogenic tumour|Odontogenic Keratocyst]], a tumor in the jaw now referred to as &amp;quot;keratocystic odontogenic tumor&amp;quot;
+* [[Oklahoma City]], the capital and largest city of the U.S. state of Oklahoma
+* [[Oklahoma City Thunder]], the city&amp;apos;s NBA team
+* [[Will Rogers World Airport]], Oklahoma City&amp;apos;s commercial airport (IATA abbreviation)
+* [[OkCupid]], a dating website
+* &amp;apos;&amp;apos;[[OK Computer]]&amp;apos;&amp;apos;, an album by Radiohead
+* &amp;apos;&amp;apos;[[OK Cowboy]]&amp;apos;&amp;apos;, an album by Vitalic
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

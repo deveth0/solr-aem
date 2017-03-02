@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Opende"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Opende" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox settlement
+|settlement_type    = Dorp
+|name               = Opende
+|coordinates_region   = NL
+|subdivision_type   = [[List of sovereign states|Country]]
+|subdivision_name   = [[Netherlands]]
+|subdivision_type1  = Province
+|subdivision_name1  = Groningen (province)
+|subdivision_type2  = Municipality
+|subdivision_name2  = Grootegast
+|population         = 1400
+|population_as_of   = 2008
+|area_km2           = 2.66
+|latNS    = N
+|longEW   = E
+|latd               = 53
+|latm               = 10
+|lats               = 21
+|longd               = 6
+|longm               = 11
+|longs               = 53
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Opende&amp;apos;&amp;apos;&amp;apos; is a village in the north-eastern [[Netherlands]], in the province of [[Groningen (province)|Groningen]]. It is part of the municipality of [[Grootegast]].
+
+{{Dutch municipality Grootegast}}
+{{Groningen Province}}
+
+{{Coord|53|10|21|N|6|11|53|E|display=title|region:NL_type:city(1400)_source:nlwiki}}
+
+[[Category:Populated places in Groningen (province)]]
+
+{{Groningen-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

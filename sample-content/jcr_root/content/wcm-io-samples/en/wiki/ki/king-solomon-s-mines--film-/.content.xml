@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="King Solomon&#x27;s Mines (film)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="King Solomon&#x27;s Mines (film)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{DISPLAYTITLE:&amp;apos;&amp;apos;King Solomon&amp;apos;s Mines&amp;apos;&amp;apos; (film)}}
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;[[King Solomon&amp;apos;s Mines]]&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;, H. Rider Haggard&amp;apos;s 1885 adventure novel, has been adapted to the following films:
+
+* [[King Solomon&amp;apos;s Mines (1937 film)|&amp;apos;&amp;apos;King Solomon&amp;apos;s Mines&amp;apos;&amp;apos; (1937 film)]], a British film
+* [[King Solomon&amp;apos;s Mines (1950 film)|&amp;apos;&amp;apos;King Solomon&amp;apos;s Mines&amp;apos;&amp;apos; (1950 film)]], an American production
+* &amp;apos;&amp;apos;[[King Solomon&amp;apos;s Treasure]]&amp;apos;&amp;apos; (1979), a British-Canadian low budget version
+* [[King Solomon&amp;apos;s Mines (1985 film)|&amp;apos;&amp;apos;King Solomon&amp;apos;s Mines&amp;apos;&amp;apos; (1985 film)]], a new American version, filmed in Zimbabwe
+* [[King Solomon&amp;apos;s Mines (1986 film)|&amp;apos;&amp;apos;King Solomon&amp;apos;s Mines&amp;apos;&amp;apos; (1986 telemovie)]], an Australian animated film from the [[Burbank, California|Burbank]] studios
+* [[King Solomon&amp;apos;s Mines (2004 film)|&amp;apos;&amp;apos;King Solomon&amp;apos;s Mines&amp;apos;&amp;apos; (2004 film)]], an American television miniseries
+
+==Related films==
+* [[Allan Quatermain (film)|&amp;apos;&amp;apos;Allan  Quatermain&amp;apos;&amp;apos; (film)]], 1919 film
+*&amp;apos;&amp;apos;[[Watusi (film)|Watusi]]&amp;apos;&amp;apos;, 1959 sequel to the 1950 film
+* &amp;apos;&amp;apos;[[Allan Quatermain and the Lost City of Gold]]&amp;apos;&amp;apos;, 1987 film with [[Richard Chamberlain]]
+* [[The_Search_For_King_Solomon%27s_Mines|&amp;apos;&amp;apos;The Search For King Solomon&amp;apos;s Mines&amp;apos;&amp;apos; (2002 documentary)]], commissioned by National Geographic Television and UK&amp;apos;s Channel 4
+* &amp;apos;&amp;apos;[[The League of Extraordinary Gentlemen (film)]]&amp;apos;&amp;apos;, 2003 film with Allan Quatermain portrayed by [[Sean Connery]]
+* &amp;apos;&amp;apos;[[The Librarian: Return to King Solomon&amp;apos;s Mines]]&amp;apos;&amp;apos;, 2006 [[Turner_Network_Television|TNT]] television film
+* &amp;apos;&amp;apos;[[Allan Quatermain and the Temple of Skulls]]&amp;apos;&amp;apos;, 2008 film
+
+{{SIA|films}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Zebra bullhead shark"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Zebra bullhead shark" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Taxobox
+| image = Heterodontus zebra csiro-nfc.jpg
+| status = LC
+| status_system = IUCN3.1
+| regnum = [[Animalia]]
+| phylum = [[Chordata]]
+| classis = [[Chondrichthyes]]
+| subclassis = [[Elasmobranchii]]
+| ordo = [[Heterodontiformes]]
+| familia = [[Heterodontidae]]
+| genus = &amp;apos;&amp;apos;[[Heterodontus]]&amp;apos;&amp;apos;
+| species = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;H. zebra &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+| range_map = Heterodontus zebra distmap.png
+| range_map_caption = Range of zebra bullhead shark (in blue)
+| binomial = &amp;apos;&amp;apos;Heterodontus zebra&amp;apos;&amp;apos;
+| binomial_authority = ([[John Edward Gray|J. E. Gray]], 1831)
+}}
+{{Portal|Sharks}}
+
+The &amp;apos;&amp;apos;&amp;apos;Zebra bullhead shark&amp;apos;&amp;apos;&amp;apos; (&amp;apos;&amp;apos;Heterodontus zebra&amp;apos;&amp;apos;) is a [[bullhead shark]] of the [[family (biology)|family]] [[Heterodontidae]], found in the [[subtropical]] western [[Pacific Ocean]] between latitudes [[40th parallel north|40° N]] to [[20th parallel south|20° S]], at depths of between 50 and 200 m. Its length is up to 1.25 m. Reproduction is [[oviparous]].
+
+==References==
+*{{FishBase_species| genus = Heterodontus | species = zebra  | month = May | year = 2006}}
+
+{{Heterodontiformes}}
+
+[[Category:Heterodontidae]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

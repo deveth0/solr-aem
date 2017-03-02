@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Grimmelshausen"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Grimmelshausen" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{for|the German author|Hans Jakob Christoffel von Grimmelshausen}}
+
+{{Infobox German location
+|image_photo       =
+|Wappen            =
+|lat_deg           = 50 |lat_min = 29 |lat_sec = 0
+|lon_deg           = 10 |lon_min = 38 |lon_sec = 0
+|Lageplan          = Grimmelshausen in HBN.png
+|Bundesland        = Thüringen
+|Landkreis         = Hildburghausen
+|Verwaltungsgemeinschaft = Feldstein
+|Höhe              = 360
+|Fläche            = 4.21
+|Einwohner         = 193
+|Stand             = 2006-12-31
+|PLZ               = 98660
+|Vorwahl           = 036873
+|Kfz               = HBN
+|Gemeindeschlüssel = 16 0 69 016
+|Adresse-Verband   = Mauerstr. 9&amp;lt;br /&amp;gt;98660 Themar
+|Website           = [http://www.vg-feldstein.de www.vg-feldstein.de]
+|Bürgermeister     = Thomas Hanft
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Grimmelshausen&amp;apos;&amp;apos;&amp;apos; is a municipality in the [[Hildburghausen (district)|district of Hildburghausen]], in [[Thuringia]], [[Germany]].
+
+{{Cities and towns in Hildburghausen (district)}}
+==References==
+{{Reflist}}
+
+[[Category:Municipalities in Thuringia]]
+
+{{Hildburghausen-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

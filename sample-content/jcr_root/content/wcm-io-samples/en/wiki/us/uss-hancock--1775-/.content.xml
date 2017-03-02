@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="USS Hancock (1775)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="USS Hancock (1775)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{otherships|USS Hancock}}
+{|{{Infobox ship begin}}
+{{Infobox ship image
+|Ship image=
+|Ship caption=
+}}
+{{Infobox Ship Career
+|Hide header=
+|Ship country=
+|Ship flag= {{USN flag|1775}}
+|Ship name= USS &amp;apos;&amp;apos;Hancock&amp;apos;&amp;apos;
+|Ship namesake=[[John Hancock]]
+|Ship ordered=
+|Ship builder=
+|Ship laid down=
+|Ship launched=
+|Ship acquired=October 1775
+|Ship commissioned=
+|Ship decommissioned=
+|Ship in service=
+|Ship out of service=
+|Ship struck=
+|Ship reinstated=
+|Ship homeport=
+|Ship motto=
+|Ship nickname=
+|Ship honours=
+|Ship fate= Returned to owner, 1777
+|Ship status=
+|Ship notes=
+}}
+{{Infobox ship characteristics
+|Hide header=
+|Header caption=
+|Ship type= [[Schooner]]
+|Ship displacement= {{convert|72|LT|t|0|lk=in|abbr=on}}
+|Ship length= {{convert|60|ft|m|abbr=on}}
+|Ship beam= {{convert|20|ft|m|abbr=on}}
+|Ship draft=
+|Ship propulsion= Sails
+|Ship sail plan=
+|Ship speed=
+|Ship complement=70 officers and enlisted
+|Ship armament=6 × 4-pounder guns
+|Ship notes=
+}}
+{{service record
+|is_ship=yes
+|label=
+|partof=[[Continental Navy]]
+|codes=
+|commanders=[[John Manley (naval officer)|John Manley]]&amp;lt;br&amp;gt;[[Samuel Tucker]]
+|operations=
+|victories=
+|awards=
+}}
+|}
+The first &amp;apos;&amp;apos;&amp;apos;USS &amp;apos;&amp;apos;Hancock&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; was a [[schooner]] under the [[Continental Army]] during the [[American Revolutionary War]]. She was named for [[John Hancock]].
+
+&amp;apos;&amp;apos;Hancock&amp;apos;&amp;apos;, was the former schooner &amp;apos;&amp;apos;Speedwell&amp;apos;&amp;apos;, hired from Mr. Thomas Grant of [[Marblehead, Massachusetts]], in October 1775 as one of a small fleet fitting out to prey upon British supply ships and support General [[George Washington]]&amp;apos;s siege of [[Boston, Massachusetts]]. This fleet, the first under Continental pay and control, came to be called &amp;quot;[[George Washington&amp;apos;s Navy]].&amp;quot;
+
+In October 1775, &amp;apos;&amp;apos;Hancock&amp;apos;&amp;apos; and {{USS|Franklin|1775|2}} were ordered to intercept two [[brig]]s as they arrived in the [[St. Lawrence River]] from England. But the two schooners instead sought easier quarry off [[Cape Canso]] where five prizes of dubious legality were taken. They also raided [[Charlottetown]] settlement without regard to orders to respect [[Canada|Canadian]] property. The story of their illegal actions reached General Washington who dismissed both ship commanders and returned their prizes to Canadian owners with apologies.
+
+On 1 January 1776, Captain [[John Manley (naval officer)|John Manley]], [[Continental Army]], was appointed [[Commodore (United States)|Commodore]] of the Fleet and hoisted his flag in &amp;apos;&amp;apos;Hancock&amp;apos;&amp;apos;. She captured two enemy transports on 25 January 1776, fending off an eight-gun British schooner in a brisk engagement while prize crews took the captured ships into [[Plymouth Harbor]].&amp;lt;ref&amp;gt;[[#Coggins|Coggins, 2002, p.25]]&amp;lt;/ref&amp;gt;
+
+On 30 January 1776 &amp;apos;&amp;apos;Hancock&amp;apos;&amp;apos; was intercepted off Plymouth by the 14-gun British Brig &amp;apos;&amp;apos;Hope&amp;apos;&amp;apos; who had sailed from Boston for the express purpose of capturing &amp;apos;&amp;apos;Hancock&amp;apos;&amp;apos;. The American schooner ran ashore and grounded where it became impossible for &amp;apos;&amp;apos;Hope&amp;apos;&amp;apos;, with her deeper draft, to draw close aboard. The little sloop refloated and captured several more prizes in joint operations with the squadron by April 1776 when Captain [[Samuel Tucker]] took command of &amp;apos;&amp;apos;Hancock&amp;apos;&amp;apos;. He relieved Commodore [[John Manley]] who was taken into the [[Continental Navy]] to command Continental Frigate [[USS Hancock (1776)|&amp;apos;&amp;apos;Hancock&amp;apos;&amp;apos;]].
+
+&amp;apos;&amp;apos;Hancock&amp;apos;&amp;apos; captured two brigs off Boston 7 May 1776. She continued to cruise under Tucker until declared unfit for service late in 1776. She returned to her owner early the following year.
+
+==See also==
+*[[list of schooners#Historical schooners|List of historical schooners]]
+
+==References==
+
+&amp;lt;references /&amp;gt;
+*{{DANFS|http://www.history.navy.mil/danfs/h2/hancock-i.htm}}
+
+==Bibliography==
+* {{cite book |last=Coggins |first=Jack |year=2002 |ref=Coggins |title=Ships and Seamen of the American Revolution: Vessels, Crews, Weapons, Gear, Naval Tactics, and Actions of the War for Independence |publisher=Courier Dover Publications |pages=224 |isbn=0486420728 |url=http://books.google.com/books?id=_P6MYw3LTVoC&amp;amp;vq=hector&amp;amp;source=gbs_navlinks_s}}
+&amp;lt;!-- &amp;lt;ref&amp;gt;[[#Coggins|Coggins, 2002, p.xx]]&amp;lt;/ref&amp;gt; --&amp;gt;
+*{{cite web |url=http://www.history.navy.mil/danfs/index.html |last=Dept U.S.Navy |title=Ships Histories Dictionary of American Naval Fighting Ships |authorlink=United States Navy |publisher=Department of the Navy - Naval Historical Center |work=Dictionary of American Naval Fighting Ships |ref=DANFS}}
+&amp;lt;!-- &amp;lt;ref&amp;gt;[[#DANFS|U.S.Navy, DANFS, Ships Histories]], page article&amp;lt;/ref&amp;gt; --&amp;gt;
+
+{{DEFAULTSORT:Hancock (1775)}}
+[[Category:Schooners of the United States Navy]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

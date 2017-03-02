@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="File:Led Zeppelin - The Song Remains the Same.jpg"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="File:Led Zeppelin - The Song Remains the Same.jpg" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;== Summary ==
+{{Non-free use rationale album cover| Article           = The Song Remains the Same (album)
+| Use               = Infobox
+&amp;lt;!-- ADDITIONAL INFORMATION --&amp;gt;
+| Name              = The Song Remains the Same
+| Artist            = [[Led Zeppelin]]
+| Label             = [[Swan Song Records|Swan Song]]
+| Graphic Artist    =
+| Item              =
+| Type              = album
+| Website           =
+| Owner             =
+| Commentary        =
+&amp;lt;!--OVERRIDE FIELDS --&amp;gt;
+| Description       = Cover of [[Led Zeppelin]]&amp;apos;s &amp;apos;&amp;apos;[[The Song Remains the Same (album)|The Song Remains the Same]]&amp;apos;&amp;apos; soundtrack album.
+| Source            =
+| Portion           =
+| Low_resolution    =
+| Purpose           = &amp;lt;!--Must be specified if Use is not Infobox / Header / Section / Artist--&amp;gt;
+| Replaceability    =
+| other_information =
+}}
+
+== Licensing ==
+{{Non-free album cover|image has rationale=yes}}
+
+[[Category:Album covers by Hipgnosis]]
+[[Category:Led Zeppelin album covers|Song Remains The Same]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

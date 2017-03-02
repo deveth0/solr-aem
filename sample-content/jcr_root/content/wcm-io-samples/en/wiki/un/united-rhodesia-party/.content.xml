@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="United Rhodesia Party"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="United Rhodesia Party" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+The name &amp;apos;&amp;apos;&amp;apos;United Rhodesia Party&amp;apos;&amp;apos;&amp;apos; and the acronym, &amp;apos;&amp;apos;&amp;apos;URP&amp;apos;&amp;apos;&amp;apos;, refer to two [[political parties]] in [[Southern Rhodesia]].
+
+The first was the party, led by Sir [[Godfrey Martin Huggins]], and which in 1933 came to power in the colony. It was informally known as the United Party, later formally known as the [[United Federal Party]] (UFP).
+
+The second is the party founded and led by former UFP premier of Southern Rhodesia, Sir [[Garfield Todd]], during the time in which Southern Rhodesia was one of three territories within the [[Central African Federation]] (CAF). This revived URP, which stood to the left of the more centrist UFP, merged with the latter in 1958 following Todd&amp;apos;s defeat in the Territorial elections and the victory of the UFP, led at the time by Sir [[Edgar Whitehead]].
+
+{{Africa-party-stub}}
+[[Category:Political parties in Rhodesia]]
+[[Category:Political parties in Zimbabwe]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

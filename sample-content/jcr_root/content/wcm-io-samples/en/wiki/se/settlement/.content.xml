@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Settlement"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Settlement" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Wiktionary}}
+
+&amp;apos;&amp;apos;&amp;apos;Settlement&amp;apos;&amp;apos;&amp;apos; may refer to:
+*[[Consolidation (soil)]], a process by which soils decrease in volume
+*[[Human settlement]], a community where people live
+**[[Plantation (settlement or colony)]], an early method of colonization
+**[[Israeli settlement]], communities inhabited by Israeli Jews in territory that came under Israel&amp;apos;s control as a result of the 1967 Six-Day War
+**[[Urban settlement (disambiguation)]]
+**[[Rural settlement]]
+**[[Urban-type settlement]]
+*[[Settlement (closing)]], as in a real estate closing with transfer of title deed to the buyer
+*[[Settlement (finance)]], the process of exchanging the consideration for financial instruments once a transaction has been executed
+*[[Settlement (structural)]], the gradual distortions created in a structure
+
+;Legal terms
+*[[Settlement (litigation)]], an agreement or resolution of a dispute
+*Settlement under the [[Poor Law]], a person&amp;apos;s place of origin or later established residence, being the Parish responsible for the person if destitute
+*[[Settlement (trust)]], an instrument creating a trust
+*[[Structured settlement]], a financial or insurance agreement involving a structure of periodic payments to pay a debt such as tax liability
+
+==See also==
+*[[Act of Settlement (disambiguation)]], various legislation
+*[[Settlement movement]], started in Victorian England, concerned with urban poverty
+**[[Settlement school]], in the US, inspired by the above
+*[[Prussian Settlement Commission]] aimed at Germanization of Polish-inhabited areas from 1886 to 1924
+
+{{Disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Help:Contents/Browse"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Help:Contents/Browse" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{pp-semi-indef}}&amp;lt;noinclude&amp;gt;{{pp-semi-protected|small=yes}}{{pp-move-indef}}&amp;lt;/noinclude&amp;gt;
+{{Help pages header}}
+{| cellspacing=&amp;quot;0&amp;quot; cellpadding=&amp;quot;0&amp;quot; align=&amp;quot;center&amp;quot; style=&amp;quot;width:100%; border:2px #a3b1bf solid; background:#f5faff; text-align:center;&amp;quot;
+|-
+|colspan=&amp;quot;2&amp;quot; align=&amp;quot;center&amp;quot; style=&amp;quot;background:#cee0f2; border-bottom:1px #a3b1bf solid;&amp;quot; |&amp;lt;div style=&amp;quot;position:relative;&amp;quot;&amp;gt;
+{{clear}}
+&amp;lt;h2 style=&amp;quot;margin:.5em; margin-top:.1em; margin-bottom:.1em; border-bottom:0; font-weight:bold;&amp;quot;&amp;gt;[[Wikipedia]] Help Menu&amp;lt;/h2&amp;gt;
+&amp;lt;inputbox&amp;gt;
+type=fulltext
+width=40
+namespaces=Help**,Wikipedia**,Template**,Category
+searchbuttonlabel=Search Help
+bgcolor=#cee0f2
+break=yes
+&amp;lt;/inputbox&amp;gt;
+&amp;lt;/div&amp;gt;
+|-
+&amp;lt;!-- ROW 1 --&amp;gt;
+&amp;lt;!-- LEFT COLUMN --&amp;gt;
+| align=&amp;quot;center&amp;quot; style=&amp;quot;width:50%; padding:15px 2% 5px 2%;&amp;quot; valign=&amp;quot;top&amp;quot;|
+&amp;lt;span style=&amp;quot;font-size: 140%;&amp;quot;&amp;gt;[[Help:Contents/Browse/Navigating Wikipedia|Navigating Wikipedia]]&amp;lt;/span&amp;gt;&amp;lt;br /&amp;gt;
+Searching and browsing the encyclopedia
+&amp;lt;!-- RIGHT COLUMN --&amp;gt;
+| align=&amp;quot;center&amp;quot; style=&amp;quot;width:50%; padding:15px 2% 5px 2%;&amp;quot; valign=&amp;quot;top&amp;quot; |
+&amp;lt;span style=&amp;quot;font-size: 140%;&amp;quot;&amp;gt;[[Help:Contents/Browse/Policies and guidelines|Policies and guidelines]]&amp;lt;/span&amp;gt;&amp;lt;br /&amp;gt;
+Community standards
+|-
+&amp;lt;!-- ROW 2 --&amp;gt;
+&amp;lt;!-- LEFT COLUMN --&amp;gt;
+| align=&amp;quot;center&amp;quot; style=&amp;quot;width:50%; padding:5px 2%;&amp;quot; valign=&amp;quot;top&amp;quot;|
+&amp;lt;span style=&amp;quot;font-size: 140%;&amp;quot;&amp;gt;[[Help:Contents/Browse/Joining Wikipedia|Joining Wikipedia]]&amp;lt;/span&amp;gt;&amp;lt;br /&amp;gt;
+How to get involved
+&amp;lt;!-- RIGHT COLUMN --&amp;gt;
+| align=&amp;quot;center&amp;quot; style=&amp;quot;width:50%; padding:5px 2%;&amp;quot; valign=&amp;quot;top&amp;quot; |
+&amp;lt;span style=&amp;quot;font-size: 140%;&amp;quot;&amp;gt;[[Help:Contents/Browse/Asking questions|Asking questions]]&amp;lt;/span&amp;gt;&amp;lt;br /&amp;gt;
+Volunteers will attempt to answer
+|-
+&amp;lt;!-- ROW 3 --&amp;gt;
+&amp;lt;!-- LEFT COLUMN --&amp;gt;
+| align=&amp;quot;center&amp;quot; style=&amp;quot;width:50%; padding:5px 2%;&amp;quot; valign=&amp;quot;top&amp;quot;|
+&amp;lt;span style=&amp;quot;font-size: 140%;&amp;quot;&amp;gt;[[Help:Contents/Browse/Editing Wikipedia|Editing Wikipedia]]&amp;lt;/span&amp;gt;&amp;lt;br /&amp;gt;
+General help for editors
+&amp;lt;!-- RIGHT COLUMN --&amp;gt;
+| align=&amp;quot;center&amp;quot; style=&amp;quot;width:50%; padding:5px 2%;&amp;quot; valign=&amp;quot;top&amp;quot; |
+&amp;lt;span style=&amp;quot;font-size: 140%;&amp;quot;&amp;gt;[[Help:Contents/Browse/The Wikipedia community|The Wikipedia community]]&amp;lt;/span&amp;gt;&amp;lt;br /&amp;gt;
+Submit or debate a proposal
+|-
+&amp;lt;!-- ROW 4 --&amp;gt;
+&amp;lt;!-- LEFT COLUMN --&amp;gt;
+| align=&amp;quot;center&amp;quot; style=&amp;quot;width:50%; padding:5px 2%;&amp;quot; valign=&amp;quot;top&amp;quot;|
+&amp;lt;span style=&amp;quot;font-size: 140%;&amp;quot;&amp;gt;[[Help:Contents/Browse/Links|Links and references]]&amp;lt;/span&amp;gt;&amp;lt;br /&amp;gt;
+Help for creating links or dealing with references
+&amp;lt;!-- RIGHT COLUMN --&amp;gt;
+| align=&amp;quot;center&amp;quot; style=&amp;quot;width:50%; padding:5px 2%;&amp;quot; valign=&amp;quot;top&amp;quot; |
+&amp;lt;span style=&amp;quot;font-size: 140%;&amp;quot;&amp;gt;[[Help:Contents/Browse/Resources and lists|Resources and lists]]&amp;lt;/span&amp;gt;&amp;lt;br /&amp;gt;
+Resources for editors
+|-
+&amp;lt;!-- ROW 5 --&amp;gt;
+&amp;lt;!-- LEFT COLUMN --&amp;gt;
+| align=&amp;quot;center&amp;quot; style=&amp;quot;width:50%; padding:5px 2%;&amp;quot; valign=&amp;quot;top&amp;quot;|
+&amp;lt;span style=&amp;quot;font-size: 140%;&amp;quot;&amp;gt;[[Help:Contents/Browse/Images and media|Files]]&amp;lt;/span&amp;gt;&amp;lt;br /&amp;gt;
+Using images, videos and sound files
+&amp;lt;!-- RIGHT COLUMN --&amp;gt;
+| align=&amp;quot;center&amp;quot; style=&amp;quot;width:50%; padding:5px 2%;&amp;quot; valign=&amp;quot;top&amp;quot; |
+&amp;lt;span style=&amp;quot;font-size: 140%;&amp;quot;&amp;gt;[[Help:Contents/Browse/Account settings and maintenance|Account settings]]&amp;lt;/span&amp;gt;&amp;lt;br /&amp;gt;
+Tips and tools for registered users
+|-
+&amp;lt;!-- ROW 6 --&amp;gt;
+&amp;lt;!-- LEFT COLUMN --&amp;gt;
+| align=&amp;quot;center&amp;quot; style=&amp;quot;width:50%; padding:5px 2%;&amp;quot; valign=&amp;quot;top&amp;quot;|
+&amp;lt;span style=&amp;quot;font-size: 140%;&amp;quot;&amp;gt;[[Help:Contents/Browse/Tracking changes|Keeping track of changes]]&amp;lt;/span&amp;gt;&amp;lt;br /&amp;gt;
+Track the evolution of a page or follow a user
+&amp;lt;!-- RIGHT COLUMN --&amp;gt;
+| align=&amp;quot;center&amp;quot; style=&amp;quot;width:50%; padding:5px 2%;&amp;quot; valign=&amp;quot;top&amp;quot; |
+&amp;lt;span style=&amp;quot;font-size: 140%;&amp;quot;&amp;gt;[[Help:Contents/Browse/Technical information|Technical information]]&amp;lt;/span&amp;gt;&amp;lt;br /&amp;gt;
+Tools for advanced users and troubleshooting information
+&amp;lt;!-- BOTTOM ROW --&amp;gt;
+|-
+| align=&amp;quot;center&amp;quot; colspan=&amp;quot;2&amp;quot; style=&amp;quot;padding:10px 2% 3px 2%;&amp;quot; |
+&amp;apos;&amp;apos;[[Help:Contents/Browse/Site map|View all of these on a single page]]&amp;apos;&amp;apos;
+|}
+{| cellspacing=&amp;quot;0&amp;quot; width=&amp;quot;100%&amp;quot; &amp;quot;cellpadding=&amp;quot;0&amp;quot; align=&amp;quot;center&amp;quot; style=&amp;quot;margin-left:auto; margin-right:auto; margin-top:10px; border:solid #BFBFA3; border-width:2px&amp;quot;
+|-
+|colspan=&amp;quot;2&amp;quot;  align=&amp;quot;center&amp;quot; style=&amp;quot;background:#ECF2CE; text-align:center;border-bottom:1px #BFBFA3 solid;&amp;quot;  &amp;quot; width=&amp;quot;100%&amp;quot; |
+&amp;lt;h2 style=&amp;quot;margin:.5em; margin-top:.1em; border-bottom:0; font-weight:bold;&amp;quot;&amp;gt;[[Wikipedia talk:Tip of the day|Tip of the day]]&amp;lt;/h2&amp;gt;
+|-
+| align=&amp;quot;left&amp;quot; style=&amp;quot;width:80%; line-height:130%; padding-top:1%; text-align:left;&amp;quot; valign=&amp;quot;center&amp;quot; |
+&amp;lt;div style=&amp;quot;line-height:150%; font-size:100%; margin-top:10px; padding-left:8px; &amp;quot;&amp;gt;
+{{Wikipedia:Tip of the day/{{CURRENTMONTHNAME}} {{CURRENTDAY}}}}&amp;lt;/div&amp;gt;
+| align=&amp;quot;center&amp;quot; style=&amp;quot;width:20%; line-height:130%; padding:0%; padding-top:1%; text-align:center;&amp;quot; valign=&amp;quot;middle&amp;quot; |
+[[File:Crystal Clear app ktip.svg|center|200px]]
+|}
+
+__NOTOC__
+__NOEDITSECTION__
+{{PartofHelpContents}}
+&amp;lt;noinclude&amp;gt;
+[[Category:Help]]
+[[Category:Wikipedia help contents|Browse]]
+&amp;lt;/noinclude&amp;gt;&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="John S. Johnson"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="John S. Johnson" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Other uses|John Johnson (disambiguation)}}
+
+&amp;apos;&amp;apos;&amp;apos;John S. Johnson&amp;apos;&amp;apos;&amp;apos; (May 11, 1873–1934) was an early American cyclist and speed skater. He was the first to [[bicycle]] 1-mile in less than two minutes, or 1:56.6. This happened in 1892 at a racing track in [[Independence, Iowa]]. Johnson was also a [[world record]] holder in [[speed skating]], and won world championship titles in both sports. He was living in [[Minneapolis, Minnesota]], and was of Swedish ancestry. He died in 1934.
+
+==See also==
+For more early American bicycle racing history, see the [[League of American Wheelmen]] and [[Major Taylor]].
+
+==External links==
+*In 2003, Johnson was introduced into the [http://www.usbhof.com/inductees/ U.S. Bicycling Hall of Fame]
+*In 1960, Johnson was introduced into the [http://www.speedskating.org/hall-of-fame/hof-skaters.html Speed Skaters Hall of Fame]
+*[http://runeberg.org/hvar8dag/3/2616.html Picture from a 1902 magazine], showing Johnson on bicycle behind a motorized tandem pacemaker, photo by [[Carl Horner]], [[Boston]].
+
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Johnson, John S.
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION = American racing cyclist and speed skater
+| DATE OF BIRTH     = May 11, 1873
+| PLACE OF BIRTH    =
+| DATE OF DEATH     = 1934
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Johnson, John S.}}
+[[Category:1873 births]]
+[[Category:1934 deaths]]
+[[Category:American cyclists]]
+[[Category:American people of Swedish descent]]
+[[Category:United States Bicycling Hall of Fame inductees]]
+[[Category:Place of birth missing (living people)]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="MRP"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="MRP" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;MRP&amp;apos;&amp;apos;&amp;apos; may refer to:
+;Business, economics and management
+* [[Manufacturing resource planning]] (MRP II)
+* Marginal revenue product, in the [[marginal revenue productivity theory of wages]]
+* [[Material requirements planning]]
+;Science
+* [[ATP_Binding_Cassette#Role_in_multidrug_resistance|Multidrug resistant protein]]
+* [[RNase MRP]], a ribonucleoprotein
+;Computers and networking
+* [[Metro Ring Protocol]], a Layer 2 resilience protocol
+* [[Multiple Registration Protocol]], a registration protocol used by IEEE 802.1 devices
+* [[Media Redundancy Protocol]], a data network protocol for Industrial Ethernet
+;Other
+* [[Machine-readable passport]]
+* [[Middle relief pitcher]], in baseball
+* [[Rotation formalisms in three dimensions#Rodrigues_parameters|Modified Rodrigues parameters]]
+* [[Molotov–Ribbentrop Pact]]
+* Monolithic Rail Platform, a gun part manufactured by [[Lewis Machine and Tool Company]]
+* [[Moorthorpe railway station]], England (National Rail station code)
+* &amp;apos;&amp;apos;Mouvement républicain populaire&amp;apos;&amp;apos; ([[Popular Republican Movement]]), a political party in the Fourth French Republic
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

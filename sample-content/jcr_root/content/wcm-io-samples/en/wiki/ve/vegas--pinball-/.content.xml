@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Vegas (pinball)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Vegas (pinball)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;Vegas&amp;apos;&amp;apos;&amp;apos; is a [[Gottlieb]] [[pinball]] machine with a [[card game]] theme. It first appeared in July 1990. About 1500 were manufactured.
+
+Several [[strategy|strategies]] allow players to win a free game:
+*Reaching the &amp;quot;replay&amp;quot; score determined by the machine (1 credit).
+*Winning in the lottery (1 credit).
+*Completing the table (the 13 cards) (3 credits).
+*Passing into the corridor of the &amp;quot;special joker&amp;quot; when it flickers (1 credit).
+*Completing the 7 &amp;quot;7&amp;quot;s to touch the lady on the table (1 credit).
+*Obtaining a mystical special (1 credit).
+
+The motif feature graphics that were already [[retro]] in the era of its release. The dominant color is pink with a charming hostess on the vertical display at the back of the machine.
+
+==External links==
+*[http://www.ipdb.org/machine.cgi?id=2724&amp;amp;raise= The Internet Pinball Database entry on of this machine]
+
+[[Category:1990 pinball machines]]
+[[Category:Gottlieb pinball machines]]
+
+{{pinball-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

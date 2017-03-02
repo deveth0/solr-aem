@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Keredic"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Keredic" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=April 2009}}
+&amp;apos;&amp;apos;&amp;apos;Keredic&amp;apos;&amp;apos;&amp;apos; ({{lang-cy|&amp;apos;&amp;apos;&amp;apos;Ceredig&amp;apos;&amp;apos;&amp;apos;}}) was a [[List of legendary kings of Britain|legendary king of the Britons]], as recounted by [[Geoffrey of Monmouth]]. The origin of Geoffrey&amp;apos;s character is unknown, but he is not depicted as a [[Saxons|Saxon]]. According to Geoffrey, Keredic&amp;apos;s rule was so unpopular that the Saxons enlisted the aid of an army of [[Vandals]] from [[Ireland]] to drive him from his kingdom.
+
+Geoffrey&amp;apos;s legendary Keredic may have been a conflation of [[Cerdic of Wessex|Cerdic]], the traditional founder of Wessex, who, despite his political affiliation with the Saxons, was likely to be half-British himself, and another [[Cerdic of Elmet|Cerdic]], who reigned over the [[Celt]]ic kingdom of [[Elmet]] around present-day [[Leeds]] until his defeat at the hands of [[Edwin of Northumbria]]. Whatever the case, Geoffrey places a lengthy interregnum between the expulsion of Keredic and the rise of the next British king, [[Cadfan]].
+
+Keredic should not be confused with [[Ceredig]], one of the sons of [[Cunedda]] and traditional founder of [[Ceredigion]].
+
+==References==
+
+{{s-start}}
+{{s-reg | leg }}
+{{s-bef | before = [[Maelgwn Gwynedd|Malgo]] }}
+{{s-ttl | title  = [[List of legendary kings of Britain|King of Britain]] }}
+{{s-vac | reason = Interregnum | next = [[Cadfan ap Iago|Cadvan]] }}
+{{s-end}}
+
+[[Category:British traditional history]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

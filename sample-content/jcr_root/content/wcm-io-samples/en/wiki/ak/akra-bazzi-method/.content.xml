@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Akra–Bazzi method"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Akra–Bazzi method" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{no footnotes|date=February 2013}}
+In [[computer science]], the &amp;apos;&amp;apos;&amp;apos;Akra–Bazzi method&amp;apos;&amp;apos;&amp;apos;, or &amp;apos;&amp;apos;&amp;apos;Akra–Bazzi theorem&amp;apos;&amp;apos;&amp;apos;, is used to analyze the asymptotic behavior of the mathematical [[recurrence relation|recurrences]] that appear in the analysis of [[divide and conquer algorithm|divide and conquer]] [[algorithm]]s where the sub-problems have substantially different sizes.  It is a generalization of the well-known [[master theorem]], which assumes that the sub-problems have equal size.
+
+== The formula ==
+The Akra–Bazzi method applies to recurrence formulas of the form
+
+:&amp;lt;math&amp;gt;T(x)=g(x) + \sum_{i=1}^k a_i T(b_i x + h_i(x))\qquad \text{for }x \geq x_0.&amp;lt;/math&amp;gt;
+
+The conditions for usage are:
+
+* sufficient base cases are provided
+* &amp;lt;math&amp;gt;a_i&amp;lt;/math&amp;gt; and &amp;lt;math&amp;gt;b_i&amp;lt;/math&amp;gt; are constants for all i
+* &amp;lt;math&amp;gt;a_i &amp;gt; 0&amp;lt;/math&amp;gt; for all i
+* &amp;lt;math&amp;gt;0 &amp;lt; b_i &amp;lt; 1&amp;lt;/math&amp;gt; for all i
+* &amp;lt;math&amp;gt;\left|g(x)\right| \in O(x^c)&amp;lt;/math&amp;gt;, where &amp;apos;&amp;apos;c&amp;apos;&amp;apos; is a constant and &amp;apos;&amp;apos;O&amp;apos;&amp;apos; notates [[Big O notation]]
+* &amp;lt;math&amp;gt;\left| h_i(x) \right| \in O\left(\frac{x}{(\log x)^2}\right)&amp;lt;/math&amp;gt; for all i
+* &amp;lt;math&amp;gt;x_0&amp;lt;/math&amp;gt; is a constant
+
+The asymptotic behavior of T(x) is found by determining the value of p for which &amp;lt;math&amp;gt;\sum_{i=1}^k a_i b_i^p = 1&amp;lt;/math&amp;gt; and plugging that value into the equation
+
+:&amp;lt;math&amp;gt;T(x) \in \Theta \left( x^p\left( 1+\int_1^x \frac{g(u)}{u^{p+1}}du \right)\right)&amp;lt;/math&amp;gt;
+
+(see [[Big O notation|Θ]]). Intuitively, &amp;lt;math&amp;gt;h_i(x)&amp;lt;/math&amp;gt; represents a small perturbation in the index of T.  By noting that &amp;lt;math&amp;gt;\lfloor b_i x \rfloor = b_i x + (\lfloor b_i x \rfloor - b_i x)&amp;lt;/math&amp;gt; and that &amp;lt;math&amp;gt;\lfloor b_i x \rfloor - b_i x&amp;lt;/math&amp;gt; is always between 0 and 1, &amp;lt;math&amp;gt;h_i(x)&amp;lt;/math&amp;gt; can be used to ignore the [[floor function]] in the index.  Similarly, one can also ignore the [[ceiling function]].  For example, &amp;lt;math&amp;gt;T(n) = n + T \left(\frac{1}{2} n \right)&amp;lt;/math&amp;gt; and &amp;lt;math&amp;gt;T(n) = n + T \left(\left\lfloor \frac{1}{2} n \right\rfloor \right)&amp;lt;/math&amp;gt; will, as per the Akra–Bazzi theorem, have the same asymptotic behavior.
+
+== An example ==
+Suppose &amp;lt;math&amp;gt;T(n)&amp;lt;/math&amp;gt; is defined as 1 for integers &amp;lt;math&amp;gt;0 \leq n \leq 3&amp;lt;/math&amp;gt; and &amp;lt;math&amp;gt;n^2 + \frac{7}{4} T \left( \left\lfloor \frac{1}{2} n \right\rfloor \right) + T \left( \left\lceil \frac{3}{4} n \right\rceil \right)&amp;lt;/math&amp;gt; for integers &amp;lt;math&amp;gt;n &amp;gt; 3&amp;lt;/math&amp;gt;.  In applying the Akra–Bazzi method, the first step is to find the value of p for which &amp;lt;math&amp;gt;\frac{7}{4} \left(\frac{1}{2}\right)^p + \left(\frac{3}{4} \right)^p = 1&amp;lt;/math&amp;gt;.  In this example, &amp;apos;&amp;apos;p&amp;apos;&amp;apos;&amp;amp;nbsp;=&amp;amp;nbsp;2.  Then, using the formula, the asymptotic behavior can be determined as follows:
+
+:&amp;lt;math&amp;gt;
+\begin{align}
+T(x) &amp;amp; \in \Theta \left( x^p\left( 1+\int_1^x \frac{g(u)}{u^{p+1}}\,du \right)\right) \\
+&amp;amp; = \Theta \left( x^2 \left( 1+\int_1^x \frac{u^2}{u^3}\,du \right)\right) \\
+&amp;amp; = \Theta(x^2(1 + \ln x)) \\
+&amp;amp; = \Theta(x^2 \log x).
+\end{align}
+&amp;lt;/math&amp;gt;
+
+== Significance ==
+The Akra–Bazzi method is more useful than most other techniques for determining asymptotic behavior because it covers such a wide variety of cases.  Its primary application is the approximation of the [[Run time (program lifecycle phase)|runtime]] of many divide-and-conquer algorithms.  For example, in the [[merge sort]], the number of comparisons required in the worst case, which is roughly proportional to its runtime, is given recursively as &amp;lt;math&amp;gt;T(1) = 0&amp;lt;/math&amp;gt; and
+
+:&amp;lt;math&amp;gt;T(n) = T\left(\left\lfloor \frac{1}{2} n \right\rfloor \right) + T\left(\left\lceil \frac{1}{2} n \right\rceil \right) + n - 1&amp;lt;/math&amp;gt;
+
+for integers &amp;lt;math&amp;gt;n &amp;gt; 0&amp;lt;/math&amp;gt;, and can thus be computed using the Akra–Bazzi method to be &amp;lt;math&amp;gt;\Theta(n \log n)&amp;lt;/math&amp;gt;.
+
+== References ==
+*Mohamad Akra, Louay Bazzi: On the solution of linear recurrence equations. &amp;apos;&amp;apos;Computational Optimization and Applications&amp;apos;&amp;apos; &amp;apos;&amp;apos;&amp;apos;10&amp;apos;&amp;apos;&amp;apos;(2):195&amp;amp;ndash;210, 1998.
+*Tom Leighton: [http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.39.1636 Notes on Better Master Theorems for Divide-and-Conquer Recurrences], Manuscript. Massachusetts Institute of Technology, 1996, 9 pages.
+*[http://www.mpi-inf.mpg.de/~mehlhorn/DatAlg2008/NewMasterTheorem.pdf Proof and application on few examples]
+
+{{DEFAULTSORT:Akra-Bazzi Method}}
+[[Category:Asymptotic analysis]]
+[[Category:Theorems in discrete mathematics]]
+[[Category:Recurrence relations]]
+[[Category:Bazzi family]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Novell exteNd"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Novell exteNd" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Novell exteNd&amp;apos;&amp;apos;&amp;apos;, formerly known as SilverStream, was a web application development suite from [[Novell]] that was discontinued in 2005. The latest version was 5.2. With the release of [[Novell Identity Manager]] 3, the components of the portal services in exteNd were rebranded into the IDM User Application. The latest shipping version of the IDM User Application is the Roles Based Provisioning Module 4.0 released in October 2010.
+
+The ExteNd platform provides a visual environment that simplifies the development and deployment of business solutions that exploit existing systems. Based on [[Java platform|Java]] technology, it contains tools for integration of legacy systems to [[Web Service]]s with [[XML]] and [[Java EE]]. [[Web Portal]] contains standard-based [[portlets]].
+
+Integration connectors includes:
+* [[IBM 3270]]
+* [[IBM 5250]]
+* [[Electronic Data Interchange|EDI]]
+* [[HTML]]
+* [[SAP AG|SAP]]
+* [[CICS]]
+* [[Java Message Service|JMS]]
+* [[HP 3000]]
+* [[JDBC]]
+* [[Lightweight Directory Access Protocol|LDAP]]
+* [[Telnet]]
+* [[Tandem]]
+* [[T27]]
+
+==External links==
+* [http://www.novell.com/products/extend/ Novell&amp;apos;s product page for exteNd]
+
+{{Novell}}
+
+[[Category:Java enterprise platform]]
+[[Category:Novell software|Extend]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

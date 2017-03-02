@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Intel 80486SX"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Intel 80486SX" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[File:Intel i486 sx 25mhz 2007 03 27b.jpg|thumb|Intel i486 SX 25MHz]]
+
+[[Intel]]&amp;apos;s &amp;apos;&amp;apos;&amp;apos;i486SX&amp;apos;&amp;apos;&amp;apos; was a modified Intel [[486DX]] microprocessor with its [[Floating-point unit|floating-point unit (FPU)]] disconnected. All early 486SX chips were actually i486DX chips with a defective FPU. If testing showed that the central processing unit was working but the FPU was defective, the FPU&amp;apos;s power and bus connections were destroyed with a laser and the chip was sold cheaper as an SX; if the FPU worked it was sold as a DX. Computer manufacturers that used these processors include Packard Bell, Compaq and IBM.
+Back in the early 1990s, common wisdom held that it wasn&amp;apos;t advantageous for most users to have an FPU. Thus, many typical household applications already in existence like word processing and email were designed specifically to avoid using floating point operations. When floating point operations needed to be performed they were still performed, but not in hardware; instead the operations were usually facilitated by transparent software emulation.
+
+Some systems allowed the user to upgrade the i486SX to a CPU with a FPU. The FPU upgrade device was shipped as the [[Intel 80487|i487]], which was a full blown i486DX chip with an extra pin. The i487 was installed in an upgrade socket and the extra pin was either a power or ground pin that indicated that the i487 was installed. That signal was used to disable the i486SX when the i487 was installed. Although i486SX devices were not used at all when the i487 was installed, they were hard to remove because the i486SX was installed in non-[[Zero insertion force|ZIF]] sockets or in a plastic package that was surface mounted on the motherboard.
+
+&amp;lt;gallery&amp;gt;
+File:I486sx.jpg|Pin side of an Intel i486 SX
+File:KL_Intel_i486SX_PQFP.jpg|Embedded i486SX ([[Quad Flat Package|SQFP]] version).
+File:Intel i486SX-25.jpg|[[Quad Flat Package|BQFP]] version.
+&amp;lt;/gallery&amp;gt;
+
+==References==
+
+{{FOLDOC}}
+
+== External links ==
+* [http://www.cpu-collection.de/?l0=co&amp;amp;l1=Intel&amp;amp;l2=i486%20SX Intel 80486SX images and descriptions at cpu-collection.de]
+&amp;apos;&amp;apos;&amp;apos;Intel Datasheets&amp;apos;&amp;apos;&amp;apos;
+* [http://datasheets.chipdb.org/Intel/x86/486/datashts/27276902.PDF Embedded i486SX]
+* [http://datasheets.chipdb.org/Intel/x86/486/datashts/27273101.pdf Embedded Ultra-Low Power i486SX]
+
+{{Intel processors|discontinued}}
+
+[[Category:Intel x86 microprocessors|80486Sx]]
+
+[[de:Intel i486#i486SX]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

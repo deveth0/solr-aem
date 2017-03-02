@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Victor Recording Orchestra"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Victor Recording Orchestra" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+
+The &amp;apos;&amp;apos;&amp;apos;Victor Recording Orchestra&amp;apos;&amp;apos;&amp;apos; was a [[jazz]] band led by [[Jean Goldkette]]. Founded in 1924, it was considered by [[Rex Stewart]] to be the best dance band of its day and the &amp;quot;first original white [[Swing (genre)|swing]] band.&amp;quot; It was known for its innovative arrangements and strong rhythm.
+
+Among its members were:
+
+* [[Bix Beiderbecke]]
+* [[Steve Brown (bassist)|Steve Brown]]
+* [[Hoagy Carmichael]]
+* [[Jimmy Dorsey]]
+* [[Tommy Dorsey]]
+* [[Eddie Lang]]
+* [[Pee Wee Russell]]
+* [[Frankie Trumbauer]]
+* [[Joe Venuti]]
+* [[Bill Rank]]
+
+Among the band&amp;apos;s own arrangers was [[Russ Morgan]]; the band also traded arrnagements with [[Fletcher Henderson]]. The band&amp;apos;s most popular records included &amp;quot;After I Say I&amp;apos;m Sorry,&amp;quot; &amp;quot;[[Dinah]],&amp;quot; &amp;quot;Gimme a Little Kiss, Will Ya, Huh?&amp;quot; and &amp;quot;Lonesome and Sorry.&amp;quot; According to [[Rex Stewart]], the primitive recording techniques of the day (for example, bass and snare drums could not be recorded) failed to provide a true record of the band.
+
+[[Category:American jazz ensembles]]
+[[Category:Musical groups established in 1924]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

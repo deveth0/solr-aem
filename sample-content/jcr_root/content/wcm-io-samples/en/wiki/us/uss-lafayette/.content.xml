@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="USS Lafayette"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="USS Lafayette" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Italic title prefixed|3}}
+Three ships in the United States Navy have been named &amp;apos;&amp;apos;&amp;apos;USS &amp;apos;&amp;apos;Lafayette&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; for [[Marquis de Lafayette]].
+
+*{{USS|Lafayette|1848}}, was built in 1848 as &amp;apos;&amp;apos;Aleck Scott&amp;apos;&amp;apos;, and purchased by the US Navy on 18 May 1862 and renamed &amp;apos;&amp;apos;Lafayette&amp;apos;&amp;apos; 8 September 1862. She was decommissioned in July 1865 and sold
+
+*{{USS|Lafayette|AP-53}}, was launched as the French built &amp;apos;&amp;apos;Normandie&amp;apos;&amp;apos; and seized from France in 1941. She was partially destroyed by fire during conversion to a troop ship in New York. She was sold to a US scrap merchant then struck in 1945
+
+*{{USS|Lafayette|SSBN-616}}, was the lead ship of the {{sclass|Lafayette|submarine}}, commissioned in 1963, and decommissioned in 1991
+
+{{Shipindex}}
+
+{{DEFAULTSORT:Lafayette}}
+[[Category:United States Navy ship names]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Lyapunov fractal"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Lyapunov fractal" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Image:Lyapunov-fractal-AB.png|thumb|Standard Lyapunov logistic fractal with iteration sequence AB, in the region [2, 4] × [2, 4].]]
+
+[[Image:Lyapunov-fractal-AABAB.png|thumb|Generalized Lyapunov logistic fractal with iteration sequence AABAB, in the region [2, 4] × [2, 4].]]
+
+[[Image:lyapunov-fractal.png|thumb|Generalized Lyapunov logistic fractal with iteration sequence BBBBBBAAAAAA, in the growth parameter region (&amp;apos;&amp;apos;A&amp;apos;&amp;apos;,&amp;apos;&amp;apos;B&amp;apos;&amp;apos;) in [3.4, 4.0] × [2.5, 3.4], known as &amp;apos;&amp;apos;Zircon Zity&amp;apos;&amp;apos;.]]
+
+In [[mathematics]], &amp;apos;&amp;apos;&amp;apos;Lyapunov fractals&amp;apos;&amp;apos;&amp;apos; (also known as &amp;apos;&amp;apos;&amp;apos;Markus–Lyapunov fractals&amp;apos;&amp;apos;&amp;apos;) are [[bifurcation theory|bifurcational]] [[fractal]]s derived from an extension of the [[logistic map]] in which the degree of the growth of the population, &amp;apos;&amp;apos;r&amp;apos;&amp;apos;, periodically switches between two values &amp;apos;&amp;apos;A&amp;apos;&amp;apos; and &amp;apos;&amp;apos;B&amp;apos;&amp;apos;.
+
+A [[Aleksandr Lyapunov|Lyapunov]] fractal is constructed by mapping the regions of stability and chaotic behaviour (measured using the [[Lyapunov exponent]] &amp;lt;math&amp;gt;\lambda&amp;lt;/math&amp;gt;) in the &amp;apos;&amp;apos;a&amp;apos;&amp;apos;&amp;amp;minus;&amp;apos;&amp;apos;b&amp;apos;&amp;apos; plane for given periodic sequences of &amp;apos;&amp;apos;a&amp;apos;&amp;apos; and &amp;apos;&amp;apos;b&amp;apos;&amp;apos;. In the images, yellow corresponds to &amp;lt;math&amp;gt;\lambda &amp;lt; 0&amp;lt;/math&amp;gt; (stability), and blue corresponds to &amp;lt;math&amp;gt;\lambda &amp;gt; 0&amp;lt;/math&amp;gt; (chaos).
+
+==Properties==
+Lyapunov fractals are generally drawn for values of &amp;apos;&amp;apos;A&amp;apos;&amp;apos; and &amp;apos;&amp;apos;B&amp;apos;&amp;apos; in the interval &amp;lt;math&amp;gt;[0,4]&amp;lt;/math&amp;gt;. For larger values, the interval [0,1] is no longer stable, and the sequence is likely to be attracted by infinity, although convergent cycles of finite values continue to exist for some parameters. For all iteration sequences, the diagonal &amp;apos;&amp;apos;a = b&amp;apos;&amp;apos; is always the same as for the standard one parameter logistic function.
+
+The sequence is usually started at the value 0.5, which is a [[critical point (mathematics)|critical point]] of the iterative function. The other (even complex valued) critical points of the iterative function during one entire round are those that pass through the value 0.5 in the first round. A convergent cycle must attract at least one critical point{{Citation needed|date=April 2007}}; therefore all convergent cycles can be obtained by just shifting the iteration sequence, and keeping the starting value 0.5. In practice, shifting this sequence leads to changes in the fractal, as some branches get covered by others; notice for instance how the Lyapunov fractal for the iteration sequence AB is not perfectly symmetric with respect to &amp;apos;&amp;apos;a&amp;apos;&amp;apos; and &amp;apos;&amp;apos;b&amp;apos;&amp;apos;.
+
+==Algorithm for generating Lyapunov fractals==
+An [[algorithm]], for computing the fractal is summarized as follows.
+
+# Choose a string of As and Bs of any nontrivial length (e.g., AABAB).
+# Construct the sequence &amp;lt;math&amp;gt;S&amp;lt;/math&amp;gt; formed by successive terms in the string, repeated as many times as necessary.
+# Choose a point &amp;lt;math&amp;gt;(a,b) \in [0,4] \times [0,4]&amp;lt;/math&amp;gt;.
+# Define the function &amp;lt;math&amp;gt;r_n = a&amp;lt;/math&amp;gt; if &amp;lt;math&amp;gt;S_n = A&amp;lt;/math&amp;gt;, and &amp;lt;math&amp;gt;r_n = b&amp;lt;/math&amp;gt; if &amp;lt;math&amp;gt;S_n = B&amp;lt;/math&amp;gt;.
+# Let &amp;lt;math&amp;gt;x_0 = 0.5&amp;lt;/math&amp;gt;, and compute the iterates &amp;lt;math&amp;gt;x_{n+1} = r_n x_n (1 - x_n)&amp;lt;/math&amp;gt;.
+# Compute the Lyapunov exponent:&amp;lt;br&amp;gt;&amp;lt;math&amp;gt;\lambda = \lim_{N \rightarrow \infty} {1 \over N} \sum_{n = 1}^N \log \left|{dx_{n+1} \over dx_n}\right| = \lim_{N \rightarrow \infty} {1 \over N} \sum_{n = 1}^N \log |r_n (1 - 2x_n)|&amp;lt;/math&amp;gt;&amp;lt;br&amp;gt;In practice, &amp;lt;math&amp;gt;\lambda&amp;lt;/math&amp;gt; is approximated by choosing a suitably large &amp;lt;math&amp;gt;N&amp;lt;/math&amp;gt;.
+# Color the point &amp;lt;math&amp;gt;(a,b)&amp;lt;/math&amp;gt; according to the value of &amp;lt;math&amp;gt;\lambda&amp;lt;/math&amp;gt; obtained.
+# Repeat steps (3–7) for each point in the image plane.
+
+==External links==
+*[http://www.efg2.com/Lab/FractalsAndChaos/Lyapunov.htm EFG&amp;apos;s Fractals and Chaos – Lyapunov Exponents]
+*{{cite web |
+last=Elert |
+first=Glenn |
+title= Lyapunov Space |
+work=The Chaos Hypertextbook |
+url=http://hypertextbook.com/chaos/44.shtml }}
+
+{{Fractals}}
+
+[[Category:Fractals]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

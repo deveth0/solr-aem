@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="IBM 1132"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="IBM 1132" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;lt;!-- Image with disputed fair-use status removed:  [[Image:IBM_logo.svg|thumb|128px|IBM logo]] --&amp;gt;
+The &amp;apos;&amp;apos;&amp;apos;IBM 1132 [[Line Printer]]&amp;apos;&amp;apos;&amp;apos; was the normal printer for the [[IBM 1130]] computer system. It printed 120 character lines at 80 lines per minute. The character set consisted of numbers, upper-case letters and some special characters.
+
+The 1132 was built around a stripped down [[IBM 407]] printing mechanism. The 407 was IBM&amp;apos;s top-of-the-line [[unit record equipment|accounting machine]] from the 1950s. The 1130 had 120 power [[transistor]]s, each wired to the print wheel solenoid for a printer column. As the set of 120 print wheels spun, the 1130 received an [[interrupt]] as each of the possible 48 characters moved into position. The printing [[device driver|driver]] software had to quickly output a 120 bit vector designating which transistors were to fire to press the print wheel against the ribbon and paper. This put a big performance burden on the [[CPU]], but resulted in an inexpensive (for the time) printer.
+
+Sometimes a printer output line transistor would fail, resulting in a blank print position. If you knew your way around inside the 1130, it was possible to swap circuit cards so as to move the bad print position to near the right end of the printed line. This kept the 1130 usable until the repair person showed up.
+
+The 1132 came in two models with the following characteristics:
+* Standard 48-character-set typewheels include FORTRAN special character set.
+* Model 1 prints up to 80 alphameric or 110 numeric lines per minute and can be attached to 1131 CPU Models 1, 2, 3, and 5.
+* Model 2 prints up to 40 alphameric or 55 numeric lines per minute and may be attached only to the 1131 CPU Model 4.
+* Standard 120 print-line positions spaced 10 characters per inch.
+* Operator selection of vertical line spacing, 6 or 8 lines per inch.
+* Forms skipping under program control through automatic, [[Carriage control tape|paper-tape-controlled carriage]].
+* Printer operation under stored-program control through automatic interrupt system.
+* Direct connection to the 1131 Central Processing Unit by means of the 1132 Printer Attachment and an Expansion Adapter.
+
+==References==
+*http://computer-refuge.org/bitsavers/pdf/ibm/1130/A26-5881-3_1130_Functional_Characteristics.pdf p.45ff
+*[http://ed-thelen.org/comp-hist/mak-IBM-1130.html Ed Thelen history site, includes photo]
+
+{{DEFAULTSORT:Ibm 1132}}
+[[Category:IBM printers|1132]]
+[[Category:Impact printers]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Portuguesa"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Portuguesa" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Portuguesa&amp;apos;&amp;apos;&amp;apos;, [[Portuguese language|Portuguese]] for something which is Portuguese and Female, may refer to:
+
+==Places==
+;Brazil
+*[[Portuguesa (Rio de Janeiro)]], a neighbourhood of Rio de Janeiro
+*A small town located in [[Rio de Janeiro (state)]]
+
+;Venezuela
+*[[Portuguesa, Venezuela]], one of the 23 states which make up the country
+
+==Mountain==
+*[[Chiqllarasu|Portuguesa]] or Chiqllarasu, a mountain in Peru
+
+==Other uses==
+*[[Portuguese language]]
+*[[A Portuguesa]], the Portuguese national anthem
+*[[Associação Portuguesa de Desportos]], a football club based in São Paulo, Brazil
+*[[Associação Atlética Portuguesa (RJ)]], a football club based in Rio de Janeiro, Brazil
+*[[Associação Atlética Portuguesa Santista]], a football club based in Santos, Brazil
+*[[Associação Portuguesa Londrinense]], a football club based in Londrina, Brazil
+*[[Portuguesa Fútbol Club]], a football club based in Acarígua, Venezuela
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

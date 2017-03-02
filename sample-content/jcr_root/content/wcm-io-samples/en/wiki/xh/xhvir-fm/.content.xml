@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="XHVIR-FM"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="XHVIR-FM" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox Radio station
+ | name = XHVIR (FM) XERPV (AM)
+ | image =
+ | city = [[Ciudad Victoria]], [[Tamaulipas]], [[Mexico]]
+ | area = [[Ciudad Victoria]],
+ | branding = La Cotorra
+ | slogan =
+ | airdate =
+ | frequency = 101.7 FM&amp;lt;br&amp;gt;1340 AM
+ | format = Mexican
+ | power =
+ | erp =
+ | class =
+ | callsign_meaning =
+ | former_callsigns =
+ | owner =
+ | webcast =
+ | website = www.ort.com.mx
+ | affiliations =
+}}
+&amp;apos;&amp;apos;&amp;apos;XHVIR&amp;apos;&amp;apos;&amp;apos; and &amp;apos;&amp;apos;&amp;apos;XERPV&amp;apos;&amp;apos;&amp;apos; (branded as La Cotorra) are two [[Mexico|Mexican]] regional radio stations that the serve [[Ciudad Victoria]], [[Tamaulipas]], [[Mexico]] market area with the same programming.
+
+&amp;lt;br clear=all&amp;gt;
+{{Ciudad Victoria Radio}}
+
+{{Mexico-radio-station-stub}}
+
+{{coord missing|Mexico}}
+
+[[Category:Regional Mexican radio stations]]
+[[Category:Spanish-language radio stations]]
+[[Category:Radio stations in Ciudad Victoria]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

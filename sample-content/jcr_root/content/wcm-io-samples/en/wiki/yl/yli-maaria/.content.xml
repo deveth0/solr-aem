@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Yli-Maaria"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Yli-Maaria" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced stub|auto=yes|date=December 2009}}
+[[Image:Turku, Yli-Maaria.png|thumb|right|Yli-Maaria on a map of Turku.]]
+
+&amp;apos;&amp;apos;&amp;apos;Yli-Maaria&amp;apos;&amp;apos;&amp;apos; ([[Finnish language|Finnish]]; &amp;apos;&amp;apos;Övre S:t Marie&amp;apos;&amp;apos; in [[Finland-Swedish|Swedish]]) is a [[district]] in the [[Maaria-Paattinen]] ward of the city of [[Turku]], in [[Finland]]. It is located to the north of the city, and is a very sparsely populated area. The district was previously part of the municipality of [[Maaria]], which was annexed into Turku in 1967.
+
+The current ({{As of|2004|lc=on}}) population of Yli-Maaria is 2,209, and it is increasing at an annual rate of 3.71%. 32.10% of the district&amp;apos;s population are under 15 years old, while 4.89% are over 65. The district&amp;apos;s [[language|linguistic]] makeup is 97.24% Finnish, 1.49% Swedish, and 1.27% other.
+
+==See also==
+* [[Districts of Turku]]
+* [[Districts of Turku by population]]
+
+{{Turku 9 districts}}
+
+{{Coord|60|33|06|N|22|18|35|E|display=title}}
+
+[[Category:Districts of Turku]]
+
+
+{{WesternFinland-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Quincy-Basse"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Quincy-Basse" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Expand French|date=December 2008|Quincy-Basse}}
+
+{{Infobox French commune
+|name                   = Quincy-Basse
+|region                 = Picardy
+|department             = Aisne
+|arrondissement         = Laon
+|canton                 = Coucy-le-Château-Auffrique
+|INSEE                  = 02632
+|postal code            = 02380
+|mayor                  = Guy Turquin
+|term                   = 2008&amp;amp;ndash;2014
+|intercommunality       = Val de l&amp;apos;Ailette
+|longitude              = 3.3783
+|latitude               = 49.5161
+|elevation m            = 67
+|elevation min m        = 58
+|elevation max m        = 153
+|area km2               = 3.87
+|population             = 53
+|population date        = 2008
+}}
+
+&amp;apos;&amp;apos;&amp;apos; Quincy-Basse &amp;apos;&amp;apos;&amp;apos; is a [[Communes of France|commune]] in the [[Aisne]] [[Departments of France|department]] in [[Picardy]] in northern [[France]].
+
+==Population==
+{{Historical populations
+|align=left
+|1962|58
+|1968|54
+|1975|53
+|1982|59
+|1990|60
+|1999|68
+|2008|53
+}}
+{{clear-left}}
+
+==See also==
+*[[Communes of the Aisne department]]
+
+==References==
+*[http://www.insee.fr/en/home/home_page.asp INSEE]
+{{reflist}}
+
+{{Aisne communes}}
+
+{{DEFAULTSORT:Quincybasse}}
+[[Category:Communes of Aisne]]
+
+{{Laon-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

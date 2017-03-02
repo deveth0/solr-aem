@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Unauthorised arrival"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Unauthorised arrival" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;An &amp;apos;&amp;apos;&amp;apos;unauthorised arrival&amp;apos;&amp;apos;&amp;apos; is a person who has arrived in a [[country]] when they are not a [[citizen]] of that country and does not have a valid [[visa (document)|visa]] or does not satisfy other required conditions for entry to that country.
+
+A person may be described as an unauthorised arrival when they have crossed a [[national border]] with the intention of applying for [[refugee]] status, making them an &amp;apos;&amp;apos;&amp;apos;[[asylum seeker]]&amp;apos;&amp;apos;&amp;apos;. If a person enters a country without authorisation intending to live and work in that country, then they may be, or may become, an [[Illegal immigration|illegal immigrant]].
+
+Under the [[United Nations]] [[Convention Relating to the Status of Refugees]], a person has the right to cross national borders if they are seeking asylum from [[political repression]] or various other forms of persecution.
+
+Per the [[Universal Declaration of Human Rights|UDHR]], &amp;quot;Everyone has the right to leave any country, including his own, and to return to his country.&amp;quot; There are no caveats listed.&amp;lt;ref&amp;gt;[http://www.un.org/en/documents/udhr/ The Universal Declaration of Human Rights] Article 13, Section 2&amp;lt;/ref&amp;gt;
+
+==See also==
+*[[Illegal entry]]
+*[[Asylum shopping]]
+*[[Mandatory detention]]
+*[[Refugee law]]
+*[[Right of asylum]]
+
+==References==
+{{Reflist}}
+
+{{International-law-stub}}
+
+[[Category:Human migration]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

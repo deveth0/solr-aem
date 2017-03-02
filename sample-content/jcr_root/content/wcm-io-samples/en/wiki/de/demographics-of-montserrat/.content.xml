@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Demographics of Montserrat"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Demographics of Montserrat" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;This article is about the [[demographics|demographic]] features of the [[population]] of [[Montserrat]], including [[population density]], [[Ethnic group|ethnicity]], education level, health of the populace, economic status, religious affiliations and other aspects of the population.
+
+== CIA World Factbook demographic statistics ==
+
+The following demographic statistics are from the [[CIA World Factbook]], unless otherwise indicated.
+
+&amp;apos;&amp;apos;&amp;apos;Population:&amp;apos;&amp;apos;&amp;apos;
+8,400 (2002 estimate)
+&amp;lt;br&amp;gt;&amp;apos;&amp;apos;note:&amp;apos;&amp;apos;
+an estimated 8,000 refugees left the island following the resumption of volcanic activity in July 1995; many have returned. Pre-eruption population was 13,000 in 1994.
+
+&amp;apos;&amp;apos;&amp;apos;Age structure:&amp;apos;&amp;apos;&amp;apos;
+&amp;lt;br&amp;gt;&amp;apos;&amp;apos;0-14 years:&amp;apos;&amp;apos;
+23.4% (male 1,062; female 1,041)
+&amp;lt;br&amp;gt;&amp;apos;&amp;apos;15-64 years:&amp;apos;&amp;apos;
+65.3% (male 2,805; female 3,066)
+&amp;lt;br&amp;gt;&amp;apos;&amp;apos;65 years and over:&amp;apos;&amp;apos;
+11.4% (male 537; female 484) (2003 est.)
+
+&amp;apos;&amp;apos;&amp;apos;Median age:&amp;apos;&amp;apos;&amp;apos;
+&amp;lt;br&amp;gt;&amp;apos;&amp;apos;total:&amp;apos;&amp;apos;
+27.8 years
+&amp;lt;br&amp;gt;&amp;apos;&amp;apos;male:&amp;apos;&amp;apos;
+27.7 years
+&amp;lt;br&amp;gt;&amp;apos;&amp;apos;female:&amp;apos;&amp;apos;
+27.9 years (2002)
+
+&amp;apos;&amp;apos;&amp;apos;Population growth rate:&amp;apos;&amp;apos;&amp;apos;
+4.5% (2003 est.)
+
+&amp;apos;&amp;apos;&amp;apos;Birth rate:&amp;apos;&amp;apos;&amp;apos;
+17.57 births/1,000 population (2003 est.)
+
+&amp;apos;&amp;apos;&amp;apos;Death rate:&amp;apos;&amp;apos;&amp;apos;
+7.34 deaths/1,000 population (2003 est.)
+
+&amp;apos;&amp;apos;&amp;apos;Net migration rate:&amp;apos;&amp;apos;&amp;apos;
+195.35 migrant(s)/1,000 population (2000 est.)
+
+&amp;apos;&amp;apos;&amp;apos;Sex ratio:&amp;apos;&amp;apos;&amp;apos;
+&amp;lt;br&amp;gt;&amp;apos;&amp;apos;at birth:&amp;apos;&amp;apos;
+1.05 male(s)/female
+&amp;lt;br&amp;gt;&amp;apos;&amp;apos;under 15 years:&amp;apos;&amp;apos;
+1.02 male(s)/female
+&amp;lt;br&amp;gt;&amp;apos;&amp;apos;15-64 years:&amp;apos;&amp;apos;
+0.91 male(s)/female
+&amp;lt;br&amp;gt;&amp;apos;&amp;apos;65 years and over:&amp;apos;&amp;apos;
+1.11 male(s)/female
+&amp;lt;br&amp;gt;&amp;apos;&amp;apos;total population:&amp;apos;&amp;apos;
+0.96 male(s)/female (2000 est.)
+
+&amp;apos;&amp;apos;&amp;apos;Infant mortality rate:&amp;apos;&amp;apos;&amp;apos;
+&amp;lt;br&amp;gt;&amp;apos;&amp;apos;total:&amp;apos;&amp;apos;
+7.77 deaths/1,000 live births (2003 est.)
+&amp;lt;br&amp;gt;&amp;apos;&amp;apos;female:&amp;apos;&amp;apos;
+6.43 deaths/1,000 live births
+&amp;lt;br&amp;gt;&amp;apos;&amp;apos;male:&amp;apos;&amp;apos;
+9.05 deaths/1,000 live births
+
+&amp;apos;&amp;apos;&amp;apos;Life expectancy at birth:&amp;apos;&amp;apos;&amp;apos;
+&amp;lt;br&amp;gt;&amp;apos;&amp;apos;total population:&amp;apos;&amp;apos;
+78.36 years
+&amp;lt;br&amp;gt;&amp;apos;&amp;apos;male:&amp;apos;&amp;apos;
+76.24 years
+&amp;lt;br&amp;gt;&amp;apos;&amp;apos;female:&amp;apos;&amp;apos;
+80.59 years (2003 est.)
+
+&amp;apos;&amp;apos;&amp;apos;Total fertility rate:&amp;apos;&amp;apos;&amp;apos;
+1.8 children born/woman (2003 est.)
+
+&amp;apos;&amp;apos;&amp;apos;HIV/AIDS - adult prevalence rate:&amp;apos;&amp;apos;&amp;apos;
+NA%
+
+&amp;apos;&amp;apos;&amp;apos;HIV/AIDS - people living with HIV/AIDS:&amp;apos;&amp;apos;&amp;apos;
+NA
+
+&amp;apos;&amp;apos;&amp;apos;HIV/AIDS - deaths:&amp;apos;&amp;apos;&amp;apos;
+NA
+
+&amp;apos;&amp;apos;&amp;apos;Nationality:&amp;apos;&amp;apos;&amp;apos;
+&amp;lt;br&amp;gt;&amp;apos;&amp;apos;noun:&amp;apos;&amp;apos;
+Montserratian(s)
+&amp;lt;br&amp;gt;&amp;apos;&amp;apos;adjective:&amp;apos;&amp;apos;
+Montserratian
+
+&amp;apos;&amp;apos;&amp;apos;Ethnic groups:&amp;apos;&amp;apos;&amp;apos;
+black, white - mainly of British, Irish and African descent
+
+&amp;apos;&amp;apos;&amp;apos;Religions:&amp;apos;&amp;apos;&amp;apos;
+Anglican, Methodist, Roman Catholic, Pentecostal, Seventh-Day Adventist, other Christian denominations
+
+&amp;apos;&amp;apos;&amp;apos;Languages:&amp;apos;&amp;apos;&amp;apos;
+English
+
+&amp;apos;&amp;apos;&amp;apos;Literacy:&amp;apos;&amp;apos;&amp;apos;
+&amp;lt;br&amp;gt;&amp;apos;&amp;apos;definition:&amp;apos;&amp;apos;
+age 15 and over has ever attended school
+&amp;lt;br&amp;gt;&amp;apos;&amp;apos;total population:&amp;apos;&amp;apos;
+97%
+&amp;lt;br&amp;gt;&amp;apos;&amp;apos;male:&amp;apos;&amp;apos;
+97%
+&amp;lt;br&amp;gt;&amp;apos;&amp;apos;female:&amp;apos;&amp;apos;
+97% (1970 est.)
+
+:&amp;apos;&amp;apos;See also :&amp;apos;&amp;apos; [[Montserrat]]:&amp;apos;&amp;apos; [[Montserratian British]]
+
+==Source==
+*[https://www.cia.gov/library/publications/the-world-factbook/geos/mh.html CIA World Factbook]
+
+{{Navboxes
+|list =
+{{British peoples |state=autocollapse}}
+{{North America topic|Demographics of}}
+}}
+
+[[Category:Montserratian society]]
+[[Category:Geography of Montserrat]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

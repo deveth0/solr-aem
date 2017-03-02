@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="AO-40"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="AO-40" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{For|the US Navy warship|USS Lackawanna (AO-40)}}
+&amp;lt;!--  Commented out because image was deleted: [[Image:AO-40_color.jpg|right|thumb|200px|AO-40, AMSAT]] --&amp;gt;
+&amp;apos;&amp;apos;&amp;apos;AO-40&amp;apos;&amp;apos;&amp;apos; is the on-orbit name designation of an [[amateur radio satellite]] of the [[OSCAR]] series; formerly known as &amp;apos;&amp;apos;&amp;apos;Phase 3D&amp;apos;&amp;apos;&amp;apos;, built by [[AMSAT]].
+
+The Project Manager was Peter Guelzow (amateur radio [[call sign]] DB2OS) of AMSAT [[Germany]] (AMSAT-DL).
+
+== History ==
+=== Design, construction and launch ===
+
+Following the failure of the Phase 3A launcher, design studies were undertaken and construction started for two successor satellites, that became AO-10 (Phase 3B) and AO-13 (Phase 3C) respectively.
+
+After the launch of AO-13, design commenced for a Phase 4 satellite. This idea was later shelved, and design of Phase 3D (on-orbit name: AO-40) was undertaken under direction of the project team based in Germany, involving [[amateur radio]] payloads from  many countries in [[Europe]].
+
+Assembly was done at AMSAT&amp;apos;s Spacecraft Integration Facility in the &amp;apos;Free Trade Zone Building&amp;apos; at the Orlando International Airport, [[Orlando, Florida]] from 1994 to 2000.
+
+It was launched on 16 November 2000, on an [[Ariane 5]] launch vehicle from [[Kourou]], in [[French Guiana]], and reported cost was 4.5 Million USD.
+
+=== Operational problems ===
+
+On 13 December 2000 at 11:23 [[Coordinated Universal Time|UTC]], transmissions from AO-40 ceased during the exercising of its 400 [[newton (unit)|newton]] motor. The Command Team were able to infer that there had been an explosion caused by pressure in the propellant pipes caused by malfunction of the control valves. A protective cap that was supposed to be removed from the motor before launch, was inadvertently left in place. When the motor was fired, pressure built up where it shouldn&amp;apos;t, and destructive failure occurred. The loss of the motor caused AO-40 to be left in an equatorial orbit that the satellite was not designed for.
+
+As a result of this incident several pieces of radio equipment no longer functioned or were not able to be commissioned. Following strenuous efforts by the Command Team, signals were restored on 25 December 2000 at 2145 UTC when Command Team member Ian Ashley (amateur radio call sign ZL1AOX) of [[New Zealand]] successfully sent a &amp;apos;reset&amp;apos; signal to the satellite. Onboard cameras were used to establish the attitude of the satellite, and the [[magnetorquer]] system was used to [[spin stabilization|spin-stabilize]] the satellite.
+
+During June 2001, gas from the arcject motor was vented to raise and stabilize the [[orbit]] of the satellite. The spacecraft got a lot higher than expected. Subsequently, the communication packages and cameras were gradually re-activated.
+
+=== Failure ===
+
+On 25 January 2004, [[telemetry]] from the main battery was observed to go to an extremely low voltage by Stacey Mills (amateur radio call sign W4SM), a member of the Command Team. This caused the onboard Internal Housekeeping Unit (IHU) [[computer]] to cut power to the [[transponder]] payloads. Just prior to the loss of control of the satellite, the auxiliary battery came online in parallel with the main battery. When the main battery failed, it effectively short-circuited the auxiliary battery, killing the spacecraft. Many attempts were made to disconnect the main battery, but insufficient voltage was available to drive the relays. One day an open-circuit failure may occur in the main battery, in which case the spacecraft may come to life again. Though the command team believe that the main battery failure was probably a consequence of damage done during the event, and it is likely that similar damage was done to the auxiliary battery, making an eventual recovery of AO-40 unlikely.
+
+On 9 March 2004, Colin Hurst (amateur radio call sign VK5HI) of [[Australia]], a member of the command team, heard a change in the level of radio noise at the expected [[beacon]] [[frequency]] during the period 0310 to 0320 UTC (orbit 1541).
+
+All telemetry captured by the command team, and its network of helpers, is archived on the web at the [[AMSAT]] website.
+
+== External links ==
+*[http://www.amsat-dl.org/journal/adlj-p3d.htm AO-40 status information (AMSAT Germany)] - in German and English
+{{Use dmy dates|date=March 2012}}
+
+[[Category:Amateur radio satellites]]
+[[Category:Artificial satellites orbiting Earth]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

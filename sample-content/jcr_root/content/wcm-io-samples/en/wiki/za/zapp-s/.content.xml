@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Zapp&#x27;s"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Zapp&#x27;s" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox Company
+| company_name = Zapp&amp;apos;s
+| company_logo = [[Image:Zappslogo.png|Zapp&amp;apos;s logo]]
+| company_type = Private
+| genre =
+| foundation = &amp;lt;!-- this parameter modifies &amp;quot;Founded&amp;quot; --&amp;gt;1985
+| founder = Ron Zappe
+| location_city =  [[Gramercy, Louisiana]]
+| location_country = [[United States]]
+| location = &amp;lt;!-- this parameter modifies &amp;quot;Headquarters&amp;quot; --&amp;gt;
+| origins =Cajun
+| key_people =
+| area_served =
+| industry = Food
+| products =
+| services =
+| revenue =
+| operating_income =
+| net_income =
+| num_employees =
+| parent = [[Utz Quality Foods]]
+| divisions =
+| subsid =
+| owner =
+| company_slogan = Food for the fun of it!
+| homepage = [http://www.zapps.com/ Zapp&amp;apos;s Potato Chips]
+| dissolved =
+| footnotes =
+}}
+&amp;apos;&amp;apos;&amp;apos;Zapp&amp;apos;s&amp;apos;&amp;apos;&amp;apos; is a brand of [[potato chip]] made in the [[United States]]. The chips are cooked and packaged in [[Gramercy, Louisiana]]. The chips are [[kettle]]-cooked in [[peanut oil]] (instead of [[vegetable oil]], which many other companies use). Zapp&amp;apos;s market themselves with their [[Cajun]] heritage,&amp;lt;ref&amp;gt;Donald J. Boudreaux, [http://www.pittsburghlive.com/x/pittsburghtrib/opinion/columnists/boudreaux/s_314030.html &amp;quot;A chip off the energy industry block&amp;quot;], &amp;apos;&amp;apos;[[Pittsburgh Tribune-Review]]&amp;apos;&amp;apos;, March 17, 2005.&amp;lt;/ref&amp;gt; using names such as &amp;quot;Spicy Cajun Crawtator&amp;quot;, &amp;quot;Sour Cream and Creole Onion&amp;quot; and &amp;quot;Cajun Dill Gator-tators&amp;quot;. Others, in addition to the &amp;quot;Regular Flavored&amp;quot; include &amp;quot;Hot N&amp;apos; Hotter Jalapeño&amp;quot;&amp;lt;ref&amp;gt;Lisa Belkin, [http://www.nytimes.com/1988/06/01/garden/at-the-nation-s-table-houston.html At the Nation&amp;apos;s Table: Houston&amp;quot;], &amp;apos;&amp;apos;[[New York Times]]&amp;apos;&amp;apos;, June 1, 1988.&amp;lt;/ref&amp;gt;  and &amp;quot;Mesquite BBQ&amp;quot;.  They have also marketed numerous chips such as a limited edition [[Mardi Gras]] chip.
+
+The company was founded by Ron Zappe, who graduated from [[Texas A&amp;amp;M University]] with a degree in industrial engineering and became a distributor of pumps and other oil-field equipment. His four companies went bankrupt during the [[1980s oil glut|1980s oil bust]] and he moved from Houston to Louisiana and started a potato chip business.&amp;lt;ref&amp;gt;Mary Fonseca, [http://findarticles.com/p/articles/mi_m1154/is_n5_v78/ai_8980531/ &amp;quot;Cajun crunchies - Ron Zappe&amp;apos;s potato chip business&amp;quot;], &amp;apos;&amp;apos;Nation&amp;apos;s Business&amp;apos;&amp;apos;, May 1990.&amp;lt;/ref&amp;gt;  (Zappe later received national attention for his [[United States presidential election, 1988|1988]] campaign appearance on behalf of Republican vice presidential candidate [[Dan Quayle]], crediting a jobs program co-created by Quayle with enabling him to start his factory in Gramercy.&amp;lt;ref&amp;gt;Bob Secter, [http://articles.latimes.com/1988-09-01/news/mn-4585_1_dan-quayle &amp;quot;Strategists Craft Positive Image: Quayle Campaign Turns From Survival to Offense&amp;quot;], &amp;apos;&amp;apos;[[Los Angeles Times]]&amp;apos;&amp;apos;, September 1, 1988.&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;Michael Kranish, [http://pqasb.pqarchiver.com/boston/access/59665289.html?dids=59665289:59665289&amp;amp;FMT=ABS&amp;amp;FMTS=ABS:FT&amp;amp;type=current&amp;amp;date=Sep+11%2C+1988&amp;amp;author=Michael+Kranish%2C+Globe+Staff&amp;amp;pub=Boston+Globe+%28pre-1997+Fulltext%29&amp;amp;desc=BELEAGUERED+JOB+PROGRAM+COULD+BE+THORN+IN+QUAYLE+CAMP&amp;amp;pqatl=google &amp;quot;Beleaguered Job Program Could Be Thorn In Quayle Camp&amp;quot;], &amp;apos;&amp;apos;[[Boston Globe]]&amp;apos;&amp;apos;, September 11, 1988 (pay site).&amp;lt;/ref&amp;gt;)  Zappe&amp;apos;s first creation, the Cajun Crawtator, was introduced in 1985 as the nation&amp;apos;s first spicy Cajun chip. Zapp&amp;apos;s &amp;quot;Tiger Tators&amp;quot; were the first food product licensed by [[Louisiana State University]], and it also sold &amp;quot;[[Who Dat?]]” chips in honor of the [[New Orleans Saints]]. In 1993 Zapp&amp;apos;s acquired the Dirty Chip Company in Memphis, TN which manufactures Dirty Chips brand kettle chips. In 2006 Zapp&amp;apos;s acquired the California Chip Company in Oxnard, CA which manufactures California Chips brand potato chips. Zappe appeared on &amp;apos;&amp;apos;[[The Oprah Winfrey Show]]&amp;apos;&amp;apos; in 1997, and the chips were profiled in national publications such as &amp;apos;&amp;apos;[[People (magazine)|People]]&amp;apos;&amp;apos; and &amp;apos;&amp;apos;[[The Wall Street Journal]]&amp;apos;&amp;apos;.
+
+Zappe died in [[Houston, Texas]] on June 1, 2010 at the age of 67.&amp;lt;ref&amp;gt;[http://www.2theadvocate.com/news/95368104.html &amp;quot;Zapp&amp;apos;s Potato Chips founder dies&amp;quot;], &amp;apos;&amp;apos;[[The Advocate (Louisiana)|The Advocate]]&amp;apos;&amp;apos; (Baton Rouge, La.), June 1, 2010.&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;Anna Brown, [http://www.wbrz.com/news/zapps-creator-owner-dies-at-age-67/ &amp;quot;Zapp&amp;apos;s creator, owner dies at age 67&amp;quot;], [[WBRZ-TV]], June 1, 2010.&amp;lt;/ref&amp;gt;  In January 2011, it was reported that the company would be sold to [[Utz Quality Foods]] of [[Hanover, Pennsylvania]].&amp;lt;ref&amp;gt;[http://www.nola.com/business/index.ssf/2011/01/zapps_being_sold_to_pennsylvan.html &amp;quot;Zapp&amp;apos;s of Gramercy being sold to Pennsylvania company&amp;quot;], [[Associated Press|AP]] in &amp;apos;&amp;apos;[[Times-Picayune]]&amp;apos;&amp;apos;, January 7, 2011.&amp;lt;/ref&amp;gt; The sale to Utz was completed in April 2011.
+
+==References==
+{{Reflist}}
+
+==External links==
+*[http://www.zapps.com Zapp&amp;apos;s.com]
+http://www.hattiesburgamerican.com/viewart/20130308/NEWS01/130308018/Former-Zapp-s-execs-entering-tortilla-business
+
+[[Category:Brand name snack foods]]
+[[Category:Snack companies of the United States]]
+[[Category:Brand name potato chips and crisps]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

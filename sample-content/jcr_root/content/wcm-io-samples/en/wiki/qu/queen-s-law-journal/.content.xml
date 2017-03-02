@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Queen&#x27;s Law Journal"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Queen&#x27;s Law Journal" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox Journal
+| cover =
+| discipline  = [[Law]]
+| language  = English, French
+| abbreviated_title = [[noeffect]]
+| abbreviation  =
+| publisher (country) = [[noeffect]]
+| publisher = [[Queen&amp;apos;s University]]
+| country = [[Canada]]
+| publication_history = [[noeffect]]
+| history = 1971-Present, Queen&amp;apos;s Intramural Law Journal: 1968-1971
+| website = http://queensu.ca/lawjournal/index.html
+| ISSN  = 0316-778X
+}}
+
+The &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Queen&amp;apos;s Law Journal&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is a Canadian peer-reviewed law review. The &amp;apos;&amp;apos;Journal&amp;apos;&amp;apos; is published by [[Queen&amp;apos;s University]] in [[Kingston, Ontario]], [[Canada]]
+
+The &amp;apos;&amp;apos;Journal&amp;apos;&amp;apos; was established in 1968 as the &amp;apos;&amp;apos;Queen&amp;apos;s Intramural Law Journal&amp;apos;&amp;apos;. The purpose of this periodical was to publish a selection of the best work written by law students at Queen&amp;apos;s. In 1971, the title was changed to the &amp;apos;&amp;apos;Queen&amp;apos;s Law Journal&amp;apos;&amp;apos;, reflecting a change in editorial policy. While it continued to publish student work, the Journal began seeking contributions from academics and other members of the legal profession.
+
+By the mid-1970s, the &amp;apos;&amp;apos;Journal&amp;apos;&amp;apos; had evolved into its present form—a vehicle for scholarship by legal academics, practitioners, and law students. In time, the &amp;apos;&amp;apos;Journal&amp;apos;&amp;apos; became a fully refereed publication. All submissions that pass the internal review process are subject to a double-blind external assessment by at least two experts in the relevant subject area.
+
+
+
+==External Links==
+[http://queensu.ca/lawjournal/index.html Queen&amp;apos;s Law Journal Website]
+
+[[Category:Canadian law journals]]
+[[Category:Queen&amp;apos;s University]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

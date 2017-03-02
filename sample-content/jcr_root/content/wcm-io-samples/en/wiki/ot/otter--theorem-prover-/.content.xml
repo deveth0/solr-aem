@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Otter (theorem prover)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Otter (theorem prover)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{ref improve|date=March 2012}}
+&amp;apos;&amp;apos;&amp;apos;Otter&amp;apos;&amp;apos;&amp;apos; is an [[Automated theorem proving|automated theorem prover]] developed by [[William McCune]] at [[Argonne National Laboratory]] in Illinois. Otter was the first widely distributed, high-performance theorem prover for [[first-order logic]], and it pioneered a number of important implementation techniques. &amp;apos;&amp;apos;Otter&amp;apos;&amp;apos; is an acronym for &amp;apos;&amp;apos;Organized Techniques for Theorem-proving and Effective Research&amp;apos;&amp;apos;.
+
+Otter has been very stable for a number of years but is no longer actively developed. As of November 2008, the last changelog entry was dated 14 September 2004. A successor to Otter is [[Prover9]].
+
+The software is in the [[public domain]]. The [[University of Chicago]] has declined to assert its copyrights in this software, and it may be used, modified, and redistributed (with or without modifications) by the public. However, &amp;quot;NEITHER THE UNITED STATES GOVERNMENT NOR ANY AGENCY THEREOF [...] REPRESENTS THAT ITS USE WOULD NOT INFRINGE PRIVATELY OWNED RIGHTS.&amp;quot;&amp;lt;ref&amp;gt;File name Legal in the [http://www.cs.unm.edu/~mccune/otter/otter-3.3f.tar.gz tarball]&amp;lt;/ref&amp;gt;
+
+According to Wos and Pieper, OTTER is written in approximately 28,000 lines of C programming language.
+
+== References ==
+{{refs}}
+* {{cite journal
+| first=William
+| last=McCune
+| coauthors=Larry Wos
+| title=Otter: The CADE-13 Competition Incarnations
+| journal=Journal of Automated Reasoning
+| volume=18
+| issue=2
+| pages=211–220
+| year=1997
+| doi=10.1023/A:1005843632307
+}}
+* Kalman, John Arnold. &amp;lt;cite&amp;gt;Automated Reasoning with OTTER&amp;lt;/cite&amp;gt;. ISBN 1-58949-004-5
+
+== See also ==
+
+* [[Models And Counter-Examples|MACE]]
+
+== External links ==
+* [http://www.cs.unm.edu/~mccune/otter/ Otter home page]
+* [http://www.cs.unm.edu/~mccune/prover9/ Prover9 home page]
+
+{{logic-stub}}
+
+[[Category:Free theorem provers]]
+[[Category:Public domain software]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

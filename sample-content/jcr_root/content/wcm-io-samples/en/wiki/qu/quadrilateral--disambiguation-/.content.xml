@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Quadrilateral (disambiguation)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Quadrilateral (disambiguation)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Wiktionarypar|quadrilateral}}
+The word &amp;apos;&amp;apos;&amp;apos;quadrilateral&amp;apos;&amp;apos;&amp;apos; can refer to:
+
+* [[Quadrilateral]], in geometry, a polygon with 4 sides
+* [[Complete quadrilateral]], in projective geometry, a configuration with 4 lines and 6 points
+* [[Chicago-Lambeth Quadrilateral]], a four-point statement of fundamental doctrine, in the Anglican Communion
+* [[Wesleyan Quadrilateral]], the four sources of doctrine in the Methodist Church
+* In history and geography
+**[[Quadrilatero]], in the Revolutions of 1848, in the Italian states - an area within the group of fortresses at Mantua, Verona, Peschiera and Legnago
+**In the [[Battle of the Somme]] in World War I, the Quadrilateral was a German redoubt near Ginchy
+**[[Southern Dobruja]], which has passed from Bulgaria to Romania in 1913, and back to Bulgaria in World War II
+* [[Golden Quadrilateral]], a network of highways in India
+* [[Golden Quadrilateral (Indian Railways)]]
+* [[Quadrilateral Security Dialogue]], a strategic alliance of the United States, Japan, Australia and India within Asia.
+* [[Quadrilateral Treaty]], a pact between the Argentine provinces of Buenos Aires, Santa Fe, Entre Ríos and Corrientes, signed on 25 January 1822.
+
+See also: [[Quadriliteral]]
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

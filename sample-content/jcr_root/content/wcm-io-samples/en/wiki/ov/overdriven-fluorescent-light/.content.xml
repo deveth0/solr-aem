@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Overdriven fluorescent light"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Overdriven fluorescent light" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Orphan|date=February 2009}}
+
+Overdriving a [[fluorescent lamp]] is a method of getting more light from each tube than is obtained under rated conditions.
+&amp;apos;&amp;apos;&amp;apos;ODNO&amp;apos;&amp;apos;&amp;apos; (Overdriven Normal Output) fluorescent tubes are generally used when there isn&amp;apos;t enough room to put in more bulbs to increase the light.  The method is effective, but generates some additional issues. This technique has become popular among aquatic gardeners as a cost effective way to add more light to their aquariums.  While power compact fluorescent lights cost upwards of $60–100 in the US, a twin bulb overdriven lamp can be set up for $30.
+
+Overdriving is done by rewiring lamp fixtures to increase lamp current; however, lamp life is reduced, and modifications of factory lamp wiring void all safety approvals such as [[Underwriters&amp;apos; Laboratories|UL]] or [[Canadian Standards Association|CSA]].
+
+==See also==
+[[Fluorescent lamp]]
+
+==External links==
+* [http://web.archive.org/web/20091026223708/http://geocities.com/teeley2/overdrv1.html  Overdriving Fluorescent Lights] by Jim Haworth - This site explains in depth the theory and methods for overdriving fluorescent lights.
+* [http://web.archive.org/web/20091026223708/http://geocities.com/teeley2/overdrv1.html  Discussion with illustrated wiring diagrams]
+* [http://www.plantedtank.net/forums/lighting/21257-odno-measurements-power-consumption-vs-light.html Performance data]
+* [http://www.practicalfishkeeping.co.uk/content.php?sid=2769 Why overdriving could burn down your home Why overdriving could burn down your home, Barrat, M, Practical Fishkeeping magazine]
+
+{{DEFAULTSORT:Overdriven Fluorescent Light}}
+[[Category:Gas discharge lamps]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

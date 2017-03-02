@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Lierneux"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Lierneux" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox Belgium Municipality
+|name=Lierneux
+|picture=Lierneux JPG02.jpg
+|picture-legend=
+|map=Lierneux Liège Belgium Map.png
+|map-legend=Location of Lierneux in the province of Liège
+|arms=
+|flag=
+|region={{BE-REG-WAL}}
+|community={{BE-FR}}
+|province={{BE-PROV-LG}}
+|arrondissement=[[Arrondissement of Verviers|Verviers]]
+|nis=63045
+|pyramid-date=
+|0-19=
+|20-64=
+|65=
+|foreigners=
+|foreigners-date=
+|mayor=Louis Gaiotti
+|majority=
+|postal-codes=4990
+|telephone-area=080
+|web=[http://www.lierneux.be/ www.lierneux.be]
+|lat_deg=50
+|lat_min=17
+|lon_deg=05
+|lon_min=48
+}}
+&amp;apos;&amp;apos;&amp;apos;Lierneux&amp;apos;&amp;apos;&amp;apos; is a [[municipality]] of [[Belgium]]. It lies in the country&amp;apos;s [[Wallonia|Walloon Region]] and [[Liege (province)|Province of Liege]].  On January 1, 2006 Lierneux had a total population of 3,367. The total area is 92.08 km² which gives a [[population density]] of 37 inhabitants per km². Lierneux is known for its psychiatric hospital CHS l&amp;apos;Accueil.
+
+==References==
+{{reflist}}
+
+{{Liege municipalities}}
+
+[[Category:Municipalities of Liège (province)]]
+
+{{Liege-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

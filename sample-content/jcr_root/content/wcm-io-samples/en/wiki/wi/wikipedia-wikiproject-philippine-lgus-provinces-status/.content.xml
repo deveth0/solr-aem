@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:WikiProject Philippine LGUs/Provinces status"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:WikiProject Philippine LGUs/Provinces status" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;This page lists the status of provincial articles to be formatted as part of the [[Wikipedia:WikiProject Philippine LGUs|WikiProject Philippine LGUs]].
+
+==Almost OK==
+
+*[[Biliran]]: Needs more People and Culture info, and climate.
+
+==Started==
+
+*[[Albay]]: No climate. Needs more people and culture. History section needs to be rewritten to be chronological.
+*[[Antique, Philippines|Antique]]: No People and Culture, Economy, Physical Geography, and most History.
+*[[Apayao]]: No People and Culture, Economy, Physical Geography
+*[[Batangas]]: No People and Culture, Economy, Physical Geography, History, Links.
+*[[Benguet]]: No Physical Geography
+*[[Bohol]]: No Culture and Economy.
+*[[Bulacan]]: No History.
+*[[Camarines Sur]]: No Culture, Economy, History.
+*[[Cavite]]: No People and Culture, Economy, History.
+*[[Cebu]]: No People and Culture, Economy, Physical Geography.
+*[[Davao province|Davao]]: No People and Culture, Physical Geography. Needs more history and tourist attractions.
+*[[Laguna province|Laguna]]: No People and Culture, Economy; little History and Links.
+*[[Marinduque]]: No People and Culture, Economy, History and Links.
+*[[Palawan]]: No People and Culture, Economy, Physical Geography, History.
+*[[Pangasinan]]: No People and Culture, Economy, Physical Geography, some History
+*[[Quezon]]: No People and Culture, Links.
+*[[Rizal]]: No People and Culture, Economy, Physical Geography.
+*[[Romblon]]: No People and Culture, Economy, Physical Geography.
+*[[Siquijor]]: No Culture, and Economy.
+*[[Southern Leyte]]: No People and Culture, Economy, Physical Geography, History, Links.
+
+==No seal==
+*[[Sarangani]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="USS Nebraska"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="USS Nebraska" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Italic title prefixed|3}}
+&amp;apos;&amp;apos;&amp;apos;USS &amp;apos;&amp;apos;Nebraska&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+*{{USS|Nebraska|1869}} was the name given to the never commissioned &amp;apos;&amp;apos;Shakamaxon&amp;apos;&amp;apos; in 1869
+
+*{{USS|Nebraska|BB-14}} was a battleship from 1904 to 1923
+
+*{{USS|Nebraska|SSBN-739}} is an {{sclass-|Ohio|submarine|1}} launched in 1992 and currently on active duty
+
+{{Shipindex}}
+
+{{DEFAULTSORT:Nebraska}}
+[[Category:United States Navy ship names]]
+[[Category:United States Navy Nebraska-related ships]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

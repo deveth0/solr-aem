@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Lakeside Beach State Park"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Lakeside Beach State Park" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Image:Lakeside Beach State Park.jpg|220px|right|thumb|View of Lake Ontario along the shore of Lakeside Beach State Park]]
+
+&amp;apos;&amp;apos;&amp;apos;Lakeside Beach State Park&amp;apos;&amp;apos;&amp;apos; is a [[New York]] [[state park]], located in western New York in the [[Carlton, New York|Town of Carlton]] in [[Orleans County, New York|Orleans County]] on the shore of [[Lake Ontario]].  The park may be accessed from Route 18.  The park includes over one hundred campsites with [[electricity|electrical hook-ups]], as well as a campground store. The park, at the end of 2009, installed a popular disc golf course, which starts near the back of the park, with several of the holes playing along the Lake Ontario shoreline. This set up gives many disc golfers the feel of a Scottish links course.
+
+The park is also the western terminus of the [[Lake Ontario State Parkway]].
+
+==See also==
+* [[List of New York state parks]]
+
+==External links==
+* [http://nysparks.state.ny.us/parks/info.asp?parkID=8 New York State Parks: Lakeside Beach State Park]
+
+{{coord|43.367|-78.242|type:city_region:US|format=dms|display=title}}
+
+{{Protected Areas of New York}}
+
+[[Category:State parks of New York]]
+[[Category:Disc golf courses]]
+[[Category:Parks in Orleans County, New York]]
+
+
+{{OrleansCountyNY-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

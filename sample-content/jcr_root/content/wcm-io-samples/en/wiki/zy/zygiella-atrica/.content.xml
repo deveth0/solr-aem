@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Zygiella atrica"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Zygiella atrica" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{italic title}}
+{{Unreferenced|date= October 2009}}
+{{Taxobox
+| name               = &amp;apos;&amp;apos;Zygiella atrica&amp;apos;&amp;apos;
+| image              = Zygiella.atrica.top.6927.jpg
+| image_caption      =
+| image_width        = 250px
+| regnum             = [[Animal]]ia
+| phylum             = [[Arthropoda]]
+| classis            = [[Arachnida]]
+| ordo               = [[Araneae]]
+| familia            = [[Araneidae]]
+| genus              = &amp;apos;&amp;apos;[[Zygiella]]&amp;apos;&amp;apos;
+| species            = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Z. atrica&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+| binomial           = &amp;apos;&amp;apos;Zygiella atrica&amp;apos;&amp;apos;
+| binomial_authority = ([[Carl Ludwig Koch|C. L. Koch]]), 1845
+| range_map          = Distribution.zygiella.atrica.1.png
+| range_map_width    = 250px
+}}
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Zygiella atrica&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;, like other &amp;apos;&amp;apos;Zygiella&amp;apos;&amp;apos; species, builds an [[spider web|orb web]] with two missing sectors, and a signalling thread in the center of those, leading to its hideout, whereas young spiders build a complete web.
+
+Unlike &amp;apos;&amp;apos;[[Zygiella x-notata|Z. x-notata]]&amp;apos;&amp;apos;, this spider is found away from houses, on bushes and rocky sites away from human habitation. It is also more brown.
+[[Image:Zygiella web.jpg|thumb|left|A typical web of a &amp;apos;&amp;apos;Zygiella&amp;apos;&amp;apos; spider.]]
+{{commons}}
+
+{{DEFAULTSORT:Zygiella Atrica}}
+[[Category:Araneidae]]
+[[Category:Spiders of Europe]]
+[[Category:Animals described in 1845]]
+
+{{Araneidae-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

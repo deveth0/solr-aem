@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="XML Base"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="XML Base" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;XML Base&amp;apos;&amp;apos;&amp;apos; is a [[W3C recommendation|World Wide Web Consortium recommended]] facility for defining base [[Uniform Resource Identifier|URI]]s for parts of [[XML]] documents.
+
+XML Base recommendation was adopted on 2001-06-27&amp;lt;ref name=&amp;quot;timelinehistory&amp;quot;&amp;gt;{{cite web|url=http://www.dblab.ntua.gr/~bikakis/XML%20and%20Semantic%20Web%20W3C%20Standards%20Timeline-History.pdf |title=XML and Semantic Web W3C Standards Timeline
+|}}&amp;lt;/ref&amp;gt;.
+
+The attribute xml:base may be inserted in XML documents to specify a base URI other than the base URI of the document or external entity. The value of this attribute is interpreted as a URI Reference as defined in RFC 3986 [IETF RFC 3986].  It serves the function described in section 5.1.1 of RFC3986, establishing the base URI (or IRI) for resolving any relative references found within the effective scope of the xml:base attribute.
+
+In namespace-aware XML processors, the &amp;quot;xml&amp;quot; prefix is bound to the namespace name http://www.w3.org/XML/1998/namespace as described in Namespaces in XML [XML Names]. Note that xml:base can be still used by non-namespace-aware processors.
+
+
+
+==References==
+{{Reflist}}
+
+==External links==
+* [http://www.w3.org/TR/xmlbase/ XML Base W3C Recommendation]
+
+{{standard-stub}}
+{{W3C Standards}}
+
+{{DEFAULTSORT:Xml Base}}
+[[Category:XML]]
+[[Category:World Wide Web Consortium standards]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

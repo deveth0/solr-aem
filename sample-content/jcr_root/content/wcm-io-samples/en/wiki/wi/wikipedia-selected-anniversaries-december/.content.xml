@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:Selected anniversaries/December"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:Selected anniversaries/December" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{SelectedAnnivBar}}
+----
+&amp;lt;div align=&amp;quot;center&amp;quot;&amp;gt;{{DecemberSelAnniv}}&amp;lt;/div&amp;gt;
+----
+{{Wikipedia:Selected anniversaries/Date|December 1}}
+{{Wikipedia:Selected anniversaries/Date|December 2}}
+{{Wikipedia:Selected anniversaries/Date|December 3}}
+{{Wikipedia:Selected anniversaries/Date|December 4}}
+{{Wikipedia:Selected anniversaries/Date|December 5}}
+{{Wikipedia:Selected anniversaries/Date|December 6}}
+{{Wikipedia:Selected anniversaries/Date|December 7}}
+{{Wikipedia:Selected anniversaries/Date|December 8}}
+{{Wikipedia:Selected anniversaries/Date|December 9}}
+{{Wikipedia:Selected anniversaries/Date|December 10}}
+{{Wikipedia:Selected anniversaries/Date|December 11}}
+{{Wikipedia:Selected anniversaries/Date|December 12}}
+{{Wikipedia:Selected anniversaries/Date|December 13}}
+{{Wikipedia:Selected anniversaries/Date|December 14}}
+{{Wikipedia:Selected anniversaries/Date|December 15}}
+{{Wikipedia:Selected anniversaries/Date|December 16}}
+{{Wikipedia:Selected anniversaries/Date|December 17}}
+{{Wikipedia:Selected anniversaries/Date|December 18}}
+{{Wikipedia:Selected anniversaries/Date|December 19}}
+{{Wikipedia:Selected anniversaries/Date|December 20}}
+{{Wikipedia:Selected anniversaries/Date|December 21}}
+{{Wikipedia:Selected anniversaries/Date|December 22}}
+{{Wikipedia:Selected anniversaries/Date|December 23}}
+{{Wikipedia:Selected anniversaries/Date|December 24}}
+{{Wikipedia:Selected anniversaries/Date|December 25}}
+{{Wikipedia:Selected anniversaries/Date|December 26}}
+{{Wikipedia:Selected anniversaries/Date|December 27}}
+{{Wikipedia:Selected anniversaries/Date|December 28}}
+{{Wikipedia:Selected anniversaries/Date|December 29}}
+{{Wikipedia:Selected anniversaries/Date|December 30}}
+{{Wikipedia:Selected anniversaries/Date|December 31}}
+
+{{SelectedAnnivBar}}
+
+[[Category:Selected anniversaries|012]]
+
+&amp;lt;!--[[lv:Vikipēdija:Izmeklēti notikumi/Decembris]]--&amp;gt;&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

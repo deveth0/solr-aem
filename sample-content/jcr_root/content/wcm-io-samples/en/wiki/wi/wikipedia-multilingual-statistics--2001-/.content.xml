@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:Multilingual statistics (2001)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:Multilingual statistics (2001)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Wikipedia:Multilingual statistics (archive header)}}
+
+=== Article count, monthly totals ===
+The table below shows the article count for the first day of each month for the currently functioning Wikipedia projects.
+
+{{Wikipedia:Multilingual monthly statistics (2001)}}
+
+=== Article count, monthly change ===
+The following table shows the net monthly growth or decline of each Wikipedia project, by setting out the number of new articles, minus deletions, since the previous monthly count.
+
+{{Wikipedia:Multilingual monthly statistics - new articles (2001)}}
+
+[[Category:Multilingual statistics archive]]
+[[Category:Wikipedia multilingual coordination|Multilingual statistics]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

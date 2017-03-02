@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="ASC X12"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="ASC X12" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{multiple issues|
+{{Primary sources|date=February 2010}}
+{{No footnotes|date=February 2010}}
+}}
+
+The &amp;apos;&amp;apos;&amp;apos;Accredited Standards Committee X12&amp;apos;&amp;apos;&amp;apos; (also known as &amp;apos;&amp;apos;&amp;apos;ASC X12&amp;apos;&amp;apos;&amp;apos;), chartered by the American National Standards Institute in 1979, develops and maintains the X12 [[Electronic data interchange|EDI]] and CICA standards along with XML schemas which drive business processes globally. The membership of ASC X12 includes technologists and business process experts, encompassing health care, insurance, transportation, finance, government, supply chain and other industries.
+
+The name &amp;quot;X12&amp;quot; is a sequential designator assigned by ANSI at the time of accreditation. ASC X12 has sponsored more than 315 X12-based EDI standards and a growing collection of X12 [[XML schema]]s for [[health care]], [[insurance]], government, transportation, finance, and many other industries. ASC X12&amp;apos;s membership includes 3,000 standards experts representing over 600 companies from multiple business domains.
+
+==Organization==
+The [[Data Interchange Standards Association]] serves as the [[Secretariat (administrative office)|secretariat]] for ASC X12 and its X12 EDI and XML standards development process.
+
+==Subcommittees==
+ASC X12 is organized into subcommittees that represent specific industries.
+
+* X12C Communications / Controls
+* X12F Finance
+* X12G Government
+* X12I Transportation
+* X12M Supply Chain
+* X12N Insurance
+
+There is a seventh subcommittee, X12J Technical Assessment. It does not address a specific industry, but rather maintains the directory, dictionary and design rules for all the X12 standards.
+
+==Caucuses==
+There are groups created to identify issues and activities in specific areas. There are currently three of these.
+
+* Connectivity
+* Dental
+* Provider
+
+==CICA==
+CICA (or &amp;apos;&amp;apos;Context Inspired Component Architecture&amp;apos;&amp;apos;) is a new approach to message design aimed at resolving the costly proliferation of differing (and often incompatible) XML messages used for [[business-to-business]] data exchange. CICA gives developers access to reusable components that can be used to construct interface standards to satisfy common business requirements as well as industry-specific needs.
+
+CICA is a syntax-neutral architecture that supports both business content and implementation information. CICA messages (&amp;quot;documents&amp;quot;) can currently be expressed as XML schemata.
+
+CICA&amp;apos;s reusable syntax-neutral message components are maintained in a central data store that supports a variety of functions including: [[Data processing|data entry]] and maintenance, data retrieval (from full message structure to individual components), flexible reporting capabilities for development support, and [[end-user]] documents including XML schemas and [[Usability|user-friendly]] reference guides.
+
+Complementing the CICA data store is the X12 CICA Metadata Interchange Format (CICA-MIF). The CICA-MIF is a structured guideline for the [[Two-way communication|bi-directional]] exchange between X12 development tools, the central data store and other technology providers&amp;apos; software that supports the interchange format. This XML schema will enable X12 developers to use world-class [[commercial off-the-shelf]] tools to develop message standards for submission into the CICA database.
+
+==See also==
+* [[Electronic Data Interchange]]
+* [[EDIFACT]]
+* [[X12 EDIFACT Mapping]]
+* [[X12 Document List|List of X12 EDI transaction sets]]
+* [[Freight payment service]]
+
+==References==
+
+{{Empty section|date=June 2013}}
+
+==External links==
+* [http://www.x12.org/ Accredited Standards Committee X12]
+
+{{DEFAULTSORT:Asc X12}}
+[[Category:Data interchange standards]]
+[[Category:Health standards]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Citizens for Blank Votes"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Citizens for Blank Votes" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Politics of Spain}}
+&amp;apos;&amp;apos;&amp;apos;Citizens for Blank Votes&amp;apos;&amp;apos;&amp;apos; ({{lang-es|Ciudadanos En Blanco}}) is a [[list of political parties in Spain|Spanish political party]].
+
+In [[Spain|Spanish]] [[election|electoral]] [[law]], a distinction is made between valid [[vote]]s, [[blank vote]]s ({{lang|es|&amp;apos;&amp;apos;votos en blanco&amp;apos;&amp;apos;}}) and null votes. Blank votes are interpreted as correctly executed votes for &amp;quot;[[none of the above]]&amp;quot;, and consistently about 2% of votes are blank. Voting &amp;quot;blank&amp;quot; is not the same thing as abstaining, and so it has been argued that blank votes should be recognized as legitimate by apportioning empty seats in representative bodies according to the number of blank votes. Abstainers, the argument continues, exclude themselves from the democratic process and so need not be recognized in this way.{{Fact|date=January 2008}}
+
+The platform of Ciudadanos En Blanco is that, if elected, their candidates will leave their seats vacant, until such time as the Spanish electoral law is reformed to recognize blank votes in the manner described above.
+At that point, the party will have no more reason to exist.
+
+The party&amp;apos;s slogan is {{lang|es|&amp;apos;&amp;apos;No votes en blanco, vota a Ciudadanos En Blanco&amp;apos;&amp;apos;}} (Do not vote &amp;quot;en blanco&amp;quot;, vote for Citizens &amp;quot;En Blanco&amp;quot;).
+
+==External links==
+*[http://www.ciudadanosenblanco.com/ Party website]
+
+[[Category:Political parties in Spain]]
+
+{{Spain-party-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

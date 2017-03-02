@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Icy Strait"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Icy Strait" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Image:Landsat GlacierBay 01aug99.jpg|thumb|right|Silted [[meltwater]] from the [[Brady Glacier]] discolours the shallow waters of Icy Strait]]
+
+The &amp;apos;&amp;apos;&amp;apos;Icy Strait&amp;apos;&amp;apos;&amp;apos; is a [[strait]] in the [[Alexander Archipelago]] in southeastern [[Alaska]], at about {{coord|58|16|41|N|135|38|48|W|scale:1000000|display=inline,title}}. The strait separates [[Chichagof Island]] to the south and the Alaska mainland to the north.  The strait is {{convert|64|km|mi|abbr=on}} from its west side at the intersection of the [[Cross Sound]] and [[Glacier Bay]] to its east side at [[Chatham Strait]] and the [[Lynn Canal]]. The two largest islands in the strait are [[Pleasant Island (Alaska)|Pleasant Island]] and [[Lemesurier Island]].
+
+The [[Cape Spencer Light (Alaska)|Cape Spencer Light]] is an important former lighthouse and currently active aid-to-navigation.
+
+The [[cruise ship]] [[Empress of the North]] ran aground near Rocky Island &amp;lt;ref&amp;gt;http://en.wikinews.org/wiki/Alaskan_cruise_ship_evacuated&amp;lt;/ref&amp;gt; and took on some water here on May 14, 2007, causing the evacuation of its passengers. None were injured.
+
+==References==
+{{Reflist}}
+
+[[Category:Straits of Alaska]]
+[[Category:Landforms of Haines Borough, Alaska]]
+[[Category:Landforms of Hoonah–Angoon Census Area, Alaska]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

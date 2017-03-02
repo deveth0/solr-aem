@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Merritt, South Dakota"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Merritt, South Dakota" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Merritt&amp;apos;&amp;apos;&amp;apos; is the name of an unincorporated community in the State of [[South Dakota]] in the United States of America.  It lies in [[Pennington County, South Dakota|Pennington County]] and [[Lawrence County, South Dakota]]. It is located at {{coord|44|08|27|N|103|34|07|W|type:city_region:US-SD|display=inline,title}}.&amp;lt;ref&amp;gt;USGS [[Geographic Names Information System]], [http://geonames.usgs.gov/pls/gnispublic/f?p=115:3:4301394974186247::NO:3:P3_FID,P3_TITLE:1262057%2CMerritt entry for Merritt] &amp;lt;/ref&amp;gt;
+
+==References==
+&amp;lt;references/&amp;gt;
+
+[[Category:Unincorporated communities in South Dakota]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

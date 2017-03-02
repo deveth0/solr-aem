@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="EMD"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="EMD" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;EMD&amp;apos;&amp;apos;&amp;apos; may refer to:
+{{TOC right}}
+==Companies==
+* [[Electro-Motive Diesel]] and its predecessor Electro-Motive Division, locomotive manufacturer
+* EMD Chemicals, EMD Pharmaceuticals, [[EMD Serono]], and EMD Biosciences in the [[Merck KGaA]] group
+* EMD Drive Systems Ltd - Electric Motor Development company bought in 2008 by [[Parvalux]]
+* [[European Marketing Distribution]], a European purchasing organization for grocery stores
+
+==Science and technology==
+* [[Earth Mover&amp;apos;s Distance]], a mathematical measure
+* [[Einstein-Maxwell-Dirac equations]]
+* [[Electromagnetic Diaphragm]], a type of sensor
+* [[Emerin]], a gene associated with Emery-Dreifuss muscular dystrophy
+* Empirical Mode Decomposition, part of the [[Hilbert–Huang_transform]] signal decomposition method
+* Electromechanical dissociation, see [[Pulseless electrical activity]]
+* Electro-Muscular Disruption weapon, see [[electroshock weapon]]
+* Electron Microscopy Databank, see [[EM Data Bank]]
+* [[Enamel matrix derivative]], otherwise known as enamel matrix proteins, a material intended to regenerate the supporting tissues of the teeth
+* [[Electronic Miscellaneous Document]], an IATA standard to document the sale and track usage of charges (e.g., residual value, miscellaneous or excess baggage charges)
+
+==Finance and money==
+* [[Emerging Market Debt]], a financial term
+* [[Earnest money deposit]], a type of deposit in real estate dealing
+
+==Other==
+* [[Emergency Medical Dispatcher]], a certification obtained to answer, process, and prioritise emergency calls for paramedic response.
+* [[E.M.D.]], a Swedish band
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

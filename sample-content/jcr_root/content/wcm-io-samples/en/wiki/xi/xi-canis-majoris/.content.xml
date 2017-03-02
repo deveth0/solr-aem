@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Xi Canis Majoris"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Xi Canis Majoris" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The [[Bayer designation]] &amp;apos;&amp;apos;&amp;apos;Xi Canis Majoris&amp;apos;&amp;apos;&amp;apos; (ξ CMa / ξ Canis Majoris) is shared by two [[star system]]s, in the [[constellation]] [[Canis Major]]:
+* [[Xi1 Canis Majoris|ξ¹ Canis Majoris]]
+* [[Xi2 Canis Majoris|ξ² Canis Majoris]]
+They are separated by 0.86° on the sky.
+
+ξ¹ Canis Majoris was member of asterism 軍市 (Jūn Shì), &amp;apos;&amp;apos;Market for Soldiers&amp;apos;&amp;apos;, &amp;apos;&amp;apos;[[Well (Chinese constellation)|Well]]&amp;apos;&amp;apos; mansion.&amp;lt;ref&amp;gt;{{zh icon}} [http://aeea.nmns.edu.tw/2006/0607/ap060716.html AEEA (Activities of Exhibition and Education in Astronomy) 天文教育資訊網 2006 年 7 月 16 日]&amp;lt;/ref&amp;gt; ξ² Canis Majoris was not any member of asterism.
+
+==References==
+{{reflist}}
+
+{{SIA |astronomical objects}}
+
+[[Category:Bayer objects|Canis Majoris, Xi]]
+[[Category:Canis Major (constellation)]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

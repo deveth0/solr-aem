@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="HP-20S"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="HP-20S" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[image:HP-20S.jpg|thumb|200px|HP 20S]]
+The &amp;apos;&amp;apos;&amp;apos;HP-20S&amp;apos;&amp;apos;&amp;apos; is an algebraic programmable, member of Pioneer series of [[HP calculators]] produced from 1988 to 2003. It is similar to [[HP-21S]]. It has ninety-nine steps of fully merged program and ten memory registers.
+
+==Libraries==
+
+There are six libraries in the ROM, which could be loaded to RAM and used and edited as user programs.
+
+*A- [ROOT] finder, finds a root of f(x)=0
+*B- [INT]  integral, calculates definite integral using [[Simpson method]]
+*C- [CPL] complex numbers manipulations
+*D- [3 by 3] matrix manipulations and line equations solver
+*E- [qUAD] quadratic equation solver
+*F- [fit] curve fitting, using exponential, logarithmic and power functions
+
+==Design peculiarities==
+
+The HP-20S is not a clean design. It shares the quirks with its close relative, [[HP-21S]]. Some of them are:
+
+*INPUT and SWAP keys, which are awkward and not clear solution to mimic [[Reverse Polish notation|RPN]] functionality.
+*Absence of &amp;quot;x&amp;lt;y&amp;quot; test, which enforces using two tests with additional labels and GOTOs in programs which need this functionality.
+*A real bug is &amp;quot;x&amp;lt;=y&amp;quot; test. First of all, its name is misleading. Really, it is &amp;quot;x&amp;gt;=y&amp;quot;    test in terms of RPN calculators. The manual says that &amp;apos;&amp;apos;x&amp;apos;&amp;apos; is &amp;apos;hidden&amp;apos; while &amp;apos;&amp;apos;y&amp;apos;&amp;apos; is &amp;apos;visible&amp;apos;. But &amp;apos;&amp;apos;y&amp;apos;&amp;apos;&amp;lt;sup&amp;gt;&amp;apos;&amp;apos;x&amp;apos;&amp;apos;&amp;lt;/sup&amp;gt; power key on the calculator&amp;apos;s keyboards functions in the traditional fashion of other HP RPN calculators. The second problem here is due to algebraic design: in order to separate two arguments of a test should the user divide them either with arithmetic operation or INPUT. If using arithmetic, like:
+
+::RCL 6
+::+
+::RCL 7
+::x&amp;lt;=y?
+::GTO A
+
+:the display has &amp;quot;pend&amp;quot; announciator lighted, since calculator sees a pending addition operator. After the program stops, the user can press &amp;quot;=&amp;quot; sign and get the result of pending operation. If the user uses INPUT instead of aritmetic operation, the calculator will display &amp;quot;:&amp;quot; anounciator. In order to hide this effect, the user should place &amp;quot;C&amp;quot; clear command somewhere before program end.
+
+Nevertheless, HP-20S is a functional and fast calculator, with very good LCD, keyboard, look, and feel.  It uses the normal [[infix notation]] rather than RPN, which most HP scientific calculators use.
+
+==External links==
+
+*http://www.voidware.com/calcs/hp20s.htm
+*[http://mycalcdb.free.fr/main.php?l=0&amp;amp;id=841 HP-20S] on [http://mycalcdb.free.fr MyCalcDB] (database about 70&amp;apos;s and 80&amp;apos;s pocket calculators)
+*[http://www.porterelectronics.com/servlet/the-212/20S-CALCULATOR-HP-HP20S/Detail HP-20S] on [http://www.porterelectronics.com/servlet/the-212/20S-CALCULATOR-HP-HP20S/Detail Porter Electronics] (Website where they are still available)
+*[http://www.calculatorsource.com/hp-20s.html HP-20S] on [http://www.calculatorsource.com/hp-20s.html CalculatorSource] (Website where used HP-20S can be bought)
+
+&amp;apos;&amp;apos;&amp;apos;Programming examples:&amp;apos;&amp;apos;&amp;apos;
+
+*http://www.hpmuseum.org/software/20stvm.htm Financial TVM calculations
+*http://www.hpmuseum.org/software/20sbool.htm Boolean functions (AND,OR,XOR,NOT)
+*http://www.rskey.org/detail.asp?manufacturer=Hewlett-Packard&amp;amp;model=HP-20S Gamma function
+
+{{HP Calculators}}
+
+[[Category:HP calculators|20S]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

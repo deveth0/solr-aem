@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Jean-Marc de La Sablière"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Jean-Marc de La Sablière" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{ infobox person
+| name = Jean-Marc de la Sablière
+| birth_date = {{birth date and age|1946|11|08|df=y}}
+| birth_place = [[Athens]], [[Greece]]
+| alma_mater = [[Sciences Po|Sciences Po Paris]], [[École nationale d&amp;apos;administration|ÉNA]]
+| occupation = Diplomat
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Jean-Marc de La Sablière&amp;apos;&amp;apos;&amp;apos; (born 8 November 1946 in [[Athens]]) has been the Ambassador of [[France]] in [[Italy]] since 7 September 2007.  Prior to this, he was the Permanent Representative of [[France]] to the [[United Nations]] from 2002 to 2007.&amp;lt;ref name=embassy&amp;gt;[http://www.ambafrance-it.org/spip.php?article1 Biographie de M. Jean-Marc de La Sablière]. La France en Italie, Ambassade de France à Rome. Accessed 21 January 2010.&amp;lt;/ref&amp;gt;
+
+He arrived at the UN in 2002. For the previous two years he had been diplomatic adviser to [[President of France|President]] [[Jacques Chirac|Chirac]]. He is a former student of the [[École Nationale d&amp;apos;Administration]] (ÉNA). La Sablière also graduated from the [[Paris Institute of Political Studies]] ([[Sciences Po]]).&amp;lt;ref name=embassy/&amp;gt;
+
+==Honors==
+*Officer of the [[Légion d&amp;apos;honneur]]
+*Chevalier of the [[Ordre national du Mérite]]
+
+==References==
+{{reflist}}
+
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              =La Sabliere, Jean-Marc de
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION = French diplomat
+| DATE OF BIRTH     = 8 November 1946
+| PLACE OF BIRTH    =
+| DATE OF DEATH     =
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:La Sabliere, Jean-Marc de}}
+[[Category:1946 births]]
+[[Category:Living people]]
+[[Category:Permanent Representatives of France to the United Nations]]
+[[Category:Sciences Po alumni]]
+[[Category:École nationale d&amp;apos;administration alumni]]
+[[Category:Presidents of the United Nations Security Council]]
+[[Category:Officiers of the Légion d&amp;apos;honneur]]
+[[Category:Chevaliers of the Ordre national du Mérite]]
+[[Category:Recipients of the Order of the Cross of Terra Mariana, 3rd Class]]
+
+{{France-bio-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

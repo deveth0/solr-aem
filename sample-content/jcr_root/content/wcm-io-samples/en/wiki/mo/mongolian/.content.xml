@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Mongolian"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Mongolian" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Wiktionary}}
+&amp;apos;&amp;apos;&amp;apos;Mongolian&amp;apos;&amp;apos;&amp;apos; may refer to:
+* Something of, from, or related to [[Mongolia]], a landlocked country in East and Central Asia that borders Russia to the north and People&amp;apos;s Republic of China to the south, east and west.
+* Mongolians, [[Mongols]].
+* [[Mongolian language]].  See also [[Languages of Mongolia]].
+* [[Mongolian alphabet]]
+* [[Mongolian (Unicode block)]]
+* [[Mongolian cuisine]]
+* ([[Race (historical definitions)|historical]]) the race native to [[East Asia]] (later also [[Mongoloid]])
+
+== See also ==
+* [[Special:Allpages/Mongolian|List of all pages beginning with &amp;quot;Mongolian&amp;quot;]]
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

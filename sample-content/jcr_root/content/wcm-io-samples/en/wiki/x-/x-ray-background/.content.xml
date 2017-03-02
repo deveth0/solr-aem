@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="X-ray background"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="X-ray background" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The observed &amp;apos;&amp;apos;&amp;apos;X-ray background&amp;apos;&amp;apos;&amp;apos; is thought to result from, at the &amp;quot;soft&amp;quot; end (below 0.3 keV), Galactic [[X-ray]] emission (the &amp;quot;galactic&amp;quot; X-ray background), and, at the &amp;quot;hard&amp;quot; end (above 0.3keV), from a combination of many unresolved [[X-ray]] sources outside of the [[Milky Way]] (the &amp;quot;cosmic&amp;quot; X-ray background).
+
+The galactic X-ray background is produced largely by emission from hot gas in the [[Local Bubble]] within 100 [[parsec]]s of the [[Sun]].
+
+Deep surveys with X-ray telescopes, such as the [[Chandra X-ray Observatory]], have demonstrated that around 80% of the cosmic X-ray background is due to resolved extra-galactic X-ray sources, the bulk of which are unobscured (&amp;quot;type-1&amp;quot;) and obscured (&amp;quot;type-2&amp;quot;) [[active galactic nuclei]] (AGN).
+
+==References==
+*T Shanks, I Georgantopoulos, GC Stewart, KA Pounds, &amp;quot;[http://www.nature.com/nature/journal/v353/n6342/abs/353315a0.html The origin of the cosmic X-ray background]&amp;quot;, &amp;apos;&amp;apos;Nature&amp;apos;&amp;apos; 353, 315 - 320 (26 September 1991); {{doi|10.1038/353315a0}}
+*Xavier Barcons, &amp;apos;&amp;apos;[http://books.google.com/books?id=Q31L1Lj4XzoC&amp;amp;dq=%22X-ray+background%22 The X-ray Background]&amp;apos;&amp;apos;, 1992 Cambridge University Press, 324 pages ISBN 0-521-41651-5
+* Audio Cain/Gay (2009) [http://www.astronomycast.com/astronomy/ep-135-x-ray-astronomy/ Astronomy Cast] X-ray Astronomy
+
+==See also==
+*[[X-ray astronomy]]
+
+[[Category:X-ray astronomy]]
+[[Category:Astronomical X-ray sources|*X-ray background]]
+[[Category:Observational astronomy]]
+[[Category:Cosmic background radiation]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

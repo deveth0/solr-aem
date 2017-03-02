@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Yakov Zak"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Yakov Zak" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Use dmy dates|date=February 2012}}
+&amp;apos;&amp;apos;&amp;apos;Yakov Izrailevich Zak&amp;apos;&amp;apos;&amp;apos; ({{lang-uk|Яків Ізраїлович Зак}}), ({{lang-ru|link=no|Яков Израилевич Зак}}), &amp;apos;&amp;apos;Jiakov Israilevič Sak&amp;apos;&amp;apos;; [[Odessa]], {{OldStyleDate|20 November|1913|7 November}} –  Moscow, 28 June 1976) was a Soviet pianist and teacher of Jewish extraction.
+
+Born in [[Odessa]], Zak studied piano at the Odessa Conservatory with Maria Starkhova, took classes on special [[harmony]] with [[Mykola Vilinsky]], and later studied with [[Heinrich Neuhaus]] in Moscow, graduating in 1935.&amp;lt;ref name=&amp;quot;Baker&amp;apos;s Bio&amp;quot;&amp;gt;{{cite book|last=Slonimsky|first=Nicolas|title=Baker&amp;apos;s Biographical dictionary of musicians|year=1978|publisher=Schirmer Books|location=New York|isbn=0-02-870240-9|edition=6th|page=1935|chapter=Zak, Yakov}}&amp;lt;/ref&amp;gt;  Having made his debut in 1935, he rose to prominence when he won First Prize and the Mazurka Prize at the [[International Frederick Chopin Piano Competition]] in 1937. From 1935 Zak taught at the [[Moscow Conservatory]], becoming a professor in 1947 and being granted a chair in 1965. His pupils include [[Nikolai Petrov]], [[Evgeny Mogilevsky]], Lubov Timofeyeva,  [[Valery Afanassiev]], [[Ludmila Knezkova-Hussey]] and [[Youri Egorov]]. In 1966 Yakov Zak was made [[People&amp;apos;s Artist of the USSR]].
+
+== References ==
+{{reflist}}
+#[http://en.chopin.nifc.pl/chopin/persons/detail/id/2832 Yakov Zak, biography]
+#Yakov Zak, Stat&amp;apos;i, Materialy, Vospominaniia (Papers, Documents, Memoirs), Moscow, &amp;quot;Sovetskii Kompozitor&amp;quot;, 1980 [http://www.worldcat.org/oclc/8455225&amp;amp;referer=brief_results]
+#[http://www.youtube.com/watch?v=RfUU4Bal6c8 Yakov Zak plays Chopin – Sonata no.3 in B minor, op.58]
+
+{{Authority control|VIAF=20908019}}
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Zak, Yakov
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION = Soviet pianist
+| DATE OF BIRTH     = 1913
+| PLACE OF BIRTH    =
+| DATE OF DEATH     = 1976
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Zak, Yakov}}
+[[Category:1913 births]]
+[[Category:1976 deaths]]
+[[Category:Soviet classical pianists]]
+[[Category:International Chopin Piano Competition winners]]
+[[Category:People&amp;apos;s Artists of the USSR]]
+[[Category:People from Odessa]]
+[[Category:Russian Jews]]
+[[Category:Ukrainian Jews]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="DMV"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="DMV" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;DMV&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;D.M.V.&amp;apos;&amp;apos;&amp;apos; refer to:
+
+*[[Veterinary physician|Doctor of Veterinary Medicine]]
+*[[Department of Motor Vehicles]] or Division of Motor Vehicles
+*[[Deserted medieval village]]
+*[[Deutsche Mathematiker-Vereinigung]], the German Mathematical Society
+*[[Deutscher Motorsport Verband]], a German motor sport organisation
+*&amp;quot;DMV&amp;quot;, a song from the album [[Pork Soda]] by Primus
+*Dynamic Management Views, a feature of the [[Microsoft SQL Server]] software
+*[[Dorsal nucleus of vagus nerve|Dorsal motor nucleus of the vagus]], in anatomy
+*[[Washington, D.C. metropolitan area]]
+{{disambiguation}}
+
+[[ja:DMV (曖昧さ回避)]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

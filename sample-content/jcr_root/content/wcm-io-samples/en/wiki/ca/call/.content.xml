@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Call"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Call" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{pp-move-vandalism|small=yes}}
+{{wiktionary|call}}
+&amp;apos;&amp;apos;&amp;apos;Call&amp;apos;&amp;apos;&amp;apos;  may refer to:
+
+* A type of [[betting in poker]]
+* [[Animal communication]], a song or noise made by an animal such as:
+** [[Bird call]], part of a bird song
+* A command in square dancing, delivered by a [[Caller (dancing)|caller]]
+* [[Call option]], a term in stock trading
+* [[Call on shares]], a request for a further payment on partly paid share capital
+* A shell [[Command (computing)|command]] in DOS, OS/2 and Microsoft Windows command-line interpreters
+* [[System call]], in computer science, the mechanism used by an application program to request service from the operating system or another application program
+* A method of starting a [[Subroutine]]
+* Any bid, pass, double, or redouble made in the bidding stage of [[contract bridge]]
+
+==CALL (acronym)==
+* [[Computer-assisted language learning]], a concept in language education
+* Center for Anglican Learning &amp;amp; Leadership at the [[Church Divinity School of the Pacific]]
+* The United States Army&amp;apos;s [[U.S. Army Center for Army Lessons Learned|Center for Army Lessons Learned]]
+
+==People==
+* [[Call (surname)]]
+
+==Telecommunications==
+* Any attempt to set up a [[telecommunication circuit]]
+* A unit of [[teletraffic engineering|traffic]] measurement
+* The actions performed by a [[call originator]]
+* A [[telephone call]]
+
+==Other==
+* [[Call (band)]]
+* [[Call, Texas]], a community in the southern United States
+* [[Call / I4U]], a 2011 single by Japanese music group AAA
+
+==See also==
+* [[The Call (disambiguation)]]
+* [[Caller (disambiguation)]]
+* [[Calling (disambiguation)]]
+* [[Call sign]], in broadcasting and radio communications, a unique designation for a transmitting station
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

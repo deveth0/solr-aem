@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Yukon Federation of Labour"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Yukon Federation of Labour" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox Union|&amp;lt;!-- Please include all unused fields for future use. See [[template talk:Infobox Union]] for usage. --&amp;gt;
+|name= YFL
+|country= [[Canada]]
+|affiliation= [[Canadian Labour Congress|CLC]]
+|members= 3,300
+|full_name= Yukon Federation of Labour
+|native_name=
+|image= [[Image:YFL logo.jpg]]
+|founded= 1980
+|current=
+|head=
+|dissolved_date=
+|dissolved_state=
+|merged_into=
+|office= [[Whitehorse, Yukon]]
+|people= [[Alex Furlong]], president
+|website= [http://www.yukonfed.com/ www.yukonfed.com]
+|footnotes=
+}}
+
+The &amp;apos;&amp;apos;&amp;apos;Yukon Federation of Labour&amp;apos;&amp;apos;&amp;apos; (YFL) is the [[Yukon]] [[trade union]] federation of the [[Canadian Labour Congress]] (CLC). Although the Yukon is not, strictly speaking, a province, the CLC has recognized the YFL as a [[:Category:Provincial federations of labour (Canada)|provincial federation of labour]] with the same standing as those of the ten Canadian provinces.
+
+The YFL was founded in 1980 and has a membership of 3,300.
+
+==External links==
+*[http://www.yukonfed.com/ www.yukonfed.com]
+
+{{Portal|Organized labour}}
+{{Canadian Labour Congress}}
+
+[[Category:Canadian Labour Congress]]
+[[Category:Provincial federations of labour (Canada)]]
+
+
+{{NorthAm-trade-union-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

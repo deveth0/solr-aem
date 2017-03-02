@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Uniq"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Uniq" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{lowercase|title=uniq}}
+{{about|the Unix utility|other uses|Uniq (disambiguation)}}
+&amp;apos;&amp;apos;&amp;apos;uniq&amp;apos;&amp;apos;&amp;apos; is a [[Unix]] utility which, when fed a text file, outputs the file with adjacent identical lines collapsed to one.  It is a kind of [[filter program]]. Typically it is used after [[Sort (Unix)|sort]]. It can also output only the duplicate lines (with the &amp;lt;tt&amp;gt;-d&amp;lt;/tt&amp;gt; option), or add the number of occurrences of each line (with the &amp;lt;tt&amp;gt;-c&amp;lt;/tt&amp;gt; option).
+
+An example: To see the list of lines in a file, sorted by the number of times each occurs:
+:&amp;lt;tt&amp;gt;sort file | uniq -c | sort -n&amp;lt;/tt&amp;gt;
+
+Using uniq like this is common when building [[pipeline (software)|pipelines]] in [[shell script]]s.
+
+==Switches==
+*&amp;lt;tt&amp;gt;-u&amp;lt;/tt&amp;gt;   Print only those lines which are not repeated (unique) in the input.
+*&amp;lt;tt&amp;gt;-d&amp;lt;/tt&amp;gt;   Print only those lines which &amp;apos;&amp;apos;are&amp;apos;&amp;apos; repeated in the input.
+*&amp;lt;tt&amp;gt;-c&amp;lt;/tt&amp;gt;   Generate an output report in default style except that each line is preceded by a count of the number of times it occurred.  If this option is specified, the &amp;lt;tt&amp;gt;-u&amp;lt;/tt&amp;gt; and &amp;lt;tt&amp;gt;-d&amp;lt;/tt&amp;gt; options are ignored if either or both are also present.
+*&amp;lt;tt&amp;gt;-i&amp;lt;/tt&amp;gt;   Ignore case differences when comparing lines
+*&amp;lt;tt&amp;gt;-f&amp;lt;/tt&amp;gt;   Ignore a number of fields in a line
+*&amp;lt;tt&amp;gt;-s&amp;lt;/tt&amp;gt;   Skips a number of characters in a line
+*&amp;lt;tt&amp;gt;-w&amp;lt;/tt&amp;gt;   Specifies the number of characters to compare in lines, after any characters and fields have been skipped
+*&amp;lt;tt&amp;gt;--help&amp;lt;/tt&amp;gt;    Displays a help message
+*&amp;lt;tt&amp;gt;--version&amp;lt;/tt&amp;gt; Displays version number on stdout and exits.
+
+==See also==
+*[[List of Unix programs]]
+
+==External links==
+*[http://www.linuxmanpages.com/man1/uniq.1.php uniq&amp;apos;s] [[Linux]] [[manpage]]
+*[http://sourceforge.net/projects/unxutils/ SourceForge UnxUtils – Port of several GNU utilities to Windows]
+
+{{unix commands}}
+
+[[Category:Unix text processing utilities]]
+[[Category:Unix SUS2008 utilities]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

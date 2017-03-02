@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Secure key issuing cryptography"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Secure key issuing cryptography" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2008}}
+&amp;apos;&amp;apos;&amp;apos;Secure key issuing&amp;apos;&amp;apos;&amp;apos; is variant of [[ID-based cryptography]] that reduces the level of trust that needs to be placed in a [[trusted third party]] by spreading the trust across multiple third parties. In addition to the normally transmitted information the user supplies what is known as &amp;quot;blinding&amp;quot; information
+which can be used to blind (hide) data so that only the user can later retrieve it. The third party provides a &amp;quot;blinded&amp;quot; partial private key, which is then passed on to several other third party in order, each adding another part of the key before blinding it and passing it on. Once the user gets the key they (and only they) can unblind it and retrieve their full private key, after which point the system becomes the same as identity based cryptography.
+
+If all of the third parties cooperate they can recover the private key, so [[key escrow]] problems arise only if all of the third parties are untrustworthy. In other areas of information security this is known as a [[cascade]], if every member of the cascade is independent and the cascade is large then the system may be considered trustworthy in actual practice.
+
+The paper below states that &amp;quot;Compared with certiﬁcate-based cryptography, ID-based cryptography is advantageous in key management, since key distribution and key revocation are not required.&amp;quot;  However this poses a problem in long-lived environments where an identity (such as an email address) may shift in ownership over time and old keys need to be revoked and new keys associated with that identity provided to a new party.
+
+==References==
+&amp;lt;references /&amp;gt;
+
+==External links==
+* [http://crpit.com/confpapers/CRPITV32Lee.pdf  &amp;apos;Secure Key Issuing in ID-based Cryptography&amp;apos;]
+
+[[Category:Key management]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

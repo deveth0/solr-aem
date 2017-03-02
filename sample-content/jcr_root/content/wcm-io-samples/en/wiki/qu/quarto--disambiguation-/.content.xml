@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Quarto (disambiguation)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Quarto (disambiguation)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|quarto}}
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Quarto&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; ([[Latin]] and [[Italian language|Italian]] for &amp;quot;fourth&amp;quot;) could refer to:
+
+* [[Quarto]], a size or format of a book in which four leaves of a book are created from a standard size sheet of paper
+* For specific information about quarto texts of [[William Shakespeare]]&amp;apos;s works, see:
+**[[Folios and Quartos (Shakespeare)|Folios and Quartos]]
+**[[Bad quarto]]
+* [[Quarto (board game)|Quarto]], a board game
+* Quarto, a coin worth {{Frac|24}} of a [[Gibraltarian real]]
+* [[Quarto Group]], a London-based publishing house
+
+==Places of Italy==
+* [[Quarto, Campania|Quarto]], a municipality in the Province of Naples
+* [[Quarto d&amp;apos;Altino]], a municipality in the Province of Treviso
+* [[Quarto d&amp;apos;Asti]], an hamlet of [[Asti]] (AT)
+* [[Quarto Cagnino]], a quarter of [[Milan]]
+* [[Quarto Chilometro]], an hamlet of [[Colleferro]] (RM)
+* [[Quarto Oggiaro]], a quarter of Milan
+* [[Quarto dei Mille]], a quarter of [[Genoa]]
+* [[Quartu Sant&amp;apos;Elena]], a municipality in the Province of Cagliari
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

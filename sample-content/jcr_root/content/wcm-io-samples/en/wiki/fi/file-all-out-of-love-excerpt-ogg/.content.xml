@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="File:All out of love excerpt.ogg"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="File:All out of love excerpt.ogg" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;== Summary ==
+{{Non-free use rationale
+| Description       = Excerpt of chorus of &amp;quot;all out of love&amp;quot; by Air Supply
+| Source            = &amp;apos;&amp;apos;[[Lost in Love (Air Supply album)|Lost in Love]]&amp;apos;&amp;apos; (1980)
+| Article           = Air Supply
+| Portion           = 22 seconds worth (under the 10% recommendation)
+| Low_resolution    = low-quality ogg
+| Purpose           = to illustrate the musical style of the group
+| Replaceability    = can&amp;apos;t be replaced by free media
+}}
+{{Non-free use rationale
+ |Article           = All out of love
+ |Description       = Snippet of tune
+ |Source            = The song &amp;quot;Chiquitita&amp;quot; by ABBA
+ |Portion           = 22 seconds worth (under the 10% recommendation)
+ |Low_resolution    = Yes. Vorbis setting of 0
+ |Purpose           = To demonstrate song in article
+ |Replaceability    = No free replacement available
+ |other_information = Copyright [[Arista Records]] 1980
+}}
+== Licensing ==
+{{Non-free audio sample|image has rationale=yes}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

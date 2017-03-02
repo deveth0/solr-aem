@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="War in the Kitchen"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="War in the Kitchen" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox film
+| name           = War in the Kitchen
+| image          =
+| image_size     =
+| caption        =
+| director       = [[Marius Barna]]
+| producer       =
+| writer         =
+| narrator       =
+| starring       = [[Gheorghe Dinică]]&amp;lt;br /&amp;gt;Ovidiu Niculescu
+| music          =
+| cinematography =
+| editing        =
+| distributor    =
+| released       = [[2001 in film|2001]]
+| runtime        =
+| country        = [[Romania]]
+| language       = [[Romanian language|Romanian]]
+| budget         =
+| preceded_by    =
+| followed_by    =
+}}
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;War in the Kitchen&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; ({{lang-ro|Război în bucătărie}}) is a [[Romania]]n film drama by [[Marius Theodor Barna]]. The film was produced in 2001 by [[Ager Film]] in collaboration with [[Televiziunea Română]] (TVR). It stars [[Gheorghe Dinică]] as the main actor.
+
+==External links==
+*{{imdb title|id=0284422|title=Razboi în bucatarie}}
+
+[[Category:2001 films]]
+[[Category:Romanian films]]
+[[Category:Romanian-language films]]
+[[Category:2000s drama films]]
+{{Romania-film-stub}}
+{{2000s-drama-film-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

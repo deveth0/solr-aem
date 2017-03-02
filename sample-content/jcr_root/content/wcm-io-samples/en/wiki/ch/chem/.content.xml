@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Chem"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Chem" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Chem&amp;apos;&amp;apos;&amp;apos; may refer to:
+*[[Chemistry]]
+*Post apocalyptic slang for &amp;quot;drugs&amp;quot;, medicinal or otherwise in the [[Fallout (video game)|Fallout]] video game series.
+
+In Ancient Egyptian usage:
+*[[Kemet (disambiguation)#History of the Word|&amp;apos;&amp;apos;Khem&amp;apos;&amp;apos;]] (also spelt &amp;apos;&amp;apos;Chem&amp;apos;&amp;apos;), the Egyptian word for &amp;quot;black&amp;quot;
+*[[Min (god)]], in the past erroneously named &amp;apos;&amp;apos;Khem&amp;apos;&amp;apos;
+
+&amp;apos;&amp;apos;&amp;apos;CHEM&amp;apos;&amp;apos;&amp;apos; may refer to :
+*A [[metabolic panel (disambiguation)|metabolic panel]]: for instance, CHEM-7, which is the [[basic metabolic panel]]
+*[[CHEM-TV]], a Canadian television channel
+
+==See also==
+*[[Kemi]], a place in Finland
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

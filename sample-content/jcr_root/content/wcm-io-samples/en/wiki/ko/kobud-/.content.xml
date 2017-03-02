@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Kobudō"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Kobudō" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Nihongo|&amp;apos;&amp;apos;&amp;apos;Kobudō&amp;apos;&amp;apos;&amp;apos;|古武道}} or &amp;apos;&amp;apos;&amp;apos;Ko-budō&amp;apos;&amp;apos;&amp;apos;, a Japanese term meaning &amp;quot;old martial way&amp;quot;, may refer to:
+
+* [[Koryū]]: A type of Japanese [[Martial arts|martial art]] which has kept its ancient mode of training and has been preserved and handed down from generation to generation (originating prior to 1886).&amp;lt;ref&amp;gt;&amp;apos;&amp;apos;Japanese-English Dictionary of Kendo&amp;apos;&amp;apos;. All Japan Kendo Federation. 2000. Page 52.&amp;lt;/ref&amp;gt;
+* [[Okinawan kobudō]]: the martial arts weaponry systems originating on the island of [[Okinawa]].
+
+==References==
+{{Reflist}}
+
+{{Disambiguation|date=March 2012}}
+
+[[ca:Kobudo]]
+[[da:Kobudo]]
+[[de:Kobudō]]
+[[fr:Kobudō]]
+[[nl:Kobudo]]
+[[ja:古武道]]
+[[pl:Kobudō]]
+[[ro:Kobudo]]
+[[sl:Kobudo]]
+[[sv:Kobudo]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

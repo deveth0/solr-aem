@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Queen&#x27;s Own Warwickshire and Worcestershire Yeomanry"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Queen&#x27;s Own Warwickshire and Worcestershire Yeomanry" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{ref improve|date=March 2013}}
+&amp;apos;&amp;apos;&amp;apos;The Queens Own Warwickshire &amp;amp; Worcestershire Yeomanry&amp;apos;&amp;apos;&amp;apos; was a regiment of the [[Territorial Army (United Kingdom)|Territorial Army]], formed in 1956 by the amalgamation of [[The Warwickshire Yeomanry]] and [[The Queen&amp;apos;s Own Worcestershire Hussars]], and split up in 1971.
+
+The regiment was re-roled as infantry in 1967, with three [[Squadron (army)|squadron]]s, of which one was formed from a company of 7th Battalion, [[The Royal Warwickshire Fusiliers]]. In 1969 it was reduced to a cadre, and in 1971 split into two squadrons; one formed &amp;apos;&amp;apos;&amp;apos;67 (Queen&amp;apos;s Own Warwickshire and Worcestershire Yeomanry) Signal Squadron&amp;apos;&amp;apos;&amp;apos; of [[37 Signal Regiment|37th (Wessex and Welsh) Signal Regiment, Royal Signals]], whilst the other became &amp;apos;&amp;apos;&amp;apos;A (Warwickshire and Worcestershire) Squadron&amp;apos;&amp;apos;&amp;apos; of the [[Mercian Yeomanry]]. In 1992 this squadron transferred to the [[Royal Mercian and Lancastrian Yeomanry]], and in 1999 amalgamated with B Squadron to form &amp;apos;&amp;apos;&amp;apos;A (Shropshire, Warwickshire and Worcestershire) Squadron&amp;apos;&amp;apos;&amp;apos;, [[Royal Mercian and Lancastrian Yeomanry]].&amp;lt;ref name=&amp;quot;regiments.org&amp;quot;&amp;gt;[http://www.regiments.org/regiments/uk/volmil-england/vcav/warwick.htm The Queen&amp;apos;s Own Warwickshire and Worcestershire Yeomanry]{{dead link|date=March 2013}}, regiments.org&amp;lt;/ref&amp;gt;
+
+==External links==
+* [http://www.qowwy.org.uk/ Queen&amp;apos;s Own Warwickshire &amp;amp; Worcestershire Yeomanry Comrades Association] - Website dedicated to past and present serving members of the Warwickshire Yeomanry, Queen&amp;apos;s Own Worcestershire Hussars, and all successor units.
+
+==References==
+&amp;lt;references/&amp;gt;
+
+[[Category:Yeomanry regiments of the British Army]]
+[[Category:Military units and formations established in 1956]]
+[[Category:1956 establishments in the United Kingdom]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

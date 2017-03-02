@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Vivid"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Vivid" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|vivid}}
+&amp;apos;&amp;apos;&amp;apos;Vivid&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+==Music==
+*[[Vivid (band)]], a Japanese rock band
+*[[Vivid (Living Colour album)|&amp;apos;&amp;apos;Vivid&amp;apos;&amp;apos; (Living Colour album)]], 1988
+*&amp;apos;&amp;apos;[[Vivid: Kissing You, Sparkling, Joyful Smile]]&amp;apos;&amp;apos;, a 2008 mini-album also known simply as &amp;apos;&amp;apos;Vivid&amp;apos;&amp;apos;, by Korean singer BoA
+*[[Vivid (Crystal Kay album)|&amp;apos;&amp;apos;Vivid&amp;apos;&amp;apos; (Crystal Kay album)]], 2012
+*[[Vivid (Electronic song)|&amp;quot;Vivid&amp;quot; (Electronic song)]], 1999
+*&amp;quot;Vivid&amp;quot;, a song by [[Fairy Fore]]
+
+==Companies==
+*[[Vivid Entertainment]], a company that produces and distributes adult media
+*[[Vivid Imaginations]], a UK toy company
+
+==Other uses==
+*[[Vivid (media arts)]], a media art centre in Birmingham, England
+*Vivid, a brand of bleach produced by [[Reckitt Benckiser]]
+*&amp;apos;&amp;apos;[[Magical Girl Lyrical Nanoha ViVid]]&amp;apos;&amp;apos;, a manga in the &amp;apos;&amp;apos;Magical Girl Lyrical Nanoha&amp;apos;&amp;apos; series
+*[[HTC Vivid]], a mobile phone
+*[[HMS Vivid|HMS &amp;apos;&amp;apos;Vivid&amp;apos;&amp;apos;]]
+* [[Vivid  Sydney]], an outdoor festival in Sydney, Australia
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

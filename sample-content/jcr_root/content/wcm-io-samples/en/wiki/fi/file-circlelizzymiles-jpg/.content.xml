@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="File:CircleLizzyMiles.jpg"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="File:CircleLizzyMiles.jpg" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;== Summary ==
+
+== Licensing ==
+{{Non-free use rationale
+| Description       = Circle Records -78 label ,
+| Source            = Scan of physical media containing label
+| Article           = Circle Records
+| Portion           =
+| Low_resolution    = Yes
+| Purpose           = Provide brand identification for former gramaphone company
+concerned (and subject of linked article)
+| Replaceability    = Unique artwork, that would be difficult to replace given the age of the item concerned..
+| other_information =
+}}Circle Records 78 label; presumed fair use for Circle Records article
+
+== Licensing ==
+{{Non-free album cover|image has rationale=yes}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

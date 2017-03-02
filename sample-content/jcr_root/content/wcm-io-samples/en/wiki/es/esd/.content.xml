@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="ESD"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="ESD" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|ESD}}
+
+&amp;apos;&amp;apos;&amp;apos;ESD&amp;apos;&amp;apos;&amp;apos; may mean:
+
+*[[Ecologically sustainable development]]
+*[[Educational service district (disambiguation)]], various state-level legislative groupings for schools in some US states.
+*[[Electronic services delivery]], government services provided through the Internet or other electronic means
+*[[Electronic software delivery]], Distribution of software by digital transfer rather than by physical media.
+*[[Electrostatic discharge]], a sudden and momentary electric current that flows between two objects
+*[[Electrostatic dissipative]], static dissipative material that will allow the transfer of charge to ground or other conductive object
+*[[Electrostatic sensitive device]], any component (primarily electrical) which can be damaged by common static charges
+*[[Elmstead Woods railway station]], in Elmstead in the London Borough of Bromley
+*[[Emergency shut down]], a valve that stops flow in an emergency
+*[[End-systolic dimension]], the diameter across a ventricle in the heart
+*[[Endoscopic submucosal dissection]], a medical therapy with [[endoscopy]]
+*[[Energy spectral density]], a part of a function in statistical signal processing
+*[[Engineering Society of Detroit]], a multi-disciplinary association in south-east Michigan
+*[[Enlightened Sound Daemon]], is the sound server for Enlightenment and GNOME.
+*[[Environmental secondary detector]], a gaseous detection device used with environmental scanning electron microscopes
+*[[Extreme subdwarf]], a star with lower luminosity than that of a main-sequence star of the same spectral type
+*The [[International_Air_Transport_Association_airport_code|IATA]] airport code for [[Orcas Island Airport]]
+
+&amp;apos;&amp;apos;&amp;apos;Advertising Terminology:&amp;apos;&amp;apos;&amp;apos;
+
+*English Speaking Developed Nations - Often used in the context of ad campaign targeting for USA, CA, UK, IE, AU, and NZ
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

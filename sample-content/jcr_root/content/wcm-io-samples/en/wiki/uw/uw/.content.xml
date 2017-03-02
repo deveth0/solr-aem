@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="UW"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="UW" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{for|user warning templates|Wikipedia:UTM}}
+&amp;apos;&amp;apos;&amp;apos;UW&amp;apos;&amp;apos;&amp;apos;, &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;U&amp;lt;sub&amp;gt;w&amp;lt;/sub&amp;gt;&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;, or &amp;apos;&amp;apos;&amp;apos;uw&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+==Universities==
+===Canada===
+* [[University of Waterloo]]
+* [[University of Windsor]]
+* [[University of Winnipeg]]
+
+===Germany===
+* [[University of Wuppertal]]
+* [[University of Würzburg]]
+
+===Poland===
+* [[University of Warsaw]]
+* [[University of Wrocław]]
+
+===United States of America===
+* [[University of Washington]]
+* [[University of Wisconsin System]]
+* [[University of Wisconsin–La Crosse]]
+* [[University of Wisconsin–Madison]]
+* [[University of Wisconsin–Milwaukee]]
+* [[University of Wyoming]]
+
+==Other uses==
+* [[Unconventional warfare]]
+* &amp;apos;&amp;apos;[[Unia Wolnosci]]&amp;apos;&amp;apos; (Freedom Union), a Polish political party
+* [[uw (digraph)]]
+* &amp;apos;&amp;apos;U&amp;lt;sub&amp;gt;w&amp;lt;/sub&amp;gt;&amp;apos;&amp;apos;, the international symbol for [[relative humidity]]
+
+==See also==
+* [[WU (disambiguation)]]
+* [[U of W (disambiguation)]]
+
+{{disambiguation|school}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

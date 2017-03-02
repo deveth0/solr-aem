@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Intersection algorithm"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Intersection algorithm" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;Intersection Algorithm&amp;apos;&amp;apos;&amp;apos; is an [[agreement algorithm]] used to select sources for estimating accurate time from a number of [[noise|noisy]] time sources, it forms part of the modern [[Network Time Protocol]]. It is a modified form of [[Marzullo&amp;apos;s algorithm]].
+
+While Marzullo&amp;apos;s Algorithm will return the smallest interval consistent with the largest number of sources, the returned interval does not necessarily include the center point (calculated offset) of all the sources in the intersection. The Intersection Algorithm returns an interval that includes that returned by Marzullo&amp;apos;s algorithm but may be larger since it will include the center points.  This larger interval allows using additional statistical data to select a point within the interval, reducing the [[jitter]] in repeated execution.
+
+==Method==
+
+Given &amp;apos;&amp;apos;M&amp;apos;&amp;apos; intervals of the form &amp;apos;&amp;apos;c&amp;apos;&amp;apos;&amp;amp;nbsp;&amp;amp;plusmn;&amp;amp;nbsp;&amp;apos;&amp;apos;r&amp;apos;&amp;apos; (which means [&amp;apos;&amp;apos;c&amp;apos;&amp;apos;&amp;amp;minus;&amp;apos;&amp;apos;r&amp;apos;&amp;apos;,&amp;apos;&amp;apos;c&amp;apos;&amp;apos;+&amp;apos;&amp;apos;r&amp;apos;&amp;apos;]), the algorithm seeks to find an interval with &amp;apos;&amp;apos;M&amp;apos;&amp;apos;&amp;amp;minus;&amp;apos;&amp;apos;f&amp;apos;&amp;apos; sources. The value &amp;apos;&amp;apos;f&amp;apos;&amp;apos; is referred to as the number of falsetickers, those sources which are in error (the actual value is outside the [[confidence band]]). The best estimate is that which assumes the least number of falsetickers, &amp;apos;&amp;apos;f&amp;apos;&amp;apos;.  The results will be considered valid if &amp;apos;&amp;apos;f&amp;apos;&amp;apos;&amp;amp;nbsp;&amp;lt;&amp;amp;nbsp;&amp;apos;&amp;apos;M&amp;apos;&amp;apos;/2, otherwise the algorithm will return failure instead of an interval.
+
+The intersection algorithm begins by creating a table of tuples &amp;lt;offset,type&amp;gt;. For each interval there are three entries: the lower endpoint, the midpoint and the upper endpoint, labelled with types &amp;amp;minus;1, 0 and +1 respectively. Thus the interval &amp;apos;&amp;apos;c&amp;apos;&amp;apos;&amp;amp;nbsp;&amp;amp;plusmn;&amp;amp;nbsp;&amp;apos;&amp;apos;r&amp;apos;&amp;apos; results in the entries &amp;lt;&amp;apos;&amp;apos;c&amp;apos;&amp;apos;&amp;amp;minus;&amp;apos;&amp;apos;r&amp;apos;&amp;apos;,&amp;amp;minus;1&amp;gt;, &amp;lt;&amp;apos;&amp;apos;c&amp;apos;&amp;apos;,0&amp;gt; and &amp;lt;&amp;apos;&amp;apos;c&amp;apos;&amp;apos;+&amp;apos;&amp;apos;r&amp;apos;&amp;apos;,+1&amp;gt;. These entries are then sorted by offset.
+
+Variables: This algorithm uses &amp;apos;&amp;apos;f&amp;apos;&amp;apos; as number of false tickers, &amp;apos;&amp;apos;endcount&amp;apos;&amp;apos; and &amp;apos;&amp;apos;midcount&amp;apos;&amp;apos; are integers. &amp;apos;&amp;apos;Lower&amp;apos;&amp;apos; and &amp;apos;&amp;apos;upper&amp;apos;&amp;apos; are values of offsets.
+
+0) [initialize best f] Start with &amp;apos;&amp;apos;f&amp;apos;&amp;apos;=0, assuming all input intervals are valid.  Each time no interval is found f will be incremented until either an interval is found or &amp;apos;&amp;apos;f&amp;apos;&amp;apos;&amp;amp;nbsp;&amp;amp;ge;&amp;amp;nbsp;&amp;apos;&amp;apos;M&amp;apos;&amp;apos;/2.
+
+1) [initialize] &amp;apos;&amp;apos;endcount&amp;apos;&amp;apos;=0 and &amp;apos;&amp;apos;midcount&amp;apos;&amp;apos;=0.
+
+2) [find lower endpoint] Start at beginning of the list (lowest offset) consider each tuple in order.  &amp;apos;&amp;apos;endcount&amp;apos;&amp;apos;&amp;amp;nbsp;=&amp;amp;nbsp;&amp;apos;&amp;apos;endcount&amp;apos;&amp;apos;&amp;amp;minus;&amp;apos;&amp;apos;type&amp;apos;&amp;apos;. If &amp;apos;&amp;apos;endcount&amp;apos;&amp;apos;&amp;amp;nbsp;&amp;amp;ge;&amp;amp;nbsp;&amp;apos;&amp;apos;M&amp;apos;&amp;apos;&amp;amp;minus;&amp;apos;&amp;apos;f&amp;apos;&amp;apos; then &amp;apos;&amp;apos;lower&amp;apos;&amp;apos;&amp;amp;nbsp;=&amp;amp;nbsp;&amp;apos;&amp;apos;offset&amp;apos;&amp;apos; and goto step 3 because the (possible) lower endpoint has been found.  If the &amp;apos;&amp;apos;type&amp;apos;&amp;apos;&amp;amp;nbsp;=&amp;amp;nbsp;0 then &amp;apos;&amp;apos;midcount&amp;apos;&amp;apos;&amp;amp;nbsp;=&amp;amp;nbsp;&amp;apos;&amp;apos;midcount&amp;apos;&amp;apos;+1.  Repeat with next tuple.  If reach end of list then goto step 6.
+
+3) [tentative lower endpoint found, initialize to find upper endpoint] set &amp;apos;&amp;apos;endcount&amp;apos;&amp;apos;=0.
+
+4) [determine number of midpoints] Start from end of list and work towards lower offsets.  &amp;apos;&amp;apos;endcount&amp;apos;&amp;apos;&amp;amp;nbsp;=&amp;amp;nbsp;&amp;apos;&amp;apos;endcount&amp;apos;&amp;apos;+&amp;apos;&amp;apos;type&amp;apos;&amp;apos;. If &amp;apos;&amp;apos;endcount&amp;apos;&amp;apos;&amp;amp;nbsp;&amp;amp;ge;&amp;amp;nbsp;&amp;apos;&amp;apos;M&amp;apos;&amp;apos;&amp;amp;minus;&amp;apos;&amp;apos;f&amp;apos;&amp;apos; then &amp;apos;&amp;apos;upper&amp;apos;&amp;apos;&amp;amp;nbsp;=&amp;amp;nbsp;&amp;apos;&amp;apos;offset&amp;apos;&amp;apos;, goto step 5.  If &amp;apos;&amp;apos;type&amp;apos;&amp;apos;&amp;amp;nbsp;=&amp;amp;nbsp;0 then &amp;apos;&amp;apos;midcount&amp;apos;&amp;apos;&amp;amp;nbsp;=&amp;amp;nbsp;&amp;apos;&amp;apos;midcount&amp;apos;&amp;apos;+1.  Repeat for next tuple.  If reach end of list then goto step 6.
+
+5) if &amp;apos;&amp;apos;lower&amp;apos;&amp;apos;&amp;amp;nbsp;&amp;amp;le;&amp;amp;nbsp;&amp;apos;&amp;apos;upper&amp;apos;&amp;apos; and &amp;apos;&amp;apos;midcount&amp;apos;&amp;apos;&amp;amp;nbsp;&amp;amp;le;&amp;amp;nbsp;&amp;apos;&amp;apos;f&amp;apos;&amp;apos; then return interval [&amp;apos;&amp;apos;lowerendpoint&amp;apos;&amp;apos;,&amp;apos;&amp;apos;upperendpoint&amp;apos;&amp;apos;] as resulting confidence interval.
+
+6) [increment number of falsetickers] &amp;apos;&amp;apos;f&amp;apos;&amp;apos;&amp;amp;nbsp;=&amp;amp;nbsp;&amp;apos;&amp;apos;f&amp;apos;&amp;apos;+1. If &amp;apos;&amp;apos;f&amp;apos;&amp;apos;&amp;amp;nbsp;&amp;amp;ge;&amp;amp;nbsp;&amp;apos;&amp;apos;M&amp;apos;&amp;apos;/2 then terminate and return FAILED, otherwise goto step 1.
+
+{{Unreferenced|date=July 2007}}
+
+[[Category:Agreement algorithms]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

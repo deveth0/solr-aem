@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Z-Netz"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Z-Netz" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{refimprove|date=January 2012}}
+The &amp;apos;&amp;apos;&amp;apos;Z-Netz&amp;apos;&amp;apos;&amp;apos; was a German [[Bulletin board system|BBS]] network applying [[store and forward]] mechanisms to provide their users with e-mail and discussion groups. It can be compared to the U.S. based [[WWIV]] network or the international [[FidoNet]].
+
+The technical base for the Z-Netz was the software &amp;quot;Zerberus&amp;quot;. Initially the network was called &amp;quot;Zerberus Netz&amp;quot; or just &amp;quot;Zerberus&amp;quot;. When other software applying the &amp;quot;ZConnect&amp;quot; data transfer method became available, the network was renamed to &amp;quot;Z-Netz&amp;quot; to reflect that.
+
+&amp;quot;Zerberus&amp;quot; was developed since 1984. It was later maintained by the &amp;quot;Zerberus GmbH&amp;quot;, which was founded in 1992 and dissolved in 1999.
+
+Several Z-Netz operators maintained gateways into other networks, most notably the [[Usenet]], and even forwarded Z-Netz [[e-mail]] to the [[Internet]] and vice versa. With internet access becoming easily available in [[Germany]] in the late 90s the Z-Netz began to vanish.
+
+==External links==
+*[http://www.z-netz.de Inofficial Z-Netz Homepage] (German)
+*[http://www.zerberus.com Homepage of the former &amp;quot;Zerberus GmbH&amp;quot;] (German)
+
+&amp;apos;&amp;apos;Based in part on the German Wikipedia article for Z-Netz&amp;apos;&amp;apos;
+
+[[Category:Bulletin board systems]]
+
+
+{{compu-network-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

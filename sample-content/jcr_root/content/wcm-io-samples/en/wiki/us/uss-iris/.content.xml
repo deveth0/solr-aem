@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="USS Iris"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="USS Iris" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Italic title prefixed|3}}
+Five ships in the [[United States Navy]] have been named &amp;apos;&amp;apos;&amp;apos;USS &amp;apos;&amp;apos;Iris&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; for [[Iris (mythology)|Iris]], who in Greek mythology is the goddess of the rainbow
+
+*{{USS|Iris|1847}}, was commissioned in 1847, served during the Mexican-American War and was decommissioned in 1848
+
+*{{USS|Iris|1863}}, was built in 1863, served in the American Civil War, and decommissioned in 1865
+
+*{{USS|Iris|1869}}, was a [[Monitor warship type|monitor]] built as USS &amp;apos;&amp;apos;Shiloh&amp;apos;&amp;apos; in 1865, renamed &amp;apos;&amp;apos;Iris&amp;apos;&amp;apos; in 1869 and decommissioned in 1874
+
+*{{USS|Iris|1885}}, was commissioned in 1898 and decommissioned in 1916
+
+*{{USS|Iris|1897}}, was a [[lighthouse tender]], built in 1897, transferred to the US Navy in 1917 and returned to the Department of Commerce in 1919
+
+{{Shipindex}}
+
+{{DEFAULTSORT:Iris, Uss}}
+[[Category:United States Navy ship names]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

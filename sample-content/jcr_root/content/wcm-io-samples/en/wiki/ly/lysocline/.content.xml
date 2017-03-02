@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Lysocline"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Lysocline" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=December 2009}}
+The &amp;apos;&amp;apos;&amp;apos;lysocline&amp;apos;&amp;apos;&amp;apos; is the depth in the [[ocean]] below which the rate of dissolution of [[calcite]] increases dramatically.
+
+Shallow marine waters are generally supersaturated in calcite, CaCO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;, so as marine [[organism]]s (which often have shells made of calcite or its [[polymorphism (materials science)|polymorph]], [[aragonite]]) die, they will tend to fall downwards without dissolving.  As depth (i.e. pressure) increases within the water column, the corresponding calcite saturation of [[seawater]] decreases and the shells start to dissolve. The reaction involved, though more complex, can be thought as: CaCO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;(s) + H&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;O + CO&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt; → Ca&amp;lt;sup&amp;gt;2+&amp;lt;/sup&amp;gt;(aq) + 2HCO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;&amp;lt;sup&amp;gt;-&amp;lt;/sup&amp;gt;(aq).   At the lysocline, the rate of dissolution increases dramatically.  Below this, there exists a depth known as the &amp;apos;&amp;apos;[[Carbonate Compensation Depth|carbonate compensation depth]]&amp;apos;&amp;apos; (CCD) below which the rate of supply of calcite equals the rate of dissolution, such that no calcite is deposited.  This depth is the equivalent of a marine snow-line, and averages about 4,500 meters below [[sea level]].  Hence, the two are not equivalent. The lysocline and compensation depth occur at greater depths in the Atlantic (5000-6000 m) than in the Pacific (4000 - 5000 m), and at greater depths in equatorial regions than in polar regions.
+
+The depth of the CCD varies as a function of the chemical composition of the seawater and its temperature.  Specifically, it is the deep waters that are undersaturated with calcium carbonate primarily because its solubility increases strongly with increasing pressure and salinity and decreasing temperature.  Furthermore, it is not constant over time, having been globally much shallower in the [[Cretaceous]] through to [[Eocene]]. If the atmospheric concentration of [[carbon dioxide]] continues to increase, the CCD can be expected to rise, along with the ocean&amp;apos;s acidity.
+
+==See also==
+* [[Biological pump]]
+* [[Ocean acidification]]
+* [[Carbonate Compensation Depth]]
+* [[Carbonate pump]]
+
+==References==
+* Butler, J. N., 1991: &amp;apos;&amp;apos;Carbon Dioxide Equilibria and Their Applications,&amp;apos;&amp;apos; CRC Press, 1982 ISBN 978-0-87371-624-6
+
+[[Category:Geochemistry]]
+[[Category:Oceanography]]
+
+{{Ocean-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

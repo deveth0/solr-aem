@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Burgundian"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Burgundian" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Burgundian&amp;apos;&amp;apos;&amp;apos; can refer to any of the following:
+
+*[[Burgundians]], an East Germanic tribe, who first appear in history in South East Europe. Later Burgundians colonised the area of Gaul that is now known as Burgundy (French Bourgogne).
+*The Old [[Burgundian language (Germanic)|Burgundian language]], an East Germanic language spoken by the Burgundians.
+*The Modern [[Burgundian language (Oïl)|Burgundian language]], an Oïl language also known as Bourguignon spoken in the region of Burgundy. It is one of the Dialects or Languages of France. Sometimes [[Franc-Comtois language|Franc-Comtois]] is referred to as part of the Burgundian group.
+*Someone from [[Burgundy (region)|Burgundy]].
+*[[Burgundian (party)]], a political faction in early 15th century during the Hundred Years&amp;apos; War.
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

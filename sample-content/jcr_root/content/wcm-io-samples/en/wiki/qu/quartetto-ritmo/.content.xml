@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Quartetto Ritmo"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Quartetto Ritmo" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=July 2009}}
+&amp;apos;&amp;apos;&amp;apos;Quartetto Ritmo&amp;apos;&amp;apos;&amp;apos; was a [[jazz]] vocal male [[quartet]] working in [[Italy]] during the 1940s.
+
+The group originated from the previous [[Quartetto Egie]], after [[Iacopo Jacomelli]] left the formation. [[Virgilio Savona]] replaced him and joined [[Tata Giacobetti]], [[Enrico Gentile]] and [[Enrico De Angelis]] to form the new Quartetto Ritmo.
+
+In 1941 Enrico Gentile was replaced by [[Felice Chiusano]] and the group changed name to [[Quartetto Cetra]].
+
+[[Category:Italian musical groups]]
+
+[[it:Quartetto Cetra#Dal Quartetto Egie e dal Quartetto Ritmo al Quartetto Cetra]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

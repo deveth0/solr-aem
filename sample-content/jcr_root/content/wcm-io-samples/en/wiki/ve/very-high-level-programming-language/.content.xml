@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Very high-level programming language"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Very high-level programming language" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;A &amp;apos;&amp;apos;&amp;apos;very high-level programming language&amp;apos;&amp;apos;&amp;apos; (VHLL) is a [[programming language]] with a very high level of [[abstraction (computer science)|abstraction]], used primarily as a professional programmer productivity tool.
+
+Very high-level programming languages are usually limited to a very specific application, purpose, or type of task. For this reason, very high-level programming languages are often referred to as goal-oriented programming languages.
+
+An example of a very high-level programming language is the [[mIRC scripting language]], which is designed to extend [[mIRC]], a popular [[IRC client]] for [[Microsoft Windows|Windows]].
+== See also ==
+
+* [[Scripting language]]
+* [[Low-level programming language]]
+* [[High-level programming language]]
+* [[Fourth-generation programming language]]
+* [[Fifth-generation programming language]]
+* [[Domain-specific language]]
+
+== References ==
+
+{{refbegin|2}}
+* [http://portal.acm.org/citation.cfm?id=359886&amp;amp;coll=portal&amp;amp;dl=ACMProceedings, Symposium on Very High Level Languages]. SIG- PLAN Notices (ACM) 9, 4 (April 1974), 1-132.
+* Teichroew, D. A survey of.languages for stating requirements for computer-based information systems. Proc. AFIPS 1972 FJCC, AFIPS Press, Montvale, N.J., pp. 1203-1224.
+* [http://www.cliki.net/Libre%20Software%20Meeting%202004 Libre Software Meeting 2004]
+* [http://www-jcsu.jesus.cam.ac.uk/~csr21/papers/lightning/lightning.ps Libre Software Meeting: Proceedings of the VHLL track (2004).]
+* Libre Software Meeting (2003) [http://people.csail.mit.edu/gregs/ll1-discuss-archive-html/msg02777.html VHLL Track announcement]
+{{refend}}
+
+{{Programming language}}
+
+{{compu-lang-stub}}
+
+[[Category:Programming language classification]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

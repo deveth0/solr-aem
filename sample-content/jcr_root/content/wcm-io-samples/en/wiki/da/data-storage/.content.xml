@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Data storage"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Data storage" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|data}}
+{{wiktionary|storage}}
+
+&amp;apos;&amp;apos;&amp;apos;Data storage&amp;apos;&amp;apos;&amp;apos; can refer to:
+
+* [[Computer data storage]]; memory, components, devices and media that retain digital [[data (computing)|computer data]] used for computing for some interval of time.
+* Any [[data storage device]]; that records (stores) or retrieves (reads) information ([[data]]) from any medium, including the medium itself.
+
+==See also==
+*[[Information processing]]
+*[[Signal processing]]
+*[[index card]]
+*[[punched tape]]
+*[[teleprinter]]
+*[[Joseph Marie Jacquard]]
+*[[keypunch]]
+*[[punched card]]
+*[[Rainbow Storage]]
+
+[[ar:تخزين البيانات]]
+
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

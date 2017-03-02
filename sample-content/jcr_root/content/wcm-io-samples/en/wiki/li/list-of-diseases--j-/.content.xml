@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="List of diseases (J)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="List of diseases (J)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;A list of [[disease]]s in the English wikipedia.
+
+{{DiseasesTOC}}
+
+__NOTOC__
+[[#Ja–Je|Ja–Je]] • [[#Jo|Jo]] • [[#Ju|Ju]]
+----
+==Ja–Je==
+* [[Jackson–Weiss syndrome]]
+* [[Jacobsen syndrome]]
+* [[Jadassohn–Lewandowsky syndrome]]
+* [[Jaffer–Beighton syndrome]]
+* [[Jalili syndrome]]
+* [[Jancar syndrome]]
+* [[Jankovic–Rivera syndrome]]
+* [[Jansen type metaphyseal chondrodysplasia]]
+* [[Jansky–Bielschowsky disease]]
+* [[Japanese encephalitis]]
+* [[Jarcho–Levin syndrome]]
+* [[Jejunal atresia]]
+* [[Jensen syndrome]]
+* [[Jequier–Kozlowski skeletal dysplasia]]
+* [[Jervell and Lange-Nielsen syndrome]]
+* [[Jeune syndrome situs inversus]]
+* [[Jeune syndrome]]
+* [[Jeune asphyxiating thoracic dystrophy]]
+
+==Jo==
+* [[Job syndrome]]
+* [[Johanson–Blizzard syndrome]]
+* [[Johnson–Hall–Krous syndrome]]
+* [[Johnson–Munson syndrome]]
+* [[Johnston–Aarons–Schelley syndrome]]
+* [[Jones–Hersh–Yusk syndrome]]
+* [[Jones syndrome]]
+* [[Jorgenson–Lenz syndrome]]
+* [[Joseph disease]]
+* [[Joubert syndrome bilateral chorioretinal coloboma]]
+* [[Joubert syndrome]]
+
+==Ju==
+* [[Juberg–Hayward syndrome]]
+* [[Juberg–Marsidi syndrome]]
+* [[Judge–Misch–Wright syndrome]]
+* [[Jumping Frenchmen of Maine]]
+* [[Jung–Wolff–Back–Stahl syndrome]]
+* [[Juvenile cataract cerebellar atrophy myopathy mental retardation]]
+* [[Juvenile dermatomyositis]]
+* [[Juvenile gastrointestinal polyposis]]
+* [[Juvenile gout]]
+* [[Juvenile hyaline fibromatosis]]
+* [[Juvenile macular degeneration hypotrichosis]]
+* [[Juvenile muscular atrophy of the distal upper limb]]
+* [[Juvenile myoclonic epilepsy]]
+* [[Juvenile nephronophthisis]]
+* [[Juvenile rheumatoid arthritis]]
+* [[Juvenile temporal arteritis]]
+* [[Juliannite nephronophthisis]]
+
+[[Category:Lists of diseases|J]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

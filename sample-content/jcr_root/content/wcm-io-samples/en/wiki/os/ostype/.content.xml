@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="OSType"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="OSType" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Unreferenced|date=May 2009}}
+&amp;apos;&amp;apos;&amp;apos;OSType&amp;apos;&amp;apos;&amp;apos; (also known as &amp;apos;&amp;apos;&amp;apos;ResType&amp;apos;&amp;apos;&amp;apos;) is the name of a [[FourCC|four-byte sequence]] commonly used as an identifier in [[Mac OS]]. While the bytes can have any value, they usually display figures characterized in software programs such as those used in [[ASCII]] or [[Mac OS Roman]] character sets.
+
+OSType values are used to identify file data format types and the applications that created them. The separation of [[type code|file types]] and [[creator code|creators]] allowed the coexistence of documents of the same format belonging to different applications; it is easy to reassign the ownership of any of these documents to any supporting application without changing its name or otherwise affecting its contents.
+
+Macintosh file systems have a separate area for metadata distinct from either the data or resource fork. The catalogue entry for each file stores just the creation and modification timestamp, the file [[type code]] (one OSType) and [[creator code]] (another OSType), fork length, and the file name.
+
+The [[resource fork]] of a file in a Macintosh file system stores an OSType identifier with each resource.
+
+OSTypes are also used to identify the type of data in places other than files: for instance, on the [[Clipboard (software)|Clipboard]], or in [[AppleEvents]]. They tend to have common meanings across these uses: for instance, &amp;lt;code&amp;gt;&amp;apos;TEXT&amp;apos;&amp;lt;/code&amp;gt; identifies a block of text (encoding unspecified, but usually ASCII or Mac Roman), while &amp;lt;code&amp;gt;&amp;apos;PICT&amp;apos;&amp;lt;/code&amp;gt; indicates a [[QuickDraw]] picture.
+
+Four byte identifiers are useful because they can be made up of four human-readable characters with mnemonic qualities, while still fitting in the four byte memory space typically allocated for integers in 32-bit systems. From a memory management standpoint, they&amp;apos;re easier to handle than, for example, [[character string (computer science)|character string]]s of variable length. Compared to arbitrary 32-bit integer values, they are unambiguous since the [[Endianness|byte-order]] is clearly defined. In programming, an OSType made of human-readable characters can be conveniently specified as a [[C (programming language)|C]] [[C_syntax#Character_constants|multi-character literal]], which allows you to specify an integer literal, whose bytes are made up of human-readable characters.
+
+Since [[OS X]] [[OS X v10.3|10.3]], OSType signatures are one of several sources that may be examined to determine a [[Uniform Type Identifier]] and are no longer used as the primary data type signature.
+
+Other uses for OSTypes include:
+* as [[Gestalt (Mac OS)|Gestalt]] selector codes
+* as record field IDs and event type and class IDs in [[AppleEvents]]
+* for identifying components in the [[Component manager|Component Manager]]
+* as “atom” IDs in the [[QuickTime]] movie and image file formats
+* as a localization-independent way of identifying standard folders in the Folder Manager
+* in [[QuickDraw GX]], they were used as gxTag types and also as types of collection items in the Collection Manager.
+* as [[error code]]s in certain libraries, such as QuickTime
+
+[[FourCC]] is a system of [[File format|data format]] identification used in some platform-independent multimedia [[container format (digital)|containers]], such as [[AIFF]] and [[Resource Interchange File Format|RIFF]]. It inherits may codes from the OSType. Similar system is also used in [[TrueType]] font format.
+
+== See also ==
+* [[Magic number (programming)#Format indicator|Magic number]]
+* [[Interchange File Format]]
+* [[Uniform Type Identifier]] OS X&amp;apos;s replacement for OSType based identifiers.
+* [[FourCC]], the corresponding concept on Microsoft Windows
+
+{{Mac OS}}
+
+{{DEFAULTSORT:Ostype}}
+[[Category:Apple Inc. software]]
+[[Category:Mac OS]]
+[[Category:Metadata]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

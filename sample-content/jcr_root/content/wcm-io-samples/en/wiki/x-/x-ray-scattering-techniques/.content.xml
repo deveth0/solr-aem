@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="X-ray scattering techniques"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="X-ray scattering techniques" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Image:X-ray diffraction pattern 3clpro.jpg|thumb|250px|This is an X-ray diffraction pattern formed when X-rays are focused on a crystalline material, in this case a protein. Each dot, called a reflection, forms from the coherent interference of scattered X-rays passing through the crystal.]]
+&amp;apos;&amp;apos;&amp;apos;X-ray scattering techniques&amp;apos;&amp;apos;&amp;apos; are a family of non-destructive analytical [[scientific technique|techniques]] which reveal information about the [[crystal structure]], chemical composition, and physical properties of materials and thin films. These techniques are based on observing the [[scattering|scattered]] [[Intensity (physics)|intensity]] of an [[X-ray]] beam hitting a sample as a function of incident and scattered angle, polarization, and wavelength or energy. Note that X-ray scattering is different from X-ray [[diffraction]], which is widely used for [[X-ray crystallography]].
+
+==Scattering techniques==
+===Elastic scattering===
+Materials that do not have long range order may also be studied by scattering methods that rely on [[elastic collision|elastic]] scattering of monochromatic X-rays.
+* [[Small-angle X-ray scattering]] (SAXS) probes structure in the nanometer to micrometer range by measuring scattering intensity at scattering angles 2θ close to 0°.
+* [[X-ray reflectivity]] is an analytical technique for determining thickness, roughness, and density of single layer and multilayer thin films.
+* [[Wide-angle X-ray scattering]] (WAXS), a technique concentrating on scattering angles 2θ larger than 5°.
+
+===Inelastic scattering===
+When the energy and angle of the [[inelastic collision|inelastically]] scattered X-rays are monitored, scattering techniques can be used to probe the [[electronic band structure]] of materials.  Inelastic scattering alters the phase of the diffracted x-rays, and as a result do not produce useful data for x-ray diffraction.  Rather, inelastically scattered x-rays contribute to the background noise in a diffraction pattern.
+* [[Compton scattering]]
+* [[Resonant inelastic X-ray scattering]] (RIXS)
+* [[X-ray Raman scattering]]
+
+== See also ==
+* [[Structure determination]]
+* [[Materials science]]
+* [[Metallurgy]]
+* [[Mineralogy]]
+* [[X-ray crystallography]]
+* [[X-ray generator]]
+* [[Ultrafast x-rays]]
+
+==References==
+&amp;lt;references/&amp;gt;
+
+==External links==
+{{commons category|X-ray diffraction}}
+* [http://www.xtal.iqfr.csic.es/Cristalografia/index-en.html Learning Crystallography]
+* [http://www.iucr.ac.uk/ International Union of Crystallography]
+* [http://www.iucr.org/cww-top/crystal.index.html IUCr Crystallography Online]
+* [http://www.icdd.com/ The International Centre for Diffraction Data (ICDD)]
+* [http://crystallography.org.uk/ The British Crystallographic Association]
+* [http://www.mrl.ucsb.edu/centralfacilities/x-ray/basics Introduction to X-ray Diffraction] at [[University of California, Santa Barbara]]
+
+[[Category:X-ray scattering]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

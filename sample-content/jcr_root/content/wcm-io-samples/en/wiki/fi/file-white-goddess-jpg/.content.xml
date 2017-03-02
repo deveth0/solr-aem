@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="File:White goddess.JPG"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="File:White goddess.JPG" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;==Fair use rationale==
+{{Non-free use rationale|Article=The White Goddess
+|Description=Front cover of &amp;apos;&amp;apos;[[The White Goddess]]&amp;apos;&amp;apos; by [[Robert Graves]] ISBN 0-374-50493-8
+|Source=Derived from a digital capture (photo/scan) of the book cover (creator of this digital version is irrelevant as the copyright in all equivalent images is still held by the same party). Copyright held by the publisher or the artist.  Claimed as fair use regardless.
+|Portion=Book cover only, a small portion of the commercial product.
+|Low_resolution=Yes
+|Purpose=Article [[The White Goddess]].  The image serves as the primary means of visual identification of the subject (the book).  It illustrates educational articles about the book from which the cover illustration was taken.
+|Replaceability=There is no free equivalent of this book cover, so the image cannot be replaced by a free image.
+|other_information=The use of the cover will not affect the value of the original work or limit the copyright holder&amp;apos;s rights or ability to distribute the original. In particular, copies could not be used to make illegal copies of the book.
+}}
+
+==Licensing==
+{{Non-free book cover|image has rationale=yes}}
+{{reviewedfairuse|date=21:28, 10 February 2008 (UTC)|user=[[User:Moe Epsilon|Moe Epsilon]]|pages=[[The White Goddess]]}}
+
+[[Category:Book covers|The White Goddess]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

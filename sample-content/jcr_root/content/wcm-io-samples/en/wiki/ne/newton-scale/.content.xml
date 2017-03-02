@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Newton scale"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Newton scale" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{distinguish2|[[Newton (unit)]], the SI unit of force}}
+{{temperature}}
+The &amp;apos;&amp;apos;&amp;apos;Newton scale&amp;apos;&amp;apos;&amp;apos; is a [[temperature]] scale devised by [[Isaac Newton]] around 1700. Applying his mind to the problem of [[heat]], he elaborated a first qualitative temperature scale, comprising about twenty reference points ranging from &amp;quot;cold air in winter&amp;quot; to &amp;quot;glowing coals in the kitchen fire&amp;quot;. This approach was rather crude and problematic, so Newton quickly became dissatisfied with it. He knew that most substances expand when heated, so he took a container of [[linseed oil]] and measured its change of [[volume]] against his reference points. He found that the volume of linseed oil grew by 7.25% when heated from the temperature of melting [[snow]] to that of boiling water.
+
+After a while, he defined the &amp;quot;zeroth degree of heat&amp;quot; as melting snow and &amp;quot;33 degrees of heat&amp;quot; as boiling water. His scale is thus a precursor of the [[Celsius scale]], being defined by the same temperature references. Indeed it is likely that Celsius knew about the Newton scale when he invented his. Newton called his instrument a &amp;quot;[[thermometer]]&amp;quot;.
+
+Thus the [[units of measurement|unit]] of this scale, the Newton degree, equals {{sfrac|100|33}} (approximately 3.03) [[kelvin]] or degrees [[Celsius]] and has the same zero as the [[Celsius]] scale.
+
+==Conversion table between the different temperature units==
+{{Timeline Temperature Conversion}}
+
+==See also==
+* [[Comparison of temperature scales]]
+
+==References==
+*{{Citation |first=U. |last=Grigull |title=Newton&amp;apos;s temperature scale and the law of cooling |journal=Heat and Mass Transfer |volume=18 |issue=4 |year=1984 |doi=10.1007/BF01007129 |pages=195–199 |bibcode = 1984W&amp;amp;S....18..195G }}.
+
+==External links==
+*[http://www.scienceandsociety.co.uk/results.asp?image=10413117&amp;amp;wwwflag=&amp;amp;imagepos=43  Photo of an antique thermometer backing board c. 1758]&amp;amp;mdash;marked in four scales; the first is Newton&amp;apos;s.
+
+{{TemperatureScales}}
+
+[[Category:Obsolete units of measurement]]
+[[Category:Units of temperature]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Inner Wheel Club"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Inner Wheel Club" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{unref|date=January 2013}}
+
+[[Image:Innerwheel.png|right]]
+&amp;lt;!-- FAIR USE of Innerwheel.png: see image description page at http://en.wikipedia.org/wiki/Image:Innerwheel.png for rationale --&amp;gt;
+&amp;apos;&amp;apos;&amp;apos;Inner Wheel&amp;apos;&amp;apos;&amp;apos; is an international organisation closely linked to [[Rotary International|Rotary]] that was founded to unite wives and daughters of Rotarians.
+
+Before year 1989, Rotary generally prohibited women as members. Therefore another organisation was established for the wives and daughters of Rotarians, known as Inner Wheel. Despite women now being able to join Rotary, Inner Wheel Clubs continue in many countries.
+
+The International Inner Wheel objectives are (a) promoting true friendship, (b) encouraging the ideals of personal service, and (c) fostering international understanding.
+
+==References==
+{{reflist}}
+
+==External links==
+*[http://www.innerwheel.com/ International Inner Wheel]
+*[http://www.associationofinnerwheelclubs.co.uk/ Association of Inner Wheel Clubs in Great Britain &amp;amp; Ireland]
+*[http://www.innerwheelaustralia.org.au/ Inner Wheel Australia]
+*[http://www.innerwheelclubs.ph/ Inner Wheel Club of the Philippines]
+*[http://www.innerwheel.ch/ Inner Wheel Club of Switzerland &amp;amp; Liechtenstein] (District 199)
+**[http://innerwheel-lausanne.ch/ Inner Wheel Club, in Lausanne, on the shores of Lake Geneva (Switzerland)]
+
+[[Category:Rotary International]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

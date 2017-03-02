@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Xceive XC3028"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Xceive XC3028" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;Xceive&amp;apos;s &amp;apos;&amp;apos;&amp;apos;XC3028&amp;apos;&amp;apos;&amp;apos; and XC3028L are single-chip TV [[tuner]]s by [[Xceive]] Inc., capable of receiving analogue cable, analogue terrestrial, [[digital cable]] and [[digital terrestrial]] TV ([[PAL]], [[NTSC]], [[SECAM]], DVB-t, [[ATSC Standards|ATSC]], DVB-c). It is commonly used in [[USB]] digital TV receivers for Windows and Mac due to its small size and power consumption, but the manufacturer also markets it as suitable for portable TVs and [[notebook computers]].
+
+Its main competitor is the [[Microtune MT2060]].
+
+Support for this tuner has been added in the 2.6.25 Linux kernel.
+
+==XC3018==
+It is a variant that only supports analog reception and DVB-T digital reception.
+
+==Technical specification==
+*Outline Dimensions: 7 x 7 x 0.85&amp;amp;nbsp;mm
+*Supply Voltage (DC): 1.8V, 3.3V
+*System setting time: 5ms
+*Input Impedance: 75 ohms
+*VSWR (typical): 2.5
+*Noise Figure (typical): 6dB
+*Phase noise @10kHz (typical): –85dBc/Hz
+*CTB: –63dBc
+*Image rejection: 60dB
+*AGC range: 80dB
+*Video S/N (unweighted): 48dB
+*Frequency range: 42-864MHz
+*XC3028 Power Dissipation: &amp;lt; 1.2W
+*XC3028L Power Dissipation: &amp;lt; 1.0W
+
+==External links==
+*[http://www.xceive.com/technology_XC3028.htm Manufacturers&amp;apos; Information]
+*[http://www.linuxtv.org/wiki/index.php/Xceive_XC3028/XC2028 LinuxTV.Org]
+
+[[Category:Integrated circuits]]
+[[Category:Television technology]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="List of Japanese writers"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="List of Japanese writers" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;This is an alphabetical &amp;apos;&amp;apos;&amp;apos;list of writers who are [[Japan]]ese&amp;apos;&amp;apos;&amp;apos;, or are famous for having written in the [[Japanese language]]. &amp;apos;&amp;apos;See also:&amp;apos;&amp;apos; [[Japanese literature]]
+
+Writers are listed by the native order of Japanese names, family name followed by given name to ensure consistency even though some writers are known for their western-ordered name.
+
+&amp;lt;center&amp;gt;List of Japanese writers by family name: [[List of Japanese authors:A|A]] - [[List of Japanese authors:B|B]] - [[List of Japanese authors:C|C]] - [[List of Japanese authors:D|D]] - [[List of Japanese authors:E|E]] - [[List of Japanese authors:F|F]] - [[List of Japanese authors:G|G]] - [[List of Japanese authors:H|H]] - [[List of Japanese authors:I|I]] - [[List of Japanese authors:J|J]] - [[List of Japanese authors:K|K]] - [[List of Japanese authors:M|M]] - [[List of Japanese authors:N|N]] - [[List of Japanese authors:O|O]] - [[List of Japanese authors:R|R]] - [[List of Japanese authors:S|S]] - [[List of Japanese authors:T|T]] - [[List of Japanese authors:U|U]] - [[List of Japanese authors:W|W]] - [[List of Japanese authors:Y|Y]] - [[List of Japanese authors:Z|Z]]&amp;lt;/center&amp;gt;
+
+==See also==
+* [[list of Japanese people]]
+* [[list of novelists]]
+* [[lists of authors]]
+
+{{Japanese language}}
+
+[[Category:Lists of Japanese writers| ]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

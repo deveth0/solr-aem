@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Cloud cover"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Cloud cover" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Weather}}
+
+&amp;apos;&amp;apos;&amp;apos;Cloud cover&amp;apos;&amp;apos;&amp;apos; (also known as &amp;apos;&amp;apos;&amp;apos;cloudiness&amp;apos;&amp;apos;&amp;apos;, &amp;apos;&amp;apos;&amp;apos;cloudage&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;cloud amount&amp;apos;&amp;apos;&amp;apos;) refers to the fraction of the [[sky]] obscured by [[cloud]]s when observed from a particular location.
+
+== Role in the climate system ==
+&amp;lt;gallery widths=&amp;quot;445px&amp;quot; heights=&amp;quot;200px&amp;quot; perrow=&amp;quot;2&amp;quot;&amp;gt;
+File:Worldclouds 2009.jpg|Global cloud cover, averaged over the month of October, 2009. The outlines of the continents can often be traced through observations of clouds alone, with the sharpest outlines where very dry land is surrounded by ocean. [[NASA]] composite satellite image; larger image available [http://earthobservatory.nasa.gov/images/imagerecords/41000/41292/cldfrc_TMO_200910_lrg.png here].
+File:MODIS Map.jpg|[[Satellite image]] based largely on observations from [[NASA]]&amp;apos;s [[Moderate Resolution Imaging Spectroradiometer]] (MODIS) on July 11, 2005 of Earth&amp;apos;s cloud cover.
+&amp;lt;/gallery&amp;gt;
+Clouds play multiple critical roles in the [[climate system]]. In particular, being bright objects in the visible part of the [[sun|solar]] [[spectrum]], they efficiently reflect light to space and thus contribute to the cooling of the planet.
+
+See [[climate change]] for a more detailed discussion of these issues.
+
+==See also==
+[[Okta]], a unit of measurement used to describe cloud cover.
+
+== References ==
+{{reflist}}
+* Huschke, Ralph E. (1959) &amp;apos;&amp;apos;Glossary of Meteorology&amp;apos;&amp;apos;, American Meteorological Society, Boston, Second printing-1970.
+* McIntosh, D. H. (1972) &amp;apos;&amp;apos;Meteorological Glossary&amp;apos;&amp;apos;, Her Majesty&amp;apos;s Stationery Office, Met. O. 842, A.P. 897, 319 p.
+* [http://www.grida.no/climate/ipcc_tar/ IPCC Third Assessment Report], has extensive coverage of cloud-climate interactions: See, in particular, chapter 7.2.
+
+== External links ==
+{{Commons|Cloud cover}}
+* [http://www.nsdl.arm.gov/Library/glossary.shtml#Cloud_cover NSDL.arm.gov], &amp;apos;&amp;apos;Glossary of Atmospheric Terms&amp;apos;&amp;apos;, From the National Science Digital Library&amp;apos;s [http://www.nsdl.arm.gov Atmospheric Visualization Collection].
+* [http://earthobservatory.nasa.gov/GlobalMaps/view.php?d1=MODAL2_M_CLD_FR# Earthobersvatory.nasa.gov], Monthly maps of global cloud cover from NASA&amp;apos;s [[Earth Observatory]]
+* [http://isccp.giss.nasa.gov/# International Satellite Cloud Climatology Project (ISCCP)], &amp;apos;&amp;apos; NASA&amp;apos;s data products on their satellite observations &amp;apos;&amp;apos;
+
+[[Category:Clouds]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

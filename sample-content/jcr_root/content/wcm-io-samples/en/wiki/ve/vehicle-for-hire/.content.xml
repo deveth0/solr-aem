@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Vehicle for hire"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Vehicle for hire" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{main|Taxicab}}
+
+[[image:Cabs.jpg|thumb|190px|[[Taxicab]]s in [[New York City]]]]
+[[image:TricycleCarriage.jpg|thumb|190px|right|[[Cycle rickshaw|Velotaxi]] in [[New York City]]]]
+
+A &amp;apos;&amp;apos;&amp;apos;vehicle for hire&amp;apos;&amp;apos;&amp;apos; is a [[vehicle]] providing [[shared transport]], which transports one or more passengers between locations of the passengers&amp;apos; choice (or close to it).
+
+Vehicles for hire can be distinguished from conventional modes of public transport in that vehicle for hire passengers are more or less free to choose their starting and ending locations (point of origin and destination), whereas in other modes, the passenger must choose from a limited selection of locations designated by the service provider. This mode should also be distinguished from [[Renting|hiring]] a vehicle for driving oneself (see [[car rental]] and [[carsharing]]).
+
+The most common vehicle for hire around the world is the [[taxicab]]; other vehicles for hire include [[limousine]]s, [[party bus]]es, [[Cycle rickshaw|rickshaws]], [[auto rickshaw]]s, [[motorcycle taxi]]s, [[velotaxi]]s (pedicabs), horse-drawn [[carriage]]s (including [[hackney carriage]]s and [[caleche]]s), and [[water taxi]]s. However, aircraft can also be [[wiktionary:Chartering|chartered]] (see [[Air charter]]).
+
+[[share taxi|Jitney]]s, [[paratransit]], [[share taxis]], [[demand responsive transport]], [[public light bus]]es and [[shuttle bus]]es are hybrids - halfway between taxicabs and [[bus]]es - and operate along somewhat fixed routes, with some flexibility in where passengers may be picked up or dropped off. Some of these routes may be very long, as in [[New Zealand]].
+
+[[Image:Chariot Bikes fleet.jpg|thumb|270px|left|[[Cycle rickshaw|Eco Chariots pedicab fleet]] in [[London]]]]
+Shuttle services are also offered from many [[airport]]s around the world: they take multiple independent passengers, like a bus, and usually run between two fixed areas (typically an [[airport]] and a downtown or hotel area), but will often pick up and drop off passengers anywhere reasonable within those areas, like a taxi.  In [[Hong Kong]], small [[van]]s provide goods services within the territory.
+
+{{Public transport}}
+
+[[Category:Vehicles for hire| ]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

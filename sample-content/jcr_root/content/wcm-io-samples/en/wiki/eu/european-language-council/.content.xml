@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="European Language Council"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="European Language Council" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{no footnotes|date=May 2011}}
+The &amp;apos;&amp;apos;&amp;apos;European Language Council&amp;apos;&amp;apos;&amp;apos; is a permanent and independent [[Language Council|association]] whose main aim is the quantitative and qualitative improvement of knowledge of the languages and cultures of the [[European Union]] and beyond.  Membership is open to all institutions of higher education and all national and international associations with a special interest in languages.
+
+The association&amp;apos;s permanent secretariat is at the [[Freie University]] in [[Berlin]], [[Germany]].
+
+==External links==
+*[http://www.celelc.org/ Web page of the European Language Council]
+
+[[Category:Language policy of the European Union]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

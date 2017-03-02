@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Yasumasa Kanada"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Yasumasa Kanada" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{nihongo|&amp;apos;&amp;apos;&amp;apos;Yasumasa Kanada&amp;apos;&amp;apos;&amp;apos;|金田 康正|Kanada Yasumasa|extra=born 1949}} is a [[Japan]]ese [[mathematician]] most known for his numerous world records over the past three decades for calculating digits of [[pi|{{pi}}]]. He has set the record 11 of the past 21 times.
+
+Kanada is a professor in the Department of Information Science at the [[University of Tokyo]] in [[Tokyo]], [[Japan]].
+
+From 2002 until 2009, Kanada held the world record calculating the number of digits in the decimal expansion of pi – exactly 1.2411 trillion digits.  The calculation took more than 600 hours on 64 nodes of a [[HITACHI SR8000/MPP]] [[supercomputer]].  Some of his competitors in recent years include [[Jonathan Borwein|Jonathan]] and [[Peter Borwein]] and the [[Chudnovsky brothers]].
+
+== See also ==
+*[[Chronology of computation of π|Chronology of computation of {{pi}}]]
+
+== External links ==
+* [http://www.hints.org/~kanada/index.html Kanada&amp;apos;s Home Page]
+* {{gutenberg author| id=Yasumasa+Kanada | name=Yasumasa Kanada}}
+
+{{Authority control|VIAF=54006972}}
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Kanada Yasumasa
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION =
+| DATE OF BIRTH     = 1949
+| PLACE OF BIRTH    =
+| DATE OF DEATH     =
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Kanada Yasumasa}}
+[[Category:1949 births]]
+[[Category:Living people]]
+[[Category:Japanese mathematicians]]
+[[Category:Japanese educators]]
+[[Category:Pi]]
+[[Category:People from Himeji, Hyōgo]]
+[[Category:Tohoku University alumni]]
+
+{{Japan-scientist-stub}}
+{{Asia-mathematician-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

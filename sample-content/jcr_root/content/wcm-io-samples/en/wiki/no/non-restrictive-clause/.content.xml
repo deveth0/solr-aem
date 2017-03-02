@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Non-restrictive clause"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Non-restrictive clause" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Technical|date=June 2010}}
+A &amp;apos;&amp;apos;&amp;apos;non-restrictive clause&amp;apos;&amp;apos;&amp;apos; is a clause in which a noun phrase that is used to avoid repetition (as the [[referent]] of an [[anaphor]], meaning that it is substituted by another word but refers to the same noun) is determined by its [[antecedent (grammar)|antecedent]] where the dependent is peripheral (non-essential) in the secondary constituent, as opposed to a [[restrictive clause]], where the dependent is central (essential) to its primary constituent. A non-restrictive clause does not identify the referent of its noun, but only provides information about it.
+
+Restrictive example:
+
+:&amp;apos;&amp;apos;The officer helped the civilians who had been shot.&amp;apos;&amp;apos;
+or
+:&amp;apos;&amp;apos;The officer helped those civilians who had been shot.&amp;apos;&amp;apos;
+
+In this example, there is no comma before &amp;quot;who.&amp;quot; Therefore, what follows is a restrictive clause. (Not all of the civilians had been shot.)
+
+Non-restrictive example:
+:&amp;apos;&amp;apos;The officer helped the civilians, who had been shot.&amp;apos;&amp;apos;
+
+Here, there is a comma before &amp;quot;who.&amp;quot; Therefore, what follows is a non-restrictive clause. It changes the sentence to mean that &amp;apos;&amp;apos;all&amp;apos;&amp;apos; the civilians had been shot.&amp;lt;ref&amp;gt;http://www.unt.edu/cjus/resources/that-which.htm{{Dead link|date=December 2011}}&amp;lt;/ref&amp;gt;
+
+==See also==
+* [[Relative pronoun]]
+* [[Relative clause]]
+* [[English relative clauses]]
+* [[Apposition]]
+
+==References==
+{{Reflist}}
+
+{{DEFAULTSORT:Non-Restrictive Clause}}
+[[Category:Syntactic entities]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

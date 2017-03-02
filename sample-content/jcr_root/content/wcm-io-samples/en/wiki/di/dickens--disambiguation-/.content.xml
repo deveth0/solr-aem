@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Dickens (disambiguation)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Dickens (disambiguation)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary|dickens}}
+&amp;apos;&amp;apos;&amp;apos;[[Charles Dickens]]&amp;apos;&amp;apos;&amp;apos; (1812–1870) was an English writer and social critic.
+
+&amp;apos;&amp;apos;&amp;apos;Dickens&amp;apos;&amp;apos;&amp;apos; may also refer to:
+{{TOC right}}
+== People ==
+* [[Dickens (surname)]]
+* [[Dickens family]]
+
+== Places ==
+=== Towns === &amp;lt;!--ALPHABETICALLY BY COUNTRY--&amp;gt;
+;Canada
+* [[Dickens, Vancouver]], British Columbia, a small neighbourhood in East Vancouver
+
+;United Kingdom
+* [[Dickens Heath]], village in the borough of Solihull, West Midlands
+
+;United States
+* [[Dickens, Iowa]] (population 202 at the 2000 census), a city in Clay County
+* [[Dickens, Maryland]], an unincorporated community in Allegany County
+* [[Dickens, Nebraska]], an unincorporated community in Lincoln County
+* [[Dickens, Texas]] (population 332 at the 2000 census), a city in Dickens County
+* [[Dickens County, Texas]] (population 2,762 at the 2000 census)
+
+=== Entertainment ===
+* [[Dickens World]], themed attraction located at Chatham Dockyard, Kent, UK
+* [[Dickens Athletic Center]], 2,500-seat multi-purpose arena in Chicago, U.S.
+* [[Dickens on the Strand]], annual Christmas festival in Galveston, Texas, U.S.
+
+=== Schools ===
+* [[Charles Dickens Elementary School]], public elementary school in Vancouver, Canada
+* [[Dickens Annex]], public elementary school in Vancouver, Canada
+* [[Dickens Hall]], historical building at Kansas State University in Manhattan, U.S.
+
+== Vehicles ==
+* [[USS Dickens (APA-161)|USS &amp;apos;&amp;apos;Dickens&amp;apos;&amp;apos; (APA-161)]], U.S. Navy attack transport during WW2
+
+== Films and TV shows ==
+* &amp;apos;&amp;apos;Dickens (TV miniseries)&amp;apos;&amp;apos;, 2002 PBS miniseries
+* &amp;apos;&amp;apos;[[Dickens in America]]&amp;apos;&amp;apos;, 2005 BBC television documentary
+
+{{disambiguation|geo}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

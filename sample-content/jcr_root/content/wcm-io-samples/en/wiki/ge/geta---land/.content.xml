@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Geta, Åland"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Geta, Åland" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Expand Swedish|date=March 2011|Geta, Åland}}
+{{Infobox Finnish Municipality
+|name                   = Geta
+|official_name          = {{lang|sv|Geta kommun}}
+|other_name             =
+|native_name            =
+|native_name_lang       =
+|nickname               =
+|settlement_type        = Municipality &amp;lt;!-- City, Town or Municipality--&amp;gt;
+|total_type             = &amp;lt;!-- to set a non-standard label for total area and population rows --&amp;gt;
+|motto                  =
+|image_skyline          =
+|imagesize              =
+|image_caption          =
+|image_flag             =
+|flag_size              =
+|image_seal             =
+|seal_size              =
+|image_shield           = Geta.vaakuna.svg
+|shield_size            =
+|image_blank_emblem     =
+|blank_emblem_type      =
+|blank_emblem_size      =
+|image_map              = Geta.sijainti.suomi.2008.svg
+|mapsize                =
+|map_caption            = Location of Geta in [[Finland]]
+|image_dot_map          =
+|dot_mapsize            =
+|dot_map_caption        =
+|dot_x =  |dot_y =
+|pushpin_map            =Finland Åland
+|pushpin_label_position =
+|pushpin_map_caption    = Location in Åland
+|pushpin_mapsize        = 250
+|province               = {{flag|Åland}}
+|region                 = Åland
+|subregion              = Åland Countryside sub-region
+&amp;lt;!-- Smaller parts (e.g. boroughs of a city) and seat of government --&amp;gt;
+|seat_type              =
+|seat                   =
+|parts_type             =
+|parts_style            = &amp;lt;!-- =list (for list), coll (for collapsed list), para (for paragraph format)
+                               Default is list if up to 5 items, coll if more than 5--&amp;gt;
+|parts                  = &amp;lt;!-- parts text, or header for parts list --&amp;gt;
+|p1                     =
+|p2                     = &amp;lt;!-- etc. up to p10: for separate parts to be listed--&amp;gt;
+|government_footnotes   =
+|leader_title           = Municipal manager
+|leader_name            = Erik Brunström
+|leader_title1          =
+|leader_name1           =
+|leader_title2          =
+|leader_name2           =
+|leader_title3          =
+|leader_name3           =
+|established_title      =
+|established_date       =
+|established_title2     =
+|established_date2      =
+|established_title3     =
+|established_date3      =
+|extinct_title          =
+|extinct_date           =
+|area_urban_km2         =
+|area_metro_km2         =
+|population_metro       =
+|population_blank1_title  =
+|population_blank1        =
+|population_density_metro_km2 =
+|population_urban       =
+|population_density_urban_km2 =
+|population_note        =
+|finnish_official       =
+|swedish_official       = 1
+|sami_official          =
+|urbanisation           =
+|unemployment           =
+|blank1_name            =
+|blank1_info            =
+|blank2_name            =
+|blank2_info            =
+|blank3_name            =
+|blank3_info            =
+|blank4_name            =
+|blank4_info            =
+|coordinates_display    =
+|coordinates_type       =
+&amp;lt;!-- latNS=N and longEW=E set by default --&amp;gt;
+|latd=   60 |latm=  22.5 |lats=
+|longd= 019 |longm= 51 |longs=
+|elevation_m            =
+|postal_code            =
+|area_code              =
+|website                = [http://www.geta.ax/ www.geta.ax]
+|footnotes              =
+}}
+&amp;apos;&amp;apos;&amp;apos;Geta&amp;apos;&amp;apos;&amp;apos; is a [[municipalities of Finland|municipality]] of [[Åland]], an autonomous territory of [[Finland]].
+
+The municipality has a population of {{formatnum: {{Infobox Finnish Municipality/population count|{{PAGENAME}}}}}} ({{#time: j F Y|{{Infobox Finnish Municipality/population count|sourcedate}} }})&amp;lt;ref name=&amp;quot;population_count&amp;quot; /&amp;gt; and covers an area of {{convert|{{Infobox Finnish Municipality/total area|{{PAGENAME}}}}|km2}} of which {{convert|{{Infobox Finnish Municipality/waters area|{{PAGENAME}}}}|km2|abbr=on}} is water.&amp;lt;ref name=&amp;quot;total_area&amp;quot; /&amp;gt; The [[population density]] is {{convert|{{Infobox Finnish Municipality/population density|{{PAGENAME}}|round=2}}|PD/km2}}.
+
+The municipality is unilingually [[Swedish language|Swedish]].
+
+==References==
+{{reflist}}
+
+==External links==
+{{commonscat-inline|Geta}}
+*[http://www.geta.ax/ Municipality of Geta] – Official website
+
+[[File:Soltuna i Geta, norra Åland (december 1990)..jpg|thumb|left|260px|Soltuna, Geta]]
+
+{{Municipalities of Åland}}
+
+[[Category:Municipalities of Åland]]
+{{Åland-geo-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

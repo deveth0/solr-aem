@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="File:Arms-altrincham.jpg"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="File:Arms-altrincham.jpg" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;== Summary ==
+{{Non-free use rationale logo
+| Article           = Altrincham
+| Use               = Other
+&amp;lt;!-- ADDITIONAL INFORMATION --&amp;gt;
+| Used for          =
+| Owner             =
+| Website           =
+| History           =
+| Commentary        =
+&amp;lt;!--OVERRIDE FIELDS --&amp;gt;
+| Description       = The coat of arms of [[Altrincham]] Municipal Borough Council before its abolition in 1974.
+| Source            = [http://www.civicheraldry.co.uk civicheraldry.co.uk]
+| Portion           =
+| Low_resolution    =
+| Purpose           = To illustrate the Altrincham article, the image is used as evidence that Altrincham previously had its own independent town council before the formation of Trafford. It is also significant because it is a part of Altrincham&amp;apos;s civic history.&amp;lt;!--Must be specified if Use is not Infobox / Org / Brand / Product--&amp;gt;
+| Replaceability    =
+| other_information =
+}}
+
+== Licensing ==
+{{Non-free logo|image has rationale=yes}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

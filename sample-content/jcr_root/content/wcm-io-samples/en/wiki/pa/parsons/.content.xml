@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Parsons"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Parsons" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary}}
+&amp;apos;&amp;apos;&amp;apos;Parsons&amp;apos;&amp;apos;&amp;apos; may refer to:
+{{TOCright}}
+
+==Places==
+In the United States:
+* [[Parsons, California]], a former settlement
+* [[Parsons, Kansas]], a city
+* [[Parsons, Tennessee]], a city
+* [[Parsons, West Virginia]], a town
+* [[Camp Parsons]], a Boy Scout camp in the state of Washington
+* [[Lake Parsons]], near Parsons, Kansas
+* [[Parsons Field]], a multi-purpose stadium in Brookline, Massachusetts
+* [[Parsons Memorial Lodge]], Yosemite National Park, California
+* [[Parsons Peak]], a mountain in Yosemite National Park
+
+In Canada:
+* [[Parsons Road]], Edmonton, Alberta
+
+On the Moon:
+* [[Parsons (crater)]]
+
+==People==
+* [[Parsons (surname)]]
+* [[Parsons Baronets]], four baronetcies, two in Ireland, one in England, and one in the United Kingdom
+
+==Companies==
+* [[Parsons Brinckerhoff]], engineering firm headquartered in New York City
+* [[Parsons Corporation]], engineering firm headquartered in Pasadena, California
+* [[Parsons Marine Steam Turbine Company]], company founded by Charles Parsons to build marine steam turbines
+* [[C. A. Parsons and Company]], company founded by Charles Parsons to build turbo-generators
+* [[Parsons Dance Company]], based in New York City
+
+==Schools==
+* [[Parsons The New School for Design]], New York City
+* [[Parsons College]], a college formerly located in Fairfield, Iowa, that closed in the 1970s
+
+==Events==
+* [[Suicide of Rehtaeh Parsons]] a young Canadian woman whose suicide is attributed to [[Bullycide]]
+
+==Other uses==
+* [[Parsons code]], a system of notation used to identify a musical work
+* [[USS Parsons (DD-949)|USS &amp;apos;&amp;apos;Parsons&amp;apos;&amp;apos; (DD-949)]], a US Navy destroyer
+
+==See also==
+* [[Parson (disambiguation)]]
+
+{{disambig|surname|geo}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

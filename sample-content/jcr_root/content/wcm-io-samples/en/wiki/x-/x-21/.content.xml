@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="X.21"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="X.21" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{About|the communication standard|the experimental aircraft|Northrop X-21}}
+[[File:X21-15pin-D-Sub-connector-0a.jpg|thumb|right|X.21 15-pin [[D-Sub]] connector.]]
+&amp;apos;&amp;apos;&amp;apos;X.21&amp;apos;&amp;apos;&amp;apos; (sometimes referred to as X21) is an interface specification for differential communications introduced in the mid-1970s by the [[ITU-T]]. X.21 was first introduced as a means to provide a digital signaling interface for telecommunications between carriers and customers&amp;apos; equipment. This includes specifications for [[Data terminal equipment|DTE]]/[[Data circuit-terminating equipment|DCE]] physical interface elements, alignment of [[call control]] characters and [[error control|error checking]], elements of the call control phase for [[circuit switched|circuit switching]] services, and test loops.
+
+When X.21 is used with [[ITU-T V-Series Recommendations|V.11]], it provides synchronous data transmission at rates from 600 bit/s to 10 Mbit/s. There is also a variant of X.21 that is only used in select legacy applications, “circuit switched X.21”. X.21 normally is found on a 15-pin D-Sub connector and is capable of running full-duplex data transmissions.
+
+The Signal Element Timing, or clock, is provided by the carrier (your telephone company), and is responsible for correct clocking of the data. X.21 is primarily used in Europe and Japan, for example in the Scandinavian [[DATEX]] and German [[DATEX-L]] circuit switched networks during the 1980s.
+
+==References==
+&amp;apos;&amp;apos;Article based on [http://foldoc.doc.ic.ac.uk/foldoc/foldoc.cgi?query=X.21 X.21] at [http://www.foldoc.org FOLDOC], and [http://www.connectworld.net/x21.html X.21 Pinouts], used with [[Wikipedia:Foldoc license|permission]].&amp;apos;&amp;apos;
+
+==External links==
+*[http://www.arcelect.com/X21_interface.htm An X.21 brief Tutorial and overview]
+*[http://old.pinouts.ru/SerialPorts/x21_pinout.shtml X.21 pinout and some explanations]
+
+[[Category:ITU-T recommendations]]
+[[Category:Physical layer protocols]]
+
+{{compu-network-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

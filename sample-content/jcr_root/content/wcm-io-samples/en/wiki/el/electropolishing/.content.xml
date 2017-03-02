@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Electropolishing"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Electropolishing" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Refimprove|date=November 2010}}
+
+&amp;apos;&amp;apos;&amp;apos;Electropolishing&amp;apos;&amp;apos;&amp;apos;, also known as &amp;apos;&amp;apos;&amp;apos;electrochemical polishing&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;electrolytic polishing&amp;apos;&amp;apos;&amp;apos; (especially in the [[metallography]] field), is an [[electrochemical]] process that removes material from a metallic workpiece. It is used to [[polishing|polish]], [[Passivation (chemistry)|passivate]], and [[deburr]] metal parts. It is often described as the reverse of [[electroplating]]. It may be used in lieu of [[abrasive]] fine polishing in [[Microstructure|microstructural]] preparation.&amp;lt;ref&amp;gt;G.F. Vander Voort, ed., &amp;quot;Chemical and Electrolytic Polishing,&amp;quot; &amp;apos;&amp;apos;ASM Handbook, Vol. 9: Metallography and Microstructures&amp;apos;&amp;apos;, [[ASM International (society)|ASM International]], 2004, p 281-293, ISBN 978-0-87170-706-2.
+&amp;lt;/ref&amp;gt;
+
+==Mechanism==
+
+[[Image:Electropolishing_principle.png|right|thumb|350px|Electropolishing principle :&amp;lt;br /&amp;gt; &amp;apos;&amp;apos;&amp;apos;1.&amp;apos;&amp;apos;&amp;apos; Electrolyte&amp;lt;br /&amp;gt; &amp;apos;&amp;apos;&amp;apos;2.&amp;apos;&amp;apos;&amp;apos; Cathode&amp;lt;br /&amp;gt; &amp;apos;&amp;apos;&amp;apos;3.&amp;apos;&amp;apos;&amp;apos; Workpiece to polish (Anode)&amp;lt;br /&amp;gt; &amp;apos;&amp;apos;&amp;apos;4.&amp;apos;&amp;apos;&amp;apos; Particle moving from the workpiece to the cathode&amp;lt;br /&amp;gt; &amp;apos;&amp;apos;&amp;apos;5.&amp;apos;&amp;apos;&amp;apos; Surface before polishing&amp;lt;br /&amp;gt; &amp;apos;&amp;apos;&amp;apos;6.&amp;apos;&amp;apos;&amp;apos; Surface after polishing]]
+
+
+Typically, the workpiece is immersed in a temperature controlled bath of [[electrolyte]] and serves as the [[anode]] as it is connected to the positive terminal of a DC power supply, the negative terminal being attached to  the [[cathode]]. A [[Electric current|current]] passes from the anode, where metal on the surface is oxidized and dissolved in the electrolyte, to the cathode. At the cathode, a [[Reduction (chemistry)|reduction]] reaction occurs, which normally produces hydrogen. Electrolytes used for electropolishing are most often concentrated acid solutions having a high [[viscosity]], such as mixtures of [[sulfuric acid]] and [[phosphoric acid]]. Other electropolishing electrolytes reported in the literature include mixtures of [[perchlorates]] with [[acetic anhydride]] and [[methanolic]] solutions of sulfuric acid.
+
+To achieve electropolishing of a rough surface, the protruding parts of a surface profile must dissolve faster than the recesses. This process, referred to as &amp;apos;&amp;apos;anodic leveling&amp;apos;&amp;apos;, is achieved by a mass transport limited dissolution reaction.{{Clarify|date=December 2010}} Anodic dissolution under electropolishing conditions deburrs metal objects due to increased current density on corners and burrs.
+
+==Applications==
+Electropolishing has many applications in the metal finishing industry because of its simplicity and it can be applied to objects of complex shape. Typical examples are electropolished [[stainless steel]] drums of washing machines and stainless steel surgical devices. Electropolishing is also commonly applied to the preparation of thin metal samples for transmission electron microscopy because electropolishing does not cause mechanical deformation of surface layers usually observed when mechanical polishing is used.  Ultra high vacuum (UHV) components are typically electropolished in order to have a smoother surface for improved vacuum pressures, outgassing rates, and pumping speed.
+
+==Standards==
+* ASME BPE Standards for Electropolishing Bioprocessing Equipment
+* SEMI F19, Electropolishing Specifications for Semiconductor Applications
+* ASTM B 912-02 (2008), Passivation of Stainless Steels Using Electropolishing
+* [[ASTM]] E1558, Standard Guide for Electrolytic Polishing of Metallographic Specimens
+
+==References==
+{{Reflist}}
+
+==External links==
+*[http://ableelectropolishing.com/electropolishing_workbook.pdf Electropolishing overview]
+*[http://www.delstar.com/assets/pdf/epusersguide.pdf Electropolishing Users Guide]
+*[http://www.harrisonep.com/services/electropolishing.html Benefits of Electropolishing]
+*[http://www.euro-inox.org/pdf/map/Electropolishing_EN.pdf Electropolishing Stainless Steel] by Euro Inox
+
+[[Category:Chemical processes]]
+[[Category:Metallurgical processes]]
+[[Category:Metalworking]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

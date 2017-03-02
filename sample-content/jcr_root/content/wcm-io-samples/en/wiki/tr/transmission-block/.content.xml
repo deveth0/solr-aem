@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Transmission block"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Transmission block" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[telecommunication]], the term &amp;apos;&amp;apos;&amp;apos;transmission block&amp;apos;&amp;apos;&amp;apos; has the following meanings:
+
+#A group of [[bit]]s or characters transmitted as a unit and usually containing an encoding procedure for [[error control]] purposes.
+#In [[data transmission]], a group of records sent, processed, or recorded as a unit.
+
+A transmission [[block (telecommunications)|block]] is usually terminated by an [[character (computing)|End Of Block character]] (EOB), [[End Transmission Block character]] (ETB), [[end-of-text character|End Of Text character]] (ETX), or [[End-of-transmission character|End Of Transmission character]] (EOT).
+
+== See also ==
+* [[Packet (information technology)]]
+
+==References==
+*{{FS1037C}}
+
+[[Category:Data transmission]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

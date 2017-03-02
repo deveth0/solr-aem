@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Punt"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Punt" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary}}
+&amp;apos;&amp;apos;&amp;apos;Punt&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;punting&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+==Sports and recreation==
+* [[Punt (gridiron football)]], a way of kicking a ball in the American or Canadian varieties of football
+* [[Punt (Australian football)]], a way of kicking a ball in the Australian variety of football
+*[[Punt (boat)]], a flat-bottomed boat with a square-cut bow developed on the River Thames
+*[[Norfolk Punt]], a type of racing dinghy developed in Norfolk
+*[[Cable ferry]], known as a punt in Australian English
+* &amp;apos;&amp;apos;[[El Punt]]&amp;apos;&amp;apos;, a Catalan newspaper
+
+==Other uses==
+* [[Land of Punt]], a trading partner of Ancient Egypt, whose location is now unknown
+* [[Puntland]], a region in north-eastern [[Somalia]], centered on [[Garowe]] in the [[Nugaal]] province.
+* [[Punt (surname)]], a surname
+* The &amp;apos;&amp;apos;Punt&amp;apos;&amp;apos; or &amp;apos;&amp;apos;Punt Éireannach&amp;apos;&amp;apos;, also known as the [[Irish pound]], which was the currency of the [[Republic of Ireland]] prior to its changeover to the [[Euro]]
+* A [[Glassblowing#In modern context|tool used in glassmaking]]
+* A punt mark or [[pontil mark]], left by the glassmaking tool
+* The indented bottom of a [[Wine bottle#Punts|wine bottle]]
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

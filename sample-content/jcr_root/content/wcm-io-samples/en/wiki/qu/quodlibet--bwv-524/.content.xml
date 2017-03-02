@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Quodlibet, BWV 524"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Quodlibet, BWV 524" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;Quodlibet&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Wedding Quodlibet&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;, [[BWV]] 524, is a lighthearted composition by [[Johann Sebastian Bach]] which today exists only in fragmentary form. The line &amp;quot;In diesem Jahre haben wir zwei Sonnenfinsternissen&amp;quot; (In this year we have [seen] two solar eclipses) places the composition of the piece in or shortly after 1707, when central Germany was witness to two such celestial events. The extant source—a fair-copy autograph manuscript on three large, folded sheets—was not discovered until 1932.
+
+The work itself is a loosely structured [[quodlibet]] for [[SATB]] and [[Figured bass|continuo]]. Bach likely did not write the text, which some attribute to the Leipzig poet [[Johann Christoph Gottsched]]. Though the cover sheet has been lost, the [[libretto]] of the remaining portion indicates that the quodlibet was to be performed at a wedding, possibly Bach&amp;apos;s own.
+
+==References==
+*Bratz, Thomas. &amp;quot;[http://www.bach-cantatas.com/Articles/BWV524Quodlibet%5BBraatz%5D.htm BWV 524 Quodlibet (Fragment) &amp;apos;Was seind das vor grosse Schlösser&amp;apos;]&amp;quot;. Retrieved 19 August 2007
+*[[Andreas Bomba|Bomba, Andreas]]. &amp;quot;O ye thoughts, why torment ye my spirit&amp;quot;. Program Notes to &amp;apos;&amp;apos;Bach: The Complete Works, Vol. 16&amp;apos;&amp;apos;. [[Hänssler Classic|Hänssler]].
+
+[[Category:Compositions by Johann Sebastian Bach]]
+[[Category:Choral compositions]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

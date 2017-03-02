@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Anextiomarus"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Anextiomarus" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{no footnotes|date=March 2013}}
+&amp;apos;&amp;apos;&amp;apos;Anextiomarus&amp;apos;&amp;apos;&amp;apos; is a [[Celtic polytheism|Celtic]] epithet of the sun-god [[Apollo]] recorded in a [[Romano-British]] inscription from [[South Shields]], England. The form is a variant of &amp;apos;&amp;apos;&amp;apos;Anextlomarus&amp;apos;&amp;apos;&amp;apos; &amp;apos;Great protector&amp;apos;, a divine style or name attested in a fragmentary [[Gallo-Roman]] dedication from [[Le Mans]], France. Anextlomarus is also attested as a [[Gaulish]] man&amp;apos;s father&amp;apos;s name at [[Langres]], and a feminine divine form, &amp;apos;&amp;apos;&amp;apos;Anextlomara&amp;apos;&amp;apos;&amp;apos;, appears in two other [[Gallo-Roman]] dedications from [[Avenches]], [[Switzerland]].
+
+== References ==
+* T.L. Markey, 2003. ‘Gaulish Anextlomarus revisited’. &amp;apos;&amp;apos;Historische Sprachforschung&amp;apos;&amp;apos; 116:295-301.
+* [http://www.romanbritain.freeserve.co.uk/Rbgods.htm Romano-British gods]
+* [http://www.avenches.ch/aventicum/fr/Musee/expop/a2217.htm Avenches museum]
+
+{{Celtic mythology (ancient)}}
+
+[[Category:Briton gods]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

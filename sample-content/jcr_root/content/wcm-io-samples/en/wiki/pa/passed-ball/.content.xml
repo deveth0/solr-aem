@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Passed ball"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Passed ball" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[baseball]], a [[catcher]] is charged with a &amp;apos;&amp;apos;&amp;apos;passed ball&amp;apos;&amp;apos;&amp;apos; when he fails to hold or control a legally [[pitcher|pitched ball]] that, with ordinary effort, should have been maintained under his control.  When, as a result of this loss of control, the batter or a runner on base advances, the catcher is thereby charged with a passed ball.  A runner who advances due to a passed ball is not credited with a [[stolen base]] unless he breaks for the base before the pitcher begins his delivery.
+
+A passed ball may be scored when a runner on first, second, or third base reaches the next base on a bobble or missed catch by the catcher, or when the batter-runner reaches first base on an [[Uncaught third strike|uncaught strike three]] (&amp;apos;&amp;apos;see also&amp;apos;&amp;apos; [[Strikeout#Rules|Strikeout]]).
+
+A closely related statistic is the [[wild pitch]].  As with many baseball statistics, whether a pitch that gets away from a catcher is a passed ball or wild pitch is at the discretion of the [[official scorer]].  Typically, pitches that are deemed to be ordinarily catchable by the catcher, but are not, are ruled passed balls, while pitches that get by the catcher that are thought to have required extraordinary effort by the catcher in order to stop them are wild pitches.  If the pitch was so low as to touch the ground, or so high that the catcher has to rise out of his crouched position to get to it, or so wide that the catcher has to lunge for it, it is usually then considered a wild pitch and not a passed ball.
+
+A scored run due to a passed ball is not recorded as an [[earned run]].  However, a scored run due to a wild pitch is recorded as an [[earned run]].
+
+Passed balls and wild pitches are considered to be part of the act of pitching rather than fielding. Thus they are kept as separate statistics and are not recorded as [[Error (baseball statistics)|error]]s.
+
+There tends to be a higher incidence of passed balls when a [[knuckleball|knuckleballer]] is pitching.  The physics that make a knuckleball so difficult to hit make it similarly difficult to catch.  While teams with a knuckleballer on their pitching staff often employ a special &amp;quot;knuckleball catcher&amp;quot; who is equipped with a knuckleball mitt, similar to a first baseman&amp;apos;s glove, it is still extremely difficult to catch.
+
+==External links==
+*[http://mlb.mlb.com/mlb/downloads/y2007/10_the_official_scorer.pdf Baseball Rules] See section 10.13
+*[http://members.tripod.com/bb_catchers/catchers/passedballs.htm]
+
+{{Baseball}}{{Baseball statistics}}
+[[Category:Catching statistics]]
+[[Category:Baseball terminology]]
+{{baseball-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

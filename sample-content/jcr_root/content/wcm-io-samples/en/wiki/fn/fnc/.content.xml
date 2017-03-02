@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="FNC"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="FNC" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;FNC&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+*FNC: The IATA airport code for [[Madeira Airport]] in Funchal, Madeira
+*[[FNC Inc.]], a mortgage technology company in Oxford, Mississippi
+*[[FNC: Uncut]], a fishing television series
+*[[FN FNC]], an assault rifle
+
+*[[Fabula Nova Crystallis Final Fantasy|Fabula Nova Crystallis]], an abbreviation of the project name for all upcoming Square Enix releases within the sub-series.
+*[[Farncombe railway station]] (station code: &amp;apos;&amp;apos;&amp;apos;FNC&amp;apos;&amp;apos;&amp;apos;) in Godalming, England
+*[[Federal National Council]], the Parliament of the [[United Arab Emirates]]
+*[[Fédération Nationale Catholique]], a French anti-secular movement of the 1920s and 1930s
+*[[Fight Night Champion]], first-ever [[EA Sports]] video game to receive a mature rating
+*[[First Niagara Center]], an indoor arena in Buffalo, New York
+*[[Forum non conveniens]]
+*[[Fox News Channel]], an American cable and satellite news channel
+*[[Frazer-Nash Consultancy Ltd]]
+{{disambig}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Cummings"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Cummings" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Cummings&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+==Places==
+*[[Cummings, El Dorado County, California]], a former settlement
+*[[Cummings, Mendocino County, California]], an unincorporated community
+*[[Cummings, North Dakota]], an unincorporated community
+*[[Cummings, Saskatchewan]], Canada, an unincorporated hamlet
+*[[Cummings Research Park]], Huntsville, Alabama
+
+==Other uses==
+*[[Cummings (surname)]]
+*[[USS Cummings|USS &amp;apos;&amp;apos;Cummings&amp;apos;&amp;apos;]], two United States Navy destroyers
+*[[Walt Cummings]], fictional character in the TV series &amp;apos;&amp;apos;24&amp;apos;&amp;apos; (season 4)
+*[[Cummings Jewish Centre for Seniors]], Montreal, Quebec, Canada
+
+==See also==
+*[[Cumming (disambiguation)]], surname
+*[[Cummins]], Inc., maker of diesel and natural gas engines
+
+{{disambiguation|geo}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

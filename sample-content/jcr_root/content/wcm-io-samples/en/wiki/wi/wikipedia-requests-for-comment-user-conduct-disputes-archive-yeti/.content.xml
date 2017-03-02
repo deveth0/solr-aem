@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:Requests for comment/User conduct disputes archive/Yeti"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:Requests for comment/User conduct disputes archive/Yeti" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;This extremist (see [[Ruthenia]]) is unavailable to rational discourse. A separate article [[Carpathian Ruthenia]] has been created and very carefully worded to be neutral but reflect the mainstream facts on this small ex-Austro-Hungarian, ex-Czechoslovakian province. The Discussion pages and Page history speak for themselves. Some sensible opinion is desperately needed. [[User:Wetman|Wetman]] 18:20, 1 Feb 2004 (UTC)
+
+I suppose that lecture of the article about [[Carpathian Ruthenia]], history of [[Ruthenia]] page and discussion under these articles will enable the users to work out who is not able to &amp;quot;rational discourse&amp;quot;. [[User:Yeti]] 18:43, 1 Feb 2004 (UTC)&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Treatment"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Treatment" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Wiktionary|treatment}}
+&amp;apos;&amp;apos;&amp;apos;Treatment&amp;apos;&amp;apos;&amp;apos; may refer to:
+* Treatment, [[therapy]] used to remedy a health problem
+* Treatment, a process or intervention in the [[design of experiments]]
+* [[Treatment group]], a collection of items or individuals given the same treatment in an experiment
+* [[Water treatment]]
+* [[Sewage treatment]]
+* Surface treatment or [[surface finishing]], processes used to improve the surface of a manufactured item
+* [[National treatment]], economic term for the principle that foreigners and domestic nationals are treated equally
+* [[Film treatment]], prose telling of a story intended to be turned into a screenplay
+* In the card game [[contract bridge|bridge]], a treatment is the meaning associated with a natural bid as distinct from a [[bridge convention|convention]]al bid
+* [[Treatment (song)|&amp;quot;Treatment&amp;quot; (song)]], single by {{not a typo|Labrinth}} from the 2012 album &amp;apos;&amp;apos;Electronic Earth&amp;apos;&amp;apos;
+* Medical treatment or [[Medical case management]], a collaborative process facilitating appropriate medical care
+* Treatment of pain or [[Pain management]], an intervention that is intended to relieve rather than cure
+
+== See also ==
+* [[The Treatment (disambiguation)]]
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

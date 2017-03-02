@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="List of cities in Eritrea"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="List of cities in Eritrea" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;This is a &amp;apos;&amp;apos;&amp;apos;list of cities in [[Eritrea]]&amp;apos;&amp;apos;&amp;apos; by population.  It includes all settlements with a population of over 5,000.
+[[File:Eritrea-CIA WFB Map.png|thumb|250px|Map of [[Eritrea]]]]
+[[File:Asmara2.jpg|thumb|right|250px|[[Asmara]], Capital of [[Eritrea]]]]
+[[File:Keren - 2008-11-01.jpg|right|thumb|250px|[[Keren, Eritrea|Keren]]]]
+{| class=&amp;quot;wikitable&amp;quot;
+|-----
+!colspan=&amp;quot;6&amp;quot;  | Cities in Eritrea
+|-----
+!rowspan=&amp;quot;2&amp;quot; | Rank !! rowspan=&amp;quot;2&amp;quot; | City !! colspan=&amp;quot;2&amp;quot; | Population !! rowspan=&amp;quot;2&amp;quot; | Region
+|-----
+! 1984 Census !! 2010 estimate
+|-----
+|align=right | 1 || [[Asmara]] || align=right | 475,385 || align=right | 649,707 || [[Maekel]]
+|-----
+|align=right | 2 || [[Keren, Eritrea|Keren]] || align=right | 126,149 || align=right | 146,483 || [[Anseba]]
+|-----
+|align=right | 3 || [[Teseney]] || align=right | 52,531 || align=right | 64,889 || [[Gash-Barka]]
+|-----
+|align=right | 4 || [[Mendefera]] || align=right | 22,184 || align=right | 63,492 || [[Debub]]
+|-----
+|align=right | 5 || [[Agordat]] || align=right | 15,948 || align=right | 47,482 || [[Gash-Barka]]
+|-----
+|align=right | 6 || [[Assab]] || align=right | 31,037 || align=right | 39,656 || [[Southern Red Sea]]
+|-----
+|align=right | 7 || [[Massawa]] || align=right | 15,441 || align=right | 36,700 || [[Northern Red Sea]]
+|-----
+|align=right | 8 || [[Adi Quala]] || align=right | 14,465 || align=right | 34,589 || [[Debub]]
+|-----
+|align=right | 9 || [[Senafe]] || align=right | 14,019 || align=right | 31,831 || [[Debub]]
+|-----
+|-----
+|align=right | 10 || [[Dekemhare]] || align=right | 17,290 || align=right | 31,000 || [[Debub]]
+|-----
+|align=right | 11 || [[Segeneiti]] || align=right | 13,328 || align=right | 27,656 || [[Debub]]
+|-----
+|align=right | 12 || [[Nakfa, Eritrea|Nakfa]] || align=right | &amp;apos;&amp;apos;N/A&amp;apos;&amp;apos; || align=right | 20,222 || [[Northern Red Sea]]
+|-----
+|align=right | 13 || [[Adi Keyh]] || align=right | 8,691 || align=right | 19,304 || [[Debub]]
+|-----
+|align=right | 14 || [[Barentu, Eritrea|Barentu]] || align=right | 2,541 || align=right | 15,467 || [[Gash-Barka]]
+|-----
+|align=right | 15 || [[Beilul]] || align=right | &amp;apos;&amp;apos;N/A&amp;apos;&amp;apos; || align=right | 14,055 || [[Southern Red Sea]]
+|-----
+|align=right | 16 || [[Edd, Eritrea|Edd]] || align=right | &amp;apos;&amp;apos;N/A&amp;apos;&amp;apos; || align=right | 12,855 || [[Southern Red Sea]]
+|-----
+|align=right | 17 || [[Ghinda]] || align=right | 7,702 || align=right | 10,523 || [[Northern Red Sea]]
+|-----
+|align=right | 18 || [[Mersa Fatuma]] || align=right | &amp;apos;&amp;apos;N/A&amp;apos;&amp;apos; || align=right | 9,542 || [[Southern Red Sea]]
+|-----
+|align=right | 19 || [[Himbirti]] || align=right | &amp;apos;&amp;apos;N/A&amp;apos;&amp;apos; || align=right | 8,822 || [[Maekel]]
+|-----
+|align=right | 20 || [[Nefasit]] || align=right | &amp;apos;&amp;apos;N/A&amp;apos;&amp;apos; || align=right | 8,727 || [[Debub]]
+|}
+
+==Other settlements==
+&amp;lt;table width=100%&amp;gt;&amp;lt;tr&amp;gt;&amp;lt;td width=40% align=left valign=top&amp;gt;
+*[[Afabet]]
+*[[Algena]]
+*[[Anaghit]]
+*[[Baden]]
+*[[Bisha]]
+*[[Debaysima]]
+*[[Felhit]]
+*[[Filfil]]
+*[[Matara, Eritrea|Matara]]
+*[[Mersa Gulbub]]
+*[[Mersa Tek&amp;apos;lay]]
+&amp;lt;/td&amp;gt;&amp;lt;td width=40% align=left valign=top&amp;gt;
+*[[Nakfa, Eritrea|Nakfa]]
+*[[Om Hajer]]
+*[[Per Tokar]]
+*[[Quatit]]
+*[[Rehayto]]
+*[[Saatta]]
+*[[Sebderat]]
+*[[T&amp;apos;i&amp;apos;o]]
+*[[Tognuf]]
+*[[Zula]]
+&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;/table&amp;gt;
+
+== External links ==
+{{Commons category|Metropolitan areas}}
+* [http://www.e-geopolis.eu/ Geopolis], about urban areas and urbanization in the world
+
+{{Africa in topic|List of cities in}}
+{{List of cities in the Middle East}}
+
+[[Category:Lists of cities by country|Eritrea, List of cities in]]
+[[Category:Populated places in Eritrea| ]]
+[[Category:Eritrea geography-related lists|Cities]]
+[[Category:Lists of cities in Africa|Eritrea]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

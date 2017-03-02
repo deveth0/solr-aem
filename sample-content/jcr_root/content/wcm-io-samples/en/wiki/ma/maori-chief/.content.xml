@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Maori chief"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Maori chief" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{for|a hereditary chieftain in Māori culture|rangatira}}
+:&amp;apos;&amp;apos;The related &amp;apos;&amp;apos;[[Paranotothenia magellanica]]&amp;apos;&amp;apos; (Maori cod, Magellanic rockcod) is sometimes called &amp;quot;Maori chief&amp;quot; too.&amp;apos;&amp;apos;
+{{Taxobox
+| name = Maori chief
+| image = Notothenia_angustata_(Maori_chief).gif
+| image_caption = Drawing by Dr Tony Ayling
+| regnum = [[Animal]]ia
+| phylum = [[Chordate|Chordata]]
+| classis = [[Actinopterygii]]
+| ordo = [[Perciformes]]
+| familia = [[Nototheniidae]]
+| genus = &amp;apos;&amp;apos;[[Notothenia]]&amp;apos;&amp;apos;
+| species = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;N. angustata&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+| binomial = &amp;apos;&amp;apos;Notothenia angustata&amp;apos;&amp;apos;
+| binomial_authority = Hutton, 1875
+}}
+The &amp;apos;&amp;apos;&amp;apos;Maori chief&amp;apos;&amp;apos;&amp;apos;, &amp;apos;&amp;apos;Notothenia angustata&amp;apos;&amp;apos;, is a [[cod icefish]] in the genus [[Notothenia]] found in the southern ocean between [[New Zealand]] and [[Chile]] south to the [[Antarctic]], at depths down to 100 m in rocky [[reef]] areas. Its length is between 30 and 65 cm.
+
+The Maori chief is a large bottom-living fish not too dissimilar to the [[Maori cod]]. It has a large mouth, a prominent bony ridge above each eye, a rounded [[caudal fin]], and two [[lateral line]]s which overlap slightly.  The first [[dorsal fin]] is small with only six spines.
+
+The Maori chief is dark grey or green above, mottled with blue-black, and is yellow on the belly.  There are numerous small grey spots and streaks on the head suggesting the complex tattoos once worn by [[Māori people|Māori]] chiefs, and the fins are grey with some darker mottling.
+
+It eats a variety of [[invertebrate]]s and small fishes, together with [[seaweed]].
+
+==References==
+* {{FishBase_species | genus = Notothenia | species = angustata | year = 2006 | month = May}}
+* Tony Ayling &amp;amp; Geoffrey Cox, &amp;apos;&amp;apos;Collins Guide to the Sea Fishes of New Zealand&amp;apos;&amp;apos;,  (William Collins Publishers Ltd, Auckland, New Zealand 1982) ISBN 0-00-216987-8
+
+[[Category:Nototheniidae]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

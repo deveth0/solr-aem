@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Xiafs"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Xiafs" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{refimprove|date=November 2012}}
+
+&amp;apos;&amp;apos;&amp;apos;Xiafs&amp;apos;&amp;apos;&amp;apos; was a file system for the [[operating system]] [[Linux]] which was conceived and developed by Frank Xia and was based on the [[MINIX file system]]. Today it is obsolete and not in use, except possibly in some historic installations.
+
+==History==
+Linux originally used the [[MINIX]] file system, but it had a number of limitations. For example, the length of filenames was limited to 14 characters and the partition size was limited to 64 MB. To replace the MINIX file system, the [[extended file system]] (or ext) was developed. However, it too had some problems such as poor performance and the lack of some date stamps. Two contenders for replacing ext were quickly developed: [[ext2]] and Xiafs. The two file systems were included in the standard kernel in December 1993 ([[Linux kernel|Linux]] 0.99.15). [[ext2]] and Xiafs had the same goal: to offer good performance, reasonable limitations, and fixing the flaws of [[Extended file system|ext]]. Initially, Xiafs was more powerful and more stable than Ext2, but being a fairly minimalistic modification of the Minix file system, it was not very well suited for future extension.&amp;lt;ref&amp;gt;[http://www.linuxfoundation.jp/jp_uploads/seminar20060911/Ted_Tso.pdf &amp;quot;The Linux ext2/3/4 Filesystem: Past, Present, and Future&amp;quot;], Ted Ts&amp;apos;o&amp;lt;/ref&amp;gt;
+
+The end result was that Xiafs changed very little while ext2 evolved considerably, rapidly improving stability, performance and adding extensions. ext2, after some shakedown time, quickly became the standard file system of Linux. Since then, ext2 has developed into a very mature and robust file system.
+
+Xiafs was removed along with the original Extended file system from [[Linux kernel|Linux]] 2.1.21, as it was no longer in use and was unmaintained. [[ext2]], [[ext3]] and their successor [[ext4]]  are in the Linux kernel.
+
+==Comparison with ext2==
+Xiafs was less powerful and offered less functionality than ext2. The maximum size of a file was 64 MiB and the maximum size of a partition was 2 GiB. While this was an improvement over ext, it did not measure up to ext2. The only advantage was that it used less disk space for its control structures and had greater stability at that time.
+
+== See also ==
+* [[List of file systems]]
+* [[Comparison of file systems]]
+
+==References==
+{{reflist}}
+
+[[Category:Disk file systems]]
+[[Category:Linux file systems]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

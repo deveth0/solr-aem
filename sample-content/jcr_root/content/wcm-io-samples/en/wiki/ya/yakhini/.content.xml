@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Yakhini"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Yakhini" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox Kibbutz
+| name = Yakhini
+| foundation    = 1950
+| founded_by    = [[Yemen]]ite immigrants
+| region        = [[Negev]]
+| council       = [[Sha&amp;apos;ar HaNegev Regional Council|Sha&amp;apos;ar HaNegev]]
+| industry      =
+| affiliation   = [[Moshavim Movement]]
+| website       =
+}}
+
+&amp;apos;&amp;apos;&amp;apos;Yakhini&amp;apos;&amp;apos;&amp;apos; ({{lang-he-n|יָכִינִי}}) is an [[Orthodox Judaism|Orthodox]] [[moshav]] in southern [[Israel]]. Located in the northern [[Negev]] desert near the town of [[Sderot]], it falls under the jurisdiction of [[Sha&amp;apos;ar HaNegev Regional Council]]. In 2006 it had a population of 476.
+
+The moshav was founded in 1950 by [[Jew]]ish immigrants from [[Yemen]], who were brought to Israel during [[Operation Magic Carpet (Yemen)|Operation Magic Carpet]], when most [[Yemenite Jews]] arrived in the country. The moshav is named for one of the sons of [[Simeon]], son of the patriarch [[Jacob]], as it is located in territory that belonged to the [[Tribe of Simeon]] in [[Bible|biblical]] times (Numbers 26:12).
+
+{{Sha&amp;apos;ar HaNegev Regional Council}}
+{{coord|31|29|N|34|36|E|display=title|region:IL_type:city_source:GNS-enwiki}}
+
+[[Category:Moshavim]]
+[[Category:Populated places established in 1950]]
+[[Category:Religious Israeli communities]]
+[[Category:Gaza envelope]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

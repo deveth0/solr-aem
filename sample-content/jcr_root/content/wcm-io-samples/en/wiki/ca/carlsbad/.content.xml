@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Carlsbad"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Carlsbad" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;lt;!-- I guess this is the Primary topic? --&amp;gt;&amp;apos;&amp;apos;&amp;apos;Carlsbad&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;Karlsbad&amp;apos;&amp;apos;&amp;apos; is a German placename meaning &amp;quot;Charles&amp;apos;s spa&amp;quot;, named after [[Charles IV, Holy Roman Emperor]] (1316–1378) or after [[Charles III William, Margrave of Baden-Durlach]] (1679 - 1738).
+
+&amp;apos;&amp;apos;&amp;apos;Carlsbad&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;Karlsbad&amp;apos;&amp;apos;&amp;apos; may also refer to:
+* [[Carlsbad, California]], United States
+* [[Carlsbad, New Mexico]], United States
+* [[Carlsbad, Texas]], United States
+* [[Karlovy Vary]], Czech Republic (formerly known by its German name &amp;apos;&amp;apos;Karlsbad&amp;apos;&amp;apos;, known as &amp;apos;&amp;apos;Carlsbad&amp;apos;&amp;apos; in English)
+* [[Karlsbad (Baden)]], Germany
+
+== See also ==
+* [[Carlsbad Caverns National Park]]
+* [[Carlsbad Decrees]]
+* [[Carlsbad Springs, Ontario]]
+* [[Carlsbad State Beach]]
+* [[HC Energie Karlovy Vary]]
+* [[West Baden Springs Hotel]]
+
+{{geodis}}
+[[Category:German toponyms]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

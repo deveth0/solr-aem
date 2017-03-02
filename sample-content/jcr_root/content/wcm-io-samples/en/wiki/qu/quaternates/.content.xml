@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Quaternates"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Quaternates" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[File:Mammiferes.jpeg|thumb|&amp;apos;&amp;apos;Nouvelle classification des Mammifères&amp;apos;&amp;apos; (1839)]]
+&amp;apos;&amp;apos;&amp;apos;Quaternates&amp;apos;&amp;apos;&amp;apos; is an obsolete [[Order (biology)|order]] of [[mammal]]s created by [[Henri-Marie Ducrotay de Blainville]] in 1839, imitating [[Linnean]] nomenclature ([[Primates]]). It included the suborders [[Gravigrada]], [[Pachydermata]], and [[Ruminantia]].
+
+== See also ==
+* [[Secundates]]
+* [[Tertiates]]
+
+==References==
+*BLAINVILLE, Henri-Marie Ducrotay de (1839): “Nouvelle classification des Mammifères” in &amp;apos;&amp;apos;Annales Françaises et Etrangères d’Anatomie et de Physiologie Appliquées à la Médicine et à l’Histoire Naturelle&amp;apos;&amp;apos;, 3, pp. 268-269
+
+[[Category:Obsolete taxonomic groups]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

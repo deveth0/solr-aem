@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Naczelnik"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Naczelnik" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{unreferenced|date=August 2008}}
+
+&amp;apos;&amp;apos;&amp;apos;Naczelnik&amp;apos;&amp;apos;&amp;apos; ({{IPA-pl|naˈt͡ʂɛlɲik|pron}}) is the [[Polish language|Polish]] word for Leader. It was first used as an official title by [[Tadeusz Kościuszko]] during the Polish revolutions of the 18th Century. In its Kościuszko form the title was used to signify commander of the uprising, or the modern day equivalent of [[head of state]].
+
+The term later came into use by commanders of the Polish Army in Galicia, as part of the Army of [[Austria-Hungary]], during the [[World War I|First World War]]. Most notably it was used by Field Marshal [[Józef Piłsudski]], known as Naczelnik Pilsudski, as a title that helped identify him as the leader to his conscript troops. The title of Naczelnik in this form had the meaning of the modern day equivalent rank of Field Marshal (or the American equivalent of General of the Army), however it was not an official title recognized by the General Staff in Vienna.
+
+Following World War I, changes in the [[Polish Military]] force structure eliminated the rank of Naczelnik and replaced it with the more modern and Western sounding rank of Field Marshal (Marszałek).
+
+The title become a part of the Polish [[Chief of state]] position, held from 1918-1922 by Piłsudski, as [[Naczelnik państwa]]. In 1922 it was replaced by the office of [[president of Poland]]. The term was again picked up in 1925 by [[Sanacja]], Piłsudski&amp;apos;s political party in Poland, and was used by leader Józef Piłsudski as the official title for the leader of the party.
+
+In modern-day Poland, the term Naczelnik is commonly used in various forms of Polish life, and has nothing to do with politics or military. It is for example used as the official title for mail chiefs (Naczelnik Poczty) at local post offices. It has also been used by some rural police stations to replace the communist sounding title of police commandant (Komendant Policji) with Police Leader (Naczelnik Policji). Likewise, some fire stations and emergency personnel use the term to identify the leader of a particular accident scene, or the leader of a hospital ward.
+
+==See also==
+* [[Naczelnik ZHP]]
+
+[[Category:Polish titles]]
+[[Category:Heads of state of Poland]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

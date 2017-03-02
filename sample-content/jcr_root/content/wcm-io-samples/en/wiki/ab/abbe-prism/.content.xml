@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Abbe prism"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Abbe prism" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[optics]], an &amp;apos;&amp;apos;&amp;apos;Abbe prism&amp;apos;&amp;apos;&amp;apos;, named for its inventor, the German physicist [[Ernst Abbe]], is a type of &amp;apos;&amp;apos;constant deviation [[dispersion (optics)|dispersive]] [[prism (optics)|prism]]&amp;apos;&amp;apos; similar to a [[Pellin–Broca prism]].
+
+==Structure==
+[[Image:Abbe-prism.svg|right|thumb|290px|Abbe prism (serving suggestion only, image not accurate)]]
+The prism consist of a block of glass forming a right [[prism (geometry)|prism]] with 30°–60°–90° triangular faces. When in use, a beam of light enters face &amp;apos;&amp;apos;&amp;apos;AB&amp;apos;&amp;apos;&amp;apos;, is [[refracted]] and undergoes [[total internal reflection]] from face &amp;apos;&amp;apos;&amp;apos;BC&amp;apos;&amp;apos;&amp;apos;, and is refracted again on exiting face &amp;apos;&amp;apos;&amp;apos;AC&amp;apos;&amp;apos;&amp;apos;. The prism is designed such that one particular [[wavelength]] of the light exits the prism at a deviation angle (relative to the light&amp;apos;s original path) of exactly 60°. This is the minimum possible deviation of the prism, all other wavelengths being deviated by greater angles. By rotating the prism (in the plane of the diagram) around any point &amp;apos;&amp;apos;&amp;apos;O&amp;apos;&amp;apos;&amp;apos; on the face &amp;apos;&amp;apos;&amp;apos;AB&amp;apos;&amp;apos;&amp;apos;, the wavelength which is deviated by 60° can be selected.
+
+The dispersive Abbe prism should not be confused with the non-dispersive [[Porro–Abbe prism|Porro–Abbe]] or [[Abbe–Koenig prism]]s.
+
+== References ==
+* {{cite book | author=Hecht, Eugene | title=Optics (4th ed.) | publisher=Pearson Education | year=2001 | isbn=0-8053-8566-5}}
+
+[[Category:Prisms]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

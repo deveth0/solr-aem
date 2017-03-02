@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Literary Kicks"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Literary Kicks" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{primarysources|date=January 2008}}
+
+&amp;apos;&amp;apos;&amp;apos;Literary Kicks&amp;apos;&amp;apos;&amp;apos; is a [[website]] that functions as a [[digital library]] of [[poetry]] and [[prose]], [[biography]] and cultural criticism chiefly focused on [[Beat Generation]] writers. Founded in 1994 by [[Levi Asher]], the site has since expanded to cover a wider range of literary genres, from ancient literature to contemporary fiction and poetry, and hosts literary discussions, poetry boards, workshops and a digital library of articles, resources and texts.
+
+Since 1996 Literary Kicks has hosted poetry readings in [[New York City]] and other venues across the [[United States]]. In 1998 LitKicks Publishing was created. The first LitKicks publication was a digital video, &amp;apos;&amp;apos;Notes from Underground&amp;apos;&amp;apos;, based on [[Fyodor Dostoevsky]]&amp;apos;s [[Notes from Underground|story of the same name]], followed by a community-generated poetry anthology in 2004, &amp;apos;&amp;apos;Action Poetry&amp;apos;&amp;apos;, which was nominated for a [[Blooker Prize]]. Other notable events include: The QUEST writing tournament (October 2003), the 24 Hour Poetry Party (July 2004) and October Earth (October 2004).
+
+==External links==
+* [http://www.litkicks.com/ LitKicks Publishing]
+{{website-stub}}
+[[Category:Discipline-oriented digital libraries]]
+[[Category:Literature websites]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Tom Bradley"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Tom Bradley" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Thomas&amp;apos;&amp;apos;&amp;apos; or &amp;apos;&amp;apos;&amp;apos;Tom Bradley&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+*[[Tom Bradley (American politician)]] (1917–1998), mayor of Los Angeles, California
+*[[Tom Bradley (author)]], American novelist and essayist
+*[[Tom Bradley (UK politician)]] (1926–2002), British Member of Parliament and trade union leader
+*[[Tom Bradley (baseball)]] (born 1947), former American Major Leagues baseball player
+*[[Tom Bradley (American football)]] (born 1956), American football coach and former player
+*[[Thomas Bradley (priest)]] (1596/7–1673), Anglican clergyman, chaplain to the King
+*[[Thomas J. Bradley]] (1870–1901), U.S. Representative from New York
+*[[Thomas W. Bradley]] (1844–1920), U.S. Representative from New York and Medal of Honor recipient
+*[[Thomas Bradley (physician)]] (1751–1813), English physician and editor
+*[[Tom Bradley International Terminal]]
+
+{{hndis|Bradley, Tom}}
+{{DEFAULTSORT:Bradley, Tom}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Algor mortis"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Algor mortis" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Signs of death}}
+
+&amp;apos;&amp;apos;&amp;apos;Algor mortis&amp;apos;&amp;apos;&amp;apos; ([[Latin]]: &amp;apos;&amp;apos;algor&amp;apos;&amp;apos;—coldness; &amp;apos;&amp;apos;mortis&amp;apos;&amp;apos;—of death) is the reduction in body temperature following [[death]]. This is generally a steady decline until matching [[ambient temperature]], although external factors can have a significant influence.
+
+== Use in Forensic Science ==
+
+A measured rectal temperature can give some indication of the time of death. Although the [[heat conduction]] which leads to body cooling follows an [[exponential decay]] curve, it can be approximated as a linear process: 2° Celsius during the first hour and 1° Celsius per hour until the body nears ambient temperature.
+
+The &amp;apos;&amp;apos;&amp;apos;Glaister equation&amp;apos;&amp;apos;&amp;apos;&amp;lt;ref&amp;gt;http://www.fmap.archives.gla.ac.uk/DC403/DC403_page.htm&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;{{cite book|title=Forensic Medicine|author=Guharaj, P. V.|chapter=Cooling of the body (algor mortis)|year=2003|edition=2nd|pages=61–62|publisher=Longman Orient|location=Hyderabad|url=http://books.google.com/books?isbn=8125024883}}&amp;lt;/ref&amp;gt; estimates the hours elapsed since death as a [[linear function]] of the [[rectal temperature]]:
+
+:&amp;lt;math&amp;gt;
+\frac{98.4\,^{\circ}{\rm F} - \text{rectal temperature in Fahrenheit}}{1.5}
+&amp;lt;/math&amp;gt;
+&amp;lt;!-- (98.4&amp;amp;nbsp;°F&amp;amp;nbsp;-&amp;amp;nbsp;[rectal&amp;amp;nbsp;temperature&amp;amp;nbsp;in&amp;amp;nbsp;Fahrenheit])&amp;amp;nbsp;div 1.5 --&amp;gt;
+
+As [[decomposition]] occurs the internal body temperature tends to rise again.
+
+== Factors Affecting the Rate of Algor Mortis ==
+Generally, temperature change is considered an inaccurate means of determining time of death, as the rate of change is affected by several key factors including:&amp;lt;ref&amp;gt;http://www.crimewatchcanada.com/index.php?option=com_content&amp;amp;view=article&amp;amp;id=79:changes-to-a-body-after-death&amp;amp;catid=41:january-february-2010-issue-76&amp;amp;Itemid=53&amp;lt;/ref&amp;gt;
+* Stability or fluctuation of the ambient temperature.
+* The thermal conductivity of the surface on which a body lies.
+* Diseases or drugs which increase body temperature raising the starting temperature of the corpse at the time of death
+* The existence of a &amp;quot;temperature plateau&amp;quot;,&amp;lt;ref&amp;gt;{{cite journal|last=Kaliszan|first=M.|title=Verification of the exponential model of body temperature decrease after death in pigs|journal=Experimental Physiology|date=20 May 2005|volume=90|issue=5|pages=727–738|doi=10.1113}}&amp;lt;/ref&amp;gt; a highly variable period of time in which the body does not cool.
+
+==References==
+{{reflist}}
+* {{cite book | first=Richard| last=Saferstein| year=2004| title=Criminalistics An Introduction to Forensic Science| edition=8th| publisher=Pearson Prentice Hall| isbn=0-13-113706-9 }}
+* Karen T. Taylor, &amp;quot;Forensic art and illustration&amp;quot;, CRC Press, 2000, ISBN 0-8493-8118-5, p.&amp;amp;nbsp;308
+* Robert G. Mayer, &amp;quot;Embalming: history, theory, and practice&amp;quot;, McGraw-Hill Professional, 2005, ISBN 0-07-143950-1, p.&amp;amp;nbsp;106
+* Calixto Machado, &amp;quot;Brain death: a reappraisal&amp;quot;, Springer, 2007, ISBN 0-387-38975-X, pp.&amp;amp;nbsp;73–74
+
+==External links==
+* [http://www.arrakis.es/~jacoello/date.pdf Standards Employed to Determine Time of Death]
+
+{{DEFAULTSORT:Algor Mortis}}
+[[Category:Signs of death]]
+[[Category:Latin medical phrases]]
+
+
+{{med-stub}}
+{{death-stub}}
+{{Latin-vocab-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

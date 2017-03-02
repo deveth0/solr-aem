@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Worshipful Company of Wheelwrights"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Worshipful Company of Wheelwrights" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;The &amp;apos;&amp;apos;&amp;apos;Worshipful Company of Wheelwrights&amp;apos;&amp;apos;&amp;apos; is one of the [[Livery Company|Livery Companies]] of the [[City of London]], [[England]]. An organisation of Wheelwrights and [[Coachmakers&amp;apos; and Coach Harness Makers&amp;apos; Company|Coachmakers]] petitioned for incorporation in 1630. The petition was granted forty years later, in 1670, when a [[Royal Charter]] was granted to the Wheelwrights. (The Coachmakers were separately incorporated in 1677.) The Wheelwrights&amp;apos; Company was granted the status of a Livery Company in 1763. Over the years, wheel making has changed from being made by craftsmen to being made by machines. Thus, the Company is no longer a trade association for wheelwrights. Instead, it functions as a charitable body.
+
+The Wheelwrights&amp;apos; Company ranks sixty-eighth in the [[order of precedence]] for Livery Companies. Its motto is &amp;apos;&amp;apos;God Grant Unity&amp;apos;&amp;apos;.
+
+==External links==
+
+* [http://www.wheelwrights.org/ The Wheelwrights&amp;apos; Company]
+
+{{Livery Companies in the City of London}}
+[[Category:Livery companies|Wheelwrights]]
+[[Category:1670 establishments in England]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

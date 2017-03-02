@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:Wikitime"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:Wikitime" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Image:Nuvola apps clock.png|right|thumb|250px|How much time do you spend editing Wikipedia?]]
+:&amp;apos;&amp;apos;For the longstanding proposal to have a coordinated Wikipedia clock see [[m:Wikitime]]&amp;apos;&amp;apos;
+
+The term &amp;quot;&amp;apos;&amp;apos;&amp;apos;Wikitime&amp;apos;&amp;apos;&amp;apos;&amp;quot; has been given multiple meanings: (1) as a time to use Wikipedia to find information; and (2) as the time duration spent for editing Wikipedia.
+
+&amp;apos;&amp;apos;&amp;apos;Wikitime&amp;apos;&amp;apos;&amp;apos; can be used as an announcement of the near future use of [[Wikipedia]]. Often following an argument of two or more people with conflicting ideas agreeing to use Wikipedia to settle their disagreement.  During this time &amp;quot;Wikitime&amp;quot; is said aloud with a reference to MC Hammer&amp;apos;s &amp;quot;Hammertime&amp;quot; as a humorous approach to the ensuing argument.  Many variations, such as dancing to the &amp;quot;Hammertime&amp;quot; song may occur; this is mostly used for comedic purposes.  The creators of this method are Phillip Kinder II, Randall Toppmeyer, Jaimie Engle, Lucas Holland, and Logan Holland.
+
+First documented use was on February 4, 2007.
+
+&amp;apos;&amp;apos;&amp;apos;Wikitime&amp;apos;&amp;apos;&amp;apos; is also the amount of time that an editor can dedicate to editing on [[Wikipedia]] or the time spent editing Wikipedia.  There is a wide range of contributors to Wikipedia; from users who have single edits, to those who spend most of their free time editing with multiple thousands of edits.  Generally editors choose to divide their Wikitime between several projects or related articles, such as the [[Wikipedia:WikiProject Missing encyclopedic articles]] or creating [[Pokémon]] articles.  Other enjoy patrolling [[Wikipedia:Recent changes patrol|recent changes]] watching for vandalism or just seeing what others are editing and improving the articles.
+
+More of the dedicated editors enjoy contributing to Wikipedia and generally find that they do not have enough time to do all the things that they would like to accomplish because of real life constraints. But even with an unlimited amount of wikitime to dedicated to Wikipedia by all contributors it would never be finished because Wikipedia is a work in progress, constantly being updated with new information.
+
+While wikitime is generally thought of positively, some regard Wikipedia as a giant [[time sink]], and are frustrated with some elements of contributing.
+
+[[Category:Wikipedia culture|Wikitime]]
+[[es:Wikitime]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

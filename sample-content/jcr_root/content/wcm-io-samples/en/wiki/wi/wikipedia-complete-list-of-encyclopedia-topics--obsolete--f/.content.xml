@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:Complete list of encyclopedia topics (obsolete)/F"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:Complete list of encyclopedia topics (obsolete)/F" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;This (now-obsolete) page contains (in its history) important documentation of the early stages of Wikipedia. Please &amp;apos;&amp;apos;&amp;apos;do not&amp;apos;&amp;apos;&amp;apos; delete.
+
+Please consult the &amp;apos;&amp;apos;Page history&amp;apos;&amp;apos; link for the actual old content - to prevent this obsolete page from showing up in &amp;apos;&amp;apos;What links here&amp;apos;&amp;apos; lists, the old revision is &amp;apos;&amp;apos;&amp;apos;not&amp;apos;&amp;apos;&amp;apos; kept as the current content.
+
+[[Wikipedia:Complete list of encyclopedia topics (obsolete)|Make findable from page via &amp;apos;&amp;apos;What links here&amp;apos;&amp;apos;]]
+
+[[Category:Obsolete list of encyclopedia topics]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Prill"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Prill" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;A &amp;apos;&amp;apos;&amp;apos;prill&amp;apos;&amp;apos;&amp;apos; is a small aggregate of a material, most often a dry sphere, formed from a melted liquid. &amp;apos;&amp;apos;&amp;apos;Prilled&amp;apos;&amp;apos;&amp;apos; is a term used in [[mining]] and [[manufacturing]] to refer to product that has been [[Pelletizing|pelletized]]. The pellets are a neater, simpler form for handling, with reduced dust.
+
+The material to be prilled must be a solid at room temperature and a low viscosity liquid when melted. Prills are formed by allowing drops of the melted prill substance to congeal or freeze in mid-air after being dripped from the top of a tall [[prilling tower]]. Certain [[agrochemicals]] such as [[urea]] are often supplied in prilled form. Fertilizers ([[ammonium nitrate]], [[urea]], [[fertilizer|NPK fertilizer]]) and some [[detergent powder]]s are commonly manufactured as prills.
+
+Melted material may also be atomized and then allowed to form smaller prills that are useful in cosmetics, food, and animal feed. Prills have also been used to protect active ingredients from exposure to environmental factors and to cover up the flavor of bitter [[nutraceutical]]s.
+
+==External links==
+*[http://www.niroinc.com/html/chemical/cprilling.html Niro Inc.: Prilling]
+
+[[Category:Agricultural chemicals]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

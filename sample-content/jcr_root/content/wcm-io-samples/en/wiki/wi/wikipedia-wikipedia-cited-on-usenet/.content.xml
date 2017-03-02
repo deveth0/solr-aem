@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Wikipedia:Wikipedia cited on usenet"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Wikipedia:Wikipedia cited on usenet" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[Wikipedia]] appears to be a valuable reference tool for [[usenet]] discussions. The importance of a neutral reference tool with (always improving) factual accuracy, especially when dealing with controversial subjects that are frequently discussed at usenet, is extremely high (Some of these discussions are denounced as &amp;quot;partisan wrangling&amp;quot; by some [[Wikipedia:Wikipedians|wikipedian]]s, but are nonetheless significant for their participants).
+
+Some usenet posters are extremely knowledgeable about certain fields and could have a lot of value for Wikipedia, for example, in a long &amp;apos;&amp;apos;sci.environment&amp;apos;&amp;apos; discussion about [[global warming]], A debate related to [[climate change]] has been taking place that had significance for its corresponding Wikipedia article. The main points of the debate have been edited into Wikipedia by a conscientious poster. This is an example of how Wikipedia can serve as a reference tool to summarize discussions of controversial topics that are frequently debated at usenet (And also serve as an excellent starting point for them, or even replace them altogether!)
+
+&amp;apos;&amp;apos;alt.food.vegan&amp;apos;&amp;apos; seems to have adopted the [[wikibooks:Cookbook:Vegan cuisine|vegan recipes]] articles to document and exchange vegetarian recipes, this is also an example of how Wikipedia can be harnessed by usenet while expanding the written human knowledge.
+
+For a recent list of Wikipedia citings, see [http://groups.google.com/groups?q=wikipedia&amp;amp;hl=en&amp;amp;lr=&amp;amp;ie=UTF-8&amp;amp;oe=UTF-8&amp;amp;scoring=d this search on google archive]
+
+==See also==
+*[[Wikipedia:Awareness statistics|Monthly statistics of wikipedia mentioning at usenet]]
+
+[[Category:Wikipedia culture|Wikipedia cited on usenet]]
+[[Category:Wikipedia as a media source|Wikipedia cited on usenet]]
+[[Category:WMF-COM]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Las Vegas algorithm"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Las Vegas algorithm" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;In [[computing]], a &amp;apos;&amp;apos;&amp;apos;Las Vegas algorithm&amp;apos;&amp;apos;&amp;apos; is a [[randomized algorithm]] that always gives [[correctness (computer science)|correct]] results; that is, it always produces the correct result or it informs about the failure.  In other words, a Las Vegas algorithm does not gamble with the correctness of the result; it gambles only with the resources used for the computation. A simple example is randomized [[quicksort]], where the pivot is chosen randomly, but the result is always sorted. The usual definition of a Las Vegas algorithm includes the restriction that the &amp;apos;&amp;apos;expected&amp;apos;&amp;apos; run time always be finite, when the expectation is carried out over the space of random information, or entropy, used in the algorithm.
+
+Las Vegas algorithms were introduced by [[László Babai]] in 1979, in the context of the [[graph isomorphism problem]], as a stronger version of [[Monte Carlo algorithm]]s.&amp;lt;ref&amp;gt;[[László Babai]], [http://people.cs.uchicago.edu/~laci/lasvegas79.pdf  Monte-Carlo algorithms in graph isomorphism testing], Université de Montréal, D.M.S. No. 79-10.&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;[[Leonid Levin]], [http://arxiv.org/abs/cs.CR/0012023 The Tale of One-way Functions], &amp;apos;&amp;apos;Problems of Information Transmission&amp;apos;&amp;apos;, vol. 39 (2003), 92-103.&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;Dan Grundy, [http://www.cs.kent.ac.uk/people/staff/eab2/crypto/thesis.web.pdf Concepts and Calculation in Cryptography], University of Kent, Ph.D. thesis, 2008&amp;lt;/ref&amp;gt; Las Vegas algorithms can be used in situations where the number of possible solutions is relatively limited, and where verifying the correctness of a candidate solution is relatively easy while actually calculating the solution is complex.
+
+The name refers to the city of [[Las Vegas, Nevada]], which is well known within the United States as an icon of gambling.
+
+== Complexity class ==
+
+The [[complexity class]] of [[decision problem]]s that have Las Vegas algorithms with [[expected value|expected]] polynomial runtime is &amp;apos;&amp;apos;&amp;apos;[[Zero-error_Probabilistic_Polynomial_time | ZPP]]&amp;apos;&amp;apos;&amp;apos;.
+
+It turns out that
+
+:&amp;lt;math&amp;gt;\textrm{ZPP} = \textrm{RP} \cap \,\text{co}\,\textrm{-RP}, \,\!&amp;lt;/math&amp;gt;
+
+which is intimately connected with the way Las Vegas algorithms are sometimes constructed.  Namely the class &amp;apos;&amp;apos;&amp;apos;[[RP (complexity)|RP]]&amp;apos;&amp;apos;&amp;apos; consists of all decision problems for which a randomized polynomial-time algorithm exists that always answers correctly when the correct answer is &amp;quot;no&amp;quot;, but is allowed to be wrong with a certain probability bounded away from one when the answer is &amp;quot;yes&amp;quot;. When such an algorithm exists for both a problem and its complement (with the answers &amp;quot;yes&amp;quot; and &amp;quot;no&amp;quot; swapped), the two algorithms can be run simultaneously and repeatedly: run each for a constant number of steps, taking turns, until one of them returns a definitive answer. This is the standard way to construct a Las Vegas algorithm that runs in expected polynomial time. Note that in general there is no worst case upper bound on the run time of a Las Vegas algorithm.
+
+== Relation to Monte Carlo algorithms ==
+
+Las Vegas algorithms can be contrasted with Monte Carlo algorithms, in which the resources used are bounded but the answer is not guaranteed to be correct 100% of the time. By an application of [[Markov&amp;apos;s inequality]], a Las Vegas algorithm can be converted into a Monte Carlo algorithm via early termination.
+
+== See also ==
+* [[Randomness]]
+* [[Monte Carlo algorithm]]
+
+==Notes ==
+{{reflist}}
+
+==References==
+* &amp;apos;&amp;apos;Algorithms and Theory of Computation Handbook&amp;apos;&amp;apos;, CRC Press LLC, 1999, &amp;quot;Las Vegas algorithm&amp;quot;, in &amp;apos;&amp;apos;Dictionary of Algorithms and Data Structures&amp;apos;&amp;apos; [online], Paul E. Black, ed., U.S. [[National Institute of Standards and Technology]]. 17 July 2006. (accessed May 09, 2009) Available from: [http://www.nist.gov/dads/HTML/lasVegas.html]
+
+[[Category:Randomized algorithms]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

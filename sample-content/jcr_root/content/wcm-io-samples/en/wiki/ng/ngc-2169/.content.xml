@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="NGC 2169"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="NGC 2169" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{ Cluster |
+| image = [[Image:NGC 2169.jpg|300px]]
+| name = NGC 2169
+| type =
+| epoch = [[J2000]]
+| ra = {{RA|06|8.4}}
+| dec = {{DEC|+13|57}}
+| dist_ly = 3.6 [[Light-year#Distances in light-years|kly]]
+| appmag_v = 5.9
+| size_v = 7&amp;amp;prime;
+| constellation = [[Orion (constellation)|Orion]]
+| radius_ly =
+| absmag_v =
+| notes =
+| names = }}
+
+&amp;apos;&amp;apos;&amp;apos;NGC 2169&amp;apos;&amp;apos;&amp;apos;, is an [[open cluster]] in the [[Orion constellation]]. It was discovered by [[Giovanni Batista Hodierna]] before 1654 and discovered by [[William Herschel]] on October 15, 1784. &amp;lt;ref&amp;gt;{{cite book|last=O&amp;apos;Meara|first=Stephen James|title=Deep Sky Companions: Hidden Treasures|year=2007|publisher=Cambridge University Press|isbn=9780521837040|pages=180}}&amp;lt;/ref&amp;gt; NGC 2169 is at a distance of about 3,600 [[light year]]s away from [[Earth]].  It is nicknamed &amp;quot;The &amp;apos;37&amp;apos; Cluster&amp;quot; due to its striking resemblance to the numerals &amp;quot;37.&amp;quot;
+
+== External links ==
+*[http://www.seds.org/messier/xtra/ngc/n2169.html SEDS entry]
+*[http://antwrp.gsfc.nasa.gov/apod/ap051118.html Astronomy Picture of the Day]
+*{{WikiSky}}
+
+==References==
+{{Reflist}}
+
+{{Ngc25}}
+
+{{star-cluster-stub}}
+{{Sky|06|8.4|00|+|13|57|00|3600}}
+[[Category:NGC objects|2169]]
+[[Category:Open clusters]]
+[[Category:Orion (constellation)]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

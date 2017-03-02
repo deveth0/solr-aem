@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Cloud albedo"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Cloud albedo" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Cloud albedo&amp;apos;&amp;apos;&amp;apos; is a measure of the [[albedo]] of a [[cloud]] - higher values mean that the cloud reflects more [[solar radiation]], or less radiation is [[Transmittance|transmitted]].
+
+Cloud albedo varies from less than 10% to more than 90% and depends on drop sizes, liquid [[water]] or ice content, thickness of the cloud, and the [[sun]]&amp;apos;s [[zenith angle]]. The smaller the drops and the greater the liquid water content, the greater the cloud albedo, if all other factors are the same.
+
+Low, thick clouds (such as [[stratocumulus]]) primarily reflect incoming solar radiation, causing it to have a high albedo, whereas high, thin clouds (such as [[Cirrus cloud|Cirrus]]) tend to transmit it to the surface but then trap outgoing [[infrared]] radiation, causing it to have low albedo. It contributes to the [[greenhouse effect]].&amp;lt;ref&amp;gt;{{cite web | title = EO Library: Clouds &amp;amp; Radiation Fact Sheet | url = http://earthobservatory.nasa.gov/Library/Clouds/ | publisher= [[NASA]] | accessdate=2008-10-15}}&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;http://www.cgd.ucar.edu/cms/cchen/Latham_et_al_2008.pdf&amp;lt;/ref&amp;gt;
+
+{{main|Albedo}}
+
+==References==
+{{reflist}}
+
+[[Category:Atmospheric radiation]]
+[[Category:Clouds]]
+[[Category:Satellite meteorology and remote sensing]]
+
+
+{{climate-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

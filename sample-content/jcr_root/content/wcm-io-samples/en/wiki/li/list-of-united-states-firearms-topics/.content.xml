@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="List of United States firearms topics"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="List of United States firearms topics" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Cleanup|date=July 2008}}
+==Legal Topics==
+{| border=&amp;quot;0&amp;quot; cellpadding=&amp;quot;2&amp;quot;
+|{{USgunlegalbox}}
+|}
+==Primary Organizations==
+{{USgunorgs}}
+
+==Prominent individuals==
+===Advocates of firearms ownership===
+*[[Gary Kleck]]
+*[[Charlton Heston]]
+*[[Wayne LaPierre]]
+*[[John Lott]]
+*[[Ted Nugent]]
+*[[Tom Selleck]]
+*[[Jerry Falwell]]
+*[[Sarah Palin]]
+*[[Mitt Romney]]
+*[[Kurt Russell]]
+*[[Chuck Yeager]]
+*[[Clint Eastwood]]
+*[[Angelina Jolie]]
+*[[Brad Pitt]]
+*[[James Earl Jones]]
+*[[Miranda Lambert]]
+*[[Bruce Willis]]
+*[[Chuck Norris]]
+*[[Gary Sinise]]
+*[[Johnny Depp]]
+*[[Dalai Lama]]
+*[[Charlie Daniels]]
+*[[Steven Seagal]]
+*[[Ice-T]]
+*[[Hank Williams Jr.]]
+*[[Joe Mantegna]]
+*[[Chuck Woolery]]
+
+===Advocates of firearms control===
+*[[Michael D. Barnes]]
+*[[Michael A. Bellesiles]]
+*[[James Brady]]
+*[[Sarah Brady]]
+*[[Tom Diaz]]
+*[[Arthur Kellermann]]
+*[[Michael Moore]]
+*[[Josh Sugarmann]]
+
+
+[[Category:Society-related lists|Firearms, United States]]
+
+{{firearms-stub}}
+{{US-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

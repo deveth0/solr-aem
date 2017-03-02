@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Template:History of Germany"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Template:History of Germany" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Country history
+|width = 19em&amp;lt;!--Any less and &amp;quot;part of a series on&amp;quot; or some links when bold wrap--&amp;gt;
+|country = Germany
+|image = [[File:Coat of Arms of Germany.svg|90px|Coat of arms of the Federal Republic of Germany since 1950]]
+
+|content1 =
+ {{Sidebar with collapsible lists/row
+  |title = Early history
+  |titlestyle = background:#EEEEEE;text-align:left;padding-left:0.4em;
+  |listclass = plainlist
+  |expand =
+  |1 =
+*[[Germanic peoples]]
+*[[Migration Period]]
+*[[Francia|Frankish Empire]]
+ }}
+
+|content2 =
+ {{Sidebar with collapsible lists/row
+  |title = Medieval Germany
+  |titlestyle = background:#EEEEEE;text-align:left;padding-left:0.4em;
+  |listclass = plainlist
+  |expand =
+  |1 =
+*[[East Francia]]
+*[[Kingdom of Germany]]
+*[[Holy Roman Empire]]
+*[[Ostsiedlung|Eastward settlement]]
+ }}
+
+|content3 =
+ {{Sidebar with collapsible lists/row
+  |title = [[Early Modern history of Germany|Early Modern period]]
+  |titlestyle = background:#EEEEEE;text-align:left;padding-left:0.4em;
+  |listclass = plainlist
+  |expand =
+  |1 =
+*[[Kleinstaaterei|Sectionalism]]
+*[[18th century history of Germany|18th century]]
+*[[Kingdom of Prussia]]
+ }}
+
+|content4 =
+ {{Sidebar with collapsible lists/row
+  |title = [[Unification of Germany|Unification]]
+  |titlestyle = background:#EEEEEE;text-align:left;padding-left:0.4em;
+  |listclass = plainlist
+  |expand =
+  |1 =
+*[[Confederation of the Rhine]]
+*[[German Confederation]] / [[Zollverein]]
+*[[Revolutions of 1848 in the German states|German Revolutions of 1848]]
+*[[North German Confederation]]
+ }}
+
+|content5 =
+ {{Sidebar with collapsible lists/row
+  |title = [[German Reich]]
+  |titlestyle = background:#EEEEEE;text-align:left;padding-left:0.4em;
+  |listclass = hlist
+  |expand =
+  |1 =
+*[[German Empire]]
+
+*[[History of Germany during World War I|World War I]]
+
+*[[Weimar Republic]]
+** {{small|[[Alsace-Lorraine]]}}
+** {{small|[[Saar (League of Nations)|Saar]]}}
+** {{small|[[Free City of Danzig|Danzig]]}}
+** {{small|[[Klaipėda Region|Memel]]}}
+** {{small|[[German Austria|Austria]]}}
+** {{small|[[Sudetenland|Sudeten]]}}
+
+*[[Nazi Germany]]
+** {{small|[[Flensburg Government]]}}
+ }}
+
+|content6 =
+ {{Sidebar with collapsible lists/row
+  |title = [[History of Germany (1945–1990)|Cold War era]]
+  |titlestyle = background:#EEEEEE;text-align:left;padding-left:0.4em;
+  |listclass = plainlist
+  |expand =
+  |1 =
+*[[Allied-occupied Germany|Occupation]] / [[Former eastern territories of Germany|Ostgebiete]]
+*[[Expulsion of Germans after World War II|Expulsion of Germans]]
+*[[West Germany]]
+*[[East Germany]]
+*[[Saar (protectorate)|Saar protectorate]]
+*[[German reunification]]
+ }}
+
+|content7 =
+ {{Sidebar with collapsible lists/row
+  |title = Contemporary
+  |titlestyle = background:#EEEEEE;text-align:left;padding-left:0.4em;
+  |listclass = plainlist
+  |expand =
+  |1 =
+*[[New states of Germany|New federal states]]
+*[[History of Germany since 1990|Reunified Germany]]
+ }}
+
+|content8 =
+ {{Sidebar with collapsible lists/row
+  |title = Topics
+  |titlestyle = background:#EEEEEE;text-align:left;padding-left:0.4em;
+  |listclass = plainlist
+  |expand =
+  |1 =
+*[[Economic history of Germany]]
+*[[Military history of Germany]]
+*[[Territorial changes of Germany]]
+*[[Timeline of German history]]
+*[[History of Berlin]]
+*[[Names of Germany]]
+ }}
+
+}}&amp;lt;noinclude&amp;gt;
+{{documentation}}
+&amp;lt;!-- Add categories and interwikis to the /doc subpage, not here! --&amp;gt;
+&amp;lt;/noinclude&amp;gt;&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

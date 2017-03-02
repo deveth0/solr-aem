@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Coron"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Coron" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Coron&amp;apos;&amp;apos;&amp;apos; can refer to the following things:
+
+* [[Coron, Palawan]], a municipality in Palawan in the Philippines
+* [[Coron Island]], under the jurisdiction of the municipality, Philippines
+* [[Coron, Maine-et-Loire]], a commune in the Maine-et-Loire &amp;apos;&amp;apos;département&amp;apos;&amp;apos; in France
+* Coron, the Venetian name of the coastal town of [[Koroni]] on the Ionian Sea, in present-day Greece.
+** [[Siege of Coron]]
+* Coron, brand name for a line of electric guitar effects pedals
+* [[Llywelyn&amp;apos;s coronet|Coron Arthur]]
+* [[Jean-Michel Coron]] (born 1956), a French mathematician
+
+{{disambig|surname|given name}}
+[[Category:French toponyms]]
+[[Category:French-language surnames]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

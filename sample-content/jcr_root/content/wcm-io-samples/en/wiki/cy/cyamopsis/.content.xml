@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Cyamopsis"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Cyamopsis" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{italic title}}
+{{Taxobox
+| image = Cluster bean-guar-Cyamopsis psoralioides-Cyamopsis tetragonolobus-TAMIL NADU73.jpg
+| image_width = 250px
+| image_caption = &amp;apos;&amp;apos;Cyamopsis&amp;apos;&amp;apos; spp.
+| name = &amp;apos;&amp;apos;Cyamopsis&amp;apos;&amp;apos;
+| regnum = [[Plantae]]
+| unranked_divisio = [[Angiosperms]]
+| unranked_classis = [[Eudicots]]
+| unranked_ordo = [[Rosids]]
+| ordo = [[Fabales]]
+| familia = [[Fabaceae]]
+| subfamilia = [[Faboideae]]
+| tribus = [[Indigofereae]]
+| genus = &amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Cyamopsis&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;
+| genus_authority = DC.
+| subdivision_ranks = Species
+| subdivision =
+&amp;apos;&amp;apos;Cyamopsis dentata&amp;apos;&amp;apos;&amp;lt;br/&amp;gt;
+&amp;apos;&amp;apos;Cyamopsis psoraloides&amp;apos;&amp;apos;&amp;lt;br/&amp;gt;
+&amp;apos;&amp;apos;Cyamopsis senegalensis&amp;apos;&amp;apos;&amp;lt;br/&amp;gt;
+&amp;apos;&amp;apos;Cyamopsis serrata&amp;apos;&amp;apos;&amp;lt;br/&amp;gt;
+&amp;apos;&amp;apos;[[Guar|Cyamopsis tetragonoloba]]&amp;apos;&amp;apos;- Guar
+
+Ref: [http://www.ildis.org/ ILDIS Version 6.05]
+}}
+
+&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos;Cyamopsis&amp;apos;&amp;apos;&amp;apos;&amp;apos;&amp;apos; is a genus of the family [[Fabaceae]]. Its species are distributed across [[Africa]], [[Asia]] and the [[Pacific Ocean|Pacific]].
+
+{{wikispecies}}
+{{commons category}}
+
+[[Category:Faboideae]]
+
+{{Faboideae-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

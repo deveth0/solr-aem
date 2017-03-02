@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Louis Napoleon (disambiguation)"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Louis Napoleon (disambiguation)" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;&amp;apos;&amp;apos;&amp;apos;Louis Napoleon&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+* [[Louis Bonaparte]] or Louis Napoléon Bonaparte, (1778–1846), King Louis I of Holland, brother of Napoleon I
+* [[Napoléon Louis Bonaparte]] (1804–1831), King Louis II of Holland, second son of Louis Bonaparte (1778–1846)
+* [[Napoléon III]] (1808–1873), usually called Louis Napoléon, President and later Emperor of the French, third son of Louis Bonaparte
+* [[Napoléon Eugène, Prince Imperial]] or Napoléon IV, Prince Imperial, often referred to as Louis Napoléon (1856–1879), only child of Napoleon III
+* [[Prince Louis Napoléon]] or Napoléon VI, Prince Imperial, (1914–1997), pretender to the French throne
+
+{{hndis}}
+
+[[de:Louis Napoléon]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

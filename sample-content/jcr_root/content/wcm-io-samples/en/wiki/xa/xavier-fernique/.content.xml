@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Xavier Fernique"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Xavier Fernique" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;[[File:Xavier Fernique.jpg|thumb|220px|Xavier Fernique]]
+&amp;apos;&amp;apos;&amp;apos;Xavier Fernique&amp;apos;&amp;apos;&amp;apos; is a [[mathematician]], noted mostly for his contributions to the theory of [[stochastic processes]].  [[Fernique&amp;apos;s theorem]], a result on the [[Integrable system|integrability]] of [[Gaussian measure]]s, is named after him.
+
+==External links==
+* {{mathgenealogy|name=Xavier Fernique|id=74344}}
+* [http://owpdb.mfo.de/person_detail?id=1097 Photograph], courtesy of the [[Mathematical Research Institute of Oberwolfach]]
+
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              =Fernique, Xavier
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION =
+| DATE OF BIRTH     =
+| PLACE OF BIRTH    =
+| DATE OF DEATH     =
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Fernique, Xavier}}
+[[Category:Year of birth missing (living people)]]
+[[Category:Living people]]
+[[Category:20th-century mathematicians]]
+[[Category:French statisticians]]
+
+
+{{Statistician-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

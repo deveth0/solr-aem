@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Guillaume Morel"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Guillaume Morel" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{One source|date=February 2012}}
+{{No footnotes|date=February 2012}}
+&amp;apos;&amp;apos;&amp;apos;Guillaume Morel&amp;apos;&amp;apos;&amp;apos; (1505 &amp;amp;ndash; 19 February 1564), [[France|French]] [[classical scholar]], was born at [[Le Teilleul]] in [[Normandy]].
+
+After acting as proof-reader in a [[Paris]] firm, he set up for himself, and subsequently succeeded [[Adrianus Turnebus|Turnebus]] as king&amp;apos;s [[printer (publisher)|printer]] in 1555. His most important work was &amp;apos;&amp;apos;Thesaurus vocum omnium latinarum&amp;apos;&amp;apos;, containing a number of quotations from Latin authors, taken from hitherto unpublished manuscripts in the Paris library. He died in Paris.
+
+==References==
+*{{1911}}
+
+{{Authority control|VIAF=51859339}}
+{{Persondata &amp;lt;!-- Metadata: see [[Wikipedia:Persondata]]. --&amp;gt;
+| NAME              = Morel, Guillaume
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION =
+| DATE OF BIRTH     = 1505
+| PLACE OF BIRTH    =
+| DATE OF DEATH     = 19 February 1564
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Morel, Guillaume}}
+[[Category:1505 births]]
+[[Category:1564 deaths]]
+[[Category:People from Manche]]
+[[Category:French classical scholars]]
+[[Category:French printers]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

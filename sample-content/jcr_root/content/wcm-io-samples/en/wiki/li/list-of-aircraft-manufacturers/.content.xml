@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="List of aircraft manufacturers"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="List of aircraft manufacturers" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;This is a &amp;apos;&amp;apos;&amp;apos;list of [[aircraft manufacturer]]s&amp;apos;&amp;apos;&amp;apos; sorted alphabetically by [[International Civil Aviation Organization]] (ICAO)/common name. It contains the ICAO/common name, manufacturers name(s), country and other data, with the known years of operation in parentheses. The ICAO names are listed in &amp;apos;&amp;apos;&amp;apos;bold&amp;apos;&amp;apos;&amp;apos;. Having an ICAO name does not mean that a manufacturer is still in operation today, just that some of the aircraft produced by that manufacturer are still flying.
+
+:[[List of aircraft manufacturers A|A]] [[List of aircraft manufacturers B-C|B-C]] [[List of aircraft manufacturers D-G|D-G]] [[List of aircraft manufacturers H-L|H-L]] [[List of aircraft manufacturers M-P|M-P]] [[List of aircraft manufacturers Q-S|Q-S]] [[List of aircraft manufacturers T-Z|T-Z]]
+
+==See also==
+* [[List of aircraft]]
+* [[List of aircraft by date and usage category]]
+* [[List of aircraft manufacturers by ICAO name]]
+* [[List of civil aircraft]]
+* [[List of helicopter manufacturers]]
+* [[List of World War II jet aircraft]]
+* [[Lists of military aircraft by nation]]
+
+{{Aviation lists}}
+{{Companies by industry}}
+
+{{Set index article}}
+
+[[Category:Aircraft manufacturers|* Aircraft manufacturers, list of]]
+[[Category:Lists of aircraft manufacturers|*]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

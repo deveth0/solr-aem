@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Opel Movano"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Opel Movano" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Infobox automobile
+|image        =Opel Movano B front 20100705.jpg
+|name         =Opel Movano
+|manufacturer =[[Opel]]
+|related      =[[Renault Master]]
+|aka          = Vauxhall Movano (United Kingdom)
+|production   =1997&amp;amp;ndash;present
+|class        = [[Light commercial vehicle]] - [[van]]
+|predecessor =
+}}
+The &amp;apos;&amp;apos;&amp;apos;Opel Movano&amp;apos;&amp;apos;&amp;apos;, also known as the &amp;apos;&amp;apos;&amp;apos;Vauxhall Movano&amp;apos;&amp;apos;&amp;apos; in the [[United Kingdom]], is an upper-medium size [[Van|van]] produced by the [[Germany|German]] manufacturer [[Opel]] since 1997, now in its Second generation. It is a [[badge engineering|badge-engineered]] the second and third generation [[Renault Master]] since the First generation model was too old (presented in 1980). The Second generation Movano was launched in 2010, has been available with single/twin rear wheel drive.
+
+==External links==
+*[http://www.opel.ie/vehicles/opel_range/vans/movano-ng/index.html Opel Movano official site]
+
+== References ==
+{{Commons category}}
+{{Reflist}}
+
+{{Opel}}
+{{Opel timeline}}
+{{Vauxhall Motors}}
+
+[[Category:Opel vehicles|Movano]]
+[[Category:Vehicles introduced in 1997]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

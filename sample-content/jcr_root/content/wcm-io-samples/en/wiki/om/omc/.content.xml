@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="OMC"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="OMC" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{wiktionary}}
+&amp;apos;&amp;apos;&amp;apos;OMC&amp;apos;&amp;apos;&amp;apos; may refer to:
+
+==Organizations==
+
+* Olifant Manufacturing Company of South Africa, now known as [[Land Systems OMC]]
+* Organisation mondiale du commerce (French for [[World Trade Organization]])
+* Organización Mundial del Comercio (Spanish for [[World Trade Organization]])
+* Organização Mundial de Comércio (Portuguese for [[World Trade Organization]])
+* [[Outboard Marine Corporation]]
+* [[Omnicom Group]] Inc. (stock symbol)
+* OMC is a leading manufacturing company for window covering products ([http://www.omcblinds.com www.omcblinds.com])
+
+==Places==
+* [[Ormoc Airport]] in Ormoc City, Leyte, the Philippines
+
+==Musical groups==
+* [[OMC (band)]], a New Zealand music group formerly known as Otara Millionaires Club
+* [[Old Man&amp;apos;s Child]], a Norwegian Black metal band
+
+==Other==
+* [[octyl methoxycinnamate]], the active ingredient in sunscreens
+* [[Open Method of Coordination]], a means of governance in the European Union
+* [[Operations and Maintenance Centre]]
+* [[Ontario Medal for Good Citizenship]]
+
+{{disambiguation}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

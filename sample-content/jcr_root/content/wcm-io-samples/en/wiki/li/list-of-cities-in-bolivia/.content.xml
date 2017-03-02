@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="List of cities in Bolivia"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="List of cities in Bolivia" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;This is a list of the thirty largest &amp;lt;ref&amp;gt;http://www.world-gazetteer.com/wg.php?x=&amp;amp;men=gcis&amp;amp;lng=en&amp;amp;des=wg&amp;amp;srt=npan&amp;amp;col=abcdefghinoq&amp;amp;msz=1500&amp;amp;geo=-38&amp;lt;/ref&amp;gt; [[town]]s and [[city|cities]] in [[Bolivia]]:
+[[File:Bolivia-CIA WFB Map.png|thumb|right|250px|Map of Bolivia]]
+
+[[File:Central La Paz Bolivia.jpg|thumb|right|250px|[[La Paz]], Capital of [[Bolivia]]]]
+
+[[File:Sucre Panorama.jpg|thumb|right|250px|[[Sucre, Bolivia|Sucre]]]]
+{| class=&amp;quot;wikitable sortable&amp;quot; border=&amp;quot;1&amp;quot; style=&amp;quot;text-align:center&amp;quot;
+|-
+! no.
+! city/town
+! 1992 census
+! 2001 census
+! 2008 estimate
+! annual growth (%)
+|-
+| 1
+| [[Santa Cruz de la Sierra|Santa Cruz]]
+| 697 278
+| 1 113 582
+| 1 545 161
+| 4.79
+|-
+| 2
+| [[El Alto]]
+| 424 528
+| 647 350
+| 907 887
+| 4.95
+|-
+| 3
+| [[La Paz]]
+| 713 378
+| 789 585
+| 877 363
+| 1.52
+|-
+| 4
+| [[Cochabamba]]
+| 516 683
+| 516 683
+| 608 276
+| 2.36
+|-
+| 5
+| [[Sucre]]
+| 131 769
+| 193 876
+| 281 240
+| 5.46
+|-
+| 6
+| [[Oruro, Bolivia|Oruro]]
+| 183 422
+| 201 230
+| 228 624
+| 1.84
+|-
+| 7
+| [[Tarija, Bolivia|Tarija]]
+| 90 113
+| 135 783
+| 194 768
+| 5.29
+|-
+| 8
+| [[Potosí]]
+| 112 291
+| 132 966
+| 160 648
+| 2.74
+|-
+| 9
+| [[Sacaba]]
+| 92 581
+| 92 581
+| 104 285
+| 1.72
+|-
+| 10
+| [[Montero]]
+| 57 027
+| 78 294
+| 98 078
+| 3.27
+|-
+| 11
+| [[Trinidad, Bolivia|Trinidad]]
+| 57 328
+| 75 987
+| 92 050
+| 2.78
+|-
+| 12
+| [[Riberalta]]
+| 43 454
+| 64 511
+| 84 888
+| 4.00
+|-
+| 13
+| [[Yacuiba]]
+|
+| 64 611
+| 84 779
+| 1.52
+|-
+| 14
+| [[Quillacollo]]
+| 74 980
+| 74 980
+| 84 548
+| 1.73
+|-
+| 15
+| [[Colcapirhua]]
+| 41 637
+| 41 637
+| 47 041
+| 1.76
+|-
+| 16
+| [[Cobija]]
+| 10 001
+| 20 820
+| 40 125
+| 9.83
+|-
+| 17
+| [[Guayaramerín]]
+| 27 706
+| 33 095
+| 37 121
+| 1.65
+|-
+| 18
+| [[Viacha]]
+|
+| 29 108
+| 35 102
+|
+|-
+| 19
+| [[Villazón]]
+| 23 670
+| 28 045
+| 33 943
+| 2.76
+|-
+| 20
+| [[Camiri]]
+| 27 971
+| 26 505
+| 32 670
+| 3.03
+|-
+| 21
+| [[Bermejo]]
+| 21 394
+| 26 059
+| 32 140
+| 3.04
+|-
+| 22
+| [[Tiquipaya]]
+| 26 732
+| 26 732
+| 30 227
+| 1.77
+|-
+| 23
+| [[El Carmen]]
+| 4 761
+| 13 094
+| 26 548
+| 10.62
+|-
+| 24
+| [[San Ignacio de Velasco|San Ignacio]]
+| 12 565
+| 19 401
+| 26 535
+| 4.57
+|-
+| 25
+| [[Warnes (Santa Cruz)|Warnes]]
+| 10 866
+| 17 872
+| 25 619
+| 5.28
+|-
+| 26
+| [[Tupiza]]
+| 20 137
+| 21 707
+| 24 491
+| 1.74
+|-
+| 27
+| [[San Borja, Bolivia|San Borja]]
+| 11 072
+| 16 891
+| 22 736
+| 4.34
+|-
+| 28
+| [[Villamontes]]
+| 11 086
+| 16 113
+| 22 675
+| 5.00
+|-
+| 29
+| [[Cotoca]]
+| 9 229
+| 15 181
+| 21 764
+| 5.28
+|-
+| 30
+| [[Yapacaní]]
+| 8 585
+| 14 589
+| 21 428
+| 5.65
+|}
+
+&amp;apos;&amp;apos;See also: [[List of cities]]&amp;apos;&amp;apos;
+
+== References ==
+{{Reflist}}
+
+== External links ==
+* [http://www.world-gazetteer.com/s/p_bo.htm Map]
+
+{{South America in topic|List of cities in}}
+
+[[Category:Lists of cities by country|Bolivia, List of cities in]]
+[[Category:Populated places in Bolivia| ]]
+[[Category:Lists of cities in the Americas|Bolivia]]
+[[Category:Bolivia geography-related lists|Cities]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

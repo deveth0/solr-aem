@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Verbal contract"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Verbal contract" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{Refimprove|date=December 2009}}
+A &amp;apos;&amp;apos;&amp;apos;verbal contract&amp;apos;&amp;apos;&amp;apos; is any [[contract]] which is expressed in words (written or spoken).
+
+This contrasts with a contract which is implied by actions of the [[party (law)|parties]]. An implied contract can be either [[implied in fact contract|implied in fact]] or [[implied in law contract|implied in law]]. A contract which is implied in fact is one in which the circumstances imply that parties have reached an agreement even though they have not done so expressly.  For example, by going to a doctor for a physical, a patient agrees that he will pay a fair price for the service. If he refuses to pay after being examined, he has breached a contract implied in fact.
+&amp;apos;&amp;apos;Verbal contract&amp;apos;&amp;apos; is a frequently [[misused expression]].  It is often used by [[journalist]]s when they mean to say [[oral contract]].  When used in this sense, the term is confusing as well as incorrect, since a written contract is also a [[Words|verbal]] one.&amp;lt;ref&amp;gt;[http://www.expertlaw.com/library/business/contract_law.html Contract Law - An Introduction], Expert Law&amp;lt;/ref&amp;gt;
+
+==References==
+{{Reflist}}
+
+{{DEFAULTSORT:Verbal Contract}}
+[[Category:Contract law]]
+
+
+{{Law-term-stub}}&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>

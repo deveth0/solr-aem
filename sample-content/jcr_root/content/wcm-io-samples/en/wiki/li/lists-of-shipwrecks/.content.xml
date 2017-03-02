@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="cq:Page">
+  <jcr:content
+    cq:template="/apps/wcm-io-samples/sample-app/templates/content/content"
+    jcr:primaryType="cq:PageContent"
+    jcr:title="Lists of shipwrecks"
+    sling:resourceType="/apps/wcm-io-samples/sample-app/components/content/page/content">
+    <content
+      jcr:primaryType="nt:unstructured"
+      sling:resourceType="wcm-io/wcm/parsys/components/parsys">
+      <contentheadline
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentHeadline"
+        headline="Lists of shipwrecks" />
+      <contentrichtext
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm-io-samples/sample-app/components/content/common/contentRichText"
+        text="&lt;p&gt;{{See also|List of maritime disasters|List of missing ships}}
+
+This is a list of lists of [[shipwreck]]s (i.e. sunken or grounded ships whose remains have been located), sorted by region.
+
+*[[List of shipwrecks of Africa]]
+*[[List of shipwrecks of Asia]]
+*[[List of shipwrecks of Europe]]
+**[[List of shipwrecks of France]]
+**[[List of shipwrecks of the United Kingdom]]
+***[[List of shipwrecks of England]]
+*[[List of shipwrecks of North America]]
+**[[List of shipwrecks of Canada]]
+**[[List of shipwrecks of the United States]]
+***[[List of shipwrecks of California]]
+***[[List of shipwrecks of Florida]]
+***[[List of shipwrecks in the Great Lakes]]
+***[[List of shipwrecks of Massachusetts]]
+***[[List of shipwrecks of North Carolina]]
+*[[List of shipwrecks of South America]]
+*[[List of shipwrecks of Oceania]]
+**[[List of shipwrecks of Australia]]
+*[[List of shipwrecks in international waters]]
+**[[List of shipwrecks in the Atlantic Ocean]]
+**[[List of shipwrecks in the Pacific Ocean]]
+**[[List of shipwrecks in the Indian Ocean]]
+
+==See also==
+*[[:Category: Lists of shipwrecks by year]]
+
+{{Disasters}}
+{{shipevents|2012}}
+
+{{Use dmy dates|date=April 2012}}
+
+{{DEFAULTSORT:List Of Shipwrecks}}
+[[Category:Lists of shipwrecks|*]]
+[[Category:Lists of ships|Shipwrecks]]
+[[Category:Lists of transport accidents and incidents]]
+[[Category:Lists of lists]]
+
+[[de:Liste der Katastrophen der Seefahrt]]&lt;/p&gt;" />
+    </content>
+  </jcr:content>
+</jcr:root>
