@@ -1,7 +1,7 @@
 AEM Solr Sample
 ===========================================
 
-This project provides an out of the box example how to use an external Solr instance in AEM. For a detailed introduction, have a look at my [blog](https://www.dev-eth0.de/blog/2017/02/27/solr-aem.html) where I show the required steps to adapt this application to your needs.
+This project provides an out of the box example how to use an external Solr instance in AEM. For a detailed introduction, have a look at my [blog](https://www.dev-eth0.de/2017/02/27/solr-aem/) where I show the required steps to adapt this application to your needs.
 
 # Implemented Features
 
@@ -45,7 +45,7 @@ This will create a local box running Debian and Solr 6.4. The vm listens on the 
 
 As soon as Solr is running, you can start the `clean_install_deploy_package.sh` which will install a sample-application in AEM and configure AEM to use Solr as Indexer.
 
-The examples use the [wcm.io Sample Application](http://wcm.io/samples/) enriched with Wikipedia Content created using [wiki2aem](https://www.dev-eth0.de/blog/2017/02/18/wiki2aem.html).
+The examples use the [wcm.io Sample Application](http://wcm.io/samples/) enriched with Wikipedia Content created using [wiki2aem](https://www.dev-eth0.de/2017/02/18/wiki2aem/).
 
 To install the application, basic configuration and sample-content execute the deploy script `clean_install_deploy_package.sh`.
 
